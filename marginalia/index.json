@@ -1,0 +1,74 @@
+{
+ "updated": "2026-10-18T19:40:30+00:00",
+ "days": [
+  {
+   "date": "2026-10-18",
+   "items": [
+    {
+     "i": 0,
+     "lang": "de",
+     "title": "Mehr Wachstum als erwartet – aber die Preise bleiben hoch",
+     "kind": "news",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "pt",
+     "title": "O gato e a chuva",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "en",
+     "title": "The forever chemicals in your raincoat",
+     "kind": "essay",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "en",
+     "title": "The Vanishing Front Desk",
+     "kind": "essay",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "Fewer refugees, not fewer problems",
+     "kind": "short",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "pt",
+     "title": "O sol e o vizinho",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "pt",
+     "title": "Na padaria",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "de",
+     "title": "Ein Land wird kleiner – und streitet über die Gründe",
+     "kind": "feature",
+     "level": "C1",
+     "hour": "21:00"
+    }
+   ]
+  }
+ ]
+}

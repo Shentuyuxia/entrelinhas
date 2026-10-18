@@ -1,0 +1,578 @@
+{
+ "date": "2026-10-18",
+ "items": [
+  {
+   "dek": "Die Bundesregierung hebt ihre Konjunkturprognose für 2026 deutlich an. Verbraucher spüren davon vorerst wenig.",
+   "glossary": [
+    {
+     "w": "die Herbstprojektion",
+     "zh": "（政府）秋季经济预测"
+    },
+    {
+     "w": "das Bruttoinlandsprodukt (BIP)",
+     "zh": "国内生产总值"
+    },
+    {
+     "w": "nach oben korrigieren",
+     "zh": "上调"
+    },
+    {
+     "w": "der Treiber",
+     "zh": "驱动因素"
+    },
+    {
+     "w": "widerstandsfähig",
+     "zh": "有韧性的"
+    },
+    {
+     "w": "verhalten",
+     "zh": "（此处作形容词）克制的、保守的"
+    },
+    {
+     "w": "dämpfen",
+     "zh": "抑制、减弱"
+    },
+    {
+     "w": "die Zapfsäule",
+     "zh": "加油机"
+    },
+    {
+     "w": "die Entlastung",
+     "zh": "减负、减轻负担"
+    },
+    {
+     "w": "auf Kante genäht",
+     "zh": "勉强维持、没有余量（口语）"
+    }
+   ],
+   "kind": "news",
+   "lang": "de",
+   "level": "C1",
+   "paragraphs": [
+    "Die deutsche Wirtschaft schlägt sich besser als gedacht. Bundeswirtschaftsministerin Katherina Reiche hat Anfang Oktober in Berlin die Herbstprojektion der Bundesregierung vorgestellt. Demnach soll das Bruttoinlandsprodukt in diesem Jahr um 1,3 Prozent wachsen. Im Frühjahr war man noch von einem halben Prozent ausgegangen – die Prognose wurde also um 0,8 Prozentpunkte nach oben korrigiert.",
+    "Als Treiber nennt die Regierung vor allem zwei Faktoren: kräftige Exporte und hohe staatliche Investitionen in Verteidigung und Infrastruktur. Gerade im ersten Halbjahr habe sich die Wirtschaft trotz des Konflikts im Nahen Osten und gestiegener Energiepreise als widerstandsfähiger erwiesen, als viele Fachleute erwartet hatten.",
+    "Für die kommenden Jahre fällt der Ausblick allerdings verhaltener aus. Für 2027 rechnet die Regierung mit einem Plus von 1,1 Prozent, für 2028 nur noch mit 0,6 Prozent. Der Schub durch Sonderausgaben lässt nach, und die strukturellen Probleme – Fachkräftemangel, Bürokratie, hohe Energiekosten – sind nicht verschwunden.",
+    "Weniger erfreulich ist der Blick auf die Preise. Die Inflationsrate soll in diesem Jahr bei 2,7 Prozent liegen und 2027 sogar auf 3 Prozent steigen. Erst 2028 wird wieder ein Wert nahe dem Ziel der Europäischen Zentralbank erwartet. Höhere Energie- und Verbraucherpreise dämpfen nach Einschätzung der Regierung den privaten Konsum und die Investitionsbereitschaft von Unternehmen.",
+    "Einen kleinen Ausgleich gibt es seit dem 1. Oktober an der Zapfsäule: Die Energiesteuer auf Benzin und Diesel wurde bis Jahresende um 14 Cent pro Liter gesenkt, inklusive Mehrwertsteuer sind es rund 17 Cent. Ob die Entlastung vollständig bei den Autofahrern ankommt, wird sich in den nächsten Wochen zeigen.",
+    "Die Regierung betont, dass eine dauerhafte Entspannung der geopolitischen Krisen die Erholung beschleunigen würde. Bis dahin bleibt der Aufschwung auf Kante genäht: getragen von Staatsausgaben und verwundbar gegenüber jedem neuen Preisschock."
+   ],
+   "questions": [
+    "Warum wurde die Wachstumsprognose für 2026 angehoben?",
+    "Welche Risiken sieht die Regierung für die privaten Haushalte?",
+    "Halten Sie den Tankrabatt für eine sinnvolle Maßnahme? Begründen Sie kurz."
+   ],
+   "section": "Wirtschaft",
+   "sources": [
+    {
+     "title": "Bundesregierung: Herbstprojektion 2026",
+     "url": "https://www.bundesregierung.de/breg-en/news/autumn-forecast-2026-federal-government-2456430"
+    },
+    {
+     "title": "Bundesregierung: Gesetzliche Neuregelungen im Oktober 2026",
+     "url": "https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-oktober-2026-2454624"
+    }
+   ],
+   "title": "Mehr Wachstum als erwartet – aber die Preise bleiben hoch"
+  },
+  {
+   "dek": "Uma história curta sobre um gato que não gosta de chuva.",
+   "glossary": [
+    {
+     "w": "o gato",
+     "zh": "猫（阳性）"
+    },
+    {
+     "w": "morar",
+     "zh": "居住 · ele mora 他住"
+    },
+    {
+     "w": "chover / chove",
+     "zh": "下雨 · 只用第三人称"
+    },
+    {
+     "w": "passear",
+     "zh": "散步、出去逛"
+    },
+    {
+     "w": "debaixo de",
+     "zh": "在……下面"
+    },
+    {
+     "w": "rir / ri",
+     "zh": "笑 · ela ri 她笑"
+    },
+    {
+     "w": "ter razão",
+     "zh": "有道理、说得对"
+    },
+    {
+     "w": "ficar em casa",
+     "zh": "待在家里"
+    }
+   ],
+   "grammar": "巴西葡语里 numa = em + uma，na = em + a，perto da = perto de + a。介词和冠词会缩合，这是初学最常见的一点。",
+   "kind": "story",
+   "lang": "pt",
+   "level": "A1",
+   "paragraphs": [
+    "O Tito é um gato. Ele é pequeno e laranja. Ele mora numa casa amarela com a Ana.",
+    "Hoje é domingo. A Ana abre a janela. Lá fora, chove muito.",
+    "— Tito, vamos passear? — pergunta a Ana.",
+    "O Tito olha para a chuva. Ele não gosta de água. Ele vai para debaixo da cama.",
+    "A Ana ri. Ela faz um chá e pega um livro. Ela senta no sofá.",
+    "Depois de cinco minutos, o Tito sai de debaixo da cama. Ele sobe no sofá e deita perto da Ana.",
+    "— Você tem razão, Tito — diz a Ana. — Hoje é um bom dia para ficar em casa.",
+    "O Tito fecha os olhos. A chuva faz barulho na janela. A casa está quente e tranquila."
+   ],
+   "paragraphs_zh": [
+    "蒂托是一只猫。它又小又是橘色的。它和安娜住在一栋黄色的房子里。",
+    "今天是星期天。安娜打开窗户。外面雨下得很大。",
+    "“蒂托，我们去散步吗？”安娜问。",
+    "蒂托看着雨。它不喜欢水。它躲到床底下去了。",
+    "安娜笑了。她泡了一杯茶，拿了一本书。她坐在沙发上。",
+    "五分钟后，蒂托从床底下出来了。它爬上沙发，躺在安娜旁边。",
+    "“你说得对，蒂托，”安娜说，“今天是待在家里的好日子。”",
+    "蒂托闭上眼睛。雨点打在窗户上发出声音。家里温暖又安静。"
+   ],
+   "questions": [
+    "De que cor é o Tito?",
+    "O que o Tito faz quando vê a chuva?",
+    "O que a Ana faz no sofá?"
+   ],
+   "section": "Tito e Ana",
+   "series": {
+    "episode": 1,
+    "name": "Tito e Ana"
+   },
+   "sources": [],
+   "title": "O gato e a chuva"
+  },
+  {
+   "dek": "Europe has just banned another PFAS compound. Why does regulating these substances one at a time feel like bailing water with a sieve?",
+   "glossary": [
+    {
+     "w": "sprawling",
+     "zh": "庞杂的、蔓延的"
+    },
+    {
+     "w": "to repel",
+     "zh": "排斥、防（水/油）"
+    },
+    {
+     "w": "to degrade",
+     "zh": "降解"
+    },
+    {
+     "w": "to come into force",
+     "zh": "（法规）生效"
+    },
+    {
+     "w": "to come under scrutiny",
+     "zh": "受到审查/关注"
+    },
+    {
+     "w": "regrettable substitution",
+     "zh": "“遗憾替代”：用未充分研究的危害物替代已知危害物"
+    },
+    {
+     "w": "contested",
+     "zh": "有争议的"
+    },
+    {
+     "w": "to dwarf",
+     "zh": "使相形见绌"
+    },
+    {
+     "w": "piecemeal",
+     "zh": "零敲碎打的、逐个的"
+    }
+   ],
+   "kind": "essay",
+   "lang": "en",
+   "level": "C1",
+   "paragraphs": [
+    "If you own a waterproof jacket, there is a good chance it was treated with a member of a sprawling chemical family known as PFAS — per- and polyfluoroalkyl substances. Their defining feature is a chain of carbon atoms bonded to fluorine, one of the strongest bonds in organic chemistry. That bond is what makes them so useful: it repels water, grease and stains, and it barely degrades. It is also what earned them their nickname, “forever chemicals.”",
+    "On 10 October, a European Union restriction on one of these compounds, PFHxA, came into force. It can no longer be used in clothing, food packaging, cosmetics or the impregnation sprays people use to re-waterproof their boots. For consumers, the change is mostly invisible; manufacturers had years of notice and many had already switched to alternatives.",
+    "The more interesting question is why the ban targets a single substance at all. There are thousands of PFAS compounds, and history suggests that when one is restricted, industry often reaches for a close chemical cousin. PFHxA itself rose to prominence partly as a replacement for older, longer-chained PFAS that had already come under scrutiny. Critics call this pattern “regrettable substitution”: swapping a known hazard for a less-studied one.",
+    "That is why a group of European countries, Germany among them, has pushed for a broad restriction covering the whole class rather than individual molecules. The proposal is ambitious and contested. Some uses, such as in medical devices or certain industrial seals, are hard to replace, and businesses warn of supply disruptions. Environmental groups counter that the cost of cleaning contaminated groundwater dwarfs the cost of finding substitutes.",
+    "There is a lesson here that reaches beyond chemistry. Regulating one item at a time is administratively tidy: each decision can be backed by specific evidence. But when the underlying problem is a shared property — in this case, extreme persistence — piecemeal rules can leave the system permanently one step behind. Whether Europe is willing to regulate by category, accepting some loss of precision in exchange for speed, may become one of the defining environmental debates of the next few years."
+   ],
+   "questions": [
+    "What is the author's main criticism of substance-by-substance regulation?",
+    "Summarise the strongest argument against a class-wide PFAS ban in one sentence.",
+    "Can you think of another policy area where 'regulating by category' would be faster but less precise?"
+   ],
+   "section": "Science & Society",
+   "sources": [
+    {
+     "title": "Bundesregierung: Gesetzliche Neuregelungen im Oktober 2026 (PFHxA-Verbot)",
+     "url": "https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-oktober-2026-2454624"
+    }
+   ],
+   "title": "The forever chemicals in your raincoat"
+  },
+  {
+   "auto": true,
+   "dek": "An Atlantic-style essay on why the people least able to absorb an AI shock are not the coders everyone worries about, but the women who keep offices running.",
+   "glossary": [
+    {
+     "w": "blind spot",
+     "zh": "盲点"
+    },
+    {
+     "w": "adaptive capacity",
+     "zh": "适应能力"
+    },
+    {
+     "w": "land on one's feet",
+     "zh": "化险为夷；顺利渡过难关"
+    },
+    {
+     "w": "cushion (of savings)",
+     "zh": "（储蓄）缓冲垫"
+    },
+    {
+     "w": "nibble at",
+     "zh": "一点点蚕食"
+    },
+    {
+     "w": "attrition",
+     "zh": "自然减员"
+    },
+    {
+     "w": "take for granted",
+     "zh": "视为理所当然"
+    },
+    {
+     "w": "drudgery",
+     "zh": "枯燥乏味的苦差事"
+    },
+    {
+     "w": "hollowing-out",
+     "zh": "空心化"
+    },
+    {
+     "w": "spread (something) thinly",
+     "zh": "（资源）分散使用、摊得太薄"
+    }
+   ],
+   "kind": "essay",
+   "lang": "en",
+   "level": "C2",
+   "paragraphs": [
+    "Every few months the conversation about artificial intelligence and work settles on a familiar cast of characters. There is the junior software engineer whose code a model can now write in seconds, the paralegal whose document review has been automated, the copywriter undercut by a chatbot. These anxieties are real, but they share a curious blind spot. The people who dominate the debate are, for the most part, the people best equipped to survive it.",
+    "That is the uncomfortable conclusion of research published by the Brookings Institution in January, by Sam Manning and Tomás Aguirre of the Centre for the Governance of AI. Rather than simply asking which jobs large language models can do, they asked a second question that most exposure studies skip: if a worker loses her job, how well can she land on her feet? Their index of \"adaptive capacity\" folds together four things — savings, how transferable a worker's skills are to growing occupations, whether she lives in a dense labour market, and age.",
+    "The headline numbers are, at first glance, reassuring. Some 37 million American workers sit in the top quarter of occupations most exposed to AI. Yet roughly 70% of them — lawyers, financial managers, software developers — score above the median on adaptability. They tend to have cushions of savings, portable skills and the professional networks that turn a layoff into a career pivot. Exposure and resilience, it turns out, often travel together.",
+    "The exception is a group of about 6.1 million people who are both highly exposed and poorly placed to adapt. They are office clerks, secretaries and administrative assistants, receptionists and medical secretaries. And about 86% of them are women. They are disproportionately found not in Silicon Valley but in smaller metropolitan areas and college towns in the Mountain West and Midwest, and in state capitals whose economies run on paperwork.",
+    "This is not a new story so much as the latest chapter of an old one. In 2004 about 3.5 million Americans worked as secretaries and administrative assistants, nearly all of them women. Two decades later the figure had fallen to around 2.1 million, even as the overall workforce grew. Email, shared calendars and self-service software had already been nibbling at the job for years. The Bureau of Labor Statistics expects the decline to continue, with medical secretaries the main exception. Generative AI does not start the erosion; it threatens to accelerate it.",
+    "What makes this particular disruption so easy to overlook is the way it is likely to unfold. The popular image of automation is a factory gate locked overnight, a mass layoff with television cameras outside. Clerical work rarely disappears like that. It thins out. A retiring assistant is not replaced; a department of four becomes a department of three; a receptionist's post is quietly folded into a tablet in the lobby. A third of secretaries and administrative assistants are 55 or older, so much of the shrinkage may arrive through attrition. No one is fired, and so no one notices — except the young woman in a mid-sized town who finds that the entry-level office job her mother once took for granted is no longer on offer.",
+    "None of this is destiny, and the case for alarm should not be overstated. Exposure is not the same as replacement: a model that drafts an email still needs someone to know which email matters, to whom, and when. The researchers themselves caution that their index works at the level of whole occupations, and individual workers vary enormously. Many administrative professionals are already folding AI into their routines — using it to take meeting notes, draft procedures, sort customer messages and manage invoices — in effect repositioning themselves as the people who make the new tools useful. Optimists argue that this is how technology has usually worked: it strips out drudgery and leaves behind a more skilled, better-paid version of the job.",
+    "Sceptics reply that this happy ending depends precisely on the resources the vulnerable group lacks. Retraining takes time, and time takes money; median pay for secretaries and administrative assistants sits slightly below the national median, and liquid savings in these occupations tend to be thin. Moving to a city with more opportunities is hard for someone rooted by family in a small town. The worker who most needs a second act is the one who can least afford the intermission.",
+    "That points to a policy debate worth having before, rather than after, the hollowing-out is complete. Brookings suggests concentrating support on low-capacity workers — through state-run retraining or wider access to further education — rather than spreading it thinly across everyone deemed \"exposed\". Others favour wage insurance, which tops up the pay of displaced workers who accept lower-paid jobs, or simply stronger unemployment benefits. Each approach has costs and critics; none works if the problem remains invisible.",
+    "For years, the front desk has been the place where offices meet the outside world: the person who knows where everything is, who smooths over the boss's double-booking, who notices that a client sounds upset. That knowledge rarely appears in a job description, which is partly why it is so easy to automate on paper and so hard to replace in practice. Whether the next decade turns these jobs into something richer or simply erases them will depend less on the capabilities of the machines than on whether anyone is paying attention to the people sitting behind the desk."
+   ],
+   "questions": [
+    "Why does the essay argue that the most vocal groups in the AI-and-jobs debate are not the most vulnerable?",
+    "How might job losses in clerical work happen differently from a classic mass layoff, and why does that matter for policy?",
+    "Which policy response — targeted retraining, wage insurance or stronger unemployment benefits — seems most convincing to you, and what are its weaknesses?"
+   ],
+   "section": "Technology",
+   "sources": [
+    {
+     "title": "Brookings: Measuring US workers' capacity to adapt to AI-driven job displacement (Jan 2026)",
+     "url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement"
+    },
+    {
+     "title": "AP via KSAT: A grim job outlook meets a scrappy workforce as administrative assistants harness AI (Jul 2026)",
+     "url": "https://www.ksat.com/business/2026/07/02/a-grim-job-outlook-meets-a-scrappy-workforce-as-administrative-assistants-harness-ai/"
+    },
+    {
+     "title": "The Register: Female-dominated careers among most exposed to AI disruption",
+     "url": "https://www.theregister.com/2026/01/22/female_dominated_careers_ai_disruption/"
+    }
+   ],
+   "title": "The Vanishing Front Desk"
+  },
+  {
+   "auto": true,
+   "dek": "An Economist-style leader on the first fall in global displacement in a decade — and why the number flatters.",
+   "glossary": [
+    {
+     "w": "flatter (v.)",
+     "zh": "使显得比实际更好"
+    },
+    {
+     "w": "seize on",
+     "zh": "抓住（某事加以利用）"
+    },
+    {
+     "w": "durable solution",
+     "zh": "持久解决方案"
+    },
+    {
+     "w": "resettlement",
+     "zh": "（难民）重新安置"
+    },
+    {
+     "w": "the verdict is still out",
+     "zh": "尚无定论"
+    }
+   ],
+   "kind": "short",
+   "lang": "en",
+   "level": "C2",
+   "paragraphs": [
+    "Seventy-five years after the Refugee Convention was signed in Geneva, the world's displacement figures have done something unusual: they have gone down. The UN refugee agency, UNHCR, counted 117.8m people forced from their homes at the end of 2025 — still roughly one person in 70, but 5.4m fewer than a year earlier and the first decline in a decade. Some 4.4m refugees went home, the second-highest total in six decades of record-keeping.",
+    "Governments eager to show that pressure is easing will seize on this. Some of it is good news. After the fall of the Assad regime, around 1.3m Syrians returned from abroad and some 2m internally displaced people went back to their areas of origin. Returns, when safe and chosen, are the most durable solution of all.",
+    "Yet the aggregate flatters. Afghanistan accounted for about 2.9m returnees, most of them pushed out of Iran and Pakistan rather than pulled home by improving conditions. Syria, for its part, still has roughly three in five people relying on humanitarian aid. Meanwhile the number of asylum-seekers rose, and resettlement — the orderly route by which rich countries take in refugees selected abroad — fell sharply as America withdrew. New crises, from Sudan to the war in Iran, are already adding to the count.",
+    "Two camps read the same data differently. Restrictionists argue that firm policies and returns show the system can be brought under control, and that public consent for asylum depends on it. Refugee advocates counter that forced or premature returns merely relocate misery, and often create the next wave of flight. Both have a point. The test of the new numbers is not whether they fall, but whether the people behind them end up safer. On that measure, the verdict is still out."
+   ],
+   "questions": [
+    "Why does the author argue that a falling displacement figure may be misleading?",
+    "How do restrictionists and refugee advocates interpret the rise in returns differently?"
+   ],
+   "section": "Migration",
+   "sources": [
+    {
+     "title": "AMES News: Human displacement remains at record levels – UNHCR report (Jun 2026)",
+     "url": "https://amesnews.com.au/lead-story/human-displacement-remains-at-record-levels-unhcr-report/"
+    },
+    {
+     "title": "KAS Geneva Telegram: 75 years of the 1951 Refugee Convention – trends from the UNHCR report",
+     "url": "https://www.kas.de/en/web/multilateraler-dialog-genf/geneva-telegram/detail/-/content/75-jahre-genfer-fluechtlingskonvention-von-1951-aktuelle-trends-aus-dem-unhcr-fluechtlingsbericht"
+    }
+   ],
+   "title": "Fewer refugees, not fewer problems"
+  },
+  {
+   "auto": true,
+   "dek": "A chuva para. O Tito vai ao jardim e conhece um cachorro.",
+   "glossary": [
+    {
+     "w": "o sol",
+     "zh": "太阳、阳光"
+    },
+    {
+     "w": "a vizinha",
+     "zh": "（女）邻居"
+    },
+    {
+     "w": "o cachorro",
+     "zh": "狗（巴西常用）"
+    },
+    {
+     "w": "latir / late",
+     "zh": "（狗）叫 · ele late 它叫"
+    },
+    {
+     "w": "ter medo",
+     "zh": "害怕 · ele tem medo 它害怕"
+    },
+    {
+     "w": "correr / corre",
+     "zh": "跑 · ele corre 它跑"
+    },
+    {
+     "w": "a árvore",
+     "zh": "树"
+    },
+    {
+     "w": "o pão de queijo",
+     "zh": "巴西奶酪面包球"
+    }
+   ],
+   "grammar": "ter 在葡语里不只是“有”：ter medo 害怕、ter certeza 确定、ter razão 有道理（第1集）。变位 ele/ela tem。否定直接在动词前加 não：ele não tem certeza。",
+   "kind": "story",
+   "lang": "pt",
+   "level": "A1",
+   "paragraphs": [
+    "Hoje é segunda-feira. Não chove mais. O sol está forte e o céu está azul.",
+    "A Ana abre a janela. — Tito, vamos passear? — pergunta ela. Hoje o Tito quer sair.",
+    "A Ana e o Tito vão ao jardim da casa amarela. A grama está molhada. O Tito não gosta de água, mas ele anda devagar.",
+    "Perto da casa mora a vizinha, a Dona Rosa. Ela tem um cachorro grande e marrom. O nome dele é Bolinha.",
+    "O Bolinha vê o Tito e late: au, au! O Tito tem medo. Ele corre e sobe numa árvore.",
+    "— Bolinha, não! — diz a Dona Rosa. Ela ri. — Desculpa, Ana! Você quer um pão de queijo? É da padaria.",
+    "A Ana pega um pão de queijo. Ele está quente e muito bom. O Bolinha senta e espera, tranquilo.",
+    "Depois de dez minutos, o Tito desce da árvore. Ele olha para o cachorro. O cachorro olha para ele.",
+    "— Vocês podem ser amigos — diz a Ana. O Tito não tem certeza. Mas hoje ele não corre."
+   ],
+   "paragraphs_zh": [
+    "今天是星期一。不再下雨了。阳光很强，天空是蓝色的。",
+    "安娜打开窗户。“蒂托，我们去散步吗？”她问。今天蒂托想出门。",
+    "安娜和蒂托去黄房子的花园。草地是湿的。蒂托不喜欢水，但它慢慢地走。",
+    "房子附近住着邻居罗莎太太。她有一只棕色的大狗。它的名字叫波利尼亚。",
+    "波利尼亚看见蒂托，叫起来：汪，汪！蒂托害怕了。它跑开，爬上一棵树。",
+    "“波利尼亚，不行！”罗莎太太说。她笑了。“对不起，安娜！你要一个奶酪面包吗？是面包店买的。”",
+    "安娜拿了一个奶酪面包。它是热的，非常好吃。波利尼亚坐下来，安静地等着。",
+    "十分钟后，蒂托从树上下来。它看着狗。狗也看着它。",
+    "“你们可以做朋友，”安娜说。蒂托不太确定。但今天它没有跑开。"
+   ],
+   "questions": [
+    "Como está o tempo hoje?",
+    "Quem é a Dona Rosa?",
+    "O que o Tito faz quando o Bolinha late?"
+   ],
+   "section": "Tito e Ana",
+   "series": {
+    "episode": 2,
+    "name": "Tito e Ana"
+   },
+   "sources": [],
+   "title": "O sol e o vizinho"
+  },
+  {
+   "auto": true,
+   "dek": "A Ana compra pão de queijo e café na padaria do bairro.",
+   "glossary": [
+    {
+     "w": "a padaria",
+     "zh": "面包店"
+    },
+    {
+     "w": "o pão francês",
+     "zh": "法式小面包（巴西早餐常见）"
+    },
+    {
+     "w": "querer / quero",
+     "zh": "想要 · eu quero 我要"
+    },
+    {
+     "w": "para levar",
+     "zh": "带走、外带"
+    },
+    {
+     "w": "tomar",
+     "zh": "喝（咖啡等）"
+    },
+    {
+     "w": "aceitar / aceita",
+     "zh": "接受 · Aceita cartão? 能刷卡吗？"
+    },
+    {
+     "w": "o cartão",
+     "zh": "银行卡"
+    },
+    {
+     "w": "o real / os reais",
+     "zh": "雷亚尔（巴西货币）"
+    }
+   ],
+   "kind": "dialogue",
+   "lang": "pt",
+   "level": "A1",
+   "paragraphs": [
+    "Ana: Bom dia!",
+    "Seu João: Bom dia! Tudo bem?",
+    "Ana: Tudo bem. Hoje tem sol, que bom!",
+    "Seu João: É verdade. Ontem choveu muito. O que você quer?",
+    "Ana: Eu quero seis pães de queijo, por favor.",
+    "Seu João: Seis pães de queijo. Mais alguma coisa?",
+    "Ana: Sim, um pão francês e um café.",
+    "Seu João: O café é para levar ou para tomar aqui?",
+    "Ana: Para levar, por favor. Quanto é tudo?",
+    "Seu João: São quinze reais.",
+    "Ana: Aceita cartão?",
+    "Seu João: Aceito, sim. Pix também.",
+    "Ana: Cartão, então. Obrigada!",
+    "Seu João: De nada. Os pães de queijo estão quentes. Bom dia!"
+   ],
+   "paragraphs_zh": [
+    "安娜：早上好！",
+    "若昂先生：早上好！你好吗？",
+    "安娜：挺好的。今天出太阳了，真好！",
+    "若昂先生：是啊。昨天下了好大的雨。你要什么？",
+    "安娜：我要六个奶酪面包，谢谢。",
+    "若昂先生：六个奶酪面包。还要别的吗？",
+    "安娜：要，一个法式小面包和一杯咖啡。",
+    "若昂先生：咖啡是带走还是在这儿喝？",
+    "安娜：带走，谢谢。一共多少钱？",
+    "若昂先生：一共十五雷亚尔。",
+    "安娜：可以刷卡吗？",
+    "若昂先生：可以。Pix（巴西即时转账）也行。",
+    "安娜：那就刷卡吧。谢谢！",
+    "若昂先生：不客气。奶酪面包是热的。祝你今天愉快！"
+   ],
+   "questions": [
+    "Quantos pães de queijo a Ana quer?",
+    "O café é para levar ou para tomar aqui?",
+    "Quanto é tudo?"
+   ],
+   "section": "Diálogo",
+   "sources": [],
+   "title": "Na padaria"
+  },
+  {
+   "dek": "Deutschland schrumpft schneller als gedacht. Die Zahlen sind eindeutig, die Schlüsse daraus nicht.",
+   "glossary": [
+    {
+     "w": "die Geburtenrate",
+     "zh": "生育率"
+    },
+    {
+     "w": "der Wanderungssaldo",
+     "zh": "净迁移量"
+    },
+    {
+     "w": "das Defizit",
+     "zh": "赤字；缺口"
+    },
+    {
+     "w": "der Jahrgang",
+     "zh": "（同年出生的）年龄组"
+    },
+    {
+     "w": "die Fachkräfteeinwanderung",
+     "zh": "专业人才移民"
+    },
+    {
+     "w": "die Erwerbsbeteiligung",
+     "zh": "劳动参与率"
+    },
+    {
+     "w": "die Vorausberechnung",
+     "zh": "预测；推算"
+    },
+    {
+     "w": "der Selbstläufer",
+     "zh": "自然而然就能成功的事"
+    }
+   ],
+   "hour": "21:00",
+   "hourly": true,
+   "kind": "feature",
+   "lang": "de",
+   "level": "C1",
+   "paragraphs": [
+    "Lange galt Deutschland als Land, das trotz niedriger Geburtenzahlen wächst. Von 2011 bis 2024 nahm die Bevölkerung fast jedes Jahr zu, nur im Pandemiejahr 2020 gab es einen leichten Rückgang. Diese Phase ist vorbei. Nach Angaben des Statistischen Bundesamts lebten Ende Juni 2026 rund 83,3 Millionen Menschen im Land – 168.000 weniger als zu Jahresbeginn. Damit fiel das Minus in sechs Monaten größer aus als im gesamten Vorjahr.",
+    "Die Mechanik dahinter ist schlicht. In Deutschland sterben seit Jahrzehnten mehr Menschen, als geboren werden. 2025 betrug diese Lücke etwa 352.000, so viel wie nie seit Kriegsende. Mit gut 654.000 Neugeborenen kamen so wenige Kinder zur Welt wie zuletzt 1946. Ein Grund ist demografische Arithmetik: Die schwach besetzten Jahrgänge der 1990er-Jahre erreichen nun das Alter, in dem viele eine Familie gründen. Hinzu kommt, dass die Geburtenrate pro Frau seit 2022 sinkt.",
+    "Ausgeglichen wurde das Defizit bisher durch Zuwanderung. Doch der Wanderungssaldo hat sich 2025 nahezu halbiert, von rund 430.000 auf etwa 235.000. Das reicht nicht mehr, um die Lücke zu schließen. Die ausländische Bevölkerung wuchs nur noch um 39.000 Personen auf 12,4 Millionen. Auffällig ist, wie stark der Arbeitsmarkt schon heute von ihr abhängt: Unter den 20- bis 59-Jährigen hat inzwischen jede fünfte Person keinen deutschen Pass.",
+    "Regional verläuft der Wandel höchst ungleich. Thüringen und Sachsen-Anhalt verloren binnen eines Jahres ein Prozent beziehungsweise 0,7 Prozent ihrer Einwohner, während Berlin, Hamburg und Bremen weiter wuchsen. Für ländliche Kommunen im Osten bedeutet das leere Wohnungen, ausgedünnte Busverbindungen und Schulen, die um ihr Fortbestehen bangen.",
+    "Was folgt daraus? Wirtschaftsverbände und viele Ökonominnen sehen in gezielter Fachkräfteeinwanderung und besserer Integration den wirksamsten Hebel, um Pflege, Handwerk und Sozialkassen zu stabilisieren. Andere verweisen darauf, dass Migration Wohnungsmärkte und Kommunen belaste, und setzen eher auf Familienpolitik, eine höhere Erwerbsbeteiligung von Frauen und Älteren oder auf Automatisierung. Wieder andere halten eine leicht schrumpfende Bevölkerung für verkraftbar, sofern Produktivität und Infrastruktur mithalten.",
+    "Einig sind sich die meisten nur in einem Punkt: Ein Selbstläufer wird keine dieser Strategien. Selbst in den Vorausberechnungen des Bundesamts steigen die Geburtenzahlen nur dann wieder, wenn die Geburtenrate spürbar zunimmt und zugleich weiter Menschen zuwandern – und auch dann blieben sie unter dem Niveau von 2021."
+   ],
+   "questions": [
+    "Welche zwei Faktoren erklären laut Text, warum die Bevölkerung seit 2025 schrumpft?",
+    "Welche der genannten Strategien halten Sie für am überzeugendsten – und warum?"
+   ],
+   "section": "Gesellschaft",
+   "sources": [
+    {
+     "license": "official",
+     "title": "Destatis: Bevölkerung Deutschlands nimmt im ersten Halbjahr 2026 um 0,2 % ab",
+     "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/aktuell-quartale.html"
+    },
+    {
+     "license": "official",
+     "title": "Destatis, Pressemitteilung Nr. 203 vom 16. Juni 2026: Bevölkerung Deutschlands sinkt im Jahr 2025 um 0,1 %",
+     "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_203_124.html"
+    },
+    {
+     "license": "official",
+     "title": "Destatis, Pressemitteilung Nr. 146: Zahl der Geburten sinkt im Jahr 2025 auf den niedrigsten Stand der Nachkriegszeit",
+     "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_146_126.html"
+    }
+   ],
+   "title": "Ein Land wird kleiner – und streitet über die Gründe"
+  }
+ ]
+}
