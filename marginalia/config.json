@@ -4,5 +4,45 @@
   "en": "C2",
   "pt": "A1"
  },
- "note": "Change a level here (A1–C2); the daily tasks read it before writing."
+ "note": "Change a level here (A1–C2); the daily tasks read it before writing.",
+ "sources": {
+  "en": {
+   "rotate": [
+    "Jacobin",
+    "The Intercept",
+    "Mother Jones",
+    "Dissent",
+    "New Internationalist"
+   ],
+   "also": [
+    "ProPublica",
+    "The Marshall Project",
+    "Rest of World",
+    "The 19th"
+   ],
+   "unavailable": [
+    "The Guardian"
+   ],
+   "avoid": [
+    "German government documents"
+   ]
+  },
+  "de": {
+   "rotate": [
+    "taz",
+    "Mediendienst Integration",
+    "Missy Magazine",
+    "Deutsch Perfekt"
+   ]
+  },
+  "hannover": {
+   "daily": true,
+   "with": "de-morning",
+   "facts_from": [
+    "hannover.de",
+    "Region Hannover",
+    "Presseportal Hannover"
+   ]
+  }
+ }
 }

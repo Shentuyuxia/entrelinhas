@@ -522,6 +522,41 @@ body.lean .hint, body.lean .help{display:none!important}
   .mg-toc .t,.mg-arch .t{font-size:14px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ===== readable small print (explanatory text, labels, chips) ===== */
+.note,.small{font-size:14px}
+.side h3, .panel h3.ph3, #mg-arch > h3, #mg-week > h3, .rd-paste summary h3, .mg-blk h3{font-size:12.5px!important}
+.mg-gl dd,.mg-gram{font-size:15px}
+@media (max-width:640px){
+  body{font-size:16px}
+  .note,.small,.status,.legend,.foot{font-size:14.5px;line-height:1.6}
+  .muted{line-height:1.6}
+  .side h3, .panel h3.ph3, #mg-arch > h3, #mg-week > h3, .rd-paste summary h3, .mg-blk h3{font-size:13.5px!important;letter-spacing:.08em}
+  .ring .t span,.stat span{font-size:12.5px}
+  .ring .t b,.stat b{font-size:17px}
+  .badge,.sync{font-size:13.5px}
+  .chip,.lv{font-size:12.5px}
+  .gl-k{font-size:12px}
+  .rate button{font-size:16px} .rate button small{font-size:12.5px}
+  .ex .t{font-size:18px} .ex .tr{font-size:15px}
+  .field > label,.field > .lab2,.lab2,.tog,.checks label{font-size:15px}
+  .btn{font-size:15px} .btn.sm{font-size:14px}
+  nav.tabs button{font-size:11px}
+  .mg-kick{font-size:12.5px}
+  .mg-head .d{font-size:14px}
+  .mg-toc .k,.mg-arch .k{font-size:12px}
+  .mg-toc .t,.mg-arch .t{font-size:17px}
+  .mg-dek{font-size:18px}
+  .mg-gl dd,.mg-gram,.mg-q,.mg-src{font-size:16px}
+  .mg-gl dt{font-size:17px}
+  .empty{font-size:15.5px}
+  .kpi span,.lvcell .n,.lvrow .n{font-size:13.5px}
+  .strip{grid-template-columns:auto repeat(3,auto);justify-content:space-between}
+  .strip .stat span,.ring .t span{white-space:nowrap}
+  .tbl table{font-size:15px} .tbl th{font-size:13px}
+  .rd-bar .pos{font-size:13.5px}
+  .mg-sheet .small,.mg-sheet label{font-size:14.5px}
+}
 </style>
 </head>
 <body>
@@ -759,6 +794,9 @@ body.lean .hint, body.lean .help{display:none!important}
       <div class="panel">
         <h3 class="ph3">界面</h3>
         <label class="tog"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
+        <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
+          <div class="row" style="flex-wrap:nowrap"><select id="opt-voice"></select><button class="btn sm" id="voice-test" type="button">试听</button></div>
+          <p class="note hint">★ 是增强/高级语音，听起来更自然。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音」里下载。</p></div>
       </div>
       <div class="panel">
         <h3 class="ph3">备份与恢复</h3>
@@ -853,7 +891,7 @@ const I={
 /* ---------- state (localStorage) ---------- */
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null});
-const DEF={v:3,settings:{lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
+const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
   gloss:{pt:["zh","en","fr"],de:["zh","en"],en:["zh","def"]},goal:{pt:15,de:15,en:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"]}},
   pt:blank(),de:blank(),en:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
@@ -1303,13 +1341,36 @@ Check grammar, spelling, word choice and naturalness${l==="pt"?" (Brazilian Port
 /* ---------- speech ---------- */
 const hasTTS="speechSynthesis" in window; let VOICES=[];
 function loadVoices(){ if(!hasTTS) return; VOICES=speechSynthesis.getVoices()||[]; voiceNote(); }
-function pickVoice(){ const d=LANG[lang()]; return VOICES.find(v=>d.re.test(v.lang))||VOICES.find(v=>d.re2.test(v.lang))||null; }
+/* Rank voices: iOS lists robotic "Eloquence" and novelty voices first (Eddy, Flo, Grandma…), so never just take the first match. */
+const V_NOVELTY=/\b(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred|Junior|Kathy|Ralph)\b/i;
+const V_ELOQ=/eloquence|\b(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b/i;
+const V_GOOD={pt:/Luciana|Felipe|Fernanda|Francisca|Antonio|Thalita|Leila|Daniel/i,de:/Anna|Petra|Markus|Yannick|Helena|Katja|Conrad|Amala|Seraphina|Florian/i,en:/Ava|Samantha|Zoe|Evan|Nathan|Serena|Daniel|Kate|Oliver|Sonia|Ryan|Libby|Jenny|Aria|Guy/i};
+function voiceScore(v,l){
+  const d=LANG[l], id=(v.name||"")+" "+(v.voiceURI||"");
+  let sc=d.re.test(v.lang)?20:d.re2.test(v.lang)?0:-1e4;
+  if(V_NOVELTY.test(v.name||"")) sc-=500; if(V_ELOQ.test(id)) sc-=300;
+  if(/premium/i.test(id)) sc+=120; else if(/enhanced|erweitert|aprimorad|melhorad/i.test(id)) sc+=90;
+  if(/natural|neural|online/i.test(id)) sc+=100; else if(/google/i.test(id)) sc+=50;
+  if(/compact/i.test(id)) sc-=10; if(V_GOOD[l].test(v.name||"")) sc+=30;
+  return sc;
+}
+function voicesFor(l){ return VOICES.filter(v=>LANG[l].re2.test(v.lang)).sort((a,b)=>voiceScore(b,l)-voiceScore(a,l)); }
+function pickVoice(){ const l=lang(), pref=(S.settings.voice||{})[l], vs=voicesFor(l);
+  return (pref&&vs.find(v=>v.voiceURI===pref))||vs[0]||null; }
+function voiceLabel(v){ const id=(v.name||"")+" "+(v.voiceURI||""); return v.name.replace(/\s*\((Premium|Enhanced|Erweitert|Aprimorada|Melhorada)\)/i,"")+" · "+v.lang+(/premium/i.test(id)?" ★★":/enhanced|natural|neural|online/i.test(id)?" ★":""); }
+function renderVoiceSel(){
+  const sel=$("#opt-voice"); if(!sel) return; const l=lang(), vs=voicesFor(l), pref=(S.settings.voice||{})[l]||"";
+  $("#voice-row").hidden=!hasTTS||!vs.length;
+  let auto="自动（选最自然的）"; try{ auto=trOne(auto)||auto; }catch(e){}
+  sel.innerHTML=`<option value="">${auto}${vs[0]?" — "+esc(voiceLabel(vs[0])):""}</option>`+vs.map(v=>`<option value="${esc(v.voiceURI)}"${v.voiceURI===pref?" selected":""}>${esc(voiceLabel(v))}</option>`).join("");
+}
 function voiceNote(){
   const el=$("#voice-note"); if(!VOICES.length){ el.hidden=true; return; }
   const v=pickVoice(), d=LANG[lang()];
   if(!v){ el.hidden=false; el.textContent="这台设备没有"+d.zh+"语音，系统朗读会不准。可以在系统的「语音 / 文字转语音」设置里添加 "+d.tts+" 语音，或者用自己的录音。"; }
   else if(lang()==="pt"&&!/BR/i.test(v.lang)){ el.hidden=false; el.textContent="只找到欧洲葡语语音（"+v.lang+"），口音和巴西不同。可以在系统设置里添加「葡萄牙语（巴西）」。"; }
   else el.hidden=true;
+  renderVoiceSel();
 }
 if(hasTTS){ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }
 function speak(t){
@@ -1904,6 +1965,9 @@ $("#rd-bar").addEventListener("click",e=>{ const b=e.target.closest("button"); i
     rdStart("paste",0); });
   $("#rd-clear").addEventListener("click",()=>{ ta.value=""; $("#rd-out").innerHTML=""; try{ localStorage.removeItem("pw-rd-text"); }catch(e){} if(RD.src==="paste") rdStop(); });
 })();
+$("#opt-voice").addEventListener("change",e=>{ S.settings.voice=S.settings.voice||{}; S.settings.voice[lang()]=e.target.value; save(); speak(VOICE_SAMPLE[lang()]); });
+$("#voice-test").addEventListener("click",()=>speak(VOICE_SAMPLE[lang()]));
+const VOICE_SAMPLE={pt:"Olá! Hoje vamos ler uma história curta juntos.",de:"Guten Morgen! Heute lesen wir gemeinsam die Zeitung.",en:"Good morning. Let's read something worth thinking about today."};
 /* word sheet */
 function mgSentenceOf(node){ const s=node&&(node.closest?node.closest(".s"):node.parentElement&&node.parentElement.closest(".s")); return s?s.textContent:""; }
 function mgOpen(word,sentence){
@@ -2647,6 +2711,10 @@ const UI_DICT=[
 ["朗读全文","Read article aloud","Artikel vorlesen","Ouvir o artigo"],
 ["逐段中文","Chinese translation","Chinesische Übersetzung","Tradução em chinês"],
 ["朗读文本","Read text aloud","Text vorlesen","Ler texto em voz alta"],
+["朗读语音","Reading voice","Vorlesestimme","Voz de leitura"],
+["试听","Preview","Anhören","Ouvir"],
+["自动（选最自然的）","Automatic (most natural)","Automatisch (natürlichste)","Automática (a mais natural)"],
+["★ 是增强/高级语音，听起来更自然。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音」里下载。","★ marks enhanced/premium voices, which sound more natural. On iPhone, download them under Settings → Accessibility → Spoken Content → Voices.","★ markiert erweiterte/Premium-Stimmen, die natürlicher klingen. Auf dem iPhone unter Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen laden.","★ indica vozes melhoradas/premium, mais naturais. No iPhone, baixe em Ajustes → Acessibilidade → Conteúdo Falado → Vozes."],
 ["粘贴一段文字","Paste some text","Text einfügen","Cole um texto"],
 ["用当前语言的语音朗读，点句子从那里开始。","Read in the voice of the current language. Tap a sentence to start there.","Liest mit der Stimme der aktuellen Sprache. Tippe auf einen Satz, um dort zu beginnen.","Lê com a voz do idioma atual. Toque numa frase para começar dali."],
 ["上一句","Previous sentence","Vorheriger Satz","Frase anterior"],
