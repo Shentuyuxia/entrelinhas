@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T10:25:08+00:00",
+ "updated": "2026-10-19T17:54:41+00:00",
  "days": [
   {
    "date": "2026-10-19",
@@ -66,6 +66,22 @@
      "title": "The tyranny of the next election",
      "kind": "essay",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "pt",
+     "title": "Na padaria do Seu João",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 9,
+     "lang": "pt",
+     "title": "Na farmácia",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]

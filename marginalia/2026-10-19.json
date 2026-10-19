@@ -679,6 +679,217 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Tito e Ana",
+   "series": {
+    "name": "Tito e Ana",
+    "episode": 4
+   },
+   "title": "Na padaria do Seu João",
+   "dek": "Dois amigos seguem a Ana até a padaria.",
+   "paragraphs": [
+    "Hoje é quarta-feira. O céu está azul e não chove. A Ana acorda cedo.",
+    "— Tito, hoje eu vou à padaria do Seu João. Você fica em casa, tá? — diz a Ana. O Tito olha para ela e não responde.",
+    "A Ana sai da casa amarela. Na rua, ela escuta um barulho atrás dela. Ela olha para trás. É o Tito! E com ele está o Bolinha.",
+    "— Vocês dois! — diz a Ana, e ri. — Tudo bem. A gente vai junto.",
+    "A padaria do Seu João é pequena e tem um cheiro de pão quente. O Seu João é alto e tem um bigode branco.",
+    "— Bom dia, Ana! Quem são esses amigos? — pergunta ele. — Este é o Tito, e este é o Bolinha, da Dona Rosa — diz a Ana.",
+    "A Ana compra seis pães franceses e um café com leite. O Seu João dá um pouco de leite para o Tito e um pedaço de pão para o Bolinha.",
+    "O Tito bebe o leite devagar. O Bolinha come o pão muito rápido. O Seu João ri. — Voltem amanhã! — diz ele.",
+    "Na volta, a Ana leva o pão. O Tito e o Bolinha andam juntos na frente dela. Na casa da Dona Rosa, o Bolinha late: au, au! É hora de dizer tchau."
+   ],
+   "paragraphs_en": [
+    "Today is Wednesday. The sky is blue and it isn't raining. Ana wakes up early.",
+    "\"Tito, today I'm going to Seu João's bakery. You stay home, okay?\" says Ana. Tito looks at her and doesn't answer.",
+    "Ana leaves the yellow house. In the street she hears a noise behind her. She looks back. It's Tito! And Bolinha is with him.",
+    "\"You two!\" says Ana, and laughs. \"All right. We'll go together.\"",
+    "Seu João's bakery is small and smells of warm bread. Seu João is tall and has a white moustache.",
+    "\"Good morning, Ana! Who are these friends?\" he asks. \"This is Tito, and this is Bolinha, Dona Rosa's dog,\" says Ana.",
+    "Ana buys six bread rolls and a coffee with milk. Seu João gives Tito a little milk and Bolinha a piece of bread.",
+    "Tito drinks the milk slowly. Bolinha eats the bread very fast. Seu João laughs. \"Come back tomorrow!\" he says.",
+    "On the way back, Ana carries the bread. Tito and Bolinha walk together in front of her. At Dona Rosa's house, Bolinha barks: woof, woof! It's time to say bye."
+   ],
+   "paragraphs_zh": [
+    "今天是星期三。天是蓝的，没有下雨。安娜起得很早。",
+    "“蒂托，今天我去若昂先生的面包店。你待在家里，好吗？”安娜说。蒂托看着她，没有回答。",
+    "安娜走出黄色的房子。在街上，她听见身后有声音。她回头一看。是蒂托！波利尼亚也跟它在一起。",
+    "“你们两个！”安娜说着笑了。“好吧。我们一起去。”",
+    "若昂先生的面包店很小，有一股热面包的香味。若昂先生个子很高，留着白胡子。",
+    "“早上好，安娜！这些朋友是谁呀？”他问。“这是蒂托，这是罗莎太太家的波利尼亚。”安娜说。",
+    "安娜买了六个法式小面包和一杯牛奶咖啡。若昂先生给蒂托一点牛奶，给波利尼亚一块面包。",
+    "蒂托慢慢地喝牛奶。波利尼亚吃面包吃得很快。若昂先生笑了。“明天再来！”他说。",
+    "回来的路上，安娜拿着面包。蒂托和波利尼亚一起走在她前面。到了罗莎太太家，波利尼亚叫：汪，汪！该说再见了。"
+   ],
+   "glossary": [
+    {
+     "w": "a quarta-feira",
+     "en": "Wednesday",
+     "zh": "星期三"
+    },
+    {
+     "w": "acordar cedo",
+     "en": "to wake up early",
+     "zh": "早起"
+    },
+    {
+     "w": "escutar",
+     "en": "to hear, to listen (common in Brazil)",
+     "zh": "听见、听"
+    },
+    {
+     "w": "atrás (de)",
+     "en": "behind",
+     "zh": "在……后面"
+    },
+    {
+     "w": "junto / juntos",
+     "en": "together (cf. English 'joint')",
+     "zh": "一起"
+    },
+    {
+     "w": "o bigode",
+     "en": "moustache",
+     "zh": "小胡子"
+    },
+    {
+     "w": "o pão francês",
+     "en": "Brazilian bread roll (lit. 'French bread')",
+     "zh": "巴西法式小面包"
+    },
+    {
+     "w": "o pedaço",
+     "en": "piece",
+     "zh": "一块"
+    },
+    {
+     "w": "na volta",
+     "en": "on the way back",
+     "zh": "回来的路上"
+    }
+   ],
+   "grammar": "ir + a + place: Eu vou à padaria (I'm going to the bakery). a + a joins into à (with an accent): à padaria, à feira; with a masculine place it's ao: ao mercado. （ir a 地点；a + a 合写为 à。）",
+   "questions": [
+    "Que dia é hoje?",
+    "Quem segue a Ana até a padaria?",
+    "O que a Ana compra?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Na farmácia",
+   "paragraphs": [
+    "Atendente: Boa tarde! Posso ajudar?",
+    "Ana: Boa tarde! Eu estou com dor de garganta. Vocês têm alguma coisa para isso?",
+    "Atendente: Temos, sim. Você está com febre também?",
+    "Ana: Não, febre não. Só dor de garganta e um pouco de tosse.",
+    "Atendente: Então eu recomendo esta pastilha. Você toma uma a cada três horas.",
+    "Ana: Precisa de receita?",
+    "Atendente: Não, não precisa. Mas, se não melhorar em três dias, vá ao médico.",
+    "Ana: Tá bom. E vocês têm protetor solar?",
+    "Atendente: Temos. Fica no corredor dois, perto dos xampus.",
+    "Ana: Obrigada. Quanto fica tudo?",
+    "Atendente: A pastilha é quinze reais e o protetor é quarenta e dois. CPF na nota?",
+    "Ana: Não, obrigada. Pode ser no cartão de débito?",
+    "Atendente: Pode, sim. É só aproximar o cartão aqui.",
+    "Ana: Pronto. Muito obrigada!",
+    "Atendente: De nada. Melhoras!"
+   ],
+   "paragraphs_en": [
+    "Pharmacy assistant: Good afternoon! Can I help you?",
+    "Ana: Good afternoon! I have a sore throat. Do you have something for it?",
+    "Assistant: Yes, we do. Do you have a fever too?",
+    "Ana: No, no fever. Just a sore throat and a bit of a cough.",
+    "Assistant: Then I recommend these lozenges. You take one every three hours.",
+    "Ana: Do I need a prescription?",
+    "Assistant: No, you don't. But if it doesn't get better in three days, see a doctor.",
+    "Ana: Okay. And do you have sunscreen?",
+    "Assistant: We do. It's in aisle two, near the shampoos.",
+    "Ana: Thanks. How much is everything?",
+    "Assistant: The lozenges are fifteen reais and the sunscreen is forty-two. Do you want your CPF on the receipt?",
+    "Ana: No, thanks. Can I pay by debit card?",
+    "Assistant: Sure. Just tap your card here.",
+    "Ana: Done. Thank you so much!",
+    "Assistant: You're welcome. Get well soon!"
+   ],
+   "paragraphs_zh": [
+    "店员：下午好！需要帮忙吗？",
+    "安娜：下午好！我嗓子疼。你们有治这个的药吗？",
+    "店员：有的。你也发烧吗？",
+    "安娜：不，不发烧。只是嗓子疼，还有点咳嗽。",
+    "店员：那我推荐这种含片。每三个小时含一片。",
+    "安娜：需要处方吗？",
+    "店员：不，不需要。不过如果三天还不好，就去看医生。",
+    "安娜：好的。你们有防晒霜吗？",
+    "店员：有。在二号货架通道，洗发水旁边。",
+    "安娜：谢谢。一共多少钱？",
+    "店员：含片十五雷亚尔，防晒霜四十二。发票上要写 CPF 吗？",
+    "安娜：不用，谢谢。可以刷借记卡吗？",
+    "店员：可以。把卡靠近这里就行。",
+    "安娜：好了。非常感谢！",
+    "店员：不客气。祝你早日康复！"
+   ],
+   "glossary": [
+    {
+     "w": "a farmácia",
+     "en": "pharmacy (cognate)",
+     "zh": "药店"
+    },
+    {
+     "w": "a dor de garganta",
+     "en": "sore throat",
+     "zh": "嗓子疼"
+    },
+    {
+     "w": "a febre",
+     "en": "fever (cognate)",
+     "zh": "发烧"
+    },
+    {
+     "w": "a tosse",
+     "en": "cough",
+     "zh": "咳嗽"
+    },
+    {
+     "w": "a cada três horas",
+     "en": "every three hours",
+     "zh": "每三小时"
+    },
+    {
+     "w": "a receita",
+     "en": "prescription (also 'recipe')",
+     "zh": "处方；也指食谱"
+    },
+    {
+     "w": "o protetor solar",
+     "en": "sunscreen (lit. 'solar protector')",
+     "zh": "防晒霜"
+    },
+    {
+     "w": "CPF na nota?",
+     "en": "put your tax ID (CPF) on the receipt? — asked at almost every Brazilian till",
+     "zh": "发票上写税号吗？"
+    },
+    {
+     "w": "Melhoras!",
+     "en": "Get well soon!",
+     "zh": "早日康复！"
+    }
+   ],
+   "grammar": "precisar de + noun = to need something: Precisa de receita? (Do I need a prescription?). The de stays before a noun but drops before a verb: Preciso comprar pão. In the short answer there is no de: Não precisa. （precisar de + 名词；后接动词时不加 de。）",
+   "questions": [
+    "O que a Ana tem?",
+    "Precisa de receita para a pastilha?",
+    "Como a Ana paga?"
+   ],
+   "sources": []
   }
  ]
 }
