@@ -610,6 +610,47 @@ body.lean .hint, body.lean .help{display:none!important}
   .strip .badge{grid-column:1 / 3;justify-self:start}
   .strip .sync{grid-column:3 / -1;justify-self:end;text-align:right}
 }
+
+/* ===== phone v3: shorter first screen, 5-tab bar ===== */
+.subsw,.tl-m{display:none}
+@media (max-width:640px){
+  .wrap{padding-top:6px}
+  header.top{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 10px;position:static}
+  .brand{padding-right:0}
+  .brand h1{font-size:17px}
+  .uilang{position:relative;top:auto;right:auto;grid-column:2;grid-row:1;justify-self:end;padding:6px 12px;font-size:13.5px}
+  .uilang svg{width:18px;height:18px}
+  .langsw{grid-column:1 / -1}
+  .langsw button{padding:7px 6px 7px 22px;flex-direction:row;align-items:center;justify-content:flex-start;min-height:38px}
+  .langsw button::before{top:50%;margin-top:-4px}
+  .langsw button small{display:none}
+  .strip{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:8px 0;margin-top:8px}
+  .strip .badge,.strip .sync,.strip .spacer{display:none}
+  .ring{gap:6px}
+  .ring svg{width:28px;height:28px}
+  .ring .t b,.stat b{font-size:15px;line-height:1.15}
+  .ring .t span,.stat span{font-size:11px;line-height:1.2}
+  section.grid{margin-top:10px}
+  .sesshead{margin-bottom:8px}
+  .sesshead h2,#pile-title{font-size:18px}
+  .bar{margin-bottom:10px}
+  /* bottom bar: 5 tabs, always labelled */
+  nav.tabs{grid-template-columns:repeat(5,minmax(0,1fr))}
+  nav.tabs button[data-tab="pile"],nav.tabs button[data-tab="settings"]{display:none}
+  nav.tabs button .tl{display:block;font-size:10.5px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 2px;color:var(--muted)}
+  nav.tabs button[data-tab="stats"] .tl{display:none}
+  nav.tabs button[data-tab="stats"] .tl-m{display:block;font-size:10.5px;color:var(--muted)}
+  nav.tabs button svg{width:22px;height:22px;color:var(--muted)}
+  nav.tabs button.grp-on svg,nav.tabs button.grp-on .tl,nav.tabs button.grp-on .tl-m{color:var(--acc)}
+  nav.tabs button.grp-on .tl,nav.tabs button.grp-on .tl-m{font-weight:600}
+  nav.tabs button{padding:7px 0 4px}
+  #t-pile{display:none!important}
+  /* sub-switch inside 词库 / 更多 */
+  .subsw{display:flex;gap:6px;grid-column:1 / -1;margin:0 0 4px}
+  .subsw button{flex:1;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 10px;font:inherit;font-size:14px;color:var(--muted);cursor:pointer}
+  .subsw button[aria-pressed="true"]{border-color:var(--acc);background:var(--acc-soft);color:var(--ink);font-weight:600}
+  .subsw .ct{font-size:12px;color:var(--acc)}
+}
 </style>
 </head>
 <body>
@@ -648,7 +689,7 @@ body.lean .hint, body.lean .help{display:none!important}
     <button role="tab" data-tab="new" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v8M8 12h8"/></svg><span class="tl">录入新词</span></button>
     <button role="tab" data-tab="pile" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg><span class="tl">生词堆</span><span id="t-pile">0</span></button>
     <button role="tab" data-tab="browse" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6" fill="currentColor"/><circle cx="4" cy="12" r=".6" fill="currentColor"/><circle cx="4" cy="18" r=".6" fill="currentColor"/></svg><span class="tl">词库</span></button>
-    <button role="tab" data-tab="stats" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg><span class="tl">进度</span></button>
+    <button role="tab" data-tab="stats" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg><span class="tl">进度</span><span class="tl-m">更多</span></button>
     <button role="tab" data-tab="settings" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span class="tl">设置与备份</span></button>
   </nav>
 
@@ -795,6 +836,7 @@ body.lean .hint, body.lean .help{display:none!important}
 
   <!-- PILE -->
   <section id="tab-pile" class="grid" hidden>
+    <div class="subsw" role="tablist"><button type="button" data-sub="browse">词库</button><button type="button" data-sub="pile">生词堆 <span class="ct" id="sub-pile-ct"></span></button></div>
     <div class="panel">
       <div class="sesshead">
         <h2 id="pile-title">生词堆</h2>
@@ -821,6 +863,7 @@ body.lean .hint, body.lean .help{display:none!important}
 
   <!-- BROWSE -->
   <section id="tab-browse" class="grid one" hidden>
+    <div class="subsw" role="tablist"><button type="button" data-sub="browse">词库</button><button type="button" data-sub="pile">生词堆 <span class="ct" id="sub-pile-ct"></span></button></div>
     <div class="panel">
       <div class="levels" id="lv-cells"></div>
       <div class="filters">
@@ -836,6 +879,7 @@ body.lean .hint, body.lean .help{display:none!important}
 
   <!-- STATS -->
   <section id="tab-stats" class="grid" hidden>
+    <div class="subsw" role="tablist"><button type="button" data-sub="stats">进度</button><button type="button" data-sub="settings">设置与备份</button></div>
     <div class="panel" id="stats-main"></div>
     <aside class="side">
       <div class="panel help">
@@ -848,6 +892,7 @@ body.lean .hint, body.lean .help{display:none!important}
 
   <!-- SETTINGS -->
   <section id="tab-settings" class="grid" hidden>
+    <div class="subsw" role="tablist"><button type="button" data-sub="stats">进度</button><button type="button" data-sub="settings">设置与备份</button></div>
     <div class="side" style="gap:22px">
       <div class="panel">
         <h3 class="ph3">界面</h3>
@@ -912,9 +957,9 @@ body.lean .hint, body.lean .help{display:none!important}
 "use strict";
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const LANG={
-  pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["A1","A2","B1","B2"],gl:["zh","en","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
-  de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1"],gl:["zh","en"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
-  en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["B1","B2","C1","C2"],gl:["zh","def","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"}
+  pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["A1","A2","B1","B2"],gl:["en","zh","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
+  de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1"],gl:["en","zh"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
+  en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"}
 };
 const GLN={zh:"中文",en:"English",fr:"Français",def:"英文释义",de:"Deutsch"};
 const GLS={zh:"中",en:"EN",fr:"FR",def:"DEF",de:"DE"};
@@ -950,7 +995,7 @@ const I={
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
-  gloss:{pt:["zh","en","fr"],de:["zh","en"],en:["zh","def"]},goal:{pt:15,de:15,en:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"]}},
+  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"]},goal:{pt:15,de:15,en:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"]}},
   pt:blank(),de:blank(),en:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
 function merge(x){
@@ -963,6 +1008,7 @@ function merge(x){
 }
 let S=clone(DEF);
 try{ const r=localStorage.getItem(LS); if(r) S=merge(JSON.parse(r)); }catch(e){}
+if(!S.settings.glossEN){ S.settings.gloss={pt:["en","zh"],de:["en","zh"],en:["def","zh"]}; S.settings.glossEN=1; } // English first; French is now opt-in
 let saveWarned=false;
 function save(){
   S.updated=Date.now();
@@ -999,7 +1045,7 @@ const LV=()=>LANG[lang()].levels;
 function lg(){ const k=today(), lo=L().log; return lo[k]||(lo[k]={n:0,r:0,c:false}); }
 const goal=()=>planActive()?planQuota():S.settings.goal[lang()];
 const lvSel=()=>S.settings.levels[lang()].filter(v=>LV().includes(v));
-function glSel(){ const g=S.settings.gloss[lang()].filter(k=>LANG[lang()].gl.includes(k)); return g.length?g:["zh"]; }
+function glSel(){ const sel=S.settings.gloss[lang()]||[]; const g=LANG[lang()].gl.filter(k=>sel.includes(k)); return g.length?g:[LANG[lang()].gl[0]]; }
 let toastT=null;
 function toast(t){ const el=$("#toast"); el.textContent=t; el.hidden=false; clearTimeout(toastT); toastT=setTimeout(()=>el.hidden=true,2600); }
 const blobToDataURL=b=>new Promise((res,rej)=>{ const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=()=>rej(r.error); r.readAsDataURL(b); });
@@ -1466,7 +1512,7 @@ function highlight(ex,w){
 }
 function exHTML(c,all){
   if(!c.ex) return "";
-  const sel=all?["zh","en"]:glSel(); const tr=[]; if(sel.includes("zh")&&c.exzh) tr.push(c.exzh); if((sel.includes("en")||sel.includes("fr"))&&c.exen) tr.push(c.exen);
+  const sel=all?["zh","en"]:glSel(); const tr=[]; if((sel.includes("en")||sel.includes("def")||sel.includes("fr"))&&c.exen) tr.push(c.exen); if(sel.includes("zh")&&c.exzh) tr.push(c.exzh);
   if(!tr.length&&(c.exzh||c.exen)) tr.push(c.exzh||c.exen);
   return `<div class="ex"><div class="t">${highlight(c.ex,c.w)}</div>${tr.map(t=>`<div class="tr">${esc(t)}</div>`).join("")}</div>`;
 }
@@ -2238,7 +2284,7 @@ function renderStrip(){
   $("#s-new").textContent=log.n+" / "+g;
   $("#s-due").textContent=DATA[lang()]?dueList().length:"–";
   $("#s-streak").textContent=streak();
-  const pc=Object.keys(L().pile).length; $("#s-pile").textContent=pc; $("#t-pile").textContent=pc; $("#t-pile").hidden=!pc;
+  const pc=Object.keys(L().pile).length; $("#s-pile").textContent=pc; $("#t-pile").textContent=pc; $("#t-pile").hidden=!pc; $$(".subsw .ct").forEach(x=>x.textContent=pc||"");
   const b=$("#s-badge"); b.className="badge"+(log.c?" on":""); b.innerHTML=log.c?I.check+"今日已打卡":"今日未打卡";
   if(DATA[lang()]) renderPlan();
 }
@@ -2905,6 +2951,7 @@ const UI_DICT=[
 ["识别完成：{0} 段。检查一下再保存。", "Done: {0} paragraphs. Check them, then save.", "Fertig: {0} Absätze. Kurz prüfen, dann speichern.", "Pronto: {0} parágrafos. Confira e salve.", "識別完成：{0} 段。檢查一下再儲存。"],
 ["图片里没认出文字。", "No text found in the pictures.", "Kein Text in den Bildern gefunden.", "Nenhum texto encontrado nas imagens.", "圖片裡沒認出文字。"],
 ["我的课本", "My textbook", "Mein Lehrbuch", "Meu livro didático", "我的課本"],
+["更多", "More", "Mehr", "Mais", "更多"],
 ["我的文章", "My articles", "Meine Artikel", "Meus artigos", "我的文章"],
 ["推荐", "Reading list", "Lesetipps", "Leituras", "推薦"],
 ["标题（可选）", "Title (optional)", "Titel (optional)", "Título (opcional)", "標題（可選）"],
@@ -3046,7 +3093,9 @@ let cur="today";
 const TABS=["today","read","new","pile","browse","stats","settings"];
 function showTab(t){
   if(!TABS.includes(t)) t="today";
-  cur=t; $$("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  cur=t; const grp={pile:"browse",settings:"stats"}[t]||t;
+  $$("#tabs button").forEach(b=>{ b.setAttribute("aria-selected",b.dataset.tab===t); b.classList.toggle("grp-on",b.dataset.tab===grp); });
+  $$(".subsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.sub===t));
   TABS.forEach(k=>document.getElementById("tab-"+k).hidden=k!==t);
   if(t==="pile") renderPile(); if(t==="browse") renderBrowse(); if(t==="stats") renderStats();
   if(t==="settings"){ renderAISettings(); renderStorage(); renderBackupHint(); }
@@ -3055,6 +3104,7 @@ function showTab(t){
   try{ localStorage.setItem("pw-tab",t); }catch(e){}
 }
 $("#tabs").addEventListener("click",e=>{ const b=e.target.closest("[data-tab]"); if(b) showTab(b.dataset.tab); });
+document.addEventListener("click",e=>{ const b=e.target.closest(".subsw [data-sub]"); if(b) showTab(b.dataset.sub); });
 $("#langsw").addEventListener("click",e=>{ const b=e.target.closest("[data-l]"); if(!b||b.dataset.l===lang()) return; S.settings.lang=b.dataset.l; save(); applyLang(); });
 async function applyLang(){
   const l=lang(); document.body.dataset.lang=l;
