@@ -630,9 +630,12 @@ body.lean .hint, body.lean .help{display:none!important}
     <aside style="display:grid;gap:22px;min-width:0">
       <div class="panel mg-week" id="mg-week" hidden></div>
       <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3></summary>
+        <div class="row" style="margin-top:10px"><label class="btn sm filebtn">拍照<input type="file" id="mine-cam" accept="image/*" capture="environment" multiple></label><label class="btn sm filebtn">选择图片<input type="file" id="mine-pick" accept="image/*" multiple></label></div>
+        <label class="tog" id="mine-trrow" style="margin-top:8px"><input type="checkbox" id="mine-tr" checked> 生成英文对照和词汇表</label>
+        <p class="small muted" id="mine-msg" style="margin:6px 0 0"></p>
         <input type="text" id="mine-title" placeholder="标题（可选）" autocomplete="off" style="margin-top:10px">
         <textarea id="mine-text" rows="6" placeholder="粘贴一篇文章"></textarea>
-        <input type="url" id="mine-url" placeholder="原文链接（可选）" autocomplete="off" style="margin-top:6px">
+        <div class="row" style="margin-top:6px;flex-wrap:nowrap"><input type="url" id="mine-url" placeholder="原文链接（可选）" autocomplete="off"><select id="mine-lv" aria-label="级别（可选）" style="width:auto"><option value="">级别</option></select></div>
         <p class="note hint" style="margin:6px 0 0">只保存在这台设备上，不会上传。</p>
         <div class="row" style="margin-top:8px"><button class="btn primary sm" id="mine-add" type="button">保存并阅读</button></div>
         <div class="mg-arch" id="mine-list" style="margin-top:12px"></div>
@@ -1903,12 +1906,12 @@ async function mgRender(){
   }
   const easy=["A1","A2"].includes(it.level), qs=it.questions||[];
   const own=new Set(S[l].custom.flatMap(c=>{ const x=String(c.w||"").toLowerCase(); return [x,x.replace(ART,"")]; }));
-  h+=`<article class="mg-art${MG_MINOR.includes(it.kind)?" minor":""}${it.kind==="picks"?" picks":""}" lang="${l==="pt"?"pt-BR":l}">
+  h+=`<article class="mg-art${MG_MINOR.includes(it.kind)?" minor":""}${it.kind==="picks"?" picks":""}">
     <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
-    <h2 data-noi18n>${esc(it.title)}</h2>
-    ${it.dek?`<p class="mg-dek" data-noi18n>${esc(it.dek)}</p>`:""}
+    <h2 data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.title)}</h2>
+    ${it.dek?`<p class="mg-dek" data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.dek)}</p>`:""}
     <div class="mg-tools"><button class="ib" id="mg-say" aria-label="朗读全文">${I.spk}</button>${it.paragraphs_en&&it.paragraphs_en.length?`<button class="ib zhb" id="mg-enb" aria-pressed="${MG.tr==="en"}" aria-label="English translation">EN</button>`:""}${it.paragraphs_zh&&it.paragraphs_zh.length?`<button class="ib zhb" id="mg-zhb" aria-pressed="${MG.tr==="zh"}" aria-label="逐段中文">中</button>`:""}</div>
-    <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n>${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${MG.tr&&it["paragraphs_"+MG.tr]&&it["paragraphs_"+MG.tr][k]?`<span class="mg-zh mg-tr-${MG.tr}" lang="${MG.tr}">${esc(it["paragraphs_"+MG.tr][k])}</span>`:""}`).join("")}</div>
+    <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n lang="${l==="pt"?"pt-BR":l}">${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${MG.tr&&it["paragraphs_"+MG.tr]&&it["paragraphs_"+MG.tr][k]?`<span class="mg-zh mg-tr-${MG.tr}" lang="${MG.tr}">${esc(it["paragraphs_"+MG.tr][k])}</span>`:""}`).join("")}</div>
     ${it.kind==="picks"?mgPicks(it):""}
     ${it.grammar?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram">${esc(it.grammar)}</div></div>`:""}
     ${it.glossary&&it.glossary.length?`<div class="mg-blk"><h3>重点词汇</h3><dl class="mg-gl" data-noi18n>${it.glossary.map(g=>`<dt>${esc(g.w)}</dt><dd>${g.en?`<span lang="en">${esc(g.en)}</span>`:""}${g.zh?`<span class="${g.en?"gl-zh":""}" lang="zh">${esc(g.zh)}</span>`:""}</dd>`).join("")}</dl></div>`:""}
@@ -2003,7 +2006,9 @@ function mineSave(a){ try{ localStorage.setItem(MINEK,JSON.stringify(a)); return
 function mineItem(a){
   const paras=String(a.text).replace(/\r/g,"").split(/\n\s*\n|\n/).map(x=>x.replace(/\s+/g," ").trim()).filter(Boolean);
   let host=""; try{ host=a.url?new URL(a.url).hostname.replace(/^www\./,""):""; }catch(e){}
-  return {title:a.title,section:"我的文章",kind:"mine",level:null,paragraphs:paras,glossary:[],questions:[],sources:a.url?[{title:host||a.url,url:a.url}]:[]};
+  const dlg=paras.length>2&&paras.filter(x=>/^[^:：]{1,24}[:：]\s/.test(x)).length>=paras.length*0.6;
+  const fit=arr=>Array.isArray(arr)&&arr.length?arr:undefined;
+  return {title:a.title,section:a.src==="photo"?"我的课本":"我的文章",kind:dlg?"dialogue":"mine",level:a.level||null,paragraphs:paras,paragraphs_en:fit(a.paragraphs_en),paragraphs_zh:fit(a.paragraphs_zh),glossary:a.glossary||[],grammar:a.grammar||"",questions:[],sources:a.url?[{title:host||a.url,url:a.url}]:[]};
 }
 function mineAdd(){
   const ti=$("#mine-title"), tx=$("#mine-text"), ur=$("#mine-url");
@@ -2012,12 +2017,49 @@ function mineAdd(){
   if(!title){ const first=text.split(/\n/)[0].trim(); if(first.length<=140&&text.includes("\n")){ title=first; text=text.slice(first.length).trim(); } else title=text.slice(0,60).replace(/\s+\S*$/,"")+"…"; }
   let url=ur.value.trim(); if(url&&!/^https?:\/\//i.test(url)) url="https://"+url;
   const a={id:"m"+Date.now().toString(36),lang:lang(),title,text,url,added:new Date().toISOString().slice(0,10)};
-  const all=mineAll(); all.unshift(a); if(!mineSave(all.slice(0,60))) return;
-  ti.value=""; tx.value=""; ur.value="";
+  const lv=$("#mine-lv").value; if(lv) a.level=lv;
+  if(MINE_X&&MINE_X.lang===lang()){ ["paragraphs_en","paragraphs_zh","glossary","grammar"].forEach(k=>{ if(MINE_X[k]&&MINE_X[k].length) a[k]=MINE_X[k]; }); a.src="photo"; }
+  MINE_X=null; $("#mine-msg").textContent="";
+  const all=mineAll(); all.unshift(a); if(!mineSave(all.slice(0,200))) return;
+  ti.value=""; tx.value=""; ur.value=""; $("#mine-lv").value="";
   MG.mine=a.id; MG.tr=null; mgClose(); mgRender(); mineList(); window.scrollTo({top:$("#tabs").offsetTop,behavior:"smooth"});
 }
+/* photo → text (textbook pages): Claude reads the page; without a key, iPhone Live Text does it for free */
+let MINE_X=null, mineCtl=null;
+function mineLvOpts(){ const sel=$("#mine-lv"); if(!sel) return; const cur=sel.value; sel.innerHTML=`<option value="">${trOne("级别")||"级别"}</option>`+LANG[lang()].levels.map(v=>`<option${v===cur?" selected":""}>${v}</option>`).join(""); }
+function minePrompt(l,tr){
+  const n=LANG[l].ai;
+  return `These photos show pages of ${n} learning material (a textbook or course handout), in order.
+Transcribe the ${n} text exactly as printed, in reading order. Keep paragraphs; for dialogues write one line per speaker turn as "Name: text". Include short exercise sentences if they are part of the text, but skip page numbers, running headers and instructions written in other languages. Fix nothing and add nothing.
+Reply with ONLY JSON:
+{"title": "lesson or text title as printed, or a short title in ${n}",
+ "paragraphs": ["…"]${tr?`,
+ "paragraphs_en": ["natural English translation, one per paragraph, same count"],
+ "paragraphs_zh": ["Simplified Chinese translation, one per paragraph, same count"],
+ "glossary": [8–15 key words or phrases from the text: {"w": dictionary form (nouns with article, verbs in infinitive), "en": concise English meaning, "zh": short Simplified Chinese}],
+ "grammar": "one short note in English on the main grammar point of this text"`:""}}`;
+}
+async function mineScan(files){
+  const msg=$("#mine-msg"); if(!files||!files.length) return;
+  if(aiState!=="ready"){ msg.textContent="没有设置 API key：可以用 iPhone 的「实况文本」——在照片里长按文字，全选、拷贝，再粘贴到下面。"; return; }
+  const l=lang(), tr=$("#mine-tr").checked; let imgs;
+  try{ imgs=await Promise.all([...files].slice(0,6).map(f=>fileToB64(f,1800))); }catch(e){ msg.textContent="图片读不出来，换一张试试。"; return; }
+  msg.innerHTML=`<span class="spin"></span> AI 正在识别文字…（通常 20–60 秒）`;
+  mineCtl=new AbortController(); let r;
+  try{ r=parseJSON(await claudeCall(minePrompt(l,tr),tr?12000:6000,imgs.map(i=>({type:i.type,data:i.data})),mineCtl.signal)); }
+  catch(e){ msg.textContent=aiErr(e); return; } finally{ mineCtl=null; }
+  if(lang()!==l||!r||!Array.isArray(r.paragraphs)||!r.paragraphs.length){ msg.textContent="图片里没认出文字。"; return; }
+  const paras=r.paragraphs.map(x=>String(x).replace(/\s+/g," ").trim()).filter(Boolean);
+  $("#mine-title").value=String(r.title||"").trim();
+  $("#mine-text").value=paras.join("\n\n");
+  MINE_X={lang:l,paragraphs_en:Array.isArray(r.paragraphs_en)?r.paragraphs_en.map(String):[],paragraphs_zh:Array.isArray(r.paragraphs_zh)?r.paragraphs_zh.map(String):[],glossary:Array.isArray(r.glossary)?r.glossary.filter(g=>g&&g.w).map(g=>({w:String(g.w),en:String(g.en||""),zh:String(g.zh||"")})):[],grammar:String(r.grammar||"")};
+  msg.textContent=`识别完成：${paras.length} 段。检查一下再保存。`;
+}
+$("#mine-cam").addEventListener("change",e=>{ mineScan(e.target.files); e.target.value=""; });
+$("#mine-pick").addEventListener("change",e=>{ mineScan(e.target.files); e.target.value=""; });
 function mineList(){
-  const el=$("#mine-list"); if(!el) return; const l=lang(), rows=mineAll().filter(a=>a.lang===l);
+  const el=$("#mine-list"); if(!el) return; const l=lang(), rows=mineAll().filter(a=>a.lang===l); mineLvOpts();
+  const trrow=$("#mine-trrow"); if(trrow) trrow.hidden=aiState!=="ready";
   el.innerHTML=rows.length?rows.map(a=>`<button data-mine="${a.id}" aria-current="${MG.mine===a.id}"><span class="k">${esc(a.added.slice(5))}</span><span class="t" lang="${l}">${esc(a.title)}</span><span class="m">${mgRead("mine",a.id)?"✓":""}</span></button>`).join(""):`<p class="note">${esc(trOne("还没有保存的文章。")||"还没有保存的文章。")}</p>`;
   if(rows.length&&!$("#mine-box").open&&MG.mine) $("#mine-box").open=true;
 }
@@ -2293,7 +2335,7 @@ async function exportBackup(){
     for(const k of keys){ if(!want.has(k)) continue; const o=await IDB.get(k); if(o) media[k]={kind:o.kind,data:o.data,card:o.card}; }
   }catch(e){}
   S.lastBackup=Date.now(); save();
-  const payload={app:"palavra-wort",format:1,exported:new Date().toISOString(),state:S,media};
+  const payload={app:"palavra-wort",format:1,exported:new Date().toISOString(),state:S,media,mine:mineAll(),mgs:MGS};
   const blob=new Blob([JSON.stringify(payload)],{type:"application/json"});
   const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="palavra-wort-备份-"+today()+".json";
   document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },1500);
@@ -2309,7 +2351,7 @@ $("#bk-import").addEventListener("change",async e=>{
   let p; try{ p=JSON.parse(await f.text()); }catch(err){ $("#bk-msg").textContent="这个文件读不出来，不是有效的备份。"; return; }
   if(!p||p.app!=="palavra-wort"||!p.state){ $("#bk-msg").textContent="这不是字里行间（Palavra & Wort）的备份文件。"; return; }
   pendingImport=p;
-  const st=merge(p.state); const own=Object.keys(LANG).map(l=>`${LANG[l].zh} ${st[l].custom.length} 个自录词、${Object.keys(st[l].srs).length} 个学习记录`).join("；");
+  const st=merge(p.state); const own=Object.keys(LANG).map(l=>`${LANG[l].zh} ${st[l].custom.length} 个自录词、${Object.keys(st[l].srs).length} 个学习记录`).join("；")+(Array.isArray(p.mine)&&p.mine.length?"；我的文章 "+p.mine.length+" 篇":"");
   $("#bk-confirm").innerHTML=`<div class="confirm"><b>导入会替换这台设备上现在的全部数据。</b><br>备份时间：${esc(new Date(p.exported).toLocaleString(uiLocale()))}<br>内容：${esc(own)}；图片和录音 ${Object.keys(p.media||{}).length} 个。
     <div class="row" style="margin-top:10px"><button class="btn danger sm" id="bk-yes" type="button">确认导入</button><button class="btn ghost sm" id="bk-no" type="button">取消</button></div></div>`;
   $("#bk-no").onclick=()=>{ pendingImport=null; $("#bk-confirm").innerHTML=""; };
@@ -2321,6 +2363,8 @@ async function doImport(){
   MEDC.clear();
   const keepLang=S.settings.lang; S=merge(p.state); if(!S.lastBackup) S.lastBackup=Date.now(); save();
   $("#bk-msg").textContent="导入完成。";
+  if(Array.isArray(p.mine)&&p.mine.length){ const have=mineAll(), ids=new Set(have.map(a=>a.id)); mineSave([...have,...p.mine.filter(a=>a&&a.id&&!ids.has(a.id))].slice(0,200)); }
+  if(p.mgs&&p.mgs.read){ MGS.read=Object.assign({},p.mgs.read,MGS.read); mgSave(); }
   if(S.settings.lang!==keepLang||true) await applyLang();
 }
 
@@ -2826,6 +2870,14 @@ const UI_DICT=[
 ["逐段中文", "Chinese translation", "Chinesische Übersetzung", "Tradução em chinês", "逐段中文"],
 ["朗读文本", "Read text aloud", "Text vorlesen", "Ler texto em voz alta", "朗讀文字"],
 ["朗读语音", "Reading voice", "Vorlesestimme", "Voz de leitura", "朗讀語音"],
+["生成英文对照和词汇表", "Add English translation and glossary", "Englische Übersetzung und Glossar erstellen", "Gerar tradução em inglês e glossário", "生成英文對照和詞彙表"],
+["级别", "Level", "Niveau", "Nível", "級別"],
+["级别（可选）", "Level (optional)", "Niveau (optional)", "Nível (opcional)", "級別（可選）"],
+["没有设置 API key：可以用 iPhone 的「实况文本」——在照片里长按文字，全选、拷贝，再粘贴到下面。", "No API key set: use iPhone Live Text — long-press the text in the photo, select all, copy and paste it below.", "Kein API-Schlüssel: Nutze Live Text auf dem iPhone – im Foto lange auf den Text drücken, alles auswählen, kopieren und unten einfügen.", "Sem chave de API: use o Texto ao Vivo do iPhone – toque e segure o texto na foto, selecione tudo, copie e cole abaixo.", "沒有設定 API key：可以用 iPhone 的「實況文字」——在照片里長按文字，全選、複製，再貼上到下面。"],
+["AI 正在识别文字…（通常 20–60 秒）", "AI is reading the pages… (usually 20–60 s)", "Die KI liest die Seiten … (meist 20–60 s)", "A IA está lendo as páginas… (geralmente 20–60 s)", "AI 正在識別文字…（通常 20–60 秒）"],
+["识别完成：{0} 段。检查一下再保存。", "Done: {0} paragraphs. Check them, then save.", "Fertig: {0} Absätze. Kurz prüfen, dann speichern.", "Pronto: {0} parágrafos. Confira e salve.", "識別完成：{0} 段。檢查一下再儲存。"],
+["图片里没认出文字。", "No text found in the pictures.", "Kein Text in den Bildern gefunden.", "Nenhum texto encontrado nas imagens.", "圖片裡沒認出文字。"],
+["我的课本", "My textbook", "Mein Lehrbuch", "Meu livro didático", "我的課本"],
 ["我的文章", "My articles", "Meine Artikel", "Meus artigos", "我的文章"],
 ["推荐", "Reading list", "Lesetipps", "Leituras", "推薦"],
 ["标题（可选）", "Title (optional)", "Titel (optional)", "Título (opcional)", "標題（可選）"],
@@ -2905,6 +2957,7 @@ for(const r of UI_DICT){
 }
 UI_PAT.sort((a,b)=>b.lit-a.lit);
 function trOne(t,depth){
+  if(UIL==="zh") return t;
   const r=UI_EXACT.get(t); if(r) return r[UIX[UIL]];
   if((depth||0)>2) return null;
   for(const p of UI_PAT){ const m=t.match(p.re); if(!m) continue; if(m.slice(1).some(a=>/[，。；]/.test(a))) continue; let out=p.row[UIX[UIL]];
