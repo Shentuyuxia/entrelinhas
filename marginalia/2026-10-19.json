@@ -354,6 +354,125 @@
     "Como a Ana paga?"
    ],
    "sources": []
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lesetipps",
+   "title": "Lesetipps für heute",
+   "dek": "Fünf Texte zum Selberlesen: Kommentar, Reportage, Sprache.",
+   "paragraphs": [],
+   "picks": [
+    {
+     "outlet": "Tagesspiegel",
+     "genre": "Kommentar · Wirtschaft",
+     "title": "Berlin auf dem Weg zur Vergesellschaftung: Ein Triumph für die Linken – mit ungewissem Ausgang",
+     "author": "Daniel Böldt",
+     "url": "https://www.tagesspiegel.de/berlin/berlin-auf-dem-weg-zur-vergesellschaftung-ein-triumph-fur-die-linken--mit-ungewissem-ausgang-16173435.html",
+     "zh": "评论：柏林三党同意把万套以上的大房企收归公有。作者认为时间表、诉讼和补偿上限都悬而未决，短期内对房租的影响也有限。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Bildung",
+     "title": "Protest statt Physiktest",
+     "url": "https://taz.de/Schulblockaden-in-Berlin/!6222186/",
+     "zh": "柏林学生封锁两所学校，抗议教育经费削减和联邦国防军进校园。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Feminismus",
+     "title": "Solidarisches Rudelgucken",
+     "url": "https://taz.de/Frauensport-boomt/!6221513/",
+     "zh": "女子体育热潮：Honeyball Club 为女性和性少数群体组织公开观赛。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Gesellschaft",
+     "title": "An der Toleranzgrenze",
+     "url": "https://taz.de/Queerfeindlichkeit-unter-Jugendlichen/!6218182/",
+     "zh": "荷兰青少年对同性恋的接受度明显下降。记者走进一所学校，看能做些什么。"
+    },
+    {
+     "outlet": "Deutsch Perfekt",
+     "genre": "Sprache",
+     "title": "Na, wie sprichst du denn?",
+     "url": "https://www.deutsch-perfekt.com/deutsch-lesen/na-wie-sprichst-du-denn",
+     "zh": "为什么奥地利人和德国人有时互相听不懂？德语变体的入门读物。"
+    }
+   ],
+   "glossary": [],
+   "questions": [],
+   "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "picks",
+   "section": "Reading list",
+   "title": "Today's reading list",
+   "dek": "Six pieces worth reading in full, from science to economics. Open them on the original sites.",
+   "paragraphs": [],
+   "picks": [
+    {
+     "outlet": "The New Yorker",
+     "genre": "Science",
+     "title": "How Tree Rings Challenged the Myth of American Wilderness",
+     "author": "M. R. O'Connor",
+     "url": "https://www.newyorker.com/science/elements/how-tree-rings-challenged-the-myth-of-american-wilderness",
+     "zh": "树木年轮里的火疤显示：欧洲殖民者眼中“未经开垦的荒野”，其实早被原住民用火长期管理。科学与历史叙事交织的长文。（经 Longreads 推荐）"
+    },
+    {
+     "outlet": "Aeon",
+     "genre": "Linguistics",
+     "title": "Bitch: a history",
+     "author": "Karen Stollznow",
+     "url": "https://aeon.co/essays/what-the-evolution-of-bitch-says-about-gender-and-power",
+     "zh": "一个词的变迁史：它怎样在词性、动物和性别之间游走，又折射出性别与权力的关系。语言学加性别研究。"
+    },
+    {
+     "outlet": "Aeon",
+     "genre": "Language & AI",
+     "title": "Methodical banality",
+     "author": "Hannah Katznelson",
+     "url": "https://aeon.co/essays/who-needs-ai-text-generation-when-theres-erasmus-of-rotterdam",
+     "zh": "把 16 世纪伊拉斯谟等人文主义者“批量生产文章”的方法，和今天的大语言模型放在一起比较。"
+    },
+    {
+     "outlet": "Rest of World",
+     "genre": "Technology",
+     "title": "What the West can learn from AI optimists in the rest of the world",
+     "author": "Payal Arora",
+     "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/",
+     "zh": "作者认为，西方对 AI 多是焦虑，而许多发展中国家的人更看重它的实际好处；资源有限反而逼出了更务实的用法。"
+    },
+    {
+     "outlet": "Jacobin",
+     "genre": "Economics",
+     "title": "Tax the Rich and Slash the Military Budget",
+     "author": "Nancy Folbre",
+     "url": "https://jacobin.com/2026/10/inequality-taxation-defense-spending-welfare-state",
+     "zh": "女性主义经济学家 Folbre 论证：对财富和资本按工资同等税率征税、削减军费，就能为美国的全民托育、全民医保和社会住房买单。"
+    },
+    {
+     "outlet": "Dissent",
+     "genre": "International",
+     "title": "A Blood-Red Tide",
+     "author": "Andre Pagliarini",
+     "url": "https://dissentmagazine.org/online_articles/blood-red-tide-flavio-bolsonaro-lula-brazil/",
+     "zh": "巴西大选首轮弗拉维奥·博索纳罗领先卢拉。作者把它放进拉美整体右转的背景里，同时认为卢拉的执政成绩被低估了。正好配合你学葡语。"
+    }
+   ],
+   "note": "今天没有在可访问的推荐来源里找到 Guardian 或 The Atlantic 的文章；以后它们一旦被 Longreads 等推荐，就会出现在这里。",
+   "glossary": [],
+   "questions": [],
+   "sources": [
+    {
+     "title": "Longreads",
+     "url": "https://longreads.com/",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

@@ -339,6 +339,17 @@ ol.steps li{margin:3px 0}
 .mg-w.saved{text-decoration:underline dotted var(--acc);text-underline-offset:4px;text-decoration-thickness:1.5px}
 .mg-w.on{background:var(--acc-soft)}
 .mg-blk{border-top:1px solid var(--line);padding-top:12px;margin-top:22px}
+.mg-art.picks .mg-tools,.mg-art.picks .mg-body{display:none}
+.mg-picks{list-style:none;margin:6px 0 0;padding:0;counter-reset:pk}
+.mg-picks li{border-top:1px solid var(--line)}
+.mg-picks li:last-child{border-bottom:1px solid var(--line)}
+.mg-picks .pk{display:grid;gap:3px;padding:14px 2px;color:inherit;text-decoration:none}
+.mg-picks .pk:hover .pk-t{color:var(--acc)}
+.pk-o{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}
+.pk-t{font-family:var(--f-word);font-size:19px;line-height:1.35}
+.pk-t::after{content:" ↗";color:var(--muted);font-size:.8em}
+.pk-a{font-size:13px;color:var(--muted)}
+.pk-z{font-size:14.5px;color:var(--ink);opacity:.85;line-height:1.6}
 .mg-blk h3{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
 .mg-gl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:5px 14px;margin:0}
 .mg-gl dt{font-family:var(--f-word);font-weight:600}
@@ -1833,8 +1844,8 @@ const MG={mine:null,idx:null,days:{},di:0,key:null,zh:false,err:"",loading:false
 const MGK="marginalia-v1";
 let MGS=(()=>{ try{ return JSON.parse(localStorage.getItem(MGK))||{}; }catch(e){ return {}; } })(); MGS.read=MGS.read||{};
 function mgSave(){ try{ localStorage.setItem(MGK,JSON.stringify(MGS)); }catch(e){} }
-const MG_KIND={news:"新闻",brief:"短讯",short:"短评",essay:"随笔",feature:"专题",story:"故事",dialogue:"对话"};
-const MG_ORD=it=>it.hour?10:({dialogue:1,short:2,brief:3}[it.kind]||0);
+const MG_KIND={picks:"推荐",news:"新闻",brief:"短讯",short:"短评",essay:"随笔",feature:"专题",story:"故事",dialogue:"对话"};
+const MG_ORD=it=>it.hour?10:({dialogue:1,short:2,brief:3,picks:4}[it.kind]||0);
 const MG_MINOR=["brief","short","dialogue"];
 const MG_ETA={de:"07:00",en:"12:30",pt:"20:00"};
 async function mgGet(p){ const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }
@@ -1888,12 +1899,13 @@ async function mgRender(){
   }
   const easy=["A1","A2"].includes(it.level), qs=it.questions||[];
   const own=new Set(S[l].custom.flatMap(c=>{ const x=String(c.w||"").toLowerCase(); return [x,x.replace(ART,"")]; }));
-  h+=`<article class="mg-art${MG_MINOR.includes(it.kind)?" minor":""}" lang="${l==="pt"?"pt-BR":l}">
+  h+=`<article class="mg-art${MG_MINOR.includes(it.kind)?" minor":""}${it.kind==="picks"?" picks":""}" lang="${l==="pt"?"pt-BR":l}">
     <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
     <h2 data-noi18n>${esc(it.title)}</h2>
     ${it.dek?`<p class="mg-dek" data-noi18n>${esc(it.dek)}</p>`:""}
     <div class="mg-tools"><button class="ib" id="mg-say" aria-label="朗读全文">${I.spk}</button>${it.paragraphs_zh&&it.paragraphs_zh.length?`<button class="ib zhb" id="mg-zhb" aria-pressed="${MG.zh}" aria-label="逐段中文">中</button>`:""}</div>
     <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n>${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${MG.zh&&it.paragraphs_zh&&it.paragraphs_zh[k]?`<span class="mg-zh" lang="zh">${esc(it.paragraphs_zh[k])}</span>`:""}`).join("")}</div>
+    ${it.kind==="picks"?mgPicks(it):""}
     ${it.grammar?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram" lang="zh">${esc(it.grammar)}</div></div>`:""}
     ${it.glossary&&it.glossary.length?`<div class="mg-blk"><h3>重点词汇</h3><dl class="mg-gl" data-noi18n>${it.glossary.map(g=>`<dt>${esc(g.w)}</dt><dd lang="zh">${esc(g.zh)}</dd>`).join("")}</dl></div>`:""}
     ${qs.length?`<div class="mg-blk"><h3>想一想</h3><ol class="mg-q" data-noi18n>${qs.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></div>`:""}
@@ -2004,6 +2016,10 @@ function mineList(){
   const el=$("#mine-list"); if(!el) return; const l=lang(), rows=mineAll().filter(a=>a.lang===l);
   el.innerHTML=rows.length?rows.map(a=>`<button data-mine="${a.id}" aria-current="${MG.mine===a.id}"><span class="k">${esc(a.added.slice(5))}</span><span class="t" lang="${l}">${esc(a.title)}</span><span class="m">${mgRead("mine",a.id)?"✓":""}</span></button>`).join(""):`<p class="note">${esc(trOne("还没有保存的文章。")||"还没有保存的文章。")}</p>`;
   if(rows.length&&!$("#mine-box").open&&MG.mine) $("#mine-box").open=true;
+}
+/* reading list: links to original articles the reader opens herself */
+function mgPicks(it){
+  return `<ol class="mg-picks">${(it.picks||[]).map(p=>`<li><a class="pk" href="${esc(p.url)}" target="_blank" rel="noopener"><span class="pk-o">${esc(p.outlet||"")}${p.genre?` · ${esc(p.genre)}`:""}${p.minutes?` · ${esc(p.minutes)} min`:""}</span><span class="pk-t" lang="${esc(p.lang||it.lang)}" data-noi18n>${esc(p.title)}</span>${p.author?`<span class="pk-a" data-noi18n>${esc(p.author)}</span>`:""}${p.zh?`<span class="pk-z" lang="zh" data-noi18n>${esc(p.zh)}</span>`:""}</a></li>`).join("")}</ol>${it.note?`<p class="note" style="margin-top:12px">${esc(it.note)}</p>`:""}`;
 }
 /* word sheet */
 function mgSentenceOf(node){ const s=node&&(node.closest?node.closest(".s"):node.parentElement&&node.parentElement.closest(".s")); return s?s.textContent:""; }
@@ -2795,6 +2811,7 @@ const UI_DICT=[
 ["朗读文本","Read text aloud","Text vorlesen","Ler texto em voz alta"],
 ["朗读语音","Reading voice","Vorlesestimme","Voz de leitura"],
 ["我的文章","My articles","Meine Artikel","Meus artigos"],
+["推荐","Reading list","Lesetipps","Leituras"],
 ["标题（可选）","Title (optional)","Titel (optional)","Título (opcional)"],
 ["粘贴一篇文章","Paste an article","Artikel einfügen","Cole um artigo"],
 ["原文链接（可选）","Link to the original (optional)","Link zum Original (optional)","Link do original (opcional)"],

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T05:46:02+00:00",
+ "updated": "2026-10-19T06:16:27+00:00",
  "days": [
   {
    "date": "2026-10-19",
@@ -42,6 +42,22 @@
      "title": "Na feira",
      "kind": "dialogue",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
+     "level": "C2",
      "hour": null
     }
    ]
