@@ -1,6 +1,51 @@
 {
- "updated": "2026-10-18T19:40:30+00:00",
+ "updated": "2026-10-19T05:46:02+00:00",
  "days": [
+  {
+   "date": "2026-10-19",
+   "items": [
+    {
+     "i": 0,
+     "lang": "de",
+     "title": "Ein Haus ohne Adresse",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Region Hannover: 3.735 Jugendliche wählen probeweise",
+     "kind": "brief",
+     "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "en",
+     "title": "Pregnant, and in detention",
+     "kind": "feature",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Onde está o Bolinha?",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Na feira",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-18",
    "items": [

@@ -1,0 +1,359 @@
+{
+ "date": "2026-10-19",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "feature",
+   "section": "Migration",
+   "title": "Ein Haus ohne Adresse",
+   "dek": "In Rabat finden Migrantinnen auf dem Weg nach Europa Schutz in einem Frauenhaus, das auf keiner Karte steht. Ein Blick auf die andere Seite der europäischen Grenzpolitik.",
+   "paragraphs": [
+    "Wer das Frauenhaus Maison Baobab sucht, findet es auf keiner Karte. Die genaue Lage in Marokkos Hauptstadt Rabat bleibt geheim; Frauen erfahren davon nur über Beratungsstellen. Seit 2015 bietet die Einrichtung Migrantinnen und ihren Kindern einen Ort, an dem sie etwa drei Monate lang kostenlos wohnen, essen und zur Ruhe kommen können. Rund 50 Frauen und Kinder finden gleichzeitig Platz, verteilt auf drei Wohnungen.",
+    "Getragen wird das Haus von Arcom, einem Verein von Geflüchteten und Migrantengemeinschaften in Marokko. Gegründet hat ihn der Kongolese Emmanuel Mbolela, der selbst jahrelang in Marokko festsaß, bevor er 2008 in den Niederlanden Asyl erhielt. Finanziert wird die Arbeit über Spenden, unter anderem von der Hilfsorganisation Medico International. Pro Person rechnet der Verein mit etwa 75 Euro im Monat.",
+    "Die Bewohnerinnen kommen aus dem Sudan, aus Äthiopien, der Elfenbeinküste oder Gabun. Manche sind vor Krieg geflohen, andere vor einer Zwangsheirat oder vor Gewalt in der Partnerschaft. Viele haben unterwegs sexualisierte Gewalt erlebt: Einer Studie zufolge betrifft das mehr als drei Viertel der Frauen auf dieser Route. Zu den Tätern gehören Schlepper, aber auch Grenzbeamte und Polizisten.",
+    "Das Haus bietet deshalb mehr als ein Bett: medizinische Versorgung, Alphabetisierungs- und Sprachkurse in Französisch, Englisch und Arabisch, Näh- und Computerkurse und Unterricht für die Kinder. Ein Teil des Teams hat selbst Migrationserfahrung. Draußen dagegen raten die Mitarbeiterinnen zur Vorsicht, denn Razzien in den Vierteln, in denen viele Menschen aus Subsahara-Afrika leben, sind keine Seltenheit.",
+    "Der politische Rahmen ist widersprüchlich. Marokko hat kein funktionierendes nationales Asylsystem, doch die Zahl der Schutzsuchenden ist deutlich gestiegen. Beim UN-Flüchtlingshilfswerk sind über 23.000 Geflüchtete und Asylsuchende registriert; Schätzungen zur Zahl der Menschen ohne Papiere reichen bis 700.000. Zugleich zahlt die Europäische Union: Zwischen 2021 und 2023 flossen rund 193 Millionen Euro für Migrationsprogramme nach Marokko. Kritiker sprechen von einer Auslagerung der europäischen Grenzkontrolle.",
+    "Für die Frauen bleibt das Haus eine Zwischenstation. Manche wollen weiter nach Europa, obwohl sie den Weg über das Meer fürchten; andere versuchen, sich in Marokko ein Leben aufzubauen. Was die Einrichtung leisten kann, ist begrenzt. Für einige Wochen ist sie aber ein Ort, an dem niemand fragt, woher man kommt, sondern was man braucht."
+   ],
+   "glossary": [
+    {
+     "w": "das Frauenhaus",
+     "zh": "妇女庇护所"
+    },
+    {
+     "w": "zur Ruhe kommen",
+     "zh": "安顿下来、平静下来"
+    },
+    {
+     "w": "etwas tragen (einen Verein)",
+     "zh": "主办、承担（机构）"
+    },
+    {
+     "w": "festsitzen",
+     "zh": "被困（某地）"
+    },
+    {
+     "w": "die Zwangsheirat",
+     "zh": "强迫婚姻"
+    },
+    {
+     "w": "sexualisierte Gewalt",
+     "zh": "性暴力"
+    },
+    {
+     "w": "der Schlepper",
+     "zh": "蛇头、偷渡中介"
+    },
+    {
+     "w": "die Razzia",
+     "zh": "突击搜查"
+    },
+    {
+     "w": "widersprüchlich",
+     "zh": "矛盾的"
+    },
+    {
+     "w": "die Auslagerung",
+     "zh": "外包、转移（责任）"
+    },
+    {
+     "w": "die Zwischenstation",
+     "zh": "中转站"
+    }
+   ],
+   "grammar": "被动态放在句首强调：「Getragen wird das Haus von Arcom」「Finanziert wird die Arbeit über Spenden」。把第二分词（getragen / finanziert）提到句首，重点落在“由谁、怎样”上，这是德语报刊很常见的写法。",
+   "questions": [
+    "Warum bleibt die Adresse des Frauenhauses geheim?",
+    "Was kritisieren Fachleute an den Zahlungen der EU an Marokko?",
+    "Welches Angebot des Hauses halten Sie für am wichtigsten – und warum?"
+   ],
+   "sources": [
+    {
+     "title": "taz: Frauenhaus Maison Baobab – „Hier sind sie sicher“ (9.10.2026)",
+     "url": "https://taz.de/Frauenhaus-Maison-Baobab/!6214529/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "B2",
+   "kind": "brief",
+   "section": "Hannover",
+   "title": "Region Hannover: 3.735 Jugendliche wählen probeweise",
+   "paragraphs": [
+    "Zum ersten Mal hat die Region Hannover eine U16-Wahl veranstaltet. Zwischen dem 24. August und dem 4. September konnten Kinder und Jugendliche unter 16 Jahren in 75 Wahllokalen ihre Stimme für die Regionsversammlung abgeben – symbolisch, denn das Ergebnis hatte keinen Einfluss auf die Kommunalwahl am 13. September.",
+    "Mitgemacht haben 16 der 21 Städte und Gemeinden der Region, insgesamt 3.735 junge Menschen. Die meisten waren zwischen 13 und 15 Jahre alt. In einer begleitenden, nicht repräsentativen Umfrage sagte gut die Hälfte, es sei ihnen sehr wichtig, in der Lokalpolitik gehört zu werden. Informiert hatten sie sich vor allem in der Schule.",
+    "Die Region will die Ergebnisse nun gemeinsam mit Jugendlichen auswerten und daraus neue Angebote zur Demokratiebildung entwickeln. Die Idee dahinter: Demokratie nicht nur erklären, sondern erleben lassen."
+   ],
+   "glossary": [
+    {
+     "w": "probeweise",
+     "zh": "试验性地、模拟地"
+    },
+    {
+     "w": "die Stimme abgeben",
+     "zh": "投票"
+    },
+    {
+     "w": "die Regionsversammlung",
+     "zh": "（汉诺威）大区议会"
+    },
+    {
+     "w": "das Wahllokal",
+     "zh": "投票站"
+    },
+    {
+     "w": "auswerten",
+     "zh": "评估、分析"
+    },
+    {
+     "w": "die Demokratiebildung",
+     "zh": "民主教育"
+    }
+   ],
+   "questions": [
+    "Warum war die U16-Wahl nur symbolisch?",
+    "Sollte das Wahlalter bei Kommunalwahlen sinken? Begründen Sie kurz."
+   ],
+   "sources": [
+    {
+     "title": "hannover.de: Erste U16-Wahl – 3.735 junge Menschen geben Stimme ab (8.10.2026)",
+     "url": "https://www.hannover.de/Aus-Stadt-Region/Erste-U16-Wahl-3.735-junge-Menschen-geben-Stimme-ab",
+     "license": "official"
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "feature",
+   "section": "Migration & Gender",
+   "title": "Pregnant, and in detention",
+   "dek": "One woman's months in an immigration detention centre in Texas show how little the public knows about pregnant people in ICE custody.",
+   "paragraphs": [
+    "When Maria went to a routine check-in at an immigration office in Dallas in October 2025, she expected to sign a form and go home. She asked to be identified only by her first name. She was pregnant and 41 years old, she had an asylum application dating back to 2012, and she had no criminal record. Instead she was detained, and she spent roughly six months at the Bluebonnet Detention Center in Anson, a small town in West Texas.",
+    "Her account, reported this month by The Marshall Project in partnership with The 19th, is unsettling less for any single dramatic moment than for its slow accumulation of neglect. She describes meals that were cold and undercooked, prenatal vitamins that ran out for up to two weeks at a time, and nutritional drinks, prescribed by a doctor, that arrived only sporadically. Over the course of her pregnancy she developed low iron, high blood pressure and gestational diabetes, and she gained far less weight than obstetric guidelines recommend. No one, she says, gave her a plan for the birth.",
+    "In April 2026, when she was eight months pregnant, ICE released her without explanation. Her daughter was born in June. Her legal case, however, has gone against her: an immigration judge issued a removal order in the spring and her appeal was rejected in July, so every future check-in carries the possibility of being detained again.",
+    "How typical is her experience? The question is harder to answer than it should be. A 2021 ICE policy largely discourages detaining pregnant people, yet judges disagree about how binding it is. A requirement that the Department of Homeland Security publish annual figures on detained pregnant people lapsed in March 2025, and records suggest the department stopped tracking miscarriages in custody later that year. What data exist are fragments: nearly five hundred pregnant, postpartum or nursing women released from detention between early 2025 and early 2026, and more than three hundred deported in the first six weeks of 2025 alone.",
+    "Medical experts interviewed for the report stress that pregnancy raises the stakes of ordinary institutional failures. A diet that is merely unpleasant for most detainees can be dangerous for a woman who needs more calories and micronutrients, and undercooked meat carries specific risks. Advocacy groups that track pregnancies in detention describe poor nutrition as a recurring complaint rather than an exception. The department has in the past rejected allegations of mistreatment and insisted that its facilities meet high standards; ICE did not respond to the reporters' questions.",
+    "The larger issue is what a government chooses to count. A policy can look humane on paper, but without data, oversight depends on individual women being willing to tell their stories, and on journalists finding them. Maria's case is a single story. It is also a measure of how little else is known."
+   ],
+   "glossary": [
+    {
+     "w": "check-in",
+     "zh": "（移民局）定期报到"
+    },
+    {
+     "w": "to detain",
+     "zh": "拘留、羁押"
+    },
+    {
+     "w": "accumulation",
+     "zh": "累积"
+    },
+    {
+     "w": "sporadically",
+     "zh": "零星地、断断续续地"
+    },
+    {
+     "w": "gestational diabetes",
+     "zh": "妊娠糖尿病"
+    },
+    {
+     "w": "removal order",
+     "zh": "驱逐令"
+    },
+    {
+     "w": "to lapse",
+     "zh": "（规定）失效、终止"
+    },
+    {
+     "w": "postpartum",
+     "zh": "产后的"
+    },
+    {
+     "w": "to raise the stakes",
+     "zh": "使后果更严重、风险更高"
+    },
+    {
+     "w": "oversight",
+     "zh": "监督"
+    }
+   ],
+   "questions": [
+    "Why does the author say the case is unsettling 'less for any single dramatic moment'?",
+    "What has made it harder to know how many pregnant people are detained?",
+    "Is personal testimony enough to drive policy change, or is data indispensable? Argue one side in three sentences."
+   ],
+   "sources": [
+    {
+     "title": "The Marshall Project / The 19th: The 'Nightmare' of Being Pregnant in an ICE Detention Camp (14 Oct 2026)",
+     "url": "https://www.themarshallproject.org/2026/10/14/texas-ice-woman-pregnant-immigrant",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Tito e Ana",
+   "series": {
+    "name": "Tito e Ana",
+    "episode": 3
+   },
+   "title": "Onde está o Bolinha?",
+   "dek": "O Tito ajuda a procurar um amigo.",
+   "paragraphs": [
+    "Hoje é terça-feira. De manhã tem sol, mas à tarde o céu fica cinza.",
+    "A Ana está na cozinha. Ela faz um bolo de banana. A casa tem um cheiro muito bom.",
+    "De repente, alguém bate na porta: toc, toc. É a Dona Rosa. — Ana, você viu o Bolinha? Ele saiu e não voltou!",
+    "A Ana pega um guarda-chuva. O Tito olha pela janela. Começa a chover.",
+    "A Ana e a Dona Rosa procuram o Bolinha na rua. — Bolinha! Bolinha! Mas o cachorro não aparece.",
+    "O Tito sobe na janela e mia alto: miau! Ele olha para o jardim. Debaixo da árvore tem um cachorro marrom, todo molhado.",
+    "— Olha, Dona Rosa! O Tito achou o Bolinha! — diz a Ana.",
+    "O Bolinha entra na casa amarela. Ele está com frio. A Ana pega uma toalha. O Tito deita perto do cachorro.",
+    "— Agora vocês são amigos — diz a Dona Rosa, e sorri. Todos comem bolo de banana. Lá fora, a chuva continua."
+   ],
+   "paragraphs_zh": [
+    "今天是星期二。早上有太阳，可是下午天变灰了。",
+    "安娜在厨房里。她在做香蕉蛋糕。家里闻起来很香。",
+    "突然，有人敲门：咚，咚。是罗莎太太。“安娜，你看见波利尼亚了吗？它出去了，没有回来！”",
+    "安娜拿起一把雨伞。蒂托从窗户往外看。开始下雨了。",
+    "安娜和罗莎太太在街上找波利尼亚。“波利尼亚！波利尼亚！”可是狗没有出现。",
+    "蒂托爬上窗台，大声叫：喵！它看着花园。树底下有一只棕色的狗，全身湿透了。",
+    "“看，罗莎太太！蒂托找到波利尼亚了！”安娜说。",
+    "波利尼亚走进黄色的房子。它觉得冷。安娜拿来一条毛巾。蒂托躺在狗的旁边。",
+    "“现在你们是朋友了，”罗莎太太说，笑了起来。大家一起吃香蕉蛋糕。外面，雨还在下。"
+   ],
+   "glossary": [
+    {
+     "w": "a terça-feira",
+     "zh": "星期二"
+    },
+    {
+     "w": "o bolo",
+     "zh": "蛋糕"
+    },
+    {
+     "w": "bater na porta",
+     "zh": "敲门"
+    },
+    {
+     "w": "o guarda-chuva",
+     "zh": "雨伞"
+    },
+    {
+     "w": "procurar",
+     "zh": "寻找"
+    },
+    {
+     "w": "miar / mia",
+     "zh": "（猫）叫 · ele mia 它喵喵叫"
+    },
+    {
+     "w": "achar",
+     "zh": "找到（巴西常用）；也指“认为”"
+    },
+    {
+     "w": "molhado",
+     "zh": "湿的"
+    },
+    {
+     "w": "a toalha",
+     "zh": "毛巾"
+    },
+    {
+     "w": "estar com frio",
+     "zh": "觉得冷"
+    }
+   ],
+   "grammar": "estar com + 名词，表示一时的感觉：estar com frio（冷）、estar com fome（饿）、estar com medo（害怕）。和英语 to be cold 不同，葡语说“和冷在一起”。",
+   "questions": [
+    "Que dia é hoje?",
+    "O que a Ana faz na cozinha?",
+    "Quem acha o Bolinha?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Na feira",
+   "paragraphs": [
+    "Ana: Bom dia! Quanto custa o quilo da banana?",
+    "Feirante: Bom dia! O quilo custa seis reais.",
+    "Ana: Está bom. Eu quero dois quilos, por favor.",
+    "Feirante: Dois quilos de banana. Mais alguma coisa?",
+    "Ana: Tem manga?",
+    "Feirante: Tem, sim. Estão bem doces hoje. É três por dez reais.",
+    "Ana: Então eu quero três mangas.",
+    "Feirante: Pronto. Banana e manga: são vinte e dois reais.",
+    "Ana: Posso pagar com Pix?",
+    "Feirante: Pode, claro. A chave está aqui na placa.",
+    "Ana: Pronto, paguei. Obrigada!",
+    "Feirante: Eu que agradeço. Até a semana que vem!"
+   ],
+   "paragraphs_zh": [
+    "安娜：早上好！香蕉一公斤多少钱？",
+    "摊主：早上好！一公斤六雷亚尔。",
+    "安娜：好的。我要两公斤，谢谢。",
+    "摊主：两公斤香蕉。还要别的吗？",
+    "安娜：有芒果吗？",
+    "摊主：有的。今天特别甜。三个十雷亚尔。",
+    "安娜：那我要三个芒果。",
+    "摊主：好了。香蕉和芒果，一共二十二雷亚尔。",
+    "安娜：可以用 Pix 付吗？",
+    "摊主：当然可以。收款码就在这块牌子上。",
+    "安娜：好了，付好了。谢谢！",
+    "摊主：是我该谢谢你。下周见！"
+   ],
+   "glossary": [
+    {
+     "w": "a feira",
+     "zh": "（露天）集市"
+    },
+    {
+     "w": "quanto custa…?",
+     "zh": "……多少钱？"
+    },
+    {
+     "w": "o quilo",
+     "zh": "公斤"
+    },
+    {
+     "w": "doce",
+     "zh": "甜的"
+    },
+    {
+     "w": "três por dez reais",
+     "zh": "三个十雷亚尔"
+    },
+    {
+     "w": "pronto",
+     "zh": "好了、完成了"
+    },
+    {
+     "w": "a chave Pix",
+     "zh": "Pix 收款码/账号"
+    },
+    {
+     "w": "eu que agradeço",
+     "zh": "我才要谢谢你"
+    }
+   ],
+   "grammar": "巴西口语里常用 tem 表示“有”：Tem manga?（有芒果吗？）Tem, sim.（有。）比 há 更自然。",
+   "questions": [
+    "Quanto custa o quilo da banana?",
+    "Quantas mangas a Ana compra?",
+    "Como a Ana paga?"
+   ],
+   "sources": []
+  }
+ ]
+}
