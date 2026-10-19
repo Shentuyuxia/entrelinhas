@@ -29,10 +29,16 @@
   },
   "de": {
    "rotate": [
+    "Tagesspiegel",
     "taz",
     "Mediendienst Integration",
     "Missy Magazine",
     "Deutsch Perfekt"
+   ],
+   "unavailable": [
+    "Tagesschau",
+    "ZEIT",
+    "Süddeutsche Zeitung"
    ]
   },
   "hannover": {
