@@ -582,6 +582,34 @@ body.lean .hint, body.lean .help{display:none!important}
   .rd-bar .pos{font-size:13.5px}
   .mg-sheet .small,.mg-sheet label{font-size:14.5px}
 }
+
+/* ===== header v2: language cards, larger interface-language pill, compact strip ===== */
+.langsw{background:none;border:0;border-radius:0;padding:0;gap:8px;overflow:visible}
+.langsw button{position:relative;border:1px solid var(--line)!important;border-radius:12px!important;background:var(--surface);padding:8px 16px 8px 30px;align-items:flex-start;gap:1px;transition:border-color .15s,background-color .15s}
+.langsw button+button{border-left:1px solid var(--line)!important}
+.langsw button::before{content:"";position:absolute;left:13px;top:15px;width:9px;height:9px;border-radius:50%;background:var(--lc);opacity:.45}
+.langsw button[data-l="pt"]{--lc:var(--pt);--lcs:var(--pt-soft)} .langsw button[data-l="de"]{--lc:var(--de);--lcs:var(--de-soft)} .langsw button[data-l="en"]{--lc:var(--en);--lcs:var(--en-soft)}
+.langsw button b{font-size:16px;letter-spacing:.005em}
+.langsw button small{font-size:10.5px;letter-spacing:.06em;color:var(--muted)}
+.langsw button:hover{border-color:var(--lc)!important}
+.langsw button[aria-pressed="true"]{background:var(--lcs);border-color:var(--lc)!important;box-shadow:inset 0 0 0 1px var(--lc)}
+.langsw button[aria-pressed="true"]::before{opacity:1}
+.langsw button[aria-pressed="true"] b{color:var(--lc)}
+.uilang{padding:8px 15px;font-size:14.5px;gap:7px;border-radius:999px}
+.uilang svg{width:20px;height:20px}
+.uilang b{font-weight:600}
+@media (max-width:640px){
+  .langsw{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+  .langsw button{padding:7px 6px 7px 22px;align-items:flex-start}
+  .langsw button::before{left:9px;top:13px;width:8px;height:8px}
+  .langsw button b{font-size:15px}
+  .langsw button small{font-size:10px;letter-spacing:.03em}
+  .uilang{top:2px;padding:7px 13px;font-size:14px}
+  .uilang svg{width:19px;height:19px}
+  .strip{row-gap:8px}
+  .strip .badge{grid-column:1 / 3;justify-self:start}
+  .strip .sync{grid-column:3 / -1;justify-self:end;text-align:right}
+}
 </style>
 </head>
 <body>
@@ -592,7 +620,7 @@ body.lean .hint, body.lean .help{display:none!important}
       <div><h1><span>字里行间</span><span class="alt" data-noi18n>Entrelinhas</span></h1></div>
     </div>
     <div class="langsw" role="group" aria-label="学习语言" id="langsw">
-      <button data-l="pt" aria-pressed="true"><b>Português</b><small>A1–B2</small></button>
+      <button data-l="pt" aria-pressed="true"><b>Português</b><small>BR · A1–B2</small></button>
       <button data-l="de" aria-pressed="false"><b>Deutsch</b><small>A1–C1</small></button>
       <button data-l="en" aria-pressed="false"><b>English</b><small>B1–C2</small></button>
     </div>
@@ -681,7 +709,7 @@ body.lean .hint, body.lean .help{display:none!important}
             <label><input type="radio" name="dir" value="g2t" id="dir-g2t"> 释义 → 外语</label>
           </div>
         </div>
-        <div class="field" style="margin-top:4px"><label class="tog"><input type="checkbox" id="opt-imgfront"> 有图片的词，把图片放在正面</label></div>
+        <div class="field" style="margin-top:4px" hidden><label class="tog"><input type="checkbox" id="opt-imgfront"> 有图片的词，把图片放在正面</label></div>
       </div>
       <div class="panel tset" hidden>
         <h3>声音</h3>
@@ -690,7 +718,7 @@ body.lean .hint, body.lean .help{display:none!important}
         <div class="field"><label for="opt-rate" class="small">系统朗读语速 <span class="mono" id="rate-v"></span></label><input type="range" id="opt-rate" min="0.6" max="1.2" step="0.05"></div>
         <div id="voice-note" class="notice" hidden></div>
         <div class="field" style="margin-top:12px"><label class="tog"><input type="checkbox" id="opt-autopile"> 评为「忘了」的词自动放进生词堆</label></div>
-        <p class="note" style="margin-top:6px">快捷键：<span class="kbd">空格</span> 翻面 · <span class="kbd">1</span>–<span class="kbd">4</span> 评分 · <span class="kbd">S</span> 朗读 · <span class="kbd">M</span> 我的录音 · <span class="kbd">P</span> 生词堆 · <span class="kbd">E</span> 例句、图片、录音</p>
+        <p class="note" style="margin-top:6px">快捷键：<span class="kbd">空格</span> 翻面 · <span class="kbd">1</span>–<span class="kbd">4</span> 评分 · <span class="kbd">S</span> 朗读 · <span class="kbd">M</span> 我的录音 · <span class="kbd">P</span> 生词堆 · <span class="kbd">E</span> 例句、录音</p>
       </div>
     </aside>
   </section>
@@ -722,14 +750,14 @@ body.lean .hint, body.lean .help{display:none!important}
             <div class="field"><label for="n-mine">我的例句（每行一句）</label><textarea id="n-mine" rows="3"></textarea></div>
           </div>
           <div>
-            <div class="field"><span class="lab2">记忆图片</span></div>
-            <div class="imgbox" id="n-img"><span class="ph">AI 会根据词义画一张插图。也可以上传自己的照片。</span></div>
-            <div class="imgacts">
+            <div class="field" hidden><span class="lab2">记忆图片</span></div>
+            <div class="imgbox" id="n-img" hidden><span class="ph">AI 会根据词义画一张插图。也可以上传自己的照片。</span></div>
+            <div class="imgacts" hidden>
               <button class="btn sm" type="button" id="n-draw"></button>
               <label class="btn sm filebtn">上传图片<input type="file" id="n-file" accept="image/*"></label>
               <button class="btn ghost sm" type="button" id="n-noimg" hidden>去掉图片</button>
             </div>
-            <div class="field" style="margin-top:16px"><span class="lab2">我的发音</span></div>
+            <div class="field"><span class="lab2">我的发音</span></div>
             <div class="recs" id="n-recs"></div>
           </div>
         </div>
@@ -748,7 +776,7 @@ body.lean .hint, body.lean .help{display:none!important}
       </div>
       <div class="panel help">
         <h3>怎么录入</h3>
-        <p class="note">输入单词，点「AI 补全并配图」。AI 会填好释义、例句、记忆提示，再画一张插图。所有内容都可以改，满意了再保存。</p>
+        <p class="note">输入单词，点「AI 补全」。AI 会填好释义、例句和记忆提示。所有内容都可以改，满意了再保存。</p>
         <p class="note">也可以不用 AI，自己填写、上传图片，再用麦克风录下自己的发音。</p>
         <p class="note" id="ai-off" hidden></p>
       </div>
@@ -782,7 +810,7 @@ body.lean .hint, body.lean .help{display:none!important}
         <h3>生词堆怎么用</h3>
         <p class="note">不熟的词点卡片右上角的星标，就会放进生词堆；在词库里也可以直接加。</p>
         <p class="note">「复习生词堆」不管有没有到期，会把堆里的词全部过一遍。评为「简单」的词会自动移出生词堆，其余的留着下次再练。</p>
-        <p class="note">点单词可以打开详情，给它配图、写例句、录发音。</p>
+        <p class="note">点单词可以打开详情，写例句、录发音。</p>
       </div>
       <div class="panel help">
         <h3>掌握程度分级</h3>
@@ -841,7 +869,7 @@ body.lean .hint, body.lean .help{display:none!important}
         <p class="note hint" style="margin-top:10px">从 Claude 里那个版本搬过来：在那边「进度」页点「导出备份」，再在这里导入同一个文件。</p>
       </div>
       <div class="panel">
-        <h3 class="ph3">AI 补全、配图、检查例句</h3>
+        <h3 class="ph3">AI 补全、检查例句</h3>
         <p class="note hint">这个独立版直接调用 Claude API，需要你自己的 API key。API 按用量单独计费，和 Claude 订阅不是同一个账户。</p>
         <p class="note"><span>创建 key：</span> <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a></p>
         <p class="note hint">key 只保存在这台设备的浏览器里，只发给 api.anthropic.com，不会放进备份文件。</p>
@@ -1022,7 +1050,7 @@ function aiErr(e){
 }
 function refreshAI(){
   aiState=aiCfg().key?"ready":"off";
-  const n=$("#ai-off"); n.hidden=aiState==="ready"; n.innerHTML='要用 AI 补全和配图，先到「设置与备份」里填上你的 Claude API key。';
+  const n=$("#ai-off"); n.hidden=aiState==="ready"; n.innerHTML='要用 AI 补全，先到「设置与备份」里填上你的 Claude API key。';
   renderNewButtons(); if(sess&&cur==="today") renderCard();
 }
 
@@ -1232,7 +1260,7 @@ function openScanResult(items,preview){
     <div class="mhead"><h2 style="flex:1;font-size:20px">从照片里找到 ${items.length} 个词</h2><button class="ib" id="d-close" aria-label="关闭">${I.x}</button></div>
     <div class="row" style="align-items:flex-start;gap:16px;flex-wrap:nowrap">
       <img src="${preview}" alt="" style="width:110px;border-radius:8px;flex:none;align-self:flex-start" class="scanprev">
-      <p class="note" style="flex:1">勾选要加入词库的词。已经在词库里的词默认不勾。释义和例句以后可以在词库里点开修改，也能再配图、录音。</p>
+      <p class="note" style="flex:1">勾选要加入词库的词。已经在词库里的词默认不勾。释义和例句以后可以在词库里点开修改，也能录音。</p>
     </div>
     <div class="row" style="margin:10px 0"><button class="btn ghost sm" id="sc-all" type="button">全选</button><button class="btn ghost sm" id="sc-none" type="button">全不选</button><span class="spacer"></span><label class="tog"><input type="checkbox" id="sc-pile"> 同时放进生词堆</label></div>
     <div class="tbl scroll" style="max-height:52vh"><table style="min-width:0"><tbody>${items.map((o,i)=>`<tr><td style="width:28px"><input type="checkbox" data-i="${i}" ${o.dup?"":"checked"} aria-label="选择 ${esc(o.w)}" style="accent-color:var(--acc);width:18px;height:18px"></td>
@@ -1520,9 +1548,9 @@ function renderCard(){
   $("#sess-bar").style.width= sess&&sess.total? Math.min(100,100*sess.done/sess.total)+"%" : (sess&&!sess.cur?"100%":"0");
   if(!sess||!sess.cur){ renderDone(area); return; }
   const it=sess.cur, c=it.c, LL=L(), st=LL.srs[c.id], inPile=!!LL.pile[c.id], dir=S.settings.dir;
-  const hasImg=!!LL.imgs[c.id], memo=memoOf(c), mine=mineOf(c), au=audsOf(c.id), hasAud=!!(au.w||au.s);
+  const hasImg=false, memo=memoOf(c), mine=mineOf(c), au=audsOf(c.id), hasAud=!!(au.w||au.s);
   const top=`<div class="card-top"><span class="lv lv-${esc(c.lvl)}">${esc(c.lvl)}</span>${it.isNew?'<span class="chip new">新词</span>':stgHTML(st)}${c.custom?'<span class="chip">我录入的</span>':""}<span class="spacer"></span>
-    <button class="ib" id="c-edit" aria-label="例句、图片、录音" title="例句、图片、录音 (E)">${I.pen}</button>
+    <button class="ib" id="c-edit" aria-label="例句、录音" title="例句、录音 (E)">${I.pen}</button>
     <button class="ib ${inPile?"on":""}" id="c-pile" aria-label="${inPile?"移出生词堆":"放进生词堆"}" title="${inPile?"移出生词堆":"放进生词堆"} (P)">${inPile?I.starF:I.star}</button>
     ${hasAud?`<button class="ib me" id="c-mine" aria-label="播放我的录音" title="我的录音 (M)">${I.mic}</button>`:""}
     <button class="ib" id="c-say" aria-label="系统朗读" title="系统朗读 (S)">${I.spk}</button></div>`;
@@ -1546,7 +1574,7 @@ function renderCard(){
         <button class="g3" data-g="3">简单<small>${preview(st,3)} · 4</small></button></div>`
     : `<button class="btn primary flipbtn" id="c-flip">显示答案 <span class="kbd" style="color:inherit;border-color:currentColor;opacity:.75">空格</span></button>`;
   area.innerHTML=`<div class="card">${top}<div class="card-body">${body}</div></div>${actions}
-    <div class="foot"><span>本轮剩余 ${sess.queue.length+1} 张</span>${sess.flipped&&!hasImg&&!mine.length&&!hasAud?`<button class="btn ghost sm" id="c-add">${I.pen} 例句 / 配图 / 录音</button>`:`<span>${sess.mode==="pile"?"评「简单」会移出生词堆":""}</span>`}</div>`;
+    <div class="foot"><span>本轮剩余 ${sess.queue.length+1} 张</span>${sess.flipped&&!hasImg&&!mine.length&&!hasAud?`<button class="btn ghost sm" id="c-add">${I.pen} 例句 / 录音</button>`:`<span>${sess.mode==="pile"?"评「简单」会移出生词堆":""}</span>`}</div>`;
   fillImgs(area);
   $("#c-say").onclick=()=>speak(sess.flipped&&c.ex?c.w+". "+c.ex:c.w);
   const cm=$("#c-mine"); if(cm) cm.onclick=()=>playMine(c.id,sess.flipped&&au.s?"s":"w");
@@ -1624,14 +1652,14 @@ function renderDetail(note){
         </div>
       </div>
       <div>
-        <span class="lab2">记忆图片</span>
-        <div class="imgbox" id="d-img" style="margin-top:6px" ${hasImg?`data-img="${esc(id)}"`:""}><span class="ph">${hasImg?"载入中…":ai?"还没有图片。可以让 AI 画一张，或上传自己的照片。":"还没有图片。可以上传自己的照片。"}</span></div>
-        <div class="imgacts">
+        <span class="lab2" hidden>记忆图片</span>
+        <div class="imgbox" id="d-img" hidden style="margin-top:6px" ${hasImg?`data-img="${esc(id)}"`:""}><span class="ph">${hasImg?"载入中…":ai?"还没有图片。可以让 AI 画一张，或上传自己的照片。":"还没有图片。可以上传自己的照片。"}</span></div>
+        <div class="imgacts" hidden>
           ${ai?`<button class="btn sm" id="d-draw" type="button">${I.spark} ${hasImg?"AI 重画":"AI 配图"}</button>`:""}
           <label class="btn sm filebtn">上传<input type="file" id="d-file" accept="image/*"></label>
           ${hasImg?`<button class="btn ghost sm" id="d-noimg" type="button">删除图片</button>`:""}
         </div>
-        <div style="margin-top:18px"><span class="lab2">我的发音</span>
+        <div><span class="lab2">我的发音</span>
           <p class="note" style="margin:2px 0 0">先听 <button class="btn ghost sm" id="d-std" type="button">${I.spk} 标准</button> 再录，对比着听。</p>
           <div class="recs" id="d-recs">${recRowsHTML("d",au)}</div></div>
       </div>
@@ -1720,7 +1748,7 @@ function renderNewForm(){
 }
 function renderNewButtons(){
   const ai=aiState==="ready";
-  const a=$("#n-ai"); a.innerHTML=busy?`<span class="spin"></span> 生成中…`:(ai?`${I.spark} AI 补全并配图`:"AI 未设置"); a.disabled=!ai||busy;
+  const a=$("#n-ai"); a.innerHTML=busy?`<span class="spin"></span> 生成中…`:(ai?`${I.spark} AI 补全`:"AI 未设置"); a.disabled=!ai||busy;
   const d=$("#n-draw"); d.innerHTML=`${I.spark} ${draft.img?"AI 重画":"AI 画图"}`; d.disabled=!ai||busy; d.hidden=!ai;
   $("#n-noimg").hidden=!draft.img;
 }
@@ -1765,12 +1793,11 @@ async function drawDraft(){
 $("#n-ai").addEventListener("click",async()=>{
   const w=$("#n-w").value.trim(); if(!w){ setStatus("先输入单词。",true); $("#n-w").focus(); return; }
   if(aiState!=="ready") return;
-  if(ALL.some(c=>c.w.toLowerCase()===w.toLowerCase())){ setStatus("这个词已经在词库里了，可以在「词库」里点它，直接配图、写例句、录音。",true); return; }
+  if(ALL.some(c=>c.w.toLowerCase()===w.toLowerCase())){ setStatus("这个词已经在词库里了，可以在「词库」里点它，写例句、录音。",true); return; }
   busy=true; renderNewButtons(); setStatus("AI 正在补全释义和例句…",false,true);
   try{ const r=await aiEntry(lang(),w); if(!r||typeof r!=="object") throw {code:"invalid_json"}; fillForm(r); }
   catch(e){ busy=false; renderNewButtons(); setStatus(aiErr(e),true); return; }
   busy=false; renderNewButtons();
-  await drawDraft();
 });
 $("#n-draw").addEventListener("click",()=>drawDraft());
 $("#n-file").addEventListener("change",async e=>{ const f=e.target.files&&e.target.files[0]; if(!f) return;
@@ -2269,10 +2296,10 @@ function renderBrowse(){
     rows.map(c=>`<tr><td class="w"><button class="wlink" data-open="${esc(c.id)}">${wordHTML(c)}</button>${c.extra&&c.extra!=="—"?` <span class="extra">${esc(c.extra)}</span>`:""}${rowTags(c)}${c.ex?`<span class="exs">${esc(c.ex)}</span>`:""}</td>
       <td data-noi18n>${gs.filter(k=>c[k]).map((k,i)=>i?`<div class="muted small">${esc(c[k])}</div>`:`<div>${esc(c[k])}</div>`).join("")}</td>
       <td><span class="lv lv-${esc(c.lvl)}">${esc(c.lvl)}</span></td><td>${stgHTML(srs[c.id])}</td>
-      <td class="acts"><button class="ib sm" data-say="${esc(c.id)}" aria-label="朗读">${I.spk}</button><button class="ib sm" data-open="${esc(c.id)}" aria-label="例句、图片、录音" title="例句、图片、录音">${I.pen}</button><button class="ib sm ${pile[c.id]?"on":""}" data-pile="${esc(c.id)}" aria-label="${pile[c.id]?"移出生词堆":"放进生词堆"}" title="${pile[c.id]?"移出生词堆":"放进生词堆"}">${pile[c.id]?I.starF:I.star}</button></td></tr>`).join("")}</tbody></table>`
+      <td class="acts"><button class="ib sm" data-say="${esc(c.id)}" aria-label="朗读">${I.spk}</button><button class="ib sm" data-open="${esc(c.id)}" aria-label="例句、录音" title="例句、录音">${I.pen}</button><button class="ib sm ${pile[c.id]?"on":""}" data-pile="${esc(c.id)}" aria-label="${pile[c.id]?"移出生词堆":"放进生词堆"}" title="${pile[c.id]?"移出生词堆":"放进生词堆"}">${pile[c.id]?I.starF:I.star}</button></td></tr>`).join("")}</tbody></table>`
     : `<div class="empty">没有符合条件的词。</div>`;
   const learned=rows.filter(c=>srs[c.id]);
-  $("#b-count").textContent=`显示 ${rows.length} 个词，其中已学 ${learned.length} 个。点单词可以写例句、配图、录发音。`;
+  $("#b-count").textContent=`显示 ${rows.length} 个词，其中已学 ${learned.length} 个。点单词可以写例句、录发音。`;
   $("#b-cram").disabled=!learned.length;
   $("#b-cram").textContent= bLevel?`复习 ${bLevel} 已学词（${learned.length}）`:`复习筛选出的已学词（${learned.length}）`;
 }
@@ -2497,7 +2524,7 @@ const UI_DICT=[
 ["评分", "rate", "bewerten", "avaliar", "評分"],
 ["朗读", "Read aloud", "Vorlesen", "Ouvir", "朗讀"],
 ["我的录音", "My recording", "Meine Aufnahme", "Minha gravação", "我的錄音"],
-["例句、图片、录音", "Sentences, picture, recording", "Sätze, Bild, Aufnahme", "Frases, imagem, gravação", "例句、圖片、錄音"],
+["例句、录音", "Sentences, recording", "Sätze, Aufnahme", "Frases, gravação", "例句、錄音"],
 // add words
 ["清空", "Clear", "Leeren", "Limpar", "清空"],
 ["单词", "Word", "Wort", "Palavra", "單詞"],
@@ -2521,7 +2548,7 @@ const UI_DICT=[
 ["拍照", "Take photo", "Foto aufnehmen", "Tirar foto", "拍照"],
 ["选择图片", "Choose pictures", "Bilder wählen", "Escolher imagens", "選擇圖片"],
 ["怎么录入", "How to add words", "So trägst du Wörter ein", "Como adicionar palavras", "怎麼錄入"],
-["输入单词，点「AI 补全并配图」。AI 会填好释义、例句、记忆提示，再画一张插图。所有内容都可以改，满意了再保存。", "Type a word and tap “AI fill-in & picture”. AI fills in meanings, an example and a memory hint, then draws a picture. You can edit everything before saving.", "Wort eingeben und „KI ergänzen & Bild“ tippen. Die KI füllt Bedeutung, Beispiel und Merkhilfe aus und zeichnet ein Bild. Alles lässt sich vor dem Speichern ändern.", "Digite a palavra e toque em “IA completa e ilustra”. A IA preenche significado, exemplo e dica de memória e desenha uma imagem. Dá para editar tudo antes de salvar.", "輸入單詞，點「AI 補全並配圖」。AI 會填好釋義、例句、記憶提示，再畫一張插圖。所有內容都可以改，滿意了再儲存。"],
+["输入单词，点「AI 补全」。AI 会填好释义、例句和记忆提示。所有内容都可以改，满意了再保存。", "Type a word and tap “AI fill-in”. AI fills in meanings, an example and a memory hint. Edit anything, then save.", "Wort eingeben und „KI ergänzen“ tippen. Die KI füllt Bedeutungen, ein Beispiel und eine Merkhilfe aus. Alles lässt sich ändern, dann speichern.", "Digite uma palavra e toque em “IA completa”. A IA preenche significados, um exemplo e uma dica. Edite o que quiser e salve.", "輸入單詞，點「AI 補全」。AI 會填好釋義、例句和記憶提示。所有內容都可以改，滿意了再儲存。"],
 ["也可以不用 AI，自己填写、上传图片，再用麦克风录下自己的发音。", "You can also skip AI: fill it in yourself, upload a picture and record your own pronunciation.", "Es geht auch ohne KI: selbst ausfüllen, Bild hochladen und die eigene Aussprache aufnehmen.", "Também dá sem IA: preencha você mesma, envie uma imagem e grave sua pronúncia.", "也可以不用 AI，自己填寫、上傳圖片，再用麥克風錄下自己的發音。"],
 ["批量导入", "Bulk import", "Massenimport", "Importar em lote", "批次匯入"],
 ["批量导入内容", "Bulk import text", "Text für den Import", "Texto para importar", "批次匯入內容"],
@@ -2537,7 +2564,7 @@ const UI_DICT=[
 ["例如：der Regenschirm", "e.g. der Regenschirm", "z. B. der Regenschirm", "ex.: der Regenschirm", "例如：der Regenschirm"],
 ["（选择）", "(choose)", "(wählen)", "(escolher)", "（選擇）"],
 ["生成中…", "Generating…", "Wird erstellt …", "Gerando…", "生成中…"],
-["AI 补全并配图", "AI fill-in & picture", "KI ergänzen & Bild", "IA completa e ilustra", "AI 補全並配圖"],
+["AI 补全", "AI fill-in", "KI ergänzen", "IA completa", "AI 補全"],
 ["AI 未设置", "AI not set up", "KI nicht eingerichtet", "IA não configurada", "AI 未設定"],
 ["AI 重画", "AI redraw", "KI neu zeichnen", "IA redesenha", "AI 重畫"],
 ["AI 画图", "AI picture", "KI-Bild", "Imagem por IA", "AI 畫圖"],
@@ -2545,7 +2572,7 @@ const UI_DICT=[
 ["先输入单词。", "Type a word first.", "Erst ein Wort eingeben.", "Digite uma palavra primeiro.", "先輸入單詞。"],
 ["正在画插图…（通常 10–60 秒）", "Drawing… (usually 10–60 s)", "Zeichne … (meist 10–60 s)", "Desenhando… (geralmente 10–60 s)", "正在畫插圖…（通常 10–60 秒）"],
 ["插图画好了。不满意可以重画或上传自己的图片。", "Picture ready. Redraw or upload your own if you don't like it.", "Bild fertig. Neu zeichnen oder eigenes hochladen, wenn es nicht passt.", "Imagem pronta. Redesenhe ou envie a sua se não gostar.", "插圖畫好了。不滿意可以重畫或上傳自己的圖片。"],
-["这个词已经在词库里了，可以在「词库」里点它，直接配图、写例句、录音。", "This word is already in your word list. Open it under “Word list” to add a picture, sentences or a recording.", "Dieses Wort ist schon im Wortschatz. Öffne es unter „Wortschatz“, um Bild, Sätze oder Aufnahme hinzuzufügen.", "Esta palavra já está no vocabulário. Abra em “Vocabulário” para adicionar imagem, frases ou gravação.", "這個詞已經在詞庫裡了，可以在「詞庫」裡點它，直接配圖、寫例句、錄音。"],
+["这个词已经在词库里了，可以在「词库」里点它，写例句、录音。", "This word is already in your word list. Open it under “Word list” to add sentences or a recording.", "Dieses Wort ist schon im Wortschatz. Öffne es unter „Wortschatz“, um Sätze oder eine Aufnahme hinzuzufügen.", "Esta palavra já está no vocabulário. Abra-a em “Vocabulário” para adicionar frases ou uma gravação.", "這個詞已經在詞庫裡了，可以在「詞庫」裡點它，寫例句、錄音。"],
 ["AI 正在补全释义和例句…", "AI is filling in meanings and examples…", "Die KI ergänzt Bedeutung und Beispiele …", "A IA está completando significado e exemplos…", "AI 正在補全釋義和例句…"],
 ["已使用你上传的图片。", "Using your uploaded picture.", "Dein hochgeladenes Bild wird verwendet.", "Usando a imagem que você enviou.", "已使用你上傳的圖片。"],
 ["这张图片读不出来，换一张试试。", "Couldn't read this picture. Try another one.", "Dieses Bild ließ sich nicht lesen. Versuch ein anderes.", "Não deu para ler esta imagem. Tente outra.", "這張圖片讀不出來，換一張試試。"],
@@ -2561,7 +2588,7 @@ const UI_DICT=[
 ["图片里没找到{0}的词。", "No {0} words found in the picture.", "Keine Wörter auf {0} im Bild gefunden.", "Nenhuma palavra em {0} na imagem.", "圖片裡沒找到{0}的詞。"],
 ["拍照识词结果", "Photo results", "Foto-Ergebnis", "Resultado da foto", "拍照識詞結果"],
 ["从照片里找到 {0} 个词", "{0} words found in the photo", "{0} Wörter im Foto gefunden", "{0} palavras encontradas na foto", "從照片裡找到 {0} 個詞"],
-["勾选要加入词库的词。已经在词库里的词默认不勾。释义和例句以后可以在词库里点开修改，也能再配图、录音。", "Tick the words to add. Words already in your list are unticked. You can edit meanings and examples later in the word list, and add pictures or recordings.", "Wörter zum Übernehmen abhaken. Schon vorhandene sind nicht markiert. Bedeutung und Beispiele lassen sich später im Wortschatz ändern, auch Bild und Aufnahme.", "Marque as palavras que quer adicionar. As que já estão no vocabulário vêm desmarcadas. Dá para editar depois e adicionar imagem ou gravação.", "勾選要加入詞庫的詞。已經在詞庫裡的詞預設不勾。釋義和例句以後可以在詞庫裡點開修改，也能再配圖、錄音。"],
+["勾选要加入词库的词。已经在词库里的词默认不勾。释义和例句以后可以在词库里点开修改，也能录音。", "Tick the words to add. Words already in your list are unticked. You can edit meanings and examples later in the word list and add recordings.", "Wörter zum Hinzufügen ankreuzen. Wörter, die schon im Wortschatz sind, sind nicht angekreuzt. Bedeutungen und Beispiele kannst du später im Wortschatz ändern und Aufnahmen ergänzen.", "Marque as palavras para adicionar. As que já estão no vocabulário ficam desmarcadas. Depois você pode editar significados e exemplos e gravar a pronúncia.", "勾選要加入詞庫的詞。已經在詞庫裡的詞預設不勾。釋義和例句以後可以在詞庫裡點開修改，也能錄音。"],
 ["全选", "Select all", "Alle", "Todas", "全選"],
 ["全不选", "Select none", "Keine", "Nenhuma", "全不選"],
 ["同时放进生词堆", "Also add to practice pile", "Auch in den Übungsstapel", "Também na pilha de prática", "同時放進生詞堆"],
@@ -2580,7 +2607,7 @@ const UI_DICT=[
 ["生词堆怎么用", "How the practice pile works", "So funktioniert der Übungsstapel", "Como funciona a pilha", "生詞堆怎麼用"],
 ["不熟的词点卡片右上角的星标，就会放进生词堆；在词库里也可以直接加。", "Tap the star on a card to put a word you don't know well into the pile. You can also add words from the word list.", "Tippe auf den Stern einer Karte, um ein unsicheres Wort auf den Stapel zu legen. Das geht auch im Wortschatz.", "Toque na estrela do cartão para pôr uma palavra difícil na pilha. Também dá para adicionar pelo vocabulário.", "不熟的詞點卡片右上角的星標，就會放進生詞堆；在詞庫裡也可以直接加。"],
 ["「复习生词堆」不管有没有到期，会把堆里的词全部过一遍。评为「简单」的词会自动移出生词堆，其余的留着下次再练。", "“Review practice pile” goes through every word in the pile, due or not. Words rated “Easy” leave the pile; the rest stay for next time.", "„Übungsstapel wiederholen“ geht alle Wörter im Stapel durch, fällig oder nicht. Mit „Leicht“ bewertete Wörter verlassen den Stapel, der Rest bleibt.", "“Revisar a pilha” passa por todas as palavras da pilha, vencidas ou não. As marcadas “Fácil” saem; o resto fica para a próxima.", "「複習生詞堆」不管有沒有到期，會把堆裡的詞全部過一遍。評為「簡單」的詞會自動移出生詞堆，其餘的留著下次再練。"],
-["点单词可以打开详情，给它配图、写例句、录发音。", "Tap a word to open it and add a picture, sentences or your pronunciation.", "Tippe ein Wort an, um Bild, Sätze oder Aussprache hinzuzufügen.", "Toque numa palavra para adicionar imagem, frases ou pronúncia.", "點單詞可以開啟詳情，給它配圖、寫例句、錄發音。"],
+["点单词可以打开详情，写例句、录发音。", "Tap a word to open it and add sentences or your pronunciation.", "Tippe ein Wort an, um Sätze oder deine Aussprache hinzuzufügen.", "Toque numa palavra para adicionar frases ou a sua pronúncia.", "點單詞可以開啟詳情，寫例句、錄發音。"],
 ["掌握程度分级", "Mastery levels", "Lernstufen", "Níveis de domínio", "掌握程度分級"],
 ["生词堆还是空的", "The practice pile is empty", "Der Übungsstapel ist leer", "A pilha está vazia", "生詞堆還是空的"],
 ["学习时点卡片右上角的星标，或者在词库里点星标，就能把不熟的词放进来。", "Tap the star on a card while studying, or in the word list, to add words you don't know well.", "Tippe beim Lernen oder im Wortschatz auf den Stern, um unsichere Wörter hinzuzufügen.", "Toque na estrela no cartão ou no vocabulário para adicionar palavras difíceis.", "學習時點卡片右上角的星標，或者在詞庫裡點星標，就能把不熟的詞放進來。"],
@@ -2606,7 +2633,7 @@ const UI_DICT=[
 ["复习 {0} 已学词（{1}）", "Review learned {0} words ({1})", "Gelernte {0}-Wörter wiederholen ({1})", "Revisar aprendidas {0} ({1})", "複習 {0} 已學詞（{1}）"],
 ["全部掌握程度", "Any mastery", "Jeder Lernstand", "Qualquer domínio", "全部掌握程度"],
 ["没有符合条件的词。", "No matching words.", "Keine passenden Wörter.", "Nenhuma palavra encontrada.", "沒有符合條件的詞。"],
-["显示 {0} 个词，其中已学 {1} 个。点单词可以写例句、配图、录发音。", "Showing {0} words, {1} learned. Tap a word to add sentences, a picture or your pronunciation.", "{0} Wörter, davon {1} gelernt. Tippe ein Wort an für Sätze, Bild oder Aussprache.", "{0} palavras, {1} aprendidas. Toque numa palavra para frases, imagem ou pronúncia.", "顯示 {0} 個詞，其中已學 {1} 個。點單詞可以寫例句、配圖、錄發音。"],
+["显示 {0} 个词，其中已学 {1} 个。点单词可以写例句、录发音。", "Showing {0} words, {1} learned. Tap a word to add sentences or your pronunciation.", "{0} Wörter, davon {1} gelernt. Tippe ein Wort an für Sätze oder Aussprache.", "{0} palavras, {1} aprendidas. Toque numa palavra para adicionar frases ou pronúncia.", "顯示 {0} 個詞，其中已學 {1} 個。點單詞可以寫例句、錄發音。"],
 ["分级复习", "review", "Wiederholung", "revisão", "分級複習"],
 ["复习间隔怎么算", "How review intervals work", "So werden die Abstände berechnet", "Como funcionam os intervalos", "複習間隔怎麼算"],
 ["每次评分决定下次出现的时间：「忘了」当天重来；「模糊」间隔略增；「记得」按 1 → 3 → 约 7 → 约 18 天递增；「简单」跳得更远。", "Each rating sets the next review: “Again” repeats today; “Hard” grows the gap a little; “Good” goes 1 → 3 → ~7 → ~18 days; “Easy” jumps further.", "Jede Bewertung legt die nächste Wiederholung fest: „Nochmal“ heute erneut; „Schwer“ etwas länger; „Gut“ 1 → 3 → ~7 → ~18 Tage; „Leicht“ springt weiter.", "Cada avaliação define a próxima revisão: “De novo” repete hoje; “Difícil” aumenta um pouco; “Bom” vai 1 → 3 → ~7 → ~18 dias; “Fácil” pula mais longe.", "每次評分決定下次出現的時間：「忘了」當天重來；「模糊」間隔略增；「記得」按 1 → 3 → 約 7 → 約 18 天遞增；「簡單」跳得更遠。"],
@@ -2657,7 +2684,7 @@ const UI_DICT=[
 ["已放进生词堆", "Added to pile", "In den Stapel gelegt", "Posta na pilha", "已放進生詞堆"],
 ["返回今日学习", "Back to today", "Zurück zu heute", "Voltar para hoje", "返回今日學習"],
 ["新词", "new", "neu", "nova", "新詞"],
-["例句、图片、录音 (E)", "Sentences, picture, recording (E)", "Sätze, Bild, Aufnahme (E)", "Frases, imagem, gravação (E)", "例句、圖片、錄音 (E)"],
+["例句、录音 (E)", "Sentences, recording (E)", "Sätze, Aufnahme (E)", "Frases, gravação (E)", "例句、錄音 (E)"],
 ["移出生词堆 (P)", "Remove from pile (P)", "Aus dem Stapel nehmen (P)", "Tirar da pilha (P)", "移出生詞堆 (P)"],
 ["放进生词堆 (P)", "Add to pile (P)", "In den Stapel legen (P)", "Pôr na pilha (P)", "放進生詞堆 (P)"],
 ["播放我的录音", "Play my recording", "Meine Aufnahme abspielen", "Tocar minha gravação", "播放我的錄音"],
@@ -2672,7 +2699,7 @@ const UI_DICT=[
 ["简单", "Easy", "Leicht", "Fácil", "簡單"],
 ["显示答案", "Show answer", "Antwort zeigen", "Mostrar resposta", "顯示答案"],
 ["本轮剩余 {0} 张", "{0} cards left", "Noch {0} Karten", "Faltam {0} cartões", "本輪剩餘 {0} 張"],
-["例句 / 配图 / 录音", "Sentences / picture / recording", "Sätze / Bild / Aufnahme", "Frases / imagem / gravação", "例句 / 配圖 / 錄音"],
+["例句 / 录音", "Sentences / recording", "Sätze / Aufnahme", "Frases / gravação", "例句 / 錄音"],
 ["评「简单」会移出生词堆", "“Easy” removes it from the pile", "„Leicht“ nimmt es aus dem Stapel", "“Fácil” tira da pilha", "評「簡單」會移出生詞堆"],
 ["「{0}」这一轮做完了。", "You finished “{0}”.", "„{0}“ ist geschafft.", "Você terminou “{0}”.", "「{0}」這一輪做完了。"],
 ["回到今日学习", "Back to today", "Zurück zu heute", "Voltar para hoje", "回到今日學習"],
@@ -2784,7 +2811,7 @@ const UI_DICT=[
 ["连不上 Claude API，检查一下网络。", "Can't reach the Claude API. Check your connection.", "Claude-API nicht erreichbar. Verbindung prüfen.", "Não deu para acessar a API do Claude. Verifique a conexão.", "連不上 Claude API，檢查一下網路。"],
 ["AI 返回的格式不对，再点一次试试。", "AI returned an unexpected format. Try again.", "Die KI-Antwort hatte ein falsches Format. Noch mal versuchen.", "A IA respondeu num formato inesperado. Tente de novo.", "AI 返回的格式不對，再點一次試試。"],
 ["AI 暂时没有响应，再试一次。", "AI didn't respond. Try again.", "Die KI antwortet nicht. Noch mal versuchen.", "A IA não respondeu. Tente de novo.", "AI 暫時沒有響應，再試一次。"],
-["要用 AI 补全和配图，先到「设置与备份」里填上你的 Claude API key。", "To use AI fill-in and pictures, add your Claude API key under “Settings & backup”.", "Für KI-Ergänzung und Bilder den Claude-API-Key unter „Einstellungen & Sicherung“ eintragen.", "Para usar a IA, adicione sua chave da API do Claude em “Ajustes e backup”.", "要用 AI 補全和配圖，先到「設定與備份」裡填上你的 Claude API key。"],
+["要用 AI 补全，先到「设置与备份」里填上你的 Claude API key。", "To use AI fill-in, add your Claude API key under “Settings & backup”.", "Für die KI-Ergänzung den Claude-API-Key unter „Einstellungen & Sicherung“ eintragen.", "Para usar a IA, adicione sua chave da API do Claude em “Configurações e backup”.", "要用 AI 補全，先到「設定與備份」裡填上你的 Claude API key。"],
 ["这台设备的存储空间不够，最近的改动没能保存。请先导出备份。", "This device is out of storage; recent changes weren't saved. Export a backup first.", "Kein Speicherplatz mehr; die letzten Änderungen wurden nicht gespeichert. Erst eine Sicherung exportieren.", "Sem espaço neste aparelho; as últimas alterações não foram salvas. Exporte um backup primeiro.", "這臺裝置的儲存空間不夠，最近的改動沒能儲存。請先匯出備份。"],
 // progress
 ["{0} · 总览", "{0} · Overview", "{0} · Überblick", "{0} · Visão geral", "{0} · 總覽"],
@@ -2819,7 +2846,7 @@ const UI_DICT=[
 ["还没有备份过。", "No backup yet.", "Noch keine Sicherung.", "Nenhum backup ainda.", "還沒有備份過。"],
 ["你已经录入了一些自己的内容，但还没有备份过。数据只存在这台设备上，建议导出一份备份文件。", "You've added your own content but haven't backed it up. It only lives on this device; export a backup.", "Du hast eigene Inhalte, aber noch keine Sicherung. Sie liegen nur auf diesem Gerät; bitte exportieren.", "Você já tem conteúdo seu, mas nenhum backup. Ele só existe neste aparelho; exporte um backup.", "你已經錄入了一些自己的內容，但還沒有備份過。資料只存在這臺裝置上，建議匯出一份備份檔案。"],
 ["上次备份是 {0} 天前。建议再导出一份备份文件。", "Last backup was {0} days ago. Export a new one.", "Letzte Sicherung vor {0} Tagen. Neue Sicherung empfohlen.", "O último backup foi há {0} dias. Exporte outro.", "上次備份是 {0} 天前。建議再匯出一份備份檔案。"],
-["AI 补全、配图、检查例句", "AI: fill-in, pictures, sentence checks", "KI: Ergänzen, Bilder, Satzprüfung", "IA: completar, ilustrar, corrigir frases", "AI 補全、配圖、檢查例句"],
+["AI 补全、检查例句", "AI: fill-in, sentence checks", "KI: Ergänzen, Satzprüfung", "IA: completar, corrigir frases", "AI 補全、檢查例句"],
 ["这个独立版直接调用 Claude API，需要你自己的 API key。API 按用量单独计费，和 Claude 订阅不是同一个账户。", "This app calls the Claude API directly and needs your own API key. API use is billed separately from a Claude subscription.", "Diese App ruft die Claude-API direkt auf und braucht einen eigenen API-Key. Die API wird getrennt vom Claude-Abo abgerechnet.", "Este app usa a API do Claude diretamente e precisa da sua chave. A API é cobrada à parte da assinatura do Claude.", "這個獨立版直接呼叫 Claude API，需要你自己的 API key。API 按用量單獨計費，和 Claude 訂閱不是同一個賬戶。"],
 ["创建 key：", "Create a key:", "Key erstellen:", "Criar chave:", "建立 key："],
 ["key 只保存在这台设备的浏览器里，只发给 api.anthropic.com，不会放进备份文件。", "The key stays in this device's browser, is only sent to api.anthropic.com and is never put in backups.", "Der Key bleibt im Browser dieses Geräts, geht nur an api.anthropic.com und landet nie in Sicherungen.", "A chave fica só no navegador deste aparelho, vai só para api.anthropic.com e nunca entra no backup.", "key 只儲存在這臺裝置的瀏覽器裡，只發給 api.anthropic.com，不會放進備份檔案。"],
