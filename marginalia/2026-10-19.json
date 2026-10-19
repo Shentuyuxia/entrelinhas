@@ -583,6 +583,102 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "essay",
+   "section": "Politics & Ideas",
+   "title": "The tyranny of the next election",
+   "dek": "Noema's editor argues that consumer democracies are built for the short term, and holds up China's battery boom as the uncomfortable proof. The diagnosis is sharper than the cure.",
+   "paragraphs": [
+    "Democracies like to think of themselves as self-correcting systems: when a policy fails, voters throw out its authors. In an essay published in Noema on 16 October, the magazine's editor-in-chief, Nathan Gardels, turns that virtue on its head. The same short feedback loops that let citizens punish mistakes, he argues, also make it hard to pursue anything whose payoff lies beyond the next ballot. Politics, markets and culture all reward immediate gratification, and a flagship programme can be unwound within roughly one electoral term.",
+    "The diagnosis is not new, and Gardels does not pretend otherwise. He draws on the Harvard sociologist Daniel Bell, whose The Cultural Contradictions of Capitalism warned more than half a century ago that consumer society borrows against its own future. He also builds on a recent Noema essay by the international-relations scholars Simon Curtis and Ian Klaus, who contend that the United States has lost its sense of a shared national project while China plans in decades. What Gardels adds is a case study, and a personal anecdote to anchor it.",
+    "The anecdote dates from 2012, when Mexico, then chairing the G20, put climate change on the group's agenda for the first time. At a lunch hosted by President Felipe Calderón, Gardels recalls, the senior Chinese diplomat Wu Jianmin told an advisory council convened by the Berggruen Institute that \"ecological civilization\" would be a priority for Xi Jinping's incoming leadership, and that China would push into electric vehicles and battery research. Those present were doubtful, since China was not yet a contender in the car industry. By Gardels's account, nearly 70% of new cars sold in China are now electric, Chinese-made models make up half of global EV sales, and the country produces about 80% of the world's batteries.",
+    "The mechanism interests him more than the numbers. He describes a system in which planners align start-up subsidies, the sourcing of materials, supply chains and factory capacity, while market signals are left to do the rest. One rule captures the approach: developers of new wind or solar projects must build or commission large-scale storage as a condition of approval. California, which has more grid batteries than anywhere outside China, shows the other side of the ledger. Its storage capacity grew from 700 megawatts in 2019 to about 21,000 megawatts this year, Gardels writes, yet roughly 90% of the cells and core components come from China.",
+    "Here the argument becomes more contestable. Gardels is explicit that he is not making the case for authoritarianism: he names the repression that accompanies Beijing's pursuit of consensus as the model's central flaw, and concedes that Chinese overproduction is now flooding world markets and threatening industries abroad. His policy proposal is correspondingly modest. Rather than banning Chinese green technology or admitting it without limit, he suggests a reasonable import quota with tariffs applied above it, so that foreign competition spurs domestic producers without wiping them out. Sceptics might object that the virtues of planning cannot be cleanly detached from its costs, from misallocated capital to silenced dissent.",
+    "The more revealing point may be one Gardels makes almost in passing. California's battery fleet exists partly because the state imposed fuel-efficiency and clean-energy standards that created a market long before national politics caught up, a market that Tesla later exploited. That suggests democracies are not incapable of patience; they manage it where rules are designed to outlast the people who wrote them. The question his essay leaves open is not whether liberal societies should imitate China, but which institutions can bind a restless electorate to commitments it would, on reflection, want to keep."
+   ],
+   "glossary": [
+    {
+     "w": "to turn something on its head",
+     "en": "to reverse an idea completely, so that it means the opposite",
+     "zh": "彻底颠覆（某种看法）"
+    },
+    {
+     "w": "feedback loop",
+     "en": "a process in which the results of an action shape what happens next",
+     "zh": "反馈回路"
+    },
+    {
+     "w": "to unwind (a policy)",
+     "en": "to gradually undo or reverse a policy or arrangement",
+     "zh": "逐步撤销、取消（政策）"
+    },
+    {
+     "w": "to borrow against the future",
+     "en": "to gain something now at the expense of later needs or resources",
+     "zh": "透支未来"
+    },
+    {
+     "w": "to anchor (an argument)",
+     "en": "to give an argument a firm, concrete basis",
+     "zh": "为（论点）提供具体支撑"
+    },
+    {
+     "w": "contender",
+     "en": "a person or organization with a real chance of winning or succeeding",
+     "zh": "有力竞争者"
+    },
+    {
+     "w": "the other side of the ledger",
+     "en": "the opposite aspect of a situation, often its costs or disadvantages",
+     "zh": "事情的另一面（代价、负面）"
+    },
+    {
+     "w": "contestable",
+     "en": "open to argument or dispute",
+     "zh": "可争议的、有待商榷的"
+    },
+    {
+     "w": "correspondingly",
+     "en": "in a way that matches or follows from something just mentioned",
+     "zh": "相应地"
+    },
+    {
+     "w": "to spur",
+     "en": "to encourage or push someone or something to act or develop faster",
+     "zh": "激励、刺激"
+    },
+    {
+     "w": "misallocated capital",
+     "en": "money invested in projects where it produces little value",
+     "zh": "错配的资本"
+    },
+    {
+     "w": "to bind someone to a commitment",
+     "en": "to make someone keep a promise or obligation",
+     "zh": "使（某人）受承诺约束"
+    }
+   ],
+   "grammar": "Notice 'not whether X, but which Y' in the final sentence: the 'not … but' frame rejects one question and replaces it with a sharper one, a common move for closing an analytical essay.",
+   "questions": [
+    "Why, according to Gardels, do the same features that make democracies self-correcting also make long-term planning difficult?",
+    "What does the California example suggest about how democracies can sustain long-term goals?",
+    "Is an import quota with tariffs above it a convincing compromise? Argue for or against it in three sentences."
+   ],
+   "sources": [
+    {
+     "title": "Noema: Nathan Gardels, When The Present Eats The Future (16 Oct 2026)",
+     "url": "https://www.noemamag.com/when-the-present-eats-the-future",
+     "license": "link only"
+    },
+    {
+     "title": "Noema: Simon Curtis & Ian Klaus, Americans Are Losing The Long Game (6 Oct 2026)",
+     "url": "https://www.noemamag.com/americans-are-losing-the-long-game",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T09:25:41+00:00",
+ "updated": "2026-10-19T10:25:08+00:00",
  "days": [
   {
    "date": "2026-10-19",
@@ -57,6 +57,14 @@
      "lang": "en",
      "title": "Today's reading list",
      "kind": "picks",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "en",
+     "title": "The tyranny of the next election",
+     "kind": "essay",
      "level": "C2",
      "hour": null
     }
