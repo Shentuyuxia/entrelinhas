@@ -20,5 +20,6 @@ Entrelinhas 的「阅读」标签页读的就是这个文件夹。
 ## 每日推荐（kind: picks）
 
 - 每天早上推送德语、英语各一份「推荐」，3–6 篇值得读完的原文链接，只给标题、作者、出处和一句中文介绍，读者自己去原网站读。
-- 英语可包含 The Guardian、The Atlantic、The New Yorker 等：只有当链接出现在可访问的推荐来源（如 Longreads）里时才列入，介绍只依据推荐来源的摘要。
+- 英语可包含 The Guardian、The Atlantic、The New Yorker 等：只有当链接出现在可访问的推荐来源（如 Longreads）里时才列入，介绍只依据推荐来源的摘要。否则每天在英语推荐末尾附上 Guardian「The Long Read」和 Atlantic「Ideas」两个栏目入口（genre 写 Browse），读者自己去挑。
+- 推荐覆盖面要广：政治与国际关系、经济、气候与环境、科学、语言学、社会学、文化、科技；德语和英语各 4–6 篇，避免和前两天重复同一领域。
 - 不编造链接；每个 URL 都必须来自实际打开过的页面。
