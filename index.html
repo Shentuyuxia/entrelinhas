@@ -662,6 +662,20 @@ body.lean .hint, body.lean .help{display:none!important}
 .strip .stat span,.strip .ring .t span{color:color-mix(in srgb,var(--acc) 35%,var(--muted))}
 .strip .sync span{display:none}
 .badge[hidden]{display:none!important}
+
+/* ===== reading: article chips row (sticky) ===== */
+.mg-toc{flex-direction:row;gap:7px;overflow-x:auto;scrollbar-width:none;position:sticky;top:0;z-index:15;background:var(--bg);margin:0 -2px 10px;padding:8px 2px;-webkit-overflow-scrolling:touch;scroll-behavior:smooth}
+.mg-toc::-webkit-scrollbar{display:none}
+.mg-toc button,.mg-toc button:first-child{display:inline-flex;flex:none;width:auto;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;background:var(--surface);max-width:15em}
+.mg-toc .k{font-size:10.5px!important;letter-spacing:.04em}
+.mg-toc .t{font-size:14px!important;max-width:10em}
+.mg-toc .m{font-size:12px;text-align:left}
+.mg-toc .m:empty{display:none}
+.mg-toc button[aria-current="true"]{background:color-mix(in srgb,var(--acc) 16%,var(--surface));border-color:var(--acc)}
+.mg-toc button[aria-current="true"] .k{color:var(--acc)}
+@media (min-width:641px){ .mg-toc{top:var(--tabs-h,52px)} }
+.mg-toc{box-shadow:0 6px 8px -8px rgba(0,0,0,.25)}
+.mg-gram,.mg-gl dd span[lang=en]{font-family:var(--f-word)}
 </style>
 </head>
 <body>
@@ -2005,6 +2019,8 @@ async function mgRender(){
     ${(()=>{ const k=es.findIndex(e=>e.date===pick.date&&e.i===pick.i); const nx=!pick.older&&k>=0?es[k+1]:null; return nx?`<button class="btn" data-mg="${nx.date}|${nx.i}" type="button">下一篇 →</button>`:""; })()}</div>
   </article>`;
   main.innerHTML=h; MG.cur={...pick,it};
+  if(innerWidth>640) document.documentElement.style.setProperty("--tabs-h",$("#tabs").offsetHeight+"px");
+  { const t=main.querySelector(".mg-toc"), a=t&&t.querySelector('[aria-current="true"]'); if(a) t.scrollLeft=a.offsetLeft-(t.clientWidth-a.offsetWidth)/2; }
   mgArch(pick); mgWeek(); rdSync(); mineList();
 }
 function mgArch(pick){
@@ -2254,8 +2270,8 @@ $("#tab-read").addEventListener("click",e=>{
     MG.sIdx=rdNodes("art").indexOf(w.closest(".s"));
     $$(".mg-w.on").forEach(x=>x.classList.remove("on")); w.classList.add("on"); mgOpen(w.textContent,mgSentenceOf(w)); return; }
   if(!b) return;
-  if(b.dataset.mine){ MG.mine=b.dataset.mine; MG.tr=null; mgClose(); mgRender(); mineList(); window.scrollTo({top:$("#tabs").offsetTop,behavior:"smooth"}); return; }
-  if(b.dataset.mg){ MG.mine=null; MG.key=b.dataset.mg; if(b.dataset.di!=null) MG.di=+b.dataset.di; else { const d=b.dataset.mg.split("|")[0]; const k=MG.idx.days.findIndex(x=>x.date===d); if(k>=0) MG.di=k; } MG.tr=null; mgClose(); mgRender(); window.scrollTo({top:$("#tabs").offsetTop,behavior:"smooth"}); return; }
+  if(b.dataset.mine){ MG.mine=b.dataset.mine; MG.tr=null; mgClose(); mgRender(); mineList(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
+  if(b.dataset.mg){ MG.mine=null; MG.key=b.dataset.mg; if(b.dataset.di!=null) MG.di=+b.dataset.di; else { const d=b.dataset.mg.split("|")[0]; const k=MG.idx.days.findIndex(x=>x.date===d); if(k>=0) MG.di=k; } MG.tr=null; mgClose(); mgRender(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
   if(b.dataset.wq!=null){ MG.wpick[b.dataset.wq]=+b.dataset.wo; mgWeek(); return; }
   const id=b.id;
   if(id==="mg-prev"){ MG.di++; MG.key=null; mgRender(); } else if(id==="mg-next"){ MG.di--; MG.key=null; mgRender(); }
