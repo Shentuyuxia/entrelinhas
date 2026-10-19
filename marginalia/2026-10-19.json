@@ -20,50 +20,61 @@
    "glossary": [
     {
      "w": "das Frauenhaus",
+     "en": "women's shelter",
      "zh": "妇女庇护所"
     },
     {
      "w": "zur Ruhe kommen",
-     "zh": "安顿下来、平静下来"
+     "en": "to find some calm, settle down",
+     "zh": "安顿下来"
     },
     {
      "w": "etwas tragen (einen Verein)",
-     "zh": "主办、承担（机构）"
+     "en": "to run, sponsor (an organisation)",
+     "zh": "主办、承担"
     },
     {
      "w": "festsitzen",
-     "zh": "被困（某地）"
+     "en": "to be stuck (somewhere)",
+     "zh": "被困"
     },
     {
      "w": "die Zwangsheirat",
+     "en": "forced marriage",
      "zh": "强迫婚姻"
     },
     {
      "w": "sexualisierte Gewalt",
+     "en": "sexual(ised) violence",
      "zh": "性暴力"
     },
     {
      "w": "der Schlepper",
-     "zh": "蛇头、偷渡中介"
+     "en": "people smuggler",
+     "zh": "蛇头"
     },
     {
      "w": "die Razzia",
+     "en": "raid (by police)",
      "zh": "突击搜查"
     },
     {
      "w": "widersprüchlich",
+     "en": "contradictory",
      "zh": "矛盾的"
     },
     {
      "w": "die Auslagerung",
-     "zh": "外包、转移（责任）"
+     "en": "outsourcing, offloading",
+     "zh": "外包、转移"
     },
     {
      "w": "die Zwischenstation",
+     "en": "stopover, way station",
      "zh": "中转站"
     }
    ],
-   "grammar": "被动态放在句首强调：「Getragen wird das Haus von Arcom」「Finanziert wird die Arbeit über Spenden」。把第二分词（getragen / finanziert）提到句首，重点落在“由谁、怎样”上，这是德语报刊很常见的写法。",
+   "grammar": "Passive voice moved to the front for emphasis: „Getragen wird das Haus von Arcom“, „Finanziert wird die Arbeit über Spenden“. Putting the past participle first shifts the focus to who runs or funds it — a very common device in German journalism. （被动态把分词提前，强调“由谁、怎样”。）",
    "questions": [
     "Warum bleibt die Adresse des Frauenhauses geheim?",
     "Was kritisieren Fachleute an den Zahlungen der EU an Marokko?",
@@ -75,6 +86,14 @@
      "url": "https://taz.de/Frauenhaus-Maison-Baobab/!6214529/",
      "license": "link only"
     }
+   ],
+   "paragraphs_en": [
+    "Anyone looking for the Maison Baobab women's shelter won't find it on any map. Its exact location in Rabat, Morocco's capital, is kept secret; women only hear about it through counselling services. Since 2015 the shelter has offered migrant women and their children a place where they can live, eat and find some calm, free of charge, for about three months. Around 50 women and children can stay at any one time, spread across three apartments.",
+    "The house is run by Arcom, an association of refugees and migrant communities in Morocco. It was founded by Emmanuel Mbolela from Congo, who was himself stuck in Morocco for years before being granted asylum in the Netherlands in 2008. The work is funded through donations, including from the aid organisation Medico International. The association reckons on roughly 75 euros per person per month.",
+    "The residents come from Sudan, Ethiopia, Ivory Coast or Gabon. Some have fled war, others a forced marriage or violence from a partner. Many experienced sexual violence along the way: according to one study, this affects more than three quarters of the women on this route. The perpetrators include smugglers, but also border guards and police officers.",
+    "That is why the house offers more than a bed: medical care, literacy and language classes in French, English and Arabic, sewing and computer courses, and lessons for the children. Some of the team have a migration background themselves. Outside, by contrast, staff advise caution, because raids in the neighbourhoods where many people from sub-Saharan Africa live are not uncommon.",
+    "The political setting is contradictory. Morocco has no functioning national asylum system, yet the number of people seeking protection has risen sharply. More than 23,000 refugees and asylum seekers are registered with the UN refugee agency; estimates of the number of undocumented people run as high as 700,000. At the same time, the European Union pays: between 2021 and 2023, around 193 million euros went to Morocco for migration programmes. Critics speak of Europe outsourcing its border control.",
+    "For the women, the house remains a stopover. Some want to go on to Europe, even though they fear the crossing by sea; others are trying to build a life in Morocco. What the shelter can achieve is limited. But for a few weeks it is a place where nobody asks where you come from, only what you need."
    ]
   },
   {
@@ -91,26 +110,32 @@
    "glossary": [
     {
      "w": "probeweise",
-     "zh": "试验性地、模拟地"
+     "en": "on a trial basis, as a mock exercise",
+     "zh": "试验性地"
     },
     {
      "w": "die Stimme abgeben",
+     "en": "to cast one's vote",
      "zh": "投票"
     },
     {
      "w": "die Regionsversammlung",
-     "zh": "（汉诺威）大区议会"
+     "en": "regional assembly (Hannover region)",
+     "zh": "大区议会"
     },
     {
      "w": "das Wahllokal",
+     "en": "polling station",
      "zh": "投票站"
     },
     {
      "w": "auswerten",
-     "zh": "评估、分析"
+     "en": "to evaluate, analyse",
+     "zh": "评估"
     },
     {
      "w": "die Demokratiebildung",
+     "en": "civic / democracy education",
      "zh": "民主教育"
     }
    ],
@@ -124,6 +149,11 @@
      "url": "https://www.hannover.de/Aus-Stadt-Region/Erste-U16-Wahl-3.735-junge-Menschen-geben-Stimme-ab",
      "license": "official"
     }
+   ],
+   "paragraphs_en": [
+    "For the first time, the Hannover region has held an under-16 election. Between 24 August and 4 September, children and teenagers under 16 could cast their vote for the regional assembly at 75 polling stations – symbolically, since the result had no effect on the local elections on 13 September.",
+    "Sixteen of the region's 21 towns and municipalities took part, with a total of 3,735 young people voting. Most of them were between 13 and 15. In an accompanying, non-representative survey, just over half said it was very important to them to be heard in local politics. They had informed themselves mainly at school.",
+    "The region now wants to evaluate the results together with young people and use them to develop new civic-education programmes. The idea behind it: don't just explain democracy, let people experience it."
    ]
   },
   {
@@ -144,43 +174,53 @@
    "glossary": [
     {
      "w": "check-in",
-     "zh": "（移民局）定期报到"
+     "zh": "（移民局）定期报到",
+     "en": "a scheduled appointment to report to immigration authorities"
     },
     {
      "w": "to detain",
-     "zh": "拘留、羁押"
+     "zh": "拘留、羁押",
+     "en": "to hold someone in custody"
     },
     {
      "w": "accumulation",
-     "zh": "累积"
+     "zh": "累积",
+     "en": "a gradual build-up"
     },
     {
      "w": "sporadically",
-     "zh": "零星地、断断续续地"
+     "zh": "零星地、断断续续地",
+     "en": "irregularly, now and then"
     },
     {
      "w": "gestational diabetes",
-     "zh": "妊娠糖尿病"
+     "zh": "妊娠糖尿病",
+     "en": "diabetes that develops during pregnancy"
     },
     {
      "w": "removal order",
-     "zh": "驱逐令"
+     "zh": "驱逐令",
+     "en": "a legal order to deport someone"
     },
     {
      "w": "to lapse",
-     "zh": "（规定）失效、终止"
+     "zh": "（规定）失效、终止",
+     "en": "(of a rule) to expire or stop applying"
     },
     {
      "w": "postpartum",
-     "zh": "产后的"
+     "zh": "产后的",
+     "en": "in the period after giving birth"
     },
     {
      "w": "to raise the stakes",
-     "zh": "使后果更严重、风险更高"
+     "zh": "使后果更严重、风险更高",
+     "en": "to make the possible consequences more serious"
     },
     {
      "w": "oversight",
-     "zh": "监督"
+     "zh": "监督",
+     "en": "supervision by an outside body"
     }
    ],
    "questions": [
@@ -232,52 +272,73 @@
    "glossary": [
     {
      "w": "a terça-feira",
-     "zh": "星期二"
+     "zh": "星期二",
+     "en": "Tuesday"
     },
     {
      "w": "o bolo",
-     "zh": "蛋糕"
+     "zh": "蛋糕",
+     "en": "cake"
     },
     {
      "w": "bater na porta",
-     "zh": "敲门"
+     "zh": "敲门",
+     "en": "to knock on the door"
     },
     {
      "w": "o guarda-chuva",
-     "zh": "雨伞"
+     "zh": "雨伞",
+     "en": "umbrella"
     },
     {
      "w": "procurar",
-     "zh": "寻找"
+     "zh": "寻找",
+     "en": "to look for"
     },
     {
      "w": "miar / mia",
-     "zh": "（猫）叫 · ele mia 它喵喵叫"
+     "zh": "（猫）叫 · ele mia 它喵喵叫",
+     "en": "to meow · ele mia = he meows"
     },
     {
      "w": "achar",
-     "zh": "找到（巴西常用）；也指“认为”"
+     "zh": "找到（巴西常用）；也指“认为”",
+     "en": "to find (common in Brazil); also 'to think'"
     },
     {
      "w": "molhado",
-     "zh": "湿的"
+     "zh": "湿的",
+     "en": "wet"
     },
     {
      "w": "a toalha",
-     "zh": "毛巾"
+     "zh": "毛巾",
+     "en": "towel"
     },
     {
      "w": "estar com frio",
-     "zh": "觉得冷"
+     "zh": "觉得冷",
+     "en": "to be cold"
     }
    ],
-   "grammar": "estar com + 名词，表示一时的感觉：estar com frio（冷）、estar com fome（饿）、estar com medo（害怕）。和英语 to be cold 不同，葡语说“和冷在一起”。",
+   "grammar": "estar com + noun expresses a temporary feeling: estar com frio (to be cold), estar com fome (to be hungry), estar com medo (to be afraid). Literally 'to be with cold' — unlike English 'to be cold'. （“estar com + 名词”表示一时的感觉。）",
    "questions": [
     "Que dia é hoje?",
     "O que a Ana faz na cozinha?",
     "Quem acha o Bolinha?"
    ],
-   "sources": []
+   "sources": [],
+   "paragraphs_en": [
+    "Today is Tuesday. In the morning it's sunny, but in the afternoon the sky turns grey.",
+    "Ana is in the kitchen. She's making a banana cake. The house smells really good.",
+    "Suddenly someone knocks on the door: knock, knock. It's Dona Rosa. \"Ana, have you seen Bolinha? He went out and didn't come back!\"",
+    "Ana grabs an umbrella. Tito looks out of the window. It starts to rain.",
+    "Ana and Dona Rosa look for Bolinha in the street. \"Bolinha! Bolinha!\" But the dog doesn't appear.",
+    "Tito climbs onto the window and meows loudly: meow! He looks at the garden. Under the tree there's a brown dog, soaking wet.",
+    "\"Look, Dona Rosa! Tito found Bolinha!\" says Ana.",
+    "Bolinha comes into the yellow house. He's cold. Ana gets a towel. Tito lies down next to the dog.",
+    "\"Now you two are friends,\" says Dona Rosa, and smiles. Everyone eats banana cake. Outside, the rain keeps falling."
+   ]
   },
   {
    "lang": "pt",
@@ -316,44 +377,66 @@
    "glossary": [
     {
      "w": "a feira",
-     "zh": "（露天）集市"
+     "zh": "（露天）集市",
+     "en": "(open-air) market"
     },
     {
      "w": "quanto custa…?",
-     "zh": "……多少钱？"
+     "zh": "……多少钱？",
+     "en": "how much is…?"
     },
     {
      "w": "o quilo",
-     "zh": "公斤"
+     "zh": "公斤",
+     "en": "kilo"
     },
     {
      "w": "doce",
-     "zh": "甜的"
+     "zh": "甜的",
+     "en": "sweet"
     },
     {
      "w": "três por dez reais",
-     "zh": "三个十雷亚尔"
+     "zh": "三个十雷亚尔",
+     "en": "three for ten reais"
     },
     {
      "w": "pronto",
-     "zh": "好了、完成了"
+     "zh": "好了、完成了",
+     "en": "done, there you go"
     },
     {
      "w": "a chave Pix",
-     "zh": "Pix 收款码/账号"
+     "zh": "Pix 收款码/账号",
+     "en": "Pix key (payment ID)"
     },
     {
      "w": "eu que agradeço",
-     "zh": "我才要谢谢你"
+     "zh": "我才要谢谢你",
+     "en": "thank YOU (lit. 'I'm the one who thanks')"
     }
    ],
-   "grammar": "巴西口语里常用 tem 表示“有”：Tem manga?（有芒果吗？）Tem, sim.（有。）比 há 更自然。",
+   "grammar": "In spoken Brazilian Portuguese, tem is the usual way to say 'there is / do you have': Tem manga? (Do you have mangoes?) – Tem, sim. It sounds more natural than há. （巴西口语常用 tem 表示“有”。）",
    "questions": [
     "Quanto custa o quilo da banana?",
     "Quantas mangas a Ana compra?",
     "Como a Ana paga?"
    ],
-   "sources": []
+   "sources": [],
+   "paragraphs_en": [
+    "Ana: Good morning! How much is a kilo of bananas?",
+    "Stallholder: Good morning! A kilo is six reais.",
+    "Ana: Fine. I'd like two kilos, please.",
+    "Stallholder: Two kilos of bananas. Anything else?",
+    "Ana: Do you have mangoes?",
+    "Stallholder: Yes, we do. They're really sweet today. It's three for ten reais.",
+    "Ana: Then I'll take three mangoes.",
+    "Stallholder: There you go. Bananas and mangoes: that's twenty-two reais.",
+    "Ana: Can I pay with Pix?",
+    "Stallholder: Of course. The key is here on the sign.",
+    "Ana: Done, I've paid. Thank you!",
+    "Stallholder: Thank you! See you next week!"
+   ]
   },
   {
    "lang": "de",
@@ -370,35 +453,40 @@
      "title": "Berlin auf dem Weg zur Vergesellschaftung: Ein Triumph für die Linken – mit ungewissem Ausgang",
      "author": "Daniel Böldt",
      "url": "https://www.tagesspiegel.de/berlin/berlin-auf-dem-weg-zur-vergesellschaftung-ein-triumph-fur-die-linken--mit-ungewissem-ausgang-16173435.html",
-     "zh": "评论：柏林三党同意把万套以上的大房企收归公有。作者认为时间表、诉讼和补偿上限都悬而未决，短期内对房租的影响也有限。"
+     "zh": "评论：柏林三党同意把万套以上的大房企收归公有。作者认为时间表、诉讼和补偿上限都悬而未决，短期内对房租的影响也有限。",
+     "en": "Comment: Berlin's three parties agree to take large landlords (10,000+ flats) into public ownership. The author argues the timetable, lawsuits and compensation cap are all unresolved, and the short-term effect on rents is limited."
     },
     {
      "outlet": "taz",
      "genre": "Bildung",
      "title": "Protest statt Physiktest",
      "url": "https://taz.de/Schulblockaden-in-Berlin/!6222186/",
-     "zh": "柏林学生封锁两所学校，抗议教育经费削减和联邦国防军进校园。"
+     "zh": "柏林学生封锁两所学校，抗议教育经费削减和联邦国防军进校园。",
+     "en": "Berlin students blockade two schools to protest education cuts and the army's presence in schools."
     },
     {
      "outlet": "taz",
      "genre": "Feminismus",
      "title": "Solidarisches Rudelgucken",
      "url": "https://taz.de/Frauensport-boomt/!6221513/",
-     "zh": "女子体育热潮：Honeyball Club 为女性和性少数群体组织公开观赛。"
+     "zh": "女子体育热潮：Honeyball Club 为女性和性少数群体组织公开观赛。",
+     "en": "The boom in women's sport: the Honeyball Club organises public screenings for women and queer fans."
     },
     {
      "outlet": "taz",
      "genre": "Gesellschaft",
      "title": "An der Toleranzgrenze",
      "url": "https://taz.de/Queerfeindlichkeit-unter-Jugendlichen/!6218182/",
-     "zh": "荷兰青少年对同性恋的接受度明显下降。记者走进一所学校，看能做些什么。"
+     "zh": "荷兰青少年对同性恋的接受度明显下降。记者走进一所学校，看能做些什么。",
+     "en": "Acceptance of homosexuality among Dutch teenagers has dropped sharply; a reporter visits a school to see what can be done."
     },
     {
      "outlet": "Deutsch Perfekt",
      "genre": "Sprache",
      "title": "Na, wie sprichst du denn?",
      "url": "https://www.deutsch-perfekt.com/deutsch-lesen/na-wie-sprichst-du-denn",
-     "zh": "为什么奥地利人和德国人有时互相听不懂？德语变体的入门读物。"
+     "zh": "为什么奥地利人和德国人有时互相听不懂？德语变体的入门读物。",
+     "en": "Why Austrians and Germans sometimes don't understand each other – an introduction to the varieties of German."
     }
    ],
    "glossary": [],
@@ -420,7 +508,8 @@
      "title": "How Tree Rings Challenged the Myth of American Wilderness",
      "author": "M. R. O'Connor",
      "url": "https://www.newyorker.com/science/elements/how-tree-rings-challenged-the-myth-of-american-wilderness",
-     "zh": "树木年轮里的火疤显示：欧洲殖民者眼中“未经开垦的荒野”，其实早被原住民用火长期管理。科学与历史叙事交织的长文。（经 Longreads 推荐）"
+     "zh": "树木年轮里的火疤显示：欧洲殖民者眼中“未经开垦的荒野”，其实早被原住民用火长期管理。科学与历史叙事交织的长文。（经 Longreads 推荐）",
+     "en": "Fire scars in tree rings show that the 'untouched wilderness' European settlers described had long been managed with fire by Indigenous peoples. Science and history woven together. (Via Longreads.)"
     },
     {
      "outlet": "Aeon",
@@ -428,7 +517,8 @@
      "title": "Bitch: a history",
      "author": "Karen Stollznow",
      "url": "https://aeon.co/essays/what-the-evolution-of-bitch-says-about-gender-and-power",
-     "zh": "一个词的变迁史：它怎样在词性、动物和性别之间游走，又折射出性别与权力的关系。语言学加性别研究。"
+     "zh": "一个词的变迁史：它怎样在词性、动物和性别之间游走，又折射出性别与权力的关系。语言学加性别研究。",
+     "en": "The life story of one word – how it moved between animals, insults and reclamation, and what that reveals about gender and power. Linguistics meets gender studies."
     },
     {
      "outlet": "Aeon",
@@ -436,7 +526,8 @@
      "title": "Methodical banality",
      "author": "Hannah Katznelson",
      "url": "https://aeon.co/essays/who-needs-ai-text-generation-when-theres-erasmus-of-rotterdam",
-     "zh": "把 16 世纪伊拉斯谟等人文主义者“批量生产文章”的方法，和今天的大语言模型放在一起比较。"
+     "zh": "把 16 世纪伊拉斯谟等人文主义者“批量生产文章”的方法，和今天的大语言模型放在一起比较。",
+     "en": "Compares how Renaissance humanists like Erasmus mass-produced texts from templates with today's large language models."
     },
     {
      "outlet": "Rest of World",
@@ -444,7 +535,8 @@
      "title": "What the West can learn from AI optimists in the rest of the world",
      "author": "Payal Arora",
      "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/",
-     "zh": "作者认为，西方对 AI 多是焦虑，而许多发展中国家的人更看重它的实际好处；资源有限反而逼出了更务实的用法。"
+     "zh": "作者认为，西方对 AI 多是焦虑，而许多发展中国家的人更看重它的实际好处；资源有限反而逼出了更务实的用法。",
+     "en": "Argues that while the West is mostly anxious about AI, many people in the Global South focus on practical benefits – scarcity breeds pragmatism."
     },
     {
      "outlet": "Jacobin",
@@ -452,7 +544,8 @@
      "title": "Tax the Rich and Slash the Military Budget",
      "author": "Nancy Folbre",
      "url": "https://jacobin.com/2026/10/inequality-taxation-defense-spending-welfare-state",
-     "zh": "女性主义经济学家 Folbre 论证：对财富和资本按工资同等税率征税、削减军费，就能为美国的全民托育、全民医保和社会住房买单。"
+     "zh": "女性主义经济学家 Folbre 论证：对财富和资本按工资同等税率征税、削减军费，就能为美国的全民托育、全民医保和社会住房买单。",
+     "en": "Feminist economist Folbre argues that taxing wealth and capital at the same rates as wages, and cutting military spending, could pay for universal childcare, healthcare and social housing in the US."
     },
     {
      "outlet": "Dissent",
@@ -460,24 +553,27 @@
      "title": "A Blood-Red Tide",
      "author": "Andre Pagliarini",
      "url": "https://dissentmagazine.org/online_articles/blood-red-tide-flavio-bolsonaro-lula-brazil/",
-     "zh": "巴西大选首轮弗拉维奥·博索纳罗领先卢拉。作者把它放进拉美整体右转的背景里，同时认为卢拉的执政成绩被低估了。正好配合你学葡语。"
+     "zh": "巴西大选首轮弗拉维奥·博索纳罗领先卢拉。作者把它放进拉美整体右转的背景里，同时认为卢拉的执政成绩被低估了。正好配合你学葡语。",
+     "en": "Flávio Bolsonaro leads Lula in the first round of Brazil's election. The author places this in Latin America's broader rightward turn, while arguing Lula's record is underrated. Good context for your Portuguese."
     },
     {
      "outlet": "The Guardian",
      "genre": "Browse · The Long Read",
      "title": "The Long Read – latest essays",
      "url": "https://www.theguardian.com/news/series/the-long-read",
-     "zh": "Guardian 的长文专栏，每个工作日一篇，涵盖社会、科学、经济和国际议题。去原网站挑一篇读完，喜欢的可以粘进「我的文章」细读。"
+     "zh": "Guardian 的长文专栏，每个工作日一篇，涵盖社会、科学、经济和国际议题。去原网站挑一篇读完，喜欢的可以粘进「我的文章」细读。",
+     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
     },
     {
      "outlet": "The Atlantic",
      "genre": "Browse · Ideas",
      "title": "Ideas – essays and arguments",
      "url": "https://www.theatlantic.com/ideas/",
-     "zh": "The Atlantic 的评论和思想随笔栏目。去原网站挑一篇读完，喜欢的可以粘进「我的文章」细读。"
+     "zh": "The Atlantic 的评论和思想随笔栏目。去原网站挑一篇读完，喜欢的可以粘进「我的文章」细读。",
+     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
     }
    ],
-   "note": "Guardian 和 The Atlantic 我的工具打不开，所以这里只放它们的栏目入口，具体文章请你自己挑。",
+   "note": "Guardian and The Atlantic can't be opened by my tools, so only their section pages are linked here — pick the articles yourself. （Guardian 和 Atlantic 只放栏目入口。）",
    "glossary": [],
    "questions": [],
    "sources": [

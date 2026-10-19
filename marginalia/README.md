@@ -23,3 +23,11 @@ Entrelinhas 的「阅读」标签页读的就是这个文件夹。
 - 英语可包含 The Guardian、The Atlantic、The New Yorker 等：只有当链接出现在可访问的推荐来源（如 Longreads）里时才列入，介绍只依据推荐来源的摘要。否则每天在英语推荐末尾附上 Guardian「The Long Read」和 Atlantic「Ideas」两个栏目入口（genre 写 Browse），读者自己去挑。
 - 推荐覆盖面要广：政治与国际关系、经济、气候与环境、科学、语言学、社会学、文化、科技；德语和英语各 4–6 篇，避免和前两天重复同一领域。
 - 不编造链接；每个 URL 都必须来自实际打开过的页面。
+
+## 辅助语言：英文优先，简体中文辅助
+
+- 德语、葡语文章附逐段英文译文 `paragraphs_en`（App 里的「EN」按钮）；葡语另保留 `paragraphs_zh`（「中」按钮）。英语文章不附译文。
+- 重点词汇 `glossary` 每条写 `{"w","en","zh"}`：英文释义为主，中文为辅（可简短）。
+- 语法说明 `grammar` 用英文写，可在末尾加一句简短中文括注。
+- 推荐阅读每条写英文介绍 `en`，可附简短中文 `zh`。
+- 每周回顾用 `summary_en`、`explain_en`（可附中文）。
