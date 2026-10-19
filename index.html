@@ -17,7 +17,9 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&family=LXGW+WenKai+TC:wght@400;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/lxgwwenkai-regular.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/lxgwwenkai-bold.css">
 <style>
 /* Layout: header with language switch + today's check-in strip; tabs; main work column with a notes aside. Look follows Shiori: cool paper, ink-indigo text, hairlines instead of boxes, one muted accent per language (celadon PT, slate blue DE, ochre EN). */
 :root{
@@ -27,9 +29,9 @@
   --a1:#4f7d3a; --a2:#2f7c76; --b1:#3b5b86; --b2:#6a5598; --c1:#9a4a6e; --c2:#8a4a2e;
   --ok:#2f7a55; --ok-soft:#dcebe2; --warn:#9a6f17; --warn-soft:#f3e9d3; --bad:#a8473a; --bad-soft:#f3e0dc;
   --scrim:rgba(20,30,34,.32); --pt-mark:#7ebdb2;
-  --f-word:"Literata", Georgia, "Noto Serif SC", "Songti SC", serif;
-  --f-ui:"Schibsted Grotesk", "Noto Serif SC", "Songti SC", "STSong", serif;
-  --f-cn:"Noto Serif SC", "Songti SC", "STSong", serif;
+  --f-word:"Source Serif 4", Georgia, "LXGW WenKai", "Kaiti SC", serif;
+  --f-ui:"LXGW WenKai", "Kaiti SC", "STKaiti", serif;
+  --f-cn:"LXGW WenKai", "Kaiti SC", "STKaiti", serif;
   --f-mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
   --r:12px; color-scheme:light;
 }
@@ -73,7 +75,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .brand h1 > span:first-child{font-family:var(--f-cn);font-weight:600;letter-spacing:.02em}
 .brand h1 .alt{font-family:"Cormorant Garamond",var(--f-word);font-weight:500;font-style:italic;color:var(--muted);font-size:.78em;margin-left:.5em}
 html:not([lang^="zh"]) .brand h1 .alt{display:none}
-html[lang="zh-TW"]{--f-cn:"Noto Serif TC","Noto Serif SC","PingFang TC",serif;--f-ui:"Schibsted Grotesk","Noto Serif TC","Noto Serif SC","PingFang TC",serif;--f-word:"Literata",Georgia,"Noto Serif TC","Noto Serif SC",serif}
+html[lang="zh-TW"]{--f-cn:"LXGW WenKai TC","LXGW WenKai","Kaiti TC",serif;--f-ui:"LXGW WenKai TC","LXGW WenKai","Kaiti TC",serif;--f-word:"Source Serif 4",Georgia,"LXGW WenKai TC","LXGW WenKai",serif}
 .brand p{margin:2px 0 0;color:var(--muted);font-size:13px}
 .langsw{display:flex;gap:4px;background:var(--sunk);padding:4px;border-radius:12px;flex-wrap:wrap}
 .langsw button{border:0;background:transparent;border-radius:9px;padding:7px 12px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;line-height:1.2;color:var(--muted)}
@@ -651,6 +653,15 @@ body.lean .hint, body.lean .help{display:none!important}
   .subsw button[aria-pressed="true"]{border-color:var(--acc);background:var(--acc-soft);color:var(--ink);font-weight:600}
   .subsw .ct{font-size:12px;color:var(--acc)}
 }
+
+/* ===== strip v2: tinted panel, fewer words ===== */
+.strip{background:color-mix(in srgb,var(--acc) 16%,var(--surface));border-color:color-mix(in srgb,var(--acc) 30%,var(--line));border-radius:16px}
+.strip .stat b,.strip .ring .t b{color:color-mix(in srgb,var(--acc) 55%,var(--ink))}
+@media (max-width:640px){.strip{padding:10px 14px;border:1px solid color-mix(in srgb,var(--acc) 30%,var(--line))}}
+.strip .ring svg circle:first-child{stroke:color-mix(in srgb,var(--acc) 30%,var(--surface))}
+.strip .stat span,.strip .ring .t span{color:color-mix(in srgb,var(--acc) 35%,var(--muted))}
+.strip .sync span{display:none}
+.badge[hidden]{display:none!important}
 </style>
 </head>
 <body>
@@ -675,7 +686,7 @@ body.lean .hint, body.lean .help{display:none!important}
       <div class="t"><b id="s-new">0 / 15</b><span>今日新词</span></div>
     </div>
     <div class="stat"><b id="s-due">0</b><span>待复习</span></div>
-    <div class="stat"><b id="s-streak">0</b><span>连续打卡天数</span></div>
+    <div class="stat"><b id="s-streak">0</b><span>连续天数</span></div>
     <div class="stat"><b id="s-pile">0</b><span>生词堆</span></div>
     <span class="spacer"></span>
     <span class="badge" id="s-badge"></span>
@@ -2285,7 +2296,7 @@ function renderStrip(){
   $("#s-due").textContent=DATA[lang()]?dueList().length:"–";
   $("#s-streak").textContent=streak();
   const pc=Object.keys(L().pile).length; $("#s-pile").textContent=pc; $("#t-pile").textContent=pc; $("#t-pile").hidden=!pc; $$(".subsw .ct").forEach(x=>x.textContent=pc||"");
-  const b=$("#s-badge"); b.className="badge"+(log.c?" on":""); b.innerHTML=log.c?I.check+"今日已打卡":"今日未打卡";
+  const b=$("#s-badge"); b.className="badge"+(log.c?" on":""); b.innerHTML=log.c?I.check+"今日已打卡":""; b.hidden=!log.c;
   if(DATA[lang()]) renderPlan();
 }
 function ownCount(){ return Object.keys(LANG).reduce((a,l)=>a+S[l].custom.length+Object.keys(S[l].imgs).length+Object.keys(S[l].auds).length+Object.keys(S[l].mine).length,0); }
@@ -2517,6 +2528,7 @@ const UI_DICT=[
 ["今日打卡", "Today's goal", "Heutiges Ziel", "Meta de hoje", "今日打卡"],
 ["今日新词", "New today", "Neu heute", "Novas hoje", "今日新詞"],
 ["待复习", "Due", "Fällig", "Para revisar", "待複習"],
+["连续天数", "Streak", "Serie", "Sequência", "連續天數"],
 ["连续打卡天数", "Day streak", "Tage in Folge", "Dias seguidos", "連續打卡天數"],
 ["生词堆", "Practice pile", "Übungsstapel", "Pilha de prática", "生詞堆"],
 ["打开设置里的备份", "Open backup settings", "Sicherung öffnen", "Abrir o backup", "開啟設定裡的備份"],
