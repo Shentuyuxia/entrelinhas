@@ -1,7 +1,7 @@
 // Offline support for Palavra & Wort.
 // App files: served from cache, refreshed in the background.
-// Marginalia articles (marginalia/*): network first, so new articles show up right away; cache is the offline fallback.
-const CACHE = "palavra-v33";
+// Marginalia articles (marginalia/*) and word lists (data/*): network first, so new articles show up right away; cache is the offline fallback.
+const CACHE = "palavra-v34";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./fonts/fonts.css"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
@@ -16,7 +16,7 @@ self.addEventListener("fetch", e => {
   const sameOrigin = url.origin === self.location.origin;
   const isFont = url.hostname === "fonts.googleapis.com" || url.hostname === "fonts.gstatic.com";
   if (!sameOrigin && !isFont) return; // never touch API calls
-  if (sameOrigin && url.pathname.includes("/marginalia/")) {
+  if (sameOrigin && (url.pathname.includes("/marginalia/") || url.pathname.includes("/data/"))) {
     const key = url.origin + url.pathname; // ignore the cache-busting query
     e.respondWith(
       fetch(req).then(res => {
