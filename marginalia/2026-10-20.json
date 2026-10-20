@@ -1,640 +1,809 @@
 {
- "date": "2026-10-20",
- "createdBy": "claude",
- "items": [
-  {
-   "lang": "de",
-   "level": "C1",
-   "kind": "picks",
-   "section": "Lesetipps",
-   "title": "Lesetipps für heute",
-   "dek": "Vom Strafgerichtshof unter Sanktionen bis zur Energiewende im Rückwärtsgang: Völkerrecht, Arbeit, Frauenrechte, Überwachung und Mathematik.",
-   "paragraphs": [],
-   "picks": [
+  "date": "2026-10-20",
+  "createdBy": "claude",
+  "items": [
     {
-     "outlet": "taz",
-     "genre": "Reportage · Völkerrecht",
-     "title": "US-Sanktionen gegen IStGH: Die Richter und ihr Henker",
-     "author": "Christian Jakob",
-     "url": "https://taz.de/US-Sanktionen-gegen-IStGH/!6220564/",
-     "minutes": 12,
-     "en": "How Washington's sanctions against the International Criminal Court play out in the daily lives of its judges, told largely through the experience of judge Kimberly Prost. A sharp look at what happens to international law when a superpower turns against it.",
-     "zh": "美国制裁国际刑事法院，法官的日常生活因此受到怎样的影响。"
+      "lang": "de",
+      "level": "C1",
+      "kind": "picks",
+      "section": "Lesetipps",
+      "title": "Lesetipps für heute",
+      "dek": "Vom Strafgerichtshof unter Sanktionen bis zur Energiewende im Rückwärtsgang: Völkerrecht, Arbeit, Frauenrechte, Überwachung und Mathematik.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "taz",
+          "genre": "Reportage · Völkerrecht",
+          "title": "US-Sanktionen gegen IStGH: Die Richter und ihr Henker",
+          "author": "Christian Jakob",
+          "url": "https://taz.de/US-Sanktionen-gegen-IStGH/!6220564/",
+          "minutes": 12,
+          "en": "How Washington's sanctions against the International Criminal Court play out in the daily lives of its judges, told largely through the experience of judge Kimberly Prost. A sharp look at what happens to international law when a superpower turns against it.",
+          "zh": "美国制裁国际刑事法院，法官的日常生活因此受到怎样的影响。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Analyse · Energie & Wirtschaft",
+          "title": "Erneuerbare Energien: Reiches Rollback",
+          "author": "Anja Krüger, Nick Reimer",
+          "url": "https://taz.de/Erneuerbare-Energien/!6216523/",
+          "minutes": 8,
+          "en": "An analysis of economy minister Katherina Reiche's electricity-market bills, arguing they slow renewables without delivering the promised economic boost. Useful for following Germany's energy-transition debate.",
+          "zh": "分析经济部长赖歇的电力市场法案：放慢可再生能源，却难以提振经济。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Essay · Arbeit & Gesellschaft",
+          "title": "Psyche und Job: Kein Problem, Chef! Ahhhhhhhhhh!!!",
+          "author": "Konstantin Nowotny",
+          "url": "https://taz.de/Stress-Depression-Burn-out-Kein-Problem-Chef-Ahhhhhhhhhh/!6218231/",
+          "minutes": 10,
+          "en": "Why workloads keep rising despite digitalisation and AI, and how current labour policy adds to the pressure behind stress, depression and burnout. A sociological take on work with a lively, ironic voice.",
+          "zh": "数字化和AI并未减轻工作负担，为何倦怠与抑郁反而增多。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Reportage · Frauenrechte",
+          "title": "Genitalverstümmelung in Gambia: Wider die Rasierklinge",
+          "author": "Helena Kreiensiek",
+          "url": "https://taz.de/Genitalverstuemmelung-in-Gambia/!6205994/",
+          "minutes": 10,
+          "en": "Gambia's ban on female genital mutilation is under pressure as hardliners push to lift it; the reportage follows those defending it. A close-up of how hard-won women's rights can be rolled back.",
+          "zh": "冈比亚禁止女性割礼的法律正受到强硬派挑战，记者走访坚守禁令的人。"
+        },
+        {
+          "outlet": "netzpolitik.org",
+          "genre": "Analyse · Digitale Grundrechte",
+          "title": "Gesichtersuchmaschine PimEyes: Ein Verbot, das niemand durchsetzt",
+          "author": "Chris Köver",
+          "url": "https://netzpolitik.org/2026/gesichtersuchmaschine-pimeyes-ein-verbot-das-niemand-durchsetzt/",
+          "minutes": 7,
+          "en": "The EU AI Act bans scraping faces from the web for recognition databases, yet PimEyes keeps operating and the German regulator has not acted, while the government plans to let police use such services. A clear case study in the gap between law and enforcement.",
+          "zh": "欧盟AI法禁止抓取人脸建库，但PimEyes照常运营，监管机构却无作为。"
+        },
+        {
+          "outlet": "Spektrum der Wissenschaft",
+          "genre": "Wissenschaft · Kryptografie",
+          "title": "KI und Kryptografie: Mathematiker sind besorgt, dass KI unsere Verschlüsselungen knackt",
+          "url": "https://www.spektrum.de/news/mathematiker-sind-besorgt-dass-ki-unsere-verschluesselungen-knackt/2350038",
+          "minutes": 7,
+          "en": "As AI models grow rapidly better at mathematics, cryptographers worry that the hard problems underpinning encryption may not stay hard. Good science writing on where maths, security and AI meet.",
+          "zh": "AI数学能力飞速提升，密码学家担心加密的数学基础被攻破。"
+        }
+      ],
+      "glossary": [],
+      "questions": [],
+      "sources": []
     },
     {
-     "outlet": "taz",
-     "genre": "Analyse · Energie & Wirtschaft",
-     "title": "Erneuerbare Energien: Reiches Rollback",
-     "author": "Anja Krüger, Nick Reimer",
-     "url": "https://taz.de/Erneuerbare-Energien/!6216523/",
-     "minutes": 8,
-     "en": "An analysis of economy minister Katherina Reiche's electricity-market bills, arguing they slow renewables without delivering the promised economic boost. Useful for following Germany's energy-transition debate.",
-     "zh": "分析经济部长赖歇的电力市场法案：放慢可再生能源，却难以提振经济。"
+      "lang": "en",
+      "level": "C2",
+      "kind": "picks",
+      "section": "Reading list",
+      "title": "Today's reading list",
+      "dek": "Planetary justice, a data-center revolt, deaths under the border cameras, an AI proof in number theory, and what our gadgets do to our bodies.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "Aeon",
+          "genre": "Essay · International relations & climate",
+          "title": "Why we should heed Barbara Ward’s vision of planetary justice",
+          "author": "Or Rosenboim",
+          "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
+          "minutes": 17,
+          "en": "Rosenboim revisits the economist and journalist Barbara Ward, who treated prosperity, global equality and environmental protection as one planetary project. The essay takes her seriously while also criticising her paternalistic, Western-centred framing.",
+          "zh": "重读经济学家芭芭拉·沃德的“全球正义”构想：繁荣、平等与环保不可分割。"
+        },
+        {
+          "outlet": "The Verge (via Longreads)",
+          "genre": "Reportage · Technology & environment",
+          "title": "The People of Utah vs. Kevin O'Leary",
+          "author": "Josh Dzieza",
+          "url": "https://www.theverge.com/cs/features/993343/stratos-utah-kevin-oleary-data-center-backlash/",
+          "minutes": 25,
+          "en": "A gigantic data-center project in remote Utah, championed by Kevin O'Leary, meets fierce local resistance, with water and the shrinking Great Salt Lake at the heart of the fight. A vivid ground-level story about who pays for the AI boom.",
+          "zh": "犹他州超大数据中心计划遭当地居民强烈反对，焦点是水资源。"
+        },
+        {
+          "outlet": "MIT Technology Review (via Longreads)",
+          "genre": "Investigation · Migration",
+          "title": "She Died at the San Diego Border. A Surveillance Camera Was in Plain Sight.",
+          "author": "Lillian Perlmutter",
+          "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+          "minutes": 20,
+          "en": "In the Otay Mountain Wilderness, surveillance towers watch nearly everything, yet migrants keep dying there year after year. An investigation into what border technology does and does not do for human life.",
+          "zh": "圣地亚哥边境监控塔遍布山野，移民却依然年年死去。"
+        },
+        {
+          "outlet": "Quanta Magazine",
+          "genre": "Analysis · Mathematics",
+          "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+          "author": "Konstantin Kakaes",
+          "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+          "minutes": 15,
+          "en": "An OpenAI model produced a proof of a weaker cousin of the Riemann hypothesis, and human mathematicians have checked and explained it. Kakaes explores what the result means for prime numbers and for mathematics as a human practice.",
+          "zh": "AI证明了“准黎曼猜想”，数学家已验证——这对数学意味着什么？"
+        },
+        {
+          "outlet": "Aeon",
+          "genre": "Essay · Ideas & science",
+          "title": "The more we rely on tech, the more we deskill our bodies",
+          "author": "Melanie Challenger",
+          "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+          "minutes": 17,
+          "en": "Challenger argues that phones, GPS and AI erode skills like navigating, remembering and self-regulation, which only form through bodily practice. A thoughtful case that living bodies, not information systems, are where intelligence resides.",
+          "zh": "依赖科技让身体“去技能化”：导航、记忆和自我调节能力在退化。"
+        },
+        {
+          "outlet": "The Guardian",
+          "genre": "Browse · The Long Read",
+          "title": "The Long Read – latest essays",
+          "url": "https://www.theguardian.com/news/series/the-long-read",
+          "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+        },
+        {
+          "outlet": "The Atlantic",
+          "genre": "Browse · Ideas",
+          "title": "Ideas – essays and arguments",
+          "url": "https://www.theatlantic.com/ideas/",
+          "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+        }
+      ],
+      "note": "The Verge and MIT Technology Review pieces were found via Longreads' editors' picks; descriptions follow Longreads' summaries.",
+      "glossary": [],
+      "questions": [],
+      "sources": [
+        {
+          "title": "Longreads",
+          "url": "https://longreads.com/",
+          "license": "link only"
+        }
+      ]
     },
     {
-     "outlet": "taz",
-     "genre": "Essay · Arbeit & Gesellschaft",
-     "title": "Psyche und Job: Kein Problem, Chef! Ahhhhhhhhhh!!!",
-     "author": "Konstantin Nowotny",
-     "url": "https://taz.de/Stress-Depression-Burn-out-Kein-Problem-Chef-Ahhhhhhhhhh/!6218231/",
-     "minutes": 10,
-     "en": "Why workloads keep rising despite digitalisation and AI, and how current labour policy adds to the pressure behind stress, depression and burnout. A sociological take on work with a lively, ironic voice.",
-     "zh": "数字化和AI并未减轻工作负担，为何倦怠与抑郁反而增多。"
+      "lang": "de",
+      "level": "C1",
+      "kind": "feature",
+      "section": "Klima & Umwelt",
+      "title": "Wie viel Leben wir nicht kennen",
+      "dek": "Zur UN-Biodiversitätskonferenz in Jerewan zieht der Hamburger Zoologe Matthias Glaubrecht eine ernüchternde Zwischenbilanz: Die Artenvielfalt ist größer als gedacht – und ihr Verlust womöglich auch.",
+      "paragraphs": [
+        "Vor rund vier Jahren einigte sich die Weltgemeinschaft in Montreal auf ein ehrgeiziges Ziel: Bis 2030 soll der Verlust der biologischen Vielfalt gestoppt und umgekehrt werden. Herzstück des Abkommens ist die Formel „30 x 30“, nach der mindestens 30 Prozent der Land- und Meeresflächen wirksam geschützt werden sollen. In der armenischen Hauptstadt Jerewan beraten die Staaten nun auf der 17. UN-Biodiversitätskonferenz, wie weit sie damit gekommen sind.",
+        "Der Biodiversitätsforscher Matthias Glaubrecht, Professor an der Universität Hamburg und am Leibniz-Institut zur Analyse des Biodiversitätswandels, hat seine Bilanz im Tagesspiegel als Gastbeitrag veröffentlicht. Sein Befund: Der Schwung von Montreal sei verflogen. Zudem lasse sich Erfolg kaum messen, solange ein Großteil der Arten noch gar nicht bekannt sei.",
+        "Wie groß diese Wissenslücke ist, zeigt eine Studie, die im Juni in der Fachzeitschrift PNAS erschien. Ein Team um den Ökologen Robert Colwell von der University of Connecticut verglich in einem Schutzgebiet im Nordwesten Costa Ricas die bekannten Insekten einer Gruppe mit den Ergebnissen genetischer Analysen. Bei winzigen Schlupfwespen war demnach nur etwa ein Sechstel der Vielfalt beschrieben. Hochgerechnet könnte es weltweit mindestens 14 bis 20 Millionen Insektenarten geben – beschrieben ist bislang kaum mehr als eine Million.",
+        "Gleichzeitig schrumpfen die Bestände der bekannten Arten. Laut dem Living Planet Report der Umweltstiftung WWF sind die beobachteten Populationen ausgewählter Wirbeltiere zwischen 1970 und 2022 im Schnitt um 73 Prozent zurückgegangen. Es gibt Gewinner wie den Tiger, doch die Verlierer überwiegen. Eine Studie in der Zeitschrift Nature kommt immerhin zu dem Ergebnis, dass an Land bereits knapp 27 statt der offiziell gezählten 18 Prozent unter Schutz stehen könnten.",
+        "Glaubrecht warnt jedoch davor, Schutzgebiete auf dem Papier mit wirksamem Schutz zu verwechseln. Als Beispiel nennt er Deutschland: Nationalparks bedecken nur etwa 0,6 Prozent der Landfläche, und im Nationalpark Wattenmeer ist die Grundschleppnetzfischerei weiter erlaubt. Mehr als die Hälfte der Naturschutzgebiete ist kleiner als 50 Hektar und nach seiner Einschätzung zu klein und zu isoliert, zumal Dünger und Insektizide aus der umliegenden Landwirtschaft hineingelangen.",
+        "Den Hauptgrund für das Artensterben sieht der Forscher nicht im Klimawandel, sondern in der veränderten Landnutzung, also etwa in Rodungen und der Umwandlung von Wäldern in Äcker. Für Deutschland nennt er neben der intensiven Landwirtschaft auch die Industrialisierung der Landschaft, zu der er Anlagen für erneuerbare Energien zählt – eine Einschätzung, die im Naturschutz durchaus umstritten ist.",
+        "Schließlich geht es ums Geld. Weltweit gäben Staaten jährlich rund drei Billionen US-Dollar für Verteidigung aus, schreibt Glaubrecht, schafften es aber kaum, ein Prozent davon für den internationalen Schutz von Ökosystemen aufzubringen. Er fordert, schädliche Subventionen abzubauen und die Biodiversität fest in politische und wirtschaftliche Entscheidungen einzubeziehen. Ob die Konferenz dafür den Durchbruch bringt, bezweifelt er."
+      ],
+      "paragraphs_en": [
+        "About four years ago, the international community agreed in Montreal on an ambitious goal: by 2030, the loss of biological diversity is to be halted and reversed. At the heart of the agreement is the formula “30 x 30”, under which at least 30 percent of land and sea areas are to be effectively protected. In the Armenian capital Yerevan, states are now discussing at the 17th UN Biodiversity Conference how far they have come.",
+        "The biodiversity researcher Matthias Glaubrecht, a professor at the University of Hamburg and at the Leibniz Institute for the Analysis of Biodiversity Change, published his assessment as a guest article in the Tagesspiegel. His finding: the momentum of Montreal has evaporated. Moreover, success can hardly be measured as long as a large share of species is not even known yet.",
+        "How big this knowledge gap is can be seen in a study published in June in the journal PNAS. A team led by the ecologist Robert Colwell of the University of Connecticut compared the known insects of one group in a protected area in north-western Costa Rica with the results of genetic analyses. For tiny parasitic wasps, only about one sixth of the diversity had been described. Extrapolated, there could be at least 14 to 20 million insect species worldwide – while barely more than one million have been described so far.",
+        "At the same time, the populations of known species are shrinking. According to the Living Planet Report of the conservation organisation WWF, the monitored populations of selected vertebrates declined by an average of 73 percent between 1970 and 2022. There are winners such as the tiger, but the losers predominate. A study in the journal Nature does at least conclude that almost 27 percent of land, rather than the officially counted 18 percent, could already be under protection.",
+        "Glaubrecht warns, however, against confusing protected areas on paper with effective protection. He cites Germany as an example: national parks cover only about 0.6 percent of the land area, and bottom trawling is still permitted in the Wadden Sea National Park. More than half of the nature reserves are smaller than 50 hectares and, in his assessment, too small and too isolated, especially since fertiliser and insecticides from the surrounding agriculture get into them.",
+        "The researcher sees the main cause of species extinction not in climate change but in changing land use, for example clearing forests and converting them into fields. For Germany, besides intensive agriculture, he also names the industrialisation of the landscape, in which he includes renewable energy installations – an assessment that is quite contested within nature conservation.",
+        "Finally, it comes down to money. Worldwide, states spend around three trillion US dollars a year on defence, Glaubrecht writes, yet barely manage to raise one percent of that for the international protection of ecosystems. He calls for harmful subsidies to be dismantled and for biodiversity to be firmly integrated into political and economic decisions. He doubts whether the conference will bring the breakthrough needed for this."
+      ],
+      "glossary": [
+        {
+          "w": "die Artenvielfalt",
+          "en": "biodiversity, variety of species",
+          "zh": "物种多样性"
+        },
+        {
+          "w": "die Zwischenbilanz",
+          "en": "interim assessment, mid-term review",
+          "zh": "阶段性总结"
+        },
+        {
+          "w": "verfliegen",
+          "en": "to evaporate, fade (of enthusiasm)",
+          "zh": "消散"
+        },
+        {
+          "w": "hochrechnen",
+          "en": "to extrapolate, project",
+          "zh": "推算"
+        },
+        {
+          "w": "der Bestand, die Bestände",
+          "en": "population (of a species), stock",
+          "zh": "种群数量"
+        },
+        {
+          "w": "überwiegen",
+          "en": "to predominate, outweigh",
+          "zh": "占多数"
+        },
+        {
+          "w": "die Grundschleppnetzfischerei",
+          "en": "bottom trawling",
+          "zh": "底拖网捕鱼"
+        },
+        {
+          "w": "die Landnutzung",
+          "en": "land use",
+          "zh": "土地利用"
+        },
+        {
+          "w": "die Rodung",
+          "en": "clearing (of forest), deforestation",
+          "zh": "砍伐林地"
+        },
+        {
+          "w": "umstritten",
+          "en": "contested, disputed",
+          "zh": "有争议的"
+        },
+        {
+          "w": "die Billion",
+          "en": "trillion (false friend: not 'billion')",
+          "zh": "万亿"
+        },
+        {
+          "w": "aufbringen",
+          "en": "to raise (money), come up with",
+          "zh": "筹集"
+        }
+      ],
+      "grammar": "Indirect speech with Konjunktiv I signals that a claim is the author's, not the newspaper's: „Der Schwung sei verflogen“, „Staaten gäben … aus“ (Konjunktiv II replaces Konjunktiv I when the forms would match the indicative, as with „geben“). 【间接引语用第一虚拟式，形式与直陈式相同时改用第二虚拟式】",
+      "questions": [
+        "Warum lässt sich der Erfolg des Montreal-Abkommens laut Glaubrecht so schwer messen?",
+        "Worin unterscheidet sich ein Schutzgebiet „auf dem Papier“ von wirksamem Schutz? Nennen Sie Beispiele aus dem Text.",
+        "Wie bewerten Sie Glaubrechts Hinweis auf erneuerbare Energien als Belastung für die Artenvielfalt?"
+      ],
+      "sources": [
+        {
+          "title": "Tagesspiegel: Matthias Glaubrecht, Die unbekannte Vielfalt der Erde – „Wir riskieren alles, was wir zum Leben brauchen“ (Gastbeitrag, 19.10.2026)",
+          "url": "https://www.tagesspiegel.de/wissen/die-unbekannte-vielfalt-der-erdewir-riskieren-alles-was-wir-zum-leben-brauchen-16170178.html",
+          "license": "link only"
+        }
+      ]
     },
     {
-     "outlet": "taz",
-     "genre": "Reportage · Frauenrechte",
-     "title": "Genitalverstümmelung in Gambia: Wider die Rasierklinge",
-     "author": "Helena Kreiensiek",
-     "url": "https://taz.de/Genitalverstuemmelung-in-Gambia/!6205994/",
-     "minutes": 10,
-     "en": "Gambia's ban on female genital mutilation is under pressure as hardliners push to lift it; the reportage follows those defending it. A close-up of how hard-won women's rights can be rolled back.",
-     "zh": "冈比亚禁止女性割礼的法律正受到强硬派挑战，记者走访坚守禁令的人。"
+      "lang": "de",
+      "level": "B2",
+      "kind": "brief",
+      "section": "Hannover",
+      "title": "Provenienzforschung: Internationale Tagung in Hannover",
+      "dek": "Anfang November treffen sich Fachleute aus elf Ländern in Hannover, um über die Herkunft von Kulturgütern zu sprechen – auch über NS-Raubgut.",
+      "paragraphs": [
+        "Vom 3. bis 5. November 2026 findet in Hannover die internationale Jahrestagung des Arbeitskreises Provenienzforschung statt. Provenienzforscherinnen und -forscher untersuchen, woher Kunstwerke und andere Objekte in Museen und Bibliotheken stammen und ob sie zum Beispiel in der NS-Zeit oder im Kolonialismus unrechtmäßig erworben wurden. Erwartet werden 86 Vortragende aus elf Ländern, darunter die USA, Australien und mehrere europäische Staaten.",
+        "Eröffnet wird die Tagung am 3. November im Sprengel Museum mit einem Grußwort von Oberbürgermeister Belit Onay. Am Abend stellt sich dort die neue Schiedsgerichtsbarkeit für NS-Raubgut der Öffentlichkeit vor. Am zweiten Tag laufen Panels und Workshops parallel an mehreren Orten, etwa im Landesmuseum, im Museum August Kestner und im ZeitZentrum Zivilcourage; Führungen gibt es unter anderem zum Mahnmal gegen den Kolonialismus.",
+        "Die Tagung ist zweisprachig, Deutsch und Englisch. Interessierte können gegen eine Gebühr teilnehmen, auch nur an einem Tag oder online; ein großer Teil wird live gestreamt. Der Arbeitskreis wurde im Jahr 2000 gegründet und hat nach eigenen Angaben über 680 Mitglieder aus 17 Ländern."
+      ],
+      "paragraphs_en": [
+        "From 3 to 5 November 2026, the international annual conference of the Arbeitskreis Provenienzforschung (Provenance Research Working Group) will take place in Hannover. Provenance researchers investigate where artworks and other objects in museums and libraries come from and whether they were acquired unlawfully, for example during the Nazi era or under colonialism. 86 speakers from eleven countries are expected, including the USA, Australia and several European states.",
+        "The conference opens on 3 November at the Sprengel Museum with a welcome address by Lord Mayor Belit Onay. In the evening, the new arbitration body for Nazi-looted property will present itself to the public there. On the second day, panels and workshops run in parallel at several venues, such as the Landesmuseum, the Museum August Kestner and the ZeitZentrum Zivilcourage; guided tours include one to the Memorial against Colonialism.",
+        "The conference is bilingual, German and English. Anyone interested can take part for a fee, including for just one day or online; a large part will be streamed live. The working group was founded in 2000 and, according to its own figures, has more than 680 members from 17 countries."
+      ],
+      "glossary": [
+        {
+          "w": "die Provenienz",
+          "en": "provenance, origin (of an object)",
+          "zh": "来源"
+        },
+        {
+          "w": "das Kulturgut",
+          "en": "cultural property",
+          "zh": "文化财产"
+        },
+        {
+          "w": "das NS-Raubgut",
+          "en": "property looted by the Nazis",
+          "zh": "纳粹掠夺的财物"
+        },
+        {
+          "w": "unrechtmäßig",
+          "en": "unlawfully, illegitimately",
+          "zh": "非法地"
+        },
+        {
+          "w": "erwerben",
+          "en": "to acquire",
+          "zh": "获得，购得"
+        },
+        {
+          "w": "das Grußwort",
+          "en": "welcome address",
+          "zh": "致辞"
+        },
+        {
+          "w": "die Schiedsgerichtsbarkeit",
+          "en": "arbitration (system)",
+          "zh": "仲裁"
+        },
+        {
+          "w": "das Mahnmal",
+          "en": "memorial (warning against repetition)",
+          "zh": "警示纪念碑"
+        },
+        {
+          "w": "die Gebühr",
+          "en": "fee",
+          "zh": "费用"
+        }
+      ],
+      "grammar": "The passive with „werden“ keeps the focus on events, not actors: „Erwartet werden 86 Vortragende“, „Eröffnet wird die Tagung …“. Fronting the participle adds emphasis. 【被动态，分词前置以强调】",
+      "questions": [
+        "Womit beschäftigt sich die Provenienzforschung?",
+        "Welche Möglichkeiten gibt es, an der Tagung teilzunehmen?"
+      ],
+      "sources": [
+        {
+          "title": "hannover.de: Internationale Jahrestagung zur Provenienzforschung in Hannover (aktualisiert 12.10.2026)",
+          "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Internationale-Jahrestagung-zur-Provenienzforschung-in-Hannover",
+          "license": "official"
+        }
+      ]
     },
     {
-     "outlet": "netzpolitik.org",
-     "genre": "Analyse · Digitale Grundrechte",
-     "title": "Gesichtersuchmaschine PimEyes: Ein Verbot, das niemand durchsetzt",
-     "author": "Chris Köver",
-     "url": "https://netzpolitik.org/2026/gesichtersuchmaschine-pimeyes-ein-verbot-das-niemand-durchsetzt/",
-     "minutes": 7,
-     "en": "The EU AI Act bans scraping faces from the web for recognition databases, yet PimEyes keeps operating and the German regulator has not acted, while the government plans to let police use such services. A clear case study in the gap between law and enforcement.",
-     "zh": "欧盟AI法禁止抓取人脸建库，但PimEyes照常运营，监管机构却无作为。"
+      "lang": "en",
+      "level": "C2",
+      "kind": "feature",
+      "section": "Science & Mathematics",
+      "title": "A proof without an author",
+      "dek": "An OpenAI system appears to have settled the quasi-Riemann hypothesis, a weaker cousin of mathematics' most famous open problem. Number theorists are impressed by the result and uneasy about almost everything around it.",
+      "paragraphs": [
+        "For more than 160 years, the Riemann hypothesis has been the summit that number theorists circle without ever reaching. Proposed by Bernhard Riemann in 1859 and now one of the Clay Millennium Prize problems, it predicts that every nontrivial zero of the zeta function lies on a single vertical line, the one with real part 1/2. The claim matters because the zeros govern how prime numbers are scattered along the number line. Computers have checked the first 12 trillion of them, but a single stray zero would upend a vast body of conditional mathematics.",
+        "On 6 October, OpenAI announced a large batch of machine-generated mathematical results, and one of them claimed something mathematicians had long wanted: a proof of the so-called quasi-Riemann hypothesis. Riemann himself had shown that the nontrivial zeros sit somewhere in a strip between 0 and 1, and work in 1896 excluded the strip's edges, which delivered the prime number theorem. Quasi-RH asks for less than the full conjecture but far more than that: a strictly narrower strip. As Quanta's Konstantin Kakaes reports, the AI produced two versions of the proof. The first, dated 30 September and running to about 199 pages, confines the zeros between 1/8 and 7/8 and has been formally verified in the proof assistant Lean; the second, about 49 pages long, claims a marginally wider band, from 1/12 to 11/12, and has not yet been formally checked.",
+        "The reaction among specialists has been a mixture of awe and discomfort. Maksym Radziwiłł of New York University, whose 2021 formula with Alexander Dunn of Georgia Tech turned out to be a crucial ingredient, described the implications as staggering, observing that most consequences of the full hypothesis already follow from the quasi version. Jared Duker Lichtman of Stanford called it the most significant achievement of AI in mathematics to date, and Peter Sarnak of Princeton is reorganising a course around the paper. What surprised researchers most was not a dazzling new idea but the machine's conviction that existing tools, notably obscure objects known as metaplectic forms, would suffice when cleverly combined.",
+        "That observation cuts both ways. According to the University of Waterloo's Michael Rubinstein, Sarnak had long urged colleagues to study a particular family of related functions, yet the right family was overlooked, and Henryk Iwaniec of Rutgers came close in 2002 without closing the gap. One reading is that the AI found a path human beings had walked past for decades; another is that the field had already laid nearly every paving stone. Both readings can be true at once, and the distinction matters for how credit is apportioned between a model and the literature it was trained on.",
+        "The unease concerns standards as much as substance. Radziwiłł has judged both papers poorly written and below the norms of the discipline, adding that he can sketch the core argument of the shorter version in half a page; human write-ups of seven to 13 pages are circulating privately. Sarnak, for his part, will not treat the result as a theorem until people have checked every detail. Oddly, mathematicians have concentrated on the shorter, unverified version precisely because it is readable, even though the formally verified one is the more secure. Formal verification, in other words, has not removed the need for human understanding; it has simply moved the bottleneck.",
+        "Then there is the question of authorship. The 11/12 paper is reportedly the only one of the batch that a human edited, and OpenAI has not said who did so or why, stating only that the work came from everyone at the company. In a discipline where a proof is also a public act of explanation and attribution, that vagueness is more than a procedural quibble: it leaves readers unable to tell which choices were the machine's and which were a person's. Corporate announcements, moreover, are not peer review, and the episode suggests how much of the verification burden can fall on academics outside the company.",
+        "Whether the methods can push the strip all the way to the critical line remains open. Will Sawin of Princeton suspects they cannot, though he admits he is unsure, while Thomas Bloom of the University of Manchester says nothing would surprise him any more. That shrug may be the most telling response of all. The quasi-Riemann hypothesis was a landmark worth reaching, but the more consequential shift may be cultural: mathematicians are learning to read, audit and reframe arguments they did not write, from an author that cannot be asked what it meant."
+      ],
+      "glossary": [
+        {
+          "w": "to circle without reaching",
+          "en": "to approach a goal repeatedly without ever attaining it",
+          "zh": "反复接近却始终未能达到"
+        },
+        {
+          "w": "conditional (mathematics)",
+          "en": "results that are proved on the assumption that an unproven conjecture is true",
+          "zh": "以未证猜想为前提的（条件性结论）"
+        },
+        {
+          "w": "to upend",
+          "en": "to overturn or radically disrupt something established",
+          "zh": "颠覆；推翻"
+        },
+        {
+          "w": "to confine",
+          "en": "to keep something within strict limits",
+          "zh": "限制在……范围内"
+        },
+        {
+          "w": "to cut both ways",
+          "en": "to have both advantages and disadvantages, or support opposing conclusions",
+          "zh": "有利也有弊；两面皆可解读"
+        },
+        {
+          "w": "to apportion credit",
+          "en": "to divide recognition for an achievement among those involved",
+          "zh": "分配功劳"
+        },
+        {
+          "w": "a procedural quibble",
+          "en": "a minor objection about method or form rather than substance",
+          "zh": "程序上的小挑剔"
+        },
+        {
+          "w": "to shift the bottleneck",
+          "en": "to move the point where progress is most constrained, rather than remove it",
+          "zh": "转移瓶颈（而非消除）"
+        },
+        {
+          "w": "to audit",
+          "en": "to examine something systematically to check that it is correct",
+          "zh": "审核；核查"
+        },
+        {
+          "w": "to reframe",
+          "en": "to present or understand something from a different perspective",
+          "zh": "重新表述；换个框架理解"
+        }
+      ],
+      "grammar": "\"Asks for less than the full conjecture but far more than that\" uses a balanced comparative frame (less than X but more than Y) to position one claim between two others, a common device in analytical prose.",
+      "questions": [
+        "Why might mathematicians prefer to study the shorter, unverified proof over the longer, formally verified one, and what does this suggest about the purpose of a proof?",
+        "The article offers two readings of the AI's achievement: discovery of an overlooked path, or assembly of existing work. How should credit be shared in such cases?",
+        "What problems arise when a major mathematical result is announced by a company rather than through peer review?"
+      ],
+      "sources": [
+        {
+          "title": "Quanta Magazine: Konstantin Kakaes, AI Proved the Quasi-Riemann Hypothesis. What Happens Now? (19 October 2026)",
+          "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+          "license": "link only"
+        }
+      ]
     },
     {
-     "outlet": "Spektrum der Wissenschaft",
-     "genre": "Wissenschaft · Kryptografie",
-     "title": "KI und Kryptografie: Mathematiker sind besorgt, dass KI unsere Verschlüsselungen knackt",
-     "url": "https://www.spektrum.de/news/mathematiker-sind-besorgt-dass-ki-unsere-verschluesselungen-knackt/2350038",
-     "minutes": 7,
-     "en": "As AI models grow rapidly better at mathematics, cryptographers worry that the hard problems underpinning encryption may not stay hard. Good science writing on where maths, security and AI meet.",
-     "zh": "AI数学能力飞速提升，密码学家担心加密的数学基础被攻破。"
+      "lang": "pt",
+      "level": "A1",
+      "kind": "story",
+      "section": "Tito e Ana",
+      "series": {
+        "name": "Tito e Ana",
+        "episode": 5
+      },
+      "title": "Uma festa surpresa",
+      "dek": "Hoje é um dia especial para a Dona Rosa.",
+      "paragraphs": [
+        "Hoje é quinta-feira. O sol está forte e o dia está bonito. A Ana olha o calendário e sorri.",
+        "— Tito, hoje é o aniversário da Dona Rosa! A gente vai fazer uma festa surpresa — diz a Ana. O Tito mia: miau!",
+        "A Ana vai à padaria do Seu João. O Tito vai com ela, claro. Na rua, o Bolinha espera na frente da casa da Dona Rosa.",
+        "— Psiu, Bolinha! É segredo — diz a Ana. O Bolinha balança o rabo e vai junto.",
+        "Na padaria, o Seu João já sabe. Ele tem um bolo de chocolate grande, com flores amarelas. — É para a Dona Rosa! — diz ele.",
+        "A Ana compra o bolo e umas velas. O Seu João fecha a padaria às quatro horas e vai para a casa amarela também.",
+        "À tarde, a Ana chama a Dona Rosa. — Dona Rosa, você pode vir aqui um minuto? A Dona Rosa entra na sala. Está tudo escuro.",
+        "De repente, a luz acende. — Surpresa! Parabéns! — gritam a Ana e o Seu João. O Bolinha late e o Tito pula na mesa.",
+        "A Dona Rosa ri e chora ao mesmo tempo. — Obrigada, meus amigos! — diz ela. Todos cantam \"Parabéns pra você\".",
+        "A Dona Rosa apaga as velas. O Tito ganha um pouco de leite, e o Bolinha ganha um pedaço de pão. É uma festa muito feliz."
+      ],
+      "paragraphs_en": [
+        "Today is Thursday. The sun is strong and the day is beautiful. Ana looks at the calendar and smiles.",
+        "\"Tito, today is Dona Rosa's birthday! We're going to throw a surprise party,\" says Ana. Tito meows: meow!",
+        "Ana goes to Seu João's bakery. Tito goes with her, of course. In the street, Bolinha is waiting in front of Dona Rosa's house.",
+        "\"Shh, Bolinha! It's a secret,\" says Ana. Bolinha wags his tail and comes along.",
+        "At the bakery, Seu João already knows. He has a big chocolate cake with yellow flowers. \"It's for Dona Rosa!\" he says.",
+        "Ana buys the cake and some candles. Seu João closes the bakery at four o'clock and goes to the yellow house too.",
+        "In the afternoon, Ana calls Dona Rosa. \"Dona Rosa, can you come here for a minute?\" Dona Rosa walks into the living room. Everything is dark.",
+        "Suddenly the light comes on. \"Surprise! Happy birthday!\" shout Ana and Seu João. Bolinha barks and Tito jumps onto the table.",
+        "Dona Rosa laughs and cries at the same time. \"Thank you, my friends!\" she says. Everyone sings \"Happy Birthday\".",
+        "Dona Rosa blows out the candles. Tito gets a little milk, and Bolinha gets a piece of bread. It's a very happy party."
+      ],
+      "paragraphs_zh": [
+        "今天是星期四。阳光很强，天气很好。安娜看着日历笑了。",
+        "“蒂托，今天是罗莎太太的生日！我们要办一个惊喜派对。”安娜说。蒂托叫：喵！",
+        "安娜去若昂先生的面包店。蒂托当然也跟着去。街上，波利尼亚在罗莎太太家门口等着。",
+        "“嘘，波利尼亚！这是秘密。”安娜说。波利尼亚摇着尾巴，一起去了。",
+        "在面包店，若昂先生早就知道了。他有一个大大的巧克力蛋糕，上面有黄色的花。“这是给罗莎太太的！”他说。",
+        "安娜买了蛋糕和几根蜡烛。若昂先生四点关了面包店，也去了黄房子。",
+        "下午，安娜叫罗莎太太。“罗莎太太，你能过来一下吗？”罗莎太太走进客厅。里面一片漆黑。",
+        "突然，灯亮了。“惊喜！生日快乐！”安娜和若昂先生大喊。波利尼亚汪汪叫，蒂托跳上了桌子。",
+        "罗莎太太又笑又哭。“谢谢你们，我的朋友们！”她说。大家一起唱《祝你生日快乐》。",
+        "罗莎太太吹灭了蜡烛。蒂托得到一点牛奶，波利尼亚得到一块面包。这是一个非常快乐的派对。"
+      ],
+      "glossary": [
+        {
+          "w": "o aniversário",
+          "en": "birthday (cf. English 'anniversary')",
+          "zh": "生日"
+        },
+        {
+          "w": "a festa surpresa",
+          "en": "surprise party (surpresa ≈ 'surprise')",
+          "zh": "惊喜派对"
+        },
+        {
+          "w": "o segredo",
+          "en": "secret (cognate)",
+          "zh": "秘密"
+        },
+        {
+          "w": "balançar o rabo",
+          "en": "to wag the tail",
+          "zh": "摇尾巴"
+        },
+        {
+          "w": "a vela",
+          "en": "candle",
+          "zh": "蜡烛"
+        },
+        {
+          "w": "escuro",
+          "en": "dark",
+          "zh": "黑暗的"
+        },
+        {
+          "w": "Parabéns!",
+          "en": "Happy birthday! / Congratulations!",
+          "zh": "生日快乐！/ 祝贺！"
+        },
+        {
+          "w": "apagar",
+          "en": "to blow out, to switch off",
+          "zh": "吹灭、关掉"
+        },
+        {
+          "w": "ganhar",
+          "en": "to get, to receive (also 'to win')",
+          "zh": "得到；赢"
+        }
+      ],
+      "grammar": "ir + infinitive talks about the near future: A gente vai fazer uma festa (We're going to throw a party). Just conjugate ir and add the verb: eu vou comprar, ela vai cantar. With a gente, the verb is like ele/ela: a gente vai. （ir + 动词原形表示“将要”；a gente 用第三人称单数。）",
+      "questions": [
+        "Que dia é hoje?",
+        "O que o Seu João tem na padaria?",
+        "O que a Dona Rosa faz com as velas?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "dialogue",
+      "section": "Diálogo",
+      "title": "No ônibus",
+      "paragraphs": [
+        "Ana: Oi, moço! Este ônibus vai para o centro?",
+        "Motorista: Vai, sim. Pode subir.",
+        "Ana: Quanto é a passagem?",
+        "Motorista: Cinco reais. Você paga ali com o cobrador.",
+        "Ana: Ah, tá. Pode ser no cartão?",
+        "Cobrador: Pode. É só aproximar o cartão aqui na catraca.",
+        "Ana: Pronto. Desculpa, você sabe onde eu desço para a Praça da Sé?",
+        "Cobrador: Sei, sim. São seis pontos. Eu aviso você.",
+        "Ana: Obrigada! Demora muito?",
+        "Cobrador: Uns vinte minutos, se não tiver trânsito.",
+        "Ana: Tudo bem. Posso sentar aqui?",
+        "Passageira: Pode, sim. Fica à vontade.",
+        "Cobrador: Moça, o próximo ponto é o seu. Aperta o botão para descer.",
+        "Ana: Valeu! Tchau, boa tarde!"
+      ],
+      "paragraphs_en": [
+        "Ana: Hi! Does this bus go to the city centre?",
+        "Driver: Yes, it does. Hop on.",
+        "Ana: How much is the fare?",
+        "Driver: Five reais. You pay the conductor over there.",
+        "Ana: Oh, okay. Can I pay by card?",
+        "Conductor: Yes. Just tap your card here at the turnstile.",
+        "Ana: Done. Excuse me, do you know where I get off for Praça da Sé?",
+        "Conductor: Yes, I do. It's six stops. I'll let you know.",
+        "Ana: Thanks! Does it take long?",
+        "Conductor: About twenty minutes, if there's no traffic.",
+        "Ana: All right. Can I sit here?",
+        "Passenger: Sure. Make yourself comfortable.",
+        "Conductor: Miss, the next stop is yours. Press the button to get off.",
+        "Ana: Thanks! Bye, have a good afternoon!"
+      ],
+      "paragraphs_zh": [
+        "安娜：你好，师傅！这辆公交车去市中心吗？",
+        "司机：去的。上来吧。",
+        "安娜：车票多少钱？",
+        "司机：五雷亚尔。你在那边付给售票员。",
+        "安娜：哦，好的。可以刷卡吗？",
+        "售票员：可以。把卡靠近闸机这里就行。",
+        "安娜：好了。请问，去塞广场我在哪儿下车？",
+        "售票员：知道。还有六站。我会提醒你。",
+        "安娜：谢谢！要很久吗？",
+        "售票员：大概二十分钟，如果不堵车的话。",
+        "安娜：好的。我可以坐这儿吗？",
+        "乘客：可以。请随意。",
+        "售票员：小姐，下一站就是你的站。按铃下车吧。",
+        "安娜：谢啦！再见，下午好！"
+      ],
+      "glossary": [
+        {
+          "w": "o ônibus",
+          "en": "bus (cf. English 'omnibus')",
+          "zh": "公交车"
+        },
+        {
+          "w": "moço / moça",
+          "en": "friendly way to address a young-ish man / woman",
+          "zh": "小伙子 / 姑娘（礼貌称呼）"
+        },
+        {
+          "w": "a passagem",
+          "en": "fare, ticket (cf. 'passage')",
+          "zh": "车票、车费"
+        },
+        {
+          "w": "o cobrador",
+          "en": "bus conductor who takes the fare",
+          "zh": "售票员"
+        },
+        {
+          "w": "a catraca",
+          "en": "turnstile",
+          "zh": "闸机、旋转门"
+        },
+        {
+          "w": "descer",
+          "en": "to get off (lit. 'to go down'; cf. 'descend')",
+          "zh": "下车"
+        },
+        {
+          "w": "o ponto (de ônibus)",
+          "en": "bus stop (lit. 'point')",
+          "zh": "公交站"
+        },
+        {
+          "w": "o trânsito",
+          "en": "traffic (cf. 'transit')",
+          "zh": "交通、堵车"
+        },
+        {
+          "w": "Fica à vontade.",
+          "en": "Make yourself comfortable / Go ahead.",
+          "zh": "请随意。"
+        },
+        {
+          "w": "Valeu!",
+          "en": "Thanks! (very informal, Brazilian)",
+          "zh": "谢啦！"
+        }
+      ],
+      "grammar": "Brazilians often make friendly requests with the plain verb form: Aperta o botão (Press the button), Fica à vontade (Make yourself at home). In everyday speech this sounds warm, not rude. To ask permission, use poder: Posso sentar aqui? — Pode, sim. （口语中常用动词原形式提要求；poder 用来请求许可。）",
+      "questions": [
+        "Para onde a Ana vai?",
+        "Quanto é a passagem?",
+        "Quantos pontos são até a Praça da Sé?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "fr",
+      "level": "C1",
+      "kind": "feature",
+      "section": "Économie",
+      "title": "Des arbres contre des zébus",
+      "dek": "À Madagascar, une entreprise italienne plante des forêts pour vendre des crédits carbone. Les éleveurs bara, eux, voient leurs pâturages se refermer.",
+      "paragraphs": [
+        "Sur les hauts plateaux du sud de Madagascar, la région d'Ihorombe ressemble à une immense prairie : plus de 26 000 kilomètres carrés d'herbe, de collines et de pistes rouges. Depuis des générations, les éleveurs bara y conduisent leurs troupeaux de zébus d'un pâturage à l'autre. Mais depuis une quinzaine d'années, une partie de ces terres porte autre chose que de l'herbe : des rangées d'arbres plantés par une entreprise italienne, Tozzi Green. Le média Afrique XXI vient de consacrer une enquête à ce conflit, qui en dit long sur la manière dont l'économie mondiale redessine les campagnes du Sud.",
+        "Tout commence en 2010, à l'époque où les agrocarburants promettaient de remplacer le pétrole. L'entreprise s'installe avec une filiale, Jatropha Technology Farm, et obtient de l'État malgache des terres dans trois communes. Le projet initial est vertigineux : on parle alors de 100 000 hectares. Le premier bail, signé en 2012, en couvre un peu plus de 6 500. La culture vedette, le jatropha, un arbuste dont les graines donnent une huile combustible, ne tient pas ses promesses. L'entreprise se tourne alors vers le maïs pour l'alimentation animale, puis vers le géranium pour les huiles essentielles.",
+        "Depuis 2022, le projet a changé de visage une nouvelle fois. Tozzi Green affirme avoir reboisé environ 4 000 hectares, avec un objectif clair : produire des crédits carbone. Le principe est simple sur le papier. Une entreprise européenne qui émet du CO₂ peut « compenser » ses émissions en finançant des arbres qui en absorbent ailleurs. Ainsi, une même parcelle est passée en quelques années du carburant « vert » au carbone « vert », au gré des modes du marché mondial.",
+        "Le nœud du problème est juridique. La plupart des terres de la région n'ont jamais été titrées. Les habitants les occupent selon des droits coutumiers, transmis de génération en génération, que l'administration ne reconnaît qu'imparfaitement. Une réforme foncière lancée en 2005 a bien créé un certificat permettant de faire valoir l'usage d'une parcelle, mais les pâturages restent mal protégés. Selon les habitants et les associations qui les soutiennent, l'État a traité ces espaces comme son propre domaine avant de les louer à l'investisseur.",
+        "Pour les éleveurs, les conséquences sont très concrètes. Des couloirs de passage du bétail ont été coupés, des détours allongent les trajets, et un marché aux zébus traditionnel aurait été fermé. Des villageois disent avoir été sanctionnés lorsque leurs bêtes entraient dans les plantations. Des chercheurs relèvent aussi que les consultations ont surtout impliqué des élus locaux, et que des procès-verbaux mentionnent des accords que certains villageois contestent. L'entreprise, elle, nie toute violence, assure respecter les procédures et avance qu'une étude d'impact de 2024 ne constate pas de perte durable d'accès aux pâturages.",
+        "Le dossier a franchi les frontières. En 2023, des associations malgaches et ActionAid Italie ont saisi le point de contact national italien de l'OCDE, une instance chargée de vérifier si les multinationales respectent les principes directeurs de l'organisation. La procédure n'a pas encore abouti. Un autre détail attire l'attention : deux banques publiques de développement, l'une finlandaise, l'autre belge, ont investi ensemble 7,5 millions d'euros dans la filiale, alors même que le conflit était connu.",
+        "Il serait trop facile de réduire l'histoire à un face-à-face entre des villageois vertueux et une multinationale cynique. L'entreprise emploie près de 700 personnes, a financé un centre de santé et des réparations d'écoles, et a rendu une partie des terres. Mais la plupart de ces emplois sont temporaires ou saisonniers, et les habitants jugent que les promesses n'ont pas été tenues. Surtout, une question demeure : qui décide de l'usage d'une terre quand la loi ignore ceux qui la font vivre ?",
+        "L'Ihorombe n'est pas un cas isolé. De l'Afrique de l'Est à l'Amazonie, la course aux crédits carbone pousse des investisseurs vers des terres présentées comme « vides » ou « dégradées », alors qu'elles nourrissent des troupeaux et des familles. La lutte contre le réchauffement climatique est indispensable. Encore faut-il qu'elle ne se fasse pas sur le dos de ceux qui en sont le moins responsables."
+      ],
+      "paragraphs_en": [
+        "On the high plateaus of southern Madagascar, the Ihorombe region looks like an immense grassland: more than 26,000 square kilometres of grass, hills and red tracks. For generations, Bara herders have driven their herds of zebu from one pasture to the next. But for about fifteen years, part of this land has carried something other than grass: rows of trees planted by an Italian company, Tozzi Green. The outlet Afrique XXI has just published an investigation into this conflict, which says a lot about how the global economy is reshaping the countryside of the Global South.",
+        "It all began in 2010, when agrofuels promised to replace oil. The company set up a subsidiary, Jatropha Technology Farm, and obtained land from the Malagasy state in three communes. The original project was dizzying: there was talk of 100,000 hectares. The first lease, signed in 2012, covered just over 6,500. The star crop, jatropha — a shrub whose seeds yield a combustible oil — did not live up to its promise. The company then turned to maize for animal feed, and later to geranium for essential oils.",
+        "Since 2022 the project has changed face once again. Tozzi Green says it has reforested about 4,000 hectares, with a clear goal: to generate carbon credits. On paper the principle is simple. A European company that emits CO₂ can \"offset\" its emissions by paying for trees that absorb carbon elsewhere. So in a few years the same plot moved from \"green\" fuel to \"green\" carbon, following the fashions of the world market.",
+        "The crux of the problem is legal. Most of the land in the region has never been titled. Residents occupy it under customary rights handed down through generations, which the administration recognises only imperfectly. A land reform launched in 2005 did create a certificate allowing people to assert use of a plot, but pastures remain poorly protected. According to residents and the associations backing them, the state treated these areas as its own domain before leasing them to the investor.",
+        "For the herders the consequences are very concrete. Cattle corridors have been cut, detours lengthen journeys, and a traditional zebu market was reportedly closed. Villagers say they were penalised when their animals wandered into the plantations. Researchers also note that consultations mainly involved local officials, and that meeting minutes record agreements some villagers dispute. The company, for its part, denies any violence, says it follows procedures, and points to a 2024 impact study that found no lasting loss of access to pasture.",
+        "The case has crossed borders. In 2023, Malagasy associations and ActionAid Italy filed a complaint with Italy's OECD National Contact Point, a body that checks whether multinationals respect the organisation's guidelines. The procedure has not yet concluded. Another detail stands out: two public development banks, one Finnish and one Belgian, together invested €7.5 million in the subsidiary, even though the conflict was well known.",
+        "It would be too easy to reduce the story to a showdown between virtuous villagers and a cynical multinational. The company employs nearly 700 people, has funded a health centre and school repairs, and has handed back part of the land. But most of these jobs are temporary or seasonal, and residents feel the promises were not kept. Above all, one question remains: who decides how land is used when the law ignores the people who make it live?",
+        "Ihorombe is not an isolated case. From East Africa to the Amazon, the race for carbon credits is pushing investors towards land described as \"empty\" or \"degraded\", even though it feeds herds and families. Fighting global warming is essential. But it must not be done at the expense of those least responsible for it."
+      ],
+      "glossary": [
+        {
+          "w": "le pâturage",
+          "en": "pasture, grazing land",
+          "zh": "牧场"
+        },
+        {
+          "w": "l'éleveur (m.)",
+          "en": "livestock farmer, herder",
+          "zh": "牧民"
+        },
+        {
+          "w": "le zébu",
+          "en": "zebu (humped cattle)",
+          "zh": "瘤牛"
+        },
+        {
+          "w": "le bail",
+          "en": "lease",
+          "zh": "租约"
+        },
+        {
+          "w": "les agrocarburants (m.)",
+          "en": "agrofuels, biofuels",
+          "zh": "生物燃料"
+        },
+        {
+          "w": "tenir ses promesses",
+          "en": "to live up to expectations",
+          "zh": "兑现承诺"
+        },
+        {
+          "w": "le crédit carbone",
+          "en": "carbon credit",
+          "zh": "碳信用"
+        },
+        {
+          "w": "compenser",
+          "en": "to offset, compensate",
+          "zh": "抵消"
+        },
+        {
+          "w": "au gré de",
+          "en": "according to, at the mercy of",
+          "zh": "随……而变"
+        },
+        {
+          "w": "titré(e)",
+          "en": "titled (land with a deed)",
+          "zh": "有地契的"
+        },
+        {
+          "w": "le droit coutumier",
+          "en": "customary law/right",
+          "zh": "习惯法"
+        },
+        {
+          "w": "le procès-verbal",
+          "en": "official minutes, record",
+          "zh": "会议记录"
+        },
+        {
+          "w": "saisir (une instance)",
+          "en": "to refer a case to (a body)",
+          "zh": "提交（申诉）"
+        },
+        {
+          "w": "sur le dos de",
+          "en": "at the expense of",
+          "zh": "牺牲……的利益"
+        }
+      ],
+      "grammar": "Encore faut-il que + subjunctive: placed at the start of a sentence, 'encore' triggers subject–verb inversion and adds a condition or reservation ('but it still has to…'): « Encore faut-il qu'elle ne se fasse pas sur le dos de ceux… ». Compare 'Encore fallait-il le savoir' (you'd still have had to know). (句首 encore 引起倒装，表示“但前提是……”。)",
+      "questions": [
+        "Peut-on concilier la lutte contre le changement climatique et le respect des droits fonciers coutumiers ? Comment ?",
+        "Les banques publiques de développement devraient-elles investir dans des projets contestés localement ? Pourquoi ?",
+        "Le mécanisme de « compensation carbone » vous paraît-il une solution efficace ou une manière de déplacer le problème ?"
+      ],
+      "sources": [
+        {
+          "title": "Afrique XXI — « À Madagascar, quinze ans de conflit foncier dans l'Ihorombe » (Fanny Pigeaud, 5 octobre 2026)",
+          "url": "https://afriquexxi.info/A-Madagascar-quinze-ans-de-conflit-foncier-dans-l-Ihorombe",
+          "license": "link only"
+        },
+        {
+          "title": "Journalismfund Europe — Land Grabbing and Carbon Credits in Madagascar",
+          "url": "https://www.journalismfund.eu/land-grabbing-and-carbon-credits-madagascar",
+          "license": "link only"
+        }
+      ]
+    },
+    {
+      "lang": "fr",
+      "level": "C1",
+      "kind": "picks",
+      "section": "Lectures",
+      "title": "Lectures du jour",
+      "dek": "De la Turquie au Brésil, en passant par l'Éthiopie et nos affiches publicitaires : quatre lectures pour regarder le pouvoir de près.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "Le Vent Se Lève",
+          "genre": "Analyse · Géopolitique",
+          "title": "Turquie : la paix avec les Kurdes, à quel prix ?",
+          "author": "Ertuğrul Kürkçü",
+          "url": "https://lvsl.fr/turquie-la-paix-avec-les-kurdes-a-quel-prix/",
+          "minutes": 12,
+          "en": "What the law meant to end Turkey's conflict with the Kurds actually costs, and who pays.",
+          "zh": "土耳其与库尔德人和平法案的代价。"
+        },
+        {
+          "outlet": "Afrique XXI",
+          "genre": "Enquête · Économie",
+          "title": "Castel en Éthiopie, « business as usual »",
+          "author": "Michael Pauron",
+          "url": "https://afriquexxi.info/Castel-en-Ethiopie-business-as-usual",
+          "minutes": 10,
+          "en": "How the French drinks group Castel restarted its two breweries in Tigray after the 2020–2022 war, despite the looting of the region.",
+          "zh": "战后提格雷：法国酒业集团照常经营。"
+        },
+        {
+          "outlet": "Politis",
+          "genre": "Chronique · Inégalités",
+          "title": "Baby-sitter blanche, femme de ménage noire : l'ordre social en publicité",
+          "author": "Fania Noël",
+          "url": "https://www.politis.fr/articles/2026/10/intersections-baby-sitter-blanche-femme-de-menage-noire-lordre-social-en-publicite/",
+          "minutes": 5,
+          "en": "Reading one advertising poster for the hierarchies of race, gender and class it takes for granted.",
+          "zh": "一张广告里的种族、性别与阶级秩序。"
+        },
+        {
+          "outlet": "Politis",
+          "genre": "Portrait · Monde (abonnés)",
+          "title": "Brésil : Flávio Bolsonaro, le portrait c(r)aché du père",
+          "author": "Camille Madera",
+          "url": "https://www.politis.fr/articles/2026/10/monde-bresil-flavio-bolsonaro-le-portrait-crache-du-pere/",
+          "minutes": 8,
+          "en": "A portrait of Flávio Bolsonaro, the son carrying his father's politics forward in Brazil.",
+          "zh": "巴西：弗拉维奥·博索纳罗，父亲的翻版。"
+        }
+      ]
     }
-   ],
-   "glossary": [],
-   "questions": [],
-   "sources": []
-  },
-  {
-   "lang": "en",
-   "level": "C2",
-   "kind": "picks",
-   "section": "Reading list",
-   "title": "Today's reading list",
-   "dek": "Planetary justice, a data-center revolt, deaths under the border cameras, an AI proof in number theory, and what our gadgets do to our bodies.",
-   "paragraphs": [],
-   "picks": [
-    {
-     "outlet": "Aeon",
-     "genre": "Essay · International relations & climate",
-     "title": "Why we should heed Barbara Ward’s vision of planetary justice",
-     "author": "Or Rosenboim",
-     "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
-     "minutes": 17,
-     "en": "Rosenboim revisits the economist and journalist Barbara Ward, who treated prosperity, global equality and environmental protection as one planetary project. The essay takes her seriously while also criticising her paternalistic, Western-centred framing.",
-     "zh": "重读经济学家芭芭拉·沃德的“全球正义”构想：繁荣、平等与环保不可分割。"
-    },
-    {
-     "outlet": "The Verge (via Longreads)",
-     "genre": "Reportage · Technology & environment",
-     "title": "The People of Utah vs. Kevin O'Leary",
-     "author": "Josh Dzieza",
-     "url": "https://www.theverge.com/cs/features/993343/stratos-utah-kevin-oleary-data-center-backlash/",
-     "minutes": 25,
-     "en": "A gigantic data-center project in remote Utah, championed by Kevin O'Leary, meets fierce local resistance, with water and the shrinking Great Salt Lake at the heart of the fight. A vivid ground-level story about who pays for the AI boom.",
-     "zh": "犹他州超大数据中心计划遭当地居民强烈反对，焦点是水资源。"
-    },
-    {
-     "outlet": "MIT Technology Review (via Longreads)",
-     "genre": "Investigation · Migration",
-     "title": "She Died at the San Diego Border. A Surveillance Camera Was in Plain Sight.",
-     "author": "Lillian Perlmutter",
-     "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
-     "minutes": 20,
-     "en": "In the Otay Mountain Wilderness, surveillance towers watch nearly everything, yet migrants keep dying there year after year. An investigation into what border technology does and does not do for human life.",
-     "zh": "圣地亚哥边境监控塔遍布山野，移民却依然年年死去。"
-    },
-    {
-     "outlet": "Quanta Magazine",
-     "genre": "Analysis · Mathematics",
-     "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-     "author": "Konstantin Kakaes",
-     "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
-     "minutes": 15,
-     "en": "An OpenAI model produced a proof of a weaker cousin of the Riemann hypothesis, and human mathematicians have checked and explained it. Kakaes explores what the result means for prime numbers and for mathematics as a human practice.",
-     "zh": "AI证明了“准黎曼猜想”，数学家已验证——这对数学意味着什么？"
-    },
-    {
-     "outlet": "Aeon",
-     "genre": "Essay · Ideas & science",
-     "title": "The more we rely on tech, the more we deskill our bodies",
-     "author": "Melanie Challenger",
-     "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
-     "minutes": 17,
-     "en": "Challenger argues that phones, GPS and AI erode skills like navigating, remembering and self-regulation, which only form through bodily practice. A thoughtful case that living bodies, not information systems, are where intelligence resides.",
-     "zh": "依赖科技让身体“去技能化”：导航、记忆和自我调节能力在退化。"
-    },
-    {
-     "outlet": "The Guardian",
-     "genre": "Browse · The Long Read",
-     "title": "The Long Read – latest essays",
-     "url": "https://www.theguardian.com/news/series/the-long-read",
-     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
-    },
-    {
-     "outlet": "The Atlantic",
-     "genre": "Browse · Ideas",
-     "title": "Ideas – essays and arguments",
-     "url": "https://www.theatlantic.com/ideas/",
-     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
-    }
-   ],
-   "note": "The Verge and MIT Technology Review pieces were found via Longreads' editors' picks; descriptions follow Longreads' summaries.",
-   "glossary": [],
-   "questions": [],
-   "sources": [
-    {
-     "title": "Longreads",
-     "url": "https://longreads.com/",
-     "license": "link only"
-    }
-   ]
-  },
-  {
-   "lang": "de",
-   "level": "C1",
-   "kind": "feature",
-   "section": "Klima & Umwelt",
-   "title": "Wie viel Leben wir nicht kennen",
-   "dek": "Zur UN-Biodiversitätskonferenz in Jerewan zieht der Hamburger Zoologe Matthias Glaubrecht eine ernüchternde Zwischenbilanz: Die Artenvielfalt ist größer als gedacht – und ihr Verlust womöglich auch.",
-   "paragraphs": [
-    "Vor rund vier Jahren einigte sich die Weltgemeinschaft in Montreal auf ein ehrgeiziges Ziel: Bis 2030 soll der Verlust der biologischen Vielfalt gestoppt und umgekehrt werden. Herzstück des Abkommens ist die Formel „30 x 30“, nach der mindestens 30 Prozent der Land- und Meeresflächen wirksam geschützt werden sollen. In der armenischen Hauptstadt Jerewan beraten die Staaten nun auf der 17. UN-Biodiversitätskonferenz, wie weit sie damit gekommen sind.",
-    "Der Biodiversitätsforscher Matthias Glaubrecht, Professor an der Universität Hamburg und am Leibniz-Institut zur Analyse des Biodiversitätswandels, hat seine Bilanz im Tagesspiegel als Gastbeitrag veröffentlicht. Sein Befund: Der Schwung von Montreal sei verflogen. Zudem lasse sich Erfolg kaum messen, solange ein Großteil der Arten noch gar nicht bekannt sei.",
-    "Wie groß diese Wissenslücke ist, zeigt eine Studie, die im Juni in der Fachzeitschrift PNAS erschien. Ein Team um den Ökologen Robert Colwell von der University of Connecticut verglich in einem Schutzgebiet im Nordwesten Costa Ricas die bekannten Insekten einer Gruppe mit den Ergebnissen genetischer Analysen. Bei winzigen Schlupfwespen war demnach nur etwa ein Sechstel der Vielfalt beschrieben. Hochgerechnet könnte es weltweit mindestens 14 bis 20 Millionen Insektenarten geben – beschrieben ist bislang kaum mehr als eine Million.",
-    "Gleichzeitig schrumpfen die Bestände der bekannten Arten. Laut dem Living Planet Report der Umweltstiftung WWF sind die beobachteten Populationen ausgewählter Wirbeltiere zwischen 1970 und 2022 im Schnitt um 73 Prozent zurückgegangen. Es gibt Gewinner wie den Tiger, doch die Verlierer überwiegen. Eine Studie in der Zeitschrift Nature kommt immerhin zu dem Ergebnis, dass an Land bereits knapp 27 statt der offiziell gezählten 18 Prozent unter Schutz stehen könnten.",
-    "Glaubrecht warnt jedoch davor, Schutzgebiete auf dem Papier mit wirksamem Schutz zu verwechseln. Als Beispiel nennt er Deutschland: Nationalparks bedecken nur etwa 0,6 Prozent der Landfläche, und im Nationalpark Wattenmeer ist die Grundschleppnetzfischerei weiter erlaubt. Mehr als die Hälfte der Naturschutzgebiete ist kleiner als 50 Hektar und nach seiner Einschätzung zu klein und zu isoliert, zumal Dünger und Insektizide aus der umliegenden Landwirtschaft hineingelangen.",
-    "Den Hauptgrund für das Artensterben sieht der Forscher nicht im Klimawandel, sondern in der veränderten Landnutzung, also etwa in Rodungen und der Umwandlung von Wäldern in Äcker. Für Deutschland nennt er neben der intensiven Landwirtschaft auch die Industrialisierung der Landschaft, zu der er Anlagen für erneuerbare Energien zählt – eine Einschätzung, die im Naturschutz durchaus umstritten ist.",
-    "Schließlich geht es ums Geld. Weltweit gäben Staaten jährlich rund drei Billionen US-Dollar für Verteidigung aus, schreibt Glaubrecht, schafften es aber kaum, ein Prozent davon für den internationalen Schutz von Ökosystemen aufzubringen. Er fordert, schädliche Subventionen abzubauen und die Biodiversität fest in politische und wirtschaftliche Entscheidungen einzubeziehen. Ob die Konferenz dafür den Durchbruch bringt, bezweifelt er."
-   ],
-   "paragraphs_en": [
-    "About four years ago, the international community agreed in Montreal on an ambitious goal: by 2030, the loss of biological diversity is to be halted and reversed. At the heart of the agreement is the formula “30 x 30”, under which at least 30 percent of land and sea areas are to be effectively protected. In the Armenian capital Yerevan, states are now discussing at the 17th UN Biodiversity Conference how far they have come.",
-    "The biodiversity researcher Matthias Glaubrecht, a professor at the University of Hamburg and at the Leibniz Institute for the Analysis of Biodiversity Change, published his assessment as a guest article in the Tagesspiegel. His finding: the momentum of Montreal has evaporated. Moreover, success can hardly be measured as long as a large share of species is not even known yet.",
-    "How big this knowledge gap is can be seen in a study published in June in the journal PNAS. A team led by the ecologist Robert Colwell of the University of Connecticut compared the known insects of one group in a protected area in north-western Costa Rica with the results of genetic analyses. For tiny parasitic wasps, only about one sixth of the diversity had been described. Extrapolated, there could be at least 14 to 20 million insect species worldwide – while barely more than one million have been described so far.",
-    "At the same time, the populations of known species are shrinking. According to the Living Planet Report of the conservation organisation WWF, the monitored populations of selected vertebrates declined by an average of 73 percent between 1970 and 2022. There are winners such as the tiger, but the losers predominate. A study in the journal Nature does at least conclude that almost 27 percent of land, rather than the officially counted 18 percent, could already be under protection.",
-    "Glaubrecht warns, however, against confusing protected areas on paper with effective protection. He cites Germany as an example: national parks cover only about 0.6 percent of the land area, and bottom trawling is still permitted in the Wadden Sea National Park. More than half of the nature reserves are smaller than 50 hectares and, in his assessment, too small and too isolated, especially since fertiliser and insecticides from the surrounding agriculture get into them.",
-    "The researcher sees the main cause of species extinction not in climate change but in changing land use, for example clearing forests and converting them into fields. For Germany, besides intensive agriculture, he also names the industrialisation of the landscape, in which he includes renewable energy installations – an assessment that is quite contested within nature conservation.",
-    "Finally, it comes down to money. Worldwide, states spend around three trillion US dollars a year on defence, Glaubrecht writes, yet barely manage to raise one percent of that for the international protection of ecosystems. He calls for harmful subsidies to be dismantled and for biodiversity to be firmly integrated into political and economic decisions. He doubts whether the conference will bring the breakthrough needed for this."
-   ],
-   "glossary": [
-    {
-     "w": "die Artenvielfalt",
-     "en": "biodiversity, variety of species",
-     "zh": "物种多样性"
-    },
-    {
-     "w": "die Zwischenbilanz",
-     "en": "interim assessment, mid-term review",
-     "zh": "阶段性总结"
-    },
-    {
-     "w": "verfliegen",
-     "en": "to evaporate, fade (of enthusiasm)",
-     "zh": "消散"
-    },
-    {
-     "w": "hochrechnen",
-     "en": "to extrapolate, project",
-     "zh": "推算"
-    },
-    {
-     "w": "der Bestand, die Bestände",
-     "en": "population (of a species), stock",
-     "zh": "种群数量"
-    },
-    {
-     "w": "überwiegen",
-     "en": "to predominate, outweigh",
-     "zh": "占多数"
-    },
-    {
-     "w": "die Grundschleppnetzfischerei",
-     "en": "bottom trawling",
-     "zh": "底拖网捕鱼"
-    },
-    {
-     "w": "die Landnutzung",
-     "en": "land use",
-     "zh": "土地利用"
-    },
-    {
-     "w": "die Rodung",
-     "en": "clearing (of forest), deforestation",
-     "zh": "砍伐林地"
-    },
-    {
-     "w": "umstritten",
-     "en": "contested, disputed",
-     "zh": "有争议的"
-    },
-    {
-     "w": "die Billion",
-     "en": "trillion (false friend: not 'billion')",
-     "zh": "万亿"
-    },
-    {
-     "w": "aufbringen",
-     "en": "to raise (money), come up with",
-     "zh": "筹集"
-    }
-   ],
-   "grammar": "Indirect speech with Konjunktiv I signals that a claim is the author's, not the newspaper's: „Der Schwung sei verflogen“, „Staaten gäben … aus“ (Konjunktiv II replaces Konjunktiv I when the forms would match the indicative, as with „geben“). 【间接引语用第一虚拟式，形式与直陈式相同时改用第二虚拟式】",
-   "questions": [
-    "Warum lässt sich der Erfolg des Montreal-Abkommens laut Glaubrecht so schwer messen?",
-    "Worin unterscheidet sich ein Schutzgebiet „auf dem Papier“ von wirksamem Schutz? Nennen Sie Beispiele aus dem Text.",
-    "Wie bewerten Sie Glaubrechts Hinweis auf erneuerbare Energien als Belastung für die Artenvielfalt?"
-   ],
-   "sources": [
-    {
-     "title": "Tagesspiegel: Matthias Glaubrecht, Die unbekannte Vielfalt der Erde – „Wir riskieren alles, was wir zum Leben brauchen“ (Gastbeitrag, 19.10.2026)",
-     "url": "https://www.tagesspiegel.de/wissen/die-unbekannte-vielfalt-der-erdewir-riskieren-alles-was-wir-zum-leben-brauchen-16170178.html",
-     "license": "link only"
-    }
-   ]
-  },
-  {
-   "lang": "de",
-   "level": "B2",
-   "kind": "brief",
-   "section": "Hannover",
-   "title": "Provenienzforschung: Internationale Tagung in Hannover",
-   "dek": "Anfang November treffen sich Fachleute aus elf Ländern in Hannover, um über die Herkunft von Kulturgütern zu sprechen – auch über NS-Raubgut.",
-   "paragraphs": [
-    "Vom 3. bis 5. November 2026 findet in Hannover die internationale Jahrestagung des Arbeitskreises Provenienzforschung statt. Provenienzforscherinnen und -forscher untersuchen, woher Kunstwerke und andere Objekte in Museen und Bibliotheken stammen und ob sie zum Beispiel in der NS-Zeit oder im Kolonialismus unrechtmäßig erworben wurden. Erwartet werden 86 Vortragende aus elf Ländern, darunter die USA, Australien und mehrere europäische Staaten.",
-    "Eröffnet wird die Tagung am 3. November im Sprengel Museum mit einem Grußwort von Oberbürgermeister Belit Onay. Am Abend stellt sich dort die neue Schiedsgerichtsbarkeit für NS-Raubgut der Öffentlichkeit vor. Am zweiten Tag laufen Panels und Workshops parallel an mehreren Orten, etwa im Landesmuseum, im Museum August Kestner und im ZeitZentrum Zivilcourage; Führungen gibt es unter anderem zum Mahnmal gegen den Kolonialismus.",
-    "Die Tagung ist zweisprachig, Deutsch und Englisch. Interessierte können gegen eine Gebühr teilnehmen, auch nur an einem Tag oder online; ein großer Teil wird live gestreamt. Der Arbeitskreis wurde im Jahr 2000 gegründet und hat nach eigenen Angaben über 680 Mitglieder aus 17 Ländern."
-   ],
-   "paragraphs_en": [
-    "From 3 to 5 November 2026, the international annual conference of the Arbeitskreis Provenienzforschung (Provenance Research Working Group) will take place in Hannover. Provenance researchers investigate where artworks and other objects in museums and libraries come from and whether they were acquired unlawfully, for example during the Nazi era or under colonialism. 86 speakers from eleven countries are expected, including the USA, Australia and several European states.",
-    "The conference opens on 3 November at the Sprengel Museum with a welcome address by Lord Mayor Belit Onay. In the evening, the new arbitration body for Nazi-looted property will present itself to the public there. On the second day, panels and workshops run in parallel at several venues, such as the Landesmuseum, the Museum August Kestner and the ZeitZentrum Zivilcourage; guided tours include one to the Memorial against Colonialism.",
-    "The conference is bilingual, German and English. Anyone interested can take part for a fee, including for just one day or online; a large part will be streamed live. The working group was founded in 2000 and, according to its own figures, has more than 680 members from 17 countries."
-   ],
-   "glossary": [
-    {
-     "w": "die Provenienz",
-     "en": "provenance, origin (of an object)",
-     "zh": "来源"
-    },
-    {
-     "w": "das Kulturgut",
-     "en": "cultural property",
-     "zh": "文化财产"
-    },
-    {
-     "w": "das NS-Raubgut",
-     "en": "property looted by the Nazis",
-     "zh": "纳粹掠夺的财物"
-    },
-    {
-     "w": "unrechtmäßig",
-     "en": "unlawfully, illegitimately",
-     "zh": "非法地"
-    },
-    {
-     "w": "erwerben",
-     "en": "to acquire",
-     "zh": "获得，购得"
-    },
-    {
-     "w": "das Grußwort",
-     "en": "welcome address",
-     "zh": "致辞"
-    },
-    {
-     "w": "die Schiedsgerichtsbarkeit",
-     "en": "arbitration (system)",
-     "zh": "仲裁"
-    },
-    {
-     "w": "das Mahnmal",
-     "en": "memorial (warning against repetition)",
-     "zh": "警示纪念碑"
-    },
-    {
-     "w": "die Gebühr",
-     "en": "fee",
-     "zh": "费用"
-    }
-   ],
-   "grammar": "The passive with „werden“ keeps the focus on events, not actors: „Erwartet werden 86 Vortragende“, „Eröffnet wird die Tagung …“. Fronting the participle adds emphasis. 【被动态，分词前置以强调】",
-   "questions": [
-    "Womit beschäftigt sich die Provenienzforschung?",
-    "Welche Möglichkeiten gibt es, an der Tagung teilzunehmen?"
-   ],
-   "sources": [
-    {
-     "title": "hannover.de: Internationale Jahrestagung zur Provenienzforschung in Hannover (aktualisiert 12.10.2026)",
-     "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Internationale-Jahrestagung-zur-Provenienzforschung-in-Hannover",
-     "license": "official"
-    }
-   ]
-  },
-  {
-   "lang": "en",
-   "level": "C2",
-   "kind": "feature",
-   "section": "Science & Mathematics",
-   "title": "A proof without an author",
-   "dek": "An OpenAI system appears to have settled the quasi-Riemann hypothesis, a weaker cousin of mathematics' most famous open problem. Number theorists are impressed by the result and uneasy about almost everything around it.",
-   "paragraphs": [
-    "For more than 160 years, the Riemann hypothesis has been the summit that number theorists circle without ever reaching. Proposed by Bernhard Riemann in 1859 and now one of the Clay Millennium Prize problems, it predicts that every nontrivial zero of the zeta function lies on a single vertical line, the one with real part 1/2. The claim matters because the zeros govern how prime numbers are scattered along the number line. Computers have checked the first 12 trillion of them, but a single stray zero would upend a vast body of conditional mathematics.",
-    "On 6 October, OpenAI announced a large batch of machine-generated mathematical results, and one of them claimed something mathematicians had long wanted: a proof of the so-called quasi-Riemann hypothesis. Riemann himself had shown that the nontrivial zeros sit somewhere in a strip between 0 and 1, and work in 1896 excluded the strip's edges, which delivered the prime number theorem. Quasi-RH asks for less than the full conjecture but far more than that: a strictly narrower strip. As Quanta's Konstantin Kakaes reports, the AI produced two versions of the proof. The first, dated 30 September and running to about 199 pages, confines the zeros between 1/8 and 7/8 and has been formally verified in the proof assistant Lean; the second, about 49 pages long, claims a marginally wider band, from 1/12 to 11/12, and has not yet been formally checked.",
-    "The reaction among specialists has been a mixture of awe and discomfort. Maksym Radziwiłł of New York University, whose 2021 formula with Alexander Dunn of Georgia Tech turned out to be a crucial ingredient, described the implications as staggering, observing that most consequences of the full hypothesis already follow from the quasi version. Jared Duker Lichtman of Stanford called it the most significant achievement of AI in mathematics to date, and Peter Sarnak of Princeton is reorganising a course around the paper. What surprised researchers most was not a dazzling new idea but the machine's conviction that existing tools, notably obscure objects known as metaplectic forms, would suffice when cleverly combined.",
-    "That observation cuts both ways. According to the University of Waterloo's Michael Rubinstein, Sarnak had long urged colleagues to study a particular family of related functions, yet the right family was overlooked, and Henryk Iwaniec of Rutgers came close in 2002 without closing the gap. One reading is that the AI found a path human beings had walked past for decades; another is that the field had already laid nearly every paving stone. Both readings can be true at once, and the distinction matters for how credit is apportioned between a model and the literature it was trained on.",
-    "The unease concerns standards as much as substance. Radziwiłł has judged both papers poorly written and below the norms of the discipline, adding that he can sketch the core argument of the shorter version in half a page; human write-ups of seven to 13 pages are circulating privately. Sarnak, for his part, will not treat the result as a theorem until people have checked every detail. Oddly, mathematicians have concentrated on the shorter, unverified version precisely because it is readable, even though the formally verified one is the more secure. Formal verification, in other words, has not removed the need for human understanding; it has simply moved the bottleneck.",
-    "Then there is the question of authorship. The 11/12 paper is reportedly the only one of the batch that a human edited, and OpenAI has not said who did so or why, stating only that the work came from everyone at the company. In a discipline where a proof is also a public act of explanation and attribution, that vagueness is more than a procedural quibble: it leaves readers unable to tell which choices were the machine's and which were a person's. Corporate announcements, moreover, are not peer review, and the episode suggests how much of the verification burden can fall on academics outside the company.",
-    "Whether the methods can push the strip all the way to the critical line remains open. Will Sawin of Princeton suspects they cannot, though he admits he is unsure, while Thomas Bloom of the University of Manchester says nothing would surprise him any more. That shrug may be the most telling response of all. The quasi-Riemann hypothesis was a landmark worth reaching, but the more consequential shift may be cultural: mathematicians are learning to read, audit and reframe arguments they did not write, from an author that cannot be asked what it meant."
-   ],
-   "glossary": [
-    {
-     "w": "to circle without reaching",
-     "en": "to approach a goal repeatedly without ever attaining it",
-     "zh": "反复接近却始终未能达到"
-    },
-    {
-     "w": "conditional (mathematics)",
-     "en": "results that are proved on the assumption that an unproven conjecture is true",
-     "zh": "以未证猜想为前提的（条件性结论）"
-    },
-    {
-     "w": "to upend",
-     "en": "to overturn or radically disrupt something established",
-     "zh": "颠覆；推翻"
-    },
-    {
-     "w": "to confine",
-     "en": "to keep something within strict limits",
-     "zh": "限制在……范围内"
-    },
-    {
-     "w": "to cut both ways",
-     "en": "to have both advantages and disadvantages, or support opposing conclusions",
-     "zh": "有利也有弊；两面皆可解读"
-    },
-    {
-     "w": "to apportion credit",
-     "en": "to divide recognition for an achievement among those involved",
-     "zh": "分配功劳"
-    },
-    {
-     "w": "a procedural quibble",
-     "en": "a minor objection about method or form rather than substance",
-     "zh": "程序上的小挑剔"
-    },
-    {
-     "w": "to shift the bottleneck",
-     "en": "to move the point where progress is most constrained, rather than remove it",
-     "zh": "转移瓶颈（而非消除）"
-    },
-    {
-     "w": "to audit",
-     "en": "to examine something systematically to check that it is correct",
-     "zh": "审核；核查"
-    },
-    {
-     "w": "to reframe",
-     "en": "to present or understand something from a different perspective",
-     "zh": "重新表述；换个框架理解"
-    }
-   ],
-   "grammar": "\"Asks for less than the full conjecture but far more than that\" uses a balanced comparative frame (less than X but more than Y) to position one claim between two others, a common device in analytical prose.",
-   "questions": [
-    "Why might mathematicians prefer to study the shorter, unverified proof over the longer, formally verified one, and what does this suggest about the purpose of a proof?",
-    "The article offers two readings of the AI's achievement: discovery of an overlooked path, or assembly of existing work. How should credit be shared in such cases?",
-    "What problems arise when a major mathematical result is announced by a company rather than through peer review?"
-   ],
-   "sources": [
-    {
-     "title": "Quanta Magazine: Konstantin Kakaes, AI Proved the Quasi-Riemann Hypothesis. What Happens Now? (19 October 2026)",
-     "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
-     "license": "link only"
-    }
-   ]
-  },
-  {
-   "lang": "pt",
-   "level": "A1",
-   "kind": "story",
-   "section": "Tito e Ana",
-   "series": {
-    "name": "Tito e Ana",
-    "episode": 5
-   },
-   "title": "Uma festa surpresa",
-   "dek": "Hoje é um dia especial para a Dona Rosa.",
-   "paragraphs": [
-    "Hoje é quinta-feira. O sol está forte e o dia está bonito. A Ana olha o calendário e sorri.",
-    "— Tito, hoje é o aniversário da Dona Rosa! A gente vai fazer uma festa surpresa — diz a Ana. O Tito mia: miau!",
-    "A Ana vai à padaria do Seu João. O Tito vai com ela, claro. Na rua, o Bolinha espera na frente da casa da Dona Rosa.",
-    "— Psiu, Bolinha! É segredo — diz a Ana. O Bolinha balança o rabo e vai junto.",
-    "Na padaria, o Seu João já sabe. Ele tem um bolo de chocolate grande, com flores amarelas. — É para a Dona Rosa! — diz ele.",
-    "A Ana compra o bolo e umas velas. O Seu João fecha a padaria às quatro horas e vai para a casa amarela também.",
-    "À tarde, a Ana chama a Dona Rosa. — Dona Rosa, você pode vir aqui um minuto? A Dona Rosa entra na sala. Está tudo escuro.",
-    "De repente, a luz acende. — Surpresa! Parabéns! — gritam a Ana e o Seu João. O Bolinha late e o Tito pula na mesa.",
-    "A Dona Rosa ri e chora ao mesmo tempo. — Obrigada, meus amigos! — diz ela. Todos cantam \"Parabéns pra você\".",
-    "A Dona Rosa apaga as velas. O Tito ganha um pouco de leite, e o Bolinha ganha um pedaço de pão. É uma festa muito feliz."
-   ],
-   "paragraphs_en": [
-    "Today is Thursday. The sun is strong and the day is beautiful. Ana looks at the calendar and smiles.",
-    "\"Tito, today is Dona Rosa's birthday! We're going to throw a surprise party,\" says Ana. Tito meows: meow!",
-    "Ana goes to Seu João's bakery. Tito goes with her, of course. In the street, Bolinha is waiting in front of Dona Rosa's house.",
-    "\"Shh, Bolinha! It's a secret,\" says Ana. Bolinha wags his tail and comes along.",
-    "At the bakery, Seu João already knows. He has a big chocolate cake with yellow flowers. \"It's for Dona Rosa!\" he says.",
-    "Ana buys the cake and some candles. Seu João closes the bakery at four o'clock and goes to the yellow house too.",
-    "In the afternoon, Ana calls Dona Rosa. \"Dona Rosa, can you come here for a minute?\" Dona Rosa walks into the living room. Everything is dark.",
-    "Suddenly the light comes on. \"Surprise! Happy birthday!\" shout Ana and Seu João. Bolinha barks and Tito jumps onto the table.",
-    "Dona Rosa laughs and cries at the same time. \"Thank you, my friends!\" she says. Everyone sings \"Happy Birthday\".",
-    "Dona Rosa blows out the candles. Tito gets a little milk, and Bolinha gets a piece of bread. It's a very happy party."
-   ],
-   "paragraphs_zh": [
-    "今天是星期四。阳光很强，天气很好。安娜看着日历笑了。",
-    "“蒂托，今天是罗莎太太的生日！我们要办一个惊喜派对。”安娜说。蒂托叫：喵！",
-    "安娜去若昂先生的面包店。蒂托当然也跟着去。街上，波利尼亚在罗莎太太家门口等着。",
-    "“嘘，波利尼亚！这是秘密。”安娜说。波利尼亚摇着尾巴，一起去了。",
-    "在面包店，若昂先生早就知道了。他有一个大大的巧克力蛋糕，上面有黄色的花。“这是给罗莎太太的！”他说。",
-    "安娜买了蛋糕和几根蜡烛。若昂先生四点关了面包店，也去了黄房子。",
-    "下午，安娜叫罗莎太太。“罗莎太太，你能过来一下吗？”罗莎太太走进客厅。里面一片漆黑。",
-    "突然，灯亮了。“惊喜！生日快乐！”安娜和若昂先生大喊。波利尼亚汪汪叫，蒂托跳上了桌子。",
-    "罗莎太太又笑又哭。“谢谢你们，我的朋友们！”她说。大家一起唱《祝你生日快乐》。",
-    "罗莎太太吹灭了蜡烛。蒂托得到一点牛奶，波利尼亚得到一块面包。这是一个非常快乐的派对。"
-   ],
-   "glossary": [
-    {
-     "w": "o aniversário",
-     "en": "birthday (cf. English 'anniversary')",
-     "zh": "生日"
-    },
-    {
-     "w": "a festa surpresa",
-     "en": "surprise party (surpresa ≈ 'surprise')",
-     "zh": "惊喜派对"
-    },
-    {
-     "w": "o segredo",
-     "en": "secret (cognate)",
-     "zh": "秘密"
-    },
-    {
-     "w": "balançar o rabo",
-     "en": "to wag the tail",
-     "zh": "摇尾巴"
-    },
-    {
-     "w": "a vela",
-     "en": "candle",
-     "zh": "蜡烛"
-    },
-    {
-     "w": "escuro",
-     "en": "dark",
-     "zh": "黑暗的"
-    },
-    {
-     "w": "Parabéns!",
-     "en": "Happy birthday! / Congratulations!",
-     "zh": "生日快乐！/ 祝贺！"
-    },
-    {
-     "w": "apagar",
-     "en": "to blow out, to switch off",
-     "zh": "吹灭、关掉"
-    },
-    {
-     "w": "ganhar",
-     "en": "to get, to receive (also 'to win')",
-     "zh": "得到；赢"
-    }
-   ],
-   "grammar": "ir + infinitive talks about the near future: A gente vai fazer uma festa (We're going to throw a party). Just conjugate ir and add the verb: eu vou comprar, ela vai cantar. With a gente, the verb is like ele/ela: a gente vai. （ir + 动词原形表示“将要”；a gente 用第三人称单数。）",
-   "questions": [
-    "Que dia é hoje?",
-    "O que o Seu João tem na padaria?",
-    "O que a Dona Rosa faz com as velas?"
-   ],
-   "sources": []
-  },
-  {
-   "lang": "pt",
-   "level": "A1",
-   "kind": "dialogue",
-   "section": "Diálogo",
-   "title": "No ônibus",
-   "paragraphs": [
-    "Ana: Oi, moço! Este ônibus vai para o centro?",
-    "Motorista: Vai, sim. Pode subir.",
-    "Ana: Quanto é a passagem?",
-    "Motorista: Cinco reais. Você paga ali com o cobrador.",
-    "Ana: Ah, tá. Pode ser no cartão?",
-    "Cobrador: Pode. É só aproximar o cartão aqui na catraca.",
-    "Ana: Pronto. Desculpa, você sabe onde eu desço para a Praça da Sé?",
-    "Cobrador: Sei, sim. São seis pontos. Eu aviso você.",
-    "Ana: Obrigada! Demora muito?",
-    "Cobrador: Uns vinte minutos, se não tiver trânsito.",
-    "Ana: Tudo bem. Posso sentar aqui?",
-    "Passageira: Pode, sim. Fica à vontade.",
-    "Cobrador: Moça, o próximo ponto é o seu. Aperta o botão para descer.",
-    "Ana: Valeu! Tchau, boa tarde!"
-   ],
-   "paragraphs_en": [
-    "Ana: Hi! Does this bus go to the city centre?",
-    "Driver: Yes, it does. Hop on.",
-    "Ana: How much is the fare?",
-    "Driver: Five reais. You pay the conductor over there.",
-    "Ana: Oh, okay. Can I pay by card?",
-    "Conductor: Yes. Just tap your card here at the turnstile.",
-    "Ana: Done. Excuse me, do you know where I get off for Praça da Sé?",
-    "Conductor: Yes, I do. It's six stops. I'll let you know.",
-    "Ana: Thanks! Does it take long?",
-    "Conductor: About twenty minutes, if there's no traffic.",
-    "Ana: All right. Can I sit here?",
-    "Passenger: Sure. Make yourself comfortable.",
-    "Conductor: Miss, the next stop is yours. Press the button to get off.",
-    "Ana: Thanks! Bye, have a good afternoon!"
-   ],
-   "paragraphs_zh": [
-    "安娜：你好，师傅！这辆公交车去市中心吗？",
-    "司机：去的。上来吧。",
-    "安娜：车票多少钱？",
-    "司机：五雷亚尔。你在那边付给售票员。",
-    "安娜：哦，好的。可以刷卡吗？",
-    "售票员：可以。把卡靠近闸机这里就行。",
-    "安娜：好了。请问，去塞广场我在哪儿下车？",
-    "售票员：知道。还有六站。我会提醒你。",
-    "安娜：谢谢！要很久吗？",
-    "售票员：大概二十分钟，如果不堵车的话。",
-    "安娜：好的。我可以坐这儿吗？",
-    "乘客：可以。请随意。",
-    "售票员：小姐，下一站就是你的站。按铃下车吧。",
-    "安娜：谢啦！再见，下午好！"
-   ],
-   "glossary": [
-    {
-     "w": "o ônibus",
-     "en": "bus (cf. English 'omnibus')",
-     "zh": "公交车"
-    },
-    {
-     "w": "moço / moça",
-     "en": "friendly way to address a young-ish man / woman",
-     "zh": "小伙子 / 姑娘（礼貌称呼）"
-    },
-    {
-     "w": "a passagem",
-     "en": "fare, ticket (cf. 'passage')",
-     "zh": "车票、车费"
-    },
-    {
-     "w": "o cobrador",
-     "en": "bus conductor who takes the fare",
-     "zh": "售票员"
-    },
-    {
-     "w": "a catraca",
-     "en": "turnstile",
-     "zh": "闸机、旋转门"
-    },
-    {
-     "w": "descer",
-     "en": "to get off (lit. 'to go down'; cf. 'descend')",
-     "zh": "下车"
-    },
-    {
-     "w": "o ponto (de ônibus)",
-     "en": "bus stop (lit. 'point')",
-     "zh": "公交站"
-    },
-    {
-     "w": "o trânsito",
-     "en": "traffic (cf. 'transit')",
-     "zh": "交通、堵车"
-    },
-    {
-     "w": "Fica à vontade.",
-     "en": "Make yourself comfortable / Go ahead.",
-     "zh": "请随意。"
-    },
-    {
-     "w": "Valeu!",
-     "en": "Thanks! (very informal, Brazilian)",
-     "zh": "谢啦！"
-    }
-   ],
-   "grammar": "Brazilians often make friendly requests with the plain verb form: Aperta o botão (Press the button), Fica à vontade (Make yourself at home). In everyday speech this sounds warm, not rude. To ask permission, use poder: Posso sentar aqui? — Pode, sim. （口语中常用动词原形式提要求；poder 用来请求许可。）",
-   "questions": [
-    "Para onde a Ana vai?",
-    "Quanto é a passagem?",
-    "Quantos pontos são até a Praça da Sé?"
-   ],
-   "sources": []
-  }
- ]
+  ]
 }

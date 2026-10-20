@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:54:54+00:00",
+ "updated": "2026-10-20T21:41:22+00:00",
  "days": [
   {
    "date": "2026-10-20",
@@ -58,6 +58,22 @@
      "title": "No ônibus",
      "kind": "dialogue",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "fr",
+     "title": "Des arbres contre des zébus",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "fr",
+     "title": "Lectures du jour",
+     "kind": "picks",
+     "level": "C1",
      "hour": null
     }
    ]
