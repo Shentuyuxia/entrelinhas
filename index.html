@@ -19,7 +19,7 @@
 <style>
 /* Layout: header with language switch + today's check-in strip; tabs; main work column with a notes aside. Look follows Shiori: cool paper, ink-indigo text, hairlines instead of boxes, one muted accent per language (celadon PT, slate blue DE, ochre EN). */
 :root{
-  --bg:#f2f4f3; --surface:#ffffff; --sunk:#e7ebea; --ink:#1c2930; --muted:#5d6a70; --line:#d5dbda;
+  --bg:#faf9f6; --surface:#ffffff; --sunk:#efede8; --ink:#1c2930; --muted:#5d6a70; --line:#e0ddd5; --rule:#1b1f1d;
   --pt:#2c6b64; --pt-soft:#dbeae6; --de:#3b5b86; --de-soft:#dfe7f1; --en:#93582a; --en-soft:#f1e5d8; --on-acc:#ffffff;
   --der:#3b5b86; --die:#a8473a; --das:#2f7a55;
   --a1:#4f7d3a; --a2:#2f7c76; --b1:#3b5b86; --b2:#6a5598; --c1:#9a4a6e; --c2:#8a4a2e;
@@ -28,7 +28,7 @@
   --f-word:"Source Serif 4", Georgia, "EL Hei", "PingFang SC", sans-serif;
   --f-ui:"Source Sans 3", "EL Hei", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
   --f-cn:"EL Hei", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --f-mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+  --f-mono:"Source Sans 3", "EL Hei", sans-serif;
   --r:12px; color-scheme:light;
 }
 @media (prefers-color-scheme: dark){ :root{
@@ -37,7 +37,7 @@
   --der:#9fb6dd; --die:#e08a7c; --das:#86c9a4;
   --a1:#9cc77f; --a2:#7cc4bd; --b1:#9fb6dd; --b2:#b7a3e0; --c1:#e09bbb; --c2:#e0a184;
   --ok:#86c9a4; --ok-soft:#1b3328; --warn:#d6ad5c; --warn-soft:#352a14; --bad:#e08a7c; --bad-soft:#3a201c;
-  --scrim:rgba(0,0,0,.55); --pt-mark:#2c6b64; color-scheme:dark }}
+  --scrim:rgba(0,0,0,.55); --pt-mark:#2c6b64; --rule:#c9d2d4; color-scheme:dark }}
 
 html{-webkit-text-size-adjust:100%;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0;--acc:var(--pt);--acc-soft:var(--pt-soft);background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.55}
@@ -699,6 +699,61 @@ body.lean .hint, body.lean .help{display:none!important}
 .mg-gl dd span{display:block}
 .mg-gl dd .gl-zh,.mg-gl dd span[lang=zh]{font-size:15px;color:var(--muted);margin-top:1px}
 @media (max-width:480px){.mg-gl{grid-template-columns:1fr!important;gap:2px!important}.mg-gl dd{margin-bottom:10px!important}}
+
+/* ===================== editorial v1 ===================== */
+body{font-variant-numeric:tabular-nums}
+.mg-body,.word,.ex .t,.mg-art h2,.mg-dek,.mg-q,.pk-t{font-variant-numeric:normal}
+/* labels: normal case, no tracking */
+.side h3,.panel h3.ph3,#mg-arch > h3,#mg-week > h3,.rd-paste summary h3,.mg-blk h3,.mg-kick,.pk-o,.wk-p,.mg-toc .k,.mg-arch .k{text-transform:none!important;letter-spacing:0!important}
+.side h3,.panel h3.ph3,#mg-arch > h3,#mg-week > h3,.rd-paste summary h3{font-size:14px!important;font-weight:600!important;color:var(--ink)!important}
+.panel h3.ph3,#mg-arch > h3,#mg-week > h3{border-top:2px solid var(--rule);padding-top:10px}
+.panel ~ .panel{border-top:0!important}
+/* stats strip: newspaper data row */
+.strip{background:none!important;border:0!important;border-top:2px solid var(--rule)!important;border-bottom:1px solid var(--line)!important;border-radius:0!important;padding:10px 0!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:0!important}
+.strip .ring svg,.strip .spacer,.strip .badge:not(.on),.strip .sync{display:none!important}
+.strip .badge.on{grid-column:1/-1;justify-self:start;margin-top:8px}
+.strip > div,.strip .ring{padding:0 12px;border-right:1px solid var(--line);display:block}
+.strip > div:nth-of-type(4){border-right:0}
+.strip > :first-child{padding-left:0}
+.ring .t b,.stat b{font-family:var(--f-word)!important;font-weight:600!important;font-size:21px!important;line-height:1.15!important;color:var(--ink)!important;font-variant-numeric:lining-nums tabular-nums}
+.ring .t span,.stat span{font-size:12.5px!important;color:var(--muted)!important;font-weight:300}
+/* tabs on desktop: quieter, ink active */
+@media (min-width:641px){ nav.tabs button{color:var(--muted)} nav.tabs button[aria-selected="true"]{color:var(--ink);font-weight:600} }
+/* reading page */
+.mg-head .d{font-family:var(--f-ui)!important;font-size:13.5px!important}
+.mg-head{border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:4px}
+.mg-kick{font-size:13px!important;font-weight:400!important;color:var(--muted)!important;gap:0!important;margin:14px 0 6px}
+.mg-kick > span:first-child{color:var(--acc);font-weight:600}
+.mg-kick > span + span::before{content:"·";margin:0 7px;color:var(--muted);font-weight:400}
+.mg-kick .lv{border:0!important;padding:0!important;font-size:13px!important;font-weight:600}
+.mg-art h2{font-size:clamp(25px,4.6vw,32px)!important;line-height:1.15!important;letter-spacing:-.01em;margin:2px 0 8px!important}
+.mg-dek{font-style:normal!important;font-size:17.5px!important;line-height:1.45;color:var(--muted)}
+.mg-tools{gap:6px!important;margin:12px 0 16px!important}
+.mg-tools .tb{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:5px 11px;font-size:14px;cursor:pointer;color:var(--ink)}
+.mg-tools .tb svg{width:15px;height:15px}
+.mg-tools .tb[aria-pressed="true"]{border-color:var(--acc);color:var(--acc);background:color-mix(in srgb,var(--acc) 7%,var(--surface))}
+.mg-w.saved{text-decoration:none!important;border-bottom:1.5px solid color-mix(in srgb,var(--acc) 45%,transparent)}
+.mg-blk{border-top:2px solid var(--rule)!important;padding-top:10px}
+.mg-blk:has(.mg-gram),.mg-blk:has(.mg-gl){border-top:0!important}
+.mg-blk h3{font-size:14px!important;font-weight:600!important;color:var(--ink)!important}
+/* article chips: squarer, quieter */
+.mg-toc button,.mg-toc button:first-child{border-radius:6px!important;background:var(--surface)}
+.mg-toc .k{font-size:12px!important}
+.mg-toc .mg-addchip{border-radius:6px!important}
+/* archive list */
+.mg-arch button{grid-template-columns:4.4rem minmax(0,1fr) 1.2rem!important}
+.mg-arch .k{font-family:var(--f-ui)!important;font-size:12.5px!important;color:var(--muted)}
+.mg-arch .t{font-size:16px!important}
+.mg-arch button[aria-current="true"] .t{color:var(--acc);font-weight:400!important}
+.mg-toc button[aria-current="true"] .t{font-weight:600}
+/* flashcard + lists: badges and keys in sans */
+.lv,.chip,.gl-k,.kbd{font-family:var(--f-ui)!important;letter-spacing:0!important}
+.gl-k{font-size:11.5px!important}
+.langsw button small{font-family:var(--f-ui)!important;letter-spacing:0!important}
+.sesshead h2,#pile-title{font-weight:400}
+.pk-o{font-size:12.5px!important;font-weight:600}
+.kpi{background:none!important;border:0!important;border-top:1px solid var(--line)!important;border-radius:0!important;padding:10px 2px 4px!important}
+.kpi b{font-family:var(--f-word)!important;font-weight:600!important;font-size:28px!important;font-variant-numeric:lining-nums tabular-nums}
 </style>
 </head>
 <body>
@@ -2068,7 +2123,7 @@ function mgSents(p){ return p.split(/(?<=(?<!\d)[.!?…]["»“]?)\s+(?=[\p{Lu}�
 function mgWrap(text,l,own){
   return mgSents(text).map(sen=>'<span class="s">'+sen.split(WRE).map((t,k)=>k%2?`<span class="mg-w${own.has(t.toLowerCase())?" saved":""}">${esc(t)}</span>`:esc(t)).join("")+'</span>').join(" ");
 }
-function mgFmt(d){ const [y,m,dd]=d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString(uiLocale(),{weekday:"short",month:"short",day:"numeric"}); }
+function mgFmt(d){ const [y,m,dd]=d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString(uiLocale(),{weekday:"long",month:"long",day:"numeric"}); }
 async function mgRender(){
   const main=$("#mg-main"); if(!main) return;
   if(!MG.idx&&!MG.err){ main.innerHTML='<div class="empty"><b>正在载入文章…</b></div>'; await mgLoad(); if(cur!=="read") return; }
@@ -2094,7 +2149,7 @@ async function mgRender(){
     <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
     <h2 data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.title)}</h2>
     ${it.dek?`<p class="mg-dek" data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.dek)}</p>`:""}
-    <div class="mg-tools"><button class="ib" id="mg-say" aria-label="朗读全文">${I.spk}</button>${it.paragraphs_en&&it.paragraphs_en.length?`<button class="ib zhb" id="mg-enb" aria-pressed="${MG.tr==="en"}" aria-label="English translation">EN</button>`:""}${it.paragraphs_zh&&it.paragraphs_zh.length?`<button class="ib zhb" id="mg-zhb" aria-pressed="${MG.tr==="zh"}" aria-label="逐段中文">中</button>`:""}</div>
+    <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button>${it.paragraphs_en&&it.paragraphs_en.length?`<button class="tb" id="mg-enb" aria-pressed="${MG.tr==="en"}" aria-label="English translation">English</button>`:""}${it.paragraphs_zh&&it.paragraphs_zh.length?`<button class="tb" id="mg-zhb" aria-pressed="${MG.tr==="zh"}" aria-label="逐段中文">中文</button>`:""}</div>
     <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n lang="${l==="pt"?"pt-BR":l}">${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${MG.tr&&it["paragraphs_"+MG.tr]&&it["paragraphs_"+MG.tr][k]?`<span class="mg-zh mg-tr-${MG.tr}" lang="${MG.tr}">${esc(it["paragraphs_"+MG.tr][k])}</span>`:""}`).join("")}</div>
     ${it.kind==="picks"?mgPicks(it):""}
     ${it.grammar?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram">${esc(it.grammar)}</div></div>`:""}
@@ -2113,7 +2168,7 @@ function mgArch(pick){
   const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l) rows.push({...x,date:d.date,di}); }));
   rows.sort((a,b)=>b.date.localeCompare(a.date)||(MG_ORD(a)-MG_ORD(b)));
   const show=MG.archAll?rows:rows.slice(0,12);
-  $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px">往期 <span class="small muted">${rows.length} 篇</span></h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${x.date.slice(5)}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
+  $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px">往期 · ${rows.length} 篇</h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${new Date(x.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"})}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
 }
 function mgWeek(){
   const w=MG.week, box=$("#mg-week");
@@ -2134,7 +2189,7 @@ function rdKey(){ return MG.cur?MG.cur.date+"|"+MG.cur.i+"|"+lang():null; }
 function rdPaint(){
   const bar=$("#rd-bar"), act=!!RD.src; bar.hidden=!act||cur!=="read"; document.body.classList.toggle("rd-on",!bar.hidden);
   $$(".rd-cur").forEach(x=>x.classList.remove("rd-cur"));
-  const say=$("#mg-say"); if(say){ const mine=RD.src==="art"&&RD.on; say.innerHTML=mine?I.pause:I.spk; say.setAttribute("aria-pressed",RD.src==="art"); }
+  const say=$("#mg-say"); if(say){ const mine=RD.src==="art"&&RD.on; say.innerHTML=(mine?I.pause:I.spk)+"<span>"+(mine?"暂停":"朗读")+"</span>"; say.setAttribute("aria-pressed",RD.src==="art"); }
   if(!act) return;
   const ns=rdNodes(RD.src), n=ns[RD.i];
   if(n){ n.classList.add("rd-cur");
