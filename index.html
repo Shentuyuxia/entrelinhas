@@ -676,6 +676,17 @@ body.lean .hint, body.lean .help{display:none!important}
 @media (min-width:641px){ .mg-toc{top:var(--tabs-h,52px)} }
 .mg-toc{box-shadow:0 6px 8px -8px rgba(0,0,0,.25)}
 .mg-gram,.mg-gl dd span[lang=en]{font-family:var(--f-word)}
+
+/* ===== my articles import + sync ===== */
+.mine-imp{margin-left:auto;display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:3px 9px 3px 7px;font:inherit;font-size:12px;cursor:pointer}
+.mine-imp svg{width:15px;height:15px}
+.mine-imp:hover{color:var(--acc);border-color:var(--acc)}
+.rd-paste summary .mine-imp + *{margin-left:0}
+.rd-paste summary:has(.mine-imp)::after{margin-left:10px}
+.mg-toc .mg-addchip{flex:none;border:1px dashed var(--line);border-radius:999px;padding:6px 12px;background:none;color:var(--muted);font:inherit;font-size:13.5px;cursor:pointer;white-space:nowrap}
+.mg-toc .mg-addchip:hover{color:var(--acc);border-color:var(--acc)}
+.sy-how summary{cursor:pointer;font-size:14px;color:var(--acc)}
+#sy-panel code{font-family:var(--f-mono);font-size:.9em}
 </style>
 </head>
 <body>
@@ -723,14 +734,16 @@ body.lean .hint, body.lean .help{display:none!important}
     <div class="panel" id="mg-main"></div>
     <aside style="display:grid;gap:22px;min-width:0">
       <div class="panel mg-week" id="mg-week" hidden></div>
-      <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3></summary>
-        <div class="row" style="margin-top:10px"><label class="btn sm filebtn">拍照<input type="file" id="mine-cam" accept="image/*" capture="environment" multiple></label><label class="btn sm filebtn">选择图片<input type="file" id="mine-pick" accept="image/*" multiple></label></div>
+      <input type="file" id="mine-file" accept=".pdf,.docx,.txt,.md,.html,.htm,.srt,.vtt,application/pdf,text/plain,text/html,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
+      <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3><button class="mine-imp" id="mine-imp" type="button" title="导入 PDF / Word / 文本文件" aria-label="导入文件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 11v6M9 14l3 3 3-3"/></svg><span>导入</span></button></summary>
+        <div class="row" style="margin-top:10px"><label class="btn sm filebtn">拍照<input type="file" id="mine-cam" accept="image/*" capture="environment" multiple></label><label class="btn sm filebtn">选择图片<input type="file" id="mine-pick" accept="image/*" multiple></label><button class="btn sm" type="button" onclick="document.getElementById('mine-file').click()">导入文件</button></div>
+        <p class="note hint" style="margin:6px 0 0">可导入 PDF、Word (.docx)、TXT、Markdown、网页 (.html) 和字幕 (.srt)。</p>
         <label class="tog" id="mine-trrow" style="margin-top:8px"><input type="checkbox" id="mine-tr" checked> 生成英文对照和词汇表</label>
         <p class="small muted" id="mine-msg" style="margin:6px 0 0"></p>
         <input type="text" id="mine-title" placeholder="标题（可选）" autocomplete="off" style="margin-top:10px">
         <textarea id="mine-text" rows="6" placeholder="粘贴一篇文章"></textarea>
         <div class="row" style="margin-top:6px;flex-wrap:nowrap"><input type="url" id="mine-url" placeholder="原文链接（可选）" autocomplete="off"><select id="mine-lv" aria-label="级别（可选）" style="width:auto"><option value="">级别</option></select></div>
-        <p class="note hint" style="margin:6px 0 0">只保存在这台设备上，不会上传。</p>
+        <p class="note hint" style="margin:6px 0 0">保存在你的设备上；开了多设备同步时，会加密后存进你自己的私有仓库。</p>
         <div class="row" style="margin-top:8px"><button class="btn primary sm" id="mine-add" type="button">保存并阅读</button></div>
         <div class="mg-arch" id="mine-list" style="margin-top:12px"></div>
       </details>
@@ -938,6 +951,34 @@ body.lean .hint, body.lean .help{display:none!important}
         <p class="small muted" id="bk-msg" style="margin:8px 0 0"></p>
         <p class="note hint" style="margin-top:10px">从 Claude 里那个版本搬过来：在那边「进度」页点「导出备份」，再在这里导入同一个文件。</p>
       </div>
+      <div class="panel" id="sy-panel">
+        <h3 class="ph3">多设备同步</h3>
+        <p class="note">让 iPhone、iPad 和电脑共用同一份学习进度、自录单词和我的文章。数据先在设备上用你的同步密码加密，再存进你自己的私有 GitHub 仓库。不用邮箱，不经过别人的服务器，GitHub 也只能看到一串乱码。</p>
+        <div id="sy-on" hidden>
+          <p class="note" style="margin-top:10px">已连接：<b id="sy-repo-t"></b><br><span id="sy-last"></span></p>
+          <label class="tog" style="margin-top:6px"><input type="checkbox" id="sy-mine-on" checked> 也同步「我的文章」</label>
+          <div class="row" style="margin-top:10px"><button class="btn primary sm" id="sy-now" type="button">立即同步</button><button class="btn sm" id="sy-copy" type="button">复制设置码</button><button class="btn ghost sm" id="sy-off" type="button">在本机停用</button></div>
+          <p class="note hint" style="margin-top:8px">打开 app、切到后台、学完一会儿后都会自动同步。新设备上：粘贴「设置码」，再输入同一个同步密码。</p>
+        </div>
+        <div id="sy-setup">
+          <details class="sy-how" style="margin-top:10px"><summary>第一次设置（约 3 分钟）</summary>
+            <ol class="note" style="padding-left:1.3em;margin:8px 0 0;display:grid;gap:6px">
+              <li>在 GitHub 新建一个<b>私有</b>仓库，名字例如 <code>entrelinhas-sync</code>：<a href="https://github.com/new" target="_blank" rel="noopener">github.com/new</a>，选 Private。</li>
+              <li>新建一个 token：<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Fine-grained token</a>。Repository access 选 <i>Only select repositories</i> → 只勾这个仓库；Permissions → Repository → <i>Contents</i> 选 <i>Read and write</i>。有效期最长一年，到期再换一个。</li>
+              <li>把仓库名和 token 填在下面，再想一个同步密码。每台设备都用同一个密码；忘了就解不开，没有找回办法。</li>
+            </ol></details>
+          <div class="field" style="margin-top:10px"><label for="sy-repo">仓库</label><input type="text" id="sy-repo" placeholder="Shentuyuxia/entrelinhas-sync" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
+          <div class="field"><label for="sy-token">Token</label><input type="password" id="sy-token" placeholder="github_pat_…" autocomplete="off"></div>
+          <div class="field"><label for="sy-pass">同步密码</label><input type="password" id="sy-pass" autocomplete="new-password"></div>
+          <div class="row"><button class="btn primary sm" id="sy-go" type="button">连接并同步</button></div>
+          <details class="sy-how" style="margin-top:14px"><summary>已经在别的设备上设置过？用设置码</summary>
+            <textarea id="sy-code" rows="3" placeholder="EL1.…" style="width:100%;margin-top:8px;font-family:var(--f-mono);font-size:12px"></textarea>
+            <div class="field" style="margin-top:6px"><label for="sy-pass2">同步密码</label><input type="password" id="sy-pass2" autocomplete="current-password"></div>
+            <div class="row"><button class="btn sm" id="sy-code-go" type="button">用设置码连接</button></div>
+          </details>
+        </div>
+        <p class="small muted" id="sy-msg" style="margin:8px 0 0"></p>
+      </div>
       <div class="panel">
         <h3 class="ph3">AI 补全、检查例句</h3>
         <p class="note hint">这个独立版直接调用 Claude API，需要你自己的 API key。API 按用量单独计费，和 Claude 订阅不是同一个账户。</p>
@@ -1018,7 +1059,7 @@ const I={
 
 /* ---------- state (localStorage) ---------- */
 const LS="palavra-wort-v1";
-const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null});
+const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
   gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"]},goal:{pt:15,de:15,en:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"]}},
   pt:blank(),de:blank(),en:blank(),updated:0,lastBackup:0};
@@ -1029,18 +1070,19 @@ function merge(x){
   for(const k in s){ if(k==="gloss"||k==="goal"||k==="levels") Object.assign(o.settings[k],s[k]||{}); else o.settings[k]=s[k]; }
   for(const l of Object.keys(LANG)) if(x[l]) o[l]=Object.assign(blank(),x[l]);
   if(!LANG[o.settings.lang]) o.settings.lang="pt";
-  o.updated=x.updated||0; o.lastBackup=x.lastBackup||0; return o;
+  o.updated=x.updated||0; o.lastBackup=x.lastBackup||0; o.setAt=x.setAt||0; return o;
 }
 let S=clone(DEF);
 try{ const r=localStorage.getItem(LS); if(r) S=merge(JSON.parse(r)); }catch(e){}
 if(!S.settings.glossEN){ S.settings.gloss={pt:["en","zh"],de:["en","zh"],en:["def","zh"]}; S.settings.glossEN=1; } // English first; French is now opt-in
-let saveWarned=false;
+let saveWarned=false, SH=JSON.stringify(S.settings);
 function save(){
-  S.updated=Date.now();
+  S.updated=Date.now(); { const h=JSON.stringify(S.settings); if(h!==SH){ SH=h; S.setAt=Date.now(); } }
   try{ localStorage.setItem(LS,JSON.stringify(S)); }
   catch(e){ if(!saveWarned){ saveWarned=true; toast("这台设备的存储空间不够，最近的改动没能保存。请先导出备份。"); } }
-  renderBackupHint();
+  renderBackupHint(); if(typeof syLater==="function") syLater();
 }
+function pileRm(LL,id){ if(!LL.pile[id]) return; delete LL.pile[id]; (LL.pileDel||(LL.pileDel={}))[id]=Date.now(); }
 
 /* ---------- media store (IndexedDB: images + recordings) ---------- */
 const IDB={
@@ -1594,9 +1636,9 @@ function grade(g){
     else { st.i= st.r===0?4 : Math.round(Math.max(st.i,1)*st.e*1.3); st.e=Math.min(3.2,st.e+0.15); }
     st.r++; st.d=addDays(st.i);
   }
-  LL.srs[c.id]=st;
+  st.t=Date.now(); LL.srs[c.id]=st;
   if(isNew){ log.n++; if(planHas(c.id)) log.pn=(log.pn||0)+1; } else log.r++;
-  if(sess.mode==="pile"&&g===3&&LL.pile[c.id]){ delete LL.pile[c.id]; toast("已移出生词堆"); }
+  if(sess.mode==="pile"&&g===3&&LL.pile[c.id]){ pileRm(LL,c.id); toast("已移出生词堆"); }
   if(g===0) sess.queue.splice(Math.min(3,sess.queue.length),0,{c});
   else sess.done++;
   checkIn(); save(); next(); renderStrip();
@@ -1772,7 +1814,7 @@ function renderDetail(note){
   const ni=$("#d-noimg"); if(ni) ni.onclick=()=>{ removeImg(id); renderDetail("图片已删除"); };
   const dw=$("#d-delword"); if(dw) dw.onclick=()=>{
     if(dw.dataset.sure!=="1"){ dw.dataset.sure="1"; dw.textContent="再点一次确认删除"; dw.classList.remove("ghost"); dw.classList.add("danger"); return; }
-    const LL=L(); LL.custom=LL.custom.filter(x=>x.id!==id); delete LL.srs[id]; delete LL.pile[id]; delete LL.mine[id]; delete LL.memo[id]; removeImg(id);
+    const LL=L(); LL.custom=LL.custom.filter(x=>x.id!==id); (LL.del||(LL.del={}))[id]=Date.now(); delete LL.srs[id]; delete LL.pile[id]; delete LL.mine[id]; delete LL.memo[id]; removeImg(id);
     SLOTS.forEach(([s])=>removeAud(id,s));
     save(); rebuildCards(); closeDetail(); renderStrip(); toast("已从词库删除");
   };
@@ -1997,7 +2039,7 @@ async function mgRender(){
   } else {
   pick=mgPick(); es=mgEntries(MG.di,l);
   h=`<div class="mg-head"><button class="ib" id="mg-prev" aria-label="前一天" ${MG.di>=days.length-1?"disabled":""}>‹</button><span class="d">${days[MG.di]?mgFmt(days[MG.di].date):""}</span><button class="ib" id="mg-next" aria-label="后一天" ${MG.di<=0?"disabled":""}>›</button><span class="spacer"></span><button class="ib" id="mg-reload" aria-label="刷新" title="刷新">↻</button></div>`;
-  if(es.length>1) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}</nav>`;
+  if(es.length) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}<button class="mg-addchip" data-mineopen="1" type="button">＋ 我的文章</button></nav>`;
   if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); return; }
   try{ const day=await mgDay(pick.date); it=day.items[pick.i]; }catch(e){ main.innerHTML=h+`<div class="empty"><b>这篇没有载入</b>${esc(e.message)}</div>`; return; }
   if(!it){ main.innerHTML=h; return; }
@@ -2120,7 +2162,7 @@ function mineAdd(){
   const lv=$("#mine-lv").value; if(lv) a.level=lv;
   if(MINE_X&&MINE_X.lang===lang()){ ["paragraphs_en","paragraphs_zh","glossary","grammar"].forEach(k=>{ if(MINE_X[k]&&MINE_X[k].length) a[k]=MINE_X[k]; }); a.src="photo"; }
   MINE_X=null; $("#mine-msg").textContent="";
-  const all=mineAll(); all.unshift(a); if(!mineSave(all.slice(0,200))) return;
+  const all=mineAll(); all.unshift(a); if(!mineSave(all.slice(0,200))) return; if(typeof syLater==="function") syLater();
   ti.value=""; tx.value=""; ur.value=""; $("#mine-lv").value="";
   MG.mine=a.id; MG.tr=null; mgClose(); mgRender(); mineList(); window.scrollTo({top:$("#tabs").offsetTop,behavior:"smooth"});
 }
@@ -2157,6 +2199,84 @@ async function mineScan(files){
 }
 $("#mine-cam").addEventListener("change",e=>{ mineScan(e.target.files); e.target.value=""; });
 $("#mine-pick").addEventListener("change",e=>{ mineScan(e.target.files); e.target.value=""; });
+/* my articles: import a file (PDF, Word, text, web page, subtitles) */
+const PDFJS="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/", MINE_MAX=60000;
+function loadScript(src){ return new Promise((res,rej)=>{ const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=()=>rej(new Error("组件没有载入，请检查网络")); document.head.appendChild(s); }); }
+function mineClean(t){ return String(t).replace(/\r/g,"").replace(/\u00ad/g,"").replace(/[ \t\u00a0]+/g," ").replace(/ *\n */g,"\n").replace(/\n{3,}/g,"\n\n").trim(); }
+async function pdfLines(doc,p){
+  const pg=await doc.getPage(p), tc=await pg.getTextContent(); const lines=[]; let cur="", y=null, h=0;
+  for(const it of tc.items){ if(!("str" in it)) continue; const iy=it.transform[5];
+    if(y!==null&&Math.abs(iy-y)>Math.max(2,h*0.5)&&cur.trim()){ lines.push({t:cur.trim(),y,h}); cur=""; }
+    if(it.str) { cur+=(cur&&!/\s$/.test(cur)&&!/^\s/.test(it.str)&&Math.abs(iy-(y??iy))>1?" ":"")+it.str; y=iy; h=Math.max(h*0.5,Math.abs(it.transform[3])||it.height||h); }
+    if(it.hasEOL&&cur.trim()){ lines.push({t:cur.trim(),y:iy,h}); cur=""; y=null; } }
+  if(cur.trim()) lines.push({t:cur.trim(),y:y||0,h});
+  return lines.filter(l=>!/^\d{1,4}$/.test(l.t));
+}
+function pdfParas(lines){
+  const gaps=[]; for(let i=1;i<lines.length;i++){ const d=lines[i-1].y-lines[i].y; if(d>0) gaps.push(d); }
+  gaps.sort((a,b)=>a-b); const g=gaps.length?gaps[Math.floor(gaps.length/2)]:12;
+  const maxLen=Math.max(1,...lines.map(l=>l.t.length));
+  const out=[]; let para="";
+  lines.forEach((l,i)=>{
+    if(para){ const prev=lines[i-1], d=prev.y-l.y;
+      const brk=d<=0||d>g*1.45||(/[.!?:»“"…]$/.test(prev.t)&&prev.t.length<maxLen*0.72);
+      if(brk){ out.push(para); para=l.t; }
+      else if(/[A-Za-zÀ-ÿ]-$/.test(para)&&/^[a-zà-ÿß]/.test(l.t)) para=para.slice(0,-1)+l.t;
+      else para+=" "+l.t; }
+    else para=l.t; });
+  if(para) out.push(para); return out;
+}
+let minePdfDoc=null;
+async function minePdfRead(a,b){
+  const msg=$("#mine-msg"), doc=minePdfDoc; if(!doc) return;
+  msg.innerHTML=`<span class="spin"></span> 正在读取第 ${a}–${b} 页…`;
+  const paras=[]; let chars=0;
+  for(let p=a;p<=b;p++){ const ls=await pdfLines(doc,p); chars+=ls.reduce((s,l)=>s+l.t.length,0); paras.push(...pdfParas(ls)); }
+  if(chars<(b-a+1)*25){
+    if(aiState==="ready"){ msg.innerHTML=`<span class="spin"></span> 这是扫描版 PDF，转成图片交给 AI 识别…`;
+      const files=[]; for(let p=a;p<=Math.min(b,a+5);p++){ const pg=await doc.getPage(p), vp=pg.getViewport({scale:1.8}), cv=document.createElement("canvas"); cv.width=vp.width; cv.height=vp.height;
+        await pg.render({canvasContext:cv.getContext("2d"),viewport:vp}).promise; files.push(await new Promise(r=>cv.toBlob(r,"image/jpeg",0.85))); }
+      return mineScan(files); }
+    msg.textContent="这是扫描版 PDF，里面没有文字层。可以把这几页截图，再用「选择图片」；或者在设置里填 API key，让 AI 识别。"; return; }
+  let text=paras.join("\n\n"), cut=false; if(text.length>MINE_MAX){ text=text.slice(0,MINE_MAX).replace(/\s+\S*$/,""); cut=true; }
+  const meta=await doc.getMetadata().catch(()=>null); const t=meta&&meta.info&&meta.info.Title;
+  if(t&&t.length<140&&!/^(untitled|microsoft word|document)/i.test(t)) $("#mine-title").value=t;
+  $("#mine-text").value=text; MINE_X=null;
+  msg.textContent=`读取完成：第 ${a}–${b} 页，${paras.length} 段${cut?"（太长，只保留了前一部分）":""}。检查一下，再点「保存并阅读」。`;
+}
+async function mineFile(f){
+  const msg=$("#mine-msg"); if(!f) return; $("#mine-box").open=true;
+  const name=f.name||"", ext=(name.split(".").pop()||"").toLowerCase();
+  msg.innerHTML='<span class="spin"></span> 正在读取文件…'; minePdfDoc=null;
+  $("#mine-title").value=name.replace(/\.[^.]+$/,"").replace(/[_]+/g," ").trim();
+  try{
+    if(ext==="pdf"||f.type==="application/pdf"){
+      if(!window.pdfjsLib){ await loadScript(PDFJS+"pdf.min.js"); pdfjsLib.GlobalWorkerOptions.workerSrc=PDFJS+"pdf.worker.min.js"; }
+      minePdfDoc=await pdfjsLib.getDocument({data:await f.arrayBuffer()}).promise; const n=minePdfDoc.numPages;
+      if(n<=12) return await minePdfRead(1,n);
+      msg.innerHTML=`这个 PDF 共 ${n} 页。读取第 <input type="number" id="mpdf-a" min="1" max="${n}" value="1" style="width:4.2em;display:inline-block"> – <input type="number" id="mpdf-b" min="1" max="${n}" value="${Math.min(n,10)}" style="width:4.2em;display:inline-block"> 页 <button class="btn sm" id="mpdf-go" type="button">读取</button>`;
+      $("#mpdf-go").onclick=()=>{ const a=Math.max(1,Math.min(n,+$("#mpdf-a").value||1)), b=Math.max(a,Math.min(n,+$("#mpdf-b").value||a)); minePdfRead(a,Math.min(b,a+39)); };
+      return;
+    }
+    let text="";
+    if(ext==="docx"){ if(!window.mammoth) await loadScript("https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"); text=(await mammoth.extractRawText({arrayBuffer:await f.arrayBuffer()})).value; }
+    else if(/^x?html?$/.test(ext)||f.type==="text/html"){ const d=new DOMParser().parseFromString(await f.text(),"text/html"); d.querySelectorAll("script,style,nav,header,footer,aside,form").forEach(x=>x.remove());
+      const h=d.querySelector("h1")||d.querySelector("title"); if(h) $("#mine-title").value=h.textContent.trim();
+      text=[...d.body.querySelectorAll("p,li,blockquote,h2,h3")].map(x=>x.textContent.replace(/\s+/g," ").trim()).filter(Boolean).join("\n\n")||d.body.textContent; }
+    else if(ext==="srt"||ext==="vtt"){ text=(await f.text()).split(/\n/).filter(l=>!/^\s*(\d+|WEBVTT.*|\d\d:\d\d[\d:.,]*\s*-->.*)\s*$/.test(l)).join("\n").replace(/<[^>]+>/g,""); }
+    else if(ext==="md"||ext==="markdown"){ text=(await f.text()).replace(/^#{1,6}\s*/gm,"").replace(/!\[[^\]]*\]\([^)]*\)/g,"").replace(/\[([^\]]+)\]\([^)]*\)/g,"$1").replace(/[*_`>]+/g,""); }
+    else if(ext==="doc"||ext==="pages"||ext==="epub"){ msg.textContent="这种格式读不了。请先另存为 PDF 或 .docx 再导入。"; return; }
+    else text=await f.text();
+    text=mineClean(text); if(!text){ msg.textContent="这个文件里没读出文字。"; return; }
+    if(ext!=="srt"&&ext!=="vtt"){ const first=text.split(/\n/)[0].trim(); if(first.length<=90&&text.length>first.length+40&&!/[.!?。！？:;,]$/.test(first)){ $("#mine-title").value=first; text=text.slice(first.length).trim(); } }
+    let cut=false; if(text.length>MINE_MAX){ text=text.slice(0,MINE_MAX).replace(/\s+\S*$/,""); cut=true; }
+    $("#mine-text").value=text; MINE_X=null;
+    msg.textContent=`读取完成${cut?"（太长，只保留了前一部分）":""}。检查一下，再点「保存并阅读」。`;
+  }catch(e){ msg.textContent="文件读不出来："+(e.message||e); }
+}
+$("#mine-file").addEventListener("change",e=>{ const f=e.target.files&&e.target.files[0]; e.target.value=""; mineFile(f); });
+$("#mine-imp").addEventListener("click",e=>{ e.preventDefault(); e.stopPropagation(); $("#mine-file").click(); });
+
 function mineList(){
   const el=$("#mine-list"); if(!el) return; const l=lang(), rows=mineAll().filter(a=>a.lang===l); mineLvOpts();
   const trrow=$("#mine-trrow"); if(trrow) trrow.hidden=aiState!=="ready";
@@ -2227,7 +2347,7 @@ function mgPaint(){
       :s.wk&&s.wk.state==="load"?`<p class="small muted wk-msg">正在查 Wiktionary…</p>`:s.wk&&s.wk.state==="none"?`<p class="small muted wk-msg">Wiktionary 没有收这个词</p>`:""}
     ${s.en?`<p class="wk-en" lang="en" data-noi18n>${esc(s.en)}</p>`:""}
     <label class="small muted" for="mg-zh-in">${(s.wk&&s.wk.state==="ok")||s.en?"中文释义（可选）":"中文释义"}</label>
-    <input type="text" id="mg-zh-in" value="${esc(s.zh)}" placeholder="${aiState==="ready"?"":"长按单词用 iPhone 翻译，再粘贴到这里"}" autocomplete="off">
+    <input type="text" id="mg-zh-in" value="${esc(s.zh)}" placeholder="${aiState==="ready"?"":"需要的话自己补充"}" autocomplete="off">
     ${s.note?`<p class="small muted" style="margin:0" lang="zh" data-noi18n>${esc(s.note)}</p>`:""}
     ${s.sentence?`<p class="ex small" style="margin:0" lang="${lang()}">${esc(s.sentence)}</p>`:""}
     <div class="row"><button class="btn primary" id="mg-ssave" type="button">${s.have?"放进生词堆":"收进生词"}</button>${aiState==="ready"?`<button class="btn sm" id="mg-sai" type="button" ${s.state==="ai"?"disabled":""}>${s.state==="ai"?"查询中…":"用 Claude 查"}</button>`:""}<span class="small muted" id="mg-smsg"></span></div>`;
@@ -2271,6 +2391,7 @@ $("#tab-read").addEventListener("click",e=>{
     $$(".mg-w.on").forEach(x=>x.classList.remove("on")); w.classList.add("on"); mgOpen(w.textContent,mgSentenceOf(w)); return; }
   if(!b) return;
   if(b.dataset.mine){ MG.mine=b.dataset.mine; MG.tr=null; mgClose(); mgRender(); mineList(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
+  if(b.dataset.mineopen){ const d=$("#mine-box"); d.open=true; d.scrollIntoView({behavior:"smooth",block:"start"}); return; }
   if(b.dataset.mg){ MG.mine=null; MG.key=b.dataset.mg; if(b.dataset.di!=null) MG.di=+b.dataset.di; else { const d=b.dataset.mg.split("|")[0]; const k=MG.idx.days.findIndex(x=>x.date===d); if(k>=0) MG.di=k; } MG.tr=null; mgClose(); mgRender(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
   if(b.dataset.wq!=null){ MG.wpick[b.dataset.wq]=+b.dataset.wo; mgWeek(); return; }
   const id=b.id;
@@ -2281,7 +2402,7 @@ $("#tab-read").addEventListener("click",e=>{
   else if(id==="mg-say"){ if(RD.src==="art"&&RD.on) rdToggle(); else rdStart("art",0); }
   else if(id==="mg-done"){ MGS.read[MG.cur.date+"|"+MG.cur.i]=1; mgSave(); mgRender(); }
   else if(id==="mg-mineback"){ MG.mine=null; mgRender(); mineList(); }
-  else if(id==="mg-minedel"){ if(confirm(trOne("删除这篇文章？")||"删除这篇文章？")){ mineSave(mineAll().filter(a=>a.id!==MG.mine)); MG.mine=null; mgRender(); mineList(); } }
+  else if(id==="mg-minedel"){ if(confirm(trOne("删除这篇文章？")||"删除这篇文章？")){ { const dl=(()=>{ try{ return JSON.parse(localStorage.getItem("pw-mine-del"))||{}; }catch(e){ return {}; } })(); dl[MG.mine]=Date.now(); try{ localStorage.setItem("pw-mine-del",JSON.stringify(dl)); }catch(e){} } mineSave(mineAll().filter(a=>a.id!==MG.mine)); MG.mine=null; if(typeof syLater==="function") syLater(); mgRender(); mineList(); } }
   else if(id==="mine-add") mineAdd();
   else if(id==="mg-archall"){ MG.archAll=true; mgArch(MG.cur); }
 });
@@ -2319,7 +2440,9 @@ function ownCount(){ return Object.keys(LANG).reduce((a,l)=>a+S[l].custom.length
 function renderBackupHint(){
   const days=S.lastBackup?Math.floor((Date.now()-S.lastBackup)/864e5):null;
   const sy=$("#sync"); sy.querySelector("span").textContent= S.lastBackup? `保存在本机 · ${days===0?"今天":days+" 天前"}备份过` : "保存在本机 · 还没备份";
-  const stale=ownCount()>=5&&(days===null||days>=14);
+  const synced=typeof syOn==="function"&&syOn()&&!SY.err;
+  if(synced) sy.querySelector("span").textContent="已开启多设备同步";
+  const stale=!synced&&ownCount()>=5&&(days===null||days>=14);
   sy.className="sync"+(stale?" warn":"");
   $("#backup-banner").hidden=!stale;
   $("#backup-banner-t").textContent= days===null?"你已经录入了一些自己的内容，但还没有备份过。数据只存在这台设备上，建议导出一份备份文件。":`上次备份是 ${days} 天前。建议再导出一份备份文件。`;
@@ -2344,7 +2467,7 @@ $("#pile-list").addEventListener("click",e=>{
   const s=e.target.closest("[data-say]"), r=e.target.closest("[data-rm]"), o=e.target.closest("[data-open]");
   if(o) openDetail(o.dataset.open);
   if(s){ const c=BYID.get(s.dataset.say); if(c) speak(c.w); }
-  if(r){ delete L().pile[r.dataset.rm]; save(); renderPile(); renderStrip(); }
+  if(r){ pileRm(L(),r.dataset.rm); save(); renderPile(); renderStrip(); }
 });
 $("#pile-lv").addEventListener("change",renderPile);
 $("#pile-go").addEventListener("click",()=>startCram(pileCards(),"复习生词堆","pile"));
@@ -2467,6 +2590,160 @@ async function doImport(){
   if(p.mgs&&p.mgs.read){ MGS.read=Object.assign({},p.mgs.read,MGS.read); mgSave(); }
   if(S.settings.lang!==keepLang||true) await applyLang();
 }
+
+/* ---------- sync across devices: the reader's own private GitHub repo, encrypted on the device ---------- */
+const SYK="pw-sync", SYF="entrelinhas-sync.json", MINEDK="pw-mine-del";
+let SY=(()=>{ try{ return JSON.parse(localStorage.getItem(SYK))||{}; }catch(e){ return {}; } })();
+function sySave(){ try{ localStorage.setItem(SYK,JSON.stringify(SY)); }catch(e){} }
+const syOn=()=>!!(SY.repo&&SY.token&&SY.pass);
+const b64e=u8=>{ let s=""; for(let i=0;i<u8.length;i+=0x8000) s+=String.fromCharCode.apply(null,u8.subarray(i,i+0x8000)); return btoa(s); };
+const b64d=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function syKey(pass,salt){ const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pass),"PBKDF2",false,["deriveKey"]); return crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:310000,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["encrypt","decrypt"]); }
+async function syEnc(obj,pass){ const salt=crypto.getRandomValues(new Uint8Array(16)), iv=crypto.getRandomValues(new Uint8Array(12));
+  const ct=new Uint8Array(await crypto.subtle.encrypt({name:"AES-GCM",iv},await syKey(pass,salt),new TextEncoder().encode(JSON.stringify(obj))));
+  return JSON.stringify({app:"entrelinhas-sync",v:1,salt:b64e(salt),iv:b64e(iv),ct:b64e(ct)}); }
+async function syDec(txt,pass){ let o; try{ o=JSON.parse(txt); }catch(e){ throw new Error("format"); } if(!o||o.app!=="entrelinhas-sync") throw new Error("format");
+  try{ const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64d(o.iv)},await syKey(pass,b64d(o.salt)),b64d(o.ct)); return JSON.parse(new TextDecoder().decode(pt)); }
+  catch(e){ throw new Error("pass"); } }
+function ghH(raw){ return {Authorization:"Bearer "+SY.token,Accept:raw?"application/vnd.github.raw+json":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}; }
+const ghURL=()=>`https://api.github.com/repos/${SY.repo}/contents/${SYF}`;
+function ghErr(r){ const e=new Error("http"); e.status=r.status; return e; }
+async function ghGet(){
+  const r=await fetch(ghURL(),{headers:ghH(),cache:"no-store"});
+  if(r.status===404) return null; if(!r.ok) throw ghErr(r);
+  const j=await r.json(); let text="";
+  if(j.content&&j.encoding==="base64") text=atob(j.content.replace(/\s/g,""));
+  else { const r2=await fetch(ghURL(),{headers:ghH(true),cache:"no-store"}); if(!r2.ok) throw ghErr(r2); text=await r2.text(); }
+  return {sha:j.sha,text};
+}
+const devName=()=>{ const u=navigator.userAgent; return /iPad/.test(u)||(/Macintosh/.test(u)&&navigator.maxTouchPoints>1)?"iPad":/iPhone/.test(u)?"iPhone":/Android/.test(u)?"Android":/Mac/.test(u)?"Mac":/Windows/.test(u)?"Windows":"browser"; };
+async function ghPut(text,sha){
+  return fetch(ghURL(),{method:"PUT",headers:Object.assign(ghH(),{"Content-Type":"application/json"}),body:JSON.stringify({message:"sync from "+devName(),content:btoa(text),sha:sha||undefined})});
+}
+function mineDel(){ try{ return JSON.parse(localStorage.getItem(MINEDK))||{}; }catch(e){ return {}; } }
+function syPack(){ return {v:1,state:S,mine:SY.mine===false?null:mineAll(),mineDel:mineDel(),read:MGS.read||{}}; }
+const tsMax=(a,b)=>{ const o=Object.assign({},a||{}); for(const k in (b||{})) o[k]=Math.max(o[k]||0,b[k]||0); return o; };
+function syMergeState(A,B){
+  const o=clone(A);
+  if((B.setAt||0)>(A.setAt||0)){ o.settings=clone(B.settings); o.settings.voice=A.settings.voice; o.settings.lang=A.settings.lang; o.setAt=B.setAt; }
+  for(const l of Object.keys(LANG)){
+    const a=A[l]||blank(), b=B[l]||blank(), m=o[l];
+    const del=m.del=tsMax(a.del,b.del), pdel=m.pileDel=tsMax(a.pileDel,b.pileDel);
+    const ids=new Set(a.custom.map(c=>c.id));
+    m.custom=[...a.custom,...b.custom.filter(c=>!ids.has(c.id))].filter(c=>!del[c.id]);
+    m.srs={}; for(const id of new Set([...Object.keys(a.srs),...Object.keys(b.srs)])){ if(del[id]) continue;
+      const x=a.srs[id], y=b.srs[id]; const sc=s=>s?[(s.t||0),(s.r||0)+(s.l||0),String(s.d||"")]:null;
+      if(!x||!y){ m.srs[id]=x||y; continue; } const p=sc(x), q=sc(y);
+      m.srs[id]= q[0]!==p[0]?(q[0]>p[0]?y:x) : q[1]!==p[1]?(q[1]>p[1]?y:x) : (q[2]>p[2]?y:x); }
+    m.pile={}; for(const [id,t] of [...Object.entries(b.pile),...Object.entries(a.pile)]){ if(del[id]||(pdel[id]||0)>=t) continue; m.pile[id]=Math.max(m.pile[id]||0,t); }
+    m.log={}; for(const d of new Set([...Object.keys(a.log),...Object.keys(b.log)])){ const x=a.log[d]||{n:0,r:0,c:false}, y=b.log[d]||{n:0,r:0,c:false};
+      m.log[d]={n:Math.max(x.n||0,y.n||0),r:Math.max(x.r||0,y.r||0),c:!!(x.c||y.c)}; const pn=Math.max(x.pn||0,y.pn||0); if(pn) m.log[d].pn=pn; }
+    for(const k of ["memo","imgs","auds"]){ m[k]=Object.assign({},b[k]||{},a[k]||{}); for(const id in m[k]) if(del[id]) delete m[k][id]; }
+    m.mine={}; for(const id of new Set([...Object.keys(a.mine||{}),...Object.keys(b.mine||{})])){ if(del[id]) continue;
+      const seen=new Set(), arr=[]; for(const s of [...((a.mine||{})[id]||[]),...((b.mine||{})[id]||[])]){ const k=s.t+"|"+(s.ts||""); if(!seen.has(k)){ seen.add(k); arr.push(s); } }
+      arr.sort((p,q)=>(q.ts||0)-(p.ts||0)); m.mine[id]=arr; }
+    m.plan=a.plan||b.plan||null;
+  }
+  o.updated=Math.max(A.updated||0,B.updated||0); o.lastBackup=Math.max(A.lastBackup||0,B.lastBackup||0);
+  return o;
+}
+function syMerge(L0,R){
+  const out={v:1,state:syMergeState(merge(L0.state),merge(R.state))};
+  out.mineDel=tsMax(L0.mineDel,R.mineDel);
+  if(L0.mine===null) out.mine=R.mine||null;
+  else { const have=new Set((L0.mine||[]).map(a=>a.id)); out.mine=[...(L0.mine||[]),...((R.mine||[]).filter(a=>a&&a.id&&!have.has(a.id)))].filter(a=>!out.mineDel[a.id]).sort((p,q)=>String(q.id).localeCompare(String(p.id))).slice(0,200); }
+  out.read=Object.assign({},R.read||{},L0.read||{});
+  return out;
+}
+function syApply(P){
+  const before=JSON.stringify(S);
+  S=merge(P.state); SH=JSON.stringify(S.settings);
+  try{ localStorage.setItem(LS,JSON.stringify(S)); }catch(e){}
+  if(SY.mine!==false&&Array.isArray(P.mine)) mineSave(P.mine);
+  try{ localStorage.setItem(MINEDK,JSON.stringify(P.mineDel||{})); }catch(e){}
+  MGS.read=P.read||{}; mgSave();
+  return before!==JSON.stringify(S);
+}
+let syBusy=false, syAgain=false;
+function syMsg(t){ const m=$("#sy-msg"); if(m) m.textContent=t; }
+function syErrText(e){
+  if(e.message==="pass") return "同步密码不对：和其他设备上设的不一样。";
+  if(e.message==="format") return "仓库里的同步文件不是字里行间的格式。";
+  if(e.status===401) return "Token 无效或已过期，请换一个新的。";
+  if(e.status===403) return "Token 没有写入权限：Contents 要选 Read and write。";
+  if(e.status===404) return "找不到这个仓库，或 token 没有授权给它。";
+  return "同步失败（"+(e.status||e.message||"网络")+"），稍后会自动再试。";
+}
+function stableStr(v){ if(Array.isArray(v)) return "["+v.map(stableStr).join(",")+"]"; if(v&&typeof v==="object") return "{"+Object.keys(v).sort().filter(k=>v[k]!==undefined).map(k=>JSON.stringify(k)+":"+stableStr(v[k])).join(",")+"}"; return JSON.stringify(v===undefined?null:v); }
+async function canon(P){
+  const st=clone(P.state||{}); delete st.updated; delete st.lastBackup;
+  for(const l of Object.keys(LANG)) if(st[l]&&Array.isArray(st[l].custom)) st[l].custom.sort((a,b)=>String(a.id).localeCompare(String(b.id)));
+  const m=Array.isArray(P.mine)?[...P.mine].sort((a,b)=>String(a.id).localeCompare(String(b.id))):null;
+  const txt=stableStr({state:st,mine:m,mineDel:P.mineDel||{},read:P.read||{}});
+  const h=new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(txt)));
+  return [...h].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+async function syncNow(manual){
+  if(!syOn()) return; if(syBusy){ syAgain=true; return; }
+  if(!navigator.onLine){ if(manual) syMsg("现在离线，联网后会自动同步。"); return; }
+  syBusy=true; if(manual) syMsg("正在同步…");
+  try{
+    let changed=false;
+    for(let k=0;k<3;k++){
+      const g=await ghGet(); let next=syPack(), h=await canon(next);
+      if(g&&g.sha===SY.sha&&h===SY.h){ SY.last=Date.now(); SY.err=""; break; }
+      if(g){ const R=await syDec(g.text,SY.pass); changed=syApply(syMerge(next,R))||changed; next=syPack(); h=await canon(next);
+        if(h===await canon(R)){ SY.sha=g.sha; SY.h=h; SY.last=Date.now(); SY.err=""; break; } }
+      const r=await ghPut(await syEnc(next,SY.pass),g&&g.sha);
+      if(r.ok){ const j=await r.json().catch(()=>({})); SY.sha=j.content&&j.content.sha; SY.h=h; SY.last=Date.now(); SY.err=""; break; }
+      if(r.status===409||r.status===422) continue;
+      throw ghErr(r);
+    }
+    sySave(); renderBackupHint(); renderSync();
+    if(changed){ await applyLang(); mineList(); }
+    if(manual) syMsg("已同步 · "+new Date(SY.last).toLocaleTimeString(uiLocale(),{hour:"2-digit",minute:"2-digit"}));
+  }catch(e){ SY.err=syErrText(e); sySave(); syMsg(SY.err); renderSync(); renderBackupHint(); }
+  finally{ syBusy=false; if(syAgain){ syAgain=false; setTimeout(()=>syncNow(),500); } }
+}
+let syT=null;
+function syLater(){ if(!syOn()) return; clearTimeout(syT); syT=setTimeout(()=>syncNow(),20000); }
+document.addEventListener("visibilitychange",()=>{ if(!syOn()) return; if(document.hidden){ clearTimeout(syT); syncNow(); } else if(!sess||!sess.flipped) syncNow(); });
+window.addEventListener("online",()=>syncNow());
+function renderSync(){
+  const on=syOn(); $("#sy-setup").hidden=on; $("#sy-on").hidden=!on;
+  if(on){ $("#sy-repo-t").textContent=SY.repo; $("#sy-last").textContent=SY.err||(SY.last?"上次同步："+new Date(SY.last).toLocaleString(uiLocale()):"还没同步过。"); $("#sy-mine-on").checked=SY.mine!==false; }
+}
+const repoNorm=v=>String(v||"").trim().replace(/^https?:\/\/github\.com\//i,"").replace(/\.git$/,"").replace(/\/+$/,"");
+async function syConnect(repo,token,pass){
+  repo=repoNorm(repo); token=String(token||"").trim();
+  if(!/^[\w.-]+\/[\w.-]+$/.test(repo)){ syMsg("仓库要写成「用户名/仓库名」，例如 Shentuyuxia/entrelinhas-sync。"); return; }
+  if(!token){ syMsg("请粘贴 token。"); return; }
+  if(!pass||pass.length<6){ syMsg("同步密码至少 6 位。每台设备都用同一个。"); return; }
+  syMsg("正在连接…");
+  try{ const r=await fetch("https://api.github.com/repos/"+repo,{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github+json"},cache:"no-store"});
+    if(!r.ok) throw ghErr(r); const j=await r.json();
+    if(!j.private){ syMsg("这个仓库是公开的。请用一个私有（Private）仓库，免得别人看到同步文件。"); return; }
+  }catch(e){ syMsg(syErrText(e)); return; }
+  SY={repo,token,pass,mine:true}; sySave(); renderSync(); await syncNow(true);
+  if(SY.err){ const keep=SY.err; if(/密码/.test(keep)){ SY={}; sySave(); renderSync(); } syMsg(keep); }
+}
+$("#sy-go").addEventListener("click",()=>syConnect($("#sy-repo").value,$("#sy-token").value,$("#sy-pass").value));
+$("#sy-code-go").addEventListener("click",async()=>{
+  const code=$("#sy-code").value.trim(), pass=$("#sy-pass2").value;
+  if(!code||!pass){ syMsg("请粘贴设置码，并输入同步密码。"); return; }
+  try{ const o=await syDec(atob(code.replace(/^EL1\./,"").replace(/\s/g,"")),pass); await syConnect(o.repo,o.token,pass); }
+  catch(e){ syMsg(e.message==="pass"?"设置码和同步密码对不上。":"这个设置码不完整，请重新复制。"); }
+});
+$("#sy-now").addEventListener("click",()=>syncNow(true));
+$("#sy-copy").addEventListener("click",async()=>{
+  const code="EL1."+btoa(await syEnc({repo:SY.repo,token:SY.token},SY.pass));
+  try{ await navigator.clipboard.writeText(code); syMsg("设置码已复制。在另一台设备的「设置 → 多设备同步」里粘贴，再输入同一个同步密码。设置码本身也是加密的。"); }
+  catch(e){ prompt("复制这段设置码：",code); }
+});
+$("#sy-off").addEventListener("click",()=>{ if(!confirm("在这台设备上停用同步？本机数据会保留，仓库里的数据也不会删除。")) return; SY={}; sySave(); renderSync(); syMsg("已停用。"); renderBackupHint(); });
+$("#sy-mine-on").addEventListener("change",e=>{ SY.mine=e.target.checked; sySave(); syncNow(true); });
+renderSync();
+if(syOn()) setTimeout(()=>syncNow(),1200);
 
 /* ---------- settings: AI ---------- */
 function renderAISettings(){
@@ -2980,6 +3257,31 @@ const UI_DICT=[
 ["图片里没认出文字。", "No text found in the pictures.", "Kein Text in den Bildern gefunden.", "Nenhum texto encontrado nas imagens.", "圖片裡沒認出文字。"],
 ["我的课本", "My textbook", "Mein Lehrbuch", "Meu livro didático", "我的課本"],
 ["更多", "More", "Mehr", "Mais", "更多"],
+["导入", "Import", "Importieren", "Importar", "匯入"],
+["导入文件", "Import file", "Datei importieren", "Importar arquivo", "匯入檔案"],
+["可导入 PDF、Word (.docx)、TXT、Markdown、网页 (.html) 和字幕 (.srt)。", "Imports PDF, Word (.docx), TXT, Markdown, web pages (.html) and subtitles (.srt).", "Importiert PDF, Word (.docx), TXT, Markdown, Webseiten (.html) und Untertitel (.srt).", "Importa PDF, Word (.docx), TXT, Markdown, páginas web (.html) e legendas (.srt).", "可匯入 PDF、Word (.docx)、TXT、Markdown、網頁 (.html) 和字幕 (.srt)。"],
+["保存在你的设备上；开了多设备同步时，会加密后存进你自己的私有仓库。", "Stored on your device; with sync on, it is encrypted and kept in your own private repository.", "Wird auf deinem Gerät gespeichert; mit Sync verschlüsselt in deinem eigenen privaten Repository.", "Fica no seu aparelho; com a sincronização ativa, vai criptografado para o seu próprio repositório privado.", "儲存在你的裝置上；開了多裝置同步時，會加密後存進你自己的私有倉庫。"],
+["＋ 我的文章", "+ My articles", "+ Meine Artikel", "+ Meus artigos", "＋ 我的文章"],
+["多设备同步", "Sync across devices", "Geräte synchronisieren", "Sincronizar aparelhos", "多裝置同步"],
+["让 iPhone、iPad 和电脑共用同一份学习进度、自录单词和我的文章。数据先在设备上用你的同步密码加密，再存进你自己的私有 GitHub 仓库。不用邮箱，不经过别人的服务器，GitHub 也只能看到一串乱码。", "Keep your progress, your own words and your articles the same on iPhone, iPad and computer. Data is encrypted on the device with your sync password, then stored in your own private GitHub repository. No email, no third-party server — GitHub only sees scrambled text.", "Lernstand, eigene Wörter und Artikel auf iPhone, iPad und Computer gleich halten. Die Daten werden auf dem Gerät mit deinem Sync-Passwort verschlüsselt und dann in deinem eigenen privaten GitHub-Repository gespeichert. Keine E-Mail, kein fremder Server – GitHub sieht nur Zeichensalat.", "Mantenha progresso, palavras e artigos iguais no iPhone, iPad e computador. Os dados são criptografados no aparelho com a sua senha de sincronização e guardados no seu próprio repositório privado do GitHub. Sem e-mail, sem servidor de terceiros — o GitHub só vê texto embaralhado.", "讓 iPhone、iPad 和電腦共用同一份學習進度、自錄單詞和我的文章。資料先在裝置上用你的同步密碼加密，再存進你自己的私有 GitHub 倉庫。不用郵箱，不經過別人的伺服器，GitHub 也只能看到一串亂碼。"],
+["已连接：", "Connected:", "Verbunden:", "Conectado:", "已連線："],
+["也同步「我的文章」", "Also sync “My articles”", "Auch „Meine Artikel“ synchronisieren", "Sincronizar também “Meus artigos”", "也同步「我的文章」"],
+["立即同步", "Sync now", "Jetzt synchronisieren", "Sincronizar agora", "立即同步"],
+["复制设置码", "Copy setup code", "Einrichtungscode kopieren", "Copiar código", "複製設定碼"],
+["在本机停用", "Turn off on this device", "Auf diesem Gerät ausschalten", "Desativar neste aparelho", "在本機停用"],
+["打开 app、切到后台、学完一会儿后都会自动同步。新设备上：粘贴「设置码」，再输入同一个同步密码。", "Syncs automatically when you open the app, switch away, or shortly after studying. On a new device: paste the setup code and enter the same sync password.", "Synchronisiert automatisch beim Öffnen, beim Wechseln in den Hintergrund und kurz nach dem Lernen. Auf einem neuen Gerät: Einrichtungscode einfügen und dasselbe Sync-Passwort eingeben.", "Sincroniza sozinho ao abrir o app, ao sair dele e pouco depois de estudar. Num aparelho novo: cole o código e digite a mesma senha.", "開啟 app、切到後臺、學完一會兒後都會自動同步。新裝置上：貼上「設定碼」，再輸入同一個同步密碼。"],
+["第一次设置（约 3 分钟）", "First-time setup (about 3 minutes)", "Ersteinrichtung (ca. 3 Minuten)", "Primeira configuração (uns 3 minutos)", "第一次設定（約 3 分鐘）"],
+["仓库", "Repository", "Repository", "Repositório", "倉庫"],
+["同步密码", "Sync password", "Sync-Passwort", "Senha de sincronização", "同步密碼"],
+["连接并同步", "Connect and sync", "Verbinden und synchronisieren", "Conectar e sincronizar", "連線並同步"],
+["已经在别的设备上设置过？用设置码", "Already set up on another device? Use the setup code", "Schon auf einem anderen Gerät eingerichtet? Einrichtungscode verwenden", "Já configurou em outro aparelho? Use o código", "已經在別的裝置上設定過？用設定碼"],
+["用设置码连接", "Connect with code", "Mit Code verbinden", "Conectar com código", "用設定碼連線"],
+["已开启多设备同步", "Sync is on", "Sync ist an", "Sincronização ativa", "已開啟多裝置同步"],
+["正在同步…", "Syncing…", "Synchronisiere …", "Sincronizando…", "正在同步…"],
+["同步密码不对：和其他设备上设的不一样。", "Wrong sync password: it differs from the one on your other devices.", "Falsches Sync-Passwort: Es weicht von dem auf deinen anderen Geräten ab.", "Senha errada: é diferente da dos outros aparelhos.", "同步密碼不對：和其他裝置上設的不一樣。"],
+["Token 无效或已过期，请换一个新的。", "The token is invalid or expired. Please create a new one.", "Das Token ist ungültig oder abgelaufen. Bitte ein neues erstellen.", "O token é inválido ou expirou. Crie um novo.", "Token 無效或已過期，請換一個新的。"],
+["找不到这个仓库，或 token 没有授权给它。", "Repository not found, or the token has no access to it.", "Repository nicht gefunden oder das Token hat keinen Zugriff.", "Repositório não encontrado, ou o token não tem acesso.", "找不到這個倉庫，或 token 沒有授權給它。"],
+["这个仓库是公开的。请用一个私有（Private）仓库，免得别人看到同步文件。", "This repository is public. Please use a private one so nobody else sees the sync file.", "Dieses Repository ist öffentlich. Bitte ein privates verwenden, damit niemand die Sync-Datei sieht.", "Este repositório é público. Use um privado para ninguém ver o arquivo.", "這個倉庫是公開的。請用一個私有（Private）倉庫，免得別人看到同步檔案。"],
 ["我的文章", "My articles", "Meine Artikel", "Meus artigos", "我的文章"],
 ["推荐", "Reading list", "Lesetipps", "Leituras", "推薦"],
 ["标题（可选）", "Title (optional)", "Titel (optional)", "Título (opcional)", "標題（可選）"],
@@ -3032,6 +3334,7 @@ const UI_DICT=[
 ["这个词已经在词库里了，点保存会放进生词堆。", "This word is already in your list; saving puts it in the practice pile.", "Das Wort ist schon im Wortschatz; Speichern legt es in den Übungsstapel.", "Esta palavra já está no vocabulário; salvar a põe na pilha.", "這個詞已經在詞庫裡了，點儲存會放進生詞堆。"],
 ["中文释义", "Meaning (Chinese)", "Bedeutung (Chinesisch)", "Significado (chinês)", "中文釋義"],
 ["释义（中文）", "Meaning (Chinese)", "Bedeutung (Chinesisch)", "Significado (chinês)", "釋義（中文）"],
+["需要的话自己补充", "Add your own if needed", "Bei Bedarf selbst ergänzen", "Complete se precisar", "需要的話自己補充"],
 ["长按单词用 iPhone 翻译，再粘贴到这里", "Long-press the word, translate it with iPhone and paste here", "Wort lange drücken, mit dem iPhone übersetzen und hier einfügen", "Toque e segure a palavra, traduza no iPhone e cole aqui", "長按單詞用 iPhone 翻譯，再貼上到這裡"],
 ["放进生词堆", "Add to pile", "In den Stapel legen", "Pôr na pilha", "放進生詞堆"],
 ["收进生词", "Save word", "Wort speichern", "Guardar palavra", "收進生詞"],
