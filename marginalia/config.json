@@ -2,7 +2,8 @@
  "levels": {
   "de": "C1",
   "en": "C2",
-  "pt": "A1"
+  "pt": "A1",
+  "fr": "C1"
  },
  "note": "Change a level here (A1–C2); the daily tasks read it before writing.",
  "sources": {
@@ -49,6 +50,44 @@
     "Region Hannover",
     "Presseportal Hannover"
    ]
+  },
+  "fr": {
+   "topics": [
+    "international politics & geopolitics",
+    "capitalism & political economy",
+    "migration",
+    "social inequality",
+    "music",
+    "philosophy",
+    "tea culture",
+    "world curiosities — especially East Asia, South Asia, Africa, Latin America"
+   ],
+   "rotate": [
+    "Le Monde diplomatique",
+    "Politis",
+    "L'Humanité",
+    "Alternatives Économiques",
+    "Le Vent Se Lève",
+    "Revue Ballast",
+    "Regards",
+    "AOC"
+   ],
+   "also": [
+    "Libération",
+    "Mediapart",
+    "Socialter",
+    "Frustration",
+    "Orient XXI",
+    "Afrique XXI",
+    "RFI",
+    "France Culture",
+    "Le Grand Continent",
+    "The Conversation France",
+    "Philosophie Magazine",
+    "France Musique",
+    "Courrier international"
+   ],
+   "note": "Left-leaning magazines go in the 'Lectures' list as link-only reading suggestions; never copy or closely paraphrase. Paywalled pieces: link and say so, never bypass."
   }
  }
 }

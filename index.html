@@ -20,7 +20,7 @@
 /* Layout: header with language switch + today's check-in strip; tabs; main work column with a notes aside. Look follows Shiori: cool paper, ink-indigo text, hairlines instead of boxes, one muted accent per language (celadon PT, slate blue DE, ochre EN). */
 :root{
   --bg:#f2f4f3; --surface:#ffffff; --sunk:#e7ebea; --ink:#1c2930; --muted:#5d6a70; --line:#d5dbda; --rule:#1c2930;
-  --pt:#2c6b64; --pt-soft:#dbeae6; --de:#3b5b86; --de-soft:#dfe7f1; --en:#93582a; --en-soft:#f1e5d8; --on-acc:#ffffff;
+  --pt:#2c6b64; --pt-soft:#dbeae6; --de:#3b5b86; --de-soft:#dfe7f1; --en:#93582a; --en-soft:#f1e5d8; --fr:#7a3e6b; --fr-soft:#efe2ec; --on-acc:#ffffff;
   --der:#3b5b86; --die:#a8473a; --das:#2f7a55;
   --a1:#4f7d3a; --a2:#2f7c76; --b1:#3b5b86; --b2:#6a5598; --c1:#9a4a6e; --c2:#8a4a2e;
   --ok:#2f7a55; --ok-soft:#dcebe2; --warn:#9a6f17; --warn-soft:#f3e9d3; --bad:#a8473a; --bad-soft:#f3e0dc;
@@ -33,7 +33,7 @@
 }
 @media (prefers-color-scheme: dark){ :root{
   --bg:#12181b; --surface:#1a2226; --sunk:#0e1316; --ink:#e3eaeb; --muted:#93a1a6; --line:#2b373b;
-  --pt:#7ebdb2; --pt-soft:#1f3735; --de:#9fb6dd; --de-soft:#222d3d; --en:#dcae80; --en-soft:#382a1c; --on-acc:#0f1a19;
+  --pt:#7ebdb2; --pt-soft:#1f3735; --de:#9fb6dd; --de-soft:#222d3d; --en:#dcae80; --en-soft:#382a1c; --fr:#d9a6cc; --fr-soft:#33212e; --on-acc:#0f1a19;
   --der:#9fb6dd; --die:#e08a7c; --das:#86c9a4;
   --a1:#9cc77f; --a2:#7cc4bd; --b1:#9fb6dd; --b2:#b7a3e0; --c1:#e09bbb; --c2:#e0a184;
   --ok:#86c9a4; --ok-soft:#1b3328; --warn:#d6ad5c; --warn-soft:#352a14; --bad:#e08a7c; --bad-soft:#3a201c;
@@ -43,6 +43,7 @@ html{-webkit-text-size-adjust:100%;padding-top:env(safe-area-inset-top,0px);padd
 body{margin:0;--acc:var(--pt);--acc-soft:var(--pt-soft);background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.55}
 body[data-lang="de"]{--acc:var(--de);--acc-soft:var(--de-soft)}
 body[data-lang="en"]{--acc:var(--en);--acc-soft:var(--en-soft)}
+body[data-lang="fr"]{--acc:var(--fr);--acc-soft:var(--fr-soft)}
 body.modal-open{overflow:hidden}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -586,7 +587,7 @@ body.lean .hint, body.lean .help{display:none!important}
 .langsw button{position:relative;border:1px solid var(--line)!important;border-radius:12px!important;background:var(--surface);padding:8px 16px 8px 30px;align-items:flex-start;gap:1px;transition:border-color .15s,background-color .15s}
 .langsw button+button{border-left:1px solid var(--line)!important}
 .langsw button::before{content:"";position:absolute;left:13px;top:15px;width:9px;height:9px;border-radius:50%;background:var(--lc);opacity:.45}
-.langsw button[data-l="pt"]{--lc:var(--pt);--lcs:var(--pt-soft)} .langsw button[data-l="de"]{--lc:var(--de);--lcs:var(--de-soft)} .langsw button[data-l="en"]{--lc:var(--en);--lcs:var(--en-soft)}
+.langsw button[data-l="pt"]{--lc:var(--pt);--lcs:var(--pt-soft)} .langsw button[data-l="de"]{--lc:var(--de);--lcs:var(--de-soft)} .langsw button[data-l="en"]{--lc:var(--en);--lcs:var(--en-soft)} .langsw button[data-l="fr"]{--lc:var(--fr);--lcs:var(--fr-soft)}
 .langsw button b{font-size:16px;letter-spacing:.005em}
 .langsw button small{font-size:10.5px;letter-spacing:.06em;color:var(--muted)}
 .langsw button:hover{border-color:var(--lc)!important}
@@ -862,6 +863,10 @@ body{font-variant-numeric:tabular-nums}
 .acct-in .who b{display:block;font-size:15.5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .acct-in .who span{font-size:13px;color:var(--muted)}
 @media (max-width:480px){ .acct-out{flex-direction:column;align-items:stretch} .acct-out .btn{align-self:flex-start} }
+
+/* four language tabs on phones */
+@media (max-width:640px){ .langsw{gap:16px!important;overflow-x:auto;scrollbar-width:none} .langsw::-webkit-scrollbar{display:none} .langsw button b{font-size:15.5px!important} }
+@media (max-width:370px){ .langsw{gap:12px!important} .langsw button b{font-size:14.5px!important} }
 </style>
 </head>
 <body>
@@ -875,6 +880,7 @@ body{font-variant-numeric:tabular-nums}
       <button data-l="pt" aria-pressed="true"><b>Português</b><small>BR · A1–C2</small></button>
       <button data-l="de" aria-pressed="false"><b>Deutsch</b><small>A1–C2</small></button>
       <button data-l="en" aria-pressed="false"><b>English</b><small>A1–C2</small></button>
+      <button data-l="fr" aria-pressed="false"><b>Français</b><small>A1–C2</small></button>
     </div>
     <label class="uilang" title="界面语言"><span class="sr">界面语言</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
       <b id="ui-code">中文</b><select id="ui-lang" aria-label="界面语言"><option value="zh" data-raw>简体中文</option><option value="zht" data-raw>繁體中文</option><option value="en">English</option><option value="de">Deutsch</option><option value="pt">Português</option></select></label>
@@ -1243,7 +1249,8 @@ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const LANG={
   pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
   de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
-  en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"}
+  en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"},
+  fr:{name:"Français",zh:"法语",ai:"French",tts:"fr-FR",re:/^fr[-_]FR/i,re2:/^fr/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","de"],done:"Bravo !",ok:"C'est fait !",theme:"#7a3e6b"}
 };
 const GLN={zh:"中文",en:"English",fr:"Français",def:"英文释义",de:"Deutsch"};
 const GLS={zh:"中",en:"EN",fr:"FR",def:"DEF",de:"DE"};
@@ -1253,9 +1260,10 @@ const POSN={v:"动词",adj:"形容词",adv:"副词",prep:"介词","präp":"介�
 const POSOPT={
   pt:[["m","阳性名词"],["f","阴性名词"],["v","动词"],["adj","形容词"],["adv","副词"],["prep","介词"],["conj","连词"],["expr","短语"]],
   de:[["m","der 名词"],["f","die 名词"],["n","das 名词"],["pl","复数名词"],["v","动词"],["adj","形容词"],["adv","副词"],["präp","介词"],["konj","连词"],["expr","短语"]],
+  fr:[["m","阳性名词"],["f","阴性名词"],["v","动词"],["adj","形容词"],["adv","副词"],["prep","介词"],["conj","连词"],["expr","短语"]],
   en:[["noun","名词"],["v","动词"],["adj","形容词"],["adv","副词"],["phr","短语 / 短语动词"],["prep","介词"],["conj","连词"]]
 };
-const XLAB={pt:["变形 / 备注（可选）",""],de:["复数 / 动词变形","die Regenschirme · fährt ab · fuhr ab · ist abgefahren"],en:["音标","/ˈʌmbrelə/"]};
+const XLAB={fr:["变形 / 备注（可选）","les parapluies · (s')ouvrir"],pt:["变形 / 备注（可选）",""],de:["复数 / 动词变形","die Regenschirme · fährt ab · fuhr ab · ist abgefahren"],en:["音标","/ˈʌmbrelə/"]};
 const SLOTS=[["w","单词"],["s","例句"]];
 const I={
  spk:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>',
@@ -1279,8 +1287,8 @@ const I={
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
-  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"]},goal:{pt:15,de:15,en:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"]}},
-  pt:blank(),de:blank(),en:blank(),updated:0,lastBackup:0};
+  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"],fr:["B2","C1"]}},
+  pt:blank(),de:blank(),en:blank(),fr:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
 function merge(x){
   const o=clone(DEF); if(!x||typeof x!=="object") return o;
@@ -1292,7 +1300,7 @@ function merge(x){
 }
 let S=clone(DEF);
 try{ const r=localStorage.getItem(LS); if(r) S=merge(JSON.parse(r)); }catch(e){}
-if(!S.settings.glossEN){ S.settings.gloss={pt:["en","zh"],de:["en","zh"],en:["def","zh"]}; S.settings.glossEN=1; } // English first; French is now opt-in
+if(!S.settings.glossEN){ S.settings.gloss={pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]}; S.settings.glossEN=1; } // English first; French is now opt-in
 let saveWarned=false, SH=JSON.stringify(S.settings);
 function save(){
   S.updated=Date.now(); { const h=JSON.stringify(S.settings); if(h!==SH){ SH=h; S.setAt=Date.now(); } }
@@ -1386,9 +1394,10 @@ function refreshAI(){
 }
 
 /* ---------- data ---------- */
-const DATA={pt:null,de:null,en:null}, LOADING={};
+const DATA={pt:null,de:null,en:null,fr:null}, LOADING={};
 function toCard(l,lv,r){
   if(l==="pt") return {id:"pt:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:"",zh:r[2],en:r[3],fr:r[4],ex:r[5],exzh:r[6],exen:r[7]};
+  if(l==="fr") return {id:"fr:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:"",zh:r[2],en:r[3],de:r[4],ex:r[5],exzh:r[6],exen:r[7]};
   if(l==="de") return {id:"de:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:r[2],zh:r[3],en:r[4],ex:r[5],exzh:r[6],exen:r[7]};
   return {id:"en:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:r[2],zh:r[3],def:r[4],de:r[5],ex:r[6],exzh:r[7]};
 }
@@ -1733,7 +1742,7 @@ function loadVoices(){ if(!hasTTS) return; VOICES=speechSynthesis.getVoices()||[
 /* Rank voices: iOS lists robotic "Eloquence" and novelty voices first (Eddy, Flo, Grandma…), so never just take the first match. */
 const V_NOVELTY=/\b(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred|Junior|Kathy|Ralph)\b/i;
 const V_ELOQ=/eloquence|\b(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b/i;
-const V_GOOD={pt:/Luciana|Felipe|Fernanda|Francisca|Antonio|Thalita|Leila|Daniel/i,de:/Anna|Petra|Markus|Yannick|Helena|Katja|Conrad|Amala|Seraphina|Florian/i,en:/Ava|Samantha|Zoe|Evan|Nathan|Serena|Daniel|Kate|Oliver|Sonia|Ryan|Libby|Jenny|Aria|Guy/i};
+const V_GOOD={pt:/Luciana|Felipe|Fernanda|Francisca|Antonio|Thalita|Leila|Daniel/i,de:/Anna|Petra|Markus|Yannick|Helena|Katja|Conrad|Amala|Seraphina|Florian/i,en:/Ava|Samantha|Zoe|Evan|Nathan|Serena|Daniel|Kate|Oliver|Sonia|Ryan|Libby|Jenny|Aria|Guy/i,fr:/Thomas|Audrey|Aurélie|Marie|Amélie|Jacques|Virginie|Denise|Henri|Eloise/i};
 function voiceScore(v,l){
   const d=LANG[l], id=(v.name||"")+" "+(v.voiceURI||"");
   let sc=d.re.test(v.lang)?20:d.re2.test(v.lang)?0:-1e4;
@@ -2065,14 +2074,14 @@ let draft={img:null,auds:{}}, busy=false;
 function renderNewForm(){
   const l=lang();
   $("#new-title").textContent="录入新词 · "+LANG[l].name;
-  $("#n-w").placeholder= l==="pt"?"例如：o guarda-chuva":l==="de"?"例如：der Regenschirm":"e.g. umbrella";
+  $("#n-w").placeholder= l==="pt"?"例如：o guarda-chuva":l==="de"?"例如：der Regenschirm":l==="fr"?"例如：le parapluie":"e.g. umbrella";
   $("#n-lv").innerHTML=LV().map(v=>`<option>${v}</option>`).join("");
   $("#n-pos").innerHTML=`<option value="">（选择）</option>`+POSOPT[l].map(([v,t])=>`<option value="${v}">${t}</option>`).join("");
   $("#n-x-lab").textContent=XLAB[l][0]; $("#n-x").placeholder=XLAB[l][1];
   $("#n-gl").innerHTML=`<div class="two">${LANG[l].gl.map(k=>`<div class="field"><label for="n-g-${k}">${GLN[k]}</label><input type="text" id="n-g-${k}"></div>`).join("")}</div>`;
   $("#n-exen-f").hidden= l==="en";
   $("#bulk-hint").innerHTML=`每行一个词：<span class="mono">单词 | ${LANG[l].gl.map(k=>GLN[k]).join(" | ")} | 例句</span>，后面几项可以省略。`;
-  $("#bulk").placeholder= l==="pt"? "o guarda-chuva | 雨伞 | umbrella | le parapluie\na geladeira | 冰箱 | fridge" : l==="de"? "der Regenschirm | 雨伞 | umbrella | Nimm einen Regenschirm mit!\ndie Steckdose | 插座 | socket" : "umbrella | 雨伞 | a thing you hold over your head in the rain | der Regenschirm";
+  $("#bulk").placeholder= l==="fr"? "le parapluie | umbrella | 雨伞 | der Regenschirm\nla prise | socket | 插座" : l==="pt"? "o guarda-chuva | 雨伞 | umbrella | le parapluie\na geladeira | 冰箱 | fridge" : l==="de"? "der Regenschirm | 雨伞 | umbrella | Nimm einen Regenschirm mit!\ndie Steckdose | 插座 | socket" : "umbrella | 雨伞 | a thing you hold over your head in the rain | der Regenschirm";
   $("#bulk-lv").innerHTML=LV().map(v=>`<option>${v}</option>`).join("");
   clearDraft(true);
   renderNewButtons();
@@ -2153,7 +2162,7 @@ $("#n-form").addEventListener("submit",async e=>{
   save(); if(sess&&sess.mode==="daily"&&!sess.flipped) buildDaily(); renderStrip();
   const w=o.w; clearDraft(false); $("#n-msg").textContent="「"+w+"」已保存，会作为新词优先出现。"; $("#n-w").focus();
 });
-function guessPos(w){ const l=lang(); if(l==="pt"){ if(/^o\s/i.test(w)) return "m"; if(/^a\s/i.test(w)) return "f"; } else if(l==="de"){ const m=w.match(/^(der|die|das)\s/); if(m) return {der:"m",die:"f",das:"n"}[m[1]]; } return ""; }
+function guessPos(w){ const l=lang(); if(l==="fr"){ if(/^le\s/i.test(w)) return "m"; if(/^la\s/i.test(w)) return "f"; } if(l==="pt"){ if(/^o\s/i.test(w)) return "m"; if(/^a\s/i.test(w)) return "f"; } else if(l==="de"){ const m=w.match(/^(der|die|das)\s/); if(m) return {der:"m",die:"f",das:"n"}[m[1]]; } return ""; }
 $("#bulk-btn").addEventListener("click",()=>{
   const l=lang(), keys=LANG[l].gl, lv=$("#bulk-lv").value; let ok=0,dup=0,bad=0;
   $("#bulk").value.split("\n").map(s=>s.trim()).filter(Boolean).forEach(line=>{
@@ -2172,7 +2181,7 @@ $("#bulk-btn").addEventListener("click",()=>{
 function syPos(l,v){
   const g=v.gender||"", p=v.pos||"";
   if(l==="de"){ if(/阳/.test(g)) return "m"; if(/阴/.test(g)) return "f"; if(/中/.test(g)) return "n"; if(/复数/.test(p)) return "pl"; }
-  if(l==="pt"){ if(/阳/.test(g)) return "m"; if(/阴/.test(g)) return "f"; }
+  if(l==="pt"||l==="fr"){ if(/阳/.test(g)) return "m"; if(/阴/.test(g)) return "f"; }
   if(/动词/.test(p)) return "v"; if(/形容词/.test(p)) return "adj"; if(/副词/.test(p)) return "adv";
   if(/介词/.test(p)) return l==="de"?"präp":"prep"; if(/连词/.test(p)) return l==="de"?"konj":"conj";
   if(/短语|词组/.test(p)) return l==="en"?"phr":"expr";
@@ -2212,7 +2221,7 @@ function mgSave(){ try{ localStorage.setItem(MGK,JSON.stringify(MGS)); }catch(e)
 const MG_KIND={picks:"推荐",news:"新闻",brief:"短讯",short:"短评",essay:"随笔",feature:"专题",story:"故事",dialogue:"对话"};
 const MG_ORD=it=>it.hour?10:({dialogue:1,short:2,brief:3,picks:4}[it.kind]||0);
 const MG_MINOR=["brief","short","dialogue"];
-const MG_ETA={de:"07:00",en:"12:30",pt:"20:00"};
+const MG_ETA={de:"07:00",en:"12:30",pt:"20:00",fr:"17:00"};
 async function mgGet(p){ const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }
 function mgLoad(){
   if(MG.idx) return Promise.resolve();
@@ -2242,8 +2251,8 @@ function mgSents(p){ return p.split(/(?<=(?<!\d)[.!?…]["»“]?)\s+(?=[\p{Lu}�
 function mgWrap(text,l,own){
   return mgSents(text).map(sen=>'<span class="s">'+sen.split(WRE).map((t,k)=>k%2?`<span class="mg-w${own.has(t.toLowerCase())?" saved":""}">${esc(t)}</span>`:esc(t)).join("")+'</span>').join(" ");
 }
-const OUTLETS={"taz.de":"taz","tagesspiegel.de":"Tagesspiegel","mediendienst-integration.de":"Mediendienst Integration","missy-magazine.de":"Missy Magazine","deutschlandfunk.de":"Deutschlandfunk","spektrum.de":"Spektrum","netzpolitik.org":"Netzpolitik","deutsch-perfekt.com":"Deutsch Perfekt","hannover.de":"Stadt Hannover","jacobin.com":"Jacobin","theintercept.com":"The Intercept","motherjones.com":"Mother Jones","dissentmagazine.org":"Dissent","newint.org":"New Internationalist","propublica.org":"ProPublica","themarshallproject.org":"The Marshall Project","restofworld.org":"Rest of World","19thnews.org":"The 19th","aeon.co":"Aeon","theguardian.com":"The Guardian","theatlantic.com":"The Atlantic"};
-function mgOutlet(it){ if(it.series&&it.series.name) return ""; const u=it.sources&&it.sources[0]&&it.sources[0].url; if(!u) return ""; try{ const h=new URL(u).hostname.replace(/^www\./,""); for(const k in OUTLETS) if(h===k||h.endsWith("."+k)) return OUTLETS[k]; return h.replace(/\.(de|com|org|net|co)$/,""); }catch(e){ return ""; } }
+const OUTLETS={"taz.de":"taz","tagesspiegel.de":"Tagesspiegel","mediendienst-integration.de":"Mediendienst Integration","missy-magazine.de":"Missy Magazine","deutschlandfunk.de":"Deutschlandfunk","spektrum.de":"Spektrum","netzpolitik.org":"Netzpolitik","deutsch-perfekt.com":"Deutsch Perfekt","hannover.de":"Stadt Hannover","jacobin.com":"Jacobin","theintercept.com":"The Intercept","motherjones.com":"Mother Jones","dissentmagazine.org":"Dissent","newint.org":"New Internationalist","propublica.org":"ProPublica","themarshallproject.org":"The Marshall Project","restofworld.org":"Rest of World","19thnews.org":"The 19th","aeon.co":"Aeon","theguardian.com":"The Guardian","monde-diplomatique.fr":"Le Monde diplomatique","politis.fr":"Politis","humanite.fr":"L'Humanité","alternatives-economiques.fr":"Alternatives Économiques","lvsl.fr":"Le Vent Se Lève","revue-ballast.fr":"Ballast","regards.fr":"Regards","aoc.media":"AOC","liberation.fr":"Libération","mediapart.fr":"Mediapart","socialter.fr":"Socialter","frustrationmagazine.fr":"Frustration","orientxxi.info":"Orient XXI","afriquexxi.info":"Afrique XXI","rfi.fr":"RFI","radiofrance.fr":"Radio France","legrandcontinent.eu":"Le Grand Continent","theconversation.com":"The Conversation","philomag.com":"Philosophie Magazine","courrierinternational.com":"Courrier international","theatlantic.com":"The Atlantic"};
+function mgOutlet(it){ if(it.series&&it.series.name) return ""; const u=it.sources&&it.sources[0]&&it.sources[0].url; if(!u) return ""; try{ const h=new URL(u).hostname.replace(/^www\./,""); for(const k in OUTLETS) if(h===k||h.endsWith("."+k)) return OUTLETS[k]; return h.replace(/\.(de|com|org|net|co|fr|info|media|eu)$/,""); }catch(e){ return ""; } }
 function mgMinutes(it){ const w=(it.paragraphs||[]).join(" ").split(/\s+/).filter(Boolean).length; const rate=["A1","A2"].includes(it.level)?110:["B1","B2"].includes(it.level)?160:200; return Math.max(1,Math.round(w/rate)); }
 let MGZH=(()=>{ try{ return localStorage.getItem("pw-glzh")==="1"; }catch(e){ return false; } })();
 function mgFmt(d){ const [y,m,dd]=d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString(uiLocale(),{weekday:"long",month:"long",day:"numeric"}); }
@@ -2362,7 +2371,7 @@ $("#rd-bar").addEventListener("click",e=>{ const b=e.target.closest("button"); i
 
 $("#opt-voice").addEventListener("change",e=>{ S.settings.voice=S.settings.voice||{}; S.settings.voice[lang()]=e.target.value; save(); speak(VOICE_SAMPLE[lang()]); });
 $("#voice-test").addEventListener("click",()=>speak(VOICE_SAMPLE[lang()]));
-const VOICE_SAMPLE={pt:"Olá! Hoje vamos ler uma história curta juntos.",de:"Guten Morgen! Heute lesen wir gemeinsam die Zeitung.",en:"Good morning. Let's read something worth thinking about today."};
+const VOICE_SAMPLE={fr:"Bonjour ! Aujourd'hui, on lit un texte sur la musique et les idées.",pt:"Olá! Hoje vamos ler uma história curta juntos.",de:"Guten Morgen! Heute lesen wir gemeinsam die Zeitung.",en:"Good morning. Let's read something worth thinking about today."};
 /* my articles: pasted by the reader, kept only on this device */
 const MINEK="pw-mine";
 function mineAll(){ try{ return JSON.parse(localStorage.getItem(MINEK))||[]; }catch(e){ return []; } }
@@ -2555,7 +2564,7 @@ async function wkLookup(s){
   const allForm=senses.every(x=>x.defs.every(d=>d.f)), lemma=senses[0].defs[0].f;
   let form=null;
   if(allForm&&lemma&&lemma!==hit){ const ls=wkPick(await wkFetch(lemma),l); if(MG.sheet!==s) return; if(ls){ form=senses[0].defs[0].t; senses=ls; hit=lemma; } }
-  s.wk={state:"ok",lemma:hit,form,senses,url:"https://en.wiktionary.org/wiki/"+encodeURIComponent(hit.replace(/ /g,"_"))+"#"+({pt:"Portuguese",de:"German",en:"English"}[l])};
+  s.wk={state:"ok",lemma:hit,form,senses,url:"https://en.wiktionary.org/wiki/"+encodeURIComponent(hit.replace(/ /g,"_"))+"#"+({pt:"Portuguese",de:"German",en:"English",fr:"French"}[l])};
   if(!s.pos) s.pos=WK_POS[senses[0].pos]||"";
   if(s.lemma===s.word&&hit) s.lemma=hit;
   mgPaint();
@@ -3396,6 +3405,7 @@ const UI_DICT=[
 ["中文", "Chinese", "Chinesisch", "Chinês", "中文"],
 ["英文释义", "English definition", "Englische Definition", "Definição em inglês", "英文釋義"],
 ["葡语", "Portuguese", "Portugiesisch", "português", "葡語"],
+["法语", "French", "Französisch", "francês", "法語"],
 ["德语", "German", "Deutsch", "alemão", "德語"],
 ["英语", "English", "Englisch", "inglês", "英語"],
 // study card
