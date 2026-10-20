@@ -1143,6 +1143,11 @@ body{font-variant-numeric:tabular-nums}
               <div class="row"><button class="btn primary sm" id="sb-verify" type="button">登录</button><button class="btn ghost sm" id="sb-resend" type="button">重新发送</button></div>
             </div>
             <p class="note hint" style="margin-top:8px">第一次登录会自动创建账号。验证码 1 小时内有效。</p>
+            <details class="sy-how" id="sb-pwbox" style="margin-top:12px"><summary>用密码登录</summary>
+              <div class="field" style="margin-top:8px"><label for="sb-pw">密码</label><input type="password" id="sb-pw" autocomplete="current-password"></div>
+              <div class="row"><button class="btn sm" id="sb-pwgo" type="button">登录</button></div>
+              <p class="note hint" style="margin-top:6px">登录后可以在这里设置密码，以后就不用每次收邮件。</p>
+            </details>
           </div>
           <div id="sb-in" hidden>
             <p class="note" style="margin-top:10px">已登录：<b id="sb-who"></b><br><span id="sb-last"></span></p>
@@ -1157,6 +1162,11 @@ body{font-variant-numeric:tabular-nums}
               <div class="row"><button class="btn sm" id="sb-pass-set" type="button">开启加密</button></div>
               <p class="note hint">开启后，连网站管理者也看不到你的内容。忘了这个密码就无法恢复同步数据（本机数据不受影响）。</p>
             </div>
+            <details class="sy-how" id="sb-setpw" style="margin-top:10px"><summary>设置登录密码</summary>
+              <div class="field" style="margin-top:8px"><label for="sb-pw-set">新密码（至少 8 位）</label><input type="password" id="sb-pw-set" autocomplete="new-password"></div>
+              <div class="row"><button class="btn sm" id="sb-pw-save" type="button">保存密码</button></div>
+              <p class="note hint" style="margin-top:6px">设置后，其他设备可以直接用邮箱 + 密码登录，不用等验证码邮件。</p>
+            </details>
             <div class="row" style="margin-top:10px"><button class="btn primary sm" id="sb-now" type="button">立即同步</button><button class="btn sm" id="sb-logout" type="button">退出登录</button><button class="btn ghost sm danger-t" id="sb-delete" type="button">删除账号和云端数据</button></div>
           </div>
         </div>
@@ -3027,6 +3037,22 @@ async function sbVerify(){
   catch(e){ syMsg(/expired|invalid/i.test(e.code||e.message||"")||e.status===403?"验证码不对或已过期，请重新发送。":"登录失败："+(e.message||e.status)); }
 }
 $("#sb-verify").addEventListener("click",sbVerify);
+async function sbPwLogin(){
+  const em=$("#sb-email").value.trim().toLowerCase(), pw=$("#sb-pw").value;
+  if(!emailOK(em)){ syMsg("请先在上面填邮箱。"); $("#sb-email").focus(); return; } if(!pw){ syMsg("请输入密码。"); return; }
+  if(syOn()&&syMode()==="gh"&&!confirm("这台设备正在用 GitHub 同步。改用邮箱登录后，GitHub 同步会在本机停用（本机数据保留）。继续？")) return;
+  syMsg("正在登录…");
+  try{ const j=await sbAuth("token?grant_type=password",{email:em,password:pw}); SY={mode:"sb",mine:true}; sbSession(j); $("#sb-pw").value=""; syView=null; renderSync(); await syncNow(true); }
+  catch(e){ syMsg(e.status===400?"邮箱或密码不对。还没设过密码的话，请先用验证码登录。":e.status===429?"操作太频繁，请过一会儿再试。":"登录失败："+(e.message||e.status)); }
+}
+$("#sb-pwgo").addEventListener("click",sbPwLogin);
+$("#sb-pw").addEventListener("keydown",e=>{ if(e.key==="Enter") sbPwLogin(); });
+$("#sb-pw-save").addEventListener("click",async()=>{
+  const pw=$("#sb-pw-set").value; if(pw.length<8){ syMsg("密码至少 8 位。"); return; }
+  try{ const t=await sbToken(); const r=await fetch(SB_URL+"/auth/v1/user",{method:"PUT",headers:{apikey:SB_KEY,Authorization:"Bearer "+t,"Content-Type":"application/json"},body:JSON.stringify({password:pw})});
+    if(!r.ok) throw sbErrOf(r,await r.json().catch(()=>null)); $("#sb-pw-set").value=""; $("#sb-setpw").open=false; syMsg("密码已设置。其他设备可以用邮箱 + 密码登录了。"); }
+  catch(e){ syMsg(/weak|short|characters/i.test(e.message||"")?"密码太简单，请换一个更长的。":"没能保存密码："+syErrText(e)); }
+});
 $("#sb-code").addEventListener("keydown",e=>{ if(e.key==="Enter") sbVerify(); });
 $("#sb-now").addEventListener("click",()=>syncNow(true));
 $("#sb-mine-on").addEventListener("change",e=>{ SY.mine=e.target.checked; sySave(); syncNow(true); });
@@ -3604,6 +3630,9 @@ const UI_DICT=[
 ["我的课本", "My textbook", "Mein Lehrbuch", "Meu livro didático", "我的課本"],
 ["更多", "More", "Mehr", "Mais", "更多"],
 ["暂时连不上网络，稍后会自动再试。", "No connection right now — will retry automatically.", "Gerade keine Verbindung – wird automatisch erneut versucht.", "Sem conexão agora — vamos tentar de novo sozinhos.", "暫時連不上網路，稍後會自動再試。"],
+["用密码登录", "Sign in with password", "Mit Passwort anmelden", "Entrar com senha", "用密碼登入"],
+["设置登录密码", "Set a password", "Passwort festlegen", "Definir senha", "設定登入密碼"],
+["保存密码", "Save password", "Passwort speichern", "Salvar senha", "儲存密碼"],
 ["我的", "You", "Profil", "Perfil", "我的"],
 ["账户", "Account", "Konto", "Conta", "帳戶"],
 ["登录账户", "Sign in", "Anmelden", "Entrar", "登入帳戶"],
