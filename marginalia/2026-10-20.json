@@ -337,6 +337,88 @@
      "license": "official"
     }
    ]
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "feature",
+   "section": "Science & Mathematics",
+   "title": "A proof without an author",
+   "dek": "An OpenAI system appears to have settled the quasi-Riemann hypothesis, a weaker cousin of mathematics' most famous open problem. Number theorists are impressed by the result and uneasy about almost everything around it.",
+   "paragraphs": [
+    "For more than 160 years, the Riemann hypothesis has been the summit that number theorists circle without ever reaching. Proposed by Bernhard Riemann in 1859 and now one of the Clay Millennium Prize problems, it predicts that every nontrivial zero of the zeta function lies on a single vertical line, the one with real part 1/2. The claim matters because the zeros govern how prime numbers are scattered along the number line. Computers have checked the first 12 trillion of them, but a single stray zero would upend a vast body of conditional mathematics.",
+    "On 6 October, OpenAI announced a large batch of machine-generated mathematical results, and one of them claimed something mathematicians had long wanted: a proof of the so-called quasi-Riemann hypothesis. Riemann himself had shown that the nontrivial zeros sit somewhere in a strip between 0 and 1, and work in 1896 excluded the strip's edges, which delivered the prime number theorem. Quasi-RH asks for less than the full conjecture but far more than that: a strictly narrower strip. As Quanta's Konstantin Kakaes reports, the AI produced two versions of the proof. The first, dated 30 September and running to about 199 pages, confines the zeros between 1/8 and 7/8 and has been formally verified in the proof assistant Lean; the second, about 49 pages long, claims a marginally wider band, from 1/12 to 11/12, and has not yet been formally checked.",
+    "The reaction among specialists has been a mixture of awe and discomfort. Maksym Radziwiłł of New York University, whose 2021 formula with Alexander Dunn of Georgia Tech turned out to be a crucial ingredient, described the implications as staggering, observing that most consequences of the full hypothesis already follow from the quasi version. Jared Duker Lichtman of Stanford called it the most significant achievement of AI in mathematics to date, and Peter Sarnak of Princeton is reorganising a course around the paper. What surprised researchers most was not a dazzling new idea but the machine's conviction that existing tools, notably obscure objects known as metaplectic forms, would suffice when cleverly combined.",
+    "That observation cuts both ways. According to the University of Waterloo's Michael Rubinstein, Sarnak had long urged colleagues to study a particular family of related functions, yet the right family was overlooked, and Henryk Iwaniec of Rutgers came close in 2002 without closing the gap. One reading is that the AI found a path human beings had walked past for decades; another is that the field had already laid nearly every paving stone. Both readings can be true at once, and the distinction matters for how credit is apportioned between a model and the literature it was trained on.",
+    "The unease concerns standards as much as substance. Radziwiłł has judged both papers poorly written and below the norms of the discipline, adding that he can sketch the core argument of the shorter version in half a page; human write-ups of seven to 13 pages are circulating privately. Sarnak, for his part, will not treat the result as a theorem until people have checked every detail. Oddly, mathematicians have concentrated on the shorter, unverified version precisely because it is readable, even though the formally verified one is the more secure. Formal verification, in other words, has not removed the need for human understanding; it has simply moved the bottleneck.",
+    "Then there is the question of authorship. The 11/12 paper is reportedly the only one of the batch that a human edited, and OpenAI has not said who did so or why, stating only that the work came from everyone at the company. In a discipline where a proof is also a public act of explanation and attribution, that vagueness is more than a procedural quibble: it leaves readers unable to tell which choices were the machine's and which were a person's. Corporate announcements, moreover, are not peer review, and the episode suggests how much of the verification burden can fall on academics outside the company.",
+    "Whether the methods can push the strip all the way to the critical line remains open. Will Sawin of Princeton suspects they cannot, though he admits he is unsure, while Thomas Bloom of the University of Manchester says nothing would surprise him any more. That shrug may be the most telling response of all. The quasi-Riemann hypothesis was a landmark worth reaching, but the more consequential shift may be cultural: mathematicians are learning to read, audit and reframe arguments they did not write, from an author that cannot be asked what it meant."
+   ],
+   "glossary": [
+    {
+     "w": "to circle without reaching",
+     "en": "to approach a goal repeatedly without ever attaining it",
+     "zh": "反复接近却始终未能达到"
+    },
+    {
+     "w": "conditional (mathematics)",
+     "en": "results that are proved on the assumption that an unproven conjecture is true",
+     "zh": "以未证猜想为前提的（条件性结论）"
+    },
+    {
+     "w": "to upend",
+     "en": "to overturn or radically disrupt something established",
+     "zh": "颠覆；推翻"
+    },
+    {
+     "w": "to confine",
+     "en": "to keep something within strict limits",
+     "zh": "限制在……范围内"
+    },
+    {
+     "w": "to cut both ways",
+     "en": "to have both advantages and disadvantages, or support opposing conclusions",
+     "zh": "有利也有弊；两面皆可解读"
+    },
+    {
+     "w": "to apportion credit",
+     "en": "to divide recognition for an achievement among those involved",
+     "zh": "分配功劳"
+    },
+    {
+     "w": "a procedural quibble",
+     "en": "a minor objection about method or form rather than substance",
+     "zh": "程序上的小挑剔"
+    },
+    {
+     "w": "to shift the bottleneck",
+     "en": "to move the point where progress is most constrained, rather than remove it",
+     "zh": "转移瓶颈（而非消除）"
+    },
+    {
+     "w": "to audit",
+     "en": "to examine something systematically to check that it is correct",
+     "zh": "审核；核查"
+    },
+    {
+     "w": "to reframe",
+     "en": "to present or understand something from a different perspective",
+     "zh": "重新表述；换个框架理解"
+    }
+   ],
+   "grammar": "\"Asks for less than the full conjecture but far more than that\" uses a balanced comparative frame (less than X but more than Y) to position one claim between two others, a common device in analytical prose.",
+   "questions": [
+    "Why might mathematicians prefer to study the shorter, unverified proof over the longer, formally verified one, and what does this suggest about the purpose of a proof?",
+    "The article offers two readings of the AI's achievement: discovery of an overlooked path, or assembly of existing work. How should credit be shared in such cases?",
+    "What problems arise when a major mathematical result is announced by a company rather than through peer review?"
+   ],
+   "sources": [
+    {
+     "title": "Quanta Magazine: Konstantin Kakaes, AI Proved the Quasi-Riemann Hypothesis. What Happens Now? (19 October 2026)",
+     "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
