@@ -827,6 +827,20 @@ body{font-variant-numeric:tabular-nums}
 .mg-glzh[aria-pressed="true"]{color:var(--acc);border-color:var(--acc)}
 .mg-glb .mg-gl{padding-right:58px}
 @media (max-width:480px){ .mg-glb .mg-gl{padding-right:0} .mg-glb .mg-gl dt:first-of-type{padding-right:62px} }
+
+/* ===== top area: firmer labels, tabs and date ===== */
+.ring .t span,.stat span{font-size:13px!important;font-weight:500!important;color:color-mix(in srgb,var(--ink) 62%,var(--bg))!important}
+@media (min-width:641px){
+  nav.tabs button{font-size:15.5px!important;font-weight:500!important;color:color-mix(in srgb,var(--ink) 68%,var(--bg))!important}
+  nav.tabs button[aria-selected="true"]{color:var(--ink)!important;font-weight:600!important}
+}
+@media (max-width:640px){ nav.tabs button .tl{font-weight:500!important;color:color-mix(in srgb,var(--ink) 62%,var(--bg))} nav.tabs button[aria-selected="true"] .tl,nav.tabs button.grp-on .tl{color:var(--ink)!important;font-weight:600!important} }
+.mg-head .d{font-size:14.5px!important;font-weight:500!important;color:color-mix(in srgb,var(--ink) 72%,var(--bg))!important}
+.mg-head .ib{color:color-mix(in srgb,var(--ink) 70%,var(--bg))}
+.mine-imp,.uilang{font-weight:500!important;color:color-mix(in srgb,var(--ink) 70%,var(--bg))!important}
+.side h3,.panel h3.ph3,#mg-arch > h3,#mg-week > h3,.rd-paste summary h3,.mg-blk h3{font-weight:600!important}
+.mg-kick{font-weight:500!important}
+.mg-arch .k,.mg-toc .k{font-weight:500!important}
 </style>
 </head>
 <body>
@@ -2245,7 +2259,7 @@ function mgArch(pick){
   const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l) rows.push({...x,date:d.date,di}); }));
   rows.sort((a,b)=>b.date.localeCompare(a.date)||(MG_ORD(a)-MG_ORD(b)));
   const show=MG.archAll?rows:rows.slice(0,12);
-  $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px">往期 · ${rows.length} 篇</h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${new Date(x.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"})}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
+  $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px"><span>往期</span> · <span>${rows.length} 篇</span></h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${new Date(x.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"})}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
 }
 function mgWeek(){
   const w=MG.week, box=$("#mg-week");
@@ -3620,6 +3634,7 @@ const UI_DICT=[
 ["读完了", "Mark as read", "Gelesen", "Marcar como lido", "讀完了"],
 ["下一篇 →", "Next →", "Weiter →", "Próximo →", "下一篇 →"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
+["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
 ["还没有往期文章。", "No older articles yet.", "Noch keine älteren Artikel.", "Ainda sem artigos anteriores.", "還沒有往期文章。"],
 ["显示全部", "Show all", "Alle zeigen", "Mostrar tudo", "顯示全部"],
