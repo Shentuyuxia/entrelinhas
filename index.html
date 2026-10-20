@@ -808,19 +808,11 @@ body{font-variant-numeric:tabular-nums}
 /* bottom bar: accent icon, ink label */
 @media (max-width:640px){ nav.tabs button[aria-selected="true"],nav.tabs button.grp-on{color:var(--ink)!important} nav.tabs button[aria-selected="true"] svg,nav.tabs button.grp-on svg{color:var(--acc)} nav.tabs button svg{stroke-width:1.6} }
 
-/* ===== tweaks: clear language segments, readable Chinese translations, quiet vocabulary ===== */
-.langsw{gap:0!important}
-.langsw button{padding:6px 18px 9px!important}
-.langsw button:first-child{padding-left:0!important}
-.langsw button + button{border-left:1px solid var(--line)!important}
-.langsw button[aria-pressed="true"]::after{left:18px!important;right:18px!important}
-.langsw button:first-child[aria-pressed="true"]::after{left:0!important}
-.langsw button + button,.top .langsw button + button{border-left:1px solid var(--line)!important;border-left-color:var(--line)!important}
-@media (max-width:640px){
-  .langsw button,.top .langsw button{flex:1 1 0!important;justify-content:center!important;padding:6px 4px 9px!important}
-  .langsw button:first-child{padding-left:4px!important}
-  .langsw button[aria-pressed="true"]::after,.langsw button:first-child[aria-pressed="true"]::after{left:16%!important;right:16%!important}
-}
+/* ===== masthead: slightly larger logo + name ===== */
+.brand .mark{width:42px!important;height:42px!important;border-radius:10px!important}
+.brand h1{font-size:24px!important}
+.brand h1 .alt{font-size:.74em!important}
+@media (max-width:640px){ .brand{gap:10px!important} .brand .mark{width:34px!important;height:34px!important;border-radius:8px!important} .brand h1{font-size:20px!important} }
 /* Chinese translation lines: Regular weight, larger, a hair heavier */
 .mg-zh[lang=zh],.ex .tr[lang=zh],.mg-gl dd span[lang=zh],.gl-v.zh{-webkit-text-stroke:.25px currentColor}
 .mg-zh[lang=zh],.mg-tr-zh{font-family:var(--f-cn)!important;font-weight:500!important;font-size:16.5px!important;color:color-mix(in srgb,var(--ink) 82%,var(--bg))!important;line-height:1.65;letter-spacing:.01em}
