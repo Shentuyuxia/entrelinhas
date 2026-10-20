@@ -15,11 +15,7 @@
 <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExMiIgZmlsbD0iIzFjMjkzMCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI1NiAyNTYpIHNjYWxlKDEpIHRyYW5zbGF0ZSgtMjU2IC0yNTYpIj48cmVjdCB4PSIxMDgiIHk9IjExMiIgd2lkdGg9IjI5NiIgaGVpZ2h0PSI0MCIgcng9IjIwIiBmaWxsPSIjZjJmNGYzIi8+PHBhdGggZD0iTTEyOCAyMzIgcSAzMiAtMzQgNjQgMCB0IDY0IDAgdCA2NCAwIHQgNjQgMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjN2ViZGIyIiBzdHJva2Utd2lkdGg9IjIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cmVjdCB4PSIxMDgiIHk9IjMwMCIgd2lkdGg9IjI5NiIgaGVpZ2h0PSI0MCIgcng9IjIwIiBmaWxsPSIjZjJmNGYzIi8+PHJlY3QgeD0iMTA4IiB5PSIzNzIiIHdpZHRoPSIxNzYiIGhlaWdodD0iNDAiIHJ4PSIyMCIgZmlsbD0iI2YyZjRmMyIgb3BhY2l0eT0iLjU1Ii8+PC9nPjwvc3ZnPg==" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&family=LXGW+WenKai+TC:wght@400;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/lxgwwenkai-regular.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/lxgwwenkai-bold.css">
+<link rel="stylesheet" href="fonts/fonts.css">
 <style>
 /* Layout: header with language switch + today's check-in strip; tabs; main work column with a notes aside. Look follows Shiori: cool paper, ink-indigo text, hairlines instead of boxes, one muted accent per language (celadon PT, slate blue DE, ochre EN). */
 :root{
@@ -73,9 +69,9 @@ button,input,select,textarea{font:inherit;color:inherit}
 .brand h1{font-family:var(--f-word);font-weight:600;font-size:21px;letter-spacing:-.005em;line-height:1.1;margin:0}
 .brand h1 .amp{color:var(--acc);font-weight:400;font-style:italic}
 .brand h1 > span:first-child{font-family:var(--f-cn);font-weight:600;letter-spacing:.02em}
-.brand h1 .alt{font-family:"Cormorant Garamond",var(--f-word);font-weight:500;font-style:italic;color:var(--muted);font-size:.78em;margin-left:.5em}
+.brand h1 .alt{font-family:var(--f-word);font-weight:500;font-style:italic;color:var(--muted);font-size:.78em;margin-left:.5em}
 html:not([lang^="zh"]) .brand h1 .alt{display:none}
-html[lang="zh-TW"]{--f-cn:"LXGW WenKai TC","LXGW WenKai","Kaiti TC",serif;--f-ui:"LXGW WenKai TC","LXGW WenKai","Kaiti TC",serif;--f-word:"Source Serif 4",Georgia,"LXGW WenKai TC","LXGW WenKai",serif}
+html[lang="zh-TW"]{--f-cn:"LXGW WenKai","Kaiti TC",serif;--f-ui:"LXGW WenKai","Kaiti TC",serif;--f-word:"Source Serif 4",Georgia,"LXGW WenKai","Kaiti TC",serif}
 .brand p{margin:2px 0 0;color:var(--muted);font-size:13px}
 .langsw{display:flex;gap:4px;background:var(--sunk);padding:4px;border-radius:12px;flex-wrap:wrap}
 .langsw button{border:0;background:transparent;border-radius:9px;padding:7px 12px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;line-height:1.2;color:var(--muted)}
@@ -687,6 +683,11 @@ body.lean .hint, body.lean .help{display:none!important}
 .mg-toc .mg-addchip:hover{color:var(--acc);border-color:var(--acc)}
 .sy-how summary{cursor:pointer;font-size:14px;color:var(--acc)}
 #sy-panel code{font-family:var(--f-mono);font-size:.9em}
+
+.segs{display:flex;gap:4px;padding:3px;border-radius:999px;background:var(--sunk);margin-top:12px;width:max-content;max-width:100%}
+.segs button{border:0;background:none;border-radius:999px;padding:6px 14px;font:inherit;font-size:13.5px;color:var(--muted);cursor:pointer}
+.segs button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08);font-weight:600}
+.danger-t{color:var(--bad,#b3412e)!important}
 </style>
 </head>
 <body>
@@ -953,31 +954,63 @@ body.lean .hint, body.lean .help{display:none!important}
       </div>
       <div class="panel" id="sy-panel">
         <h3 class="ph3">多设备同步</h3>
-        <p class="note">让 iPhone、iPad 和电脑共用同一份学习进度、自录单词和我的文章。数据先在设备上用你的同步密码加密，再存进你自己的私有 GitHub 仓库。不用邮箱，不经过别人的服务器，GitHub 也只能看到一串乱码。</p>
-        <div id="sy-on" hidden>
-          <p class="note" style="margin-top:10px">已连接：<b id="sy-repo-t"></b><br><span id="sy-last"></span></p>
-          <label class="tog" style="margin-top:6px"><input type="checkbox" id="sy-mine-on" checked> 也同步「我的文章」</label>
-          <div class="row" style="margin-top:10px"><button class="btn primary sm" id="sy-now" type="button">立即同步</button><button class="btn sm" id="sy-copy" type="button">复制设置码</button><button class="btn ghost sm" id="sy-off" type="button">在本机停用</button></div>
-          <p class="note hint" style="margin-top:8px">打开 app、切到后台、学完一会儿后都会自动同步。新设备上：粘贴「设置码」，再输入同一个同步密码。</p>
+        <p class="note">用同一个邮箱登录，iPhone、iPad 和电脑就共用同一份学习进度、自录单词和我的文章。只用邮箱来登录，不发其他邮件，也不收集别的信息。<a href="privacy.html" target="_blank" rel="noopener">隐私说明</a></p>
+        <div class="segs" id="sy-modes" role="tablist"><button type="button" data-sym="sb" aria-pressed="true">邮箱登录</button><button type="button" data-sym="gh" aria-pressed="false">GitHub（高级）</button></div>
+
+        <div id="sy-sb">
+          <p class="note" id="sb-off" hidden>邮箱登录还在准备中，开通后这里就能用。</p>
+          <div id="sb-out">
+            <div class="field" style="margin-top:10px"><label for="sb-email">邮箱</label><input type="email" id="sb-email" placeholder="name@example.com" autocomplete="email" autocapitalize="off" spellcheck="false"></div>
+            <div class="row"><button class="btn primary sm" id="sb-send" type="button">发送验证码</button></div>
+            <div id="sb-step2" hidden>
+              <div class="field" style="margin-top:10px"><label for="sb-code">邮件里的验证码</label><input type="text" id="sb-code" inputmode="numeric" autocomplete="one-time-code" maxlength="10" placeholder="123456"></div>
+              <div class="row"><button class="btn primary sm" id="sb-verify" type="button">登录</button><button class="btn ghost sm" id="sb-resend" type="button">重新发送</button></div>
+            </div>
+            <p class="note hint" style="margin-top:8px">第一次登录会自动创建账号。验证码 1 小时内有效。</p>
+          </div>
+          <div id="sb-in" hidden>
+            <p class="note" style="margin-top:10px">已登录：<b id="sb-who"></b><br><span id="sb-last"></span></p>
+            <div id="sb-needpass" hidden>
+              <div class="field" style="margin-top:8px"><label for="sb-pass-in">这个账号的数据已加密，请输入加密密码</label><input type="password" id="sb-pass-in" autocomplete="current-password"></div>
+              <div class="row"><button class="btn primary sm" id="sb-pass-go" type="button">解锁</button></div>
+            </div>
+            <label class="tog" style="margin-top:6px"><input type="checkbox" id="sb-mine-on" checked> 也同步「我的文章」</label>
+            <label class="tog"><input type="checkbox" id="sb-enc"> 加密我的数据（需要另设一个密码）</label>
+            <div id="sb-encset" hidden>
+              <div class="field" style="margin-top:6px"><label for="sb-pass-new">加密密码（至少 6 位，每台设备都用同一个）</label><input type="password" id="sb-pass-new" autocomplete="new-password"></div>
+              <div class="row"><button class="btn sm" id="sb-pass-set" type="button">开启加密</button></div>
+              <p class="note hint">开启后，连网站管理者也看不到你的内容。忘了这个密码就无法恢复同步数据（本机数据不受影响）。</p>
+            </div>
+            <div class="row" style="margin-top:10px"><button class="btn primary sm" id="sb-now" type="button">立即同步</button><button class="btn sm" id="sb-logout" type="button">退出登录</button><button class="btn ghost sm danger-t" id="sb-delete" type="button">删除账号和云端数据</button></div>
+          </div>
         </div>
-        <div id="sy-setup">
-          <details class="sy-how" style="margin-top:10px"><summary>第一次设置（约 3 分钟）</summary>
-            <ol class="note" style="padding-left:1.3em;margin:8px 0 0;display:grid;gap:6px">
-              <li>在 GitHub 新建一个<b>私有</b>仓库，名字例如 <code>entrelinhas-sync</code>：<a href="https://github.com/new" target="_blank" rel="noopener">github.com/new</a>，选 Private。</li>
-              <li>新建一个 token：<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Fine-grained token</a>。Repository access 选 <i>Only select repositories</i> → 只勾这个仓库；Permissions → Repository → <i>Contents</i> 选 <i>Read and write</i>。有效期最长一年，到期再换一个。</li>
-              <li>把仓库名和 token 填在下面，再想一个同步密码。每台设备都用同一个密码；忘了就解不开，没有找回办法。</li>
-            </ol></details>
-          <div class="field" style="margin-top:10px"><label for="sy-repo">仓库</label><input type="text" id="sy-repo" placeholder="Shentuyuxia/entrelinhas-sync" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
-          <div class="field"><label for="sy-token">Token</label><input type="password" id="sy-token" placeholder="github_pat_…" autocomplete="off"></div>
-          <div class="field"><label for="sy-pass">同步密码</label><input type="password" id="sy-pass" autocomplete="new-password"></div>
-          <div class="row"><button class="btn primary sm" id="sy-go" type="button">连接并同步</button></div>
-          <details class="sy-how" style="margin-top:14px"><summary>已经在别的设备上设置过？用设置码</summary>
-            <textarea id="sy-code" rows="3" placeholder="EL1.…" style="width:100%;margin-top:8px;font-family:var(--f-mono);font-size:12px"></textarea>
-            <div class="field" style="margin-top:6px"><label for="sy-pass2">同步密码</label><input type="password" id="sy-pass2" autocomplete="current-password"></div>
-            <div class="row"><button class="btn sm" id="sy-code-go" type="button">用设置码连接</button></div>
-          </details>
+
+        <div id="sy-gh" hidden>
+          <p class="note" style="margin-top:10px">把数据加密后存进你自己的私有 GitHub 仓库。适合有 GitHub 账号、不想用邮箱的人。</p>
+          <div id="sy-on" hidden>
+            <p class="note" style="margin-top:10px">已连接：<b id="sy-repo-t"></b><br><span id="sy-last"></span></p>
+            <label class="tog" style="margin-top:6px"><input type="checkbox" id="sy-mine-on" checked> 也同步「我的文章」</label>
+            <div class="row" style="margin-top:10px"><button class="btn primary sm" id="sy-now" type="button">立即同步</button><button class="btn sm" id="sy-copy" type="button">复制设置码</button><button class="btn ghost sm" id="sy-off" type="button">在本机停用</button></div>
+          </div>
+          <div id="sy-setup">
+            <details class="sy-how" style="margin-top:10px"><summary>第一次设置（约 3 分钟）</summary>
+              <ol class="note" style="padding-left:1.3em;margin:8px 0 0;display:grid;gap:6px">
+                <li>在 GitHub 新建一个<b>私有</b>仓库，名字例如 <code>entrelinhas-sync</code>：<a href="https://github.com/new" target="_blank" rel="noopener">github.com/new</a>，选 Private。</li>
+                <li>新建一个 token：<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Fine-grained token</a>。Repository access 选 <i>Only select repositories</i> → 只勾这个仓库；Permissions → Repository → <i>Contents</i> 选 <i>Read and write</i>。有效期最长一年，到期再换一个。</li>
+                <li>把仓库名和 token 填在下面，再想一个同步密码。每台设备都用同一个密码；忘了就解不开，没有找回办法。</li>
+              </ol></details>
+            <div class="field" style="margin-top:10px"><label for="sy-repo">仓库</label><input type="text" id="sy-repo" placeholder="Shentuyuxia/entrelinhas-sync" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
+            <div class="field"><label for="sy-token">Token</label><input type="password" id="sy-token" placeholder="github_pat_…" autocomplete="off"></div>
+            <div class="field"><label for="sy-pass">同步密码</label><input type="password" id="sy-pass" autocomplete="new-password"></div>
+            <div class="row"><button class="btn primary sm" id="sy-go" type="button">连接并同步</button></div>
+            <details class="sy-how" style="margin-top:14px"><summary>已经在别的设备上设置过？用设置码</summary>
+              <textarea id="sy-code" rows="3" placeholder="EL1.…" style="width:100%;margin-top:8px;font-family:var(--f-mono);font-size:12px"></textarea>
+              <div class="field" style="margin-top:6px"><label for="sy-pass2">同步密码</label><input type="password" id="sy-pass2" autocomplete="current-password"></div>
+              <div class="row"><button class="btn sm" id="sy-code-go" type="button">用设置码连接</button></div>
+            </details>
+          </div>
         </div>
-        <p class="small muted" id="sy-msg" style="margin:8px 0 0"></p>
+        <p class="small muted" id="sy-msg" style="margin:8px 0 0" aria-live="polite"></p>
       </div>
       <div class="panel">
         <h3 class="ph3">AI 补全、检查例句</h3>
@@ -2200,7 +2233,7 @@ async function mineScan(files){
 $("#mine-cam").addEventListener("change",e=>{ mineScan(e.target.files); e.target.value=""; });
 $("#mine-pick").addEventListener("change",e=>{ mineScan(e.target.files); e.target.value=""; });
 /* my articles: import a file (PDF, Word, text, web page, subtitles) */
-const PDFJS="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/", MINE_MAX=60000;
+const PDFJS="vendor/", MINE_MAX=60000;
 function loadScript(src){ return new Promise((res,rej)=>{ const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=()=>rej(new Error("组件没有载入，请检查网络")); document.head.appendChild(s); }); }
 function mineClean(t){ return String(t).replace(/\r/g,"").replace(/\u00ad/g,"").replace(/[ \t\u00a0]+/g," ").replace(/ *\n */g,"\n").replace(/\n{3,}/g,"\n\n").trim(); }
 async function pdfLines(doc,p){
@@ -2259,7 +2292,7 @@ async function mineFile(f){
       return;
     }
     let text="";
-    if(ext==="docx"){ if(!window.mammoth) await loadScript("https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"); text=(await mammoth.extractRawText({arrayBuffer:await f.arrayBuffer()})).value; }
+    if(ext==="docx"){ if(!window.mammoth) await loadScript("vendor/mammoth.browser.min.js"); text=(await mammoth.extractRawText({arrayBuffer:await f.arrayBuffer()})).value; }
     else if(/^x?html?$/.test(ext)||f.type==="text/html"){ const d=new DOMParser().parseFromString(await f.text(),"text/html"); d.querySelectorAll("script,style,nav,header,footer,aside,form").forEach(x=>x.remove());
       const h=d.querySelector("h1")||d.querySelector("title"); if(h) $("#mine-title").value=h.textContent.trim();
       text=[...d.body.querySelectorAll("p,li,blockquote,h2,h3")].map(x=>x.textContent.replace(/\s+/g," ").trim()).filter(Boolean).join("\n\n")||d.body.textContent; }
@@ -2311,8 +2344,9 @@ function wkFormOf(html){ // "third-person singular present indicative of chover"
 }
 async function wkFetch(w){
   if(WK.has(w)) return WK.get(w);
-  const p=fetch("https://en.wiktionary.org/api/rest_v1/page/definition/"+encodeURIComponent(w.replace(/ /g,"_"))+"?redirect=true",{headers:{accept:"application/json"}})
-    .then(r=>r.ok?r.json():null).catch(()=>null);
+  const ac=new AbortController(), tm=setTimeout(()=>ac.abort(),8000);
+  const p=fetch("https://en.wiktionary.org/api/rest_v1/page/definition/"+encodeURIComponent(w.replace(/ /g,"_"))+"?redirect=true",{headers:{accept:"application/json"},signal:ac.signal})
+    .then(r=>r.ok?r.json():null).catch(()=>{ WK.delete(w); return null; }).finally(()=>clearTimeout(tm));
   WK.set(w,p); return p;
 }
 function wkPick(j,l){
@@ -2591,11 +2625,10 @@ async function doImport(){
   if(S.settings.lang!==keepLang||true) await applyLang();
 }
 
-/* ---------- sync across devices: the reader's own private GitHub repo, encrypted on the device ---------- */
+/* ---------- sync across devices: email login (Supabase) or the reader's own private GitHub repo ---------- */
 const SYK="pw-sync", SYF="entrelinhas-sync.json", MINEDK="pw-mine-del";
 let SY=(()=>{ try{ return JSON.parse(localStorage.getItem(SYK))||{}; }catch(e){ return {}; } })();
 function sySave(){ try{ localStorage.setItem(SYK,JSON.stringify(SY)); }catch(e){} }
-const syOn=()=>!!(SY.repo&&SY.token&&SY.pass);
 const b64e=u8=>{ let s=""; for(let i=0;i<u8.length;i+=0x8000) s+=String.fromCharCode.apply(null,u8.subarray(i,i+0x8000)); return btoa(s); };
 const b64d=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
 async function syKey(pass,salt){ const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pass),"PBKDF2",false,["deriveKey"]); return crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:310000,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["encrypt","decrypt"]); }
@@ -2664,16 +2697,6 @@ function syApply(P){
   MGS.read=P.read||{}; mgSave();
   return before!==JSON.stringify(S);
 }
-let syBusy=false, syAgain=false;
-function syMsg(t){ const m=$("#sy-msg"); if(m) m.textContent=t; }
-function syErrText(e){
-  if(e.message==="pass") return "同步密码不对：和其他设备上设的不一样。";
-  if(e.message==="format") return "仓库里的同步文件不是字里行间的格式。";
-  if(e.status===401) return "Token 无效或已过期，请换一个新的。";
-  if(e.status===403) return "Token 没有写入权限：Contents 要选 Read and write。";
-  if(e.status===404) return "找不到这个仓库，或 token 没有授权给它。";
-  return "同步失败（"+(e.status||e.message||"网络")+"），稍后会自动再试。";
-}
 function stableStr(v){ if(Array.isArray(v)) return "["+v.map(stableStr).join(",")+"]"; if(v&&typeof v==="object") return "{"+Object.keys(v).sort().filter(k=>v[k]!==undefined).map(k=>JSON.stringify(k)+":"+stableStr(v[k])).join(",")+"}"; return JSON.stringify(v===undefined?null:v); }
 async function canon(P){
   const st=clone(P.state||{}); delete st.updated; delete st.lastBackup;
@@ -2683,48 +2706,163 @@ async function canon(P){
   const h=new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(txt)));
   return [...h].map(x=>x.toString(16).padStart(2,"0")).join("");
 }
+/* backends: "sb" = email login (Supabase, Frankfurt), "gh" = own private GitHub repo */
+const SB_URL="", SB_KEY="", SB_APP="entrelinhas";
+const sbReady=()=>!!(SB_URL&&SB_KEY);
+function sbErrOf(r,j){ const e=new Error((j&&(j.msg||j.error_description||j.message))||("http "+r.status)); e.status=r.status; e.code=j&&(j.error_code||j.code); e.sb=1; return e; }
+async function sbAuth(path,body,bearer){
+  const h={apikey:SB_KEY,"Content-Type":"application/json"}; if(bearer) h.Authorization="Bearer "+bearer;
+  const r=await fetch(SB_URL+"/auth/v1/"+path,{method:"POST",headers:h,body:JSON.stringify(body||{})});
+  const j=await r.json().catch(()=>({})); if(!r.ok) throw sbErrOf(r,j); return j;
+}
+function sbSession(j){ SY.access=j.access_token; SY.refresh=j.refresh_token||SY.refresh; SY.exp=Date.now()+((j.expires_in||3600)*1000); if(j.user){ SY.uid=j.user.id; SY.email=j.user.email||SY.email; } sySave(); }
+async function sbToken(force){
+  if(!force&&SY.access&&Date.now()<SY.exp-60000) return SY.access;
+  try{ sbSession(await sbAuth("token?grant_type=refresh_token",{refresh_token:SY.refresh})); }
+  catch(e){ if(e.status===400||e.status===401){ const em=SY.email; SY={mode:"sb",email:em}; sySave(); const x=new Error("signedout"); throw x; } throw e; }
+  return SY.access;
+}
+async function sbFetch(path,opt={}){
+  for(let k=0;k<2;k++){
+    const t=await sbToken(k>0);
+    const r=await fetch(SB_URL+path,Object.assign({},opt,{cache:"no-store",headers:Object.assign({apikey:SB_KEY,Authorization:"Bearer "+t,"Content-Type":"application/json"},opt.headers||{})}));
+    if(r.status===401&&k===0) continue; return r;
+  }
+}
+const BK={
+  gh:{
+    async get(){ const g=await ghGet(); return g&&{ver:g.sha,text:g.text}; },
+    async put(text,ver){ const r=await ghPut(text,ver); if(r.ok){ const j=await r.json().catch(()=>({})); return {ok:true,ver:j.content&&j.content.sha}; }
+      if(r.status===409||r.status===422) return {conflict:true}; throw ghErr(r); }
+  },
+  sb:{
+    async get(){ const r=await sbFetch(`/rest/v1/user_data?app=eq.${SB_APP}&select=data,version`); const j=await r.json().catch(()=>null); if(!r.ok) throw sbErrOf(r,j); return j&&j.length?{ver:j[0].version,text:j[0].data}:null; },
+    async put(text,ver){
+      if(ver==null){ const r=await sbFetch(`/rest/v1/user_data`,{method:"POST",headers:{Prefer:"return=minimal"},body:JSON.stringify({app:SB_APP,data:text,version:1})});
+        if(r.status===409) return {conflict:true}; if(!r.ok) throw sbErrOf(r,await r.json().catch(()=>null)); return {ok:true,ver:1}; }
+      const r=await sbFetch(`/rest/v1/user_data?app=eq.${SB_APP}&version=eq.${ver}`,{method:"PATCH",headers:{Prefer:"return=representation"},body:JSON.stringify({data:text,version:ver+1,updated_at:new Date().toISOString()})});
+      const j=await r.json().catch(()=>null); if(!r.ok) throw sbErrOf(r,j); return j&&j.length?{ok:true,ver:ver+1}:{conflict:true}; }
+  }
+};
+const syMode=()=>SY.mode==="sb"?"sb":"gh";
+function syOn(){ return syMode()==="sb"? !!(sbReady()&&SY.refresh&&!SY.needPass) : !!(SY.repo&&SY.token&&SY.pass); }
+async function syEncode(P){ return SY.pass? syEnc(P,SY.pass) : JSON.stringify(P); }
+async function syDecode(txt){
+  let o; try{ o=JSON.parse(txt); }catch(e){ throw new Error("format"); }
+  if(o&&o.app==="entrelinhas-sync"){ if(!SY.pass){ const e=new Error("needpass"); throw e; } return syDec(txt,SY.pass); }
+  if(!o||!o.state) throw new Error("format"); return o;
+}
+let syBusy=false, syAgain=false;
+function syMsg(t){ const m=$("#sy-msg"); if(m) m.textContent=t; }
+function syErrText(e){
+  if(e.message==="pass") return syMode()==="sb"?"加密密码不对。":"同步密码不对：和其他设备上设的不一样。";
+  if(e.message==="needpass") return "这个账号的数据已加密，请输入加密密码。";
+  if(e.message==="signedout") return "登录已过期，请重新用邮箱登录。";
+  if(e.message==="format") return "云端的同步数据格式不对。";
+  if(e.sb){ if(e.status===429) return "操作太频繁，请过一会儿再试。"; return "同步失败（"+(e.code||e.status)+"），稍后会自动再试。"; }
+  if(e.status===401) return "Token 无效或已过期，请换一个新的。";
+  if(e.status===403) return "Token 没有写入权限：Contents 要选 Read and write。";
+  if(e.status===404) return "找不到这个仓库，或 token 没有授权给它。";
+  return "同步失败（"+(e.status||e.message||"网络")+"），稍后会自动再试。";
+}
 async function syncNow(manual){
   if(!syOn()) return; if(syBusy){ syAgain=true; return; }
   if(!navigator.onLine){ if(manual) syMsg("现在离线，联网后会自动同步。"); return; }
   syBusy=true; if(manual) syMsg("正在同步…");
+  const bk=BK[syMode()];
   try{
     let changed=false;
     for(let k=0;k<3;k++){
-      const g=await ghGet(); let next=syPack(), h=await canon(next);
-      if(g&&g.sha===SY.sha&&h===SY.h){ SY.last=Date.now(); SY.err=""; break; }
-      if(g){ const R=await syDec(g.text,SY.pass); changed=syApply(syMerge(next,R))||changed; next=syPack(); h=await canon(next);
-        if(h===await canon(R)){ SY.sha=g.sha; SY.h=h; SY.last=Date.now(); SY.err=""; break; } }
-      const r=await ghPut(await syEnc(next,SY.pass),g&&g.sha);
-      if(r.ok){ const j=await r.json().catch(()=>({})); SY.sha=j.content&&j.content.sha; SY.h=h; SY.last=Date.now(); SY.err=""; break; }
-      if(r.status===409||r.status===422) continue;
-      throw ghErr(r);
+      const g=await bk.get(); let next=syPack(), h=await canon(next);
+      if(g&&g.ver===SY.ver&&h===SY.h){ SY.last=Date.now(); SY.err=""; break; }
+      if(g){ const R=await syDecode(g.text); changed=syApply(syMerge(next,R))||changed; next=syPack(); h=await canon(next);
+        if(h===await canon(R)&&(!!SY.pass)===(JSON.parse(g.text).app==="entrelinhas-sync")){ SY.ver=g.ver; SY.h=h; SY.last=Date.now(); SY.err=""; break; } }
+      const r=await bk.put(await syEncode(next),g?g.ver:null);
+      if(r.ok){ SY.ver=r.ver; SY.h=h; SY.last=Date.now(); SY.err=""; break; }
     }
     sySave(); renderBackupHint(); renderSync();
     if(changed){ await applyLang(); mineList(); }
     if(manual) syMsg("已同步 · "+new Date(SY.last).toLocaleTimeString(uiLocale(),{hour:"2-digit",minute:"2-digit"}));
-  }catch(e){ SY.err=syErrText(e); sySave(); syMsg(SY.err); renderSync(); renderBackupHint(); }
+  }catch(e){
+    if(e.message==="needpass"){ SY.needPass=true; }
+    SY.err=syErrText(e); sySave(); syMsg(SY.err); renderSync(); renderBackupHint();
+  }
   finally{ syBusy=false; if(syAgain){ syAgain=false; setTimeout(()=>syncNow(),500); } }
 }
 let syT=null;
 function syLater(){ if(!syOn()) return; clearTimeout(syT); syT=setTimeout(()=>syncNow(),20000); }
 document.addEventListener("visibilitychange",()=>{ if(!syOn()) return; if(document.hidden){ clearTimeout(syT); syncNow(); } else if(!sess||!sess.flipped) syncNow(); });
 window.addEventListener("online",()=>syncNow());
+let syView=null;
 function renderSync(){
-  const on=syOn(); $("#sy-setup").hidden=on; $("#sy-on").hidden=!on;
-  if(on){ $("#sy-repo-t").textContent=SY.repo; $("#sy-last").textContent=SY.err||(SY.last?"上次同步："+new Date(SY.last).toLocaleString(uiLocale()):"还没同步过。"); $("#sy-mine-on").checked=SY.mine!==false; }
+  const mode=syView||(SY.mode==="gh"?"gh":"sb");
+  $$("#sy-modes [data-sym]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.sym===mode));
+  $("#sy-sb").hidden=mode!=="sb"; $("#sy-gh").hidden=mode!=="gh";
+  // email
+  const sbIn=SY.mode==="sb"&&!!SY.refresh;
+  $("#sb-off").hidden=sbReady(); $("#sb-out").hidden=!sbReady()||sbIn; $("#sb-in").hidden=!sbIn;
+  if(sbIn){ $("#sb-who").textContent=SY.email||""; $("#sb-last").textContent=SY.err||(SY.last?"上次同步："+new Date(SY.last).toLocaleString(uiLocale()):"还没同步过。");
+    $("#sb-mine-on").checked=SY.mine!==false; $("#sb-enc").checked=!!SY.pass; $("#sb-needpass").hidden=!SY.needPass; if(!SY.pass&&!$("#sb-enc").checked) $("#sb-encset").hidden=true; }
+  // github
+  const ghOn=SY.mode!=="sb"&&!!(SY.repo&&SY.token&&SY.pass);
+  $("#sy-setup").hidden=ghOn; $("#sy-on").hidden=!ghOn;
+  if(ghOn){ $("#sy-repo-t").textContent=SY.repo; $("#sy-last").textContent=SY.err||(SY.last?"上次同步："+new Date(SY.last).toLocaleString(uiLocale()):"还没同步过。"); $("#sy-mine-on").checked=SY.mine!==false; }
 }
+$("#sy-modes").addEventListener("click",e=>{ const b=e.target.closest("[data-sym]"); if(!b) return; syView=b.dataset.sym; syMsg(""); renderSync(); });
+/* --- email login --- */
+const emailOK=v=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+let sbEmail="";
+async function sbSend(){
+  const em=$("#sb-email").value.trim().toLowerCase(); if(!emailOK(em)){ syMsg("请填一个有效的邮箱。"); return; }
+  if(syOn()&&syMode()==="gh"&&!confirm("这台设备正在用 GitHub 同步。改用邮箱登录后，GitHub 同步会在本机停用（本机数据保留）。继续？")) return;
+  syMsg("正在发送…");
+  try{ await sbAuth("otp",{email:em,create_user:true}); sbEmail=em; $("#sb-step2").hidden=false; $("#sb-code").focus(); syMsg("验证码已发到 "+em+"。没收到的话看看垃圾邮件。"); }
+  catch(e){ syMsg(e.status===429?"发送太频繁，请过一分钟再试。":"没能发送验证码："+(e.message||e.status)); }
+}
+$("#sb-send").addEventListener("click",sbSend); $("#sb-resend").addEventListener("click",sbSend);
+$("#sb-email").addEventListener("keydown",e=>{ if(e.key==="Enter") sbSend(); });
+async function sbVerify(){
+  const code=$("#sb-code").value.replace(/\s/g,""); if(!/^\d{6,10}$/.test(code)){ syMsg("验证码是邮件里的那串数字。"); return; }
+  syMsg("正在登录…");
+  try{ const j=await sbAuth("verify",{type:"email",email:sbEmail,token:code});
+    SY={mode:"sb",mine:true}; sbSession(j); $("#sb-code").value=""; $("#sb-step2").hidden=true; syView=null; renderSync(); await syncNow(true); }
+  catch(e){ syMsg(/expired|invalid/i.test(e.code||e.message||"")||e.status===403?"验证码不对或已过期，请重新发送。":"登录失败："+(e.message||e.status)); }
+}
+$("#sb-verify").addEventListener("click",sbVerify);
+$("#sb-code").addEventListener("keydown",e=>{ if(e.key==="Enter") sbVerify(); });
+$("#sb-now").addEventListener("click",()=>syncNow(true));
+$("#sb-mine-on").addEventListener("change",e=>{ SY.mine=e.target.checked; sySave(); syncNow(true); });
+$("#sb-pass-go").addEventListener("click",async()=>{ const p=$("#sb-pass-in").value; if(!p) return; SY.pass=p; SY.needPass=false; sySave(); await syncNow(true);
+  if(SY.err&&/密码/.test(SY.err)){ SY.pass=""; SY.needPass=true; sySave(); renderSync(); } else $("#sb-pass-in").value=""; });
+$("#sb-enc").addEventListener("change",async e=>{
+  if(e.target.checked){ $("#sb-encset").hidden=false; $("#sb-pass-new").focus(); e.target.checked=false; return; }
+  if(!SY.pass) return;
+  if(!confirm("关闭加密？云端会改为不加密保存（只有你和网站管理者能访问）。")){ e.target.checked=true; return; }
+  SY.pass=""; SY.h=""; sySave(); await syncNow(true); });
+$("#sb-pass-set").addEventListener("click",async()=>{ const p=$("#sb-pass-new").value; if(p.length<6){ syMsg("加密密码至少 6 位。"); return; }
+  SY.pass=p; SY.h=""; sySave(); $("#sb-pass-new").value=""; $("#sb-encset").hidden=true; await syncNow(true); if(!SY.err) syMsg("已开启加密。在其他设备上登录后，输入同一个加密密码。"); });
+$("#sb-logout").addEventListener("click",async()=>{ if(!confirm("退出登录？本机数据会保留，之后可以再登录。")) return;
+  try{ await sbAuth("logout",{},SY.access); }catch(e){} const em=SY.email; SY={mode:"sb",email:em}; sySave(); $("#sb-email").value=em||""; renderSync(); renderBackupHint(); syMsg("已退出登录。"); });
+$("#sb-delete").addEventListener("click",async()=>{
+  if(!confirm("永久删除你的账号和云端的同步数据？这台设备上的数据会保留。")) return;
+  try{ const r=await sbFetch("/rest/v1/rpc/delete_me",{method:"POST",body:"{}"}); if(!r.ok) throw sbErrOf(r,await r.json().catch(()=>null));
+    SY={}; sySave(); renderSync(); renderBackupHint(); syMsg("账号和云端数据已删除。"); }
+  catch(e){ syMsg("没能删除："+syErrText(e)); }
+});
+/* --- GitHub (advanced) --- */
 const repoNorm=v=>String(v||"").trim().replace(/^https?:\/\/github\.com\//i,"").replace(/\.git$/,"").replace(/\/+$/,"");
 async function syConnect(repo,token,pass){
   repo=repoNorm(repo); token=String(token||"").trim();
   if(!/^[\w.-]+\/[\w.-]+$/.test(repo)){ syMsg("仓库要写成「用户名/仓库名」，例如 Shentuyuxia/entrelinhas-sync。"); return; }
   if(!token){ syMsg("请粘贴 token。"); return; }
   if(!pass||pass.length<6){ syMsg("同步密码至少 6 位。每台设备都用同一个。"); return; }
+  if(SY.mode==="sb"&&SY.refresh&&!confirm("这台设备正在用邮箱同步。改用 GitHub 后，邮箱同步会在本机退出（本机数据保留）。继续？")) return;
   syMsg("正在连接…");
   try{ const r=await fetch("https://api.github.com/repos/"+repo,{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github+json"},cache:"no-store"});
     if(!r.ok) throw ghErr(r); const j=await r.json();
     if(!j.private){ syMsg("这个仓库是公开的。请用一个私有（Private）仓库，免得别人看到同步文件。"); return; }
   }catch(e){ syMsg(syErrText(e)); return; }
-  SY={repo,token,pass,mine:true}; sySave(); renderSync(); await syncNow(true);
+  SY={mode:"gh",repo,token,pass,mine:true}; sySave(); renderSync(); await syncNow(true);
   if(SY.err){ const keep=SY.err; if(/密码/.test(keep)){ SY={}; sySave(); renderSync(); } syMsg(keep); }
 }
 $("#sy-go").addEventListener("click",()=>syConnect($("#sy-repo").value,$("#sy-token").value,$("#sy-pass").value));
@@ -2737,11 +2875,12 @@ $("#sy-code-go").addEventListener("click",async()=>{
 $("#sy-now").addEventListener("click",()=>syncNow(true));
 $("#sy-copy").addEventListener("click",async()=>{
   const code="EL1."+btoa(await syEnc({repo:SY.repo,token:SY.token},SY.pass));
-  try{ await navigator.clipboard.writeText(code); syMsg("设置码已复制。在另一台设备的「设置 → 多设备同步」里粘贴，再输入同一个同步密码。设置码本身也是加密的。"); }
+  try{ await navigator.clipboard.writeText(code); syMsg("设置码已复制。在另一台设备的「设置 → 多设备同步 → GitHub」里粘贴，再输入同一个同步密码。设置码本身也是加密的。"); }
   catch(e){ prompt("复制这段设置码：",code); }
 });
 $("#sy-off").addEventListener("click",()=>{ if(!confirm("在这台设备上停用同步？本机数据会保留，仓库里的数据也不会删除。")) return; SY={}; sySave(); renderSync(); syMsg("已停用。"); renderBackupHint(); });
 $("#sy-mine-on").addEventListener("change",e=>{ SY.mine=e.target.checked; sySave(); syncNow(true); });
+if(SY.repo&&!SY.mode) SY.mode="gh";
 renderSync();
 if(syOn()) setTimeout(()=>syncNow(),1200);
 
@@ -3282,6 +3421,24 @@ const UI_DICT=[
 ["Token 无效或已过期，请换一个新的。", "The token is invalid or expired. Please create a new one.", "Das Token ist ungültig oder abgelaufen. Bitte ein neues erstellen.", "O token é inválido ou expirou. Crie um novo.", "Token 無效或已過期，請換一個新的。"],
 ["找不到这个仓库，或 token 没有授权给它。", "Repository not found, or the token has no access to it.", "Repository nicht gefunden oder das Token hat keinen Zugriff.", "Repositório não encontrado, ou o token não tem acesso.", "找不到這個倉庫，或 token 沒有授權給它。"],
 ["这个仓库是公开的。请用一个私有（Private）仓库，免得别人看到同步文件。", "This repository is public. Please use a private one so nobody else sees the sync file.", "Dieses Repository ist öffentlich. Bitte ein privates verwenden, damit niemand die Sync-Datei sieht.", "Este repositório é público. Use um privado para ninguém ver o arquivo.", "這個倉庫是公開的。請用一個私有（Private）倉庫，免得別人看到同步檔案。"],
+["邮箱登录", "Email login", "E-Mail-Login", "Login por e-mail", "郵箱登入"],
+["GitHub（高级）", "GitHub (advanced)", "GitHub (fortgeschritten)", "GitHub (avançado)", "GitHub（高階）"],
+["邮箱", "Email", "E-Mail", "E-mail", "郵箱"],
+["发送验证码", "Send code", "Code senden", "Enviar código", "傳送驗證碼"],
+["邮件里的验证码", "Code from the email", "Code aus der E-Mail", "Código do e-mail", "郵件裡的驗證碼"],
+["登录", "Log in", "Anmelden", "Entrar", "登入"],
+["重新发送", "Resend", "Erneut senden", "Reenviar", "重新傳送"],
+["第一次登录会自动创建账号。验证码 1 小时内有效。", "Your account is created on first login. The code is valid for one hour.", "Beim ersten Login wird das Konto angelegt. Der Code gilt eine Stunde.", "A conta é criada no primeiro login. O código vale por uma hora.", "第一次登入會自動建立賬號。驗證碼 1 小時內有效。"],
+["已登录：", "Logged in:", "Angemeldet:", "Conectado:", "已登入："],
+["加密我的数据（需要另设一个密码）", "Encrypt my data (needs a separate password)", "Meine Daten verschlüsseln (eigenes Passwort nötig)", "Criptografar meus dados (precisa de outra senha)", "加密我的資料（需要另設一個密碼）"],
+["开启加密", "Turn on encryption", "Verschlüsselung einschalten", "Ativar criptografia", "開啟加密"],
+["退出登录", "Log out", "Abmelden", "Sair", "退出登入"],
+["删除账号和云端数据", "Delete account and cloud data", "Konto und Cloud-Daten löschen", "Excluir conta e dados na nuvem", "刪除賬號和雲端資料"],
+["解锁", "Unlock", "Entsperren", "Desbloquear", "解鎖"],
+["隐私说明", "Privacy", "Datenschutz", "Privacidade", "隱私說明"],
+["用同一个邮箱登录，iPhone、iPad 和电脑就共用同一份学习进度、自录单词和我的文章。只用邮箱来登录，不发其他邮件，也不收集别的信息。", "Log in with the same email and your iPhone, iPad and computer share one set of progress, words and articles. The email is only used to log in — no other mail, nothing else collected.", "Mit derselben E-Mail anmelden, und iPhone, iPad und Computer teilen Lernstand, Wörter und Artikel. Die E-Mail dient nur der Anmeldung – keine weiteren Mails, keine weiteren Daten.", "Entre com o mesmo e-mail e iPhone, iPad e computador compartilham progresso, palavras e artigos. O e-mail serve só para entrar — nada de outros e-mails ou dados.", "用同一個郵箱登入，iPhone、iPad 和電腦就共用同一份學習進度、自錄單詞和我的文章。只用郵箱來登入，不發其他郵件，也不收集別的資訊。"],
+["邮箱登录还在准备中，开通后这里就能用。", "Email login is being set up and will work here soon.", "Der E-Mail-Login wird gerade eingerichtet.", "O login por e-mail está sendo preparado.", "郵箱登入還在準備中，開通後這裡就能用。"],
+["把数据加密后存进你自己的私有 GitHub 仓库。适合有 GitHub 账号、不想用邮箱的人。", "Encrypts your data and stores it in your own private GitHub repository — for people with a GitHub account who prefer not to use email.", "Verschlüsselt deine Daten in deinem eigenen privaten GitHub-Repository – für alle mit GitHub-Konto, die keine E-Mail nutzen möchten.", "Criptografa seus dados num repositório privado seu no GitHub — para quem tem conta no GitHub e prefere não usar e-mail.", "把資料加密後存進你自己的私有 GitHub 倉庫。適合有 GitHub 賬號、不想用郵箱的人。"],
 ["我的文章", "My articles", "Meine Artikel", "Meus artigos", "我的文章"],
 ["推荐", "Reading list", "Lesetipps", "Leituras", "推薦"],
 ["标题（可选）", "Title (optional)", "Titel (optional)", "Título (opcional)", "標題（可選）"],
