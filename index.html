@@ -25,9 +25,9 @@
   --a1:#4f7d3a; --a2:#2f7c76; --b1:#3b5b86; --b2:#6a5598; --c1:#9a4a6e; --c2:#8a4a2e;
   --ok:#2f7a55; --ok-soft:#dcebe2; --warn:#9a6f17; --warn-soft:#f3e9d3; --bad:#a8473a; --bad-soft:#f3e0dc;
   --scrim:rgba(20,30,34,.32); --pt-mark:#7ebdb2;
-  --f-word:"Source Serif 4", Georgia, "LXGW WenKai", "Kaiti SC", serif;
-  --f-ui:"LXGW WenKai", "Kaiti SC", "STKaiti", serif;
-  --f-cn:"LXGW WenKai", "Kaiti SC", "STKaiti", serif;
+  --f-word:"Source Serif 4", Georgia, "EL Hei", "PingFang SC", sans-serif;
+  --f-ui:"Source Sans 3", "EL Hei", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --f-cn:"EL Hei", "PingFang SC", "Microsoft YaHei", sans-serif;
   --f-mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
   --r:12px; color-scheme:light;
 }
@@ -71,7 +71,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .brand h1 > span:first-child{font-family:var(--f-cn);font-weight:600;letter-spacing:.02em}
 .brand h1 .alt{font-family:var(--f-word);font-weight:500;font-style:italic;color:var(--muted);font-size:.78em;margin-left:.5em}
 html:not([lang^="zh"]) .brand h1 .alt{display:none}
-html[lang="zh-TW"]{--f-cn:"LXGW WenKai","Kaiti TC",serif;--f-ui:"LXGW WenKai","Kaiti TC",serif;--f-word:"Source Serif 4",Georgia,"LXGW WenKai","Kaiti TC",serif}
+html[lang="zh-TW"]{--f-cn:"EL Hei","PingFang TC",sans-serif;--f-ui:"Source Sans 3","EL Hei","PingFang TC",sans-serif;--f-word:"Source Serif 4",Georgia,"EL Hei","PingFang TC",sans-serif}
 .brand p{margin:2px 0 0;color:var(--muted);font-size:13px}
 .langsw{display:flex;gap:4px;background:var(--sunk);padding:4px;border-radius:12px;flex-wrap:wrap}
 .langsw button{border:0;background:transparent;border-radius:9px;padding:7px 12px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;line-height:1.2;color:var(--muted)}
@@ -671,7 +671,7 @@ body.lean .hint, body.lean .help{display:none!important}
 .mg-toc button[aria-current="true"] .k{color:var(--acc)}
 @media (min-width:641px){ .mg-toc{top:var(--tabs-h,52px)} }
 .mg-toc{box-shadow:0 6px 8px -8px rgba(0,0,0,.25)}
-.mg-gram,.mg-gl dd span[lang=en]{font-family:var(--f-word)}
+
 
 /* ===== my articles import + sync ===== */
 .mine-imp{margin-left:auto;display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:3px 9px 3px 7px;font:inherit;font-size:12px;cursor:pointer}
@@ -688,6 +688,17 @@ body.lean .hint, body.lean .help{display:none!important}
 .segs button{border:0;background:none;border-radius:999px;padding:6px 14px;font:inherit;font-size:13.5px;color:var(--muted);cursor:pointer}
 .segs button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08);font-weight:600}
 .danger-t{color:var(--bad,#b3412e)!important}
+
+/* ===== reading: grammar + key words, larger, sans, tinted ===== */
+.mg-blk:has(.mg-gram),.mg-blk:has(.mg-gl){background:color-mix(in srgb,var(--acc) 9%,var(--surface));border:0;border-radius:14px;padding:14px 16px;margin-top:18px}
+.mg-blk:has(.mg-gram) h3,.mg-blk:has(.mg-gl) h3{color:var(--acc)!important;font-family:var(--f-ui);font-weight:600!important;letter-spacing:.1em}
+.mg-gram{font-family:var(--f-ui)!important;font-size:16.5px!important;line-height:1.6;color:color-mix(in srgb,var(--acc) 55%,var(--ink));background:none!important;border:0!important;padding:0!important}
+.mg-gl{grid-template-columns:auto minmax(0,1fr)!important;gap:9px 16px!important}
+.mg-gl dt{font-family:var(--f-ui)!important;font-weight:600;font-size:16.5px!important;color:color-mix(in srgb,var(--acc) 70%,var(--ink))}
+.mg-gl dd{font-family:var(--f-ui)!important;font-size:16px!important;line-height:1.4;color:color-mix(in srgb,var(--acc) 40%,var(--ink))}
+.mg-gl dd span{display:block}
+.mg-gl dd .gl-zh,.mg-gl dd span[lang=zh]{font-size:15px;color:var(--muted);margin-top:1px}
+@media (max-width:480px){.mg-gl{grid-template-columns:1fr!important;gap:2px!important}.mg-gl dd{margin-bottom:10px!important}}
 </style>
 </head>
 <body>
