@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T04:50:23+00:00",
+ "updated": "2026-10-20T05:00:18+00:00",
  "days": [
   {
    "date": "2026-10-20",
@@ -18,6 +18,22 @@
      "title": "Today's reading list",
      "kind": "picks",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "de",
+     "title": "Wie viel Leben wir nicht kennen",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "de",
+     "title": "Provenienzforschung: Internationale Tagung in Hannover",
+     "kind": "brief",
+     "level": "B2",
      "hour": null
     }
    ]

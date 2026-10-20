@@ -1,164 +1,342 @@
 {
-  "date": "2026-10-20",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-10-20",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lesetipps",
+   "title": "Lesetipps für heute",
+   "dek": "Vom Strafgerichtshof unter Sanktionen bis zur Energiewende im Rückwärtsgang: Völkerrecht, Arbeit, Frauenrechte, Überwachung und Mathematik.",
+   "paragraphs": [],
+   "picks": [
     {
-      "lang": "de",
-      "level": "C1",
-      "kind": "picks",
-      "section": "Lesetipps",
-      "title": "Lesetipps für heute",
-      "dek": "Vom Strafgerichtshof unter Sanktionen bis zur Energiewende im Rückwärtsgang: Völkerrecht, Arbeit, Frauenrechte, Überwachung und Mathematik.",
-      "paragraphs": [],
-      "picks": [
-        {
-          "outlet": "taz",
-          "genre": "Reportage · Völkerrecht",
-          "title": "US-Sanktionen gegen IStGH: Die Richter und ihr Henker",
-          "author": "Christian Jakob",
-          "url": "https://taz.de/US-Sanktionen-gegen-IStGH/!6220564/",
-          "minutes": 12,
-          "en": "How Washington's sanctions against the International Criminal Court play out in the daily lives of its judges, told largely through the experience of judge Kimberly Prost. A sharp look at what happens to international law when a superpower turns against it.",
-          "zh": "美国制裁国际刑事法院，法官的日常生活因此受到怎样的影响。"
-        },
-        {
-          "outlet": "taz",
-          "genre": "Analyse · Energie & Wirtschaft",
-          "title": "Erneuerbare Energien: Reiches Rollback",
-          "author": "Anja Krüger, Nick Reimer",
-          "url": "https://taz.de/Erneuerbare-Energien/!6216523/",
-          "minutes": 8,
-          "en": "An analysis of economy minister Katherina Reiche's electricity-market bills, arguing they slow renewables without delivering the promised economic boost. Useful for following Germany's energy-transition debate.",
-          "zh": "分析经济部长赖歇的电力市场法案：放慢可再生能源，却难以提振经济。"
-        },
-        {
-          "outlet": "taz",
-          "genre": "Essay · Arbeit & Gesellschaft",
-          "title": "Psyche und Job: Kein Problem, Chef! Ahhhhhhhhhh!!!",
-          "author": "Konstantin Nowotny",
-          "url": "https://taz.de/Stress-Depression-Burn-out-Kein-Problem-Chef-Ahhhhhhhhhh/!6218231/",
-          "minutes": 10,
-          "en": "Why workloads keep rising despite digitalisation and AI, and how current labour policy adds to the pressure behind stress, depression and burnout. A sociological take on work with a lively, ironic voice.",
-          "zh": "数字化和AI并未减轻工作负担，为何倦怠与抑郁反而增多。"
-        },
-        {
-          "outlet": "taz",
-          "genre": "Reportage · Frauenrechte",
-          "title": "Genitalverstümmelung in Gambia: Wider die Rasierklinge",
-          "author": "Helena Kreiensiek",
-          "url": "https://taz.de/Genitalverstuemmelung-in-Gambia/!6205994/",
-          "minutes": 10,
-          "en": "Gambia's ban on female genital mutilation is under pressure as hardliners push to lift it; the reportage follows those defending it. A close-up of how hard-won women's rights can be rolled back.",
-          "zh": "冈比亚禁止女性割礼的法律正受到强硬派挑战，记者走访坚守禁令的人。"
-        },
-        {
-          "outlet": "netzpolitik.org",
-          "genre": "Analyse · Digitale Grundrechte",
-          "title": "Gesichtersuchmaschine PimEyes: Ein Verbot, das niemand durchsetzt",
-          "author": "Chris Köver",
-          "url": "https://netzpolitik.org/2026/gesichtersuchmaschine-pimeyes-ein-verbot-das-niemand-durchsetzt/",
-          "minutes": 7,
-          "en": "The EU AI Act bans scraping faces from the web for recognition databases, yet PimEyes keeps operating and the German regulator has not acted, while the government plans to let police use such services. A clear case study in the gap between law and enforcement.",
-          "zh": "欧盟AI法禁止抓取人脸建库，但PimEyes照常运营，监管机构却无作为。"
-        },
-        {
-          "outlet": "Spektrum der Wissenschaft",
-          "genre": "Wissenschaft · Kryptografie",
-          "title": "KI und Kryptografie: Mathematiker sind besorgt, dass KI unsere Verschlüsselungen knackt",
-          "url": "https://www.spektrum.de/news/mathematiker-sind-besorgt-dass-ki-unsere-verschluesselungen-knackt/2350038",
-          "minutes": 7,
-          "en": "As AI models grow rapidly better at mathematics, cryptographers worry that the hard problems underpinning encryption may not stay hard. Good science writing on where maths, security and AI meet.",
-          "zh": "AI数学能力飞速提升，密码学家担心加密的数学基础被攻破。"
-        }
-      ],
-      "glossary": [],
-      "questions": [],
-      "sources": []
+     "outlet": "taz",
+     "genre": "Reportage · Völkerrecht",
+     "title": "US-Sanktionen gegen IStGH: Die Richter und ihr Henker",
+     "author": "Christian Jakob",
+     "url": "https://taz.de/US-Sanktionen-gegen-IStGH/!6220564/",
+     "minutes": 12,
+     "en": "How Washington's sanctions against the International Criminal Court play out in the daily lives of its judges, told largely through the experience of judge Kimberly Prost. A sharp look at what happens to international law when a superpower turns against it.",
+     "zh": "美国制裁国际刑事法院，法官的日常生活因此受到怎样的影响。"
     },
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "picks",
-      "section": "Reading list",
-      "title": "Today's reading list",
-      "dek": "Planetary justice, a data-center revolt, deaths under the border cameras, an AI proof in number theory, and what our gadgets do to our bodies.",
-      "paragraphs": [],
-      "picks": [
-        {
-          "outlet": "Aeon",
-          "genre": "Essay · International relations & climate",
-          "title": "Why we should heed Barbara Ward’s vision of planetary justice",
-          "author": "Or Rosenboim",
-          "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
-          "minutes": 17,
-          "en": "Rosenboim revisits the economist and journalist Barbara Ward, who treated prosperity, global equality and environmental protection as one planetary project. The essay takes her seriously while also criticising her paternalistic, Western-centred framing.",
-          "zh": "重读经济学家芭芭拉·沃德的“全球正义”构想：繁荣、平等与环保不可分割。"
-        },
-        {
-          "outlet": "The Verge (via Longreads)",
-          "genre": "Reportage · Technology & environment",
-          "title": "The People of Utah vs. Kevin O'Leary",
-          "author": "Josh Dzieza",
-          "url": "https://www.theverge.com/cs/features/993343/stratos-utah-kevin-oleary-data-center-backlash/",
-          "minutes": 25,
-          "en": "A gigantic data-center project in remote Utah, championed by Kevin O'Leary, meets fierce local resistance, with water and the shrinking Great Salt Lake at the heart of the fight. A vivid ground-level story about who pays for the AI boom.",
-          "zh": "犹他州超大数据中心计划遭当地居民强烈反对，焦点是水资源。"
-        },
-        {
-          "outlet": "MIT Technology Review (via Longreads)",
-          "genre": "Investigation · Migration",
-          "title": "She Died at the San Diego Border. A Surveillance Camera Was in Plain Sight.",
-          "author": "Lillian Perlmutter",
-          "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
-          "minutes": 20,
-          "en": "In the Otay Mountain Wilderness, surveillance towers watch nearly everything, yet migrants keep dying there year after year. An investigation into what border technology does and does not do for human life.",
-          "zh": "圣地亚哥边境监控塔遍布山野，移民却依然年年死去。"
-        },
-        {
-          "outlet": "Quanta Magazine",
-          "genre": "Analysis · Mathematics",
-          "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-          "author": "Konstantin Kakaes",
-          "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
-          "minutes": 15,
-          "en": "An OpenAI model produced a proof of a weaker cousin of the Riemann hypothesis, and human mathematicians have checked and explained it. Kakaes explores what the result means for prime numbers and for mathematics as a human practice.",
-          "zh": "AI证明了“准黎曼猜想”，数学家已验证——这对数学意味着什么？"
-        },
-        {
-          "outlet": "Aeon",
-          "genre": "Essay · Ideas & science",
-          "title": "The more we rely on tech, the more we deskill our bodies",
-          "author": "Melanie Challenger",
-          "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
-          "minutes": 17,
-          "en": "Challenger argues that phones, GPS and AI erode skills like navigating, remembering and self-regulation, which only form through bodily practice. A thoughtful case that living bodies, not information systems, are where intelligence resides.",
-          "zh": "依赖科技让身体“去技能化”：导航、记忆和自我调节能力在退化。"
-        },
-        {
-          "outlet": "The Guardian",
-          "genre": "Browse · The Long Read",
-          "title": "The Long Read – latest essays",
-          "url": "https://www.theguardian.com/news/series/the-long-read",
-          "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
-        },
-        {
-          "outlet": "The Atlantic",
-          "genre": "Browse · Ideas",
-          "title": "Ideas – essays and arguments",
-          "url": "https://www.theatlantic.com/ideas/",
-          "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
-        }
-      ],
-      "note": "The Verge and MIT Technology Review pieces were found via Longreads' editors' picks; descriptions follow Longreads' summaries.",
-      "glossary": [],
-      "questions": [],
-      "sources": [
-        {
-          "title": "Longreads",
-          "url": "https://longreads.com/",
-          "license": "link only"
-        }
-      ]
+     "outlet": "taz",
+     "genre": "Analyse · Energie & Wirtschaft",
+     "title": "Erneuerbare Energien: Reiches Rollback",
+     "author": "Anja Krüger, Nick Reimer",
+     "url": "https://taz.de/Erneuerbare-Energien/!6216523/",
+     "minutes": 8,
+     "en": "An analysis of economy minister Katherina Reiche's electricity-market bills, arguing they slow renewables without delivering the promised economic boost. Useful for following Germany's energy-transition debate.",
+     "zh": "分析经济部长赖歇的电力市场法案：放慢可再生能源，却难以提振经济。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Essay · Arbeit & Gesellschaft",
+     "title": "Psyche und Job: Kein Problem, Chef! Ahhhhhhhhhh!!!",
+     "author": "Konstantin Nowotny",
+     "url": "https://taz.de/Stress-Depression-Burn-out-Kein-Problem-Chef-Ahhhhhhhhhh/!6218231/",
+     "minutes": 10,
+     "en": "Why workloads keep rising despite digitalisation and AI, and how current labour policy adds to the pressure behind stress, depression and burnout. A sociological take on work with a lively, ironic voice.",
+     "zh": "数字化和AI并未减轻工作负担，为何倦怠与抑郁反而增多。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Reportage · Frauenrechte",
+     "title": "Genitalverstümmelung in Gambia: Wider die Rasierklinge",
+     "author": "Helena Kreiensiek",
+     "url": "https://taz.de/Genitalverstuemmelung-in-Gambia/!6205994/",
+     "minutes": 10,
+     "en": "Gambia's ban on female genital mutilation is under pressure as hardliners push to lift it; the reportage follows those defending it. A close-up of how hard-won women's rights can be rolled back.",
+     "zh": "冈比亚禁止女性割礼的法律正受到强硬派挑战，记者走访坚守禁令的人。"
+    },
+    {
+     "outlet": "netzpolitik.org",
+     "genre": "Analyse · Digitale Grundrechte",
+     "title": "Gesichtersuchmaschine PimEyes: Ein Verbot, das niemand durchsetzt",
+     "author": "Chris Köver",
+     "url": "https://netzpolitik.org/2026/gesichtersuchmaschine-pimeyes-ein-verbot-das-niemand-durchsetzt/",
+     "minutes": 7,
+     "en": "The EU AI Act bans scraping faces from the web for recognition databases, yet PimEyes keeps operating and the German regulator has not acted, while the government plans to let police use such services. A clear case study in the gap between law and enforcement.",
+     "zh": "欧盟AI法禁止抓取人脸建库，但PimEyes照常运营，监管机构却无作为。"
+    },
+    {
+     "outlet": "Spektrum der Wissenschaft",
+     "genre": "Wissenschaft · Kryptografie",
+     "title": "KI und Kryptografie: Mathematiker sind besorgt, dass KI unsere Verschlüsselungen knackt",
+     "url": "https://www.spektrum.de/news/mathematiker-sind-besorgt-dass-ki-unsere-verschluesselungen-knackt/2350038",
+     "minutes": 7,
+     "en": "As AI models grow rapidly better at mathematics, cryptographers worry that the hard problems underpinning encryption may not stay hard. Good science writing on where maths, security and AI meet.",
+     "zh": "AI数学能力飞速提升，密码学家担心加密的数学基础被攻破。"
     }
-  ]
+   ],
+   "glossary": [],
+   "questions": [],
+   "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "picks",
+   "section": "Reading list",
+   "title": "Today's reading list",
+   "dek": "Planetary justice, a data-center revolt, deaths under the border cameras, an AI proof in number theory, and what our gadgets do to our bodies.",
+   "paragraphs": [],
+   "picks": [
+    {
+     "outlet": "Aeon",
+     "genre": "Essay · International relations & climate",
+     "title": "Why we should heed Barbara Ward’s vision of planetary justice",
+     "author": "Or Rosenboim",
+     "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
+     "minutes": 17,
+     "en": "Rosenboim revisits the economist and journalist Barbara Ward, who treated prosperity, global equality and environmental protection as one planetary project. The essay takes her seriously while also criticising her paternalistic, Western-centred framing.",
+     "zh": "重读经济学家芭芭拉·沃德的“全球正义”构想：繁荣、平等与环保不可分割。"
+    },
+    {
+     "outlet": "The Verge (via Longreads)",
+     "genre": "Reportage · Technology & environment",
+     "title": "The People of Utah vs. Kevin O'Leary",
+     "author": "Josh Dzieza",
+     "url": "https://www.theverge.com/cs/features/993343/stratos-utah-kevin-oleary-data-center-backlash/",
+     "minutes": 25,
+     "en": "A gigantic data-center project in remote Utah, championed by Kevin O'Leary, meets fierce local resistance, with water and the shrinking Great Salt Lake at the heart of the fight. A vivid ground-level story about who pays for the AI boom.",
+     "zh": "犹他州超大数据中心计划遭当地居民强烈反对，焦点是水资源。"
+    },
+    {
+     "outlet": "MIT Technology Review (via Longreads)",
+     "genre": "Investigation · Migration",
+     "title": "She Died at the San Diego Border. A Surveillance Camera Was in Plain Sight.",
+     "author": "Lillian Perlmutter",
+     "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+     "minutes": 20,
+     "en": "In the Otay Mountain Wilderness, surveillance towers watch nearly everything, yet migrants keep dying there year after year. An investigation into what border technology does and does not do for human life.",
+     "zh": "圣地亚哥边境监控塔遍布山野，移民却依然年年死去。"
+    },
+    {
+     "outlet": "Quanta Magazine",
+     "genre": "Analysis · Mathematics",
+     "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+     "author": "Konstantin Kakaes",
+     "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+     "minutes": 15,
+     "en": "An OpenAI model produced a proof of a weaker cousin of the Riemann hypothesis, and human mathematicians have checked and explained it. Kakaes explores what the result means for prime numbers and for mathematics as a human practice.",
+     "zh": "AI证明了“准黎曼猜想”，数学家已验证——这对数学意味着什么？"
+    },
+    {
+     "outlet": "Aeon",
+     "genre": "Essay · Ideas & science",
+     "title": "The more we rely on tech, the more we deskill our bodies",
+     "author": "Melanie Challenger",
+     "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+     "minutes": 17,
+     "en": "Challenger argues that phones, GPS and AI erode skills like navigating, remembering and self-regulation, which only form through bodily practice. A thoughtful case that living bodies, not information systems, are where intelligence resides.",
+     "zh": "依赖科技让身体“去技能化”：导航、记忆和自我调节能力在退化。"
+    },
+    {
+     "outlet": "The Guardian",
+     "genre": "Browse · The Long Read",
+     "title": "The Long Read – latest essays",
+     "url": "https://www.theguardian.com/news/series/the-long-read",
+     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+    },
+    {
+     "outlet": "The Atlantic",
+     "genre": "Browse · Ideas",
+     "title": "Ideas – essays and arguments",
+     "url": "https://www.theatlantic.com/ideas/",
+     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+    }
+   ],
+   "note": "The Verge and MIT Technology Review pieces were found via Longreads' editors' picks; descriptions follow Longreads' summaries.",
+   "glossary": [],
+   "questions": [],
+   "sources": [
+    {
+     "title": "Longreads",
+     "url": "https://longreads.com/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "feature",
+   "section": "Klima & Umwelt",
+   "title": "Wie viel Leben wir nicht kennen",
+   "dek": "Zur UN-Biodiversitätskonferenz in Jerewan zieht der Hamburger Zoologe Matthias Glaubrecht eine ernüchternde Zwischenbilanz: Die Artenvielfalt ist größer als gedacht – und ihr Verlust womöglich auch.",
+   "paragraphs": [
+    "Vor rund vier Jahren einigte sich die Weltgemeinschaft in Montreal auf ein ehrgeiziges Ziel: Bis 2030 soll der Verlust der biologischen Vielfalt gestoppt und umgekehrt werden. Herzstück des Abkommens ist die Formel „30 x 30“, nach der mindestens 30 Prozent der Land- und Meeresflächen wirksam geschützt werden sollen. In der armenischen Hauptstadt Jerewan beraten die Staaten nun auf der 17. UN-Biodiversitätskonferenz, wie weit sie damit gekommen sind.",
+    "Der Biodiversitätsforscher Matthias Glaubrecht, Professor an der Universität Hamburg und am Leibniz-Institut zur Analyse des Biodiversitätswandels, hat seine Bilanz im Tagesspiegel als Gastbeitrag veröffentlicht. Sein Befund: Der Schwung von Montreal sei verflogen. Zudem lasse sich Erfolg kaum messen, solange ein Großteil der Arten noch gar nicht bekannt sei.",
+    "Wie groß diese Wissenslücke ist, zeigt eine Studie, die im Juni in der Fachzeitschrift PNAS erschien. Ein Team um den Ökologen Robert Colwell von der University of Connecticut verglich in einem Schutzgebiet im Nordwesten Costa Ricas die bekannten Insekten einer Gruppe mit den Ergebnissen genetischer Analysen. Bei winzigen Schlupfwespen war demnach nur etwa ein Sechstel der Vielfalt beschrieben. Hochgerechnet könnte es weltweit mindestens 14 bis 20 Millionen Insektenarten geben – beschrieben ist bislang kaum mehr als eine Million.",
+    "Gleichzeitig schrumpfen die Bestände der bekannten Arten. Laut dem Living Planet Report der Umweltstiftung WWF sind die beobachteten Populationen ausgewählter Wirbeltiere zwischen 1970 und 2022 im Schnitt um 73 Prozent zurückgegangen. Es gibt Gewinner wie den Tiger, doch die Verlierer überwiegen. Eine Studie in der Zeitschrift Nature kommt immerhin zu dem Ergebnis, dass an Land bereits knapp 27 statt der offiziell gezählten 18 Prozent unter Schutz stehen könnten.",
+    "Glaubrecht warnt jedoch davor, Schutzgebiete auf dem Papier mit wirksamem Schutz zu verwechseln. Als Beispiel nennt er Deutschland: Nationalparks bedecken nur etwa 0,6 Prozent der Landfläche, und im Nationalpark Wattenmeer ist die Grundschleppnetzfischerei weiter erlaubt. Mehr als die Hälfte der Naturschutzgebiete ist kleiner als 50 Hektar und nach seiner Einschätzung zu klein und zu isoliert, zumal Dünger und Insektizide aus der umliegenden Landwirtschaft hineingelangen.",
+    "Den Hauptgrund für das Artensterben sieht der Forscher nicht im Klimawandel, sondern in der veränderten Landnutzung, also etwa in Rodungen und der Umwandlung von Wäldern in Äcker. Für Deutschland nennt er neben der intensiven Landwirtschaft auch die Industrialisierung der Landschaft, zu der er Anlagen für erneuerbare Energien zählt – eine Einschätzung, die im Naturschutz durchaus umstritten ist.",
+    "Schließlich geht es ums Geld. Weltweit gäben Staaten jährlich rund drei Billionen US-Dollar für Verteidigung aus, schreibt Glaubrecht, schafften es aber kaum, ein Prozent davon für den internationalen Schutz von Ökosystemen aufzubringen. Er fordert, schädliche Subventionen abzubauen und die Biodiversität fest in politische und wirtschaftliche Entscheidungen einzubeziehen. Ob die Konferenz dafür den Durchbruch bringt, bezweifelt er."
+   ],
+   "paragraphs_en": [
+    "About four years ago, the international community agreed in Montreal on an ambitious goal: by 2030, the loss of biological diversity is to be halted and reversed. At the heart of the agreement is the formula “30 x 30”, under which at least 30 percent of land and sea areas are to be effectively protected. In the Armenian capital Yerevan, states are now discussing at the 17th UN Biodiversity Conference how far they have come.",
+    "The biodiversity researcher Matthias Glaubrecht, a professor at the University of Hamburg and at the Leibniz Institute for the Analysis of Biodiversity Change, published his assessment as a guest article in the Tagesspiegel. His finding: the momentum of Montreal has evaporated. Moreover, success can hardly be measured as long as a large share of species is not even known yet.",
+    "How big this knowledge gap is can be seen in a study published in June in the journal PNAS. A team led by the ecologist Robert Colwell of the University of Connecticut compared the known insects of one group in a protected area in north-western Costa Rica with the results of genetic analyses. For tiny parasitic wasps, only about one sixth of the diversity had been described. Extrapolated, there could be at least 14 to 20 million insect species worldwide – while barely more than one million have been described so far.",
+    "At the same time, the populations of known species are shrinking. According to the Living Planet Report of the conservation organisation WWF, the monitored populations of selected vertebrates declined by an average of 73 percent between 1970 and 2022. There are winners such as the tiger, but the losers predominate. A study in the journal Nature does at least conclude that almost 27 percent of land, rather than the officially counted 18 percent, could already be under protection.",
+    "Glaubrecht warns, however, against confusing protected areas on paper with effective protection. He cites Germany as an example: national parks cover only about 0.6 percent of the land area, and bottom trawling is still permitted in the Wadden Sea National Park. More than half of the nature reserves are smaller than 50 hectares and, in his assessment, too small and too isolated, especially since fertiliser and insecticides from the surrounding agriculture get into them.",
+    "The researcher sees the main cause of species extinction not in climate change but in changing land use, for example clearing forests and converting them into fields. For Germany, besides intensive agriculture, he also names the industrialisation of the landscape, in which he includes renewable energy installations – an assessment that is quite contested within nature conservation.",
+    "Finally, it comes down to money. Worldwide, states spend around three trillion US dollars a year on defence, Glaubrecht writes, yet barely manage to raise one percent of that for the international protection of ecosystems. He calls for harmful subsidies to be dismantled and for biodiversity to be firmly integrated into political and economic decisions. He doubts whether the conference will bring the breakthrough needed for this."
+   ],
+   "glossary": [
+    {
+     "w": "die Artenvielfalt",
+     "en": "biodiversity, variety of species",
+     "zh": "物种多样性"
+    },
+    {
+     "w": "die Zwischenbilanz",
+     "en": "interim assessment, mid-term review",
+     "zh": "阶段性总结"
+    },
+    {
+     "w": "verfliegen",
+     "en": "to evaporate, fade (of enthusiasm)",
+     "zh": "消散"
+    },
+    {
+     "w": "hochrechnen",
+     "en": "to extrapolate, project",
+     "zh": "推算"
+    },
+    {
+     "w": "der Bestand, die Bestände",
+     "en": "population (of a species), stock",
+     "zh": "种群数量"
+    },
+    {
+     "w": "überwiegen",
+     "en": "to predominate, outweigh",
+     "zh": "占多数"
+    },
+    {
+     "w": "die Grundschleppnetzfischerei",
+     "en": "bottom trawling",
+     "zh": "底拖网捕鱼"
+    },
+    {
+     "w": "die Landnutzung",
+     "en": "land use",
+     "zh": "土地利用"
+    },
+    {
+     "w": "die Rodung",
+     "en": "clearing (of forest), deforestation",
+     "zh": "砍伐林地"
+    },
+    {
+     "w": "umstritten",
+     "en": "contested, disputed",
+     "zh": "有争议的"
+    },
+    {
+     "w": "die Billion",
+     "en": "trillion (false friend: not 'billion')",
+     "zh": "万亿"
+    },
+    {
+     "w": "aufbringen",
+     "en": "to raise (money), come up with",
+     "zh": "筹集"
+    }
+   ],
+   "grammar": "Indirect speech with Konjunktiv I signals that a claim is the author's, not the newspaper's: „Der Schwung sei verflogen“, „Staaten gäben … aus“ (Konjunktiv II replaces Konjunktiv I when the forms would match the indicative, as with „geben“). 【间接引语用第一虚拟式，形式与直陈式相同时改用第二虚拟式】",
+   "questions": [
+    "Warum lässt sich der Erfolg des Montreal-Abkommens laut Glaubrecht so schwer messen?",
+    "Worin unterscheidet sich ein Schutzgebiet „auf dem Papier“ von wirksamem Schutz? Nennen Sie Beispiele aus dem Text.",
+    "Wie bewerten Sie Glaubrechts Hinweis auf erneuerbare Energien als Belastung für die Artenvielfalt?"
+   ],
+   "sources": [
+    {
+     "title": "Tagesspiegel: Matthias Glaubrecht, Die unbekannte Vielfalt der Erde – „Wir riskieren alles, was wir zum Leben brauchen“ (Gastbeitrag, 19.10.2026)",
+     "url": "https://www.tagesspiegel.de/wissen/die-unbekannte-vielfalt-der-erdewir-riskieren-alles-was-wir-zum-leben-brauchen-16170178.html",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "B2",
+   "kind": "brief",
+   "section": "Hannover",
+   "title": "Provenienzforschung: Internationale Tagung in Hannover",
+   "dek": "Anfang November treffen sich Fachleute aus elf Ländern in Hannover, um über die Herkunft von Kulturgütern zu sprechen – auch über NS-Raubgut.",
+   "paragraphs": [
+    "Vom 3. bis 5. November 2026 findet in Hannover die internationale Jahrestagung des Arbeitskreises Provenienzforschung statt. Provenienzforscherinnen und -forscher untersuchen, woher Kunstwerke und andere Objekte in Museen und Bibliotheken stammen und ob sie zum Beispiel in der NS-Zeit oder im Kolonialismus unrechtmäßig erworben wurden. Erwartet werden 86 Vortragende aus elf Ländern, darunter die USA, Australien und mehrere europäische Staaten.",
+    "Eröffnet wird die Tagung am 3. November im Sprengel Museum mit einem Grußwort von Oberbürgermeister Belit Onay. Am Abend stellt sich dort die neue Schiedsgerichtsbarkeit für NS-Raubgut der Öffentlichkeit vor. Am zweiten Tag laufen Panels und Workshops parallel an mehreren Orten, etwa im Landesmuseum, im Museum August Kestner und im ZeitZentrum Zivilcourage; Führungen gibt es unter anderem zum Mahnmal gegen den Kolonialismus.",
+    "Die Tagung ist zweisprachig, Deutsch und Englisch. Interessierte können gegen eine Gebühr teilnehmen, auch nur an einem Tag oder online; ein großer Teil wird live gestreamt. Der Arbeitskreis wurde im Jahr 2000 gegründet und hat nach eigenen Angaben über 680 Mitglieder aus 17 Ländern."
+   ],
+   "paragraphs_en": [
+    "From 3 to 5 November 2026, the international annual conference of the Arbeitskreis Provenienzforschung (Provenance Research Working Group) will take place in Hannover. Provenance researchers investigate where artworks and other objects in museums and libraries come from and whether they were acquired unlawfully, for example during the Nazi era or under colonialism. 86 speakers from eleven countries are expected, including the USA, Australia and several European states.",
+    "The conference opens on 3 November at the Sprengel Museum with a welcome address by Lord Mayor Belit Onay. In the evening, the new arbitration body for Nazi-looted property will present itself to the public there. On the second day, panels and workshops run in parallel at several venues, such as the Landesmuseum, the Museum August Kestner and the ZeitZentrum Zivilcourage; guided tours include one to the Memorial against Colonialism.",
+    "The conference is bilingual, German and English. Anyone interested can take part for a fee, including for just one day or online; a large part will be streamed live. The working group was founded in 2000 and, according to its own figures, has more than 680 members from 17 countries."
+   ],
+   "glossary": [
+    {
+     "w": "die Provenienz",
+     "en": "provenance, origin (of an object)",
+     "zh": "来源"
+    },
+    {
+     "w": "das Kulturgut",
+     "en": "cultural property",
+     "zh": "文化财产"
+    },
+    {
+     "w": "das NS-Raubgut",
+     "en": "property looted by the Nazis",
+     "zh": "纳粹掠夺的财物"
+    },
+    {
+     "w": "unrechtmäßig",
+     "en": "unlawfully, illegitimately",
+     "zh": "非法地"
+    },
+    {
+     "w": "erwerben",
+     "en": "to acquire",
+     "zh": "获得，购得"
+    },
+    {
+     "w": "das Grußwort",
+     "en": "welcome address",
+     "zh": "致辞"
+    },
+    {
+     "w": "die Schiedsgerichtsbarkeit",
+     "en": "arbitration (system)",
+     "zh": "仲裁"
+    },
+    {
+     "w": "das Mahnmal",
+     "en": "memorial (warning against repetition)",
+     "zh": "警示纪念碑"
+    },
+    {
+     "w": "die Gebühr",
+     "en": "fee",
+     "zh": "费用"
+    }
+   ],
+   "grammar": "The passive with „werden“ keeps the focus on events, not actors: „Erwartet werden 86 Vortragende“, „Eröffnet wird die Tagung …“. Fronting the participle adds emphasis. 【被动态，分词前置以强调】",
+   "questions": [
+    "Womit beschäftigt sich die Provenienzforschung?",
+    "Welche Möglichkeiten gibt es, an der Tagung teilzunehmen?"
+   ],
+   "sources": [
+    {
+     "title": "hannover.de: Internationale Jahrestagung zur Provenienzforschung in Hannover (aktualisiert 12.10.2026)",
+     "url": "https://www.hannover.de/Service/Presse-Medien/Landeshauptstadt-Hannover/Aktuelle-Meldungen-und-Veranstaltungen/Internationale-Jahrestagung-zur-Provenienzforschung-in-Hannover",
+     "license": "official"
+    }
+   ]
+  }
+ ]
 }
