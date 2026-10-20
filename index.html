@@ -2865,7 +2865,7 @@ async function canon(P){
   return [...h].map(x=>x.toString(16).padStart(2,"0")).join("");
 }
 /* backends: "sb" = email login (Supabase, Frankfurt), "gh" = own private GitHub repo */
-const SB_URL="", SB_KEY="", SB_APP="entrelinhas";
+const SB_URL="https://zueejqmjkanifgryznzc.supabase.co", SB_KEY="sb_publishable_sEdjNv2QlXrdNzZyVQqeww_iTBFPPdB", SB_APP="entrelinhas";
 const sbReady=()=>!!(SB_URL&&SB_KEY);
 function sbErrOf(r,j){ const e=new Error((j&&(j.msg||j.error_description||j.message))||("http "+r.status)); e.status=r.status; e.code=j&&(j.error_code||j.code); e.sb=1; return e; }
 async function sbAuth(path,body,bearer){
