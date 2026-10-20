@@ -19,16 +19,16 @@
 <style>
 /* Layout: header with language switch + today's check-in strip; tabs; main work column with a notes aside. Look follows Shiori: cool paper, ink-indigo text, hairlines instead of boxes, one muted accent per language (celadon PT, slate blue DE, ochre EN). */
 :root{
-  --bg:#faf9f6; --surface:#ffffff; --sunk:#efede8; --ink:#1c2930; --muted:#5d6a70; --line:#e0ddd5; --rule:#1b1f1d;
+  --bg:#f2f4f3; --surface:#ffffff; --sunk:#e7ebea; --ink:#1c2930; --muted:#5d6a70; --line:#d5dbda; --rule:#1c2930;
   --pt:#2c6b64; --pt-soft:#dbeae6; --de:#3b5b86; --de-soft:#dfe7f1; --en:#93582a; --en-soft:#f1e5d8; --on-acc:#ffffff;
   --der:#3b5b86; --die:#a8473a; --das:#2f7a55;
   --a1:#4f7d3a; --a2:#2f7c76; --b1:#3b5b86; --b2:#6a5598; --c1:#9a4a6e; --c2:#8a4a2e;
   --ok:#2f7a55; --ok-soft:#dcebe2; --warn:#9a6f17; --warn-soft:#f3e9d3; --bad:#a8473a; --bad-soft:#f3e0dc;
   --scrim:rgba(20,30,34,.32); --pt-mark:#7ebdb2;
-  --f-word:"Source Serif 4", Georgia, "EL Hei", "PingFang SC", sans-serif;
-  --f-ui:"Source Sans 3", "EL Hei", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
-  --f-cn:"EL Hei", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --f-mono:"Source Sans 3", "EL Hei", sans-serif;
+  --f-word:"Source Serif 4", Georgia, "EL Kai", "PingFang SC", sans-serif;
+  --f-ui:"Source Sans 3", "EL Kai", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --f-cn:"EL Kai", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --f-mono:"Source Sans 3", "EL Kai", sans-serif;
   --r:12px; color-scheme:light;
 }
 @media (prefers-color-scheme: dark){ :root{
@@ -71,7 +71,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .brand h1 > span:first-child{font-family:var(--f-cn);font-weight:600;letter-spacing:.02em}
 .brand h1 .alt{font-family:var(--f-word);font-weight:500;font-style:italic;color:var(--muted);font-size:.78em;margin-left:.5em}
 html:not([lang^="zh"]) .brand h1 .alt{display:none}
-html[lang="zh-TW"]{--f-cn:"EL Hei","PingFang TC",sans-serif;--f-ui:"Source Sans 3","EL Hei","PingFang TC",sans-serif;--f-word:"Source Serif 4",Georgia,"EL Hei","PingFang TC",sans-serif}
+html[lang="zh-TW"]{--f-cn:"EL Kai","PingFang TC",sans-serif;--f-ui:"Source Sans 3","EL Kai","PingFang TC",sans-serif;--f-word:"Source Serif 4",Georgia,"EL Kai","PingFang TC",sans-serif}
 .brand p{margin:2px 0 0;color:var(--muted);font-size:13px}
 .langsw{display:flex;gap:4px;background:var(--sunk);padding:4px;border-radius:12px;flex-wrap:wrap}
 .langsw button{border:0;background:transparent;border-radius:9px;padding:7px 12px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;line-height:1.2;color:var(--muted)}
@@ -755,6 +755,58 @@ body{font-variant-numeric:tabular-nums}
 .kpi{background:none!important;border:0!important;border-top:1px solid var(--line)!important;border-radius:0!important;padding:10px 2px 4px!important}
 .mg-blk:has(.mg-gram){background:color-mix(in srgb,var(--acc) 17%,var(--surface))!important}
 .kpi b{font-family:var(--f-word)!important;font-weight:600!important;font-size:28px!important;font-variant-numeric:lining-nums tabular-nums}
+
+/* ===================== editorial v2: masthead, text tabs, flat controls ===================== */
+/* masthead: keep the logo, lose the pill */
+.uilang{border:0!important;background:none!important;padding:4px 0!important;font-size:13.5px!important;color:var(--muted)}
+.uilang svg{width:16px!important;height:16px!important}
+.brand h1 > span:first-child{font-weight:400!important;letter-spacing:.04em}
+/* language switch: text tabs */
+.langsw{background:none!important;border:0!important;border-bottom:1px solid var(--line)!important;border-radius:0!important;padding:0!important;gap:24px!important;flex-wrap:nowrap!important;display:flex!important}
+.langsw button{border:0!important;border-radius:0!important;background:none!important;box-shadow:none!important;padding:6px 0 9px!important;flex:0 0 auto!important;flex-direction:row!important;align-items:baseline!important;gap:6px!important;min-height:0!important;position:relative;color:var(--muted)!important}
+.langsw button::before{display:none!important}
+.langsw button+button,.langsw button + button{border-left:0!important}
+.langsw button{min-width:0!important;width:auto!important}
+.top .langsw{justify-content:flex-start!important;grid-template-columns:none!important}
+.top .langsw button{flex:none!important;max-width:none!important}
+.langsw button b{font-family:var(--f-word)!important;font-weight:400!important;font-size:17px!important;color:inherit!important}
+.langsw button small{display:none!important;font-size:11.5px!important;color:var(--muted)!important}
+.langsw button[aria-pressed="true"]{color:var(--ink)!important}
+.langsw button[aria-pressed="true"] b{font-weight:600!important}
+@media (min-width:641px){.langsw button[aria-pressed="true"] small{display:inline!important}}
+.langsw button[aria-pressed="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--lc,var(--acc))}
+@media (max-width:640px){ .langsw{gap:20px!important} .langsw button small{display:none!important} }
+/* session bar: hairline */
+.bar{height:2px!important;border-radius:0!important;background:var(--line)!important}
+.bar i{border-radius:0!important;background:var(--acc)!important}
+/* flashcard: paper slip */
+.card{border-radius:6px!important;border:1px solid var(--line)!important;box-shadow:none!important}
+.card-top .lv,.card-top .chip,.card-top .stg{border:0!important;background:none!important;padding:0!important;font-size:12.5px!important;font-weight:400;color:var(--muted)}
+.card-top .lv{font-weight:600!important}
+.card-top > span:not(.spacer):not(:empty) ~ span:not(.spacer):not(:empty)::before{content:"·";margin:0 6px;color:var(--muted)}
+.extra{font-family:var(--f-word)!important;font-style:italic;font-size:15px!important}
+.rate{gap:0!important;border-top:1px solid var(--rule);border-bottom:1px solid var(--line);margin-top:14px}
+.rate button{border:0!important;border-radius:0!important;background:none!important;padding:11px 4px 10px!important;font-weight:400!important;font-size:16px}
+.rate button + button{border-left:1px solid var(--line)!important}
+.rate button:hover{background:var(--sunk)!important}
+/* reading: table-of-contents tabs */
+.mg-toc{gap:22px!important;border-bottom:1px solid var(--line);box-shadow:none!important;padding:4px 0 0!important}
+.mg-toc button,.mg-toc button:first-child{border:0!important;border-radius:0!important;background:none!important;padding:6px 0 9px!important;max-width:16em!important;position:relative}
+.mg-toc button[aria-current="true"]{background:none!important}
+.mg-toc button[aria-current="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--ink)}
+.mg-toc button[aria-current="true"] .t{color:var(--ink)!important;font-weight:400!important}
+.mg-toc .t{color:var(--muted)}
+.mg-toc .mg-addchip{border:0!important;color:var(--acc)!important;padding:6px 0 9px!important}
+.mg-kick .lv{color:var(--muted)!important;font-weight:400!important}
+/* reading tools: flat bar between rules */
+.mg-tools{gap:20px!important;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0;margin:14px 0 16px!important}
+.mg-tools .tb{border:0!important;background:none!important;padding:2px 0!important;color:var(--ink)}
+.mg-tools .tb[aria-pressed="true"]{color:var(--acc)!important;font-weight:600;background:none!important}
+/* grammar: margin note; vocabulary: quiet box */
+.mg-blk:has(.mg-gram){border-left:3px solid var(--acc)!important;border-radius:0 4px 4px 0!important;background:color-mix(in srgb,var(--acc) 12%,var(--surface))!important}
+.mg-blk:has(.mg-gl){border-radius:4px!important;background:color-mix(in srgb,var(--acc) 6%,var(--surface))!important}
+/* bottom bar: accent icon, ink label */
+@media (max-width:640px){ nav.tabs button[aria-selected="true"],nav.tabs button.grp-on{color:var(--ink)!important} nav.tabs button[aria-selected="true"] svg,nav.tabs button.grp-on svg{color:var(--acc)} nav.tabs button svg{stroke-width:1.6} }
 </style>
 </head>
 <body>
@@ -2124,6 +2176,9 @@ function mgSents(p){ return p.split(/(?<=(?<!\d)[.!?…]["»“]?)\s+(?=[\p{Lu}�
 function mgWrap(text,l,own){
   return mgSents(text).map(sen=>'<span class="s">'+sen.split(WRE).map((t,k)=>k%2?`<span class="mg-w${own.has(t.toLowerCase())?" saved":""}">${esc(t)}</span>`:esc(t)).join("")+'</span>').join(" ");
 }
+const OUTLETS={"taz.de":"taz","tagesspiegel.de":"Tagesspiegel","mediendienst-integration.de":"Mediendienst Integration","missy-magazine.de":"Missy Magazine","deutschlandfunk.de":"Deutschlandfunk","spektrum.de":"Spektrum","netzpolitik.org":"Netzpolitik","deutsch-perfekt.com":"Deutsch Perfekt","hannover.de":"Stadt Hannover","jacobin.com":"Jacobin","theintercept.com":"The Intercept","motherjones.com":"Mother Jones","dissentmagazine.org":"Dissent","newint.org":"New Internationalist","propublica.org":"ProPublica","themarshallproject.org":"The Marshall Project","restofworld.org":"Rest of World","19thnews.org":"The 19th","aeon.co":"Aeon","theguardian.com":"The Guardian","theatlantic.com":"The Atlantic"};
+function mgOutlet(it){ if(it.series&&it.series.name) return ""; const u=it.sources&&it.sources[0]&&it.sources[0].url; if(!u) return ""; try{ const h=new URL(u).hostname.replace(/^www\./,""); for(const k in OUTLETS) if(h===k||h.endsWith("."+k)) return OUTLETS[k]; return h.replace(/\.(de|com|org|net|co)$/,""); }catch(e){ return ""; } }
+function mgMinutes(it){ const w=(it.paragraphs||[]).join(" ").split(/\s+/).filter(Boolean).length; const rate=["A1","A2"].includes(it.level)?110:["B1","B2"].includes(it.level)?160:200; return Math.max(1,Math.round(w/rate)); }
 function mgFmt(d){ const [y,m,dd]=d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString(uiLocale(),{weekday:"long",month:"long",day:"numeric"}); }
 async function mgRender(){
   const main=$("#mg-main"); if(!main) return;
@@ -2147,7 +2202,7 @@ async function mgRender(){
   const easy=["A1","A2"].includes(it.level), qs=it.questions||[];
   const own=new Set(S[l].custom.flatMap(c=>{ const x=String(c.w||"").toLowerCase(); return [x,x.replace(ART,"")]; }));
   h+=`<article class="mg-art${MG_MINOR.includes(it.kind)?" minor":""}${it.kind==="picks"?" picks":""}">
-    <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
+    <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${mgOutlet(it)?`<span>${esc(mgOutlet(it))}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${it.kind!=="picks"&&(it.paragraphs||[]).length?`<span>${mgMinutes(it)} 分钟</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
     <h2 data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.title)}</h2>
     ${it.dek?`<p class="mg-dek" data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.dek)}</p>`:""}
     <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button>${it.paragraphs_en&&it.paragraphs_en.length?`<button class="tb" id="mg-enb" aria-pressed="${MG.tr==="en"}" aria-label="English translation">English</button>`:""}${it.paragraphs_zh&&it.paragraphs_zh.length?`<button class="tb" id="mg-zhb" aria-pressed="${MG.tr==="zh"}" aria-label="逐段中文">中文</button>`:""}</div>
