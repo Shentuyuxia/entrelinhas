@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T10:30:22+00:00",
+ "updated": "2026-10-20T17:54:54+00:00",
  "days": [
   {
    "date": "2026-10-20",
@@ -42,6 +42,22 @@
      "title": "A proof without an author",
      "kind": "feature",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "pt",
+     "title": "Uma festa surpresa",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "pt",
+     "title": "No ônibus",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]

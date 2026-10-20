@@ -419,6 +419,222 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Tito e Ana",
+   "series": {
+    "name": "Tito e Ana",
+    "episode": 5
+   },
+   "title": "Uma festa surpresa",
+   "dek": "Hoje é um dia especial para a Dona Rosa.",
+   "paragraphs": [
+    "Hoje é quinta-feira. O sol está forte e o dia está bonito. A Ana olha o calendário e sorri.",
+    "— Tito, hoje é o aniversário da Dona Rosa! A gente vai fazer uma festa surpresa — diz a Ana. O Tito mia: miau!",
+    "A Ana vai à padaria do Seu João. O Tito vai com ela, claro. Na rua, o Bolinha espera na frente da casa da Dona Rosa.",
+    "— Psiu, Bolinha! É segredo — diz a Ana. O Bolinha balança o rabo e vai junto.",
+    "Na padaria, o Seu João já sabe. Ele tem um bolo de chocolate grande, com flores amarelas. — É para a Dona Rosa! — diz ele.",
+    "A Ana compra o bolo e umas velas. O Seu João fecha a padaria às quatro horas e vai para a casa amarela também.",
+    "À tarde, a Ana chama a Dona Rosa. — Dona Rosa, você pode vir aqui um minuto? A Dona Rosa entra na sala. Está tudo escuro.",
+    "De repente, a luz acende. — Surpresa! Parabéns! — gritam a Ana e o Seu João. O Bolinha late e o Tito pula na mesa.",
+    "A Dona Rosa ri e chora ao mesmo tempo. — Obrigada, meus amigos! — diz ela. Todos cantam \"Parabéns pra você\".",
+    "A Dona Rosa apaga as velas. O Tito ganha um pouco de leite, e o Bolinha ganha um pedaço de pão. É uma festa muito feliz."
+   ],
+   "paragraphs_en": [
+    "Today is Thursday. The sun is strong and the day is beautiful. Ana looks at the calendar and smiles.",
+    "\"Tito, today is Dona Rosa's birthday! We're going to throw a surprise party,\" says Ana. Tito meows: meow!",
+    "Ana goes to Seu João's bakery. Tito goes with her, of course. In the street, Bolinha is waiting in front of Dona Rosa's house.",
+    "\"Shh, Bolinha! It's a secret,\" says Ana. Bolinha wags his tail and comes along.",
+    "At the bakery, Seu João already knows. He has a big chocolate cake with yellow flowers. \"It's for Dona Rosa!\" he says.",
+    "Ana buys the cake and some candles. Seu João closes the bakery at four o'clock and goes to the yellow house too.",
+    "In the afternoon, Ana calls Dona Rosa. \"Dona Rosa, can you come here for a minute?\" Dona Rosa walks into the living room. Everything is dark.",
+    "Suddenly the light comes on. \"Surprise! Happy birthday!\" shout Ana and Seu João. Bolinha barks and Tito jumps onto the table.",
+    "Dona Rosa laughs and cries at the same time. \"Thank you, my friends!\" she says. Everyone sings \"Happy Birthday\".",
+    "Dona Rosa blows out the candles. Tito gets a little milk, and Bolinha gets a piece of bread. It's a very happy party."
+   ],
+   "paragraphs_zh": [
+    "今天是星期四。阳光很强，天气很好。安娜看着日历笑了。",
+    "“蒂托，今天是罗莎太太的生日！我们要办一个惊喜派对。”安娜说。蒂托叫：喵！",
+    "安娜去若昂先生的面包店。蒂托当然也跟着去。街上，波利尼亚在罗莎太太家门口等着。",
+    "“嘘，波利尼亚！这是秘密。”安娜说。波利尼亚摇着尾巴，一起去了。",
+    "在面包店，若昂先生早就知道了。他有一个大大的巧克力蛋糕，上面有黄色的花。“这是给罗莎太太的！”他说。",
+    "安娜买了蛋糕和几根蜡烛。若昂先生四点关了面包店，也去了黄房子。",
+    "下午，安娜叫罗莎太太。“罗莎太太，你能过来一下吗？”罗莎太太走进客厅。里面一片漆黑。",
+    "突然，灯亮了。“惊喜！生日快乐！”安娜和若昂先生大喊。波利尼亚汪汪叫，蒂托跳上了桌子。",
+    "罗莎太太又笑又哭。“谢谢你们，我的朋友们！”她说。大家一起唱《祝你生日快乐》。",
+    "罗莎太太吹灭了蜡烛。蒂托得到一点牛奶，波利尼亚得到一块面包。这是一个非常快乐的派对。"
+   ],
+   "glossary": [
+    {
+     "w": "o aniversário",
+     "en": "birthday (cf. English 'anniversary')",
+     "zh": "生日"
+    },
+    {
+     "w": "a festa surpresa",
+     "en": "surprise party (surpresa ≈ 'surprise')",
+     "zh": "惊喜派对"
+    },
+    {
+     "w": "o segredo",
+     "en": "secret (cognate)",
+     "zh": "秘密"
+    },
+    {
+     "w": "balançar o rabo",
+     "en": "to wag the tail",
+     "zh": "摇尾巴"
+    },
+    {
+     "w": "a vela",
+     "en": "candle",
+     "zh": "蜡烛"
+    },
+    {
+     "w": "escuro",
+     "en": "dark",
+     "zh": "黑暗的"
+    },
+    {
+     "w": "Parabéns!",
+     "en": "Happy birthday! / Congratulations!",
+     "zh": "生日快乐！/ 祝贺！"
+    },
+    {
+     "w": "apagar",
+     "en": "to blow out, to switch off",
+     "zh": "吹灭、关掉"
+    },
+    {
+     "w": "ganhar",
+     "en": "to get, to receive (also 'to win')",
+     "zh": "得到；赢"
+    }
+   ],
+   "grammar": "ir + infinitive talks about the near future: A gente vai fazer uma festa (We're going to throw a party). Just conjugate ir and add the verb: eu vou comprar, ela vai cantar. With a gente, the verb is like ele/ela: a gente vai. （ir + 动词原形表示“将要”；a gente 用第三人称单数。）",
+   "questions": [
+    "Que dia é hoje?",
+    "O que o Seu João tem na padaria?",
+    "O que a Dona Rosa faz com as velas?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "No ônibus",
+   "paragraphs": [
+    "Ana: Oi, moço! Este ônibus vai para o centro?",
+    "Motorista: Vai, sim. Pode subir.",
+    "Ana: Quanto é a passagem?",
+    "Motorista: Cinco reais. Você paga ali com o cobrador.",
+    "Ana: Ah, tá. Pode ser no cartão?",
+    "Cobrador: Pode. É só aproximar o cartão aqui na catraca.",
+    "Ana: Pronto. Desculpa, você sabe onde eu desço para a Praça da Sé?",
+    "Cobrador: Sei, sim. São seis pontos. Eu aviso você.",
+    "Ana: Obrigada! Demora muito?",
+    "Cobrador: Uns vinte minutos, se não tiver trânsito.",
+    "Ana: Tudo bem. Posso sentar aqui?",
+    "Passageira: Pode, sim. Fica à vontade.",
+    "Cobrador: Moça, o próximo ponto é o seu. Aperta o botão para descer.",
+    "Ana: Valeu! Tchau, boa tarde!"
+   ],
+   "paragraphs_en": [
+    "Ana: Hi! Does this bus go to the city centre?",
+    "Driver: Yes, it does. Hop on.",
+    "Ana: How much is the fare?",
+    "Driver: Five reais. You pay the conductor over there.",
+    "Ana: Oh, okay. Can I pay by card?",
+    "Conductor: Yes. Just tap your card here at the turnstile.",
+    "Ana: Done. Excuse me, do you know where I get off for Praça da Sé?",
+    "Conductor: Yes, I do. It's six stops. I'll let you know.",
+    "Ana: Thanks! Does it take long?",
+    "Conductor: About twenty minutes, if there's no traffic.",
+    "Ana: All right. Can I sit here?",
+    "Passenger: Sure. Make yourself comfortable.",
+    "Conductor: Miss, the next stop is yours. Press the button to get off.",
+    "Ana: Thanks! Bye, have a good afternoon!"
+   ],
+   "paragraphs_zh": [
+    "安娜：你好，师傅！这辆公交车去市中心吗？",
+    "司机：去的。上来吧。",
+    "安娜：车票多少钱？",
+    "司机：五雷亚尔。你在那边付给售票员。",
+    "安娜：哦，好的。可以刷卡吗？",
+    "售票员：可以。把卡靠近闸机这里就行。",
+    "安娜：好了。请问，去塞广场我在哪儿下车？",
+    "售票员：知道。还有六站。我会提醒你。",
+    "安娜：谢谢！要很久吗？",
+    "售票员：大概二十分钟，如果不堵车的话。",
+    "安娜：好的。我可以坐这儿吗？",
+    "乘客：可以。请随意。",
+    "售票员：小姐，下一站就是你的站。按铃下车吧。",
+    "安娜：谢啦！再见，下午好！"
+   ],
+   "glossary": [
+    {
+     "w": "o ônibus",
+     "en": "bus (cf. English 'omnibus')",
+     "zh": "公交车"
+    },
+    {
+     "w": "moço / moça",
+     "en": "friendly way to address a young-ish man / woman",
+     "zh": "小伙子 / 姑娘（礼貌称呼）"
+    },
+    {
+     "w": "a passagem",
+     "en": "fare, ticket (cf. 'passage')",
+     "zh": "车票、车费"
+    },
+    {
+     "w": "o cobrador",
+     "en": "bus conductor who takes the fare",
+     "zh": "售票员"
+    },
+    {
+     "w": "a catraca",
+     "en": "turnstile",
+     "zh": "闸机、旋转门"
+    },
+    {
+     "w": "descer",
+     "en": "to get off (lit. 'to go down'; cf. 'descend')",
+     "zh": "下车"
+    },
+    {
+     "w": "o ponto (de ônibus)",
+     "en": "bus stop (lit. 'point')",
+     "zh": "公交站"
+    },
+    {
+     "w": "o trânsito",
+     "en": "traffic (cf. 'transit')",
+     "zh": "交通、堵车"
+    },
+    {
+     "w": "Fica à vontade.",
+     "en": "Make yourself comfortable / Go ahead.",
+     "zh": "请随意。"
+    },
+    {
+     "w": "Valeu!",
+     "en": "Thanks! (very informal, Brazilian)",
+     "zh": "谢啦！"
+    }
+   ],
+   "grammar": "Brazilians often make friendly requests with the plain verb form: Aperta o botão (Press the button), Fica à vontade (Make yourself at home). In everyday speech this sounds warm, not rude. To ask permission, use poder: Posso sentar aqui? — Pode, sim. （口语中常用动词原形式提要求；poder 用来请求许可。）",
+   "questions": [
+    "Para onde a Ana vai?",
+    "Quanto é a passagem?",
+    "Quantos pontos são até a Praça da Sé?"
+   ],
+   "sources": []
   }
  ]
 }
