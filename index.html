@@ -1116,7 +1116,7 @@ body{font-variant-numeric:tabular-nums}
             <div class="field" style="margin-top:10px"><label for="sb-email">邮箱</label><input type="email" id="sb-email" placeholder="name@example.com" autocomplete="email" autocapitalize="off" spellcheck="false"></div>
             <div class="row"><button class="btn primary sm" id="sb-send" type="button">发送验证码</button></div>
             <div id="sb-step2" hidden>
-              <div class="field" style="margin-top:10px"><label for="sb-code">邮件里的验证码</label><input type="text" id="sb-code" inputmode="numeric" autocomplete="one-time-code" maxlength="10" placeholder="123456"></div>
+              <div class="field" style="margin-top:10px"><label for="sb-code">邮件里的验证码（或长按邮件里的登录链接，拷贝后粘贴到这里）</label><input type="text" id="sb-code" inputmode="numeric" autocomplete="one-time-code" placeholder="123456"></div>
               <div class="row"><button class="btn primary sm" id="sb-verify" type="button">登录</button><button class="btn ghost sm" id="sb-resend" type="button">重新发送</button></div>
             </div>
             <p class="note hint" style="margin-top:8px">第一次登录会自动创建账号。验证码 1 小时内有效。</p>
@@ -2980,9 +2980,14 @@ async function sbSend(){
 $("#sb-send").addEventListener("click",sbSend); $("#sb-resend").addEventListener("click",sbSend);
 $("#sb-email").addEventListener("keydown",e=>{ if(e.key==="Enter") sbSend(); });
 async function sbVerify(){
-  const code=$("#sb-code").value.replace(/\s/g,""); if(!/^\d{6,10}$/.test(code)){ syMsg("验证码是邮件里的那串数字。"); return; }
+  const raw=$("#sb-code").value.trim(); let body;
+  if(/token=/.test(raw)){ // a pasted login link also works: long-press the link in the email, copy, paste here
+    let q; try{ q=new URL(raw).searchParams; }catch(e){ q=new URLSearchParams(raw.slice(raw.indexOf("?")+1)); }
+    const t=q.get("token")||q.get("token_hash"); const ty=q.get("type"); if(!t){ syMsg("这个链接不完整，请重新复制。"); return; }
+    body={type:ty==="signup"?"signup":ty==="invite"?"invite":"magiclink",token_hash:t};
+  } else { const code=raw.replace(/\s/g,""); if(!/^\d{6,10}$/.test(code)){ syMsg("请输入邮件里的数字验证码，或者粘贴邮件里的登录链接。"); return; } body={type:"email",email:sbEmail,token:code}; }
   syMsg("正在登录…");
-  try{ const j=await sbAuth("verify",{type:"email",email:sbEmail,token:code});
+  try{ const j=await sbAuth("verify",body);
     SY={mode:"sb",mine:true}; sbSession(j); $("#sb-code").value=""; $("#sb-step2").hidden=true; syView=null; renderSync(); await syncNow(true); }
   catch(e){ syMsg(/expired|invalid/i.test(e.code||e.message||"")||e.status===403?"验证码不对或已过期，请重新发送。":"登录失败："+(e.message||e.status)); }
 }
