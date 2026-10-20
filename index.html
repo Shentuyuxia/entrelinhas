@@ -1287,7 +1287,7 @@ const I={
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
-  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"],fr:["B2","C1"]}},
+  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
   pt:blank(),de:blank(),en:blank(),fr:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
 function merge(x){
@@ -1296,6 +1296,7 @@ function merge(x){
   for(const k in s){ if(k==="gloss"||k==="goal"||k==="levels") Object.assign(o.settings[k],s[k]||{}); else o.settings[k]=s[k]; }
   for(const l of Object.keys(LANG)) if(x[l]) o[l]=Object.assign(blank(),x[l]);
   if(!LANG[o.settings.lang]) o.settings.lang="pt";
+  { const f=o.settings.levels.fr; if(!o.settings.frLv2&&Array.isArray(f)&&f.join()==="B2,C1") o.settings.levels.fr=["A1","A2","B1","B2","C1"]; o.settings.frLv2=1; }
   o.updated=x.updated||0; o.lastBackup=x.lastBackup||0; o.setAt=x.setAt||0; return o;
 }
 let S=clone(DEF);
