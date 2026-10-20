@@ -3019,7 +3019,8 @@ async function sbSend(){
   const em=$("#sb-email").value.trim().toLowerCase(); if(!emailOK(em)){ syMsg("请填一个有效的邮箱。"); return; }
   if(syOn()&&syMode()==="gh"&&!confirm("这台设备正在用 GitHub 同步。改用邮箱登录后，GitHub 同步会在本机停用（本机数据保留）。继续？")) return;
   syMsg("正在发送…");
-  try{ await sbAuth("otp?redirect_to="+encodeURIComponent(location.origin+location.pathname),{email:em,create_user:true}); sbEmail=em; $("#sb-step2").hidden=false; $("#sb-code").focus(); syMsg("验证码已发到 "+em+"。没收到的话看看垃圾邮件。"); }
+  try{ const otp=c=>sbAuth("otp?redirect_to="+encodeURIComponent(location.origin+location.pathname),{email:em,create_user:c});
+    try{ await otp(true); }catch(e1){ if(/duplicate key|users_email|already registered|exists/i.test(e1.message||"")) await otp(false); else throw e1; } sbEmail=em; $("#sb-step2").hidden=false; $("#sb-code").focus(); syMsg("验证码已发到 "+em+"。没收到的话看看垃圾邮件。"); }
   catch(e){ syMsg(e.status===429?"发送太频繁，请过一分钟再试。":"没能发送验证码："+(e.message||e.status)); }
 }
 $("#sb-send").addEventListener("click",sbSend); $("#sb-resend").addEventListener("click",sbSend);
