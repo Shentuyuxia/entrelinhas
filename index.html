@@ -3009,7 +3009,7 @@ async function sbSend(){
   const em=$("#sb-email").value.trim().toLowerCase(); if(!emailOK(em)){ syMsg("请填一个有效的邮箱。"); return; }
   if(syOn()&&syMode()==="gh"&&!confirm("这台设备正在用 GitHub 同步。改用邮箱登录后，GitHub 同步会在本机停用（本机数据保留）。继续？")) return;
   syMsg("正在发送…");
-  try{ await sbAuth("otp",{email:em,create_user:true}); sbEmail=em; $("#sb-step2").hidden=false; $("#sb-code").focus(); syMsg("验证码已发到 "+em+"。没收到的话看看垃圾邮件。"); }
+  try{ await sbAuth("otp?redirect_to="+encodeURIComponent(location.origin+location.pathname),{email:em,create_user:true}); sbEmail=em; $("#sb-step2").hidden=false; $("#sb-code").focus(); syMsg("验证码已发到 "+em+"。没收到的话看看垃圾邮件。"); }
   catch(e){ syMsg(e.status===429?"发送太频繁，请过一分钟再试。":"没能发送验证码："+(e.message||e.status)); }
 }
 $("#sb-send").addEventListener("click",sbSend); $("#sb-resend").addEventListener("click",sbSend);
@@ -3079,7 +3079,17 @@ $("#sy-copy").addEventListener("click",async()=>{
 $("#sy-off").addEventListener("click",()=>{ if(!confirm("在这台设备上停用同步？本机数据会保留，仓库里的数据也不会删除。")) return; SY={}; sySave(); renderSync(); syMsg("已停用。"); renderBackupHint(); });
 $("#sy-mine-on").addEventListener("change",e=>{ SY.mine=e.target.checked; sySave(); syncNow(true); });
 if(SY.repo&&!SY.mode) SY.mode="gh";
-setTimeout(()=>{ renderSync(); if(syOn()) setTimeout(()=>syncNow(),1200); },0); // after the UI-language code below has initialised
+async function sbFromHash(){
+  const h=location.hash||""; if(!/access_token=|error_code=|error=/.test(h)) return false;
+  const q=new URLSearchParams(h.replace(/^#/,"")); history.replaceState(null,"",location.pathname+location.search);
+  if(q.get("error")||q.get("error_code")){ const c=q.get("error_code")||q.get("error"); setTimeout(()=>{ showTab("settings"); syView="sb"; renderSync(); syMsg(/expired|invalid/i.test(c)?"这个登录链接已过期或已用过。请回到 app 重新发送验证码。":"登录没有成功（"+c+"）。请重新发送验证码。"); },300); return true; }
+  if(!sbReady()) return false;
+  const j={access_token:q.get("access_token"),refresh_token:q.get("refresh_token"),expires_in:+q.get("expires_in")||3600};
+  try{ const r=await fetch(SB_URL+"/auth/v1/user",{headers:{apikey:SB_KEY,Authorization:"Bearer "+j.access_token}}); if(r.ok) j.user=await r.json(); }catch(e){}
+  if(SY.mode==="gh"&&SY.repo&&!confirm("这台设备正在用 GitHub 同步。改用邮箱登录吗？（本机数据保留）")) return true;
+  SY={mode:"sb",mine:true}; sbSession(j); setTimeout(()=>{ showTab("settings"); syView=null; renderSync(); syncNow(true); },300); return true;
+}
+setTimeout(async()=>{ const viaLink=await sbFromHash(); renderSync(); if(!viaLink&&syOn()) setTimeout(()=>syncNow(),1200); },0); // after the UI-language code below has initialised
 
 /* ---------- settings: AI ---------- */
 function renderAISettings(){
@@ -3594,7 +3604,7 @@ const UI_DICT=[
 ["我的课本", "My textbook", "Mein Lehrbuch", "Meu livro didático", "我的課本"],
 ["更多", "More", "Mehr", "Mais", "更多"],
 ["暂时连不上网络，稍后会自动再试。", "No connection right now — will retry automatically.", "Gerade keine Verbindung – wird automatisch erneut versucht.", "Sem conexão agora — vamos tentar de novo sozinhos.", "暫時連不上網路，稍後會自動再試。"],
-["我的", "Me", "Ich", "Eu", "我的"],
+["我的", "You", "Profil", "Perfil", "我的"],
 ["账户", "Account", "Konto", "Conta", "帳戶"],
 ["登录账户", "Sign in", "Anmelden", "Entrar", "登入帳戶"],
 ["用邮箱登录", "Sign in with email", "Mit E-Mail anmelden", "Entrar com e-mail", "用電子郵件登入"],
