@@ -807,6 +807,34 @@ body{font-variant-numeric:tabular-nums}
 .mg-blk:has(.mg-gl){border-radius:4px!important;background:color-mix(in srgb,var(--acc) 6%,var(--surface))!important}
 /* bottom bar: accent icon, ink label */
 @media (max-width:640px){ nav.tabs button[aria-selected="true"],nav.tabs button.grp-on{color:var(--ink)!important} nav.tabs button[aria-selected="true"] svg,nav.tabs button.grp-on svg{color:var(--acc)} nav.tabs button svg{stroke-width:1.6} }
+
+/* ===== tweaks: clear language segments, readable Chinese translations, quiet vocabulary ===== */
+.langsw{gap:0!important}
+.langsw button{padding:6px 18px 9px!important}
+.langsw button:first-child{padding-left:0!important}
+.langsw button + button{border-left:1px solid var(--line)!important}
+.langsw button[aria-pressed="true"]::after{left:18px!important;right:18px!important}
+.langsw button:first-child[aria-pressed="true"]::after{left:0!important}
+.langsw button + button,.top .langsw button + button{border-left:1px solid var(--line)!important;border-left-color:var(--line)!important}
+@media (max-width:640px){
+  .langsw button,.top .langsw button{flex:1 1 0!important;justify-content:center!important;padding:6px 4px 9px!important}
+  .langsw button:first-child{padding-left:4px!important}
+  .langsw button[aria-pressed="true"]::after,.langsw button:first-child[aria-pressed="true"]::after{left:16%!important;right:16%!important}
+}
+/* Chinese translation lines: Regular weight, larger, a hair heavier */
+.mg-zh[lang=zh],.ex .tr[lang=zh],.mg-gl dd span[lang=zh],.gl-v.zh{-webkit-text-stroke:.25px currentColor}
+.mg-zh[lang=zh],.mg-tr-zh{font-family:var(--f-cn)!important;font-weight:500!important;font-size:16.5px!important;color:color-mix(in srgb,var(--ink) 82%,var(--bg))!important;line-height:1.65;letter-spacing:.01em}
+.ex .tr[lang=zh]{font-family:var(--f-cn);font-weight:500;font-size:16px!important;color:color-mix(in srgb,var(--ink) 75%,var(--bg))}
+.gl-v.zh{font-weight:500!important}
+.mg-gl dd span[lang=zh]{font-weight:500!important;font-size:16px!important;color:color-mix(in srgb,var(--ink) 72%,var(--bg))!important}
+/* vocabulary: no heading, English by default, 中文 toggle */
+.mg-glb{position:relative}
+.mg-glb > h3{display:none!important}
+.mg-gl.hidezh dd .gl-zh{display:none!important}
+.mg-glzh{position:absolute;top:10px;right:12px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:2px 10px;font:inherit;font-size:13px;color:var(--muted);cursor:pointer}
+.mg-glzh[aria-pressed="true"]{color:var(--acc);border-color:var(--acc)}
+.mg-glb .mg-gl{padding-right:58px}
+@media (max-width:480px){ .mg-glb .mg-gl{padding-right:0} .mg-glb .mg-gl dt:first-of-type{padding-right:62px} }
 </style>
 </head>
 <body>
@@ -1733,7 +1761,7 @@ function exHTML(c,all){
   if(!c.ex) return "";
   const sel=all?["zh","en"]:glSel(); const tr=[]; if((sel.includes("en")||sel.includes("def")||sel.includes("fr"))&&c.exen) tr.push(c.exen); if(sel.includes("zh")&&c.exzh) tr.push(c.exzh);
   if(!tr.length&&(c.exzh||c.exen)) tr.push(c.exzh||c.exen);
-  return `<div class="ex"><div class="t">${highlight(c.ex,c.w)}</div>${tr.map(t=>`<div class="tr">${esc(t)}</div>`).join("")}</div>`;
+  return `<div class="ex"><div class="t">${highlight(c.ex,c.w)}</div>${tr.map(t=>`<div class="tr"${/[\u4e00-\u9fff]/.test(t)?' lang="zh"':""}>${esc(t)}</div>`).join("")}</div>`;
 }
 const stgHTML=st=>{ const s=stage(st); return `<span class="stg s${s}"><i></i>${STAGES[s]}</span>`; };
 function preview(st,g){
@@ -2179,6 +2207,7 @@ function mgWrap(text,l,own){
 const OUTLETS={"taz.de":"taz","tagesspiegel.de":"Tagesspiegel","mediendienst-integration.de":"Mediendienst Integration","missy-magazine.de":"Missy Magazine","deutschlandfunk.de":"Deutschlandfunk","spektrum.de":"Spektrum","netzpolitik.org":"Netzpolitik","deutsch-perfekt.com":"Deutsch Perfekt","hannover.de":"Stadt Hannover","jacobin.com":"Jacobin","theintercept.com":"The Intercept","motherjones.com":"Mother Jones","dissentmagazine.org":"Dissent","newint.org":"New Internationalist","propublica.org":"ProPublica","themarshallproject.org":"The Marshall Project","restofworld.org":"Rest of World","19thnews.org":"The 19th","aeon.co":"Aeon","theguardian.com":"The Guardian","theatlantic.com":"The Atlantic"};
 function mgOutlet(it){ if(it.series&&it.series.name) return ""; const u=it.sources&&it.sources[0]&&it.sources[0].url; if(!u) return ""; try{ const h=new URL(u).hostname.replace(/^www\./,""); for(const k in OUTLETS) if(h===k||h.endsWith("."+k)) return OUTLETS[k]; return h.replace(/\.(de|com|org|net|co)$/,""); }catch(e){ return ""; } }
 function mgMinutes(it){ const w=(it.paragraphs||[]).join(" ").split(/\s+/).filter(Boolean).length; const rate=["A1","A2"].includes(it.level)?110:["B1","B2"].includes(it.level)?160:200; return Math.max(1,Math.round(w/rate)); }
+let MGZH=(()=>{ try{ return localStorage.getItem("pw-glzh")==="1"; }catch(e){ return false; } })();
 function mgFmt(d){ const [y,m,dd]=d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString(uiLocale(),{weekday:"long",month:"long",day:"numeric"}); }
 async function mgRender(){
   const main=$("#mg-main"); if(!main) return;
@@ -2209,7 +2238,7 @@ async function mgRender(){
     <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n lang="${l==="pt"?"pt-BR":l}">${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${MG.tr&&it["paragraphs_"+MG.tr]&&it["paragraphs_"+MG.tr][k]?`<span class="mg-zh mg-tr-${MG.tr}" lang="${MG.tr}">${esc(it["paragraphs_"+MG.tr][k])}</span>`:""}`).join("")}</div>
     ${it.kind==="picks"?mgPicks(it):""}
     ${it.grammar?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram">${esc(it.grammar)}</div></div>`:""}
-    ${it.glossary&&it.glossary.length?`<div class="mg-blk"><h3>重点词汇</h3><dl class="mg-gl" data-noi18n>${it.glossary.map(g=>`<dt>${esc(g.w)}</dt><dd>${g.en?`<span lang="en">${esc(g.en)}</span>`:""}${g.zh?`<span class="${g.en?"gl-zh":""}" lang="zh">${esc(g.zh)}</span>`:""}</dd>`).join("")}</dl></div>`:""}
+    ${it.glossary&&it.glossary.length?`<div class="mg-blk mg-glb">${it.glossary.some(g=>g.en&&g.zh)?`<button class="mg-glzh" id="mg-glzh" type="button" aria-pressed="${MGZH}">中文</button>`:""}<dl class="mg-gl${MGZH?"":" hidezh"}" data-noi18n>${it.glossary.map(g=>`<dt>${esc(g.w)}</dt><dd>${g.en?`<span lang="en">${esc(g.en)}</span>`:""}${g.zh?`<span class="${g.en?"gl-zh":""}" lang="zh">${esc(g.zh)}</span>`:""}</dd>`).join("")}</dl></div>`:""}
     ${qs.length?`<div class="mg-blk"><h3>想一想</h3><ol class="mg-q" data-noi18n>${qs.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></div>`:""}
     ${it.sources&&it.sources.length?`<div class="mg-blk mg-src"><h3>来源</h3><ul>${it.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>${s.license?`<span class="lic">${esc(s.license)}</span>`:""}</li>`).join("")}</ul></div>`:""}
     <div class="mg-fin">${mgRead(pick.date,pick.i)?'<span class="small muted">✓ 读完了</span>':`<button class="btn primary" id="mg-done" type="button">读完了</button>`}
@@ -2553,6 +2582,7 @@ $("#tab-read").addEventListener("click",e=>{
   const id=b.id;
   if(id==="mg-prev"){ MG.di++; MG.key=null; mgRender(); } else if(id==="mg-next"){ MG.di--; MG.key=null; mgRender(); }
   else if(id==="mg-reload"||id==="mg-retry"){ MG.idx=null; MG.days={}; MG.err=""; MG.key=null; MG.di=0; mgRender(); }
+  else if(id==="mg-glzh"){ MGZH=!MGZH; try{ localStorage.setItem("pw-glzh",MGZH?"1":""); }catch(e){} const d=$(".mg-gl"); if(d) d.classList.toggle("hidezh",!MGZH); b.setAttribute("aria-pressed",MGZH); }
   else if(id==="mg-zhb"){ MG.tr=MG.tr==="zh"?null:"zh"; mgRender(); }
   else if(id==="mg-enb"){ MG.tr=MG.tr==="en"?null:"en"; mgRender(); }
   else if(id==="mg-say"){ if(RD.src==="art"&&RD.on) rdToggle(); else rdStart("art",0); }

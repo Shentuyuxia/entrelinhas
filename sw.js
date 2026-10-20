@@ -1,7 +1,7 @@
 // Offline support for Palavra & Wort.
 // App files: served from cache, refreshed in the background.
 // Marginalia articles (marginalia/*): network first, so new articles show up right away; cache is the offline fallback.
-const CACHE = "palavra-v26";
+const CACHE = "palavra-v28";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./fonts/fonts.css"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
