@@ -849,6 +849,19 @@ body{font-variant-numeric:tabular-nums}
 .mg-gl dd span[lang=en]{font-size:15.5px;color:color-mix(in srgb,var(--ink) 46%,var(--bg))!important;font-weight:400!important}
 .mg-gl dd span[lang=zh]{color:color-mix(in srgb,var(--ink) 40%,var(--bg))!important;margin-top:3px}
 @media (max-width:480px){ .mg-gl{gap:4px!important} .mg-gl dd{margin-bottom:14px!important} }
+
+/* ===== account card at the top of "Me" ===== */
+.acct{grid-column:1/-1}
+.acct-out,.acct-in{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.acct-out b{font-size:16px;font-weight:600}
+.acct-out p{margin:4px 0 0;font-size:14px;line-height:1.55;color:color-mix(in srgb,var(--ink) 62%,var(--bg))}
+.acct-out .btn{flex:none}
+.acct-in .av{flex:none;width:40px;height:40px;border-radius:50%;background:var(--acc);color:var(--on-acc);display:flex;align-items:center;justify-content:center;font:600 17px var(--f-ui)}
+.acct-in .av svg{width:20px;height:20px}
+.acct-in .who{flex:1;min-width:0}
+.acct-in .who b{display:block;font-size:15.5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.acct-in .who span{font-size:13px;color:var(--muted)}
+@media (max-width:480px){ .acct-out{flex-direction:column;align-items:stretch} .acct-out .btn{align-self:flex-start} }
 </style>
 </head>
 <body>
@@ -887,7 +900,7 @@ body{font-variant-numeric:tabular-nums}
     <button role="tab" data-tab="new" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v8M8 12h8"/></svg><span class="tl">录入新词</span></button>
     <button role="tab" data-tab="pile" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg><span class="tl">生词堆</span><span id="t-pile">0</span></button>
     <button role="tab" data-tab="browse" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6" fill="currentColor"/><circle cx="4" cy="12" r=".6" fill="currentColor"/><circle cx="4" cy="18" r=".6" fill="currentColor"/></svg><span class="tl">词库</span></button>
-    <button role="tab" data-tab="stats" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg><span class="tl">进度</span><span class="tl-m">更多</span></button>
+    <button role="tab" data-tab="stats" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg><span class="tl">进度</span><span class="tl-m">我的</span></button>
     <button role="tab" data-tab="settings" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span class="tl">设置与备份</span></button>
   </nav>
 
@@ -1079,6 +1092,7 @@ body{font-variant-numeric:tabular-nums}
 
   <!-- STATS -->
   <section id="tab-stats" class="grid" hidden>
+    <div class="acct" data-acct></div>
     <div class="subsw" role="tablist"><button type="button" data-sub="stats">进度</button><button type="button" data-sub="settings">设置与备份</button></div>
     <div class="panel" id="stats-main"></div>
     <aside class="side">
@@ -1092,6 +1106,7 @@ body{font-variant-numeric:tabular-nums}
 
   <!-- SETTINGS -->
   <section id="tab-settings" class="grid" hidden>
+    <div class="acct" data-acct></div>
     <div class="subsw" role="tablist"><button type="button" data-sub="stats">进度</button><button type="button" data-sub="settings">设置与备份</button></div>
     <div class="side" style="gap:22px">
       <div class="panel">
@@ -2924,6 +2939,7 @@ function syErrText(e){
   if(e.message==="needpass") return "这个账号的数据已加密，请输入加密密码。";
   if(e.message==="signedout") return "登录已过期，请重新用邮箱登录。";
   if(e.message==="format") return "云端的同步数据格式不对。";
+  if(e instanceof TypeError) return "暂时连不上网络，稍后会自动再试。";
   if(e.sb){ if(e.status===429) return "操作太频繁，请过一会儿再试。"; return "同步失败（"+(e.code||e.status)+"），稍后会自动再试。"; }
   if(e.status===401) return "Token 无效或已过期，请换一个新的。";
   if(e.status===403) return "Token 没有写入权限：Contents 要选 Read and write。";
@@ -2959,7 +2975,19 @@ function syLater(){ if(!syOn()) return; clearTimeout(syT); syT=setTimeout(()=>sy
 document.addEventListener("visibilitychange",()=>{ if(!syOn()) return; if(document.hidden){ clearTimeout(syT); syncNow(); } else if(!sess||!sess.flipped) syncNow(); });
 window.addEventListener("online",()=>syncNow());
 let syView=null;
+function renderAcct(){
+  const on=SY.mode==="sb"&&!!SY.refresh, gh=SY.mode==="gh"&&!!SY.repo, email=SY.email||"";
+  const ini=(email[0]||"·").toUpperCase();
+  const last=SY.last?new Date(SY.last).toLocaleString(uiLocale(),{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}):"";
+  $$("[data-acct]").forEach(el=>{
+    el.innerHTML= on||gh
+      ? `<div class="acct-in"><span class="av">${on?esc(ini):I.check}</span><div class="who"><b>${on?esc(email):"GitHub · "+esc(SY.repo)}</b><span>${SY.err?esc(SY.err):(last?"已同步 · "+esc(last):"已开启多设备同步")}</span></div><button class="btn sm" type="button" data-acctgo="1">管理账户</button></div>`
+      : `<div class="acct-out"><div><b>登录账户</b><p>登录后，学习进度、自录单词和「我的文章」会在 iPhone、iPad 和电脑之间自动同步；换手机或清理浏览器也不会丢。不登录也能完整使用，数据只保存在这台设备上。</p></div><button class="btn primary sm" type="button" data-acctgo="1">用邮箱登录</button></div>`;
+  });
+}
+document.addEventListener("click",e=>{ const b=e.target.closest("[data-acctgo]"); if(!b) return; showTab("settings"); syView=SY.mode==="gh"?"gh":"sb"; renderSync(); setTimeout(()=>{ const p=$("#sy-panel"); if(p) p.scrollIntoView({behavior:"smooth",block:"start"}); const em=$("#sb-email"); if(em&&!em.closest("[hidden]")) em.focus({preventScroll:true}); },60); });
 function renderSync(){
+  renderAcct();
   const mode=syView||(SY.mode==="gh"?"gh":"sb");
   $$("#sy-modes [data-sym]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.sym===mode));
   $("#sy-sb").hidden=mode!=="sb"; $("#sy-gh").hidden=mode!=="gh";
@@ -3051,8 +3079,7 @@ $("#sy-copy").addEventListener("click",async()=>{
 $("#sy-off").addEventListener("click",()=>{ if(!confirm("在这台设备上停用同步？本机数据会保留，仓库里的数据也不会删除。")) return; SY={}; sySave(); renderSync(); syMsg("已停用。"); renderBackupHint(); });
 $("#sy-mine-on").addEventListener("change",e=>{ SY.mine=e.target.checked; sySave(); syncNow(true); });
 if(SY.repo&&!SY.mode) SY.mode="gh";
-renderSync();
-if(syOn()) setTimeout(()=>syncNow(),1200);
+setTimeout(()=>{ renderSync(); if(syOn()) setTimeout(()=>syncNow(),1200); },0); // after the UI-language code below has initialised
 
 /* ---------- settings: AI ---------- */
 function renderAISettings(){
@@ -3566,6 +3593,13 @@ const UI_DICT=[
 ["图片里没认出文字。", "No text found in the pictures.", "Kein Text in den Bildern gefunden.", "Nenhum texto encontrado nas imagens.", "圖片裡沒認出文字。"],
 ["我的课本", "My textbook", "Mein Lehrbuch", "Meu livro didático", "我的課本"],
 ["更多", "More", "Mehr", "Mais", "更多"],
+["暂时连不上网络，稍后会自动再试。", "No connection right now — will retry automatically.", "Gerade keine Verbindung – wird automatisch erneut versucht.", "Sem conexão agora — vamos tentar de novo sozinhos.", "暫時連不上網路，稍後會自動再試。"],
+["我的", "Me", "Ich", "Eu", "我的"],
+["账户", "Account", "Konto", "Conta", "帳戶"],
+["登录账户", "Sign in", "Anmelden", "Entrar", "登入帳戶"],
+["用邮箱登录", "Sign in with email", "Mit E-Mail anmelden", "Entrar com e-mail", "用電子郵件登入"],
+["管理账户", "Manage account", "Konto verwalten", "Gerenciar conta", "管理帳戶"],
+["登录后，学习进度、自录单词和「我的文章」会在 iPhone、iPad 和电脑之间自动同步；换手机或清理浏览器也不会丢。不登录也能完整使用，数据只保存在这台设备上。", "Sign in and your progress, your own words and “My articles” sync automatically across iPhone, iPad and computer — nothing is lost if you change phones or clear your browser. Without signing in, everything still works; your data just stays on this device.", "Mit Anmeldung werden Lernstand, eigene Wörter und „Meine Artikel“ automatisch zwischen iPhone, iPad und Computer synchronisiert – auch bei einem neuen Handy geht nichts verloren. Ohne Anmeldung funktioniert alles genauso, die Daten bleiben nur auf diesem Gerät.", "Entrando, seu progresso, suas palavras e “Meus artigos” sincronizam sozinhos entre iPhone, iPad e computador — nada se perde ao trocar de celular. Sem entrar, tudo funciona igual; os dados ficam só neste aparelho.", "登入後，學習進度、自錄單字和「我的文章」會在 iPhone、iPad 和電腦之間自動同步；換手機或清理瀏覽器也不會遺失。不登入也能完整使用，資料只儲存在這台裝置上。"],
 ["导入", "Import", "Importieren", "Importar", "匯入"],
 ["导入文件", "Import file", "Datei importieren", "Importar arquivo", "匯入檔案"],
 ["可导入 PDF、Word (.docx)、TXT、Markdown、网页 (.html) 和字幕 (.srt)。", "Imports PDF, Word (.docx), TXT, Markdown, web pages (.html) and subtitles (.srt).", "Importiert PDF, Word (.docx), TXT, Markdown, Webseiten (.html) und Untertitel (.srt).", "Importa PDF, Word (.docx), TXT, Markdown, páginas web (.html) e legendas (.srt).", "可匯入 PDF、Word (.docx)、TXT、Markdown、網頁 (.html) 和字幕 (.srt)。"],
