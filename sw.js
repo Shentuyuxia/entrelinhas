@@ -1,13 +1,13 @@
 // Offline support for Palavra & Wort.
 // App files: served from cache, refreshed in the background.
 // Marginalia articles (marginalia/*) and word lists (data/*): network first, so new articles show up right away; cache is the offline fallback.
-const CACHE = "palavra-v42";
+const CACHE = "palavra-v43";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./fonts/fonts.css"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
-  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && !k.startsWith("piper-")).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener("fetch", e => {
   const req = e.request;
@@ -16,6 +16,17 @@ self.addEventListener("fetch", e => {
   const sameOrigin = url.origin === self.location.origin;
   const isFont = url.hostname === "fonts.googleapis.com" || url.hostname === "fonts.gstatic.com";
   if (!sameOrigin && !isFont) return; // never touch API calls
+  if (sameOrigin && (url.pathname.includes("/vendor/ort/") || url.pathname.includes("/vendor/piper/"))) {
+    // neural-voice engine (~30 MB): own cache that survives app updates
+    e.respondWith(caches.open("piper-assets-v1").then(async c => {
+      const hit = await c.match(url.origin + url.pathname);
+      if (hit) return hit;
+      const res = await fetch(req);
+      if (res && res.ok) c.put(url.origin + url.pathname, res.clone());
+      return res;
+    }));
+    return;
+  }
   if (sameOrigin && (url.pathname.includes("/marginalia/") || url.pathname.includes("/data/"))) {
     const key = url.origin + url.pathname; // ignore the cache-busting query
     e.respondWith(

@@ -1,0 +1,10 @@
+Piper phonemizer (WebAssembly build) used by the open-source neural voice option.
+
+- piper_phonemize.js / .wasm / .data: build of rhasspy/piper-phonemize (MIT) with espeak-ng
+  (GPL-3.0-or-later; the .data file holds espeak-ng's language data).
+  Taken unmodified from the npm package @diffusionstudio/piper-wasm@1.0.0 (MIT).
+  Sources: https://github.com/rhasspy/piper-phonemize
+           https://github.com/espeak-ng/espeak-ng
+           https://github.com/diffusionstudio/piper-wasm
+- Voice models are not stored here. The app downloads them on request from
+  https://huggingface.co/rhasspy/piper-voices (each voice has its own model card and licence).

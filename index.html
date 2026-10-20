@@ -122,6 +122,8 @@ nav.tabs button:not([aria-selected="true"]):hover{color:var(--ink)}
 .checks input{accent-color:var(--acc);margin:0}
 .checks label:has(input:checked){border-color:var(--acc);background:var(--acc-soft)}
 .tog{display:flex;gap:8px;align-items:flex-start;font-size:13px;cursor:pointer}
+.nt-bar{display:flex;align-items:center;gap:10px;margin-top:8px}.nt-bar i{flex:1;height:4px;border-radius:2px;background:var(--line);position:relative;overflow:hidden}.nt-bar i::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--p,0%);background:var(--acc);transition:width .2s}
+.linkbtn{background:none;border:0;padding:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit}
 .tog input{accent-color:var(--acc);margin-top:3px}
 input[type=text],input[type=password],select,textarea{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%;min-width:0;font-size:16px}
 @media (min-width:700px){input[type=text],input[type=password],select,textarea{font-size:15px}}
@@ -1121,6 +1123,12 @@ body{font-variant-numeric:tabular-nums}
         <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
           <div class="row" style="flex-wrap:nowrap"><select id="opt-voice"></select><button class="btn sm" id="voice-test" type="button">试听</button></div>
           <p class="note hint">★ 是增强/高级语音，听起来更自然。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音」里下载。</p></div>
+        <div class="field nt" id="nt-row" style="margin-top:16px"><label for="nt-voice">开源神经语音（Piper）</label>
+          <label class="tog"><input type="checkbox" id="nt-on"> <span>用开源神经语音朗读这门语言</span></label>
+          <div class="row" style="flex-wrap:nowrap;margin-top:8px"><select id="nt-voice"></select><button class="btn sm" id="nt-get" type="button">下载</button></div>
+          <div class="nt-bar" id="nt-prog" hidden><i></i><span class="small muted mono"></span></div>
+          <p class="note">语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。</p>
+          <p class="note"><button class="linkbtn small" id="nt-del" type="button" hidden>删除这个声音</button></p></div>
       </div>
       <div class="panel">
         <h3 class="ph3">备份与恢复</h3>
@@ -1709,7 +1717,7 @@ async function playMedia(key){
   let src=MEDC.get(key);
   if(!src){ try{ const o=await IDB.get(key); if(o){ src=o.data; MEDC.set(key,src); } }catch(e){} }
   if(!src) return false;
-  try{ if(hasTTS) speechSynthesis.cancel(); if(player){ player.pause(); } player=new Audio(src); await player.play(); return true; }catch(e){ return false; }
+  try{ if(hasTTS) speechSynthesis.cancel(); ntStop(); if(player){ player.pause(); } player=new Audio(src); await player.play(); return true; }catch(e){ return false; }
 }
 function playMine(id,prefer){ const a=audsOf(id); return playMedia(a[prefer||"w"]||a.w||a.s); }
 
@@ -1773,9 +1781,69 @@ function voiceNote(){
 }
 if(hasTTS){ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }
 function speak(t){
+  if(!t) return;
+  if(ntOn()){ try{ if(player) player.pause(); if(typeof RD!=="undefined"&&RD.on) rdPause(); if(hasTTS) speechSynthesis.cancel(); }catch(e){} ntSpeak(t.replace(/\s*\/\s*/g,", ").replace(/…/g,", "),S.settings.rate,()=>sysSpeak(t)); return; }
+  sysSpeak(t);
+}
+function sysSpeak(t){
   if(!hasTTS||!t) return;
-  try{ if(player) player.pause(); if(typeof RD!=="undefined"&&RD.on) rdPause(); speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(t.replace(/\s*\/\s*/g,", ").replace(/…/g,", "));
+  try{ ntStop(); if(player) player.pause(); if(typeof RD!=="undefined"&&RD.on) rdPause(); speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(t.replace(/\s*\/\s*/g,", ").replace(/…/g,", "));
     const v=pickVoice(); u.lang=v?v.lang:LANG[lang()].tts; if(v) u.voice=v; u.rate=S.settings.rate; speechSynthesis.speak(u); }catch(e){}
+}
+
+/* ---------- open-source neural voices (Piper, on device) ---------- */
+const NT_VOICES={
+  fr:[["fr_FR-siwis-medium","Siwis · 女声",63],["fr_FR-tom-medium","Tom · 男声",63],["fr_FR-gilles-low","Gilles · 男声",63]],
+  de:[["de_DE-thorsten-medium","Thorsten · 男声",63],["de_DE-thorsten-high","Thorsten · 男声 · 高清",109],["de_DE-kerstin-low","Kerstin · 女声",63],["de_DE-ramona-low","Ramona · 女声",63]],
+  en:[["en_GB-cori-medium","Cori · 女声",63],["en_GB-cori-high","Cori · 女声 · 高清",109],["en_GB-jenny_dioco-medium","Jenny · 女声",63],["en_GB-alba-medium","Alba · 女声 · 苏格兰口音",63],["en_GB-alan-medium","Alan · 男声",63],["en_GB-northern_english_male-medium","Northern English · 男声",63]],
+  pt:[["pt_BR-faber-medium","Faber · 男声",63],["pt_BR-edresson-low","Edresson · 男声",63]]
+};
+const NT={HF:"https://huggingface.co/rhasspy/piper-voices/resolve/main/",CACHE:"piper-voices-v1",have:new Set(),w:null,seq:0,wait:new Map(),lru:new Map(),ctx:null,src:null,dl:null};
+NT.url=id=>{ const [loc,name,q]=id.split("-"); return NT.HF+loc.slice(0,2)+"/"+loc+"/"+name+"/"+q+"/"+id+".onnx"; };
+NT.ok="caches" in window&&"Worker" in window&&typeof WebAssembly==="object";
+function ntVoice(l){ l=l||lang(); const pick=(S.settings.ntVoice||{})[l], list=NT_VOICES[l]||[]; return (list.find(v=>v[0]===pick)||list[0]||[])[0]; }
+function ntOn(l){ l=l||lang(); return NT.ok&&!!(S.settings.ntOn||{})[l]&&NT.have.has(ntVoice(l)); }
+async function ntCheck(){ if(!NT.ok) return; try{ const c=await caches.open(NT.CACHE); for(const l in NT_VOICES) for(const [id] of NT_VOICES[l]){ if(await c.match(NT.url(id))) NT.have.add(id); else NT.have.delete(id); } }catch(e){} renderNT(); }
+function ntCall(msg){ if(!NT.w){ NT.w=new Worker("tts/piper-worker.js"); NT.w.onmessage=e=>{ const d=e.data, f=NT.wait.get(d.id); if(!f) return; NT.wait.delete(d.id); d.ok?f[0](d):f[1](new Error(d.error)); }; NT.w.onerror=e=>{ NT.wait.forEach(f=>f[1](new Error(e.message||"worker"))); NT.wait.clear(); NT.w=null; }; }
+  const id=++NT.seq; return new Promise((ok,no)=>{ NT.wait.set(id,[ok,no]); NT.w.postMessage({...msg,id}); }); }
+function ntSynth(voice,text,rate){ const k=voice+"|"+rate+"|"+text; let p=NT.lru.get(k);
+  if(!p){ p=ntCall({op:"synth",voice,text,rate}); p.catch(()=>NT.lru.delete(k)); NT.lru.set(k,p); while(NT.lru.size>40) NT.lru.delete(NT.lru.keys().next().value); }
+  else { NT.lru.delete(k); NT.lru.set(k,p); }
+  return p; }
+function ntUnlock(){ // must run inside the tap/click so iOS lets audio start later
+  try{ if(navigator.audioSession) navigator.audioSession.type="playback"; }catch(e){}
+  try{ if(!NT.ctx) NT.ctx=new (window.AudioContext||window.webkitAudioContext)(); if(NT.ctx.state!=="running") NT.ctx.resume(); }catch(e){}
+}
+function ntStop(){ const s=NT.src; NT.src=null; if(s){ s.onended=null; try{ s.stop(); }catch(e){} } }
+function ntPlay(r,onend){ ntStop(); if(!NT.ctx||!r.pcm||!r.pcm.length){ if(onend) setTimeout(onend,0); return; }
+  const b=NT.ctx.createBuffer(1,r.pcm.length,r.sr); b.copyToChannel(r.pcm,0);
+  const s=NT.ctx.createBufferSource(); s.buffer=b; s.connect(NT.ctx.destination); s.onended=()=>{ if(NT.src===s){ NT.src=null; if(onend) onend(); } }; NT.src=s; s.start(); }
+let NT_TOK=0;
+function ntSpeak(t,rate,fallback){ const tok=++NT_TOK; ntUnlock(); ntStop();
+  ntSynth(ntVoice(),t,rate).then(r=>{ if(tok===NT_TOK) ntPlay(r); }).catch(()=>{ if(tok===NT_TOK&&fallback) fallback(); }); }
+async function ntDownload(id){
+  if(NT.dl) return; const url=NT.url(id); NT.dl={id,p:0}; renderNT();
+  try{ if(navigator.storage&&navigator.storage.persist) navigator.storage.persist().catch(()=>{});
+    const c=await caches.open(NT.CACHE);
+    const j=await fetch(url+".json"); if(!j.ok) throw new Error("HTTP "+j.status); const jb=await j.arrayBuffer();
+    const res=await fetch(url); if(!res.ok||!res.body) throw new Error("HTTP "+res.status);
+    const total=+res.headers.get("Content-Length")||0, rd=res.body.getReader(), parts=[]; let got=0;
+    for(;;){ const {done,value}=await rd.read(); if(done) break; parts.push(value); got+=value.length; NT.dl.p=total?got/total:0; NT.dl.mb=got/1048576; ntProg(); }
+    await c.put(url+".json",new Response(jb)); await c.put(url,new Response(new Blob(parts)));
+    NT.have.add(id); NT.dl=null; S.settings.ntOn=S.settings.ntOn||{}; S.settings.ntOn[lang()]=true; save(); renderNT();
+    toast(trOne("声音下载好了，现在朗读会用它。")); ntCall({op:"warm",voice:id}).then(()=>ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate)).catch(()=>{});
+  }catch(e){ NT.dl=null; renderNT(); toast(trOne("下载没有完成，请检查网络后再试。")+" ("+(e.message||e)+")"); }
+}
+async function ntRemove(id){ try{ const c=await caches.open(NT.CACHE); await c.delete(NT.url(id)); await c.delete(NT.url(id)+".json"); }catch(e){} NT.have.delete(id); if(NT.w) ntCall({op:"drop",voice:id}).catch(()=>{}); renderNT(); }
+function ntProg(){ const b=$("#nt-prog"); if(!b) return; b.hidden=!NT.dl; if(NT.dl){ b.querySelector("i").style.setProperty("--p",Math.round(NT.dl.p*100)+"%"); b.querySelector("span").textContent=NT.dl.p?Math.round(NT.dl.p*100)+"%":(NT.dl.mb||0).toFixed(0)+" MB"; } }
+function renderNT(){
+  const row=$("#nt-row"); if(!row) return; const l=lang(), list=NT_VOICES[l]||[];
+  row.hidden=!NT.ok||!list.length; if(row.hidden) return;
+  const cur=ntVoice(l), has=NT.have.has(cur);
+  $("#nt-voice").innerHTML=list.map(([id,lab,mb])=>`<option value="${id}"${id===cur?" selected":""}>${esc(lab.replace(/女声|男声|高清|苏格兰口音/g,m=>trOne(m)||m))}${NT.have.has(id)?" ✓":" · "+mb+" MB"}</option>`).join("");
+  $("#nt-on").checked=!!(S.settings.ntOn||{})[l]; $("#nt-on").disabled=!has;
+  const g=$("#nt-get"); g.disabled=!!NT.dl; g.textContent=trOne(NT.dl?"下载中…":has?"试听":"下载");
+  $("#nt-del").hidden=!has||!!NT.dl; ntProg();
 }
 
 /* ---------- rendering bits ---------- */
@@ -2340,6 +2408,12 @@ function rdSay(){
   RD.on=true; rdPaint();
   const txt=n.textContent.replace(/\s*\/\s*/g,", ").replace(/^[—–-]\s*/,"").trim();
   if(!txt){ RD.i++; return rdSay(); }
+  if(ntOn()){ const v=ntVoice(), rate=RD.rate; ntUnlock(); ntStop();
+    const next=()=>{ if(tok!==RD.tok||!RD.on) return; if(!RD.loop) RD.i++; setTimeout(()=>{ if(tok===RD.tok&&RD.on) rdSay(); },RD.loop?450:60); };
+    ntSynth(v,txt,rate).then(r=>{ if(tok!==RD.tok||!RD.on) return; ntPlay(r,next);
+      const n2=ns[RD.i+1]; if(n2){ const t2=n2.textContent.replace(/\s*\/\s*/g,", ").replace(/^[—–-]\s*/,"").trim(); if(t2) ntSynth(v,t2,rate).catch(()=>{}); } })
+    .catch(()=>{ if(tok===RD.tok){ RD.on=false; rdPaint(); toast(trOne("神经语音出错了，已切回系统语音。")); S.settings.ntOn[lang()]=false; save(); renderNT(); } });
+    return; }
   const u=new SpeechSynthesisUtterance(txt); RD.u=u;
   const v=pickVoice(); u.lang=v?v.lang:LANG[lang()].tts; if(v) u.voice=v; u.rate=RD.rate;
   u.onend=()=>{ if(tok!==RD.tok||!RD.on) return; if(!RD.loop) RD.i++; setTimeout(()=>{ if(tok===RD.tok&&RD.on) rdSay(); },RD.loop?450:120); };
@@ -2348,13 +2422,13 @@ function rdSay(){
   setTimeout(()=>{ if(tok===RD.tok) speechSynthesis.speak(u); },60);
 }
 function rdStart(src,i){
-  if(!hasTTS){ toast(trOne("这台设备不支持朗读")); return; }
+  if(!hasTTS&&!ntOn()){ toast(trOne("这台设备不支持朗读")); return; }
   if(player) player.pause();
   RD.src=src; RD.key=src==="art"?rdKey():null; RD.i=Math.max(0,i||0); rdSay();
 }
-function rdPause(){ RD.on=false; RD.tok++; try{ speechSynthesis.cancel(); }catch(e){} rdPaint(); }
+function rdPause(){ RD.on=false; RD.tok++; ntStop(); try{ speechSynthesis.cancel(); }catch(e){} rdPaint(); }
 function rdToggle(){ if(RD.on) rdPause(); else rdSay(); }
-function rdStop(){ if(!RD.src) return; RD.on=false; RD.tok++; RD.src=null; RD.key=null; try{ speechSynthesis.cancel(); }catch(e){} rdPaint(); }
+function rdStop(){ if(!RD.src) return; RD.on=false; RD.tok++; RD.src=null; RD.key=null; ntStop(); try{ speechSynthesis.cancel(); }catch(e){} rdPaint(); }
 function rdSync(){ // after a re-render: keep going on the same article, otherwise stop
   if(RD.src==="art"&&RD.key!==rdKey()) rdStop(); else rdPaint();
 }
@@ -2372,6 +2446,11 @@ $("#rd-bar").addEventListener("click",e=>{ const b=e.target.closest("button"); i
 
 $("#opt-voice").addEventListener("change",e=>{ S.settings.voice=S.settings.voice||{}; S.settings.voice[lang()]=e.target.value; save(); speak(VOICE_SAMPLE[lang()]); });
 $("#voice-test").addEventListener("click",()=>speak(VOICE_SAMPLE[lang()]));
+$("#nt-voice").addEventListener("change",e=>{ S.settings.ntVoice=S.settings.ntVoice||{}; S.settings.ntVoice[lang()]=e.target.value; save(); renderNT(); if(NT.have.has(e.target.value)) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
+$("#nt-on").addEventListener("change",e=>{ S.settings.ntOn=S.settings.ntOn||{}; S.settings.ntOn[lang()]=e.target.checked; save(); renderNT(); if(e.target.checked) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
+$("#nt-get").addEventListener("click",()=>{ const v=ntVoice(); if(NT.have.has(v)){ ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate,()=>toast(trOne("神经语音出错了，已切回系统语音。"))); } else { ntUnlock(); ntDownload(v); } });
+$("#nt-del").addEventListener("click",()=>ntRemove(ntVoice()));
+ntCheck();
 const VOICE_SAMPLE={fr:"Bonjour ! Aujourd'hui, on lit un texte sur la musique et les idées.",pt:"Olá! Hoje vamos ler uma história curta juntos.",de:"Guten Morgen! Heute lesen wir gemeinsam die Zeitung.",en:"Good morning. Let's read something worth thinking about today."};
 /* my articles: pasted by the reader, kept only on this device */
 const MINEK="pw-mine";
@@ -3632,6 +3711,19 @@ const UI_DICT=[
 ["逐段中文", "Chinese translation", "Chinesische Übersetzung", "Tradução em chinês", "逐段中文"],
 ["朗读文本", "Read text aloud", "Text vorlesen", "Ler texto em voz alta", "朗讀文字"],
 ["朗读语音", "Reading voice", "Vorlesestimme", "Voz de leitura", "朗讀語音"],
+["开源神经语音（Piper）", "Open-source neural voice (Piper)", "Open-Source-Neuralstimme (Piper)", "Voz neural de código aberto (Piper)", "開源神經語音（Piper）"],
+["用开源神经语音朗读这门语言", "Use the neural voice for this language", "Neuralstimme für diese Sprache verwenden", "Usar a voz neural neste idioma", "用開源神經語音朗讀這門語言"],
+["语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。", "The voice is generated on this device; no text is uploaded. Each voice downloads its model from Hugging Face once (about 60–110 MB, Wi-Fi recommended) and then works offline. Until it's ready, the system voice is used.", "Die Stimme wird auf diesem Gerät erzeugt, kein Text wird hochgeladen. Jede Stimme lädt ihr Modell einmal von Hugging Face (ca. 60–110 MB, WLAN empfohlen) und funktioniert danach offline. Bis dahin wird die Systemstimme verwendet.", "A voz é gerada neste aparelho; nenhum texto é enviado. Cada voz baixa o modelo do Hugging Face uma vez (cerca de 60–110 MB, de preferência no Wi-Fi) e depois funciona offline. Enquanto isso, usa-se a voz do sistema.", "語音在這台裝置上生成，文字不會上傳。每個聲音第一次要從 Hugging Face 下載一次模型（約 60–110 MB，建議連 Wi-Fi），之後離線也能用。沒下載好時會自動用系統語音。"],
+["删除这个声音", "Delete this voice", "Diese Stimme löschen", "Apagar esta voz", "刪除這個聲音"],
+["下载", "Download", "Laden", "Baixar", "下載"],
+["下载中…", "Downloading…", "Wird geladen…", "Baixando…", "下載中…"],
+["声音下载好了，现在朗读会用它。", "Voice downloaded — reading aloud now uses it.", "Stimme geladen – Vorlesen nutzt sie jetzt.", "Voz baixada — a leitura agora usa ela.", "聲音下載好了，現在朗讀會用它。"],
+["下载没有完成，请检查网络后再试。", "The download didn't finish. Check your connection and try again.", "Download nicht abgeschlossen. Bitte Verbindung prüfen und erneut versuchen.", "O download não terminou. Verifique a conexão e tente de novo.", "下載沒有完成，請檢查網路後再試。"],
+["神经语音出错了，已切回系统语音。", "The neural voice failed; switched back to the system voice.", "Die Neuralstimme ist ausgefallen; zurück zur Systemstimme.", "A voz neural falhou; voltei para a voz do sistema.", "神經語音出錯了，已切回系統語音。"],
+["女声", "female", "weiblich", "feminina", "女聲"],
+["男声", "male", "männlich", "masculina", "男聲"],
+["高清", "high quality", "hohe Qualität", "alta qualidade", "高清"],
+["苏格兰口音", "Scottish accent", "schottischer Akzent", "sotaque escocês", "蘇格蘭口音"],
 ["生成英文对照和词汇表", "Add English translation and glossary", "Englische Übersetzung und Glossar erstellen", "Gerar tradução em inglês e glossário", "生成英文對照和詞彙表"],
 ["级别", "Level", "Niveau", "Nível", "級別"],
 ["级别（可选）", "Level (optional)", "Niveau (optional)", "Nível (opcional)", "級別（可選）"],
@@ -3856,7 +3948,7 @@ async function applyLang(){
   $$("#langsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===l));
   if(detailOpen) closeDetail();
   if(MG.sheet) mgClose(); MG.key=null; MG.tr=null;
-  renderSettings(); renderNewForm(); voiceNote(); renderStrip(); renderBackupHint();
+  renderSettings(); renderNewForm(); voiceNote(); renderNT(); renderStrip(); renderBackupHint();
   if(hasTTS) speechSynthesis.cancel();
   if(!DATA[l]){ $("#card-area").innerHTML=`<div class="empty"><b>正在载入${LANG[l].zh}词库…</b></div>`; $("#sess-bar").style.width="0"; }
   try{ await loadLang(l); }
