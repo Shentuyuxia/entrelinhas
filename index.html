@@ -2347,7 +2347,7 @@ function mgPaint(){
       :s.wk&&s.wk.state==="load"?`<p class="small muted wk-msg">正在查 Wiktionary…</p>`:s.wk&&s.wk.state==="none"?`<p class="small muted wk-msg">Wiktionary 没有收这个词</p>`:""}
     ${s.en?`<p class="wk-en" lang="en" data-noi18n>${esc(s.en)}</p>`:""}
     <label class="small muted" for="mg-zh-in">${(s.wk&&s.wk.state==="ok")||s.en?"中文释义（可选）":"中文释义"}</label>
-    <input type="text" id="mg-zh-in" value="${esc(s.zh)}" placeholder="${aiState==="ready"?"":"需要的话自己补充"}" autocomplete="off">
+    <input type="text" id="mg-zh-in" value="${esc(s.zh)}" placeholder="${aiState==="ready"?"":"我的笔记"}" autocomplete="off">
     ${s.note?`<p class="small muted" style="margin:0" lang="zh" data-noi18n>${esc(s.note)}</p>`:""}
     ${s.sentence?`<p class="ex small" style="margin:0" lang="${lang()}">${esc(s.sentence)}</p>`:""}
     <div class="row"><button class="btn primary" id="mg-ssave" type="button">${s.have?"放进生词堆":"收进生词"}</button>${aiState==="ready"?`<button class="btn sm" id="mg-sai" type="button" ${s.state==="ai"?"disabled":""}>${s.state==="ai"?"查询中…":"用 Claude 查"}</button>`:""}<span class="small muted" id="mg-smsg"></span></div>`;
@@ -3334,7 +3334,7 @@ const UI_DICT=[
 ["这个词已经在词库里了，点保存会放进生词堆。", "This word is already in your list; saving puts it in the practice pile.", "Das Wort ist schon im Wortschatz; Speichern legt es in den Übungsstapel.", "Esta palavra já está no vocabulário; salvar a põe na pilha.", "這個詞已經在詞庫裡了，點儲存會放進生詞堆。"],
 ["中文释义", "Meaning (Chinese)", "Bedeutung (Chinesisch)", "Significado (chinês)", "中文釋義"],
 ["释义（中文）", "Meaning (Chinese)", "Bedeutung (Chinesisch)", "Significado (chinês)", "釋義（中文）"],
-["需要的话自己补充", "Add your own if needed", "Bei Bedarf selbst ergänzen", "Complete se precisar", "需要的話自己補充"],
+["我的笔记", "My notes", "Meine Notizen", "Minhas anotações", "我的筆記"],
 ["长按单词用 iPhone 翻译，再粘贴到这里", "Long-press the word, translate it with iPhone and paste here", "Wort lange drücken, mit dem iPhone übersetzen und hier einfügen", "Toque e segure a palavra, traduza no iPhone e cole aqui", "長按單詞用 iPhone 翻譯，再貼上到這裡"],
 ["放进生词堆", "Add to pile", "In den Stapel legen", "Pôr na pilha", "放進生詞堆"],
 ["收进生词", "Save word", "Wort speichern", "Guardar palavra", "收進生詞"],
