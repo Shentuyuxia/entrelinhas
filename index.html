@@ -25,10 +25,10 @@
   --a1:#4f7d3a; --a2:#2f7c76; --b1:#3b5b86; --b2:#6a5598; --c1:#9a4a6e; --c2:#8a4a2e;
   --ok:#2f7a55; --ok-soft:#dcebe2; --warn:#9a6f17; --warn-soft:#f3e9d3; --bad:#a8473a; --bad-soft:#f3e0dc;
   --scrim:rgba(20,30,34,.32); --pt-mark:#7ebdb2;
-  --f-word:"Source Serif 4", Georgia, "EL Kai", "PingFang SC", sans-serif;
-  --f-ui:"Source Sans 3", "EL Kai", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
-  --f-cn:"EL Kai", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --f-mono:"Source Sans 3", "EL Kai", sans-serif;
+  --f-word:"Source Serif 4", Georgia, "EL Hei", "PingFang SC", sans-serif;
+  --f-ui:"Source Sans 3", "EL Hei", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --f-cn:"EL Hei", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --f-mono:"Source Sans 3", "EL Hei", sans-serif;
   --r:12px; color-scheme:light;
 }
 @media (prefers-color-scheme: dark){ :root{
@@ -71,7 +71,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .brand h1 > span:first-child{font-family:var(--f-cn);font-weight:600;letter-spacing:.02em}
 .brand h1 .alt{font-family:var(--f-word);font-weight:500;font-style:italic;color:var(--muted);font-size:.78em;margin-left:.5em}
 html:not([lang^="zh"]) .brand h1 .alt{display:none}
-html[lang="zh-TW"]{--f-cn:"EL Kai","PingFang TC",sans-serif;--f-ui:"Source Sans 3","EL Kai","PingFang TC",sans-serif;--f-word:"Source Serif 4",Georgia,"EL Kai","PingFang TC",sans-serif}
+html[lang="zh-TW"]{--f-cn:"EL Hei","PingFang TC",sans-serif;--f-ui:"Source Sans 3","EL Hei","PingFang TC",sans-serif;--f-word:"Source Serif 4",Georgia,"EL Hei","PingFang TC",sans-serif}
 .brand p{margin:2px 0 0;color:var(--muted);font-size:13px}
 .langsw{display:flex;gap:4px;background:var(--sunk);padding:4px;border-radius:12px;flex-wrap:wrap}
 .langsw button{border:0;background:transparent;border-radius:9px;padding:7px 12px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;line-height:1.2;color:var(--muted)}
@@ -814,7 +814,7 @@ body{font-variant-numeric:tabular-nums}
 .brand h1 .alt{font-size:.74em!important}
 @media (max-width:640px){ .brand{gap:10px!important} .brand .mark{width:34px!important;height:34px!important;border-radius:8px!important} .brand h1{font-size:20px!important} }
 /* Chinese translation lines: Regular weight, larger, a hair heavier */
-.mg-zh[lang=zh],.ex .tr[lang=zh],.mg-gl dd span[lang=zh],.gl-v.zh{-webkit-text-stroke:.25px currentColor}
+
 .mg-zh[lang=zh],.mg-tr-zh{font-family:var(--f-cn)!important;font-weight:500!important;font-size:16.5px!important;color:color-mix(in srgb,var(--ink) 82%,var(--bg))!important;line-height:1.65;letter-spacing:.01em}
 .ex .tr[lang=zh]{font-family:var(--f-cn);font-weight:500;font-size:16px!important;color:color-mix(in srgb,var(--ink) 75%,var(--bg))}
 .gl-v.zh{font-weight:500!important}
@@ -846,8 +846,8 @@ body{font-variant-numeric:tabular-nums}
 .mg-gl{gap:16px 18px!important}
 .mg-gl dt{font-family:var(--f-word)!important;font-weight:600!important;font-size:18px!important;line-height:1.3;color:color-mix(in srgb,var(--acc) 60%,var(--ink))!important;margin-top:2px}
 .mg-gl dd{line-height:1.6!important}
-.mg-gl dd span[lang=en]{font-size:15.5px;color:color-mix(in srgb,var(--ink) 58%,var(--bg))!important;font-weight:400!important}
-.mg-gl dd span[lang=zh]{color:color-mix(in srgb,var(--ink) 50%,var(--bg))!important;margin-top:3px}
+.mg-gl dd span[lang=en]{font-size:15.5px;color:color-mix(in srgb,var(--ink) 46%,var(--bg))!important;font-weight:400!important}
+.mg-gl dd span[lang=zh]{color:color-mix(in srgb,var(--ink) 40%,var(--bg))!important;margin-top:3px}
 @media (max-width:480px){ .mg-gl{gap:4px!important} .mg-gl dd{margin-bottom:14px!important} }
 </style>
 </head>
