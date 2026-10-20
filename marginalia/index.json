@@ -1,6 +1,27 @@
 {
- "updated": "2026-10-19T17:54:41+00:00",
+ "updated": "2026-10-20T04:50:23+00:00",
  "days": [
+  {
+   "date": "2026-10-20",
+   "items": [
+    {
+     "i": 0,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-19",
    "items": [

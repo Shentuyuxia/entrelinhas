@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-20",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "de",
+      "level": "C1",
+      "kind": "picks",
+      "section": "Lesetipps",
+      "title": "Lesetipps für heute",
+      "dek": "Vom Strafgerichtshof unter Sanktionen bis zur Energiewende im Rückwärtsgang: Völkerrecht, Arbeit, Frauenrechte, Überwachung und Mathematik.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "taz",
+          "genre": "Reportage · Völkerrecht",
+          "title": "US-Sanktionen gegen IStGH: Die Richter und ihr Henker",
+          "author": "Christian Jakob",
+          "url": "https://taz.de/US-Sanktionen-gegen-IStGH/!6220564/",
+          "minutes": 12,
+          "en": "How Washington's sanctions against the International Criminal Court play out in the daily lives of its judges, told largely through the experience of judge Kimberly Prost. A sharp look at what happens to international law when a superpower turns against it.",
+          "zh": "美国制裁国际刑事法院，法官的日常生活因此受到怎样的影响。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Analyse · Energie & Wirtschaft",
+          "title": "Erneuerbare Energien: Reiches Rollback",
+          "author": "Anja Krüger, Nick Reimer",
+          "url": "https://taz.de/Erneuerbare-Energien/!6216523/",
+          "minutes": 8,
+          "en": "An analysis of economy minister Katherina Reiche's electricity-market bills, arguing they slow renewables without delivering the promised economic boost. Useful for following Germany's energy-transition debate.",
+          "zh": "分析经济部长赖歇的电力市场法案：放慢可再生能源，却难以提振经济。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Essay · Arbeit & Gesellschaft",
+          "title": "Psyche und Job: Kein Problem, Chef! Ahhhhhhhhhh!!!",
+          "author": "Konstantin Nowotny",
+          "url": "https://taz.de/Stress-Depression-Burn-out-Kein-Problem-Chef-Ahhhhhhhhhh/!6218231/",
+          "minutes": 10,
+          "en": "Why workloads keep rising despite digitalisation and AI, and how current labour policy adds to the pressure behind stress, depression and burnout. A sociological take on work with a lively, ironic voice.",
+          "zh": "数字化和AI并未减轻工作负担，为何倦怠与抑郁反而增多。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Reportage · Frauenrechte",
+          "title": "Genitalverstümmelung in Gambia: Wider die Rasierklinge",
+          "author": "Helena Kreiensiek",
+          "url": "https://taz.de/Genitalverstuemmelung-in-Gambia/!6205994/",
+          "minutes": 10,
+          "en": "Gambia's ban on female genital mutilation is under pressure as hardliners push to lift it; the reportage follows those defending it. A close-up of how hard-won women's rights can be rolled back.",
+          "zh": "冈比亚禁止女性割礼的法律正受到强硬派挑战，记者走访坚守禁令的人。"
+        },
+        {
+          "outlet": "netzpolitik.org",
+          "genre": "Analyse · Digitale Grundrechte",
+          "title": "Gesichtersuchmaschine PimEyes: Ein Verbot, das niemand durchsetzt",
+          "author": "Chris Köver",
+          "url": "https://netzpolitik.org/2026/gesichtersuchmaschine-pimeyes-ein-verbot-das-niemand-durchsetzt/",
+          "minutes": 7,
+          "en": "The EU AI Act bans scraping faces from the web for recognition databases, yet PimEyes keeps operating and the German regulator has not acted, while the government plans to let police use such services. A clear case study in the gap between law and enforcement.",
+          "zh": "欧盟AI法禁止抓取人脸建库，但PimEyes照常运营，监管机构却无作为。"
+        },
+        {
+          "outlet": "Spektrum der Wissenschaft",
+          "genre": "Wissenschaft · Kryptografie",
+          "title": "KI und Kryptografie: Mathematiker sind besorgt, dass KI unsere Verschlüsselungen knackt",
+          "url": "https://www.spektrum.de/news/mathematiker-sind-besorgt-dass-ki-unsere-verschluesselungen-knackt/2350038",
+          "minutes": 7,
+          "en": "As AI models grow rapidly better at mathematics, cryptographers worry that the hard problems underpinning encryption may not stay hard. Good science writing on where maths, security and AI meet.",
+          "zh": "AI数学能力飞速提升，密码学家担心加密的数学基础被攻破。"
+        }
+      ],
+      "glossary": [],
+      "questions": [],
+      "sources": []
+    },
+    {
+      "lang": "en",
+      "level": "C2",
+      "kind": "picks",
+      "section": "Reading list",
+      "title": "Today's reading list",
+      "dek": "Planetary justice, a data-center revolt, deaths under the border cameras, an AI proof in number theory, and what our gadgets do to our bodies.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "Aeon",
+          "genre": "Essay · International relations & climate",
+          "title": "Why we should heed Barbara Ward’s vision of planetary justice",
+          "author": "Or Rosenboim",
+          "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
+          "minutes": 17,
+          "en": "Rosenboim revisits the economist and journalist Barbara Ward, who treated prosperity, global equality and environmental protection as one planetary project. The essay takes her seriously while also criticising her paternalistic, Western-centred framing.",
+          "zh": "重读经济学家芭芭拉·沃德的“全球正义”构想：繁荣、平等与环保不可分割。"
+        },
+        {
+          "outlet": "The Verge (via Longreads)",
+          "genre": "Reportage · Technology & environment",
+          "title": "The People of Utah vs. Kevin O'Leary",
+          "author": "Josh Dzieza",
+          "url": "https://www.theverge.com/cs/features/993343/stratos-utah-kevin-oleary-data-center-backlash/",
+          "minutes": 25,
+          "en": "A gigantic data-center project in remote Utah, championed by Kevin O'Leary, meets fierce local resistance, with water and the shrinking Great Salt Lake at the heart of the fight. A vivid ground-level story about who pays for the AI boom.",
+          "zh": "犹他州超大数据中心计划遭当地居民强烈反对，焦点是水资源。"
+        },
+        {
+          "outlet": "MIT Technology Review (via Longreads)",
+          "genre": "Investigation · Migration",
+          "title": "She Died at the San Diego Border. A Surveillance Camera Was in Plain Sight.",
+          "author": "Lillian Perlmutter",
+          "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+          "minutes": 20,
+          "en": "In the Otay Mountain Wilderness, surveillance towers watch nearly everything, yet migrants keep dying there year after year. An investigation into what border technology does and does not do for human life.",
+          "zh": "圣地亚哥边境监控塔遍布山野，移民却依然年年死去。"
+        },
+        {
+          "outlet": "Quanta Magazine",
+          "genre": "Analysis · Mathematics",
+          "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+          "author": "Konstantin Kakaes",
+          "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+          "minutes": 15,
+          "en": "An OpenAI model produced a proof of a weaker cousin of the Riemann hypothesis, and human mathematicians have checked and explained it. Kakaes explores what the result means for prime numbers and for mathematics as a human practice.",
+          "zh": "AI证明了“准黎曼猜想”，数学家已验证——这对数学意味着什么？"
+        },
+        {
+          "outlet": "Aeon",
+          "genre": "Essay · Ideas & science",
+          "title": "The more we rely on tech, the more we deskill our bodies",
+          "author": "Melanie Challenger",
+          "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+          "minutes": 17,
+          "en": "Challenger argues that phones, GPS and AI erode skills like navigating, remembering and self-regulation, which only form through bodily practice. A thoughtful case that living bodies, not information systems, are where intelligence resides.",
+          "zh": "依赖科技让身体“去技能化”：导航、记忆和自我调节能力在退化。"
+        },
+        {
+          "outlet": "The Guardian",
+          "genre": "Browse · The Long Read",
+          "title": "The Long Read – latest essays",
+          "url": "https://www.theguardian.com/news/series/the-long-read",
+          "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+        },
+        {
+          "outlet": "The Atlantic",
+          "genre": "Browse · Ideas",
+          "title": "Ideas – essays and arguments",
+          "url": "https://www.theatlantic.com/ideas/",
+          "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+        }
+      ],
+      "note": "The Verge and MIT Technology Review pieces were found via Longreads' editors' picks; descriptions follow Longreads' summaries.",
+      "glossary": [],
+      "questions": [],
+      "sources": [
+        {
+          "title": "Longreads",
+          "url": "https://longreads.com/",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}
