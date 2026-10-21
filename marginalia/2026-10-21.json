@@ -1,420 +1,994 @@
 {
-  "date": "2026-10-21",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-10-21",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lesetipps",
+   "title": "Lesetipps für heute",
+   "dek": "Von Protesten gegen Rechenzentren über Abtreibungsrechte in Brasilien bis zur Vertreibung im Westjordanland – sechs Texte quer durch Technik, Gleichberechtigung, Migration, Umwelt und Weltpolitik.",
+   "paragraphs": [],
+   "picks": [
     {
-      "lang": "de",
-      "level": "C1",
-      "kind": "picks",
-      "section": "Lesetipps",
-      "title": "Lesetipps für heute",
-      "dek": "Von Protesten gegen Rechenzentren über Abtreibungsrechte in Brasilien bis zur Vertreibung im Westjordanland – sechs Texte quer durch Technik, Gleichberechtigung, Migration, Umwelt und Weltpolitik.",
-      "paragraphs": [],
-      "picks": [
-        {
-          "outlet": "taz",
-          "genre": "Reportage · Technologie & Politik",
-          "title": "Protest gegen Rechenzentren in den USA: Big Data, big Protest",
-          "author": "Sebastian Moll, Hansjürgen Mai",
-          "url": "https://taz.de/Protest-gegen-Rechenzentren-in-den-USA/!6220808/",
-          "minutes": 8,
-          "en": "Across the US, communities are pushing back against giant AI data centres over power, water and land use – and the fight may matter in the midterms. A good look at the physical footprint of the AI boom.",
-          "zh": "美国各地反对大型数据中心的抗议，AI热潮的现实代价。"
-        },
-        {
-          "outlet": "taz",
-          "genre": "Reportage · Gleichberechtigung",
-          "title": "Abtreibung in Brasilien: Mein Leben gehört wieder mir",
-          "author": "Christine Wollowski",
-          "url": "https://taz.de/Abtreibung-in-Brasilien/!6216959/",
-          "minutes": 8,
-          "en": "Abortion is illegal in Brazil but goes unpunished in certain cases – yet poorer women often don't know their rights. A reportage on access to reproductive rights, timely as Brazil heads to its presidential runoff.",
-          "zh": "巴西堕胎权：贫困女性往往不了解自己的权利。"
-        },
-        {
-          "outlet": "taz",
-          "genre": "Kommentar · Artenschutz",
-          "title": "Biodiversität: Die Lösung liegt auf der Alm",
-          "author": "Heike Holdinghausen",
-          "url": "https://taz.de/Konferenz-zum-Artenschutz/!6222644/",
-          "minutes": 4,
-          "en": "A short, pointed commentary on the biodiversity conference: saving species means changing farming and forestry – more forest and moorland, less fertiliser and livestock. Useful for opinion-writing vocabulary.",
-          "zh": "评论：保护物种必须改变农业和林业。"
-        },
-        {
-          "outlet": "Mediendienst Integration",
-          "genre": "Analyse · Migration",
-          "title": "Kurden in Deutschland: Zwischen Asyl, Engagement und antikurdischem Rassismus",
-          "author": "Donata Hasselmann, Johanna Koppmann",
-          "url": "https://mediendienst-integration.de/news/kurden-in-deutschland-zwischen-asyl-engagement-und-antikurdischem-rassismus/",
-          "minutes": 6,
-          "en": "Based on a new expert report, this explainer covers one of Germany's largest yet least visible immigrant communities: asylum trends, civic engagement and anti-Kurdish racism. Dense with facts and figures.",
-          "zh": "德国库尔德人：庇护、社会参与与歧视。"
-        },
-        {
-          "outlet": "netzpolitik.org",
-          "genre": "Kolumne · Digitales & Macht",
-          "title": "Degitalisierung: Allmacht und Ohnmacht",
-          "author": "Bianca Kastl",
-          "url": "https://netzpolitik.org/2026/degitalisierung-allmacht-und-ohnmacht/",
-          "minutes": 6,
-          "en": "A column arguing that unchecked power – whether given to intelligence services or to autonomous AI agents – tends to end in helplessness, and that trust must be earned through oversight. Witty, essayistic German.",
-          "zh": "专栏：无论情报机构还是AI代理，不受监督的权力终致无力。"
-        },
-        {
-          "outlet": "Le Monde diplomatique (deutsch)",
-          "genre": "Analyse · Internationale Politik",
-          "title": "Westjordanland – die große Vertreibung",
-          "author": "Amira Hass",
-          "url": "https://monde-diplomatique.de/artikel/!6215761",
-          "minutes": 12,
-          "en": "Veteran correspondent Amira Hass argues that settler violence in the West Bank is not the work of a fringe but is backed by the army and state institutions to push Palestinians out. Lead piece of the October issue; may require a subscription.",
-          "zh": "约旦河西岸定居者暴力与巴勒斯坦人被驱逐（可能需订阅）。"
-        }
-      ],
-      "glossary": [],
-      "questions": [],
-      "sources": []
+     "outlet": "taz",
+     "genre": "Reportage · Technologie & Politik",
+     "title": "Protest gegen Rechenzentren in den USA: Big Data, big Protest",
+     "author": "Sebastian Moll, Hansjürgen Mai",
+     "url": "https://taz.de/Protest-gegen-Rechenzentren-in-den-USA/!6220808/",
+     "minutes": 8,
+     "en": "Across the US, communities are pushing back against giant AI data centres over power, water and land use – and the fight may matter in the midterms. A good look at the physical footprint of the AI boom.",
+     "zh": "美国各地反对大型数据中心的抗议，AI热潮的现实代价。"
     },
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "picks",
-      "section": "Reading list",
-      "title": "Today's reading list",
-      "dek": "Reason versus optimisation, the Amazon on the ballot, fire-scarred tree rings, Louisiana's death row and an academic who said no to training AI.",
-      "paragraphs": [],
-      "picks": [
-        {
-          "outlet": "Aeon",
-          "genre": "Essay · Philosophy & AI",
-          "title": "Why real intelligence is something more than optimisation",
-          "author": "Sasha Mudd",
-          "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
-          "minutes": 19,
-          "en": "Mudd argues that treating intelligence as mere optimisation inherits Hume's view of reason as a tool, and draws on Kant and the Frankfurt School to defend reason's power to judge which ends are worth pursuing – something we shouldn't hand to machines.",
-          "zh": "智能不只是优化：为理性判断目的的能力辩护。"
-        },
-        {
-          "outlet": "Grist",
-          "genre": "Analysis · Climate & politics",
-          "title": "Brazil's election could determine the fate of the Amazon",
-          "author": "Clayton Aldern",
-          "url": "https://grist.org/international/brazil-election-runoff-amazon-deforestation-lula-bolsonaro",
-          "minutes": 8,
-          "en": "Ahead of the 25 October runoff between Lula and Flávio Bolsonaro, this piece lays out how the result could swing deforestation rates and push the rainforest toward a tipping point. Timely context for this weekend's vote.",
-          "zh": "巴西大选决选或将决定亚马逊雨林的命运。"
-        },
-        {
-          "outlet": "The New Yorker (via Longreads)",
-          "genre": "Science writing · History & ecology",
-          "title": "How Tree Rings Challenged the Myth of American Wilderness",
-          "author": "M.R. O'Connor",
-          "url": "https://www.newyorker.com/science/elements/how-tree-rings-challenged-the-myth-of-american-wilderness?src=longreads",
-          "en": "Picked by Longreads: fire scars preserved in ancient wood have persuaded many scientists that Indigenous peoples reshaped North America's landscapes long before Columbus.",
-          "zh": "树木年轮中的火痕：原住民早已塑造北美景观。"
-        },
-        {
-          "outlet": "The New Statesman (via Longreads)",
-          "genre": "Essay · Criminal justice",
-          "title": "In Trump's America, the Death Penalty Has Been Resurrected",
-          "author": "John Corley",
-          "url": "https://www.newstatesman.com/international-content/2026/10/in-trumps-america-the-death-penalty-has-been-resurrected?src=longreads",
-          "en": "Picked by Longreads: written from inside Louisiana's Angola prison, a first-hand account of how the state's return to executions after two decades is changing life on death row.",
-          "zh": "路易斯安那恢复死刑：死囚牢房内的亲历记述。"
-        },
-        {
-          "outlet": "Rest of World",
-          "genre": "Essay · Work & technology",
-          "title": "I refused to train the AI that could replace me",
-          "author": "James Maisiri",
-          "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
-          "minutes": 7,
-          "en": "A South African PhD is offered well-paid work teaching an AI to do an academic's job – exams, lectures, grading – and turns it down without being quite sure why. A short, honest personal essay on labour in the AI economy.",
-          "zh": "一位南非博士拒绝训练可能取代自己的AI。"
-        },
-        {
-          "outlet": "The Guardian",
-          "genre": "Browse · The Long Read",
-          "title": "The Long Read – latest essays",
-          "url": "https://www.theguardian.com/news/series/the-long-read",
-          "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
-        },
-        {
-          "outlet": "The Atlantic",
-          "genre": "Browse · Ideas",
-          "title": "Ideas – essays and arguments",
-          "url": "https://www.theatlantic.com/ideas/",
-          "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
-        }
-      ],
-      "note": "The Le Monde diplomatique and New Yorker links may be paywalled; the others are free to read.",
-      "glossary": [],
-      "questions": [],
-      "sources": [
-        {
-          "title": "Longreads",
-          "url": "https://longreads.com/",
-          "license": "link only"
-        }
-      ]
+     "outlet": "taz",
+     "genre": "Reportage · Gleichberechtigung",
+     "title": "Abtreibung in Brasilien: Mein Leben gehört wieder mir",
+     "author": "Christine Wollowski",
+     "url": "https://taz.de/Abtreibung-in-Brasilien/!6216959/",
+     "minutes": 8,
+     "en": "Abortion is illegal in Brazil but goes unpunished in certain cases – yet poorer women often don't know their rights. A reportage on access to reproductive rights, timely as Brazil heads to its presidential runoff.",
+     "zh": "巴西堕胎权：贫困女性往往不了解自己的权利。"
     },
     {
-      "lang": "de",
-      "level": "C1",
-      "kind": "news",
-      "section": "Technik & KI",
-      "title": "Wer beim Chatten mitliest",
-      "dek": "Eine Studie aus Madrid zeigt: Viele KI-Chatbots geben Informationen aus Gesprächen an Werbe- und Trackingdienste weiter – oft auch dann, wenn Nutzer Cookies ablehnen.",
-      "paragraphs": [
-        "Wer einen KI-Chatbot nach einer Krankheit oder einer Baufinanzierung fragt, geht meist davon aus, dass dieses Gespräch privat bleibt. Eine Untersuchung des Forschungsinstituts IMDEA Networks in Madrid stellt diese Annahme infrage. Wie netzpolitik.org berichtet, analysierte das Team neun verbreitete Dienste, darunter ChatGPT, Claude, Gemini, Grok, Meta AI, DeepSeek, Microsoft Copilot, Perplexity und Mistral. Die Studie wurde Ende September veröffentlicht.",
-        "Das Ergebnis: Sechs der neun Webversionen und drei von acht untersuchten Android-Apps übermittelten Informationen aus Unterhaltungen an Tracking- und Werbedienste. Zu den Empfängern zählten den Forschenden zufolge Google, Meta und TikTok. Weitergegeben wurden je nach Anbieter unterschiedliche Daten, etwa Nutzerkennungen, E-Mail-Adressen oder Links zu einzelnen Chats.",
-        "Besonders heikel sind die automatisch erzeugten Chat-Titel, denn sie fassen oft schon das Thema einer Anfrage zusammen. Laut der Studie gaben Gemini, Grok und Mistral solche Titel an Dritte weiter. Bei Grok kam hinzu, dass geteilte Gespräche standardmäßig öffentlich sind; in einem Fall erhielt TikTok sogar einen Screenshot. Als die Forschenden präparierte Links in geteilten Grok-Chats platzierten, registrierten sie 70 Zugriffe aus 14 Ländern, teils noch Tage später.",
-        "Auch die gewohnten Schutzmechanismen helfen nur begrenzt. Selbst nachdem alle nicht notwendigen Cookies abgelehnt worden waren, blieben 80,8 Prozent der beobachteten Tracker von Drittanbietern aktiv. Zwischen kostenlosen und bezahlten Konten fanden die Forschenden kaum Unterschiede. Der Forscher Narseo Vallina-Rodriguez warnt, die so gewonnenen Informationen ließen sich mit bestehenden Profilen bei Werbefirmen verknüpfen.",
-        "Die betroffenen Unternehmen reagierten zurückhaltend. Google erklärte, Google Analytics diene bei Gemini der technischen Überwachung von Leistung und Fehlern, und man halte sich an die europäischen Datenschutzregeln; auf die konkreten Befunde ging der Konzern nicht ein. xAI, Mistral und Perplexity antworteten laut netzpolitik.org nicht auf Anfragen.",
-        "Inzwischen beschäftigen sich die Aufsichtsbehörden mit dem Fall. Die Forschenden informierten im April europäische Datenschutzbehörden, und die spanische Behörde AEPD bat Ende Mai darum, das Thema im Europäischen Datenschutzausschuss zu beraten. Die Debatte dürfte sich verschärfen, weil OpenAI personalisierte Werbung in ChatGPT angekündigt hat, die sich auch auf Inhalte früherer Chats stützen soll. Die Berliner Datenschutzbeauftragte warnt bereits, dass dabei sensible persönliche Informationen für Werbezwecke ausgewertet werden könnten."
-      ],
-      "paragraphs_en": [
-        "Anyone who asks an AI chatbot about an illness or a mortgage usually assumes that the conversation stays private. A study by the IMDEA Networks research institute in Madrid calls this assumption into question. As netzpolitik.org reports, the team analysed nine widely used services, including ChatGPT, Claude, Gemini, Grok, Meta AI, DeepSeek, Microsoft Copilot, Perplexity and Mistral. The study was published at the end of September.",
-        "The result: six of the nine web versions and three of the eight Android apps examined passed information from conversations to tracking and advertising services. According to the researchers, the recipients included Google, Meta and TikTok. Depending on the provider, different data was passed on, such as user IDs, email addresses or links to individual chats.",
-        "The automatically generated chat titles are especially sensitive, because they often already sum up the subject of a request. According to the study, Gemini, Grok and Mistral passed such titles on to third parties. In Grok's case, shared conversations are also public by default; in one instance TikTok even received a screenshot. When the researchers placed decoy links in shared Grok chats, they recorded 70 visits from 14 countries, some of them days later.",
-        "The usual protective mechanisms help only to a limited extent. Even after all non-essential cookies had been rejected, 80.8 per cent of the third-party trackers observed remained active. The researchers found hardly any difference between free and paid accounts. Researcher Narseo Vallina-Rodriguez warns that the information obtained in this way could be linked to existing profiles held by advertising companies.",
-        "The companies concerned reacted cautiously. Google stated that Google Analytics is used with Gemini to technically monitor performance and errors, and that it complies with European data protection rules; the company did not address the specific findings. According to netzpolitik.org, xAI, Mistral and Perplexity did not respond to requests.",
-        "The regulators are now dealing with the case. The researchers informed European data protection authorities in April, and at the end of May the Spanish authority AEPD asked for the issue to be discussed in the European Data Protection Board. The debate is likely to intensify because OpenAI has announced personalised advertising in ChatGPT that is also to draw on the content of earlier chats. The Berlin Data Protection Commissioner is already warning that sensitive personal information could be analysed for advertising purposes."
-      ],
-      "glossary": [
-        {
-          "w": "der Trackingdienst",
-          "en": "tracking service (follows users' online activity)",
-          "zh": "追踪服务"
-        },
-        {
-          "w": "übermitteln",
-          "en": "to transmit, to pass on",
-          "zh": "传送"
-        },
-        {
-          "w": "die Nutzerkennung",
-          "en": "user ID",
-          "zh": "用户识别码"
-        },
-        {
-          "w": "heikel",
-          "en": "delicate, sensitive, tricky",
-          "zh": "敏感的；棘手的"
-        },
-        {
-          "w": "standardmäßig",
-          "en": "by default",
-          "zh": "默认地"
-        },
-        {
-          "w": "präpariert",
-          "en": "prepared, rigged (here: decoy)",
-          "zh": "预先设置的"
-        },
-        {
-          "w": "der Drittanbieter",
-          "en": "third-party provider",
-          "zh": "第三方"
-        },
-        {
-          "w": "verknüpfen",
-          "en": "to link, to combine",
-          "zh": "关联，连接"
-        },
-        {
-          "w": "zurückhaltend",
-          "en": "reserved, cautious (not 'restrained' physically)",
-          "zh": "含糊的，克制的"
-        },
-        {
-          "w": "die Aufsichtsbehörde",
-          "en": "supervisory authority, regulator",
-          "zh": "监管机构"
-        },
-        {
-          "w": "der Datenschutzausschuss",
-          "en": "data protection board",
-          "zh": "数据保护委员会"
-        },
-        {
-          "w": "auswerten",
-          "en": "to analyse, to evaluate (data)",
-          "zh": "分析，评估"
-        }
-      ],
-      "grammar": "Indirect speech with Konjunktiv I and 'sollen': 'die so gewonnenen Informationen ließen sich … verknüpfen' (Konjunktiv II replaces Konjunktiv I when the forms coincide) and 'Werbung …, die sich … stützen soll' (sollen = 'is supposed to', reporting a plan). Both mark claims as someone else's.（间接引语：第一/第二虚拟式与 sollen 表示转述他人说法）",
-      "questions": [
-        "Welche Arten von Daten gaben die Chatbots laut Studie an Dritte weiter, und warum gelten Chat-Titel als besonders problematisch?",
-        "Warum reicht es offenbar nicht aus, Cookies abzulehnen?",
-        "Sollte personalisierte Werbung in KI-Chatbots erlaubt sein? Begründen Sie Ihre Meinung."
-      ],
-      "sources": [
-        {
-          "title": "netzpolitik.org: Carla Rochel, Werbeindustrie liest mit: KI-Chatbots schicken Inhalte aus Gesprächen an Tracking-Firmen (13.10.2026)",
-          "url": "https://netzpolitik.org/2026/werbeindustrie-liest-mit-ki-chatbots-schicken-inhalte-aus-gespraechen-an-tracking-firmen/",
-          "license": "CC BY-NC-SA 4.0"
-        }
-      ]
+     "outlet": "taz",
+     "genre": "Kommentar · Artenschutz",
+     "title": "Biodiversität: Die Lösung liegt auf der Alm",
+     "author": "Heike Holdinghausen",
+     "url": "https://taz.de/Konferenz-zum-Artenschutz/!6222644/",
+     "minutes": 4,
+     "en": "A short, pointed commentary on the biodiversity conference: saving species means changing farming and forestry – more forest and moorland, less fertiliser and livestock. Useful for opinion-writing vocabulary.",
+     "zh": "评论：保护物种必须改变农业和林业。"
     },
     {
-      "lang": "de",
-      "level": "B2",
-      "kind": "brief",
-      "section": "Hannover",
-      "title": "Neue Notunterkunft für wohnungslose Männer sofort voll",
-      "dek": "Weil ein altes Gebäude einsturzgefährdet ist, hat die Stadt rund 80 Männer kurzfristig in eine neue Unterkunft in der Kleefelder Straße gebracht.",
-      "paragraphs": [
-        "Die Stadt Hannover hat eine neue Unterkunft für wohnungslose Männer in der Kleefelder Straße schneller als geplant komplett belegt. Am 15. Oktober wurden rund 80 Männer aus einer städtischen Einrichtung an der Schulenburger Landstraße dorthin verlegt. Die neue Unterkunft hat höchstens 110 Plätze und ist jetzt voll.",
-        "Der Grund für den schnellen Umzug: Das alte Gebäude hat erhebliche bauliche Mängel, Teile davon sind sogar einsturzgefährdet. Deshalb musste es kurzfristig geräumt werden. Eigentlich wollte die Stadt die neue Unterkunft nach und nach belegen, doch ohne alle Plätze hätte es nicht genug Unterbringungsmöglichkeiten gegeben.",
-        "Die Stadt betont, dass die Unterbringung wohnungsloser Menschen zu ihren Pflichtaufgaben gehört und sie in akuten Notlagen sichere Schlafplätze anbieten muss. Sie will sich außerdem um ein gutes Verhältnis zur Nachbarschaft bemühen."
-      ],
-      "paragraphs_en": [
-        "The City of Hannover has filled a new shelter for homeless men on Kleefelder Straße faster than planned. On 15 October, around 80 men were moved there from a municipal facility on Schulenburger Landstraße. The new shelter has a maximum of 110 places and is now full.",
-        "The reason for the quick move: the old building has serious structural defects, and parts of it are even at risk of collapse. It therefore had to be cleared at short notice. The city had actually intended to fill the new shelter gradually, but without all the places there would not have been enough accommodation.",
-        "The city stresses that housing homeless people is one of its statutory duties and that it must offer safe places to sleep in acute emergencies. It also intends to work towards good relations with the neighbourhood."
-      ],
-      "glossary": [
-        {
-          "w": "wohnungslos",
-          "en": "homeless (without a home of one's own)",
-          "zh": "无家可归的"
-        },
-        {
-          "w": "die Unterkunft",
-          "en": "accommodation, shelter",
-          "zh": "住处，收容所"
-        },
-        {
-          "w": "belegen",
-          "en": "to occupy, to fill (places)",
-          "zh": "占用（床位）"
-        },
-        {
-          "w": "verlegen",
-          "en": "to relocate, to move (people)",
-          "zh": "转移，安置"
-        },
-        {
-          "w": "der Mangel",
-          "en": "defect, shortcoming",
-          "zh": "缺陷"
-        },
-        {
-          "w": "einsturzgefährdet",
-          "en": "at risk of collapse",
-          "zh": "有倒塌危险的"
-        },
-        {
-          "w": "räumen",
-          "en": "to clear, to evacuate (a building)",
-          "zh": "腾空，疏散"
-        },
-        {
-          "w": "die Pflichtaufgabe",
-          "en": "mandatory (statutory) duty",
-          "zh": "法定职责"
-        }
-      ],
-      "grammar": "Past subjunctive (Konjunktiv II Plusquamperfekt) for an unreal past: 'ohne alle Plätze hätte es nicht genug Unterbringungsmöglichkeiten gegeben' – 'without all the places there would not have been enough'.（过去虚拟式：表示与过去事实相反）",
-      "questions": [
-        "Warum mussten die Männer so schnell umziehen?",
-        "Was hatte die Stadt ursprünglich geplant?"
-      ],
-      "sources": [
-        {
-          "title": "hannover.de: Städtische Unterkunft in der Kleefelder Straße vollständig belegt",
-          "url": "https://www.hannover.de/Aus-Stadt-Region/Städtische-Unterkunft-in-der-Kleefelder-Straße-vollständig-belegt",
-          "license": "official"
-        }
-      ]
+     "outlet": "Mediendienst Integration",
+     "genre": "Analyse · Migration",
+     "title": "Kurden in Deutschland: Zwischen Asyl, Engagement und antikurdischem Rassismus",
+     "author": "Donata Hasselmann, Johanna Koppmann",
+     "url": "https://mediendienst-integration.de/news/kurden-in-deutschland-zwischen-asyl-engagement-und-antikurdischem-rassismus/",
+     "minutes": 6,
+     "en": "Based on a new expert report, this explainer covers one of Germany's largest yet least visible immigrant communities: asylum trends, civic engagement and anti-Kurdish racism. Dense with facts and figures.",
+     "zh": "德国库尔德人：庇护、社会参与与歧视。"
     },
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "feature",
-      "section": "Climate & Politics",
-      "title": "A rainforest on the ballot",
-      "dek": "When Brazilians choose between Lula da Silva and Flávio Bolsonaro on 25 October, they will also be settling, at least for four years, how close the Amazon is pushed towards a point of no return. Yet the farm lobby may already have won, whoever takes the presidency.",
-      "paragraphs": [
-        "Elections are rarely decided on environmental grounds, but some carry ecological consequences far beyond the borders of the country that holds them. Brazil's presidential runoff on 25 October is one of these. It pits the incumbent, Luiz Inácio Lula da Silva, against Senator Flávio Bolsonaro, son of the former president Jair Bolsonaro, and, as Clayton Aldern reports for Grist in a piece co-published with Agência Pública, the result will shape the trajectory of the world's largest tropical forest.",
-        "The first round on 4 October did not go well for the incumbent. Neither man cleared the 50 percent threshold, but Bolsonaro finished roughly 2.2 million votes ahead, and his party took 121 seats in the lower house, the largest bloc any party has held since the 1988 constitution, according to a Correio da Manhã report cited by Grist. The geography of Lula's losses is telling: his vote share slipped almost everywhere compared with 2022, but by 2.2 points where farming accounts for less than 5 percent of the local economy and by 7.8 points where it exceeds half.",
-        "On paper, the two candidates' pledges sound close; in substance, they diverge sharply. Lula has promised net-zero deforestation by 2030, while Bolsonaro offers zero illegal deforestation by 2029 alongside a faster, 'modern' licensing regime. The qualifier matters, because Brazil's Forest Code still lets owners clear up to a fifth of an Amazon property legally. At the same time, the monitoring network MapBiomas estimated that 97 percent of clearing in 2025 bore signs of illegality, which suggests that the real contest is less about the law on the books than about the will to enforce it. The country's main agribusiness caucus has endorsed Bolsonaro, and he has said it will pick his agriculture minister.",
-        "The historical record gives both camps something to point to, and critics of the Bolsonaro family a great deal. Satellite data from Brazil's space research institute, INPE, show clearing in the Legal Amazon peaking near 10,700 square miles in 2004, falling to about 1,800 by 2012, climbing back to around 5,000 in 2021 under Jair Bolsonaro and dropping to roughly 2,200 in 2025 under Lula. Grist's projection is stark: four more years at the Bolsonaro-era pace would cost about 17,600 square miles of forest, against some 8,900 at last year's rate, a difference roughly the size of Belize. Monica de Bolle of the Peterson Institute argues that the elder Bolsonaro hollowed out the enforcement apparatus, and the climate scientist Carlos Nobre calls his son a climate denier; the Bolsonaro campaign did not respond to Grist's request for comment.",
-        "What makes these figures more than an accounting exercise is the prospect of a tipping point, beyond which parts of the forest could degrade into drier, savanna-like ecosystems. About 22 percent of the Brazilian Amazon has already been cleared. A 2018 analysis by Nobre and Thomas Lovejoy placed the danger threshold at 20 to 25 percent; a Nature study led by Nico Wunderling in May 2026 put it at 22 to 28 percent, in combination with 1.5 to 1.9 degrees of global warming by mid-century. Wunderling estimates that a return to Bolsonaro-era practices could push the forest into that zone by the mid-to-late 2030s, while the oceanographer Ronaldo Christofoletti likens precaution here to buying insurance against a risk that is uncertain but catastrophic.",
-        "Perhaps the most sobering point in the reporting is that the runoff may matter less than it appears. Sumaúma, an Amazon-based news outlet, found that half of the incoming lower house has voted to loosen environmental licensing and restrict Indigenous land claims, and de Bolle expects that even a re-elected Lula would govern from a position of weakness. Describing the vote as a referendum on the Amazon is, in that light, both accurate and incomplete. The forest's fate will be negotiated not only at the presidential palace but in a Congress where agribusiness has already consolidated its hold."
-      ],
-      "glossary": [
-        {
-          "w": "to pit A against B",
-          "en": "to set two people or groups in direct competition",
-          "zh": "使……对抗；让……相争"
-        },
-        {
-          "w": "a point of no return",
-          "en": "a stage after which it is impossible to reverse a process",
-          "zh": "不可逆转的临界点"
-        },
-        {
-          "w": "to clear a threshold",
-          "en": "to reach or exceed a required minimum level",
-          "zh": "越过门槛；达到规定线"
-        },
-        {
-          "w": "the qualifier matters",
-          "en": "a limiting word or phrase significantly changes the meaning of a statement",
-          "zh": "限定词至关重要"
-        },
-        {
-          "w": "to hollow out",
-          "en": "to weaken an institution by removing its substance while leaving its outward form",
-          "zh": "掏空；使空心化"
-        },
-        {
-          "w": "enforcement apparatus",
-          "en": "the agencies, staff and tools a state uses to make sure laws are obeyed",
-          "zh": "执法体系；执法机构"
-        },
-        {
-          "w": "a tipping point",
-          "en": "a critical point at which a small change triggers a large, often irreversible shift",
-          "zh": "临界点；引爆点"
-        },
-        {
-          "w": "to degrade into",
-          "en": "to deteriorate gradually into a poorer or simpler state",
-          "zh": "退化为……"
-        },
-        {
-          "w": "an accounting exercise",
-          "en": "a calculation done for its own sake, without real-world significance",
-          "zh": "纯粹的数字游戏；账面计算"
-        },
-        {
-          "w": "to consolidate one's hold",
-          "en": "to strengthen control or power so that it becomes more secure",
-          "zh": "巩固控制权；稳固地位"
-        },
-        {
-          "w": "sobering",
-          "en": "making one feel serious and thoughtful, often by revealing an unwelcome truth",
-          "zh": "令人清醒的；发人深省的"
-        }
-      ],
-      "grammar": "\"Less about the law on the books than about the will to enforce it\" uses the contrastive frame 'less about X than about Y' to shift emphasis from one explanation to another; 'on the books' is a fixed collocation meaning formally written into law.",
-      "questions": [
-        "Why does the difference between 'net-zero deforestation' and 'zero illegal deforestation' matter so much in the Brazilian context?",
-        "The article suggests the congressional results may outweigh the presidential runoff. What does this imply about where environmental policy is really made?",
-        "How should voters and governments weigh an uncertain but potentially irreversible risk, such as an Amazon tipping point, against immediate economic interests?"
-      ],
-      "sources": [
-        {
-          "title": "Grist / Agência Pública: Clayton Aldern, Brazil's election could determine the fate of the Amazon (15 October 2026)",
-          "url": "https://grist.org/international/brazil-election-runoff-amazon-deforestation-lula-bolsonaro/",
-          "license": "link only"
-        }
-      ]
+     "outlet": "netzpolitik.org",
+     "genre": "Kolumne · Digitales & Macht",
+     "title": "Degitalisierung: Allmacht und Ohnmacht",
+     "author": "Bianca Kastl",
+     "url": "https://netzpolitik.org/2026/degitalisierung-allmacht-und-ohnmacht/",
+     "minutes": 6,
+     "en": "A column arguing that unchecked power – whether given to intelligence services or to autonomous AI agents – tends to end in helplessness, and that trust must be earned through oversight. Witty, essayistic German.",
+     "zh": "专栏：无论情报机构还是AI代理，不受监督的权力终致无力。"
+    },
+    {
+     "outlet": "Le Monde diplomatique (deutsch)",
+     "genre": "Analyse · Internationale Politik",
+     "title": "Westjordanland – die große Vertreibung",
+     "author": "Amira Hass",
+     "url": "https://monde-diplomatique.de/artikel/!6215761",
+     "minutes": 12,
+     "en": "Veteran correspondent Amira Hass argues that settler violence in the West Bank is not the work of a fringe but is backed by the army and state institutions to push Palestinians out. Lead piece of the October issue; may require a subscription.",
+     "zh": "约旦河西岸定居者暴力与巴勒斯坦人被驱逐（可能需订阅）。"
     }
-  ]
+   ],
+   "glossary": [],
+   "questions": [],
+   "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "picks",
+   "section": "Reading list",
+   "title": "Today's reading list",
+   "dek": "Reason versus optimisation, the Amazon on the ballot, fire-scarred tree rings, Louisiana's death row and an academic who said no to training AI.",
+   "paragraphs": [],
+   "picks": [
+    {
+     "outlet": "Aeon",
+     "genre": "Essay · Philosophy & AI",
+     "title": "Why real intelligence is something more than optimisation",
+     "author": "Sasha Mudd",
+     "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
+     "minutes": 19,
+     "en": "Mudd argues that treating intelligence as mere optimisation inherits Hume's view of reason as a tool, and draws on Kant and the Frankfurt School to defend reason's power to judge which ends are worth pursuing – something we shouldn't hand to machines.",
+     "zh": "智能不只是优化：为理性判断目的的能力辩护。"
+    },
+    {
+     "outlet": "Grist",
+     "genre": "Analysis · Climate & politics",
+     "title": "Brazil's election could determine the fate of the Amazon",
+     "author": "Clayton Aldern",
+     "url": "https://grist.org/international/brazil-election-runoff-amazon-deforestation-lula-bolsonaro",
+     "minutes": 8,
+     "en": "Ahead of the 25 October runoff between Lula and Flávio Bolsonaro, this piece lays out how the result could swing deforestation rates and push the rainforest toward a tipping point. Timely context for this weekend's vote.",
+     "zh": "巴西大选决选或将决定亚马逊雨林的命运。"
+    },
+    {
+     "outlet": "The New Yorker (via Longreads)",
+     "genre": "Science writing · History & ecology",
+     "title": "How Tree Rings Challenged the Myth of American Wilderness",
+     "author": "M.R. O'Connor",
+     "url": "https://www.newyorker.com/science/elements/how-tree-rings-challenged-the-myth-of-american-wilderness?src=longreads",
+     "en": "Picked by Longreads: fire scars preserved in ancient wood have persuaded many scientists that Indigenous peoples reshaped North America's landscapes long before Columbus.",
+     "zh": "树木年轮中的火痕：原住民早已塑造北美景观。"
+    },
+    {
+     "outlet": "The New Statesman (via Longreads)",
+     "genre": "Essay · Criminal justice",
+     "title": "In Trump's America, the Death Penalty Has Been Resurrected",
+     "author": "John Corley",
+     "url": "https://www.newstatesman.com/international-content/2026/10/in-trumps-america-the-death-penalty-has-been-resurrected?src=longreads",
+     "en": "Picked by Longreads: written from inside Louisiana's Angola prison, a first-hand account of how the state's return to executions after two decades is changing life on death row.",
+     "zh": "路易斯安那恢复死刑：死囚牢房内的亲历记述。"
+    },
+    {
+     "outlet": "Rest of World",
+     "genre": "Essay · Work & technology",
+     "title": "I refused to train the AI that could replace me",
+     "author": "James Maisiri",
+     "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
+     "minutes": 7,
+     "en": "A South African PhD is offered well-paid work teaching an AI to do an academic's job – exams, lectures, grading – and turns it down without being quite sure why. A short, honest personal essay on labour in the AI economy.",
+     "zh": "一位南非博士拒绝训练可能取代自己的AI。"
+    },
+    {
+     "outlet": "The Guardian",
+     "genre": "Browse · The Long Read",
+     "title": "The Long Read – latest essays",
+     "url": "https://www.theguardian.com/news/series/the-long-read",
+     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+    },
+    {
+     "outlet": "The Atlantic",
+     "genre": "Browse · Ideas",
+     "title": "Ideas – essays and arguments",
+     "url": "https://www.theatlantic.com/ideas/",
+     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+    }
+   ],
+   "note": "The Le Monde diplomatique and New Yorker links may be paywalled; the others are free to read.",
+   "glossary": [],
+   "questions": [],
+   "sources": [
+    {
+     "title": "Longreads",
+     "url": "https://longreads.com/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "news",
+   "section": "Technik & KI",
+   "title": "Wer beim Chatten mitliest",
+   "dek": "Eine Studie aus Madrid zeigt: Viele KI-Chatbots geben Informationen aus Gesprächen an Werbe- und Trackingdienste weiter – oft auch dann, wenn Nutzer Cookies ablehnen.",
+   "paragraphs": [
+    "Wer einen KI-Chatbot nach einer Krankheit oder einer Baufinanzierung fragt, geht meist davon aus, dass dieses Gespräch privat bleibt. Eine Untersuchung des Forschungsinstituts IMDEA Networks in Madrid stellt diese Annahme infrage. Wie netzpolitik.org berichtet, analysierte das Team neun verbreitete Dienste, darunter ChatGPT, Claude, Gemini, Grok, Meta AI, DeepSeek, Microsoft Copilot, Perplexity und Mistral. Die Studie wurde Ende September veröffentlicht.",
+    "Das Ergebnis: Sechs der neun Webversionen und drei von acht untersuchten Android-Apps übermittelten Informationen aus Unterhaltungen an Tracking- und Werbedienste. Zu den Empfängern zählten den Forschenden zufolge Google, Meta und TikTok. Weitergegeben wurden je nach Anbieter unterschiedliche Daten, etwa Nutzerkennungen, E-Mail-Adressen oder Links zu einzelnen Chats.",
+    "Besonders heikel sind die automatisch erzeugten Chat-Titel, denn sie fassen oft schon das Thema einer Anfrage zusammen. Laut der Studie gaben Gemini, Grok und Mistral solche Titel an Dritte weiter. Bei Grok kam hinzu, dass geteilte Gespräche standardmäßig öffentlich sind; in einem Fall erhielt TikTok sogar einen Screenshot. Als die Forschenden präparierte Links in geteilten Grok-Chats platzierten, registrierten sie 70 Zugriffe aus 14 Ländern, teils noch Tage später.",
+    "Auch die gewohnten Schutzmechanismen helfen nur begrenzt. Selbst nachdem alle nicht notwendigen Cookies abgelehnt worden waren, blieben 80,8 Prozent der beobachteten Tracker von Drittanbietern aktiv. Zwischen kostenlosen und bezahlten Konten fanden die Forschenden kaum Unterschiede. Der Forscher Narseo Vallina-Rodriguez warnt, die so gewonnenen Informationen ließen sich mit bestehenden Profilen bei Werbefirmen verknüpfen.",
+    "Die betroffenen Unternehmen reagierten zurückhaltend. Google erklärte, Google Analytics diene bei Gemini der technischen Überwachung von Leistung und Fehlern, und man halte sich an die europäischen Datenschutzregeln; auf die konkreten Befunde ging der Konzern nicht ein. xAI, Mistral und Perplexity antworteten laut netzpolitik.org nicht auf Anfragen.",
+    "Inzwischen beschäftigen sich die Aufsichtsbehörden mit dem Fall. Die Forschenden informierten im April europäische Datenschutzbehörden, und die spanische Behörde AEPD bat Ende Mai darum, das Thema im Europäischen Datenschutzausschuss zu beraten. Die Debatte dürfte sich verschärfen, weil OpenAI personalisierte Werbung in ChatGPT angekündigt hat, die sich auch auf Inhalte früherer Chats stützen soll. Die Berliner Datenschutzbeauftragte warnt bereits, dass dabei sensible persönliche Informationen für Werbezwecke ausgewertet werden könnten."
+   ],
+   "paragraphs_en": [
+    "Anyone who asks an AI chatbot about an illness or a mortgage usually assumes that the conversation stays private. A study by the IMDEA Networks research institute in Madrid calls this assumption into question. As netzpolitik.org reports, the team analysed nine widely used services, including ChatGPT, Claude, Gemini, Grok, Meta AI, DeepSeek, Microsoft Copilot, Perplexity and Mistral. The study was published at the end of September.",
+    "The result: six of the nine web versions and three of the eight Android apps examined passed information from conversations to tracking and advertising services. According to the researchers, the recipients included Google, Meta and TikTok. Depending on the provider, different data was passed on, such as user IDs, email addresses or links to individual chats.",
+    "The automatically generated chat titles are especially sensitive, because they often already sum up the subject of a request. According to the study, Gemini, Grok and Mistral passed such titles on to third parties. In Grok's case, shared conversations are also public by default; in one instance TikTok even received a screenshot. When the researchers placed decoy links in shared Grok chats, they recorded 70 visits from 14 countries, some of them days later.",
+    "The usual protective mechanisms help only to a limited extent. Even after all non-essential cookies had been rejected, 80.8 per cent of the third-party trackers observed remained active. The researchers found hardly any difference between free and paid accounts. Researcher Narseo Vallina-Rodriguez warns that the information obtained in this way could be linked to existing profiles held by advertising companies.",
+    "The companies concerned reacted cautiously. Google stated that Google Analytics is used with Gemini to technically monitor performance and errors, and that it complies with European data protection rules; the company did not address the specific findings. According to netzpolitik.org, xAI, Mistral and Perplexity did not respond to requests.",
+    "The regulators are now dealing with the case. The researchers informed European data protection authorities in April, and at the end of May the Spanish authority AEPD asked for the issue to be discussed in the European Data Protection Board. The debate is likely to intensify because OpenAI has announced personalised advertising in ChatGPT that is also to draw on the content of earlier chats. The Berlin Data Protection Commissioner is already warning that sensitive personal information could be analysed for advertising purposes."
+   ],
+   "glossary": [
+    {
+     "w": "der Trackingdienst",
+     "en": "tracking service (follows users' online activity)",
+     "zh": "追踪服务"
+    },
+    {
+     "w": "übermitteln",
+     "en": "to transmit, to pass on",
+     "zh": "传送"
+    },
+    {
+     "w": "die Nutzerkennung",
+     "en": "user ID",
+     "zh": "用户识别码"
+    },
+    {
+     "w": "heikel",
+     "en": "delicate, sensitive, tricky",
+     "zh": "敏感的；棘手的"
+    },
+    {
+     "w": "standardmäßig",
+     "en": "by default",
+     "zh": "默认地"
+    },
+    {
+     "w": "präpariert",
+     "en": "prepared, rigged (here: decoy)",
+     "zh": "预先设置的"
+    },
+    {
+     "w": "der Drittanbieter",
+     "en": "third-party provider",
+     "zh": "第三方"
+    },
+    {
+     "w": "verknüpfen",
+     "en": "to link, to combine",
+     "zh": "关联，连接"
+    },
+    {
+     "w": "zurückhaltend",
+     "en": "reserved, cautious (not 'restrained' physically)",
+     "zh": "含糊的，克制的"
+    },
+    {
+     "w": "die Aufsichtsbehörde",
+     "en": "supervisory authority, regulator",
+     "zh": "监管机构"
+    },
+    {
+     "w": "der Datenschutzausschuss",
+     "en": "data protection board",
+     "zh": "数据保护委员会"
+    },
+    {
+     "w": "auswerten",
+     "en": "to analyse, to evaluate (data)",
+     "zh": "分析，评估"
+    }
+   ],
+   "grammar": "Indirect speech with Konjunktiv I and 'sollen': 'die so gewonnenen Informationen ließen sich … verknüpfen' (Konjunktiv II replaces Konjunktiv I when the forms coincide) and 'Werbung …, die sich … stützen soll' (sollen = 'is supposed to', reporting a plan). Both mark claims as someone else's.（间接引语：第一/第二虚拟式与 sollen 表示转述他人说法）",
+   "questions": [
+    "Welche Arten von Daten gaben die Chatbots laut Studie an Dritte weiter, und warum gelten Chat-Titel als besonders problematisch?",
+    "Warum reicht es offenbar nicht aus, Cookies abzulehnen?",
+    "Sollte personalisierte Werbung in KI-Chatbots erlaubt sein? Begründen Sie Ihre Meinung."
+   ],
+   "sources": [
+    {
+     "title": "netzpolitik.org: Carla Rochel, Werbeindustrie liest mit: KI-Chatbots schicken Inhalte aus Gesprächen an Tracking-Firmen (13.10.2026)",
+     "url": "https://netzpolitik.org/2026/werbeindustrie-liest-mit-ki-chatbots-schicken-inhalte-aus-gespraechen-an-tracking-firmen/",
+     "license": "CC BY-NC-SA 4.0"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "B2",
+   "kind": "brief",
+   "section": "Hannover",
+   "title": "Neue Notunterkunft für wohnungslose Männer sofort voll",
+   "dek": "Weil ein altes Gebäude einsturzgefährdet ist, hat die Stadt rund 80 Männer kurzfristig in eine neue Unterkunft in der Kleefelder Straße gebracht.",
+   "paragraphs": [
+    "Die Stadt Hannover hat eine neue Unterkunft für wohnungslose Männer in der Kleefelder Straße schneller als geplant komplett belegt. Am 15. Oktober wurden rund 80 Männer aus einer städtischen Einrichtung an der Schulenburger Landstraße dorthin verlegt. Die neue Unterkunft hat höchstens 110 Plätze und ist jetzt voll.",
+    "Der Grund für den schnellen Umzug: Das alte Gebäude hat erhebliche bauliche Mängel, Teile davon sind sogar einsturzgefährdet. Deshalb musste es kurzfristig geräumt werden. Eigentlich wollte die Stadt die neue Unterkunft nach und nach belegen, doch ohne alle Plätze hätte es nicht genug Unterbringungsmöglichkeiten gegeben.",
+    "Die Stadt betont, dass die Unterbringung wohnungsloser Menschen zu ihren Pflichtaufgaben gehört und sie in akuten Notlagen sichere Schlafplätze anbieten muss. Sie will sich außerdem um ein gutes Verhältnis zur Nachbarschaft bemühen."
+   ],
+   "paragraphs_en": [
+    "The City of Hannover has filled a new shelter for homeless men on Kleefelder Straße faster than planned. On 15 October, around 80 men were moved there from a municipal facility on Schulenburger Landstraße. The new shelter has a maximum of 110 places and is now full.",
+    "The reason for the quick move: the old building has serious structural defects, and parts of it are even at risk of collapse. It therefore had to be cleared at short notice. The city had actually intended to fill the new shelter gradually, but without all the places there would not have been enough accommodation.",
+    "The city stresses that housing homeless people is one of its statutory duties and that it must offer safe places to sleep in acute emergencies. It also intends to work towards good relations with the neighbourhood."
+   ],
+   "glossary": [
+    {
+     "w": "wohnungslos",
+     "en": "homeless (without a home of one's own)",
+     "zh": "无家可归的"
+    },
+    {
+     "w": "die Unterkunft",
+     "en": "accommodation, shelter",
+     "zh": "住处，收容所"
+    },
+    {
+     "w": "belegen",
+     "en": "to occupy, to fill (places)",
+     "zh": "占用（床位）"
+    },
+    {
+     "w": "verlegen",
+     "en": "to relocate, to move (people)",
+     "zh": "转移，安置"
+    },
+    {
+     "w": "der Mangel",
+     "en": "defect, shortcoming",
+     "zh": "缺陷"
+    },
+    {
+     "w": "einsturzgefährdet",
+     "en": "at risk of collapse",
+     "zh": "有倒塌危险的"
+    },
+    {
+     "w": "räumen",
+     "en": "to clear, to evacuate (a building)",
+     "zh": "腾空，疏散"
+    },
+    {
+     "w": "die Pflichtaufgabe",
+     "en": "mandatory (statutory) duty",
+     "zh": "法定职责"
+    }
+   ],
+   "grammar": "Past subjunctive (Konjunktiv II Plusquamperfekt) for an unreal past: 'ohne alle Plätze hätte es nicht genug Unterbringungsmöglichkeiten gegeben' – 'without all the places there would not have been enough'.（过去虚拟式：表示与过去事实相反）",
+   "questions": [
+    "Warum mussten die Männer so schnell umziehen?",
+    "Was hatte die Stadt ursprünglich geplant?"
+   ],
+   "sources": [
+    {
+     "title": "hannover.de: Städtische Unterkunft in der Kleefelder Straße vollständig belegt",
+     "url": "https://www.hannover.de/Aus-Stadt-Region/Städtische-Unterkunft-in-der-Kleefelder-Straße-vollständig-belegt",
+     "license": "official"
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "feature",
+   "section": "Climate & Politics",
+   "title": "A rainforest on the ballot",
+   "dek": "When Brazilians choose between Lula da Silva and Flávio Bolsonaro on 25 October, they will also be settling, at least for four years, how close the Amazon is pushed towards a point of no return. Yet the farm lobby may already have won, whoever takes the presidency.",
+   "paragraphs": [
+    "Elections are rarely decided on environmental grounds, but some carry ecological consequences far beyond the borders of the country that holds them. Brazil's presidential runoff on 25 October is one of these. It pits the incumbent, Luiz Inácio Lula da Silva, against Senator Flávio Bolsonaro, son of the former president Jair Bolsonaro, and, as Clayton Aldern reports for Grist in a piece co-published with Agência Pública, the result will shape the trajectory of the world's largest tropical forest.",
+    "The first round on 4 October did not go well for the incumbent. Neither man cleared the 50 percent threshold, but Bolsonaro finished roughly 2.2 million votes ahead, and his party took 121 seats in the lower house, the largest bloc any party has held since the 1988 constitution, according to a Correio da Manhã report cited by Grist. The geography of Lula's losses is telling: his vote share slipped almost everywhere compared with 2022, but by 2.2 points where farming accounts for less than 5 percent of the local economy and by 7.8 points where it exceeds half.",
+    "On paper, the two candidates' pledges sound close; in substance, they diverge sharply. Lula has promised net-zero deforestation by 2030, while Bolsonaro offers zero illegal deforestation by 2029 alongside a faster, 'modern' licensing regime. The qualifier matters, because Brazil's Forest Code still lets owners clear up to a fifth of an Amazon property legally. At the same time, the monitoring network MapBiomas estimated that 97 percent of clearing in 2025 bore signs of illegality, which suggests that the real contest is less about the law on the books than about the will to enforce it. The country's main agribusiness caucus has endorsed Bolsonaro, and he has said it will pick his agriculture minister.",
+    "The historical record gives both camps something to point to, and critics of the Bolsonaro family a great deal. Satellite data from Brazil's space research institute, INPE, show clearing in the Legal Amazon peaking near 10,700 square miles in 2004, falling to about 1,800 by 2012, climbing back to around 5,000 in 2021 under Jair Bolsonaro and dropping to roughly 2,200 in 2025 under Lula. Grist's projection is stark: four more years at the Bolsonaro-era pace would cost about 17,600 square miles of forest, against some 8,900 at last year's rate, a difference roughly the size of Belize. Monica de Bolle of the Peterson Institute argues that the elder Bolsonaro hollowed out the enforcement apparatus, and the climate scientist Carlos Nobre calls his son a climate denier; the Bolsonaro campaign did not respond to Grist's request for comment.",
+    "What makes these figures more than an accounting exercise is the prospect of a tipping point, beyond which parts of the forest could degrade into drier, savanna-like ecosystems. About 22 percent of the Brazilian Amazon has already been cleared. A 2018 analysis by Nobre and Thomas Lovejoy placed the danger threshold at 20 to 25 percent; a Nature study led by Nico Wunderling in May 2026 put it at 22 to 28 percent, in combination with 1.5 to 1.9 degrees of global warming by mid-century. Wunderling estimates that a return to Bolsonaro-era practices could push the forest into that zone by the mid-to-late 2030s, while the oceanographer Ronaldo Christofoletti likens precaution here to buying insurance against a risk that is uncertain but catastrophic.",
+    "Perhaps the most sobering point in the reporting is that the runoff may matter less than it appears. Sumaúma, an Amazon-based news outlet, found that half of the incoming lower house has voted to loosen environmental licensing and restrict Indigenous land claims, and de Bolle expects that even a re-elected Lula would govern from a position of weakness. Describing the vote as a referendum on the Amazon is, in that light, both accurate and incomplete. The forest's fate will be negotiated not only at the presidential palace but in a Congress where agribusiness has already consolidated its hold."
+   ],
+   "glossary": [
+    {
+     "w": "to pit A against B",
+     "en": "to set two people or groups in direct competition",
+     "zh": "使……对抗；让……相争"
+    },
+    {
+     "w": "a point of no return",
+     "en": "a stage after which it is impossible to reverse a process",
+     "zh": "不可逆转的临界点"
+    },
+    {
+     "w": "to clear a threshold",
+     "en": "to reach or exceed a required minimum level",
+     "zh": "越过门槛；达到规定线"
+    },
+    {
+     "w": "the qualifier matters",
+     "en": "a limiting word or phrase significantly changes the meaning of a statement",
+     "zh": "限定词至关重要"
+    },
+    {
+     "w": "to hollow out",
+     "en": "to weaken an institution by removing its substance while leaving its outward form",
+     "zh": "掏空；使空心化"
+    },
+    {
+     "w": "enforcement apparatus",
+     "en": "the agencies, staff and tools a state uses to make sure laws are obeyed",
+     "zh": "执法体系；执法机构"
+    },
+    {
+     "w": "a tipping point",
+     "en": "a critical point at which a small change triggers a large, often irreversible shift",
+     "zh": "临界点；引爆点"
+    },
+    {
+     "w": "to degrade into",
+     "en": "to deteriorate gradually into a poorer or simpler state",
+     "zh": "退化为……"
+    },
+    {
+     "w": "an accounting exercise",
+     "en": "a calculation done for its own sake, without real-world significance",
+     "zh": "纯粹的数字游戏；账面计算"
+    },
+    {
+     "w": "to consolidate one's hold",
+     "en": "to strengthen control or power so that it becomes more secure",
+     "zh": "巩固控制权；稳固地位"
+    },
+    {
+     "w": "sobering",
+     "en": "making one feel serious and thoughtful, often by revealing an unwelcome truth",
+     "zh": "令人清醒的；发人深省的"
+    }
+   ],
+   "grammar": "\"Less about the law on the books than about the will to enforce it\" uses the contrastive frame 'less about X than about Y' to shift emphasis from one explanation to another; 'on the books' is a fixed collocation meaning formally written into law.",
+   "questions": [
+    "Why does the difference between 'net-zero deforestation' and 'zero illegal deforestation' matter so much in the Brazilian context?",
+    "The article suggests the congressional results may outweigh the presidential runoff. What does this imply about where environmental policy is really made?",
+    "How should voters and governments weigh an uncertain but potentially irreversible risk, such as an Amazon tipping point, against immediate economic interests?"
+   ],
+   "sources": [
+    {
+     "title": "Grist / Agência Pública: Clayton Aldern, Brazil's election could determine the fate of the Amazon (15 October 2026)",
+     "url": "https://grist.org/international/brazil-election-runoff-amazon-deforestation-lula-bolsonaro/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Photographie",
+   "title": "Un photographe d'Abidjan",
+   "dek": "Paul Kodjo prend des photos à Abidjan. Aujourd'hui, ses photos sont à Paris.",
+   "paragraphs": [
+    "Paul Kodjo est photographe. Il vient de Côte d'Ivoire, un pays d'Afrique de l'Ouest. Sa ville, c'est Abidjan. Abidjan est une très grande ville, près de la mer.",
+    "Sur ses photos, il y a des jeunes. Ils portent des vêtements modernes et ils sont très élégants. Ils sont dans la rue, dans un appartement ou dans un bar. Souvent, les photos racontent une histoire d'amour, avec un homme et une femme.",
+    "Aujourd'hui, les photos de Paul Kodjo sont dans un musée à Paris. Le musée s'appelle le Palais de Tokyo. L'exposition est ouverte jusqu'en février. Le billet coûte 13 euros. C'est une belle visite pour regarder l'Afrique avec les yeux d'un Africain !"
+   ],
+   "paragraphs_en": [
+    "Paul Kodjo is a photographer. He comes from Côte d'Ivoire, a country in West Africa. His city is Abidjan. Abidjan is a very big city, near the sea.",
+    "In his photos, there are young people. They wear modern clothes and they are very elegant. They are in the street, in a flat or in a bar. Often, the photos tell a love story, with a man and a woman.",
+    "Today, Paul Kodjo's photos are in a museum in Paris. The museum is called the Palais de Tokyo. The exhibition is open until February. A ticket costs 13 euros. It is a lovely visit to look at Africa through the eyes of an African!"
+   ],
+   "glossary": [
+    {
+     "w": "le photographe",
+     "en": "photographer",
+     "zh": "摄影师"
+    },
+    {
+     "w": "venir de",
+     "en": "to come from",
+     "zh": "来自"
+    },
+    {
+     "w": "le pays",
+     "en": "country",
+     "zh": "国家"
+    },
+    {
+     "w": "les vêtements",
+     "en": "clothes",
+     "zh": "衣服"
+    },
+    {
+     "w": "élégant",
+     "en": "elegant, stylish",
+     "zh": "优雅的"
+    },
+    {
+     "w": "une histoire d'amour",
+     "en": "a love story",
+     "zh": "爱情故事"
+    },
+    {
+     "w": "le musée",
+     "en": "museum",
+     "zh": "博物馆"
+    },
+    {
+     "w": "le billet",
+     "en": "ticket",
+     "zh": "门票"
+    }
+   ],
+   "grammar": "« Il y a » means \"there is / there are\" and never changes: il y a un photographe, il y a des jeunes. （il y a＝有，单复数不变）",
+   "questions": [
+    "Paul Kodjo vient de quel pays ?",
+    "Qu'est-ce qu'il y a sur ses photos ?",
+    "Où sont les photos aujourd'hui ?"
+   ],
+   "sources": [
+    {
+     "title": "Palais de Tokyo — Photoromance (Paul Kodjo)",
+     "url": "https://palaisdetokyo.com/exposition/photoromance/",
+     "license": "official"
+    },
+    {
+     "title": "Sortiraparis — Paul Kodjo : Photoromance, l'exposition photo qui raconte Abidjan au Palais de Tokyo",
+     "url": "https://www.sortiraparis.com/arts-culture/exposition/articles/354737-paul-kodjo-photoromance-l-exposition-photo-qui-raconte-abidjan-au-palais-de-tokyo",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "A2",
+   "kind": "feature",
+   "section": "Photographie",
+   "title": "Des histoires d'amour en photos",
+   "dek": "Dans les années 1970, Paul Kodjo a raconté Abidjan avec des photoromans. Un musée parisien les montre à partir d'aujourd'hui.",
+   "paragraphs": [
+    "Paul Kodjo est un photographe de Côte d'Ivoire. Il est né en 1939 à Abidjan, la plus grande ville du pays, et il est mort en 2021. À partir d'aujourd'hui, le Palais de Tokyo, un musée d'art à Paris, montre ses images. Cet été, elles ont déjà été exposées à Arles, dans le sud de la France.",
+    "Dans les années 1970, Paul Kodjo a fait des photoromans. Un photoroman, c'est une histoire avec des photos et un peu de texte, comme une bande dessinée avec de vraies personnes. Ses histoires parlent d'amour, avec beaucoup de surprises. Un magazine d'Abidjan, Ivoire Dimanche, les a publiées à partir de 1971.",
+    "Sur les photos, on voit la ville, la mode et la vie de la nuit. Les jeunes ont de beaux vêtements et ils sortent beaucoup. Pour la Côte d'Ivoire, c'est une période de forte croissance économique : on l'appelle le « miracle ivoirien ».",
+    "Mais ces photos ont presque disparu : elles sont restées longtemps dans une vieille malle en fer. Un autre photographe ivoirien, Ananias Léki Dago, les a sauvées. Vous allez pouvoir voir l'exposition jusqu'au 14 février 2027."
+   ],
+   "paragraphs_en": [
+    "Paul Kodjo is a photographer from Côte d'Ivoire. He was born in 1939 in Abidjan, the country's largest city, and he died in 2021. From today, the Palais de Tokyo, an art museum in Paris, is showing his pictures. This summer, they were already exhibited in Arles, in the south of France.",
+    "In the 1970s, Paul Kodjo made photo-novels. A photo-novel is a story with photos and a little text, like a comic strip with real people. His stories are about love, with lots of surprises. A magazine in Abidjan, Ivoire Dimanche, published them from 1971.",
+    "In the photos you see the city, fashion and nightlife. The young people have beautiful clothes and they go out a lot. For Côte d'Ivoire, it is a period of strong economic growth: it is called the \"Ivorian miracle\".",
+    "But these photos almost disappeared: they stayed for a long time in an old iron trunk. Another Ivorian photographer, Ananias Léki Dago, saved them. You will be able to see the exhibition until 14 February 2027."
+   ],
+   "glossary": [
+    {
+     "w": "à partir de",
+     "en": "from, starting from",
+     "zh": "从……起"
+    },
+    {
+     "w": "exposer",
+     "en": "to exhibit, to show",
+     "zh": "展出"
+    },
+    {
+     "w": "le photoroman",
+     "en": "photo-novel (story told in photos)",
+     "zh": "摄影小说"
+    },
+    {
+     "w": "la bande dessinée",
+     "en": "comic strip",
+     "zh": "漫画"
+    },
+    {
+     "w": "publier",
+     "en": "to publish",
+     "zh": "出版、刊登"
+    },
+    {
+     "w": "la croissance",
+     "en": "growth",
+     "zh": "增长"
+    },
+    {
+     "w": "disparaître",
+     "en": "to disappear",
+     "zh": "消失"
+    },
+    {
+     "w": "la malle",
+     "en": "trunk (large box)",
+     "zh": "大箱子"
+    }
+   ],
+   "grammar": "Passé composé with « avoir »: when the direct object comes before the verb, the past participle agrees with it — « il les a sauvées », « un magazine les a publiées » (les = les photos / les histoires, feminine plural). （直接宾语前置时，过去分词要配合）",
+   "questions": [
+    "Qu'est-ce qu'un photoroman ?",
+    "Où est-ce qu'on a publié les histoires de Paul Kodjo ?",
+    "Qui a sauvé les photos ?"
+   ],
+   "sources": [
+    {
+     "title": "Palais de Tokyo — Photoromance (Paul Kodjo)",
+     "url": "https://palaisdetokyo.com/exposition/photoromance/",
+     "license": "official"
+    },
+    {
+     "title": "L'Œil de la photographie — Arles 2026 : Paul Kodjo : Photoromance",
+     "url": "https://loeildelaphotographie.com/en/arles-2026-paul-kodjo-photoromance/",
+     "license": "link only"
+    },
+    {
+     "title": "Aperture — The Quest to Protect the Father of Ivorian Photography (Tiana Reid, 2023)",
+     "url": "https://aperture.org/editorial/the-quest-to-protect-the-father-of-ivorian-photography/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Photographie",
+   "title": "Paul Kodjo raconte Abidjan en photos",
+   "dek": "Le Palais de Tokyo ouvre une exposition sur le photographe ivoirien, pionnier du photoroman en Afrique. Des images qui ont failli disparaître.",
+   "paragraphs": [
+    "Aujourd'hui, le Palais de Tokyo, un grand centre d'art contemporain à Paris, ouvre une exposition sur Paul Kodjo. Ce photographe est né en 1939 à Abidjan, en Côte d'Ivoire, et il est mort en 2021. L'exposition s'appelle « Photoromance » et elle dure jusqu'au 14 février 2027. Cet été, on pouvait déjà la voir aux Rencontres d'Arles, le grand festival de photographie du sud de la France.",
+    "En 1960, la Côte d'Ivoire devient indépendante de la France, et Paul Kodjo commence à photographier à cette époque. À la fin des années 1960, il part étudier à Paris, puis il rentre à Abidjan en 1970. Là, il crée une agence, MAMEDIS, qui fait de la photo, du cinéma et de l'édition. Il travaille aussi pour des bars, des boîtes de nuit et des créateurs de mode.",
+    "Paul Kodjo est surtout connu pour ses photoromans. Un photoroman, c'est une histoire racontée avec une série de photos mises en scène, des textes et des dialogues. À partir de 1971, l'hebdomadaire Ivoire Dimanche a publié ses histoires, par exemple « Deux femmes, un homme ». Ce sont des comédies romantiques, inspirées des romans-photos italiens, mais les scènes se passent dans les rues et dans les appartements d'Abidjan. D'après les organisateurs du festival d'Arles, ces photoromans ont ensuite influencé le cinéma et la télévision en Côte d'Ivoire, surtout dans les années 2000.",
+    "Sur ces images, on découvre une ville moderne et pleine d'énergie. On voit la mode, la vie nocturne et une jeunesse qui veut vivre autrement que ses parents. À cette époque, l'économie du pays grandit très vite : on parle du « miracle ivoirien ». Pour une fois, c'est un Africain qui raconte la vie des Africains, pour un public africain.",
+    "Pourtant, ces photos ont presque disparu. Paul Kodjo gardait ses négatifs dans une vieille malle en fer, et beaucoup se sont abîmés. Un autre photographe ivoirien, Ananias Léki Dago, l'a rencontré en 2002 et a récupéré ces archives. Les négatifs qui restaient ont été restaurés en France. Avec son association, il a travaillé pendant plus de quinze ans pour les sauver. Aujourd'hui, une université américaine aide aussi à protéger les négatifs."
+   ],
+   "paragraphs_en": [
+    "Today the Palais de Tokyo, a large contemporary art centre in Paris, opens an exhibition on Paul Kodjo. This photographer was born in 1939 in Abidjan, in Côte d'Ivoire, and he died in 2021. The exhibition is called \"Photoromance\" and runs until 14 February 2027. This summer, you could already see it at the Rencontres d'Arles, the big photography festival in the south of France.",
+    "In 1960, Côte d'Ivoire becomes independent from France, and Paul Kodjo starts taking photographs at that time. At the end of the 1960s, he goes to study in Paris, then he returns to Abidjan in 1970. There, he creates an agency, MAMEDIS, which does photography, cinema and publishing. He also works for bars, nightclubs and fashion designers.",
+    "Paul Kodjo is best known for his photo-novels. A photo-novel is a story told with a series of staged photos, texts and dialogue. From 1971, the weekly Ivoire Dimanche published his stories, for example \"Deux femmes, un homme\" (Two women, one man). They are romantic comedies, inspired by Italian photo-novels, but the scenes take place in the streets and flats of Abidjan. According to the organisers of the Arles festival, these photo-novels later influenced cinema and television in Côte d'Ivoire, especially in the 2000s.",
+    "In these pictures, you discover a modern city full of energy. You see fashion, nightlife and young people who want to live differently from their parents. At that time, the country's economy is growing very fast: people talk about the \"Ivorian miracle\". For once, it is an African telling the lives of Africans, for an African audience.",
+    "Yet these photos almost disappeared. Paul Kodjo kept his negatives in an old iron trunk, and many were damaged. Another Ivorian photographer, Ananias Léki Dago, met him in 2002 and took over these archives. The remaining negatives were restored in France. With his association, he worked for more than fifteen years to save them. Today, an American university is also helping to protect the negatives."
+   ],
+   "glossary": [
+    {
+     "w": "devenir indépendant",
+     "en": "to become independent",
+     "zh": "独立"
+    },
+    {
+     "w": "l'agence (f.)",
+     "en": "agency",
+     "zh": "公司、机构"
+    },
+    {
+     "w": "la boîte de nuit",
+     "en": "nightclub",
+     "zh": "夜总会"
+    },
+    {
+     "w": "le créateur de mode",
+     "en": "fashion designer",
+     "zh": "时装设计师"
+    },
+    {
+     "w": "mis en scène",
+     "en": "staged",
+     "zh": "摆拍的、经过编排的"
+    },
+    {
+     "w": "l'hebdomadaire (m.)",
+     "en": "weekly (magazine)",
+     "zh": "周刊"
+    },
+    {
+     "w": "la vie nocturne",
+     "en": "nightlife",
+     "zh": "夜生活"
+    },
+    {
+     "w": "le négatif",
+     "en": "(photo) negative",
+     "zh": "底片"
+    },
+    {
+     "w": "s'abîmer",
+     "en": "to get damaged",
+     "zh": "损坏"
+    },
+    {
+     "w": "récupérer",
+     "en": "to take back, to recover",
+     "zh": "收回、接手"
+    }
+   ],
+   "grammar": "Imparfait vs passé composé: « Paul Kodjo gardait ses négatifs dans une malle » (imparfait = a background situation that lasted) / « beaucoup se sont abîmés » (passé composé = what happened). （未完成过去时描述背景，复合过去时叙述事件）",
+   "questions": [
+    "Qu'est-ce que Paul Kodjo a fait après son retour à Abidjan en 1970 ?",
+    "Qu'est-ce qu'on voit sur ses photoromans ?",
+    "Pourquoi ces photos ont-elles failli disparaître ?"
+   ],
+   "sources": [
+    {
+     "title": "Palais de Tokyo — Photoromance (Paul Kodjo)",
+     "url": "https://palaisdetokyo.com/exposition/photoromance/",
+     "license": "official"
+    },
+    {
+     "title": "Les Rencontres d'Arles 2026 — Paul Kodjo",
+     "url": "https://www.rencontres-arles.com/en/expositions/2026/paul-kodjo",
+     "license": "official"
+    },
+    {
+     "title": "L'Œil de la photographie — Arles 2026 : Paul Kodjo : Photoromance",
+     "url": "https://loeildelaphotographie.com/en/arles-2026-paul-kodjo-photoromance/",
+     "license": "link only"
+    },
+    {
+     "title": "Aperture — The Quest to Protect the Father of Ivorian Photography (Tiana Reid, 2023)",
+     "url": "https://aperture.org/editorial/the-quest-to-protect-the-father-of-ivorian-photography/",
+     "license": "link only"
+    },
+    {
+     "title": "Sortiraparis — Paul Kodjo : Photoromance, l'exposition photo qui raconte Abidjan au Palais de Tokyo",
+     "url": "https://www.sortiraparis.com/arts-culture/exposition/articles/354737-paul-kodjo-photoromance-l-exposition-photo-qui-raconte-abidjan-au-palais-de-tokyo",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Photographie",
+   "title": "Les romans-photos d'Abidjan, une mémoire sauvée de justesse",
+   "dek": "Avec « Photoromance », le Palais de Tokyo révèle l'œuvre du photographe ivoirien Paul Kodjo, chroniqueur d'une jeunesse post-indépendance. Une archive qui a bien failli disparaître.",
+   "paragraphs": [
+    "Le Palais de Tokyo, à Paris, présente depuis le 21 octobre « Photoromance », une rétrospective consacrée au photographe ivoirien Paul Kodjo (1939-2021). L'exposition, visible jusqu'au 14 février 2027, a d'abord été montrée cet été aux Rencontres d'Arles. C'est la première grande exposition personnelle de son œuvre en France, et une bonne partie des tirages n'avait encore jamais été exposée.",
+    "Né à Abidjan, Kodjo a commencé à photographier au moment où la Côte d'Ivoire devenait indépendante, en 1960. Après une formation à Paris à la fin des années 1960, il est rentré au pays en 1970 et a fondé MAMEDIS (Mass Media Service), une agence qui associait photographie, cinéma et édition. Selon la revue Aperture, il avait même été le seul photographe noir africain à couvrir Mai 68 à Paris, pour une agence de presse créée par le gouvernement ivoirien. Il répondait aussi à des commandes de bars, de boîtes de nuit, de créateurs de mode et de particuliers.",
+    "Sa grande spécialité, c'était le photoroman : un récit construit à partir de photographies mises en scène, accompagnées de textes et de dialogues. Dès 1971, l'hebdomadaire Ivoire Dimanche a publié ses histoires, comme « Notre enfant a sauvé notre amour ». Ces comédies sentimentales à rebondissements s'inspiraient des romans-photos italiens, mais elles étaient tournées dans les rues et les intérieurs d'Abidjan. Selon les Rencontres d'Arles, elles ont fixé des codes qui ont influencé la production audiovisuelle ivoirienne jusqu'aux années 2000.",
+    "Ces images racontent aussi une époque : celle du « miracle ivoirien », ces années 1960 et 1970 de forte croissance, largement liée aux exportations de café et de cacao, et qui s'essoufflera dans les années 1980. On y découvre la mode, les nuits d'Abidjan et une jeunesse urbaine qui veut s'émanciper des générations précédentes, y compris dans les relations entre hommes et femmes. On peut y voir une autre façon de raconter l'Afrique après la colonisation : non plus photographiée de l'extérieur, mais mise en scène par des Ivoiriens, pour un public ivoirien.",
+    "Ces photos reviennent pourtant de loin. Selon la revue américaine Aperture, Kodjo conservait ses négatifs dans une vieille malle en fer, où ils se dégradaient, et il était prêt à s'en débarrasser. Le photographe Ananias Léki Dago, qui l'a rencontré en 2002, a récupéré ce fonds et l'a fait restaurer avec son association, Les Rencontres du Sud. Environ 3 120 photographies ont été sauvées, mais beaucoup de négatifs sont perdus.",
+    "Depuis 2025, un programme de l'université UCLA, aux États-Unis, finance une nouvelle phase de préservation. Cette histoire soulève une question qui dépasse Kodjo : pourquoi la sauvegarde du patrimoine africain dépend-elle si souvent d'initiatives privées et d'institutions étrangères ? Le programme de UCLA rappelle d'ailleurs que de nombreuses archives ivoiriennes ont été privées de moyens, voire détruites, pendant les périodes de troubles."
+   ],
+   "paragraphs_en": [
+    "Since 21 October, the Palais de Tokyo in Paris has been presenting \"Photoromance\", a retrospective devoted to the Ivorian photographer Paul Kodjo (1939–2021). The exhibition, on view until 14 February 2027, was first shown this summer at the Rencontres d'Arles. It is the first major solo exhibition of his work in France, and many of the prints had never been exhibited before.",
+    "Born in Abidjan, Kodjo started taking photographs just as Côte d'Ivoire was becoming independent, in 1960. After training in Paris at the end of the 1960s, he returned home in 1970 and founded MAMEDIS (Mass Media Service), an agency combining photography, cinema and publishing. According to Aperture magazine, he had even been the only Black African photographer to cover May '68 in Paris, for a news agency set up by the Ivorian government. He also took commissions from bars, nightclubs, fashion designers and private clients.",
+    "His great speciality was the photo-novel: a story built from staged photographs, accompanied by text and dialogue. From 1971, the weekly Ivoire Dimanche published his stories, such as \"Notre enfant a sauvé notre amour\" (Our child saved our love). These romantic comedies full of twists drew on Italian photo-novels, but they were shot in the streets and homes of Abidjan. According to the Rencontres d'Arles, they set conventions that influenced Ivorian audiovisual production right up to the 2000s.",
+    "These images also tell the story of an era: that of the \"Ivorian miracle\", the 1960s and 1970s, years of strong growth, largely tied to coffee and cocoa exports, which would run out of steam in the 1980s. We discover fashion, Abidjan's nights and an urban youth that wants to break free from earlier generations, including in relations between men and women. One can see in them another way of telling Africa after colonisation: no longer photographed from the outside, but staged by Ivorians, for an Ivorian audience.",
+    "Yet these photos have come a long way. According to the American magazine Aperture, Kodjo kept his negatives in an old iron trunk, where they were deteriorating, and he was ready to get rid of them. The photographer Ananias Léki Dago, who met him in 2002, took over the collection and had it restored with his association, Les Rencontres du Sud. About 3,120 photographs were saved, but many negatives are lost.",
+    "Since 2025, a programme at the University of California, Los Angeles (UCLA) in the United States has been funding a new phase of preservation. This story raises a question that goes beyond Kodjo: why does safeguarding African heritage so often depend on private initiatives and foreign institutions? UCLA's programme itself points out that many Ivorian archives were deprived of funding, or even destroyed, during periods of unrest."
+   ],
+   "glossary": [
+    {
+     "w": "consacré à",
+     "en": "devoted to",
+     "zh": "专门介绍……的"
+    },
+    {
+     "w": "le tirage",
+     "en": "(photographic) print",
+     "zh": "照片冲印件"
+    },
+    {
+     "w": "la commande",
+     "en": "commission, order",
+     "zh": "委托、订单"
+    },
+    {
+     "w": "le particulier",
+     "en": "private individual",
+     "zh": "个人客户"
+    },
+    {
+     "w": "à rebondissements",
+     "en": "full of twists",
+     "zh": "情节曲折的"
+    },
+    {
+     "w": "s'émanciper de",
+     "en": "to break free from",
+     "zh": "摆脱、解放"
+    },
+    {
+     "w": "revenir de loin",
+     "en": "to have had a narrow escape",
+     "zh": "死里逃生"
+    },
+    {
+     "w": "se dégrader",
+     "en": "to deteriorate",
+     "zh": "变质、损坏"
+    },
+    {
+     "w": "se débarrasser de",
+     "en": "to get rid of",
+     "zh": "扔掉、摆脱"
+    },
+    {
+     "w": "le fonds",
+     "en": "collection (of archives)",
+     "zh": "藏品、档案全宗"
+    },
+    {
+     "w": "la sauvegarde",
+     "en": "safeguarding",
+     "zh": "保护"
+    }
+   ],
+   "grammar": "« Depuis » + present tense describes something that started in the past and still continues: « Le Palais de Tokyo présente depuis le 21 octobre… », « Depuis 2025, un programme finance… » — English uses the present perfect here (\"has been presenting\"). （depuis＋现在时＝持续至今）",
+   "questions": [
+    "Comment Paul Kodjo a-t-il adapté le modèle du roman-photo italien ?",
+    "Que montrent ses images de la société ivoirienne des années 1960 et 1970 ?",
+    "Quelle question l'histoire de ces archives pose-t-elle sur le patrimoine africain ?"
+   ],
+   "sources": [
+    {
+     "title": "Palais de Tokyo — Photoromance (Paul Kodjo)",
+     "url": "https://palaisdetokyo.com/exposition/photoromance/",
+     "license": "official"
+    },
+    {
+     "title": "Les Rencontres d'Arles 2026 — Paul Kodjo",
+     "url": "https://www.rencontres-arles.com/en/expositions/2026/paul-kodjo",
+     "license": "official"
+    },
+    {
+     "title": "L'Œil de la photographie — Arles 2026 : Paul Kodjo : Photoromance",
+     "url": "https://loeildelaphotographie.com/en/arles-2026-paul-kodjo-photoromance/",
+     "license": "link only"
+    },
+    {
+     "title": "Aperture — The Quest to Protect the Father of Ivorian Photography (Tiana Reid, 2023)",
+     "url": "https://aperture.org/editorial/the-quest-to-protect-the-father-of-ivorian-photography/",
+     "license": "link only"
+    },
+    {
+     "title": "UCLA Modern Endangered Archives Program — Imagining Ivorian Independence: The Photographic Archive of Paul Kodjo",
+     "url": "https://meap.library.ucla.edu/projects/imagining-ivorian-independence-the-photographic-archive-of-paul-kodjo",
+     "license": "official"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "C1",
+   "kind": "feature",
+   "section": "Photographie",
+   "title": "Paul Kodjo, l'Abidjan des photoromans sort de sa malle",
+   "dek": "Le Palais de Tokyo consacre une rétrospective au photographe ivoirien, pionnier du roman-photo en Afrique. Une archive sauvée in extremis — et une autre manière d'écrire l'histoire visuelle des indépendances.",
+   "paragraphs": [
+    "Pendant longtemps, les images de Paul Kodjo (1939-2021) ont dormi dans une malle en fer. D'après un essai publié par la revue américaine Aperture, les négatifs s'y dégradaient au milieu de la poussière et des feuilles mortes, et le photographe était prêt à s'en défaire. Elles occupent désormais les cimaises du Palais de Tokyo : « Photoromance », présentée du 21 octobre 2026 au 14 février 2027 après un premier passage aux Rencontres d'Arles cet été, est la première grande exposition personnelle de Kodjo en France.",
+    "Le parcours du photographe épouse celui de son pays. Né à Abidjan, il commence à photographier au tournant de l'indépendance, proclamée en 1960. À la fin de la décennie, il part se former à Paris ; Aperture rapporte qu'il fut le seul photographe noir africain à couvrir Mai 68, pour une agence de presse créée par le gouvernement de Félix Houphouët-Boigny. En 1970, il rentre à Abidjan et fonde MAMEDIS (Mass Media Service), une agence qui mêle photographie, cinéma et édition, tout en honorant des commandes de bars, de boîtes de nuit et de créateurs de mode.",
+    "C'est là qu'il trouve sa forme : le photoroman. À partir de 1971, l'hebdomadaire Ivoire Dimanche publie ses récits en images, aux titres éloquents — « Deux femmes, un homme », « Perdue et retrouvée ». Ces comédies sentimentales à rebondissements empruntent aux romans-photos européens, italiens surtout, mais elles sont tournées dans les rues et les intérieurs d'Abidjan. D'après les Rencontres d'Arles, leurs codes esthétiques et narratifs ont durablement marqué la production audiovisuelle ivoirienne, jusqu'à son âge d'or des années 2000.",
+    "Derrière les intrigues amoureuses affleure le portrait d'une société en pleine mutation : la mode, la vie nocturne, les intérieurs domestiques, et une jeunesse qui, selon le magazine Fisheye, entend vivre sa vie à sa manière, en rupture avec les générations précédentes. Le programme d'archives de l'université UCLA, qui soutient la numérisation du fonds, insiste sur le déplacement des normes sociales et des rôles de genre. Nous sommes au temps du « miracle ivoirien », ces deux décennies de forte croissance largement adossées aux exportations de café et de cacao, avant la crise des années 1980.",
+    "L'exposition invite ainsi à une question politique : qui écrit l'histoire visuelle des indépendances ? Les images de l'Afrique les plus diffusées ont longtemps été produites par des regards extérieurs, coloniaux puis journalistiques. Les photoromans de Kodjo montrent au contraire une société qui se met en scène elle-même, pour son propre public, avec ses désirs de confort et d'amour. On peut y lire une forme de souveraineté culturelle — sans oublier que ce rêve de modernité urbaine n'était pas partagé par tous.",
+    "Reste la fragilité des archives. Si ces images nous parviennent, c'est d'abord grâce au photographe Ananias Léki Dago, qui a rencontré Kodjo en 2002 et s'est vu confier la fameuse malle. Avec son association, Les Rencontres du Sud, il a mené plus de quinze ans de sauvegarde ; Aperture estime à environ 3 120 le nombre de photographies conservées, de nombreux négatifs ayant été perdus. Depuis 2025, une nouvelle phase de préservation est financée par le Modern Endangered Archives Program de UCLA, qui rappelle que bien des archives ivoiriennes ont été privées de moyens, voire détruites, lors des périodes de troubles.",
+    "Le montage dit beaucoup de l'économie de la mémoire : une initiative privée et obstinée à Abidjan, un financement universitaire américain, une consécration dans une institution parisienne. Le commissariat est confié à Amandine Nana, assistée de Candice Ratsimba, avec Ananias Léki Dago comme conseiller scientifique. Visiter « Photoromance », c'est donc regarder des histoires d'amour des années 1970, mais aussi se demander où, et par qui, le patrimoine photographique africain devrait être conservé."
+   ],
+   "paragraphs_en": [
+    "For a long time, Paul Kodjo's (1939–2021) images lay dormant in an iron trunk. According to an essay published by the American magazine Aperture, the negatives were deteriorating there amid dust and dead leaves, and the photographer was ready to part with them. They now hang on the walls of the Palais de Tokyo: \"Photoromance\", on show from 21 October 2026 to 14 February 2027 after a first stop at the Rencontres d'Arles this summer, is Kodjo's first major solo exhibition in France.",
+    "The photographer's path follows that of his country. Born in Abidjan, he began taking photographs around the time of independence, proclaimed in 1960. At the end of the decade he went to train in Paris; Aperture reports that he was the only Black African photographer to cover May '68, for a news agency set up by Félix Houphouët-Boigny's government. In 1970 he returned to Abidjan and founded MAMEDIS (Mass Media Service), an agency mixing photography, cinema and publishing, while also taking commissions from bars, nightclubs and fashion designers.",
+    "That is where he found his form: the photo-novel. From 1971, the weekly Ivoire Dimanche published his stories in pictures, with telling titles — \"Deux femmes, un homme\" (Two women, one man), \"Perdue et retrouvée\" (Lost and found). These romantic comedies full of twists borrowed from European photo-novels, Italian ones above all, but they were shot in the streets and homes of Abidjan. According to the Rencontres d'Arles, their aesthetic and narrative conventions left a lasting mark on Ivorian audiovisual production, up to its golden age in the 2000s.",
+    "Behind the love plots emerges the portrait of a society in full transformation: fashion, nightlife, domestic interiors, and a youth that, according to Fisheye magazine, intends to live life its own way, breaking with previous generations. The UCLA archive programme, which supports the digitisation of the collection, stresses the shift in social norms and gender roles. This is the time of the \"Ivorian miracle\", two decades of strong growth largely built on coffee and cocoa exports, before the crisis of the 1980s.",
+    "The exhibition thus raises a political question: who writes the visual history of independence? The most widely circulated images of Africa were long produced by outside eyes, colonial and then journalistic. Kodjo's photo-novels, by contrast, show a society staging itself, for its own audience, with its desires for comfort and love. One can read in them a form of cultural sovereignty — without forgetting that this dream of urban modernity was not shared by everyone.",
+    "Then there is the fragility of archives. If these images reach us, it is first of all thanks to the photographer Ananias Léki Dago, who met Kodjo in 2002 and was entrusted with the famous trunk. With his association, Les Rencontres du Sud, he carried out more than fifteen years of preservation work; Aperture puts the number of surviving photographs at about 3,120, many negatives having been lost. Since 2025, a new phase of preservation has been funded by UCLA's Modern Endangered Archives Program, which notes that many Ivorian archives were starved of funds, or even destroyed, during periods of unrest.",
+    "The arrangement says a lot about the economy of memory: a stubborn private initiative in Abidjan, American university funding, recognition in a Parisian institution. The exhibition is curated by Amandine Nana, assisted by Candice Ratsimba, with Ananias Léki Dago as scientific adviser. To visit \"Photoromance\" is therefore to look at love stories from the 1970s, but also to ask where, and by whom, Africa's photographic heritage ought to be kept."
+   ],
+   "glossary": [
+    {
+     "w": "se défaire de",
+     "en": "to part with, get rid of",
+     "zh": "舍弃"
+    },
+    {
+     "w": "les cimaises (f.)",
+     "en": "gallery walls (where works hang)",
+     "zh": "展墙"
+    },
+    {
+     "w": "épouser (un parcours)",
+     "en": "to follow closely, to mirror",
+     "zh": "与……相吻合"
+    },
+    {
+     "w": "au tournant de",
+     "en": "around the turn of",
+     "zh": "在……之际"
+    },
+    {
+     "w": "honorer une commande",
+     "en": "to fulfil a commission",
+     "zh": "完成委托"
+    },
+    {
+     "w": "éloquent",
+     "en": "telling, eloquent",
+     "zh": "意味深长的"
+    },
+    {
+     "w": "affleurer",
+     "en": "to surface, to show through",
+     "zh": "浮现"
+    },
+    {
+     "w": "en pleine mutation",
+     "en": "undergoing deep change",
+     "zh": "剧烈变革中"
+    },
+    {
+     "w": "adossé à",
+     "en": "backed by, built on",
+     "zh": "以……为依托"
+    },
+    {
+     "w": "se voir confier",
+     "en": "to be entrusted with",
+     "zh": "受托"
+    },
+    {
+     "w": "obstiné",
+     "en": "stubborn, persistent",
+     "zh": "执着的"
+    },
+    {
+     "w": "le commissariat (d'exposition)",
+     "en": "curatorship",
+     "zh": "策展"
+    }
+   ],
+   "grammar": "The perfect participle clause « de nombreux négatifs ayant été perdus » (absolute construction: noun + ayant + past participle) gives a cause or circumstance with its own subject, like English \"many negatives having been lost\". It is typical of formal written French. （独立分词结构，表原因或背景，书面语）",
+   "questions": [
+    "En quoi le parcours de Paul Kodjo « épouse »-t-il celui de la Côte d'Ivoire ?",
+    "Pourquoi l'auteur parle-t-il de « souveraineté culturelle » à propos des photoromans, et quelle nuance apporte-t-il ?",
+    "Que révèle l'histoire de cette archive sur la conservation du patrimoine photographique africain ?"
+   ],
+   "sources": [
+    {
+     "title": "Palais de Tokyo — Photoromance (Paul Kodjo)",
+     "url": "https://palaisdetokyo.com/exposition/photoromance/",
+     "license": "official"
+    },
+    {
+     "title": "Les Rencontres d'Arles 2026 — Paul Kodjo",
+     "url": "https://www.rencontres-arles.com/en/expositions/2026/paul-kodjo",
+     "license": "official"
+    },
+    {
+     "title": "L'Œil de la photographie — Arles 2026 : Paul Kodjo : Photoromance",
+     "url": "https://loeildelaphotographie.com/en/arles-2026-paul-kodjo-photoromance/",
+     "license": "link only"
+    },
+    {
+     "title": "Aperture — The Quest to Protect the Father of Ivorian Photography (Tiana Reid, 2023)",
+     "url": "https://aperture.org/editorial/the-quest-to-protect-the-father-of-ivorian-photography/",
+     "license": "link only"
+    },
+    {
+     "title": "UCLA Modern Endangered Archives Program — Imagining Ivorian Independence: The Photographic Archive of Paul Kodjo",
+     "url": "https://meap.library.ucla.edu/projects/imagining-ivorian-independence-the-photographic-archive-of-paul-kodjo",
+     "license": "official"
+    },
+    {
+     "title": "Fisheye — Photoromance : Paul Kodjo",
+     "url": "https://fisheyemagazine.fr/evenement/photoromance-paul-kodjo/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lectures",
+   "title": "Lectures du jour",
+   "dek": "D'un violon exilé de Gaza aux photographes africains d'Arles, en passant par Foucault et les routes de l'exil éthiopien : cinq lectures pour aujourd'hui.",
+   "paragraphs": [],
+   "picks": [
+    {
+     "outlet": "Politis",
+     "genre": "Entretien · Musique · abonnés",
+     "title": "Mohammed Hilles, violoniste : « Partir de Gaza a sauvé mon art »",
+     "author": "Charlotte Gauthier",
+     "url": "https://www.politis.fr/articles/2026/06/entretien-mohammed-hilles-partir-de-gaza-a-sauve-mon-art/",
+     "minutes": 7,
+     "en": "A 26-year-old violinist who left Gaza a little over a year ago to keep studying and playing in France talks about what exile cost him — part of Politis's dossier on music and resistance.",
+     "zh": "加沙小提琴手谈流亡与音乐。"
+    },
+    {
+     "outlet": "Politis",
+     "genre": "Idées · Philosophie · abonnés",
+     "title": "La consécration centenaire de Michel Foucault",
+     "author": "Olivier Doubre",
+     "url": "https://www.politis.fr/articles/2026/10/idees-la-consecration-centenaire-de-michel-foucault/",
+     "minutes": 8,
+     "en": "For the centenary of Foucault's birth, a look at why his work on power, reason, sexuality and illness is still being republished and debated worldwide — despite those who dismiss it as \"wokisme\".",
+     "zh": "福柯诞辰百年：权力与主体的思想遗产。"
+    },
+    {
+     "outlet": "Ancrages",
+     "genre": "Critique · Photographie",
+     "title": "Arles 2026 : les contre-récits de la photographie africaine et diasporique",
+     "author": "Samia Chabani",
+     "url": "https://ancrages.org/article/arles-2026-les-contre-recits-de-la-photographie-africaine-et-diasporique/",
+     "minutes": 10,
+     "en": "A walk through this year's Rencontres d'Arles — Bruno Boudjelal, Ming Smith, Ghanaian photography after independence, Julianknxx — asking who tells African stories, and from where. A good companion to today's Kodjo article.",
+     "zh": "阿尔勒摄影节里的非洲与离散叙事。"
+    },
+    {
+     "outlet": "Politis",
+     "genre": "Reportage · Migrations · abonnés",
+     "title": "Exilés éthiopiens : « Nous fuyons la mort, la faim et l'incertitude »",
+     "author": "Clara Nusaybi",
+     "url": "https://www.politis.fr/articles/2026/10/reportage-exiles-ethiopiens-nous-fuyons-la-mort-la-faim-et-lincertitude/",
+     "minutes": 9,
+     "en": "On the route from Ethiopia through Djibouti and Yemen to Saudi Arabia, taken by hundreds of thousands each year, and the clandestine economy of smugglers and officials that profits from it.",
+     "zh": "埃塞俄比亚移民穿越吉布提与也门的险路。"
+    },
+    {
+     "outlet": "Politis",
+     "genre": "Histoire · Société",
+     "title": "65 ans après le massacre du 17 octobre 1961, la même police",
+     "author": "Kamélia Ouaïssa",
+     "url": "https://www.politis.fr/articles/2026/10/histoire-coloniale-65-ans-apres-le-massacre-du-17-octobre-1961-la-meme-police/",
+     "minutes": 6,
+     "en": "Drawing on Mathieu Rigouste's idea of a \"colonial continuum\", the piece links the 1961 massacre of Algerians in Paris to today's policing of school protests.",
+     "zh": "1961年10月17日屠杀与今日警察暴力。"
+    }
+   ],
+   "glossary": [],
+   "questions": [],
+   "sources": []
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T06:08:46+00:00",
+ "updated": "2026-10-21T15:17:54+00:00",
  "days": [
   {
    "date": "2026-10-21",
@@ -42,6 +42,54 @@
      "title": "A rainforest on the ballot",
      "kind": "feature",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Un photographe d'Abidjan",
+     "kind": "feature",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Des histoires d'amour en photos",
+     "kind": "feature",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "fr",
+     "title": "Paul Kodjo raconte Abidjan en photos",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "fr",
+     "title": "Les romans-photos d'Abidjan, une mémoire sauvée de justesse",
+     "kind": "feature",
+     "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 9,
+     "lang": "fr",
+     "title": "Paul Kodjo, l'Abidjan des photoromans sort de sa malle",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 10,
+     "lang": "fr",
+     "title": "Lectures du jour",
+     "kind": "picks",
+     "level": "C1",
      "hour": null
     }
    ]
