@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T15:17:54+00:00",
+ "updated": "2026-10-21T17:54:20+00:00",
  "days": [
   {
    "date": "2026-10-21",
@@ -90,6 +90,22 @@
      "title": "Lectures du jour",
      "kind": "picks",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 11,
+     "lang": "pt",
+     "title": "O Tito na árvore",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 12,
+     "lang": "pt",
+     "title": "Comprando um chip de celular",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]

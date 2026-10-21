@@ -989,6 +989,217 @@
    "glossary": [],
    "questions": [],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Tito e Ana",
+   "series": {
+    "name": "Tito e Ana",
+    "episode": 6
+   },
+   "title": "O Tito na árvore",
+   "dek": "O Tito sobe muito alto. E agora?",
+   "paragraphs": [
+    "Hoje é sexta-feira. A festa foi ontem, e a casa amarela ainda tem um pouco de bolo. A Ana toma café na cozinha.",
+    "O Tito está no quintal. Ele vê um passarinho na árvore da Dona Rosa. O Tito sobe na árvore, rápido, rápido.",
+    "O passarinho voa para longe. O Tito olha para baixo. Nossa, é muito alto! Agora ele está com medo.",
+    "— Miau! Miau! — chora o Tito. Ele não sabe descer.",
+    "O Bolinha escuta. Ele corre até a casa amarela e late na porta: au, au, au! A Ana abre a porta. — O que foi, Bolinha?",
+    "O Bolinha corre para a árvore. A Ana vai atrás dele e olha para cima. — Tito! O que você está fazendo aí?",
+    "A Dona Rosa sai de casa. — Ai, meu Deus! A gente precisa de uma escada — diz ela. Mas a Dona Rosa não tem escada.",
+    "Nesse momento, o Seu João passa na rua com a bicicleta. — Eu tenho uma escada na padaria! — diz ele. Ele volta com a escada em cinco minutos.",
+    "A Ana sobe a escada devagar. — Calma, Tito. Vem cá — diz ela. O Tito pula nos braços da Ana.",
+    "Todos batem palmas. O Bolinha balança o rabo. E o Tito? Ele dorme o resto do dia no sofá, longe das árvores."
+   ],
+   "paragraphs_en": [
+    "Today is Friday. The party was yesterday, and the yellow house still has a little cake. Ana is having coffee in the kitchen.",
+    "Tito is in the yard. He sees a little bird in Dona Rosa's tree. Tito climbs the tree, quick, quick.",
+    "The little bird flies far away. Tito looks down. Wow, it's very high! Now he's scared.",
+    "\"Meow! Meow!\" Tito cries. He doesn't know how to get down.",
+    "Bolinha hears him. He runs to the yellow house and barks at the door: woof, woof, woof! Ana opens the door. \"What is it, Bolinha?\"",
+    "Bolinha runs to the tree. Ana follows him and looks up. \"Tito! What are you doing up there?\"",
+    "Dona Rosa comes out of her house. \"Oh my God! We need a ladder,\" she says. But Dona Rosa doesn't have a ladder.",
+    "At that moment, Seu João rides down the street on his bicycle. \"I have a ladder at the bakery!\" he says. He comes back with the ladder in five minutes.",
+    "Ana climbs the ladder slowly. \"Easy, Tito. Come here,\" she says. Tito jumps into Ana's arms.",
+    "Everyone claps. Bolinha wags his tail. And Tito? He sleeps the rest of the day on the sofa, far away from trees."
+   ],
+   "paragraphs_zh": [
+    "今天是星期五。派对是昨天，黄房子里还剩一点蛋糕。安娜在厨房喝咖啡。",
+    "蒂托在院子里。他看见罗莎太太的树上有一只小鸟。蒂托爬上树，快，快。",
+    "小鸟飞走了。蒂托往下看。天哪，好高！现在他害怕了。",
+    "“喵！喵！”蒂托哭叫着。他不知道怎么下来。",
+    "波利尼亚听见了。他跑到黄房子，在门口汪汪叫：汪，汪，汪！安娜打开门。“怎么了，波利尼亚？”",
+    "波利尼亚跑向那棵树。安娜跟在他后面，抬头看。“蒂托！你在上面干什么？”",
+    "罗莎太太从家里出来。“哎呀，天哪！我们需要一把梯子。”她说。可是罗莎太太没有梯子。",
+    "就在这时，若昂先生骑着自行车经过街上。“我面包店里有梯子！”他说。五分钟后他拿着梯子回来了。",
+    "安娜慢慢爬上梯子。“别怕，蒂托。过来。”她说。蒂托跳进了安娜的怀里。",
+    "大家都鼓掌。波利尼亚摇着尾巴。那蒂托呢？他在沙发上睡了一整天，离树远远的。"
+   ],
+   "glossary": [
+    {
+     "w": "o quintal",
+     "en": "backyard, yard",
+     "zh": "院子"
+    },
+    {
+     "w": "a árvore",
+     "en": "tree (cf. 'arboretum')",
+     "zh": "树"
+    },
+    {
+     "w": "o passarinho",
+     "en": "little bird (from pássaro, 'bird')",
+     "zh": "小鸟"
+    },
+    {
+     "w": "subir",
+     "en": "to climb, to go up",
+     "zh": "爬上、上去"
+    },
+    {
+     "w": "descer",
+     "en": "to get down, to go down (cf. 'descend')",
+     "zh": "下来"
+    },
+    {
+     "w": "estar com medo",
+     "en": "to be scared (lit. 'to be with fear')",
+     "zh": "害怕"
+    },
+    {
+     "w": "a escada",
+     "en": "ladder; also stairs (cf. 'escalator')",
+     "zh": "梯子；楼梯"
+    },
+    {
+     "w": "os braços",
+     "en": "arms (cf. 'bracelet')",
+     "zh": "手臂、怀里"
+    },
+    {
+     "w": "bater palmas",
+     "en": "to clap (one's hands)",
+     "zh": "鼓掌"
+    }
+   ],
+   "grammar": "Portuguese often uses estar com + noun for feelings and states, where English uses 'to be' + adjective: o Tito está com medo (Tito is scared). Others: estar com fome (to be hungry), estar com sede (to be thirsty), estar com frio (to be cold). （estar com + 名词 表示“感到……”：害怕、饿、渴、冷。）",
+   "questions": [
+    "Onde o Tito sobe?",
+    "Quem ajuda a Ana a encontrar o Tito?",
+    "O que o Seu João traz da padaria?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Comprando um chip de celular",
+   "paragraphs": [
+    "Atendente: Boa tarde! Posso ajudar?",
+    "Ana: Boa tarde! Eu quero comprar um chip para o meu celular.",
+    "Atendente: Claro. Você quer pré-pago ou pós-pago?",
+    "Ana: Pré-pago, por favor. É mais simples.",
+    "Atendente: Tudo bem. O chip custa dez reais. Você tem um documento com foto?",
+    "Ana: Tenho, sim. Aqui está o meu passaporte.",
+    "Atendente: Obrigado. E o seu CPF?",
+    "Ana: Meu CPF é este aqui, no papel.",
+    "Atendente: Perfeito. Agora você escolhe um plano. Tem um de trinta reais por mês, com internet e WhatsApp à vontade.",
+    "Ana: Ótimo, eu quero esse. Pode ser no cartão?",
+    "Atendente: Pode, sim. Me dá o seu celular? Eu coloco o chip para você.",
+    "Ana: Aqui. Ele já funciona?",
+    "Atendente: Funciona em uns dez minutos. Você recebe uma mensagem com o seu número novo.",
+    "Ana: Que bom! Muito obrigada. Boa tarde!"
+   ],
+   "paragraphs_en": [
+    "Clerk: Good afternoon! Can I help you?",
+    "Ana: Good afternoon! I'd like to buy a SIM card for my phone.",
+    "Clerk: Sure. Do you want prepaid or a monthly contract?",
+    "Ana: Prepaid, please. It's simpler.",
+    "Clerk: All right. The SIM card costs ten reais. Do you have a photo ID?",
+    "Ana: Yes, I do. Here's my passport.",
+    "Clerk: Thank you. And your CPF?",
+    "Ana: My CPF is this one here, on the paper.",
+    "Clerk: Perfect. Now you choose a plan. There's one for thirty reais a month, with internet and unlimited WhatsApp.",
+    "Ana: Great, I'll take that one. Can I pay by card?",
+    "Clerk: Yes, you can. Can you give me your phone? I'll put the SIM card in for you.",
+    "Ana: Here. Does it work already?",
+    "Clerk: It'll work in about ten minutes. You'll get a message with your new number.",
+    "Ana: How nice! Thank you very much. Good afternoon!"
+   ],
+   "paragraphs_zh": [
+    "店员：下午好！需要帮忙吗？",
+    "安娜：下午好！我想给我的手机买一张电话卡。",
+    "店员：当然。你要预付费的还是后付费（月结）的？",
+    "安娜：预付费的，谢谢。比较简单。",
+    "店员：好的。这张卡十雷亚尔。你有带照片的证件吗？",
+    "安娜：有的。这是我的护照。",
+    "店员：谢谢。那你的CPF呢？",
+    "安娜：我的CPF在这张纸上。",
+    "店员：好极了。现在你选一个套餐。有一个每月三十雷亚尔的，含上网，WhatsApp随便用。",
+    "安娜：太好了，我要这个。可以刷卡吗？",
+    "店员：可以。把手机给我好吗？我帮你装卡。",
+    "安娜：给你。现在就能用了吗？",
+    "店员：大概十分钟后就能用。你会收到一条短信，里面有你的新号码。",
+    "安娜：太好了！非常感谢。下午好！"
+   ],
+   "glossary": [
+    {
+     "w": "o chip",
+     "en": "SIM card (lit. 'chip')",
+     "zh": "电话卡、SIM卡"
+    },
+    {
+     "w": "o celular",
+     "en": "mobile phone (cf. 'cellular')",
+     "zh": "手机"
+    },
+    {
+     "w": "pré-pago / pós-pago",
+     "en": "prepaid / contract, pay-monthly",
+     "zh": "预付费 / 后付费"
+    },
+    {
+     "w": "o documento com foto",
+     "en": "photo ID (cf. 'document')",
+     "zh": "带照片的证件"
+    },
+    {
+     "w": "o CPF",
+     "en": "Brazilian taxpayer number, asked for in many shops",
+     "zh": "巴西个人税号"
+    },
+    {
+     "w": "o plano",
+     "en": "plan (cognate)",
+     "zh": "套餐"
+    },
+    {
+     "w": "à vontade",
+     "en": "as much as you like, unlimited",
+     "zh": "随意、不限量"
+    },
+    {
+     "w": "funcionar",
+     "en": "to work, to function (cognate)",
+     "zh": "运作、能用"
+    },
+    {
+     "w": "a mensagem",
+     "en": "message (cognate)",
+     "zh": "短信、消息"
+    }
+   ],
+   "grammar": "Brazilians often use the simple present for the near future and for what will happen next: Eu coloco o chip para você (I'll put the SIM card in for you), Você recebe uma mensagem (You'll get a message). No special future form is needed in everyday speech. （口语里常用一般现在时表示马上要发生的事。）",
+   "questions": [
+    "O que a Ana quer comprar?",
+    "Quanto custa o chip?",
+    "Quanto é o plano por mês?"
+   ],
+   "sources": []
   }
  ]
 }
