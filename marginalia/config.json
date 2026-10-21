@@ -15,24 +15,53 @@
  "sources": {
   "en": {
    "rotate": [
-    "Jacobin",
-    "The Intercept",
-    "Mother Jones",
     "Dissent",
-    "New Internationalist"
+    "The Nation",
+    "n+1",
+    "Boston Review",
+    "Jacobin",
+    "The Baffler",
+    "Public Books",
+    "Hyperallergic",
+    "Frieze",
+    "Aperture",
+    "Places Journal",
+    "The Architect's Newspaper",
+    "Bandcamp Daily",
+    "The Quietus",
+    "VAN Magazine",
+    "Sight and Sound",
+    "Little White Lies"
    ],
    "also": [
-    "ProPublica",
-    "The Marshall Project",
+    "The Intercept",
+    "New Internationalist",
+    "Aeon",
+    "Noema",
+    "Literary Hub",
     "Rest of World",
-    "The 19th"
+    "The Marshall Project",
+    "The 19th",
+    "ProPublica",
+    "Grist",
+    "Quanta",
+    "The Conversation"
    ],
    "unavailable": [
     "The Guardian"
    ],
    "avoid": [
     "German government documents"
-   ]
+   ],
+   "themes": {
+    "Mon": "Migration",
+    "Tue": "Music",
+    "Wed": "Contemporary art / Photography / Architecture & cities (weekly rotation)",
+    "Thu": "Books & ideas",
+    "Fri": "Society & political economy",
+    "Sat": "Humanities, nature & science",
+    "Sun": "Film"
+   }
   },
   "de": {
    "rotate": [
@@ -44,6 +73,11 @@
     "Monopol",
     "Perlentaucher",
     "Börsenblatt",
+    "epd Film",
+    "critic.de",
+    "Bauwelt",
+    "Baunetz",
+    "Photonews",
     "Mediendienst Integration",
     "Pro Asyl",
     "Missy Magazine"
@@ -56,11 +90,11 @@
    "themes": {
     "Mon": "Migration",
     "Tue": "Musik",
-    "Wed": "Gegenwartskunst",
+    "Wed": "Gegenwartskunst / Fotografie / Architektur (wöchentlich wechselnd)",
     "Thu": "Bücher & Buchmessen",
     "Fri": "Gesellschaft",
     "Sat": "Geistes- & Naturkunde",
-    "Sun": "Migration oder Gesellschaft"
+    "Sun": "Film"
    },
    "short": {
     "Mon/Wed/Fri/Sun": "Kultur in Hannover (Ausstellungen, Konzerte, Lesungen – nur offiziell bestätigte Termine)",
@@ -121,7 +155,25 @@
     "Revue Ballast",
     "Contretemps",
     "Nonfiction.fr"
-   ]
+   ],
+   "arts": [
+    "Cahiers du cinéma",
+    "Les Inrockuptibles",
+    "L'Œil de la photographie",
+    "Polka",
+    "D'Architectures",
+    "Le Quotidien de l'Art",
+    "Libération (culture)"
+   ],
+   "themes": {
+    "Mon": "Migrations",
+    "Tue": "Musique",
+    "Wed": "Art contemporain / Photographie / Architecture",
+    "Thu": "Philosophie & livres",
+    "Fri": "Capitalisme·inégalités / Géopolitique (une semaine sur deux)",
+    "Sat": "Culture du thé / Le monde en petit / Nature (rotation)",
+    "Sun": "Cinéma"
+   }
   }
  }
 }
