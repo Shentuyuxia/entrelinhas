@@ -1,10 +1,10 @@
--- 字里行间 · Entrelinhas — cloud sync for email login
+-- Cloud sync for email login, shared by 字里行间 · Entrelinhas, Shiori and 字里 · Zili
 -- Run once in Supabase: Dashboard → SQL Editor → New query → paste → Run.
 -- One row per user and app. Each person can only read and write their own row.
 
 create table if not exists public.user_data (
   user_id    uuid        not null default auth.uid() references auth.users(id) on delete cascade,
-  app        text        not null check (app in ('entrelinhas', 'shiori')),
+  app        text        not null check (app in ('entrelinhas', 'shiori', 'zili')),
   data       text        not null check (octet_length(data) < 8000000),
   version    bigint      not null default 1,
   updated_at timestamptz not null default now(),
