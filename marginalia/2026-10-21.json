@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-21",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "de",
+      "level": "C1",
+      "kind": "picks",
+      "section": "Lesetipps",
+      "title": "Lesetipps für heute",
+      "dek": "Von Protesten gegen Rechenzentren über Abtreibungsrechte in Brasilien bis zur Vertreibung im Westjordanland – sechs Texte quer durch Technik, Gleichberechtigung, Migration, Umwelt und Weltpolitik.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "taz",
+          "genre": "Reportage · Technologie & Politik",
+          "title": "Protest gegen Rechenzentren in den USA: Big Data, big Protest",
+          "author": "Sebastian Moll, Hansjürgen Mai",
+          "url": "https://taz.de/Protest-gegen-Rechenzentren-in-den-USA/!6220808/",
+          "minutes": 8,
+          "en": "Across the US, communities are pushing back against giant AI data centres over power, water and land use – and the fight may matter in the midterms. A good look at the physical footprint of the AI boom.",
+          "zh": "美国各地反对大型数据中心的抗议，AI热潮的现实代价。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Reportage · Gleichberechtigung",
+          "title": "Abtreibung in Brasilien: Mein Leben gehört wieder mir",
+          "author": "Christine Wollowski",
+          "url": "https://taz.de/Abtreibung-in-Brasilien/!6216959/",
+          "minutes": 8,
+          "en": "Abortion is illegal in Brazil but goes unpunished in certain cases – yet poorer women often don't know their rights. A reportage on access to reproductive rights, timely as Brazil heads to its presidential runoff.",
+          "zh": "巴西堕胎权：贫困女性往往不了解自己的权利。"
+        },
+        {
+          "outlet": "taz",
+          "genre": "Kommentar · Artenschutz",
+          "title": "Biodiversität: Die Lösung liegt auf der Alm",
+          "author": "Heike Holdinghausen",
+          "url": "https://taz.de/Konferenz-zum-Artenschutz/!6222644/",
+          "minutes": 4,
+          "en": "A short, pointed commentary on the biodiversity conference: saving species means changing farming and forestry – more forest and moorland, less fertiliser and livestock. Useful for opinion-writing vocabulary.",
+          "zh": "评论：保护物种必须改变农业和林业。"
+        },
+        {
+          "outlet": "Mediendienst Integration",
+          "genre": "Analyse · Migration",
+          "title": "Kurden in Deutschland: Zwischen Asyl, Engagement und antikurdischem Rassismus",
+          "author": "Donata Hasselmann, Johanna Koppmann",
+          "url": "https://mediendienst-integration.de/news/kurden-in-deutschland-zwischen-asyl-engagement-und-antikurdischem-rassismus/",
+          "minutes": 6,
+          "en": "Based on a new expert report, this explainer covers one of Germany's largest yet least visible immigrant communities: asylum trends, civic engagement and anti-Kurdish racism. Dense with facts and figures.",
+          "zh": "德国库尔德人：庇护、社会参与与歧视。"
+        },
+        {
+          "outlet": "netzpolitik.org",
+          "genre": "Kolumne · Digitales & Macht",
+          "title": "Degitalisierung: Allmacht und Ohnmacht",
+          "author": "Bianca Kastl",
+          "url": "https://netzpolitik.org/2026/degitalisierung-allmacht-und-ohnmacht/",
+          "minutes": 6,
+          "en": "A column arguing that unchecked power – whether given to intelligence services or to autonomous AI agents – tends to end in helplessness, and that trust must be earned through oversight. Witty, essayistic German.",
+          "zh": "专栏：无论情报机构还是AI代理，不受监督的权力终致无力。"
+        },
+        {
+          "outlet": "Le Monde diplomatique (deutsch)",
+          "genre": "Analyse · Internationale Politik",
+          "title": "Westjordanland – die große Vertreibung",
+          "author": "Amira Hass",
+          "url": "https://monde-diplomatique.de/artikel/!6215761",
+          "minutes": 12,
+          "en": "Veteran correspondent Amira Hass argues that settler violence in the West Bank is not the work of a fringe but is backed by the army and state institutions to push Palestinians out. Lead piece of the October issue; may require a subscription.",
+          "zh": "约旦河西岸定居者暴力与巴勒斯坦人被驱逐（可能需订阅）。"
+        }
+      ],
+      "glossary": [],
+      "questions": [],
+      "sources": []
+    },
+    {
+      "lang": "en",
+      "level": "C2",
+      "kind": "picks",
+      "section": "Reading list",
+      "title": "Today's reading list",
+      "dek": "Reason versus optimisation, the Amazon on the ballot, fire-scarred tree rings, Louisiana's death row and an academic who said no to training AI.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "Aeon",
+          "genre": "Essay · Philosophy & AI",
+          "title": "Why real intelligence is something more than optimisation",
+          "author": "Sasha Mudd",
+          "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
+          "minutes": 19,
+          "en": "Mudd argues that treating intelligence as mere optimisation inherits Hume's view of reason as a tool, and draws on Kant and the Frankfurt School to defend reason's power to judge which ends are worth pursuing – something we shouldn't hand to machines.",
+          "zh": "智能不只是优化：为理性判断目的的能力辩护。"
+        },
+        {
+          "outlet": "Grist",
+          "genre": "Analysis · Climate & politics",
+          "title": "Brazil's election could determine the fate of the Amazon",
+          "author": "Clayton Aldern",
+          "url": "https://grist.org/international/brazil-election-runoff-amazon-deforestation-lula-bolsonaro",
+          "minutes": 8,
+          "en": "Ahead of the 25 October runoff between Lula and Flávio Bolsonaro, this piece lays out how the result could swing deforestation rates and push the rainforest toward a tipping point. Timely context for this weekend's vote.",
+          "zh": "巴西大选决选或将决定亚马逊雨林的命运。"
+        },
+        {
+          "outlet": "The New Yorker (via Longreads)",
+          "genre": "Science writing · History & ecology",
+          "title": "How Tree Rings Challenged the Myth of American Wilderness",
+          "author": "M.R. O'Connor",
+          "url": "https://www.newyorker.com/science/elements/how-tree-rings-challenged-the-myth-of-american-wilderness?src=longreads",
+          "en": "Picked by Longreads: fire scars preserved in ancient wood have persuaded many scientists that Indigenous peoples reshaped North America's landscapes long before Columbus.",
+          "zh": "树木年轮中的火痕：原住民早已塑造北美景观。"
+        },
+        {
+          "outlet": "The New Statesman (via Longreads)",
+          "genre": "Essay · Criminal justice",
+          "title": "In Trump's America, the Death Penalty Has Been Resurrected",
+          "author": "John Corley",
+          "url": "https://www.newstatesman.com/international-content/2026/10/in-trumps-america-the-death-penalty-has-been-resurrected?src=longreads",
+          "en": "Picked by Longreads: written from inside Louisiana's Angola prison, a first-hand account of how the state's return to executions after two decades is changing life on death row.",
+          "zh": "路易斯安那恢复死刑：死囚牢房内的亲历记述。"
+        },
+        {
+          "outlet": "Rest of World",
+          "genre": "Essay · Work & technology",
+          "title": "I refused to train the AI that could replace me",
+          "author": "James Maisiri",
+          "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
+          "minutes": 7,
+          "en": "A South African PhD is offered well-paid work teaching an AI to do an academic's job – exams, lectures, grading – and turns it down without being quite sure why. A short, honest personal essay on labour in the AI economy.",
+          "zh": "一位南非博士拒绝训练可能取代自己的AI。"
+        },
+        {
+          "outlet": "The Guardian",
+          "genre": "Browse · The Long Read",
+          "title": "The Long Read – latest essays",
+          "url": "https://www.theguardian.com/news/series/the-long-read",
+          "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+        },
+        {
+          "outlet": "The Atlantic",
+          "genre": "Browse · Ideas",
+          "title": "Ideas – essays and arguments",
+          "url": "https://www.theatlantic.com/ideas/",
+          "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+        }
+      ],
+      "note": "The Le Monde diplomatique and New Yorker links may be paywalled; the others are free to read.",
+      "glossary": [],
+      "questions": [],
+      "sources": [
+        {
+          "title": "Longreads",
+          "url": "https://longreads.com/",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}
