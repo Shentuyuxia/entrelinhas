@@ -329,6 +329,92 @@
           "license": "official"
         }
       ]
+    },
+    {
+      "lang": "en",
+      "level": "C2",
+      "kind": "feature",
+      "section": "Climate & Politics",
+      "title": "A rainforest on the ballot",
+      "dek": "When Brazilians choose between Lula da Silva and Flávio Bolsonaro on 25 October, they will also be settling, at least for four years, how close the Amazon is pushed towards a point of no return. Yet the farm lobby may already have won, whoever takes the presidency.",
+      "paragraphs": [
+        "Elections are rarely decided on environmental grounds, but some carry ecological consequences far beyond the borders of the country that holds them. Brazil's presidential runoff on 25 October is one of these. It pits the incumbent, Luiz Inácio Lula da Silva, against Senator Flávio Bolsonaro, son of the former president Jair Bolsonaro, and, as Clayton Aldern reports for Grist in a piece co-published with Agência Pública, the result will shape the trajectory of the world's largest tropical forest.",
+        "The first round on 4 October did not go well for the incumbent. Neither man cleared the 50 percent threshold, but Bolsonaro finished roughly 2.2 million votes ahead, and his party took 121 seats in the lower house, the largest bloc any party has held since the 1988 constitution, according to a Correio da Manhã report cited by Grist. The geography of Lula's losses is telling: his vote share slipped almost everywhere compared with 2022, but by 2.2 points where farming accounts for less than 5 percent of the local economy and by 7.8 points where it exceeds half.",
+        "On paper, the two candidates' pledges sound close; in substance, they diverge sharply. Lula has promised net-zero deforestation by 2030, while Bolsonaro offers zero illegal deforestation by 2029 alongside a faster, 'modern' licensing regime. The qualifier matters, because Brazil's Forest Code still lets owners clear up to a fifth of an Amazon property legally. At the same time, the monitoring network MapBiomas estimated that 97 percent of clearing in 2025 bore signs of illegality, which suggests that the real contest is less about the law on the books than about the will to enforce it. The country's main agribusiness caucus has endorsed Bolsonaro, and he has said it will pick his agriculture minister.",
+        "The historical record gives both camps something to point to, and critics of the Bolsonaro family a great deal. Satellite data from Brazil's space research institute, INPE, show clearing in the Legal Amazon peaking near 10,700 square miles in 2004, falling to about 1,800 by 2012, climbing back to around 5,000 in 2021 under Jair Bolsonaro and dropping to roughly 2,200 in 2025 under Lula. Grist's projection is stark: four more years at the Bolsonaro-era pace would cost about 17,600 square miles of forest, against some 8,900 at last year's rate, a difference roughly the size of Belize. Monica de Bolle of the Peterson Institute argues that the elder Bolsonaro hollowed out the enforcement apparatus, and the climate scientist Carlos Nobre calls his son a climate denier; the Bolsonaro campaign did not respond to Grist's request for comment.",
+        "What makes these figures more than an accounting exercise is the prospect of a tipping point, beyond which parts of the forest could degrade into drier, savanna-like ecosystems. About 22 percent of the Brazilian Amazon has already been cleared. A 2018 analysis by Nobre and Thomas Lovejoy placed the danger threshold at 20 to 25 percent; a Nature study led by Nico Wunderling in May 2026 put it at 22 to 28 percent, in combination with 1.5 to 1.9 degrees of global warming by mid-century. Wunderling estimates that a return to Bolsonaro-era practices could push the forest into that zone by the mid-to-late 2030s, while the oceanographer Ronaldo Christofoletti likens precaution here to buying insurance against a risk that is uncertain but catastrophic.",
+        "Perhaps the most sobering point in the reporting is that the runoff may matter less than it appears. Sumaúma, an Amazon-based news outlet, found that half of the incoming lower house has voted to loosen environmental licensing and restrict Indigenous land claims, and de Bolle expects that even a re-elected Lula would govern from a position of weakness. Describing the vote as a referendum on the Amazon is, in that light, both accurate and incomplete. The forest's fate will be negotiated not only at the presidential palace but in a Congress where agribusiness has already consolidated its hold."
+      ],
+      "glossary": [
+        {
+          "w": "to pit A against B",
+          "en": "to set two people or groups in direct competition",
+          "zh": "使……对抗；让……相争"
+        },
+        {
+          "w": "a point of no return",
+          "en": "a stage after which it is impossible to reverse a process",
+          "zh": "不可逆转的临界点"
+        },
+        {
+          "w": "to clear a threshold",
+          "en": "to reach or exceed a required minimum level",
+          "zh": "越过门槛；达到规定线"
+        },
+        {
+          "w": "the qualifier matters",
+          "en": "a limiting word or phrase significantly changes the meaning of a statement",
+          "zh": "限定词至关重要"
+        },
+        {
+          "w": "to hollow out",
+          "en": "to weaken an institution by removing its substance while leaving its outward form",
+          "zh": "掏空；使空心化"
+        },
+        {
+          "w": "enforcement apparatus",
+          "en": "the agencies, staff and tools a state uses to make sure laws are obeyed",
+          "zh": "执法体系；执法机构"
+        },
+        {
+          "w": "a tipping point",
+          "en": "a critical point at which a small change triggers a large, often irreversible shift",
+          "zh": "临界点；引爆点"
+        },
+        {
+          "w": "to degrade into",
+          "en": "to deteriorate gradually into a poorer or simpler state",
+          "zh": "退化为……"
+        },
+        {
+          "w": "an accounting exercise",
+          "en": "a calculation done for its own sake, without real-world significance",
+          "zh": "纯粹的数字游戏；账面计算"
+        },
+        {
+          "w": "to consolidate one's hold",
+          "en": "to strengthen control or power so that it becomes more secure",
+          "zh": "巩固控制权；稳固地位"
+        },
+        {
+          "w": "sobering",
+          "en": "making one feel serious and thoughtful, often by revealing an unwelcome truth",
+          "zh": "令人清醒的；发人深省的"
+        }
+      ],
+      "grammar": "\"Less about the law on the books than about the will to enforce it\" uses the contrastive frame 'less about X than about Y' to shift emphasis from one explanation to another; 'on the books' is a fixed collocation meaning formally written into law.",
+      "questions": [
+        "Why does the difference between 'net-zero deforestation' and 'zero illegal deforestation' matter so much in the Brazilian context?",
+        "The article suggests the congressional results may outweigh the presidential runoff. What does this imply about where environmental policy is really made?",
+        "How should voters and governments weigh an uncertain but potentially irreversible risk, such as an Amazon tipping point, against immediate economic interests?"
+      ],
+      "sources": [
+        {
+          "title": "Grist / Agência Pública: Clayton Aldern, Brazil's election could determine the fate of the Amazon (15 October 2026)",
+          "url": "https://grist.org/international/brazil-election-runoff-amazon-deforestation-lula-bolsonaro/",
+          "license": "link only"
+        }
+      ]
     }
   ]
 }

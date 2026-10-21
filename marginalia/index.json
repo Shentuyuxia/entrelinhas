@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T04:56:47+00:00",
+ "updated": "2026-10-21T06:08:46+00:00",
  "days": [
   {
    "date": "2026-10-21",
@@ -34,6 +34,14 @@
      "title": "Neue Notunterkunft für wohnungslose Männer sofort voll",
      "kind": "brief",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "A rainforest on the ballot",
+     "kind": "feature",
+     "level": "C2",
      "hour": null
     }
    ]
