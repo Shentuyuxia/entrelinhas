@@ -1,4 +1,4 @@
-// Offline support for Palavra & Wort.
+// Offline support for 字里行间 · Entrelinhas.
 // App files: served from cache, refreshed in the background.
 // Marginalia articles (marginalia/*) and word lists (data/*): network first, so new articles show up right away; cache is the offline fallback.
 const CACHE = "palavra-v46";
