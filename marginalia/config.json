@@ -36,26 +36,36 @@
   },
   "de": {
    "rotate": [
-    "Tagesspiegel",
     "taz",
+    "Freitag",
+    "nd",
+    "Tagesspiegel (Kultur)",
+    "Deutschlandfunk Kultur",
+    "Monopol",
+    "Perlentaucher",
+    "Börsenblatt",
     "Mediendienst Integration",
-    "Missy Magazine",
-    "Deutsch Perfekt"
+    "Pro Asyl",
+    "Missy Magazine"
    ],
    "unavailable": [
     "Tagesschau",
     "ZEIT",
     "Süddeutsche Zeitung"
-   ]
-  },
-  "hannover": {
-   "daily": true,
-   "with": "de-morning",
-   "facts_from": [
-    "hannover.de",
-    "Region Hannover",
-    "Presseportal Hannover"
-   ]
+   ],
+   "themes": {
+    "Mon": "Migration",
+    "Tue": "Musik",
+    "Wed": "Gegenwartskunst",
+    "Thu": "Bücher & Buchmessen",
+    "Fri": "Gesellschaft",
+    "Sat": "Geistes- & Naturkunde",
+    "Sun": "Migration oder Gesellschaft"
+   },
+   "short": {
+    "Mon/Wed/Fri/Sun": "Kultur in Hannover (Ausstellungen, Konzerte, Lesungen – nur offiziell bestätigte Termine)",
+    "Tue/Thu/Sat": "Deutschland kurios"
+   }
   },
   "fr": {
    "topics": [
