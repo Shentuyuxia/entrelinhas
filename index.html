@@ -1121,6 +1121,8 @@ body{font-variant-numeric:tabular-nums}
       <div class="panel">
         <h3 class="ph3">界面</h3>
         <label class="tog"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
+        <div class="field" style="margin-top:14px"><label for="opt-help">释义和语法说明的语言</label>
+          <select id="opt-help"><option value="">跟随界面语言</option><option value="zh" data-raw>中文</option><option value="en" data-raw>English</option><option value="de" data-raw>Deutsch</option><option value="pt" data-raw>Português</option></select></div>
         <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
           <div class="row" style="flex-wrap:nowrap"><select id="opt-voice"></select><button class="btn sm" id="voice-test" type="button">试听</button></div>
           <p class="note hint">★ 是增强/高级语音，听起来更自然。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音」里下载。</p></div>
@@ -2343,6 +2345,14 @@ const OUTLETS={"taz.de":"taz","tagesspiegel.de":"Tagesspiegel","mediendienst-int
 function mgOutlet(it){ if(it.series&&it.series.name) return ""; const u=it.sources&&it.sources[0]&&it.sources[0].url; if(!u) return ""; try{ const h=new URL(u).hostname.replace(/^www\./,""); for(const k in OUTLETS) if(h===k||h.endsWith("."+k)) return OUTLETS[k]; return h.replace(/\.(de|com|org|net|co|fr|info|media|eu)$/,""); }catch(e){ return ""; } }
 function mgMinutes(it){ const w=(it.paragraphs||[]).join(" ").split(/\s+/).filter(Boolean).length; const rate=["A1","A2"].includes(it.level)?110:["B1","B2"].includes(it.level)?160:200; return Math.max(1,Math.round(w/rate)); }
 let MGZH=(()=>{ try{ return localStorage.getItem("pw-glzh")==="1"; }catch(e){ return false; } })();
+/* helper language for glosses, grammar notes and reading-list blurbs: follows the interface language unless set */
+function HL(){ const h=S.settings.helpLang; if(h) return h; return UIL==="zht"?"zh":(UIL||"zh"); }
+const HL_NAME={zh:"中文",en:"English",de:"Deutsch",pt:"Português"};
+function hz(t){ return t&&UIL==="zht"?s2t(t):t; }
+function hxPick(o,base){ const h=HL(); const k=base?base+"_"+h:h; let v=o[k];
+  if(v) return {lang:h,text:h==="zh"?hz(v):v};
+  const en=base?o[base]:o.en; if(en) return {lang:"en",text:en};
+  const zh=base?o[base+"_zh"]:o.zh; return zh?{lang:"zh",text:hz(zh)}:null; }
 function mgFmt(d){ const [y,m,dd]=d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString(uiLocale(),{weekday:"long",month:"long",day:"numeric"}); }
 async function mgRender(){
   const main=$("#mg-main"); if(!main) return;
@@ -2370,11 +2380,12 @@ async function mgRender(){
     <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${mgOutlet(it)?`<span>${esc(mgOutlet(it))}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${it.kind!=="picks"&&(it.paragraphs||[]).length?`<span>${mgMinutes(it)} 分钟</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
     <h2 data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.title)}</h2>
     ${it.dek?`<p class="mg-dek" data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.dek)}</p>`:""}
-    <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button>${it.paragraphs_en&&it.paragraphs_en.length?`<button class="tb" id="mg-enb" aria-pressed="${MG.tr==="en"}" aria-label="English translation">English</button>`:""}${it.paragraphs_zh&&it.paragraphs_zh.length?`<button class="tb" id="mg-zhb" aria-pressed="${MG.tr==="zh"}" aria-label="逐段中文">中文</button>`:""}</div>
-    <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n lang="${l==="pt"?"pt-BR":l}">${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${MG.tr&&it["paragraphs_"+MG.tr]&&it["paragraphs_"+MG.tr][k]?`<span class="mg-zh mg-tr-${MG.tr}" lang="${MG.tr}">${esc(it["paragraphs_"+MG.tr][k])}</span>`:""}`).join("")}</div>
+    <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button>${(()=>{ const h=HL(), own=h!=="en"&&h!==l&&it["paragraphs_"+h]&&it["paragraphs_"+h].length; return (own?`<button class="tb" data-mgtr="${h}" aria-pressed="${MG.tr===h}">${HL_NAME[h]}</button>`:"")+(it.paragraphs_en&&it.paragraphs_en.length&&l!=="en"?`<button class="tb" data-mgtr="en" aria-pressed="${MG.tr==="en"}" aria-label="English translation">English</button>`:""); })()}</div>
+    <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n lang="${l==="pt"?"pt-BR":l}">${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${MG.tr&&it["paragraphs_"+MG.tr]&&it["paragraphs_"+MG.tr][k]?`<span class="mg-zh mg-tr-${MG.tr}" lang="${MG.tr}">${esc(MG.tr==="zh"?hz(it["paragraphs_"+MG.tr][k]):it["paragraphs_"+MG.tr][k])}</span>`:""}`).join("")}</div>
     ${it.kind==="picks"?mgPicks(it):""}
-    ${it.grammar?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram">${esc(it.grammar)}</div></div>`:""}
-    ${it.glossary&&it.glossary.length?`<div class="mg-blk mg-glb">${it.glossary.some(g=>g.en&&g.zh)?`<button class="mg-glzh" id="mg-glzh" type="button" aria-pressed="${MGZH}">中文</button>`:""}<dl class="mg-gl${MGZH?"":" hidezh"}" data-noi18n>${it.glossary.map(g=>`<dt>${esc(g.w)}</dt><dd>${g.en?`<span lang="en">${esc(g.en)}</span>`:""}${g.zh?`<span class="${g.en?"gl-zh":""}" lang="zh">${esc(g.zh)}</span>`:""}</dd>`).join("")}</dl></div>`:""}
+    ${(()=>{ const g=hxPick(it,"grammar"); return g?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram" lang="${g.lang}" data-noi18n>${esc(g.text)}</div></div>`:""; })()}
+    ${it.glossary&&it.glossary.length?(()=>{ const h=HL(), alt=h!=="en"&&it.glossary.some(g=>g.en&&g[h]);
+      return `<div class="mg-blk mg-glb">${alt?`<button class="mg-glzh" id="mg-glzh" type="button" aria-pressed="${MGZH}">English</button>`:""}<dl class="mg-gl${MGZH?"":" hidezh"}" data-noi18n>${it.glossary.map(g=>{ const m=hxPick(g); return `<dt>${esc(g.w)}</dt><dd>${m?`<span lang="${m.lang}">${esc(m.text)}</span>`:""}${alt&&m&&m.lang!=="en"&&g.en?`<span class="gl-zh" lang="en">${esc(g.en)}</span>`:""}</dd>`; }).join("")}</dl></div>`; })():""}
     ${qs.length?`<div class="mg-blk"><h3>想一想</h3><ol class="mg-q" data-noi18n>${qs.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></div>`:""}
     ${it.sources&&it.sources.length?`<div class="mg-blk mg-src"><h3>来源</h3><ul>${it.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>${s.license?`<span class="lic">${esc(s.license)}</span>`:""}</li>`).join("")}</ul></div>`:""}
     <div class="mg-fin">${mgRead(pick.date,pick.i)?'<span class="small muted">✓ 读完了</span>':`<button class="btn primary" id="mg-done" type="button">读完了</button>`}
@@ -2466,6 +2477,7 @@ $("#rd-bar").addEventListener("click",e=>{ const b=e.target.closest("button"); i
 
 $("#opt-voice").addEventListener("change",e=>{ S.settings.voice=S.settings.voice||{}; S.settings.voice[lang()]=e.target.value; save(); speak(VOICE_SAMPLE[lang()]); });
 $("#voice-test").addEventListener("click",()=>speak(VOICE_SAMPLE[lang()]));
+$("#opt-help").addEventListener("change",e=>{ S.settings.helpLang=e.target.value||""; save(); if(cur==="read") mgRender(); });
 $("#nt-voice").addEventListener("change",e=>{ S.settings.ntVoice=S.settings.ntVoice||{}; S.settings.ntVoice[lang()]=e.target.value; save(); renderNT(); if(NT.have.has(e.target.value)) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
 $("#nt-on").addEventListener("change",e=>{ S.settings.ntOn=S.settings.ntOn||{}; S.settings.ntOn[lang()]=e.target.checked; save(); renderNT(); if(e.target.checked) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
 $("#nt-get").addEventListener("click",()=>{ const v=ntVoice(); if(NT.have.has(v)){ ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate,()=>sysSpeak(VOICE_SAMPLE[lang()])); } else { ntUnlock(); ntDownload(v); } });
@@ -2616,7 +2628,7 @@ function mineList(){
 }
 /* reading list: links to original articles the reader opens herself */
 function mgPicks(it){
-  return `<ol class="mg-picks">${(it.picks||[]).map(p=>`<li><a class="pk" href="${esc(p.url)}" target="_blank" rel="noopener"><span class="pk-o">${esc(p.outlet||"")}${p.genre?` · ${esc(p.genre)}`:""}${p.minutes?` · ${esc(p.minutes)} min`:""}</span><span class="pk-t" lang="${esc(p.lang||it.lang)}" data-noi18n>${esc(p.title)}</span>${p.author?`<span class="pk-a" data-noi18n>${esc(p.author)}</span>`:""}${p.en?`<span class="pk-z" lang="en" data-noi18n>${esc(p.en)}</span>`:""}${p.zh?`<span class="pk-z${p.en?" gl-zh":""}" lang="zh" data-noi18n>${esc(p.zh)}</span>`:""}</a></li>`).join("")}</ol>${it.note?`<p class="note" style="margin-top:12px">${esc(it.note)}</p>`:""}`;
+  return `<ol class="mg-picks">${(it.picks||[]).map(p=>`<li><a class="pk" href="${esc(p.url)}" target="_blank" rel="noopener"><span class="pk-o">${esc(p.outlet||"")}${p.genre?` · ${esc(p.genre)}`:""}${p.minutes?` · ${esc(p.minutes)} min`:""}</span><span class="pk-t" lang="${esc(p.lang||it.lang)}" data-noi18n>${esc(p.title)}</span>${p.author?`<span class="pk-a" data-noi18n>${esc(p.author)}</span>`:""}${(()=>{ const m=hxPick(p); return m?`<span class="pk-z" lang="${m.lang}" data-noi18n>${esc(m.text)}</span>`:""; })()}</a></li>`).join("")}</ol>${it.note?`<p class="note" style="margin-top:12px">${esc(it.note)}</p>`:""}`;
 }
 /* word sheet */
 function mgSentenceOf(node){ const s=node&&(node.closest?node.closest(".s"):node.parentElement&&node.parentElement.closest(".s")); return s?s.textContent:""; }
@@ -2731,6 +2743,7 @@ $("#tab-read").addEventListener("click",e=>{
   if(id==="mg-prev"){ MG.di++; MG.key=null; mgRender(); } else if(id==="mg-next"){ MG.di--; MG.key=null; mgRender(); }
   else if(id==="mg-reload"||id==="mg-retry"){ MG.idx=null; MG.days={}; MG.err=""; MG.key=null; MG.di=0; mgRender(); }
   else if(id==="mg-glzh"){ MGZH=!MGZH; try{ localStorage.setItem("pw-glzh",MGZH?"1":""); }catch(e){} const d=$(".mg-gl"); if(d) d.classList.toggle("hidezh",!MGZH); b.setAttribute("aria-pressed",MGZH); }
+  else if(b.dataset.mgtr){ const t=b.dataset.mgtr; MG.tr=MG.tr===t?null:t; mgRender(); }
   else if(id==="mg-zhb"){ MG.tr=MG.tr==="zh"?null:"zh"; mgRender(); }
   else if(id==="mg-enb"){ MG.tr=MG.tr==="en"?null:"en"; mgRender(); }
   else if(id==="mg-say"){ if(RD.src==="art"&&RD.on) rdToggle(); else rdStart("art",0); }
@@ -3264,6 +3277,7 @@ $("#st-persist").addEventListener("click",async()=>{ try{ const ok=navigator.sto
 
 /* ---------- settings: study options ---------- */
 function renderSettings(){
+  { const h=$("#opt-help"); if(h) h.value=S.settings.helpLang||""; }
   const l=lang();
   $("#goal-v").textContent=goal();
   $("#lv-checks").innerHTML=LV().map(v=>`<label><input type="checkbox" value="${v}" ${lvSel().includes(v)?"checked":""}> ${v}</label>`).join("");
@@ -3732,6 +3746,8 @@ const UI_DICT=[
 ["朗读全文", "Read article aloud", "Artikel vorlesen", "Ouvir o artigo", "朗讀全文"],
 ["逐段中文", "Chinese translation", "Chinesische Übersetzung", "Tradução em chinês", "逐段中文"],
 ["朗读文本", "Read text aloud", "Text vorlesen", "Ler texto em voz alta", "朗讀文字"],
+["释义和语法说明的语言", "Language for glosses and grammar notes", "Sprache für Worterklärungen und Grammatik", "Idioma das explicações e da gramática", "釋義和語法說明的語言"],
+["跟随界面语言", "Same as interface", "Wie die Oberfläche", "Igual à interface", "跟隨介面語言"],
 ["朗读语音", "Reading voice", "Vorlesestimme", "Voz de leitura", "朗讀語音"],
 ["开源神经语音（Piper）", "Open-source neural voice (Piper)", "Open-Source-Neuralstimme (Piper)", "Voz neural de código aberto (Piper)", "開源神經語音（Piper）"],
 ["用开源神经语音朗读这门语言", "Use the neural voice for this language", "Neuralstimme für diese Sprache verwenden", "Usar a voz neural neste idioma", "用開源神經語音朗讀這門語言"],
