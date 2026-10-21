@@ -3,9 +3,15 @@
   "de": "C1",
   "en": "C2",
   "pt": "A1",
-  "fr": "C1"
+  "fr": [
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ]
  },
- "note": "Change a level here (A1–C2); the daily tasks read it before writing.",
+ "note": "Change a level here (A1–C2); the daily tasks read it before writing. French: a list = one article per level each day; readers pick their level in the app.",
  "sources": {
   "en": {
    "rotate": [
@@ -87,7 +93,25 @@
     "France Musique",
     "Courrier international"
    ],
-   "note": "Left-leaning magazines go in the 'Lectures' list as link-only reading suggestions; never copy or closely paraphrase. Paywalled pieces: link and say so, never bypass."
+   "note": "Left-leaning magazines go in the 'Lectures' list as link-only reading suggestions; never copy or closely paraphrase. Paywalled pieces: link and say so, never bypass.",
+   "music": [
+    "France Musique",
+    "France Culture",
+    "RFI Musique",
+    "Philharmonie de Paris",
+    "L'Humanité (culture)",
+    "Libération (musique)",
+    "AOC (arts)"
+   ],
+   "philosophy": [
+    "Philosophie Magazine",
+    "La Vie des idées",
+    "France Culture (philosophie)",
+    "AOC",
+    "Revue Ballast",
+    "Contretemps",
+    "Nonfiction.fr"
+   ]
   }
  }
 }

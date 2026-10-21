@@ -316,6 +316,7 @@ ol.steps li{margin:3px 0}
 .mg-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
 .mg-head .d{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
 .mg-toc{display:flex;flex-direction:column;margin:4px 0 6px}
+.mg-lvs{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 2px}.mg-lvs button{border:1px solid var(--line);background:none;border-radius:99px;padding:3px 11px;font:500 12.5px var(--f-ui);color:var(--muted);cursor:pointer}.mg-lvs button[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:var(--on-acc)}
 .mg-toc button,.mg-arch button{display:grid;grid-template-columns:4.6rem minmax(0,1fr) 1.2rem;gap:10px;text-align:left;border:0;border-bottom:1px solid var(--sunk);background:none;padding:7px 0;align-items:baseline;cursor:pointer;color:inherit;font:inherit}
 .mg-toc .k,.mg-arch .k{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .mg-toc .t,.mg-arch .t{font-family:var(--f-word);font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -2303,7 +2304,7 @@ function mgSave(){ try{ localStorage.setItem(MGK,JSON.stringify(MGS)); }catch(e)
 const MG_KIND={picks:"推荐",news:"新闻",brief:"短讯",short:"短评",essay:"随笔",feature:"专题",story:"故事",dialogue:"对话"};
 const MG_ORD=it=>it.hour?10:({dialogue:1,short:2,brief:3,picks:4}[it.kind]||0);
 const MG_MINOR=["brief","short","dialogue"];
-const MG_ETA={de:"07:00",en:"12:30",pt:"20:00",fr:"17:00"};
+const MG_ETA={de:"07:00",en:"06:30",pt:"20:00",fr:"17:00"};
 async function mgGet(p){ const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }
 function mgLoad(){
   if(MG.idx) return Promise.resolve();
@@ -2316,9 +2317,14 @@ function mgLoad(){
   return MG.loading;
 }
 async function mgDay(d){ if(MG.days[d]) return MG.days[d]; const x=await mgGet("marginalia/"+d+".json"); MG.days[d]=x; return x; }
+const LV_ORDER=["A1","A2","B1","B2","C1","C2"];
+function mgLevels(dayIdx,l){ const day=MG.idx&&MG.idx.days[dayIdx]; if(!day) return [];
+  return [...new Set(day.items.filter(x=>x.lang===l&&x.kind!=="picks"&&x.level).map(x=>x.level))].sort((a,b)=>LV_ORDER.indexOf(a)-LV_ORDER.indexOf(b)); }
+function mgLvSel(dayIdx,l){ const lv=mgLevels(dayIdx,l), want=(S.settings.rdLv||{})[l]; return lv.length>1&&lv.includes(want)?want:null; }
 function mgEntries(dayIdx,l){
   const day=MG.idx&&MG.idx.days[dayIdx]; if(!day) return [];
-  return day.items.filter(x=>x.lang===l).map((x,n)=>({...x,n,date:day.date})).sort((a,b)=>(MG_ORD(a)-MG_ORD(b))||String(a.hour||"").localeCompare(String(b.hour||""))||a.n-b.n);
+  const sel=mgLvSel(dayIdx,l);
+  return day.items.filter(x=>x.lang===l&&(!sel||x.kind==="picks"||x.level===sel)).map((x,n)=>({...x,n,date:day.date})).sort((a,b)=>(MG_ORD(a)-MG_ORD(b))||String(a.hour||"").localeCompare(String(b.hour||""))||a.n-b.n);
 }
 function mgPick(){ // returns {date,i} of the article to show
   const l=lang(), es=mgEntries(MG.di,l);
@@ -2352,6 +2358,7 @@ async function mgRender(){
   } else {
   pick=mgPick(); es=mgEntries(MG.di,l);
   h=`<div class="mg-head"><button class="ib" id="mg-prev" aria-label="前一天" ${MG.di>=days.length-1?"disabled":""}>‹</button><span class="d">${days[MG.di]?mgFmt(days[MG.di].date):""}</span><button class="ib" id="mg-next" aria-label="后一天" ${MG.di<=0?"disabled":""}>›</button><span class="spacer"></span><button class="ib" id="mg-reload" aria-label="刷新" title="刷新">↻</button></div>`;
+  { const lvs=mgLevels(MG.di,l); if(lvs.length>1){ const sel=mgLvSel(MG.di,l); h+=`<div class="mg-lvs" role="tablist" aria-label="Level"><button type="button" data-mglv="" aria-pressed="${!sel}">${esc(trOne("全部")||"全部")}</button>${lvs.map(v=>`<button type="button" data-mglv="${v}" aria-pressed="${sel===v}">${v}</button>`).join("")}</div>`; } }
   if(es.length) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}<button class="mg-addchip" data-mineopen="1" type="button">＋ 我的文章</button></nav>`;
   if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); return; }
   try{ const day=await mgDay(pick.date); it=day.items[pick.i]; }catch(e){ main.innerHTML=h+`<div class="empty"><b>这篇没有载入</b>${esc(e.message)}</div>`; return; }
@@ -2716,6 +2723,7 @@ $("#tab-read").addEventListener("click",e=>{
     $$(".mg-w.on").forEach(x=>x.classList.remove("on")); w.classList.add("on"); mgOpen(w.textContent,mgSentenceOf(w)); return; }
   if(!b) return;
   if(b.dataset.mine){ MG.mine=b.dataset.mine; MG.tr=null; mgClose(); mgRender(); mineList(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
+  if(b.dataset.mglv!=null){ S.settings.rdLv=S.settings.rdLv||{}; S.settings.rdLv[lang()]=b.dataset.mglv||null; save(); MG.key=null; MG.tr=null; mgClose(); rdStop(); mgRender(); return; }
   if(b.dataset.mineopen){ const d=$("#mine-box"); d.open=true; d.scrollIntoView({behavior:"smooth",block:"start"}); return; }
   if(b.dataset.mg){ MG.mine=null; MG.key=b.dataset.mg; if(b.dataset.di!=null) MG.di=+b.dataset.di; else { const d=b.dataset.mg.split("|")[0]; const k=MG.idx.days.findIndex(x=>x.date===d); if(k>=0) MG.di=k; } MG.tr=null; mgClose(); mgRender(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
   if(b.dataset.wq!=null){ MG.wpick[b.dataset.wq]=+b.dataset.wo; mgWeek(); return; }
@@ -3442,6 +3450,7 @@ const UI_DICT=[
 ["掌握", "Known", "Gekonnt", "Sabida", "掌握"],
 ["移出生词堆", "Remove from pile", "Aus dem Stapel nehmen", "Tirar da pilha", "移出生詞堆"],
 ["放进生词堆", "Add to pile", "In den Stapel legen", "Pôr na pilha", "放進生詞堆"],
+["全部", "All", "Alle", "Todos", "全部"],
 ["全部级别", "All levels", "Alle Niveaus", "Todos os níveis", "全部級別"],
 // browse
 ["搜索单词或释义…", "Search words or meanings…", "Wort oder Bedeutung suchen …", "Buscar palavra ou significado…", "搜尋單詞或釋義…"],
