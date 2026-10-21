@@ -158,6 +158,177 @@
           "license": "link only"
         }
       ]
+    },
+    {
+      "lang": "de",
+      "level": "C1",
+      "kind": "news",
+      "section": "Technik & KI",
+      "title": "Wer beim Chatten mitliest",
+      "dek": "Eine Studie aus Madrid zeigt: Viele KI-Chatbots geben Informationen aus Gesprächen an Werbe- und Trackingdienste weiter – oft auch dann, wenn Nutzer Cookies ablehnen.",
+      "paragraphs": [
+        "Wer einen KI-Chatbot nach einer Krankheit oder einer Baufinanzierung fragt, geht meist davon aus, dass dieses Gespräch privat bleibt. Eine Untersuchung des Forschungsinstituts IMDEA Networks in Madrid stellt diese Annahme infrage. Wie netzpolitik.org berichtet, analysierte das Team neun verbreitete Dienste, darunter ChatGPT, Claude, Gemini, Grok, Meta AI, DeepSeek, Microsoft Copilot, Perplexity und Mistral. Die Studie wurde Ende September veröffentlicht.",
+        "Das Ergebnis: Sechs der neun Webversionen und drei von acht untersuchten Android-Apps übermittelten Informationen aus Unterhaltungen an Tracking- und Werbedienste. Zu den Empfängern zählten den Forschenden zufolge Google, Meta und TikTok. Weitergegeben wurden je nach Anbieter unterschiedliche Daten, etwa Nutzerkennungen, E-Mail-Adressen oder Links zu einzelnen Chats.",
+        "Besonders heikel sind die automatisch erzeugten Chat-Titel, denn sie fassen oft schon das Thema einer Anfrage zusammen. Laut der Studie gaben Gemini, Grok und Mistral solche Titel an Dritte weiter. Bei Grok kam hinzu, dass geteilte Gespräche standardmäßig öffentlich sind; in einem Fall erhielt TikTok sogar einen Screenshot. Als die Forschenden präparierte Links in geteilten Grok-Chats platzierten, registrierten sie 70 Zugriffe aus 14 Ländern, teils noch Tage später.",
+        "Auch die gewohnten Schutzmechanismen helfen nur begrenzt. Selbst nachdem alle nicht notwendigen Cookies abgelehnt worden waren, blieben 80,8 Prozent der beobachteten Tracker von Drittanbietern aktiv. Zwischen kostenlosen und bezahlten Konten fanden die Forschenden kaum Unterschiede. Der Forscher Narseo Vallina-Rodriguez warnt, die so gewonnenen Informationen ließen sich mit bestehenden Profilen bei Werbefirmen verknüpfen.",
+        "Die betroffenen Unternehmen reagierten zurückhaltend. Google erklärte, Google Analytics diene bei Gemini der technischen Überwachung von Leistung und Fehlern, und man halte sich an die europäischen Datenschutzregeln; auf die konkreten Befunde ging der Konzern nicht ein. xAI, Mistral und Perplexity antworteten laut netzpolitik.org nicht auf Anfragen.",
+        "Inzwischen beschäftigen sich die Aufsichtsbehörden mit dem Fall. Die Forschenden informierten im April europäische Datenschutzbehörden, und die spanische Behörde AEPD bat Ende Mai darum, das Thema im Europäischen Datenschutzausschuss zu beraten. Die Debatte dürfte sich verschärfen, weil OpenAI personalisierte Werbung in ChatGPT angekündigt hat, die sich auch auf Inhalte früherer Chats stützen soll. Die Berliner Datenschutzbeauftragte warnt bereits, dass dabei sensible persönliche Informationen für Werbezwecke ausgewertet werden könnten."
+      ],
+      "paragraphs_en": [
+        "Anyone who asks an AI chatbot about an illness or a mortgage usually assumes that the conversation stays private. A study by the IMDEA Networks research institute in Madrid calls this assumption into question. As netzpolitik.org reports, the team analysed nine widely used services, including ChatGPT, Claude, Gemini, Grok, Meta AI, DeepSeek, Microsoft Copilot, Perplexity and Mistral. The study was published at the end of September.",
+        "The result: six of the nine web versions and three of the eight Android apps examined passed information from conversations to tracking and advertising services. According to the researchers, the recipients included Google, Meta and TikTok. Depending on the provider, different data was passed on, such as user IDs, email addresses or links to individual chats.",
+        "The automatically generated chat titles are especially sensitive, because they often already sum up the subject of a request. According to the study, Gemini, Grok and Mistral passed such titles on to third parties. In Grok's case, shared conversations are also public by default; in one instance TikTok even received a screenshot. When the researchers placed decoy links in shared Grok chats, they recorded 70 visits from 14 countries, some of them days later.",
+        "The usual protective mechanisms help only to a limited extent. Even after all non-essential cookies had been rejected, 80.8 per cent of the third-party trackers observed remained active. The researchers found hardly any difference between free and paid accounts. Researcher Narseo Vallina-Rodriguez warns that the information obtained in this way could be linked to existing profiles held by advertising companies.",
+        "The companies concerned reacted cautiously. Google stated that Google Analytics is used with Gemini to technically monitor performance and errors, and that it complies with European data protection rules; the company did not address the specific findings. According to netzpolitik.org, xAI, Mistral and Perplexity did not respond to requests.",
+        "The regulators are now dealing with the case. The researchers informed European data protection authorities in April, and at the end of May the Spanish authority AEPD asked for the issue to be discussed in the European Data Protection Board. The debate is likely to intensify because OpenAI has announced personalised advertising in ChatGPT that is also to draw on the content of earlier chats. The Berlin Data Protection Commissioner is already warning that sensitive personal information could be analysed for advertising purposes."
+      ],
+      "glossary": [
+        {
+          "w": "der Trackingdienst",
+          "en": "tracking service (follows users' online activity)",
+          "zh": "追踪服务"
+        },
+        {
+          "w": "übermitteln",
+          "en": "to transmit, to pass on",
+          "zh": "传送"
+        },
+        {
+          "w": "die Nutzerkennung",
+          "en": "user ID",
+          "zh": "用户识别码"
+        },
+        {
+          "w": "heikel",
+          "en": "delicate, sensitive, tricky",
+          "zh": "敏感的；棘手的"
+        },
+        {
+          "w": "standardmäßig",
+          "en": "by default",
+          "zh": "默认地"
+        },
+        {
+          "w": "präpariert",
+          "en": "prepared, rigged (here: decoy)",
+          "zh": "预先设置的"
+        },
+        {
+          "w": "der Drittanbieter",
+          "en": "third-party provider",
+          "zh": "第三方"
+        },
+        {
+          "w": "verknüpfen",
+          "en": "to link, to combine",
+          "zh": "关联，连接"
+        },
+        {
+          "w": "zurückhaltend",
+          "en": "reserved, cautious (not 'restrained' physically)",
+          "zh": "含糊的，克制的"
+        },
+        {
+          "w": "die Aufsichtsbehörde",
+          "en": "supervisory authority, regulator",
+          "zh": "监管机构"
+        },
+        {
+          "w": "der Datenschutzausschuss",
+          "en": "data protection board",
+          "zh": "数据保护委员会"
+        },
+        {
+          "w": "auswerten",
+          "en": "to analyse, to evaluate (data)",
+          "zh": "分析，评估"
+        }
+      ],
+      "grammar": "Indirect speech with Konjunktiv I and 'sollen': 'die so gewonnenen Informationen ließen sich … verknüpfen' (Konjunktiv II replaces Konjunktiv I when the forms coincide) and 'Werbung …, die sich … stützen soll' (sollen = 'is supposed to', reporting a plan). Both mark claims as someone else's.（间接引语：第一/第二虚拟式与 sollen 表示转述他人说法）",
+      "questions": [
+        "Welche Arten von Daten gaben die Chatbots laut Studie an Dritte weiter, und warum gelten Chat-Titel als besonders problematisch?",
+        "Warum reicht es offenbar nicht aus, Cookies abzulehnen?",
+        "Sollte personalisierte Werbung in KI-Chatbots erlaubt sein? Begründen Sie Ihre Meinung."
+      ],
+      "sources": [
+        {
+          "title": "netzpolitik.org: Carla Rochel, Werbeindustrie liest mit: KI-Chatbots schicken Inhalte aus Gesprächen an Tracking-Firmen (13.10.2026)",
+          "url": "https://netzpolitik.org/2026/werbeindustrie-liest-mit-ki-chatbots-schicken-inhalte-aus-gespraechen-an-tracking-firmen/",
+          "license": "CC BY-NC-SA 4.0"
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "level": "B2",
+      "kind": "brief",
+      "section": "Hannover",
+      "title": "Neue Notunterkunft für wohnungslose Männer sofort voll",
+      "dek": "Weil ein altes Gebäude einsturzgefährdet ist, hat die Stadt rund 80 Männer kurzfristig in eine neue Unterkunft in der Kleefelder Straße gebracht.",
+      "paragraphs": [
+        "Die Stadt Hannover hat eine neue Unterkunft für wohnungslose Männer in der Kleefelder Straße schneller als geplant komplett belegt. Am 15. Oktober wurden rund 80 Männer aus einer städtischen Einrichtung an der Schulenburger Landstraße dorthin verlegt. Die neue Unterkunft hat höchstens 110 Plätze und ist jetzt voll.",
+        "Der Grund für den schnellen Umzug: Das alte Gebäude hat erhebliche bauliche Mängel, Teile davon sind sogar einsturzgefährdet. Deshalb musste es kurzfristig geräumt werden. Eigentlich wollte die Stadt die neue Unterkunft nach und nach belegen, doch ohne alle Plätze hätte es nicht genug Unterbringungsmöglichkeiten gegeben.",
+        "Die Stadt betont, dass die Unterbringung wohnungsloser Menschen zu ihren Pflichtaufgaben gehört und sie in akuten Notlagen sichere Schlafplätze anbieten muss. Sie will sich außerdem um ein gutes Verhältnis zur Nachbarschaft bemühen."
+      ],
+      "paragraphs_en": [
+        "The City of Hannover has filled a new shelter for homeless men on Kleefelder Straße faster than planned. On 15 October, around 80 men were moved there from a municipal facility on Schulenburger Landstraße. The new shelter has a maximum of 110 places and is now full.",
+        "The reason for the quick move: the old building has serious structural defects, and parts of it are even at risk of collapse. It therefore had to be cleared at short notice. The city had actually intended to fill the new shelter gradually, but without all the places there would not have been enough accommodation.",
+        "The city stresses that housing homeless people is one of its statutory duties and that it must offer safe places to sleep in acute emergencies. It also intends to work towards good relations with the neighbourhood."
+      ],
+      "glossary": [
+        {
+          "w": "wohnungslos",
+          "en": "homeless (without a home of one's own)",
+          "zh": "无家可归的"
+        },
+        {
+          "w": "die Unterkunft",
+          "en": "accommodation, shelter",
+          "zh": "住处，收容所"
+        },
+        {
+          "w": "belegen",
+          "en": "to occupy, to fill (places)",
+          "zh": "占用（床位）"
+        },
+        {
+          "w": "verlegen",
+          "en": "to relocate, to move (people)",
+          "zh": "转移，安置"
+        },
+        {
+          "w": "der Mangel",
+          "en": "defect, shortcoming",
+          "zh": "缺陷"
+        },
+        {
+          "w": "einsturzgefährdet",
+          "en": "at risk of collapse",
+          "zh": "有倒塌危险的"
+        },
+        {
+          "w": "räumen",
+          "en": "to clear, to evacuate (a building)",
+          "zh": "腾空，疏散"
+        },
+        {
+          "w": "die Pflichtaufgabe",
+          "en": "mandatory (statutory) duty",
+          "zh": "法定职责"
+        }
+      ],
+      "grammar": "Past subjunctive (Konjunktiv II Plusquamperfekt) for an unreal past: 'ohne alle Plätze hätte es nicht genug Unterbringungsmöglichkeiten gegeben' – 'without all the places there would not have been enough'.（过去虚拟式：表示与过去事实相反）",
+      "questions": [
+        "Warum mussten die Männer so schnell umziehen?",
+        "Was hatte die Stadt ursprünglich geplant?"
+      ],
+      "sources": [
+        {
+          "title": "hannover.de: Städtische Unterkunft in der Kleefelder Straße vollständig belegt",
+          "url": "https://www.hannover.de/Aus-Stadt-Region/Städtische-Unterkunft-in-der-Kleefelder-Straße-vollständig-belegt",
+          "license": "official"
+        }
+      ]
     }
   ]
 }

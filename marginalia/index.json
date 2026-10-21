@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T04:51:13+00:00",
+ "updated": "2026-10-21T04:56:47+00:00",
  "days": [
   {
    "date": "2026-10-21",
@@ -18,6 +18,22 @@
      "title": "Today's reading list",
      "kind": "picks",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "de",
+     "title": "Wer beim Chatten mitliest",
+     "kind": "news",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "de",
+     "title": "Neue Notunterkunft für wohnungslose Männer sofort voll",
+     "kind": "brief",
+     "level": "B2",
      "hour": null
     }
    ]
