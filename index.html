@@ -1127,6 +1127,7 @@ body{font-variant-numeric:tabular-nums}
           <label class="tog"><input type="checkbox" id="nt-on"> <span>用开源神经语音朗读这门语言</span></label>
           <div class="row" style="flex-wrap:nowrap;margin-top:8px"><select id="nt-voice"></select><button class="btn sm" id="nt-get" type="button">下载</button></div>
           <div class="nt-bar" id="nt-prog" hidden><i></i><span class="small muted mono"></span></div>
+          <p class="note" id="nt-status" hidden></p>
           <p class="note">语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。</p>
           <p class="note"><button class="linkbtn small" id="nt-del" type="button" hidden>删除这个声音</button></p></div>
       </div>
@@ -1810,17 +1811,29 @@ function ntSynth(voice,text,rate){ const k=voice+"|"+rate+"|"+text; let p=NT.lru
   if(!p){ p=ntCall({op:"synth",voice,text,rate}); p.catch(()=>NT.lru.delete(k)); NT.lru.set(k,p); while(NT.lru.size>40) NT.lru.delete(NT.lru.keys().next().value); }
   else { NT.lru.delete(k); NT.lru.set(k,p); }
   return p; }
-function ntUnlock(){ // must run inside the tap/click so iOS lets audio start later
-  try{ if(navigator.audioSession) navigator.audioSession.type="playback"; }catch(e){}
-  try{ if(!NT.ctx) NT.ctx=new (window.AudioContext||window.webkitAudioContext)(); if(NT.ctx.state!=="running") NT.ctx.resume(); }catch(e){}
+/* Playback through one <audio> element: unlike Web Audio it still plays with the iPhone's silent switch on,
+   and once a tap has started it, iOS lets later sentences play on it without a new tap. */
+const NT_SILENT="data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQIAAAAAAA==";
+function ntEl(){ if(!NT.el){ NT.el=new Audio(); NT.el.preload="auto"; NT.el.setAttribute("playsinline",""); } return NT.el; }
+function ntUnlock(){ // call inside the tap/click
+  const el=ntEl(); if(NT.unlocked) return;
+  try{ el.src=NT_SILENT; const p=el.play(); if(p&&p.then) p.then(()=>{ NT.unlocked=true; }).catch(()=>{}); }catch(e){}
 }
-function ntStop(){ const s=NT.src; NT.src=null; if(s){ s.onended=null; try{ s.stop(); }catch(e){} } }
-function ntPlay(r,onend){ ntStop(); if(!NT.ctx||!r.pcm||!r.pcm.length){ if(onend) setTimeout(onend,0); return; }
-  const b=NT.ctx.createBuffer(1,r.pcm.length,r.sr); b.copyToChannel(r.pcm,0);
-  const s=NT.ctx.createBufferSource(); s.buffer=b; s.connect(NT.ctx.destination); s.onended=()=>{ if(NT.src===s){ NT.src=null; if(onend) onend(); } }; NT.src=s; s.start(); }
+function ntWav(pcm,sr){ const n=pcm.length, v=new DataView(new ArrayBuffer(44+n*2)); const w=(o,t)=>{ for(let i=0;i<t.length;i++) v.setUint8(o+i,t.charCodeAt(i)); };
+  w(0,"RIFF"); v.setUint32(4,36+n*2,true); w(8,"WAVE"); w(12,"fmt "); v.setUint32(16,16,true); v.setUint16(20,1,true); v.setUint16(22,1,true); v.setUint32(24,sr,true); v.setUint32(28,sr*2,true); v.setUint16(32,2,true); v.setUint16(34,16,true); w(36,"data"); v.setUint32(40,n*2,true);
+  for(let i=0,o=44;i<n;i++,o+=2){ const x=Math.max(-1,Math.min(1,pcm[i])); v.setInt16(o,x<0?x*32768:x*32767,true); }
+  return new Blob([v.buffer],{type:"audio/wav"}); }
+function ntStop(){ const el=NT.el; if(!el) return; el.onended=null; el.onerror=null; try{ el.pause(); }catch(e){} }
+function ntPlay(r,onend){ ntStop(); if(!r.pcm||!r.pcm.length){ if(onend) setTimeout(onend,0); return; }
+  if(!r.url) r.url=URL.createObjectURL(ntWav(r.pcm,r.sr));
+  const el=ntEl(); el.onended=()=>{ el.onended=null; if(onend) onend(); }; el.onerror=()=>ntStatus(trOne("播放失败")+" (audio)");
+  el.src=r.url; el.playbackRate=1; const p=el.play(); if(p&&p.catch) p.catch(e=>ntStatus(trOne("播放失败")+" ("+(e.name||e)+")")); }
+function ntStatus(t){ const el=$("#nt-status"); if(el){ el.textContent=t||""; el.hidden=!t; } }
 let NT_TOK=0;
 function ntSpeak(t,rate,fallback){ const tok=++NT_TOK; ntUnlock(); ntStop();
-  ntSynth(ntVoice(),t,rate).then(r=>{ if(tok===NT_TOK) ntPlay(r); }).catch(()=>{ if(tok===NT_TOK&&fallback) fallback(); }); }
+  const slow=setTimeout(()=>{ if(tok===NT_TOK) ntStatus(trOne("正在加载声音，第一次需要几秒…")); },700);
+  ntSynth(ntVoice(),t,rate).then(r=>{ clearTimeout(slow); if(tok!==NT_TOK) return; ntStatus(""); ntPlay(r); })
+  .catch(e=>{ clearTimeout(slow); if(tok!==NT_TOK) return; ntStatus(trOne("神经语音出错了，已切回系统语音。")+" ("+(e&&e.message||e)+")"); if(fallback) fallback(); }); }
 async function ntDownload(id){
   if(NT.dl) return; const url=NT.url(id); NT.dl={id,p:0}; renderNT();
   try{ if(navigator.storage&&navigator.storage.persist) navigator.storage.persist().catch(()=>{});
@@ -2412,7 +2425,7 @@ function rdSay(){
     const next=()=>{ if(tok!==RD.tok||!RD.on) return; if(!RD.loop) RD.i++; setTimeout(()=>{ if(tok===RD.tok&&RD.on) rdSay(); },RD.loop?450:60); };
     ntSynth(v,txt,rate).then(r=>{ if(tok!==RD.tok||!RD.on) return; ntPlay(r,next);
       const n2=ns[RD.i+1]; if(n2){ const t2=n2.textContent.replace(/\s*\/\s*/g,", ").replace(/^[—–-]\s*/,"").trim(); if(t2) ntSynth(v,t2,rate).catch(()=>{}); } })
-    .catch(()=>{ if(tok===RD.tok){ RD.on=false; rdPaint(); toast(trOne("神经语音出错了，已切回系统语音。")); S.settings.ntOn[lang()]=false; save(); renderNT(); } });
+    .catch(e=>{ if(tok===RD.tok){ RD.on=false; rdPaint(); toast(trOne("神经语音出错了，已切回系统语音。")+" ("+(e&&e.message||e)+")"); S.settings.ntOn[lang()]=false; save(); renderNT(); } });
     return; }
   const u=new SpeechSynthesisUtterance(txt); RD.u=u;
   const v=pickVoice(); u.lang=v?v.lang:LANG[lang()].tts; if(v) u.voice=v; u.rate=RD.rate;
@@ -2448,7 +2461,7 @@ $("#opt-voice").addEventListener("change",e=>{ S.settings.voice=S.settings.voice
 $("#voice-test").addEventListener("click",()=>speak(VOICE_SAMPLE[lang()]));
 $("#nt-voice").addEventListener("change",e=>{ S.settings.ntVoice=S.settings.ntVoice||{}; S.settings.ntVoice[lang()]=e.target.value; save(); renderNT(); if(NT.have.has(e.target.value)) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
 $("#nt-on").addEventListener("change",e=>{ S.settings.ntOn=S.settings.ntOn||{}; S.settings.ntOn[lang()]=e.target.checked; save(); renderNT(); if(e.target.checked) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
-$("#nt-get").addEventListener("click",()=>{ const v=ntVoice(); if(NT.have.has(v)){ ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate,()=>toast(trOne("神经语音出错了，已切回系统语音。"))); } else { ntUnlock(); ntDownload(v); } });
+$("#nt-get").addEventListener("click",()=>{ const v=ntVoice(); if(NT.have.has(v)){ ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate,()=>sysSpeak(VOICE_SAMPLE[lang()])); } else { ntUnlock(); ntDownload(v); } });
 $("#nt-del").addEventListener("click",()=>ntRemove(ntVoice()));
 ntCheck();
 const VOICE_SAMPLE={fr:"Bonjour ! Aujourd'hui, on lit un texte sur la musique et les idées.",pt:"Olá! Hoje vamos ler uma história curta juntos.",de:"Guten Morgen! Heute lesen wir gemeinsam die Zeitung.",en:"Good morning. Let's read something worth thinking about today."};
@@ -3714,6 +3727,8 @@ const UI_DICT=[
 ["开源神经语音（Piper）", "Open-source neural voice (Piper)", "Open-Source-Neuralstimme (Piper)", "Voz neural de código aberto (Piper)", "開源神經語音（Piper）"],
 ["用开源神经语音朗读这门语言", "Use the neural voice for this language", "Neuralstimme für diese Sprache verwenden", "Usar a voz neural neste idioma", "用開源神經語音朗讀這門語言"],
 ["语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。", "The voice is generated on this device; no text is uploaded. Each voice downloads its model from Hugging Face once (about 60–110 MB, Wi-Fi recommended) and then works offline. Until it's ready, the system voice is used.", "Die Stimme wird auf diesem Gerät erzeugt, kein Text wird hochgeladen. Jede Stimme lädt ihr Modell einmal von Hugging Face (ca. 60–110 MB, WLAN empfohlen) und funktioniert danach offline. Bis dahin wird die Systemstimme verwendet.", "A voz é gerada neste aparelho; nenhum texto é enviado. Cada voz baixa o modelo do Hugging Face uma vez (cerca de 60–110 MB, de preferência no Wi-Fi) e depois funciona offline. Enquanto isso, usa-se a voz do sistema.", "語音在這台裝置上生成，文字不會上傳。每個聲音第一次要從 Hugging Face 下載一次模型（約 60–110 MB，建議連 Wi-Fi），之後離線也能用。沒下載好時會自動用系統語音。"],
+["正在加载声音，第一次需要几秒…", "Loading the voice — a few seconds the first time…", "Stimme wird geladen – beim ersten Mal ein paar Sekunden…", "Carregando a voz — alguns segundos na primeira vez…", "正在載入聲音，第一次需要幾秒…"],
+["播放失败", "Playback failed", "Wiedergabe fehlgeschlagen", "Falha na reprodução", "播放失敗"],
 ["删除这个声音", "Delete this voice", "Diese Stimme löschen", "Apagar esta voz", "刪除這個聲音"],
 ["下载", "Download", "Laden", "Baixar", "下載"],
 ["下载中…", "Downloading…", "Wird geladen…", "Baixando…", "下載中…"],
