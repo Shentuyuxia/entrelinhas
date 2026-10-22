@@ -56,6 +56,11 @@ body.modal-open{overflow:hidden}
 .wl-langs label{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;background:var(--surface)}
 .wl-langs label:has(input:checked){border-color:var(--ink);background:var(--sunk)}
 .wl-langs b{font-family:var(--f-word);font-weight:600}
+#dx-q{flex:1;min-width:0;font-size:17px}
+.dx-res{margin-top:12px;display:grid;gap:10px}
+.dx-res .w{font-family:var(--f-word);font-size:24px;font-weight:600}
+.dx-links{display:flex;flex-wrap:wrap;gap:6px}
+.dx-links a{font-size:13px;border:1px solid var(--line);border-radius:99px;padding:3px 10px;color:var(--muted);text-decoration:none}
 #wl-go,#wl-done{justify-self:stretch;padding:12px}
 .wl-steps{margin:0;padding:0 0 0 20px;display:grid;gap:10px}
 .wl-steps li{padding-left:2px} .wl-steps b{display:block;font-weight:600} .wl-steps span{color:var(--muted);font-size:14px;line-height:1.5}
@@ -1006,6 +1011,11 @@ body{font-variant-numeric:tabular-nums}
 
   <!-- NEW WORD -->
   <section id="tab-new" class="grid" hidden>
+    <div class="panel dx">
+      <h2 class="ph3" style="margin:0 0 10px">查词典</h2>
+      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
+      <div id="dx-out"></div>
+    </div>
     <div class="panel">
       <div class="sesshead"><h2 id="new-title">录入新词</h2><button class="btn ghost sm" id="n-clear" type="button">清空</button></div>
       <form id="n-form" autocomplete="off">
@@ -1478,9 +1488,12 @@ function rebuildCards(){
 function stage(st){ if(!st) return 0; if(st.r===0||st.i<=2) return 1; if(st.i<10) return 2; if(st.i<30) return 3; return 4; }
 const dueList=()=>{ const t=today(), srs=L().srs; return ALL.filter(c=>srs[c.id]&&srs[c.id].d<=t); };
 function freshPool(){
-  const srs=L().srs, lv=lvSel(); const out=ALL.filter(c=>c.custom&&!c.plan&&!srs[c.id]);
+  const srs=L().srs, lv=lvSel(), pile=L().pile||{};
+  // words I saved myself (reader, dictionary) come first, newest first
+  const out=Object.keys(pile).filter(id=>!srs[id]).sort((a,b)=>(pile[b]||0)-(pile[a]||0)).map(id=>BYID.get(id)).filter(Boolean);
+  ALL.filter(c=>c.custom&&!c.plan&&!srs[c.id]&&!out.includes(c)).forEach(c=>out.push(c));
   if(planActive()){ for(const id of planOf().ids){ const c=BYID.get(id); if(c&&!srs[id]&&!out.includes(c)) out.push(c); } return out; }
-  for(const v of LV()){ if(!lv.includes(v)) continue; out.push(...ALL.filter(c=>(!c.custom||c.plan)&&c.lvl===v&&!srs[c.id])); } return out; }
+  for(const v of LV()){ if(!lv.includes(v)) continue; out.push(...ALL.filter(c=>(!c.custom||c.plan)&&c.lvl===v&&!srs[c.id]&&!pile[c.id])); } return out; }
 
 /* ---------- study plan ---------- */
 const LEVEL_TARGET={A1:500,A2:1000,B1:1500,B2:2000,C1:2500,C2:3000};
@@ -1956,8 +1969,8 @@ let sess=null;
 function buildDaily(){
   const due=shuffle(dueList()); const need=Math.max(0,goal()-lg().n);
   const fresh=freshPool().slice(0,need);
-  const own=fresh.filter(c=>c.custom), std=fresh.filter(c=>!c.custom);
-  const nw=own.concat(LV().map(v=>shuffle(std.filter(c=>c.lvl===v))).flat());
+  const pile=L().pile||{}, mine=fresh.filter(c=>c.custom||pile[c.id]), std=fresh.filter(c=>!c.custom&&!pile[c.id]);
+  const nw=mine.concat(LV().map(v=>shuffle(std.filter(c=>c.lvl===v))).flat());
   const q=[]; let i=0,j=0;
   while(i<due.length||j<nw.length){ for(let k=0;k<3&&i<due.length;k++) q.push({c:due[i++]}); if(j<nw.length) q.push({c:nw[j++],isNew:true}); }
   sess={mode:"daily",title:"今日学习",queue:q,total:q.length,done:0,cur:null,flipped:false};
@@ -2331,7 +2344,7 @@ function addFromReader(v){
   const w=String(v.lemma||v.word||"").trim(), zh=String(v.zh||"").trim(), def=String(v.def||"").trim();
   if(!w||(!zh&&!def)) return "bad";
   const LL=S[l], ex=syFind(l,w);
-  if(ex){ if(!LL.pile[ex.id]){ LL.pile[ex.id]=Date.now(); save(); renderStrip(); } return "dup"; }
+  if(ex){ LL.pile[ex.id]=Date.now(); save(); renderStrip(); if(sess&&sess.mode==="daily"&&!sess.flipped&&l===lang()) buildDaily(); return "dup"; }
   const id="u:"+Date.now().toString(36)+Math.random().toString(36).slice(2,8);
   const rec={id,lvl:syLevel(l,v.level),w,pos:syPos(l,v),extra:"",ex:String(v.sentence||v.example||"").trim(),exzh:v.sentence?"":String(v.example_zh||"").trim(),exen:"",src:"Marginalia"};
   LANG[l].gl.forEach(k=>rec[k]=""); rec.zh=zh;
@@ -2698,18 +2711,62 @@ function mgOpen(word,sentence){
   wkLookup(MG.sheet);
   if(MGX) mtLookup(MG.sheet);
 }
+/* ---------- dictionary look-up (any learning language): Wiktionary + my language + good outside dictionaries ---------- */
+const DX={q:"",l:"",wk:null,hl:"",state:""};
+const DX_LINKS={
+  pt:[["Dicio","https://www.dicio.com.br/{q}/"],["Michaelis","https://michaelis.uol.com.br/moderno-portugues/busca/portugues-brasileiro/{q}/"],["Conjugação","https://www.conjugacao.com.br/busca.php?q={q}"],["Linguee","https://www.linguee.com/portuguese-english/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#pt_br"]],
+  de:[["DWDS","https://www.dwds.de/wb/{q}"],["Duden","https://www.duden.de/suchen/dudenonline/{q}"],["Linguee","https://www.linguee.de/deutsch-englisch/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#de"]],
+  en:[["Cambridge","https://dictionary.cambridge.org/dictionary/english/{q}"],["Oxford Learner's","https://www.oxfordlearnersdictionaries.com/search/english/?q={q}"],["Forvo","https://forvo.com/word/{q}/#en"]],
+  fr:[["Larousse","https://www.larousse.fr/dictionnaires/francais/{q}"],["CNRTL","https://www.cnrtl.fr/definition/{q}"],["Linguee","https://www.linguee.fr/francais-anglais/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#fr"]]
+};
+async function dxLookup(q){
+  const l=lang(); q=String(q||"").trim(); if(!q) return;
+  Object.assign(DX,{q,l,wk:null,hl:"",state:"load",lemma:q}); dxPaint();
+  const cands=[...new Set([q,q.toLowerCase()])]; let senses=null, hit="";
+  for(const c of cands){ senses=wkPick(await wkFetch(c),l); if(senses){ hit=c; break; } }
+  if(DX.q!==q) return;
+  if(senses){ const allForm=senses.every(x=>x.defs.every(d=>d.f)), lem=senses[0].defs[0].f;
+    if(allForm&&lem&&lem!==hit){ const ls=wkPick(await wkFetch(lem),l); if(ls){ DX.form=senses[0].defs[0].t; senses=ls; hit=lem; } } }
+  if(DX.q!==q) return;
+  DX.wk=senses; DX.lemma=hit||q; DX.state=senses?"ok":"none"; dxPaint();
+  const h=HL(); if(h!=="en"&&h!==l){ const t=await mtFetch(DX.lemma,l,h); if(DX.q===q&&t){ DX.hl=h==="zh"?hz(t):t; dxPaint(); } }
+}
+function dxPaint(){
+  const o=$("#dx-out"); if(!o) return; if(!DX.q||DX.l!==lang()){ o.innerHTML=""; return; }
+  const enc=encodeURIComponent(DX.lemma.toLowerCase());
+  o.innerHTML=`<div class="dx-res"><div class="row"><span class="w" lang="${DX.l}">${esc(DX.lemma)}</span><span class="spacer"></span><button class="ib" id="dx-say" type="button" aria-label="朗读">${I.spk}</button></div>
+    ${DX.form?`<p class="small muted" style="margin:0">${esc(DX.form)}</p>`:""}
+    ${DX.hl?`<p class="wk-hl" lang="${HL()}" data-noi18n>${esc(DX.hl)} <span class="small muted">· MyMemory</span></p>`:""}
+    ${DX.state==="load"?`<p class="small muted">正在查 Wiktionary…</p>`:DX.state==="none"?`<p class="small muted">Wiktionary 没有收这个词</p>`:DX.wk?`<div class="wk" lang="en" data-noi18n>${DX.wk.map(x=>`<div class="wk-s"><span class="wk-p">${esc(x.pos)}</span><ol>${x.defs.map(d=>`<li>${esc(d.t)}</li>`).join("")}</ol></div>`).join("")}</div>`:""}
+    <div class="dx-links">${(DX_LINKS[DX.l]||[]).map(([n,u])=>`<a href="${esc(u.replace("{q}",enc))}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
+    <label class="small muted" for="dx-note">笔记</label><textarea id="dx-note" rows="2" placeholder="我的笔记"></textarea>
+    <div class="row"><button class="btn primary" id="dx-add" type="button">收进闪卡</button><span class="small muted" id="dx-msg"></span></div></div>`;
+}
+$("#dx-form").addEventListener("submit",e=>{ e.preventDefault(); dxLookup($("#dx-q").value); });
+$("#dx-out").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
+  if(b.id==="dx-say") speak(DX.lemma);
+  else if(b.id==="dx-add"){ const note=($("#dx-note").value||"").trim(), def=DX.wk?(DX.wk[0].defs.find(d=>!d.f)||DX.wk[0].defs[0]).t.slice(0,120):"", h=HL();
+    const zh=h==="zh"&&DX.hl?DX.hl:"", other=h!=="zh"&&h!=="en"&&DX.hl?HL_NAME[h]+": "+DX.hl:"";
+    if(!def&&!zh&&!note){ $("#dx-msg").textContent=trOne("先写一点笔记。"); $("#dx-note").focus(); return; }
+    const r=addFromReader({lang:DX.l,word:DX.lemma,lemma:DX.lemma,zh,def:def||note,pos:DX.wk?(WK_POS[DX.wk[0].pos]||""):"",note:[note,other].filter(Boolean).join("\n"),source:trOne("词典")||"词典"});
+    toast(r==="ok"?trOne("已收进闪卡，下次学习会先出现。"):r==="dup"?trOne("词库里已经有这个词，已放到最前面。"):trOne("没有保存"));
+    if(r==="ok"||r==="dup"){ DX.q=""; $("#dx-q").value=""; dxPaint(); } } });
+
 /* my-language meaning of a single word when no glossary/AI entry: MyMemory (free, no key) */
 const MT=new Map(), MT_CODE={zh:"zh-CN",de:"de-DE",pt:"pt-BR",en:"en-GB",fr:"fr-FR"};
-async function mtLookup(s){
-  const l=lang(), h=SL(l); if(!s||s.hl||!h||h===l) return;
-  const w=String(s.lemma||s.word||"").trim(); if(!w) return;
+function mtFetch(w,l,h){
   const k=l+"|"+h+"|"+w.toLowerCase();
   if(!MT.has(k)){ const ac=new AbortController(), tm=setTimeout(()=>ac.abort(),8000);
     MT.set(k,fetch("https://api.mymemory.translated.net/get?q="+encodeURIComponent(w)+"&langpair="+(l==="pt"?"pt-BR":l)+"|"+MT_CODE[h],{signal:ac.signal}).then(r=>r.ok?r.json():null)
       .then(j=>{ const t=j&&j.responseData&&j.responseData.translatedText; return t&&!/MYMEMORY WARNING|QUERY LENGTH/i.test(t)&&t.toLowerCase()!==w.toLowerCase()?t:""; })
       .catch(()=>{ MT.delete(k); return ""; }).finally(()=>clearTimeout(tm))); }
+  return MT.get(k);
+}
+async function mtLookup(s){
+  const l=lang(), h=SL(l); if(!s||s.hl||!h||h===l) return;
+  const w=String(s.lemma||s.word||"").trim(); if(!w) return;
   s.mtState="load"; mgPaint();
-  const t=await MT.get(k); if(MG.sheet!==s) return;
+  const t=await mtFetch(w,l,h); if(MG.sheet!==s) return;
   s.mtState=t?"ok":"none"; if(t&&!s.hl){ s.hl=h==="zh"?hz(t):t; s.hlMT=true; } mgPaint();
 }
 /* free dictionary: English Wiktionary (no key, no cost) */
@@ -3545,6 +3602,13 @@ const UI_DICT=[
 ["欢迎来到字里行间", "Welcome to Entrelinhas", "Willkommen bei Entrelinhas", "Bem-vindo ao Entrelinhas", "歡迎來到字裡行間"],
 ["先告诉我两件事，以后可以在「我的 → 设置与备份」里随时修改。", "Two quick questions – you can change both any time under You → Settings.", "Zwei kurze Fragen – beides kannst du jederzeit unter Profil → Einstellungen ändern.", "Duas perguntas rápidas – dá para mudar a qualquer momento em Perfil → Configurações.", "先告訴我兩件事，以後可以在「我的 → 設定與備份」裡隨時修改。"],
 ["我在学的语言（可多选）", "Languages I'm learning (pick any)", "Meine Lernsprachen (mehrere möglich)", "Idiomas que estou aprendendo (vários)", "我在學的語言（可多選）"],
+["查词典", "Dictionary", "Wörterbuch", "Dicionário", "查詞典"],
+["输入一个词…", "Type a word…", "Wort eingeben…", "Digite uma palavra…", "輸入一個詞…"],
+["查", "Look up", "Suchen", "Buscar", "查"],
+["收进闪卡", "Add to flashcards", "Zu den Karteikarten", "Adicionar aos cartões", "收進閃卡"],
+["词典", "Dictionary", "Wörterbuch", "Dicionário", "詞典"],
+["已收进闪卡，下次学习会先出现。", "Added – it will come first in your next session.", "Hinzugefügt – kommt beim nächsten Lernen zuerst.", "Adicionada – vai aparecer primeiro no próximo estudo.", "已收進閃卡，下次學習會先出現。"],
+["词库里已经有这个词，已放到最前面。", "Already in your word list – moved to the front.", "Schon im Wortschatz – jetzt ganz vorne.", "Já está no vocabulário – foi para o começo da fila.", "詞庫裡已經有這個詞，已放到最前面。"],
 ["怎么用", "How it works", "So funktioniert's", "Como funciona", "怎麼用"],
 ["每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。", "New words and reviews every day. Think about the card, tap “Show answer”, then rate how well you knew it.", "Jeden Tag neue Wörter und Wiederholungen. Überleg kurz, tippe auf „Antwort zeigen“ und bewerte, wie gut du es wusstest.", "Palavras novas e revisões todo dia. Pense no cartão, toque em “Mostrar resposta” e diga o quanto você lembrava.", "每天的新詞和複習。看卡片想一想，點「顯示答案」，再按記得的程度選一個按鈕。"],
 ["每天的新文章。点任意单词看解释、收进生词堆；「朗读」旁边的语言按钮可以打开你的母语翻译。", "New texts every day. Tap any word for its meaning and save it; the language button next to “Read aloud” shows translations in your language.", "Jeden Tag neue Texte. Tippe auf ein Wort für die Erklärung und speichere es; der Sprachknopf neben „Vorlesen“ zeigt Übersetzungen in deiner Sprache.", "Textos novos todo dia. Toque numa palavra para ver o significado e salvá-la; o botão de idioma ao lado de “Ler em voz alta” mostra traduções no seu idioma.", "每天的新文章。點任意單詞看解釋、收進生詞堆；「朗讀」旁邊的語言按鈕可以打開你的母語翻譯。"],
