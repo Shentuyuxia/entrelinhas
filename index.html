@@ -154,7 +154,7 @@ input[type=range]{accent-color:var(--acc);width:100%}
 
 .chip{display:inline-flex;align-items:center;font-family:var(--f-mono);font-size:11px;padding:2px 7px;border-radius:5px;background:var(--sunk);color:var(--muted);letter-spacing:.02em;white-space:nowrap}
 .lv{font-family:var(--f-mono);font-size:11px;font-weight:500;padding:2px 7px;border-radius:5px;color:var(--surface);white-space:nowrap}
-.lv-A1{background:var(--a1)} .lv-A2{background:var(--a2)} .lv-B1{background:var(--b1)} .lv-B2{background:var(--b2)} .lv-C1{background:var(--c1)} .lv-C2{background:var(--c2)}
+.lv-UG{background:var(--acc)} .lv-A1{background:var(--a1)} .lv-A2{background:var(--a2)} .lv-B1{background:var(--b1)} .lv-B2{background:var(--b2)} .lv-C1{background:var(--c1)} .lv-C2{background:var(--c2)}
 .stg{font-size:11.5px;font-weight:600;white-space:nowrap;display:inline-flex;align-items:center;gap:5px}
 .stg i{width:8px;height:8px;border-radius:2px;background:var(--sunk);border:1px solid var(--line)}
 .stg.s1 i{background:var(--warn);border-color:var(--warn)}
@@ -451,7 +451,7 @@ input[type=text],input[type=password],select,textarea{background:var(--surface)}
 .chip{font-family:var(--f-ui);background:none;border:1px solid var(--line);border-radius:999px;padding:1px 8px}
 .chip.new{background:none;border-color:var(--warn);color:var(--warn)}
 .lv{background:none!important;border:1px solid currentColor;border-radius:999px;padding:1px 8px}
-.lv-A1{color:var(--a1)} .lv-A2{color:var(--a2)} .lv-B1{color:var(--b1)} .lv-B2{color:var(--b2)} .lv-C1{color:var(--c1)} .lv-C2{color:var(--c2)}
+.lv-UG{color:var(--acc)} .lv-A1{color:var(--a1)} .lv-A2{color:var(--a2)} .lv-B1{color:var(--b1)} .lv-B2{color:var(--b2)} .lv-C1{color:var(--c1)} .lv-C2{color:var(--c2)}
 .gl-k{border-radius:999px;padding:0 6px}
 .bar{height:4px;background:var(--line)}
 .card{background:var(--surface);border-radius:16px}
@@ -1264,7 +1264,7 @@ body{font-variant-numeric:tabular-nums}
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const LANG={
   pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
-  de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
+  de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1","C2","UG"],gl:["en","zh"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
   en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"},
   fr:{name:"Français",zh:"法语",ai:"French",tts:"fr-FR",re:/^fr[-_]FR/i,re2:/^fr/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","de"],done:"Bravo !",ok:"C'est fait !",theme:"#7a3e6b"}
 };
@@ -1303,7 +1303,7 @@ const I={
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
-  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["A1","A2"],de:["B2","C1"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
+  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["A1","A2"],de:["B2","C1","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
   pt:blank(),de:blank(),en:blank(),fr:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
 function merge(x){
@@ -1312,6 +1312,7 @@ function merge(x){
   for(const k in s){ if(k==="gloss"||k==="goal"||k==="levels") Object.assign(o.settings[k],s[k]||{}); else o.settings[k]=s[k]; }
   for(const l of Object.keys(LANG)) if(x[l]) o[l]=Object.assign(blank(),x[l]);
   if(!LANG[o.settings.lang]) o.settings.lang="pt";
+  { const d=o.settings.levels.de; if(!o.settings.deUG&&Array.isArray(d)&&!d.includes("UG")) d.push("UG"); o.settings.deUG=1; }
   { const f=o.settings.levels.fr; if(!o.settings.frLv2&&Array.isArray(f)&&f.join()==="B2,C1") o.settings.levels.fr=["A1","A2","B1","B2","C1"]; o.settings.frLv2=1; }
   o.updated=x.updated||0; o.lastBackup=x.lastBackup||0; o.setAt=x.setAt||0; return o;
 }
@@ -1352,6 +1353,8 @@ function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.rand
 const lang=()=>S.settings.lang;
 const L=()=>S[lang()];
 const LV=()=>LANG[lang()].levels;
+function lvName(v){ return v==="UG"?(trOne("口语")||"口语"):v; } // UG = Umgangssprache: everyday spoken phrases (German)
+function lvTag(v){ return `<span class="lv lv-${esc(v)}">${esc(lvName(v))}</span>`; }
 function lg(){ const k=today(), lo=L().log; return lo[k]||(lo[k]={n:0,r:0,c:false}); }
 const goal=()=>planActive()?planQuota():S.settings.goal[lang()];
 const lvSel=()=>S.settings.levels[lang()].filter(v=>LV().includes(v));
@@ -1589,7 +1592,7 @@ function scanPrompt(l){
   return `The image(s) show text containing ${LANG[l].ai} — for example a textbook page, notes, a handwritten word list, a menu or a sign.
 Pick out the ${LANG[l].ai} vocabulary worth learning for a Chinese-speaking learner (up to 30 items: words or short fixed expressions, in dictionary form). If the image is clearly a vocabulary list, take every item on it. Skip names, numbers and very basic words like articles and pronouns unless they are part of a list.
 For "ex": if the word appears in a complete, natural sentence in the image, use that sentence; otherwise write a natural everyday sentence.
-Reply with ONLY a JSON array; each object has the keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.map(x=>'"'+x+'"').join(", ")}).
+Reply with ONLY a JSON array; each object has the keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.filter(x=>x!=="UG").map(x=>'"'+x+'"').join(", ")}).
 If there is no ${LANG[l].ai} text in the image, reply with [].`;
 }
 let scanCtl=null;
@@ -1622,7 +1625,7 @@ function openScanResult(items,preview){
     <div class="row" style="margin:10px 0"><button class="btn ghost sm" id="sc-all" type="button">全选</button><button class="btn ghost sm" id="sc-none" type="button">全不选</button><span class="spacer"></span><label class="tog"><input type="checkbox" id="sc-pile"> 同时放进生词堆</label></div>
     <div class="tbl scroll" style="max-height:52vh"><table style="min-width:0"><tbody>${items.map((o,i)=>`<tr><td style="width:28px"><input type="checkbox" data-i="${i}" ${o.dup?"":"checked"} aria-label="选择 ${esc(o.w)}" style="accent-color:var(--acc);width:18px;height:18px"></td>
       <td class="w">${wordHTML(Object.assign({lang:l},o))}${o.extra&&o.extra!=="—"?` <span class="extra">${esc(o.extra)}</span>`:""}${o.dup?` <span class="chip">已在词库</span>`:""}${o.ex?`<span class="exs">${esc(o.ex)}</span>`:""}</td>
-      <td data-noi18n>${esc(o.zh||o.en||o.def||"")}${o.en&&o.zh?`<div class="muted small">${esc(o.en)}</div>`:""}</td><td><span class="lv lv-${esc(o.lvl)}">${esc(o.lvl)}</span></td></tr>`).join("")}</tbody></table></div>
+      <td data-noi18n>${esc(o.zh||o.en||o.def||"")}${o.en&&o.zh?`<div class="muted small">${esc(o.en)}</div>`:""}</td><td>${lvTag(o.lvl)}</td></tr>`).join("")}</tbody></table></div>
     <div class="row" style="margin-top:14px"><button class="btn primary" id="sc-add" type="button">加入词库</button><button class="btn ghost" id="sc-cancel" type="button">取消</button></div>
   </div></div>`;
   const root=$("#detail-root"), boxes=()=>[...root.querySelectorAll("input[data-i]")];
@@ -1738,7 +1741,7 @@ const FIELDS={
 function entryPrompt(l,w){
   return `You are making a vocabulary flashcard for a Chinese-speaking learner who also speaks German, English and French well. Target language: ${LANG[l].ai}.
 The learner typed: "${w}". If it is misspelled or inflected, use the correct dictionary form.
-Reply with ONLY one JSON object with these keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.map(x=>'"'+x+'"').join(", ")}; pick the closest), "memo" (one vivid memory hook in Simplified Chinese, at most 40 characters: a sound-alike, a mental image, or a cognate/root link to Chinese, German, English or French).`;
+Reply with ONLY one JSON object with these keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.filter(x=>x!=="UG").map(x=>'"'+x+'"').join(", ")}; pick the closest), "memo" (one vivid memory hook in Simplified Chinese, at most 40 characters: a sound-alike, a mental image, or a cognate/root link to Chinese, German, English or French).`;
 }
 function imgPrompt(l,c,memo){
   const mean=[c.zh,c.en||c.def].filter(Boolean).join(" / ");
@@ -1978,7 +1981,7 @@ function renderCard(){
   if(!sess||!sess.cur){ renderDone(area); return; }
   const it=sess.cur, c=it.c, LL=L(), st=LL.srs[c.id], inPile=!!LL.pile[c.id], dir=S.settings.dir;
   const hasImg=false, memo=memoOf(c), mine=mineOf(c), au=audsOf(c.id), hasAud=!!(au.w||au.s);
-  const top=`<div class="card-top"><span class="lv lv-${esc(c.lvl)}">${esc(c.lvl)}</span>${it.isNew?'<span class="chip new">新词</span>':stgHTML(st)}${c.custom?'<span class="chip">我录入的</span>':""}<span class="spacer"></span>
+  const top=`<div class="card-top">${lvTag(c.lvl)}${it.isNew?'<span class="chip new">新词</span>':stgHTML(st)}${c.custom?'<span class="chip">我录入的</span>':""}<span class="spacer"></span>
     <button class="ib" id="c-edit" aria-label="例句、录音" title="例句、录音 (E)">${I.pen}</button>
     <button class="ib ${inPile?"on":""}" id="c-pile" aria-label="${inPile?"移出生词堆":"放进生词堆"}" title="${inPile?"移出生词堆":"放进生词堆"} (P)">${inPile?I.starF:I.star}</button>
     ${hasAud?`<button class="ib me" id="c-mine" aria-label="播放我的录音" title="我的录音 (M)">${I.mic}</button>`:""}
@@ -2065,7 +2068,7 @@ function renderDetail(note){
   const id=detailOpen, c=BYID.get(id); if(!c) return;
   const LL=L(), hasImg=!!LL.imgs[id], mine=mineOf(c), ai=aiState==="ready", au=audsOf(id);
   $("#detail-root").innerHTML=`<div class="scrim" id="d-scrim"><div class="modal" role="dialog" aria-modal="true" aria-label="${esc(c.w)}">
-    <div class="mhead"><div style="flex:1;min-width:0"><div class="row" style="margin-bottom:4px"><span class="lv lv-${esc(c.lvl)}">${esc(c.lvl)}</span>${posChip(c)}${stgHTML(LL.srs[id])}</div>
+    <div class="mhead"><div style="flex:1;min-width:0"><div class="row" style="margin-bottom:4px">${lvTag(c.lvl)}${posChip(c)}${stgHTML(LL.srs[id])}</div>
       <div class="word">${wordHTML(c)}</div>${c.extra&&c.extra!=="—"?`<div class="extra">${esc(c.extra)}</div>`:""}</div>
       <button class="ib" id="d-say" aria-label="系统朗读">${I.spk}</button><button class="ib" id="d-close" aria-label="关闭">${I.x}</button></div>
     <div class="mgrid">
@@ -2840,7 +2843,7 @@ function renderPile(){
   if(!list.length){ $("#pile-list").innerHTML=`<div class="empty">这个级别没有生词。</div>`; return; }
   const srs=L().srs;
   $("#pile-list").innerHTML=`<div class="tbl scroll"><table><thead><tr><th>单词</th><th>释义</th><th>级别</th><th>掌握</th><th></th></tr></thead><tbody>${
-    list.map(c=>`<tr><td class="w"><button class="wlink" data-open="${esc(c.id)}">${wordHTML(c)}</button>${rowTags(c)}${c.ex?`<span class="exs">${esc(c.ex)}</span>`:""}</td><td data-noi18n>${esc(firstGloss(c))}</td><td><span class="lv lv-${esc(c.lvl)}">${esc(c.lvl)}</span></td><td>${stgHTML(srs[c.id])}</td>
+    list.map(c=>`<tr><td class="w"><button class="wlink" data-open="${esc(c.id)}">${wordHTML(c)}</button>${rowTags(c)}${c.ex?`<span class="exs">${esc(c.ex)}</span>`:""}</td><td data-noi18n>${esc(firstGloss(c))}</td><td>${lvTag(c.lvl)}</td><td>${stgHTML(srs[c.id])}</td>
     <td class="acts"><button class="ib sm" data-say="${esc(c.id)}" aria-label="朗读">${I.spk}</button><button class="ib sm" data-rm="${esc(c.id)}" aria-label="移出生词堆" title="移出生词堆">${I.x}</button></td></tr>`).join("")}</tbody></table></div>`;
 }
 $("#pile-list").addEventListener("click",e=>{
@@ -2864,20 +2867,20 @@ function renderBrowse(){
   const srs=L().srs;
   $("#lv-cells").innerHTML=LV().map(v=>{
     const cs=ALL.filter(c=>c.lvl===v), k=[0,0,0,0,0]; cs.forEach(c=>k[stage(srs[c.id])]++);
-    return `<button class="lvcell" data-lv="${v}" aria-pressed="${bLevel===v}"><span class="row"><span class="lv lv-${v}">${v}</span><span class="n">${cs.length-k[0]} / ${cs.length}</span></span>
+    return `<button class="lvcell" data-lv="${v}" aria-pressed="${bLevel===v}"><span class="row">${lvTag(v)}<span class="n">${cs.length-k[0]} / ${cs.length}</span></span>
       <span class="stack">${[1,2,3,4].map(s=>cs.length&&k[s]?`<i class="k${s}" style="width:${100*k[s]/cs.length}%"></i>`:"").join("")}</span></button>`;
   }).join("");
   const rows=browseRows(), pile=L().pile, gs=glSel();
   $("#b-table").innerHTML=rows.length?`<table><thead><tr><th>单词</th><th>${gs.map(k=>GLN[k]).join(" / ")}</th><th>级别</th><th>掌握</th><th></th></tr></thead><tbody>${
     rows.map(c=>`<tr><td class="w"><button class="wlink" data-open="${esc(c.id)}">${wordHTML(c)}</button>${c.extra&&c.extra!=="—"?` <span class="extra">${esc(c.extra)}</span>`:""}${rowTags(c)}${c.ex?`<span class="exs">${esc(c.ex)}</span>`:""}</td>
       <td data-noi18n>${gs.filter(k=>c[k]).map((k,i)=>i?`<div class="muted small">${esc(c[k])}</div>`:`<div>${esc(c[k])}</div>`).join("")}</td>
-      <td><span class="lv lv-${esc(c.lvl)}">${esc(c.lvl)}</span></td><td>${stgHTML(srs[c.id])}</td>
+      <td>${lvTag(c.lvl)}</td><td>${stgHTML(srs[c.id])}</td>
       <td class="acts"><button class="ib sm" data-say="${esc(c.id)}" aria-label="朗读">${I.spk}</button><button class="ib sm" data-open="${esc(c.id)}" aria-label="例句、录音" title="例句、录音">${I.pen}</button><button class="ib sm ${pile[c.id]?"on":""}" data-pile="${esc(c.id)}" aria-label="${pile[c.id]?"移出生词堆":"放进生词堆"}" title="${pile[c.id]?"移出生词堆":"放进生词堆"}">${pile[c.id]?I.starF:I.star}</button></td></tr>`).join("")}</tbody></table>`
     : `<div class="empty">没有符合条件的词。</div>`;
   const learned=rows.filter(c=>srs[c.id]);
   $("#b-count").textContent=`显示 ${rows.length} 个词，其中已学 ${learned.length} 个。点单词可以写例句、录发音。`;
   $("#b-cram").disabled=!learned.length;
-  $("#b-cram").textContent= bLevel?`复习 ${bLevel} 已学词（${learned.length}）`:`复习筛选出的已学词（${learned.length}）`;
+  $("#b-cram").textContent= bLevel?`复习 ${lvName(bLevel)} 已学词（${learned.length}）`:`复习筛选出的已学词（${learned.length}）`;
 }
 $("#lv-cells").addEventListener("click",e=>{ const b=e.target.closest("[data-lv]"); if(!b) return; bLevel= bLevel===b.dataset.lv?"":b.dataset.lv; renderBrowse(); });
 $("#b-search").addEventListener("input",renderBrowse);
@@ -2910,7 +2913,7 @@ function renderStats(){
     const v=LL.log[k]; const cls=v&&v.c?"chk":v&&(v.n+v.r)>0?"act":"";
     cells+=`<div class="d ${cls} ${k===t?"today":""}" title="${k}${v?` · 新 ${v.n} · 复习 ${v.r}${v.c?" · 已打卡":""}`:""}">${dd.getDate()}</div>`; }
   const lvRows=LV().map(v=>{ const cs=ALL.filter(c=>c.lvl===v), k=[0,0,0,0,0]; cs.forEach(c=>k[stage(srs[c.id])]++);
-    return `<div class="lvrow"><span class="lv lv-${v}" style="text-align:center">${v}</span><span class="stack">${[1,2,3,4].map(s=>cs.length&&k[s]?`<i class="k${s}" style="width:${100*k[s]/cs.length}%"></i>`:"").join("")}</span><span class="n">${cs.length-k[0]} / ${cs.length}</span></div>`; }).join("");
+    return `<div class="lvrow"><span class="lv lv-${v}" style="text-align:center">${esc(lvName(v))}</span><span class="stack">${[1,2,3,4].map(s=>cs.length&&k[s]?`<i class="k${s}" style="width:${100*k[s]/cs.length}%"></i>`:"").join("")}</span><span class="n">${cs.length-k[0]} / ${cs.length}</span></div>`; }).join("");
   $("#stats-main").innerHTML=`
     <h3 class="sec">${d.name} · 总览</h3>
     <div class="kpis">
@@ -3313,7 +3316,7 @@ function renderSettings(){
   { const h=$("#opt-help"); if(h) h.value=S.settings.helpLang||""; }
   const l=lang();
   $("#goal-v").textContent=goal();
-  $("#lv-checks").innerHTML=LV().map(v=>`<label><input type="checkbox" value="${v}" ${lvSel().includes(v)?"checked":""}> ${v}</label>`).join("");
+  $("#lv-checks").innerHTML=LV().map(v=>`<label><input type="checkbox" value="${v}" ${lvSel().includes(v)?"checked":""}> ${esc(lvName(v))}</label>`).join("");
   $("#gl-checks").innerHTML=LANG[l].gl.map(k=>`<label><input type="checkbox" value="${k}" ${S.settings.gloss[l].includes(k)?"checked":""}> ${GLN[k]}</label>`).join("");
   $("#dir-t2g").checked=S.settings.dir==="t2g"; $("#dir-g2t").checked=S.settings.dir==="g2t";
   $("#opt-autopile").checked=!!S.settings.autoPile; $("#opt-autospeak").checked=!!S.settings.autoSpeak; $("#opt-imgfront").checked=!!S.settings.imgFront; $("#opt-automine").checked=!!S.settings.autoMine;
@@ -3498,6 +3501,7 @@ const UI_DICT=[
 ["移出生词堆", "Remove from pile", "Aus dem Stapel nehmen", "Tirar da pilha", "移出生詞堆"],
 ["放进生词堆", "Add to pile", "In den Stapel legen", "Pôr na pilha", "放進生詞堆"],
 ["全部", "All", "Alle", "Todos", "全部"],
+["口语", "Everyday", "Alltag", "Coloquial", "口語"],
 ["全部级别", "All levels", "Alle Niveaus", "Todos os níveis", "全部級別"],
 // browse
 ["搜索单词或释义…", "Search words or meanings…", "Wort oder Bedeutung suchen …", "Buscar palavra ou significado…", "搜尋單詞或釋義…"],

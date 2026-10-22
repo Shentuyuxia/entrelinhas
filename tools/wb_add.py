@@ -14,8 +14,10 @@ pos: pt/de/fr nouns use gender m / f / n (pl for plural-only); en nouns use "nou
 """
 import json, sys, os, re
 D = os.path.join(os.path.dirname(__file__), "..", "data")
-LV = ["A1", "A2", "B1", "B2", "C1", "C2"]
-TARGET = {"A1": 600, "A2": 600, "B1": 1000, "B2": 1500, "C1": 1500, "C2": 1500}
+LV = ["A1", "A2", "B1", "B2", "C1", "C2", "UG"]
+TARGET = {"A1": 600, "A2": 600, "B1": 1000, "B2": 1500, "C1": 1500, "C2": 1500, "UG": 800}
+# UG = Umgangssprache (German only): everyday spoken phrases, idioms and reactions; pos "expr", plural field ""
+def lvs(l): return LV if l == "de" else LV[:-1]
 
 def path(l, lv): return os.path.join(D, f"{l}-{lv}.json")
 def load(l, lv):
@@ -36,7 +38,7 @@ def check():
     ok = True
     for l in ("pt", "de", "en", "fr"):
         seen = {}; counts = []
-        for lv in LV:
+        for lv in lvs(l):
             rows = load(l, lv); counts.append(f"{lv} {len(rows)}/{TARGET[lv]}")
             for r in rows:
                 e = bad(l, r)
@@ -51,9 +53,9 @@ if __name__ == "__main__":
     if sys.argv[1:2] == ["--check"]:
         sys.exit(0 if check() else 1)
     l, lv, f = sys.argv[1], sys.argv[2], sys.argv[3]
-    assert l in ("pt", "de", "en", "fr") and lv in LV
+    assert l in ("pt", "de", "en", "fr") and lv in lvs(l)
     new = json.load(open(f, encoding="utf-8"))
-    have = {key(r[0]) for x in LV for r in load(l, x)}
+    have = {key(r[0]) for x in lvs(l) for r in load(l, x)}
     rows = load(l, lv); added = skipped = 0
     for r in new:
         e = bad(l, r)
