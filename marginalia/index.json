@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-21T17:54:20+00:00",
+ "updated": "2026-10-22T04:20:36+00:00",
  "days": [
+  {
+   "date": "2026-10-22",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "A poet on the assembly line",
+     "kind": "essay",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-21",
    "items": [

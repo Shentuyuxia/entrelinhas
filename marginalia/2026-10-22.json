@@ -1,0 +1,97 @@
+{
+ "date": "2026-10-22",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "essay",
+   "section": "Books & Ideas",
+   "title": "A poet on the assembly line",
+   "dek": "Xiao Hai left Henan for Shenzhen's factories at fifteen and spent his youth on production lines. His memoir, Adrift in the South, now in English, is less a catalogue of suffering than a record of how a migrant worker held on to beauty, and a test of how Western readers choose to read Chinese labour.",
+   "paragraphs": [
+    "Every smartphone and sweatshirt carries an invisible biography, and only rarely does the person who made it get to write that biography down. Xiao Hai, born in 1987 in Shangqiu in Henan province, is one of those who did. At fifteen, according to his publisher, his family paid a vocational-school teacher 1,200 yuan to place him in a factory in Shenzhen, and he went on to spend the better part of his youth moving between garment mills and electronics plants in China's booming south. His memoir of those years, Adrift in the South, was published in June 2026 by Granta Magazine Editions in a translation by Tony Hao.",
+    "The book has an unusual genealogy. Its first chapter began life as an essay Xiao Hai wrote in 2019 and posted online in Chinese; Hao translated it for Granta's 2024 issue on contemporary Chinese writing, and the full memoir was commissioned on the strength of it. The English edition, in other words, arrives before the Chinese one, which Public Books reports is due to appear in China this year. That sequence is a small parable in itself about who gets to circulate a migrant worker's story, and in which markets it first finds a price.",
+    "What the book records is the familiar architecture of China's internal migration: crowded dormitories, long shifts, abusive bosses and venal officials, and wages of roughly 2,000 yuan a month. The review in Public Books singles out one detail that does the work of an entire treatise on value. A Nike sweatshirt of the kind Xiao Hai once sewed sold in Beijing for around 700 yuan, close to two weeks of his pay. Yet the reviewer's central claim is that the memoir is not principally a chronicle of injury. Its real subject is the stubborn pursuit of poetry, landscape and beauty by a young man whose time had been sold, hour by hour, to a machine.",
+    "That pursuit is well documented. Xiao Hai started studying poetry at seventeen and, by his account, turned to contemporary free verse in his mid-twenties; the Leeds Centre for New Chinese Writing credits him with more than 500 poems written during his factory years, and his collections include Factory Howl, from 2016, and Sisyphus on the Wenyu River. He is now associated with the Picun literature group, a circle of migrant-worker writers on the outskirts of Beijing, and runs a poetry-themed second-hand clothing shop there, a job that leaves him time to write. In the memoir, his poems serve as epigraphs to the chapters, so that the lyric voice frames the prose rather than being smuggled into it.",
+    "The most pointed part of the review concerns reception. The reviewer cautions against the temptation, strong in Anglophone media, to read a book like this purely as an indictment of the Chinese state, noting that the Wall Street Journal ran an excerpt in April. The products Xiao Hai assembled were destined largely for Western shelves, and the review argues that his book belongs to a history of global capitalism and the international movement of goods and power, not to a story about one authoritarian government alone. It places him beside Joseph Ponthus, whose On the Line chronicled French factory shifts, and Matthew Rice, whose collection plastic appeared this year, and asks whether something in industrial labour itself drives workers towards verse.",
+    "That question deserves to be taken seriously, and here interpretation must take over from reporting. One plausible answer is that the poem is the form most compatible with stolen time: it can be composed in fragments, held in memory on the line and finished at night. Another is political. To insist on beauty while doing work designed to be anonymous is to refuse the idea that a worker is merely a cost of production. Read this way, Adrift in the South is not an exotic dispatch from somewhere else but a document of the supply chains that pass through every reader's wardrobe, and its author is less a victim to be pitied than a writer to be read on his own terms."
+   ],
+   "glossary": [
+    {
+     "w": "genealogy",
+     "en": "the history of how something developed from earlier forms or origins",
+     "zh": "来历；谱系"
+    },
+    {
+     "w": "a parable in itself",
+     "en": "something that, without further comment, illustrates a larger moral or point",
+     "zh": "本身就是一则寓言"
+    },
+    {
+     "w": "venal",
+     "en": "willing to act dishonestly in return for money; corrupt",
+     "zh": "贪赃的；可收买的"
+    },
+    {
+     "w": "do the work of",
+     "en": "to achieve the same effect as something much larger or longer",
+     "zh": "抵得上……的作用"
+    },
+    {
+     "w": "chronicle of injury",
+     "en": "a detailed account focused on the harm someone has suffered",
+     "zh": "伤痛记录"
+    },
+    {
+     "w": "be smuggled into",
+     "en": "to be introduced secretly or indirectly into a place or text",
+     "zh": "被偷偷塞进"
+    },
+    {
+     "w": "indictment",
+     "en": "a strong statement or proof that something is very bad or wrong",
+     "zh": "控诉；有力的批判"
+    },
+    {
+     "w": "be destined for",
+     "en": "to be intended or certain to go to a particular place or end",
+     "zh": "注定运往；以……为去向"
+    },
+    {
+     "w": "take over from",
+     "en": "to replace something and assume its role",
+     "zh": "接替"
+    },
+    {
+     "w": "on his own terms",
+     "en": "in the way he himself chooses, not according to others' expectations",
+     "zh": "按他自己的方式"
+    }
+   ],
+   "grammar": "Note the cleft-like frame 'It is not X but Y' and its variants ('is not principally a chronicle of injury. Its real subject is…'; 'is not an exotic dispatch… but a document of…'). Analytical prose uses this contrast to correct a likely misreading before stating the writer's thesis.",
+   "questions": [
+    "Why does the essay call the English edition appearing before the Chinese one 'a small parable'?",
+    "What two explanations does the final paragraph offer for why factory workers turn to poetry?",
+    "Why does the review resist reading the memoir only as a critique of the Chinese state? Do you find that argument convincing?"
+   ],
+   "sources": [
+    {
+     "title": "Public Books: The Life of the Mind of a Factory Worker (review of Adrift in the South, 30 September 2026)",
+     "url": "https://www.publicbooks.org/the-life-of-the-mind-of-a-factory-worker/",
+     "license": "link only"
+    },
+    {
+     "title": "Harvard Book Store: Adrift in the South, Xiao Hai (Granta Magazine Editions, 2026)",
+     "url": "https://www.harvard.com/book/9781738536269",
+     "license": "link only"
+    },
+    {
+     "title": "Leeds Centre for New Chinese Writing: Xiao Hai",
+     "url": "https://writingchinese.leeds.ac.uk/new-chinese-poetry/xiao-hai/",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
+}
