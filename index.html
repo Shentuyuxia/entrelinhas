@@ -656,8 +656,8 @@ body.lean .hint, body.lean .help{display:none!important}
   .sesshead{margin-bottom:8px}
   .sesshead h2,#pile-title{font-size:18px}
   .bar{margin-bottom:10px}
-  /* bottom bar: 5 tabs, always labelled */
-  nav.tabs{grid-template-columns:repeat(5,minmax(0,1fr))}
+  /* bottom bar: every visible tab gets an equal share, always labelled */
+  nav.tabs{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr)}
   nav.tabs button[data-tab="pile"],nav.tabs button[data-tab="settings"]{display:none}
   nav.tabs button .tl{display:block;font-size:10.5px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 2px;color:var(--muted)}
   nav.tabs button[data-tab="stats"] .tl{display:none}
@@ -893,6 +893,8 @@ body{font-variant-numeric:tabular-nums}
 /* four language tabs on phones */
 @media (max-width:640px){ .langsw{gap:16px!important;overflow-x:auto;scrollbar-width:none} .langsw::-webkit-scrollbar{display:none} .langsw button b{font-size:15.5px!important} }
 @media (max-width:370px){ .langsw{gap:12px!important} .langsw button b{font-size:14.5px!important} }
+.dict-page{max-width:680px;margin:0 auto;width:100%}.dict-h{font-size:20px;margin:0 0 12px}
+.adpanel .adbox{margin-top:0;border-top:0;padding-top:0}
 .adbox{margin-top:14px;border-top:1px solid var(--line,#0002);padding-top:10px}
 .adbox summary{cursor:pointer;font-weight:600;color:var(--acc)}
 .adbox form{margin-top:10px}.adbox .newhead{display:flex;gap:8px}.adbox .newhead input{flex:1}.adbox .newhead select{width:auto}
@@ -932,6 +934,7 @@ body{font-variant-numeric:tabular-nums}
   <nav class="tabs" role="tablist" id="tabs">
     <button role="tab" data-tab="today" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="m9 14.5 2 2 4-4"/></svg><span class="tl">今日学习</span></button>
     <button role="tab" data-tab="read" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5c3-1.2 6-1.2 9 .8 3-2 6-2 9-.8v13c-3-1.2-6-1.2-9 .8-3-2-6-2-9-.8z"/><path d="M12 6.3v13"/></svg><span class="tl">阅读</span></button>
+    <button role="tab" data-tab="dict" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span class="tl">字典</span></button>
     <button role="tab" data-tab="pile" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg><span class="tl">生词堆</span><span id="t-pile">0</span></button>
     <button role="tab" data-tab="browse" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6" fill="currentColor"/><circle cx="4" cy="12" r=".6" fill="currentColor"/><circle cx="4" cy="18" r=".6" fill="currentColor"/></svg><span class="tl">词匣</span></button>
     <button role="tab" data-tab="stats" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg><span class="tl">进度</span><span class="tl-m">我的</span></button>
@@ -1108,14 +1111,20 @@ body{font-variant-numeric:tabular-nums}
     </aside>
   </section>
 
+  <!-- DICTIONARY -->
+  <section id="tab-dict" class="grid one" hidden>
+    <div class="panel dx dict-page">
+      <h2 class="dict-h">字典</h2>
+      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
+      <div id="dx-out"></div>
+    </div>
+  </section>
+
   <!-- BROWSE -->
   <section id="tab-browse" class="grid one" hidden>
     <div class="subsw" role="tablist"><button type="button" data-sub="browse">词匣</button><button type="button" data-sub="pile">生词堆 <span class="ct" id="sub-pile-ct"></span></button></div>
-    <div class="panel dx">
-      <h2 class="ph3" style="margin:0 0 10px">查词典</h2>
-      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
-      <div id="dx-out"></div>
-          <details class="adbox" id="ad-box">
+    <div class="panel adpanel">
+      <details class="adbox" id="ad-box">
         <summary>自己加词</summary>
         <form id="ad-form" autocomplete="off">
           <div class="newhead"><input type="text" id="ad-w" placeholder="单词" aria-label="单词" autocapitalize="off" spellcheck="false"><select id="ad-lv" aria-label="级别"></select></div>
@@ -2763,7 +2772,7 @@ function dxPaint(){
   o.innerHTML=`<div class="dx-res"><div class="row"><span class="w" lang="${DX.l}">${esc(DX.lemma)}</span><span class="spacer"></span><button class="ib" id="dx-say" type="button" aria-label="朗读">${I.spk}</button></div>
     ${DX.form?`<p class="small muted" style="margin:0">${esc(DX.form)}</p>`:""}
     ${DX.hl?`<p class="wk-hl" lang="${HL()}" data-noi18n>${esc(DX.hl)} <span class="small muted">· MyMemory</span></p>`:""}
-    ${DX.state==="load"?`<p class="small muted">正在查 Wiktionary…</p>`:DX.state==="none"?`<p class="small muted">Wiktionary 没有收这个词</p>`:DX.wk?`<div class="wk" lang="en" data-noi18n>${DX.wk.map(x=>`<div class="wk-s"><span class="wk-p">${esc(x.pos)}</span><ol>${x.defs.map(d=>`<li>${esc(d.t)}</li>`).join("")}</ol></div>`).join("")}</div>`:""}
+    ${DX.state==="load"?`<p class="small muted">正在查 Wiktionary…</p>`:DX.state==="none"?`<p class="small muted">Wiktionary 没有收这个词</p><button class="btn sm" type="button" id="dx-self">${esc(trOne("自己加词")||"自己加词")}「${esc(DX.q)}」</button>`:DX.wk?`<div class="wk" lang="en" data-noi18n>${DX.wk.map(x=>`<div class="wk-s"><span class="wk-p">${esc(x.pos)}</span><ol>${x.defs.map(d=>`<li>${esc(d.t)}</li>`).join("")}</ol></div>`).join("")}</div>`:""}
     <div class="dx-links">${(DX_LINKS[DX.l]||[]).map(([n,u])=>`<a href="${esc(u.replace("{q}",enc))}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
     <label class="small muted" for="dx-note">笔记</label><textarea id="dx-note" rows="2" placeholder="我的笔记"></textarea>
     <div class="row"><button class="btn primary" id="dx-add" type="button">收进闪卡</button><span class="small muted" id="dx-msg"></span></div></div>`;
@@ -2771,6 +2780,7 @@ function dxPaint(){
 $("#dx-form").addEventListener("submit",e=>{ e.preventDefault(); dxLookup($("#dx-q").value); });
 $("#dx-out").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
   if(b.id==="dx-say") speak(DX.lemma);
+  else if(b.id==="dx-self"){ const w=DX.q; showTab("browse"); const d=$("#ad-box"); if(d){ d.open=true; $("#ad-w").value=w; setTimeout(()=>{ d.scrollIntoView({behavior:"smooth",block:"start"}); $("#ad-m").focus({preventScroll:true}); },60); } }
   else if(b.id==="dx-add"){ const note=($("#dx-note").value||"").trim(), def=DX.wk?(DX.wk[0].defs.find(d=>!d.f)||DX.wk[0].defs[0]).t.slice(0,120):"", h=HL();
     const zh=h==="zh"&&DX.hl?DX.hl:"", other=h!=="zh"&&h!=="en"&&DX.hl?HL_NAME[h]+": "+DX.hl:"";
     if(!def&&!zh&&!note){ $("#dx-msg").textContent=trOne("先写一点笔记。"); $("#dx-note").focus(); return; }
@@ -3629,6 +3639,7 @@ const UI_DICT=[
 ["先告诉我两件事，以后可以在「我的 → 设置与备份」里随时修改。", "Two quick questions – you can change both any time under You → Settings.", "Zwei kurze Fragen – beides kannst du jederzeit unter Profil → Einstellungen ändern.", "Duas perguntas rápidas – dá para mudar a qualquer momento em Perfil → Configurações.", "先告訴我兩件事，以後可以在「我的 → 設定與備份」裡隨時修改。"],
 ["我在学的语言（可多选）", "Languages I'm learning (pick any)", "Meine Lernsprachen (mehrere möglich)", "Idiomas que estou aprendendo (vários)", "我在學的語言（可多選）"],
 ["查词典", "Dictionary", "Wörterbuch", "Dicionário", "查詞典"],
+["字典", "Dictionary", "Wörterbuch", "Dicionário", "字典"],
 ["输入一个词…", "Type a word…", "Wort eingeben…", "Digite uma palavra…", "輸入一個詞…"],
 ["查", "Look up", "Suchen", "Buscar", "查"],
 ["收进闪卡", "Add to flashcards", "Zu den Karteikarten", "Adicionar aos cartões", "收進閃卡"],
@@ -4158,9 +4169,10 @@ $("#ui-lang").addEventListener("change",e=>{ UIL=e.target.value; try{ localStora
 
 /* ---------- tabs & language ---------- */
 let cur="today";
-const TABS=["today","read","new","pile","browse","stats","settings"];
+const TABS=["today","read","dict","new","pile","browse","stats","settings"];
 function showTab(t){
   if(t==="new") t="browse";
+  if(t==="dict") setTimeout(()=>{ const q=$("#dx-q"); if(q&&!q.value) try{ q.focus({preventScroll:true}); }catch(e){} },80);
   if(!TABS.includes(t)) t="today";
   cur=t; const grp={pile:"browse",settings:"stats"}[t]||t;
   $$("#tabs button").forEach(b=>{ b.setAttribute("aria-selected",b.dataset.tab===t); b.classList.toggle("grp-on",b.dataset.tab===grp); });

@@ -13,7 +13,8 @@ Daily reading and flashcards in German, English, Brazilian Portuguese and French
 - **今天（Today）**：间隔重复的单词卡，来自 `data/` 里的分级词库和自己存的词；每日目标和连续天数。
 - **阅读（Read）**：每天自动更新的文章（见下文「每日内容」）。点任意词看释义（Wiktionary），存进单词本；逐段译文、重点词汇、语法说明、理解问题；每周回顾测验。「我的文章」：粘贴或导入自己的文本（Word `.docx`、PDF）来读。
 - **朗读**：设备自带语音，或在设备上运行的开源神经语音 Piper（德、英、葡、法共 15 个声音，文字不离开设备）。
-- **词匣（Word box）**：查字典、自己加词，浏览全部词汇和生词堆（练习堆）。
+- **字典（Dictionary）**：查 Wiktionary，附 Dicio、Duden、Cambridge、Larousse 等外部词典链接；查到的词直接收进闪卡，查不到的一键「自己加词」。
+- **词匣（Word box）**：自己加词，浏览全部词汇和生词堆（练习堆）。
 - **我的**：统计（Stats）和设置（Settings）。
 - **界面语言**：中文／English／Deutsch／Português；释义和语法说明的语言可单独设置，没有的语言退回英文。
 - **同步**：用电子邮件登录（Supabase），或用自己的私有 GitHub 仓库保存进度。不登录时，一切只存在这台设备的浏览器里。见 `privacy.html`。
