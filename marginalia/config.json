@@ -111,18 +111,19 @@
     "Süddeutsche Zeitung"
    ],
    "themes": {
-    "Mon": "Migration",
+    "Mon": "Menschen & Migration (Geschichten, keine Politik)",
     "Tue": "Musik",
-    "Wed": "Gegenwartskunst / Fotografie / Architektur (wöchentlich wechselnd)",
-    "Thu": "Bücher & Buchmessen",
-    "Fri": "Gesellschaft",
-    "Sat": "Geistes- & Naturkunde",
-    "Sun": "Film"
+    "Wed": "Kunst / Fotografie / Architektur & Design",
+    "Thu": "Bücher & Lesen",
+    "Fri": "Alltag",
+    "Sat": "Natur & Wissen",
+    "Sun": "Film & Serien"
    },
    "short": {
-    "Mon/Wed/Fri/Sun": "Kultur in Hannover (Ausstellungen, Konzerte, Lesungen – nur offiziell bestätigte Termine)",
+    "Mon/Wed/Fri/Sun": "Wort & Wendung",
     "Tue/Thu/Sat": "Deutschland kurios"
-   }
+   },
+   "tone": "leicht, neugierig, feuilletonistisch; keine politischen Nachrichten, keine Lokalnachrichten"
   },
   "fr": {
    "topics": [
