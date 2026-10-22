@@ -1,4 +1,5 @@
 // Offline support for 字里行间 · Entrelinhas.
+// Only this app's own old caches ("palavra-…") are cleaned up: other apps on the same site (Shiori, Zili) and the Piper voice caches keep theirs.
 // App files: served from cache, refreshed in the background.
 // Marginalia articles (marginalia/*) and word lists (data/*): network first, so new articles show up right away; cache is the offline fallback.
 const CACHE = "palavra-v54";
@@ -7,7 +8,7 @@ self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
-  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && !k.startsWith("piper-")).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith("palavra-") && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener("fetch", e => {
   const req = e.request;
