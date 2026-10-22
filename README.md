@@ -56,12 +56,13 @@ supabase/schema.sql     邮箱登录同步需要的数据表（在 Supabase 里�
 | 每天 03:23 | Wortschatz / Word bank | `data/`：每种语言约 150 个新词，从最低的未满级别开始 |
 | 每天 06:13 | English | 一篇 C2 长文，按星期轮换主题 |
 | 每天 06:37 | Lesetipps / Reading list | 德语、英语各一份「推荐阅读」原文链接 |
-| 每天 06:52 | Deutsch + Kultur | 一篇 C1 文章 + 一篇 B2 短文（汉诺威文化展讯／德国冷知识） |
-| 每天 16:47 | Français | A1–C1 每级一篇 + 一份法语推荐阅读 |
+| 每天 06:52 | Deutsch | 一篇 C1 文化与生活长文（不写政治新闻）+ 一篇 B2 短文（「Wort & Wendung」词语来历／「Deutschland kurios」冷知识） |
+| 每天 16:47 | Français | 两篇，一易一难，级别按星期轮换（见 `marginalia/config.json`）；不写推荐 |
 | 每天 19:52 | Português | 连载故事「Tito e Ana」+ 一段日常对话（A1） |
 | 周日 18:37 | Wochenrückblick | `marginalia/weekly.json`：本周回顾和测验 |
 
 写作规则（选题、来源、立场、版权、文件格式）都在 `marginalia/README.md`，难度和来源清单在 `marginalia/config.json`。
+每种语言每天最多两篇文章（推荐链接不算）。
 **想改难度**：改 `marginalia/config.json` 里的 `levels`，第二天起生效。
 
 ## 手动维护
