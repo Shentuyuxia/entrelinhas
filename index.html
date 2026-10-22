@@ -56,7 +56,9 @@ body.modal-open{overflow:hidden}
 .wl-langs label{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;background:var(--surface)}
 .wl-langs label:has(input:checked){border-color:var(--ink);background:var(--sunk)}
 .wl-langs b{font-family:var(--f-word);font-weight:600}
-#wl-go{justify-self:stretch;padding:12px}
+#wl-go,#wl-done{justify-self:stretch;padding:12px}
+.wl-steps{margin:0;padding:0 0 0 20px;display:grid;gap:10px}
+.wl-steps li{padding-left:2px} .wl-steps b{display:block;font-weight:600} .wl-steps span{color:var(--muted);font-size:14px;line-height:1.5}
 img{max-width:100%}
 h1,h2,h3{margin:0;text-wrap:balance}
 button,input,select,textarea{font:inherit;color:inherit}
@@ -1139,6 +1141,7 @@ body{font-variant-numeric:tabular-nums}
         <div class="field"><label>我在学的语言</label>
           <div class="checks" id="opt-langs"></div>
           <p class="note">只显示勾选的语言。取消勾选不会删除进度，重新勾上就回来。</p></div>
+        <p class="note" style="margin-top:8px"><button class="linkbtn" id="opt-guide" type="button">使用指南</button></p>
         <label class="tog" style="margin-top:12px"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
         <div class="field" style="margin-top:14px"><label for="opt-help">释义和语法说明的语言</label>
           <select id="opt-help"><option value="">跟随界面语言</option><option value="zh" data-raw>中文</option><option value="en" data-raw>English</option><option value="de" data-raw>Deutsch</option><option value="pt" data-raw>Português</option></select></div>
@@ -1281,6 +1284,16 @@ body{font-variant-numeric:tabular-nums}
       <select id="wl-ui"><option value="zh" data-raw>简体中文</option><option value="zht" data-raw>繁體中文</option><option value="en" data-raw>English</option><option value="de" data-raw>Deutsch</option><option value="pt" data-raw>Português</option></select></div>
     <div class="field"><label>我在学的语言（可多选）</label><div class="wl-langs" id="wl-langs"></div></div>
     <button class="btn primary" id="wl-go" type="button">开始</button>
+  </div>
+  <div class="welcome-in" id="wl-guide" hidden>
+    <h2>怎么用</h2>
+    <ol class="wl-steps">
+      <li><b>今日学习</b><span>每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。</span></li>
+      <li><b>阅读</b><span>每天的新文章。点任意单词看解释、收进生词堆；「朗读」旁边的语言按钮可以打开你的母语翻译。</span></li>
+      <li><b>录入新词 · 词库</b><span>自己添加单词，浏览全部词汇和你收藏的生词。</span></li>
+      <li><b>我的</b><span>学习进度和设置。用邮箱登录后，进度会在手机、平板和电脑之间同步。</span></li>
+    </ol>
+    <button class="btn primary" id="wl-done" type="button">知道了</button>
   </div>
 </div>
 
@@ -3532,6 +3545,14 @@ const UI_DICT=[
 ["欢迎来到字里行间", "Welcome to Entrelinhas", "Willkommen bei Entrelinhas", "Bem-vindo ao Entrelinhas", "歡迎來到字裡行間"],
 ["先告诉我两件事，以后可以在「我的 → 设置与备份」里随时修改。", "Two quick questions – you can change both any time under You → Settings.", "Zwei kurze Fragen – beides kannst du jederzeit unter Profil → Einstellungen ändern.", "Duas perguntas rápidas – dá para mudar a qualquer momento em Perfil → Configurações.", "先告訴我兩件事，以後可以在「我的 → 設定與備份」裡隨時修改。"],
 ["我在学的语言（可多选）", "Languages I'm learning (pick any)", "Meine Lernsprachen (mehrere möglich)", "Idiomas que estou aprendendo (vários)", "我在學的語言（可多選）"],
+["怎么用", "How it works", "So funktioniert's", "Como funciona", "怎麼用"],
+["每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。", "New words and reviews every day. Think about the card, tap “Show answer”, then rate how well you knew it.", "Jeden Tag neue Wörter und Wiederholungen. Überleg kurz, tippe auf „Antwort zeigen“ und bewerte, wie gut du es wusstest.", "Palavras novas e revisões todo dia. Pense no cartão, toque em “Mostrar resposta” e diga o quanto você lembrava.", "每天的新詞和複習。看卡片想一想，點「顯示答案」，再按記得的程度選一個按鈕。"],
+["每天的新文章。点任意单词看解释、收进生词堆；「朗读」旁边的语言按钮可以打开你的母语翻译。", "New texts every day. Tap any word for its meaning and save it; the language button next to “Read aloud” shows translations in your language.", "Jeden Tag neue Texte. Tippe auf ein Wort für die Erklärung und speichere es; der Sprachknopf neben „Vorlesen“ zeigt Übersetzungen in deiner Sprache.", "Textos novos todo dia. Toque numa palavra para ver o significado e salvá-la; o botão de idioma ao lado de “Ler em voz alta” mostra traduções no seu idioma.", "每天的新文章。點任意單詞看解釋、收進生詞堆；「朗讀」旁邊的語言按鈕可以打開你的母語翻譯。"],
+["录入新词 · 词库", "Add words · Word list", "Wörter eintragen · Wortschatz", "Adicionar · Vocabulário", "錄入新詞 · 詞庫"],
+["自己添加单词，浏览全部词汇和你收藏的生词。", "Add your own words and browse everything, including the words you saved.", "Eigene Wörter hinzufügen und alles durchsehen – auch deine gespeicherten Wörter.", "Adicione suas palavras e veja todo o vocabulário, incluindo as que você salvou.", "自己添加單詞，瀏覽全部詞彙和你收藏的生詞。"],
+["学习进度和设置。用邮箱登录后，进度会在手机、平板和电脑之间同步。", "Your progress and settings. Sign in with email to sync across phone, tablet and computer.", "Fortschritt und Einstellungen. Mit E-Mail-Anmeldung wird alles zwischen Handy, Tablet und Computer synchronisiert.", "Progresso e configurações. Entre com e-mail para sincronizar entre celular, tablet e computador.", "學習進度和設定。用郵箱登入後，進度會在手機、平板和電腦之間同步。"],
+["知道了", "Got it", "Alles klar", "Entendi", "知道了"],
+["使用指南", "How to use", "Kurzanleitung", "Guia rápido", "使用指南"],
 ["开始", "Start", "Los geht's", "Começar", "開始"],
 ["至少选一种语言。", "Pick at least one language.", "Wähle mindestens eine Sprache.", "Escolha pelo menos um idioma.", "至少選一種語言。"],
 ["口语", "Everyday", "Alltag", "Coloquial", "口語"],
@@ -4099,11 +4120,15 @@ function showWelcome(){
   const on=S.settings.langsOn||[];
   $("#wl-langs").innerHTML=Object.keys(LANG).map(k=>`<label><input type="checkbox" value="${k}" ${on.includes(k)?"checked":""}> <b data-raw>${esc(LANG[k].name)}</b></label>`).join("");
 }
+$("#opt-guide").addEventListener("click",()=>wlGuide());
 $("#wl-ui").addEventListener("change",e=>{ UIL=e.target.value; try{ localStorage.setItem("pw-ui",UIL); }catch(x){} applyUILang(); });
 $("#wl-go").addEventListener("click",()=>{ const v=$$("#wl-langs input:checked").map(i=>i.value);
   if(!v.length){ toast(trOne("至少选一种语言。")); return; }
   S.settings.langsOn=v; S.settings.onboarded=1; if(!v.includes(S.settings.lang)) S.settings.lang=v[0]; save();
-  $("#welcome").hidden=true; applyLang(); });
+  applyLang(); wlGuide(); });
+function wlGuide(){ const w=$("#welcome"); w.hidden=false; w.querySelector(".welcome-in:not(#wl-guide)").hidden=true; $("#wl-guide").hidden=false; }
+$("#wl-done").addEventListener("click",()=>{ $("#welcome").hidden=true; $("#wl-guide").hidden=true; $("#welcome .welcome-in:not(#wl-guide)").hidden=false; });
+$("#welcome").addEventListener("click",e=>{ if(e.target.id==="welcome"&&S.settings.onboarded) $("#wl-done").click(); });
 /* ---------- boot ---------- */
 applyUILang();
 try{ const t=localStorage.getItem("pw-tab"); if(t) showTab(t); }catch(e){}
