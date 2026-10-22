@@ -3,15 +3,38 @@
   "de": "C1",
   "en": "C2",
   "pt": "A1",
-  "fr": [
-   "A1",
-   "A2",
-   "B1",
-   "B2",
-   "C1"
-  ]
+  "fr": {
+   "Mon": [
+    "A1",
+    "B2"
+   ],
+   "Tue": [
+    "A2",
+    "C1"
+   ],
+   "Wed": [
+    "B1",
+    "C1"
+   ],
+   "Thu": [
+    "A1",
+    "B2"
+   ],
+   "Fri": [
+    "A2",
+    "C1"
+   ],
+   "Sat": [
+    "B1",
+    "B2"
+   ],
+   "Sun": [
+    "A2",
+    "C1"
+   ]
+  }
  },
- "note": "Change a level here (A1–C2); the daily tasks read it before writing. French: a list = one article per level each day; readers pick their level in the app.",
+ "note": "Change a level here (A1–C2); the daily tasks read it before writing. French: two articles a day, one easier and one harder, levels rotating by weekday.",
  "sources": {
   "en": {
    "rotate": [
