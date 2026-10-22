@@ -47,6 +47,16 @@ body[data-lang="fr"]{--acc:var(--fr);--acc-soft:var(--fr-soft)}
 body.modal-open{overflow:hidden}
 *{box-sizing:border-box}
 [hidden],.top .langsw[hidden],.top .langsw button[hidden]{display:none!important}
+.welcome{position:fixed;inset:0;z-index:200;background:rgba(20,26,24,.45);display:flex;align-items:flex-end;justify-content:center;padding:16px}
+@media (min-width:641px){.welcome{align-items:center}}
+.welcome-in{background:var(--bg);color:var(--ink);border-radius:16px;max-width:440px;width:100%;padding:22px 20px 20px;display:grid;gap:14px;box-shadow:0 10px 40px rgba(0,0,0,.25)}
+.welcome-in h2{margin:0;font-family:var(--f-word);font-weight:600;font-size:22px}
+.welcome-in select{width:100%}
+.wl-langs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.wl-langs label{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;background:var(--surface)}
+.wl-langs label:has(input:checked){border-color:var(--ink);background:var(--sunk)}
+.wl-langs b{font-family:var(--f-word);font-weight:600}
+#wl-go{justify-self:stretch;padding:12px}
 img{max-width:100%}
 h1,h2,h3{margin:0;text-wrap:balance}
 button,input,select,textarea{font:inherit;color:inherit}
@@ -1263,6 +1273,16 @@ body{font-variant-numeric:tabular-nums}
 </div>
 <div id="detail-root"></div>
 <div class="toast" id="toast" hidden></div>
+<div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="wl-h">
+  <div class="welcome-in">
+    <h2 id="wl-h">欢迎来到字里行间</h2>
+    <p class="note">先告诉我两件事，以后可以在「我的 → 设置与备份」里随时修改。</p>
+    <div class="field"><label for="wl-ui">界面语言</label>
+      <select id="wl-ui"><option value="zh" data-raw>简体中文</option><option value="zht" data-raw>繁體中文</option><option value="en" data-raw>English</option><option value="de" data-raw>Deutsch</option><option value="pt" data-raw>Português</option></select></div>
+    <div class="field"><label>我在学的语言（可多选）</label><div class="wl-langs" id="wl-langs"></div></div>
+    <button class="btn primary" id="wl-go" type="button">开始</button>
+  </div>
+</div>
 
 <script>
 (function(){
@@ -3509,6 +3529,10 @@ const UI_DICT=[
 ["全部", "All", "Alle", "Todos", "全部"],
 ["我在学的语言", "Languages I'm learning", "Meine Lernsprachen", "Idiomas que estou aprendendo", "我在學的語言"],
 ["只显示勾选的语言。取消勾选不会删除进度，重新勾上就回来。", "Only ticked languages are shown. Unticking keeps your progress.", "Nur angehakte Sprachen werden angezeigt. Dein Fortschritt bleibt erhalten.", "Só os idiomas marcados aparecem. Desmarcar não apaga o progresso.", "只顯示勾選的語言。取消勾選不會刪除進度，重新勾上就回來。"],
+["欢迎来到字里行间", "Welcome to Entrelinhas", "Willkommen bei Entrelinhas", "Bem-vindo ao Entrelinhas", "歡迎來到字裡行間"],
+["先告诉我两件事，以后可以在「我的 → 设置与备份」里随时修改。", "Two quick questions – you can change both any time under You → Settings.", "Zwei kurze Fragen – beides kannst du jederzeit unter Profil → Einstellungen ändern.", "Duas perguntas rápidas – dá para mudar a qualquer momento em Perfil → Configurações.", "先告訴我兩件事，以後可以在「我的 → 設定與備份」裡隨時修改。"],
+["我在学的语言（可多选）", "Languages I'm learning (pick any)", "Meine Lernsprachen (mehrere möglich)", "Idiomas que estou aprendendo (vários)", "我在學的語言（可多選）"],
+["开始", "Start", "Los geht's", "Começar", "開始"],
 ["至少选一种语言。", "Pick at least one language.", "Wähle mindestens eine Sprache.", "Escolha pelo menos um idioma.", "至少選一種語言。"],
 ["口语", "Everyday", "Alltag", "Coloquial", "口語"],
 ["全部级别", "All levels", "Alle Niveaus", "Todos os níveis", "全部級別"],
@@ -3943,7 +3967,8 @@ const UI_DICT=[
 ];
 
 /* ---------- interface language ---------- */
-let UIL=(()=>{ try{ return localStorage.getItem("pw-ui")||"zh"; }catch(e){ return "zh"; } })();
+function uiGuess(){ const n=(navigator.language||"").toLowerCase(); return /^zh-(tw|hk|mo)|hant/.test(n)?"zht":n.startsWith("zh")?"zh":n.startsWith("de")?"de":n.startsWith("pt")?"pt":n.startsWith("en")?"en":"en"; }
+let UIL=(()=>{ try{ return localStorage.getItem("pw-ui")||uiGuess(); }catch(e){ return uiGuess(); } })();
 const UIX={en:1,de:2,pt:3,zht:4};
 function uiLocale(){ return {zh:"zh-CN",zht:"zh-TW",en:"en-GB",de:"de-DE",pt:"pt-BR"}[UIL]||"zh-CN"; }
 function uiWeekdays(){ const base=new Date(2024,0,1); return [0,1,2,3,4,5,6].map(i=>{ const d=new Date(base); d.setDate(1+i); return UIL==="zh"||UIL==="zht"?"一二三四五六日"[i]:d.toLocaleDateString(uiLocale(),{weekday:"narrow"}); }); }
@@ -4068,11 +4093,23 @@ function applyTset(){ const open=lsGet("pw-tset","0")==="1"; const t=$("#tset-to
 $("#tset-tog").addEventListener("click",()=>{ lsSet("pw-tset",lsGet("pw-tset","0")==="1"?"0":"1"); applyTset(); });
 applyLean(); applyTset();
 
+/* ---------- first visit: ask interface language + languages I'm learning ---------- */
+function showWelcome(){
+  const w=$("#welcome"); w.hidden=false; $("#wl-ui").value=UIL;
+  const on=S.settings.langsOn||[];
+  $("#wl-langs").innerHTML=Object.keys(LANG).map(k=>`<label><input type="checkbox" value="${k}" ${on.includes(k)?"checked":""}> <b data-raw>${esc(LANG[k].name)}</b></label>`).join("");
+}
+$("#wl-ui").addEventListener("change",e=>{ UIL=e.target.value; try{ localStorage.setItem("pw-ui",UIL); }catch(x){} applyUILang(); });
+$("#wl-go").addEventListener("click",()=>{ const v=$$("#wl-langs input:checked").map(i=>i.value);
+  if(!v.length){ toast(trOne("至少选一种语言。")); return; }
+  S.settings.langsOn=v; S.settings.onboarded=1; if(!v.includes(S.settings.lang)) S.settings.lang=v[0]; save();
+  $("#welcome").hidden=true; applyLang(); });
 /* ---------- boot ---------- */
 applyUILang();
 try{ const t=localStorage.getItem("pw-tab"); if(t) showTab(t); }catch(e){}
 refreshAI();
 applyLang();
+if(!S.settings.onboarded) showWelcome();
 let lastDay=today();
 setInterval(()=>{ if(today()!==lastDay){ lastDay=today(); if(DATA[lang()]){ buildDaily(); renderStrip(); } } },60000);
 document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible"&&today()!==lastDay){ lastDay=today(); if(DATA[lang()]){ buildDaily(); renderStrip(); } } });
