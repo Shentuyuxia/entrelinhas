@@ -92,6 +92,171 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lesetipps",
+   "title": "Lesetipps für heute",
+   "dek": "Von der Altersarmut der ersten Gastarbeiter über Sri Lankas Tropenmoderne bis zu Amy Winehouse – sechs Texte zu Migration, Architektur, Film, Musik, Kunst und Gesellschaft.",
+   "paragraphs": [],
+   "picks": [
+    {
+     "outlet": "Mediendienst Integration",
+     "genre": "Recherche · Migration",
+     "title": "Altersarmut betrifft viele türkische Gastarbeiter",
+     "url": "https://mediendienst-integration.de/news/altersarmut-betrifft-viele-tuerkische-gastarbeiter/",
+     "minutes": 6,
+     "en": "Part of a series marking 65 years of the German–Turkish recruitment agreement: a fact-based look at why so many of the first 'guest workers' now face poverty in old age. A sober counterpoint to the usual integration debate.",
+     "zh": "德土招工协定65周年：许多第一代土耳其“客籍工人”晚年陷入贫困。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Porträt · Architektur",
+     "title": "Er spannte das Dach einfach zwischen die Felsen",
+     "author": "Rahel Bueb",
+     "url": "https://taz.de/Geoffrey-Bawa-Architekt-aus-Sri-Lanka/!6220064/",
+     "minutes": 7,
+     "en": "A portrait of Geoffrey Bawa, the Sri Lankan architect whose buildings grow out of landscape and climate rather than fighting them. A good way into 'tropical modernism' and architecture beyond the Western canon.",
+     "zh": "斯里兰卡建筑师杰弗里·巴瓦：让建筑顺应山石与气候。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Interview · Film",
+     "title": "„Kapital und Technik werfen uns unter die Räder“",
+     "author": "Patrick Heidmann",
+     "url": "https://taz.de/Regisseur-Lee-Chang-dong-im-Gespraech/!6220317/",
+     "minutes": 8,
+     "en": "The South Korean director Lee Chang-dong ('Burning', 'Poetry') talks about his new work and about how capital and technology grind people down. Worth it for one of cinema's most thoughtful voices on class.",
+     "zh": "韩国导演李沧东访谈：资本与技术如何碾压普通人。"
+    },
+    {
+     "outlet": "taz",
+     "genre": "Essay · Musik",
+     "title": "Es gibt noch was zu holen im Bienenkorb",
+     "author": "Nina Apin",
+     "url": "https://taz.de/20-Jahre-Back-to-Black-Amy-Winehouse/!6222756/",
+     "minutes": 6,
+     "en": "Twenty years after Amy Winehouse's 'Back to Black', a re-listening that asks what is still to be discovered in the album beyond the myth and the beehive hairdo.",
+     "zh": "《Back to Black》二十周年：重听艾米·怀恩豪斯。"
+    },
+    {
+     "outlet": "Monopol",
+     "genre": "Bericht · Kunst & Provenienz",
+     "title": "Der lange Schatten über dem größten Museum der Schweiz",
+     "author": "Jeni Fulton",
+     "url": "https://www.monopol-magazin.de/der-lange-schatten-ueber-dem-kunsthaus-zuerich",
+     "minutes": 7,
+     "en": "Why the Bührle collection – built partly on Nazi-era loot and arms-trade money – still unsettles the Kunsthaus Zürich, and why its future funding is now in doubt. A sharp case study in museums and historical responsibility.",
+     "zh": "布尔勒收藏与纳粹掠夺艺术：苏黎世美术馆的长久阴影。"
+    },
+    {
+     "outlet": "der Freitag",
+     "genre": "Reportage · Gesellschaft",
+     "title": "Warum brannte Paris? Wer das verstehen will, muss eine Vorschule in Pantin besuchen",
+     "author": "Romy Straßenburg",
+     "url": "https://www.freitag.de/autoren/linkerhand/frankreich-proteste-warum-paris-brennt-und-wie-marine-le-pen-davon-profitiert",
+     "minutes": 9,
+     "en": "Behind France's recent riots and curfews lies the anger of young people in neglected suburbs; this reportage goes to a preschool in Pantin to trace where it starts. Inequality and public neglect seen from the ground up.",
+     "zh": "巴黎为何燃烧？从潘坦一所幼儿园看被忽视郊区的青年怒火。"
+    }
+   ],
+   "glossary": [],
+   "questions": [],
+   "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "picks",
+   "section": "Reading list",
+   "title": "Today's reading list",
+   "dek": "Detained abuse survivors, John Berger's way of looking, a housing-crisis film, spirit art against patriarchy, an Abenaki bassist and the rivers we dammed.",
+   "paragraphs": [],
+   "picks": [
+    {
+     "outlet": "ProPublica",
+     "genre": "Investigation · Migration & Gender",
+     "title": "These Women Were Trying to Escape Domestic Abuse. ICE Detained Them Instead.",
+     "author": "Melissa Sanchez, Anna Clark",
+     "url": "https://www.propublica.org/article/domestic-violence-immigrant-victims-ice-detention",
+     "minutes": 22,
+     "en": "Immigrant women who called the police on abusive partners ended up arrested and handed to ICE, some never charged. A long, careful investigation into how weakened victim protections now keep survivors from seeking help.",
+     "zh": "报警求助的移民家暴受害女性反被移民局拘押。"
+    },
+    {
+     "outlet": "The New York Times Magazine (via Longreads)",
+     "genre": "Essay · Art criticism",
+     "title": "The Man Who Taught Us How to Pay Attention",
+     "author": "A.O. Scott",
+     "url": "https://longreads.com/2026/10/20/john-berger-about-looking-ways-of-seeing/",
+     "en": "Longreads' pick: A.O. Scott on the critic John Berger, whose ways of seeing it presents as an antidote to an age of endless scrolling. A fine essay on attention, images and art.",
+     "zh": "A.O.斯科特谈约翰·伯格：在无尽刷屏时代学会凝视。"
+    },
+    {
+     "outlet": "Sight and Sound (BFI)",
+     "genre": "Review · Film & Housing",
+     "title": "I See Buildings Fall Like Lightning: the British housing crisis is ever present in Clio Barnard's touching story of a Birmingham friendship group",
+     "author": "B. Ruby Rich",
+     "url": "https://www.bfi.org.uk/sight-and-sound/reviews/i-see-buildings-fall-like-lightning-british-housing-crisis-ever-present-clio-barnards-touching-story-birmingham-friendship-group",
+     "minutes": 5,
+     "en": "B. Ruby Rich on Clio Barnard's new film about a working-class circle of friends in Birmingham, where the loss of affordable homes and shared life hangs over every scene. Film criticism that is also social criticism.",
+     "zh": "克里奥·巴纳德新片影评：伯明翰工人阶级友谊与住房危机。"
+    },
+    {
+     "outlet": "Hyperallergic",
+     "genre": "Review · Contemporary art",
+     "title": "Spirits Against the Patriarchy",
+     "author": "Eliza Swann",
+     "url": "https://hyperallergic.com/spirits-against-the-patriarchy/",
+     "minutes": 3,
+     "en": "A review of a New York show of seventeen women artists who made work through contact with spirits – and how the Surrealists borrowed their 'automatic' methods while stripping out the spiritual and feminist edge.",
+     "zh": "十七位以“通灵”创作的女性艺术家，与反父权的艺术史。"
+    },
+    {
+     "outlet": "Bandcamp Daily",
+     "genre": "Feature · Music",
+     "title": "Bassist and Composer Mali Obomsawin Builds a Bridge Across Time",
+     "url": "https://daily.bandcamp.com/features/mali-obomsawin-automatic-feature",
+     "minutes": 8,
+     "en": "A feature on the Abenaki bassist and composer Mali Obomsawin and her new album 'Automatic', music that connects Indigenous history with free jazz. Read it with the record playing.",
+     "zh": "阿布纳基族贝斯手马莉·奥博姆萨温与新专辑《Automatic》。"
+    },
+    {
+     "outlet": "bioGraphic (via Longreads)",
+     "genre": "Reportage · Nature",
+     "title": "Death by a Thousand Dams",
+     "author": "Ben Goldfarb",
+     "url": "https://longreads.com/2026/10/20/dams-fish-migration-america/",
+     "en": "Longreads' pick: Ben Goldfarb on the tens of thousands of small dams in the northeastern US that block migrating fish from recovering. Nature writing about what we never noticed we built.",
+     "zh": "美国东北部数以万计的小水坝阻断鱼类洄游。"
+    },
+    {
+     "outlet": "The Guardian",
+     "genre": "Browse · The Long Read",
+     "title": "The Long Read – latest essays",
+     "url": "https://www.theguardian.com/news/series/the-long-read",
+     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+    },
+    {
+     "outlet": "The Atlantic",
+     "genre": "Browse · Ideas",
+     "title": "Ideas – essays and arguments",
+     "url": "https://www.theatlantic.com/ideas/",
+     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it."
+    }
+   ],
+   "note": "ProPublica, Hyperallergic and Bandcamp Daily are free to read; the two Longreads picks link through to the original outlets, which may have paywalls.",
+   "glossary": [],
+   "questions": [],
+   "sources": [
+    {
+     "title": "Longreads",
+     "url": "https://longreads.com/",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
