@@ -1,0 +1,40 @@
+# Builds the offline Portuguese dictionary (dict/pt/) from Wiktionary data on kaikki.org and commits it.
+# Run it by hand (Actions → Build Portuguese dictionary → Run workflow) whenever you want fresher Wiktionary data;
+# it also runs when tools/build_ptdict.py changes.
+name: Build Portuguese dictionary
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/build_ptdict.py", ".github/workflows/build-ptdict.yml"]
+permissions:
+  contents: write
+concurrency: { group: build-ptdict, cancel-in-progress: true }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download Portuguese Wiktionary data (kaikki.org)
+        run: |
+          set -e
+          # per-language file (~550 MB); if kaikki has removed it, fall back to the full raw extract (~2.8 GB gz)
+          if curl -fL --retry 3 --retry-delay 10 -o pt.jsonl https://kaikki.org/dictionary/Portuguese/kaikki.org-dictionary-Portuguese.jsonl; then
+            echo "SRC=pt.jsonl" >> "$GITHUB_ENV"
+          else
+            curl -fL --retry 3 --retry-delay 10 -o raw.jsonl.gz https://kaikki.org/dictionary/raw-wiktextract-data.jsonl.gz
+            echo "SRC=raw.jsonl.gz" >> "$GITHUB_ENV"
+          fi
+          ls -lh pt.jsonl raw.jsonl.gz 2>/dev/null || true
+      - name: Build dict/pt
+        run: python3 tools/build_ptdict.py "$SRC"
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dict/pt
+          git diff --cached --quiet && { echo "dictionary unchanged"; exit 0; }
+          git commit -q -m "Portuguese dictionary: rebuild dict/pt from Wiktionary (kaikki.org)"
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep $((i*10)); done
+          exit 1

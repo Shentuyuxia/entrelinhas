@@ -893,6 +893,7 @@ body{font-variant-numeric:tabular-nums}
 /* four language tabs on phones */
 @media (max-width:640px){ .langsw{gap:16px!important;overflow-x:auto;scrollbar-width:none} .langsw::-webkit-scrollbar{display:none} .langsw button b{font-size:15.5px!important} }
 @media (max-width:370px){ .langsw{gap:12px!important} .langsw button b{font-size:14.5px!important} }
+.wk-ipa{font-family:var(--f-mono,monospace);font-size:13.5px;color:var(--muted);margin:0 0 4px}
 .dict-page{max-width:680px;margin:0 auto;width:100%}.dict-h{font-size:20px;margin:0 0 12px}
 .adpanel .adbox{margin-top:0;border-top:0;padding-top:0}
 .adbox{margin-top:14px;border-top:1px solid var(--line,#0002);padding-top:10px}
@@ -2771,21 +2772,21 @@ const DX_LINKS={
 };
 async function dxLookup(q){
   const l=lang(); q=String(q||"").trim(); if(!q) return;
-  Object.assign(DX,{q,l,wk:null,hl:"",state:"load",lemma:q}); dxPaint();
+  Object.assign(DX,{q,l,wk:null,hl:"",state:"load",lemma:q,form:"",ipa:"",local:false}); dxPaint();
   const cands=[...new Set([q,q.toLowerCase()])]; let senses=null, hit="";
-  for(const c of cands){ senses=wkPick(await wkFetch(c),l); if(senses){ hit=c; break; } }
+  for(const c of cands){ senses=await anyPick(c,l); if(senses){ hit=c; break; } }
   if(DX.q!==q) return;
   if(senses){ const allForm=senses.every(x=>x.defs.every(d=>d.f)), lem=senses[0].defs[0].f;
-    if(allForm&&lem&&lem!==hit){ const ls=wkPick(await wkFetch(lem),l); if(ls){ DX.form=senses[0].defs[0].t; senses=ls; hit=lem; } } }
+    if(allForm&&lem&&lem!==hit){ const ls=await anyPick(lem,l); if(ls){ DX.form=senses[0].defs[0].t; senses=ls; hit=lem; } } }
   if(DX.q!==q) return;
-  DX.wk=senses; DX.lemma=hit||q; DX.state=senses?"ok":"none"; dxPaint();
+  DX.wk=senses; DX.lemma=hit||q; DX.state=senses?"ok":"none"; DX.ipa=senses&&senses.ipa||""; DX.local=!!(senses&&senses.local); dxPaint();
   const h=HL(); if(h!=="en"&&h!==l){ const t=await mtFetch(DX.lemma,l,h); if(DX.q===q&&t){ DX.hl=h==="zh"?hz(t):t; dxPaint(); } }
 }
 function dxPaint(){
   const o=$("#dx-out"); if(!o) return; if(!DX.q||DX.l!==lang()){ o.innerHTML=""; return; }
   const enc=encodeURIComponent(DX.lemma.toLowerCase());
   o.innerHTML=`<div class="dx-res"><div class="row"><span class="w" lang="${DX.l}">${esc(DX.lemma)}</span><span class="spacer"></span><button class="ib" id="dx-say" type="button" aria-label="朗读">${I.spk}</button></div>
-    ${DX.form?`<p class="small muted" style="margin:0">${esc(DX.form)}</p>`:""}
+    ${DX.ipa?`<p class="wk-ipa" style="margin:0">${esc(DX.ipa)}</p>`:""}${DX.form?`<p class="small muted" style="margin:0">${esc(DX.form)}</p>`:""}${DX.local?`<p class="small muted" style="margin:0">${esc(trOne("离线词典 · Wiktionary（CC BY-SA）")||"离线词典 · Wiktionary（CC BY-SA）")}</p>`:""}
     ${DX.hl?`<p class="wk-hl" lang="${HL()}" data-noi18n>${esc(DX.hl)} <span class="small muted">· MyMemory</span></p>`:""}
     ${DX.state==="load"?`<p class="small muted">正在查 Wiktionary…</p>`:DX.state==="none"?`<p class="small muted">Wiktionary 没有收这个词</p><button class="btn sm" type="button" id="dx-self">${esc(trOne("自己加词")||"自己加词")}「${esc(DX.q)}」</button>`:DX.wk?`<div class="wk" lang="en" data-noi18n>${DX.wk.map(x=>`<div class="wk-s"><span class="wk-p">${esc(x.pos)}</span><ol>${x.defs.map(d=>`<li>${esc(d.t)}</li>`).join("")}</ol></div>`).join("")}</div>`:""}
     <div class="dx-links">${(DX_LINKS[DX.l]||[]).map(([n,u])=>`<a href="${esc(u.replace("{q}",enc))}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
@@ -2830,6 +2831,29 @@ function wkFormOf(html){ // "third-person singular present indicative of chover"
   if(!a&&/\b(form|singular|plural|participle|person|tense|indicative|subjunctive|imperative|genitive|dative|accusative|comparative|superlative|inflection|feminine|masculine)\b.*\bof\b/i.test(d.textContent)){ const as=d.querySelectorAll("a[title]"); a=as[as.length-1]; }
   return a?a.getAttribute("title").replace(/#.*/,""):"";
 }
+/* ---------- offline Portuguese dictionary (dict/pt/, Wiktionary CC BY-SA via kaikki.org; built by tools/build_ptdict.py) ---------- */
+const PTD={shards:new Map(),off:false};
+function ptHash(w){ let h=0x811C9DC5; for(let i=0;i<w.length;i++){ h^=w.charCodeAt(i); h=Math.imul(h,16777619)>>>0; } return h%512; }
+function ptShard(k){ if(!PTD.shards.has(k)) PTD.shards.set(k,fetch("dict/pt/"+String(k).padStart(3,"0")+".json").then(r=>r.ok?r.json():null).catch(()=>null)); return PTD.shards.get(k); }
+const PT_TAG={ // code → [en, zh, zht, de, pt]
+  "1":["first-person","第一人称","第一人稱","1. Person","1ª pessoa"],"2":["second-person","第二人称","第二人稱","2. Person","2ª pessoa"],"3":["third-person","第三人称","第三人稱","3. Person","3ª pessoa"],
+  s:["singular","单数","單數","Singular","singular"],p:["plural","复数","複數","Plural","plural"],m:["masculine","阳性","陽性","maskulin","masculino"],f:["feminine","阴性","陰性","feminin","feminino"],
+  pres:["present","现在时","現在時","Präsens","presente"],pret:["preterite","简单过去时","簡單過去時","Präteritum","pretérito perfeito"],impf:["imperfect","未完成过去时","未完成過去時","Imperfekt","pretérito imperfeito"],
+  plup:["pluperfect","过去完成时","過去完成時","Plusquamperfekt","mais-que-perfeito"],fut:["future","将来时","將來時","Futur","futuro"],cond:["conditional","条件式","條件式","Konditional","condicional"],past:["past","过去","過去","Vergangenheit","passado"],
+  ind:["indicative","陈述式","陳述式","Indikativ","indicativo"],subj:["subjunctive","虚拟式","虛擬式","Konjunktiv","subjuntivo"],imp:["imperative","命令式","命令式","Imperativ","imperativo"],
+  aff:["affirmative","肯定","肯定","bejahend","afirmativo"],neg:["negative","否定","否定","verneint","negativo"],inf:["infinitive","不定式","不定式","Infinitiv","infinitivo"],
+  pers:["personal","人称","人稱","persönlich","pessoal"],impers:["impersonal","无人称","無人稱","unpersönlich","impessoal"],ger:["gerund","副动词","副動詞","Gerundium","gerúndio"],ptcp:["participle","分词","分詞","Partizip","particípio"],
+  dim:["diminutive","指小","指小","Diminutiv","diminutivo"],aug:["augmentative","指大","指大","Augmentativ","aumentativo"],sup:["superlative","最高级","最高級","Superlativ","superlativo"],comp:["comparative","比较级","比較級","Komparativ","comparativo"]
+};
+function ptFormText(code,lemma){ const k={en:0,zh:1,zht:2,de:3,pt:4}[UIL]??0, parts=code.split(".").map(c=>(PT_TAG[c]||[c])[k]||(PT_TAG[c]||[c])[0]);
+  return k===1||k===2?`${lemma} 的${parts.join("·")}`:k===3?`${parts.join(" ")} von ${lemma}`:k===4?`${parts.join(" ")} de ${lemma}`:`${parts.join(" ")} of ${lemma}`; }
+async function ptPick(w){ // same shape as wkPick(): [{pos, defs:[{t, f}]}] plus .ipa / .gender
+  w=String(w||"").normalize("NFC"); if(!w||PTD.off) return null;
+  const sh=await ptShard(ptHash(w)); if(!sh){ return null; } const es=sh[w]; if(!es||!es.length) return null;
+  const senses=es.map(([pos,ss])=>({pos,defs:ss.map(x=>x.length===2?{t:/^[0-9a-z]+(\.[0-9a-z]+)*$/.test(x[0])&&PT_TAG[x[0].split(".")[0]]?ptFormText(x[0],x[1]):x[0],f:x[1]}:{t:x[0],f:""})}));
+  senses.ipa=es.find(e=>e[2])?.[2]||""; senses.gender=es.find(e=>e[3])?.[3]||""; senses.local=true; return senses;
+}
+async function anyPick(w,l){ if(l==="pt"){ const x=await ptPick(w); if(x) return x; } return wkPick(await wkFetch(w),l); }
 async function wkFetch(w){
   if(WK.has(w)) return WK.get(w);
   const ac=new AbortController(), tm=setTimeout(()=>ac.abort(),8000);
@@ -2847,14 +2871,15 @@ async function wkLookup(s){
   if(!raw) return; s.wk={state:"load"}; mgPaint();
   const cands=[...new Set([raw,raw.toLowerCase(),raw.charAt(0).toUpperCase()+raw.slice(1).toLowerCase()])];
   let senses=null, hit="";
-  for(const c of cands){ senses=wkPick(await wkFetch(c),l); if(senses){ hit=c; break; } }
+  for(const c of cands){ senses=await anyPick(c,l); if(senses){ hit=c; break; } }
   if(MG.sheet!==s) return;
   if(!senses){ s.wk={state:"none"}; mgPaint(); return; }
   // inflected form: follow "… of LEMMA" to the dictionary entry
   const allForm=senses.every(x=>x.defs.every(d=>d.f)), lemma=senses[0].defs[0].f;
   let form=null;
-  if(allForm&&lemma&&lemma!==hit){ const ls=wkPick(await wkFetch(lemma),l); if(MG.sheet!==s) return; if(ls){ form=senses[0].defs[0].t; senses=ls; hit=lemma; } }
-  s.wk={state:"ok",lemma:hit,form,senses,url:"https://en.wiktionary.org/wiki/"+encodeURIComponent(hit.replace(/ /g,"_"))+"#"+({pt:"Portuguese",de:"German",en:"English",fr:"French"}[l])};
+  if(allForm&&lemma&&lemma!==hit){ const ls=await anyPick(lemma,l); if(MG.sheet!==s) return; if(ls){ form=senses[0].defs[0].t; senses=ls; hit=lemma; } }
+  if(senses.gender&&!s.gender) s.gender=senses.gender;
+  s.wk={state:"ok",lemma:hit,form,senses,ipa:senses.ipa||"",local:!!senses.local,url:"https://en.wiktionary.org/wiki/"+encodeURIComponent(hit.replace(/ /g,"_"))+"#"+({pt:"Portuguese",de:"German",en:"English",fr:"French"}[l])};
   if(!s.pos) s.pos=WK_POS[senses[0].pos]||"";
   if(s.lemma===s.word&&hit) s.lemma=hit;
   mgPaint();
@@ -2866,7 +2891,7 @@ function mgPaint(){
   $("#mg-sheet-in").innerHTML=`<div class="row"><span class="w" lang="${lang()}">${esc(s.lemma)}</span><span class="small muted">${esc([s.gender,s.pos].filter(Boolean).join(" · "))}</span><span class="spacer"></span><button class="ib" id="mg-ssay" aria-label="朗读">${I.spk}</button>${hasTTS&&MG.sIdx>=0?`<button class="ib" id="mg-sfrom" aria-label="从这句读">${I.play}</button>`:""}<button class="ib" id="mg-sx" aria-label="关闭">${I.x}</button></div>
     ${s.have?'<p class="small muted" style="margin:0">这个词已经在词匣里了，点保存会放进生词堆。</p>':""}
     ${s.pl?`<p class="wk-en" lang="${PL()}" data-noi18n>${esc(s.pl)}</p>`:""}
-    ${s.pl?"":s.wk&&s.wk.state==="ok"?`<div class="wk" lang="en" data-noi18n>${s.wk.form?`<p class="wk-form">${esc(s.wk.form)}</p>`:""}${s.wk.senses.map(x=>`<div class="wk-s"><span class="wk-p">${esc(x.pos)}</span><ol>${x.defs.map(d=>`<li>${esc(d.t)}</li>`).join("")}</ol></div>`).join("")}<a class="wk-src" href="${esc(s.wk.url)}" target="_blank" rel="noopener">Wiktionary ↗</a></div>`
+    ${s.pl?"":s.wk&&s.wk.state==="ok"?`<div class="wk" lang="en" data-noi18n>${s.wk.ipa?`<p class="wk-ipa">${esc(s.wk.ipa)}</p>`:""}${s.wk.form?`<p class="wk-form">${esc(s.wk.form)}</p>`:""}${s.wk.senses.map(x=>`<div class="wk-s"><span class="wk-p">${esc(x.pos)}</span><ol>${x.defs.map(d=>`<li>${esc(d.t)}</li>`).join("")}</ol></div>`).join("")}<a class="wk-src" href="${esc(s.wk.url)}" target="_blank" rel="noopener">Wiktionary ↗</a></div>`
       :s.wk&&s.wk.state==="load"?`<p class="small muted wk-msg">正在查 Wiktionary…</p>`:s.wk&&s.wk.state==="none"?`<p class="small muted wk-msg">Wiktionary 没有收这个词</p>`:""}
     ${s.en&&!s.pl?`<p class="wk-en" lang="en" data-noi18n>${esc(s.en)}</p>`:""}
     ${MGX&&SL()?(s.hl?`<p class="wk-hl" lang="${SL()}" data-noi18n>${esc(s.hl)}${s.hlMT?' <span class="small muted">· MyMemory</span>':""}</p>`:s.mtState==="load"||s.state==="ai"?`<p class="small muted wk-msg">…</p>`:""):""}
@@ -3658,6 +3683,7 @@ const UI_DICT=[
 ["我在学的语言（可多选）", "Languages I'm learning (pick any)", "Meine Lernsprachen (mehrere möglich)", "Idiomas que estou aprendendo (vários)", "我在學的語言（可多選）"],
 ["查词典", "Dictionary", "Wörterbuch", "Dicionário", "查詞典"],
 ["字典", "Dictionary", "Wörterbuch", "Dicionário", "字典"],
+["离线词典 · Wiktionary（CC BY-SA）", "Offline dictionary · Wiktionary (CC BY-SA)", "Offline-Wörterbuch · Wiktionary (CC BY-SA)", "Dicionário offline · Wiktionary (CC BY-SA)", "離線詞典 · Wiktionary（CC BY-SA）"],
 ["输入一个词…", "Type a word…", "Wort eingeben…", "Digite uma palavra…", "輸入一個詞…"],
 ["查", "Look up", "Suchen", "Buscar", "查"],
 ["收进闪卡", "Add to flashcards", "Zu den Karteikarten", "Adicionar aos cartões", "收進閃卡"],

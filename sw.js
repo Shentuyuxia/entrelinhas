@@ -28,7 +28,7 @@ self.addEventListener("fetch", e => {
     }));
     return;
   }
-  if (sameOrigin && (url.pathname.includes("/marginalia/") || url.pathname.includes("/data/"))) {
+  if (sameOrigin && (url.pathname.includes("/marginalia/") || url.pathname.includes("/data/") || url.pathname.includes("/dict/"))) {
     const key = url.origin + url.pathname; // ignore the cache-busting query
     e.respondWith(
       fetch(req).then(res => {
