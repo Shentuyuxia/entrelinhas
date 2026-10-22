@@ -893,6 +893,9 @@ body{font-variant-numeric:tabular-nums}
 /* four language tabs on phones */
 @media (max-width:640px){ .langsw{gap:16px!important;overflow-x:auto;scrollbar-width:none} .langsw::-webkit-scrollbar{display:none} .langsw button b{font-size:15.5px!important} }
 @media (max-width:370px){ .langsw{gap:12px!important} .langsw button b{font-size:14.5px!important} }
+.adbox{margin-top:14px;border-top:1px solid var(--line,#0002);padding-top:10px}
+.adbox summary{cursor:pointer;font-weight:600;color:var(--acc)}
+.adbox form{margin-top:10px}.adbox .newhead{display:flex;gap:8px}.adbox .newhead input{flex:1}.adbox .newhead select{width:auto}
 </style>
 </head>
 <body>
@@ -929,7 +932,6 @@ body{font-variant-numeric:tabular-nums}
   <nav class="tabs" role="tablist" id="tabs">
     <button role="tab" data-tab="today" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="m9 14.5 2 2 4-4"/></svg><span class="tl">今日学习</span></button>
     <button role="tab" data-tab="read" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5c3-1.2 6-1.2 9 .8 3-2 6-2 9-.8v13c-3-1.2-6-1.2-9 .8-3-2-6-2-9-.8z"/><path d="M12 6.3v13"/></svg><span class="tl">阅读</span></button>
-    <button role="tab" data-tab="new" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v8M8 12h8"/></svg><span class="tl">录入新词</span></button>
     <button role="tab" data-tab="pile" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg><span class="tl">生词堆</span><span id="t-pile">0</span></button>
     <button role="tab" data-tab="browse" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6" fill="currentColor"/><circle cx="4" cy="12" r=".6" fill="currentColor"/><circle cx="4" cy="18" r=".6" fill="currentColor"/></svg><span class="tl">词库</span></button>
     <button role="tab" data-tab="stats" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg><span class="tl">进度</span><span class="tl-m">我的</span></button>
@@ -1011,11 +1013,6 @@ body{font-variant-numeric:tabular-nums}
 
   <!-- NEW WORD -->
   <section id="tab-new" class="grid" hidden>
-    <div class="panel dx">
-      <h2 class="ph3" style="margin:0 0 10px">查词典</h2>
-      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
-      <div id="dx-out"></div>
-    </div>
     <div class="panel">
       <div class="sesshead"><h2 id="new-title">录入新词</h2><button class="btn ghost sm" id="n-clear" type="button">清空</button></div>
       <form id="n-form" autocomplete="off">
@@ -1114,6 +1111,21 @@ body{font-variant-numeric:tabular-nums}
   <!-- BROWSE -->
   <section id="tab-browse" class="grid one" hidden>
     <div class="subsw" role="tablist"><button type="button" data-sub="browse">词库</button><button type="button" data-sub="pile">生词堆 <span class="ct" id="sub-pile-ct"></span></button></div>
+    <div class="panel dx">
+      <h2 class="ph3" style="margin:0 0 10px">查词典</h2>
+      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
+      <div id="dx-out"></div>
+          <details class="adbox" id="ad-box">
+        <summary>自己加词</summary>
+        <form id="ad-form" autocomplete="off">
+          <div class="newhead"><input type="text" id="ad-w" placeholder="单词" aria-label="单词" autocapitalize="off" spellcheck="false"><select id="ad-lv" aria-label="级别"></select></div>
+          <div class="field"><label for="ad-m">意思</label><input type="text" id="ad-m" placeholder="用你习惯的语言写"></div>
+          <div class="field"><label for="ad-ex">我的例句</label><input type="text" id="ad-ex"></div>
+          <div class="field"><label for="ad-memo">记忆提示</label><input type="text" id="ad-memo" placeholder="谐音、画面、词根……"></div>
+          <div class="row"><button class="btn primary" type="submit">收进闪卡</button><span class="small muted" id="ad-msg"></span></div>
+        </form>
+      </details>
+    </div>
     <div class="panel">
       <div class="levels" id="lv-cells"></div>
       <div class="filters">
@@ -1300,7 +1312,7 @@ body{font-variant-numeric:tabular-nums}
     <ol class="wl-steps">
       <li><b>今日学习</b><span>每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。</span></li>
       <li><b>阅读</b><span>每天的新文章。点任意单词看解释、收进生词堆；「朗读」旁边的语言按钮可以打开你的母语翻译。</span></li>
-      <li><b>录入新词 · 词库</b><span>自己添加单词，浏览全部词汇和你收藏的生词。</span></li>
+      <li><b>词库</b><span>查词典、自己加词，浏览全部词汇和你收藏的生词。</span></li>
       <li><b>我的</b><span>学习进度和设置。用邮箱登录后，进度会在手机、平板和电脑之间同步。</span></li>
     </ol>
     <button class="btn primary" id="wl-done" type="button">知道了</button>
@@ -2078,14 +2090,14 @@ function renderDone(area){
     h=`<div class="done"><div class="seal">${I.check}</div><h2>${d.ok}</h2><p class="muted">今天的${d.zh}打卡完成：新学 ${log.n} 个，复习 ${log.r} 次。连续打卡 ${streak()} 天。</p>
       <div class="row" style="justify-content:center;margin-top:8px">${fp?`<button class="btn" id="d-more">再学 5 个新词</button>`:""}${Object.keys(L().pile).length?`<button class="btn" id="d-pile">复习生词堆</button>`:""}<button class="btn" id="d-new">录入新词</button></div></div>`;
   } else if(fp===0&&due===0){
-    h=`<div class="done"><h2>选中的级别学完了</h2><p class="muted">在右边「新词从哪些级别来」里勾选其他级别，或者去「录入新词」加自己的词。</p></div>`;
+    h=`<div class="done"><h2>选中的级别学完了</h2><p class="muted">在右边「新词从哪些级别来」里勾选其他级别，或者去「词库」加自己的词。</p></div>`;
   } else {
     h=`<div class="done"><h2>${d.done}</h2><p class="muted">今天这轮做完了。还差一点就能打卡：新词 ${log.n} / ${goal()}，待复习 ${due}。</p>
       <div class="row" style="justify-content:center;margin-top:8px"><button class="btn primary" id="d-cont">继续</button></div></div>`;
   }
   area.innerHTML=h;
   const b=(id,fn)=>{ const e=document.getElementById(id); if(e) e.onclick=fn; };
-  b("d-back",buildDaily); b("d-more",()=>buildExtra(5)); b("d-pile",()=>startCram(pileCards(),"复习生词堆","pile")); b("d-cont",buildDaily); b("d-new",()=>showTab("new"));
+  b("d-back",buildDaily); b("d-more",()=>buildExtra(5)); b("d-pile",()=>startCram(pileCards(),"复习生词堆","pile")); b("d-cont",buildDaily); b("d-new",()=>{ showTab("browse"); const d=$("#ad-box"); if(d){ d.open=true; $("#ad-w").focus(); } });
 }
 document.addEventListener("keydown",e=>{
   if(detailOpen){ if(e.key==="Escape") closeDetail(); return; }
@@ -2216,6 +2228,7 @@ async function checkSent(c,i){
 /* ---------- new word tab ---------- */
 let draft={img:null,auds:{}}, busy=false;
 function renderNewForm(){
+  adLevels();
   const l=lang();
   $("#new-title").textContent="录入新词 · "+LANG[l].name;
   $("#n-w").placeholder= l==="pt"?"例如：o guarda-chuva":l==="de"?"例如：der Regenschirm":l==="fr"?"例如：le parapluie":"e.g. umbrella";
@@ -2306,6 +2319,19 @@ $("#n-form").addEventListener("submit",async e=>{
   save(); if(sess&&sess.mode==="daily"&&!sess.flipped) buildDaily(); renderStrip();
   const w=o.w; clearDraft(false); $("#n-msg").textContent="「"+w+"」已保存，会作为新词优先出现。"; $("#n-w").focus();
 });
+const T_=t=>trOne(t)||t;
+/* ---------- self-add (compact) ---------- */
+function adLevels(){ const el=$("#ad-lv"); if(!el) return; const v=el.value; el.innerHTML=LV().filter(x=>x!=="UG"||lang()==="de").map(x=>`<option value="${x}">${esc(lvName?lvName(x):x)}</option>`).join(""); const l=lang(); el.value=syLevel(l); $("#ad-w").placeholder=T_(l==="pt"?"例如：o guarda-chuva":l==="de"?"例如：der Regenschirm":l==="fr"?"例如：le parapluie":"e.g. umbrella"); }
+$("#ad-form").addEventListener("submit",e=>{
+  e.preventDefault(); const l=lang(), w=$("#ad-w").value.trim(), m=$("#ad-m").value.trim(), ex=$("#ad-ex").value.trim(), memo=$("#ad-memo").value.trim(), msg=$("#ad-msg");
+  if(!w){ msg.textContent=T_("先输入单词。"); $("#ad-w").focus(); return; }
+  if(!m){ msg.textContent=T_("写一下意思。"); $("#ad-m").focus(); return; }
+  const r=addFromReader(Object.assign({lang:l,word:w,level:$("#ad-lv").value,sentence:ex,note:memo,src:"mine"},HL()==="zh"?{zh:m}:{def:m}));
+  if(r==="dup"){ msg.textContent=T_("这个词已经在词库里了。")+" "+T_("已排到最前面。"); return; }
+  if(r!=="ok"){ msg.textContent=T_("没存上，再试一次。"); return; }
+  const id=L().custom[L().custom.length-1].id; if(ex) L().mine[id]=[{t:ex,ts:Date.now()}]; save();
+  ["ad-w","ad-m","ad-ex","ad-memo"].forEach(i=>$("#"+i).value=""); msg.textContent=T_("「{0}」已收进闪卡，下次学习最先出现。").replace("{0}",w); $("#ad-w").focus(); if(cur==="browse") renderBrowse();
+});
 function guessPos(w){ const l=lang(); if(l==="fr"){ if(/^le\s/i.test(w)) return "m"; if(/^la\s/i.test(w)) return "f"; } if(l==="pt"){ if(/^o\s/i.test(w)) return "m"; if(/^a\s/i.test(w)) return "f"; } else if(l==="de"){ const m=w.match(/^(der|die|das)\s/); if(m) return {der:"m",die:"f",das:"n"}[m[1]]; } return ""; }
 $("#bulk-btn").addEventListener("click",()=>{
   const l=lang(), keys=LANG[l].gl, lv=$("#bulk-lv").value; let ok=0,dup=0,bad=0;
@@ -2346,7 +2372,7 @@ function addFromReader(v){
   const LL=S[l], ex=syFind(l,w);
   if(ex){ LL.pile[ex.id]=Date.now(); save(); renderStrip(); if(sess&&sess.mode==="daily"&&!sess.flipped&&l===lang()) buildDaily(); return "dup"; }
   const id="u:"+Date.now().toString(36)+Math.random().toString(36).slice(2,8);
-  const rec={id,lvl:syLevel(l,v.level),w,pos:syPos(l,v),extra:"",ex:String(v.sentence||v.example||"").trim(),exzh:v.sentence?"":String(v.example_zh||"").trim(),exen:"",src:"Marginalia"};
+  const rec={id,lvl:syLevel(l,v.level),w,pos:syPos(l,v),extra:"",ex:String(v.sentence||v.example||"").trim(),exzh:v.sentence?"":String(v.example_zh||"").trim(),exen:"",src:v.src||"Marginalia"};
   LANG[l].gl.forEach(k=>rec[k]=""); rec.zh=zh;
   if(def){ if(LANG[l].gl.includes("def")) rec.def=def; else if(LANG[l].gl.includes("en")) rec.en=def; }
   LL.custom.push(rec);
@@ -3612,6 +3638,14 @@ const UI_DICT=[
 ["怎么用", "How it works", "So funktioniert's", "Como funciona", "怎麼用"],
 ["每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。", "New words and reviews every day. Think about the card, tap “Show answer”, then rate how well you knew it.", "Jeden Tag neue Wörter und Wiederholungen. Überleg kurz, tippe auf „Antwort zeigen“ und bewerte, wie gut du es wusstest.", "Palavras novas e revisões todo dia. Pense no cartão, toque em “Mostrar resposta” e diga o quanto você lembrava.", "每天的新詞和複習。看卡片想一想，點「顯示答案」，再按記得的程度選一個按鈕。"],
 ["每天的新文章。点任意单词看解释、收进生词堆；「朗读」旁边的语言按钮可以打开你的母语翻译。", "New texts every day. Tap any word for its meaning and save it; the language button next to “Read aloud” shows translations in your language.", "Jeden Tag neue Texte. Tippe auf ein Wort für die Erklärung und speichere es; der Sprachknopf neben „Vorlesen“ zeigt Übersetzungen in deiner Sprache.", "Textos novos todo dia. Toque numa palavra para ver o significado e salvá-la; o botão de idioma ao lado de “Ler em voz alta” mostra traduções no seu idioma.", "每天的新文章。點任意單詞看解釋、收進生詞堆；「朗讀」旁邊的語言按鈕可以打開你的母語翻譯。"],
+["查词典、自己加词，浏览全部词汇和你收藏的生词。", "Look words up, add your own, browse every word and your saved ones.", "Wörter nachschlagen, eigene hinzufügen, alle Wörter und deine gemerkten durchsehen.", "Procure palavras, adicione as suas, veja todo o vocabulário e as que guardou.", "查詞典、自己加詞，瀏覽全部詞彙和你收藏的生詞。"],
+["自己加词", "Add your own word", "Eigenes Wort hinzufügen", "Adicionar palavra", "自己加詞"],
+["意思", "Meaning", "Bedeutung", "Significado", "意思"],
+["用你习惯的语言写", "In whatever language suits you", "In der Sprache, die dir liegt", "Na língua que preferir", "用你習慣的語言寫"],
+["写一下意思。", "Add a meaning.", "Bitte eine Bedeutung eintragen.", "Escreva o significado.", "寫一下意思。"],
+["已排到最前面。", "Moved to the front.", "Ganz nach vorn gesetzt.", "Passou para a frente.", "已排到最前面。"],
+["没存上，再试一次。", "Couldn't save, try again.", "Nicht gespeichert, bitte noch einmal.", "Não foi guardado, tente de novo.", "沒存上，再試一次。"],
+["「{0}」已收进闪卡，下次学习最先出现。", "“{0}” is in your flashcards and comes first next time.", "„{0}“ ist in den Karten und kommt beim nächsten Mal zuerst.", "“{0}” está nos cartões e aparece primeiro da próxima vez.", "「{0}」已收進閃卡，下次學習最先出現。"],
 ["录入新词 · 词库", "Add words · Word list", "Wörter eintragen · Wortschatz", "Adicionar · Vocabulário", "錄入新詞 · 詞庫"],
 ["自己添加单词，浏览全部词汇和你收藏的生词。", "Add your own words and browse everything, including the words you saved.", "Eigene Wörter hinzufügen und alles durchsehen – auch deine gespeicherten Wörter.", "Adicione suas palavras e veja todo o vocabulário, incluindo as que você salvou.", "自己添加單詞，瀏覽全部詞彙和你收藏的生詞。"],
 ["学习进度和设置。用邮箱登录后，进度会在手机、平板和电脑之间同步。", "Your progress and settings. Sign in with email to sync across phone, tablet and computer.", "Fortschritt und Einstellungen. Mit E-Mail-Anmeldung wird alles zwischen Handy, Tablet und Computer synchronisiert.", "Progresso e configurações. Entre com e-mail para sincronizar entre celular, tablet e computador.", "學習進度和設定。用郵箱登入後，進度會在手機、平板和電腦之間同步。"],
@@ -3711,7 +3745,7 @@ const UI_DICT=[
 ["今天的{0}打卡完成：新学 {1} 个，复习 {2} 次。连续打卡 {3} 天。", "Today's {0} goal is done: {1} new words, {2} reviews. {3}-day streak.", "Tagesziel {0} erreicht: {1} neue Wörter, {2} Wiederholungen. {3} Tage in Folge.", "Meta de {0} cumprida: {1} palavras novas, {2} revisões. {3} dias seguidos.", "今天的{0}打卡完成：新學 {1} 個，複習 {2} 次。連續打卡 {3} 天。"],
 ["再学 5 个新词", "5 more new words", "5 neue Wörter mehr", "Mais 5 palavras novas", "再學 5 個新詞"],
 ["选中的级别学完了", "You've finished the selected levels", "Die gewählten Niveaus sind fertig", "Você terminou os níveis selecionados", "選中的級別學完了"],
-["在右边「新词从哪些级别来」里勾选其他级别，或者去「录入新词」加自己的词。", "Choose more levels under “Levels for new words”, or add your own under “Add words”.", "Wähle unter „Niveaus für neue Wörter“ weitere Niveaus oder trag eigene Wörter ein.", "Escolha mais níveis em “Níveis das palavras novas” ou adicione as suas em “Adicionar palavras”.", "在右邊「新詞從哪些級別來」裡勾選其他級別，或者去「錄入新詞」加自己的詞。"],
+["在右边「新词从哪些级别来」里勾选其他级别，或者去「词库」加自己的词。", "Choose more levels under “Levels for new words”, or add your own under “Word list”.", "Wähle unter „Niveaus für neue Wörter“ weitere Niveaus oder trag eigene Wörter ein.", "Escolha mais níveis em “Níveis das palavras novas” ou adicione as suas em “Vocabulário”.", "在右邊「新詞從哪些級別來」裡勾選其他級別，或者去「詞庫」加自己的詞。"],
 ["今天这轮做完了。还差一点就能打卡：新词 {0} / {1}，待复习 {2}。", "This round is done. Almost at your goal: new {0} / {1}, due {2}.", "Runde geschafft. Fast am Ziel: neu {0} / {1}, fällig {2}.", "Rodada concluída. Quase lá: novas {0} / {1}, para revisar {2}.", "今天這輪做完了。還差一點就能打卡：新詞 {0} / {1}，待複習 {2}。"],
 ["继续", "Continue", "Weiter", "Continuar", "繼續"],
 // detail
@@ -4126,6 +4160,7 @@ $("#ui-lang").addEventListener("change",e=>{ UIL=e.target.value; try{ localStora
 let cur="today";
 const TABS=["today","read","new","pile","browse","stats","settings"];
 function showTab(t){
+  if(t==="new") t="browse";
   if(!TABS.includes(t)) t="today";
   cur=t; const grp={pile:"browse",settings:"stats"}[t]||t;
   $$("#tabs button").forEach(b=>{ b.setAttribute("aria-selected",b.dataset.tab===t); b.classList.toggle("grp-on",b.dataset.tab===grp); });
