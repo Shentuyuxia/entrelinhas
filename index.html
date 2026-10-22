@@ -46,7 +46,7 @@ body[data-lang="en"]{--acc:var(--en);--acc-soft:var(--en-soft)}
 body[data-lang="fr"]{--acc:var(--fr);--acc-soft:var(--fr-soft)}
 body.modal-open{overflow:hidden}
 *{box-sizing:border-box}
-[hidden]{display:none!important}
+[hidden],.top .langsw[hidden],.top .langsw button[hidden]{display:none!important}
 img{max-width:100%}
 h1,h2,h3{margin:0;text-wrap:balance}
 button,input,select,textarea{font:inherit;color:inherit}
@@ -1123,7 +1123,10 @@ body{font-variant-numeric:tabular-nums}
     <div class="side" style="gap:22px">
       <div class="panel">
         <h3 class="ph3">界面</h3>
-        <label class="tog"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
+        <div class="field"><label>我在学的语言</label>
+          <div class="checks" id="opt-langs"></div>
+          <p class="note">只显示勾选的语言。取消勾选不会删除进度，重新勾上就回来。</p></div>
+        <label class="tog" style="margin-top:12px"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
         <div class="field" style="margin-top:14px"><label for="opt-help">释义和语法说明的语言</label>
           <select id="opt-help"><option value="">跟随界面语言</option><option value="zh" data-raw>中文</option><option value="en" data-raw>English</option><option value="de" data-raw>Deutsch</option><option value="pt" data-raw>Português</option></select></div>
         <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
@@ -3501,6 +3504,9 @@ const UI_DICT=[
 ["移出生词堆", "Remove from pile", "Aus dem Stapel nehmen", "Tirar da pilha", "移出生詞堆"],
 ["放进生词堆", "Add to pile", "In den Stapel legen", "Pôr na pilha", "放進生詞堆"],
 ["全部", "All", "Alle", "Todos", "全部"],
+["我在学的语言", "Languages I'm learning", "Meine Lernsprachen", "Idiomas que estou aprendendo", "我在學的語言"],
+["只显示勾选的语言。取消勾选不会删除进度，重新勾上就回来。", "Only ticked languages are shown. Unticking keeps your progress.", "Nur angehakte Sprachen werden angezeigt. Dein Fortschritt bleibt erhalten.", "Só os idiomas marcados aparecem. Desmarcar não apaga o progresso.", "只顯示勾選的語言。取消勾選不會刪除進度，重新勾上就回來。"],
+["至少选一种语言。", "Pick at least one language.", "Wähle mindestens eine Sprache.", "Escolha pelo menos um idioma.", "至少選一種語言。"],
 ["口语", "Everyday", "Alltag", "Coloquial", "口語"],
 ["全部级别", "All levels", "Alle Niveaus", "Todos os níveis", "全部級別"],
 // browse
@@ -4020,8 +4026,21 @@ function showTab(t){
 }
 $("#tabs").addEventListener("click",e=>{ const b=e.target.closest("[data-tab]"); if(b) showTab(b.dataset.tab); });
 document.addEventListener("click",e=>{ const b=e.target.closest(".subsw [data-sub]"); if(b) showTab(b.dataset.sub); });
+$("#opt-langs").addEventListener("change",()=>{ const v=$$("#opt-langs input:checked").map(i=>i.value);
+  if(!v.length){ toast(trOne("至少选一种语言。")); renderLangs(); return; }
+  S.settings.langsOn=v; save(); if(!v.includes(lang())){ S.settings.lang=v[0]; save(); } applyLang(); });
 $("#langsw").addEventListener("click",e=>{ const b=e.target.closest("[data-l]"); if(!b||b.dataset.l===lang()) return; S.settings.lang=b.dataset.l; save(); applyLang(); });
+/* languages I'm learning: hide the others (progress is kept) */
+function langsOn(){ const a=(S.settings.langsOn||Object.keys(LANG)).filter(k=>LANG[k]); return a.length?a:Object.keys(LANG); }
+function renderLangs(){
+  const on=langsOn();
+  $$("#langsw button").forEach(b=>{ b.hidden=!on.includes(b.dataset.l); });
+  $("#langsw").hidden=on.length<2;
+  const box=$("#opt-langs"); if(box) box.innerHTML=Object.keys(LANG).map(k=>`<label><input type="checkbox" value="${k}" ${on.includes(k)?"checked":""}> <span data-raw>${esc(LANG[k].name)}</span></label>`).join("");
+}
 async function applyLang(){
+  if(!langsOn().includes(S.settings.lang)){ S.settings.lang=langsOn()[0]; save(); }
+  renderLangs();
   const l=lang(); document.body.dataset.lang=l;
   const tm=document.querySelector('meta[name="theme-color"]'); if(tm) tm.content=LANG[l].theme;
   $$("#langsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===l));
