@@ -898,6 +898,7 @@ body{font-variant-numeric:tabular-nums}
 .adbox{margin-top:14px;border-top:1px solid var(--line,#0002);padding-top:10px}
 .adbox summary{cursor:pointer;font-weight:600;color:var(--acc)}
 .adbox form{margin-top:10px}.adbox .newhead{display:flex;gap:8px}.adbox .newhead input{flex:1}.adbox .newhead select{width:auto}
+.mg-favb .st{font-size:16px;line-height:1}.mg-favb[aria-pressed="true"] .st{color:#d4a017}
 </style>
 </head>
 <body>
@@ -959,6 +960,7 @@ body{font-variant-numeric:tabular-nums}
         <div class="row" style="margin-top:8px"><button class="btn primary sm" id="mine-add" type="button">保存并阅读</button></div>
         <div class="mg-arch" id="mine-list" style="margin-top:12px"></div>
       </details>
+      <div class="panel" id="mg-fav" hidden></div>
       <div class="panel" id="mg-arch"></div>
     </aside>
   </section>
@@ -2395,7 +2397,7 @@ function addFromReader(v){
 /* ---------- reading tab (Marginalia) ---------- */
 const MG={trAll:(()=>{ try{ return JSON.parse(localStorage.getItem("pw-tr2"))||{}; }catch(e){ return {}; } })(),mine:null,idx:null,days:{},di:0,key:null,zh:false,err:"",loading:false,week:null,wpick:{},sheet:null,ctl:null};
 const MGK="marginalia-v1";
-let MGS=(()=>{ try{ return JSON.parse(localStorage.getItem(MGK))||{}; }catch(e){ return {}; } })(); MGS.read=MGS.read||{};
+let MGS=(()=>{ try{ return JSON.parse(localStorage.getItem(MGK))||{}; }catch(e){ return {}; } })(); MGS.read=MGS.read||{}; MGS.fav=MGS.fav||{};
 function mgTr(){ return MG.trAll[lang()]||[]; } // translations shown, remembered per language
 function mgSave(){ try{ localStorage.setItem(MGK,JSON.stringify(MGS)); }catch(e){} }
 const MG_KIND={picks:"推荐",news:"新闻",brief:"短讯",short:"短评",essay:"随笔",feature:"专题",story:"故事",dialogue:"对话"};
@@ -2431,6 +2433,19 @@ function mgPick(){ // returns {date,i} of the article to show
   return null;
 }
 const mgRead=(d,i)=>!!MGS.read[d+"|"+i];
+/* favourites: MGS.fav[key]={lang,title,date,level,ts}; a removed one keeps {del:ts} so other devices learn about it */
+const mgFavOn=k=>{ const f=MGS.fav[k]; return !!(f&&!f.del); };
+function mgFavToggle(){ const c=MG.cur; if(!c||!c.it) return; const k=c.date+"|"+c.i;
+  MGS.fav[k]=mgFavOn(k)?{del:Date.now()}:{lang:lang(),title:c.it.title||"",date:c.date==="mine"?"":c.date,level:c.it.level||"",ts:Date.now()}; mgSave(); }
+function favMerge(a,b){ const o=Object.assign({},a||{}); for(const k in (b||{})){ const x=o[k], y=b[k]; const tx=x?(x.ts||x.del||0):-1, ty=y?(y.ts||y.del||0):-1; if(ty>tx) o[k]=y; } return o; }
+function mgFavList(pick){
+  const box=$("#mg-fav"); if(!box) return; const l=lang();
+  const rows=Object.entries(MGS.fav).filter(([k,f])=>f&&!f.del&&f.lang===l).sort((a,b)=>b[1].ts-a[1].ts);
+  if(!rows.length){ box.hidden=true; box.innerHTML=""; return; } box.hidden=false;
+  const cur=pick?pick.date+"|"+pick.i:"";
+  box.innerHTML=`<h3 style="margin:0 0 8px"><span>我的收藏</span> · <span>${rows.length} 篇</span></h3><div class="mg-arch">${rows.map(([k,f])=>{ const mine=k.startsWith("mine|");
+    return `<button ${mine?`data-mine="${esc(k.slice(5))}"`:`data-mg="${esc(k)}"`} aria-current="${k===cur}"><span class="k">${f.date?new Date(f.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"}):"★"}</span><span class="t" lang="${l}">${esc(f.title)}</span><span class="m">${f.level?esc(f.level):""}</span></button>`; }).join("")}</div>`;
+}
 const WRE=/([\p{L}\p{M}]+(?:['’\-][\p{L}\p{M}]+)*)/u;
 function mgSents(p){ return p.split(/(?<=(?<!\d)[.!?…]["»“]?)\s+(?=[\p{Lu}—–„«"\d])/u); }
 function mgWrap(text,l,own){
@@ -2472,7 +2487,7 @@ async function mgRender(){
   h=`<div class="mg-head"><button class="ib" id="mg-prev" aria-label="前一天" ${MG.di>=days.length-1?"disabled":""}>‹</button><span class="d">${days[MG.di]?mgFmt(days[MG.di].date):""}</span><button class="ib" id="mg-next" aria-label="后一天" ${MG.di<=0?"disabled":""}>›</button><span class="spacer"></span><button class="ib" id="mg-reload" aria-label="刷新" title="刷新">↻</button></div>`;
   { const lvs=mgLevels(MG.di,l); if(lvs.length>1){ const sel=mgLvSel(MG.di,l); h+=`<div class="mg-lvs" role="tablist" aria-label="Level"><button type="button" data-mglv="" aria-pressed="${!sel}">${esc(trOne("全部")||"全部")}</button>${lvs.map(v=>`<button type="button" data-mglv="${v}" aria-pressed="${sel===v}">${v}</button>`).join("")}</div>`; } }
   if(es.length) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}<button class="mg-addchip" data-mineopen="1" type="button">＋ 我的文章</button></nav>`;
-  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); return; }
+  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); return; }
   try{ const day=await mgDay(pick.date); it=day.items[pick.i]; }catch(e){ main.innerHTML=h+`<div class="empty"><b>这篇没有载入</b>${esc(e.message)}</div>`; return; }
   if(!it){ main.innerHTML=h; return; }
   }
@@ -2482,7 +2497,7 @@ async function mgRender(){
     <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${mgOutlet(it)?`<span>${esc(mgOutlet(it))}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${it.kind!=="picks"&&(it.paragraphs||[]).length?`<span>${mgMinutes(it)} 分钟</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
     <h2 data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.title)}</h2>
     ${it.dek?`<p class="mg-dek" data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.dek)}</p>`:""}
-    <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button>${(()=>{ const sl=SL(l,it.level); return (sl?`<button class="tb" id="mg-xl" aria-pressed="${MGX}">${HL_NAME[sl]}</button>`:"")+(l!=="en"&&sl!=="en"&&it.paragraphs_en&&it.paragraphs_en.length?`<button class="tb" data-mgtr="en" aria-pressed="${mgTr().includes("en")}" aria-label="English translation">English</button>`:""); })()}</div>
+    <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button><button class="tb mg-favb" id="mg-fav-b" type="button" aria-pressed="${mgFavOn(pick.date+"|"+pick.i)}"><span class="st" aria-hidden="true">${mgFavOn(pick.date+"|"+pick.i)?"★":"☆"}</span><span>${mgFavOn(pick.date+"|"+pick.i)?"已收藏":"收藏"}</span></button>${(()=>{ const sl=SL(l,it.level); return (sl?`<button class="tb" id="mg-xl" aria-pressed="${MGX}">${HL_NAME[sl]}</button>`:"")+(l!=="en"&&sl!=="en"&&it.paragraphs_en&&it.paragraphs_en.length?`<button class="tb" data-mgtr="en" aria-pressed="${mgTr().includes("en")}" aria-label="English translation">English</button>`:""); })()}</div>
     <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n lang="${l==="pt"?"pt-BR":l}">${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${[...mgTr().filter(t=>t==="en"),...(MGX&&SL(l,it.level)?[SL(l,it.level)]:[])].filter((t,i,a)=>a.indexOf(t)===i).map(t=>it["paragraphs_"+t]&&it["paragraphs_"+t][k]?`<span class="mg-zh mg-tr-${t}" lang="${t}">${esc(t==="zh"?hz(it["paragraphs_"+t][k]):it["paragraphs_"+t][k])}</span>`:"").join("")}`).join("")}</div>
     ${it.kind==="picks"?mgPicks(it):""}
     ${(()=>{ const g=hxPick(it,"grammar"); return g?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram" lang="${g.lang}" data-noi18n>${esc(g.text)}</div></div>`:""; })()}
@@ -2496,7 +2511,7 @@ async function mgRender(){
   main.innerHTML=h; MG.cur={...pick,it};
   if(innerWidth>640) document.documentElement.style.setProperty("--tabs-h",$("#tabs").offsetHeight+"px");
   { const t=main.querySelector(".mg-toc"), a=t&&t.querySelector('[aria-current="true"]'); if(a) t.scrollLeft=a.offsetLeft-(t.clientWidth-a.offsetWidth)/2; }
-  mgArch(pick); mgWeek(); rdSync(); mineList();
+  mgArch(pick); mgFavList(pick); mgWeek(); rdSync(); mineList();
 }
 function mgArch(pick){
   const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l) rows.push({...x,date:d.date,di}); }));
@@ -2914,6 +2929,7 @@ $("#tab-read").addEventListener("click",e=>{
   else if(id==="mg-xl"){ mgxSet(!MGX); mgRender(); }
   else if(b.dataset.mgtr){ const t=b.dataset.mgtr, cur=mgTr(); MG.trAll[lang()]=cur.includes(t)?cur.filter(x=>x!==t):[...cur,t].sort((a,b)=>a==="en"?-1:b==="en"?1:0); try{ localStorage.setItem("pw-tr2",JSON.stringify(MG.trAll)); }catch(x){} mgRender(); }
   else if(id==="mg-say"){ if(RD.src==="art"&&RD.on) rdToggle(); else rdStart("art",0); }
+  else if(id==="mg-fav-b"){ mgFavToggle(); const on=mgFavOn(MG.cur.date+"|"+MG.cur.i); b.setAttribute("aria-pressed",on); b.innerHTML=`<span class="st" aria-hidden="true">${on?"★":"☆"}</span><span>${esc(trOne(on?"已收藏":"收藏")||(on?"已收藏":"收藏"))}</span>`; mgFavList(MG.cur); syLater(); }
   else if(id==="mg-done"){ MGS.read[MG.cur.date+"|"+MG.cur.i]=1; mgSave(); mgRender(); }
   else if(id==="mg-mineback"){ MG.mine=null; mgRender(); mineList(); }
   else if(id==="mg-minedel"){ if(confirm(trOne("删除这篇文章？")||"删除这篇文章？")){ { const dl=(()=>{ try{ return JSON.parse(localStorage.getItem("pw-mine-del"))||{}; }catch(e){ return {}; } })(); dl[MG.mine]=Date.now(); try{ localStorage.setItem("pw-mine-del",JSON.stringify(dl)); }catch(e){} } mineSave(mineAll().filter(a=>a.id!==MG.mine)); MG.mine=null; if(typeof syLater==="function") syLater(); mgRender(); mineList(); } }
@@ -3103,6 +3119,7 @@ async function doImport(){
   $("#bk-msg").textContent="导入完成。";
   if(Array.isArray(p.mine)&&p.mine.length){ const have=mineAll(), ids=new Set(have.map(a=>a.id)); mineSave([...have,...p.mine.filter(a=>a&&a.id&&!ids.has(a.id))].slice(0,200)); }
   if(p.mgs&&p.mgs.read){ MGS.read=Object.assign({},p.mgs.read,MGS.read); mgSave(); }
+  if(p.mgs&&p.mgs.fav){ MGS.fav=favMerge(MGS.fav,p.mgs.fav); mgSave(); }
   if(S.settings.lang!==keepLang||true) await applyLang();
 }
 
@@ -3135,7 +3152,7 @@ async function ghPut(text,sha){
   return fetch(ghURL(),{method:"PUT",headers:Object.assign(ghH(),{"Content-Type":"application/json"}),body:JSON.stringify({message:"sync from "+devName(),content:btoa(text),sha:sha||undefined})});
 }
 function mineDel(){ try{ return JSON.parse(localStorage.getItem(MINEDK))||{}; }catch(e){ return {}; } }
-function syPack(){ return {v:1,state:S,mine:SY.mine===false?null:mineAll(),mineDel:mineDel(),read:MGS.read||{}}; }
+function syPack(){ return {v:1,state:S,mine:SY.mine===false?null:mineAll(),mineDel:mineDel(),read:MGS.read||{},fav:MGS.fav||{}}; }
 const tsMax=(a,b)=>{ const o=Object.assign({},a||{}); for(const k in (b||{})) o[k]=Math.max(o[k]||0,b[k]||0); return o; };
 function syMergeState(A,B){
   const o=clone(A);
@@ -3167,6 +3184,7 @@ function syMerge(L0,R){
   if(L0.mine===null) out.mine=R.mine||null;
   else { const have=new Set((L0.mine||[]).map(a=>a.id)); out.mine=[...(L0.mine||[]),...((R.mine||[]).filter(a=>a&&a.id&&!have.has(a.id)))].filter(a=>!out.mineDel[a.id]).sort((p,q)=>String(q.id).localeCompare(String(p.id))).slice(0,200); }
   out.read=Object.assign({},R.read||{},L0.read||{});
+  out.fav=favMerge(R.fav,L0.fav);
   return out;
 }
 function syApply(P){
@@ -3175,7 +3193,7 @@ function syApply(P){
   try{ localStorage.setItem(LS,JSON.stringify(S)); }catch(e){}
   if(SY.mine!==false&&Array.isArray(P.mine)) mineSave(P.mine);
   try{ localStorage.setItem(MINEDK,JSON.stringify(P.mineDel||{})); }catch(e){}
-  MGS.read=P.read||{}; mgSave();
+  MGS.read=P.read||{}; MGS.fav=favMerge(MGS.fav,P.fav); mgSave();
   return before!==JSON.stringify(S);
 }
 function stableStr(v){ if(Array.isArray(v)) return "["+v.map(stableStr).join(",")+"]"; if(v&&typeof v==="object") return "{"+Object.keys(v).sort().filter(k=>v[k]!==undefined).map(k=>JSON.stringify(k)+":"+stableStr(v[k])).join(",")+"}"; return JSON.stringify(v===undefined?null:v); }
@@ -3183,7 +3201,7 @@ async function canon(P){
   const st=clone(P.state||{}); delete st.updated; delete st.lastBackup;
   for(const l of Object.keys(LANG)) if(st[l]&&Array.isArray(st[l].custom)) st[l].custom.sort((a,b)=>String(a.id).localeCompare(String(b.id)));
   const m=Array.isArray(P.mine)?[...P.mine].sort((a,b)=>String(a.id).localeCompare(String(b.id))):null;
-  const txt=stableStr({state:st,mine:m,mineDel:P.mineDel||{},read:P.read||{}});
+  const txt=stableStr({state:st,mine:m,mineDel:P.mineDel||{},read:P.read||{},fav:P.fav||{}});
   const h=new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(txt)));
   return [...h].map(x=>x.toString(16).padStart(2,"0")).join("");
 }
@@ -4062,6 +4080,9 @@ const UI_DICT=[
 ["✓ 读完了", "✓ Read", "✓ Gelesen", "✓ Lido", "✓ 讀完了"],
 ["读完了", "Mark as read", "Gelesen", "Marcar como lido", "讀完了"],
 ["下一篇 →", "Next →", "Weiter →", "Próximo →", "下一篇 →"],
+["收藏", "Save", "Merken", "Guardar", "收藏"],
+["已收藏", "Saved", "Gemerkt", "Guardado", "已收藏"],
+["我的收藏", "Saved articles", "Gemerkte Artikel", "Artigos guardados", "我的收藏"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
