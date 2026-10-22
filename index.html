@@ -783,6 +783,9 @@ body{font-variant-numeric:tabular-nums}
 @media (min-width:641px){.langsw button[aria-pressed="true"] small{display:inline!important}}
 .langsw button[aria-pressed="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--lc,var(--acc))}
 @media (max-width:640px){ .langsw{gap:20px!important} .langsw button small{display:none!important} }
+/* active language: soft tint in its own colour */
+.langsw{gap:6px!important} .langsw button{padding:6px 12px 8px!important;border-radius:8px 8px 0 0!important} .langsw button[aria-pressed="true"]{background:var(--lcs,var(--acc-soft))!important} .langsw button[aria-pressed="true"] b{color:var(--lc,var(--acc))!important}
+@media (max-width:640px){ .langsw{gap:1px!important} .langsw button{padding:6px 6px 8px!important} }
 /* session bar: hairline */
 .bar{height:2px!important;border-radius:0!important;background:var(--line)!important}
 .bar i{border-radius:0!important;background:var(--acc)!important}
