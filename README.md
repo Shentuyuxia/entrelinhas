@@ -1,5 +1,8 @@
 # 字里行间 · Entrelinhas
 
+> © 2026 申屠余夏 (Shentu Yuxia). **All rights reserved / Alle Rechte vorbehalten / 保留所有权利。** Free for personal, non-commercial learning in the app. Copying, redistribution, and any commercial or institutional use require prior written permission — see [LICENSE](LICENSE). Third-party components keep their own licences.
+
+
 每天的外语阅读加单词卡：德语、英语、葡萄牙语（巴西）、法语。
 Daily reading and flashcards in German, English, Brazilian Portuguese and French.
 
