@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T05:01:32+00:00",
+ "updated": "2026-10-22T14:54:47+00:00",
  "days": [
   {
    "date": "2026-10-22",
@@ -41,6 +41,22 @@
      "lang": "de",
      "title": "Helgoland gegen Sansibar? Ein Tausch, den es nie gab",
      "kind": "brief",
+     "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Un mot nouveau : « transclasse »",
+     "kind": "feature",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Changer de classe, ou en finir avec les classes ?",
+     "kind": "feature",
      "level": "B2",
      "hour": null
     }

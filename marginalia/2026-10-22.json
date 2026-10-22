@@ -448,6 +448,298 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "fr",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Philosophie",
+   "title": "Un mot nouveau : « transclasse »",
+   "dek": "Une philosophe française invente un mot. Il parle des personnes qui changent de monde.",
+   "paragraphs": [
+    "Chantal Jaquet est philosophe. Elle est française et elle est professeure à l'université, à Paris. Elle écrit des livres. En 2014, elle invente un mot : « transclasse ».",
+    "Un transclasse, c'est une personne qui change de classe sociale. Par exemple, le père travaille dans une usine. La mère est caissière dans un supermarché. Leur fille va à l'université et elle devient avocate. Elle a une nouvelle vie, mais elle n'oublie pas sa famille. Ce n'est pas toujours facile : elle est entre deux mondes.",
+    "Aujourd'hui, beaucoup de gens utilisent ce mot. En 2026, Chantal Jaquet publie un nouveau livre. Elle pose une grande question : est-ce qu'on peut changer la société pour tout le monde, et pas seulement pour une personne ?"
+   ],
+   "paragraphs_en": [
+    "Chantal Jaquet is a philosopher. She is French and she is a university professor in Paris. She writes books. In 2014, she invents a word: \"transclasse\" (class-crosser).",
+    "A \"transclasse\" is a person who changes social class. For example, the father works in a factory. The mother is a cashier in a supermarket. Their daughter goes to university and becomes a lawyer. She has a new life, but she does not forget her family. It is not always easy: she is between two worlds.",
+    "Today, many people use this word. In 2026, Chantal Jaquet publishes a new book. She asks a big question: can we change society for everyone, and not only for one person?"
+   ],
+   "paragraphs_zh": [
+    "尚塔尔·雅凯是一位哲学家。她是法国人，在巴黎的大学当教授。她写书。2014年，她创造了一个词：“跨阶层者”（transclasse）。",
+    "“跨阶层者”就是改变了社会阶层的人。比如，父亲在工厂上班，母亲在超市当收银员。他们的女儿上了大学，成了律师。她有了新的生活，但她没有忘记自己的家人。这并不总是容易的：她夹在两个世界之间。",
+    "今天，很多人都在用这个词。2026年，尚塔尔·雅凯出版了一本新书。她提出一个大问题：我们能不能为所有人改变社会，而不只是为某一个人？"
+   ],
+   "paragraphs_de": [
+    "Chantal Jaquet ist Philosophin. Sie ist Französin und Professorin an der Universität in Paris. Sie schreibt Bücher. 2014 erfindet sie ein Wort: „transclasse“ (Klassenwechslerin bzw. Klassenwechsler).",
+    "Ein „transclasse“ ist ein Mensch, der seine soziale Klasse wechselt. Zum Beispiel: Der Vater arbeitet in einer Fabrik. Die Mutter ist Kassiererin in einem Supermarkt. Ihre Tochter geht an die Universität und wird Anwältin. Sie hat ein neues Leben, aber sie vergisst ihre Familie nicht. Das ist nicht immer leicht: Sie steht zwischen zwei Welten.",
+    "Heute benutzen viele Menschen dieses Wort. 2026 veröffentlicht Chantal Jaquet ein neues Buch. Sie stellt eine große Frage: Können wir die Gesellschaft für alle verändern und nicht nur für einen einzelnen Menschen?"
+   ],
+   "paragraphs_pt": [
+    "Chantal Jaquet é filósofa. Ela é francesa e é professora universitária em Paris. Ela escreve livros. Em 2014, ela inventa uma palavra: \"transclasse\".",
+    "Um \"transclasse\" é uma pessoa que muda de classe social. Por exemplo: o pai trabalha numa fábrica. A mãe é caixa de supermercado. A filha deles entra na universidade e vira advogada. Ela tem uma vida nova, mas não esquece a família. Nem sempre é fácil: ela fica entre dois mundos.",
+    "Hoje, muita gente usa essa palavra. Em 2026, Chantal Jaquet publica um livro novo. Ela faz uma grande pergunta: será que dá para mudar a sociedade para todo mundo, e não só para uma pessoa?"
+   ],
+   "glossary": [
+    {
+     "w": "inventer",
+     "fr": "faire une chose nouvelle, qui n'existe pas avant",
+     "en": "to invent",
+     "zh": "发明，创造",
+     "de": "erfinden",
+     "pt": "inventar"
+    },
+    {
+     "w": "le mot",
+     "fr": "un groupe de lettres avec un sens, par exemple « livre »",
+     "en": "word",
+     "zh": "词",
+     "de": "das Wort",
+     "pt": "a palavra"
+    },
+    {
+     "w": "la classe sociale",
+     "fr": "un groupe de personnes avec un travail et un argent semblables",
+     "en": "social class",
+     "zh": "社会阶层",
+     "de": "die soziale Klasse",
+     "pt": "a classe social"
+    },
+    {
+     "w": "l'usine",
+     "fr": "un grand bâtiment où on fabrique des choses",
+     "en": "factory",
+     "zh": "工厂",
+     "de": "die Fabrik",
+     "pt": "a fábrica"
+    },
+    {
+     "w": "la caissière",
+     "fr": "la femme qui prend l'argent dans un magasin",
+     "en": "cashier (woman)",
+     "zh": "女收银员",
+     "de": "die Kassiererin",
+     "pt": "a caixa (de loja)"
+    },
+    {
+     "w": "devenir",
+     "fr": "commencer à être quelque chose : il est enfant, il devient adulte",
+     "en": "to become",
+     "zh": "成为",
+     "de": "werden",
+     "pt": "tornar-se, virar"
+    },
+    {
+     "w": "oublier",
+     "fr": "ne plus avoir une chose dans la tête",
+     "en": "to forget",
+     "zh": "忘记",
+     "de": "vergessen",
+     "pt": "esquecer"
+    },
+    {
+     "w": "la société",
+     "fr": "tous les gens d'un pays, qui vivent ensemble",
+     "en": "society",
+     "zh": "社会",
+     "de": "die Gesellschaft",
+     "pt": "a sociedade"
+    }
+   ],
+   "grammar": "To say \"not\" in French, put ne before the verb and pas after it: elle n'oublie pas sa famille. Before a vowel, ne becomes n': ce n'est pas facile. In everyday speech people often drop ne, but in writing you keep both parts.",
+   "grammar_zh": "法语否定句用 ne … pas 把动词夹在中间：elle n'oublie pas sa famille（她没有忘记家人）。动词以元音开头时，ne 变成 n'：ce n'est pas facile。口语里常常省略 ne，但书面语要两个都写。",
+   "grammar_de": "Die Verneinung „nicht“ bildet man im Französischen mit ne vor dem Verb und pas danach: elle n'oublie pas sa famille. Vor einem Vokal wird ne zu n': ce n'est pas facile. In der gesprochenen Sprache fällt ne oft weg, geschrieben braucht man beide Teile.",
+   "grammar_pt": "Para dizer \"não\" em francês, coloca-se ne antes do verbo e pas depois: elle n'oublie pas sa famille. Antes de vogal, ne vira n': ce n'est pas facile. Na fala, muita gente omite o ne, mas na escrita usam-se as duas partes.",
+   "questions": [
+    "Quel mot invente Chantal Jaquet en 2014 ?",
+    "Quel est le travail de la fille dans l'exemple ?",
+    "Quelle est la grande question du nouveau livre ?"
+   ],
+   "sources": [
+    {
+     "title": "Université Paris 1 Panthéon-Sorbonne — Révolutions transclasses (Chantal Jaquet, PUF, 2026)",
+     "url": "https://www.pantheonsorbonne.fr/index.php/publications/revolutions-transclasses-0",
+     "license": "official"
+    },
+    {
+     "title": "Fabula — Chantal Jaquet, Les Transclasses ou la non-reproduction (rééd.)",
+     "url": "https://www.fabula.org/actualites/126981/chantal-jaquet-les-transclasses-ou-la-non-reproduction-reed.html",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Philosophie",
+   "title": "Changer de classe, ou en finir avec les classes ?",
+   "dek": "Avec « Révolutions transclasses », la philosophe Chantal Jaquet passe du destin individuel des transfuges sociaux à la question de l'émancipation collective.",
+   "paragraphs": [
+    "Le mot a fait du chemin. En 2014, la philosophe Chantal Jaquet, aujourd'hui professeure émérite à l'université Paris 1 Panthéon-Sorbonne et spécialiste de Spinoza, publiait Les Transclasses ou la non-reproduction. Elle y désignait ainsi les personnes qui passent d'un milieu social à un autre, par exemple l'enfant d'ouvriers devenu enseignant ou cadre. Depuis, le terme s'est largement installé dans le débat public.",
+    "Ce premier livre s'intéressait à des trajectoires individuelles : quelles causes économiques, familiales ou personnelles permettent à quelqu'un d'échapper à la reproduction sociale, et comment ce passage transforme-t-il celui ou celle qui l'accomplit ? Son nouvel essai, Révolutions transclasses. Une nouvelle théorie de l'émancipation, paru aux PUF en 2026, change d'échelle. Il ne s'agit plus de comprendre comment une personne s'en sort, mais de savoir si le passage d'une classe à l'autre peut devenir un levier pour en finir avec les classes elles-mêmes, et avec les autres formes de domination. La Vie des idées en a publié une recension détaillée, signée Yoann Malinge, le 21 octobre.",
+    "Pour y répondre, Jaquet distingue trois façons de traverser les classes. La première, qu'elle nomme « interclasse », correspond à la mobilité ordinaire : on franchit une barrière, mais la division de la société reste intacte, ce qui en fait une forme plutôt conservatrice. La deuxième, « extra-classe », renvoie à l'idée de Marx selon laquelle le prolétariat, en se libérant, abolit les classes en s'abolissant lui-même comme classe. La troisième, « supra-classe », concerne les dominations qui ne se réduisent pas à la classe : le genre, la racialisation ou l'orientation sexuelle.",
+    "Le cadre théorique vient de Spinoza. Pour le philosophe du XVIIe siècle, ce que nous appelons « possible » trahit surtout notre ignorance des causes qui rendent une chose nécessaire ou impossible. Être libre ne revient donc pas à choisir entre des options, mais à comprendre ce qui nous détermine, et à passer ainsi d'une nécessité subie à une nécessité comprise. Dans cette perspective, la révolution n'est pas une lente transition vers un but fixé d'avance : c'est une métamorphose qui détruit la forme existante, une chose que l'on fait plutôt qu'une chose que l'on prévoit.",
+    "Sur le plan politique, l'essai refuse un raccourci bien connu à gauche : l'idée qu'il suffirait d'abattre le capitalisme pour que le racisme et le sexisme disparaissent d'eux-mêmes. Selon Jaquet, cet argument sert surtout à remettre à plus tard les luttes contre des dominations spécifiques. Elle propose de mener ces combats ensemble, sans hiérarchie, et rejette le modèle gramscien d'un groupe dirigeant. En s'appuyant notamment sur la sociologue africaine-américaine Patricia Hill Collins et sur la notion d'« autodéfinition », elle imagine une fédération de luttes autonomes mais solidaires.",
+    "Le recenseur salue un livre qui affronte la question révolutionnaire sans esquive ni caricature, tout en formulant une objection de fond. Selon lui, la honte ou le sentiment d'illégitimité qui freinent parfois le passage d'un monde à l'autre ne sont pas de simples lacunes de connaissance : ce sont des faits politiques à part entière, et l'avenir tel qu'on le vit n'est pas seulement l'ombre d'une nécessité mal comprise. Ce désaccord entre spinozisme et phénoménologie reste ouvert. Il pose une question qui dépasse les salles de séminaire : changer de vie suffit-il à changer le monde ?"
+   ],
+   "paragraphs_en": [
+    "The word has come a long way. In 2014 the philosopher Chantal Jaquet, now professor emerita at Paris 1 Panthéon-Sorbonne University and a specialist in Spinoza, published Les Transclasses ou la non-reproduction. In it she used the term for people who move from one social milieu to another – for instance a child of factory workers who becomes a teacher or a manager. Since then the term has become firmly established in public debate.",
+    "That first book dealt with individual trajectories: which economic, family or personal causes allow someone to escape social reproduction, and how does that passage transform the person who makes it? Her new essay, Révolutions transclasses. Une nouvelle théorie de l'émancipation, published by PUF in 2026, changes scale. The point is no longer to understand how one person gets out, but to ask whether moving from one class to another can become a lever for doing away with classes themselves – and with other forms of domination. La Vie des idées published a detailed review of it by Yoann Malinge on 21 October.",
+    "To answer, Jaquet distinguishes three ways of crossing classes. The first, which she calls \"inter-class\", is ordinary mobility: you get over a barrier, but the division of society remains intact, which makes it a rather conservative form. The second, \"extra-class\", refers to Marx's idea that the proletariat, by freeing itself, abolishes classes by abolishing itself as a class. The third, \"supra-class\", concerns forms of domination that cannot be reduced to class: gender, racialisation or sexual orientation.",
+    "The theoretical framework comes from Spinoza. For the 17th-century philosopher, what we call \"possible\" mainly betrays our ignorance of the causes that make something necessary or impossible. Being free therefore does not mean choosing between options, but understanding what determines us, and so moving from a necessity that is endured to a necessity that is understood. Seen this way, revolution is not a slow transition towards a goal fixed in advance: it is a metamorphosis that destroys the existing form, something one does rather than something one predicts.",
+    "Politically, the essay rejects a shortcut well known on the left: the idea that it would be enough to bring down capitalism for racism and sexism to disappear by themselves. According to Jaquet, this argument mostly serves to postpone struggles against specific forms of domination. She proposes fighting these battles together, without a hierarchy, and rejects the Gramscian model of a leading group. Drawing in particular on the African American sociologist Patricia Hill Collins and the notion of \"self-definition\", she imagines a federation of struggles that are autonomous yet bound together in solidarity.",
+    "The reviewer praises a book that confronts the revolutionary question without evasion or caricature, while raising a fundamental objection. In his view, the shame or the feeling of illegitimacy that sometimes holds back the passage from one world to another are not mere gaps in knowledge: they are political facts in their own right, and the future as we live it is not just the shadow of a poorly understood necessity. This disagreement between Spinozism and phenomenology remains open. It raises a question that goes beyond the seminar room: is changing your life enough to change the world?"
+   ],
+   "paragraphs_zh": [
+    "这个词已经走了很远。2014年，哲学家尚塔尔·雅凯出版了《跨阶层者，或非再生产》。她如今是巴黎第一大学（先贤祠-索邦）的荣休教授，也是斯宾诺莎研究专家。她在书中用这个词指从一个社会环境进入另一个社会环境的人，比如工人家庭出身、后来成为教师或企业管理人员的孩子。从那以后，这个词在公共讨论中广泛流行开来。",
+    "第一本书关注的是个人轨迹：哪些经济、家庭或个人的原因让一个人得以摆脱社会再生产？这一跨越又如何改变了完成它的人？她的新书《跨阶层革命：一种新的解放理论》于2026年由法国大学出版社（PUF）出版，视角随之放大。问题不再是理解某个人如何“出头”，而是追问：从一个阶层到另一个阶层的跨越，能否成为消灭阶级本身、乃至消灭其他形式统治的杠杆？10月21日，《思想生活》（La Vie des idées）刊登了约安·马兰热撰写的详细书评。",
+    "为了回答这个问题，雅凯区分了三种跨越阶级的方式。第一种她称为“阶级间”的跨越，即普通的社会流动：人越过了一道屏障，但社会的阶级划分原封不动，因此这是一种相当保守的形式。第二种是“阶级外”的跨越，指向马克思的观点：无产阶级在解放自身的同时，通过把自己作为一个阶级消灭掉而消灭一切阶级。第三种是“超阶级”的跨越，涉及那些不能归结为阶级的统治形式：性别、种族化或性取向。",
+    "理论框架来自斯宾诺莎。在这位17世纪哲学家看来，我们所说的“可能”，主要暴露的是我们对原因的无知——正是这些原因使一件事成为必然或不可能。因此，自由并不意味着在各种选项中挑选，而是理解是什么决定了我们，从而由被动承受的必然走向被理解的必然。从这个角度看，革命不是朝着预先设定目标的缓慢过渡，而是一场摧毁现存形式的蜕变：它是人们去做的事，而不是人们去预言的事。",
+    "在政治上，这本书拒绝了左翼熟悉的一条捷径：以为只要推翻资本主义，种族主义和性别歧视就会自行消失。雅凯认为，这种论点的主要作用是把反对特定统治形式的斗争推迟到以后。她主张同时进行这些斗争，不分高下，并拒绝葛兰西式的“领导集团”模式。她特别借鉴了非裔美国社会学家帕特里夏·希尔·柯林斯以及“自我定义”的概念，设想一种各自自主、又彼此团结的斗争联盟。",
+    "书评作者称赞这本书直面革命问题，既不回避也不漫画化，但他也提出了一个根本性的异议。在他看来，有时阻碍人从一个世界走向另一个世界的羞耻感或“不配感”，并不只是知识上的欠缺：它们本身就是政治事实；而人们亲身经历的未来，也不只是被误解的必然性投下的影子。斯宾诺莎主义与现象学之间的这一分歧仍然悬而未决。它提出的问题超出了研讨课堂：改变自己的生活，足以改变世界吗？"
+   ],
+   "paragraphs_de": [
+    "Das Wort hat einen weiten Weg zurückgelegt. 2014 veröffentlichte die Philosophin Chantal Jaquet, heute emeritierte Professorin an der Universität Paris 1 Panthéon-Sorbonne und Spinoza-Spezialistin, Les Transclasses ou la non-reproduction. Darin bezeichnete sie so Menschen, die von einem sozialen Milieu in ein anderes wechseln – etwa das Arbeiterkind, das Lehrerin oder Führungskraft wird. Seitdem hat sich der Begriff in der öffentlichen Debatte fest etabliert.",
+    "Das erste Buch befasste sich mit individuellen Lebenswegen: Welche wirtschaftlichen, familiären oder persönlichen Ursachen ermöglichen es jemandem, der sozialen Reproduktion zu entkommen, und wie verändert dieser Übergang die Person, die ihn vollzieht? Ihr neuer Essay, Révolutions transclasses. Une nouvelle théorie de l'émancipation, 2026 bei PUF erschienen, wechselt den Maßstab. Es geht nicht mehr darum zu verstehen, wie ein Einzelner es schafft, sondern um die Frage, ob der Übergang von einer Klasse in die andere zum Hebel werden kann, um die Klassen selbst abzuschaffen – und andere Formen von Herrschaft gleich mit. La Vie des idées veröffentlichte am 21. Oktober eine ausführliche Rezension von Yoann Malinge.",
+    "Um darauf zu antworten, unterscheidet Jaquet drei Arten, Klassen zu durchqueren. Die erste, die sie „interclasse“ nennt, entspricht der gewöhnlichen Mobilität: Man überwindet eine Schranke, doch die Teilung der Gesellschaft bleibt unangetastet – eine eher konservative Form. Die zweite, „extra-classe“, verweist auf Marx' Idee, dass das Proletariat, indem es sich befreit, die Klassen abschafft, weil es sich selbst als Klasse abschafft. Die dritte, „supra-classe“, betrifft Herrschaftsformen, die sich nicht auf die Klasse reduzieren lassen: Geschlecht, Rassifizierung oder sexuelle Orientierung.",
+    "Der theoretische Rahmen stammt von Spinoza. Für den Philosophen des 17. Jahrhunderts verrät das, was wir „möglich“ nennen, vor allem unsere Unkenntnis der Ursachen, die etwas notwendig oder unmöglich machen. Frei sein heißt also nicht, zwischen Optionen zu wählen, sondern zu verstehen, was uns bestimmt – und so von einer erlittenen zu einer begriffenen Notwendigkeit überzugehen. So gesehen ist die Revolution kein langsamer Übergang zu einem im Voraus festgelegten Ziel, sondern eine Verwandlung, die die bestehende Form zerstört: etwas, das man tut, nicht etwas, das man vorhersagt.",
+    "Politisch verweigert sich der Essay einer in der Linken bekannten Abkürzung: der Vorstellung, man müsse nur den Kapitalismus stürzen, damit Rassismus und Sexismus von selbst verschwinden. Laut Jaquet dient dieses Argument vor allem dazu, die Kämpfe gegen spezifische Herrschaftsformen auf später zu verschieben. Sie schlägt vor, diese Kämpfe gemeinsam und ohne Hierarchie zu führen, und lehnt das gramscianische Modell einer führenden Gruppe ab. Gestützt unter anderem auf die afroamerikanische Soziologin Patricia Hill Collins und den Begriff der „Selbstdefinition“ entwirft sie eine Föderation autonomer, aber solidarischer Kämpfe.",
+    "Der Rezensent würdigt ein Buch, das sich der Revolutionsfrage ohne Ausflüchte und ohne Zerrbild stellt, erhebt aber einen grundsätzlichen Einwand. Scham oder das Gefühl, nicht dazuzugehören, die den Übergang von einer Welt in die andere manchmal bremsen, seien nicht bloß Wissenslücken, sondern eigenständige politische Tatsachen; und die Zukunft, wie man sie erlebt, sei nicht nur der Schatten einer schlecht verstandenen Notwendigkeit. Dieser Streit zwischen Spinozismus und Phänomenologie bleibt offen. Er wirft eine Frage auf, die über den Seminarraum hinausgeht: Reicht es, sein Leben zu ändern, um die Welt zu ändern?"
+   ],
+   "paragraphs_pt": [
+    "A palavra fez um longo caminho. Em 2014, a filósofa Chantal Jaquet, hoje professora emérita da Universidade Paris 1 Panthéon-Sorbonne e especialista em Spinoza, publicou Les Transclasses ou la non-reproduction. Nele, ela chamava assim as pessoas que passam de um meio social para outro – por exemplo, o filho de operários que vira professor ou executivo. Desde então, o termo se firmou de vez no debate público.",
+    "Esse primeiro livro tratava de trajetórias individuais: que causas econômicas, familiares ou pessoais permitem que alguém escape da reprodução social, e como essa passagem transforma quem a realiza? O novo ensaio, Révolutions transclasses. Une nouvelle théorie de l'émancipation, lançado pela PUF em 2026, muda de escala. Já não se trata de entender como uma pessoa se dá bem, mas de perguntar se a passagem de uma classe para outra pode virar uma alavanca para acabar com as próprias classes – e com as outras formas de dominação. A revista La Vie des idées publicou uma resenha detalhada do livro, assinada por Yoann Malinge, em 21 de outubro.",
+    "Para responder, Jaquet distingue três maneiras de atravessar as classes. A primeira, que ela chama de \"interclasse\", corresponde à mobilidade comum: a pessoa transpõe uma barreira, mas a divisão da sociedade continua intacta, o que faz dela uma forma bastante conservadora. A segunda, \"extraclasse\", remete à ideia de Marx segundo a qual o proletariado, ao se libertar, abole as classes abolindo a si mesmo como classe. A terceira, \"supraclasse\", diz respeito às dominações que não se reduzem à classe: gênero, racialização ou orientação sexual.",
+    "O quadro teórico vem de Spinoza. Para o filósofo do século XVII, aquilo que chamamos de \"possível\" revela sobretudo nossa ignorância das causas que tornam algo necessário ou impossível. Ser livre, portanto, não é escolher entre opções, mas compreender o que nos determina e, assim, passar de uma necessidade sofrida a uma necessidade compreendida. Nessa perspectiva, a revolução não é uma transição lenta rumo a um objetivo fixado de antemão: é uma metamorfose que destrói a forma existente, algo que se faz, e não algo que se prevê.",
+    "No plano político, o ensaio recusa um atalho bem conhecido na esquerda: a ideia de que bastaria derrubar o capitalismo para que o racismo e o machismo desaparecessem sozinhos. Segundo Jaquet, esse argumento serve sobretudo para adiar as lutas contra dominações específicas. Ela propõe travar esses combates juntos, sem hierarquia, e rejeita o modelo gramsciano de um grupo dirigente. Apoiando-se em especial na socióloga afro-americana Patricia Hill Collins e na noção de \"autodefinição\", ela imagina uma federação de lutas autônomas, mas solidárias.",
+    "O resenhista elogia um livro que enfrenta a questão revolucionária sem evasivas nem caricatura, mas faz uma objeção de fundo. Para ele, a vergonha ou o sentimento de ilegitimidade que às vezes freiam a passagem de um mundo para o outro não são meras lacunas de conhecimento: são fatos políticos por direito próprio, e o futuro tal como o vivemos não é apenas a sombra de uma necessidade mal compreendida. Esse desacordo entre espinosismo e fenomenologia continua em aberto. Ele levanta uma pergunta que vai além da sala de seminário: mudar de vida basta para mudar o mundo?"
+   ],
+   "glossary": [
+    {
+     "w": "faire du chemin",
+     "fr": "progresser, se répandre peu à peu (une idée, un mot)",
+     "en": "to come a long way, to catch on",
+     "zh": "（观念、词语）流传开来，取得进展",
+     "de": "sich durchsetzen, einen weiten Weg machen",
+     "pt": "fazer caminho, ganhar espaço"
+    },
+    {
+     "w": "trahir",
+     "fr": "ici : montrer une chose cachée sans le vouloir",
+     "en": "to betray, reveal (unintentionally)",
+     "zh": "（无意中）暴露，显露",
+     "de": "verraten",
+     "pt": "revelar, denunciar"
+    },
+    {
+     "w": "la reproduction sociale",
+     "fr": "le fait que les enfants gardent en général la position sociale de leurs parents",
+     "en": "social reproduction",
+     "zh": "社会再生产（子女延续父母的社会地位）",
+     "de": "die soziale Reproduktion",
+     "pt": "a reprodução social"
+    },
+    {
+     "w": "changer d'échelle",
+     "fr": "regarder une question en plus grand, par exemple passer d'une personne à toute la société",
+     "en": "to change scale",
+     "zh": "改变尺度，放大视角",
+     "de": "den Maßstab wechseln",
+     "pt": "mudar de escala"
+    },
+    {
+     "w": "le levier",
+     "fr": "au sens figuré : un moyen qui permet d'agir et de faire bouger les choses",
+     "en": "lever (figurative: means of action)",
+     "zh": "杠杆，手段",
+     "de": "der Hebel",
+     "pt": "a alavanca"
+    },
+    {
+     "w": "en finir avec",
+     "fr": "faire disparaître quelque chose définitivement",
+     "en": "to put an end to, do away with",
+     "zh": "彻底终结，消灭",
+     "de": "Schluss machen mit, beseitigen",
+     "pt": "acabar com"
+    },
+    {
+     "w": "la recension",
+     "fr": "un article qui présente et juge un livre",
+     "en": "book review",
+     "zh": "书评",
+     "de": "die Rezension",
+     "pt": "a resenha"
+    },
+    {
+     "w": "franchir",
+     "fr": "passer de l'autre côté d'une limite, d'un obstacle",
+     "en": "to cross, get over",
+     "zh": "越过，跨过",
+     "de": "überwinden, überschreiten",
+     "pt": "transpor, atravessar"
+    },
+    {
+     "w": "subir",
+     "fr": "supporter quelque chose qu'on n'a pas choisi",
+     "en": "to undergo, endure",
+     "zh": "遭受，被动承受",
+     "de": "erleiden, ertragen",
+     "pt": "sofrer, suportar"
+    },
+    {
+     "w": "remettre à plus tard",
+     "fr": "décider de faire une chose plus tard, pas maintenant",
+     "en": "to postpone",
+     "zh": "推迟，拖延",
+     "de": "auf später verschieben",
+     "pt": "adiar"
+    },
+    {
+     "w": "à part entière",
+     "fr": "complètement, avec tous les droits et toute l'importance",
+     "en": "in its own right, fully fledged",
+     "zh": "完全意义上的，名副其实的",
+     "de": "vollwertig, eigenständig",
+     "pt": "por direito próprio, pleno"
+    },
+    {
+     "w": "l'esquive",
+     "fr": "le fait d'éviter une question difficile au lieu d'y répondre",
+     "en": "evasion, dodge",
+     "zh": "回避，躲闪",
+     "de": "das Ausweichen",
+     "pt": "a evasiva"
+    }
+   ],
+   "grammar": "The text uses the gérondif (en + present participle) to say how or at the same time as something happens: le prolétariat, en se libérant, abolit les classes; en s'appuyant sur Patricia Hill Collins. The subject of the gérondif must be the same as the subject of the main verb. With pronominal verbs the pronoun stays before the participle and agrees with the subject: en se libérant, en nous appuyant.",
+   "grammar_zh": "文中用了副动词（en + 现在分词）来表示方式或同时发生的动作：le prolétariat, en se libérant, abolit les classes（无产阶级在解放自身的同时消灭阶级）；en s'appuyant sur Patricia Hill Collins（借助柯林斯的理论）。副动词的逻辑主语必须和主句主语相同。代词式动词的代词放在分词前，并与主语一致：en se libérant，en nous appuyant。",
+   "grammar_de": "Der Text verwendet das gérondif (en + Partizip Präsens), um auszudrücken, wie oder gleichzeitig womit etwas geschieht: le prolétariat, en se libérant, abolit les classes („indem es sich befreit“); en s'appuyant sur Patricia Hill Collins („gestützt auf“). Das gérondif muss sich auf dasselbe Subjekt beziehen wie das Hauptverb. Bei reflexiven Verben steht das Pronomen vor dem Partizip und richtet sich nach dem Subjekt: en se libérant, en nous appuyant.",
+   "grammar_pt": "O texto usa o gérondif (en + particípio presente) para dizer como ou ao mesmo tempo que algo acontece: le prolétariat, en se libérant, abolit les classes (\"ao se libertar\"); en s'appuyant sur Patricia Hill Collins (\"apoiando-se em\"). O sujeito do gérondif tem de ser o mesmo do verbo principal. Nos verbos pronominais, o pronome fica antes do particípio e concorda com o sujeito: en se libérant, en nous appuyant.",
+   "questions": [
+    "En quoi le nouvel essai de Chantal Jaquet change-t-il d'échelle par rapport à son livre de 2014 ?",
+    "Pourquoi la mobilité « interclasse » est-elle jugée plutôt conservatrice ?",
+    "Quelle objection le recenseur adresse-t-il à Jaquet ? Êtes-vous d'accord avec lui ?"
+   ],
+   "sources": [
+    {
+     "title": "Yoann Malinge, « L'abolition des classes est-elle possible ? », La Vie des idées, 21 octobre 2026",
+     "url": "https://laviedesidees.fr/L-abolition-des-classes-est-elle-possible",
+     "license": "link only"
+    },
+    {
+     "title": "Université Paris 1 Panthéon-Sorbonne — Révolutions transclasses (Chantal Jaquet, PUF, 2026)",
+     "url": "https://www.pantheonsorbonne.fr/index.php/publications/revolutions-transclasses-0",
+     "license": "official"
+    },
+    {
+     "title": "Fabula — Chantal Jaquet, Les Transclasses ou la non-reproduction (rééd.)",
+     "url": "https://www.fabula.org/actualites/126981/chantal-jaquet-les-transclasses-ou-la-non-reproduction-reed.html",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
