@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T14:54:47+00:00",
+ "updated": "2026-10-22T17:54:53+00:00",
  "days": [
   {
    "date": "2026-10-22",
@@ -58,6 +58,22 @@
      "title": "Changer de classe, ou en finir avec les classes ?",
      "kind": "feature",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "pt",
+     "title": "A escada volta para a padaria",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "pt",
+     "title": "Na recepção do consultório",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]
