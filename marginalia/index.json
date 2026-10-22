@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T04:58:38+00:00",
+ "updated": "2026-10-22T05:01:32+00:00",
  "days": [
   {
    "date": "2026-10-22",
@@ -26,6 +26,22 @@
      "title": "Today's reading list",
      "kind": "picks",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "de",
+     "title": "Ein Dorf und seine Lücken",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "de",
+     "title": "Helgoland gegen Sansibar? Ein Tausch, den es nie gab",
+     "kind": "brief",
+     "level": "B2",
      "hour": null
     }
    ]
