@@ -900,6 +900,7 @@ body{font-variant-numeric:tabular-nums}
 .adbox summary{cursor:pointer;font-weight:600;color:var(--acc)}
 .adbox form{margin-top:10px}.adbox .newhead{display:flex;gap:8px}.adbox .newhead input{flex:1}.adbox .newhead select{width:auto}
 .mg-favb .st{font-size:16px;line-height:1}.mg-favb[aria-pressed="true"] .st{color:#d4a017}
+.mg-favx{margin-top:10px}.mg-favx .btn svg{width:16px;height:16px;margin-right:6px;vertical-align:-3px}
 </style>
 </head>
 <body>
@@ -1331,6 +1332,7 @@ body{font-variant-numeric:tabular-nums}
   </div>
 </div>
 
+<script src="vendor/printkit.js"></script>
 <script>
 (function(){
 "use strict";
@@ -1355,6 +1357,7 @@ const POSOPT={
 const XLAB={fr:["变形 / 备注（可选）","les parapluies · (s')ouvrir"],pt:["变形 / 备注（可选）",""],de:["复数 / 动词变形","die Regenschirme · fährt ab · fuhr ab · ist abgefahren"],en:["音标","/ˈʌmbrelə/"]};
 const SLOTS=[["w","单词"],["s","例句"]];
 const I={
+ exp:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg>',
  spk:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>',
  star:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"/></svg>',
  starF:'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9z"/></svg>',
@@ -2445,7 +2448,40 @@ function mgFavList(pick){
   if(!rows.length){ box.hidden=true; box.innerHTML=""; return; } box.hidden=false;
   const cur=pick?pick.date+"|"+pick.i:"";
   box.innerHTML=`<h3 style="margin:0 0 8px"><span>我的收藏</span> · <span>${rows.length} 篇</span></h3><div class="mg-arch">${rows.map(([k,f])=>{ const mine=k.startsWith("mine|");
-    return `<button ${mine?`data-mine="${esc(k.slice(5))}"`:`data-mg="${esc(k)}"`} aria-current="${k===cur}"><span class="k">${f.date?new Date(f.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"}):"★"}</span><span class="t" lang="${l}">${esc(f.title)}</span><span class="m">${f.level?esc(f.level):""}</span></button>`; }).join("")}</div>`;
+    return `<button ${mine?`data-mine="${esc(k.slice(5))}"`:`data-mg="${esc(k)}"`} aria-current="${k===cur}"><span class="k">${f.date?new Date(f.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"}):"★"}</span><span class="t" lang="${l}">${esc(f.title)}</span><span class="m">${f.level?esc(f.level):""}</span></button>`; }).join("")}</div><div class="mg-favx"><button class="btn ghost sm" id="mg-favexp" type="button" aria-haspopup="menu">${I.exp}<span>导出全部</span></button></div>`;
+}
+/* print / Word export of articles (vendor/printkit.js) */
+const pkL=t=>trOne(t)||t;
+function pkDoc(it,date){
+  const l=it.lang||lang(), pl=PL(l,it.level), sl=SL(l,it.level);
+  const meta=[it.section||MG_KIND[it.kind]||"",it.level||"",date&&/^\d{4}-\d\d-\d\d$/.test(date)?mgFmt(date):"",mgOutlet(it)].filter(Boolean).join(" · ");
+  const tk=[HL(),"en","zh","de","pt","fr"].filter((x,i,a)=>x!==l&&a.indexOf(x)===i).find(k=>(it["paragraphs_"+k]||[]).length);
+  const g=hxPick(it,"grammar");
+  const picks=(it.picks||[]).map(x=>[[x.outlet,x.genre].filter(Boolean).join(" · ")+(x.outlet||x.genre?": ":"")+(x.title||"")+(x.author?" — "+x.author:"")+(x.url?"  "+x.url:"")]);
+  return {title:it.title||"",sub:it.dek||"",meta,lang:l==="pt"?"pt-BR":l,
+    paras:(it.paragraphs||[]).map(x=>[x]),
+    blocks:[picks.length?{label:pkL("推荐"),paras:picks,early:true}:null,
+      g?{label:pkL("语法"),lang:g.lang,paras:[[g.text]]}:null,
+      (it.questions||[]).length?{label:pkL("想一想"),paras:it.questions.map((q,i)=>[(i+1)+". "+q])}:null].filter(Boolean),
+    gloss:(it.glossary||[]).length?{label:pkL("重点词汇"),rows:it.glossary.map(x=>{ const k=x[pl]?pl:(x.en?"en":(x.zh?"zh":"")); return {w:x.w,m:[glTxt(x,k),sl&&sl!==k&&x[sl]?glTxt(x,sl):""]}; })}:null,
+    trans:tk?{label:pkL("译文")+" · "+(HL_NAME[tk]||tk),lang:tk,paras:it["paragraphs_"+tk].map(x=>tk==="zh"?hz(x):x)}:null,
+    src:it.sources||[],srcLabel:pkL("来源")};
+}
+async function pkFavDocs(){
+  const l=lang(); await mgLoad(); const out=[];
+  const rows=Object.entries(MGS.fav).filter(([k,f])=>f&&!f.del&&f.lang===l).sort((a,b)=>b[1].ts-a[1].ts);
+  for(const [k] of rows){ try{
+    if(k.startsWith("mine|")){ const a=mineAll().find(x=>String(x.id)===k.slice(5)); if(a) out.push(pkDoc(mineItem(a),"")); }
+    else { const [d,i]=k.split("|"), day=await mgDay(d), it=day&&day.items[+i]; if(it) out.push(pkDoc(it,d)); }
+  }catch(e){} }
+  return out;
+}
+function pkMenu(btn,getDocs,name){
+  if(!window.PrintKit){ toast(pkL("导出功能没有载入，请刷新页面再试。")); return; }
+  const go=async kind=>{ const docs=await getDocs(); if(!docs.length){ toast(pkL("没有可以导出的文章。")); return; }
+    const opt={title:name,filename:name,footer:"字里行间 · Entrelinhas",ea:UIL==="zht"?"zht":"zh",creator:"Entrelinhas"};
+    if(kind==="print") PrintKit.print(docs,opt); else PrintKit.docx(docs,opt); };
+  PrintKit.menu(btn,[{label:pkL("打印 / 存成 PDF"),run:()=>go("print")},{label:pkL("Word 文件 (.docx)"),run:()=>go("docx")}]);
 }
 const WRE=/([\p{L}\p{M}]+(?:['’\-][\p{L}\p{M}]+)*)/u;
 function mgSents(p){ return p.split(/(?<=(?<!\d)[.!?…]["»“]?)\s+(?=[\p{Lu}—–„«"\d])/u); }
@@ -2498,7 +2534,7 @@ async function mgRender(){
     <div class="mg-kick">${it.series&&it.series.episode&&it.series.name===it.section?"":`<span>${esc(it.section||MG_KIND[it.kind]||"")}</span>`}${it.series&&it.series.episode?`<span>${esc(it.series.name||"")} · ${esc(it.series.episode)}</span>`:""}${mgOutlet(it)?`<span>${esc(mgOutlet(it))}</span>`:""}${it.level?`<span class="lv lv-${esc(it.level)}">${esc(it.level)}</span>`:""}${it.kind!=="picks"&&(it.paragraphs||[]).length?`<span>${mgMinutes(it)} 分钟</span>`:""}${pick.older?`<span class="g">${mgFmt(pick.date)} · 今天的 ${MG_ETA[l]} 送到</span>`:""}</div>
     <h2 data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.title)}</h2>
     ${it.dek?`<p class="mg-dek" data-noi18n lang="${l==="pt"?"pt-BR":l}">${esc(it.dek)}</p>`:""}
-    <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button><button class="tb mg-favb" data-favb="1" id="mg-fav-b" type="button" aria-pressed="${mgFavOn(pick.date+"|"+pick.i)}"><span class="st" aria-hidden="true">${mgFavOn(pick.date+"|"+pick.i)?"★":"☆"}</span><span>${mgFavOn(pick.date+"|"+pick.i)?"已收藏":"收藏"}</span></button>${(()=>{ const sl=SL(l,it.level); return (sl?`<button class="tb" id="mg-xl" aria-pressed="${MGX}">${HL_NAME[sl]}</button>`:"")+(l!=="en"&&sl!=="en"&&it.paragraphs_en&&it.paragraphs_en.length?`<button class="tb" data-mgtr="en" aria-pressed="${mgTr().includes("en")}" aria-label="English translation">English</button>`:""); })()}</div>
+    <div class="mg-tools"><button class="tb" id="mg-say" aria-label="朗读全文">${I.spk}<span>朗读</span></button><button class="tb mg-favb" data-favb="1" id="mg-fav-b" type="button" aria-pressed="${mgFavOn(pick.date+"|"+pick.i)}"><span class="st" aria-hidden="true">${mgFavOn(pick.date+"|"+pick.i)?"★":"☆"}</span><span>${mgFavOn(pick.date+"|"+pick.i)?"已收藏":"收藏"}</span></button><button class="tb" id="mg-exp" type="button" aria-haspopup="menu">${I.exp}<span>导出</span></button>${(()=>{ const sl=SL(l,it.level); return (sl?`<button class="tb" id="mg-xl" aria-pressed="${MGX}">${HL_NAME[sl]}</button>`:"")+(l!=="en"&&sl!=="en"&&it.paragraphs_en&&it.paragraphs_en.length?`<button class="tb" data-mgtr="en" aria-pressed="${mgTr().includes("en")}" aria-label="English translation">English</button>`:""); })()}</div>
     <div class="mg-body${easy?" easy":""}${it.kind==="dialogue"?" dlg":""}" id="mg-body" data-noi18n lang="${l==="pt"?"pt-BR":l}">${(it.paragraphs||[]).map((p,k)=>`<p>${mgWrap(p,l,own)}</p>${[...mgTr().filter(t=>t==="en"),...(MGX&&SL(l,it.level)?[SL(l,it.level)]:[])].filter((t,i,a)=>a.indexOf(t)===i).map(t=>it["paragraphs_"+t]&&it["paragraphs_"+t][k]?`<span class="mg-zh mg-tr-${t}" lang="${t}">${esc(t==="zh"?hz(it["paragraphs_"+t][k]):it["paragraphs_"+t][k])}</span>`:"").join("")}`).join("")}</div>
     ${it.kind==="picks"?mgPicks(it):""}
     ${(()=>{ const g=hxPick(it,"grammar"); return g?`<div class="mg-blk"><h3>语法</h3><div class="mg-gram" lang="${g.lang}" data-noi18n>${esc(g.text)}</div></div>`:""; })()}
@@ -2955,6 +2991,8 @@ $("#tab-read").addEventListener("click",e=>{
   else if(b.dataset.mgtr){ const t=b.dataset.mgtr, cur=mgTr(); MG.trAll[lang()]=cur.includes(t)?cur.filter(x=>x!==t):[...cur,t].sort((a,b)=>a==="en"?-1:b==="en"?1:0); try{ localStorage.setItem("pw-tr2",JSON.stringify(MG.trAll)); }catch(x){} mgRender(); }
   else if(id==="mg-say"){ if(RD.src==="art"&&RD.on) rdToggle(); else rdStart("art",0); }
   else if(b.dataset.favb){ mgFavToggle(); const on=mgFavOn(MG.cur.date+"|"+MG.cur.i); $$("[data-favb]").forEach(x=>{ x.setAttribute("aria-pressed",on); x.innerHTML=`<span class="st" aria-hidden="true">${on?"★":"☆"}</span>${x.classList.contains("btn")?" ":""}<span>${esc(trOne(on?"已收藏":"收藏")||(on?"已收藏":"收藏"))}</span>`; }); mgFavList(MG.cur); syLater(); }
+  else if(id==="mg-exp"){ const c=MG.cur; if(c&&c.it) pkMenu(b,async()=>[pkDoc(c.it,c.date)],(c.it.title||"Entrelinhas").slice(0,60)); }
+  else if(id==="mg-favexp"){ pkMenu(b,pkFavDocs,pkL("我的收藏")+" "+today()); }
   else if(id==="mg-done"){ MGS.read[MG.cur.date+"|"+MG.cur.i]=1; mgSave(); mgRender(); }
   else if(id==="mg-mineback"){ MG.mine=null; mgRender(); mineList(); }
   else if(id==="mg-minedel"){ if(confirm(trOne("删除这篇文章？")||"删除这篇文章？")){ { const dl=(()=>{ try{ return JSON.parse(localStorage.getItem("pw-mine-del"))||{}; }catch(e){ return {}; } })(); dl[MG.mine]=Date.now(); try{ localStorage.setItem("pw-mine-del",JSON.stringify(dl)); }catch(e){} } mineSave(mineAll().filter(a=>a.id!==MG.mine)); MG.mine=null; if(typeof syLater==="function") syLater(); mgRender(); mineList(); } }
@@ -4109,6 +4147,13 @@ const UI_DICT=[
 ["收藏", "Save", "Merken", "Guardar", "收藏"],
 ["已收藏", "Saved", "Gemerkt", "Guardado", "已收藏"],
 ["我的收藏", "Saved articles", "Gemerkte Artikel", "Artigos guardados", "我的收藏"],
+["导出", "Export", "Exportieren", "Exportar", "匯出"],
+["导出全部", "Export all", "Alle exportieren", "Exportar todos", "匯出全部"],
+["打印 / 存成 PDF", "Print / save as PDF", "Drucken / als PDF sichern", "Imprimir / salvar PDF", "列印 / 存成 PDF"],
+["Word 文件 (.docx)", "Word document (.docx)", "Word-Dokument (.docx)", "Documento Word (.docx)", "Word 檔案 (.docx)"],
+["译文", "Translation", "Übersetzung", "Tradução", "譯文"],
+["导出功能没有载入，请刷新页面再试。", "Export didn't load. Please reload the page.", "Export wurde nicht geladen. Bitte Seite neu laden.", "A exportação não carregou. Recarregue a página.", "匯出功能沒有載入，請重新整理頁面。"],
+["没有可以导出的文章。", "Nothing to export.", "Nichts zu exportieren.", "Nada para exportar.", "沒有可以匯出的文章。"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
