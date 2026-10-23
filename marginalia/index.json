@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T05:08:25+00:00",
+ "updated": "2026-10-23T15:00:16+00:00",
  "days": [
   {
    "date": "2026-10-23",
@@ -42,6 +42,22 @@
      "title": "Today's reading list",
      "kind": "picks",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "À Bangkok, les pêcheurs parlent aux banquiers",
+     "kind": "feature",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Payer les intérêts ou payer l'école : la dette qui étrangle le Sud",
+     "kind": "feature",
+     "level": "C1",
      "hour": null
     }
    ]
