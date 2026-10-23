@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:56:09+00:00",
+ "updated": "2026-10-23T05:08:25+00:00",
  "days": [
   {
    "date": "2026-10-23",
@@ -26,6 +26,22 @@
      "title": "Nur die Spitzen? Beim Friseur",
      "kind": "dialogue",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
+     "level": "C2",
      "hour": null
     }
    ]

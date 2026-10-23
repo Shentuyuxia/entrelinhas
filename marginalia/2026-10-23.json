@@ -429,6 +429,193 @@
     "Worüber reden Sie gern beim Friseur, oder sind Sie lieber still?"
    ],
    "sources": []
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lesetipps",
+   "title": "Lesetipps für heute",
+   "dek": "Kinderlieder vom Humoristen, DDR-Straßenfotos aus der Schublade, ein Exilroman aus Porto, neue Serien und eine Glosse von der Kuchentheke.",
+   "paragraphs": [],
+   "glossary": [],
+   "questions": [],
+   "sources": [],
+   "picks": [
+    {
+     "outlet": "taz",
+     "genre": "Kritik · Musik",
+     "title": "Vermehrung von Bazillen und Dukaten",
+     "author": "Imke Staats",
+     "url": "https://taz.de/Kinderlieder-von-Heinz-Strunk/!6223660/",
+     "minutes": 5,
+     "en": "Hamburg humorist and bestselling novelist Heinz Strunk has recorded children's 'learning songs' – a playful look at what happens when his deadpan wit meets the nursery.",
+     "zh": "汉堡幽默作家海因茨·施特伦克出了一张儿童「学习歌」专辑——看他的冷幽默如何遇上儿歌。",
+     "de": "Der Hamburger Humorist Heinz Strunk macht jetzt Lernlieder für Kinder – eine vergnügte Besprechung.",
+     "pt": "O humorista de Hamburgo Heinz Strunk gravou “canções educativas” para crianças – uma resenha divertida."
+    },
+    {
+     "outlet": "Tagesspiegel",
+     "genre": "Ausstellung · Fotografie",
+     "title": "Realistischer Blick: Fünfzig Jahre lang war diese DDR-Fotografie zu Hause verborgen",
+     "author": "Simon Rayß",
+     "url": "https://www.tagesspiegel.de/kultur/realistischer-blick-funfzig-jahre-lang-war-diese-ddr-fotografie-zu-hause-verborgen-16073698.html",
+     "minutes": 5,
+     "en": "Klaus Greiner's street photos of 1970s East Berlin lay in his home for half a century; now a show in Oberschöneweide presents everyday scenes, charming and shabby, without nostalgia. (Tagesspiegel Plus.)",
+     "zh": "克劳斯·格莱纳拍的七十年代东柏林街头照片在家里藏了半个世纪，如今展出：日常生活，有魅力也有破败，不带怀旧滤镜。",
+     "de": "Straßenfotos aus Ost-Berlin der 70er, fünfzig Jahre im Schrank – jetzt zu sehen, Alltag ohne Verklärung.",
+     "pt": "Fotos de rua da Berlim Oriental dos anos 70, guardadas em casa por 50 anos, agora numa exposição sem nostalgia."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Essay · Literatur & Exil",
+     "title": "Ilse Lieblichs unwahrscheinliche Bücher",
+     "author": "Benno Schirrmeister",
+     "url": "https://taz.de/Portugiesischer-Exil-Roman-Ilse-Lieblichs-unwahrscheinliche-Buecher/!6221184/",
+     "minutes": 7,
+     "en": "On Ilse Losa, the German-born writer who found exile in Portugal and wrote novels in Portuguese about it – and on the plain, cool prose that makes them worth rediscovering.",
+     "zh": "介绍流亡葡萄牙、用葡萄牙语写作的德国出生作家伊尔莎·洛萨，以及她朴素冷静、值得重读的流亡小说。",
+     "de": "Über Ilse Losa, die im portugiesischen Exil auf Portugiesisch schrieb – und ihre nüchterne, kühle Prosa.",
+     "pt": "Sobre Ilse Losa, alemã exilada em Portugal que escreveu em português – e sua prosa sóbria e fria."
+    },
+    {
+     "outlet": "der Freitag",
+     "genre": "Überblick · Serien",
+     "title": "Bingeworthy: Die 5 besten Serien der Herbstsaison",
+     "author": "Barbara Schweizerhof",
+     "url": "https://www.freitag.de/autoren/barbara-schweizerhof/von-east-of-eden-bis-war-die-5-besten-serien-der-herbstsaison",
+     "minutes": 6,
+     "en": "A film critic picks five new series worth your autumn evenings, including a new 'East of Eden' with Florence Pugh.",
+     "zh": "影评人推荐今秋五部新剧，其中包括弗洛伦丝·皮尤主演的新版《伊甸之东》。",
+     "de": "Fünf neue Serien für Herbstabende, darunter „East of Eden“ mit Florence Pugh.",
+     "pt": "Cinco séries novas para as noites de outono, entre elas “East of Eden” com Florence Pugh."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Glosse · Alltag",
+     "title": "Die Kuchenthekenflüsterin",
+     "author": "Klaus Esterluss",
+     "url": "https://taz.de/Beobachtungen-beim-Baecker/!6222705/",
+     "minutes": 3,
+     "en": "A short, witty column of observations at a bakery counter – everyday German at its most colloquial.",
+     "zh": "一篇在面包店柜台前观察众生的短小幽默专栏，日常口语很地道。",
+     "de": "Kurze, witzige Beobachtungen an der Kuchentheke – Alltagsdeutsch pur.",
+     "pt": "Uma crônica curta e espirituosa sobre o balcão da padaria – alemão do dia a dia."
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "picks",
+   "section": "Reading list",
+   "title": "Today's reading list",
+   "dek": "Piazzolla's afterlives, women artists over 75, West Africa's liberation modernism, date-palm climbers, a trans essay on the man-hug, and nature writing after McPhee.",
+   "paragraphs": [],
+   "glossary": [],
+   "questions": [],
+   "note": "The Offing, Offrange and Baffler picks come via Longreads; descriptions follow Longreads' summaries.",
+   "sources": [
+    {
+     "title": "Longreads",
+     "url": "https://longreads.com/",
+     "license": "link only"
+    }
+   ],
+   "picks": [
+    {
+     "outlet": "Bandcamp Daily",
+     "genre": "Album guide · Music",
+     "title": "The Life, Death, and Afterlife of Astor Piazzolla",
+     "author": "George Grella",
+     "url": "https://daily.bandcamp.com/features/astor-piazzolla-album-guide",
+     "minutes": 6,
+     "en": "From a childhood in New York and a near-miss with the crash that killed Carlos Gardel to New Tango and the Kronos Quartet: a guide to Piazzolla's life and the best recordings, his own and others'.",
+     "zh": "从纽约童年、险些死于加德尔空难，到「新探戈」和克罗诺斯四重奏：皮亚佐拉的一生与值得听的唱片指南。",
+     "de": "Piazzollas Leben – von der Kindheit in New York bis zum Nuevo Tango – und die besten Aufnahmen.",
+     "pt": "A vida de Piazzolla, da infância em Nova York ao Tango Novo, e um guia de gravações essenciais."
+    },
+    {
+     "outlet": "Hyperallergic",
+     "genre": "Review · Contemporary art",
+     "title": "When Does a Woman Artist Reach Her \"Prime\"?",
+     "author": "Leah Triplett Harrington",
+     "url": "https://hyperallergic.com/when-does-a-woman-artist-reach-her-prime/",
+     "minutes": 5,
+     "en": "A show of 18 women artists over 75 prompts a feminist question: if markets and museums honour women only late, when is their 'prime' – and does a weaker late work, like Abramović's here, change the story?",
+     "zh": "一场75岁以上女性艺术家联展引出女性主义追问：市场与美术馆迟到的认可下，她们的「巅峰」究竟在何时？",
+     "de": "18 Künstlerinnen über 75 – und die Frage, wann Frauen in Kunstmarkt und Museum ihre „beste Zeit“ haben.",
+     "pt": "18 artistas acima dos 75 anos e a pergunta: quando é o “auge” de uma mulher artista?"
+    },
+    {
+     "outlet": "Places Journal",
+     "genre": "Review · Architecture",
+     "title": "An Unfinished Liberation",
+     "author": "Rashida Ng",
+     "url": "https://placesjournal.org/article/an-unfinished-liberation-modernism-in-western-africa-moma-review/",
+     "minutes": 10,
+     "en": "A thoughtful review of MoMA's show on modernist architecture in decolonising West Africa – Dakar's CICES, FESTAC '77, Demas Nwoko – asking whether foreign networks built local capacity or dependency.",
+     "zh": "评MoMA西非去殖民时期现代主义建筑展：从达喀尔会展中心到FESTAC '77，追问跨国合作带来的是自主还是依附。",
+     "de": "Kritik der MoMA-Schau über Moderne und Dekolonisierung in Westafrika – Befreiung als unvollendetes Projekt.",
+     "pt": "Resenha da mostra do MoMA sobre arquitetura moderna e descolonização na África Ocidental."
+    },
+    {
+     "outlet": "Offrange (via Longreads)",
+     "genre": "Reportage · Migration & labour",
+     "title": "Ghosts of the Grove",
+     "author": "Ashley Stimpson",
+     "url": "https://ambrook.com/offrange/culture/ghosts-of-the-grove?src=longreads",
+     "minutes": 15,
+     "en": "Meet the palmeros, skilled and daring workers who climb palms to harvest Medjool dates – a 6,000-year-old craft now squeezed by climate change, immigration raids and machines.",
+     "zh": "走近攀爬椰枣树采收的「palmeros」：一门六千年的手艺，正受到气候变化、移民突袭和机械化的夹击。",
+     "de": "Die Palmeros, die Medjool-Datteln ernten: ein uraltes Handwerk zwischen Klimawandel, Razzien und Maschinen.",
+     "pt": "Os palmeros que colhem tâmaras: um ofício milenar ameaçado pelo clima, por batidas migratórias e máquinas."
+    },
+    {
+     "outlet": "The Offing (via Longreads)",
+     "genre": "Personal essay · Society",
+     "title": "Quest for the Slappy Man-Hug",
+     "author": "Lane Michael Stanley",
+     "url": "https://theoffingmag.com/essay/quest-for-the-slappy-man-hug/?src=longreads",
+     "minutes": 12,
+     "en": "Six years after transitioning, the writer still can't master the sideways back-slapping hug – a funny, tender essay on male friendship, touch and the unwritten rules of gender.",
+     "zh": "变性六年后，作者仍学不会男人间那种侧身拍背的拥抱——一篇关于男性友谊、身体接触与性别潜规则的幽默随笔。",
+     "de": "Ein trans Autor und die Kunst der Männerumarmung – ein Essay über Freundschaft, Nähe und Geschlechterregeln.",
+     "pt": "Um autor trans e o “abraço de homem” – ensaio sobre amizade masculina, toque e normas de gênero."
+    },
+    {
+     "outlet": "The Baffler (via Longreads)",
+     "genre": "Essay · Books & nature",
+     "title": "Up a Creek",
+     "author": "David Schurman Wallace",
+     "url": "https://thebaffler.com/latest/up-a-creek-wallace?src=longreads",
+     "minutes": 15,
+     "en": "What is nature writing for once everyone has stopped paying attention? An essay that takes John McPhee and geological time as its starting point.",
+     "zh": "当没人再关注时，自然写作还有什么意义？一篇从约翰·麦克菲与地质时间出发的随笔。",
+     "de": "Was soll Naturschreiben, wenn keiner mehr hinsieht? Ein Essay ausgehend von John McPhee.",
+     "pt": "Para que serve a escrita sobre a natureza quando ninguém mais presta atenção? Ensaio a partir de John McPhee."
+    },
+    {
+     "outlet": "The Guardian",
+     "genre": "Browse · The Long Read",
+     "title": "The Long Read – latest essays",
+     "url": "https://www.theguardian.com/news/series/the-long-read",
+     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
+     "zh": "《卫报》长文栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
+     "de": "Die Longreads des Guardian – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
+     "pt": "Os textos longos do Guardian – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
+    },
+    {
+     "outlet": "The Atlantic",
+     "genre": "Browse · Ideas",
+     "title": "Ideas – essays and arguments",
+     "url": "https://www.theatlantic.com/ideas/",
+     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
+     "zh": "《大西洋月刊》观点栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
+     "de": "Essays und Debatten von The Atlantic – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
+     "pt": "Ensaios e debates da The Atlantic – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
+    }
+   ]
   }
  ]
 }
