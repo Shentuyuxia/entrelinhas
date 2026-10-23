@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:18:29+00:00",
+ "updated": "2026-10-23T04:56:09+00:00",
  "days": [
   {
    "date": "2026-10-23",
@@ -10,6 +10,22 @@
      "title": "The second rent",
      "kind": "feature",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Wut als Köder, Käse als Lob",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "de",
+     "title": "Nur die Spitzen? Beim Friseur",
+     "kind": "dialogue",
+     "level": "B2",
      "hour": null
     }
    ]
