@@ -1,5 +1,7 @@
 name: wk-samples (dev helper)
 on: workflow_dispatch
+permissions:
+  contents: write
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -16,5 +18,7 @@ jobs:
           for w in maison aller beau; do
             curl -sL -A "$UA" "https://fr.wiktionary.org/w/api.php?action=parse&page=$w&prop=text&format=json&formatversion=2&redirects=1" -o fr-$w.json; sleep 1; done
           ls -la
-      - uses: actions/upload-artifact@v4
-        with: { name: wk-samples, path: s }
+      - run: |
+          cd s && git init -q -b wk-samples && git add -A
+          git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm samples
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" wk-samples
