@@ -60,6 +60,14 @@ body.modal-open{overflow:hidden}
 .dx-res{margin-top:12px;display:grid;gap:10px}
 .dx-res .w{font-family:var(--f-word);font-size:24px;font-weight:600}
 .dx-links{display:flex;flex-wrap:wrap;gap:6px}
+.dx-res .wk{max-height:none}
+.dx-ex{display:block;font-style:italic;color:var(--muted);margin:2px 0 4px;font-size:14px}
+.dx-tr{display:block;font-style:normal;font-size:13px;opacity:.85}
+.dx-en{border-top:1px solid var(--line);padding-top:6px}
+.dx-en summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--acc);margin-bottom:6px}
+.dx-mode{display:inline-flex;border:1px solid var(--line);border-radius:99px;overflow:hidden;justify-self:start}
+.dx-mode button{border:0;background:none;padding:4px 12px;font-size:13px;color:var(--muted);cursor:pointer}
+.dx-mode button[aria-pressed="true"]{background:var(--acc-soft);color:var(--acc);font-weight:600}
 .dx-links a{font-size:13px;border:1px solid var(--line);border-radius:99px;padding:3px 10px;color:var(--muted);text-decoration:none}
 #wl-go,#wl-done{justify-self:stretch;padding:12px}
 .wl-steps{margin:0;padding:0 0 0 20px;display:grid;gap:10px}
@@ -2806,37 +2814,118 @@ const DX_LINKS={
   en:[["Cambridge","https://dictionary.cambridge.org/dictionary/english/{q}"],["Oxford Learner's","https://www.oxfordlearnersdictionaries.com/search/english/?q={q}"],["Forvo","https://forvo.com/word/{q}/#en"]],
   fr:[["Larousse","https://www.larousse.fr/dictionnaires/francais/{q}"],["CNRTL","https://www.cnrtl.fr/definition/{q}"],["Linguee","https://www.linguee.fr/francais-anglais/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#fr"]]
 };
+/* which explanation comes first: en → English; de → German (then English); fr → French (then English);
+   pt → English for now, Portuguese when the reader switches it on (S.settings.dxPt) */
+const DX_MONO={de:"de",fr:"fr",pt:"pt"};
+function dxMonoOn(l){ return l==="pt"?!!S.settings.dxPt:!!DX_MONO[l]; }
 async function dxLookup(q){
   const l=lang(); q=String(q||"").trim(); if(!q) return;
-  Object.assign(DX,{q,l,wk:null,hl:"",state:"load",lemma:q,form:"",ipa:"",local:false}); dxPaint();
-  const cands=[...new Set([q,q.toLowerCase()])]; let senses=null, hit="";
+  Object.assign(DX,{q,l,wk:null,hl:"",state:"load",lemma:q,form:"",ipa:"",local:false,mono:null,monoState:"",enOpen:false}); dxPaint();
+  const cands=[...new Set([q,q.toLowerCase(),q.charAt(0).toUpperCase()+q.slice(1).toLowerCase()])]; let senses=null, hit="";
   for(const c of cands){ senses=await anyPick(c,l); if(senses){ hit=c; break; } }
   if(DX.q!==q) return;
   if(senses){ const allForm=senses.every(x=>x.defs.every(d=>d.f)), lem=senses[0].defs[0].f;
     if(allForm&&lem&&lem!==hit){ const ls=await anyPick(lem,l); if(ls){ DX.form=senses[0].defs[0].t; senses=ls; hit=lem; } } }
   if(DX.q!==q) return;
   DX.wk=senses; DX.lemma=hit||q; DX.state=senses?"ok":"none"; DX.ipa=senses&&senses.ipa||""; DX.local=!!(senses&&senses.local); dxPaint();
-  const h=HL(); if(h!=="en"&&h!==l){ const t=await mtFetch(DX.lemma,l,h); if(DX.q===q&&t){ DX.hl=h==="zh"?hz(t):t; dxPaint(); } }
+  const jobs=[];
+  // offline Portuguese entries have no example sentences: take the online English Wiktionary entry when there is one
+  if(senses&&senses.local) jobs.push(wkFetch(DX.lemma).then(j=>{ let w=wkPick(j,l); if(w){ const k=w.filter(x=>!x.defs[0].f); w=k.length?k:w; } if(DX.q===q&&w&&w.some(x=>x.defs.some(d=>d.ex&&d.ex.length))){ w.ipa=DX.ipa; DX.wk=w; dxPaint(); } }));
+  if(dxMonoOn(l)) jobs.push(dxMono(q));
+  const h=HL(); if(h!=="en"&&h!==l) jobs.push(mtFetch(DX.lemma,l,h).then(t=>{ if(DX.q===q&&t){ DX.hl=h==="zh"?hz(t):t; dxPaint(); } }));
+  await Promise.all(jobs);
+}
+async function dxMono(q){
+  const l=DX.l; DX.monoState="load"; dxPaint();
+  const cands=[...new Set([DX.lemma,q,q.toLowerCase(),q.charAt(0).toUpperCase()+q.slice(1)])]; let r=null;
+  for(const c of cands){ r=await monoPick(c,l); if(DX.q!==q) return; if(r) break; }
+  DX.mono=r; DX.monoState=r?"ok":"none"; dxPaint();
+}
+function dxSenses(senses,l,max){ const seen=new Set();
+  return senses.map(x=>`<div class="wk-s">${x.pos?`<span class="wk-p">${esc(x.pos)}</span>`:""}<ol>${x.defs.slice(0,max||6).map(d=>`<li>${esc(d.t)}${(d.ex||[]).filter(e=>!seen.has(e.t)&&seen.add(e.t)).map(e=>`<span class="dx-ex" lang="${l}">${esc(e.t)}${e.tr?`<span class="dx-tr" lang="en">${esc(e.tr)}</span>`:""}</span>`).join("")}</li>`).join("")}</ol></div>`).join("");
 }
 function dxPaint(){
   const o=$("#dx-out"); if(!o) return; if(!DX.q||DX.l!==lang()){ o.innerHTML=""; return; }
-  const enc=encodeURIComponent(DX.lemma.toLowerCase());
-  o.innerHTML=`<div class="dx-res"><div class="row"><span class="w" lang="${DX.l}">${esc(DX.lemma)}</span><span class="spacer"></span><button class="ib" id="dx-say" type="button" aria-label="朗读">${I.spk}</button></div>
-    ${DX.ipa?`<p class="wk-ipa" style="margin:0">${esc(DX.ipa)}</p>`:""}${DX.form?`<p class="small muted" style="margin:0">${esc(DX.form)}</p>`:""}${DX.local?`<p class="small muted" style="margin:0">${esc(trOne("离线词典 · Wiktionary（CC BY-SA）")||"离线词典 · Wiktionary（CC BY-SA）")}</p>`:""}
+  const enc=encodeURIComponent(DX.lemma.toLowerCase()), l=DX.l, mono=dxMonoOn(l), monoName={de:"Deutsch",fr:"Français",pt:"Português"}[l];
+  const enBlock=DX.state==="load"?`<p class="small muted">${esc(trOne("正在查 Wiktionary…")||"正在查 Wiktionary…")}</p>`
+    :DX.state==="none"?`<p class="small muted">${esc(trOne("Wiktionary 没有收这个词")||"Wiktionary 没有收这个词")}</p>`
+    :DX.wk?`<div class="wk" lang="en" data-noi18n>${dxSenses(DX.wk,l,5)}</div>`:"";
+  const monoBlock=!mono?"":DX.monoState==="ok"?`<div class="wk" lang="${l}" data-noi18n>${dxSenses(DX.mono.senses,l,8)}<a class="wk-src" href="${esc(DX.mono.url)}" target="_blank" rel="noopener">${l}.wiktionary ↗</a></div>`
+    :DX.monoState==="none"?`<p class="small muted" data-noi18n>${esc({de:"Im deutschen Wiktionary nicht gefunden.",fr:"Pas trouvé dans le Wiktionnaire.",pt:"Não encontrado no Wikcionário."}[l])}</p>`
+    :`<p class="small muted" data-noi18n>${esc({de:"Suche im deutschen Wiktionary …",fr:"Recherche dans le Wiktionnaire…",pt:"Procurando no Wikcionário…"}[l])}</p>`;
+  const none=DX.state==="none"&&(!mono||DX.monoState==="none");
+  o.innerHTML=`<div class="dx-res"><div class="row"><span class="w" lang="${l}">${esc(DX.lemma)}</span><span class="spacer"></span><button class="ib" id="dx-say" type="button" aria-label="朗读">${I.spk}</button></div>
+    ${DX.ipa?`<p class="wk-ipa" style="margin:0">${esc(DX.ipa)}</p>`:""}${DX.form?`<p class="small muted" style="margin:0">${esc(DX.form)}</p>`:""}
+    ${l==="pt"?`<div class="dx-mode" role="group"><button type="button" data-dxpt="0" aria-pressed="${!mono}">English</button><button type="button" data-dxpt="1" aria-pressed="${mono}">Português</button></div>`:""}
     ${DX.hl?`<p class="wk-hl" lang="${HL()}" data-noi18n>${esc(DX.hl)} <span class="small muted">· MyMemory</span></p>`:""}
-    ${DX.state==="load"?`<p class="small muted">正在查 Wiktionary…</p>`:DX.state==="none"?`<p class="small muted">Wiktionary 没有收这个词</p><button class="btn sm" type="button" id="dx-self">${esc(trOne("自己加词")||"自己加词")}「${esc(DX.q)}」</button>`:DX.wk?`<div class="wk" lang="en" data-noi18n>${DX.wk.map(x=>`<div class="wk-s"><span class="wk-p">${esc(x.pos)}</span><ol>${x.defs.map(d=>`<li>${esc(d.t)}</li>`).join("")}</ol></div>`).join("")}</div>`:""}
-    <div class="dx-links">${(DX_LINKS[DX.l]||[]).map(([n,u])=>`<a href="${esc(u.replace("{q}",enc))}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
+    ${mono?`${monoBlock}<details class="dx-en" id="dx-en"${DX.enOpen?" open":""}><summary>English</summary>${enBlock}${DX.local?`<p class="small muted" style="margin:4px 0 0">${esc(trOne("离线词典 · Wiktionary（CC BY-SA）")||"离线词典 · Wiktionary（CC BY-SA）")}</p>`:""}</details>`
+      :`${enBlock}${DX.local&&DX.wk&&DX.wk.local?`<p class="small muted" style="margin:0">${esc(trOne("离线词典 · Wiktionary（CC BY-SA）")||"离线词典 · Wiktionary（CC BY-SA）")}</p>`:""}`}
+    ${none?`<button class="btn sm" type="button" id="dx-self">${esc(trOne("自己加词")||"自己加词")}「${esc(DX.q)}」</button>`:""}
+    <div class="dx-links">${(DX_LINKS[l]||[]).map(([n,u])=>`<a href="${esc(u.replace("{q}",enc))}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
     <label class="small muted" for="dx-note">笔记</label><textarea id="dx-note" rows="2" placeholder="我的笔记"></textarea>
     <div class="row"><button class="btn primary" id="dx-add" type="button">收进闪卡</button><span class="small muted" id="dx-msg"></span></div></div>`;
+  const d=$("#dx-en"); if(d) d.addEventListener("toggle",()=>{ DX.enOpen=d.open; });
+}
+/* ---------- monolingual Wiktionary (de / fr / pt editions): meanings in the language itself, with example sentences ---------- */
+const MONO=new Map();
+function monoFetch(w,l){
+  const k=l+"|"+w; if(MONO.has(k)) return MONO.get(k);
+  const ac=new AbortController(), tm=setTimeout(()=>ac.abort(),9000);
+  const p=fetch(`https://${l}.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(w)}&prop=text&format=json&formatversion=2&redirects=1&origin=*`,{signal:ac.signal})
+    .then(r=>r.ok?r.json():null).then(j=>j&&j.parse&&j.parse.text?{html:j.parse.text,title:j.parse.title||w}:null).catch(()=>{ MONO.delete(k); return null; }).finally(()=>clearTimeout(tm));
+  MONO.set(k,p); return p;
+}
+async function monoPick(w,l){ const r=await monoFetch(w,l); if(!r) return null; let senses=null;
+  try{ senses=l==="de"?monoDe(r.html):monoOl(r.html,l); }catch(e){ senses=null; }
+  return senses&&senses.length?{senses,url:`https://${l}.wiktionary.org/wiki/${encodeURIComponent(r.title.replace(/ /g,"_"))}`}:null; }
+function monoTxt(el){ const c=el.cloneNode(true); c.querySelectorAll("sup,.reference,style,link,.sources,.mw-editsection,ol,ul,dl,table").forEach(x=>x.remove()); return c.textContent.replace(/\s+/g," ").trim(); }
+function monoClean(t){ return t.replace(/^[„“"»«]+|[“”"«»]+$/g,"").replace(/\s+([.,;:!?])/g,"$1").trim(); }
+function monoBlocks(html){ const doc=new DOMParser().parseFromString(html,"text/html"); const root=doc.querySelector(".mw-parser-output")||doc.body;
+  return [...root.children].map(el=>{ const h=el.matches("h1,h2,h3,h4,h5,h6")?el:(el.classList.contains("mw-heading")?el.querySelector("h1,h2,h3,h4,h5,h6"):null);
+    return h?{h:true,lv:+h.tagName[1],id:h.id||"",text:monoTxt(h),el:h}:{h:false,el}; }); }
+function monoDe(html){ // de.wiktionary: "Bedeutungen:" + "Beispiele:" lists numbered [1], [2] …
+  const bs=monoBlocks(html); let inDe=false, deLv=0, pos="", out=[], cur=null, mode="";
+  for(let i=0;i<bs.length;i++){ const b=bs[i];
+    if(b.h){ if(b.lv<=2||(inDe&&b.lv<=deLv)){ inDe=/\(Deutsch\)/.test(b.text); deLv=b.lv; if(!inDe&&out.length) break; continue; }
+      if(inDe&&b.lv===deLv+1){ pos=b.text.replace(/\s*\[.*$/,""); cur=null; } continue; }
+    if(!inDe) continue; const el=b.el;
+    if(el.tagName==="P"){ const t=el.getAttribute("title")||""; mode=/Semantik/.test(t)?"def":/Verwendungsbeispiel/.test(t)?"ex":""; continue; }
+    if(el.tagName!=="DL"||!mode) continue;
+    if(mode==="def"){ cur={pos,defs:[],map:{}}; out.push(cur);
+      el.querySelectorAll(":scope > dd").forEach(dd=>{ const t=monoTxt(dd), m=t.match(/^\[(\d+[a-z]?)\]\s*(.*)$/); if(!m||!m[2]) return; const d={t:m[2],ex:[]}; cur.defs.push(d); cur.map[m[1]]=d; }); }
+    else if(mode==="ex"&&cur){ el.querySelectorAll(":scope > dd").forEach(dd=>{ const t=monoTxt(dd), m=t.match(/^\[(\d+[a-z]?)[^\]]*\]\s*(.*)$/); if(!m||!m[2]) return; const d=cur.map[m[1]]||cur.map[m[1].replace(/[a-z]$/,"")]; if(d) d.ex.push(monoClean(m[2])); }); }
+    mode="";
+  }
+  return out.filter(x=>x.defs.length).slice(0,3).map(x=>({pos:x.pos,defs:x.defs.map(d=>({t:d.t,ex:d.ex.filter(e=>e.length<=170).sort((a,b)=>a.length-b.length).slice(0,2).map(t=>({t}))}))}));
+}
+const MONO_LANG={pt:["Português","pt"],fr:["Français","fr"]};
+const MONO_POS={pt:/^(Substantivo|Verbo|Adjetivo|Advérbio|Pronome|Preposição|Conjunção|Interjeição|Numeral|Artigo|Locução|Expressão|Contração|Pronome|Prefixo|Sufixo)/i,
+  fr:/^(Nom|Verbe|Adjectif|Adverbe|Pronom|Préposition|Conjonction|Interjection|Article|Locution|Numéral|Particule|Préfixe|Suffixe|Onomatopée|Déterminant)/i};
+function monoOl(html,l){ // pt / fr editions: language heading, part-of-speech headings, <ol> of senses with nested example lists
+  const [name,code]=MONO_LANG[l], bs=monoBlocks(html); let inL=false, lv=0, pos="", out=[];
+  for(const b of bs){
+    if(b.h){ if(inL&&b.lv<=lv){ break; } if(!inL&&(b.id===name||b.el.querySelector("#"+code)||b.text===name)){ inL=true; lv=b.lv; continue; }
+      if(inL) pos=MONO_POS[l].test(b.text)?b.text.replace(/\s+\d+$/,""):""; continue; }
+    if(!inL||!pos||b.el.tagName!=="OL") continue;
+    const defs=[...b.el.children].filter(li=>li.tagName==="LI").map(li=>{ const t=monoTxt(li); const ex=[];
+      li.querySelectorAll(":scope > ul > li, :scope > dl > dd, :scope > ul > li > dl > dd").forEach(x=>{
+        const full=monoTxt(x); if(/^\d{3,4}\b/.test(full)) return; const q=x.querySelector(".example q, q"); let t2=q?monoTxt(q):""; if(!t2){ const it=x.querySelector(":scope > i, :scope > span > i"); t2=it?monoTxt(it):monoTxt(x); }
+        if(t2&&!/^\d{3,4}\b/.test(t2)&&t2.length<=220&&!ex.includes(t2)) ex.push(monoClean(t2)); });
+      return {t,ex:ex.sort((x,y)=>x.length-y.length).slice(0,2).map(t=>({t}))}; }).filter(d=>d.t&&!/^\(?\s*\)?$/.test(d.t));
+    if(defs.length) out.push({pos,defs});
+  }
+  return out.slice(0,3);
 }
 $("#dx-form").addEventListener("submit",e=>{ e.preventDefault(); dxLookup($("#dx-q").value); });
 $("#dx-out").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.dxpt!=null){ S.settings.dxPt=b.dataset.dxpt==="1"; save(); if(S.settings.dxPt&&!DX.mono&&DX.monoState!=="load") dxMono(DX.q); else dxPaint(); return; }
   if(b.id==="dx-say") speak(DX.lemma);
   else if(b.id==="dx-self"){ const w=DX.q; showTab("browse"); const d=$("#ad-box"); if(d){ d.open=true; $("#ad-w").value=w; setTimeout(()=>{ d.scrollIntoView({behavior:"smooth",block:"start"}); $("#ad-m").focus({preventScroll:true}); },60); } }
   else if(b.id==="dx-add"){ const note=($("#dx-note").value||"").trim(), def=DX.wk?(DX.wk[0].defs.find(d=>!d.f)||DX.wk[0].defs[0]).t.slice(0,120):"", h=HL();
     const zh=h==="zh"&&DX.hl?DX.hl:"", other=h!=="zh"&&h!=="en"&&DX.hl?HL_NAME[h]+": "+DX.hl:"";
-    if(!def&&!zh&&!note){ $("#dx-msg").textContent=trOne("先写一点笔记。"); $("#dx-note").focus(); return; }
-    const r=addFromReader({lang:DX.l,word:DX.lemma,lemma:DX.lemma,zh,def:def||note,pos:DX.wk?(WK_POS[DX.wk[0].pos]||""):"",note:[note,other].filter(Boolean).join("\n"),source:trOne("词典")||"词典"});
+    if(!def&&!zh&&!note&&!(DX.mono)){ $("#dx-msg").textContent=trOne("先写一点笔记。"); $("#dx-note").focus(); return; }
+    const ex0=(DX.wk&&DX.wk[0].defs.find(d=>d.ex&&d.ex.length))||(DX.mono&&DX.mono.senses[0].defs.find(d=>d.ex&&d.ex.length)); const mdef=!def&&DX.mono?DX.mono.senses[0].defs[0].t.slice(0,120):"";
+    const r=addFromReader({lang:DX.l,word:DX.lemma,lemma:DX.lemma,zh,def:def||mdef||note,example:ex0?ex0.ex[0].t:"",pos:DX.wk?(WK_POS[DX.wk[0].pos]||""):"",note:[note,other].filter(Boolean).join("\n"),source:trOne("词典")||"词典"});
     toast(r==="ok"?trOne("已收进闪卡，下次学习会先出现。"):r==="dup"?trOne("词匣里已经有这个词，已放到最前面。"):trOne("没有保存"));
     if(r==="ok"||r==="dup"){ DX.q=""; $("#dx-q").value=""; dxPaint(); } } });
 
@@ -2860,7 +2949,7 @@ async function mtLookup(s){
 /* free dictionary: English Wiktionary (no key, no cost) */
 const WK_POS={Noun:"名词","Proper noun":"专有名词",Verb:"动词",Adjective:"形容词",Adverb:"副词",Preposition:"介词",Conjunction:"连词",Pronoun:"代词",Article:"冠词",Determiner:"限定词",Interjection:"感叹词",Numeral:"数词",Phrase:"短语",Contraction:"缩合形式",Participle:"分词",Prefix:"前缀",Suffix:"后缀",Particle:"小品词","Prepositional phrase":"介词短语",Idiom:"习语",Proverb:"谚语"};
 const WK=new Map();
-function wkText(html){ const d=document.createElement("div"); d.innerHTML=String(html||""); d.querySelectorAll("sup,.reference").forEach(x=>x.remove()); return d.textContent.replace(/\s+/g," ").trim(); }
+function wkText(html){ const d=document.createElement("div"); d.innerHTML=String(html||""); d.querySelectorAll("sup,.reference,style,link").forEach(x=>x.remove()); return d.textContent.replace(/\s+/g," ").trim(); }
 function wkFormOf(html){ // "third-person singular present indicative of chover" → "chover"
   const d=document.createElement("div"); d.innerHTML=String(html||"");
   let a=d.querySelector(".form-of-definition-link a[title], .form-of-definition a[title]");
@@ -2899,7 +2988,7 @@ async function wkFetch(w){
 }
 function wkPick(j,l){
   const es=j&&j[l]; if(!es||!es.length) return null;
-  const senses=es.slice(0,3).map(e=>({pos:e.partOfSpeech||"",defs:(e.definitions||[]).map(d=>({t:wkText(d.definition),f:wkFormOf(d.definition)})).filter(d=>d.t).slice(0,4)})).filter(x=>x.defs.length);
+  const senses=es.slice(0,3).map(e=>({pos:e.partOfSpeech||"",defs:(e.definitions||[]).map(d=>({t:wkText(d.definition),f:wkFormOf(d.definition),ex:(d.parsedExamples||(d.examples||[]).map(x=>({example:x}))).map(x=>({t:wkText(x.example),tr:wkText(x.translation||"")})).filter(x=>x.t&&x.t.length<=220).slice(0,2)})).filter(d=>d.t).slice(0,5)})).filter(x=>x.defs.length);
   return senses.length?senses:null;
 }
 async function wkLookup(s){
