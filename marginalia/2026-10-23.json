@@ -1,0 +1,134 @@
+{
+ "date": "2026-10-23",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "feature",
+   "section": "Society & Political Economy",
+   "title": "The second rent",
+   "dek": "In New York's Hudson Valley, a coalition of ratepayers wants to buy out a Canadian-owned utility and run the grid as a public authority. A report in The Baffler shows why the question of who owns the wires has become a question about democracy, debt and the cost of staying warm.",
+   "paragraphs": [
+    "Organisers in New York's Hudson Valley have a phrase for the electricity bill: the second rent. It captures something that rarely features in debates about the cost of living, which tend to fixate on housing and groceries. For low-income households, power is a fixed cost that cannot be negotiated down, deferred indefinitely or shopped around for, and when it climbs, it eats into everything else. In a recent piece for The Baffler, the philosopher and climate activist Shivani Radhakrishnan follows a campaign that proposes an unusually structural remedy: take the local utility out of private hands altogether.",
+    "The company in question, Central Hudson Gas & Electric, supplies roughly 315,000 electricity customers and 90,000 gas customers, and is owned by the Canadian conglomerate Fortis. Its recent record, as Radhakrishnan recounts it, is hardly reassuring. A billing fiasco, in which some customers saw automatic withdrawals of around ten times their usual amount, ended in a settlement with the state worth about $62.6 million. In 2024 the company asked regulators for a one-year increase that would have raised an extra $47.2 million; it came away with a three-year deal worth $143.7 million. Fortis, meanwhile, has raised its dividend for fifty-two consecutive years.",
+    "Radhakrishnan's central argument concerns the machinery of regulation itself. Rates are set by the state's Public Service Commission, which is charged with ensuring that charges are just and reasonable; in an August filing, the commission said affordability had to be weighed against shareholders' constitutionally protected right to a reasonable return. In her reading, that formula quietly turns a guaranteed profit into a fixed point around which everything else must bend. She adds a sharper, more contestable claim: because utilities earn returns on capital spending, they may have little reason to keep cheap equipment running when expensive replacements can be added to the rate base. Investor-owned firms of this kind serve about three in four American electricity customers, so the logic she describes is hardly a regional quirk.",
+    "The alternative on offer is a Hudson Valley Power Authority, a community-governed public body proposed in a bill introduced in both chambers of the state legislature. Its advocates promise to cap household bills at 6 percent of income and point to a study, published last December, estimating that a public takeover would save customers $15 million in its first year and hundreds of millions over three decades. Much of the saving would come from abolishing shareholder payouts and from cheaper borrowing: the article contrasts the 6.17 percent interest Central Hudson paid on debt issued in 2023 with the 3.62 percent the New York Power Authority paid the year before. Public power is not a utopian novelty in the United States. Nebraska runs on it statewide, as do Los Angeles and San Antonio, and most such systems date from the early twentieth century and the New Deal.",
+    "What makes the campaign politically interesting is that it scrambles the usual coalitions. One organiser tells Radhakrishnan that many residents who back a community utility voted for Donald Trump, and she notes that when the Obama administration floated selling the Tennessee Valley Authority, it was conservative lawmakers who objected. The opposition, by contrast, includes not only the company and regional business chambers but also the local electricians' union, IBEW Local 320, even though, by the author's account, the proposal would expand rather than shrink its membership. Local grievances are themselves divided: some residents blame state renewable-energy mandates, others the influx of New York City transplants, explanations Radhakrishnan treats as distractions from the question of ownership.",
+    "None of this guarantees success, and the article is candid about defeat: in Clearwater, Florida, a two-year public power campaign ended in August when the city council renewed a thirty-year contract with Duke Energy. Yet the stakes are rising rather than receding. A February survey cited in the piece found that one in four mid-Hudson residents carries utility debt, a one-gigawatt data centre has been proposed inside Central Hudson's territory, and gas-dependent electricity prices are exposed to war in the Gulf. Radhakrishnan's wager is that the grid, built and maintained collectively and paid for by everyone, is a natural candidate for democratic control. Whether voters and legislators in Albany agree may tell us how far the politics of affordability can move from complaint to ownership."
+   ],
+   "paragraphs_zh": [
+    "纽约州哈德逊河谷的组织者给电费账单起了个名字：“第二份房租”。这个说法点出了生活成本讨论中很少被提及的一面——人们往往只盯着住房和食品。对低收入家庭来说，电是一项固定开支，无法讨价还价，不能无限期拖欠，也没法货比三家；电费一涨，其他一切都被挤占。哲学学者、气候活动人士希瓦妮·拉达克里希南最近在《The Baffler》上撰文，追踪了一场提出非常结构性解决方案的运动：把当地电力公司彻底收归公有。",
+    "这家公司名为中哈德逊燃气电力公司（Central Hudson），为约31.5万电力用户和9万燃气用户供能，归加拿大企业集团Fortis所有。按拉达克里希南的叙述，它近年的表现很难让人放心。一场账单乱局中，部分用户被自动扣款约为平常金额的十倍，最终公司与州政府达成约6260万美元的和解。2024年，公司向监管机构申请为期一年、可多收4720万美元的涨价，结果拿到的是一份价值1.437亿美元的三年方案。与此同时，Fortis已连续五十二年提高股息。",
+    "拉达克里希南的核心论点针对的是监管机制本身。电价由州公共服务委员会制定，其职责是确保收费“公正合理”；在八月的一份文件中，该委员会表示，可负担性必须与股东受宪法保护的获得合理回报的权利相权衡。在她看来，这一公式悄然把有保障的利润变成了一个固定点，其他一切都得围着它转。她还提出一个更尖锐、也更有争议的观点：由于电力公司靠资本支出获取回报，当昂贵的更换费用可以计入费率基数时，它们可能缺乏维护廉价设备的动力。这类投资者所有的公司服务着约四分之三的美国电力用户，因此她描述的逻辑绝非地方性的怪现象。",
+    "替代方案是“哈德逊河谷电力局”——一个由社区治理的公共机构，相关法案已在州议会两院提出。支持者承诺将家庭电费上限定为收入的6%，并援引去年十二月发表的一项研究：公共接管第一年可为用户节省1500万美元，三十年内可节省数亿美元。节省主要来自取消股东分红和更低的融资成本：文章对比了Central Hudson在2023年发债时支付的6.17%利率与纽约电力局前一年发债的3.62%。公共电力在美国并非乌托邦式的新鲜事物。内布拉斯加全州都使用公共电力，洛杉矶和圣安东尼奥也是如此，这类系统大多可追溯到二十世纪初和罗斯福新政时期。",
+    "这场运动在政治上耐人寻味之处在于，它打乱了惯常的阵营划分。一位组织者告诉拉达克里希南，许多支持社区电力公司的居民曾投票给唐纳德·特朗普；她还指出，当奥巴马政府提议出售田纳西河谷管理局时，表示反对的恰恰是保守派议员。反对阵营则不仅包括公司和地区商会，还有当地电工工会IBEW第320分会——尽管据作者所述，该方案会让工会会员增加而非减少。当地人的不满本身也各执一词：有人怪州里的可再生能源指令，有人怪从纽约市搬来的新居民；拉达克里希南认为这些解释都偏离了所有权这一根本问题。",
+    "这一切都不能保证成功，文章也坦率提到了失败。在佛罗里达州克利尔沃特，一场持续两年的公共电力运动在八月告终，市议会与杜克能源续签了三十年合同。然而，利害关系不减反增。文中引用的二月份一项调查显示，哈德逊河谷中部四分之一的居民背着水电欠款；Central Hudson的服务区内有人提议建设一座1吉瓦的数据中心；而依赖天然气的电价也受到海湾地区战争的冲击。拉达克里希南押注的是：电网由集体建设和维护、由所有人买单，天然适合民主管理。奥尔巴尼的选民和议员是否认同，或许能告诉我们，可负担性政治能在多大程度上从抱怨走向所有权。"
+   ],
+   "paragraphs_de": [
+    "Aktivistinnen und Aktivisten im Hudson Valley im Bundesstaat New York haben einen Namen für die Stromrechnung: die zweite Miete. Er trifft etwas, das in Debatten über Lebenshaltungskosten selten vorkommt, weil diese sich meist auf Wohnen und Lebensmittel konzentrieren. Für Haushalte mit geringem Einkommen ist Strom ein Fixkostenblock, den man weder herunterhandeln noch beliebig aufschieben noch bei der Konkurrenz günstiger bekommen kann; steigt er, frisst er alles andere auf. In einem aktuellen Beitrag für The Baffler begleitet die Philosophin und Klimaaktivistin Shivani Radhakrishnan eine Kampagne, die eine ungewöhnlich strukturelle Lösung vorschlägt: den örtlichen Versorger ganz aus privater Hand zu nehmen.",
+    "Das Unternehmen, Central Hudson Gas & Electric, beliefert rund 315.000 Strom- und 90.000 Gaskunden und gehört dem kanadischen Konzern Fortis. Seine jüngere Bilanz ist, wie Radhakrishnan sie schildert, kaum beruhigend. Ein Abrechnungsdebakel, bei dem manchen Kunden etwa das Zehnfache des üblichen Betrags abgebucht wurde, endete mit einem Vergleich mit dem Bundesstaat über rund 62,6 Millionen Dollar. 2024 beantragte das Unternehmen eine einjährige Erhöhung, die 47,2 Millionen Dollar zusätzlich eingebracht hätte; bewilligt wurde ein Dreijahrespaket über 143,7 Millionen Dollar. Fortis wiederum hat seine Dividende zweiundfünfzig Jahre in Folge erhöht.",
+    "Radhakrishnans zentrales Argument richtet sich gegen die Regulierungsmaschinerie selbst. Die Tarife legt die staatliche Public Service Commission fest, die dafür sorgen soll, dass Entgelte gerecht und angemessen sind; in einer Stellungnahme vom August erklärte sie, Bezahlbarkeit müsse gegen das verfassungsrechtlich geschützte Recht der Aktionäre auf eine angemessene Rendite abgewogen werden. In ihrer Lesart macht diese Formel einen garantierten Gewinn stillschweigend zum Fixpunkt, nach dem sich alles andere richten muss. Sie fügt eine schärfere, umstrittenere These hinzu: Weil Versorger an Investitionen verdienen, haben sie womöglich wenig Anreiz, billige Anlagen instand zu halten, wenn teure Ersatzinvestitionen in die Tarifbasis einfließen können. Solche Unternehmen in Investorenhand versorgen etwa drei von vier US-Stromkunden; die beschriebene Logik ist also keine regionale Eigenheit.",
+    "Die Alternative ist eine Hudson Valley Power Authority, eine gemeinschaftlich verwaltete öffentliche Körperschaft, die ein in beiden Kammern des Landesparlaments eingebrachter Gesetzentwurf vorsieht. Die Befürworter versprechen, Haushaltsrechnungen auf 6 Prozent des Einkommens zu deckeln, und verweisen auf eine im vergangenen Dezember veröffentlichte Studie, wonach eine öffentliche Übernahme den Kunden im ersten Jahr 15 Millionen Dollar und über drei Jahrzehnte Hunderte Millionen sparen würde. Ein Großteil der Ersparnis käme aus dem Wegfall der Ausschüttungen und aus günstigeren Krediten: Der Artikel stellt die 6,17 Prozent Zinsen, die Central Hudson 2023 auf neue Schulden zahlte, den 3,62 Prozent der New York Power Authority aus dem Vorjahr gegenüber. Öffentliche Stromversorgung ist in den USA keine utopische Neuheit. Nebraska wird landesweit so versorgt, ebenso Los Angeles und San Antonio; die meisten dieser Systeme stammen aus dem frühen 20. Jahrhundert und dem New Deal.",
+    "Politisch interessant ist die Kampagne, weil sie die üblichen Lager durcheinanderwirbelt. Ein Organisator berichtet Radhakrishnan, viele Befürworter eines kommunalen Versorgers hätten Donald Trump gewählt, und sie erinnert daran, dass es konservative Abgeordnete waren, die sich wehrten, als die Obama-Regierung einen Verkauf der Tennessee Valley Authority ins Spiel brachte. Zu den Gegnern zählen dagegen nicht nur das Unternehmen und regionale Handelskammern, sondern auch die örtliche Elektrikergewerkschaft IBEW Local 320, obwohl der Vorschlag nach Darstellung der Autorin ihre Mitgliedschaft vergrößern statt verkleinern würde. Auch die lokalen Klagen sind gespalten: Manche machen staatliche Vorgaben für erneuerbare Energien verantwortlich, andere die Zugezogenen aus New York City – Erklärungen, die Radhakrishnan als Ablenkung von der Eigentumsfrage behandelt.",
+    "Ein Erfolg ist damit keineswegs garantiert, und der Artikel verschweigt Niederlagen nicht. In Clearwater, Florida, endete eine zweijährige Kampagne für öffentliche Stromversorgung im August, als der Stadtrat einen Dreißigjahresvertrag mit Duke Energy verlängerte. Doch es steht eher mehr als weniger auf dem Spiel. Laut einer im Text zitierten Erhebung vom Februar hat jede vierte Person im mittleren Hudson Valley Schulden beim Versorger, im Gebiet von Central Hudson ist ein Rechenzentrum mit einem Gigawatt geplant, und gasabhängige Strompreise sind dem Krieg am Golf ausgesetzt. Radhakrishnan setzt darauf, dass das Netz, gemeinsam gebaut und gewartet und von allen bezahlt, sich geradezu für demokratische Kontrolle anbietet. Ob Wählerschaft und Abgeordnete in Albany das ebenso sehen, könnte zeigen, wie weit die Politik der Bezahlbarkeit von der Klage zum Eigentum gelangen kann."
+   ],
+   "paragraphs_pt": [
+    "Organizadores no Vale do Hudson, no estado de Nova York, têm um nome para a conta de luz: o segundo aluguel. A expressão capta algo que raramente aparece nos debates sobre custo de vida, quase sempre centrados em moradia e comida. Para famílias de baixa renda, a energia é um custo fixo que não se negocia, não se adia indefinidamente e não se troca por uma opção mais barata; quando sobe, devora todo o resto. Num texto recente para a The Baffler, a filósofa e ativista climática Shivani Radhakrishnan acompanha uma campanha que propõe um remédio incomumente estrutural: tirar a distribuidora local por completo das mãos privadas.",
+    "A empresa em questão, a Central Hudson Gas & Electric, atende cerca de 315 mil clientes de eletricidade e 90 mil de gás e pertence ao conglomerado canadense Fortis. Seu histórico recente, tal como Radhakrishnan o relata, não tranquiliza ninguém. Um fiasco de cobrança, em que alguns clientes sofreram débitos automáticos de cerca de dez vezes o valor habitual, terminou num acordo com o estado de aproximadamente 62,6 milhões de dólares. Em 2024, a empresa pediu aos reguladores um reajuste de um ano que renderia 47,2 milhões de dólares a mais; saiu com um pacote de três anos no valor de 143,7 milhões. A Fortis, por sua vez, aumentou seus dividendos por cinquenta e dois anos seguidos.",
+    "O argumento central de Radhakrishnan mira a própria engrenagem da regulação. As tarifas são definidas pela Public Service Commission do estado, encarregada de garantir que as cobranças sejam justas e razoáveis; num parecer de agosto, a comissão afirmou que a acessibilidade precisa ser ponderada contra o direito constitucionalmente protegido dos acionistas a um retorno razoável. Na leitura dela, essa fórmula transforma discretamente um lucro garantido num ponto fixo em torno do qual todo o resto tem de se curvar. Ela acrescenta uma tese mais afiada e mais discutível: como as distribuidoras lucram com investimentos de capital, podem ter pouco motivo para manter equipamentos baratos funcionando quando substituições caras podem ser somadas à base tarifária. Empresas desse tipo, controladas por investidores, atendem cerca de três em cada quatro consumidores de eletricidade nos EUA, de modo que a lógica descrita não é uma peculiaridade regional.",
+    "A alternativa proposta é uma Hudson Valley Power Authority, um órgão público de gestão comunitária previsto num projeto de lei apresentado nas duas casas do legislativo estadual. Seus defensores prometem limitar a conta das famílias a 6% da renda e citam um estudo publicado em dezembro passado, segundo o qual a encampação pública pouparia aos clientes 15 milhões de dólares no primeiro ano e centenas de milhões ao longo de três décadas. Boa parte da economia viria do fim dos pagamentos a acionistas e de crédito mais barato: o artigo compara os juros de 6,17% que a Central Hudson pagou em dívida emitida em 2023 com os 3,62% da New York Power Authority no ano anterior. A energia pública não é uma novidade utópica nos Estados Unidos. O Nebraska inteiro funciona assim, assim como Los Angeles e San Antonio, e a maioria desses sistemas remonta ao início do século XX e ao New Deal.",
+    "O que torna a campanha politicamente interessante é que ela embaralha as alianças de sempre. Um organizador conta a Radhakrishnan que muitos moradores favoráveis a uma distribuidora comunitária votaram em Donald Trump, e ela lembra que, quando o governo Obama cogitou vender a Tennessee Valley Authority, foram parlamentares conservadores que se opuseram. Já a oposição reúne não só a empresa e as câmaras de comércio regionais, mas também o sindicato local de eletricistas, o IBEW Local 320, embora, segundo a autora, a proposta fosse ampliar e não reduzir sua base. As queixas locais também se dividem: uns culpam as metas estaduais de energia renovável, outros os recém-chegados de Nova York — explicações que Radhakrishnan trata como desvios da questão da propriedade.",
+    "Nada disso garante a vitória, e o artigo é franco sobre as derrotas. Em Clearwater, na Flórida, uma campanha de dois anos pela energia pública terminou em agosto, quando a câmara municipal renovou um contrato de trinta anos com a Duke Energy. Ainda assim, o que está em jogo só cresce. Uma pesquisa de fevereiro citada no texto mostra que um em cada quatro moradores do médio Vale do Hudson tem dívidas com a distribuidora, um data center de um gigawatt foi proposto na área da Central Hudson, e os preços da eletricidade, dependentes do gás, estão expostos à guerra no Golfo. A aposta de Radhakrishnan é que a rede elétrica, construída e mantida coletivamente e paga por todos, é candidata natural ao controle democrático. Se eleitores e legisladores em Albany concordarão, pode indicar até onde a política do custo de vida consegue passar da queixa à propriedade."
+   ],
+   "glossary": [
+    {
+     "w": "rate base",
+     "en": "the value of a regulated utility's assets on which it is allowed to earn a set return",
+     "zh": "费率基数（受监管公用事业可获回报的资产基础）",
+     "de": "Tarifbasis; Kapitalbasis, auf die ein regulierter Versorger eine Rendite erhält",
+     "pt": "base tarifária; ativos sobre os quais a concessionária tem retorno garantido"
+    },
+    {
+     "w": "fiasco",
+     "en": "a complete and humiliating failure",
+     "zh": "惨败；大乱局",
+     "de": "Debakel, Fiasko",
+     "pt": "fiasco, desastre completo"
+    },
+    {
+     "w": "to fixate on",
+     "en": "to give something excessive or exclusive attention",
+     "zh": "执着于；只盯着",
+     "de": "sich auf etw. fixieren",
+     "pt": "fixar-se em; ter obsessão por"
+    },
+    {
+     "w": "quirk",
+     "en": "an odd feature or peculiarity that is not typical",
+     "zh": "怪癖；特殊现象",
+     "de": "Eigenheit, Marotte",
+     "pt": "peculiaridade, excentricidade"
+    },
+    {
+     "w": "to scramble (coalitions)",
+     "en": "to mix up an established arrangement so that the usual groupings no longer apply",
+     "zh": "打乱（阵营）",
+     "de": "(Lager) durcheinanderwirbeln",
+     "pt": "embaralhar (alianças)"
+    },
+    {
+     "w": "contestable",
+     "en": "open to argument or dispute; not certain",
+     "zh": "有争议的；可质疑的",
+     "de": "anfechtbar, umstritten",
+     "pt": "discutível, contestável"
+    },
+    {
+     "w": "payout",
+     "en": "a sum of money paid out, e.g. to shareholders as dividends",
+     "zh": "派发款项；分红",
+     "de": "Ausschüttung",
+     "pt": "pagamento, distribuição (de lucros)"
+    },
+    {
+     "w": "candid",
+     "en": "frank and honest, even about unwelcome facts",
+     "zh": "坦率的",
+     "de": "offen, freimütig",
+     "pt": "franco, sincero"
+    },
+    {
+     "w": "to recede",
+     "en": "to become smaller, weaker or more distant",
+     "zh": "减退；消退",
+     "de": "zurückgehen, abnehmen",
+     "pt": "recuar, diminuir"
+    },
+    {
+     "w": "wager",
+     "en": "a bet; figuratively, a position taken in hope it will prove right",
+     "zh": "赌注；押注",
+     "de": "Wette; Einsatz",
+     "pt": "aposta"
+    }
+   ],
+   "grammar": "Look at 'the stakes are rising rather than receding' and 'would expand rather than shrink its membership'. 'Rather than' links two parallel forms, verb with verb or noun with noun, to reject an expected alternative. Placing the expected option second ('rising rather than receding') lets the writer correct a reader's assumption in a single clause, a common move in argumentative prose.",
+   "grammar_zh": "请看“the stakes are rising rather than receding”和“would expand rather than shrink its membership”。“rather than”连接两个平行成分（动词对动词、名词对名词），用来否定一个预期中的选项。把读者预期的那个选项放在后面（rising rather than receding），作者便能在一个分句里纠正读者的假设，这是议论文中的常见手法。",
+   "grammar_de": "Achten Sie auf „the stakes are rising rather than receding“ und „would expand rather than shrink its membership“. „Rather than“ verbindet zwei parallele Formen, Verb mit Verb oder Nomen mit Nomen, und weist eine erwartete Alternative zurück. Steht die erwartete Option an zweiter Stelle („rising rather than receding“), kann die Autorin eine Annahme der Leser in einem einzigen Satzteil korrigieren – ein typischer Zug argumentativer Prosa.",
+   "grammar_pt": "Observe 'the stakes are rising rather than receding' e 'would expand rather than shrink its membership'. 'Rather than' liga duas formas paralelas, verbo com verbo ou substantivo com substantivo, para rejeitar uma alternativa esperada. Colocar a opção esperada em segundo lugar ('rising rather than receding') permite corrigir a suposição do leitor numa única oração, um recurso comum na prosa argumentativa.",
+   "questions": [
+    "Why might a guaranteed 'reasonable return' for shareholders conflict with affordability, according to Radhakrishnan's reading of the regulatory process, and how persuasive do you find her maintenance argument?",
+    "The campaign draws support from Trump voters while facing opposition from an electricians' union. What does this suggest about how questions of ownership cut across conventional left–right divisions?",
+    "Is the comparison between an electricity bill and a 'second rent' apt? What other essential services might fit the same description where you live?"
+   ],
+   "sources": [
+    {
+     "title": "The Baffler: Power to the People, by Shivani Radhakrishnan (14 October 2026)",
+     "url": "https://thebaffler.com/latest/power-to-the-people-radhakrishnan",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
+}
