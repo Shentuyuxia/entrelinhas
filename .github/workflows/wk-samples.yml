@@ -1,0 +1,20 @@
+name: wk-samples (dev helper)
+on: workflow_dispatch
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir s && cd s
+          UA="Entrelinhas-dev/1.0 (github.com/Shentuyuxia/entrelinhas)"
+          for w in house run Haus gehen casa saudade falar maison; do
+            curl -sL -A "$UA" "https://en.wiktionary.org/api/rest_v1/page/definition/$w?redirect=true" -o en-$w.json; sleep 1; done
+          for w in Haus gehen Gemütlichkeit schön; do
+            curl -sL -A "$UA" "https://de.wiktionary.org/w/api.php?action=parse&page=$w&prop=text&format=json&formatversion=2&redirects=1" -o de-$w.json; sleep 1; done
+          for w in casa saudade falar bonito; do
+            curl -sL -A "$UA" "https://pt.wiktionary.org/w/api.php?action=parse&page=$w&prop=text&format=json&formatversion=2&redirects=1" -o pt-$w.json; sleep 1; done
+          for w in maison aller beau; do
+            curl -sL -A "$UA" "https://fr.wiktionary.org/w/api.php?action=parse&page=$w&prop=text&format=json&formatversion=2&redirects=1" -o fr-$w.json; sleep 1; done
+          ls -la
+      - uses: actions/upload-artifact@v4
+        with: { name: wk-samples, path: s }
