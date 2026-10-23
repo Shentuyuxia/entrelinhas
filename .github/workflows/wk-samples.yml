@@ -1,0 +1,17 @@
+name: wk-samples (dev helper)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir s && cd s
+          UA="Entrelinhas-dev/1.0 (github.com/Shentuyuxia/entrelinhas; emo dev)"
+          get(){ curl -sL -A "$UA" "https://$1.wiktionary.org/w/api.php?action=parse&page=$2&prop=text&format=json&formatversion=2&redirects=1" -o "$1p-$2.json"; sleep 6; }
+          get en house; get en speak; get zh 房子; get zh 说话; get zh 美丽; get en beautiful
+          ls -la; head -c 200 *
+          git init -q -b wk-samples2 && git add -A
+          git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm samples
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" wk-samples2
