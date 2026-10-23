@@ -61,6 +61,13 @@ body.modal-open{overflow:hidden}
 .dx-res .w{font-family:var(--f-word);font-size:24px;font-weight:600}
 .dx-links{display:flex;flex-wrap:wrap;gap:6px}
 .dx-res .wk{max-height:none}
+#dx-from{max-width:44%;font-size:14px}
+.dx-rv{display:grid;gap:10px;border-left:2px solid var(--acc-soft);padding-left:12px}
+.dx-rvg{display:grid;gap:5px}
+.dx-gl{font-size:12.5px;color:var(--muted)}
+.dx-chips{display:flex;flex-wrap:wrap;gap:6px}
+.dx-chip{font-family:var(--f-word);font-size:16px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:4px 11px;cursor:pointer;color:var(--ink)}
+.dx-chip:hover{border-color:var(--acc);color:var(--acc)}
 .dx-ex{display:block;font-style:italic;color:var(--muted);margin:2px 0 4px;font-size:14px}
 .dx-tr{display:block;font-style:normal;font-size:13px;opacity:.85}
 .dx-en{border-top:1px solid var(--line);padding-top:6px}
@@ -1127,7 +1134,7 @@ body{font-variant-numeric:tabular-nums}
   <section id="tab-dict" class="grid one" hidden>
     <div class="panel dx dict-page">
       <h2 class="dict-h">字典</h2>
-      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
+      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><select id="dx-from" aria-label="从哪种语言查" style="width:auto;flex:none"></select><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
       <div id="dx-out"></div>
     </div>
   </section>
@@ -2251,7 +2258,7 @@ async function checkSent(c,i){
 /* ---------- new word tab ---------- */
 let draft={img:null,auds:{}}, busy=false;
 function renderNewForm(){
-  adLevels();
+  adLevels(); dxFromOpts();
   const l=lang();
   $("#new-title").textContent="录入新词 · "+LANG[l].name;
   $("#n-w").placeholder= l==="pt"?"例如：o guarda-chuva":l==="de"?"例如：der Regenschirm":l==="fr"?"例如：le parapluie":"e.g. umbrella";
@@ -2820,7 +2827,7 @@ const DX_MONO={de:"de",fr:"fr",pt:"pt"};
 function dxMonoOn(l){ return l==="pt"?!!S.settings.dxPt:!!DX_MONO[l]; }
 async function dxLookup(q){
   const l=lang(); q=String(q||"").trim(); if(!q) return;
-  Object.assign(DX,{q,l,wk:null,hl:"",state:"load",lemma:q,form:"",ipa:"",local:false,mono:null,monoState:"",enOpen:false}); dxPaint();
+  Object.assign(DX,{q,l,rv:null,wk:null,hl:"",state:"load",lemma:q,form:"",ipa:"",local:false,mono:null,monoState:"",enOpen:false}); dxPaint();
   const cands=[...new Set([q,q.toLowerCase(),q.charAt(0).toUpperCase()+q.slice(1).toLowerCase()])]; let senses=null, hit="";
   for(const c of cands){ senses=await anyPick(c,l); if(senses){ hit=c; break; } }
   if(DX.q!==q) return;
@@ -2846,6 +2853,7 @@ function dxSenses(senses,l,max){ const seen=new Set();
 }
 function dxPaint(){
   const o=$("#dx-out"); if(!o) return; if(!DX.q||DX.l!==lang()){ o.innerHTML=""; return; }
+  if(DX.state==="rv"&&DX.rv){ dxRvPaint(o); return; }
   const enc=encodeURIComponent(DX.lemma.toLowerCase()), l=DX.l, mono=dxMonoOn(l), monoName={de:"Deutsch",fr:"Français",pt:"Português"}[l];
   const enBlock=DX.state==="load"?`<p class="small muted">${esc(trOne("正在查 Wiktionary…")||"正在查 Wiktionary…")}</p>`
     :DX.state==="none"?`<p class="small muted">${esc(trOne("Wiktionary 没有收这个词")||"Wiktionary 没有收这个词")}</p>`
@@ -2865,6 +2873,74 @@ function dxPaint(){
     <label class="small muted" for="dx-note">笔记</label><textarea id="dx-note" rows="2" placeholder="我的笔记"></textarea>
     <div class="row"><button class="btn primary" id="dx-add" type="button">收进闪卡</button><span class="small muted" id="dx-msg"></span></div></div>`;
   const d=$("#dx-en"); if(d) d.addEventListener("toggle",()=>{ DX.enOpen=d.open; });
+}
+/* ---------- reverse look-up: my language → the language I learn (Wiktionary translation tables, MyMemory as a fallback) ---------- */
+const RV_NAMES={ // how each Wiktionary edition writes the target language at the start of a translation line
+  pt:{en:["Portuguese"],de:["Portugiesisch"],zh:["葡萄牙语","葡萄牙語"],fr:["Portugais"]},
+  de:{en:["German"],zh:["德语","德語"],fr:["Allemand"],pt:["Alemão"]},
+  en:{de:["Englisch"],zh:["英语","英語"],fr:["Anglais"],pt:["Inglês"]},
+  fr:{en:["French"],de:["Französisch"],zh:["法语","法語"],pt:["Francês"]}};
+const RV_SRC={zh:"中文",en:"English",de:"Deutsch",fr:"Français",pt:"Português"};
+function dxFromOpts(){ const el=$("#dx-from"); if(!el) return; const l=lang(), keep=el.value||(()=>{ try{ return localStorage.getItem("pw-dxfrom")||""; }catch(e){ return ""; } })();
+  const src=["zh","en","de"].filter(x=>x!==l);
+  el.innerHTML=`<option value="">${esc(LANG[l].name||l)}</option>`+src.map(x=>`<option value="${x}">${esc(RV_SRC[x])} → ${esc(LANG[l].name||l)}</option>`).join("");
+  el.value=src.includes(keep)?keep:""; }
+function rvParse(html,src,tgt){
+  const doc=new DOMParser().parseFromString(html,"text/html"), names=(RV_NAMES[tgt]||{})[src]||[], groups=[], byKey=new Map(), seen=new Set();
+  doc.querySelectorAll(`[lang="${tgt}"],[lang^="${tgt}-"]`).forEach(el=>{
+    if(el.classList.contains("tr")||el.closest(".tr")) return;
+    const li=el.closest("li"); if(!li) return;
+    const head=li.cloneNode(true); head.querySelectorAll("ul,dl").forEach(x=>x.remove());
+    if(!names.some(n=>head.textContent.trim().startsWith(n))) return;
+    const w=el.textContent.replace(/\s+/g," ").trim(); if(!w||w.length>40) return;
+    const tb=el.closest("table.translations,[data-gloss]"), nav=el.closest(".NavFrame");
+    const gloss=(tb&&tb.getAttribute("data-gloss"))||(nav&&nav.querySelector(".NavHead")?.textContent.trim())||"";
+    if(!byKey.has(gloss)){ const g={gloss,words:[]}; byKey.set(gloss,g); groups.push(g); }
+    const g=byKey.get(gloss); if(!g.words.includes(w)&&g.words.length<6) g.words.push(w); seen.add(w); });
+  const sub=[...doc.querySelectorAll('a[href*="/translations"]')].map(a=>decodeURIComponent((a.getAttribute("href")||"").replace(/^\/wiki\//,"").replace(/#.*/,""))).find(h=>/\/translations$/.test(h));
+  return {groups:groups.filter(g=>g.words.length),sub};
+}
+async function rvWiki(word,src,tgt){
+  const r=await monoFetch(word,src); if(!r) return [];
+  let {groups,sub}=rvParse(r.html,src,tgt);
+  if(sub){ const r2=await monoFetch(sub,src); if(r2){ const g2=rvParse(r2.html,src,tgt).groups; groups=[...g2,...groups]; } }
+  const m=new Map(), out=[];
+  groups.forEach(g=>{ const gl=g.gloss.replace(/^\[[\d, a-z–-]+\]\s*/,""), k=g.words.join("|"); if(m.has(k)){ const o=m.get(k); if(gl&&o.gl.length<2) o.gl.push(gl); } else { const o={gl:gl?[gl]:[],words:g.words}; m.set(k,o); out.push(o); } });
+  return out.slice(0,6).map(o=>({gloss:o.gl.join(" · "),words:o.words}));
+}
+function mtMatches(w,src,tgt){ // MyMemory, several candidates
+  const ac=new AbortController(), tm=setTimeout(()=>ac.abort(),8000);
+  return fetch("https://api.mymemory.translated.net/get?q="+encodeURIComponent(w)+"&langpair="+MT_CODE[src]+"|"+MT_CODE[tgt],{signal:ac.signal}).then(r=>r.ok?r.json():null).then(j=>{
+    if(!j) return []; const out=[]; const add=t=>{ t=String(t||"").replace(/\s+/g," ").trim().replace(/[.!?。]+$/,""); if(t&&t.split(" ").length<=4&&t.toLowerCase()!==w.toLowerCase()&&!/MYMEMORY|QUERY LENGTH/i.test(t)&&!out.some(x=>x.toLowerCase()===t.toLowerCase())) out.push(t); };
+    add(j.responseData&&j.responseData.translatedText); (j.matches||[]).sort((a,b)=>(+b.quality||0)-(+a.quality||0)).forEach(m=>add(m.translation)); return out.slice(0,6); }).catch(()=>[]).finally(()=>clearTimeout(tm));
+}
+function rvPivots(q){ // Chinese word → English head words, from English Wiktionary
+  return wkFetch(q).then(j=>{ const es=j&&(j.zh||j.cmn); if(!es) return []; const out=[];
+    es.forEach(e=>(e.definitions||[]).forEach(d=>wkText(d.definition).split(/[;,]/).forEach(t=>{ t=t.replace(/\(.*?\)/g,"").replace(/^\s*(to|a|an|the)\s+/i,"").trim(); if(t&&t.split(" ").length<=2&&!/[㐀-鿿]/.test(t)&&!out.includes(t)) out.push(t); })));
+    return out.slice(0,3); }).catch(()=>[]);
+}
+async function dxReverse(q,src){
+  const l=lang(); Object.assign(DX,{q,l,rv:{src,state:"load",wiki:[],mt:[],via:[]},state:"rv"}); dxPaint();
+  const mt=mtMatches(q,src,l).then(x=>{ if(DX.q===q&&DX.rv){ DX.rv.mt=x; dxPaint(); } });
+  let wiki=[];
+  const cands=[...new Set([q,q.toLowerCase(),src==="de"?q.charAt(0).toUpperCase()+q.slice(1):q])];
+  for(const c of cands){ try{ wiki=await rvWiki(c,src,l); }catch(e){ wiki=[]; } if(DX.q!==q) return; if(wiki.length) break; }
+  if(!wiki.length&&src==="zh"){ // no translation table in the Chinese Wiktionary: go through English
+    const piv=await rvPivots(q); if(DX.q!==q) return;
+    if(l==="en"&&piv.length) wiki=[{gloss:"",words:piv}];
+    else for(const pw of piv){ const g=await rvWiki(pw,"en",l).catch(()=>[]); if(DX.q!==q) return; if(g.length){ DX.rv.via.push(pw); wiki.push(...g.slice(0,1).map(x=>({gloss:pw+(x.gloss?" — "+x.gloss:""),words:x.words}))); } }
+  }
+  await mt; if(DX.q!==q) return;
+  DX.rv.wiki=wiki; DX.rv.state="ok"; dxPaint();
+}
+function dxRvPaint(o){
+  const r=DX.rv, l=DX.l, chip=w=>`<button type="button" class="dx-chip" data-dxgo="${esc(w)}" lang="${l}">${esc(w)}</button>`;
+  o.innerHTML=`<div class="dx-res"><div class="row"><span class="w" lang="${r.src}">${esc(DX.q)}</span><span class="small muted">${esc(RV_SRC[r.src])} → ${esc(LANG[l].name||l)}</span></div>
+    ${r.wiki.length?`<div class="dx-rv">${r.wiki.map(g=>`<div class="dx-rvg">${g.gloss?`<div class="dx-gl" lang="${r.via.length?"en":r.src}">${esc(g.gloss)}</div>`:""}<div class="dx-chips">${g.words.map(chip).join("")}</div></div>`).join("")}<a class="wk-src" href="https://${r.via.length?"en":r.src}.wiktionary.org/wiki/${encodeURIComponent((r.via[0]||DX.q).replace(/ /g,"_"))}" target="_blank" rel="noopener">Wiktionary ↗</a></div>`:""}
+    ${r.state==="load"?`<p class="small muted">${esc(trOne("正在查 Wiktionary…")||"正在查 Wiktionary…")}</p>`:""}
+    ${r.mt.length?`<div class="dx-rvg"><div class="dx-gl">${esc(trOne("机器翻译")||"机器翻译")} · MyMemory</div><div class="dx-chips">${r.mt.map(chip).join("")}</div></div>`:""}
+    ${r.state==="ok"&&!r.wiki.length&&!r.mt.length?`<p class="small muted">${esc(trOne("没有找到对应的词。")||"没有找到对应的词。")}</p>`:""}
+    <p class="small muted" style="margin:0">${esc(trOne("点一个词，看它的释义和例句。")||"点一个词，看它的释义和例句。")}</p></div>`;
 }
 /* ---------- monolingual Wiktionary (de / fr / pt editions): meanings in the language itself, with example sentences ---------- */
 const MONO=new Map();
@@ -2916,8 +2992,12 @@ function monoOl(html,l){ // pt / fr editions: language heading, part-of-speech h
   }
   return out.slice(0,3);
 }
-$("#dx-form").addEventListener("submit",e=>{ e.preventDefault(); dxLookup($("#dx-q").value); });
+$("#dx-form").addEventListener("submit",e=>{ e.preventDefault(); const q=$("#dx-q").value.trim(); if(!q) return; const sel=$("#dx-from");
+  if(/[\u3400-\u9fff]/.test(q)&&!sel.value){ sel.value="zh"; try{ localStorage.setItem("pw-dxfrom","zh"); }catch(e){} }
+  if(sel.value) dxReverse(q,sel.value); else dxLookup(q); });
+$("#dx-from").addEventListener("change",()=>{ const q=$("#dx-q").value.trim(); try{ localStorage.setItem("pw-dxfrom",$("#dx-from").value); }catch(e){} if(q) $("#dx-form").requestSubmit(); });
 $("#dx-out").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.dxgo){ const w=b.dataset.dxgo; $("#dx-from").value=""; $("#dx-q").value=w; dxLookup(w); $("#dx-q").scrollIntoView({block:"nearest"}); return; }
   if(b.dataset.dxpt!=null){ S.settings.dxPt=b.dataset.dxpt==="1"; save(); if(S.settings.dxPt&&!DX.mono&&DX.monoState!=="load") dxMono(DX.q); else dxPaint(); return; }
   if(b.id==="dx-say") speak(DX.lemma);
   else if(b.id==="dx-self"){ const w=DX.q; showTab("browse"); const d=$("#ad-box"); if(d){ d.open=true; $("#ad-w").value=w; setTimeout(()=>{ d.scrollIntoView({behavior:"smooth",block:"start"}); $("#ad-m").focus({preventScroll:true}); },60); } }
@@ -4243,6 +4323,9 @@ const UI_DICT=[
 ["译文", "Translation", "Übersetzung", "Tradução", "譯文"],
 ["导出功能没有载入，请刷新页面再试。", "Export didn't load. Please reload the page.", "Export wurde nicht geladen. Bitte Seite neu laden.", "A exportação não carregou. Recarregue a página.", "匯出功能沒有載入，請重新整理頁面。"],
 ["没有可以导出的文章。", "Nothing to export.", "Nichts zu exportieren.", "Nada para exportar.", "沒有可以匯出的文章。"],
+["机器翻译", "Machine translation", "Maschinelle Übersetzung", "Tradução automática", "機器翻譯"],
+["没有找到对应的词。", "No matching word found.", "Kein passendes Wort gefunden.", "Nenhuma palavra encontrada.", "沒有找到對應的詞。"],
+["点一个词，看它的释义和例句。", "Tap a word to see its meanings and examples.", "Tippe auf ein Wort für Bedeutungen und Beispiele.", "Toque numa palavra para ver significados e exemplos.", "點一個詞，看它的釋義和例句。"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
