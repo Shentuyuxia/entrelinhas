@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T04:21:13+00:00",
+ "updated": "2026-10-24T05:01:43+00:00",
  "days": [
   {
    "date": "2026-10-24",
@@ -10,6 +10,22 @@
      "title": "Can a forest fail?",
      "kind": "essay",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Unter dem Waldboden wird gehandelt",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "de",
+     "title": "Wer stellt heute Nacht die Uhren zurück?",
+     "kind": "brief",
+     "level": "B2",
      "hour": null
     }
    ]
