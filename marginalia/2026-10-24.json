@@ -901,6 +901,295 @@
      "license": "official"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Tito e Ana",
+   "series": {
+    "name": "Tito e Ana",
+    "episode": 9
+   },
+   "title": "A cama nova",
+   "dek": "Chega uma cama azul para o Tito. Mas quem gosta dela é outro.",
+   "paragraphs": [
+    "Hoje é segunda-feira. De manhã, alguém toca a campainha da casa amarela. É o carteiro, com uma caixa grande.",
+    "— É para você, Ana — diz o carteiro. A Ana abre a caixa na sala. Dentro tem uma cama nova para o Tito. É azul, macia e muito bonita.",
+    "— Olha, Tito! Uma cama só para você! — diz a Ana. Ela coloca a cama perto da janela, no sol.",
+    "O Tito olha a cama. Ele cheira a cama. Depois, ele vira as costas... e entra na caixa vazia!",
+    "A Ana ri. — Tito, a cama é para você, não a caixa! Mas o Tito fica na caixa. Ele gosta muito de caixas.",
+    "À tarde, a Dona Rosa e o Bolinha visitam a Ana. A Dona Rosa traz pão da padaria do Seu João. O Bolinha vê a cama azul e deita nela.",
+    "— Ai, ai, Bolinha! — diz a Dona Rosa. — A cama é pequena para você! As patas do Bolinha ficam fora da cama. Todo mundo ri.",
+    "A Ana faz café, e as duas conversam na sala. O Tito dorme na caixa, e o Bolinha dorme na cama.",
+    "À noite, a Dona Rosa vai embora. Mas o Bolinha não quer sair da cama. — Pode levar a cama, Dona Rosa — diz a Ana. — O Tito prefere a caixa!",
+    "Agora o Bolinha tem uma cama azul, e o Tito tem uma caixa velha. Os dois estão muito felizes."
+   ],
+   "paragraphs_en": [
+    "Today is Monday. In the morning, someone rings the doorbell of the yellow house. It's the mail carrier, with a big box.",
+    "\"It's for you, Ana,\" says the mail carrier. Ana opens the box in the living room. Inside there is a new bed for Tito. It's blue, soft and very pretty.",
+    "\"Look, Tito! A bed just for you!\" says Ana. She puts the bed near the window, in the sun.",
+    "Tito looks at the bed. He sniffs the bed. Then he turns his back... and gets into the empty box!",
+    "Ana laughs. \"Tito, the bed is for you, not the box!\" But Tito stays in the box. He really likes boxes.",
+    "In the afternoon, Dona Rosa and Bolinha visit Ana. Dona Rosa brings bread from Seu João's bakery. Bolinha sees the blue bed and lies down on it.",
+    "\"Oh dear, Bolinha!\" says Dona Rosa. \"The bed is too small for you!\" Bolinha's paws stick out of the bed. Everybody laughs.",
+    "Ana makes coffee, and the two women chat in the living room. Tito sleeps in the box, and Bolinha sleeps in the bed.",
+    "In the evening, Dona Rosa goes home. But Bolinha doesn't want to get out of the bed. \"You can take the bed, Dona Rosa,\" says Ana. \"Tito prefers the box!\"",
+    "Now Bolinha has a blue bed, and Tito has an old box. They are both very happy."
+   ],
+   "paragraphs_zh": [
+    "今天是星期一。早上，有人按响了黄房子的门铃。是邮递员，他拿着一个大箱子。",
+    "“这是给你的，安娜。”邮递员说。安娜在客厅里打开箱子。里面是给蒂托的一张新床。它是蓝色的，软软的，非常漂亮。",
+    "“看，蒂托！一张只属于你的床！”安娜说。她把床放在窗边，晒得到太阳的地方。",
+    "蒂托看了看床。他闻了闻床。然后，他转过身……钻进了空箱子里！",
+    "安娜笑了。“蒂托，床是给你的，不是箱子！”可是蒂托就待在箱子里。他特别喜欢箱子。",
+    "下午，罗莎太太和波利尼亚来看安娜。罗莎太太带来了若昂先生面包店的面包。波利尼亚看见蓝色的床，就躺了上去。",
+    "“哎呀，波利尼亚！”罗莎太太说，“这张床对你来说太小了！”波利尼亚的爪子都露在床外面。大家都笑了。",
+    "安娜煮了咖啡，两个人在客厅里聊天。蒂托在箱子里睡觉，波利尼亚在床上睡觉。",
+    "晚上，罗莎太太要回家了。可是波利尼亚不肯从床上下来。“您把床带走吧，罗莎太太，”安娜说，“蒂托更喜欢箱子！”",
+    "现在，波利尼亚有了一张蓝色的床，蒂托有了一个旧箱子。他们俩都非常开心。"
+   ],
+   "paragraphs_de": [
+    "Heute ist Montag. Am Morgen klingelt jemand am gelben Haus. Es ist der Briefträger, mit einem großen Karton.",
+    "„Das ist für dich, Ana“, sagt der Briefträger. Ana öffnet den Karton im Wohnzimmer. Darin ist ein neues Bett für Tito. Es ist blau, weich und sehr schön.",
+    "„Schau mal, Tito! Ein Bett nur für dich!“, sagt Ana. Sie stellt das Bett ans Fenster, in die Sonne.",
+    "Tito schaut das Bett an. Er schnuppert am Bett. Dann dreht er sich um … und steigt in den leeren Karton!",
+    "Ana lacht. „Tito, das Bett ist für dich, nicht der Karton!“ Aber Tito bleibt im Karton. Er mag Kartons sehr.",
+    "Am Nachmittag besuchen Dona Rosa und Bolinha Ana. Dona Rosa bringt Brot aus der Bäckerei von Seu João mit. Bolinha sieht das blaue Bett und legt sich hinein.",
+    "„Ach je, Bolinha!“, sagt Dona Rosa. „Das Bett ist zu klein für dich!“ Bolinhas Pfoten hängen aus dem Bett. Alle lachen.",
+    "Ana kocht Kaffee, und die beiden plaudern im Wohnzimmer. Tito schläft im Karton, und Bolinha schläft im Bett.",
+    "Am Abend geht Dona Rosa nach Hause. Aber Bolinha will nicht aus dem Bett. „Nehmen Sie das Bett ruhig mit, Dona Rosa“, sagt Ana. „Tito mag lieber den Karton!“",
+    "Jetzt hat Bolinha ein blaues Bett, und Tito hat einen alten Karton. Beide sind sehr glücklich."
+   ],
+   "glossary": [
+    {
+     "w": "a campainha",
+     "en": "doorbell; tocar a campainha = to ring the doorbell",
+     "zh": "门铃",
+     "de": "die Türklingel",
+     "pt": "um botão na porta; faz barulho quando alguém chega"
+    },
+    {
+     "w": "o carteiro",
+     "en": "mail carrier, postman (carta = letter)",
+     "zh": "邮递员",
+     "de": "der Briefträger",
+     "pt": "a pessoa que traz cartas e caixas para a sua casa"
+    },
+    {
+     "w": "a caixa",
+     "en": "box; also 'cash register' (o caixa)",
+     "zh": "箱子、盒子",
+     "de": "die Kiste, der Karton",
+     "pt": "uma coisa para guardar ou mandar coisas"
+    },
+    {
+     "w": "macio / macia",
+     "en": "soft",
+     "zh": "柔软的",
+     "de": "weich",
+     "pt": "bom para tocar, não é duro"
+    },
+    {
+     "w": "cheirar",
+     "en": "to smell, to sniff (o cheiro = smell)",
+     "zh": "闻",
+     "de": "riechen, schnuppern",
+     "pt": "usar o nariz para sentir uma coisa"
+    },
+    {
+     "w": "vazio / vazia",
+     "en": "empty (cf. 'vacant')",
+     "zh": "空的",
+     "de": "leer",
+     "pt": "sem nada dentro"
+    },
+    {
+     "w": "a pata",
+     "en": "paw (of an animal)",
+     "zh": "爪子、脚",
+     "de": "die Pfote",
+     "pt": "o pé de um animal, como o cachorro ou o gato"
+    },
+    {
+     "w": "ir embora",
+     "en": "to leave, to go away (home)",
+     "zh": "离开、回家",
+     "de": "weggehen, gehen",
+     "pt": "sair de um lugar e voltar para casa"
+    },
+    {
+     "w": "preferir",
+     "en": "to prefer (cognate); eu prefiro, ele prefere",
+     "zh": "更喜欢",
+     "de": "lieber mögen, bevorzugen",
+     "pt": "gostar mais de uma coisa do que de outra"
+    }
+   ],
+   "grammar": "Gostar always takes the little word de: Ele gosta de caixas (He likes boxes). De joins with o/a: gostar do café, gostar da cama. To say 'really likes', put muito after the verb: Ele gosta muito de caixas.",
+   "grammar_zh": "gostar（喜欢）后面总要加 de：Ele gosta de caixas（他喜欢箱子）。de 遇到 o/a 会合并：gostar do café、gostar da cama。想说“非常喜欢”，把 muito 放在动词后面：Ele gosta muito de caixas。",
+   "grammar_de": "Gostar (mögen) steht immer mit de: Ele gosta de caixas (Er mag Kartons). De verschmilzt mit o/a: gostar do café, gostar da cama. Für „sehr mögen“ kommt muito nach dem Verb: Ele gosta muito de caixas.",
+   "grammar_pt": "Depois do verbo gostar, a gente sempre usa de: Ele gosta de caixas. De + o = do, de + a = da: gostar do café, gostar da cama. Para falar mais forte, use muito: Ele gosta muito de caixas.",
+   "questions": [
+    "Quem toca a campainha de manhã?",
+    "Onde o Tito dorme?",
+    "Por que a cama é pequena para o Bolinha?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Pedindo informação na rua",
+   "dek": "O Lucas procura a estação de metrô e pede ajuda para uma moça na calçada.",
+   "paragraphs": [
+    "Lucas: Com licença, moça. Você pode me ajudar?",
+    "Moça: Posso, sim. O que você precisa?",
+    "Lucas: Onde fica a estação de metrô mais perto?",
+    "Moça: Fica pertinho. Você segue reto nesta rua até o semáforo.",
+    "Lucas: Até o semáforo. E depois?",
+    "Moça: Depois você vira à direita. A estação fica do lado do banco.",
+    "Lucas: É longe? Dá para ir a pé?",
+    "Moça: Dá, sim. São uns cinco minutos a pé.",
+    "Lucas: Ótimo. E tem um caixa eletrônico por aqui?",
+    "Moça: Tem um dentro da estação, logo na entrada.",
+    "Lucas: Perfeito. Muito obrigado!",
+    "Moça: De nada. Ah, na esquina tem obra, tá? Atravessa na faixa.",
+    "Lucas: Pode deixar. Obrigado de novo!",
+    "Moça: Imagina! Bom passeio!"
+   ],
+   "paragraphs_en": [
+    "Lucas: Excuse me, miss. Can you help me?",
+    "Woman: Sure, I can. What do you need?",
+    "Lucas: Where is the nearest metro station?",
+    "Woman: It's really close. You go straight down this street to the traffic light.",
+    "Lucas: To the traffic light. And then?",
+    "Woman: Then you turn right. The station is next to the bank.",
+    "Lucas: Is it far? Can I walk there?",
+    "Woman: Yes, you can. It's about five minutes on foot.",
+    "Lucas: Great. And is there an ATM around here?",
+    "Woman: There's one inside the station, right at the entrance.",
+    "Lucas: Perfect. Thank you very much!",
+    "Woman: You're welcome. Oh, there's construction on the corner, OK? Cross at the crosswalk.",
+    "Lucas: Will do. Thanks again!",
+    "Woman: Don't mention it! Enjoy your outing!"
+   ],
+   "paragraphs_zh": [
+    "卢卡斯：打扰一下，小姐。你能帮我一下吗？",
+    "女孩：可以呀。你需要什么？",
+    "卢卡斯：最近的地铁站在哪儿？",
+    "女孩：很近。你沿着这条街一直往前走，走到红绿灯。",
+    "卢卡斯：走到红绿灯。然后呢？",
+    "女孩：然后往右拐。车站就在银行旁边。",
+    "卢卡斯：远吗？能走过去吗？",
+    "女孩：能。走路大概五分钟。",
+    "卢卡斯：太好了。这附近有取款机吗？",
+    "女孩：车站里有一台，一进门就是。",
+    "卢卡斯：太好了。非常感谢！",
+    "女孩：不客气。哦，街角在施工，注意哦？走斑马线过马路。",
+    "卢卡斯：好的，没问题。再次感谢！",
+    "女孩：不用谢！玩得开心！"
+   ],
+   "paragraphs_de": [
+    "Lucas: Entschuldigung. Kannst du mir helfen?",
+    "Frau: Ja, klar. Was brauchst du?",
+    "Lucas: Wo ist die nächste U-Bahn-Station?",
+    "Frau: Ganz in der Nähe. Du gehst diese Straße geradeaus bis zur Ampel.",
+    "Lucas: Bis zur Ampel. Und dann?",
+    "Frau: Dann biegst du rechts ab. Die Station ist neben der Bank.",
+    "Lucas: Ist es weit? Kann man zu Fuß gehen?",
+    "Frau: Ja, klar. Das sind ungefähr fünf Minuten zu Fuß.",
+    "Lucas: Super. Und gibt es hier in der Nähe einen Geldautomaten?",
+    "Frau: In der Station gibt es einen, gleich am Eingang.",
+    "Lucas: Perfekt. Vielen Dank!",
+    "Frau: Gern geschehen. Ach, an der Ecke ist eine Baustelle, okay? Geh über den Zebrastreifen.",
+    "Lucas: Mach ich. Nochmals danke!",
+    "Frau: Keine Ursache! Viel Spaß noch!"
+   ],
+   "glossary": [
+    {
+     "w": "Com licença",
+     "en": "Excuse me (to get someone's attention or pass by)",
+     "zh": "打扰一下；借过",
+     "de": "Entschuldigung, darf ich?",
+     "pt": "o que a gente diz antes de pedir uma coisa a uma pessoa"
+    },
+    {
+     "w": "ficar",
+     "en": "to be (located); Onde fica...? = Where is...?",
+     "zh": "位于、在",
+     "de": "sich befinden, liegen",
+     "pt": "estar num lugar; para lugares que não mudam"
+    },
+    {
+     "w": "seguir reto",
+     "en": "to go straight ahead",
+     "zh": "一直往前走",
+     "de": "geradeaus gehen",
+     "pt": "andar sempre para a frente, sem virar"
+    },
+    {
+     "w": "o semáforo",
+     "en": "traffic light (cognate of 'semaphore')",
+     "zh": "红绿灯",
+     "de": "die Ampel",
+     "pt": "a luz na rua: verde, amarelo e vermelho"
+    },
+    {
+     "w": "virar à direita / à esquerda",
+     "en": "to turn right / left",
+     "zh": "往右拐／往左拐",
+     "de": "rechts / links abbiegen",
+     "pt": "mudar de direção na rua"
+    },
+    {
+     "w": "a pé",
+     "en": "on foot",
+     "zh": "步行",
+     "de": "zu Fuß",
+     "pt": "andando, sem carro e sem ônibus"
+    },
+    {
+     "w": "Dá para...",
+     "en": "it's possible to..., you can... (very common)",
+     "zh": "可以……、能……",
+     "de": "man kann..., es geht",
+     "pt": "quer dizer: é possível"
+    },
+    {
+     "w": "o caixa eletrônico",
+     "en": "ATM, cash machine",
+     "zh": "取款机",
+     "de": "der Geldautomat",
+     "pt": "uma máquina para tirar dinheiro do banco"
+    },
+    {
+     "w": "a faixa (de pedestres)",
+     "en": "crosswalk, zebra crossing",
+     "zh": "斑马线",
+     "de": "der Zebrastreifen",
+     "pt": "as listras brancas na rua para atravessar"
+    },
+    {
+     "w": "Imagina!",
+     "en": "Don't mention it! (friendly reply to 'thank you')",
+     "zh": "不客气！哪里哪里！",
+     "de": "Keine Ursache!",
+     "pt": "resposta simpática para obrigado; quer dizer: de nada"
+    }
+   ],
+   "grammar": "To ask where a place is, Brazilians usually say Onde fica...? (Where is...?): Onde fica a estação? The answer uses ficar too: Fica do lado do banco. Use ficar for places that don't move; for people and things that move, use estar: Onde está o Tito?",
+   "grammar_zh": "问某个地方在哪儿，巴西人常说 Onde fica...?（……在哪儿？）：Onde fica a estação?（车站在哪儿？）回答也用 ficar：Fica do lado do banco（在银行旁边）。ficar 用于不会移动的地点；会移动的人和东西用 estar：Onde está o Tito?",
+   "grammar_de": "Um nach einem Ort zu fragen, sagt man in Brasilien meist Onde fica...? (Wo ist ...?): Onde fica a estação? Auch die Antwort benutzt ficar: Fica do lado do banco (Sie ist neben der Bank). Ficar steht für Orte, die sich nicht bewegen; für Menschen und Dinge, die sich bewegen, nimmt man estar: Onde está o Tito?",
+   "grammar_pt": "Para perguntar onde é um lugar, a gente diz Onde fica...?: Onde fica a estação? A resposta também usa ficar: Fica do lado do banco. Use ficar para lugares que não mudam; para pessoas e coisas que mudam de lugar, use estar: Onde está o Tito?",
+   "questions": [
+    "O que o Lucas procura?",
+    "Onde fica a estação?",
+    "Quantos minutos são a pé?"
+   ],
+   "sources": []
   }
  ]
 }
