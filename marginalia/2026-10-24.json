@@ -382,6 +382,192 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lesetipps",
+   "title": "Lesetipps für heute",
+   "dek": "Zehn Jahre Fotos vom Großwerden, Synthesizer zwischen Köln und Kollywood, ein Kneipenroman, DEFA-Filme in Glasgow und ein Dichter aus dem Ost-Berliner Untergrund.",
+   "paragraphs": [],
+   "glossary": [],
+   "questions": [],
+   "sources": [],
+   "picks": [
+    {
+     "outlet": "taz",
+     "genre": "Fotostrecke · Fotografie",
+     "title": "Warst du nicht gerade noch klein und niedlich?",
+     "author": "Philipp Brandstädter",
+     "url": "https://taz.de/Fotoarbeit-ueber-das-Erwachsenwerden/!6220263/",
+     "minutes": 5,
+     "en": "For more than ten years photographer Karoline Bofinger has made a new portrait of her son and his friends every year – a gentle, funny look at what growing up does to faces and friendships.",
+     "zh": "摄影师卡罗琳·博芬格十多年来每年给儿子和他的朋友们拍一张合影——温柔又好笑地记录长大这件事。",
+     "de": "Karoline Bofinger fotografiert ihren Sohn und seine Freunde seit über zehn Jahren jedes Jahr neu – eine Bildserie übers Großwerden.",
+     "pt": "Há mais de dez anos a fotógrafa Karoline Bofinger retrata o filho e os amigos dele todo ano – uma série sobre crescer."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Kritik · Musik",
+     "title": "Eine Mantramaschine zwischen Köln und Kollywood",
+     "author": "Lars Fleischmann",
+     "url": "https://taz.de/Alben-von-Keshavara-und-Charanjit-Singh/!6216657/",
+     "minutes": 4,
+     "en": "A review of new music by Cologne's Keshavara alongside a release by the Indian synth pioneer Charanjit Singh – fusion records where vintage and modern synthesizers meet Indian sounds.",
+     "zh": "乐评：科隆音乐人 Keshavara 与印度合成器先驱 Charanjit Singh 的唱片，新旧合成器碰上印度音色。",
+     "de": "Besprechung zweier Alben von Keshavara und Charanjit Singh – Fusion zwischen indischen Klängen und Synthesizern von gestern und heute.",
+     "pt": "Resenha de discos de Keshavara e Charanjit Singh – fusão de sons indianos com sintetizadores antigos e novos."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Kritik · Buch",
+     "title": "Dieser Sommer, der sich nicht beeilt",
+     "author": "Sophia Zessnik",
+     "url": "https://taz.de/Lena-Mueller-Club-der-Verschwenderinnen/!6215884/",
+     "minutes": 4,
+     "en": "A review of Lena Müller's novel 'Club der Verschwenderinnen', in which a neighbourhood pub becomes the meeting point of a small community over one slow summer.",
+     "zh": "书评：莉娜·穆勒的小说《挥霍者俱乐部》，一家小酒馆在一个慢悠悠的夏天里成了一群人的聚点。",
+     "de": "Besprechung von Lena Müllers Roman „Club der Verschwenderinnen“: Eine Kneipe wird zum Treffpunkt einer Gemeinschaft.",
+     "pt": "Resenha do romance “Club der Verschwenderinnen”, de Lena Müller: um bar vira ponto de encontro de uma comunidade."
+    },
+    {
+     "outlet": "Freitag",
+     "genre": "Essay · Film",
+     "title": "„Coming Out“ in Glasgow: Was fasziniert Studierende im Ausland heute so an DDR-Filmen?",
+     "author": "Stephan Ehrig",
+     "url": "https://www.freitag.de/autoren/der-freitag/coming-out-in-glasgow-was-ist-heute-im-ausland-so-faszinierend-an-ddr-filmen",
+     "minutes": 6,
+     "en": "A lecturer in Glasgow describes why East German DEFA films such as 'Coming Out' win over today's students abroad – their openness and social curiosity still feel fresh.",
+     "zh": "格拉斯哥的一位讲师讲述：为什么《出柜》等东德 DEFA 电影至今能打动外国学生。",
+     "de": "Ein Dozent in Glasgow erzählt, warum DEFA-Filme wie „Coming Out“ dort heute Studierende begeistern.",
+     "pt": "Um professor em Glasgow conta por que filmes da DEFA, como “Coming Out”, encantam estudantes estrangeiros hoje."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Porträt · Literatur",
+     "title": "Kam einer an, fand im Glück eine Lücke",
+     "author": "Konstantin Ames",
+     "url": "https://taz.de/Dichter-Eberhard-Haefner-im-Portraet/!6220658/",
+     "minutes": 6,
+     "en": "A portrait of the poet Eberhard Häfner, once part of East Berlin's underground literary scene – a way into a playful, overlooked voice of German poetry.",
+     "zh": "诗人埃伯哈德·黑夫纳的人物特写，他曾是东柏林地下文学圈的一员。",
+     "de": "Porträt des Dichters Eberhard Häfner, der einst zur Ost-Berliner Undergroundszene gehörte.",
+     "pt": "Perfil do poeta Eberhard Häfner, que fez parte da cena literária underground de Berlim Oriental."
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "picks",
+   "section": "Reading list",
+   "title": "Today's reading list",
+   "dek": "Dave Holland at 80, the architect behind a landmark Black museum, a Harlem Renaissance reunion on film, an Italian family between countries, Arundhati Roy on AI, and the burrito as resistance.",
+   "paragraphs": [],
+   "glossary": [],
+   "questions": [],
+   "note": "The Equator and Orion picks come via Longreads; descriptions follow Longreads' summaries.",
+   "sources": [
+    {
+     "title": "Longreads",
+     "url": "https://longreads.com/",
+     "license": "link only"
+    }
+   ],
+   "picks": [
+    {
+     "outlet": "Bandcamp Daily",
+     "genre": "Interview · Jazz",
+     "title": "Still Modern: Dave Holland at 80",
+     "url": "https://daily.bandcamp.com/features/dave-holland-interview",
+     "minutes": 8,
+     "en": "The English bassist Dave Holland turns 80, and Bandcamp Daily marks it with an interview – a chance to hear one of jazz's great sidemen and bandleaders reflect on a long career.",
+     "zh": "英国贝斯手戴夫·霍兰德八十岁，Bandcamp Daily 的生日专访，听这位爵士大师回顾漫长的音乐生涯。",
+     "de": "Zum 80. Geburtstag des Jazzbassisten Dave Holland: ein Interview über ein langes Musikerleben.",
+     "pt": "Entrevista com o baixista de jazz Dave Holland, que faz 80 anos, sobre sua longa carreira."
+    },
+    {
+     "outlet": "Hyperallergic",
+     "genre": "Opinion · Architecture",
+     "title": "The Overlooked Black Architect Who Shaped a Landmark Smithsonian Museum",
+     "author": "Brian Goldstein",
+     "url": "https://hyperallergic.com/the-overlooked-black-architect-who-shaped-a-landmark-smithsonian-museum/",
+     "minutes": 7,
+     "en": "As the National Museum of African American History and Culture turns ten, Max Bond's biographer argues that the co-designer who pushed for it deserves far more credit – and that architecture's lone-genius myth hides collaborative work.",
+     "zh": "非裔美国人历史文化博物馆十周年之际，传记作者为被忽视的联合设计者马克斯·邦德正名，并反思建筑界的「孤胆天才」神话。",
+     "de": "Zum zehnten Jubiläum des Smithsonian-Museums für afroamerikanische Geschichte: Plädoyer für den übersehenen Mitgestalter Max Bond.",
+     "pt": "Nos dez anos do museu afro-americano do Smithsonian, um texto resgata Max Bond, coautor esquecido do projeto."
+    },
+    {
+     "outlet": "Sight and Sound",
+     "genre": "Review · Film",
+     "title": "Once Upon a Time in Harlem: William Greaves and son preserve a Harlem Renaissance reunion with a marvel of cinéma vérité",
+     "author": "Murtada Elfadl",
+     "url": "https://www.bfi.org.uk/sight-and-sound/reviews/once-upon-time-harlem-william-greaves-son-preserve-harlem-renaissance-reunion-with-marvel-cinema-verite",
+     "minutes": 5,
+     "en": "In 1972 William Greaves filmed surviving Harlem Renaissance figures at a lively, argumentative reunion; his son David has finished the documentary. The review praises its 16mm vérité energy and memorable guests.",
+     "zh": "1972 年威廉·格里夫斯拍下哈莱姆文艺复兴健在人物的热闹聚会，儿子如今完成了这部纪录片；影评称赞其真实电影的活力。",
+     "de": "1972 filmte William Greaves ein Wiedersehen der Harlem Renaissance; sein Sohn hat die Doku vollendet – eine begeisterte Kritik.",
+     "pt": "Em 1972 William Greaves filmou um reencontro do Renascimento do Harlem; o filho concluiu o documentário – crítica entusiasmada."
+    },
+    {
+     "outlet": "Aeon",
+     "genre": "Essay · Migration",
+     "title": "Chasing la dolce vita",
+     "author": "Ben Faccini",
+     "url": "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions",
+     "minutes": 20,
+     "en": "A family memoir of migration between Italy, Britain and France – rituals, an idealised homeland, wartime internment – arguing that moving back and forth is what keeps Italianness alive.",
+     "zh": "一个家族在意大利、英国、法国之间迁徙的回忆：仪式、理想化的故乡、战时拘禁——作者认为来回往返正是「意大利性」的生命力。",
+     "de": "Familienerinnerungen zwischen Italien, Großbritannien und Frankreich – über Heimweh, Rituale und das Italienischsein unterwegs.",
+     "pt": "Memórias de uma família migrante entre Itália, Grã-Bretanha e França – sobre rituais, saudade e ser italiano em trânsito."
+    },
+    {
+     "outlet": "Equator (via Longreads)",
+     "genre": "Essay · Ideas",
+     "title": "Apocalypse Now and Then",
+     "author": "Arundhati Roy",
+     "url": "https://www.equator.org/articles/arundhati-roy-artificial-intelligence?src=longreads",
+     "minutes": 20,
+     "en": "Arundhati Roy's wide-ranging essay on the perils of AI, which she calls capitalism's final destination, moving through Greek myth, Coppola, the Bible and India's industrial history.",
+     "zh": "阿兰达蒂·洛伊长文：人工智能是资本主义的终点站——从希腊神话、科波拉、圣经谈到印度工业史。",
+     "de": "Arundhati Roy über KI als Endstation des Kapitalismus – ein weit ausholender Essay von Mythos bis Industriegeschichte.",
+     "pt": "Arundhati Roy sobre a IA como destino final do capitalismo – ensaio amplo, do mito grego à história industrial da Índia."
+    },
+    {
+     "outlet": "Orion (via Longreads)",
+     "genre": "Essay · Food & history",
+     "title": "Feeding the Revolution",
+     "author": "Victoria Blanco",
+     "url": "https://orionmagazine.org/article/feeding-the-revolution/?src=longreads",
+     "minutes": 12,
+     "en": "The burrito's history as a symbol of resistance – a food essay that turns an everyday dish into a story about struggle and survival.",
+     "zh": "墨西哥卷饼如何成为抵抗的象征——从一道家常食物讲到斗争的历史。",
+     "de": "Die Geschichte des Burritos als Symbol des Widerstands – ein Essay übers Essen und Aufbegehren.",
+     "pt": "A história do burrito como símbolo de resistência – um ensaio sobre comida e luta."
+    },
+    {
+     "outlet": "The Guardian",
+     "genre": "Browse · The Long Read",
+     "title": "The Long Read – latest essays",
+     "url": "https://www.theguardian.com/news/series/the-long-read",
+     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
+     "zh": "《卫报》长文栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
+     "de": "Die Longreads des Guardian – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
+     "pt": "Os textos longos do Guardian – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
+    },
+    {
+     "outlet": "The Atlantic",
+     "genre": "Browse · Ideas",
+     "title": "Ideas – essays and arguments",
+     "url": "https://www.theatlantic.com/ideas/",
+     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
+     "zh": "《大西洋月刊》观点栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
+     "de": "Essays und Debatten von The Atlantic – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
+     "pt": "Ensaios e debates da The Atlantic – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
+    }
+   ]
   }
  ]
 }

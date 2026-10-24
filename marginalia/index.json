@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T05:01:43+00:00",
+ "updated": "2026-10-24T05:09:48+00:00",
  "days": [
   {
    "date": "2026-10-24",
@@ -26,6 +26,22 @@
      "title": "Wer stellt heute Nacht die Uhren zurück?",
      "kind": "brief",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
+     "level": "C2",
      "hour": null
     }
    ]
