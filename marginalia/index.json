@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-23T17:54:20+00:00",
+ "updated": "2026-10-24T04:21:13+00:00",
  "days": [
+  {
+   "date": "2026-10-24",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "Can a forest fail?",
+     "kind": "essay",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-23",
    "items": [

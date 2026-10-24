@@ -1,0 +1,148 @@
+{
+ "date": "2026-10-24",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "essay",
+   "section": "Humanities, nature & science",
+   "title": "Can a forest fail?",
+   "dek": "Scientists say the Amazon and the coral reefs are losing their 'function'. In Aeon, the ecologist John Drake asks whose purposes that word smuggles in, and why naming our own values openly might be the more honest politics.",
+   "paragraphs": [
+    "The vocabulary of environmental alarm is strikingly mechanical. A 2021 study found that parts of the Amazon now emit more carbon than they take up; reefs are said to be breaking down; the great Atlantic current system known as AMOC may, some researchers warn, collapse within this century. Again and again, such reports describe ecosystems as losing their capacity to function, as if a rainforest were a machine sliding out of specification. In an essay for Aeon, John Drake, an ecologist at the University of Georgia who directs its Center for the Ecology of Infectious Diseases, argues that this habit of speech conceals a philosophical sleight of hand.",
+    "His starting point is blunt: ecosystems have no goals. The Amazon stores carbon, but it does not try to, and nothing in its nature makes storing carbon its proper job rather than an incidental effect. Whatever standard we hold a forest to, whether a stable climate, a productive fishery, a beautiful view or a sacred place, comes from us. To say a reef is malfunctioning, Drake suggests, is really to say that it has stopped doing something people want from it.",
+    "To show why the word sticks, he turns to the philosophy of biology. One school, associated with Robert Cummins, defines a function as whatever contribution a part makes to a system's overall capacities; the trouble, as Ruth Millikan's example of the heart's audible thump makes clear, is that this cannot tell a genuine function from a mere side effect, nor say what breakdown means. A rival school, developed by Larry Wright, Karen Neander and Millikan, ties function to evolutionary history: a heart is for pumping because natural selection kept hearts that pumped. That account does yield a standard of success and failure, but only for things shaped by selection, and ecosystems neither reproduce nor compete as units. The ecologist Frederic Clements once imagined plant communities maturing toward a stable climax, almost like organisms, but the discipline long ago abandoned that picture, even as it kept the functional language that went with it.",
+    "Drake traces the persistence of that language partly to institutional history. The journal Functional Ecology, founded in the 1980s, adopted the term in part to align ecology with physiology, and one of its co-founders, Peter Calow, told Drake he had misgivings about applying it to whole ecosystems. From the late 1990s, research on biodiversity and ecosystem function fed into the Millennium Ecosystem Assessment of 2005, the IPBES framework and national natural capital accounts that put a price on pollination or flood control. Popular metaphors did the rest: Paul and Anne Ehrlich's image of species as rivets popping from an aircraft wing, in their 1981 book Extinction, implies that a living system has a correct configuration and that every loss is a step toward crashing.",
+    "Read from the left, the argument lands somewhere more interesting than a quarrel over terminology. The language of ecosystem services and natural capital presents nature as a stock of assets serving human ends, and it does so while claiming the neutral authority of science. Drake, drawing on the philosopher Bas van Fraassen's critique of value-free inquiry, insists that such neutrality is a fiction. A wetland can fail at filtering water only once we have enlisted it for that task; a bleaching coral or an algal bloom, considered on its own, is simply a process unfolding.",
+    "None of this is a counsel of indifference. If anything, it raises the political stakes. Once function is understood as a human demand rather than a natural fact, the obvious questions follow: whose demands count, who benefits from a forest managed for carbon offsets, and who is displaced when a landscape is redefined as an asset? Drake's conclusion is that environmental argument should own its values instead of disguising them as properties of the world, and that seems a more democratic footing for conservation than the pretence that the planet itself has issued the instructions."
+   ],
+   "paragraphs_zh": [
+    "环境警报的词汇带着鲜明的机械色彩。2021年的一项研究发现，亚马孙部分地区如今排放的碳多于吸收的碳；珊瑚礁据说正在瓦解；一些研究者警告，被称为AMOC的大西洋洋流系统可能在本世纪内崩溃。这类报告一再把生态系统描述为正在丧失“功能”，仿佛雨林是一台逐渐偏离规格的机器。佐治亚大学生态学家、该校传染病生态学中心主任约翰·德雷克在为Aeon撰写的文章中指出，这种说话习惯掩盖了一个哲学上的偷换。",
+    "他的出发点很直接：生态系统没有目标。亚马孙储存碳，但它并非有意为之，它的本性中也没有任何东西使储碳成为它的“本职”，而不只是一种附带效应。无论我们用什么标准衡量一片森林——稳定的气候、丰产的渔场、美丽的风景还是神圣之地——这些标准都来自我们自己。德雷克认为，说珊瑚礁“功能失常”，其实是在说它不再提供人们想从中得到的东西。",
+    "为了说明这个词为何挥之不去，他转向生物学哲学。与罗伯特·卡明斯相关的一派把功能定义为某个部分对系统整体能力的贡献；但正如露丝·米利肯以心脏的跳动声为例所表明的，这种定义无法区分真正的功能与单纯的副作用，也说不清何为故障。由拉里·赖特、卡伦·尼安德和米利肯发展的另一派则把功能与进化史挂钩：心脏的用途是泵血，因为自然选择保留了能泵血的心脏。这种解释确实提供了成功与失败的标准，但只适用于经过选择塑造的东西，而生态系统作为整体既不繁殖也不竞争。生态学家弗雷德里克·克莱门茨曾设想植物群落几乎像有机体一样朝稳定的“顶极”成熟，但这门学科早已放弃这一图景，却保留了与之相伴的功能语言。",
+    "德雷克部分地把这种语言的延续归因于学科制度史。20世纪80年代创刊的《功能生态学》采用这个术语，部分是为了让生态学与生理学接轨；其联合创始人彼得·卡洛告诉德雷克，他对把这个词用于整个生态系统心存疑虑。从90年代末起，关于生物多样性与生态系统功能的研究汇入2005年的《千年生态系统评估》、IPBES框架以及为授粉或防洪定价的国家自然资本核算。流行的隐喻则完成了其余的工作：保罗·埃利希和安妮·埃利希在1981年的著作《灭绝》中把物种比作从机翼上崩落的铆钉，暗示生命系统有一个正确的构型，每一次丧失都是向坠毁迈进一步。",
+    "从左翼视角来读，这一论证落脚之处远比术语之争更有意思。“生态系统服务”和“自然资本”的语言把自然呈现为服务于人类目的的资产存量，同时又宣称拥有科学的中立权威。德雷克借助哲学家巴斯·范·弗拉森对“价值中立”研究的批评，坚持认为这种中立是一种虚构。只有当我们让湿地承担过滤水的任务之后，它才可能在这项任务上“失败”；白化的珊瑚或藻华，单就其本身而言，只是一个正在展开的过程。",
+    "这一切并不是在劝人漠不关心。相反，它提高了政治上的赌注。一旦把功能理解为人类的要求而非自然事实，显而易见的问题便接踵而至：谁的要求算数？谁从为碳抵消而管理的森林中获益？当一片土地被重新定义为资产时，谁被迫离开？德雷克的结论是，环境论证应当坦承自己的价值，而不是把它们伪装成世界的属性；比起假装是地球本身下达了指令，这似乎是保护事业更民主的立足点。"
+   ],
+   "paragraphs_de": [
+    "Das Vokabular des ökologischen Alarms ist auffallend mechanisch. Eine Studie von 2021 ergab, dass Teile des Amazonas inzwischen mehr Kohlenstoff abgeben als aufnehmen; Riffe sollen zerfallen; das große atlantische Strömungssystem AMOC könnte, so warnen einige Forschende, noch in diesem Jahrhundert kollabieren. Immer wieder beschreiben solche Berichte Ökosysteme so, als verlören sie ihre Funktionsfähigkeit, als wäre ein Regenwald eine Maschine, die aus der Spezifikation rutscht. In einem Essay für Aeon argumentiert John Drake, Ökologe an der University of Georgia und Leiter ihres Center for the Ecology of Infectious Diseases, dass diese Redeweise einen philosophischen Taschenspielertrick verbirgt.",
+    "Sein Ausgangspunkt ist schlicht: Ökosysteme haben keine Ziele. Der Amazonas speichert Kohlenstoff, aber er bemüht sich nicht darum, und nichts in seiner Natur macht die Kohlenstoffspeicherung zu seiner eigentlichen Aufgabe statt zu einer bloßen Nebenwirkung. Welchen Maßstab wir auch an einen Wald anlegen – ein stabiles Klima, eine ertragreiche Fischerei, einen schönen Anblick oder einen heiligen Ort –, er stammt von uns. Zu sagen, ein Riff funktioniere nicht mehr, heißt für Drake eigentlich, dass es aufgehört hat, etwas zu leisten, das Menschen von ihm wollen.",
+    "Um zu zeigen, warum das Wort so hartnäckig ist, wendet er sich der Philosophie der Biologie zu. Eine Schule, verbunden mit Robert Cummins, definiert Funktion als den Beitrag eines Teils zu den Fähigkeiten des Gesamtsystems; das Problem ist, wie Ruth Millikans Beispiel vom hörbaren Herzschlag zeigt, dass sich so echte Funktionen nicht von bloßen Nebeneffekten unterscheiden lassen und auch nicht sagen lässt, was ein Versagen ist. Eine konkurrierende Schule, entwickelt von Larry Wright, Karen Neander und Millikan, bindet Funktion an die Evolutionsgeschichte: Ein Herz ist zum Pumpen da, weil die natürliche Selektion pumpende Herzen erhalten hat. Diese Erklärung liefert durchaus einen Maßstab für Erfolg und Scheitern, aber nur für Dinge, die durch Selektion geformt wurden, und Ökosysteme pflanzen sich als Einheiten weder fort noch konkurrieren sie. Der Ökologe Frederic Clements stellte sich einst vor, Pflanzengemeinschaften reiften fast wie Organismen zu einem stabilen Klimaxzustand heran, doch die Disziplin hat dieses Bild längst aufgegeben – die dazugehörige Funktionssprache aber behalten.",
+    "Drake führt das Fortleben dieser Sprache teilweise auf die Institutionengeschichte zurück. Die in den 1980er-Jahren gegründete Zeitschrift Functional Ecology übernahm den Begriff unter anderem, um die Ökologie an die Physiologie anzunähern, und einer ihrer Mitbegründer, Peter Calow, sagte Drake, er habe Bedenken, ihn auf ganze Ökosysteme anzuwenden. Ab den späten 1990er-Jahren floss die Forschung zu Biodiversität und Ökosystemfunktion in das Millennium Ecosystem Assessment von 2005, den IPBES-Rahmen und nationale Naturkapitalrechnungen ein, die Bestäubung oder Hochwasserschutz mit einem Preis versehen. Populäre Metaphern taten ein Übriges: Paul und Anne Ehrlichs Bild von Arten als Nieten, die aus einer Flugzeugtragfläche springen, aus ihrem Buch Extinction von 1981, unterstellt, dass ein lebendes System eine richtige Konfiguration hat und jeder Verlust ein Schritt Richtung Absturz ist.",
+    "Von links gelesen führt das Argument an einen interessanteren Punkt als einen Streit um Begriffe. Die Sprache der Ökosystemleistungen und des Naturkapitals stellt die Natur als Bestand an Vermögenswerten dar, die menschlichen Zwecken dienen, und beansprucht dabei die neutrale Autorität der Wissenschaft. Drake besteht, gestützt auf die Kritik des Philosophen Bas van Fraassen an wertfreier Forschung, darauf, dass diese Neutralität eine Fiktion ist. Ein Feuchtgebiet kann erst dann beim Filtern von Wasser versagen, wenn wir es für diese Aufgabe eingespannt haben; eine bleichende Koralle oder eine Algenblüte ist für sich betrachtet einfach ein ablaufender Prozess.",
+    "Nichts davon ist ein Plädoyer für Gleichgültigkeit. Eher erhöht es den politischen Einsatz. Sobald Funktion als menschliche Forderung und nicht als Naturtatsache verstanden wird, liegen die Fragen auf der Hand: Wessen Forderungen zählen, wer profitiert von einem Wald, der für CO2-Kompensation bewirtschaftet wird, und wer wird verdrängt, wenn eine Landschaft zum Vermögenswert umdefiniert wird? Drakes Schluss lautet, dass Umweltargumente zu ihren Werten stehen sollten, statt sie als Eigenschaften der Welt auszugeben – und das scheint eine demokratischere Grundlage für Naturschutz zu sein als die Vorstellung, der Planet selbst habe die Anweisungen erteilt."
+   ],
+   "paragraphs_pt": [
+    "O vocabulário do alarme ambiental é marcadamente mecânico. Um estudo de 2021 constatou que partes da Amazônia hoje emitem mais carbono do que absorvem; diz-se que os recifes estão se desfazendo; o grande sistema de correntes do Atlântico conhecido como AMOC pode, alertam alguns pesquisadores, entrar em colapso ainda neste século. Repetidamente, esses relatórios descrevem ecossistemas como se estivessem perdendo a capacidade de funcionar, como se uma floresta tropical fosse uma máquina saindo da especificação. Num ensaio para a Aeon, John Drake, ecólogo da Universidade da Geórgia que dirige seu Centro de Ecologia de Doenças Infecciosas, argumenta que esse hábito de linguagem esconde um truque filosófico.",
+    "Seu ponto de partida é direto: ecossistemas não têm objetivos. A Amazônia armazena carbono, mas não tenta fazê-lo, e nada em sua natureza faz do armazenamento de carbono sua tarefa própria, e não um efeito incidental. Qualquer padrão que apliquemos a uma floresta, seja um clima estável, uma pesca produtiva, uma paisagem bonita ou um lugar sagrado, vem de nós. Dizer que um recife está com defeito, sugere Drake, é na verdade dizer que ele deixou de fazer algo que as pessoas querem dele.",
+    "Para mostrar por que a palavra pegou, ele recorre à filosofia da biologia. Uma escola, associada a Robert Cummins, define função como a contribuição de uma parte para as capacidades gerais de um sistema; o problema, como deixa claro o exemplo de Ruth Millikan sobre o som audível do coração, é que isso não distingue uma função genuína de um mero efeito colateral, nem diz o que significa uma falha. Uma escola rival, desenvolvida por Larry Wright, Karen Neander e Millikan, liga a função à história evolutiva: o coração serve para bombear porque a seleção natural preservou corações que bombeavam. Essa explicação oferece, sim, um padrão de sucesso e fracasso, mas apenas para coisas moldadas pela seleção, e ecossistemas, como unidades, não se reproduzem nem competem. O ecólogo Frederic Clements imaginou um dia comunidades vegetais amadurecendo rumo a um clímax estável, quase como organismos, mas a disciplina abandonou essa imagem há muito tempo, mesmo mantendo a linguagem funcional que a acompanhava.",
+    "Drake atribui a persistência dessa linguagem em parte à história institucional. A revista Functional Ecology, fundada nos anos 1980, adotou o termo em parte para aproximar a ecologia da fisiologia, e um de seus cofundadores, Peter Calow, disse a Drake que tinha reservas quanto a aplicá-lo a ecossistemas inteiros. A partir do fim dos anos 1990, a pesquisa sobre biodiversidade e função ecossistêmica alimentou a Avaliação Ecossistêmica do Milênio, de 2005, o marco do IPBES e as contas nacionais de capital natural que põem preço na polinização ou no controle de enchentes. As metáforas populares fizeram o resto: a imagem de Paul e Anne Ehrlich, no livro Extinction, de 1981, das espécies como rebites saltando da asa de um avião sugere que um sistema vivo tem uma configuração correta e que cada perda é um passo rumo à queda.",
+    "Lido pela esquerda, o argumento chega a um ponto mais interessante do que uma briga terminológica. A linguagem dos serviços ecossistêmicos e do capital natural apresenta a natureza como um estoque de ativos a serviço de fins humanos, e o faz reivindicando a autoridade neutra da ciência. Drake, apoiando-se na crítica do filósofo Bas van Fraassen à pesquisa livre de valores, insiste que essa neutralidade é uma ficção. Uma área úmida só pode falhar em filtrar água depois que a recrutamos para essa tarefa; um coral branqueando ou uma proliferação de algas, considerados em si mesmos, são simplesmente processos em curso.",
+    "Nada disso é um conselho de indiferença. Ao contrário, eleva o que está em jogo politicamente. Quando a função é entendida como uma exigência humana e não como um fato natural, as perguntas óbvias aparecem: as exigências de quem contam, quem se beneficia de uma floresta manejada para compensação de carbono e quem é expulso quando uma paisagem é redefinida como ativo? A conclusão de Drake é que o argumento ambiental deve assumir seus valores em vez de disfarçá-los como propriedades do mundo, e isso parece uma base mais democrática para a conservação do que fingir que o próprio planeta deu as instruções."
+   ],
+   "glossary": [
+    {
+     "w": "sleight of hand",
+     "en": "a clever trick that deceives people without their noticing",
+     "zh": "障眼法；偷换手法",
+     "de": "Taschenspielertrick",
+     "pt": "truque de prestidigitação; artimanha"
+    },
+    {
+     "w": "out of specification",
+     "en": "no longer meeting the technical standard something was designed to meet",
+     "zh": "不符合规格",
+     "de": "außerhalb der Spezifikation",
+     "pt": "fora da especificação"
+    },
+    {
+     "w": "incidental effect",
+     "en": "a result that happens by chance alongside something else, not as its purpose",
+     "zh": "附带效应",
+     "de": "Nebenwirkung, beiläufiger Effekt",
+     "pt": "efeito incidental"
+    },
+    {
+     "w": "teleology",
+     "en": "the explanation of things in terms of the purpose or goal they serve",
+     "zh": "目的论",
+     "de": "Teleologie (Zweckerklärung)",
+     "pt": "teleologia"
+    },
+    {
+     "w": "climax (ecology)",
+     "en": "a supposed final, stable stage of a plant community's development",
+     "zh": "（生态学）顶极群落",
+     "de": "Klimax(gesellschaft)",
+     "pt": "clímax (comunidade clímax)"
+    },
+    {
+     "w": "natural capital accounts",
+     "en": "national statistics that give natural resources and services a monetary value",
+     "zh": "自然资本核算",
+     "de": "Naturkapitalrechnung",
+     "pt": "contas de capital natural"
+    },
+    {
+     "w": "to do the rest",
+     "en": "to complete a process that other factors have started",
+     "zh": "完成其余的部分",
+     "de": "ein Übriges tun",
+     "pt": "fazer o resto"
+    },
+    {
+     "w": "to land somewhere",
+     "en": "(of an argument) to arrive at a particular conclusion or effect",
+     "zh": "（论证）落脚于",
+     "de": "(argumentativ) bei etwas landen",
+     "pt": "chegar a (uma conclusão)"
+    },
+    {
+     "w": "to enlist something for",
+     "en": "to make use of something for a particular purpose",
+     "zh": "征用……来做",
+     "de": "etwas für etwas einspannen",
+     "pt": "recrutar algo para"
+    },
+    {
+     "w": "a counsel of indifference",
+     "en": "advice that amounts to not caring or doing nothing",
+     "zh": "劝人漠然的主张",
+     "de": "ein Plädoyer für Gleichgültigkeit",
+     "pt": "um conselho de indiferença"
+    },
+    {
+     "w": "to raise the stakes",
+     "en": "to make a situation more important, with more to win or lose",
+     "zh": "提高赌注；使事关重大",
+     "de": "den Einsatz erhöhen",
+     "pt": "aumentar o que está em jogo"
+    },
+    {
+     "w": "to own one's values",
+     "en": "to openly acknowledge and take responsibility for one's values",
+     "zh": "坦承自己的价值立场",
+     "de": "zu seinen Werten stehen",
+     "pt": "assumir os próprios valores"
+    }
+   ],
+   "grammar": "Notice the construction 'can fail at filtering water only once we have enlisted it for that task'. 'Only once' (like 'only when' or 'only after') restricts the time condition and places the emphasis on it. When 'only once' moves to the front of the sentence, English requires subject–auxiliary inversion in the main clause: 'Only once we have enlisted it can a wetland fail.' This fronted, inverted form is typical of formal argumentative prose.",
+   "grammar_zh": "注意句式“can fail at filtering water only once we have enlisted it for that task”。“only once”（与“only when”“only after”类似）限定时间条件并强调它。当“only once”置于句首时，主句必须进行主语与助动词倒装：“Only once we have enlisted it can a wetland fail.” 这种前置加倒装的结构是正式论说文的典型写法。",
+   "grammar_de": "Achten Sie auf die Konstruktion „can fail at filtering water only once we have enlisted it for that task“. „Only once“ (wie „only when“ oder „only after“) schränkt die zeitliche Bedingung ein und betont sie. Steht „only once“ am Satzanfang, verlangt das Englische im Hauptsatz eine Inversion von Subjekt und Hilfsverb: „Only once we have enlisted it can a wetland fail.“ Diese vorangestellte, invertierte Form ist typisch für formelle argumentative Prosa.",
+   "grammar_pt": "Observe a construção „can fail at filtering water only once we have enlisted it for that task“. „Only once“ (como „only when“ ou „only after“) restringe a condição temporal e a enfatiza. Quando „only once“ vai para o início da frase, o inglês exige inversão entre sujeito e auxiliar na oração principal: „Only once we have enlisted it can a wetland fail.“ Essa forma anteposta e invertida é típica da prosa argumentativa formal.",
+   "questions": [
+    "Drake argues that ecosystems cannot malfunction unless humans assign them a purpose. Does this make environmental warnings weaker or more honest?",
+    "How does the language of 'ecosystem services' and 'natural capital' shape who gets a say in decisions about land and forests?",
+    "Can you think of a case where calling a natural change a 'failure' served a particular political or economic interest?"
+   ],
+   "sources": [
+    {
+     "title": "John Drake, “Why we need to think again about ecosystem failure”, Aeon (25 May 2026)",
+     "url": "https://aeon.co/essays/why-we-need-to-think-again-about-ecosystem-failure",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
+}
