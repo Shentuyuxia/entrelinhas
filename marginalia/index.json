@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T05:09:48+00:00",
+ "updated": "2026-10-24T14:52:51+00:00",
  "days": [
   {
    "date": "2026-10-24",
@@ -42,6 +42,22 @@
      "title": "Today's reading list",
      "kind": "picks",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Au travail en téléphérique, à 4 000 mètres",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Le métro du ciel : la Bolivie, ses téléphériques et le pari du service public",
+     "kind": "feature",
+     "level": "B2",
      "hour": null
     }
    ]
