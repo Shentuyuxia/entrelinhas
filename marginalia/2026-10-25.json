@@ -1,337 +1,662 @@
 {
-  "date": "2026-10-25",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-10-25",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "feature",
+   "section": "Film",
+   "title": "Who gets to tell a worker's story?",
+   "dek": "Lee Chang-dong's first film in eight years sets a laid-off factory worker beside a documentary-maker who wants his story. Speaking to Little White Lies, the Korean director turns the film's central question on himself.",
+   "paragraphs": [
+    "Eight years is a long silence for a director of Lee Chang-dong's stature, but the South Korean filmmaker has never worked to a schedule. His new feature, Possible Love, his first since the 2018 thriller Burning, premiered in competition at the Venice Film Festival in September, had its North American premiere in Toronto and began a limited theatrical run on 23 October ahead of its worldwide release on Netflix on 6 November. In a conversation with David Jenkins for Little White Lies, published on 22 October, Lee talks less about craft than about a question that has shadowed him since he wrote fiction: what right does an artist have to someone else's suffering?",
+    "The film is built around two married couples on either side of a class divide. Ho-seok, played by Sul Kyung-gu, is a former factory worker who has never recovered from losing his job after a strike; his wife Mi-ok, played by Jeon Do-yeon, works at a carwash and meets the world with stubborn optimism. Across the divide stand Ye-ji, an aspiring documentary filmmaker played by Cho Yeo-jeong, and her wealthy husband Sang-woo, played by Zo In-sung. Ye-ji is developing a project about displaced workers, and Ho-seok's story is exactly what she has been looking for.",
+    "Lee told Jenkins that the project began roughly a decade ago, after a large Korean conglomerate laid off many of its workers. He shelved it because a documentary about those workers already existed, and found his way back only when his co-writer, Oh Jung-mi, suggested adding the filmmaker couple. That detail is revealing. The story became possible for Lee only once it included someone like him: an outsider with a camera and good intentions, who stands to gain from another person's loss.",
+    "The film's politics of work are unusually explicit. Lee argues that labourers in particular tend to build their sense of self through what they do, so that the erosion of stable employment strips away identity as well as income. He also suggests that the distance between the rich and the struggling has grown so wide that the phrase class gap no longer seems adequate, while insisting that the film should still affirm the basic equality of its characters and the longing for freedom that might carry them beyond their circumstances. A recurring whistle stands in the film for the tacit solidarity among workers and for labour handed down from parent to child, which Lee describes as both painful and sacred.",
+    "Yet Lee is careful not to turn Ye-ji into a villain or the documentary into a target. He told Jenkins that he is not suspicious of documentary as such; in his account, Ye-ji stands for anyone who makes a living from other people's stories, novelists and directors included. His criticism is aimed at a broader habit of art: the way it can feed on the pain of marginalised people without passing that pain on truthfully. Whether he is worthy of a given story, he says, is a question that has followed him since his years as a novelist, and one he has never been able to set down.",
+    "What follows is interpretation rather than reporting. That reflexive turn places Possible Love in a long tradition of films about the ethics of looking, but it lands with particular force at a moment when precarious lives are routinely converted into content. It is hard not to notice that a film about professionals profiting from working-class experience will reach most of its viewers through Netflix, one of the largest streaming platforms in the world; the interview does not dwell on that irony, but Lee's own question invites it. What he offers is not an answer but a discipline: to keep asking, rather than assuming that good politics or good intentions settle the matter in advance."
+   ],
+   "paragraphs_zh": [
+    "对于李沧东这样分量的导演来说，八年是一段漫长的沉默，但这位韩国电影人从来不按时间表工作。他的新片《可能的爱》是继2018年惊悚片《燃烧》之后的首部长片，九月在威尼斯电影节主竞赛单元首映，随后在多伦多举行北美首映，10月23日开始有限院线放映，并将于11月6日在Netflix全球上线。在《Little White Lies》10月22日刊出的与大卫·詹金斯的对谈中，李沧东谈得更多的不是技艺，而是一个自他写小说时起就如影随形的问题：艺术家有什么权利取用别人的苦难？",
+    "影片围绕阶级鸿沟两侧的两对夫妻展开。薛景求饰演的浩锡曾是工厂工人，在一次罢工后失去工作，至今没有走出来；全度妍饰演的妻子美玉在洗车场上班，以一种倔强的乐观面对世界。鸿沟另一侧是赵汝贞饰演的有志成为纪录片导演的艺智，以及赵寅成饰演的她富有的丈夫尚宇。艺智正在筹备一部关于失业工人的作品，而浩锡的故事恰恰是她一直在寻找的。",
+    "李沧东告诉詹金斯，这个项目大约始于十年前，当时韩国一家大财阀裁掉了大批工人。由于已有一部关于这些工人的纪录片，他把项目搁置了；直到合作编剧吴贞美提议加入那对拍纪录片的夫妻，他才重新找到切入点。这个细节耐人寻味。只有当故事里出现一个像他一样的人——一个带着摄影机和善意的局外人，一个可能从别人的损失中获益的人——这个故事对李沧东来说才变得可能。",
+    "影片对劳动的政治态度异常鲜明。李沧东认为，尤其是体力劳动者，往往通过自己的工作建立自我认同，因此稳定就业的瓦解剥夺的不仅是收入，还有身份。他还表示，富人与挣扎者之间的距离已拉得如此之大，“阶级差距”这个说法似乎已不足以形容；但他坚持，影片仍应肯定人物之间基本的平等，以及可能带他们超越处境的对自由的渴望。片中反复出现的一声口哨，象征着工人之间默契的团结，也象征着从父母传给子女的劳动——李沧东形容它既痛苦又神圣。",
+    "不过，李沧东小心地避免把艺智塑造成反派，也不把纪录片本身当作靶子。他对詹金斯说，他并不怀疑纪录片这种形式；在他看来，艺智代表所有以讲述他人故事为生的人，小说家和导演也包括在内。他批评的是艺术更普遍的一种习性：它可能以边缘人群的痛苦为养料，却没有真实地把这种痛苦传达出去。他说，自己是否配讲一个故事，这个问题从当小说家时起就一直跟随着他，他始终放不下。",
+    "以下是解读，而非报道。这种自我反思让《可能的爱》置身于一个探讨“观看伦理”的悠久电影传统之中，而在不稳定的生活被例行地转化为“内容”的当下，它显得格外有力。人们很难不注意到：一部关于专业人士从工人阶级经验中获利的电影，大多数观众将通过世界上最大的流媒体平台之一Netflix看到它；采访并未细谈这一反讽，但李沧东自己的问题恰恰引人想到这一点。他给出的不是答案，而是一种自律：不断追问，而不是以为正确的政治立场或良好的意图就能预先解决问题。"
+   ],
+   "paragraphs_de": [
+    "Acht Jahre sind für einen Regisseur von Lee Chang-dongs Rang ein langes Schweigen, doch der südkoreanische Filmemacher hat sich nie nach einem Zeitplan gerichtet. Sein neuer Spielfilm Possible Love, der erste seit dem Thriller Burning von 2018, lief im September im Wettbewerb der Filmfestspiele von Venedig, hatte seine Nordamerika-Premiere in Toronto und startete am 23. Oktober in ausgewählten Kinos, bevor er am 6. November weltweit auf Netflix erscheint. Im Gespräch mit David Jenkins für Little White Lies, veröffentlicht am 22. Oktober, spricht Lee weniger über Handwerk als über eine Frage, die ihn seit seiner Zeit als Schriftsteller begleitet: Welches Recht hat ein Künstler auf das Leid anderer Menschen?",
+    "Der Film kreist um zwei Ehepaare auf beiden Seiten einer Klassengrenze. Ho-seok, gespielt von Sul Kyung-gu, ist ein ehemaliger Fabrikarbeiter, der den Verlust seiner Stelle nach einem Streik nie verwunden hat; seine Frau Mi-ok, gespielt von Jeon Do-yeon, arbeitet in einer Waschanlage und begegnet der Welt mit trotzigem Optimismus. Auf der anderen Seite stehen Ye-ji, eine angehende Dokumentarfilmerin, gespielt von Cho Yeo-jeong, und ihr wohlhabender Mann Sang-woo, gespielt von Zo In-sung. Ye-ji entwickelt ein Projekt über entlassene Arbeiter, und Ho-seoks Geschichte ist genau das, wonach sie gesucht hat.",
+    "Lee erzählte Jenkins, das Projekt habe vor etwa zehn Jahren begonnen, nachdem ein großer koreanischer Konzern viele seiner Beschäftigten entlassen hatte. Er legte es auf Eis, weil es bereits einen Dokumentarfilm über diese Arbeiter gab, und fand erst wieder hinein, als seine Ko-Autorin Oh Jung-mi vorschlug, das Filmemacher-Paar hinzuzufügen. Dieses Detail ist aufschlussreich. Möglich wurde die Geschichte für Lee erst, als sie jemanden wie ihn enthielt: einen Außenstehenden mit Kamera und guten Absichten, der vom Verlust eines anderen profitieren kann.",
+    "Die Politik der Arbeit ist in diesem Film ungewöhnlich deutlich. Lee argumentiert, dass gerade Arbeiter ihr Selbstverständnis oft über ihre Tätigkeit aufbauen, sodass der Verfall sicherer Beschäftigung nicht nur Einkommen, sondern auch Identität raubt. Er meint außerdem, der Abstand zwischen den Reichen und denen, die kämpfen müssen, sei so groß geworden, dass der Ausdruck Klassenunterschied kaum noch genüge – und besteht doch darauf, dass der Film die grundlegende Gleichheit seiner Figuren bejahen solle und die Sehnsucht nach Freiheit, die sie über ihre Lage hinaustragen könnte. Ein wiederkehrender Pfiff steht im Film für die stille Solidarität unter Arbeitern und für Arbeit, die von Eltern an Kinder weitergegeben wird, was Lee als zugleich schmerzhaft und heilig beschreibt.",
+    "Dennoch macht Lee Ye-ji nicht zur Schurkin und den Dokumentarfilm nicht zur Zielscheibe. Er sagte Jenkins, er stehe dem Dokumentarischen an sich nicht misstrauisch gegenüber; Ye-ji stehe für alle, die vom Erzählen fremder Geschichten leben, Romanautoren und Regisseure eingeschlossen. Seine Kritik gilt einer allgemeineren Gewohnheit der Kunst: dass sie sich vom Schmerz marginalisierter Menschen nähren kann, ohne diesen Schmerz wahrhaftig weiterzugeben. Ob er einer bestimmten Geschichte würdig sei, sagt er, sei eine Frage, die ihn seit seinen Jahren als Schriftsteller verfolge und die er nie habe ablegen können.",
+    "Was folgt, ist Interpretation, nicht Berichterstattung. Diese selbstreflexive Wendung stellt Possible Love in eine lange Tradition von Filmen über die Ethik des Hinsehens, doch sie trifft besonders in einer Zeit, in der prekäre Leben routinemäßig zu Content verarbeitet werden. Kaum zu übersehen ist, dass ein Film über Profis, die aus der Erfahrung der Arbeiterklasse Kapital schlagen, die meisten Zuschauer über Netflix erreichen wird, eine der größten Streaming-Plattformen der Welt; das Interview vertieft diese Ironie nicht, aber Lees eigene Frage legt sie nahe. Was er anbietet, ist keine Antwort, sondern eine Disziplin: weiterzufragen, statt anzunehmen, dass die richtige Haltung oder gute Absichten die Sache im Voraus erledigen."
+   ],
+   "paragraphs_pt": [
+    "Oito anos é um longo silêncio para um diretor da estatura de Lee Chang-dong, mas o cineasta sul-coreano nunca trabalhou seguindo um cronograma. Seu novo longa, Possible Love, o primeiro desde o thriller Em Chamas, de 2018, estreou na competição do Festival de Veneza em setembro, teve sua première norte-americana em Toronto e entrou em cartaz em circuito limitado em 23 de outubro, antes do lançamento mundial na Netflix, em 6 de novembro. Numa conversa com David Jenkins para a Little White Lies, publicada em 22 de outubro, Lee fala menos de técnica do que de uma pergunta que o acompanha desde que escrevia ficção: que direito tem um artista sobre o sofrimento dos outros?",
+    "O filme gira em torno de dois casais em lados opostos de um abismo de classe. Ho-seok, interpretado por Sul Kyung-gu, é um ex-operário que nunca se recuperou da perda do emprego após uma greve; sua mulher, Mi-ok, interpretada por Jeon Do-yeon, trabalha num lava-jato e enfrenta o mundo com um otimismo teimoso. Do outro lado estão Ye-ji, aspirante a documentarista interpretada por Cho Yeo-jeong, e seu marido rico, Sang-woo, interpretado por Zo In-sung. Ye-ji está desenvolvendo um projeto sobre trabalhadores demitidos, e a história de Ho-seok é exatamente o que ela procurava.",
+    "Lee contou a Jenkins que o projeto começou há cerca de dez anos, depois que um grande conglomerado coreano demitiu muitos de seus trabalhadores. Ele o engavetou porque já existia um documentário sobre esses trabalhadores, e só reencontrou o caminho quando sua corroteirista, Oh Jung-mi, sugeriu incluir o casal de documentaristas. Esse detalhe é revelador. A história só se tornou possível para Lee quando passou a incluir alguém como ele: alguém de fora, com uma câmera e boas intenções, que pode sair ganhando com a perda de outra pessoa.",
+    "A política do trabalho no filme é invulgarmente explícita. Lee argumenta que os trabalhadores braçais, em especial, costumam construir sua identidade a partir do que fazem, de modo que a erosão do emprego estável lhes tira não só a renda, mas também a identidade. Ele sugere ainda que a distância entre os ricos e os que lutam para sobreviver ficou tão grande que a expressão diferença de classe já não parece suficiente, embora insista que o filme deve afirmar a igualdade básica de seus personagens e o desejo de liberdade que poderia levá-los além de suas circunstâncias. Um assobio recorrente representa no filme a solidariedade tácita entre trabalhadores e o trabalho passado de pais para filhos, que Lee descreve como ao mesmo tempo doloroso e sagrado.",
+    "Ainda assim, Lee tem o cuidado de não transformar Ye-ji em vilã nem o documentário em alvo. Ele disse a Jenkins que não desconfia do documentário em si; na visão dele, Ye-ji representa qualquer pessoa que vive de contar histórias alheias, romancistas e diretores incluídos. Sua crítica mira um hábito mais amplo da arte: o modo como ela pode se alimentar da dor de pessoas marginalizadas sem transmitir essa dor com verdade. Se ele é digno de uma determinada história, diz, é uma pergunta que o acompanha desde seus anos de romancista e que ele nunca conseguiu deixar de lado.",
+    "O que segue é interpretação, não reportagem. Essa virada autorreflexiva insere Possible Love numa longa tradição de filmes sobre a ética do olhar, mas ela ganha força especial num momento em que vidas precárias são rotineiramente convertidas em conteúdo. É difícil não notar que um filme sobre profissionais que lucram com a experiência da classe trabalhadora chegará à maior parte do público pela Netflix, uma das maiores plataformas de streaming do mundo; a entrevista não se detém nessa ironia, mas a própria pergunta de Lee a convida. O que ele oferece não é uma resposta, e sim uma disciplina: continuar perguntando, em vez de supor que boas posições políticas ou boas intenções resolvam a questão de antemão."
+   ],
+   "glossary": [
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "feature",
-      "section": "Film",
-      "title": "Who gets to tell a worker's story?",
-      "dek": "Lee Chang-dong's first film in eight years sets a laid-off factory worker beside a documentary-maker who wants his story. Speaking to Little White Lies, the Korean director turns the film's central question on himself.",
-      "paragraphs": [
-        "Eight years is a long silence for a director of Lee Chang-dong's stature, but the South Korean filmmaker has never worked to a schedule. His new feature, Possible Love, his first since the 2018 thriller Burning, premiered in competition at the Venice Film Festival in September, had its North American premiere in Toronto and began a limited theatrical run on 23 October ahead of its worldwide release on Netflix on 6 November. In a conversation with David Jenkins for Little White Lies, published on 22 October, Lee talks less about craft than about a question that has shadowed him since he wrote fiction: what right does an artist have to someone else's suffering?",
-        "The film is built around two married couples on either side of a class divide. Ho-seok, played by Sul Kyung-gu, is a former factory worker who has never recovered from losing his job after a strike; his wife Mi-ok, played by Jeon Do-yeon, works at a carwash and meets the world with stubborn optimism. Across the divide stand Ye-ji, an aspiring documentary filmmaker played by Cho Yeo-jeong, and her wealthy husband Sang-woo, played by Zo In-sung. Ye-ji is developing a project about displaced workers, and Ho-seok's story is exactly what she has been looking for.",
-        "Lee told Jenkins that the project began roughly a decade ago, after a large Korean conglomerate laid off many of its workers. He shelved it because a documentary about those workers already existed, and found his way back only when his co-writer, Oh Jung-mi, suggested adding the filmmaker couple. That detail is revealing. The story became possible for Lee only once it included someone like him: an outsider with a camera and good intentions, who stands to gain from another person's loss.",
-        "The film's politics of work are unusually explicit. Lee argues that labourers in particular tend to build their sense of self through what they do, so that the erosion of stable employment strips away identity as well as income. He also suggests that the distance between the rich and the struggling has grown so wide that the phrase class gap no longer seems adequate, while insisting that the film should still affirm the basic equality of its characters and the longing for freedom that might carry them beyond their circumstances. A recurring whistle stands in the film for the tacit solidarity among workers and for labour handed down from parent to child, which Lee describes as both painful and sacred.",
-        "Yet Lee is careful not to turn Ye-ji into a villain or the documentary into a target. He told Jenkins that he is not suspicious of documentary as such; in his account, Ye-ji stands for anyone who makes a living from other people's stories, novelists and directors included. His criticism is aimed at a broader habit of art: the way it can feed on the pain of marginalised people without passing that pain on truthfully. Whether he is worthy of a given story, he says, is a question that has followed him since his years as a novelist, and one he has never been able to set down.",
-        "What follows is interpretation rather than reporting. That reflexive turn places Possible Love in a long tradition of films about the ethics of looking, but it lands with particular force at a moment when precarious lives are routinely converted into content. It is hard not to notice that a film about professionals profiting from working-class experience will reach most of its viewers through Netflix, one of the largest streaming platforms in the world; the interview does not dwell on that irony, but Lee's own question invites it. What he offers is not an answer but a discipline: to keep asking, rather than assuming that good politics or good intentions settle the matter in advance."
-      ],
-      "paragraphs_zh": [
-        "对于李沧东这样分量的导演来说，八年是一段漫长的沉默，但这位韩国电影人从来不按时间表工作。他的新片《可能的爱》是继2018年惊悚片《燃烧》之后的首部长片，九月在威尼斯电影节主竞赛单元首映，随后在多伦多举行北美首映，10月23日开始有限院线放映，并将于11月6日在Netflix全球上线。在《Little White Lies》10月22日刊出的与大卫·詹金斯的对谈中，李沧东谈得更多的不是技艺，而是一个自他写小说时起就如影随形的问题：艺术家有什么权利取用别人的苦难？",
-        "影片围绕阶级鸿沟两侧的两对夫妻展开。薛景求饰演的浩锡曾是工厂工人，在一次罢工后失去工作，至今没有走出来；全度妍饰演的妻子美玉在洗车场上班，以一种倔强的乐观面对世界。鸿沟另一侧是赵汝贞饰演的有志成为纪录片导演的艺智，以及赵寅成饰演的她富有的丈夫尚宇。艺智正在筹备一部关于失业工人的作品，而浩锡的故事恰恰是她一直在寻找的。",
-        "李沧东告诉詹金斯，这个项目大约始于十年前，当时韩国一家大财阀裁掉了大批工人。由于已有一部关于这些工人的纪录片，他把项目搁置了；直到合作编剧吴贞美提议加入那对拍纪录片的夫妻，他才重新找到切入点。这个细节耐人寻味。只有当故事里出现一个像他一样的人——一个带着摄影机和善意的局外人，一个可能从别人的损失中获益的人——这个故事对李沧东来说才变得可能。",
-        "影片对劳动的政治态度异常鲜明。李沧东认为，尤其是体力劳动者，往往通过自己的工作建立自我认同，因此稳定就业的瓦解剥夺的不仅是收入，还有身份。他还表示，富人与挣扎者之间的距离已拉得如此之大，“阶级差距”这个说法似乎已不足以形容；但他坚持，影片仍应肯定人物之间基本的平等，以及可能带他们超越处境的对自由的渴望。片中反复出现的一声口哨，象征着工人之间默契的团结，也象征着从父母传给子女的劳动——李沧东形容它既痛苦又神圣。",
-        "不过，李沧东小心地避免把艺智塑造成反派，也不把纪录片本身当作靶子。他对詹金斯说，他并不怀疑纪录片这种形式；在他看来，艺智代表所有以讲述他人故事为生的人，小说家和导演也包括在内。他批评的是艺术更普遍的一种习性：它可能以边缘人群的痛苦为养料，却没有真实地把这种痛苦传达出去。他说，自己是否配讲一个故事，这个问题从当小说家时起就一直跟随着他，他始终放不下。",
-        "以下是解读，而非报道。这种自我反思让《可能的爱》置身于一个探讨“观看伦理”的悠久电影传统之中，而在不稳定的生活被例行地转化为“内容”的当下，它显得格外有力。人们很难不注意到：一部关于专业人士从工人阶级经验中获利的电影，大多数观众将通过世界上最大的流媒体平台之一Netflix看到它；采访并未细谈这一反讽，但李沧东自己的问题恰恰引人想到这一点。他给出的不是答案，而是一种自律：不断追问，而不是以为正确的政治立场或良好的意图就能预先解决问题。"
-      ],
-      "paragraphs_de": [
-        "Acht Jahre sind für einen Regisseur von Lee Chang-dongs Rang ein langes Schweigen, doch der südkoreanische Filmemacher hat sich nie nach einem Zeitplan gerichtet. Sein neuer Spielfilm Possible Love, der erste seit dem Thriller Burning von 2018, lief im September im Wettbewerb der Filmfestspiele von Venedig, hatte seine Nordamerika-Premiere in Toronto und startete am 23. Oktober in ausgewählten Kinos, bevor er am 6. November weltweit auf Netflix erscheint. Im Gespräch mit David Jenkins für Little White Lies, veröffentlicht am 22. Oktober, spricht Lee weniger über Handwerk als über eine Frage, die ihn seit seiner Zeit als Schriftsteller begleitet: Welches Recht hat ein Künstler auf das Leid anderer Menschen?",
-        "Der Film kreist um zwei Ehepaare auf beiden Seiten einer Klassengrenze. Ho-seok, gespielt von Sul Kyung-gu, ist ein ehemaliger Fabrikarbeiter, der den Verlust seiner Stelle nach einem Streik nie verwunden hat; seine Frau Mi-ok, gespielt von Jeon Do-yeon, arbeitet in einer Waschanlage und begegnet der Welt mit trotzigem Optimismus. Auf der anderen Seite stehen Ye-ji, eine angehende Dokumentarfilmerin, gespielt von Cho Yeo-jeong, und ihr wohlhabender Mann Sang-woo, gespielt von Zo In-sung. Ye-ji entwickelt ein Projekt über entlassene Arbeiter, und Ho-seoks Geschichte ist genau das, wonach sie gesucht hat.",
-        "Lee erzählte Jenkins, das Projekt habe vor etwa zehn Jahren begonnen, nachdem ein großer koreanischer Konzern viele seiner Beschäftigten entlassen hatte. Er legte es auf Eis, weil es bereits einen Dokumentarfilm über diese Arbeiter gab, und fand erst wieder hinein, als seine Ko-Autorin Oh Jung-mi vorschlug, das Filmemacher-Paar hinzuzufügen. Dieses Detail ist aufschlussreich. Möglich wurde die Geschichte für Lee erst, als sie jemanden wie ihn enthielt: einen Außenstehenden mit Kamera und guten Absichten, der vom Verlust eines anderen profitieren kann.",
-        "Die Politik der Arbeit ist in diesem Film ungewöhnlich deutlich. Lee argumentiert, dass gerade Arbeiter ihr Selbstverständnis oft über ihre Tätigkeit aufbauen, sodass der Verfall sicherer Beschäftigung nicht nur Einkommen, sondern auch Identität raubt. Er meint außerdem, der Abstand zwischen den Reichen und denen, die kämpfen müssen, sei so groß geworden, dass der Ausdruck Klassenunterschied kaum noch genüge – und besteht doch darauf, dass der Film die grundlegende Gleichheit seiner Figuren bejahen solle und die Sehnsucht nach Freiheit, die sie über ihre Lage hinaustragen könnte. Ein wiederkehrender Pfiff steht im Film für die stille Solidarität unter Arbeitern und für Arbeit, die von Eltern an Kinder weitergegeben wird, was Lee als zugleich schmerzhaft und heilig beschreibt.",
-        "Dennoch macht Lee Ye-ji nicht zur Schurkin und den Dokumentarfilm nicht zur Zielscheibe. Er sagte Jenkins, er stehe dem Dokumentarischen an sich nicht misstrauisch gegenüber; Ye-ji stehe für alle, die vom Erzählen fremder Geschichten leben, Romanautoren und Regisseure eingeschlossen. Seine Kritik gilt einer allgemeineren Gewohnheit der Kunst: dass sie sich vom Schmerz marginalisierter Menschen nähren kann, ohne diesen Schmerz wahrhaftig weiterzugeben. Ob er einer bestimmten Geschichte würdig sei, sagt er, sei eine Frage, die ihn seit seinen Jahren als Schriftsteller verfolge und die er nie habe ablegen können.",
-        "Was folgt, ist Interpretation, nicht Berichterstattung. Diese selbstreflexive Wendung stellt Possible Love in eine lange Tradition von Filmen über die Ethik des Hinsehens, doch sie trifft besonders in einer Zeit, in der prekäre Leben routinemäßig zu Content verarbeitet werden. Kaum zu übersehen ist, dass ein Film über Profis, die aus der Erfahrung der Arbeiterklasse Kapital schlagen, die meisten Zuschauer über Netflix erreichen wird, eine der größten Streaming-Plattformen der Welt; das Interview vertieft diese Ironie nicht, aber Lees eigene Frage legt sie nahe. Was er anbietet, ist keine Antwort, sondern eine Disziplin: weiterzufragen, statt anzunehmen, dass die richtige Haltung oder gute Absichten die Sache im Voraus erledigen."
-      ],
-      "paragraphs_pt": [
-        "Oito anos é um longo silêncio para um diretor da estatura de Lee Chang-dong, mas o cineasta sul-coreano nunca trabalhou seguindo um cronograma. Seu novo longa, Possible Love, o primeiro desde o thriller Em Chamas, de 2018, estreou na competição do Festival de Veneza em setembro, teve sua première norte-americana em Toronto e entrou em cartaz em circuito limitado em 23 de outubro, antes do lançamento mundial na Netflix, em 6 de novembro. Numa conversa com David Jenkins para a Little White Lies, publicada em 22 de outubro, Lee fala menos de técnica do que de uma pergunta que o acompanha desde que escrevia ficção: que direito tem um artista sobre o sofrimento dos outros?",
-        "O filme gira em torno de dois casais em lados opostos de um abismo de classe. Ho-seok, interpretado por Sul Kyung-gu, é um ex-operário que nunca se recuperou da perda do emprego após uma greve; sua mulher, Mi-ok, interpretada por Jeon Do-yeon, trabalha num lava-jato e enfrenta o mundo com um otimismo teimoso. Do outro lado estão Ye-ji, aspirante a documentarista interpretada por Cho Yeo-jeong, e seu marido rico, Sang-woo, interpretado por Zo In-sung. Ye-ji está desenvolvendo um projeto sobre trabalhadores demitidos, e a história de Ho-seok é exatamente o que ela procurava.",
-        "Lee contou a Jenkins que o projeto começou há cerca de dez anos, depois que um grande conglomerado coreano demitiu muitos de seus trabalhadores. Ele o engavetou porque já existia um documentário sobre esses trabalhadores, e só reencontrou o caminho quando sua corroteirista, Oh Jung-mi, sugeriu incluir o casal de documentaristas. Esse detalhe é revelador. A história só se tornou possível para Lee quando passou a incluir alguém como ele: alguém de fora, com uma câmera e boas intenções, que pode sair ganhando com a perda de outra pessoa.",
-        "A política do trabalho no filme é invulgarmente explícita. Lee argumenta que os trabalhadores braçais, em especial, costumam construir sua identidade a partir do que fazem, de modo que a erosão do emprego estável lhes tira não só a renda, mas também a identidade. Ele sugere ainda que a distância entre os ricos e os que lutam para sobreviver ficou tão grande que a expressão diferença de classe já não parece suficiente, embora insista que o filme deve afirmar a igualdade básica de seus personagens e o desejo de liberdade que poderia levá-los além de suas circunstâncias. Um assobio recorrente representa no filme a solidariedade tácita entre trabalhadores e o trabalho passado de pais para filhos, que Lee descreve como ao mesmo tempo doloroso e sagrado.",
-        "Ainda assim, Lee tem o cuidado de não transformar Ye-ji em vilã nem o documentário em alvo. Ele disse a Jenkins que não desconfia do documentário em si; na visão dele, Ye-ji representa qualquer pessoa que vive de contar histórias alheias, romancistas e diretores incluídos. Sua crítica mira um hábito mais amplo da arte: o modo como ela pode se alimentar da dor de pessoas marginalizadas sem transmitir essa dor com verdade. Se ele é digno de uma determinada história, diz, é uma pergunta que o acompanha desde seus anos de romancista e que ele nunca conseguiu deixar de lado.",
-        "O que segue é interpretação, não reportagem. Essa virada autorreflexiva insere Possible Love numa longa tradição de filmes sobre a ética do olhar, mas ela ganha força especial num momento em que vidas precárias são rotineiramente convertidas em conteúdo. É difícil não notar que um filme sobre profissionais que lucram com a experiência da classe trabalhadora chegará à maior parte do público pela Netflix, uma das maiores plataformas de streaming do mundo; a entrevista não se detém nessa ironia, mas a própria pergunta de Lee a convida. O que ele oferece não é uma resposta, e sim uma disciplina: continuar perguntando, em vez de supor que boas posições políticas ou boas intenções resolvam a questão de antemão."
-      ],
-      "glossary": [
-        {
-          "w": "stature",
-          "en": "the importance and respect a person has gained through their achievements",
-          "zh": "声望；地位",
-          "de": "Rang, Format",
-          "pt": "estatura, prestígio"
-        },
-        {
-          "w": "to shadow someone",
-          "en": "(of a problem or question) to follow and trouble someone persistently over a long time",
-          "zh": "如影随形地困扰某人",
-          "de": "jemanden begleiten, verfolgen",
-          "pt": "acompanhar, perseguir alguém"
-        },
-        {
-          "w": "class divide",
-          "en": "a deep separation between social classes in wealth, opportunity and experience",
-          "zh": "阶级鸿沟",
-          "de": "Klassengrenze, Klassenkluft",
-          "pt": "abismo de classe"
-        },
-        {
-          "w": "displaced workers",
-          "en": "people who have lost their jobs through closures, layoffs or economic change",
-          "zh": "失业工人；被迫离岗的工人",
-          "de": "entlassene, verdrängte Arbeitskräfte",
-          "pt": "trabalhadores demitidos ou deslocados"
-        },
-        {
-          "w": "to shelve (a project)",
-          "en": "to postpone or abandon a plan, often temporarily",
-          "zh": "搁置（项目）",
-          "de": "auf Eis legen",
-          "pt": "engavetar"
-        },
-        {
-          "w": "to stand to gain",
-          "en": "to be in a position where one is likely to benefit",
-          "zh": "可能从中获益",
-          "de": "profitieren können",
-          "pt": "poder sair ganhando"
-        },
-        {
-          "w": "erosion",
-          "en": "a gradual weakening or destruction of something",
-          "zh": "逐渐瓦解；侵蚀",
-          "de": "Verfall, Aushöhlung",
-          "pt": "erosão, desgaste"
-        },
-        {
-          "w": "tacit",
-          "en": "understood or shared without being stated openly",
-          "zh": "默契的；心照不宣的",
-          "de": "stillschweigend",
-          "pt": "tácito"
-        },
-        {
-          "w": "to feed on",
-          "en": "to use something as a source of energy or material, often in an exploitative way",
-          "zh": "以……为养料；靠……滋长",
-          "de": "sich nähren von",
-          "pt": "alimentar-se de"
-        },
-        {
-          "w": "reflexive",
-          "en": "(of a work of art) turning back to examine its own methods or position",
-          "zh": "自我反思的",
-          "de": "selbstreflexiv",
-          "pt": "autorreflexivo"
-        },
-        {
-          "w": "to dwell on",
-          "en": "to spend a long time thinking or talking about something",
-          "zh": "细谈；纠缠于",
-          "de": "bei etwas verweilen, vertiefen",
-          "pt": "deter-se em"
-        }
-      ],
-      "grammar": "Notice 'only once it included someone like him' and 'found his way back only when...'. 'Only' attached to a time clause (only when, only once, only after) stresses that something happened at that point and not before. If the 'only' clause is moved to the front, the main clause takes inversion: 'Only once it included someone like him did the story become possible.' This fronted form is common in formal and literary writing.",
-      "grammar_zh": "注意 “only once it included someone like him” 和 “found his way back only when...”。only 修饰时间从句（only when、only once、only after）时，强调事情恰恰在那一刻才发生，而不是之前。如果把 only 从句放到句首，主句要倒装：“Only once it included someone like him did the story become possible.” 这种前置结构在正式和文学性写作中很常见。",
-      "grammar_de": "Achten Sie auf „only once it included someone like him“ und „found his way back only when...“. Steht only vor einem Zeitsatz (only when, only once, only after), betont es, dass etwas erst in diesem Moment geschah und nicht früher. Wird der only-Satz an den Anfang gestellt, folgt im Hauptsatz eine Inversion: „Only once it included someone like him did the story become possible.“ Diese vorangestellte Form ist in formeller und literarischer Sprache verbreitet.",
-      "grammar_pt": "Observe “only once it included someone like him” e “found his way back only when...”. Quando only acompanha uma oração temporal (only when, only once, only after), enfatiza que algo só aconteceu naquele momento, e não antes. Se a oração com only vier no início da frase, a oração principal sofre inversão: “Only once it included someone like him did the story become possible.” Essa forma anteposta é comum na escrita formal e literária.",
-      "questions": [
-        "Why do you think the story only became possible for Lee once a documentary filmmaker entered it?",
-        "Lee distinguishes between telling marginalised people's stories and consuming their pain. Where would you draw that line, in film or in other art forms?",
-        "Does the fact that Possible Love will mainly be seen on Netflix change how you read its critique? Why or why not?"
-      ],
-      "sources": [
-        {
-          "title": "Lee Chang-dong: 'Am I worthy of telling their story?' (Little White Lies, 22 Oct 2026)",
-          "url": "https://www.lwlies.com/in-conversation/lee-chang-dong-possible-love",
-          "license": "link only"
-        },
-        {
-          "title": "Lee Chang-Dong's 'Possible Love' Receives Rapturous Venice Premiere (Resonate)",
-          "url": "https://www.weareresonate.com/2026/09/lee-chang-dongs-possible-love-receives-rapturous-venice-premiere/",
-          "license": "link only"
-        },
-        {
-          "title": "Possible Love Netflix release date (What's on Netflix)",
-          "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date/",
-          "license": "link only"
-        }
-      ]
+     "w": "stature",
+     "en": "the importance and respect a person has gained through their achievements",
+     "zh": "声望；地位",
+     "de": "Rang, Format",
+     "pt": "estatura, prestígio"
     },
     {
-      "lang": "de",
-      "level": "C1",
-      "kind": "picks",
-      "section": "Lesetipps",
-      "title": "Lesetipps für heute",
-      "dek": "Ein Graffiti-Rätselkünstler in Bozen, Hotels aus dem Ostblock, verspielte Elektronik, eine späte Liebesgeschichte und eine Taube in der S-Bahn.",
-      "paragraphs": [],
-      "glossary": [],
-      "questions": [],
-      "sources": [],
-      "picks": [
-        {
-          "outlet": "taz",
-          "genre": "Porträt · Kunst",
-          "title": "Sein Widerstand war zeitlebens ungebrochen",
-          "author": "Hilka Dirks",
-          "url": "https://taz.de/Retrospektive-zu-Rammellzee/!6219139/",
-          "minutes": 6,
-          "en": "The Museion in Bolzano gives Rammellzee – graffiti pioneer, rapper and inventor of his own cosmic theory of letters – a big retrospective; a portrait of an artist who shaped US pop culture yet remains little known.",
-          "zh": "博尔扎诺 Museion 为涂鸦先驱、说唱歌手 Rammellzee 办大型回顾展——一位影响了美国流行文化却鲜为人知的艺术家。",
-          "de": "Das Museion in Bozen widmet dem Graffiti-Pionier und Rapper Rammellzee eine große Retrospektive – Porträt eines einflussreichen Unbekannten.",
-          "pt": "O Museion de Bolzano faz uma grande retrospectiva de Rammellzee, pioneiro do grafite e do rap – um artista influente e pouco conhecido."
-        },
-        {
-          "outlet": "Monopol",
-          "genre": "Fotobuch · Architektur",
-          "title": "Schöner schlafen im Sozialismus",
-          "author": "Katharina Cichosch",
-          "url": "https://www.monopol-magazin.de/socialist-hotels-schoener-schlafen-im-sozialismus",
-          "minutes": 3,
-          "en": "On the photo book 'Socialist Hotels' by Elena Amabili and Caroline Eden, who travelled from Abkhazia to Uzbekistan to document the hotel architecture of the former Eastern Bloc – grand, odd and sometimes abandoned.",
-          "zh": "摄影书《社会主义酒店》：从阿布哈兹到乌兹别克斯坦，记录前东欧阵营那些宏大、古怪、有的已荒废的酒店建筑。",
-          "de": "Über den Fotoband „Socialist Hotels“: Hotelarchitektur des einstigen Ostblocks von Abchasien bis Usbekistan, prächtig, kurios, manchmal verlassen.",
-          "pt": "Sobre o fotolivro “Socialist Hotels”: a arquitetura hoteleira do antigo bloco soviético, da Abecásia ao Uzbequistão."
-        },
-        {
-          "outlet": "taz",
-          "genre": "Kritik · Musik",
-          "title": "Rein in die Sackgasse und rückwärts wieder raus",
-          "author": "Tabea Köbler",
-          "url": "https://taz.de/Duoalbum-von-Bibio-und-Dorian-Concept/!6222561/",
-          "minutes": 4,
-          "en": "A review of 'Answers', the duo album by Bibio and Dorian Concept – ambient music crossed with playful sound experiments, and the reviewer is won over.",
-          "zh": "乐评：Bibio 与 Dorian Concept 合作专辑《Answers》，氛围音乐加上好玩的声音实验，评论者很喜欢。",
-          "de": "Besprechung des Duoalbums „Answers“ von Bibio und Dorian Concept: Ambient trifft verspielte Klangforschung.",
-          "pt": "Resenha de “Answers”, disco de Bibio e Dorian Concept: ambient com experimentos sonoros lúdicos."
-        },
-        {
-          "outlet": "taz",
-          "genre": "Kritik · Buch",
-          "title": "Spätfolgen einer ersten Liebe",
-          "author": "Tim Caspar Boehme",
-          "url": "https://taz.de/Lily-King-Herz-Koenig/!6215473/",
-          "minutes": 4,
-          "en": "A review of Lily King's novel 'Herz, König' (Heart the Lover): a college love story picked up again after years of silence, with dramatic consequences.",
-          "zh": "书评：莉莉·金的小说《心之王》（Heart the Lover），大学时代的爱情在多年沉默后重新上演。",
-          "de": "Besprechung von Lily Kings Roman „Herz, König“: Eine College-Liebe wird nach langer Funkstille wieder lebendig.",
-          "pt": "Resenha do romance de Lily King “Herz, König” (Heart the Lover): um amor de faculdade retomado depois de anos de silêncio."
-        },
-        {
-          "outlet": "taz",
-          "genre": "Glosse · Alltag",
-          "title": "Wie bei Hänsel und Gretel",
-          "author": "Isobel Markus",
-          "url": "https://taz.de/Ohne-Fahrschein/!6222762/",
-          "minutes": 2,
-          "en": "A short, funny column: a pigeon gets stuck in a Berlin S-Bahn train, and fellow passengers come up with ideas to help it out – everyday city life in miniature.",
-          "zh": "小专栏：一只鸽子误入柏林轻轨出不去，乘客们纷纷出主意——城市日常的小剧场。",
-          "de": "Kleine Kolumne: Eine Taube verirrt sich in die S-Bahn, und die Mitreisenden haben Ideen.",
-          "pt": "Crônica curta: um pombo fica preso num trem de Berlim e os passageiros tentam ajudar."
-        }
-      ]
+     "w": "to shadow someone",
+     "en": "(of a problem or question) to follow and trouble someone persistently over a long time",
+     "zh": "如影随形地困扰某人",
+     "de": "jemanden begleiten, verfolgen",
+     "pt": "acompanhar, perseguir alguém"
     },
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "picks",
-      "section": "Reading list",
-      "title": "Today's reading list",
-      "dek": "Rohingya paintings as evidence, a 1980s culture-war history, Pittsburgh's Gothic skyscraper at 100, Slovak post-punk, baseball's child-labour pipeline, and the fight over Antarctic krill.",
-      "paragraphs": [],
-      "glossary": [],
-      "questions": [],
-      "note": "The ProPublica and Now Voyager picks come via Longreads; descriptions follow Longreads' summaries.",
-      "sources": [
-        {
-          "title": "Longreads",
-          "url": "https://longreads.com/",
-          "license": "link only"
-        }
-      ],
-      "picks": [
-        {
-          "outlet": "Hyperallergic",
-          "genre": "Reportage · Art & Migration",
-          "title": "How Art Can Deliver Justice for Refugees",
-          "author": "Duaa Shah",
-          "url": "https://hyperallergic.com/how-art-can-deliver-justice-for-refugees/",
-          "minutes": 5,
-          "en": "Rohingya refugee Enayet Khan painted what he saw in Myanmar and now teaches others to do the same; legal experts explain how such drawings can carry testimony – even into the genocide case at the International Court of Justice.",
-          "zh": "罗兴亚难民画下亲历的暴力，法律专家解释这些画如何成为证词，甚至进入国际法院的种族灭绝案。",
-          "de": "Rohingya-Geflüchtete malen, was sie erlebt haben – und ihre Bilder können vor Gericht als Zeugnis dienen.",
-          "pt": "Refugiados rohingyas pintam o que viveram – e esses desenhos podem servir de testemunho em tribunais internacionais."
-        },
-        {
-          "outlet": "Hyperallergic",
-          "genre": "Review · Books & Ideas",
-          "title": "The War on Art Is Repeating Itself",
-          "author": "Martha Wilson",
-          "url": "https://hyperallergic.com/the-war-on-art-is-repeating-itself/",
-          "minutes": 3,
-          "en": "Franklin Furnace founder Martha Wilson reviews Isaac Butler's 'The Perfect Moment', a history of the 1980s–90s culture wars over Mapplethorpe, Serrano and the NEA – and why it reads like a warning for today.",
-          "zh": "Franklin Furnace 创办人评艾萨克·巴特勒新书，回顾八九十年代围绕梅普尔索普和美国艺术基金会的「文化战争」，及其对今天的警示。",
-          "de": "Martha Wilson bespricht Isaac Butlers Buch über die US-Kulturkämpfe der 80er und 90er – mit Blick auf heute.",
-          "pt": "Martha Wilson resenha o livro de Isaac Butler sobre as guerras culturais dos anos 80 e 90 nos EUA – e o paralelo com hoje."
-        },
-        {
-          "outlet": "Hyperallergic",
-          "genre": "Essay · Architecture",
-          "title": "The Cathedral of Learning Is Pittsburgh's Secular Temple",
-          "author": "Ed Simon",
-          "url": "https://hyperallergic.com/the-cathedral-of-learning-is-pittsburghs-secular-temple/",
-          "minutes": 5,
-          "en": "A centenary essay on the University of Pittsburgh's neo-Gothic skyscraper, once the world's tallest educational building – how it fused cathedral and skyscraper, and why it still rules the city's skyline.",
-          "zh": "匹兹堡大学新哥特式摩天楼「学习大教堂」百年：教堂与摩天楼如何合而为一。",
-          "de": "Zum 100. Jubiläum: Pittsburghs neugotischer Uni-Wolkenkratzer, eine Kathedrale der Bildung.",
-          "pt": "Centenário da “Catedral do Saber”, o arranha-céu neogótico da Universidade de Pittsburgh."
-        },
-        {
-          "outlet": "Bandcamp Daily",
-          "genre": "Feature · Music",
-          "title": "Behind The Iron Curtain, Maťkovia Staged A Post-Punk Revolution",
-          "url": "https://daily.bandcamp.com/features/matkovia-1982-1986-feature",
-          "minutes": 8,
-          "en": "The story of Maťkovia, a band that brought post-punk to 1980s Czechoslovakia, told around the reissue of their 1982–1986 recordings – underground music made under state socialism.",
-          "zh": "斯洛伐克乐队 Maťkovia 的故事：八十年代铁幕下的后朋克，借其 1982–1986 录音再版回顾。",
-          "de": "Die Band Maťkovia und der Post-Punk hinter dem Eisernen Vorhang – anlässlich ihrer Aufnahmen von 1982–1986.",
-          "pt": "A banda Maťkovia e o pós-punk atrás da Cortina de Ferro, nos anos 1980."
-        },
-        {
-          "outlet": "ProPublica (via Longreads)",
-          "genre": "Investigation · Society",
-          "title": "The Dominican Baseball Factory",
-          "author": "Gus Garcia-Roberts",
-          "url": "https://longreads.com/2026/10/22/dominican-republic-major-league-baseball-investigation/",
-          "minutes": 25,
-          "en": "Longreads' pick: an investigation into handshake deals struck with very young Dominican players, propped up by predatory lenders – a system Major League Baseball and the players' union have left unaddressed.",
-          "zh": "调查报道：多米尼加少年棒球手的口头协议与掠夺性放贷，美国职棒和球员工会都没管。",
-          "de": "Recherche über Handschlag-Deals mit sehr jungen dominikanischen Baseballspielern und Kredithaie im Hintergrund.",
-          "pt": "Investigação sobre acordos informais com jogadores dominicanos muito jovens, financiados por agiotas."
-        },
-        {
-          "outlet": "Now Voyager (via Longreads)",
-          "genre": "Essay · Nature",
-          "title": "Supplemental Journey",
-          "author": "Gordon Peake",
-          "url": "https://longreads.com/2026/10/15/krill-supplement-carbon-fishing-antarctic-activism/",
-          "minutes": 20,
-          "en": "Longreads' pick: a journey into krill fishing in the Antarctic and the conflicts it has stirred up – a tiny creature at the centre of a big fight.",
-          "zh": "南极磷虾捕捞及其引发的争议——小小生物卷入大冲突。",
-          "de": "Über den Krillfang in der Antarktis und die Konflikte, die er auslöst.",
-          "pt": "Sobre a pesca de krill na Antártida e os conflitos que ela provoca."
-        },
-        {
-          "outlet": "The Guardian",
-          "genre": "Browse · The Long Read",
-          "title": "The Long Read – latest essays",
-          "url": "https://www.theguardian.com/news/series/the-long-read",
-          "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
-          "zh": "《卫报》长文栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
-          "de": "Die Longreads des Guardian – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
-          "pt": "Os textos longos do Guardian – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
-        },
-        {
-          "outlet": "The Atlantic",
-          "genre": "Browse · Ideas",
-          "title": "Ideas – essays and arguments",
-          "url": "https://www.theatlantic.com/ideas/",
-          "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
-          "zh": "《大西洋月刊》观点栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
-          "de": "Essays und Debatten von The Atlantic – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
-          "pt": "Ensaios e debates da The Atlantic – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
-        }
-      ]
+     "w": "class divide",
+     "en": "a deep separation between social classes in wealth, opportunity and experience",
+     "zh": "阶级鸿沟",
+     "de": "Klassengrenze, Klassenkluft",
+     "pt": "abismo de classe"
+    },
+    {
+     "w": "displaced workers",
+     "en": "people who have lost their jobs through closures, layoffs or economic change",
+     "zh": "失业工人；被迫离岗的工人",
+     "de": "entlassene, verdrängte Arbeitskräfte",
+     "pt": "trabalhadores demitidos ou deslocados"
+    },
+    {
+     "w": "to shelve (a project)",
+     "en": "to postpone or abandon a plan, often temporarily",
+     "zh": "搁置（项目）",
+     "de": "auf Eis legen",
+     "pt": "engavetar"
+    },
+    {
+     "w": "to stand to gain",
+     "en": "to be in a position where one is likely to benefit",
+     "zh": "可能从中获益",
+     "de": "profitieren können",
+     "pt": "poder sair ganhando"
+    },
+    {
+     "w": "erosion",
+     "en": "a gradual weakening or destruction of something",
+     "zh": "逐渐瓦解；侵蚀",
+     "de": "Verfall, Aushöhlung",
+     "pt": "erosão, desgaste"
+    },
+    {
+     "w": "tacit",
+     "en": "understood or shared without being stated openly",
+     "zh": "默契的；心照不宣的",
+     "de": "stillschweigend",
+     "pt": "tácito"
+    },
+    {
+     "w": "to feed on",
+     "en": "to use something as a source of energy or material, often in an exploitative way",
+     "zh": "以……为养料；靠……滋长",
+     "de": "sich nähren von",
+     "pt": "alimentar-se de"
+    },
+    {
+     "w": "reflexive",
+     "en": "(of a work of art) turning back to examine its own methods or position",
+     "zh": "自我反思的",
+     "de": "selbstreflexiv",
+     "pt": "autorreflexivo"
+    },
+    {
+     "w": "to dwell on",
+     "en": "to spend a long time thinking or talking about something",
+     "zh": "细谈；纠缠于",
+     "de": "bei etwas verweilen, vertiefen",
+     "pt": "deter-se em"
     }
-  ]
+   ],
+   "grammar": "Notice 'only once it included someone like him' and 'found his way back only when...'. 'Only' attached to a time clause (only when, only once, only after) stresses that something happened at that point and not before. If the 'only' clause is moved to the front, the main clause takes inversion: 'Only once it included someone like him did the story become possible.' This fronted form is common in formal and literary writing.",
+   "grammar_zh": "注意 “only once it included someone like him” 和 “found his way back only when...”。only 修饰时间从句（only when、only once、only after）时，强调事情恰恰在那一刻才发生，而不是之前。如果把 only 从句放到句首，主句要倒装：“Only once it included someone like him did the story become possible.” 这种前置结构在正式和文学性写作中很常见。",
+   "grammar_de": "Achten Sie auf „only once it included someone like him“ und „found his way back only when...“. Steht only vor einem Zeitsatz (only when, only once, only after), betont es, dass etwas erst in diesem Moment geschah und nicht früher. Wird der only-Satz an den Anfang gestellt, folgt im Hauptsatz eine Inversion: „Only once it included someone like him did the story become possible.“ Diese vorangestellte Form ist in formeller und literarischer Sprache verbreitet.",
+   "grammar_pt": "Observe “only once it included someone like him” e “found his way back only when...”. Quando only acompanha uma oração temporal (only when, only once, only after), enfatiza que algo só aconteceu naquele momento, e não antes. Se a oração com only vier no início da frase, a oração principal sofre inversão: “Only once it included someone like him did the story become possible.” Essa forma anteposta é comum na escrita formal e literária.",
+   "questions": [
+    "Why do you think the story only became possible for Lee once a documentary filmmaker entered it?",
+    "Lee distinguishes between telling marginalised people's stories and consuming their pain. Where would you draw that line, in film or in other art forms?",
+    "Does the fact that Possible Love will mainly be seen on Netflix change how you read its critique? Why or why not?"
+   ],
+   "sources": [
+    {
+     "title": "Lee Chang-dong: 'Am I worthy of telling their story?' (Little White Lies, 22 Oct 2026)",
+     "url": "https://www.lwlies.com/in-conversation/lee-chang-dong-possible-love",
+     "license": "link only"
+    },
+    {
+     "title": "Lee Chang-Dong's 'Possible Love' Receives Rapturous Venice Premiere (Resonate)",
+     "url": "https://www.weareresonate.com/2026/09/lee-chang-dongs-possible-love-receives-rapturous-venice-premiere/",
+     "license": "link only"
+    },
+    {
+     "title": "Possible Love Netflix release date (What's on Netflix)",
+     "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "picks",
+   "section": "Lesetipps",
+   "title": "Lesetipps für heute",
+   "dek": "Ein Graffiti-Rätselkünstler in Bozen, Hotels aus dem Ostblock, verspielte Elektronik, eine späte Liebesgeschichte und eine Taube in der S-Bahn.",
+   "paragraphs": [],
+   "glossary": [],
+   "questions": [],
+   "sources": [],
+   "picks": [
+    {
+     "outlet": "taz",
+     "genre": "Porträt · Kunst",
+     "title": "Sein Widerstand war zeitlebens ungebrochen",
+     "author": "Hilka Dirks",
+     "url": "https://taz.de/Retrospektive-zu-Rammellzee/!6219139/",
+     "minutes": 6,
+     "en": "The Museion in Bolzano gives Rammellzee – graffiti pioneer, rapper and inventor of his own cosmic theory of letters – a big retrospective; a portrait of an artist who shaped US pop culture yet remains little known.",
+     "zh": "博尔扎诺 Museion 为涂鸦先驱、说唱歌手 Rammellzee 办大型回顾展——一位影响了美国流行文化却鲜为人知的艺术家。",
+     "de": "Das Museion in Bozen widmet dem Graffiti-Pionier und Rapper Rammellzee eine große Retrospektive – Porträt eines einflussreichen Unbekannten.",
+     "pt": "O Museion de Bolzano faz uma grande retrospectiva de Rammellzee, pioneiro do grafite e do rap – um artista influente e pouco conhecido."
+    },
+    {
+     "outlet": "Monopol",
+     "genre": "Fotobuch · Architektur",
+     "title": "Schöner schlafen im Sozialismus",
+     "author": "Katharina Cichosch",
+     "url": "https://www.monopol-magazin.de/socialist-hotels-schoener-schlafen-im-sozialismus",
+     "minutes": 3,
+     "en": "On the photo book 'Socialist Hotels' by Elena Amabili and Caroline Eden, who travelled from Abkhazia to Uzbekistan to document the hotel architecture of the former Eastern Bloc – grand, odd and sometimes abandoned.",
+     "zh": "摄影书《社会主义酒店》：从阿布哈兹到乌兹别克斯坦，记录前东欧阵营那些宏大、古怪、有的已荒废的酒店建筑。",
+     "de": "Über den Fotoband „Socialist Hotels“: Hotelarchitektur des einstigen Ostblocks von Abchasien bis Usbekistan, prächtig, kurios, manchmal verlassen.",
+     "pt": "Sobre o fotolivro “Socialist Hotels”: a arquitetura hoteleira do antigo bloco soviético, da Abecásia ao Uzbequistão."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Kritik · Musik",
+     "title": "Rein in die Sackgasse und rückwärts wieder raus",
+     "author": "Tabea Köbler",
+     "url": "https://taz.de/Duoalbum-von-Bibio-und-Dorian-Concept/!6222561/",
+     "minutes": 4,
+     "en": "A review of 'Answers', the duo album by Bibio and Dorian Concept – ambient music crossed with playful sound experiments, and the reviewer is won over.",
+     "zh": "乐评：Bibio 与 Dorian Concept 合作专辑《Answers》，氛围音乐加上好玩的声音实验，评论者很喜欢。",
+     "de": "Besprechung des Duoalbums „Answers“ von Bibio und Dorian Concept: Ambient trifft verspielte Klangforschung.",
+     "pt": "Resenha de “Answers”, disco de Bibio e Dorian Concept: ambient com experimentos sonoros lúdicos."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Kritik · Buch",
+     "title": "Spätfolgen einer ersten Liebe",
+     "author": "Tim Caspar Boehme",
+     "url": "https://taz.de/Lily-King-Herz-Koenig/!6215473/",
+     "minutes": 4,
+     "en": "A review of Lily King's novel 'Herz, König' (Heart the Lover): a college love story picked up again after years of silence, with dramatic consequences.",
+     "zh": "书评：莉莉·金的小说《心之王》（Heart the Lover），大学时代的爱情在多年沉默后重新上演。",
+     "de": "Besprechung von Lily Kings Roman „Herz, König“: Eine College-Liebe wird nach langer Funkstille wieder lebendig.",
+     "pt": "Resenha do romance de Lily King “Herz, König” (Heart the Lover): um amor de faculdade retomado depois de anos de silêncio."
+    },
+    {
+     "outlet": "taz",
+     "genre": "Glosse · Alltag",
+     "title": "Wie bei Hänsel und Gretel",
+     "author": "Isobel Markus",
+     "url": "https://taz.de/Ohne-Fahrschein/!6222762/",
+     "minutes": 2,
+     "en": "A short, funny column: a pigeon gets stuck in a Berlin S-Bahn train, and fellow passengers come up with ideas to help it out – everyday city life in miniature.",
+     "zh": "小专栏：一只鸽子误入柏林轻轨出不去，乘客们纷纷出主意——城市日常的小剧场。",
+     "de": "Kleine Kolumne: Eine Taube verirrt sich in die S-Bahn, und die Mitreisenden haben Ideen.",
+     "pt": "Crônica curta: um pombo fica preso num trem de Berlim e os passageiros tentam ajudar."
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "picks",
+   "section": "Reading list",
+   "title": "Today's reading list",
+   "dek": "Rohingya paintings as evidence, a 1980s culture-war history, Pittsburgh's Gothic skyscraper at 100, Slovak post-punk, baseball's child-labour pipeline, and the fight over Antarctic krill.",
+   "paragraphs": [],
+   "glossary": [],
+   "questions": [],
+   "note": "The ProPublica and Now Voyager picks come via Longreads; descriptions follow Longreads' summaries.",
+   "sources": [
+    {
+     "title": "Longreads",
+     "url": "https://longreads.com/",
+     "license": "link only"
+    }
+   ],
+   "picks": [
+    {
+     "outlet": "Hyperallergic",
+     "genre": "Reportage · Art & Migration",
+     "title": "How Art Can Deliver Justice for Refugees",
+     "author": "Duaa Shah",
+     "url": "https://hyperallergic.com/how-art-can-deliver-justice-for-refugees/",
+     "minutes": 5,
+     "en": "Rohingya refugee Enayet Khan painted what he saw in Myanmar and now teaches others to do the same; legal experts explain how such drawings can carry testimony – even into the genocide case at the International Court of Justice.",
+     "zh": "罗兴亚难民画下亲历的暴力，法律专家解释这些画如何成为证词，甚至进入国际法院的种族灭绝案。",
+     "de": "Rohingya-Geflüchtete malen, was sie erlebt haben – und ihre Bilder können vor Gericht als Zeugnis dienen.",
+     "pt": "Refugiados rohingyas pintam o que viveram – e esses desenhos podem servir de testemunho em tribunais internacionais."
+    },
+    {
+     "outlet": "Hyperallergic",
+     "genre": "Review · Books & Ideas",
+     "title": "The War on Art Is Repeating Itself",
+     "author": "Martha Wilson",
+     "url": "https://hyperallergic.com/the-war-on-art-is-repeating-itself/",
+     "minutes": 3,
+     "en": "Franklin Furnace founder Martha Wilson reviews Isaac Butler's 'The Perfect Moment', a history of the 1980s–90s culture wars over Mapplethorpe, Serrano and the NEA – and why it reads like a warning for today.",
+     "zh": "Franklin Furnace 创办人评艾萨克·巴特勒新书，回顾八九十年代围绕梅普尔索普和美国艺术基金会的「文化战争」，及其对今天的警示。",
+     "de": "Martha Wilson bespricht Isaac Butlers Buch über die US-Kulturkämpfe der 80er und 90er – mit Blick auf heute.",
+     "pt": "Martha Wilson resenha o livro de Isaac Butler sobre as guerras culturais dos anos 80 e 90 nos EUA – e o paralelo com hoje."
+    },
+    {
+     "outlet": "Hyperallergic",
+     "genre": "Essay · Architecture",
+     "title": "The Cathedral of Learning Is Pittsburgh's Secular Temple",
+     "author": "Ed Simon",
+     "url": "https://hyperallergic.com/the-cathedral-of-learning-is-pittsburghs-secular-temple/",
+     "minutes": 5,
+     "en": "A centenary essay on the University of Pittsburgh's neo-Gothic skyscraper, once the world's tallest educational building – how it fused cathedral and skyscraper, and why it still rules the city's skyline.",
+     "zh": "匹兹堡大学新哥特式摩天楼「学习大教堂」百年：教堂与摩天楼如何合而为一。",
+     "de": "Zum 100. Jubiläum: Pittsburghs neugotischer Uni-Wolkenkratzer, eine Kathedrale der Bildung.",
+     "pt": "Centenário da “Catedral do Saber”, o arranha-céu neogótico da Universidade de Pittsburgh."
+    },
+    {
+     "outlet": "Bandcamp Daily",
+     "genre": "Feature · Music",
+     "title": "Behind The Iron Curtain, Maťkovia Staged A Post-Punk Revolution",
+     "url": "https://daily.bandcamp.com/features/matkovia-1982-1986-feature",
+     "minutes": 8,
+     "en": "The story of Maťkovia, a band that brought post-punk to 1980s Czechoslovakia, told around the reissue of their 1982–1986 recordings – underground music made under state socialism.",
+     "zh": "斯洛伐克乐队 Maťkovia 的故事：八十年代铁幕下的后朋克，借其 1982–1986 录音再版回顾。",
+     "de": "Die Band Maťkovia und der Post-Punk hinter dem Eisernen Vorhang – anlässlich ihrer Aufnahmen von 1982–1986.",
+     "pt": "A banda Maťkovia e o pós-punk atrás da Cortina de Ferro, nos anos 1980."
+    },
+    {
+     "outlet": "ProPublica (via Longreads)",
+     "genre": "Investigation · Society",
+     "title": "The Dominican Baseball Factory",
+     "author": "Gus Garcia-Roberts",
+     "url": "https://longreads.com/2026/10/22/dominican-republic-major-league-baseball-investigation/",
+     "minutes": 25,
+     "en": "Longreads' pick: an investigation into handshake deals struck with very young Dominican players, propped up by predatory lenders – a system Major League Baseball and the players' union have left unaddressed.",
+     "zh": "调查报道：多米尼加少年棒球手的口头协议与掠夺性放贷，美国职棒和球员工会都没管。",
+     "de": "Recherche über Handschlag-Deals mit sehr jungen dominikanischen Baseballspielern und Kredithaie im Hintergrund.",
+     "pt": "Investigação sobre acordos informais com jogadores dominicanos muito jovens, financiados por agiotas."
+    },
+    {
+     "outlet": "Now Voyager (via Longreads)",
+     "genre": "Essay · Nature",
+     "title": "Supplemental Journey",
+     "author": "Gordon Peake",
+     "url": "https://longreads.com/2026/10/15/krill-supplement-carbon-fishing-antarctic-activism/",
+     "minutes": 20,
+     "en": "Longreads' pick: a journey into krill fishing in the Antarctic and the conflicts it has stirred up – a tiny creature at the centre of a big fight.",
+     "zh": "南极磷虾捕捞及其引发的争议——小小生物卷入大冲突。",
+     "de": "Über den Krillfang in der Antarktis und die Konflikte, die er auslöst.",
+     "pt": "Sobre a pesca de krill na Antártida e os conflitos que ela provoca."
+    },
+    {
+     "outlet": "The Guardian",
+     "genre": "Browse · The Long Read",
+     "title": "The Long Read – latest essays",
+     "url": "https://www.theguardian.com/news/series/the-long-read",
+     "en": "The Guardian's long-read series. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
+     "zh": "《卫报》长文栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
+     "de": "Die Longreads des Guardian – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
+     "pt": "Os textos longos do Guardian – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
+    },
+    {
+     "outlet": "The Atlantic",
+     "genre": "Browse · Ideas",
+     "title": "Ideas – essays and arguments",
+     "url": "https://www.theatlantic.com/ideas/",
+     "en": "The Atlantic's essays and arguments. Pick one on the site and read it to the end; paste it into 'My articles' if you want to study it.",
+     "zh": "《大西洋月刊》观点栏目，自己去网站挑一篇读完；想精读可以贴进「我的文章」。",
+     "de": "Essays und Debatten von The Atlantic – selbst eine auswählen und zu Ende lesen; zum Lernen in „Meine Artikel“ einfügen.",
+     "pt": "Ensaios e debates da The Atlantic – escolha um no site e leia até o fim; cole em “Meus artigos” para estudar."
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "feature",
+   "section": "Film",
+   "title": "Ein Großvater unter Verdacht",
+   "dek": "Eine Maske aus Tansania, ein Leipziger Museum und drei Kinder mit Walkie-Talkies: Der Kinderkrimi „Das Geheimnis der gestohlenen Maske“ macht aus kolonialer Geschichte ein Abenteuer für die ganze Familie.",
+   "paragraphs": [
+    "Am 29. Oktober kommt ein Kinderfilm in die Kinos, der etwas wagt, das im deutschen Familienkino selten ist: Er verpackt die Frage nach kolonialem Raubgut in eine Detektivgeschichte. „Das Geheimnis der gestohlenen Maske“ von Regisseurin Nancy Mac Granaky-Quaye dauert 100 Minuten, ist ab sechs Jahren freigegeben und wird für Kinder zwischen acht und dreizehn empfohlen. Wer bei dem Thema an trockene Museumsdebatten denkt, darf sich auf Walkie-Talkies, selbstgebaute Drohnen und ein ziemlich tollpatschiges Polizeiduo freuen.",
+    "Im Mittelpunkt steht die elfjährige Johanna aus Leipzig, ein neugieriges, aufgewecktes Mädchen. Eines Tages besucht sie überraschend ihr Großvater Kito aus Tansania, den sie bis dahin noch nie getroffen hat. Gemeinsam gehen die beiden ins Völkerkundemuseum, und dort bleibt Kito vor einer alten Maske der Makonde wie angewurzelt stehen. Er ist überzeugt, dass es sich um ein in der Kolonialzeit aus seinem Dorf geraubtes Stück handelt – ein fehlendes Teil ist für ihn der Beweis.",
+    "Kurz darauf ist genau diese Maske verschwunden, und die Polizei verdächtigt ausgerechnet den Großvater. Johanna glaubt fest an seine Unschuld und geht mit ihren Freunden auf Spurensuche: mit der mutigen Sweta und dem cleveren Anton. Die Spur führt die drei in die koloniale Vergangenheit und zurück in die Gegenwart. Nebenbei entdeckt Johanna, so beschreibt es die Filmbildungsplattform Vision Kino, ein bisher unbekanntes Stück von sich selbst.",
+    "Die Makonde leben im Norden Mosambiks und in Tansania; berühmt sind ihre Mapiko-Masken, die aus weichem Holz geschnitzt und bei zeremoniellen Tänzen getragen werden. Wie solche Objekte in europäische Museen gelangt sind, ist eine Frage, die der Film nicht mit dem erhobenen Zeigefinger stellt, sondern als Rätsel. Vision Kino lobt gerade das: dass ein komplexes Thema spannend erzählt wird, ohne die jungen Zuschauer zu überfordern. Für Schulen schlägt die Plattform den Film von der dritten bis zur achten Klasse vor – etwa mit der Idee, danach eigene Masken zu basteln.",
+    "Gedreht wurde im Sommer 2025 unter anderem im GRASSI Museum für Völkerkunde zu Leipzig, wo der Film inzwischen auch in einer Vorpremiere lief. Es handelt sich um eine Koproduktion des MDR im Rahmen der Initiative „Der besondere Kinderfilm“. Johanna wird von Muiné Keune gespielt, Kito von Komi Mizrajim Togbonou; dazu kommen Greta Kasalo und Morris Mayer als Freundesduo sowie Erwachsene wie Claudia Michelsen, Malick Bauer und Peri Baumeister.",
+    "Auch formal hat der Film ein paar hübsche Einfälle: Handynachrichten erscheinen als kleine Animationen direkt im Bild, und die Musik mit ihren empowernden Texten trägt viele Szenen. Ganz ohne Schwächen ist er nicht – die Handlung sei stellenweise vorhersehbar, heißt es bei Vision Kino, doch Slapstick und Gastauftritte von „Checker Julian“ und „Checker Marina“ fingen das wieder auf. Beim Zurich Film Festival gewann der Film sowohl den Jury- als auch den Publikumspreis der Kinderreihe. Ein guter Anlass also für einen Familienausflug ins Kino – und für ein Gespräch auf dem Heimweg."
+   ],
+   "paragraphs_en": [
+    "On 29 October a children's film opens in cinemas that dares to do something rare in German family cinema: it wraps the question of colonial loot in a detective story. 'Das Geheimnis der gestohlenen Maske' (The Secret of the Stolen Mask) by director Nancy Mac Granaky-Quaye runs for 100 minutes, is rated 6 and up, and is recommended for children between eight and thirteen. Anyone who associates the topic with dry museum debates can look forward to walkie-talkies, home-built drones and a rather clumsy pair of police officers.",
+    "At the centre is eleven-year-old Johanna from Leipzig, a curious, bright girl. One day her grandfather Kito from Tanzania pays her a surprise visit – she has never met him before. Together the two go to the ethnological museum, where Kito stops dead in front of an old Makonde mask. He is convinced it is a piece looted from his village in colonial times – a missing part is his proof.",
+    "Shortly afterwards this very mask disappears, and the police suspect, of all people, the grandfather. Johanna firmly believes he is innocent and goes looking for clues with her friends: brave Sweta and clever Anton. The trail leads the three into the colonial past and back into the present. Along the way, as the film education platform Vision Kino puts it, Johanna discovers a previously unknown part of herself.",
+    "The Makonde live in northern Mozambique and in Tanzania; they are famous for their mapiko masks, carved from soft wood and worn during ceremonial dances. How such objects ended up in European museums is a question the film asks not with a wagging finger but as a puzzle. Vision Kino praises exactly that: a complex subject told in an exciting way without overwhelming young viewers. For schools, the platform suggests the film from third to eighth grade – for instance with the idea of making your own masks afterwards.",
+    "Shooting took place in summer 2025, partly at the GRASSI Museum of Ethnology in Leipzig, where the film has since also had a preview screening. It is a co-production of the broadcaster MDR as part of the initiative 'Der besondere Kinderfilm' (The Special Children's Film). Johanna is played by Muiné Keune, Kito by Komi Mizrajim Togbonou; they are joined by Greta Kasalo and Morris Mayer as the pair of friends, and adults such as Claudia Michelsen, Malick Bauer and Peri Baumeister.",
+    "Formally, too, the film has a few nice ideas: text messages appear as small animations right in the frame, and the music, with its empowering lyrics, carries many scenes. It is not without weaknesses – the plot is predictable in places, Vision Kino says, but slapstick and guest appearances by 'Checker Julian' and 'Checker Marina' make up for it. At the Zurich Film Festival the film won both the jury and the audience award of the children's section. A good reason, then, for a family trip to the cinema – and for a conversation on the way home."
+   ],
+   "paragraphs_zh": [
+    "10月29日，一部儿童电影将在影院上映，它做了一件德国家庭电影里很少见的事：把殖民掠夺文物的问题包装成一个侦探故事。导演南希·麦克·格拉纳基-奎耶的《被盗面具之谜》片长100分钟，六岁以上可看，推荐给八到十三岁的孩子。谁要是一听这个题目就想到枯燥的博物馆争论，那就等着看对讲机、自制无人机和一对笨手笨脚的警察吧。",
+    "故事的中心是来自莱比锡的十一岁女孩约翰娜，她好奇又机灵。有一天，她从未见过的外公基托从坦桑尼亚突然来访。两人一起去了民族学博物馆，基托在一张古老的马孔德面具前一下子愣住了。他坚信，这是殖民时期从他村子里抢走的东西——缺掉的一块就是证据。",
+    "没过多久，恰恰是这张面具失踪了，而警察偏偏怀疑起外公来。约翰娜坚信他是清白的，和朋友们一起追查线索：勇敢的斯薇塔和聪明的安东。线索把三个孩子带进殖民历史，又带回当下。电影教育平台 Vision Kino 写道，约翰娜在这过程中还发现了自己身上以前不了解的一部分。",
+    "马孔德人生活在莫桑比克北部和坦桑尼亚；他们以马皮科面具闻名，这种面具用软木雕成，在仪式舞蹈中佩戴。这类物品是怎么进入欧洲博物馆的？电影没有居高临下地说教，而是把这个问题变成一个谜题。Vision Kino 正是称赞这一点：复杂的题目讲得紧张有趣，又不会让小观众吃不消。平台建议学校在三到八年级使用这部电影——比如看完之后自己动手做面具。",
+    "影片于2025年夏天拍摄，部分场景在莱比锡格拉西民族学博物馆完成，影片也已在那里举行过预映。这是中德广播电台（MDR）在“特别儿童电影”计划框架下的合拍片。约翰娜由穆伊内·科伊纳饰演，基托由科米·米兹拉吉姆·托博努饰演；格蕾塔·卡萨洛和莫里斯·迈尔饰演两位朋友，成年演员有克劳迪娅·米歇尔森、马利克·鲍尔和佩里·鲍迈斯特等。",
+    "形式上，影片也有几个可爱的点子：手机消息以小动画的形式直接出现在画面里，带着鼓舞人心歌词的音乐撑起了许多场景。它并非没有缺点——Vision Kino 说情节有些地方可以猜到，不过滑稽桥段以及“探索者尤利安”和“探索者玛丽娜”的客串弥补了这一点。在苏黎世电影节上，这部片子同时拿下了儿童单元的评审奖和观众奖。所以，这是全家一起去电影院的好理由——也是回家路上聊一聊的好话题。"
+   ],
+   "paragraphs_pt": [
+    "Em 29 de outubro estreia nos cinemas um filme infantil que ousa algo raro no cinema familiar alemão: embrulha a questão dos objetos saqueados na época colonial numa história de detetive. “Das Geheimnis der gestohlenen Maske” (O segredo da máscara roubada), da diretora Nancy Mac Granaky-Quaye, tem 100 minutos, é livre a partir dos seis anos e recomendado para crianças de oito a treze. Quem associa o tema a debates museológicos chatos pode esperar walkie-talkies, drones caseiros e uma dupla de policiais bem atrapalhada.",
+    "No centro está Johanna, de onze anos, de Leipzig, uma menina curiosa e esperta. Um dia, o avô Kito, da Tanzânia, aparece de surpresa – ela nunca o tinha visto antes. Os dois vão juntos ao museu etnológico, e lá Kito para, petrificado, diante de uma antiga máscara makonde. Ele tem certeza de que se trata de uma peça saqueada da sua aldeia na época colonial – uma parte que falta é a prova.",
+    "Pouco depois, justamente essa máscara desaparece, e a polícia suspeita logo do avô. Johanna acredita firmemente na inocência dele e sai em busca de pistas com os amigos: a corajosa Sweta e o esperto Anton. A pista leva os três ao passado colonial e de volta ao presente. No caminho, como descreve a plataforma de educação cinematográfica Vision Kino, Johanna descobre um pedaço de si mesma que ainda não conhecia.",
+    "Os makonde vivem no norte de Moçambique e na Tanzânia; são famosos por suas máscaras mapiko, entalhadas em madeira macia e usadas em danças cerimoniais. Como esses objetos foram parar em museus europeus é uma pergunta que o filme não faz com o dedo em riste, mas como um enigma. A Vision Kino elogia justamente isso: um tema complexo contado de forma emocionante, sem sobrecarregar o público jovem. Para as escolas, a plataforma sugere o filme do terceiro ao oitavo ano – por exemplo, com a ideia de fazer máscaras próprias depois.",
+    "As filmagens aconteceram no verão de 2025, em parte no Museu GRASSI de Etnologia de Leipzig, onde o filme também já teve uma pré-estreia. É uma coprodução da emissora MDR dentro da iniciativa “Der besondere Kinderfilm” (O filme infantil especial). Johanna é interpretada por Muiné Keune, Kito por Komi Mizrajim Togbonou; completam o elenco Greta Kasalo e Morris Mayer como a dupla de amigos e adultos como Claudia Michelsen, Malick Bauer e Peri Baumeister.",
+    "Também na forma o filme tem algumas boas ideias: mensagens de celular aparecem como pequenas animações dentro da imagem, e a música, com letras de empoderamento, sustenta muitas cenas. Não é isento de falhas – a trama é previsível em alguns momentos, diz a Vision Kino, mas o pastelão e as participações de “Checker Julian” e “Checker Marina” compensam. No Festival de Cinema de Zurique, o filme ganhou tanto o prêmio do júri quanto o do público da mostra infantil. Um bom motivo, portanto, para um passeio em família ao cinema – e para uma conversa na volta para casa."
+   ],
+   "glossary": [
+    {
+     "w": "das Raubgut",
+     "de": "Dinge, die jemandem mit Gewalt oder durch Unrecht weggenommen wurden. „Koloniales Raubgut“ sind Objekte, die in der Kolonialzeit aus besetzten Ländern geholt wurden.",
+     "en": "loot, plundered goods",
+     "zh": "掠夺来的物品，赃物",
+     "pt": "bens saqueados, espólio"
+    },
+    {
+     "w": "etwas wagen",
+     "de": "Den Mut haben, etwas Riskantes oder Ungewöhnliches zu tun.",
+     "en": "to dare, to venture",
+     "zh": "敢于，冒险去做",
+     "pt": "ousar, arriscar"
+    },
+    {
+     "w": "tollpatschig",
+     "de": "Ungeschickt; jemand stolpert, lässt Dinge fallen oder macht aus Versehen etwas kaputt.",
+     "en": "clumsy",
+     "zh": "笨手笨脚的",
+     "pt": "desajeitado, atrapalhado"
+    },
+    {
+     "w": "aufgeweckt",
+     "de": "Wach im Kopf, schnell im Denken und interessiert – meist über Kinder gesagt.",
+     "en": "bright, sharp (of a child)",
+     "zh": "（孩子）机灵的，聪明的",
+     "pt": "esperto, vivo (criança)"
+    },
+    {
+     "w": "wie angewurzelt stehen bleiben",
+     "de": "Plötzlich stehen bleiben und sich vor Überraschung oder Schreck nicht mehr bewegen – wie eine Pflanze mit Wurzeln.",
+     "en": "to stop dead, stand rooted to the spot",
+     "zh": "像生了根一样呆立不动",
+     "pt": "ficar parado como uma estátua, petrificado"
+    },
+    {
+     "w": "ausgerechnet",
+     "de": "Betont, dass etwas überraschend oder ärgerlich ist, weil es gerade diese Person oder Sache trifft.",
+     "en": "of all people/things",
+     "zh": "偏偏，恰恰",
+     "pt": "justamente, logo (quem menos se espera)"
+    },
+    {
+     "w": "auf Spurensuche gehen",
+     "de": "Nach Hinweisen suchen, um etwas Unbekanntes oder ein Rätsel aufzuklären.",
+     "en": "to go looking for clues",
+     "zh": "寻找线索，追查",
+     "pt": "sair em busca de pistas"
+    },
+    {
+     "w": "schnitzen",
+     "de": "Mit einem Messer aus Holz eine Form oder Figur herstellen.",
+     "en": "to carve (wood)",
+     "zh": "雕刻（木头）",
+     "pt": "entalhar (madeira)"
+    },
+    {
+     "w": "mit erhobenem Zeigefinger",
+     "de": "Belehrend, moralisch, so wie jemand, der andere ermahnt. Meist kritisch gemeint.",
+     "en": "preachy, with a wagging finger",
+     "zh": "居高临下地说教",
+     "pt": "com o dedo em riste, em tom de sermão"
+    },
+    {
+     "w": "überfordern",
+     "de": "Von jemandem mehr verlangen, als er schaffen oder verstehen kann.",
+     "en": "to overwhelm, ask too much of",
+     "zh": "使负担过重，要求过高",
+     "pt": "sobrecarregar, exigir demais de"
+    },
+    {
+     "w": "die Länge (im Film)",
+     "de": "Im Plural „Längen“: Stellen in einem Film oder Buch, die zu langsam sind und sich ziehen.",
+     "en": "slow passages, longueurs",
+     "zh": "（电影、书中）冗长拖沓的部分",
+     "pt": "trechos arrastados"
+    },
+    {
+     "w": "etwas auffangen",
+     "de": "Hier: eine Schwäche ausgleichen, sodass sie nicht so stark auffällt.",
+     "en": "to make up for, compensate",
+     "zh": "弥补，抵消（不足）",
+     "pt": "compensar, amortecer"
+    }
+   ],
+   "grammar": "Note the extended participial attribute in 'ein in der Kolonialzeit aus seinem Dorf geraubtes Stück': a whole phrase sits between the article and the noun, built around the participle 'geraubt', which takes an adjective ending (-es). It replaces a relative clause: 'ein Stück, das in der Kolonialzeit aus seinem Dorf geraubt wurde'. This compact structure is typical of written German; read it by jumping from the article to the noun first, then filling in the middle.",
+   "grammar_zh": "注意“ein in der Kolonialzeit aus seinem Dorf geraubtes Stück”中的扩展分词定语：冠词和名词之间夹着一整个短语，核心是分词 geraubt，它要像形容词一样变格（-es）。它相当于一个关系从句：“ein Stück, das in der Kolonialzeit aus seinem Dorf geraubt wurde”。这种紧凑结构在书面德语里很常见；阅读时先从冠词跳到名词，再回头补中间的部分。",
+   "grammar_de": "Achten Sie auf das erweiterte Partizipialattribut in „ein in der Kolonialzeit aus seinem Dorf geraubtes Stück“: Zwischen Artikel und Nomen steht eine ganze Wortgruppe rund um das Partizip „geraubt“, das wie ein Adjektiv dekliniert wird (-es). Es ersetzt einen Relativsatz: „ein Stück, das in der Kolonialzeit aus seinem Dorf geraubt wurde“. Diese kompakte Form ist typisch für geschriebenes Deutsch; beim Lesen springt man am besten zuerst vom Artikel zum Nomen und füllt dann die Mitte.",
+   "grammar_pt": "Observe o atributo participial expandido em “ein in der Kolonialzeit aus seinem Dorf geraubtes Stück”: entre o artigo e o substantivo há um grupo inteiro de palavras em torno do particípio “geraubt”, que é declinado como adjetivo (-es). Ele substitui uma oração relativa: “ein Stück, das in der Kolonialzeit aus seinem Dorf geraubt wurde”. Essa forma compacta é típica do alemão escrito; na leitura, salte primeiro do artigo ao substantivo e depois preencha o meio.",
+   "questions": [
+    "Gibt es in einem Museum, das Sie kennen, Objekte, bei denen Sie sich fragen, wie sie dorthin gekommen sind?",
+    "Welcher Film hat Ihnen als Kind etwas über die Welt beigebracht, ohne dass es sich wie Unterricht angefühlt hat?",
+    "Kennen Sie Ihre Großeltern gut? Was würden Sie sie gern einmal fragen?"
+   ],
+   "sources": [
+    {
+     "title": "Wochenblatt Reporter: Das Geheimnis der gestohlenen Maske – Drehort wird zum Schauplatz (12.10.2026)",
+     "url": "https://www.wochenblatt-reporter.de/c-ratgeber/das-geheimnis-der-gestohlenen-maske-drehort-wird-zum-schauplatz_a906815",
+     "license": "link only"
+    },
+    {
+     "title": "Vision Kino: FilmTipp „Das Geheimnis der gestohlenen Maske“ (Jasmine Ghandtchi)",
+     "url": "https://www.visionkino.de/fileadmin//user_upload/filmtipps/pdfs/FilmTipp_Das_Geheimnis_der_gestohlenen_Maske.pdf",
+     "license": "link only"
+    },
+    {
+     "title": "tip Berlin: Filmstarts im Oktober 2026",
+     "url": "https://www.tip-berlin.de/kultur/film/filmstarts-oktober-2026-neu-im-kino-highlights/",
+     "license": "link only"
+    },
+    {
+     "title": "Wikipedia: Lipico (Makonde-Masken)",
+     "url": "https://en.wikipedia.org/wiki/Lipico",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "B2",
+   "kind": "dialogue",
+   "section": "Alltagsdeutsch",
+   "title": "Patina, kein Riss – auf dem Flohmarkt",
+   "dek": "Sonntagmorgen auf dem Flohmarkt: Lena hat sich in eine gelbe Lampe verguckt. Verkäufer Rolf weiß, was sie wert ist – zumindest glaubt er das.",
+   "paragraphs": [
+    "Lena: Morgen! Sagen Sie mal, was soll denn die Lampe da kosten?",
+    "Rolf: Die gelbe? Das ist 'ne echte Siebziger, die geht für zwanzig weg.",
+    "Lena: Zwanzig? Puh. Der Schirm hat ja 'nen Riss.",
+    "Rolf: Ach was, das ist kein Riss, das ist Patina. Das muss so.",
+    "Lena: Na klar. Und geht die überhaupt noch?",
+    "Rolf: Klar doch! Hab ich gestern noch ausprobiert. Also, zumindest hat's kurz geflackert.",
+    "Lena: Kurz geflackert … Das klingt ja vielversprechend. Zehn?",
+    "Rolf: Zehn? Da leg ich ja drauf. Achtzehn, weil Sie so nett gucken.",
+    "Lena: Zwölf, und ich nehm die Kaffeetassen da noch mit.",
+    "Rolf: Die mit den Blümchen? Die sind von meiner Oma, da hängt mein Herz dran.",
+    "Lena: Ach so, dann lass ich die natürlich stehen.",
+    "Rolf: Nee, nee, so war das nicht gemeint! Fünfzehn für alles, und die Sache ist geritzt.",
+    "Lena: Abgemacht. Haben Sie zufällig 'ne Tüte?",
+    "Rolf: Tüte hab ich keine, aber 'nen Karton. Und wenn die Lampe nicht geht – Umtausch ausgeschlossen, gell?",
+    "Lena: Schon klar. Mit Garantie hab ich eh nicht gerechnet.",
+    "Rolf: Na dann, viel Spaß damit. Und schönen Sonntag noch!"
+   ],
+   "paragraphs_en": [
+    "Lena: Morning! Tell me, how much is that lamp there?",
+    "Rolf: The yellow one? That's a genuine seventies piece, it goes for twenty.",
+    "Lena: Twenty? Phew. The shade's got a crack, you know.",
+    "Rolf: Oh no, that's not a crack, that's patina. It's meant to be like that.",
+    "Lena: Sure. And does it even still work?",
+    "Rolf: Of course! I tried it just yesterday. Well, at least it flickered for a moment.",
+    "Lena: Flickered for a moment … That sounds promising. Ten?",
+    "Rolf: Ten? I'd be losing money. Eighteen, because you look so nice.",
+    "Lena: Twelve, and I'll take those coffee cups as well.",
+    "Rolf: The ones with the little flowers? They're my grandma's, I'm really attached to them.",
+    "Lena: Oh, I see, then of course I'll leave them.",
+    "Rolf: No, no, that's not what I meant! Fifteen for everything, and it's a deal.",
+    "Lena: Done. Do you happen to have a bag?",
+    "Rolf: I don't have a bag, but I've got a box. And if the lamp doesn't work – no returns, all right?",
+    "Lena: Sure. I wasn't expecting a guarantee anyway.",
+    "Rolf: Well then, enjoy it. And have a nice Sunday!"
+   ],
+   "paragraphs_zh": [
+    "Lena：早！请问，那盏灯要多少钱？",
+    "Rolf：黄色那盏？那可是正宗七十年代的，二十块卖。",
+    "Lena：二十？哎哟。灯罩上可是有条裂缝啊。",
+    "Rolf：哪儿啊，那不是裂缝，那叫包浆。就该这样。",
+    "Lena：当然了。那它到底还能亮吗？",
+    "Rolf：当然能！我昨天还试过呢。嗯，至少闪了一下。",
+    "Lena：闪了一下……听起来真有希望。十块？",
+    "Rolf：十块？那我可要倒贴了。十八，因为您看着这么和气。",
+    "Lena：十二，那边的咖啡杯我也一起拿。",
+    "Rolf：带小花的那几个？那是我奶奶的，我可舍不得。",
+    "Lena：哦这样啊，那我当然不要了。",
+    "Rolf：不不不，我不是那个意思！全部十五，就这么定了。",
+    "Lena：成交。您刚好有袋子吗？",
+    "Rolf：袋子没有，纸箱倒有一个。还有，灯要是不亮——概不退换，好吧？",
+    "Lena：明白。反正我也没指望有保修。",
+    "Rolf：那就好，用得开心。祝您周日愉快！"
+   ],
+   "paragraphs_pt": [
+    "Lena: Bom dia! Me diz uma coisa, quanto custa aquela luminária ali?",
+    "Rolf: A amarela? É uma autêntica dos anos setenta, sai por vinte.",
+    "Lena: Vinte? Nossa. A cúpula tem uma rachadura, né.",
+    "Rolf: Que nada, isso não é rachadura, é pátina. Tem que ser assim.",
+    "Lena: Claro. E ela ainda funciona?",
+    "Rolf: Claro que sim! Testei ontem mesmo. Bom, pelo menos piscou um pouquinho.",
+    "Lena: Piscou um pouquinho … Parece promissor. Dez?",
+    "Rolf: Dez? Aí eu saio no prejuízo. Dezoito, porque a senhora tem uma cara simpática.",
+    "Lena: Doze, e eu levo aquelas xícaras de café também.",
+    "Rolf: As de florzinha? São da minha avó, tenho o maior apego a elas.",
+    "Lena: Ah, entendi, então claro que eu deixo.",
+    "Rolf: Não, não, não foi isso que eu quis dizer! Quinze por tudo, e fechado.",
+    "Lena: Combinado. Por acaso o senhor tem uma sacola?",
+    "Rolf: Sacola não tenho, mas tenho uma caixa. E se a luminária não funcionar – não aceito troca, viu?",
+    "Lena: Tudo bem. Eu nem esperava garantia mesmo.",
+    "Rolf: Então aproveite. E bom domingo!"
+   ],
+   "glossary": [
+    {
+     "w": "die geht für zwanzig weg",
+     "de": "Umgangssprachlich: Sie wird für zwanzig Euro verkauft. Neutraler: „Sie kostet zwanzig Euro.“",
+     "en": "it sells for twenty",
+     "zh": "（口语）卖二十块",
+     "pt": "sai por vinte, é vendida por vinte"
+    },
+    {
+     "w": "'ne / 'nen",
+     "de": "Gesprochene Kurzformen von „eine“ und „einen“. Geschrieben benutzt man die vollen Formen.",
+     "en": "spoken short forms of eine / einen",
+     "zh": "eine / einen 的口语缩略形式",
+     "pt": "formas faladas reduzidas de eine / einen"
+    },
+    {
+     "w": "Ach was!",
+     "de": "Reaktion, mit der man etwas zurückweist: „Nein, das stimmt nicht“ oder „Unsinn“.",
+     "en": "Oh come on! / Nonsense!",
+     "zh": "哪儿啊！才不是呢！",
+     "pt": "Que nada!"
+    },
+    {
+     "w": "Das muss so.",
+     "de": "Scherzhaft-umgangssprachlich: Das ist absichtlich so, das ist richtig so. Grammatisch korrekt wäre „Das muss so sein.“",
+     "en": "(joking) it's supposed to be like that",
+     "zh": "（戏谑）本来就该这样",
+     "pt": "(brincando) é assim mesmo, tem que ser assim"
+    },
+    {
+     "w": "flackern",
+     "de": "Unruhig und unregelmäßig leuchten, mal heller, mal dunkler – zum Beispiel eine Kerze oder eine kaputte Lampe.",
+     "en": "to flicker",
+     "zh": "（灯光）闪烁，忽明忽暗",
+     "pt": "piscar, tremeluzir"
+    },
+    {
+     "w": "draufzahlen / drauflegen",
+     "de": "Bei einem Geschäft Geld verlieren, weil man mehr bezahlt, als man bekommt. „Da leg ich ja drauf“ = Dann mache ich Verlust.",
+     "en": "to lose money on a deal",
+     "zh": "倒贴钱，亏本",
+     "pt": "sair no prejuízo, pagar do próprio bolso"
+    },
+    {
+     "w": "an etwas hängt jemandes Herz",
+     "de": "Redewendung: Jemand mag etwas sehr und möchte es nicht hergeben. Gesprochen oft: „Da hängt mein Herz dran.“",
+     "en": "to be very attached to something",
+     "zh": "对某物很有感情，舍不得",
+     "pt": "ter muito apego a algo"
+    },
+    {
+     "w": "Die Sache ist geritzt.",
+     "de": "Umgangssprachliche Redewendung: Das ist erledigt, abgemacht, klappt. Neutraler: „Das ist abgemacht.“",
+     "en": "It's a deal. / Consider it done.",
+     "zh": "（口语）就这么定了，搞定",
+     "pt": "Está fechado. / Combinado."
+    },
+    {
+     "w": "Umtausch ausgeschlossen",
+     "de": "Feste Formel beim Verkauf: Man kann die Ware nicht zurückgeben oder gegen etwas anderes tauschen.",
+     "en": "no returns or exchanges",
+     "zh": "概不退换",
+     "pt": "não aceitamos troca nem devolução"
+    },
+    {
+     "w": "gell?",
+     "de": "Vor allem in Süddeutschland und Österreich am Satzende: „nicht wahr?“, „oder?“. Man sucht Zustimmung. Im Norden sagt man eher „ne?“.",
+     "en": "(southern) right?, isn't it?",
+     "zh": "（南德口语）对吧？是吧？",
+     "pt": "(sul da Alemanha) né?, viu?"
+    },
+    {
+     "w": "eh",
+     "de": "Umgangssprachlich für „sowieso“ oder „ohnehin“: Das ist auf jeden Fall so.",
+     "en": "anyway",
+     "zh": "（口语）反正，本来就",
+     "pt": "mesmo, de qualquer jeito"
+    }
+   ],
+   "grammar": "The modal particle 'ja' appears twice: 'Der Schirm hat ja 'nen Riss' and 'Das klingt ja vielversprechend'. In the first sentence 'ja' presents the crack as something obvious that both can see – a gentle argument for a lower price. In the second it adds surprise or, as here, irony: Lena means the opposite. 'Ja' is unstressed and never answers a question here; in writing it is used much less often.",
+   "grammar_zh": "语气词 ja 出现了两次：“Der Schirm hat ja 'nen Riss”和“Das klingt ja vielversprechend”。第一句里，ja 把裂缝说成双方都看得见、显而易见的事——委婉地为压价找理由。第二句里它带有惊讶，或者像这里一样带着反讽：Lena 其实是反话。这里的 ja 不重读，也不是回答“是”；书面语里用得少得多。",
+   "grammar_de": "Die Modalpartikel „ja“ kommt zweimal vor: „Der Schirm hat ja 'nen Riss“ und „Das klingt ja vielversprechend“. Im ersten Satz stellt „ja“ den Riss als etwas Offensichtliches dar, das beide sehen können – ein sanftes Argument für einen niedrigeren Preis. Im zweiten drückt es Überraschung oder, wie hier, Ironie aus: Lena meint das Gegenteil. Dieses „ja“ ist unbetont und keine Antwort auf eine Frage; in geschriebenen Texten kommt es viel seltener vor.",
+   "grammar_pt": "A partícula modal “ja” aparece duas vezes: “Der Schirm hat ja 'nen Riss” e “Das klingt ja vielversprechend”. Na primeira frase, “ja” apresenta a rachadura como algo óbvio, que os dois podem ver – um argumento sutil para um preço menor. Na segunda, expressa surpresa ou, como aqui, ironia: Lena quer dizer o contrário. Esse “ja” não é tônico e não é resposta a uma pergunta; na escrita aparece bem menos.",
+   "questions": [
+    "Handeln Sie gern auf dem Flohmarkt, oder zahlen Sie lieber den Preis, der dasteht?",
+    "Haben Sie einen Gegenstand, an dem Ihr Herz hängt – und den Sie nie verkaufen würden?"
+   ],
+   "sources": []
+  }
+ ]
 }
