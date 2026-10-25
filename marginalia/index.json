@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T06:39:06+00:00",
+ "updated": "2026-10-25T15:52:27+00:00",
  "days": [
   {
    "date": "2026-10-25",
@@ -42,6 +42,22 @@
      "title": "Patina, kein Riss – auf dem Flohmarkt",
      "kind": "dialogue",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Une passagère, un chauffeur et Paris",
+     "kind": "feature",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Miss Daisy à l'envers : Jean-Pierre Bekolo rend le volant au chauffeur",
+     "kind": "feature",
+     "level": "C1",
      "hour": null
     }
    ]
