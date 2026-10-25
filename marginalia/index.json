@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T05:22:07+00:00",
+ "updated": "2026-10-25T06:02:36+00:00",
  "days": [
   {
    "date": "2026-10-25",
@@ -9,6 +9,22 @@
      "lang": "en",
      "title": "Who gets to tell a worker's story?",
      "kind": "feature",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
      "level": "C2",
      "hour": null
     }
