@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:52:27+00:00",
+ "updated": "2026-10-25T18:54:33+00:00",
  "days": [
   {
    "date": "2026-10-25",
@@ -58,6 +58,22 @@
      "title": "Miss Daisy à l'envers : Jean-Pierre Bekolo rend le volant au chauffeur",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "pt",
+     "title": "Cadê a chave?",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "pt",
+     "title": "Nos Correios",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]

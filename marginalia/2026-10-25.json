@@ -964,6 +964,288 @@
      "license": "official"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Tito e Ana",
+   "series": {
+    "name": "Tito e Ana",
+    "episode": 10
+   },
+   "title": "Cadê a chave?",
+   "dek": "A Ana não acha a chave de casa, e ela está com pressa. Mas o Bolinha tem um nariz muito bom.",
+   "paragraphs": [
+    "Hoje é terça-feira. A Ana acorda cedo. Ela toma café, pega a bolsa e vai para a porta. Mas... cadê a chave?",
+    "A chave não está na bolsa. Não está na mesa. Não está perto da janela. — Ai, meu Deus! — diz a Ana. — Eu vou chegar atrasada no trabalho!",
+    "A Ana procura em cima do sofá e embaixo da cama. O Tito olha para ela da caixa velha. Ele está muito calmo.",
+    "Alguém chama no portão. É a Dona Rosa, com o Bolinha. — Bom dia, Ana! Tudo bem? — Não, Dona Rosa. Eu não acho a minha chave!",
+    "— Calma, a gente procura junto — diz a Dona Rosa. Ela procura na cozinha. A Ana procura no banheiro. Nada.",
+    "O Bolinha entra na sala. Ele cheira o chão, cheira o sofá... e vai direto para a caixa do Tito. Ele late: au, au!",
+    "O Tito sai da caixa, devagar. A Ana olha dentro da caixa. Lá, embaixo de um papel, tem uma coisa que brilha. É a chave!",
+    "— Tito! Então é você! — diz a Ana. O Tito não responde. Ele só fecha os olhos.",
+    "A Dona Rosa ri muito. — Esse gato gosta de coisas que brilham! E o Bolinha é um ótimo detetive.",
+    "A Ana dá um beijo no Bolinha e um carinho no Tito. Depois, ela corre para o ônibus. Hoje ela chega no trabalho só um pouquinho atrasada."
+   ],
+   "paragraphs_en": [
+    "Today is Tuesday. Ana wakes up early. She has breakfast, grabs her bag and goes to the door. But... where's the key?",
+    "The key isn't in the bag. It isn't on the table. It isn't near the window. \"Oh my God!\" says Ana. \"I'm going to be late for work!\"",
+    "Ana looks on top of the sofa and under the bed. Tito watches her from the old box. He is very calm.",
+    "Someone calls at the gate. It's Dona Rosa, with Bolinha. \"Good morning, Ana! How are you?\" \"Not good, Dona Rosa. I can't find my key!\"",
+    "\"Calm down, we'll look together,\" says Dona Rosa. She looks in the kitchen. Ana looks in the bathroom. Nothing.",
+    "Bolinha comes into the living room. He sniffs the floor, sniffs the sofa... and goes straight to Tito's box. He barks: woof, woof!",
+    "Tito gets out of the box, slowly. Ana looks inside the box. There, under a piece of paper, is something shiny. It's the key!",
+    "\"Tito! So it was you!\" says Ana. Tito doesn't answer. He just closes his eyes.",
+    "Dona Rosa laughs a lot. \"This cat likes shiny things! And Bolinha is a great detective.\"",
+    "Ana gives Bolinha a kiss and gives Tito a cuddle. Then she runs for the bus. Today she gets to work just a tiny bit late."
+   ],
+   "paragraphs_zh": [
+    "今天是星期二。安娜很早就醒了。她吃了早饭，拿起包，走到门口。可是……钥匙在哪儿？",
+    "钥匙不在包里。不在桌子上。也不在窗户旁边。“哎呀，天哪！”安娜说，“我上班要迟到了！”",
+    "安娜在沙发上面找，又在床底下找。蒂托在旧箱子里看着她。他非常淡定。",
+    "有人在大门口喊。是罗莎太太，带着波利尼亚。“早上好，安娜！你好吗？”“不好，罗莎太太。我找不到我的钥匙了！”",
+    "“别急，我们一起找。”罗莎太太说。她在厨房里找。安娜在卫生间里找。什么都没有。",
+    "波利尼亚走进客厅。他闻闻地板，闻闻沙发……然后径直走到蒂托的箱子前。他叫起来：汪，汪！",
+    "蒂托慢慢地从箱子里出来。安娜往箱子里看。那里，在一张纸下面，有个东西在闪闪发亮。是钥匙！",
+    "“蒂托！原来是你！”安娜说。蒂托不回答。他只是闭上了眼睛。",
+    "罗莎太太哈哈大笑。“这只猫喜欢亮晶晶的东西！波利尼亚可真是个好侦探。”",
+    "安娜亲了亲波利尼亚，又摸了摸蒂托。然后，她跑去赶公交车。今天她上班只迟到了一小会儿。"
+   ],
+   "paragraphs_de": [
+    "Heute ist Dienstag. Ana wacht früh auf. Sie frühstückt, nimmt ihre Tasche und geht zur Tür. Aber ... wo ist der Schlüssel?",
+    "Der Schlüssel ist nicht in der Tasche. Nicht auf dem Tisch. Nicht beim Fenster. „Ach du meine Güte!“, sagt Ana. „Ich komme zu spät zur Arbeit!“",
+    "Ana sucht auf dem Sofa und unter dem Bett. Tito schaut ihr aus dem alten Karton zu. Er ist ganz ruhig.",
+    "Jemand ruft am Tor. Es ist Dona Rosa, mit Bolinha. „Guten Morgen, Ana! Alles gut?“ „Nein, Dona Rosa. Ich finde meinen Schlüssel nicht!“",
+    "„Ruhig, wir suchen zusammen“, sagt Dona Rosa. Sie sucht in der Küche. Ana sucht im Badezimmer. Nichts.",
+    "Bolinha kommt ins Wohnzimmer. Er schnuppert am Boden, schnuppert am Sofa ... und geht direkt zu Titos Karton. Er bellt: wau, wau!",
+    "Tito kommt langsam aus dem Karton. Ana schaut in den Karton. Dort, unter einem Blatt Papier, glänzt etwas. Es ist der Schlüssel!",
+    "„Tito! Du warst das also!“, sagt Ana. Tito antwortet nicht. Er macht nur die Augen zu.",
+    "Dona Rosa lacht laut. „Diese Katze mag glänzende Sachen! Und Bolinha ist ein toller Detektiv.“",
+    "Ana gibt Bolinha einen Kuss und streichelt Tito. Dann rennt sie zum Bus. Heute kommt sie nur ein kleines bisschen zu spät zur Arbeit."
+   ],
+   "glossary": [
+    {
+     "w": "a chave",
+     "en": "key (cf. French 'clé'); a chave de casa = the house key",
+     "zh": "钥匙",
+     "de": "der Schlüssel",
+     "pt": "uma coisa pequena de metal para abrir a porta"
+    },
+    {
+     "w": "Cadê...?",
+     "en": "Where is...? (very common, informal Brazilian)",
+     "zh": "……在哪儿？（口语）",
+     "de": "Wo ist ...? (umgangssprachlich)",
+     "pt": "o mesmo que 'Onde está...?'; a gente usa muito no Brasil"
+    },
+    {
+     "w": "a bolsa",
+     "en": "bag, handbag (also 'scholarship')",
+     "zh": "包、手提包",
+     "de": "die Tasche, die Handtasche",
+     "pt": "uma coisa para levar o celular, a carteira e a chave"
+    },
+    {
+     "w": "atrasado / atrasada",
+     "en": "late; chegar atrasado = to arrive late",
+     "zh": "迟到的",
+     "de": "verspätet, zu spät",
+     "pt": "quando você chega depois da hora certa"
+    },
+    {
+     "w": "procurar",
+     "en": "to look for, to search",
+     "zh": "找、寻找",
+     "de": "suchen",
+     "pt": "olhar em vários lugares para encontrar uma coisa"
+    },
+    {
+     "w": "achar",
+     "en": "to find (also 'to think': Eu acho que sim = I think so)",
+     "zh": "找到；（也指）认为",
+     "de": "finden",
+     "pt": "encontrar; ver a coisa que você procura"
+    },
+    {
+     "w": "embaixo de",
+     "en": "under, underneath",
+     "zh": "在……下面",
+     "de": "unter",
+     "pt": "num lugar mais baixo que outra coisa"
+    },
+    {
+     "w": "em cima de",
+     "en": "on top of, on",
+     "zh": "在……上面",
+     "de": "auf, oben auf",
+     "pt": "num lugar mais alto, sobre outra coisa"
+    },
+    {
+     "w": "brilhar",
+     "en": "to shine, to sparkle (cf. 'brilliant')",
+     "zh": "发光、闪亮",
+     "de": "glänzen, leuchten",
+     "pt": "ter luz, como o sol ou o metal"
+    }
+   ],
+   "grammar": "To say where something is, Portuguese uses little place phrases with de: em cima de (on top of), embaixo de (under), dentro de (inside). De joins with o/a: em cima do sofá, embaixo da cama, dentro da caixa.",
+   "grammar_zh": "说东西在哪儿，葡语用带 de 的方位短语：em cima de（在……上面）、embaixo de（在……下面）、dentro de（在……里面）。de 遇到 o/a 会合并：em cima do sofá、embaixo da cama、dentro da caixa。",
+   "grammar_de": "Für den Ort benutzt man kleine Ausdrücke mit de: em cima de (auf), embaixo de (unter), dentro de (in, innen). De verschmilzt mit o/a: em cima do sofá, embaixo da cama, dentro da caixa.",
+   "grammar_pt": "Para falar onde uma coisa está, a gente usa: em cima de, embaixo de, dentro de. De + o = do, de + a = da: em cima do sofá, embaixo da cama, dentro da caixa.",
+   "questions": [
+    "O que a Ana não acha?",
+    "Quem ajuda a Ana a procurar?",
+    "Onde está a chave?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Nos Correios",
+   "dek": "A Marina quer mandar um presente para a mãe em Recife. Sedex ou PAC?",
+   "paragraphs": [
+    "Atendente: Bom dia! Próximo, por favor.",
+    "Marina: Bom dia! Eu quero mandar esta caixa para Recife.",
+    "Atendente: Tá bom. Pode colocar a caixa aqui na balança, por favor.",
+    "Marina: Pronto. É pesada?",
+    "Atendente: Não, são dois quilos. O que tem dentro?",
+    "Marina: Roupas e uns livros. É um presente para a minha mãe.",
+    "Atendente: Que legal! Você prefere Sedex ou PAC?",
+    "Marina: Qual é a diferença?",
+    "Atendente: O Sedex é mais rápido: chega em dois dias. O PAC é mais barato, mas demora uma semana.",
+    "Marina: O aniversário dela é na sexta. Então é Sedex, por favor.",
+    "Atendente: Certo. Eu preciso do CEP do endereço e do seu CPF.",
+    "Marina: Tá aqui, neste papel. Posso pagar no cartão?",
+    "Atendente: Pode, sim. Débito ou crédito?",
+    "Marina: Débito. Muito obrigada!"
+   ],
+   "paragraphs_en": [
+    "Clerk: Good morning! Next, please.",
+    "Marina: Good morning! I want to send this box to Recife.",
+    "Clerk: OK. Can you put the box here on the scale, please?",
+    "Marina: There you go. Is it heavy?",
+    "Clerk: No, it's two kilos. What's inside?",
+    "Marina: Clothes and some books. It's a present for my mother.",
+    "Clerk: How nice! Do you prefer Sedex or PAC?",
+    "Marina: What's the difference?",
+    "Clerk: Sedex is faster: it arrives in two days. PAC is cheaper, but it takes a week.",
+    "Marina: Her birthday is on Friday. So Sedex, please.",
+    "Clerk: Right. I need the postcode of the address and your CPF number.",
+    "Marina: Here it is, on this piece of paper. Can I pay by card?",
+    "Clerk: Yes, you can. Debit or credit?",
+    "Marina: Debit. Thank you very much!"
+   ],
+   "paragraphs_zh": [
+    "工作人员：早上好！下一位，请。",
+    "玛丽娜：早上好！我想把这个箱子寄到累西腓。",
+    "工作人员：好的。请把箱子放到这边的秤上。",
+    "玛丽娜：好了。重吗？",
+    "工作人员：不重，两公斤。里面是什么？",
+    "玛丽娜：衣服和几本书。是给我妈妈的礼物。",
+    "工作人员：真好！你要寄 Sedex 还是 PAC？",
+    "玛丽娜：有什么区别？",
+    "工作人员：Sedex 更快，两天就到。PAC 更便宜，但是要一个星期。",
+    "玛丽娜：她的生日是星期五。那就寄 Sedex 吧。",
+    "工作人员：好的。我需要地址的邮编和你的 CPF（个人税号）。",
+    "玛丽娜：在这儿，写在这张纸上。可以刷卡吗？",
+    "工作人员：可以。借记卡还是信用卡？",
+    "玛丽娜：借记卡。非常感谢！"
+   ],
+   "paragraphs_de": [
+    "Angestellter: Guten Morgen! Der Nächste, bitte.",
+    "Marina: Guten Morgen! Ich möchte dieses Paket nach Recife schicken.",
+    "Angestellter: Okay. Können Sie das Paket bitte hier auf die Waage stellen?",
+    "Marina: Bitte schön. Ist es schwer?",
+    "Angestellter: Nein, das sind zwei Kilo. Was ist drin?",
+    "Marina: Kleidung und ein paar Bücher. Es ist ein Geschenk für meine Mutter.",
+    "Angestellter: Wie schön! Möchten Sie lieber Sedex oder PAC?",
+    "Marina: Was ist der Unterschied?",
+    "Angestellter: Sedex ist schneller: Es kommt in zwei Tagen an. PAC ist billiger, aber es dauert eine Woche.",
+    "Marina: Ihr Geburtstag ist am Freitag. Dann Sedex, bitte.",
+    "Angestellter: Gut. Ich brauche die Postleitzahl der Adresse und Ihre CPF-Nummer.",
+    "Marina: Hier, auf diesem Zettel. Kann ich mit Karte zahlen?",
+    "Angestellter: Ja, klar. Debit- oder Kreditkarte?",
+    "Marina: Debitkarte. Vielen Dank!"
+   ],
+   "glossary": [
+    {
+     "w": "os Correios",
+     "en": "the Brazilian post office (correio = mail)",
+     "zh": "（巴西）邮局",
+     "de": "die (brasilianische) Post",
+     "pt": "o lugar onde a gente manda cartas e caixas"
+    },
+    {
+     "w": "Próximo!",
+     "en": "Next! (said to the next person in line)",
+     "zh": "下一位！",
+     "de": "Der Nächste!",
+     "pt": "a pessoa que vem agora na fila"
+    },
+    {
+     "w": "mandar",
+     "en": "to send (also 'to order someone')",
+     "zh": "寄、发送",
+     "de": "schicken",
+     "pt": "fazer uma coisa ir para outra pessoa ou outro lugar"
+    },
+    {
+     "w": "a balança",
+     "en": "scale (for weighing; cf. 'balance')",
+     "zh": "秤",
+     "de": "die Waage",
+     "pt": "uma máquina para ver quantos quilos uma coisa tem"
+    },
+    {
+     "w": "pesado / pesada",
+     "en": "heavy",
+     "zh": "重的",
+     "de": "schwer",
+     "pt": "que tem muitos quilos; o contrário de leve"
+    },
+    {
+     "w": "demorar",
+     "en": "to take (a long) time",
+     "zh": "花时间、耽搁",
+     "de": "dauern, lange brauchen",
+     "pt": "precisar de muito tempo"
+    },
+    {
+     "w": "o CEP",
+     "en": "Brazilian postcode (ZIP code)",
+     "zh": "（巴西）邮政编码",
+     "de": "die Postleitzahl (in Brasilien)",
+     "pt": "os números do endereço, para a carta chegar certo"
+    },
+    {
+     "w": "o CPF",
+     "en": "Brazilian personal tax ID number, asked for almost everywhere",
+     "zh": "（巴西）个人税号",
+     "de": "die brasilianische Steuernummer für Personen",
+     "pt": "o número de cada pessoa no Brasil; muitas lojas pedem"
+    },
+    {
+     "w": "débito / crédito",
+     "en": "debit / credit (card)",
+     "zh": "借记卡／信用卡",
+     "de": "Debitkarte / Kreditkarte",
+     "pt": "débito: o dinheiro sai agora; crédito: você paga depois"
+    }
+   ],
+   "grammar": "To compare two things, put mais (more) before the adjective: O Sedex é mais rápido. O PAC é mais barato. To say 'than', add do que: O Sedex é mais rápido do que o PAC.",
+   "grammar_zh": "比较两样东西时，在形容词前加 mais（更）：O Sedex é mais rápido（Sedex 更快）。O PAC é mais barato（PAC 更便宜）。要说“比……”，加 do que：O Sedex é mais rápido do que o PAC。",
+   "grammar_de": "Zum Vergleichen stellt man mais (mehr) vor das Adjektiv: O Sedex é mais rápido (Sedex ist schneller). O PAC é mais barato (PAC ist billiger). Für „als“ nimmt man do que: O Sedex é mais rápido do que o PAC.",
+   "grammar_pt": "Para comparar duas coisas, a gente usa mais antes do adjetivo: O Sedex é mais rápido. O PAC é mais barato. Para completar, use do que: O Sedex é mais rápido do que o PAC.",
+   "questions": [
+    "Para onde a Marina quer mandar a caixa?",
+    "O que tem dentro da caixa?",
+    "Por que a Marina escolhe o Sedex?"
+   ],
+   "sources": []
   }
  ]
 }
