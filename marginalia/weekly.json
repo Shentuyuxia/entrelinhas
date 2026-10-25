@@ -1,0 +1,150 @@
+{
+  "weekOf": "2026-10-19",
+  "summary_en": "This week's texts kept returning to who controls land, money and stories: carbon-credit plantations in Madagascar, the Amazon edging towards a tipping point, an essay asking whether a forest can 'fail', and the hidden fungal networks under German forest floors. Several pieces asked who gets to tell whose story, from Paul Kodjo's Abidjan photo-novels and Xiao Hai's factory memoir to Lee Chang-dong's new film and Jean-Pierre Bekolo's reversed 'Miss Daisy'. Debt and public services were another thread, from UNCTAD's debt report and the Bangkok protests to Hudson Valley electricity bills and the La Paz cable cars, while the Portuguese A1 stories followed Ana, Tito and Bolinha through a surprise party, a rescue with a ladder and a new bed. Worth reviewing: der Köder (bait), a tipping point, and le trajet domicile-travail (commute).",
+  "summary_zh": "本周文章围绕土地、债务以及“谁来讲述谁的故事”展开；可复习 der Köder、tipping point 和 le trajet domicile-travail。",
+  "quiz": [
+    {
+      "lang": "de",
+      "prompt": "Was bedeutet das Jugendwort des Jahres 2026 „Ragebait“?",
+      "options": [
+        "Ein besonders gutes Video",
+        "Ein Beitrag, der absichtlich Wut und Empörung auslösen soll",
+        "Ein Gruß unter Freunden",
+        "Eine neue App für Jugendliche"
+      ],
+      "answer": 1,
+      "explain_en": "Ragebait means posts deliberately designed to provoke anger for clicks and reach.",
+      "explain": "故意激怒人的帖子"
+    },
+    {
+      "lang": "de",
+      "prompt": "Wofür steht das „F“ im Namen des Zeitsenders DCF77?",
+      "options": [
+        "Funk",
+        "Frequenz",
+        "Frankfurt",
+        "Flensburg"
+      ],
+      "answer": 2,
+      "explain_en": "D = Deutschland, C = long wave, F = Frankfurt, 77 = the frequency (77.5 kHz).",
+      "explain": "F 代表法兰克福"
+    },
+    {
+      "lang": "de",
+      "prompt": "Beim Friseur fragt Jenny: „Trauen wir uns an einen Pony?“ Was ist hier mit „Pony“ gemeint?",
+      "options": [
+        "Ein kleines Pferd",
+        "Die Haarspitzen",
+        "Ein Haarband",
+        "Kurze Haare über der Stirn (fringe/bangs)"
+      ],
+      "answer": 3,
+      "explain_en": "Der Pony is a fringe (bangs) – not the horse.",
+      "explain": "刘海"
+    },
+    {
+      "lang": "en",
+      "prompt": "In 'Can a forest fail?', what is John Drake's starting point about ecosystems?",
+      "options": [
+        "Ecosystems have no goals; the standards we judge them by come from us",
+        "Ecosystems are shaped by natural selection just like organisms",
+        "Rainforests are machines that engineers can repair",
+        "Coral reefs store more carbon than the Amazon"
+      ],
+      "answer": 0,
+      "explain_en": "Drake argues ecosystems have no goals, so calling them 'malfunctioning' smuggles in human purposes.",
+      "explain": "生态系统本身没有目标"
+    },
+    {
+      "lang": "en",
+      "prompt": "In 'The second rent', what do Hudson Valley organisers mean by 'the second rent'?",
+      "options": [
+        "A tax on second homes",
+        "A loan from a public power authority",
+        "Rent paid by a proposed data centre",
+        "The household electricity bill"
+      ],
+      "answer": 3,
+      "explain_en": "For low-income households the power bill is a fixed cost like rent that cannot be negotiated down.",
+      "explain": "电费"
+    },
+    {
+      "lang": "pt",
+      "prompt": "Na história „A cama nova“, onde o Tito dorme?",
+      "options": [
+        "Na cama azul",
+        "No sofá",
+        "Na caixa",
+        "Na janela"
+      ],
+      "answer": 2,
+      "explain_en": "Tito ignores the new bed and sleeps in the empty box; Bolinha takes the bed.",
+      "explain": "在盒子里"
+    },
+    {
+      "lang": "pt",
+      "prompt": "Quem tem uma escada para ajudar o Tito?",
+      "options": [
+        "O Seu João",
+        "A Dona Rosa",
+        "A Ana",
+        "O carteiro"
+      ],
+      "answer": 0,
+      "explain_en": "Seu João brings a ladder from his bakery; Dona Rosa has none.",
+      "explain": "若昂先生"
+    },
+    {
+      "lang": "pt",
+      "prompt": "Em que dia a Ana almoça peixe na casa da Dona Rosa?",
+      "options": [
+        "No sábado",
+        "Na segunda-feira",
+        "Na quarta-feira",
+        "No domingo"
+      ],
+      "answer": 3,
+      "explain_en": "The story is 'O almoço de domingo' – Sunday lunch with fish, rice and beans.",
+      "explain": "星期日"
+    },
+    {
+      "lang": "fr",
+      "prompt": "Dans quel musée de Paris peut-on voir les photos de Paul Kodjo ?",
+      "options": [
+        "Au Louvre",
+        "Au Palais de Tokyo",
+        "Au Centre Pompidou",
+        "Au musée d'Orsay"
+      ],
+      "answer": 1,
+      "explain_en": "The exhibition 'Photoromance' is at the Palais de Tokyo until 14 February 2027.",
+      "explain": "东京宫"
+    },
+    {
+      "lang": "fr",
+      "prompt": "Avec le téléphérique, combien de temps met Juana Mamani pour aller d'El Alto à La Paz ?",
+      "options": [
+        "Une heure",
+        "Trois heures",
+        "Dix à quinze minutes",
+        "Deux minutes"
+      ],
+      "answer": 2,
+      "explain_en": "It used to take her an hour by road; by cable car it takes 10–15 minutes.",
+      "explain": "十到十五分钟"
+    },
+    {
+      "lang": "fr",
+      "prompt": "Dans « Le Goût du vin de palme », qui est Aristide ?",
+      "options": [
+        "Le chauffeur camerounais d'Ariane Boréal",
+        "Le fils d'Ariane Boréal",
+        "Un banquier de Bangkok",
+        "Un photographe d'Abidjan"
+      ],
+      "answer": 0,
+      "explain_en": "Aristide is Ariane's Cameroonian driver of ten years, who becomes her guide through Paris.",
+      "explain": "她的喀麦隆司机"
+    }
+  ]
+}
