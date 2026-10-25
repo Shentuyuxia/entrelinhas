@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-24T17:54:40+00:00",
+ "updated": "2026-10-25T05:22:07+00:00",
  "days": [
+  {
+   "date": "2026-10-25",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "Who gets to tell a worker's story?",
+     "kind": "feature",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-24",
    "items": [
