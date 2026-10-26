@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-25T18:54:33+00:00",
+ "updated": "2026-10-26T05:22:33+00:00",
  "days": [
+  {
+   "date": "2026-10-26",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "Citizenship on probation",
+     "kind": "feature",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-25",
    "items": [
