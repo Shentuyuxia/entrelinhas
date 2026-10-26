@@ -454,6 +454,276 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 1
+   },
+   "title": "Um colega novo",
+   "dek": "A Ana começa um diário. Na livraria, um colega novo faz muitas perguntas — e a Dona Rosa também.",
+   "paragraphs": [
+    "Segunda-feira, 26 de outubro de 2026. Querido diário, hoje eu começo um diário novo! Eu sou a Ana. Tenho trinta anos e moro numa casa amarela com o meu gato, o Tito. Ele é pequeno e laranja.",
+    "Acordo às seis e meia. O Tito acorda às seis e quinze, porque ele quer comida. Às sete horas, eu vou à padaria do Seu João. O Seu João é padeiro. O pão dele é o melhor da rua.",
+    "No ônibus, eu escuto uma música do Chico Buarque, \"Apesar de você\". Às oito em ponto, chego no trabalho. Eu sou vendedora numa livraria pequena, no centro da cidade.",
+    "Hoje tem um colega novo na livraria. Ele se chama Lucas. Ele pergunta: — Ana, há quanto tempo você trabalha aqui? — Há cinco anos — eu respondo. — E você? Você estuda ou trabalha? — Eu estudo e trabalho! Eu estudo Letras na universidade, à noite.",
+    "— Que legal! Qual é a profissão dos seus sonhos? — eu pergunto. — Professor de português! — diz o Lucas. Na minha família tem muitos professores. A minha mãe é professora, e o meu irmão é professor de matemática.",
+    "Ao meio-dia, a gente almoça junto. O Lucas tem vinte e dois anos. O aniversário dele é no dia 3 de novembro. Eu escrevo a data no meu celular: 03/11, bolo para o Lucas!",
+    "Às seis da tarde, eu volto para casa. No portão, a Dona Rosa e o Bolinha, o cachorro marrom dela, estão me esperando. — Ana, você tem um colega novo? O que ele faz? Onde ele mora? — A Dona Rosa quer saber tudo!",
+    "— Ele é estudante e vendedor, como eu — eu respondo. A Dona Rosa é costureira. Ela trabalha em casa, com uma máquina velha. E o Tito? O Tito não trabalha. A profissão dele é dormir. Ele é um ótimo profissional!",
+    "São dez da noite. Amanhã é dia 27, terça-feira, e a livraria abre às nove. Boa noite, diário. Boa noite, Tito."
+   ],
+   "paragraphs_en": [
+    "Monday, 26 October 2026. Dear diary, today I'm starting a new diary! I'm Ana. I'm thirty years old and I live in a yellow house with my cat, Tito. He is small and orange.",
+    "I wake up at half past six. Tito wakes up at a quarter past six, because he wants food. At seven o'clock I go to Seu João's bakery. Seu João is a baker. His bread is the best on the street.",
+    "On the bus I listen to a song by Chico Buarque, \"Apesar de você\". At eight o'clock sharp I get to work. I'm a sales assistant in a small bookshop in the city centre.",
+    "Today there's a new colleague at the bookshop. His name is Lucas. He asks: \"Ana, how long have you worked here?\" \"For five years,\" I answer. \"And you? Do you study or work?\" \"I study and work! I study languages and literature at the university, in the evening.\"",
+    "\"How cool! What's your dream job?\" I ask. \"Portuguese teacher!\" says Lucas. In my family there are lots of teachers. My mother is a teacher, and my brother is a maths teacher.",
+    "At noon we have lunch together. Lucas is twenty-two. His birthday is on 3 November. I write the date in my phone: 03/11, cake for Lucas!",
+    "At six in the evening I go back home. At the gate, Dona Rosa and Bolinha, her brown dog, are waiting for me. \"Ana, you have a new colleague? What does he do? Where does he live?\" Dona Rosa wants to know everything!",
+    "\"He's a student and a sales assistant, like me,\" I answer. Dona Rosa is a seamstress. She works at home, with an old machine. And Tito? Tito doesn't work. His profession is sleeping. He's a great professional!",
+    "It's ten at night. Tomorrow is the 27th, Tuesday, and the bookshop opens at nine. Good night, diary. Good night, Tito."
+   ],
+   "paragraphs_zh": [
+    "2026年10月26日，星期一。亲爱的日记，今天我开始写一本新日记！我是安娜。我三十岁，和我的猫蒂托住在一栋黄色的房子里。他又小又是橘色的。",
+    "我六点半起床。蒂托六点一刻就醒了，因为他要吃东西。七点，我去若昂先生的面包店。若昂先生是面包师。他的面包是这条街上最好的。",
+    "在公交车上，我听希科·布阿尔克的一首歌《Apesar de você》。八点整，我到了上班的地方。我是市中心一家小书店的店员。",
+    "今天书店来了一个新同事。他叫卢卡斯。他问：“安娜，你在这儿工作多久了？”“五年了。”我回答，“你呢？你是上学还是工作？”“我又上学又工作！我晚上在大学读语言文学。”",
+    "“真棒！你梦想的职业是什么？”我问。“葡萄牙语老师！”卢卡斯说。我家里有很多老师。我妈妈是老师，我哥哥是数学老师。",
+    "中午，我们一起吃午饭。卢卡斯二十二岁。他的生日是11月3日。我把日期记在手机里：11月3日，给卢卡斯买蛋糕！",
+    "傍晚六点，我回家。在大门口，罗莎太太和她的棕色小狗波利尼亚在等我。“安娜，你有新同事了？他是做什么的？他住在哪儿？”罗莎太太什么都想知道！",
+    "“他是学生，也是店员，跟我一样。”我回答。罗莎太太是裁缝。她在家用一台旧缝纫机工作。那蒂托呢？蒂托不工作。他的职业是睡觉。他可是个出色的专业人士！",
+    "现在是晚上十点。明天是27号，星期二，书店九点开门。晚安，日记。晚安，蒂托。"
+   ],
+   "paragraphs_de": [
+    "Montag, 26. Oktober 2026. Liebes Tagebuch, heute fange ich ein neues Tagebuch an! Ich bin Ana. Ich bin dreißig Jahre alt und wohne mit meinem Kater Tito in einem gelben Haus. Er ist klein und orange.",
+    "Ich wache um halb sieben auf. Tito wacht um Viertel nach sechs auf, weil er Futter will. Um sieben Uhr gehe ich zur Bäckerei von Seu João. Seu João ist Bäcker. Sein Brot ist das beste in der Straße.",
+    "Im Bus höre ich ein Lied von Chico Buarque, „Apesar de você“. Um Punkt acht komme ich bei der Arbeit an. Ich bin Verkäuferin in einer kleinen Buchhandlung im Stadtzentrum.",
+    "Heute gibt es einen neuen Kollegen in der Buchhandlung. Er heißt Lucas. Er fragt: „Ana, seit wann arbeitest du hier?“ „Seit fünf Jahren“, antworte ich. „Und du? Studierst du oder arbeitest du?“ „Ich studiere und arbeite! Ich studiere abends Sprach- und Literaturwissenschaft an der Uni.“",
+    "„Wie cool! Was ist dein Traumberuf?“, frage ich. „Portugiesischlehrer!“, sagt Lucas. In meiner Familie gibt es viele Lehrer. Meine Mutter ist Lehrerin, und mein Bruder ist Mathelehrer.",
+    "Mittags essen wir zusammen. Lucas ist zweiundzwanzig. Sein Geburtstag ist am 3. November. Ich schreibe das Datum in mein Handy: 03.11., Kuchen für Lucas!",
+    "Um sechs Uhr abends gehe ich nach Hause. Am Tor warten Dona Rosa und Bolinha, ihr brauner Hund, auf mich. „Ana, du hast einen neuen Kollegen? Was macht er? Wo wohnt er?“ Dona Rosa will alles wissen!",
+    "„Er ist Student und Verkäufer, wie ich“, antworte ich. Dona Rosa ist Schneiderin. Sie arbeitet zu Hause, mit einer alten Maschine. Und Tito? Tito arbeitet nicht. Sein Beruf ist Schlafen. Er ist ein echter Profi!",
+    "Es ist zehn Uhr abends. Morgen ist der 27., Dienstag, und die Buchhandlung macht um neun auf. Gute Nacht, Tagebuch. Gute Nacht, Tito."
+   ],
+   "glossary": [
+    {
+     "w": "o diário",
+     "en": "diary (cf. 'daily')",
+     "zh": "日记",
+     "de": "das Tagebuch",
+     "pt": "um caderno onde você escreve sobre o seu dia"
+    },
+    {
+     "w": "a livraria",
+     "en": "bookshop (false friend! a library is 'a biblioteca')",
+     "zh": "书店",
+     "de": "die Buchhandlung",
+     "pt": "uma loja onde a gente compra livros"
+    },
+    {
+     "w": "vendedor / vendedora",
+     "en": "salesperson, shop assistant (m / f); from vender = to sell (cf. 'vendor')",
+     "zh": "售货员、店员（男／女）",
+     "de": "Verkäufer / Verkäuferin",
+     "pt": "a pessoa que vende coisas numa loja"
+    },
+    {
+     "w": "o colega / a colega",
+     "en": "colleague, classmate (same word for m and f; only o/a changes)",
+     "zh": "同事、同学",
+     "de": "der Kollege / die Kollegin",
+     "pt": "uma pessoa que trabalha ou estuda com você"
+    },
+    {
+     "w": "O que você faz?",
+     "en": "What do you do? (= what is your job?)",
+     "zh": "你是做什么的？",
+     "de": "Was machst du (beruflich)?",
+     "pt": "uma pergunta sobre o trabalho de uma pessoa"
+    },
+    {
+     "w": "a profissão",
+     "en": "profession, job (-ção/-são = '-sion/-tion')",
+     "zh": "职业",
+     "de": "der Beruf",
+     "pt": "o trabalho de uma pessoa: médico, professora, padeiro..."
+    },
+    {
+     "w": "Letras",
+     "en": "languages and literature (university subject)",
+     "zh": "语言文学（大学专业）",
+     "de": "Sprach- und Literaturwissenschaft",
+     "pt": "um curso na universidade para estudar línguas e livros"
+    },
+    {
+     "w": "costureiro / costureira",
+     "en": "tailor / seamstress; costurar = to sew",
+     "zh": "裁缝（男／女）",
+     "de": "Schneider / Schneiderin",
+     "pt": "a pessoa que faz e conserta roupas"
+    },
+    {
+     "w": "há cinco anos",
+     "en": "for five years (with present tense: Trabalho aqui há cinco anos)",
+     "zh": "已经五年了",
+     "de": "seit fünf Jahren",
+     "pt": "o tempo desde o começo até hoje"
+    },
+    {
+     "w": "às oito em ponto",
+     "en": "at eight o'clock sharp",
+     "zh": "八点整",
+     "de": "um Punkt acht",
+     "pt": "às oito, nem antes nem depois"
+    }
+   ],
+   "grammar": "To ask about work and studies: O que você faz? Qual é a sua profissão? Você estuda ou trabalha? Many professions change -o/-or → -a/-ora for women: o professor → a professora; o vendedor → a vendedora; o padeiro → a padeira. Words in -e stay the same, only the article changes: o estudante → a estudante.",
+   "grammar_zh": "问工作和学习：O que você faz?（你是做什么的？）Qual é a sua profissão?（你的职业是什么？）Você estuda ou trabalha?（你上学还是工作？）很多职业名词在女性时把 -o/-or 变成 -a/-ora：o professor → a professora；o vendedor → a vendedora；o padeiro → a padeira。以 -e 结尾的词不变，只换冠词：o estudante → a estudante。",
+   "grammar_de": "Fragen nach Arbeit und Studium: O que você faz? Qual é a sua profissão? Você estuda ou trabalha? Viele Berufe bilden die weibliche Form mit -o/-or → -a/-ora: o professor → a professora; o vendedor → a vendedora; o padeiro → a padeira. Wörter auf -e bleiben gleich, nur der Artikel wechselt: o estudante → a estudante.",
+   "grammar_pt": "Para perguntar sobre trabalho e estudos: O que você faz? Qual é a sua profissão? Você estuda ou trabalha? Muitas profissões mudam -o/-or para -a/-ora no feminino: o professor → a professora; o vendedor → a vendedora; o padeiro → a padeira. Palavras com -e não mudam, só o artigo: o estudante → a estudante.",
+   "questions": [
+    "Que dia é hoje no diário da Ana?",
+    "A que horas a Ana acorda? E o Tito?",
+    "Qual é a profissão da Ana? E da Dona Rosa?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "A matrícula no curso de inglês",
+   "dek": "O Rafael quer aprender inglês. Na secretaria da escola, ele responde a algumas perguntas.",
+   "paragraphs": [
+    "Secretária: Boa tarde! Você quer fazer a matrícula?",
+    "Rafael: Boa tarde! Quero, sim. Para o curso de inglês.",
+    "Secretária: Ótimo. Qual é o seu nome completo e a sua data de nascimento?",
+    "Rafael: Rafael Souza Lima. A minha data de nascimento é 15 de março de 1998.",
+    "Secretária: E qual é a sua profissão?",
+    "Rafael: Eu sou enfermeiro. Trabalho no Hospital São Lucas.",
+    "Secretária: Ah, a minha irmã é enfermeira também! Você estuda ou só trabalha?",
+    "Rafael: Só trabalho. Mas trabalho à noite, das sete da noite às sete da manhã.",
+    "Secretária: Então a turma da tarde é boa para você: segunda e quarta, das duas às quatro.",
+    "Rafael: Perfeito! Quando começa?",
+    "Secretária: Na quarta que vem, dia 4 de novembro. A professora é a Helena. Ela é americana.",
+    "Rafael: Que bom! Muito obrigado. Até quarta!"
+   ],
+   "paragraphs_en": [
+    "Receptionist: Good afternoon! Would you like to enrol?",
+    "Rafael: Good afternoon! Yes, I would. For the English course.",
+    "Receptionist: Great. What's your full name and your date of birth?",
+    "Rafael: Rafael Souza Lima. My date of birth is 15 March 1998.",
+    "Receptionist: And what's your profession?",
+    "Rafael: I'm a nurse. I work at São Lucas Hospital.",
+    "Receptionist: Oh, my sister is a nurse too! Do you study or do you only work?",
+    "Rafael: I only work. But I work nights, from seven in the evening to seven in the morning.",
+    "Receptionist: Then the afternoon class is good for you: Monday and Wednesday, from two to four.",
+    "Rafael: Perfect! When does it start?",
+    "Receptionist: Next Wednesday, 4 November. The teacher is Helena. She's American.",
+    "Rafael: Great! Thank you very much. See you on Wednesday!"
+   ],
+   "paragraphs_zh": [
+    "前台：下午好！你要报名吗？",
+    "拉斐尔：下午好！是的。报英语课。",
+    "前台：很好。你的全名和出生日期是什么？",
+    "拉斐尔：拉斐尔·索萨·利马。我的出生日期是1998年3月15日。",
+    "前台：你的职业是什么？",
+    "拉斐尔：我是护士。我在圣卢卡斯医院工作。",
+    "前台：啊，我妹妹也是护士！你上学还是只工作？",
+    "拉斐尔：只工作。不过我上夜班，从晚上七点到早上七点。",
+    "前台：那下午班很适合你：星期一和星期三，两点到四点。",
+    "拉斐尔：太好了！什么时候开始？",
+    "前台：下周三，11月4日。老师是埃莱娜。她是美国人。",
+    "拉斐尔：真好！非常感谢。星期三见！"
+   ],
+   "paragraphs_de": [
+    "Sekretärin: Guten Tag! Möchtest du dich anmelden?",
+    "Rafael: Guten Tag! Ja, gern. Für den Englischkurs.",
+    "Sekretärin: Sehr gut. Wie ist dein vollständiger Name und dein Geburtsdatum?",
+    "Rafael: Rafael Souza Lima. Mein Geburtsdatum ist der 15. März 1998.",
+    "Sekretärin: Und was ist dein Beruf?",
+    "Rafael: Ich bin Krankenpfleger. Ich arbeite im Krankenhaus São Lucas.",
+    "Sekretärin: Ach, meine Schwester ist auch Krankenpflegerin! Studierst du, oder arbeitest du nur?",
+    "Rafael: Ich arbeite nur. Aber ich arbeite nachts, von sieben Uhr abends bis sieben Uhr morgens.",
+    "Sekretärin: Dann passt die Nachmittagsgruppe gut für dich: Montag und Mittwoch, von zwei bis vier.",
+    "Rafael: Perfekt! Wann fängt er an?",
+    "Sekretärin: Nächsten Mittwoch, am 4. November. Die Lehrerin ist Helena. Sie ist Amerikanerin.",
+    "Rafael: Wie schön! Vielen Dank. Bis Mittwoch!"
+   ],
+   "glossary": [
+    {
+     "w": "a matrícula",
+     "en": "enrolment, registration (cf. 'matriculate')",
+     "zh": "报名、注册",
+     "de": "die Anmeldung, die Einschreibung",
+     "pt": "quando você coloca o seu nome num curso ou numa escola"
+    },
+    {
+     "w": "a secretária / o secretário",
+     "en": "secretary, receptionist (m / f)",
+     "zh": "秘书、前台（女／男）",
+     "de": "die Sekretärin / der Sekretär",
+     "pt": "a pessoa que trabalha na secretaria e ajuda os alunos"
+    },
+    {
+     "w": "a data de nascimento",
+     "en": "date of birth (nascer = to be born)",
+     "zh": "出生日期",
+     "de": "das Geburtsdatum",
+     "pt": "o dia, o mês e o ano quando uma pessoa nasce"
+    },
+    {
+     "w": "enfermeiro / enfermeira",
+     "en": "nurse (m / f; cf. 'infirmary')",
+     "zh": "护士（男／女）",
+     "de": "Krankenpfleger / Krankenpflegerin",
+     "pt": "a pessoa que cuida dos doentes no hospital"
+    },
+    {
+     "w": "completo / completa",
+     "en": "full, complete; o nome completo = full name",
+     "zh": "完整的；全名",
+     "de": "vollständig",
+     "pt": "com todas as partes"
+    },
+    {
+     "w": "a turma",
+     "en": "class, group of students",
+     "zh": "班级、班",
+     "de": "die Gruppe, die Klasse",
+     "pt": "o grupo de alunos que estuda junto"
+    },
+    {
+     "w": "que vem",
+     "en": "next (a quarta que vem = next Wednesday)",
+     "zh": "下一个（下周三）",
+     "de": "nächste(r) (nächsten Mittwoch)",
+     "pt": "o próximo; depois deste"
+    },
+    {
+     "w": "americano / americana",
+     "en": "American (m / f)",
+     "zh": "美国人（男／女）",
+     "de": "Amerikaner / Amerikanerin",
+     "pt": "uma pessoa dos Estados Unidos"
+    }
+   ],
+   "grammar": "Two key questions: Qual é a sua profissão? (What's your profession?) and Você estuda ou trabalha? (Do you study or work?). Answer with ser + profession, no article: Eu sou enfermeiro. For a woman the ending changes: o enfermeiro → a enfermeira; o secretário → a secretária; o americano → a americana.",
+   "grammar_zh": "两个关键问题：Qual é a sua profissão?（你的职业是什么？）和 Você estuda ou trabalha?（你上学还是工作？）。回答用 ser + 职业，不加冠词：Eu sou enfermeiro（我是护士）。女性要改词尾：o enfermeiro → a enfermeira；o secretário → a secretária；o americano → a americana。",
+   "grammar_de": "Zwei wichtige Fragen: Qual é a sua profissão? (Was ist dein Beruf?) und Você estuda ou trabalha? (Studierst oder arbeitest du?). Man antwortet mit ser + Beruf, ohne Artikel: Eu sou enfermeiro. Bei Frauen ändert sich die Endung: o enfermeiro → a enfermeira; o secretário → a secretária; o americano → a americana.",
+   "grammar_pt": "Duas perguntas importantes: Qual é a sua profissão? e Você estuda ou trabalha? A resposta usa ser + profissão, sem artigo: Eu sou enfermeiro. Para mulheres, o final muda: o enfermeiro → a enfermeira; o secretário → a secretária; o americano → a americana.",
+   "questions": [
+    "Qual é a data de nascimento do Rafael?",
+    "Qual é a profissão do Rafael? E da irmã da secretária?",
+    "Quando começa o curso, e a que horas é a aula?"
+   ],
+   "sources": []
   }
  ]
 }

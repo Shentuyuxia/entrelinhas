@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T16:19:28+00:00",
+ "updated": "2026-10-26T18:56:16+00:00",
  "days": [
   {
    "date": "2026-10-26",
@@ -26,6 +26,22 @@
      "title": "Partir malgré tout : les pirogues reprennent la mer au Sénégal",
      "kind": "feature",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Um colega novo",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "A matrícula no curso de inglês",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]
