@@ -1,0 +1,181 @@
+{
+ "note": "Record box (唱片盒) shown beside the reading for each language. kind: song | podcast | film. Descriptions en/zh/de/pt. Links are search links (YouTube/Spotify) unless a stable page is known.",
+ "pt": [
+  {
+   "kind": "song",
+   "artist": "Chico Buarque",
+   "title": "Apesar de você",
+   "tag": "MPB · 1970",
+   "url": "https://www.youtube.com/results?search_query=Chico+Buarque+Apesar+de+voc%C3%AA",
+   "en": "Sounds like a song to a lover, but it was aimed at the dictatorship — and was banned. Slow and clear: a good first song.",
+   "zh": "表面是情歌，其实是骂独裁者，后来被禁。节奏慢、发音清楚，适合当第一首。",
+   "de": "Klingt wie ein Liebeslied, meint aber die Diktatur – und wurde verboten. Langsam und deutlich gesungen.",
+   "pt": "Parece uma canção de amor, mas fala da ditadura – e foi censurada."
+  },
+  {
+   "kind": "song",
+   "artist": "Geraldo Vandré",
+   "title": "Pra não dizer que não falei das flores",
+   "tag": "Canção de protesto · 1968",
+   "url": "https://www.youtube.com/results?search_query=Geraldo+Vandr%C3%A9+Pra+n%C3%A3o+dizer+que+n%C3%A3o+falei+das+flores",
+   "en": "The anthem of resistance against the military regime. Simple melody, lots of repetition — easy to sing along at A1.",
+   "zh": "反独裁运动的「国歌」。旋律简单、重复多，A1 也能跟着唱。",
+   "de": "Die Hymne des Widerstands gegen die Militärdiktatur. Einfache Melodie, viele Wiederholungen.",
+   "pt": "O hino da resistência contra a ditadura. Melodia simples, fácil de cantar."
+  },
+  {
+   "kind": "song",
+   "artist": "Elis Regina",
+   "title": "O bêbado e a equilibrista",
+   "tag": "MPB · 1979",
+   "url": "https://www.youtube.com/results?search_query=Elis+Regina+O+b%C3%AAbado+e+a+equilibrista",
+   "en": "Written by João Bosco and Aldir Blanc; it became the song of the campaign for amnesty for political prisoners. Elis's diction is a model for pronunciation.",
+   "zh": "João Bosco 和 Aldir Blanc 写的歌，后来成了争取政治犯大赦运动的歌。Elis 的咬字是学发音的好榜样。",
+   "de": "Von João Bosco und Aldir Blanc; wurde zum Lied der Amnestie-Bewegung. Elis' Aussprache ist ein Vorbild.",
+   "pt": "De João Bosco e Aldir Blanc; virou a canção da luta pela anistia."
+  },
+  {
+   "kind": "song",
+   "artist": "Chico Buarque & Gilberto Gil",
+   "title": "Cálice",
+   "tag": "MPB · 1973",
+   "url": "https://www.youtube.com/results?search_query=Chico+Buarque+Gilberto+Gil+C%C3%A1lice",
+   "en": "\"Cálice\" (chalice) sounds like \"cale-se\" (shut up): the whole song is a play on censorship. Listen first; read the lyrics later at B1.",
+   "zh": "「Cálice」（圣杯）听起来像「Cale-se」（闭嘴），整首歌都在讽刺审查。先听，歌词等 B1 再细读。",
+   "de": "„Cálice“ (Kelch) klingt wie „cale-se“ (sei still): ein Lied über die Zensur.",
+   "pt": "\"Cálice\" soa como \"cale-se\": uma canção sobre a censura."
+  },
+  {
+   "kind": "song",
+   "artist": "Chico Buarque",
+   "title": "Construção",
+   "tag": "MPB · 1971",
+   "url": "https://www.youtube.com/results?search_query=Chico+Buarque+Constru%C3%A7%C3%A3o",
+   "en": "One day in the life — and death — of a construction worker; famous for its word play. A goal for B1–B2.",
+   "zh": "一个建筑工人的一天和他的死，文字游戏非常有名。B1–B2 的目标。",
+   "de": "Ein Tag im Leben – und Sterben – eines Bauarbeiters; berühmt für sein Wortspiel. Ein Ziel für B1–B2.",
+   "pt": "Um dia na vida de um operário da construção. Para o nível B1–B2."
+  },
+  {
+   "kind": "song",
+   "artist": "Gilberto Gil",
+   "title": "Gilberto Gil — canções",
+   "tag": "Tropicália",
+   "url": "https://www.youtube.com/results?search_query=Gilberto+Gil+Aquele+abra%C3%A7o",
+   "en": "Arrested and exiled to London in 1969 with Caetano Veloso, later Brazil's minister of culture. Light rhythms, short lines: start with \"Aquele abraço\".",
+   "zh": "1969 年和 Caetano Veloso 一起被捕、流亡伦敦，后来当过巴西文化部长。节奏轻快、句子短，从「Aquele abraço」开始。",
+   "de": "1969 mit Caetano Veloso verhaftet und nach London verbannt, später Kulturminister. Leichte Rhythmen – zum Einstieg „Aquele abraço“.",
+   "pt": "Preso e exilado em 1969; depois ministro da Cultura. Comece com \"Aquele abraço\"."
+  },
+  {
+   "kind": "song",
+   "artist": "Elza Soares",
+   "title": "A Carne",
+   "tag": "Samba · 2002",
+   "url": "https://www.youtube.com/results?search_query=Elza+Soares+A+Carne",
+   "en": "A landmark of Brazilian anti-racism: a song about how Black lives are treated in Brazil. Her late album \"A Mulher do Fim do Mundo\" is also great.",
+   "zh": "巴西反种族主义的标志性歌曲，唱的是黑人在巴西社会的遭遇。她晚年的专辑《A Mulher do Fim do Mundo》也很好。",
+   "de": "Ein Meilenstein des brasilianischen Antirassismus. Auch ihr spätes Album „A Mulher do Fim do Mundo“ lohnt sich.",
+   "pt": "Um marco do antirracismo no Brasil. Ouça também \"A Mulher do Fim do Mundo\"."
+  },
+  {
+   "kind": "film",
+   "artist": "Emicida",
+   "title": "AmarElo – É Tudo Pra Ontem",
+   "tag": "Rap · Documentário",
+   "url": "https://www.youtube.com/results?search_query=AmarElo+%C3%89+Tudo+Pra+Ontem+trailer",
+   "en": "São Paulo rapper Emicida's album AmarElo (2019) and the Netflix documentary about it, a history of Black culture in Brazil — with subtitles.",
+   "zh": "圣保罗说唱歌手 Emicida 的专辑《AmarElo》（2019）和 Netflix 纪录片，讲巴西黑人文化史，有字幕，强烈推荐。",
+   "de": "Emicidas Album AmarElo (2019) und die Netflix-Doku dazu – eine Geschichte schwarzer Kultur in Brasilien, mit Untertiteln.",
+   "pt": "O álbum AmarElo e o documentário da Netflix sobre a cultura negra no Brasil."
+  },
+  {
+   "kind": "song",
+   "artist": "Racionais MC's",
+   "title": "Sobrevivendo no Inferno",
+   "tag": "Rap · 1997",
+   "url": "https://www.youtube.com/results?search_query=Racionais+MC%27s+Sobrevivendo+no+Inferno",
+   "en": "The legendary album from São Paulo's periphery, later put on Unicamp's required reading list. Fast and full of slang: save it for B1+.",
+   "zh": "圣保罗边缘社区的传奇专辑，后来被列进 Unicamp 的入学必读书单。语速快、俚语多，留到 B1 以后。",
+   "de": "Das legendäre Album aus São Paulos Peripherie, später Pflichtlektüre an der Unicamp. Schnell und voller Slang – ab B1.",
+   "pt": "O álbum lendário da periferia de São Paulo. Para depois do B1."
+  },
+  {
+   "kind": "song",
+   "artist": "Bia Ferreira",
+   "title": "Cota não é esmola",
+   "tag": "Música · ativismo",
+   "url": "https://www.youtube.com/results?search_query=Bia+Ferreira+Cota+n%C3%A3o+%C3%A9+esmola",
+   "en": "A direct, powerful song about racial quotas at Brazilian universities.",
+   "zh": "关于大学种族配额的歌，非常直接、有力量。",
+   "de": "Ein direktes, kraftvolles Lied über Quoten an brasilianischen Universitäten.",
+   "pt": "Uma canção direta sobre cotas raciais nas universidades."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Carioca Connection",
+   "title": "Carioca Connection",
+   "tag": "Podcast · intermediário",
+   "url": "https://open.spotify.com/search/Carioca%20Connection/podcasts",
+   "en": "Two Cariocas talk about everyday Brazilian life at normal speed, with slang; transcripts on their website. Start with a few minutes plus the transcript.",
+   "zh": "两个里约人用正常语速聊巴西日常，有俚语，网站上有文字稿。先听几分钟，配着文字稿。",
+   "de": "Zwei Cariocas sprechen in normalem Tempo über den brasilianischen Alltag, mit Slang; Transkripte auf der Website.",
+   "pt": "Dois cariocas falam do dia a dia no Brasil, com gírias e transcrições."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Portuguese With Carla",
+   "title": "Portuguese With Carla",
+   "tag": "Podcast · intermediário",
+   "url": "https://open.spotify.com/search/Portuguese%20With%20Carla/podcasts",
+   "en": "Brazilian Portuguese for intermediate learners, with downloadable transcripts and word lists.",
+   "zh": "给中级学习者的巴西葡语播客，每集有可下载的文字稿和词汇表。",
+   "de": "Brasilianisches Portugiesisch für Mittelstufe, mit Transkripten und Wortlisten.",
+   "pt": "Português do Brasil para nível intermediário, com transcrições."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Fala Gringo",
+   "title": "Fala Gringo",
+   "tag": "Podcast · intermediário",
+   "url": "https://open.spotify.com/search/Fala%20Gringo/podcasts",
+   "en": "Brazilian hosts chat about music, routines and travel, mostly in Portuguese with some English help.",
+   "zh": "巴西主持人聊音乐、日常和旅行，主要说葡语，偶尔用英语解释。",
+   "de": "Brasilianische Hosts plaudern über Musik, Alltag und Reisen, meist auf Portugiesisch.",
+   "pt": "Conversas sobre música, rotina e viagens."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Medo e Delírio",
+   "title": "Medo e Delírio em Brasília",
+   "tag": "Podcast · política · sátira",
+   "url": "https://tunein.com/podcasts/Medo-e-Delirio-em-Brasilia-p1834683/",
+   "en": "Satirical, left-leaning politics podcast, twice a week for seven years. Fast and full of jokes — a goal for B2.",
+   "zh": "讽刺、偏左的政治播客，一周约两更，已经做了七年。语速快、梗多，是 B2 的目标。",
+   "de": "Satirischer, linker Politik-Podcast, seit sieben Jahren etwa zweimal pro Woche. Schnell und voller Witz – ein Ziel für B2.",
+   "pt": "Podcast satírico de política. Para o nível B2."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Mamilos",
+   "title": "Mamilos",
+   "tag": "Podcast · sociedade",
+   "url": "https://open.spotify.com/search/Mamilos/podcasts",
+   "en": "Progressive debates on social issues and culture, often with experts. Advanced.",
+   "zh": "进步派的社会议题和文化讨论，常请专家。高级。",
+   "de": "Progressive Debatten über Gesellschaft und Kultur, oft mit Fachleuten. Fortgeschritten.",
+   "pt": "Debates progressistas sobre sociedade e cultura."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Anticast",
+   "title": "Anticast",
+   "tag": "Podcast · política e cultura",
+   "url": "https://open.spotify.com/search/Anticast/podcasts",
+   "en": "Long left-leaning conversations on politics, culture and current events, with rich vocabulary. Advanced.",
+   "zh": "一小时以上的政治、文化讨论，偏左，词汇高级。",
+   "de": "Lange, linke Gespräche über Politik, Kultur und Aktuelles. Fortgeschritten.",
+   "pt": "Conversas longas sobre política e cultura."
+  }
+ ]
+}

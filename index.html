@@ -916,6 +916,28 @@ body{font-variant-numeric:tabular-nums}
 .adbox form{margin-top:10px}.adbox .newhead{display:flex;gap:8px}.adbox .newhead input{flex:1}.adbox .newhead select{width:auto}
 .mg-favb .st{font-size:16px;line-height:1}.mg-favb[aria-pressed="true"] .st{color:#d4a017}
 .mg-favx{margin-top:10px}.mg-fin .btn svg{width:16px;height:16px;margin-right:6px;vertical-align:-3px}.mg-favx .btn svg{width:16px;height:16px;margin-right:6px;vertical-align:-3px}
+#mg-week summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between}
+#mg-week summary::-webkit-details-marker{display:none}
+#mg-week summary::after{content:"+";color:var(--muted);font-size:18px}
+#mg-week[open] summary::after{content:"–"}
+#mg-week .wk-sum{font-size:14px;line-height:1.55;color:var(--muted);margin:10px 0 0}
+.rb-shelf{display:flex;gap:12px;overflow-x:auto;padding:2px 2px 10px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+.rb-disc{flex:none;width:96px;border:0;background:none;padding:0;cursor:pointer;text-align:left;color:inherit;scroll-snap-align:start}
+.rb-sleeve{position:relative;display:flex;flex-direction:column;justify-content:flex-end;width:96px;height:96px;border-radius:6px;padding:8px;overflow:hidden;
+  background:linear-gradient(145deg,hsl(var(--h) 45% 42%),hsl(calc(var(--h) + 40) 50% 26%));color:#fff;box-shadow:0 2px 6px rgba(0,0,0,.18);transition:transform .15s}
+.rb-sleeve::before{content:"";position:absolute;right:-26px;top:-26px;width:64px;height:64px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.0) 0 18%,rgba(0,0,0,.35) 19% 100%);opacity:.55}
+.rb-sleeve i{position:absolute;left:8px;top:6px;font-style:normal;font-size:14px;opacity:.85}
+.rb-sleeve b{font-size:12.5px;line-height:1.2;font-weight:600;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.rb-disc:hover .rb-sleeve,.rb-disc.on .rb-sleeve{transform:translateY(-3px)}
+.rb-disc.on .rb-sleeve{outline:2px solid var(--acc);outline-offset:2px}
+.rb-a{display:block;font-size:11.5px;color:var(--muted);margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rb-card{border-top:1px solid var(--line);padding-top:10px;display:grid;gap:8px}
+.rb-h{display:grid;gap:2px} .rb-h b{font-size:16px}
+.rb-langs{display:inline-flex;border:1px solid var(--line);border-radius:99px;overflow:hidden;justify-self:start}
+.rb-langs button{border:0;background:none;padding:3px 11px;font-size:12.5px;color:var(--muted);cursor:pointer}
+.rb-langs button[aria-pressed="true"]{background:var(--acc-soft);color:var(--acc);font-weight:600}
+.rb-d{margin:0;font-size:14px;line-height:1.55}
+.rb-card .btn{justify-self:start;text-decoration:none!important;color:var(--ink)!important}
 </style>
 </head>
 <body>
@@ -963,7 +985,7 @@ body{font-variant-numeric:tabular-nums}
   <section id="tab-read" class="grid" hidden>
     <div class="panel" id="mg-main"></div>
     <aside style="display:grid;gap:22px;min-width:0">
-      <div class="panel mg-week" id="mg-week" hidden></div>
+      <div class="panel rbox" id="rbox" hidden></div>
       <input type="file" id="mine-file" accept=".pdf,.docx,.txt,.md,.html,.htm,.srt,.vtt,application/pdf,text/plain,text/html,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
       <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3><button class="mine-imp" id="mine-imp" type="button" title="导入 PDF / Word / 文本文件" aria-label="导入文件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 11v6M9 14l3 3 3-3"/></svg><span>导入</span></button></summary>
         <div class="row" style="margin-top:10px"><label class="btn sm filebtn">拍照<input type="file" id="mine-cam" accept="image/*" capture="environment" multiple></label><label class="btn sm filebtn">选择图片<input type="file" id="mine-pick" accept="image/*" multiple></label><button class="btn sm" type="button" onclick="document.getElementById('mine-file').click()">导入文件</button></div>
@@ -993,6 +1015,7 @@ body{font-variant-numeric:tabular-nums}
       <div id="card-area"><div class="empty"><b>正在载入词匣…</b></div></div>
     </div>
     <aside class="side">
+      <details class="panel mg-week" id="mg-week" hidden></details>
       <div class="panel" id="plan-panel"></div>
       <button class="btn ghost settog" id="tset-tog" type="button" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>学习设定</span><i class="chev" aria-hidden="true"></i></button>
       <div class="panel tset">
@@ -2430,6 +2453,7 @@ function mgLoad(){
   MG.loading=(async()=>{
     try{ MG.idx=await mgGet("marginalia/index.json"); MG.err=""; }catch(e){ MG.err="文章目录没有载入（"+e.message+"）。检查网络后再试。"; }
     try{ MG.week=await mgGet("marginalia/weekly.json"); }catch(e){ MG.week=null; }
+    try{ MG.rec=await mgGet("marginalia/records.json"); }catch(e){ MG.rec=null; }
     MG.loading=false;
   })();
   return MG.loading;
@@ -2539,7 +2563,7 @@ async function mgRender(){
   h=`<div class="mg-head"><button class="ib" id="mg-prev" aria-label="前一天" ${MG.di>=days.length-1?"disabled":""}>‹</button><span class="d">${days[MG.di]?mgFmt(days[MG.di].date):""}</span><button class="ib" id="mg-next" aria-label="后一天" ${MG.di<=0?"disabled":""}>›</button><span class="spacer"></span><button class="ib" id="mg-reload" aria-label="刷新" title="刷新">↻</button></div>`;
   { const lvs=mgLevels(MG.di,l); if(lvs.length>1){ const sel=mgLvSel(MG.di,l); h+=`<div class="mg-lvs" role="tablist" aria-label="Level"><button type="button" data-mglv="" aria-pressed="${!sel}">${esc(trOne("全部")||"全部")}</button>${lvs.map(v=>`<button type="button" data-mglv="${v}" aria-pressed="${sel===v}">${v}</button>`).join("")}</div>`; } }
   if(es.length) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}<button class="mg-addchip" data-mineopen="1" type="button">＋ 我的文章</button></nav>`;
-  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); return; }
+  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); rbRender(); return; }
   try{ const day=await mgDay(pick.date); it=day.items[pick.i]; }catch(e){ main.innerHTML=h+`<div class="empty"><b>这篇没有载入</b>${esc(e.message)}</div>`; return; }
   if(!it){ main.innerHTML=h; return; }
   }
@@ -2563,7 +2587,7 @@ async function mgRender(){
   main.innerHTML=h; MG.cur={...pick,it};
   if(innerWidth>640) document.documentElement.style.setProperty("--tabs-h",$("#tabs").offsetHeight+"px");
   { const t=main.querySelector(".mg-toc"), a=t&&t.querySelector('[aria-current="true"]'); if(a) t.scrollLeft=a.offsetLeft-(t.clientWidth-a.offsetWidth)/2; }
-  mgArch(pick); mgFavList(pick); mgWeek(); rdSync(); mineList();
+  mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); rdSync(); mineList();
 }
 function mgArch(pick){
   const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l) rows.push({...x,date:d.date,di}); }));
@@ -2571,13 +2595,38 @@ function mgArch(pick){
   const show=MG.archAll?rows:rows.slice(0,12);
   $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px"><span>往期</span> · <span>${rows.length} 篇</span></h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${new Date(x.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"})}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
 }
-function mgWeek(){
-  const w=MG.week, box=$("#mg-week");
+function mgWeek(){ // weekly review lives on the Today page; only the current language's questions
+  const w=MG.week, box=$("#mg-week"); if(!box) return;
   if(!w||!w.weekOf||Date.now()-new Date(w.weekOf+"T00:00:00").getTime()>8*864e5){ box.hidden=true; return; }
+  const l=lang(), qs=(w.quiz||[]).map((q,qi)=>({q,qi})).filter(x=>x.q.lang===l);
+  const sum=HL()==="zh"&&w.summary_zh?hz(w.summary_zh):(w.summary_en||w.summary_zh||"");
+  if(!qs.length&&!sum){ box.hidden=true; return; }
   box.hidden=false;
-  box.innerHTML=`<h3 style="margin:0 0 8px">每周回顾 <span class="small muted">${esc(w.weekOf.slice(5))} 起</span></h3>${w.summary_en||w.summary_zh?`<p data-noi18n>${esc(w.summary_en||w.summary_zh)}</p>`:""}${(w.quiz||[]).map((q,qi)=>{ const pk=MG.wpick[qi], done=pk!=null;
-    return `<div class="mg-wq" data-noi18n><div class="p" lang="${esc(q.lang)}"><span class="chip">${esc(String(q.lang||"").toUpperCase())}</span> ${esc(q.prompt)}</div><div class="o">${(q.options||[]).map((o,oi)=>`<button data-wq="${qi}" data-wo="${oi}" class="${done?(oi===q.answer?"ok":oi===pk?"bad":""):""}" ${done?"disabled":""}>${esc(o)}</button>`).join("")}</div>${done&&(q.explain_en||q.explain)?`<div class="x">${esc(q.explain_en||q.explain)}</div>`:""}</div>`; }).join("")}`;
+  const wasOpen=box.dataset.init?box.open:[0,6].includes(new Date().getDay());
+  box.dataset.init="1";
+  box.innerHTML=`<summary><h3 style="margin:0">${esc(trOne("每周回顾")||"每周回顾")} <span class="small muted">${esc(w.weekOf.slice(5))} · ${qs.length} ${esc(trOne("题")||"题")}</span></h3></summary>${sum?`<p class="wk-sum" data-noi18n>${esc(sum)}</p>`:""}${qs.map(({q,qi})=>{ const pk=MG.wpick[qi], done=pk!=null;
+    return `<div class="mg-wq" data-noi18n><div class="p" lang="${esc(q.lang)}">${esc(q.prompt)}</div><div class="o">${(q.options||[]).map((o,oi)=>`<button type="button" data-wq="${qi}" data-wo="${oi}" class="${done?(oi===q.answer?"ok":oi===pk?"bad":""):""}" ${done?"disabled":""}>${esc(o)}</button>`).join("")}</div>${done&&(q.explain_en||q.explain)?`<div class="x">${esc(HL()==="zh"&&q.explain?hz(q.explain):(q.explain_en||q.explain))}</div>`:""}</div>`; }).join("")}`;
+  box.open=wasOpen;
 }
+$("#mg-week").addEventListener("click",e=>{ const b=e.target.closest("button[data-wq]"); if(!b) return; MG.wpick[b.dataset.wq]=+b.dataset.wo; mgWeek(); });
+/* 唱片盒 · record box: songs, podcasts and films beside the reading (marginalia/records.json) */
+const RB={open:-1,hl:(()=>{ try{ return localStorage.getItem("pw-rb-hl")||""; }catch(e){ return ""; } })()};
+const RB_ICON={song:"♪",podcast:"🎙",film:"▶"};
+function rbHue(t){ let h=0; for(const c of String(t)) h=(h*31+c.charCodeAt(0))%360; return h; }
+function rbRender(){
+  const box=$("#rbox"); if(!box) return; const l=lang(), list=(MG.rec&&MG.rec[l])||[];
+  if(!list.length){ box.hidden=true; return; } box.hidden=false;
+  const hl=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), cur=list[RB.open];
+  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("唱片盒")||"唱片盒")} <span class="small muted">${list.length}</span></h3>
+    <div class="rb-shelf" role="list">${list.map((r,i)=>`<button type="button" class="rb-disc${i===RB.open?" on":""}" data-rb="${i}" role="listitem" style="--h:${rbHue(r.artist+r.title)}" title="${esc(r.artist+" · "+r.title)}"><span class="rb-sleeve"><i>${RB_ICON[r.kind]||"♪"}</i><b lang="${l}" data-noi18n>${esc(r.title)}</b></span><span class="rb-a" data-noi18n>${esc(r.artist)}</span></button>`).join("")}</div>
+    ${cur?`<div class="rb-card"><div class="rb-h"><b lang="${l}" data-noi18n>${esc(cur.title)}</b><span class="small muted" data-noi18n>${esc(cur.artist)} · ${esc(cur.tag||"")}</span></div>
+      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"],["de","DE"]].map(([k,n])=>`<button type="button" data-rbl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <p class="rb-d" lang="${hl}" data-noi18n>${esc(hl==="zh"?hz(cur.zh||""):(cur[hl]||cur.en||""))}</p>
+      <a class="btn sm" href="${esc(cur.url)}" target="_blank" rel="noopener">${cur.kind==="podcast"?"🎙 ":"▶ "}${esc(trOne("去听")||"去听")}</a></div>`:`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张唱片，看它的故事。")||"点一张唱片，看它的故事。")}</p>`}`;
+}
+$("#rbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.rb!=null){ const i=+b.dataset.rb; RB.open=RB.open===i?-1:i; rbRender(); }
+  else if(b.dataset.rbl){ RB.hl=b.dataset.rbl; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} rbRender(); } });
 /* read-aloud player: sentence by sentence, highlighted */
 const RD_RATES=[0.6,0.75,0.9,1,1.15];
 const RD={src:null,key:null,i:0,on:false,loop:false,tok:0,u:null,rate:(()=>{ try{ const r=+localStorage.getItem("pw-rd-rate"); if(r) return r; }catch(e){} return 0.9; })()};
@@ -4326,6 +4375,10 @@ const UI_DICT=[
 ["机器翻译", "Machine translation", "Maschinelle Übersetzung", "Tradução automática", "機器翻譯"],
 ["没有找到对应的词。", "No matching word found.", "Kein passendes Wort gefunden.", "Nenhuma palavra encontrada.", "沒有找到對應的詞。"],
 ["点一个词，看它的释义和例句。", "Tap a word to see its meanings and examples.", "Tippe auf ein Wort für Bedeutungen und Beispiele.", "Toque numa palavra para ver significados e exemplos.", "點一個詞，看它的釋義和例句。"],
+["唱片盒", "Record box", "Plattenkiste", "Caixa de discos", "唱片盒"],
+["去听", "Listen", "Anhören", "Ouvir", "去聽"],
+["点一张唱片，看它的故事。", "Tap a record to read its story.", "Tippe auf eine Platte für ihre Geschichte.", "Toque num disco para ver a história.", "點一張唱片，看它的故事。"],
+["题", "questions", "Fragen", "perguntas", "題"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
@@ -4445,6 +4498,7 @@ function showTab(t){
   if(t==="pile") renderPile(); if(t==="browse") renderBrowse(); if(t==="stats") renderStats();
   if(t==="settings"){ renderAISettings(); renderStorage(); renderBackupHint(); }
   if(t==="today"&&sess) renderCard();
+  if(t==="today") mgLoad().then(()=>{ mgWeek(); });
   if(t==="read") mgRender(); else { if(typeof mgClose==="function"&&MG.sheet) mgClose(); if(typeof rdStop==="function") rdStop(); }
   try{ localStorage.setItem("pw-tab",t); }catch(e){}
 }
@@ -4470,7 +4524,7 @@ async function applyLang(){
   $$("#langsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===l));
   if(detailOpen) closeDetail();
   if(MG.sheet) mgClose(); MG.key=null;
-  renderSettings(); renderNewForm(); voiceNote(); renderNT(); renderStrip(); renderBackupHint();
+  renderSettings(); renderNewForm(); mgWeek(); voiceNote(); renderNT(); renderStrip(); renderBackupHint();
   if(hasTTS) speechSynthesis.cancel();
   if(!DATA[l]){ $("#card-area").innerHTML=`<div class="empty"><b>正在载入${LANG[l].zh}词匣…</b></div>`; $("#sess-bar").style.width="0"; }
   try{ await loadLang(l); }
