@@ -938,6 +938,24 @@ body{font-variant-numeric:tabular-nums}
 .rb-langs button[aria-pressed="true"]{background:var(--acc-soft);color:var(--acc);font-weight:600}
 .rb-d{margin:0;font-size:14px;line-height:1.55}
 .rb-card .btn{justify-self:start;text-decoration:none!important;color:var(--ink)!important}
+/* five main tabs everywhere (word pile lives inside 词匣, settings inside 我的) */
+nav.tabs button[data-tab="pile"],nav.tabs button[data-tab="settings"]{display:none!important}
+nav.tabs button[data-tab="stats"] .tl{display:none!important}
+nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
+@media (max-width:640px){ nav.tabs button[data-tab="stats"] .tl-m{display:block!important} }
+.strip[hidden]{display:none!important}
+@media (min-width:641px){
+  .subsw{display:flex!important;gap:6px;grid-column:1 / -1;margin:0 0 6px;max-width:420px}
+  .subsw button{flex:1;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font:inherit;font-size:14px;color:var(--muted);cursor:pointer}
+  .subsw button[aria-pressed="true"]{border-color:var(--acc);background:var(--acc-soft);color:var(--ink);font-weight:600}
+  .subsw .ct{font-size:12px;color:var(--acc)}
+  nav.tabs button.grp-on{color:var(--ink);font-weight:600;border-bottom-color:var(--acc)}
+}
+.pk-book .rb-sleeve{width:96px;height:128px;border-radius:3px 6px 6px 3px;background:linear-gradient(90deg,rgba(0,0,0,.22) 0 6px,transparent 6px),linear-gradient(160deg,hsl(var(--h) 30% 92%),hsl(var(--h) 28% 82%));color:var(--ink);box-shadow:0 2px 6px rgba(0,0,0,.14)}
+.pk-book .rb-sleeve::before{display:none}
+.pk-book .rb-sleeve i{left:12px;right:6px;top:8px;font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;opacity:.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pk-book .rb-sleeve b{padding-left:4px;-webkit-line-clamp:5;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:anywhere}
+.pkbox .rb-card .btn{text-decoration:none!important;color:var(--ink)!important}
 </style>
 </head>
 <body>
@@ -985,6 +1003,7 @@ body{font-variant-numeric:tabular-nums}
   <section id="tab-read" class="grid" hidden>
     <div class="panel" id="mg-main"></div>
     <aside style="display:grid;gap:22px;min-width:0">
+      <div class="panel rbox pkbox" id="pkbox" hidden></div>
       <div class="panel rbox" id="rbox" hidden></div>
       <input type="file" id="mine-file" accept=".pdf,.docx,.txt,.md,.html,.htm,.srt,.vtt,application/pdf,text/plain,text/html,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
       <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3><button class="mine-imp" id="mine-imp" type="button" title="导入 PDF / Word / 文本文件" aria-label="导入文件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 11v6M9 14l3 3 3-3"/></svg><span>导入</span></button></summary>
@@ -2465,7 +2484,7 @@ function mgLvSel(dayIdx,l){ const lv=mgLevels(dayIdx,l), want=(S.settings.rdLv||
 function mgEntries(dayIdx,l){
   const day=MG.idx&&MG.idx.days[dayIdx]; if(!day) return [];
   const sel=mgLvSel(dayIdx,l);
-  return day.items.filter(x=>x.lang===l&&(!sel||x.kind==="picks"||x.level===sel)).map((x,n)=>({...x,n,date:day.date})).sort((a,b)=>(MG_ORD(a)-MG_ORD(b))||String(a.hour||"").localeCompare(String(b.hour||""))||a.n-b.n);
+  return day.items.filter(x=>x.lang===l&&x.kind!=="picks"&&(!sel||x.level===sel)).map((x,n)=>({...x,n,date:day.date})).sort((a,b)=>(MG_ORD(a)-MG_ORD(b))||String(a.hour||"").localeCompare(String(b.hour||""))||a.n-b.n);
 }
 function mgPick(){ // returns {date,i} of the article to show
   const l=lang(), es=mgEntries(MG.di,l);
@@ -2562,7 +2581,7 @@ async function mgRender(){
   h=`<div class="mg-head"><button class="ib" id="mg-prev" aria-label="前一天" ${MG.di>=days.length-1?"disabled":""}>‹</button><span class="d">${days[MG.di]?mgFmt(days[MG.di].date):""}</span><button class="ib" id="mg-next" aria-label="后一天" ${MG.di<=0?"disabled":""}>›</button><span class="spacer"></span><button class="ib" id="mg-reload" aria-label="刷新" title="刷新">↻</button></div>`;
   { const lvs=mgLevels(MG.di,l); if(lvs.length>1){ const sel=mgLvSel(MG.di,l); h+=`<div class="mg-lvs" role="tablist" aria-label="Level"><button type="button" data-mglv="" aria-pressed="${!sel}">${esc(trOne("全部")||"全部")}</button>${lvs.map(v=>`<button type="button" data-mglv="${v}" aria-pressed="${sel===v}">${v}</button>`).join("")}</div>`; } }
   if(es.length) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}<button class="mg-addchip" data-mineopen="1" type="button">＋ 我的文章</button></nav>`;
-  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); rbRender(); return; }
+  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); rbRender(); pkRender(); return; }
   try{ const day=await mgDay(pick.date); it=day.items[pick.i]; }catch(e){ main.innerHTML=h+`<div class="empty"><b>这篇没有载入</b>${esc(e.message)}</div>`; return; }
   if(!it){ main.innerHTML=h; return; }
   }
@@ -2586,12 +2605,12 @@ async function mgRender(){
   main.innerHTML=h; MG.cur={...pick,it};
   if(innerWidth>640) document.documentElement.style.setProperty("--tabs-h",$("#tabs").offsetHeight+"px");
   { const t=main.querySelector(".mg-toc"), a=t&&t.querySelector('[aria-current="true"]'); if(a) t.scrollLeft=a.offsetLeft-(t.clientWidth-a.offsetWidth)/2; }
-  mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); rdSync(); mineList();
+  mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); pkRender(); rdSync(); mineList();
 }
 function mgArch(pick){
-  const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l) rows.push({...x,date:d.date,di}); }));
+  const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l&&x.kind!=="picks") rows.push({...x,date:d.date,di}); }));
   rows.sort((a,b)=>b.date.localeCompare(a.date)||(MG_ORD(a)-MG_ORD(b)));
-  const show=MG.archAll?rows:rows.slice(0,12);
+  const show=MG.archAll?rows:rows.slice(0,5);
   $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px"><span>往期</span> · <span>${rows.length} 篇</span></h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${new Date(x.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"})}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
 }
 function mgWeek(){ return; // weekly review removed (2026-10-26)
@@ -2626,6 +2645,28 @@ function rbRender(){
 $("#rbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
   if(b.dataset.rb!=null){ const i=+b.dataset.rb; RB.open=RB.open===i?-1:i; rbRender(); }
   else if(b.dataset.rbl){ RB.hl=b.dataset.rbl; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} rbRender(); } });
+/* 书架 · today's reading recommendations (kind "picks"), beside the reading instead of in the article list */
+const PK={open:-1,key:""};
+async function pkRender(){
+  const box=$("#pkbox"); if(!box) return; const l=lang(), day=MG.idx&&MG.idx.days[MG.di];
+  if(!day){ box.hidden=true; return; }
+  let d=null; try{ d=await mgDay(day.date); }catch(e){}
+  if(lang()!==l) return;
+  const picks=d?d.items.filter(x=>x.lang===l&&x.kind==="picks").flatMap(x=>x.picks||[]):[];
+  if(!picks.length){ box.hidden=true; box.innerHTML=""; return; }
+  const key=day.date+"|"+l; if(PK.key!==key){ PK.key=key; PK.open=-1; }
+  box.hidden=false;
+  const hl=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), cur=picks[PK.open];
+  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("书架")||"书架")} <span class="small muted">${esc(trOne("今日推荐")||"今日推荐")} · ${picks.length}</span></h3>
+    <div class="rb-shelf" role="list">${picks.map((p,i)=>`<button type="button" class="rb-disc pk-book${i===PK.open?" on":""}" data-pk="${i}" role="listitem" style="--h:${rbHue(p.outlet+p.title)}"><span class="rb-sleeve"><i data-noi18n>${esc(p.outlet||"")}</i><b lang="${esc(p.lang||l)}" data-noi18n>${esc(p.title)}</b></span><span class="rb-a" data-noi18n>${esc(p.genre||"")}</span></button>`).join("")}</div>
+    ${cur?`<div class="rb-card"><div class="rb-h"><b lang="${esc(cur.lang||l)}" data-noi18n>${esc(cur.title)}</b><span class="small muted" data-noi18n>${esc([cur.author,cur.outlet,cur.minutes?cur.minutes+" min":""].filter(Boolean).join(" · "))}</span></div>
+      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"],["de","DE"]].map(([k,n])=>`<button type="button" data-pkl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <p class="rb-d" lang="${hl}" data-noi18n>${esc(hl==="zh"?hz(cur.zh||""):(cur[hl]||cur.en||""))}</p>
+      <a class="btn sm" href="${esc(cur.url)}" target="_blank" rel="noopener">${esc(trOne("阅读原文")||"阅读原文")} ↗</a></div>`:""}`;
+}
+$("#pkbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.pk!=null){ const i=+b.dataset.pk; PK.open=PK.open===i?-1:i; pkRender(); }
+  else if(b.dataset.pkl){ RB.hl=b.dataset.pkl; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} pkRender(); rbRender(); } });
 /* read-aloud player: sentence by sentence, highlighted */
 const RD_RATES=[0.6,0.75,0.9,1,1.15];
 const RD={src:null,key:null,i:0,on:false,loop:false,tok:0,u:null,rate:(()=>{ try{ const r=+localStorage.getItem("pw-rd-rate"); if(r) return r; }catch(e){} return 0.9; })()};
@@ -4378,6 +4419,9 @@ const UI_DICT=[
 ["去听", "Listen", "Anhören", "Ouvir", "去聽"],
 ["点一张唱片，看它的故事。", "Tap a record to read its story.", "Tippe auf eine Platte für ihre Geschichte.", "Toque num disco para ver a história.", "點一張唱片，看它的故事。"],
 ["题", "questions", "Fragen", "perguntas", "題"],
+["书架", "Bookshelf", "Bücherregal", "Estante", "書架"],
+["今日推荐", "today's picks", "Tipps von heute", "dicas de hoje", "今日推薦"],
+["阅读原文", "Read the original", "Original lesen", "Ler o original", "閱讀原文"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
@@ -4491,6 +4535,7 @@ function showTab(t){
   if(t==="dict") setTimeout(()=>{ const q=$("#dx-q"); if(q&&!q.value) try{ q.focus({preventScroll:true}); }catch(e){} },80);
   if(!TABS.includes(t)) t="today";
   cur=t; const grp={pile:"browse",settings:"stats"}[t]||t;
+  { const st=document.querySelector("section.strip"); if(st) st.hidden=t!=="today"; }
   $$("#tabs button").forEach(b=>{ b.setAttribute("aria-selected",b.dataset.tab===t); b.classList.toggle("grp-on",b.dataset.tab===grp); });
   $$(".subsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.sub===t));
   TABS.forEach(k=>document.getElementById("tab-"+k).hidden=k!==t);
