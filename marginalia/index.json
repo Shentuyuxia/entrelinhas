@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T15:52:04+00:00",
+ "updated": "2026-10-26T16:01:06+00:00",
  "days": [
   {
    "date": "2026-10-26",
@@ -26,6 +26,22 @@
      "title": "Partir malgré tout : les pirogues reprennent la mer au Sénégal",
      "kind": "feature",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Músicas de resistência",
+     "kind": "picks",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Podcasts para ouvir",
+     "kind": "picks",
+     "level": "A1",
      "hour": null
     }
    ]
