@@ -23,18 +23,10 @@
    "Fri": [
     "A2",
     "C1"
-   ],
-   "Sat": [
-    "B1",
-    "B2"
-   ],
-   "Sun": [
-    "A2",
-    "C1"
    ]
   }
  },
- "note": "Change a level here (A1–C2); the daily tasks read it before writing. French: two articles a day, one easier and one harder, levels rotating by weekday.",
+ "note": "Change a level here (A1–C2); the daily tasks read it before writing. English, German and French come Monday to Friday; the weekend is for review. French: two articles a day, one easier and one harder, levels rotating by weekday.",
  "sources": {
   "en": {
    "rotate": [
@@ -79,11 +71,9 @@
    "themes": {
     "Mon": "Migration",
     "Tue": "Music",
-    "Wed": "Contemporary art / Photography / Architecture & cities (weekly rotation)",
-    "Thu": "Books & ideas",
-    "Fri": "Society & political economy",
-    "Sat": "Humanities, nature & science",
-    "Sun": "Film"
+    "Wed": "Visual culture, ISO week mod 4: contemporary art / photography / architecture & cities / film",
+    "Thu": "Odd ISO weeks: books & ideas; even: humanities, nature & science",
+    "Fri": "Society & political economy"
    }
   },
   "de": {
@@ -113,15 +103,13 @@
    "themes": {
     "Mon": "Menschen & Migration (Geschichten, keine Politik)",
     "Tue": "Musik",
-    "Wed": "Kunst / Fotografie / Architektur & Design",
-    "Thu": "Bücher & Lesen",
-    "Fri": "Alltag",
-    "Sat": "Natur & Wissen",
-    "Sun": "Film & Serien"
+    "Wed": "Kunst / Fotografie / Architektur & Design / Film & Serien (ISO-Woche mod 4)",
+    "Thu": "Ungerade ISO-Wochen: Bücher & Lesen; gerade: Natur & Wissen",
+    "Fri": "Alltag"
    },
    "short": {
-    "Mon/Wed/Fri/Sun": "Alltagsdeutsch (Dialog, Umgangssprache)",
-    "Tue/Thu/Sat": "Deutschland kurios"
+    "Mon/Wed/Fri": "Alltagsdeutsch (Dialog, Umgangssprache)",
+    "Tue/Thu": "Deutschland kurios"
    },
    "tone": "leicht, neugierig, feuilletonistisch; keine politischen Nachrichten, keine Lokalnachrichten"
   },
@@ -199,5 +187,36 @@
     "Sun": "Cinéma"
    }
   }
+ },
+ "schedule": {
+  "en": "Mon–Fri: 1 long read",
+  "de": "Mon–Fri: 1 article + 1 short item",
+  "fr": "Mon–Fri: 2 articles (easier + harder)",
+  "pt": "every day: diary entry + short dialogue",
+  "picks": "Mon–Fri: 2–3 links per list (de, en)",
+  "weekend": "Saturday: no new texts. Sunday: weekly review (quiz) only."
+ },
+ "pt_focus": {
+  "format": "Diário de Ana (first-person diary, always opens with the full date and uses clock times) + one short dialogue on the same grammar topic",
+  "topics_by_weekday": {
+   "Mon": "datas, horas e dias da semana + perguntas sobre estudos e profissão",
+   "Tue": "plural + masculino e feminino",
+   "Wed": "números (contando em português: idades, preços, telefones, horários)",
+   "Thu": "pronomes possessivos",
+   "Fri": "pronomes interrogativos",
+   "Sat": "advérbios",
+   "Sun": "preposições (em, de, para, com, a, por + contrações no, na, do, da)"
+  },
+  "learned": [
+   "dates, months, days of the week, time",
+   "Perguntas sobre estudos e profissão",
+   "Plural",
+   "Contando em Português",
+   "Pronomes Possessivos",
+   "Masculino e Feminino",
+   "Pronomes Interrogativos",
+   "Advérbios",
+   "Preposições"
+  ]
  }
 }
