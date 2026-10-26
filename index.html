@@ -1015,7 +1015,6 @@ body{font-variant-numeric:tabular-nums}
       <div id="card-area"><div class="empty"><b>正在载入词匣…</b></div></div>
     </div>
     <aside class="side">
-      <details class="panel mg-week" id="mg-week" hidden></details>
       <div class="panel" id="plan-panel"></div>
       <button class="btn ghost settog" id="tset-tog" type="button" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>学习设定</span><i class="chev" aria-hidden="true"></i></button>
       <div class="panel tset">
@@ -2595,7 +2594,7 @@ function mgArch(pick){
   const show=MG.archAll?rows:rows.slice(0,12);
   $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px"><span>往期</span> · <span>${rows.length} 篇</span></h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${new Date(x.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"})}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
 }
-function mgWeek(){ // weekly review lives on the Today page; only the current language's questions
+function mgWeek(){ return; // weekly review removed (2026-10-26)
   const w=MG.week, box=$("#mg-week"); if(!box) return;
   if(!w||!w.weekOf||Date.now()-new Date(w.weekOf+"T00:00:00").getTime()>8*864e5){ box.hidden=true; return; }
   const l=lang(), qs=(w.quiz||[]).map((q,qi)=>({q,qi})).filter(x=>x.q.lang===l);
@@ -2608,7 +2607,7 @@ function mgWeek(){ // weekly review lives on the Today page; only the current la
     return `<div class="mg-wq" data-noi18n><div class="p" lang="${esc(q.lang)}">${esc(q.prompt)}</div><div class="o">${(q.options||[]).map((o,oi)=>`<button type="button" data-wq="${qi}" data-wo="${oi}" class="${done?(oi===q.answer?"ok":oi===pk?"bad":""):""}" ${done?"disabled":""}>${esc(o)}</button>`).join("")}</div>${done&&(q.explain_en||q.explain)?`<div class="x">${esc(HL()==="zh"&&q.explain?hz(q.explain):(q.explain_en||q.explain))}</div>`:""}</div>`; }).join("")}`;
   box.open=wasOpen;
 }
-$("#mg-week").addEventListener("click",e=>{ const b=e.target.closest("button[data-wq]"); if(!b) return; MG.wpick[b.dataset.wq]=+b.dataset.wo; mgWeek(); });
+$("#mg-week")&&$("#mg-week").addEventListener("click",e=>{ const b=e.target.closest("button[data-wq]"); if(!b) return; MG.wpick[b.dataset.wq]=+b.dataset.wo; mgWeek(); });
 /* 唱片盒 · record box: songs, podcasts and films beside the reading (marginalia/records.json) */
 const RB={open:-1,hl:(()=>{ try{ return localStorage.getItem("pw-rb-hl")||""; }catch(e){ return ""; } })()};
 const RB_ICON={song:"♪",podcast:"🎙",film:"▶"};
@@ -4498,7 +4497,6 @@ function showTab(t){
   if(t==="pile") renderPile(); if(t==="browse") renderBrowse(); if(t==="stats") renderStats();
   if(t==="settings"){ renderAISettings(); renderStorage(); renderBackupHint(); }
   if(t==="today"&&sess) renderCard();
-  if(t==="today") mgLoad().then(()=>{ mgWeek(); });
   if(t==="read") mgRender(); else { if(typeof mgClose==="function"&&MG.sheet) mgClose(); if(typeof rdStop==="function") rdStop(); }
   try{ localStorage.setItem("pw-tab",t); }catch(e){}
 }

@@ -193,8 +193,8 @@
   "de": "Mon–Fri: 1 article + 1 short item",
   "fr": "Mon–Fri: 2 articles (easier + harder)",
   "pt": "every day: diary entry + short dialogue",
-  "picks": "Mon–Fri: 2–3 links per list (de, en)",
-  "weekend": "Saturday: no new texts. Sunday: weekly review (quiz) only."
+  "picks": "Mon–Fri: exactly 2 links per list (de, en)",
+  "weekend": "Saturday and Sunday: no new English, German or French texts (no weekly review)."
  },
  "pt_focus": {
   "format": "Diário de Ana (first-person diary, always opens with the full date and uses clock times) + one short dialogue on the same grammar topic",
