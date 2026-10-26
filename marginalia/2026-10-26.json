@@ -152,6 +152,308 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "fr",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Migrations",
+   "title": "Une pirogue arrive à Gandiol",
+   "dek": "Au Sénégal, une grande pirogue arrive sur la côte avec 171 personnes. Tout le monde est vivant.",
+   "paragraphs": [
+    "Gandiol est un petit village au nord du Sénégal, près de la ville de Saint-Louis. Le 20 octobre, à sept heures du matin, une grande pirogue arrive ici. Dans la pirogue, il y a 171 personnes : des hommes, des femmes et douze enfants.",
+    "Ces personnes viennent surtout de Gambie. Elles partent le 15 octobre, la nuit. Elles veulent aller en Espagne. Mais la mer est très forte, et la pirogue va vers la côte du Sénégal.",
+    "Des piroguiers de Saint-Louis aident les passagers. Sept personnes vont à l'hôpital, mais il n'y a pas de morts. Le voyage coûte cher : entre 300 000 et 600 000 francs CFA par personne. Pourquoi partir ? Souvent, ces personnes cherchent un travail et une vie meilleure."
+   ],
+   "paragraphs_en": [
+    "Gandiol is a small village in the north of Senegal, near the city of Saint-Louis. On 20 October, at seven in the morning, a big pirogue arrives here. In the pirogue there are 171 people: men, women and twelve children.",
+    "These people come mostly from the Gambia. They leave on 15 October, at night. They want to go to Spain. But the sea is very rough, and the pirogue heads for the coast of Senegal.",
+    "Boatmen from Saint-Louis help the passengers. Seven people go to hospital, but nobody dies. The journey is expensive: between 300,000 and 600,000 CFA francs per person. Why leave? Often these people are looking for work and a better life."
+   ],
+   "paragraphs_zh": [
+    "甘迪奥勒是塞内加尔北部的一个小村庄，靠近圣路易市。10月20日早上七点，一条大型独木船来到这里。船上有171人：有男人、女人，还有十二个孩子。",
+    "这些人大多来自冈比亚。他们在10月15日夜里出发，想去西班牙。可是海上风浪很大，船只好驶向塞内加尔的海岸。",
+    "圣路易的船工帮助了这些乘客。有七个人被送进医院，但没有人死亡。这趟旅程很贵：每人要付30万到60万西非法郎。为什么要走？很多时候，这些人是在寻找工作和更好的生活。"
+   ],
+   "paragraphs_de": [
+    "Gandiol ist ein kleines Dorf im Norden Senegals, in der Nähe der Stadt Saint-Louis. Am 20. Oktober um sieben Uhr morgens kommt hier eine große Piroge an. In der Piroge sind 171 Menschen: Männer, Frauen und zwölf Kinder.",
+    "Diese Menschen kommen vor allem aus Gambia. Sie fahren am 15. Oktober in der Nacht los. Sie wollen nach Spanien. Aber das Meer ist sehr stürmisch, und die Piroge fährt zur Küste Senegals.",
+    "Bootsleute aus Saint-Louis helfen den Passagieren. Sieben Menschen kommen ins Krankenhaus, aber es gibt keine Toten. Die Reise ist teuer: zwischen 300.000 und 600.000 CFA-Franc pro Person. Warum gehen sie weg? Oft suchen diese Menschen Arbeit und ein besseres Leben."
+   ],
+   "paragraphs_pt": [
+    "Gandiol é uma pequena aldeia no norte do Senegal, perto da cidade de Saint-Louis. No dia 20 de outubro, às sete da manhã, uma grande piroga chega aqui. Na piroga há 171 pessoas: homens, mulheres e doze crianças.",
+    "Essas pessoas vêm principalmente da Gâmbia. Elas partem no dia 15 de outubro, à noite. Querem ir para a Espanha. Mas o mar está muito agitado, e a piroga vai para a costa do Senegal.",
+    "Barqueiros de Saint-Louis ajudam os passageiros. Sete pessoas vão para o hospital, mas ninguém morre. A viagem é cara: entre 300 mil e 600 mil francos CFA por pessoa. Por que partir? Muitas vezes, essas pessoas procuram trabalho e uma vida melhor."
+   ],
+   "glossary": [
+    {
+     "w": "une pirogue",
+     "fr": "un bateau long et étroit, en bois, souvent pour la pêche",
+     "en": "a pirogue, long wooden boat",
+     "zh": "独木舟，长木船",
+     "de": "eine Piroge, langes Holzboot",
+     "pt": "uma piroga, barco comprido de madeira"
+    },
+    {
+     "w": "un village",
+     "fr": "un petit endroit à la campagne, avec peu de maisons",
+     "en": "a village",
+     "zh": "村庄",
+     "de": "ein Dorf",
+     "pt": "uma aldeia, um vilarejo"
+    },
+    {
+     "w": "vivant",
+     "fr": "qui n'est pas mort",
+     "en": "alive",
+     "zh": "活着的",
+     "de": "lebendig, am Leben",
+     "pt": "vivo"
+    },
+    {
+     "w": "partir",
+     "fr": "quitter un endroit pour aller ailleurs",
+     "en": "to leave",
+     "zh": "出发，离开",
+     "de": "weggehen, abfahren",
+     "pt": "partir, ir embora"
+    },
+    {
+     "w": "la mer",
+     "fr": "la très grande eau salée entre les pays",
+     "en": "the sea",
+     "zh": "大海",
+     "de": "das Meer",
+     "pt": "o mar"
+    },
+    {
+     "w": "la côte",
+     "fr": "l'endroit où la terre touche la mer",
+     "en": "the coast",
+     "zh": "海岸",
+     "de": "die Küste",
+     "pt": "a costa"
+    },
+    {
+     "w": "aider",
+     "fr": "faire quelque chose pour une autre personne",
+     "en": "to help",
+     "zh": "帮助",
+     "de": "helfen",
+     "pt": "ajudar"
+    },
+    {
+     "w": "cher",
+     "fr": "qui coûte beaucoup d'argent",
+     "en": "expensive",
+     "zh": "贵的",
+     "de": "teuer",
+     "pt": "caro"
+    }
+   ],
+   "grammar": "Il y a means \"there is\" or \"there are\" and never changes, whether one thing or many follow: il y a 171 personnes. To say \"there is no…\", use il n'y a pas de: il n'y a pas de morts. After pas, un, une and des become de (d' before a vowel).",
+   "grammar_zh": "Il y a 的意思是“有”，后面不论跟单数还是复数都不变：il y a 171 personnes（有171人）。表示“没有……”时用 il n'y a pas de：il n'y a pas de morts（没有死者）。在 pas 后面，un、une、des 都要变成 de（元音前写成 d'）。",
+   "grammar_de": "Il y a bedeutet „es gibt“ oder „da ist/sind“ und bleibt immer gleich, egal ob Singular oder Plural folgt: il y a 171 personnes. Für „es gibt kein…“ sagt man il n'y a pas de: il n'y a pas de morts. Nach pas werden un, une und des zu de (vor Vokal d').",
+   "grammar_pt": "Il y a significa \"há\" ou \"tem\" e nunca muda, seja singular ou plural: il y a 171 personnes. Para dizer \"não há…\", usa-se il n'y a pas de: il n'y a pas de morts. Depois de pas, un, une e des viram de (d' antes de vogal).",
+   "questions": [
+    "Combien de personnes il y a dans la pirogue ?",
+    "Où est-ce que les passagers veulent aller ?",
+    "Pourquoi est-ce que ces personnes partent ?"
+   ],
+   "sources": [
+    {
+     "title": "Le Soleil — Migration irrégulière : 171 rescapés retrouvés à Gandiol (21 octobre 2026)",
+     "url": "https://lesoleil.sn/actualites/migration-irreguliere-171-rescapes-retrouves-a-gandiol",
+     "license": "link only"
+    },
+    {
+     "title": "Dakaractu — Migration irrégulière : 171 personnes rescapées après l'échouement d'une pirogue à Gandiol",
+     "url": "https://www.dakaractu.com/Migration-irreguliere-171-personnes-rescapees-apres-l-echouement-d-une-pirogue-a-Gandiol-sept-evacuees-a-l-hopital_a277292.html",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Migrations",
+   "title": "Partir malgré tout : les pirogues reprennent la mer au Sénégal",
+   "dek": "Les arrivées aux Canaries ont fortement baissé, et pourtant les pirogues repartent du Sénégal et de Gambie. Une éditorialiste dakaroise y lit une crise de confiance : les contrôles déplacent les routes, les raisons de partir restent.",
+   "paragraphs": [
+    "Le mardi 20 octobre, vers sept heures du matin, une pirogue s'est échouée à Pilote Bar, dans la commune de Gandiol, près de Saint-Louis, au nord du Sénégal. À son bord se trouvaient 171 personnes, dont une soixantaine de femmes et douze enfants, gambiennes pour la plupart. Partis de la côte gambienne dans la nuit du 15 octobre, les passagers voulaient rejoindre l'Espagne ; le mauvais temps les a contraints à se rabattre vers le Sénégal. Selon la gendarmerie, il n'y a eu aucun mort, sept personnes ont été hospitalisées et le bateau a été saisi.",
+    "Ce sauvetage n'est pas un cas isolé. Le 15 octobre, cinquante-trois candidats au départ, presque tous sénégalais, avaient été secourus au large de Mboro après une panne de moteur, et le même jour, une embarcation transportant deux cents personnes était interceptée au large du Maroc. C'est cette série qui a conduit la journaliste Henriette Niang Kandé, dans un texte paru dans Sud Quotidien et repris par SenePlus, à parler du « retour d'une désespérance ».",
+    "Ces départs tranchent avec les statistiques officielles. D'après le ministère espagnol de l'Intérieur, 3 708 personnes sont arrivées aux Canaries au premier semestre 2026, contre 11 321 un an plus tôt, soit une chute de 67 %. La presse marocaine relie ce recul à la coopération entre Rabat et Madrid pour surveiller les côtes. Mais au même moment, les entrées par voie terrestre à Ceuta et Melilla ont plus que doublé. On peut y lire une constante des politiques migratoires : quand une route se ferme, une autre s'ouvre, souvent plus longue.",
+    "Le voyage coûte entre 300 000 et 600 000 francs CFA par passager, soit environ 460 à 915 euros, une somme que les familles aident parfois à réunir. Pour l'éditorialiste, partir n'est pas un coup de folie mais un calcul : lorsque l'emploi, l'autonomie financière et l'espoir d'ascension sociale font défaut, le risque de mourir en mer peut sembler moins lourd que l'absence d'avenir. Elle souligne aussi que les jeunes hommes ne sont plus seuls à partir : les autorités marocaines signalent de nombreuses femmes et de nombreux mineurs parmi les personnes interceptées.",
+    "Les réseaux sociaux jouent un rôle ambigu. Les vidéos de pirogues bondées rendent le drame visible, mais d'autres publications montrent de jeunes émigrés exhibant leurs premiers salaires en Europe, une image triée qui passe sous silence les dettes, l'exploitation, les expulsions et les morts. En août, le comité interministériel sénégalais chargé de la lutte contre la migration irrégulière avait d'ailleurs mis en garde contre les fausses offres d'emploi et les témoignages embellis qui circulent en ligne.",
+    "Le texte vise surtout le pouvoir issu de l'alternance de mars 2024, incarné par Bassirou Diomaye Faye et Ousmane Sonko, qui avait fait de l'emploi des jeunes une promesse centrale. Trente mois plus tard, la journaliste admet que le chômage structurel ne se résorbe pas en quelques semaines, mais réclame des résultats mesurables. Le pétrole et le gaz n'y suffiront pas, estime-t-elle, car ces industries exigent beaucoup de capital et peu de main-d'œuvre. Elle plaide plutôt pour l'agriculture, la transformation alimentaire, la pêche, l'artisanat et le numérique, avec des objectifs publics vérifiables.",
+    "Vue d'Europe, la migration se résume volontiers à des « flux » qu'il faudrait contenir. Vue de Gandiol, elle ressemble davantage à une question économique et politique : qui a accès au travail, à la dignité, à un avenir sur place ? C'est du moins la leçon que suggère cet épisode : tant que ces raisons de partir resteront intactes, les contrôles pourront déplacer les routes sans tarir les départs."
+   ],
+   "paragraphs_en": [
+    "On Tuesday 20 October, at around seven in the morning, a pirogue ran aground at Pilote Bar, in the commune of Gandiol, near Saint-Louis in northern Senegal. On board were 171 people, including some sixty women and twelve children, most of them Gambian. Having left the Gambian coast on the night of 15 October, the passengers were trying to reach Spain; bad weather forced them to turn back towards Senegal. According to the gendarmerie, nobody died, seven people were taken to hospital and the boat was seized.",
+    "This rescue is not an isolated case. On 15 October, fifty-three would-be migrants, nearly all Senegalese, had been rescued off Mboro after an engine failure, and on the same day a boat carrying two hundred people was intercepted off Morocco. It was this series that led the journalist Henriette Niang Kandé, in a piece published in Sud Quotidien and reprinted by SenePlus, to speak of \"the return of a despair\".",
+    "These departures stand in contrast to the official statistics. According to Spain's interior ministry, 3,708 people reached the Canary Islands in the first half of 2026, compared with 11,321 a year earlier, a drop of 67 per cent. The Moroccan press links this decline to cooperation between Rabat and Madrid on coastal surveillance. Yet over the same period, land crossings into Ceuta and Melilla more than doubled. One can read in this a constant of migration policy: when one route closes, another opens, often a longer one.",
+    "The journey costs between 300,000 and 600,000 CFA francs per passenger, roughly 460 to 915 euros, a sum that families sometimes help to raise. For the columnist, leaving is not an act of madness but a calculation: when jobs, financial independence and the hope of social mobility are lacking, the risk of dying at sea can seem lighter than having no future. She also stresses that young men are no longer the only ones leaving: Moroccan authorities report many women and minors among the people intercepted.",
+    "Social media play an ambiguous role. Videos of overcrowded pirogues make the tragedy visible, but other posts show young emigrants flaunting their first wages in Europe, a curated picture that leaves out the debts, the exploitation, the deportations and the deaths. In August, Senegal's inter-ministerial committee against irregular migration had in fact warned about fake job offers and embellished testimonies circulating online.",
+    "The piece is aimed above all at the government that emerged from the change of power in March 2024, embodied by Bassirou Diomaye Faye and Ousmane Sonko, who had made youth employment a central promise. Thirty months on, the journalist concedes that structural unemployment cannot be cured in a few weeks, but she demands measurable results. Oil and gas will not be enough, she argues, because these industries need a lot of capital and little labour. She makes the case instead for agriculture, food processing, fishing, crafts and digital services, with verifiable public targets.",
+    "Seen from Europe, migration is readily reduced to \"flows\" that must be contained. Seen from Gandiol, it looks more like an economic and political question: who has access to work, to dignity, to a future at home? That, at least, is the lesson this episode suggests: as long as these reasons for leaving remain intact, controls may shift the routes without stopping the departures."
+   ],
+   "paragraphs_zh": [
+    "10月20日星期二早上七点左右，一条独木船在塞内加尔北部圣路易附近甘迪奥勒镇的皮洛特巴尔搁浅。船上有171人，其中约六十名妇女和十二名儿童，大多数是冈比亚人。乘客们于10月15日夜里从冈比亚海岸出发，想前往西班牙；恶劣天气迫使他们折返塞内加尔。据宪兵队说，无人死亡，七人被送医，船只被扣押。",
+    "这次救援并非个例。10月15日，五十三名准备偷渡的人——几乎全是塞内加尔人——因发动机故障在姆博罗外海获救；同一天，一艘载有两百人的船在摩洛哥外海被拦截。正是这一连串事件，促使记者昂丽耶特·尼昂·康戴在《南方日报》（SenePlus 转载）上发文，称之为“绝望的回归”。",
+    "这些出走与官方统计形成反差。据西班牙内政部数据，2026年上半年抵达加那利群岛的人数为3708人，而一年前为11321人，下降了67%。摩洛哥媒体把这一下降归因于拉巴特与马德里在海岸监控上的合作。但同一时期，经陆路进入休达和梅利利亚的人数增加了一倍多。可以从中看出移民政策的一个常态：一条路线关闭，另一条就会打开，而且往往更远。",
+    "这趟旅程每人要花30万到60万西非法郎，约合460到915欧元，家人有时会帮忙凑钱。在这位评论作者看来，出走不是一时冲动，而是一种算计：当工作、经济独立和向上流动的希望都缺失时，葬身大海的风险似乎比看不到未来更轻。她还强调，出走的已不只是年轻男子：摩洛哥当局报告称，被拦截者中有许多妇女和未成年人。",
+    "社交媒体的作用很暧昧。拥挤独木船的视频让悲剧被看见，但也有一些帖子展示年轻移民在欧洲炫耀第一笔工资——这是一幅经过挑选的画面，对债务、剥削、遣返和死亡只字不提。今年8月，塞内加尔打击非正规移民的部际委员会就曾警告网上流传的虚假招聘和美化的“现身说法”。",
+    "文章主要针对的是2024年3月政党轮替后上台的政府，其代表人物是巴西鲁·迪奥马耶·法耶和乌斯曼·松科，他们曾把青年就业作为核心承诺。三十个月过去了，记者承认结构性失业不可能在几周内解决，但她要求看到可衡量的成果。她认为，石油和天然气不足以解决问题，因为这些产业需要大量资本，却只需要很少的劳动力。她主张发展农业、食品加工、渔业、手工业和数字服务，并设定可以核查的公共目标。",
+    "从欧洲看，移民常被简化为需要“遏制”的“人流”。从甘迪奥勒看，它更像一个经济和政治问题：谁能在家乡获得工作、尊严和未来？至少，这一事件给人的启示是：只要这些出走的理由依然存在，管控也许能改变路线，却无法让出走停止。"
+   ],
+   "paragraphs_de": [
+    "Am Dienstag, dem 20. Oktober, gegen sieben Uhr morgens lief in Pilote Bar, in der Gemeinde Gandiol bei Saint-Louis im Norden Senegals, eine Piroge auf Grund. An Bord waren 171 Menschen, darunter etwa sechzig Frauen und zwölf Kinder, die meisten aus Gambia. Die Passagiere waren in der Nacht des 15. Oktober von der gambischen Küste aufgebrochen und wollten nach Spanien; schlechtes Wetter zwang sie, Kurs auf Senegal zu nehmen. Laut Gendarmerie gab es keine Toten, sieben Menschen kamen ins Krankenhaus, das Boot wurde beschlagnahmt.",
+    "Diese Rettung ist kein Einzelfall. Am 15. Oktober waren vor Mboro dreiundfünfzig Ausreisewillige, fast alle Senegalesen, nach einem Motorschaden gerettet worden, und am selben Tag wurde vor Marokko ein Boot mit zweihundert Menschen abgefangen. Diese Serie brachte die Journalistin Henriette Niang Kandé dazu, in einem Text in Sud Quotidien, den SenePlus übernahm, von der „Rückkehr einer Verzweiflung“ zu sprechen.",
+    "Diese Abfahrten stehen im Gegensatz zu den offiziellen Zahlen. Nach Angaben des spanischen Innenministeriums kamen im ersten Halbjahr 2026 3.708 Menschen auf den Kanaren an, gegenüber 11.321 ein Jahr zuvor – ein Rückgang um 67 Prozent. Die marokkanische Presse führt das auf die Zusammenarbeit von Rabat und Madrid bei der Küstenüberwachung zurück. Doch im selben Zeitraum haben sich die Einreisen über Land nach Ceuta und Melilla mehr als verdoppelt. Man kann darin eine Konstante der Migrationspolitik sehen: Schließt sich eine Route, öffnet sich eine andere, oft eine längere.",
+    "Die Überfahrt kostet zwischen 300.000 und 600.000 CFA-Franc pro Person, also etwa 460 bis 915 Euro – eine Summe, die Familien manchmal mit aufbringen. Für die Kolumnistin ist das Weggehen keine Verrücktheit, sondern eine Rechnung: Wenn Arbeit, finanzielle Unabhängigkeit und die Hoffnung auf sozialen Aufstieg fehlen, kann das Risiko, auf See zu sterben, leichter wiegen als die Aussicht auf keine Zukunft. Sie betont außerdem, dass nicht mehr nur junge Männer gehen: Marokkanische Behörden melden viele Frauen und Minderjährige unter den Abgefangenen.",
+    "Soziale Netzwerke spielen eine zwiespältige Rolle. Videos von überfüllten Pirogen machen das Drama sichtbar, doch andere Beiträge zeigen junge Ausgewanderte, die mit ihren ersten Löhnen in Europa prahlen – ein ausgewähltes Bild, das Schulden, Ausbeutung, Abschiebungen und Tote verschweigt. Im August hatte der interministerielle Ausschuss Senegals gegen irreguläre Migration denn auch vor falschen Jobangeboten und geschönten Erfahrungsberichten im Netz gewarnt.",
+    "Der Text zielt vor allem auf die Regierung, die aus dem Machtwechsel vom März 2024 hervorging und für die Bassirou Diomaye Faye und Ousmane Sonko stehen; sie hatten Arbeit für junge Menschen zu einem zentralen Versprechen gemacht. Dreißig Monate später räumt die Journalistin ein, dass strukturelle Arbeitslosigkeit nicht in wenigen Wochen verschwindet, fordert aber messbare Ergebnisse. Öl und Gas würden nicht reichen, meint sie, denn diese Industrien brauchen viel Kapital und wenig Arbeitskräfte. Sie plädiert stattdessen für Landwirtschaft, Lebensmittelverarbeitung, Fischerei, Handwerk und digitale Dienste, mit überprüfbaren öffentlichen Zielen.",
+    "Von Europa aus wird Migration gern auf „Ströme“ reduziert, die man eindämmen müsse. Von Gandiol aus wirkt sie eher wie eine ökonomische und politische Frage: Wer hat Zugang zu Arbeit, zu Würde, zu einer Zukunft vor Ort? Das jedenfalls legt diese Episode nahe: Solange diese Gründe zu gehen bestehen bleiben, können Kontrollen die Routen verschieben, die Abfahrten aber nicht versiegen lassen."
+   ],
+   "paragraphs_pt": [
+    "Na terça-feira, 20 de outubro, por volta das sete da manhã, uma piroga encalhou em Pilote Bar, no município de Gandiol, perto de Saint-Louis, no norte do Senegal. A bordo estavam 171 pessoas, entre elas cerca de sessenta mulheres e doze crianças, em sua maioria gambianas. Tendo partido da costa da Gâmbia na noite de 15 de outubro, os passageiros queriam chegar à Espanha; o mau tempo os obrigou a se desviar para o Senegal. Segundo a gendarmaria, ninguém morreu, sete pessoas foram hospitalizadas e o barco foi apreendido.",
+    "Esse resgate não é um caso isolado. Em 15 de outubro, cinquenta e três candidatos à partida, quase todos senegaleses, tinham sido resgatados na costa de Mboro depois de uma pane no motor, e no mesmo dia uma embarcação com duzentas pessoas foi interceptada na costa do Marrocos. Foi essa série que levou a jornalista Henriette Niang Kandé, num texto publicado no Sud Quotidien e reproduzido pelo SenePlus, a falar do \"retorno de um desespero\".",
+    "Essas partidas contrastam com as estatísticas oficiais. Segundo o Ministério do Interior da Espanha, 3.708 pessoas chegaram às Canárias no primeiro semestre de 2026, contra 11.321 um ano antes, uma queda de 67%. A imprensa marroquina associa essa redução à cooperação entre Rabat e Madri na vigilância das costas. Mas, no mesmo período, as entradas por terra em Ceuta e Melilla mais que dobraram. Dá para ver aí uma constante das políticas migratórias: quando uma rota se fecha, outra se abre, muitas vezes mais longa.",
+    "A viagem custa entre 300 mil e 600 mil francos CFA por passageiro, cerca de 460 a 915 euros, uma soma que as famílias às vezes ajudam a juntar. Para a colunista, partir não é um ato de loucura, mas um cálculo: quando faltam emprego, autonomia financeira e esperança de ascensão social, o risco de morrer no mar pode parecer menor do que a falta de futuro. Ela ressalta também que os jovens homens já não são os únicos a partir: as autoridades marroquinas relatam muitas mulheres e menores entre as pessoas interceptadas.",
+    "As redes sociais têm um papel ambíguo. Vídeos de pirogas superlotadas tornam o drama visível, mas outras publicações mostram jovens emigrantes exibindo seus primeiros salários na Europa, uma imagem selecionada que silencia as dívidas, a exploração, as expulsões e as mortes. Em agosto, o comitê interministerial senegalês de combate à migração irregular já tinha alertado contra ofertas de emprego falsas e depoimentos enfeitados que circulam na internet.",
+    "O texto mira sobretudo o governo surgido da alternância de março de 2024, encarnado por Bassirou Diomaye Faye e Ousmane Sonko, que tinham feito do emprego dos jovens uma promessa central. Trinta meses depois, a jornalista admite que o desemprego estrutural não se resolve em poucas semanas, mas cobra resultados mensuráveis. O petróleo e o gás não vão bastar, avalia ela, porque essas indústrias exigem muito capital e pouca mão de obra. Ela defende, em vez disso, a agricultura, o processamento de alimentos, a pesca, o artesanato e o setor digital, com metas públicas verificáveis.",
+    "Vista da Europa, a migração costuma ser reduzida a \"fluxos\" que seria preciso conter. Vista de Gandiol, ela parece mais uma questão econômica e política: quem tem acesso ao trabalho, à dignidade, a um futuro no próprio país? Essa é pelo menos a lição que o episódio sugere: enquanto esses motivos para partir continuarem intactos, os controles podem deslocar as rotas sem fazer cessar as partidas."
+   ],
+   "glossary": [
+    {
+     "w": "s'échouer",
+     "fr": "pour un bateau : toucher le fond ou la plage et ne plus pouvoir avancer",
+     "en": "to run aground",
+     "zh": "搁浅",
+     "de": "auf Grund laufen, stranden",
+     "pt": "encalhar"
+    },
+    {
+     "w": "se rabattre vers",
+     "fr": "aller vers un autre endroit parce que le premier choix est impossible",
+     "en": "to fall back on, turn towards",
+     "zh": "转而驶向，退而求其次",
+     "de": "ausweichen auf, umschwenken",
+     "pt": "desviar para, recorrer a"
+    },
+    {
+     "w": "au large de",
+     "fr": "en mer, assez loin de la côte, en face d'un lieu",
+     "en": "off (the coast of)",
+     "zh": "在……外海",
+     "de": "vor (der Küste von)",
+     "pt": "ao largo de, na costa de"
+    },
+    {
+     "w": "trancher avec",
+     "fr": "être très différent de quelque chose, faire contraste",
+     "en": "to contrast sharply with",
+     "zh": "与……形成鲜明对比",
+     "de": "in krassem Gegensatz stehen zu",
+     "pt": "contrastar com"
+    },
+    {
+     "w": "un semestre",
+     "fr": "une période de six mois",
+     "en": "a half-year, six months",
+     "zh": "半年",
+     "de": "ein Halbjahr",
+     "pt": "um semestre"
+    },
+    {
+     "w": "faire défaut",
+     "fr": "manquer, ne pas être là quand on en a besoin",
+     "en": "to be lacking",
+     "zh": "缺乏，欠缺",
+     "de": "fehlen",
+     "pt": "faltar"
+    },
+    {
+     "w": "bondé",
+     "fr": "complètement plein de monde",
+     "en": "packed, overcrowded",
+     "zh": "挤满人的",
+     "de": "überfüllt",
+     "pt": "lotado"
+    },
+    {
+     "w": "passer sous silence",
+     "fr": "ne pas parler d'une chose, la cacher volontairement",
+     "en": "to leave out, pass over in silence",
+     "zh": "避而不谈",
+     "de": "verschweigen",
+     "pt": "silenciar, omitir"
+    },
+    {
+     "w": "mettre en garde",
+     "fr": "prévenir quelqu'un d'un danger",
+     "en": "to warn",
+     "zh": "警告，提醒",
+     "de": "warnen",
+     "pt": "alertar"
+    },
+    {
+     "w": "l'alternance",
+     "fr": "en politique : le changement de parti au pouvoir après une élection",
+     "en": "transfer of power (to the opposition)",
+     "zh": "政党轮替",
+     "de": "der Machtwechsel",
+     "pt": "a alternância de poder"
+    },
+    {
+     "w": "la main-d'œuvre",
+     "fr": "l'ensemble des personnes qui travaillent, surtout avec leurs mains",
+     "en": "labour, workforce",
+     "zh": "劳动力",
+     "de": "die Arbeitskräfte",
+     "pt": "a mão de obra"
+    },
+    {
+     "w": "tarir",
+     "fr": "faire disparaître peu à peu, comme une source d'eau qui s'arrête",
+     "en": "to dry up, stem",
+     "zh": "使枯竭，使停止",
+     "de": "versiegen lassen",
+     "pt": "estancar, secar"
+    }
+   ],
+   "grammar": "Partis de la côte gambienne, les passagers voulaient rejoindre l'Espagne opens with a past participle used on its own, without an auxiliary. This \"participial clause\" replaces a full clause such as Comme ils étaient partis… or Après être partis… and gives the background to the main action. The participle agrees with the subject of the main clause (les passagers → partis), so the two must refer to the same people.",
+   "grammar_zh": "Partis de la côte gambienne, les passagers voulaient rejoindre l'Espagne 这句以一个单独使用、不带助动词的过去分词开头。这种“分词从句”相当于 Comme ils étaient partis… 或 Après être partis… 这样的完整从句，用来交代主要动作的背景。过去分词要与主句的主语性数配合（les passagers → partis），因此两者必须指同一批人。",
+   "grammar_de": "Partis de la côte gambienne, les passagers voulaient rejoindre l'Espagne beginnt mit einem allein stehenden Partizip Perfekt ohne Hilfsverb. Diese „Partizipialkonstruktion“ ersetzt einen ganzen Nebensatz wie Comme ils étaient partis… oder Après être partis… und liefert den Hintergrund zur Haupthandlung. Das Partizip richtet sich nach dem Subjekt des Hauptsatzes (les passagers → partis); beide müssen sich also auf dieselben Personen beziehen.",
+   "grammar_pt": "Partis de la côte gambienne, les passagers voulaient rejoindre l'Espagne começa com um particípio passado usado sozinho, sem verbo auxiliar. Essa \"oração participial\" substitui uma oração completa como Comme ils étaient partis… ou Après être partis… e dá o contexto da ação principal. O particípio concorda com o sujeito da oração principal (les passagers → partis), por isso os dois precisam se referir às mesmas pessoas.",
+   "questions": [
+    "Pourquoi la pirogue partie de Gambie est-elle arrivée au Sénégal et non en Espagne ?",
+    "Comment expliquer qu'il y ait de nouveaux départs alors que les arrivées aux Canaries ont fortement baissé ?",
+    "Selon l'éditorialiste, quels secteurs pourraient créer des emplois pour les jeunes, et pourquoi le pétrole ne suffit-il pas ?"
+   ],
+   "sources": [
+    {
+     "title": "SenePlus / Sud Quotidien — Henriette Niang Kandé, « Émigration irrégulière, le retour d'une désespérance » (24 octobre 2026)",
+     "url": "https://www.seneplus.com/article/emigration-irreguliere-le-retour-dune-desesperance",
+     "license": "link only"
+    },
+    {
+     "title": "Le Soleil — Migration irrégulière : 171 rescapés retrouvés à Gandiol (21 octobre 2026)",
+     "url": "https://lesoleil.sn/actualites/migration-irreguliere-171-rescapes-retrouves-a-gandiol",
+     "license": "link only"
+    },
+    {
+     "title": "Dakaractu — Migration irrégulière : 171 personnes rescapées après l'échouement d'une pirogue à Gandiol",
+     "url": "https://www.dakaractu.com/Migration-irreguliere-171-personnes-rescapees-apres-l-echouement-d-une-pirogue-a-Gandiol-sept-evacuees-a-l-hopital_a277292.html",
+     "license": "link only"
+    },
+    {
+     "title": "Hespress FR — Migration irrégulière : forte baisse des arrivées aux Canaries, hausse des passages vers Sebta et Melilla (6 juillet 2026)",
+     "url": "https://fr.hespress.com/480209-480209.html",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

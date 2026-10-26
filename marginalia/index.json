@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T05:22:33+00:00",
+ "updated": "2026-10-26T15:51:51+00:00",
  "days": [
   {
    "date": "2026-10-26",
@@ -10,6 +10,22 @@
      "title": "Citizenship on probation",
      "kind": "feature",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "fr",
+     "title": "Une pirogue arrive à Gandiol",
+     "kind": "feature",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "fr",
+     "title": "Partir malgré tout : les pirogues reprennent la mer au Sénégal",
+     "kind": "feature",
+     "level": "B2",
      "hour": null
     }
    ]
