@@ -956,6 +956,14 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 .pk-book .rb-sleeve i{left:12px;right:6px;top:8px;font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;opacity:.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pk-book .rb-sleeve b{padding-left:4px;-webkit-line-clamp:5;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:anywhere}
 .pkbox .rb-card .btn{text-decoration:none!important;color:var(--ink)!important}
+.cu-card .rb-sleeve{width:110px;height:84px;border-radius:4px;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(255,255,255,.0) 6px 12px),linear-gradient(160deg,hsl(var(--h) 60% 95%),hsl(var(--h) 45% 86%));color:var(--ink);border:1px solid hsl(var(--h) 30% 78%);box-shadow:0 2px 5px rgba(0,0,0,.1)}
+.cu-card{width:110px}
+.cu-card .rb-sleeve::before{display:none}
+.cu-card .rb-sleeve i{font-size:18px;opacity:1;left:auto;right:7px;top:5px}
+.cu-card .rb-sleeve b{-webkit-line-clamp:3;font-size:12.5px}
+.cu-pt{margin:0;font-family:var(--f-word);font-size:16px;line-height:1.6}
+.cu-pt .cu-say{display:inline-flex;vertical-align:-4px;width:26px;height:26px;margin-left:2px}
+.cu-pt .cu-say svg{width:15px;height:15px}
 </style>
 </head>
 <body>
@@ -1005,6 +1013,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
     <aside style="display:grid;gap:22px;min-width:0">
       <div class="panel rbox pkbox" id="pkbox" hidden></div>
       <div class="panel rbox" id="rbox" hidden></div>
+      <div class="panel rbox cubox" id="cubox" hidden></div>
       <input type="file" id="mine-file" accept=".pdf,.docx,.txt,.md,.html,.htm,.srt,.vtt,application/pdf,text/plain,text/html,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
       <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3><button class="mine-imp" id="mine-imp" type="button" title="导入 PDF / Word / 文本文件" aria-label="导入文件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 11v6M9 14l3 3 3-3"/></svg><span>导入</span></button></summary>
         <div class="row" style="margin-top:10px"><label class="btn sm filebtn">拍照<input type="file" id="mine-cam" accept="image/*" capture="environment" multiple></label><label class="btn sm filebtn">选择图片<input type="file" id="mine-pick" accept="image/*" multiple></label><button class="btn sm" type="button" onclick="document.getElementById('mine-file').click()">导入文件</button></div>
@@ -2581,7 +2590,7 @@ async function mgRender(){
   h=`<div class="mg-head"><button class="ib" id="mg-prev" aria-label="前一天" ${MG.di>=days.length-1?"disabled":""}>‹</button><span class="d">${days[MG.di]?mgFmt(days[MG.di].date):""}</span><button class="ib" id="mg-next" aria-label="后一天" ${MG.di<=0?"disabled":""}>›</button><span class="spacer"></span><button class="ib" id="mg-reload" aria-label="刷新" title="刷新">↻</button></div>`;
   { const lvs=mgLevels(MG.di,l); if(lvs.length>1){ const sel=mgLvSel(MG.di,l); h+=`<div class="mg-lvs" role="tablist" aria-label="Level"><button type="button" data-mglv="" aria-pressed="${!sel}">${esc(trOne("全部")||"全部")}</button>${lvs.map(v=>`<button type="button" data-mglv="${v}" aria-pressed="${sel===v}">${v}</button>`).join("")}</div>`; } }
   if(es.length) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}<button class="mg-addchip" data-mineopen="1" type="button">＋ 我的文章</button></nav>`;
-  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); rbRender(); pkRender(); return; }
+  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); rbRender(); cuRender(); pkRender(); return; }
   try{ const day=await mgDay(pick.date); it=day.items[pick.i]; }catch(e){ main.innerHTML=h+`<div class="empty"><b>这篇没有载入</b>${esc(e.message)}</div>`; return; }
   if(!it){ main.innerHTML=h; return; }
   }
@@ -2605,7 +2614,7 @@ async function mgRender(){
   main.innerHTML=h; MG.cur={...pick,it};
   if(innerWidth>640) document.documentElement.style.setProperty("--tabs-h",$("#tabs").offsetHeight+"px");
   { const t=main.querySelector(".mg-toc"), a=t&&t.querySelector('[aria-current="true"]'); if(a) t.scrollLeft=a.offsetLeft-(t.clientWidth-a.offsetWidth)/2; }
-  mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); pkRender(); rdSync(); mineList();
+  mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); cuRender(); pkRender(); rdSync(); mineList();
 }
 function mgArch(pick){
   const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l&&x.kind!=="picks") rows.push({...x,date:d.date,di}); }));
@@ -2645,6 +2654,23 @@ function rbRender(){
 $("#rbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
   if(b.dataset.rb!=null){ const i=+b.dataset.rb; RB.open=RB.open===i?-1:i; rbRender(); }
   else if(b.dataset.rbl){ RB.hl=b.dataset.rbl; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} rbRender(); } });
+/* 巴西小事 · Coisas do Brasil: customs and small facts, simple Portuguese + translation (marginalia/records.json → curios) */
+const CU={open:-1};
+function cuRender(){
+  const box=$("#cubox"); if(!box) return; const l=lang(), list=(MG.rec&&MG.rec.curios&&MG.rec.curios[l])||[];
+  if(!list.length){ box.hidden=true; return; } box.hidden=false;
+  const hl=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), cur=list[CU.open];
+  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("巴西小事")||"巴西小事")} <span class="small muted" data-noi18n>Coisas do Brasil · ${list.length}</span></h3>
+    <div class="rb-shelf" role="list">${list.map((c,i)=>`<button type="button" class="rb-disc cu-card${i===CU.open?" on":""}" data-cu="${i}" role="listitem" style="--h:${rbHue(c.title)}"><span class="rb-sleeve"><i>${esc(c.emoji||"✶")}</i><b lang="${l}" data-noi18n>${esc(c.title)}</b></span><span class="rb-a" data-noi18n>${esc(c.tag||"")}</span></button>`).join("")}</div>
+    ${cur?`<div class="rb-card"><div class="rb-h"><b lang="${l}" data-noi18n>${esc(cur.emoji||"")} ${esc(cur.title)}</b><span class="small muted" data-noi18n>${esc(cur.tag||"")}</span></div>
+      <p class="cu-pt" lang="${l==="pt"?"pt-BR":l}" data-noi18n>${esc(cur.pt||"")} <button type="button" class="ib cu-say" id="cu-say" aria-label="朗读">${I.spk}</button></p>
+      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"],["de","DE"]].map(([k,n])=>`<button type="button" data-cul="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <p class="rb-d" lang="${hl}" data-noi18n>${esc(hl==="zh"?hz(cur.zh||""):(cur[hl]||cur.en||""))}</p></div>`:`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张明信片，读一个巴西小故事。")||"点一张明信片，读一个巴西小故事。")}</p>`}`;
+}
+$("#cubox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.cu!=null){ const i=+b.dataset.cu; CU.open=CU.open===i?-1:i; cuRender(); }
+  else if(b.dataset.cul){ RB.hl=b.dataset.cul; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} cuRender(); rbRender(); pkRender(); }
+  else if(b.id==="cu-say"){ const c=((MG.rec&&MG.rec.curios&&MG.rec.curios[lang()])||[])[CU.open]; if(c) speak(c.pt); } });
 /* 书架 · today's reading recommendations (kind "picks"), beside the reading instead of in the article list */
 const PK={open:-1,key:""};
 async function pkRender(){
@@ -4422,6 +4448,8 @@ const UI_DICT=[
 ["书架", "Bookshelf", "Bücherregal", "Estante", "書架"],
 ["今日推荐", "today's picks", "Tipps von heute", "dicas de hoje", "今日推薦"],
 ["阅读原文", "Read the original", "Original lesen", "Ler o original", "閱讀原文"],
+["巴西小事", "Little Brazil", "Brasilien im Kleinen", "Coisas do Brasil", "巴西小事"],
+["点一张明信片，读一个巴西小故事。", "Tap a postcard for a little story about Brazil.", "Tippe auf eine Postkarte für eine kleine Geschichte über Brasilien.", "Toque num cartão para ler uma curiosidade.", "點一張明信片，讀一個巴西小故事。"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],

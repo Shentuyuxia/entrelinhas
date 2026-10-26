@@ -1,71 +1,170 @@
 {
- "note": "Record box (唱片盒) shown beside the reading for each language. kind: song | podcast | film. Descriptions en/zh/de/pt. Links are search links (YouTube/Spotify) unless a stable page is known.",
+ "note": "Record box (唱片盒) and curiosity cards (巴西小事 / Coisas do Brasil) shown beside the reading. records: kind song|podcast|film, en/zh/de/pt = record story or short review. curios: title, tag, emoji, pt (simple A1–A2 Portuguese text), en/zh/de translations.",
  "pt": [
   {
    "kind": "song",
-   "artist": "Chico Buarque",
-   "title": "Apesar de você",
-   "tag": "MPB · 1970",
-   "url": "https://www.youtube.com/results?search_query=Chico+Buarque+Apesar+de+voc%C3%AA",
-   "en": "Sounds like a song to a lover, but it was aimed at the dictatorship — and was banned. Slow and clear: a good first song.",
-   "zh": "表面是情歌，其实是骂独裁者，后来被禁。节奏慢、发音清楚，适合当第一首。",
-   "de": "Klingt wie ein Liebeslied, meint aber die Diktatur – und wurde verboten. Langsam und deutlich gesungen.",
-   "pt": "Parece uma canção de amor, mas fala da ditadura – e foi censurada."
+   "artist": "Caetano Veloso",
+   "title": "O Leãozinho",
+   "tag": "MPB · canção de amor · 1977",
+   "url": "https://www.youtube.com/results?search_query=Caetano+Veloso+O+Le%C3%A3ozinho",
+   "en": "A tender little love song from Caetano's 1977 album Bicho: he compares someone he loves to a small lion lying in the sun. Short lines, lots of repetition and a soft voice — a perfect first song for a beginner.",
+   "zh": "Caetano 1977 年专辑《Bicho》里的一首温柔小情歌：他把心爱的人比作晒太阳的小狮子。句子短、重复多、唱得轻柔，非常适合初学者当第一首歌。",
+   "de": "Ein zärtliches kleines Liebeslied aus Caetanos Album Bicho (1977): Er vergleicht einen geliebten Menschen mit einem kleinen Löwen in der Sonne. Kurze Zeilen, viele Wiederholungen – ideal für den Anfang.",
+   "pt": "Uma canção de amor bem curta e doce. Ótima para quem está começando."
   },
   {
    "kind": "song",
-   "artist": "Geraldo Vandré",
-   "title": "Pra não dizer que não falei das flores",
-   "tag": "Canção de protesto · 1968",
-   "url": "https://www.youtube.com/results?search_query=Geraldo+Vandr%C3%A9+Pra+n%C3%A3o+dizer+que+n%C3%A3o+falei+das+flores",
-   "en": "The anthem of resistance against the military regime. Simple melody, lots of repetition — easy to sing along at A1.",
-   "zh": "反独裁运动的「国歌」。旋律简单、重复多，A1 也能跟着唱。",
-   "de": "Die Hymne des Widerstands gegen die Militärdiktatur. Einfache Melodie, viele Wiederholungen.",
-   "pt": "O hino da resistência contra a ditadura. Melodia simples, fácil de cantar."
+   "artist": "Tribalistas",
+   "title": "Velha Infância",
+   "tag": "Pop · canção de amor · 2002",
+   "url": "https://www.youtube.com/results?search_query=Tribalistas+Velha+Inf%C3%A2ncia",
+   "en": "Marisa Monte, Arnaldo Antunes and Carlinhos Brown recorded one album together as Tribalistas in 2002, and it became one of the decade's best-loved records in Brazil. This love song sounds almost like a children's song — simple words, gentle melody, easy to sing along.",
+   "zh": "Marisa Monte、Arnaldo Antunes 和 Carlinhos Brown 以「Tribalistas」之名在 2002 年合作了一张专辑，成了巴西那十年最受喜爱的唱片之一。这首情歌几乎像童谣：词简单、旋律温柔，很容易跟唱。",
+   "de": "Marisa Monte, Arnaldo Antunes und Carlinhos Brown nahmen 2002 als Tribalistas ein gemeinsames Album auf – eines der beliebtesten des Jahrzehnts. Dieses Liebeslied klingt fast wie ein Kinderlied: einfache Worte, sanfte Melodie.",
+   "pt": "Uma canção de amor simples e alegre, fácil de cantar junto."
   },
   {
    "kind": "song",
-   "artist": "Elis Regina",
-   "title": "O bêbado e a equilibrista",
-   "tag": "MPB · 1979",
-   "url": "https://www.youtube.com/results?search_query=Elis+Regina+O+b%C3%AAbado+e+a+equilibrista",
-   "en": "Written by João Bosco and Aldir Blanc; it became the song of the campaign for amnesty for political prisoners. Elis's diction is a model for pronunciation.",
-   "zh": "João Bosco 和 Aldir Blanc 写的歌，后来成了争取政治犯大赦运动的歌。Elis 的咬字是学发音的好榜样。",
-   "de": "Von João Bosco und Aldir Blanc; wurde zum Lied der Amnestie-Bewegung. Elis' Aussprache ist ein Vorbild.",
-   "pt": "De João Bosco e Aldir Blanc; virou a canção da luta pela anistia."
+   "artist": "Tom Jobim & Vinicius de Moraes",
+   "title": "Garota de Ipanema",
+   "tag": "Bossa nova · 1962",
+   "url": "https://www.youtube.com/results?search_query=Tom+Jobim+%26+Vinicius+de+Moraes+Garota+de+Ipanema",
+   "en": "Written in 1962 about a young woman the two composers watched walking past their bar towards the beach in Ipanema — the bar was later renamed after the song. The English-Portuguese version by Stan Getz, João and Astrud Gilberto won the Grammy for Record of the Year in 1965 and made bossa nova world-famous.",
+   "zh": "1962 年写成，灵感来自两位作曲家在伊帕内玛酒吧里看着一位少女走过去海滩——那家酒吧后来就改名叫这首歌的名字。Stan Getz、João 和 Astrud Gilberto 的英葡双语版本在 1965 年拿下格莱美年度唱片，让波萨诺瓦闻名世界。",
+   "de": "1962 über eine junge Frau geschrieben, die die beiden Komponisten von ihrer Bar aus zum Strand von Ipanema gehen sahen – die Bar trägt heute den Namen des Songs. Die Version von Stan Getz, João und Astrud Gilberto gewann 1965 den Grammy als Single des Jahres.",
+   "pt": "A canção mais famosa da bossa nova, sobre uma moça que passa na rua de Ipanema."
   },
   {
    "kind": "song",
-   "artist": "Chico Buarque & Gilberto Gil",
-   "title": "Cálice",
-   "tag": "MPB · 1973",
-   "url": "https://www.youtube.com/results?search_query=Chico+Buarque+Gilberto+Gil+C%C3%A1lice",
-   "en": "\"Cálice\" (chalice) sounds like \"cale-se\" (shut up): the whole song is a play on censorship. Listen first; read the lyrics later at B1.",
-   "zh": "「Cálice」（圣杯）听起来像「Cale-se」（闭嘴），整首歌都在讽刺审查。先听，歌词等 B1 再细读。",
-   "de": "„Cálice“ (Kelch) klingt wie „cale-se“ (sei still): ein Lied über die Zensur.",
-   "pt": "\"Cálice\" soa como \"cale-se\": uma canção sobre a censura."
+   "artist": "Elis Regina & Tom Jobim",
+   "title": "Águas de Março",
+   "tag": "MPB · bossa nova · 1974",
+   "url": "https://www.youtube.com/results?search_query=Elis+Regina+%26+Tom+Jobim+%C3%81guas+de+Mar%C3%A7o",
+   "en": "Jobim's song is one long list of little images — things you might see on a path at the end of summer, when the March rains come to Rio. The duet on the album Elis & Tom (1974), full of laughter between the two singers, is the classic version. For learners it is a wonderful vocabulary list set to music.",
+   "zh": "这首歌是一长串小小的画面——夏末三月雨季来到里约时，路上可能看到的各种东西。1974 年专辑《Elis & Tom》里两人的对唱是经典版本，能听到他们之间的笑声。对学习者来说，这是一张配了音乐的词汇表。",
+   "de": "Jobims Lied ist eine lange Reihe kleiner Bilder – Dinge am Wegrand, wenn im März die Regenzeit nach Rio kommt. Das Duett auf Elis & Tom (1974), voller Lachen, ist die klassische Fassung. Für Lernende: eine vertonte Vokabelliste.",
+   "pt": "Uma lista de palavras do dia a dia, cantada. Ótima para aprender vocabulário."
   },
   {
    "kind": "song",
-   "artist": "Chico Buarque",
-   "title": "Construção",
-   "tag": "MPB · 1971",
-   "url": "https://www.youtube.com/results?search_query=Chico+Buarque+Constru%C3%A7%C3%A3o",
-   "en": "One day in the life — and death — of a construction worker; famous for its word play. A goal for B1–B2.",
-   "zh": "一个建筑工人的一天和他的死，文字游戏非常有名。B1–B2 的目标。",
-   "de": "Ein Tag im Leben – und Sterben – eines Bauarbeiters; berühmt für sein Wortspiel. Ein Ziel für B1–B2.",
-   "pt": "Um dia na vida de um operário da construção. Para o nível B1–B2."
+   "artist": "João Gilberto",
+   "title": "Chega de Saudade",
+   "tag": "Bossa nova · 1958",
+   "url": "https://www.youtube.com/results?search_query=Jo%C3%A3o+Gilberto+Chega+de+Saudade",
+   "en": "The 1958 recording that is usually called the birth of bossa nova: João Gilberto's quiet voice and his new way of playing samba rhythm on the guitar — the famous batida — changed Brazilian music. The song itself, by Jobim and Vinicius, asks longing (saudade) to go away and the loved one to come back.",
+   "zh": "1958 年的录音，通常被称为波萨诺瓦的诞生：João Gilberto 轻声的唱法，加上他在吉他上弹桑巴节奏的新方式（著名的 batida），改变了巴西音乐。这首 Jobim 和 Vinicius 写的歌，是在请「思念」走开，让爱人回来。",
+   "de": "Die Aufnahme von 1958 gilt als Geburtsstunde der Bossa Nova: João Gilbertos leise Stimme und sein neuer Gitarrenrhythmus – die berühmte batida – veränderten die brasilianische Musik. Das Lied bittet die Sehnsucht (saudade) zu gehen und die Geliebte zurückzukommen.",
+   "pt": "A gravação de 1958 que marca o nascimento da bossa nova."
+  },
+  {
+   "kind": "song",
+   "artist": "Demônios da Garoa",
+   "title": "Trem das Onze",
+   "tag": "Samba paulista · 1964",
+   "url": "https://www.youtube.com/results?search_query=Dem%C3%B4nios+da+Garoa+Trem+das+Onze",
+   "en": "Adoniran Barbosa's funny love song from São Paulo: a man has to leave his girlfriend because the last train to his suburb leaves at eleven — and his mother won't sleep until he is home. The 1964 recording by Demônios da Garoa made it a classic, and São Paulo still sings it in bars.",
+   "zh": "Adoniran Barbosa 写的圣保罗式幽默情歌：一个男人必须离开女朋友，因为回郊区的最后一班火车十一点开——而且他妈妈不等他回家就不睡觉。1964 年 Demônios da Garoa 的录音让它成了经典，圣保罗人到现在还在酒吧里合唱。",
+   "de": "Adoniran Barbosas komisches Liebeslied aus São Paulo: Ein Mann muss seine Freundin verlassen, weil der letzte Zug in seinen Vorort um elf fährt – und seine Mutter schläft nicht, bevor er zu Hause ist. Die Aufnahme der Demônios da Garoa (1964) machte es zum Klassiker.",
+   "pt": "Um samba engraçado: ele precisa pegar o trem das onze, porque a mãe espera em casa."
+  },
+  {
+   "kind": "song",
+   "artist": "Luiz Gonzaga",
+   "title": "Asa Branca",
+   "tag": "Baião · forró · 1947",
+   "url": "https://www.youtube.com/results?search_query=Luiz+Gonzaga+Asa+Branca",
+   "en": "The anthem of Brazil's Northeast, by Luiz Gonzaga and Humberto Teixeira: a farmer leaves the dry sertão during a drought and promises to come back to his love when the rain returns. Accordion, triangle and zabumba drum — the sound that became forró, still danced in pairs at every June festival.",
+   "zh": "巴西东北部的「国歌」，Luiz Gonzaga 和 Humberto Teixeira 写的：大旱时一个农民离开干涸的腹地，答应雨水回来时就回到爱人身边。手风琴、三角铁和 zabumba 鼓——这就是后来的 forró，每年六月节庆还在成双跳。",
+   "de": "Die Hymne des Nordostens von Luiz Gonzaga und Humberto Teixeira: Ein Bauer verlässt in der Dürre den sertão und verspricht seiner Liebsten, mit dem Regen zurückzukehren. Akkordeon, Triangel und zabumba – der Klang des Forró.",
+   "pt": "A música do Nordeste: um homem sai do sertão na seca e promete voltar."
+  },
+  {
+   "kind": "song",
+   "artist": "Pixinguinha",
+   "title": "Carinhoso",
+   "tag": "Choro · canção de amor",
+   "url": "https://www.youtube.com/results?search_query=Pixinguinha+Carinhoso",
+   "en": "Pixinguinha, the great flute player of choro — Rio's lively instrumental music from before samba — composed this melody as a young man; words were added in 1937. It is one of the most loved songs in Brazil: people of every age know it and sing it at family parties.",
+   "zh": "Pixinguinha 是 choro（比桑巴更早的里约器乐）最伟大的长笛手，年轻时写下这段旋律，1937 年才配上歌词。它是巴西最受喜爱的歌之一，男女老少都会唱，家庭聚会上常常合唱。",
+   "de": "Pixinguinha, der große Flötist des Choro – Rios Instrumentalmusik vor dem Samba –, schrieb die Melodie als junger Mann; der Text kam 1937 dazu. Eines der beliebtesten Lieder Brasiliens, das alle Generationen kennen.",
+   "pt": "Uma das músicas mais amadas do Brasil. Todo mundo canta junto."
+  },
+  {
+   "kind": "song",
+   "artist": "Jorge Ben",
+   "title": "Mas Que Nada",
+   "tag": "Samba-rock · 1963",
+   "url": "https://www.youtube.com/results?search_query=Jorge+Ben+Mas+Que+Nada",
+   "en": "Jorge Ben's first hit mixed samba with rhythm and blues and swing — the start of what Brazilians call samba-rock. Sérgio Mendes & Brasil '66 took it around the world in 1966. Pure joy, hard to sit still.",
+   "zh": "Jorge Ben 的第一首成名曲，把桑巴和节奏布鲁斯、摇摆乐混在一起——这就是巴西人说的 samba-rock 的开端。1966 年 Sérgio Mendes & Brasil '66 把它唱遍世界。纯粹的快乐，很难坐得住。",
+   "de": "Jorge Bens erster Hit mischte Samba mit Rhythm & Blues – der Beginn des Samba-Rock. Sérgio Mendes & Brasil '66 machten ihn 1966 weltweit bekannt. Pure Lebensfreude.",
+   "pt": "Samba com rock e alegria. Difícil ficar parado!"
+  },
+  {
+   "kind": "song",
+   "artist": "Cartola",
+   "title": "As Rosas Não Falam",
+   "tag": "Samba · 1976",
+   "url": "https://www.youtube.com/results?search_query=Cartola+As+Rosas+N%C3%A3o+Falam",
+   "en": "Cartola, one of the founders of the samba school Mangueira, worked for decades in ordinary jobs and only recorded his own first album when he was in his sixties. This late, quiet love song — the roses can't speak, they only give back the perfume we steal from them — is pure poetry of samba.",
+   "zh": "Cartola 是桑巴学校 Mangueira 的创始人之一，几十年都做普通工作，六十多岁才录下自己的第一张专辑。这首晚年安静的情歌，是桑巴里最纯粹的诗。",
+   "de": "Cartola, Mitgründer der Sambaschule Mangueira, arbeitete jahrzehntelang in einfachen Jobs und nahm erst mit über sechzig sein erstes eigenes Album auf. Dieses späte, leise Liebeslied ist reine Samba-Poesie.",
+   "pt": "Um samba de amor, calmo e bonito, de um grande poeta do samba."
+  },
+  {
+   "kind": "song",
+   "artist": "Chitãozinho & Xororó",
+   "title": "Evidências",
+   "tag": "Sertanejo · 1990",
+   "url": "https://www.youtube.com/results?search_query=Chit%C3%A3ozinho+%26+Xoror%C3%B3+Evid%C3%AAncias",
+   "en": "Brazil's unofficial karaoke anthem: a dramatic love song from sertanejo, the country music of the interior. When it starts at a party, everyone — even people who claim to hate sertanejo — sings the chorus at full voice.",
+   "zh": "巴西非官方的「卡拉 OK 国歌」：sertanejo（内陆乡村音乐）里一首很戏剧化的情歌。派对上一响起来，所有人——包括说自己讨厌 sertanejo 的人——都会扯着嗓子合唱副歌。",
+   "de": "Brasiliens inoffizielle Karaoke-Hymne: ein dramatisches Liebeslied aus dem Sertanejo, der Countrymusik des Landesinneren. Auf jeder Party singen alle den Refrain mit.",
+   "pt": "A música de karaokê do Brasil. Todo mundo canta!"
+  },
+  {
+   "kind": "song",
+   "artist": "Ary Barroso",
+   "title": "Aquarela do Brasil",
+   "tag": "Samba · 1939",
+   "url": "https://www.youtube.com/results?search_query=Ary+Barroso+Aquarela+do+Brasil",
+   "en": "A grand 'samba-exaltação' painting Brazil in bright colours; it became known worldwide after Disney used it in the film Saludos Amigos (1942). Countless versions exist — from orchestras to João Gilberto's whispered one.",
+   "zh": "一首宏大的「赞美桑巴」，用鲜艳的色彩描绘巴西；1942 年迪士尼电影《Saludos Amigos》用了它之后传遍世界。版本无数，从大乐团到 João Gilberto 轻声的版本都有。",
+   "de": "Ein großer „Samba-exaltação“, der Brasilien in leuchtenden Farben malt; weltbekannt durch Disneys Saludos Amigos (1942). Es gibt unzählige Versionen.",
+   "pt": "Um samba que pinta o Brasil com muitas cores."
   },
   {
    "kind": "song",
    "artist": "Gilberto Gil",
-   "title": "Gilberto Gil — canções",
-   "tag": "Tropicália",
-   "url": "https://www.youtube.com/results?search_query=Gilberto+Gil+Aquele+abra%C3%A7o",
-   "en": "Arrested and exiled to London in 1969 with Caetano Veloso, later Brazil's minister of culture. Light rhythms, short lines: start with \"Aquele abraço\".",
-   "zh": "1969 年和 Caetano Veloso 一起被捕、流亡伦敦，后来当过巴西文化部长。节奏轻快、句子短，从「Aquele abraço」开始。",
-   "de": "1969 mit Caetano Veloso verhaftet und nach London verbannt, später Kulturminister. Leichte Rhythmen – zum Einstieg „Aquele abraço“.",
-   "pt": "Preso e exilado em 1969; depois ministro da Cultura. Comece com \"Aquele abraço\"."
+   "title": "Aquele Abraço",
+   "tag": "Samba · 1969",
+   "url": "https://www.youtube.com/results?search_query=Gilberto+Gil+Aquele+Abra%C3%A7o",
+   "en": "A cheerful samba that sends a big hug to Rio and its people — written just before Gil had to leave Brazil for exile in London. Light rhythm, short lines: easy to follow at A1.",
+   "zh": "一首欢快的桑巴，向里约和那里的人们送上一个大大的拥抱——写于 Gil 被迫流亡伦敦之前不久。节奏轻快、句子短，A1 也跟得上。",
+   "de": "Ein fröhlicher Samba, der Rio eine große Umarmung schickt – kurz bevor Gil ins Londoner Exil gehen musste. Leichter Rhythmus, kurze Zeilen.",
+   "pt": "Um samba alegre, com um grande abraço para o Rio."
+  },
+  {
+   "kind": "song",
+   "artist": "Chico Buarque",
+   "title": "Apesar de Você",
+   "tag": "MPB · 1970",
+   "url": "https://www.youtube.com/results?search_query=Chico+Buarque+Apesar+de+Voc%C3%AA",
+   "en": "It sounds like a song to an ex-lover — but everyone understood it was aimed at the military dictatorship, and it was banned soon after release. Slow and clearly sung.",
+   "zh": "听起来像唱给前任的歌——但大家都明白它骂的是军政府，发行后不久就被禁。唱得慢、发音清楚。",
+   "de": "Klingt wie ein Lied an eine verflossene Liebe – gemeint war aber die Militärdiktatur; es wurde bald verboten. Langsam und deutlich gesungen.",
+   "pt": "Parece uma canção de amor, mas fala da ditadura."
+  },
+  {
+   "kind": "song",
+   "artist": "Elis Regina",
+   "title": "O Bêbado e a Equilibrista",
+   "tag": "MPB · 1979",
+   "url": "https://www.youtube.com/results?search_query=Elis+Regina+O+B%C3%AAbado+e+a+Equilibrista",
+   "en": "Written by João Bosco and Aldir Blanc, it became the song of the campaign for amnesty at the end of the dictatorship. Elis's diction is a model for pronunciation.",
+   "zh": "João Bosco 和 Aldir Blanc 写的歌，军政府末期成了争取大赦运动的歌。Elis 的咬字是学发音的好榜样。",
+   "de": "Von João Bosco und Aldir Blanc; wurde zum Lied der Amnestie-Bewegung am Ende der Diktatur. Elis' Aussprache ist ein Vorbild.",
+   "pt": "A canção da luta pela anistia. Elis canta com muita clareza."
   },
   {
    "kind": "song",
@@ -73,43 +172,21 @@
    "title": "A Carne",
    "tag": "Samba · 2002",
    "url": "https://www.youtube.com/results?search_query=Elza+Soares+A+Carne",
-   "en": "A landmark of Brazilian anti-racism: a song about how Black lives are treated in Brazil. Her late album \"A Mulher do Fim do Mundo\" is also great.",
-   "zh": "巴西反种族主义的标志性歌曲，唱的是黑人在巴西社会的遭遇。她晚年的专辑《A Mulher do Fim do Mundo》也很好。",
-   "de": "Ein Meilenstein des brasilianischen Antirassismus. Auch ihr spätes Album „A Mulher do Fim do Mundo“ lohnt sich.",
-   "pt": "Um marco do antirracismo no Brasil. Ouça também \"A Mulher do Fim do Mundo\"."
+   "en": "Elza Soares — who grew up in a favela and became one of Brazil's greatest voices — turned this song into a landmark of Brazilian anti-racism. Raw and powerful.",
+   "zh": "Elza Soares 在贫民窟长大，后来成为巴西最伟大的声音之一，她把这首歌唱成了巴西反种族主义的标志。粗粝而有力量。",
+   "de": "Elza Soares, die in einer Favela aufwuchs und eine der größten Stimmen Brasiliens wurde, machte dieses Lied zu einem Meilenstein des Antirassismus.",
+   "pt": "Uma voz enorme e uma canção forte contra o racismo."
   },
   {
    "kind": "film",
    "artist": "Emicida",
    "title": "AmarElo – É Tudo Pra Ontem",
-   "tag": "Rap · Documentário",
+   "tag": "Rap · documentário (Netflix)",
    "url": "https://www.youtube.com/results?search_query=AmarElo+%C3%89+Tudo+Pra+Ontem+trailer",
-   "en": "São Paulo rapper Emicida's album AmarElo (2019) and the Netflix documentary about it, a history of Black culture in Brazil — with subtitles.",
-   "zh": "圣保罗说唱歌手 Emicida 的专辑《AmarElo》（2019）和 Netflix 纪录片，讲巴西黑人文化史，有字幕，强烈推荐。",
-   "de": "Emicidas Album AmarElo (2019) und die Netflix-Doku dazu – eine Geschichte schwarzer Kultur in Brasilien, mit Untertiteln.",
-   "pt": "O álbum AmarElo e o documentário da Netflix sobre a cultura negra no Brasil."
-  },
-  {
-   "kind": "song",
-   "artist": "Racionais MC's",
-   "title": "Sobrevivendo no Inferno",
-   "tag": "Rap · 1997",
-   "url": "https://www.youtube.com/results?search_query=Racionais+MC%27s+Sobrevivendo+no+Inferno",
-   "en": "The legendary album from São Paulo's periphery, later put on Unicamp's required reading list. Fast and full of slang: save it for B1+.",
-   "zh": "圣保罗边缘社区的传奇专辑，后来被列进 Unicamp 的入学必读书单。语速快、俚语多，留到 B1 以后。",
-   "de": "Das legendäre Album aus São Paulos Peripherie, später Pflichtlektüre an der Unicamp. Schnell und voller Slang – ab B1.",
-   "pt": "O álbum lendário da periferia de São Paulo. Para depois do B1."
-  },
-  {
-   "kind": "song",
-   "artist": "Bia Ferreira",
-   "title": "Cota não é esmola",
-   "tag": "Música · ativismo",
-   "url": "https://www.youtube.com/results?search_query=Bia+Ferreira+Cota+n%C3%A3o+%C3%A9+esmola",
-   "en": "A direct, powerful song about racial quotas at Brazilian universities.",
-   "zh": "关于大学种族配额的歌，非常直接、有力量。",
-   "de": "Ein direktes, kraftvolles Lied über Quoten an brasilianischen Universitäten.",
-   "pt": "Uma canção direta sobre cotas raciais nas universidades."
+   "en": "The São Paulo rapper's documentary about his album AmarElo and a century of Black culture in Brazil, from samba to rap. Warm, beautifully made, with subtitles.",
+   "zh": "圣保罗说唱歌手 Emicida 的纪录片，讲他的专辑《AmarElo》和巴西黑人文化的一百年，从桑巴到说唱。温暖、拍得很美，有字幕。",
+   "de": "Die Doku des Rappers aus São Paulo über sein Album AmarElo und hundert Jahre schwarze Kultur in Brasilien, vom Samba bis zum Rap. Mit Untertiteln.",
+   "pt": "Um documentário bonito sobre música e cultura negra no Brasil."
   },
   {
    "kind": "podcast",
@@ -130,7 +207,7 @@
    "url": "https://open.spotify.com/search/Portuguese%20With%20Carla/podcasts",
    "en": "Brazilian Portuguese for intermediate learners, with downloadable transcripts and word lists.",
    "zh": "给中级学习者的巴西葡语播客，每集有可下载的文字稿和词汇表。",
-   "de": "Brasilianisches Portugiesisch für Mittelstufe, mit Transkripten und Wortlisten.",
+   "de": "Brasilianisches Portugiesisch für die Mittelstufe, mit Transkripten und Wortlisten.",
    "pt": "Português do Brasil para nível intermediário, com transcrições."
   },
   {
@@ -146,36 +223,126 @@
   },
   {
    "kind": "podcast",
-   "artist": "Medo e Delírio",
-   "title": "Medo e Delírio em Brasília",
-   "tag": "Podcast · política · sátira",
-   "url": "https://tunein.com/podcasts/Medo-e-Delirio-em-Brasilia-p1834683/",
-   "en": "Satirical, left-leaning politics podcast, twice a week for seven years. Fast and full of jokes — a goal for B2.",
-   "zh": "讽刺、偏左的政治播客，一周约两更，已经做了七年。语速快、梗多，是 B2 的目标。",
-   "de": "Satirischer, linker Politik-Podcast, seit sieben Jahren etwa zweimal pro Woche. Schnell und voller Witz – ein Ziel für B2.",
-   "pt": "Podcast satírico de política. Para o nível B2."
-  },
-  {
-   "kind": "podcast",
    "artist": "Mamilos",
    "title": "Mamilos",
    "tag": "Podcast · sociedade",
    "url": "https://open.spotify.com/search/Mamilos/podcasts",
-   "en": "Progressive debates on social issues and culture, often with experts. Advanced.",
-   "zh": "进步派的社会议题和文化讨论，常请专家。高级。",
-   "de": "Progressive Debatten über Gesellschaft und Kultur, oft mit Fachleuten. Fortgeschritten.",
-   "pt": "Debates progressistas sobre sociedade e cultura."
-  },
-  {
-   "kind": "podcast",
-   "artist": "Anticast",
-   "title": "Anticast",
-   "tag": "Podcast · política e cultura",
-   "url": "https://open.spotify.com/search/Anticast/podcasts",
-   "en": "Long left-leaning conversations on politics, culture and current events, with rich vocabulary. Advanced.",
-   "zh": "一小时以上的政治、文化讨论，偏左，词汇高级。",
-   "de": "Lange, linke Gespräche über Politik, Kultur und Aktuelles. Fortgeschritten.",
-   "pt": "Conversas longas sobre política e cultura."
+   "en": "Thoughtful debates on society and culture, often with experts. Advanced — a goal for B2.",
+   "zh": "社会与文化议题的深入讨论，常请专家。高级，B2 的目标。",
+   "de": "Nachdenkliche Debatten über Gesellschaft und Kultur, oft mit Fachleuten. Fortgeschritten.",
+   "pt": "Debates sobre sociedade e cultura. Nível avançado."
   }
- ]
+ ],
+ "curios": {
+  "pt": [
+   {
+    "title": "O cafezinho",
+    "tag": "Costumes",
+    "emoji": "☕",
+    "pt": "No Brasil, quando você visita alguém, a pessoa oferece um cafezinho. É um café pequeno, forte e, muitas vezes, bem doce. Dizer \"sim\" é educado. No trabalho, a pausa para o cafezinho é sagrada!",
+    "en": "In Brazil, when you visit someone, they offer you a cafezinho — a small, strong and often very sweet coffee. Saying yes is polite. At work, the coffee break is sacred!",
+    "zh": "在巴西，去别人家做客，主人会请你喝一杯 cafezinho——小杯、浓、常常很甜的咖啡。接受是礼貌。上班时的咖啡小憩更是「神圣不可侵犯」！",
+    "de": "Wer in Brasilien jemanden besucht, bekommt einen cafezinho angeboten – einen kleinen, starken, oft sehr süßen Kaffee. Annehmen ist höflich. Und die Kaffeepause im Büro ist heilig!"
+   },
+   {
+    "title": "Um beijo ou dois?",
+    "tag": "Costumes",
+    "emoji": "😘",
+    "pt": "Para dizer oi, muitos brasileiros dão beijinhos no rosto. Mas quantos? Em São Paulo, geralmente é um. No Rio de Janeiro, são dois. Em alguns lugares, três! Na dúvida, espere a outra pessoa.",
+    "en": "To say hi, many Brazilians give little kisses on the cheek. But how many? In São Paulo usually one, in Rio de Janeiro two, in some places three! When in doubt, let the other person lead.",
+    "zh": "打招呼时，很多巴西人会贴脸亲一下。但亲几下？圣保罗通常一下，里约两下，有些地方三下！拿不准就跟着对方来。",
+    "de": "Zur Begrüßung geben viele Brasilianer Küsschen auf die Wange. Aber wie viele? In São Paulo meist eins, in Rio zwei, mancherorts drei! Im Zweifel: dem anderen folgen."
+   },
+   {
+    "title": "Festa Junina",
+    "tag": "Festas",
+    "emoji": "🔥",
+    "pt": "Em junho, o Brasil faz festas juninas, para São João e outros santos. Tem fogueira, bandeirinhas, dança de quadrilha e comidas de milho, como pamonha e canjica. No Nordeste, a festa é enorme — às vezes maior que o Carnaval!",
+    "en": "In June Brazil celebrates the festas juninas for Saint John and other saints: bonfires, little paper flags, the quadrilha square dance and corn dishes like pamonha and canjica. In the Northeast the party is huge — sometimes bigger than Carnival!",
+    "zh": "六月巴西过「六月节」，纪念圣约翰等圣人：篝火、彩色小旗、quadrilha 方阵舞，还有玉米做的 pamonha、canjica。在东北部，节日规模巨大——有时比狂欢节还热闹！",
+    "de": "Im Juni feiert Brasilien die festas juninas für den heiligen Johannes und andere Heilige: Lagerfeuer, Wimpelketten, Quadrilha-Tanz und Maisgerichte wie pamonha und canjica. Im Nordosten ist das Fest riesig – manchmal größer als Karneval!"
+   },
+   {
+    "title": "Réveillon de branco",
+    "tag": "Festas",
+    "emoji": "🌊",
+    "pt": "No Ano-Novo, muitos brasileiros usam roupa branca, para ter paz. Na praia, algumas pessoas pulam sete ondas e fazem sete pedidos. Outras jogam flores no mar para Iemanjá, a rainha do mar.",
+    "en": "On New Year's Eve many Brazilians wear white for peace. On the beach some jump over seven waves and make seven wishes; others throw flowers into the sea for Iemanjá, queen of the sea.",
+    "zh": "跨年夜很多巴西人穿白衣服，祈求平安。海边有人跳过七道浪、许七个愿；也有人往海里抛花，献给海之女王 Iemanjá。",
+    "de": "An Silvester tragen viele Brasilianer Weiß, für den Frieden. Am Strand springen manche über sieben Wellen und wünschen sich sieben Dinge; andere werfen Blumen ins Meer für Iemanjá, die Königin des Meeres."
+   },
+   {
+    "title": "Feijoada no sábado",
+    "tag": "Comida",
+    "emoji": "🍲",
+    "pt": "A feijoada é feijão preto com carne de porco. No Rio, muitos restaurantes servem feijoada na quarta-feira e no sábado. Ela vem com arroz, couve, farofa e laranja. Depois, todo mundo quer dormir!",
+    "en": "Feijoada is black beans cooked with pork. In Rio many restaurants serve it on Wednesdays and Saturdays, with rice, collard greens, farofa and orange slices. Afterwards, everyone wants a nap!",
+    "zh": "Feijoada 是黑豆炖猪肉。在里约，很多餐馆周三和周六供应，配米饭、羽衣甘蓝、farofa（木薯粉）和橙子片。吃完大家都想睡一觉！",
+    "de": "Feijoada sind schwarze Bohnen mit Schweinefleisch. In Rio servieren viele Restaurants sie mittwochs und samstags, mit Reis, Grünkohl, Farofa und Orangenscheiben. Danach will jeder schlafen!"
+   },
+   {
+    "title": "Brigadeiro",
+    "tag": "Comida",
+    "emoji": "🍫",
+    "pt": "Em toda festa de aniversário tem brigadeiro: uma bolinha de chocolate com leite condensado e granulado. A história conta que o nome vem de um político dos anos 1940, o Brigadeiro Eduardo Gomes.",
+    "en": "Every birthday party has brigadeiros: little balls of chocolate and condensed milk rolled in sprinkles. The story goes that they're named after a 1940s politician, Brigadeiro (Brigadier) Eduardo Gomes.",
+    "zh": "每个生日派对都有 brigadeiro：用巧克力和炼乳做的小球，外面裹着巧克力碎。据说名字来自 1940 年代的政治人物 Eduardo Gomes 准将（Brigadeiro）。",
+    "de": "Auf jedem Geburtstag gibt es Brigadeiros: Kügelchen aus Schokolade und Kondensmilch mit Streuseln. Der Name soll von einem Politiker der 1940er stammen, Brigadeiro Eduardo Gomes."
+   },
+   {
+    "title": "Parabéns pra você… e o \"é pique\"",
+    "tag": "Festas",
+    "emoji": "🎂",
+    "pt": "No aniversário, os brasileiros cantam \"Parabéns pra você\". Mas a música não termina aí! Depois vem um grito animado: \"É pique, é pique… é hora, é hora… rá-tim-bum!\" E todo mundo bate palmas.",
+    "en": "At birthdays Brazilians sing \"Parabéns pra você\" — but it doesn't end there! Then comes a cheerful chant: \"É pique, é pique… é hora, é hora… rá-tim-bum!\" and everybody claps.",
+    "zh": "过生日时巴西人唱「Parabéns pra você」（生日快乐）——但还没完！接着是热闹的口号：「É pique, é pique… é hora, é hora… rá-tim-bum!」大家一起拍手。",
+    "de": "Zum Geburtstag singen Brasilianer „Parabéns pra você“ – aber das ist nicht das Ende! Dann kommt ein fröhlicher Ruf: „É pique, é pique… é hora, é hora… rá-tim-bum!“ und alle klatschen."
+   },
+   {
+    "title": "Tudo no diminutivo",
+    "tag": "Língua",
+    "emoji": "🤏",
+    "pt": "Os brasileiros adoram o diminutivo: cafezinho, pertinho, rapidinho, obrigadinho. \"-inho\" e \"-inha\" não falam só de coisas pequenas. Eles mostram carinho. \"Espera um minutinho!\" pode ser… dez minutos.",
+    "en": "Brazilians love diminutives: cafezinho, pertinho (very near), rapidinho (real quick), obrigadinho. -inho/-inha isn't only about small things — it shows affection. \"Espera um minutinho!\" might mean… ten minutes.",
+    "zh": "巴西人特别爱用指小词：cafezinho、pertinho（很近）、rapidinho（一下下）、obrigadinho（谢啦）。-inho/-inha 不只表示小，更表示亲切。「Espera um minutinho!」（等一小会儿！）可能是……十分钟。",
+    "de": "Brasilianer lieben Verkleinerungsformen: cafezinho, pertinho (ganz nah), rapidinho (ganz schnell), obrigadinho. -inho/-inha heißt nicht nur klein, sondern zeigt Zuneigung. „Espera um minutinho!“ kann … zehn Minuten bedeuten."
+   },
+   {
+    "title": "Pix",
+    "tag": "Dia a dia",
+    "emoji": "📱",
+    "pt": "No Brasil, quase todo mundo paga com Pix. É um pagamento pelo celular, grátis e muito rápido, criado pelo Banco Central em 2020. Você paga o pão, o táxi e até o vendedor de água na praia com Pix.",
+    "en": "In Brazil almost everyone pays with Pix — a free, instant phone payment launched by the Central Bank in 2020. You pay for bread, a taxi, even the water seller on the beach with Pix.",
+    "zh": "在巴西几乎人人用 Pix 付款——巴西央行 2020 年推出的手机即时支付，免费又快。买面包、打车，甚至海滩上卖水的小贩都收 Pix。",
+    "de": "In Brasilien zahlt fast jeder mit Pix – einer kostenlosen Sofortzahlung per Handy, 2020 von der Zentralbank eingeführt. Brot, Taxi, sogar der Wasserverkäufer am Strand: alles per Pix."
+   },
+   {
+    "title": "Dia da Saudade",
+    "tag": "Língua",
+    "emoji": "💭",
+    "pt": "\"Saudade\" é sentir falta de alguém, de um lugar ou de um tempo. Muitas pessoas dizem que é difícil traduzir essa palavra. No Brasil, 30 de janeiro é o Dia da Saudade. \"Estou com saudade de você\" é uma frase muito comum.",
+    "en": "Saudade means missing someone, a place or a time — many say the word is hard to translate. In Brazil, 30 January is the Dia da Saudade. \"Estou com saudade de você\" (I miss you) is a very common sentence.",
+    "zh": "Saudade 是想念一个人、一个地方或一段时光，很多人说这个词很难翻译。巴西把 1 月 30 日定为「思念日」。「Estou com saudade de você」（我想你）是很常用的一句话。",
+    "de": "Saudade heißt, jemanden, einen Ort oder eine Zeit zu vermissen – das Wort gilt als schwer übersetzbar. In Brasilien ist der 30. Januar der Dia da Saudade. „Estou com saudade de você“ (Ich vermisse dich) sagt man sehr oft."
+   },
+   {
+    "title": "A novela das nove",
+    "tag": "Dia a dia",
+    "emoji": "📺",
+    "pt": "À noite, muitas famílias assistem à novela. A mais famosa é a \"novela das nove\", às nove horas da noite. No dia seguinte, no trabalho e no ônibus, as pessoas conversam sobre o capítulo.",
+    "en": "In the evening many families watch the telenovela; the most famous is the \"novela das nove\", at 9 pm. The next day, at work and on the bus, people talk about the latest episode.",
+    "zh": "晚上很多家庭一起看电视剧（novela），最有名的是晚上九点的「九点档」。第二天上班、坐公交时，大家都在聊昨晚那一集。",
+    "de": "Abends schauen viele Familien Telenovela, am berühmtesten ist die „novela das nove“ um 21 Uhr. Am nächsten Tag reden alle bei der Arbeit und im Bus über die Folge."
+   },
+   {
+    "title": "Churrasco de domingo",
+    "tag": "Comida",
+    "emoji": "🍖",
+    "pt": "No domingo, muitas famílias fazem churrasco. Os amigos chegam, alguém cuida da carne, e o almoço dura a tarde toda. Tem música, futebol na TV e muita conversa. O churrasco é mais encontro que comida.",
+    "en": "On Sundays many families have a churrasco (barbecue). Friends arrive, someone takes care of the meat and lunch lasts all afternoon, with music, football on TV and lots of talk. A churrasco is more a get-together than a meal.",
+    "zh": "周日很多家庭会烤肉（churrasco）。朋友们陆续来，有人专门负责烤肉，午饭吃一整个下午，有音乐、电视里的足球和聊不完的天。烤肉更像是聚会，而不只是吃饭。",
+    "de": "Sonntags machen viele Familien churrasco. Freunde kommen, einer kümmert sich ums Fleisch, und das Mittagessen dauert den ganzen Nachmittag – mit Musik, Fußball und vielen Gesprächen. Mehr Treffen als Essen."
+   }
+  ]
+ }
 }
