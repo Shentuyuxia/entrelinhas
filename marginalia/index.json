@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:09:28+00:00",
+ "updated": "2026-10-27T15:58:05+00:00",
  "days": [
   {
    "date": "2026-10-27",
@@ -42,6 +42,22 @@
      "title": "Tuffi und der Sprung aus der Schwebebahn",
      "kind": "brief",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Un oud dans la valise",
+     "kind": "feature",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Sulaf, ou comment faire chanter les absents",
+     "kind": "feature",
+     "level": "C1",
      "hour": null
     }
    ]
