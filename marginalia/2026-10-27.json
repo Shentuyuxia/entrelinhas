@@ -1,148 +1,224 @@
 {
- "date": "2026-10-27",
- "createdBy": "claude",
- "items": [
-  {
-   "lang": "en",
-   "level": "C2",
-   "kind": "feature",
-   "section": "Music",
-   "title": "The jongleur's return",
-   "dek": "From Occitan polyphony to dungeon synth, a growing underground is rebuilding the Middle Ages in sound. The interesting question is not whether it is nostalgic, but who the past is being rebuilt for.",
-   "paragraphs": [
-    "A scene report published by Bandcamp Daily on 22 October maps an unlikely corner of contemporary music: musicians who are turning, in complete earnest, to the Middle Ages. Its examples run from the mainstream, such as the medieval swordsmen who fought on stage behind the rapper EsDeeKid at Rolling Loud Orlando or the bardcore remixes circulating on TikTok, to a dense underground of duos, anonymous projects and small labels in France, Britain, Nova Scotia and the United States. The report's central claim is that something has shifted. Where earlier generations wore the medieval as a costume, from pulp sword-and-sorcery to Dungeons & Dragons and Skyrim, these artists treat it as a world to be rebuilt.",
-    "The most persuasive examples come from France, and they are not nostalgic in any simple sense. In Toulouse, Lila Fraysse and Caroline Dufau, who perform as Cocanha, revive the polyphonic singing of Occitania, accompanied by the tambourin de Béarn, a long zither struck with a mallet so that it doubles as a drum; their album Flame Folclòre was produced by Raül Refree, Rosalía's collaborator on Los Ángeles. Also in Toulouse, MC KER·6 sets a synthetic hurdy-gurdy against 808 kicks and Auto-Tune while singing in the Quercy dialect of Occitan. In Rennes, the duo Gregailh runs Breton repertoire through effects pedals and a home-made string drum, part of a movement that calls itself New-Trad and has a three-day festival of its own.",
-    "What gives this work its charge is language. Occitan and Breton are minority languages, and choosing them over French, let alone over the English that dominates global playlists, is a statement about who gets to be heard and in what tongue. Cocanha describe folklore as a living practice that builds identity, sustains political struggle and feeds the imagination. Read that way, the medieval is less a retreat from the present than a reservoir of forms that a centralising national culture, and now a centralising digital market, never managed to absorb.",
-    "The report reaches for an unexpected theorist: Jacques Attali, whose Noise: The Political Economy of Music traced how the wandering jongleur gave way to the minstrel attached to a court. For Attali, the settled minstrel had to sell himself to a single social class, and that change was bound up with wider economic transformations in Europe. Bandcamp Daily suggests that today's musicians are moving in the opposite direction, towards mobility and away from dependence on one patron. It is an attractive reading, but it cuts both ways: the patron has not vanished so much as changed shape, into the platform, the playlist and the algorithm. Seen from that angle, the limited downloads and cassettes released by Magnifique, an anonymous New York dungeon-synth project on the label 99CTS RCRDS, look less like a quaint fetish than like an attempt to set the terms of one's own circulation.",
-    "The fool, another medieval figure, gives the scene its comedy. Jazz Lambaux, a project split between Paris and New York, builds its Music for Fools around the archetype, and the report detects beneath the whimsy an undercurrent about people who own little or nothing. At Le Sample in Paris the group played a set without any electricity, using a resonator guitar, a battery-powered keytar, Scottish smallpipes played by Enora Morice, melodica and tin whistle from Lucie Garrigues, and megaphones. Elsewhere the medieval becomes heavier: the Nova Scotia project DIM opens a sixteen-minute track in dungeon synth before collapsing into black metal, while the Philadelphia band Poison Ruïn, whose album is Hymns From the Hills, sounds closer to 1980s hardcore.",
-    "Not every part of the report's framing will sit easily with a left-leaning reader. It opens with Dante's ferryman Charon and presents medieval lore as an antidote to postmodern relativism and to what it calls scientific materialism, and that language can slide towards the reactionary uses to which the Middle Ages have often been put, as a stage set for fantasies of purity and hierarchy. Poison Ruïn's Mac Kennedy offers a more modest account: he cares less about historical accuracy than about using mythic symbols to speak to a spiritual unease. That distinction matters. The most interesting music in this underground uses the past to widen belonging rather than to police it, and the question worth asking of any revival is simply whom it is for."
-   ],
-   "paragraphs_zh": [
-    "Bandcamp Daily 于 10 月 22 日发表的一篇场景报道，描绘了当代音乐中一个意想不到的角落：一批音乐人正非常认真地转向中世纪。报道的例子从主流延伸到地下：说唱歌手 EsDeeKid 在奥兰多 Rolling Loud 音乐节演出时，身后有中世纪剑士在台上格斗；TikTok 上流传着“吟游诗人风”（bardcore）翻改版；而在法国、英国、新斯科舍和美国，则有一片密集的地下网络，由二人组合、匿名项目和小厂牌组成。报道的核心论点是：某种东西已经发生了转变。过去几代人把中世纪当作一套戏服——从通俗的剑与魔法小说到《龙与地下城》和《上古卷轴：天际》——而这些艺术家则把它视为一个有待重建的世界。",
-    "最有说服力的例子来自法国，而且它们绝非简单的怀旧。在图卢兹，以 Cocanha 为名演出的 Lila Fraysse 和 Caroline Dufau 复兴了奥克西塔尼亚的复调歌唱，伴奏乐器是“贝阿恩鼓琴”——一种用槌敲击的长齐特琴，因此兼作鼓用；她们的专辑《Flame Folclòre》由曾与罗莎莉娅合作《Los Ángeles》的 Raül Refree 担任制作。同在图卢兹的 MC KER·6，用合成的手摇弦琴配上 808 底鼓和自动调音，用奥克语的凯尔西方言演唱。在雷恩，二人组合 Gregailh 把布列塔尼传统曲目通过效果器和自制弦鼓重新演绎，他们属于一个自称“New-Trad”的运动，这个运动还有自己为期三天的音乐节。",
-    "赋予这些作品力量的是语言。奥克语和布列塔尼语都是少数语言；选择它们而不是法语，更不用说主导全球歌单的英语，本身就是在表态：谁有资格被听见，用哪种语言被听见。Cocanha 把民间传统描述为一种活的实践，它塑造认同、支撑政治斗争、滋养想象。这样理解的话，中世纪与其说是逃离当下，不如说是一座形式的蓄水池——无论是中央集权的民族文化，还是如今同样趋于集中的数字市场，都未能把它吸收殆尽。",
-    "报道援引了一位出人意料的理论家：雅克·阿塔利。他在《噪音：音乐的政治经济学》中追溯了四处漂泊的街头艺人（jongleur）如何让位于依附宫廷的吟游乐师（minstrel）。在阿塔利看来，定居下来的乐师不得不把自己出卖给单一的社会阶层，而这一变化与欧洲更广泛的经济转型密切相关。Bandcamp Daily 认为，今天的音乐人正朝相反方向移动：走向流动，摆脱对单一赞助人的依赖。这种解读很有吸引力，但也有两面性：赞助人并没有消失，而是换了形态，变成了平台、歌单和算法。从这个角度看，纽约匿名地牢合成器项目 Magnifique 在厂牌 99CTS RCRDS 发行的限量下载和磁带，与其说是古怪的恋物癖，不如说是试图自己决定作品流通的条件。",
-    "另一个中世纪人物——愚人——为这个场景带来了喜剧色彩。往返于巴黎和纽约的项目 Jazz Lambaux 围绕这一原型创作了《Music for Fools》，报道在其奇想之下察觉到一股暗流，关乎那些几乎一无所有的人。在巴黎的 Le Sample，乐队完全不用电演出了一场：共鸣器吉他、电池供电的键盘吉他、由 Enora Morice 演奏的苏格兰小风笛、Lucie Garrigues 的口风琴和锡口笛，还有扩音喇叭。在别处，中世纪变得更沉重：新斯科舍项目 DIM 的一首十六分钟长曲以地牢合成器开场，随后坠入黑金属；而费城乐队 Poison Ruïn（专辑《Hymns From the Hills》）的声音更接近 1980 年代的硬核朋克。",
-    "报道的部分框架未必能让左翼读者感到自在。它以但丁笔下的摆渡人卡戎开篇，把中世纪传说描绘为对抗后现代相对主义和所谓“科学唯物主义”的解药；这种说法很容易滑向中世纪常被赋予的反动用途——成为纯洁与等级幻想的舞台布景。Poison Ruïn 的 Mac Kennedy 给出了更谦逊的说法：他不太在乎历史准确性，更在意用神话符号去回应一种精神上的不安。这个区别很重要。这个地下场景中最有意思的音乐，是用过去来拓宽归属，而不是用它来监管归属；面对任何一场复兴，值得追问的问题很简单：它是为谁而做的？"
-   ],
-   "paragraphs_de": [
-    "Ein Szenebericht, den Bandcamp Daily am 22. Oktober veröffentlicht hat, kartiert einen unerwarteten Winkel der Gegenwartsmusik: Musikerinnen und Musiker, die sich mit vollem Ernst dem Mittelalter zuwenden. Die Beispiele reichen vom Mainstream – etwa den mittelalterlichen Schwertkämpfern, die beim Rolling Loud in Orlando hinter dem Rapper EsDeeKid auf der Bühne fochten, oder den Bardcore-Remixen auf TikTok – bis zu einem dichten Untergrund aus Duos, anonymen Projekten und kleinen Labels in Frankreich, Großbritannien, Nova Scotia und den USA. Die zentrale These lautet, dass sich etwas verschoben hat. Wo frühere Generationen das Mittelalter als Kostüm trugen, von Sword-and-Sorcery-Groschenheften bis zu Dungeons & Dragons und Skyrim, behandeln diese Künstler es als eine Welt, die wieder aufzubauen ist.",
-    "Die überzeugendsten Beispiele kommen aus Frankreich, und nostalgisch im schlichten Sinn sind sie nicht. In Toulouse beleben Lila Fraysse und Caroline Dufau, die als Cocanha auftreten, den mehrstimmigen Gesang Okzitaniens wieder, begleitet vom Tambourin de Béarn, einer langen Zither, die mit einem Schlägel angeschlagen wird und so zugleich als Trommel dient; ihr Album Flame Folclòre produzierte Raül Refree, Rosalías Partner bei Los Ángeles. Ebenfalls in Toulouse setzt MC KER·6 eine synthetische Drehleier gegen 808-Kicks und Auto-Tune und singt dabei im Quercy-Dialekt des Okzitanischen. In Rennes schickt das Duo Gregailh bretonisches Repertoire durch Effektpedale und eine selbst gebaute Saitentrommel – Teil einer Bewegung, die sich New-Trad nennt und ein eigenes dreitägiges Festival hat.",
-    "Ihre Kraft bezieht diese Musik aus der Sprache. Okzitanisch und Bretonisch sind Minderheitensprachen, und wer sie dem Französischen vorzieht, vom Englisch der globalen Playlists ganz zu schweigen, trifft eine Aussage darüber, wer gehört wird und in welcher Sprache. Cocanha beschreiben Folklore als lebendige Praxis, die Identität stiftet, politische Kämpfe trägt und die Vorstellungskraft nährt. So gelesen ist das Mittelalter weniger eine Flucht aus der Gegenwart als ein Reservoir von Formen, das weder eine zentralistische Nationalkultur noch der heute ebenso zentralisierende digitale Markt je ganz aufsaugen konnte.",
-    "Der Bericht greift auf einen überraschenden Theoretiker zurück: Jacques Attali, dessen Buch Noise: The Political Economy of Music nachzeichnet, wie der umherziehende Gaukler (jongleur) dem an einen Hof gebundenen Spielmann (minstrel) wich. Für Attali musste sich der sesshafte Spielmann an eine einzige soziale Klasse verkaufen, und dieser Wandel hing mit umfassenderen wirtschaftlichen Umbrüchen in Europa zusammen. Bandcamp Daily meint, heutige Musiker bewegten sich in die Gegenrichtung: hin zur Mobilität, weg von der Abhängigkeit von einem einzigen Gönner. Das ist eine reizvolle Lesart, aber sie hat zwei Seiten: Der Gönner ist nicht verschwunden, sondern hat nur die Gestalt gewechselt – in Plattform, Playlist und Algorithmus. Aus diesem Blickwinkel wirken die limitierten Downloads und Kassetten von Magnifique, einem anonymen Dungeon-Synth-Projekt aus New York beim Label 99CTS RCRDS, weniger wie ein verschrobener Fetisch als wie der Versuch, die Bedingungen der eigenen Verbreitung selbst zu bestimmen.",
-    "Der Narr, eine weitere mittelalterliche Figur, bringt Komik in die Szene. Jazz Lambaux, ein zwischen Paris und New York aufgeteiltes Projekt, baut sein Music for Fools um diesen Archetyp herum, und der Bericht entdeckt unter der Verspieltheit eine Unterströmung über Menschen, die wenig oder nichts besitzen. Im Pariser Le Sample spielte die Gruppe ein Konzert ganz ohne Strom: mit Resonatorgitarre, batteriebetriebenem Keytar, schottischen Smallpipes von Enora Morice, Melodica und Tin Whistle von Lucie Garrigues sowie Megafonen. Anderswo wird das Mittelalter schwerer: Das Projekt DIM aus Nova Scotia beginnt ein sechzehnminütiges Stück als Dungeon Synth, bevor es in Black Metal kippt, während die Band Poison Ruïn aus Philadelphia, deren Album Hymns From the Hills heißt, eher nach Hardcore der 1980er-Jahre klingt.",
-    "Nicht alles an der Rahmung des Berichts wird einer linken Leserin behagen. Er beginnt mit Dantes Fährmann Charon und stellt mittelalterliche Überlieferung als Gegengift gegen postmodernen Relativismus und einen sogenannten wissenschaftlichen Materialismus dar – eine Sprache, die leicht zu den reaktionären Zwecken abgleiten kann, für die das Mittelalter oft herhalten musste: als Kulisse für Fantasien von Reinheit und Hierarchie. Mac Kennedy von Poison Ruïn bietet eine bescheidenere Erklärung: Historische Genauigkeit interessiere ihn weniger, als mit mythischen Symbolen auf ein spirituelles Unbehagen zu antworten. Dieser Unterschied ist wichtig. Die interessanteste Musik dieses Untergrunds nutzt die Vergangenheit, um Zugehörigkeit zu erweitern statt sie zu überwachen, und die Frage, die man jedem Revival stellen sollte, lautet schlicht: Für wen ist es gemacht?"
-   ],
-   "paragraphs_pt": [
-    "Uma reportagem de cena publicada pelo Bandcamp Daily em 22 de outubro mapeia um canto improvável da música contemporânea: músicos que estão se voltando, com toda a seriedade, para a Idade Média. Os exemplos vão do mainstream — como os espadachins medievais que lutaram no palco atrás do rapper EsDeeKid no Rolling Loud de Orlando, ou os remixes de bardcore que circulam no TikTok — até um underground denso de duos, projetos anônimos e pequenos selos na França, no Reino Unido, na Nova Escócia e nos Estados Unidos. A tese central da reportagem é que algo mudou. Enquanto gerações anteriores vestiam o medieval como fantasia, das revistas pulp de espada e feitiçaria a Dungeons & Dragons e Skyrim, esses artistas o tratam como um mundo a ser reconstruído.",
-    "Os exemplos mais convincentes vêm da França, e não são nostálgicos em nenhum sentido simples. Em Toulouse, Lila Fraysse e Caroline Dufau, que se apresentam como Cocanha, revivem o canto polifônico da Occitânia, acompanhadas pelo tambourin de Béarn, uma cítara longa percutida com uma baqueta, de modo que funciona também como tambor; o álbum Flame Folclòre foi produzido por Raül Refree, parceiro de Rosalía em Los Ángeles. Também em Toulouse, MC KER·6 contrapõe uma sanfona sintética a bumbos de 808 e Auto-Tune enquanto canta no dialeto de Quercy do occitano. Em Rennes, o duo Gregailh passa o repertório bretão por pedais de efeito e um tambor de cordas feito em casa, como parte de um movimento que se chama New-Trad e tem um festival próprio de três dias.",
-    "O que dá força a esse trabalho é a língua. O occitano e o bretão são línguas minoritárias, e escolhê-las em vez do francês, para não falar do inglês que domina as playlists globais, é uma declaração sobre quem tem direito de ser ouvido e em que língua. Cocanha descreve o folclore como uma prática viva que constrói identidade, sustenta lutas políticas e alimenta a imaginação. Lido assim, o medieval é menos uma fuga do presente do que um reservatório de formas que uma cultura nacional centralizadora, e agora um mercado digital igualmente centralizador, nunca conseguiu absorver.",
-    "A reportagem recorre a um teórico inesperado: Jacques Attali, cujo livro Noise: The Political Economy of Music (Ruídos) descreve como o jogral errante deu lugar ao menestrel ligado a uma corte. Para Attali, o menestrel fixo precisou se vender a uma única classe social, e essa mudança estava ligada a transformações econômicas mais amplas na Europa. O Bandcamp Daily sugere que os músicos de hoje estão indo na direção contrária: rumo à mobilidade e longe da dependência de um único mecenas. É uma leitura atraente, mas tem dois gumes: o mecenas não desapareceu, apenas mudou de forma, virando plataforma, playlist e algoritmo. Vistos desse ângulo, os downloads limitados e as fitas cassete de Magnifique, um projeto anônimo de dungeon synth de Nova York lançado pelo selo 99CTS RCRDS, parecem menos um fetiche pitoresco do que uma tentativa de definir as condições da própria circulação.",
-    "O bobo, outra figura medieval, dá à cena seu lado cômico. Jazz Lambaux, projeto dividido entre Paris e Nova York, constrói seu Music for Fools em torno desse arquétipo, e a reportagem detecta, por baixo da fantasia, uma corrente subterrânea sobre pessoas que possuem pouco ou nada. No Le Sample, em Paris, o grupo fez um show sem nenhuma eletricidade, com violão de ressonador, keytar a pilha, gaita de foles escocesa tocada por Enora Morice, melódica e flautim de lata de Lucie Garrigues, e megafones. Em outros lugares o medieval fica mais pesado: o projeto DIM, da Nova Escócia, abre uma faixa de dezesseis minutos em dungeon synth antes de desabar no black metal, enquanto a banda Poison Ruïn, da Filadélfia, cujo álbum se chama Hymns From the Hills, soa mais próxima do hardcore dos anos 1980.",
-    "Nem tudo no enquadramento da reportagem vai agradar a uma leitora de esquerda. Ela abre com Caronte, o barqueiro de Dante, e apresenta a tradição medieval como antídoto ao relativismo pós-moderno e ao que chama de materialismo científico — uma linguagem que pode escorregar para os usos reacionários a que a Idade Média tantas vezes serviu, como cenário para fantasias de pureza e hierarquia. Mac Kennedy, do Poison Ruïn, oferece uma explicação mais modesta: importa-lhe menos a exatidão histórica do que usar símbolos míticos para falar de um mal-estar espiritual. Essa distinção importa. A música mais interessante desse underground usa o passado para ampliar o pertencimento, não para policiá-lo, e a pergunta que vale fazer a qualquer revival é simplesmente: para quem ele é feito?"
-   ],
-   "glossary": [
+  "date": "2026-10-27",
+  "createdBy": "claude",
+  "items": [
     {
-     "w": "in complete earnest",
-     "en": "with total seriousness and sincerity, not as a joke or pose",
-     "zh": "非常认真地，毫无玩笑之意",
-     "de": "mit vollem Ernst",
-     "pt": "com toda a seriedade"
+      "lang": "en",
+      "level": "C2",
+      "kind": "feature",
+      "section": "Music",
+      "title": "The jongleur's return",
+      "dek": "From Occitan polyphony to dungeon synth, a growing underground is rebuilding the Middle Ages in sound. The interesting question is not whether it is nostalgic, but who the past is being rebuilt for.",
+      "paragraphs": [
+        "A scene report published by Bandcamp Daily on 22 October maps an unlikely corner of contemporary music: musicians who are turning, in complete earnest, to the Middle Ages. Its examples run from the mainstream, such as the medieval swordsmen who fought on stage behind the rapper EsDeeKid at Rolling Loud Orlando or the bardcore remixes circulating on TikTok, to a dense underground of duos, anonymous projects and small labels in France, Britain, Nova Scotia and the United States. The report's central claim is that something has shifted. Where earlier generations wore the medieval as a costume, from pulp sword-and-sorcery to Dungeons & Dragons and Skyrim, these artists treat it as a world to be rebuilt.",
+        "The most persuasive examples come from France, and they are not nostalgic in any simple sense. In Toulouse, Lila Fraysse and Caroline Dufau, who perform as Cocanha, revive the polyphonic singing of Occitania, accompanied by the tambourin de Béarn, a long zither struck with a mallet so that it doubles as a drum; their album Flame Folclòre was produced by Raül Refree, Rosalía's collaborator on Los Ángeles. Also in Toulouse, MC KER·6 sets a synthetic hurdy-gurdy against 808 kicks and Auto-Tune while singing in the Quercy dialect of Occitan. In Rennes, the duo Gregailh runs Breton repertoire through effects pedals and a home-made string drum, part of a movement that calls itself New-Trad and has a three-day festival of its own.",
+        "What gives this work its charge is language. Occitan and Breton are minority languages, and choosing them over French, let alone over the English that dominates global playlists, is a statement about who gets to be heard and in what tongue. Cocanha describe folklore as a living practice that builds identity, sustains political struggle and feeds the imagination. Read that way, the medieval is less a retreat from the present than a reservoir of forms that a centralising national culture, and now a centralising digital market, never managed to absorb.",
+        "The report reaches for an unexpected theorist: Jacques Attali, whose Noise: The Political Economy of Music traced how the wandering jongleur gave way to the minstrel attached to a court. For Attali, the settled minstrel had to sell himself to a single social class, and that change was bound up with wider economic transformations in Europe. Bandcamp Daily suggests that today's musicians are moving in the opposite direction, towards mobility and away from dependence on one patron. It is an attractive reading, but it cuts both ways: the patron has not vanished so much as changed shape, into the platform, the playlist and the algorithm. Seen from that angle, the limited downloads and cassettes released by Magnifique, an anonymous New York dungeon-synth project on the label 99CTS RCRDS, look less like a quaint fetish than like an attempt to set the terms of one's own circulation.",
+        "The fool, another medieval figure, gives the scene its comedy. Jazz Lambaux, a project split between Paris and New York, builds its Music for Fools around the archetype, and the report detects beneath the whimsy an undercurrent about people who own little or nothing. At Le Sample in Paris the group played a set without any electricity, using a resonator guitar, a battery-powered keytar, Scottish smallpipes played by Enora Morice, melodica and tin whistle from Lucie Garrigues, and megaphones. Elsewhere the medieval becomes heavier: the Nova Scotia project DIM opens a sixteen-minute track in dungeon synth before collapsing into black metal, while the Philadelphia band Poison Ruïn, whose album is Hymns From the Hills, sounds closer to 1980s hardcore.",
+        "Not every part of the report's framing will sit easily with a left-leaning reader. It opens with Dante's ferryman Charon and presents medieval lore as an antidote to postmodern relativism and to what it calls scientific materialism, and that language can slide towards the reactionary uses to which the Middle Ages have often been put, as a stage set for fantasies of purity and hierarchy. Poison Ruïn's Mac Kennedy offers a more modest account: he cares less about historical accuracy than about using mythic symbols to speak to a spiritual unease. That distinction matters. The most interesting music in this underground uses the past to widen belonging rather than to police it, and the question worth asking of any revival is simply whom it is for."
+      ],
+      "paragraphs_zh": [
+        "Bandcamp Daily 于 10 月 22 日发表的一篇场景报道，描绘了当代音乐中一个意想不到的角落：一批音乐人正非常认真地转向中世纪。报道的例子从主流延伸到地下：说唱歌手 EsDeeKid 在奥兰多 Rolling Loud 音乐节演出时，身后有中世纪剑士在台上格斗；TikTok 上流传着“吟游诗人风”（bardcore）翻改版；而在法国、英国、新斯科舍和美国，则有一片密集的地下网络，由二人组合、匿名项目和小厂牌组成。报道的核心论点是：某种东西已经发生了转变。过去几代人把中世纪当作一套戏服——从通俗的剑与魔法小说到《龙与地下城》和《上古卷轴：天际》——而这些艺术家则把它视为一个有待重建的世界。",
+        "最有说服力的例子来自法国，而且它们绝非简单的怀旧。在图卢兹，以 Cocanha 为名演出的 Lila Fraysse 和 Caroline Dufau 复兴了奥克西塔尼亚的复调歌唱，伴奏乐器是“贝阿恩鼓琴”——一种用槌敲击的长齐特琴，因此兼作鼓用；她们的专辑《Flame Folclòre》由曾与罗莎莉娅合作《Los Ángeles》的 Raül Refree 担任制作。同在图卢兹的 MC KER·6，用合成的手摇弦琴配上 808 底鼓和自动调音，用奥克语的凯尔西方言演唱。在雷恩，二人组合 Gregailh 把布列塔尼传统曲目通过效果器和自制弦鼓重新演绎，他们属于一个自称“New-Trad”的运动，这个运动还有自己为期三天的音乐节。",
+        "赋予这些作品力量的是语言。奥克语和布列塔尼语都是少数语言；选择它们而不是法语，更不用说主导全球歌单的英语，本身就是在表态：谁有资格被听见，用哪种语言被听见。Cocanha 把民间传统描述为一种活的实践，它塑造认同、支撑政治斗争、滋养想象。这样理解的话，中世纪与其说是逃离当下，不如说是一座形式的蓄水池——无论是中央集权的民族文化，还是如今同样趋于集中的数字市场，都未能把它吸收殆尽。",
+        "报道援引了一位出人意料的理论家：雅克·阿塔利。他在《噪音：音乐的政治经济学》中追溯了四处漂泊的街头艺人（jongleur）如何让位于依附宫廷的吟游乐师（minstrel）。在阿塔利看来，定居下来的乐师不得不把自己出卖给单一的社会阶层，而这一变化与欧洲更广泛的经济转型密切相关。Bandcamp Daily 认为，今天的音乐人正朝相反方向移动：走向流动，摆脱对单一赞助人的依赖。这种解读很有吸引力，但也有两面性：赞助人并没有消失，而是换了形态，变成了平台、歌单和算法。从这个角度看，纽约匿名地牢合成器项目 Magnifique 在厂牌 99CTS RCRDS 发行的限量下载和磁带，与其说是古怪的恋物癖，不如说是试图自己决定作品流通的条件。",
+        "另一个中世纪人物——愚人——为这个场景带来了喜剧色彩。往返于巴黎和纽约的项目 Jazz Lambaux 围绕这一原型创作了《Music for Fools》，报道在其奇想之下察觉到一股暗流，关乎那些几乎一无所有的人。在巴黎的 Le Sample，乐队完全不用电演出了一场：共鸣器吉他、电池供电的键盘吉他、由 Enora Morice 演奏的苏格兰小风笛、Lucie Garrigues 的口风琴和锡口笛，还有扩音喇叭。在别处，中世纪变得更沉重：新斯科舍项目 DIM 的一首十六分钟长曲以地牢合成器开场，随后坠入黑金属；而费城乐队 Poison Ruïn（专辑《Hymns From the Hills》）的声音更接近 1980 年代的硬核朋克。",
+        "报道的部分框架未必能让左翼读者感到自在。它以但丁笔下的摆渡人卡戎开篇，把中世纪传说描绘为对抗后现代相对主义和所谓“科学唯物主义”的解药；这种说法很容易滑向中世纪常被赋予的反动用途——成为纯洁与等级幻想的舞台布景。Poison Ruïn 的 Mac Kennedy 给出了更谦逊的说法：他不太在乎历史准确性，更在意用神话符号去回应一种精神上的不安。这个区别很重要。这个地下场景中最有意思的音乐，是用过去来拓宽归属，而不是用它来监管归属；面对任何一场复兴，值得追问的问题很简单：它是为谁而做的？"
+      ],
+      "paragraphs_de": [
+        "Ein Szenebericht, den Bandcamp Daily am 22. Oktober veröffentlicht hat, kartiert einen unerwarteten Winkel der Gegenwartsmusik: Musikerinnen und Musiker, die sich mit vollem Ernst dem Mittelalter zuwenden. Die Beispiele reichen vom Mainstream – etwa den mittelalterlichen Schwertkämpfern, die beim Rolling Loud in Orlando hinter dem Rapper EsDeeKid auf der Bühne fochten, oder den Bardcore-Remixen auf TikTok – bis zu einem dichten Untergrund aus Duos, anonymen Projekten und kleinen Labels in Frankreich, Großbritannien, Nova Scotia und den USA. Die zentrale These lautet, dass sich etwas verschoben hat. Wo frühere Generationen das Mittelalter als Kostüm trugen, von Sword-and-Sorcery-Groschenheften bis zu Dungeons & Dragons und Skyrim, behandeln diese Künstler es als eine Welt, die wieder aufzubauen ist.",
+        "Die überzeugendsten Beispiele kommen aus Frankreich, und nostalgisch im schlichten Sinn sind sie nicht. In Toulouse beleben Lila Fraysse und Caroline Dufau, die als Cocanha auftreten, den mehrstimmigen Gesang Okzitaniens wieder, begleitet vom Tambourin de Béarn, einer langen Zither, die mit einem Schlägel angeschlagen wird und so zugleich als Trommel dient; ihr Album Flame Folclòre produzierte Raül Refree, Rosalías Partner bei Los Ángeles. Ebenfalls in Toulouse setzt MC KER·6 eine synthetische Drehleier gegen 808-Kicks und Auto-Tune und singt dabei im Quercy-Dialekt des Okzitanischen. In Rennes schickt das Duo Gregailh bretonisches Repertoire durch Effektpedale und eine selbst gebaute Saitentrommel – Teil einer Bewegung, die sich New-Trad nennt und ein eigenes dreitägiges Festival hat.",
+        "Ihre Kraft bezieht diese Musik aus der Sprache. Okzitanisch und Bretonisch sind Minderheitensprachen, und wer sie dem Französischen vorzieht, vom Englisch der globalen Playlists ganz zu schweigen, trifft eine Aussage darüber, wer gehört wird und in welcher Sprache. Cocanha beschreiben Folklore als lebendige Praxis, die Identität stiftet, politische Kämpfe trägt und die Vorstellungskraft nährt. So gelesen ist das Mittelalter weniger eine Flucht aus der Gegenwart als ein Reservoir von Formen, das weder eine zentralistische Nationalkultur noch der heute ebenso zentralisierende digitale Markt je ganz aufsaugen konnte.",
+        "Der Bericht greift auf einen überraschenden Theoretiker zurück: Jacques Attali, dessen Buch Noise: The Political Economy of Music nachzeichnet, wie der umherziehende Gaukler (jongleur) dem an einen Hof gebundenen Spielmann (minstrel) wich. Für Attali musste sich der sesshafte Spielmann an eine einzige soziale Klasse verkaufen, und dieser Wandel hing mit umfassenderen wirtschaftlichen Umbrüchen in Europa zusammen. Bandcamp Daily meint, heutige Musiker bewegten sich in die Gegenrichtung: hin zur Mobilität, weg von der Abhängigkeit von einem einzigen Gönner. Das ist eine reizvolle Lesart, aber sie hat zwei Seiten: Der Gönner ist nicht verschwunden, sondern hat nur die Gestalt gewechselt – in Plattform, Playlist und Algorithmus. Aus diesem Blickwinkel wirken die limitierten Downloads und Kassetten von Magnifique, einem anonymen Dungeon-Synth-Projekt aus New York beim Label 99CTS RCRDS, weniger wie ein verschrobener Fetisch als wie der Versuch, die Bedingungen der eigenen Verbreitung selbst zu bestimmen.",
+        "Der Narr, eine weitere mittelalterliche Figur, bringt Komik in die Szene. Jazz Lambaux, ein zwischen Paris und New York aufgeteiltes Projekt, baut sein Music for Fools um diesen Archetyp herum, und der Bericht entdeckt unter der Verspieltheit eine Unterströmung über Menschen, die wenig oder nichts besitzen. Im Pariser Le Sample spielte die Gruppe ein Konzert ganz ohne Strom: mit Resonatorgitarre, batteriebetriebenem Keytar, schottischen Smallpipes von Enora Morice, Melodica und Tin Whistle von Lucie Garrigues sowie Megafonen. Anderswo wird das Mittelalter schwerer: Das Projekt DIM aus Nova Scotia beginnt ein sechzehnminütiges Stück als Dungeon Synth, bevor es in Black Metal kippt, während die Band Poison Ruïn aus Philadelphia, deren Album Hymns From the Hills heißt, eher nach Hardcore der 1980er-Jahre klingt.",
+        "Nicht alles an der Rahmung des Berichts wird einer linken Leserin behagen. Er beginnt mit Dantes Fährmann Charon und stellt mittelalterliche Überlieferung als Gegengift gegen postmodernen Relativismus und einen sogenannten wissenschaftlichen Materialismus dar – eine Sprache, die leicht zu den reaktionären Zwecken abgleiten kann, für die das Mittelalter oft herhalten musste: als Kulisse für Fantasien von Reinheit und Hierarchie. Mac Kennedy von Poison Ruïn bietet eine bescheidenere Erklärung: Historische Genauigkeit interessiere ihn weniger, als mit mythischen Symbolen auf ein spirituelles Unbehagen zu antworten. Dieser Unterschied ist wichtig. Die interessanteste Musik dieses Untergrunds nutzt die Vergangenheit, um Zugehörigkeit zu erweitern statt sie zu überwachen, und die Frage, die man jedem Revival stellen sollte, lautet schlicht: Für wen ist es gemacht?"
+      ],
+      "paragraphs_pt": [
+        "Uma reportagem de cena publicada pelo Bandcamp Daily em 22 de outubro mapeia um canto improvável da música contemporânea: músicos que estão se voltando, com toda a seriedade, para a Idade Média. Os exemplos vão do mainstream — como os espadachins medievais que lutaram no palco atrás do rapper EsDeeKid no Rolling Loud de Orlando, ou os remixes de bardcore que circulam no TikTok — até um underground denso de duos, projetos anônimos e pequenos selos na França, no Reino Unido, na Nova Escócia e nos Estados Unidos. A tese central da reportagem é que algo mudou. Enquanto gerações anteriores vestiam o medieval como fantasia, das revistas pulp de espada e feitiçaria a Dungeons & Dragons e Skyrim, esses artistas o tratam como um mundo a ser reconstruído.",
+        "Os exemplos mais convincentes vêm da França, e não são nostálgicos em nenhum sentido simples. Em Toulouse, Lila Fraysse e Caroline Dufau, que se apresentam como Cocanha, revivem o canto polifônico da Occitânia, acompanhadas pelo tambourin de Béarn, uma cítara longa percutida com uma baqueta, de modo que funciona também como tambor; o álbum Flame Folclòre foi produzido por Raül Refree, parceiro de Rosalía em Los Ángeles. Também em Toulouse, MC KER·6 contrapõe uma sanfona sintética a bumbos de 808 e Auto-Tune enquanto canta no dialeto de Quercy do occitano. Em Rennes, o duo Gregailh passa o repertório bretão por pedais de efeito e um tambor de cordas feito em casa, como parte de um movimento que se chama New-Trad e tem um festival próprio de três dias.",
+        "O que dá força a esse trabalho é a língua. O occitano e o bretão são línguas minoritárias, e escolhê-las em vez do francês, para não falar do inglês que domina as playlists globais, é uma declaração sobre quem tem direito de ser ouvido e em que língua. Cocanha descreve o folclore como uma prática viva que constrói identidade, sustenta lutas políticas e alimenta a imaginação. Lido assim, o medieval é menos uma fuga do presente do que um reservatório de formas que uma cultura nacional centralizadora, e agora um mercado digital igualmente centralizador, nunca conseguiu absorver.",
+        "A reportagem recorre a um teórico inesperado: Jacques Attali, cujo livro Noise: The Political Economy of Music (Ruídos) descreve como o jogral errante deu lugar ao menestrel ligado a uma corte. Para Attali, o menestrel fixo precisou se vender a uma única classe social, e essa mudança estava ligada a transformações econômicas mais amplas na Europa. O Bandcamp Daily sugere que os músicos de hoje estão indo na direção contrária: rumo à mobilidade e longe da dependência de um único mecenas. É uma leitura atraente, mas tem dois gumes: o mecenas não desapareceu, apenas mudou de forma, virando plataforma, playlist e algoritmo. Vistos desse ângulo, os downloads limitados e as fitas cassete de Magnifique, um projeto anônimo de dungeon synth de Nova York lançado pelo selo 99CTS RCRDS, parecem menos um fetiche pitoresco do que uma tentativa de definir as condições da própria circulação.",
+        "O bobo, outra figura medieval, dá à cena seu lado cômico. Jazz Lambaux, projeto dividido entre Paris e Nova York, constrói seu Music for Fools em torno desse arquétipo, e a reportagem detecta, por baixo da fantasia, uma corrente subterrânea sobre pessoas que possuem pouco ou nada. No Le Sample, em Paris, o grupo fez um show sem nenhuma eletricidade, com violão de ressonador, keytar a pilha, gaita de foles escocesa tocada por Enora Morice, melódica e flautim de lata de Lucie Garrigues, e megafones. Em outros lugares o medieval fica mais pesado: o projeto DIM, da Nova Escócia, abre uma faixa de dezesseis minutos em dungeon synth antes de desabar no black metal, enquanto a banda Poison Ruïn, da Filadélfia, cujo álbum se chama Hymns From the Hills, soa mais próxima do hardcore dos anos 1980.",
+        "Nem tudo no enquadramento da reportagem vai agradar a uma leitora de esquerda. Ela abre com Caronte, o barqueiro de Dante, e apresenta a tradição medieval como antídoto ao relativismo pós-moderno e ao que chama de materialismo científico — uma linguagem que pode escorregar para os usos reacionários a que a Idade Média tantas vezes serviu, como cenário para fantasias de pureza e hierarquia. Mac Kennedy, do Poison Ruïn, oferece uma explicação mais modesta: importa-lhe menos a exatidão histórica do que usar símbolos míticos para falar de um mal-estar espiritual. Essa distinção importa. A música mais interessante desse underground usa o passado para ampliar o pertencimento, não para policiá-lo, e a pergunta que vale fazer a qualquer revival é simplesmente: para quem ele é feito?"
+      ],
+      "glossary": [
+        {
+          "w": "in complete earnest",
+          "en": "with total seriousness and sincerity, not as a joke or pose",
+          "zh": "非常认真地，毫无玩笑之意",
+          "de": "mit vollem Ernst",
+          "pt": "com toda a seriedade"
+        },
+        {
+          "w": "to double as",
+          "en": "to serve a second purpose in addition to the main one",
+          "zh": "兼作，兼当",
+          "de": "zugleich dienen als",
+          "pt": "funcionar também como"
+        },
+        {
+          "w": "polyphonic",
+          "en": "made of several independent melodic lines sung or played together",
+          "zh": "复调的，多声部的",
+          "de": "mehrstimmig, polyphon",
+          "pt": "polifônico"
+        },
+        {
+          "w": "charge",
+          "en": "(here) emotional or political force and intensity",
+          "zh": "（此处）感染力，力量",
+          "de": "Brisanz, Kraft",
+          "pt": "carga, força"
+        },
+        {
+          "w": "reservoir",
+          "en": "a large supply of something that can be drawn on when needed",
+          "zh": "储备，蓄水池（比喻）",
+          "de": "Reservoir, Fundus",
+          "pt": "reservatório, acervo"
+        },
+        {
+          "w": "patron",
+          "en": "a person or institution that financially supports an artist",
+          "zh": "赞助人，资助者",
+          "de": "Gönner, Mäzen",
+          "pt": "mecenas, patrono"
+        },
+        {
+          "w": "to cut both ways",
+          "en": "to have both advantages and disadvantages; to support opposite conclusions",
+          "zh": "有利有弊，是把双刃剑",
+          "de": "zwei Seiten haben, ein zweischneidiges Schwert sein",
+          "pt": "ter dois gumes, ser faca de dois gumes"
+        },
+        {
+          "w": "quaint",
+          "en": "charmingly old-fashioned, often in a slightly odd or unserious way",
+          "zh": "古雅而有趣的，古怪过时的",
+          "de": "altmodisch-verschroben, kurios",
+          "pt": "pitoresco, antiquado"
+        },
+        {
+          "w": "undercurrent",
+          "en": "an underlying feeling or theme that is present but not openly expressed",
+          "zh": "暗流，潜在的情绪或主题",
+          "de": "Unterströmung, unterschwelliger Ton",
+          "pt": "corrente subterrânea, tom subjacente"
+        },
+        {
+          "w": "to sit easily with",
+          "en": "to be acceptable or comfortable for someone (often negative: not sit easily with)",
+          "zh": "让……感到自在（常用否定）",
+          "de": "jemandem behagen, zu jemandem passen",
+          "pt": "agradar a, cair bem para"
+        },
+        {
+          "w": "stage set",
+          "en": "the scenery built for a play; figuratively, a backdrop used for display",
+          "zh": "舞台布景（比喻：陪衬的背景）",
+          "de": "Kulisse, Bühnenbild",
+          "pt": "cenário"
+        },
+        {
+          "w": "to police",
+          "en": "(figurative) to control and enforce strict limits on something",
+          "zh": "（比喻）监管，严格限制",
+          "de": "überwachen, reglementieren",
+          "pt": "policiar, vigiar"
+        }
+      ],
+      "grammar": "Look at \"Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.\" Here \"where\" does not refer to a place: it works like \"whereas\", introducing a clause that is set against the main clause to sharpen a contrast. The structure is typical of analytical prose, and the \"where\" clause usually comes first. Note also \"a world to be rebuilt\": a passive infinitive after a noun expresses what needs to be done to it.",
+      "grammar_zh": "看这句：“Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.” 这里的 where 并不指地点，而是相当于 whereas（而，然而），引出一个与主句形成对照的从句，用来突出对比。这种结构在分析性文章中很常见，where 从句通常放在句首。另外注意 “a world to be rebuilt”：名词后接被动不定式，表示“需要被……的”。",
+      "grammar_de": "Betrachten Sie: „Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.“ Hier bezeichnet „where“ keinen Ort, sondern funktioniert wie „whereas“ (während, wohingegen): Es leitet einen Nebensatz ein, der dem Hauptsatz gegenübergestellt wird, um einen Kontrast zu schärfen. Die Struktur ist typisch für analytische Prosa, und der „where“-Satz steht meist am Anfang. Beachten Sie auch „a world to be rebuilt“: Ein Passiv-Infinitiv nach einem Nomen drückt aus, was mit ihm geschehen muss.",
+      "grammar_pt": "Veja: \"Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.\" Aqui \"where\" não indica lugar: funciona como \"whereas\" (enquanto, ao passo que), introduzindo uma oração que se opõe à principal para reforçar um contraste. A estrutura é típica da prosa analítica, e a oração com \"where\" costuma vir primeiro. Note também \"a world to be rebuilt\": um infinitivo passivo depois de um substantivo expressa o que precisa ser feito com ele.",
+      "questions": [
+        "Why might singing in Occitan or Breton count as a political choice, and not only an aesthetic one?",
+        "Does the shift from a court patron to streaming platforms free musicians, or simply change who they depend on?",
+        "How can a revival of medieval forms avoid feeding fantasies of purity and hierarchy?"
+      ],
+      "sources": [
+        {
+          "title": "Bandcamp Daily — Return of the Dark Ages: The Rise of the Medieval Underground (22 Oct 2026)",
+          "url": "https://daily.bandcamp.com/scene-report/contemporary-medieval-music-scene-report",
+          "license": "link only"
+        }
+      ]
     },
     {
-     "w": "to double as",
-     "en": "to serve a second purpose in addition to the main one",
-     "zh": "兼作，兼当",
-     "de": "zugleich dienen als",
-     "pt": "funcionar também como"
+      "lang": "de",
+      "level": "C1",
+      "kind": "picks",
+      "section": "Lesetipps",
+      "title": "Lesetipps für heute",
+      "dek": "Ein altes Ehepaar im Kino und ein Nachbar, der aus Gerümpel eine Alarmanlage baut.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "Tagesspiegel",
+          "genre": "Kritik · Film",
+          "title": "Andreas Dresens „Alte Liebe“ im Kino: „Seit du zu Hause bist, meckerst du nur noch“",
+          "author": "Gunda Bartels",
+          "url": "https://www.tagesspiegel.de/kultur/andreas-dresens-alte-liebe-seit-du-zu-hause-bist-meckerst-du-nur-noch-16129917.html",
+          "minutes": 4,
+          "en": "A review of Andreas Dresen's chamber drama about a long-married couple (Dagmar Manzel and Joachim Król), all small quarrels and quiet tenderness. A warm, precise piece of criticism that captures how a film with almost no plot can still be moving.",
+          "zh": "影评：德累森新片《老情人》，讲一对结婚多年的老夫妻，日常拌嘴里藏着温柔。",
+          "de": "Kritik zu Dresens Kammerspiel über ein altes Ehepaar – Gezänk, Zärtlichkeit und fast keine Handlung.",
+          "pt": "Crítica do novo filme de Andreas Dresen sobre um casal de longa data, entre implicâncias e ternura."
+        },
+        {
+          "outlet": "taz",
+          "genre": "Glosse · Alltag",
+          "title": "Ungewöhnlicher Schutz vor Einbrechern: Die Alarmanlage",
+          "author": "Olga Hohmann",
+          "url": "https://taz.de/Ungewoehnlicher-Schutz-vor-Einbrechern/!6224986/",
+          "minutes": 2,
+          "en": "A short, wry Berlin column: a new neighbour turns the narrator's junk on the landing into a towering burglar 'alarm' instead of complaining. A small gem of everyday German humour, perfect for a coffee break.",
+          "zh": "柏林小专栏：新邻居没抱怨楼道里的杂物，反而把它堆成一座“防盗警报器”，幽默温暖。",
+          "de": "Kurze Berliner Kolumne: Ein Nachbar baut aus Treppenhaus-Gerümpel eine ziemlich eigenwillige Alarmanlage.",
+          "pt": "Crônica curta de Berlim: um vizinho transforma tralhas da escada num “alarme” contra ladrões."
+        }
+      ],
+      "glossary": [],
+      "questions": [],
+      "sources": []
     },
     {
-     "w": "polyphonic",
-     "en": "made of several independent melodic lines sung or played together",
-     "zh": "复调的，多声部的",
-     "de": "mehrstimmig, polyphon",
-     "pt": "polifônico"
-    },
-    {
-     "w": "charge",
-     "en": "(here) emotional or political force and intensity",
-     "zh": "（此处）感染力，力量",
-     "de": "Brisanz, Kraft",
-     "pt": "carga, força"
-    },
-    {
-     "w": "reservoir",
-     "en": "a large supply of something that can be drawn on when needed",
-     "zh": "储备，蓄水池（比喻）",
-     "de": "Reservoir, Fundus",
-     "pt": "reservatório, acervo"
-    },
-    {
-     "w": "patron",
-     "en": "a person or institution that financially supports an artist",
-     "zh": "赞助人，资助者",
-     "de": "Gönner, Mäzen",
-     "pt": "mecenas, patrono"
-    },
-    {
-     "w": "to cut both ways",
-     "en": "to have both advantages and disadvantages; to support opposite conclusions",
-     "zh": "有利有弊，是把双刃剑",
-     "de": "zwei Seiten haben, ein zweischneidiges Schwert sein",
-     "pt": "ter dois gumes, ser faca de dois gumes"
-    },
-    {
-     "w": "quaint",
-     "en": "charmingly old-fashioned, often in a slightly odd or unserious way",
-     "zh": "古雅而有趣的，古怪过时的",
-     "de": "altmodisch-verschroben, kurios",
-     "pt": "pitoresco, antiquado"
-    },
-    {
-     "w": "undercurrent",
-     "en": "an underlying feeling or theme that is present but not openly expressed",
-     "zh": "暗流，潜在的情绪或主题",
-     "de": "Unterströmung, unterschwelliger Ton",
-     "pt": "corrente subterrânea, tom subjacente"
-    },
-    {
-     "w": "to sit easily with",
-     "en": "to be acceptable or comfortable for someone (often negative: not sit easily with)",
-     "zh": "让……感到自在（常用否定）",
-     "de": "jemandem behagen, zu jemandem passen",
-     "pt": "agradar a, cair bem para"
-    },
-    {
-     "w": "stage set",
-     "en": "the scenery built for a play; figuratively, a backdrop used for display",
-     "zh": "舞台布景（比喻：陪衬的背景）",
-     "de": "Kulisse, Bühnenbild",
-     "pt": "cenário"
-    },
-    {
-     "w": "to police",
-     "en": "(figurative) to control and enforce strict limits on something",
-     "zh": "（比喻）监管，严格限制",
-     "de": "überwachen, reglementieren",
-     "pt": "policiar, vigiar"
+      "lang": "en",
+      "level": "C2",
+      "kind": "picks",
+      "section": "Reading list",
+      "title": "Today's reading list",
+      "dek": "How mining shaped American photography, and a prison basketball team that plays for second chances.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "Aperture",
+          "genre": "Essay · Photography",
+          "title": "How American Photography Was Forged in the Mines",
+          "author": "Ian Bourland",
+          "url": "https://aperture.org/editorial/how-american-photography-was-forged-in-the-mines/",
+          "minutes": 7,
+          "en": "An essay tracing American photography's long entanglement with mining, from 19th-century survey images of the West to contemporary work by Will Wilson, David Maisel and LaToya Ruby Frazier on extraction's toxic and human costs. A sharp lens on landscape, labour and environmental damage.",
+          "zh": "随笔：从19世纪西部矿镇到当代摄影师，美国摄影如何与采矿及其环境、劳动代价纠缠在一起。",
+          "de": "Essay darüber, wie eng die US-Fotografie mit dem Bergbau verbunden ist – von alten Westernbildern bis zu heutigen Bildern von Ausbeutung und Gift.",
+          "pt": "Ensaio sobre como a fotografia americana nasceu ligada à mineração e hoje expõe seus custos humanos e ambientais."
+        },
+        {
+          "outlet": "The Marshall Project",
+          "genre": "Photo story · Society",
+          "title": "In Prison, Wheelchair Basketball Offers a Chance at Reinvention",
+          "author": "Aala Abdullahi, Brian L. Frank",
+          "url": "https://www.themarshallproject.org/2026/10/26/health-sports-prison-wheelchair-california",
+          "minutes": 11,
+          "en": "A reported photo feature on a wheelchair basketball team at a California prison medical facility, where disabled and able-bodied incarcerated men train together and build trust. A humane look at disability, rehabilitation and community behind bars, with striking photographs.",
+          "zh": "图文报道：加州一所监狱医疗机构里的轮椅篮球队，残障与健全的囚犯一起打球、重建自我。",
+          "de": "Fotoreportage über ein Rollstuhl-Basketballteam in einem kalifornischen Gefängnis, in dem Häftlinge Vertrauen und neue Perspektiven finden.",
+          "pt": "Reportagem fotográfica sobre um time de basquete em cadeira de rodas numa prisão da Califórnia e as segundas chances que ele traz."
+        }
+      ],
+      "glossary": [],
+      "questions": [],
+      "sources": []
     }
-   ],
-   "grammar": "Look at \"Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.\" Here \"where\" does not refer to a place: it works like \"whereas\", introducing a clause that is set against the main clause to sharpen a contrast. The structure is typical of analytical prose, and the \"where\" clause usually comes first. Note also \"a world to be rebuilt\": a passive infinitive after a noun expresses what needs to be done to it.",
-   "grammar_zh": "看这句：“Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.” 这里的 where 并不指地点，而是相当于 whereas（而，然而），引出一个与主句形成对照的从句，用来突出对比。这种结构在分析性文章中很常见，where 从句通常放在句首。另外注意 “a world to be rebuilt”：名词后接被动不定式，表示“需要被……的”。",
-   "grammar_de": "Betrachten Sie: „Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.“ Hier bezeichnet „where“ keinen Ort, sondern funktioniert wie „whereas“ (während, wohingegen): Es leitet einen Nebensatz ein, der dem Hauptsatz gegenübergestellt wird, um einen Kontrast zu schärfen. Die Struktur ist typisch für analytische Prosa, und der „where“-Satz steht meist am Anfang. Beachten Sie auch „a world to be rebuilt“: Ein Passiv-Infinitiv nach einem Nomen drückt aus, was mit ihm geschehen muss.",
-   "grammar_pt": "Veja: \"Where earlier generations wore the medieval as a costume, … these artists treat it as a world to be rebuilt.\" Aqui \"where\" não indica lugar: funciona como \"whereas\" (enquanto, ao passo que), introduzindo uma oração que se opõe à principal para reforçar um contraste. A estrutura é típica da prosa analítica, e a oração com \"where\" costuma vir primeiro. Note também \"a world to be rebuilt\": um infinitivo passivo depois de um substantivo expressa o que precisa ser feito com ele.",
-   "questions": [
-    "Why might singing in Occitan or Breton count as a political choice, and not only an aesthetic one?",
-    "Does the shift from a court patron to streaming platforms free musicians, or simply change who they depend on?",
-    "How can a revival of medieval forms avoid feeding fantasies of purity and hierarchy?"
-   ],
-   "sources": [
-    {
-     "title": "Bandcamp Daily — Return of the Dark Ages: The Rise of the Medieval Underground (22 Oct 2026)",
-     "url": "https://daily.bandcamp.com/scene-report/contemporary-medieval-music-scene-report",
-     "license": "link only"
-    }
-   ]
-  }
- ]
+  ]
 }
