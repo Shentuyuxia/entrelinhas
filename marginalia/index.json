@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:58:05+00:00",
+ "updated": "2026-10-27T18:56:10+00:00",
  "days": [
   {
    "date": "2026-10-27",
@@ -58,6 +58,22 @@
      "title": "Sulaf, ou comment faire chanter les absents",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "pt",
+     "title": "Dois gatos novos na rua",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "pt",
+     "title": "Na feira",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]

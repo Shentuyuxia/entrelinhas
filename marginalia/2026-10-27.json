@@ -777,6 +777,287 @@
           "license": "link only"
         }
       ]
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "story",
+      "section": "Diário",
+      "series": {
+        "name": "O diário da Ana",
+        "episode": 2
+      },
+      "title": "Dois gatos novos na rua",
+      "dek": "Três bolos, muitas caixas, balões para o Lucas — e uma vizinha nova com dois gatos pretos. O Tito não está feliz.",
+      "paragraphs": [
+        "Terça-feira, 27 de outubro de 2026. Querido diário, hoje eu acordo às sete horas. O Tito não está na cama. Ele está na janela e olha dois passarinhos. Um passarinho, dois passarinhos... O Tito quer os dois!",
+        "Às sete e meia, eu vou à padaria do Seu João. Eu compro dois pães e três bolos pequenos. — Três bolos, Ana? — pergunta o Seu João. — Sim! Um para mim, um para a Dona Rosa e um para os meus colegas.",
+        "No ônibus, eu escuto \"As Rosas Não Falam\", do Cartola. É uma música antiga e muito bonita. Às oito e meia, eu chego na livraria. O Lucas já está lá, com dois cafés: um para ele e um para mim.",
+        "A livraria abre às nove. Às nove e dez, chegam três caixas grandes. Dentro tem livros novos, revistas, jornais e lápis coloridos. Os livros vão para as estantes, as revistas vão para a mesa e os jornais vão para a porta. Os lápis azuis são os meus favoritos!",
+        "Ao meio-dia, o Lucas vai almoçar. Então eu e a Marta, a nossa gerente, fazemos um plano secreto. O aniversário do Lucas é no dia 3 de novembro, terça-feira que vem. A festa é na livraria, às cinco da tarde. Eu compro os balões e os cartões. A Marta compra os docinhos.",
+        "Às seis da tarde, eu volto para casa. Na nossa rua tem um caminhão de mudança. Um vizinho novo? Não, uma vizinha nova! Ela se chama Júlia. Ela é professora, como a minha mãe, e é muito simpática.",
+        "A Júlia tem dois gatos pretos: um gato e uma gata. O gato é o Pipoca e a gata é a Paçoca. Agora a rua tem três gatos: um gato laranja, um gato preto e uma gata preta. O Tito olha os gatos novos pela janela. Ele não está feliz.",
+        "A Dona Rosa chega com o Bolinha. Eu dou um bolo para ela. — Obrigada, Ana! E a vizinha nova? — Ela é muito legal, Dona Rosa. O Bolinha late para os gatos novos: au, au! Ele também não está feliz.",
+        "E o meu bolo? Eu dou o meu bolo para a Júlia. Bem-vinda à rua! Então hoje eu janto só pão. Dois pães, na verdade.",
+        "São dez e meia da noite. Amanhã é quarta-feira, dia 28. Faltam sete dias para a festa do Lucas. Boa noite, diário. Boa noite, Tito — você ainda é o meu gato favorito."
+      ],
+      "paragraphs_en": [
+        "Tuesday, 27 October 2026. Dear diary, today I wake up at seven o'clock. Tito isn't on the bed. He's at the window, looking at two little birds. One little bird, two little birds... Tito wants both of them!",
+        "At half past seven I go to Seu João's bakery. I buy two bread rolls and three small cakes. \"Three cakes, Ana?\" asks Seu João. \"Yes! One for me, one for Dona Rosa and one for my colleagues.\"",
+        "On the bus I listen to \"As Rosas Não Falam\" by Cartola. It's an old and very beautiful song. At half past eight I get to the bookshop. Lucas is already there, with two coffees: one for him and one for me.",
+        "The bookshop opens at nine. At ten past nine, three big boxes arrive. Inside there are new books, magazines, newspapers and coloured pencils. The books go on the shelves, the magazines go on the table and the newspapers go by the door. The blue pencils are my favourites!",
+        "At noon Lucas goes to lunch. So Marta, our manager, and I make a secret plan. Lucas's birthday is on 3 November, next Tuesday. The party is at the bookshop, at five in the afternoon. I'm buying the balloons and the cards. Marta is buying the little sweets.",
+        "At six in the evening I go back home. On our street there's a removal van. A new neighbour (man)? No, a new neighbour (woman)! Her name is Júlia. She's a teacher, like my mother, and she's very nice.",
+        "Júlia has two black cats: a tomcat and a female cat. The tomcat is Pipoca and the female is Paçoca. Now the street has three cats: an orange cat, a black tomcat and a black female cat. Tito looks at the new cats through the window. He isn't happy.",
+        "Dona Rosa arrives with Bolinha. I give her a cake. \"Thank you, Ana! And the new neighbour?\" \"She's really nice, Dona Rosa.\" Bolinha barks at the new cats: woof, woof! He isn't happy either.",
+        "And my cake? I give my cake to Júlia. Welcome to the street! So tonight I have only bread for dinner. Two bread rolls, actually.",
+        "It's half past ten at night. Tomorrow is Wednesday, the 28th. Seven days until Lucas's party. Good night, diary. Good night, Tito — you're still my favourite cat."
+      ],
+      "paragraphs_zh": [
+        "2026年10月27日，星期二。亲爱的日记，今天我七点起床。蒂托不在床上。他在窗边，看着两只小鸟。一只小鸟，两只小鸟……蒂托两只都想要！",
+        "七点半，我去若昂先生的面包店。我买了两个面包和三个小蛋糕。“三个蛋糕，安娜？”若昂先生问。“对！一个给我，一个给罗莎太太，一个给我的同事们。”",
+        "在公交车上，我听卡托拉的《As Rosas Não Falam》。这是一首老歌，非常好听。八点半，我到了书店。卢卡斯已经在那儿了，带着两杯咖啡：一杯给他，一杯给我。",
+        "书店九点开门。九点十分，来了三个大箱子。里面有新书、杂志、报纸和彩色铅笔。书放到书架上，杂志放到桌子上，报纸放到门口。蓝色的铅笔是我最喜欢的！",
+        "中午，卢卡斯去吃午饭。于是我和我们的经理玛尔塔定了一个秘密计划。卢卡斯的生日是11月3日，下周二。派对在书店，下午五点。我买气球和贺卡。玛尔塔买小甜点。",
+        "傍晚六点，我回家。我们街上有一辆搬家车。新来了一位男邻居？不，是一位女邻居！她叫茹莉娅。她是老师，跟我妈妈一样，人非常好。",
+        "茹莉娅有两只黑猫：一只公猫和一只母猫。公猫叫皮波卡，母猫叫帕索卡。现在这条街上有三只猫：一只橘猫、一只黑公猫和一只黑母猫。蒂托隔着窗户看那两只新猫。他不高兴。",
+        "罗莎太太带着波利尼亚来了。我给她一个蛋糕。“谢谢你，安娜！那新邻居怎么样？”“她人很好，罗莎太太。”波利尼亚冲着新猫叫：汪，汪！他也不高兴。",
+        "那我的蛋糕呢？我把我的蛋糕给了茹莉娅。欢迎来到这条街！所以今天晚饭我只吃面包。其实是两个面包。",
+        "现在是晚上十点半。明天是星期三，28号。离卢卡斯的派对还有七天。晚安，日记。晚安，蒂托——你还是我最喜欢的猫。"
+      ],
+      "paragraphs_de": [
+        "Dienstag, 27. Oktober 2026. Liebes Tagebuch, heute wache ich um sieben Uhr auf. Tito ist nicht im Bett. Er sitzt am Fenster und schaut zwei Vögelchen an. Ein Vögelchen, zwei Vögelchen … Tito will beide!",
+        "Um halb acht gehe ich zur Bäckerei von Seu João. Ich kaufe zwei Brötchen und drei kleine Kuchen. „Drei Kuchen, Ana?“, fragt Seu João. „Ja! Einen für mich, einen für Dona Rosa und einen für meine Kollegen.“",
+        "Im Bus höre ich „As Rosas Não Falam“ von Cartola. Es ist ein altes und sehr schönes Lied. Um halb neun komme ich in der Buchhandlung an. Lucas ist schon da, mit zwei Kaffees: einen für sich und einen für mich.",
+        "Die Buchhandlung macht um neun auf. Um zehn nach neun kommen drei große Kisten. Darin sind neue Bücher, Zeitschriften, Zeitungen und Buntstifte. Die Bücher kommen in die Regale, die Zeitschriften auf den Tisch und die Zeitungen an die Tür. Die blauen Stifte sind meine Lieblinge!",
+        "Mittags geht Lucas essen. Also machen Marta, unsere Chefin, und ich einen geheimen Plan. Lucas hat am 3. November Geburtstag, nächsten Dienstag. Die Party ist in der Buchhandlung, um fünf Uhr nachmittags. Ich kaufe die Luftballons und die Karten. Marta kauft die Süßigkeiten.",
+        "Um sechs Uhr abends gehe ich nach Hause. In unserer Straße steht ein Umzugswagen. Ein neuer Nachbar? Nein, eine neue Nachbarin! Sie heißt Júlia. Sie ist Lehrerin, wie meine Mutter, und sehr nett.",
+        "Júlia hat zwei schwarze Katzen: einen Kater und eine Katze. Der Kater heißt Pipoca und die Katze Paçoca. Jetzt hat die Straße drei Katzen: einen orangefarbenen Kater, einen schwarzen Kater und eine schwarze Katze. Tito schaut die neuen Katzen durchs Fenster an. Er ist nicht glücklich.",
+        "Dona Rosa kommt mit Bolinha. Ich gebe ihr einen Kuchen. „Danke, Ana! Und die neue Nachbarin?“ „Sie ist sehr nett, Dona Rosa.“ Bolinha bellt die neuen Katzen an: wau, wau! Er ist auch nicht glücklich.",
+        "Und mein Kuchen? Meinen Kuchen gebe ich Júlia. Willkommen in der Straße! Also esse ich heute Abend nur Brot. Zwei Brötchen, um genau zu sein.",
+        "Es ist halb elf abends. Morgen ist Mittwoch, der 28. Noch sieben Tage bis zu Lucas' Party. Gute Nacht, Tagebuch. Gute Nacht, Tito – du bist immer noch mein Lieblingskater."
+      ],
+      "glossary": [
+        {
+          "w": "o pão → os pães",
+          "en": "bread roll → bread rolls (-ão → -ães)",
+          "zh": "面包（复数 pães）",
+          "de": "das Brötchen, das Brot → Brötchen",
+          "pt": "comida da padaria, feita com farinha; plural: pães"
+        },
+        {
+          "w": "o balão → os balões",
+          "en": "balloon → balloons (-ão → -ões; cf. 'balloon')",
+          "zh": "气球（复数 balões）",
+          "de": "der Luftballon → Luftballons",
+          "pt": "uma bola de ar, colorida, para festas; plural: balões"
+        },
+        {
+          "w": "o cartão → os cartões",
+          "en": "card → cards (-ão → -ões; cf. 'carton')",
+          "zh": "卡片、贺卡（复数 cartões）",
+          "de": "die Karte → Karten",
+          "pt": "um papel pequeno com uma mensagem; plural: cartões"
+        },
+        {
+          "w": "o jornal → os jornais",
+          "en": "newspaper → newspapers (-al → -ais; cf. 'journal')",
+          "zh": "报纸（复数 jornais）",
+          "de": "die Zeitung → Zeitungen",
+          "pt": "papel com as notícias do dia; plural: jornais"
+        },
+        {
+          "w": "a revista",
+          "en": "magazine (cf. 'review')",
+          "zh": "杂志",
+          "de": "die Zeitschrift",
+          "pt": "um tipo de livro fino, com fotos e notícias"
+        },
+        {
+          "w": "o vizinho / a vizinha",
+          "en": "neighbour (m / f)",
+          "zh": "邻居（男／女）",
+          "de": "der Nachbar / die Nachbarin",
+          "pt": "a pessoa que mora perto da sua casa"
+        },
+        {
+          "w": "o gerente / a gerente",
+          "en": "manager (same word for m and f; only o/a changes)",
+          "zh": "经理",
+          "de": "der Chef / die Chefin, Filialleiter(in)",
+          "pt": "a pessoa que comanda uma loja ou um escritório"
+        },
+        {
+          "w": "o caminhão de mudança",
+          "en": "removal van, moving truck",
+          "zh": "搬家车",
+          "de": "der Umzugswagen",
+          "pt": "um carro grande que leva as coisas para a casa nova"
+        },
+        {
+          "w": "os docinhos",
+          "en": "little sweets (Brazilian party sweets like brigadeiros)",
+          "zh": "小甜点（巴西派对甜食）",
+          "de": "die Süßigkeiten (kleine Partysüßigkeiten)",
+          "pt": "doces pequenos para festas, como o brigadeiro"
+        },
+        {
+          "w": "o gato / a gata",
+          "en": "tomcat / female cat; preto / preta = black",
+          "zh": "公猫／母猫；preto/preta 黑色的",
+          "de": "der Kater / die Katze; schwarz",
+          "pt": "o animal da casa que faz miau; macho: gato, fêmea: gata"
+        }
+      ],
+      "grammar": "Plural: most words just add -s: o livro → os livros; a rosa → as rosas. Words in -ão usually become -ões (o balão → os balões; o cartão → os cartões), but some take -ães (o pão → os pães). Words in -al/-ul change -l to -is: o jornal → os jornais; azul → azuis. Adjectives agree with the noun in gender and number: um gato preto, uma gata preta, dois gatos pretos.",
+      "grammar_zh": "复数：大多数词直接加 -s：o livro → os livros；a rosa → as rosas。以 -ão 结尾的词通常变成 -ões（o balão → os balões；o cartão → os cartões），也有一些变成 -ães（o pão → os pães）。以 -al/-ul 结尾的词把 -l 变成 -is：o jornal → os jornais；azul → azuis。形容词的阴阳性和单复数要跟名词一致：um gato preto，uma gata preta，dois gatos pretos。",
+      "grammar_de": "Plural: Die meisten Wörter bekommen einfach -s: o livro → os livros; a rosa → as rosas. Wörter auf -ão werden meist zu -ões (o balão → os balões; o cartão → os cartões), manche zu -ães (o pão → os pães). Bei -al/-ul wird -l zu -is: o jornal → os jornais; azul → azuis. Adjektive passen sich in Geschlecht und Zahl an: um gato preto, uma gata preta, dois gatos pretos.",
+      "grammar_pt": "Plural: a maioria das palavras só ganha -s: o livro → os livros; a rosa → as rosas. Palavras em -ão geralmente ficam -ões (o balão → os balões; o cartão → os cartões), mas algumas ficam -ães (o pão → os pães). Palavras em -al/-ul trocam o -l por -is: o jornal → os jornais; azul → azuis. O adjetivo muda com o nome: um gato preto, uma gata preta, dois gatos pretos.",
+      "questions": [
+        "Que dia é hoje no diário da Ana, e a que horas ela acorda?",
+        "Quando é a festa do Lucas, e o que a Ana compra para a festa? (Use o plural!)",
+        "Como se chamam os gatos da Júlia? Qual é o gato e qual é a gata?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "dialogue",
+      "section": "Diálogo",
+      "title": "Na feira",
+      "dek": "A Mariana faz compras na feira de rua. Limões, laranjas, melões — e muitos plurais.",
+      "paragraphs": [
+        "Seu Zé: Bom dia, freguesa! Olha os limões fresquinhos!",
+        "Mariana: Bom dia, Seu Zé! Quanto custam os limões?",
+        "Seu Zé: Seis limões por cinco reais.",
+        "Mariana: Ótimo. Quero doze limões, por favor. E as laranjas? Estão doces?",
+        "Seu Zé: Muito doces! As laranjas são de Minas. Uma dúzia por oito reais.",
+        "Mariana: Então uma dúzia de laranjas. E aqueles melões amarelos?",
+        "Seu Zé: Os melões são de hoje! Um melão é dez reais.",
+        "Mariana: Só um melão. Ah, e dois pimentões vermelhos, por favor.",
+        "Seu Zé: Pronto: limões, laranjas, um melão e dois pimentões. São trinta e um reais.",
+        "Mariana: Aqui está. A feira volta na terça que vem?",
+        "Seu Zé: Volta, sim! Toda terça e todo sábado, das seis da manhã à uma da tarde. Sábado, dia 31, tem morangos!",
+        "Mariana: Morangos? Então até sábado, Seu Zé!"
+      ],
+      "paragraphs_en": [
+        "Seu Zé: Good morning, madam! Look at these lovely fresh limes!",
+        "Mariana: Good morning, Seu Zé! How much are the limes?",
+        "Seu Zé: Six limes for five reais.",
+        "Mariana: Great. I'd like twelve limes, please. And the oranges? Are they sweet?",
+        "Seu Zé: Very sweet! The oranges are from Minas. A dozen for eight reais.",
+        "Mariana: Then a dozen oranges. And those yellow melons?",
+        "Seu Zé: The melons are from today! One melon is ten reais.",
+        "Mariana: Just one melon. Oh, and two red peppers, please.",
+        "Seu Zé: There you go: limes, oranges, one melon and two peppers. That's thirty-one reais.",
+        "Mariana: Here you are. Is the market back next Tuesday?",
+        "Seu Zé: Yes, it is! Every Tuesday and every Saturday, from six in the morning to one in the afternoon. On Saturday the 31st there are strawberries!",
+        "Mariana: Strawberries? See you on Saturday then, Seu Zé!"
+      ],
+      "paragraphs_zh": [
+        "泽大叔：早上好，女士！看看这些新鲜的青柠！",
+        "马里亚娜：早上好，泽大叔！青柠多少钱？",
+        "泽大叔：五雷亚尔六个。",
+        "马里亚娜：很好。请给我十二个青柠。橙子呢？甜吗？",
+        "泽大叔：非常甜！橙子是米纳斯州的。一打八雷亚尔。",
+        "马里亚娜：那来一打橙子。那些黄色的甜瓜呢？",
+        "泽大叔：甜瓜是今天的！一个甜瓜十雷亚尔。",
+        "马里亚娜：就一个甜瓜。啊，再要两个红甜椒。",
+        "泽大叔：好了：青柠、橙子、一个甜瓜和两个甜椒。一共三十一雷亚尔。",
+        "马里亚娜：给您。集市下周二还来吗？",
+        "泽大叔：来！每周二和每周六，早上六点到下午一点。31号星期六有草莓！",
+        "马里亚娜：草莓？那星期六见，泽大叔！"
+      ],
+      "paragraphs_de": [
+        "Seu Zé: Guten Morgen, die Dame! Schauen Sie, die frischen Limetten!",
+        "Mariana: Guten Morgen, Seu Zé! Was kosten die Limetten?",
+        "Seu Zé: Sechs Limetten für fünf Reais.",
+        "Mariana: Prima. Ich hätte gern zwölf Limetten, bitte. Und die Orangen? Sind sie süß?",
+        "Seu Zé: Sehr süß! Die Orangen kommen aus Minas. Ein Dutzend für acht Reais.",
+        "Mariana: Dann ein Dutzend Orangen. Und die gelben Melonen dort?",
+        "Seu Zé: Die Melonen sind von heute! Eine Melone kostet zehn Reais.",
+        "Mariana: Nur eine Melone. Ach, und zwei rote Paprika, bitte.",
+        "Seu Zé: Bitte schön: Limetten, Orangen, eine Melone und zwei Paprika. Das macht einunddreißig Reais.",
+        "Mariana: Hier, bitte. Ist der Markt nächsten Dienstag wieder da?",
+        "Seu Zé: Ja, klar! Jeden Dienstag und jeden Samstag, von sechs Uhr morgens bis ein Uhr mittags. Am Samstag, dem 31., gibt es Erdbeeren!",
+        "Mariana: Erdbeeren? Dann bis Samstag, Seu Zé!"
+      ],
+      "glossary": [
+        {
+          "w": "a feira",
+          "en": "street market (cf. 'fair')",
+          "zh": "露天集市",
+          "de": "der Wochenmarkt",
+          "pt": "um mercado na rua, com frutas e verduras"
+        },
+        {
+          "w": "o freguês / a freguesa",
+          "en": "customer (m / f)",
+          "zh": "顾客（男／女）",
+          "de": "der Kunde / die Kundin",
+          "pt": "a pessoa que compra numa loja ou na feira"
+        },
+        {
+          "w": "o limão → os limões",
+          "en": "lime (lemon) → limes (-ão → -ões)",
+          "zh": "青柠、柠檬（复数 limões）",
+          "de": "die Limette → Limetten",
+          "pt": "uma fruta verde e azeda; plural: limões"
+        },
+        {
+          "w": "o melão → os melões",
+          "en": "melon → melons (-ão → -ões)",
+          "zh": "甜瓜（复数 melões）",
+          "de": "die Melone → Melonen",
+          "pt": "uma fruta grande, amarela e doce; plural: melões"
+        },
+        {
+          "w": "o pimentão → os pimentões",
+          "en": "bell pepper → bell peppers (-ão → -ões)",
+          "zh": "甜椒（复数 pimentões）",
+          "de": "die Paprika (Schote) → Paprikas",
+          "pt": "um legume vermelho, verde ou amarelo; plural: pimentões"
+        },
+        {
+          "w": "a dúzia",
+          "en": "dozen (12)",
+          "zh": "一打（12个）",
+          "de": "das Dutzend",
+          "pt": "doze coisas"
+        },
+        {
+          "w": "doce / doces",
+          "en": "sweet (same form for m and f; plural +s)",
+          "zh": "甜的",
+          "de": "süß",
+          "pt": "com gosto de açúcar"
+        },
+        {
+          "w": "vermelho / vermelha",
+          "en": "red (m / f); pimentões vermelhos",
+          "zh": "红色的（阳性／阴性）",
+          "de": "rot",
+          "pt": "a cor do tomate"
+        },
+        {
+          "w": "o morango",
+          "en": "strawberry",
+          "zh": "草莓",
+          "de": "die Erdbeere",
+          "pt": "uma fruta pequena, vermelha e doce"
+        }
+      ],
+      "grammar": "At the market almost everything is plural. Words in -ão usually become -ões: o limão → os limões; o melão → os melões; o pimentão → os pimentões. Adjectives follow the noun in gender and number: o melão amarelo → os melões amarelos; a laranja doce → as laranjas doces. Some nouns have a feminine form: o freguês → a freguesa.",
+      "grammar_zh": "在集市上几乎什么都用复数。以 -ão 结尾的词通常变成 -ões：o limão → os limões；o melão → os melões；o pimentão → os pimentões。形容词的阴阳性和单复数跟着名词变：o melão amarelo → os melões amarelos；a laranja doce → as laranjas doces。有些名词有阴性形式：o freguês → a freguesa。",
+      "grammar_de": "Auf dem Markt ist fast alles Plural. Wörter auf -ão werden meist zu -ões: o limão → os limões; o melão → os melões; o pimentão → os pimentões. Adjektive richten sich in Geschlecht und Zahl nach dem Nomen: o melão amarelo → os melões amarelos; a laranja doce → as laranjas doces. Manche Nomen haben eine weibliche Form: o freguês → a freguesa.",
+      "grammar_pt": "Na feira, quase tudo está no plural. Palavras em -ão geralmente ficam -ões: o limão → os limões; o melão → os melões; o pimentão → os pimentões. O adjetivo acompanha o nome: o melão amarelo → os melões amarelos; a laranja doce → as laranjas doces. Alguns nomes têm feminino: o freguês → a freguesa.",
+      "questions": [
+        "Quanto custam seis limões? E uma dúzia de laranjas?",
+        "Qual é o plural de \"melão\" e de \"pimentão\"?",
+        "Quando a feira volta, e a que horas ela abre?"
+      ],
+      "sources": []
     }
   ]
 }
