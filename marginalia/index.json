@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:54:51+00:00",
+ "updated": "2026-10-28T19:27:22+00:00",
  "days": [
   {
    "date": "2026-10-28",
@@ -74,6 +74,14 @@
      "title": "Na academia",
      "kind": "dialogue",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 9,
+     "lang": "pt",
+     "title": "A receita do quase",
+     "kind": "essay",
+     "level": "B2",
      "hour": null
     }
    ]
