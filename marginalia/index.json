@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T15:56:49+00:00",
+ "updated": "2026-10-28T18:54:51+00:00",
  "days": [
   {
    "date": "2026-10-28",
@@ -58,6 +58,22 @@
      "title": "Gwangju, la biennale qui ne sait pas oublier",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "pt",
+     "title": "Um dia de números",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "pt",
+     "title": "Na academia",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]

@@ -870,6 +870,283 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 3
+   },
+   "title": "Um dia de números",
+   "dek": "Pães a um real e cinquenta, cem docinhos para seis pessoas e o telefone da vizinha nova — hoje a Ana conta tudo.",
+   "paragraphs": [
+    "Quarta-feira, 28 de outubro de 2026. Querido diário, hoje é um dia de números! Acordo às seis e quarenta. O Tito faz miau uma vez, duas vezes, três vezes… dez vezes! Dez miaus antes das sete horas. Ele quer comida, claro.",
+    "Às sete e quinze, eu vou à padaria do Seu João. Um pão custa um real e cinquenta. Eu compro quatro pães. — São seis reais, Ana — diz o Seu João. Ele pergunta: — Quantos anos o Lucas vai fazer? — Vinte e três! — eu respondo. — Então eu faço um bolo grande para ele. De graça!",
+    "No ônibus, eu escuto \"Trem das Onze\", dos Demônios da Garoa. É uma música de São Paulo, e tem um número no nome! O ônibus 702 está cheio. Eu conto as pessoas: trinta e uma. E um cachorro pequeno.",
+    "Às oito e meia, eu chego na livraria. Hoje chegam mais livros novos. O Lucas conta: — Um, dois, três… cento e vinte livros! Uma cliente compra doze livros para a escola dela. A conta é duzentos e quarenta reais. Ela paga com o cartão.",
+    "Ao meio-dia, eu e a Marta falamos da festa do Lucas. Trinta balões custam quinze reais. A Marta quer cem docinhos. — Cem docinhos, Marta? A gente é só seis pessoas! — Seis pessoas e um aniversário, Ana. Cem é pouco!",
+    "Às seis da tarde, eu volto para casa. A Júlia, a vizinha nova, está no portão. A casa dela é a número 42. A minha casa amarela é a número 40. Ela me dá o telefone dela: nove, nove, meia, um, dois, oito, sete, três, zero. No Brasil, a gente fala \"meia\" para o número seis!",
+    "Depois chega a Dona Rosa, com o Bolinha. A Dona Rosa tem setenta e dois anos, e o Bolinha tem oito. — Oito anos de cachorro são muitos anos de gente! — diz a Dona Rosa. O Bolinha não entende. Ele só quer o meu pão.",
+    "À noite, o Pipoca e a Paçoca estão na minha janela. O Tito olha para eles. Três gatos na janela, um cachorro no portão: quatro animais e zero paz. Eu como dois pães com café.",
+    "São dez e quinze da noite. Amanhã é quinta-feira, dia 29. Faltam seis dias para a festa do Lucas. Boa noite, diário. Boa noite, Tito — você é o meu gato número um."
+   ],
+   "paragraphs_en": [
+    "Wednesday, 28 October 2026. Dear diary, today is a day of numbers! I wake up at twenty to seven. Tito meows once, twice, three times… ten times! Ten meows before seven o'clock. He wants food, of course.",
+    "At a quarter past seven I go to Seu João's bakery. A bread roll costs one real fifty. I buy four rolls. \"That's six reais, Ana,\" says Seu João. He asks: \"How old is Lucas going to be?\" \"Twenty-three!\" I answer. \"Then I'll make a big cake for him. For free!\"",
+    "On the bus I listen to \"Trem das Onze\" by Demônios da Garoa. It's a song from São Paulo, and it has a number in its name! Bus 702 is full. I count the people: thirty-one. And a small dog.",
+    "At half past eight I get to the bookshop. More new books arrive today. Lucas counts: \"One, two, three… a hundred and twenty books!\" A customer buys twelve books for her school. The bill is two hundred and forty reais. She pays by card.",
+    "At noon Marta and I talk about Lucas's party. Thirty balloons cost fifteen reais. Marta wants a hundred little sweets. \"A hundred sweets, Marta? We're only six people!\" \"Six people and a birthday, Ana. A hundred is not much!\"",
+    "At six in the evening I go back home. Júlia, the new neighbour, is at the gate. Her house is number 42. My yellow house is number 40. She gives me her phone number: nine, nine, six (\"meia\"), one, two, eight, seven, three, zero. In Brazil we say \"meia\" for the number six!",
+    "Then Dona Rosa arrives with Bolinha. Dona Rosa is seventy-two, and Bolinha is eight. \"Eight dog years are a lot of people years!\" says Dona Rosa. Bolinha doesn't understand. He just wants my bread.",
+    "In the evening Pipoca and Paçoca are at my window. Tito looks at them. Three cats at the window, one dog at the gate: four animals and zero peace. I eat two rolls with coffee.",
+    "It's a quarter past ten at night. Tomorrow is Thursday, the 29th. Six days until Lucas's party. Good night, diary. Good night, Tito — you're my number-one cat."
+   ],
+   "paragraphs_zh": [
+    "2026年10月28日，星期三。亲爱的日记，今天是数字的一天！我六点四十起床。蒂托喵了一声、两声、三声……十声！七点以前叫了十声。他当然是想要吃的。",
+    "七点一刻，我去若昂先生的面包店。一个面包一雷亚尔五十分。我买四个面包。“一共六雷亚尔，安娜。”若昂先生说。他问：“卢卡斯要满几岁了？”“二十三岁！”我回答。“那我给他做一个大蛋糕。免费！”",
+    "在公交车上，我听 Demônios da Garoa 的《Trem das Onze》。这是一首圣保罗的歌，歌名里还有一个数字！702路公交车很挤。我数了数人：三十一个。还有一只小狗。",
+    "八点半，我到了书店。今天又来了新书。卢卡斯数：“一、二、三……一百二十本书！”一位女顾客给她的学校买了十二本书。账单是二百四十雷亚尔。她用卡付钱。",
+    "中午，我和玛尔塔聊卢卡斯的派对。三十个气球十五雷亚尔。玛尔塔想要一百个小甜点。“一百个甜点，玛尔塔？我们才六个人！”“六个人加一个生日，安娜。一百个算少的！”",
+    "傍晚六点，我回家。新邻居茹莉娅在门口。她家是42号。我的黄房子是40号。她把电话号码给我：九、九、六（meia）、一、二、八、七、三、零。在巴西，大家说数字六的时候会说“meia”！",
+    "然后罗莎太太带着波利尼亚来了。罗莎太太七十二岁，波利尼亚八岁。“狗的八岁相当于人的好多岁！”罗莎太太说。波利尼亚听不懂。他只想要我的面包。",
+    "晚上，皮波卡和帕索卡在我的窗户上。蒂托盯着它们。窗户上三只猫，门口一只狗：四只动物，零安宁。我就着咖啡吃了两个面包。",
+    "现在是晚上十点一刻。明天是星期四，29号。离卢卡斯的派对还有六天。晚安，日记。晚安，蒂托——你是我的头号猫咪。"
+   ],
+   "paragraphs_de": [
+    "Mittwoch, 28. Oktober 2026. Liebes Tagebuch, heute ist ein Tag der Zahlen! Ich wache um zwanzig vor sieben auf. Tito miaut einmal, zweimal, dreimal … zehnmal! Zehn Miaus vor sieben Uhr. Er will natürlich Futter.",
+    "Um Viertel nach sieben gehe ich zur Bäckerei von Seu João. Ein Brötchen kostet einen Real fünfzig. Ich kaufe vier Brötchen. „Das macht sechs Reais, Ana“, sagt Seu João. Er fragt: „Wie alt wird Lucas?“ „Dreiundzwanzig!“, antworte ich. „Dann backe ich ihm einen großen Kuchen. Umsonst!“",
+    "Im Bus höre ich „Trem das Onze“ von Demônios da Garoa. Es ist ein Lied aus São Paulo, und im Titel steckt eine Zahl! Der Bus 702 ist voll. Ich zähle die Leute: einunddreißig. Und ein kleiner Hund.",
+    "Um halb neun komme ich in der Buchhandlung an. Heute kommen noch mehr neue Bücher. Lucas zählt: „Eins, zwei, drei … hundertzwanzig Bücher!“ Eine Kundin kauft zwölf Bücher für ihre Schule. Die Rechnung macht zweihundertvierzig Reais. Sie zahlt mit Karte.",
+    "Mittags sprechen Marta und ich über Lucas' Party. Dreißig Luftballons kosten fünfzehn Reais. Marta will hundert Süßigkeiten. „Hundert Süßigkeiten, Marta? Wir sind nur sechs Leute!“ „Sechs Leute und ein Geburtstag, Ana. Hundert sind wenig!“",
+    "Um sechs Uhr abends gehe ich nach Hause. Júlia, die neue Nachbarin, steht am Tor. Ihr Haus ist die Nummer 42. Mein gelbes Haus ist die Nummer 40. Sie gibt mir ihre Telefonnummer: neun, neun, sechs („meia“), eins, zwei, acht, sieben, drei, null. In Brasilien sagt man „meia“ für die Zahl Sechs!",
+    "Dann kommt Dona Rosa mit Bolinha. Dona Rosa ist zweiundsiebzig, und Bolinha ist acht. „Acht Hundejahre sind viele Menschenjahre!“, sagt Dona Rosa. Bolinha versteht das nicht. Er will nur mein Brot.",
+    "Am Abend sitzen Pipoca und Paçoca an meinem Fenster. Tito schaut sie an. Drei Katzen am Fenster, ein Hund am Tor: vier Tiere und null Ruhe. Ich esse zwei Brötchen mit Kaffee.",
+    "Es ist Viertel nach zehn abends. Morgen ist Donnerstag, der 29. Noch sechs Tage bis zu Lucas' Party. Gute Nacht, Tagebuch. Gute Nacht, Tito – du bist mein Kater Nummer eins."
+   ],
+   "glossary": [
+    {
+     "w": "custar / custa",
+     "en": "to cost / it costs (cf. 'cost')",
+     "zh": "花费、价钱是",
+     "de": "kosten / kostet",
+     "pt": "ter um preço: \"O pão custa um real.\""
+    },
+    {
+     "w": "o real → os reais",
+     "en": "real, the Brazilian money (R$); plural reais",
+     "zh": "雷亚尔（巴西货币），复数 reais",
+     "de": "der Real (brasilianische Währung), Plural reais",
+     "pt": "o dinheiro do Brasil: R$ 1,50 = um real e cinquenta"
+    },
+    {
+     "w": "quantos anos",
+     "en": "how old (lit. 'how many years')",
+     "zh": "几岁（字面：多少年）",
+     "de": "wie alt (wörtlich: wie viele Jahre)",
+     "pt": "pergunta para saber a idade: \"Quantos anos você tem?\""
+    },
+    {
+     "w": "cem / cento e vinte",
+     "en": "one hundred / a hundred and twenty (cem alone, cento + more)",
+     "zh": "一百／一百二十（单独用 cem，后面有数用 cento）",
+     "de": "hundert / hundertzwanzig",
+     "pt": "100 = cem; 120 = cento e vinte"
+    },
+    {
+     "w": "duzentos e quarenta",
+     "en": "two hundred and forty (240)",
+     "zh": "二百四十",
+     "de": "zweihundertvierzig",
+     "pt": "o número 240"
+    },
+    {
+     "w": "meia (= seis)",
+     "en": "\"half\" — Brazilians say it for 6 in phone numbers (meia dúzia = half a dozen)",
+     "zh": "“半”——巴西人报电话号码时用它代替 6",
+     "de": "„halb“ – sagt man in Brasilien für die 6 in Telefonnummern",
+     "pt": "outro jeito de falar \"seis\" (meia dúzia = seis)"
+    },
+    {
+     "w": "o número",
+     "en": "number (cf. 'number'); a casa número 42 = house number 42",
+     "zh": "号码、数字",
+     "de": "die Nummer, die Zahl",
+     "pt": "1, 2, 3… são números; também o número da casa"
+    },
+    {
+     "w": "contar / conto",
+     "en": "to count / I count (also 'to tell')",
+     "zh": "数（数）／我数",
+     "de": "zählen / ich zähle",
+     "pt": "falar os números em ordem: um, dois, três…"
+    },
+    {
+     "w": "a conta",
+     "en": "the bill (in a shop or restaurant; cf. 'account')",
+     "zh": "账单",
+     "de": "die Rechnung",
+     "pt": "o total que você paga na loja ou no restaurante"
+    },
+    {
+     "w": "de graça",
+     "en": "for free",
+     "zh": "免费",
+     "de": "umsonst, gratis",
+     "pt": "sem pagar nada"
+    }
+   ],
+   "grammar": "Numbers: 1 and 2 have a feminine form: um pão, uma pessoa; dois pães, duas pessoas. 100 alone is \"cem\", but with more after it becomes \"cento\": cem docinhos, cento e vinte livros. Join the parts with \"e\": trinta e um (31), duzentos e quarenta (240). Prices: R$ 1,50 = um real e cinquenta; R$ 6,00 = seis reais.",
+   "grammar_zh": "数字：1 和 2 有阴性形式：um pão, uma pessoa；dois pães, duas pessoas。单独的 100 是 \"cem\"，后面还有数字时变成 \"cento\"：cem docinhos，cento e vinte livros。各部分用 \"e\" 连接：trinta e um（31），duzentos e quarenta（240）。价格：R$ 1,50 = um real e cinquenta；R$ 6,00 = seis reais。",
+   "grammar_de": "Zahlen: 1 und 2 haben eine weibliche Form: um pão, uma pessoa; dois pães, duas pessoas. 100 allein heißt „cem“, mit weiteren Zahlen „cento“: cem docinhos, cento e vinte livros. Die Teile verbindet man mit „e“: trinta e um (31), duzentos e quarenta (240). Preise: R$ 1,50 = um real e cinquenta; R$ 6,00 = seis reais.",
+   "grammar_pt": "Números: 1 e 2 têm feminino: um pão, uma pessoa; dois pães, duas pessoas. O 100 sozinho é \"cem\", mas com mais números fica \"cento\": cem docinhos, cento e vinte livros. A gente junta as partes com \"e\": trinta e um (31), duzentos e quarenta (240). Preços: R$ 1,50 = um real e cinquenta; R$ 6,00 = seis reais.",
+   "questions": [
+    "Que dia é hoje no diário da Ana, e a que horas ela acorda?",
+    "Quanto custa um pão na padaria do Seu João? Quantos pães a Ana compra?",
+    "Qual é o número da casa da Júlia? E quantos anos você tem?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Na academia",
+   "dek": "O Bruno faz a matrícula numa academia: preço, idade, telefone, endereço — tudo em números.",
+   "paragraphs": [
+    "Recepcionista: Boa noite! Bem-vindo à academia Corpo Feliz. Posso ajudar?",
+    "Bruno: Boa noite! Quero fazer a matrícula. Quanto custa por mês?",
+    "Recepcionista: O plano mensal custa noventa e nove reais. O plano anual custa setenta e nove reais por mês.",
+    "Bruno: Então o plano mensal, por enquanto. Noventa e nove reais está bom.",
+    "Recepcionista: Ótimo. Quantos anos você tem, Bruno?",
+    "Bruno: Tenho vinte e oito anos. Faço vinte e nove no dia 12 de dezembro.",
+    "Recepcionista: E qual é o seu telefone?",
+    "Bruno: É nove, nove, meia, quatro, três, um, oito, cinco, sete.",
+    "Recepcionista: E o endereço?",
+    "Bruno: Rua das Flores, número trezentos e quinze, apartamento cento e dois.",
+    "Recepcionista: Perfeito. A academia abre às seis da manhã e fecha às onze da noite. A sua primeira aula é amanhã, quinta-feira, dia 29, às sete da noite.",
+    "Bruno: Às sete? Ótimo! Até amanhã!"
+   ],
+   "paragraphs_en": [
+    "Receptionist: Good evening! Welcome to the Corpo Feliz gym. Can I help you?",
+    "Bruno: Good evening! I'd like to sign up. How much is it per month?",
+    "Receptionist: The monthly plan costs ninety-nine reais. The annual plan costs seventy-nine reais a month.",
+    "Bruno: Then the monthly plan, for now. Ninety-nine reais is fine.",
+    "Receptionist: Great. How old are you, Bruno?",
+    "Bruno: I'm twenty-eight. I turn twenty-nine on 12 December.",
+    "Receptionist: And what's your phone number?",
+    "Bruno: It's nine, nine, six (\"meia\"), four, three, one, eight, five, seven.",
+    "Receptionist: And your address?",
+    "Bruno: Rua das Flores, number three hundred and fifteen, flat one hundred and two.",
+    "Receptionist: Perfect. The gym opens at six in the morning and closes at eleven at night. Your first class is tomorrow, Thursday the 29th, at seven in the evening.",
+    "Bruno: At seven? Great! See you tomorrow!"
+   ],
+   "paragraphs_zh": [
+    "前台：晚上好！欢迎来到“快乐身体”健身房。需要帮忙吗？",
+    "布鲁诺：晚上好！我想办会员。一个月多少钱？",
+    "前台：月卡是九十九雷亚尔。年卡是每月七十九雷亚尔。",
+    "布鲁诺：那先办月卡吧。九十九雷亚尔挺好。",
+    "前台：好的。布鲁诺，你多大了？",
+    "布鲁诺：我二十八岁。12月12日满二十九岁。",
+    "前台：你的电话号码是多少？",
+    "布鲁诺：是九、九、六（meia）、四、三、一、八、五、七。",
+    "前台：地址呢？",
+    "布鲁诺：花街，三百一十五号，一百零二室。",
+    "前台：好的。健身房早上六点开门，晚上十一点关门。你的第一节课是明天，星期四，29号，晚上七点。",
+    "布鲁诺：七点？太好了！明天见！"
+   ],
+   "paragraphs_de": [
+    "Rezeptionistin: Guten Abend! Willkommen im Fitnessstudio Corpo Feliz. Kann ich helfen?",
+    "Bruno: Guten Abend! Ich möchte mich anmelden. Was kostet es im Monat?",
+    "Rezeptionistin: Der Monatstarif kostet neunundneunzig Reais. Der Jahrestarif kostet neunundsiebzig Reais im Monat.",
+    "Bruno: Dann erst einmal den Monatstarif. Neunundneunzig Reais ist in Ordnung.",
+    "Rezeptionistin: Prima. Wie alt bist du, Bruno?",
+    "Bruno: Ich bin achtundzwanzig. Am 12. Dezember werde ich neunundzwanzig.",
+    "Rezeptionistin: Und wie ist deine Telefonnummer?",
+    "Bruno: Neun, neun, sechs („meia“), vier, drei, eins, acht, fünf, sieben.",
+    "Rezeptionistin: Und die Adresse?",
+    "Bruno: Rua das Flores, Nummer dreihundertfünfzehn, Wohnung hundertzwei.",
+    "Rezeptionistin: Perfekt. Das Studio öffnet um sechs Uhr morgens und schließt um elf Uhr abends. Deine erste Stunde ist morgen, Donnerstag, der 29., um sieben Uhr abends.",
+    "Bruno: Um sieben? Super! Bis morgen!"
+   ],
+   "glossary": [
+    {
+     "w": "a academia",
+     "en": "gym (not 'academy'!)",
+     "zh": "健身房",
+     "de": "das Fitnessstudio",
+     "pt": "lugar onde a gente faz exercício"
+    },
+    {
+     "w": "a matrícula",
+     "en": "registration, sign-up (cf. 'matriculate')",
+     "zh": "注册、报名",
+     "de": "die Anmeldung",
+     "pt": "quando você coloca o seu nome para começar um curso ou uma academia"
+    },
+    {
+     "w": "por mês",
+     "en": "per month",
+     "zh": "每月",
+     "de": "pro Monat",
+     "pt": "cada mês"
+    },
+    {
+     "w": "mensal / anual",
+     "en": "monthly / annual",
+     "zh": "每月的／每年的",
+     "de": "monatlich / jährlich",
+     "pt": "mensal = do mês; anual = do ano"
+    },
+    {
+     "w": "noventa e nove",
+     "en": "ninety-nine (99)",
+     "zh": "九十九",
+     "de": "neunundneunzig",
+     "pt": "o número 99"
+    },
+    {
+     "w": "trezentos e quinze",
+     "en": "three hundred and fifteen (315)",
+     "zh": "三百一十五",
+     "de": "dreihundertfünfzehn",
+     "pt": "o número 315"
+    },
+    {
+     "w": "cento e dois",
+     "en": "one hundred and two (102)",
+     "zh": "一百零二",
+     "de": "hundertzwei",
+     "pt": "o número 102"
+    },
+    {
+     "w": "o endereço",
+     "en": "address",
+     "zh": "地址",
+     "de": "die Adresse",
+     "pt": "o nome da rua e o número da sua casa"
+    },
+    {
+     "w": "por enquanto",
+     "en": "for now",
+     "zh": "暂时、目前",
+     "de": "vorerst, erst einmal",
+     "pt": "agora, mas talvez não depois"
+    }
+   ],
+   "grammar": "Numbers are joined with \"e\": noventa e nove (99), trezentos e quinze (315), cento e dois (102). Hundreds have feminine forms with feminine nouns: trezentos reais, but trezentas pessoas. For age, Portuguese uses \"ter\": Tenho vinte e oito anos (I am 28).",
+   "grammar_zh": "数字的各部分用 \"e\" 连接：noventa e nove（99），trezentos e quinze（315），cento e dois（102）。几百跟阴性名词用阴性形式：trezentos reais，但是 trezentas pessoas。说年龄用 \"ter\"（有）：Tenho vinte e oito anos（我二十八岁）。",
+   "grammar_de": "Zahlen werden mit „e“ verbunden: noventa e nove (99), trezentos e quinze (315), cento e dois (102). Hunderter haben bei weiblichen Nomen eine weibliche Form: trezentos reais, aber trezentas pessoas. Beim Alter sagt man „ter“ (haben): Tenho vinte e oito anos (Ich bin 28).",
+   "grammar_pt": "A gente junta os números com \"e\": noventa e nove (99), trezentos e quinze (315), cento e dois (102). As centenas têm feminino: trezentos reais, mas trezentas pessoas. Para a idade, a gente usa \"ter\": Tenho vinte e oito anos.",
+   "questions": [
+    "Quanto custa o plano mensal da academia?",
+    "Quantos anos o Bruno tem, e quando é o aniversário dele?",
+    "Qual é o seu telefone? Fale os números em português (lembre: seis = meia)."
+   ],
+   "sources": []
   }
  ]
 }
