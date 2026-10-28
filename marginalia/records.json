@@ -1,5 +1,5 @@
 {
- "note": "Record box (唱片盒) and curiosity cards (巴西小事 / Coisas do Brasil) shown beside the reading. records: kind song|podcast|film, en/zh/de/pt = record story or short review. curios: title, tag, emoji, pt (simple A1–A2 Portuguese text), en/zh/de translations.",
+ "note": "Record box (唱片盒) and curiosity cards (巴西小事 / Coisas do Brasil) shown beside the reading. records: kind song|podcast|film, en/zh/de/pt = record story or short review. curios: title, tag, emoji, pt (simple A1–A2 Portuguese text), en/zh/de translations. curios: each card has 'batch'; the app shows only the highest batch (a new batch replaces the shelf).",
  "pt": [
   {
    "kind": "song",
@@ -242,7 +242,8 @@
     "pt": "No Brasil, quando você visita alguém, a pessoa oferece um cafezinho. É um café pequeno, forte e, muitas vezes, bem doce. Dizer \"sim\" é educado. No trabalho, a pausa para o cafezinho é sagrada!",
     "en": "In Brazil, when you visit someone, they offer you a cafezinho — a small, strong and often very sweet coffee. Saying yes is polite. At work, the coffee break is sacred!",
     "zh": "在巴西，去别人家做客，主人会请你喝一杯 cafezinho——小杯、浓、常常很甜的咖啡。接受是礼貌。上班时的咖啡小憩更是「神圣不可侵犯」！",
-    "de": "Wer in Brasilien jemanden besucht, bekommt einen cafezinho angeboten – einen kleinen, starken, oft sehr süßen Kaffee. Annehmen ist höflich. Und die Kaffeepause im Büro ist heilig!"
+    "de": "Wer in Brasilien jemanden besucht, bekommt einen cafezinho angeboten – einen kleinen, starken, oft sehr süßen Kaffee. Annehmen ist höflich. Und die Kaffeepause im Büro ist heilig!",
+    "batch": 1
    },
    {
     "title": "Um beijo ou dois?",
@@ -251,7 +252,8 @@
     "pt": "Para dizer oi, muitos brasileiros dão beijinhos no rosto. Mas quantos? Em São Paulo, geralmente é um. No Rio de Janeiro, são dois. Em alguns lugares, três! Na dúvida, espere a outra pessoa.",
     "en": "To say hi, many Brazilians give little kisses on the cheek. But how many? In São Paulo usually one, in Rio de Janeiro two, in some places three! When in doubt, let the other person lead.",
     "zh": "打招呼时，很多巴西人会贴脸亲一下。但亲几下？圣保罗通常一下，里约两下，有些地方三下！拿不准就跟着对方来。",
-    "de": "Zur Begrüßung geben viele Brasilianer Küsschen auf die Wange. Aber wie viele? In São Paulo meist eins, in Rio zwei, mancherorts drei! Im Zweifel: dem anderen folgen."
+    "de": "Zur Begrüßung geben viele Brasilianer Küsschen auf die Wange. Aber wie viele? In São Paulo meist eins, in Rio zwei, mancherorts drei! Im Zweifel: dem anderen folgen.",
+    "batch": 1
    },
    {
     "title": "Festa Junina",
@@ -260,7 +262,8 @@
     "pt": "Em junho, o Brasil faz festas juninas, para São João e outros santos. Tem fogueira, bandeirinhas, dança de quadrilha e comidas de milho, como pamonha e canjica. No Nordeste, a festa é enorme — às vezes maior que o Carnaval!",
     "en": "In June Brazil celebrates the festas juninas for Saint John and other saints: bonfires, little paper flags, the quadrilha square dance and corn dishes like pamonha and canjica. In the Northeast the party is huge — sometimes bigger than Carnival!",
     "zh": "六月巴西过「六月节」，纪念圣约翰等圣人：篝火、彩色小旗、quadrilha 方阵舞，还有玉米做的 pamonha、canjica。在东北部，节日规模巨大——有时比狂欢节还热闹！",
-    "de": "Im Juni feiert Brasilien die festas juninas für den heiligen Johannes und andere Heilige: Lagerfeuer, Wimpelketten, Quadrilha-Tanz und Maisgerichte wie pamonha und canjica. Im Nordosten ist das Fest riesig – manchmal größer als Karneval!"
+    "de": "Im Juni feiert Brasilien die festas juninas für den heiligen Johannes und andere Heilige: Lagerfeuer, Wimpelketten, Quadrilha-Tanz und Maisgerichte wie pamonha und canjica. Im Nordosten ist das Fest riesig – manchmal größer als Karneval!",
+    "batch": 1
    },
    {
     "title": "Réveillon de branco",
@@ -269,7 +272,8 @@
     "pt": "No Ano-Novo, muitos brasileiros usam roupa branca, para ter paz. Na praia, algumas pessoas pulam sete ondas e fazem sete pedidos. Outras jogam flores no mar para Iemanjá, a rainha do mar.",
     "en": "On New Year's Eve many Brazilians wear white for peace. On the beach some jump over seven waves and make seven wishes; others throw flowers into the sea for Iemanjá, queen of the sea.",
     "zh": "跨年夜很多巴西人穿白衣服，祈求平安。海边有人跳过七道浪、许七个愿；也有人往海里抛花，献给海之女王 Iemanjá。",
-    "de": "An Silvester tragen viele Brasilianer Weiß, für den Frieden. Am Strand springen manche über sieben Wellen und wünschen sich sieben Dinge; andere werfen Blumen ins Meer für Iemanjá, die Königin des Meeres."
+    "de": "An Silvester tragen viele Brasilianer Weiß, für den Frieden. Am Strand springen manche über sieben Wellen und wünschen sich sieben Dinge; andere werfen Blumen ins Meer für Iemanjá, die Königin des Meeres.",
+    "batch": 1
    },
    {
     "title": "Feijoada no sábado",
@@ -278,7 +282,8 @@
     "pt": "A feijoada é feijão preto com carne de porco. No Rio, muitos restaurantes servem feijoada na quarta-feira e no sábado. Ela vem com arroz, couve, farofa e laranja. Depois, todo mundo quer dormir!",
     "en": "Feijoada is black beans cooked with pork. In Rio many restaurants serve it on Wednesdays and Saturdays, with rice, collard greens, farofa and orange slices. Afterwards, everyone wants a nap!",
     "zh": "Feijoada 是黑豆炖猪肉。在里约，很多餐馆周三和周六供应，配米饭、羽衣甘蓝、farofa（木薯粉）和橙子片。吃完大家都想睡一觉！",
-    "de": "Feijoada sind schwarze Bohnen mit Schweinefleisch. In Rio servieren viele Restaurants sie mittwochs und samstags, mit Reis, Grünkohl, Farofa und Orangenscheiben. Danach will jeder schlafen!"
+    "de": "Feijoada sind schwarze Bohnen mit Schweinefleisch. In Rio servieren viele Restaurants sie mittwochs und samstags, mit Reis, Grünkohl, Farofa und Orangenscheiben. Danach will jeder schlafen!",
+    "batch": 1
    },
    {
     "title": "Brigadeiro",
@@ -287,7 +292,8 @@
     "pt": "Em toda festa de aniversário tem brigadeiro: uma bolinha de chocolate com leite condensado e granulado. A história conta que o nome vem de um político dos anos 1940, o Brigadeiro Eduardo Gomes.",
     "en": "Every birthday party has brigadeiros: little balls of chocolate and condensed milk rolled in sprinkles. The story goes that they're named after a 1940s politician, Brigadeiro (Brigadier) Eduardo Gomes.",
     "zh": "每个生日派对都有 brigadeiro：用巧克力和炼乳做的小球，外面裹着巧克力碎。据说名字来自 1940 年代的政治人物 Eduardo Gomes 准将（Brigadeiro）。",
-    "de": "Auf jedem Geburtstag gibt es Brigadeiros: Kügelchen aus Schokolade und Kondensmilch mit Streuseln. Der Name soll von einem Politiker der 1940er stammen, Brigadeiro Eduardo Gomes."
+    "de": "Auf jedem Geburtstag gibt es Brigadeiros: Kügelchen aus Schokolade und Kondensmilch mit Streuseln. Der Name soll von einem Politiker der 1940er stammen, Brigadeiro Eduardo Gomes.",
+    "batch": 1
    },
    {
     "title": "Parabéns pra você… e o \"é pique\"",
@@ -296,7 +302,8 @@
     "pt": "No aniversário, os brasileiros cantam \"Parabéns pra você\". Mas a música não termina aí! Depois vem um grito animado: \"É pique, é pique… é hora, é hora… rá-tim-bum!\" E todo mundo bate palmas.",
     "en": "At birthdays Brazilians sing \"Parabéns pra você\" — but it doesn't end there! Then comes a cheerful chant: \"É pique, é pique… é hora, é hora… rá-tim-bum!\" and everybody claps.",
     "zh": "过生日时巴西人唱「Parabéns pra você」（生日快乐）——但还没完！接着是热闹的口号：「É pique, é pique… é hora, é hora… rá-tim-bum!」大家一起拍手。",
-    "de": "Zum Geburtstag singen Brasilianer „Parabéns pra você“ – aber das ist nicht das Ende! Dann kommt ein fröhlicher Ruf: „É pique, é pique… é hora, é hora… rá-tim-bum!“ und alle klatschen."
+    "de": "Zum Geburtstag singen Brasilianer „Parabéns pra você“ – aber das ist nicht das Ende! Dann kommt ein fröhlicher Ruf: „É pique, é pique… é hora, é hora… rá-tim-bum!“ und alle klatschen.",
+    "batch": 1
    },
    {
     "title": "Tudo no diminutivo",
@@ -305,7 +312,8 @@
     "pt": "Os brasileiros adoram o diminutivo: cafezinho, pertinho, rapidinho, obrigadinho. \"-inho\" e \"-inha\" não falam só de coisas pequenas. Eles mostram carinho. \"Espera um minutinho!\" pode ser… dez minutos.",
     "en": "Brazilians love diminutives: cafezinho, pertinho (very near), rapidinho (real quick), obrigadinho. -inho/-inha isn't only about small things — it shows affection. \"Espera um minutinho!\" might mean… ten minutes.",
     "zh": "巴西人特别爱用指小词：cafezinho、pertinho（很近）、rapidinho（一下下）、obrigadinho（谢啦）。-inho/-inha 不只表示小，更表示亲切。「Espera um minutinho!」（等一小会儿！）可能是……十分钟。",
-    "de": "Brasilianer lieben Verkleinerungsformen: cafezinho, pertinho (ganz nah), rapidinho (ganz schnell), obrigadinho. -inho/-inha heißt nicht nur klein, sondern zeigt Zuneigung. „Espera um minutinho!“ kann … zehn Minuten bedeuten."
+    "de": "Brasilianer lieben Verkleinerungsformen: cafezinho, pertinho (ganz nah), rapidinho (ganz schnell), obrigadinho. -inho/-inha heißt nicht nur klein, sondern zeigt Zuneigung. „Espera um minutinho!“ kann … zehn Minuten bedeuten.",
+    "batch": 1
    },
    {
     "title": "Pix",
@@ -314,7 +322,8 @@
     "pt": "No Brasil, quase todo mundo paga com Pix. É um pagamento pelo celular, grátis e muito rápido, criado pelo Banco Central em 2020. Você paga o pão, o táxi e até o vendedor de água na praia com Pix.",
     "en": "In Brazil almost everyone pays with Pix — a free, instant phone payment launched by the Central Bank in 2020. You pay for bread, a taxi, even the water seller on the beach with Pix.",
     "zh": "在巴西几乎人人用 Pix 付款——巴西央行 2020 年推出的手机即时支付，免费又快。买面包、打车，甚至海滩上卖水的小贩都收 Pix。",
-    "de": "In Brasilien zahlt fast jeder mit Pix – einer kostenlosen Sofortzahlung per Handy, 2020 von der Zentralbank eingeführt. Brot, Taxi, sogar der Wasserverkäufer am Strand: alles per Pix."
+    "de": "In Brasilien zahlt fast jeder mit Pix – einer kostenlosen Sofortzahlung per Handy, 2020 von der Zentralbank eingeführt. Brot, Taxi, sogar der Wasserverkäufer am Strand: alles per Pix.",
+    "batch": 1
    },
    {
     "title": "Dia da Saudade",
@@ -323,7 +332,8 @@
     "pt": "\"Saudade\" é sentir falta de alguém, de um lugar ou de um tempo. Muitas pessoas dizem que é difícil traduzir essa palavra. No Brasil, 30 de janeiro é o Dia da Saudade. \"Estou com saudade de você\" é uma frase muito comum.",
     "en": "Saudade means missing someone, a place or a time — many say the word is hard to translate. In Brazil, 30 January is the Dia da Saudade. \"Estou com saudade de você\" (I miss you) is a very common sentence.",
     "zh": "Saudade 是想念一个人、一个地方或一段时光，很多人说这个词很难翻译。巴西把 1 月 30 日定为「思念日」。「Estou com saudade de você」（我想你）是很常用的一句话。",
-    "de": "Saudade heißt, jemanden, einen Ort oder eine Zeit zu vermissen – das Wort gilt als schwer übersetzbar. In Brasilien ist der 30. Januar der Dia da Saudade. „Estou com saudade de você“ (Ich vermisse dich) sagt man sehr oft."
+    "de": "Saudade heißt, jemanden, einen Ort oder eine Zeit zu vermissen – das Wort gilt als schwer übersetzbar. In Brasilien ist der 30. Januar der Dia da Saudade. „Estou com saudade de você“ (Ich vermisse dich) sagt man sehr oft.",
+    "batch": 1
    },
    {
     "title": "A novela das nove",
@@ -332,7 +342,8 @@
     "pt": "À noite, muitas famílias assistem à novela. A mais famosa é a \"novela das nove\", às nove horas da noite. No dia seguinte, no trabalho e no ônibus, as pessoas conversam sobre o capítulo.",
     "en": "In the evening many families watch the telenovela; the most famous is the \"novela das nove\", at 9 pm. The next day, at work and on the bus, people talk about the latest episode.",
     "zh": "晚上很多家庭一起看电视剧（novela），最有名的是晚上九点的「九点档」。第二天上班、坐公交时，大家都在聊昨晚那一集。",
-    "de": "Abends schauen viele Familien Telenovela, am berühmtesten ist die „novela das nove“ um 21 Uhr. Am nächsten Tag reden alle bei der Arbeit und im Bus über die Folge."
+    "de": "Abends schauen viele Familien Telenovela, am berühmtesten ist die „novela das nove“ um 21 Uhr. Am nächsten Tag reden alle bei der Arbeit und im Bus über die Folge.",
+    "batch": 1
    },
    {
     "title": "Churrasco de domingo",
@@ -341,7 +352,8 @@
     "pt": "No domingo, muitas famílias fazem churrasco. Os amigos chegam, alguém cuida da carne, e o almoço dura a tarde toda. Tem música, futebol na TV e muita conversa. O churrasco é mais encontro que comida.",
     "en": "On Sundays many families have a churrasco (barbecue). Friends arrive, someone takes care of the meat and lunch lasts all afternoon, with music, football on TV and lots of talk. A churrasco is more a get-together than a meal.",
     "zh": "周日很多家庭会烤肉（churrasco）。朋友们陆续来，有人专门负责烤肉，午饭吃一整个下午，有音乐、电视里的足球和聊不完的天。烤肉更像是聚会，而不只是吃饭。",
-    "de": "Sonntags machen viele Familien churrasco. Freunde kommen, einer kümmert sich ums Fleisch, und das Mittagessen dauert den ganzen Nachmittag – mit Musik, Fußball und vielen Gesprächen. Mehr Treffen als Essen."
+    "de": "Sonntags machen viele Familien churrasco. Freunde kommen, einer kümmert sich ums Fleisch, und das Mittagessen dauert den ganzen Nachmittag – mit Musik, Fußball und vielen Gesprächen. Mehr Treffen als Essen.",
+    "batch": 1
    }
   ]
  }

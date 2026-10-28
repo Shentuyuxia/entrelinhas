@@ -186,7 +186,7 @@ input[type=range]{accent-color:var(--acc);width:100%}
 
 .chip{display:inline-flex;align-items:center;font-family:var(--f-mono);font-size:11px;padding:2px 7px;border-radius:5px;background:var(--sunk);color:var(--muted);letter-spacing:.02em;white-space:nowrap}
 .lv{font-family:var(--f-mono);font-size:11px;font-weight:500;padding:2px 7px;border-radius:5px;color:var(--surface);white-space:nowrap}
-.lv-UG{background:var(--acc)} .lv-A1{background:var(--a1)} .lv-A2{background:var(--a2)} .lv-B1{background:var(--b1)} .lv-B2{background:var(--b2)} .lv-C1{background:var(--c1)} .lv-C2{background:var(--c2)}
+.lv-UG{background:var(--acc)} .lv-BS{background:var(--acc)} .lv-A1{background:var(--a1)} .lv-A2{background:var(--a2)} .lv-B1{background:var(--b1)} .lv-B2{background:var(--b2)} .lv-C1{background:var(--c1)} .lv-C2{background:var(--c2)}
 .stg{font-size:11.5px;font-weight:600;white-space:nowrap;display:inline-flex;align-items:center;gap:5px}
 .stg i{width:8px;height:8px;border-radius:2px;background:var(--sunk);border:1px solid var(--line)}
 .stg.s1 i{background:var(--warn);border-color:var(--warn)}
@@ -483,7 +483,7 @@ input[type=text],input[type=password],select,textarea{background:var(--surface)}
 .chip{font-family:var(--f-ui);background:none;border:1px solid var(--line);border-radius:999px;padding:1px 8px}
 .chip.new{background:none;border-color:var(--warn);color:var(--warn)}
 .lv{background:none!important;border:1px solid currentColor;border-radius:999px;padding:1px 8px}
-.lv-UG{color:var(--acc)} .lv-A1{color:var(--a1)} .lv-A2{color:var(--a2)} .lv-B1{color:var(--b1)} .lv-B2{color:var(--b2)} .lv-C1{color:var(--c1)} .lv-C2{color:var(--c2)}
+.lv-UG{color:var(--acc)} .lv-BS{color:var(--acc)} .lv-A1{color:var(--a1)} .lv-A2{color:var(--a2)} .lv-B1{color:var(--b1)} .lv-B2{color:var(--b2)} .lv-C1{color:var(--c1)} .lv-C2{color:var(--c2)}
 .gl-k{border-radius:999px;padding:0 6px}
 .bar{height:4px;background:var(--line)}
 .card{background:var(--surface);border-radius:16px}
@@ -1403,7 +1403,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 "use strict";
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const LANG={
-  pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
+  pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["BS","A1","A2","B1","B2","C1","C2"],gl:["en","zh","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
   de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1","C2","UG"],gl:["en","zh"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
   en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"},
   fr:{name:"Français",zh:"法语",ai:"French",tts:"fr-FR",re:/^fr[-_]FR/i,re2:/^fr/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","de"],done:"Bravo !",ok:"C'est fait !",theme:"#7a3e6b"}
@@ -1444,7 +1444,7 @@ const I={
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
-  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["A1","A2"],de:["B2","C1","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
+  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["BS","A1","A2"],de:["B2","C1","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
   pt:blank(),de:blank(),en:blank(),fr:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
 function merge(x){
@@ -1454,6 +1454,7 @@ function merge(x){
   for(const l of Object.keys(LANG)) if(x[l]) o[l]=Object.assign(blank(),x[l]);
   if(!LANG[o.settings.lang]) o.settings.lang="pt";
   { const d=o.settings.levels.de; if(!o.settings.deUG&&Array.isArray(d)&&!d.includes("UG")) d.push("UG"); o.settings.deUG=1; }
+  { const p=o.settings.levels.pt; if(!o.settings.ptBS&&Array.isArray(p)&&!p.includes("BS")) p.unshift("BS"); o.settings.ptBS=1; }
   { const f=o.settings.levels.fr; if(!o.settings.frLv2&&Array.isArray(f)&&f.join()==="B2,C1") o.settings.levels.fr=["A1","A2","B1","B2","C1"]; o.settings.frLv2=1; }
   o.updated=x.updated||0; o.lastBackup=x.lastBackup||0; o.setAt=x.setAt||0; return o;
 }
@@ -1494,7 +1495,7 @@ function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.rand
 const lang=()=>S.settings.lang;
 const L=()=>S[lang()];
 const LV=()=>LANG[lang()].levels;
-function lvName(v){ return v==="UG"?(trOne("口语")||"口语"):v; } // UG = Umgangssprache: everyday spoken phrases (German)
+function lvName(v){ return v==="UG"?(trOne("口语")||"口语"):v==="BS"?(trOne("入门")||"入门"):v; } // UG = Umgangssprache: everyday spoken phrases (German)
 function lvTag(v){ return `<span class="lv lv-${esc(v)}">${esc(lvName(v))}</span>`; }
 function lg(){ const k=today(), lo=L().log; return lo[k]||(lo[k]={n:0,r:0,c:false}); }
 const goal=()=>planActive()?planQuota():S.settings.goal[lang()];
@@ -1736,7 +1737,7 @@ function scanPrompt(l){
   return `The image(s) show text containing ${LANG[l].ai} — for example a textbook page, notes, a handwritten word list, a menu or a sign.
 Pick out the ${LANG[l].ai} vocabulary worth learning for a Chinese-speaking learner (up to 30 items: words or short fixed expressions, in dictionary form). If the image is clearly a vocabulary list, take every item on it. Skip names, numbers and very basic words like articles and pronouns unless they are part of a list.
 For "ex": if the word appears in a complete, natural sentence in the image, use that sentence; otherwise write a natural everyday sentence.
-Reply with ONLY a JSON array; each object has the keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.filter(x=>x!=="UG").map(x=>'"'+x+'"').join(", ")}).
+Reply with ONLY a JSON array; each object has the keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.filter(x=>x!=="UG"&&x!=="BS").map(x=>'"'+x+'"').join(", ")}).
 If there is no ${LANG[l].ai} text in the image, reply with [].`;
 }
 let scanCtl=null;
@@ -1885,7 +1886,7 @@ const FIELDS={
 function entryPrompt(l,w){
   return `You are making a vocabulary flashcard for a Chinese-speaking learner who also speaks German, English and French well. Target language: ${LANG[l].ai}.
 The learner typed: "${w}". If it is misspelled or inflected, use the correct dictionary form.
-Reply with ONLY one JSON object with these keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.filter(x=>x!=="UG").map(x=>'"'+x+'"').join(", ")}; pick the closest), "memo" (one vivid memory hook in Simplified Chinese, at most 40 characters: a sound-alike, a mental image, or a cognate/root link to Chinese, German, English or French).`;
+Reply with ONLY one JSON object with these keys: ${FIELDS[l]}, "level" (CEFR estimate, one of ${LANG[l].levels.filter(x=>x!=="UG"&&x!=="BS").map(x=>'"'+x+'"').join(", ")}; pick the closest), "memo" (one vivid memory hook in Simplified Chinese, at most 40 characters: a sound-alike, a mental image, or a cognate/root link to Chinese, German, English or French).`;
 }
 function imgPrompt(l,c,memo){
   const mean=[c.zh,c.en||c.def].filter(Boolean).join(" / ");
@@ -2401,7 +2402,7 @@ $("#n-form").addEventListener("submit",async e=>{
 });
 const T_=t=>trOne(t)||t;
 /* ---------- self-add (compact) ---------- */
-function adLevels(){ const el=$("#ad-lv"); if(!el) return; const v=el.value; el.innerHTML=LV().filter(x=>x!=="UG"||lang()==="de").map(x=>`<option value="${x}">${esc(lvName?lvName(x):x)}</option>`).join(""); const l=lang(); el.value=syLevel(l); $("#ad-w").placeholder=T_(l==="pt"?"例如：o guarda-chuva":l==="de"?"例如：der Regenschirm":l==="fr"?"例如：le parapluie":"e.g. umbrella"); }
+function adLevels(){ const el=$("#ad-lv"); if(!el) return; const v=el.value; el.innerHTML=LV().filter(x=>(x!=="UG"||lang()==="de")&&x!=="BS").map(x=>`<option value="${x}">${esc(lvName?lvName(x):x)}</option>`).join(""); const l=lang(); el.value=syLevel(l); $("#ad-w").placeholder=T_(l==="pt"?"例如：o guarda-chuva":l==="de"?"例如：der Regenschirm":l==="fr"?"例如：le parapluie":"e.g. umbrella"); }
 $("#ad-form").addEventListener("submit",e=>{
   e.preventDefault(); const l=lang(), w=$("#ad-w").value.trim(), m=$("#ad-m").value.trim(), ex=$("#ad-ex").value.trim(), memo=$("#ad-memo").value.trim(), msg=$("#ad-msg");
   if(!w){ msg.textContent=T_("先输入单词。"); $("#ad-w").focus(); return; }
@@ -2440,7 +2441,7 @@ function syPos(l,v){
   if(l==="de"){ const m=w.match(/^(der|die|das)\s/); if(m) return {der:"m",die:"f",das:"n"}[m[1]]; }
   return "";
 }
-function syLevel(l,hint){ if(hint&&LANG[l].levels.includes(hint)) return hint; const sel=(S.settings.levels[l]||[]).filter(v=>LANG[l].levels.includes(v)); return sel[0]||LANG[l].levels[0]; }
+function syLevel(l,hint){ if(hint&&LANG[l].levels.includes(hint)) return hint; const sel=(S.settings.levels[l]||[]).filter(v=>LANG[l].levels.includes(v)&&v!=="BS"&&v!=="UG"); return sel[0]||LANG[l].levels.find(v=>v!=="BS")||LANG[l].levels[0]; }
 const ART=/^(der|die|das|o|a|os|as|the)\s+/;
 function syFind(l,w){ const lw=String(w||"").toLowerCase().trim(), bare=lw.replace(ART,"");
   const hit=c=>{ const x=String(c.w||"").toLowerCase(); return x===lw||x.replace(ART,"")===bare; };
@@ -2657,7 +2658,7 @@ $("#rbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(
 /* 巴西小事 · Coisas do Brasil: customs and small facts, simple Portuguese + translation (marginalia/records.json → curios) */
 const CU={open:-1};
 function cuRender(){
-  const box=$("#cubox"); if(!box) return; const l=lang(), list=(MG.rec&&MG.rec.curios&&MG.rec.curios[l])||[];
+  const box=$("#cubox"); if(!box) return; const l=lang(), all=(MG.rec&&MG.rec.curios&&MG.rec.curios[l])||[], nb=Math.max(0,...all.map(c=>c.batch||1)), list=all.filter(c=>(c.batch||1)===nb);
   if(!list.length){ box.hidden=true; return; } box.hidden=false;
   const hl=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), cur=list[CU.open];
   box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("巴西小事")||"巴西小事")} <span class="small muted" data-noi18n>Coisas do Brasil · ${list.length}</span></h3>
@@ -2670,7 +2671,7 @@ function cuRender(){
 $("#cubox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
   if(b.dataset.cu!=null){ const i=+b.dataset.cu; CU.open=CU.open===i?-1:i; cuRender(); }
   else if(b.dataset.cul){ RB.hl=b.dataset.cul; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} cuRender(); rbRender(); pkRender(); }
-  else if(b.id==="cu-say"){ const c=((MG.rec&&MG.rec.curios&&MG.rec.curios[lang()])||[])[CU.open]; if(c) speak(c.pt); } });
+  else if(b.id==="cu-say"){ const all=((MG.rec&&MG.rec.curios&&MG.rec.curios[lang()])||[]), nb=Math.max(0,...all.map(c=>c.batch||1)); const c=all.filter(c=>(c.batch||1)===nb)[CU.open]; if(c) speak(c.pt); } });
 /* 书架 · today's reading recommendations (kind "picks"), beside the reading instead of in the article list */
 const PK={open:-1,key:""};
 async function pkRender(){
@@ -4450,6 +4451,7 @@ const UI_DICT=[
 ["阅读原文", "Read the original", "Original lesen", "Ler o original", "閱讀原文"],
 ["巴西小事", "Little Brazil", "Brasilien im Kleinen", "Coisas do Brasil", "巴西小事"],
 ["点一张明信片，读一个巴西小故事。", "Tap a postcard for a little story about Brazil.", "Tippe auf eine Postkarte für eine kleine Geschichte über Brasilien.", "Toque num cartão para ler uma curiosidade.", "點一張明信片，讀一個巴西小故事。"],
+["入门", "Basics", "Grundlagen", "Básico", "入門"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],

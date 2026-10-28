@@ -14,10 +14,11 @@ pos: pt/de/fr nouns use gender m / f / n (pl for plural-only); en nouns use "nou
 """
 import json, sys, os, re
 D = os.path.join(os.path.dirname(__file__), "..", "data")
-LV = ["A1", "A2", "B1", "B2", "C1", "C2", "UG"]
-TARGET = {"A1": 600, "A2": 600, "B1": 1000, "B2": 1500, "C1": 1500, "C2": 1500, "UG": 800}
+LV = ["A1", "A2", "B1", "B2", "C1", "C2", "UG", "BS"]
+TARGET = {"A1": 600, "A2": 600, "B1": 1000, "B2": 1500, "C1": 1500, "C2": 1500, "UG": 800, "BS": 151}
 # UG = Umgangssprache (German only): everyday spoken phrases, idioms and reactions; pos "expr", plural field ""
-def lvs(l): return LV if l == "de" else LV[:-1]
+# BS = Básico / 入门 (Portuguese only): greetings, dates, time, numbers, weather, moods — a fixed entry deck, not grown nightly
+def lvs(l): return LV[:6] + (["UG"] if l == "de" else []) + (["BS"] if l == "pt" else [])
 
 def path(l, lv): return os.path.join(D, f"{l}-{lv}.json")
 def load(l, lv):
