@@ -958,6 +958,22 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 .pkbox .rb-card .btn{text-decoration:none!important;color:var(--ink)!important}
 .cu-card .rb-sleeve{width:110px;height:84px;border-radius:4px;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(255,255,255,.0) 6px 12px),linear-gradient(160deg,hsl(var(--h) 60% 95%),hsl(var(--h) 45% 86%));color:var(--ink);border:1px solid hsl(var(--h) 30% 78%);box-shadow:0 2px 5px rgba(0,0,0,.1)}
 .cu-card{width:110px}
+.bs-card{width:104px}
+.bs-card .rb-sleeve{width:104px;height:76px;border-radius:3px;color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.1);border:1px solid hsl(var(--h) 25% 82%);
+  background:linear-gradient(hsl(var(--h) 55% 58%),hsl(var(--h) 55% 58%)) 0 14px/100% 1.5px no-repeat,repeating-linear-gradient(transparent 0 15px,hsl(var(--h) 30% 88%) 15px 16px) 0 18px/100% calc(100% - 18px) no-repeat,hsl(var(--h) 45% 97%)}
+.bs-card .rb-sleeve::before{display:none}
+.bs-card .rb-sleeve i{font-size:15px;opacity:1;left:auto;right:7px;top:-1px}
+.bs-card .rb-sleeve b{font-size:12.5px;-webkit-line-clamp:2}
+.bs-card .rb-sleeve small{position:absolute;left:8px;top:1px;font-size:10.5px;color:var(--muted)}
+.bs-list{list-style:none;margin:0;padding:0;display:grid}
+.bs-list li+li{border-top:1px dashed var(--line)}
+.bs-w{display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:center;width:100%;border:0;background:none;padding:8px 2px;text-align:left;color:inherit;cursor:pointer;font:inherit}
+.bs-w b{font-size:15px;font-weight:600}
+.bs-w .m{font-size:13.5px;color:var(--muted);text-align:right}
+.bs-w .ex{grid-column:1/-1;font-size:13px;line-height:1.5;color:var(--muted)}
+.bs-w .ex i{font-style:normal;color:var(--ink)}
+.bs-w:hover b,.bs-w:focus-visible b,.bs-w.on b{color:var(--acc)}
+.bs-w{padding:7px 2px}
 .cu-card .rb-sleeve::before{display:none}
 .cu-card .rb-sleeve i{font-size:18px;opacity:1;left:auto;right:7px;top:5px}
 .cu-card .rb-sleeve b{-webkit-line-clamp:3;font-size:12.5px}
@@ -1014,6 +1030,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       <div class="panel rbox pkbox" id="pkbox" hidden></div>
       <div class="panel rbox" id="rbox" hidden></div>
       <div class="panel rbox cubox" id="cubox" hidden></div>
+      <div class="panel rbox bsbox" id="bsbox" hidden></div>
       <input type="file" id="mine-file" accept=".pdf,.docx,.txt,.md,.html,.htm,.srt,.vtt,application/pdf,text/plain,text/html,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
       <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3><button class="mine-imp" id="mine-imp" type="button" title="导入 PDF / Word / 文本文件" aria-label="导入文件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 11v6M9 14l3 3 3-3"/></svg><span>导入</span></button></summary>
         <div class="row" style="margin-top:10px"><label class="btn sm filebtn">拍照<input type="file" id="mine-cam" accept="image/*" capture="environment" multiple></label><label class="btn sm filebtn">选择图片<input type="file" id="mine-pick" accept="image/*" multiple></label><button class="btn sm" type="button" onclick="document.getElementById('mine-file').click()">导入文件</button></div>
@@ -2591,7 +2608,7 @@ async function mgRender(){
   h=`<div class="mg-head"><button class="ib" id="mg-prev" aria-label="前一天" ${MG.di>=days.length-1?"disabled":""}>‹</button><span class="d">${days[MG.di]?mgFmt(days[MG.di].date):""}</span><button class="ib" id="mg-next" aria-label="后一天" ${MG.di<=0?"disabled":""}>›</button><span class="spacer"></span><button class="ib" id="mg-reload" aria-label="刷新" title="刷新">↻</button></div>`;
   { const lvs=mgLevels(MG.di,l); if(lvs.length>1){ const sel=mgLvSel(MG.di,l); h+=`<div class="mg-lvs" role="tablist" aria-label="Level"><button type="button" data-mglv="" aria-pressed="${!sel}">${esc(trOne("全部")||"全部")}</button>${lvs.map(v=>`<button type="button" data-mglv="${v}" aria-pressed="${sel===v}">${v}</button>`).join("")}</div>`; } }
   if(es.length) h+=`<nav class="mg-toc">${es.map(e=>`<button data-mg="${e.date}|${e.i}" aria-current="${!!pick&&!pick.older&&pick.date===e.date&&pick.i===e.i}"><span class="k">${esc(e.hour||MG_KIND[e.kind]||e.kind||"")}</span><span class="t" lang="${l}">${esc(e.title)}</span><span class="m">${mgRead(e.date,e.i)?"✓":""}</span></button>`).join("")}<button class="mg-addchip" data-mineopen="1" type="button">＋ 我的文章</button></nav>`;
-  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); rbRender(); cuRender(); pkRender(); return; }
+  if(!pick){ main.innerHTML=h+`<div class="empty"><b>还没有${LANG[l].zh}文章</b>每天 ${MG_ETA[l]} 左右送到。</div>`; mgArch(null); mgFavList(null); rbRender(); cuRender(); bsRender(); pkRender(); return; }
   try{ const day=await mgDay(pick.date); it=day.items[pick.i]; }catch(e){ main.innerHTML=h+`<div class="empty"><b>这篇没有载入</b>${esc(e.message)}</div>`; return; }
   if(!it){ main.innerHTML=h; return; }
   }
@@ -2615,7 +2632,7 @@ async function mgRender(){
   main.innerHTML=h; MG.cur={...pick,it};
   if(innerWidth>640) document.documentElement.style.setProperty("--tabs-h",$("#tabs").offsetHeight+"px");
   { const t=main.querySelector(".mg-toc"), a=t&&t.querySelector('[aria-current="true"]'); if(a) t.scrollLeft=a.offsetLeft-(t.clientWidth-a.offsetWidth)/2; }
-  mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); cuRender(); pkRender(); rdSync(); mineList();
+  mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); cuRender(); bsRender(); pkRender(); rdSync(); mineList();
 }
 function mgArch(pick){
   const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l&&x.kind!=="picks") rows.push({...x,date:d.date,di}); }));
@@ -2672,6 +2689,28 @@ $("#cubox").addEventListener("click",e=>{ const b=e.target.closest("button"); if
   if(b.dataset.cu!=null){ const i=+b.dataset.cu; CU.open=CU.open===i?-1:i; cuRender(); }
   else if(b.dataset.cul){ RB.hl=b.dataset.cul; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} cuRender(); rbRender(); pkRender(); }
   else if(b.id==="cu-say"){ const all=((MG.rec&&MG.rec.curios&&MG.rec.curios[lang()])||[]), nb=Math.max(0,...all.map(c=>c.batch||1)); const c=all.filter(c=>(c.batch||1)===nb)[CU.open]; if(c) speak(c.pt); } });
+/* 入门 · Básico: the beginner deck as its own browsable shelf, grouped by topic (data/pt-BS.json) */
+const BS={open:-1,rows:null,busy:false,ex:-1};
+const BS_GROUPS=[[0,26,"👋","Saudações","打招呼"],[26,46,"🕐","Dias e horas","日子与时间"],[46,53,"📅","Dias da semana","星期"],[53,65,"🗓","Meses","月份"],
+  [65,86,"🔢","Números 0–20","数字 0–20"],[86,115,"💯","Números e anos","大数字与年份"],[115,133,"☀️","O tempo","天气"],[133,151,"🙂","Como você está?","心情"]];
+async function bsRender(){
+  const box=$("#bsbox"); if(!box) return;
+  if(lang()!=="pt"){ box.hidden=true; return; }
+  if(!BS.rows){ if(BS.busy) return; BS.busy=true; try{ const r=await fetch("data/pt-BS.json"); if(r.ok) BS.rows=await r.json(); }catch(e){} BS.busy=false; if(!BS.rows||lang()!=="pt"){ box.hidden=true; return; } }
+  box.hidden=false;
+  const hl0=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), hl=hl0==="zh"?"zh":"en", g=BS_GROUPS[BS.open];
+  const mi=hl==="zh"?2:3, xi=hl==="zh"?6:7;
+  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("入门")||"入门")} <span class="small muted" data-noi18n>Básico · ${BS.rows.length}</span></h3>
+    <div class="rb-shelf" role="list">${BS_GROUPS.map((t,i)=>`<button type="button" class="rb-disc bs-card${i===BS.open?" on":""}" data-bs="${i}" role="listitem" style="--h:${rbHue(t[3])}"><span class="rb-sleeve"><small>${t[1]-t[0]}</small><i>${t[2]}</i><b lang="pt-BR" data-noi18n>${esc(t[3])}</b></span></button>`).join("")}</div>
+    ${g?`<div class="rb-card"><div class="rb-h"><b lang="pt-BR" data-noi18n>${g[2]} ${esc(g[3])}</b><span class="small muted" data-noi18n>${esc(hl==="zh"?hz(g[4]):"")}</span></div>
+      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"]].map(([k,n])=>`<button type="button" data-bsl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <ul class="bs-list" data-noi18n>${BS.rows.slice(g[0],g[1]).map((c,k)=>`<li><button type="button" class="bs-w${BS.ex===g[0]+k?" on":""}" data-bsw="${g[0]+k}" aria-expanded="${BS.ex===g[0]+k}"><b lang="pt-BR">${esc(c[0])}</b><span class="m" lang="${hl}">${esc(hl==="zh"?hz(c[mi]||""):(c[mi]||""))}</span>${c[5]&&BS.ex===g[0]+k?`<span class="ex"><i lang="pt-BR">${esc(c[5])}</i> ${esc(hl==="zh"?hz(c[xi]||""):(c[xi]||""))}</span>`:""}</button></li>`).join("")}</ul></div>`
+    :`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张卡片，复习一组基础词。")||"点一张卡片，复习一组基础词。")}</p>`}`;
+}
+$("#bsbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
+  if(b.dataset.bs!=null){ const i=+b.dataset.bs; BS.open=BS.open===i?-1:i; BS.ex=-1; bsRender(); }
+  else if(b.dataset.bsl){ RB.hl=b.dataset.bsl; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} bsRender(); cuRender(); rbRender(); pkRender(); }
+  else if(b.dataset.bsw!=null&&BS.rows){ const i=+b.dataset.bsw, c=BS.rows[i]; if(!c) return; BS.ex=BS.ex===i?-1:i; speak(c[0]); bsRender(); } });
 /* 书架 · today's reading recommendations (kind "picks"), beside the reading instead of in the article list */
 const PK={open:-1,key:""};
 async function pkRender(){
@@ -4452,6 +4491,7 @@ const UI_DICT=[
 ["巴西小事", "Little Brazil", "Brasilien im Kleinen", "Coisas do Brasil", "巴西小事"],
 ["点一张明信片，读一个巴西小故事。", "Tap a postcard for a little story about Brazil.", "Tippe auf eine Postkarte für eine kleine Geschichte über Brasilien.", "Toque num cartão para ler uma curiosidade.", "點一張明信片，讀一個巴西小故事。"],
 ["入门", "Basics", "Grundlagen", "Básico", "入門"],
+["点一张卡片，复习一组基础词。", "Tap a card to review a set of basic words.", "Tippe auf eine Karte, um eine Gruppe Grundwörter zu wiederholen.", "Toque num cartão para rever um grupo de palavras básicas.", "點一張卡片，複習一組基礎詞。"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
