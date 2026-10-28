@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T05:16:25+00:00",
+ "updated": "2026-10-28T05:56:52+00:00",
  "days": [
   {
    "date": "2026-10-28",
@@ -9,6 +9,22 @@
      "lang": "en",
      "title": "The fair behind the barriers",
      "kind": "feature",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
      "level": "C2",
      "hour": null
     }
