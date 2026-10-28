@@ -980,6 +980,25 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 .cu-pt{margin:0;font-family:var(--f-word);font-size:16px;line-height:1.6}
 .cu-pt .cu-say{display:inline-flex;vertical-align:-4px;width:26px;height:26px;margin-left:2px}
 .cu-pt .cu-say svg{width:15px;height:15px}
+
+/* ===== 我的 page: folds ===== */
+#tab-me{display:grid;gap:12px;margin-top:14px}
+#tab-me .fold{border:1px solid var(--line);background:var(--surface);border-radius:16px;overflow:hidden}
+#tab-me .fold>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:14px 18px;font-weight:600;font-size:16px;color:var(--ink)}
+#tab-me .fold>summary::-webkit-details-marker{display:none}
+#tab-me .fold>summary::after{content:"";margin-left:auto;width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);transition:transform .18s}
+#tab-me .fold[open]>summary::after{transform:rotate(-135deg)}
+#tab-me .fold[open]>summary{border-bottom:1px solid var(--line)}
+#tab-me .fold .ct{font-size:12.5px;color:var(--acc);font-weight:600}
+#tab-me .foldbody{padding:14px 14px 16px;margin:0}
+#tab-me .foldbody>.panel{box-shadow:none;border:0;padding:0;background:transparent}
+#tab-me .foldbody.grid{grid-template-columns:minmax(0,1fr)}
+#tab-me .foldbody .side{margin-top:14px}
+#tab-me .foldbody>.panel.adpanel{margin-bottom:12px}
+#tab-me .acct:empty{display:none}
+#b-hint{margin:10px 0 2px;color:var(--muted);font-size:14px}
+#tab-extras .exwrap{display:grid;gap:18px;max-width:760px;margin:0 auto}
+@media (min-width:900px){ #tab-me{max-width:860px;margin-left:auto;margin-right:auto} }
 </style>
 </head>
 <body>
@@ -1017,10 +1036,8 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
     <button role="tab" data-tab="today" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="m9 14.5 2 2 4-4"/></svg><span class="tl">今日学习</span></button>
     <button role="tab" data-tab="read" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5c3-1.2 6-1.2 9 .8 3-2 6-2 9-.8v13c-3-1.2-6-1.2-9 .8-3-2-6-2-9-.8z"/><path d="M12 6.3v13"/></svg><span class="tl">阅读</span></button>
     <button role="tab" data-tab="dict" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span class="tl">字典</span></button>
-    <button role="tab" data-tab="pile" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg><span class="tl">生词堆</span><span id="t-pile">0</span></button>
-    <button role="tab" data-tab="browse" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".6" fill="currentColor"/><circle cx="4" cy="12" r=".6" fill="currentColor"/><circle cx="4" cy="18" r=".6" fill="currentColor"/></svg><span class="tl">词匣</span></button>
-    <button role="tab" data-tab="stats" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg><span class="tl">进度</span><span class="tl-m">我的</span></button>
-    <button role="tab" data-tab="settings" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span class="tl">设置与备份</span></button>
+    <button role="tab" data-tab="extras" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="2.2"/></svg><span class="tl">探索</span></button>
+    <button role="tab" data-tab="me" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c.8-3.8 3.9-5.8 7.5-5.8s6.7 2 7.5 5.8"/></svg><span class="tl">我的</span><span id="t-pile">0</span></button>
   </nav>
 
   <!-- READ (Marginalia) -->
@@ -1028,9 +1045,6 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
     <div class="panel" id="mg-main"></div>
     <aside style="display:grid;gap:22px;min-width:0">
       <div class="panel rbox pkbox" id="pkbox" hidden></div>
-      <div class="panel rbox" id="rbox" hidden></div>
-      <div class="panel rbox cubox" id="cubox" hidden></div>
-      <div class="panel rbox bsbox" id="bsbox" hidden></div>
       <input type="file" id="mine-file" accept=".pdf,.docx,.txt,.md,.html,.htm,.srt,.vtt,application/pdf,text/plain,text/html,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
       <details class="panel rd-paste" id="mine-box"><summary><h3>我的文章</h3><button class="mine-imp" id="mine-imp" type="button" title="导入 PDF / Word / 文本文件" aria-label="导入文件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 11v6M9 14l3 3 3-3"/></svg><span>导入</span></button></summary>
         <div class="row" style="margin-top:10px"><label class="btn sm filebtn">拍照<input type="file" id="mine-cam" accept="image/*" capture="environment" multiple></label><label class="btn sm filebtn">选择图片<input type="file" id="mine-pick" accept="image/*" multiple></label><button class="btn sm" type="button" onclick="document.getElementById('mine-file').click()">导入文件</button></div>
@@ -1170,9 +1184,41 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
     </aside>
   </section>
 
-  <!-- PILE -->
-  <section id="tab-pile" class="grid" hidden>
-    <div class="subsw" role="tablist"><button type="button" data-sub="browse">词匣</button><button type="button" data-sub="pile">生词堆 <span class="ct" id="sub-pile-ct"></span></button></div>
+  <!-- 我的 (词匣 + 生词堆 + 进度 + 设置) -->
+  <section id="tab-me" class="me" hidden>
+        <details class="fold" id="fold-browse" open>
+      <summary><span>词匣</span></summary>
+      <div id="tab-browse" class="grid one foldbody">
+    <div class="panel adpanel">
+      <details class="adbox" id="ad-box">
+        <summary>自己加词</summary>
+        <form id="ad-form" autocomplete="off">
+          <div class="newhead"><input type="text" id="ad-w" placeholder="单词" aria-label="单词" autocapitalize="off" spellcheck="false"><select id="ad-lv" aria-label="级别"></select></div>
+          <div class="field"><label for="ad-m">意思</label><input type="text" id="ad-m" placeholder="用你习惯的语言写"></div>
+          <div class="field"><label for="ad-ex">我的例句</label><input type="text" id="ad-ex"></div>
+          <div class="field"><label for="ad-memo">记忆提示</label><input type="text" id="ad-memo" placeholder="谐音、画面、词根……"></div>
+          <div class="row"><button class="btn primary" type="submit">收进闪卡</button><span class="small muted" id="ad-msg"></span></div>
+        </form>
+      </details>
+    </div>
+    <div class="panel">
+      <div class="levels" id="lv-cells"></div>
+      <div class="filters">
+        <input type="text" id="b-search" placeholder="搜索单词或释义…" aria-label="搜索">
+        <select id="b-stage" aria-label="掌握程度"></select>
+        <select id="b-src" aria-label="来源"><option value="">全部词</option><option value="mine">我录入的</option><option value="img">有图片的</option><option value="sent">有我的例句的</option><option value="aud">有我的录音的</option><option value="plan">学习计划里的</option></select>
+        <button class="btn" id="b-all" type="button" aria-pressed="false">展开全部词</button>
+        <button class="btn" id="b-cram">复习筛选出的已学词</button>
+      </div>
+      <p id="b-hint" hidden>点上面的级别，展开这一级的词。</p>
+      <div class="tbl scroll" id="b-table"></div>
+      <p class="small muted" id="b-count" style="margin:8px 0 0"></p>
+    </div>
+</div>
+    </details>
+    <details class="fold" id="fold-pile">
+      <summary><span>生词堆</span><span class="ct" id="sub-pile-ct"></span></summary>
+      <div id="tab-pile" class="grid foldbody">
     <div class="panel">
       <div class="sesshead">
         <h2 id="pile-title">生词堆</h2>
@@ -1195,49 +1241,12 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
         <div class="lvrows small" id="stage-legend"></div>
       </div>
     </aside>
-  </section>
-
-  <!-- DICTIONARY -->
-  <section id="tab-dict" class="grid one" hidden>
-    <div class="panel dx dict-page">
-      <h2 class="dict-h">字典</h2>
-      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><select id="dx-from" aria-label="从哪种语言查" style="width:auto;flex:none"></select><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
-      <div id="dx-out"></div>
-    </div>
-  </section>
-
-  <!-- BROWSE -->
-  <section id="tab-browse" class="grid one" hidden>
-    <div class="subsw" role="tablist"><button type="button" data-sub="browse">词匣</button><button type="button" data-sub="pile">生词堆 <span class="ct" id="sub-pile-ct"></span></button></div>
-    <div class="panel adpanel">
-      <details class="adbox" id="ad-box">
-        <summary>自己加词</summary>
-        <form id="ad-form" autocomplete="off">
-          <div class="newhead"><input type="text" id="ad-w" placeholder="单词" aria-label="单词" autocapitalize="off" spellcheck="false"><select id="ad-lv" aria-label="级别"></select></div>
-          <div class="field"><label for="ad-m">意思</label><input type="text" id="ad-m" placeholder="用你习惯的语言写"></div>
-          <div class="field"><label for="ad-ex">我的例句</label><input type="text" id="ad-ex"></div>
-          <div class="field"><label for="ad-memo">记忆提示</label><input type="text" id="ad-memo" placeholder="谐音、画面、词根……"></div>
-          <div class="row"><button class="btn primary" type="submit">收进闪卡</button><span class="small muted" id="ad-msg"></span></div>
-        </form>
-      </details>
-    </div>
-    <div class="panel">
-      <div class="levels" id="lv-cells"></div>
-      <div class="filters">
-        <input type="text" id="b-search" placeholder="搜索单词或释义…" aria-label="搜索">
-        <select id="b-stage" aria-label="掌握程度"></select>
-        <select id="b-src" aria-label="来源"><option value="">全部词</option><option value="mine">我录入的</option><option value="img">有图片的</option><option value="sent">有我的例句的</option><option value="aud">有我的录音的</option><option value="plan">学习计划里的</option></select>
-        <button class="btn" id="b-cram">复习筛选出的已学词</button>
-      </div>
-      <div class="tbl scroll" id="b-table"></div>
-      <p class="small muted" id="b-count" style="margin:8px 0 0"></p>
-    </div>
-  </section>
-
-  <!-- STATS -->
-  <section id="tab-stats" class="grid" hidden>
+</div>
+    </details>
+    <details class="fold" id="fold-stats">
+      <summary><span>进度</span></summary>
+      <div id="tab-stats" class="grid foldbody">
     <div class="acct" data-acct></div>
-    <div class="subsw" role="tablist"><button type="button" data-sub="stats">进度</button><button type="button" data-sub="settings">设置与备份</button></div>
     <div class="panel" id="stats-main"></div>
     <aside class="side">
       <div class="panel help">
@@ -1246,12 +1255,12 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
         <p class="note">间隔达到 30 天以上的词算「精通」。</p>
       </div>
     </aside>
-  </section>
-
-  <!-- SETTINGS -->
-  <section id="tab-settings" class="grid" hidden>
-    <div class="acct" data-acct></div>
-    <div class="subsw" role="tablist"><button type="button" data-sub="stats">进度</button><button type="button" data-sub="settings">设置与备份</button></div>
+</div>
+    </details>
+    <details class="fold" id="fold-settings">
+      <summary><span>设置与备份</span></summary>
+      <div id="tab-settings" class="grid foldbody">
+    
     <div class="side" style="gap:22px">
       <div class="panel">
         <h3 class="ph3">界面</h3>
@@ -1389,7 +1398,30 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       </div>
     </aside>
         <p class="note copy" style="grid-column:1/-1;margin:18px 0 4px;font-size:12.5px;color:var(--muted)" data-noi18n>© 2026 申屠余夏 · 字里行间 · Entrelinhas · 保留所有权利 · All rights reserved. 个人学习免费使用；复制、再发布或商业、机构使用须事先获得书面许可。Private learning is free; copying, redistribution or commercial / institutional use needs written permission. <a href="privacy.html#copyright" target="_blank" rel="noopener">版权与开源组件 / Copyright</a></p>
+</div>
+    </details>
   </section>
+
+  <!-- 探索 (唱片盒、巴西小事、入门) -->
+  <section id="tab-extras" class="grid one" hidden>
+    <div class="exwrap" id="exwrap">
+    <div class="panel rbox" id="rbox" hidden></div>
+    <div class="panel rbox cubox" id="cubox" hidden></div>
+    <div class="panel rbox bsbox" id="bsbox" hidden></div>
+  </div>
+  </section>
+
+  <!-- DICTIONARY -->
+  <section id="tab-dict" class="grid one" hidden>
+    <div class="panel dx dict-page">
+      <h2 class="dict-h">字典</h2>
+      <form id="dx-form" class="row" style="flex-wrap:nowrap" autocomplete="off"><select id="dx-from" aria-label="从哪种语言查" style="width:auto;flex:none"></select><input type="search" id="dx-q" placeholder="输入一个词…" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button class="btn primary" type="submit">查</button></form>
+      <div id="dx-out"></div>
+    </div>
+  </section>
+
+
+
 </div>
 <div id="detail-root"></div>
 <div class="toast" id="toast" hidden></div>
@@ -2225,7 +2257,7 @@ function recRowsHTML(prefix,has){
 let detailOpen=null;
 function openDetail(id){ const c=BYID.get(id); if(!c) return; detailOpen=id; document.body.classList.add("modal-open"); renderDetail(); }
 function closeDetail(){ cancelRec(); detailOpen=null; document.body.classList.remove("modal-open"); $("#detail-root").innerHTML="";
-  if(cur==="today") renderCard(); else if(cur==="browse") renderBrowse(); else if(cur==="pile") renderPile(); }
+  if(cur==="today") renderCard(); else if(cur==="me"){ renderBrowse(); renderPile(); } }
 function renderDetail(note){
   const id=detailOpen, c=BYID.get(id); if(!c) return;
   const LL=L(), hasImg=!!LL.imgs[id], mine=mineOf(c), ai=aiState==="ready", au=audsOf(id);
@@ -2428,7 +2460,7 @@ $("#ad-form").addEventListener("submit",e=>{
   if(r==="dup"){ msg.textContent=T_("这个词已经在词匣里了。")+" "+T_("已排到最前面。"); return; }
   if(r!=="ok"){ msg.textContent=T_("没存上，再试一次。"); return; }
   const id=L().custom[L().custom.length-1].id; if(ex) L().mine[id]=[{t:ex,ts:Date.now()}]; save();
-  ["ad-w","ad-m","ad-ex","ad-memo"].forEach(i=>$("#"+i).value=""); msg.textContent=T_("「{0}」已收进闪卡，下次学习最先出现。").replace("{0}",w); $("#ad-w").focus(); if(cur==="browse") renderBrowse();
+  ["ad-w","ad-m","ad-ex","ad-memo"].forEach(i=>$("#"+i).value=""); msg.textContent=T_("「{0}」已收进闪卡，下次学习最先出现。").replace("{0}",w); $("#ad-w").focus(); if(cur==="me") renderBrowse();
 });
 function guessPos(w){ const l=lang(); if(l==="fr"){ if(/^le\s/i.test(w)) return "m"; if(/^la\s/i.test(w)) return "f"; } if(l==="pt"){ if(/^o\s/i.test(w)) return "m"; if(/^a\s/i.test(w)) return "f"; } else if(l==="de"){ const m=w.match(/^(der|die|das)\s/); if(m) return {der:"m",die:"f",das:"n"}[m[1]]; } return ""; }
 $("#bulk-btn").addEventListener("click",()=>{
@@ -3398,6 +3430,7 @@ function browseRows(){
     &&(!src||(src==="mine"&&c.custom)||(src==="img"&&LL.imgs[c.id])||(src==="sent"&&(LL.mine[c.id]||[]).length)||(src==="aud"&&LL.auds[c.id])||(src==="plan"&&planHas(c.id)))
     &&(!q||[c.w,c.zh,c.en,c.fr,c.def,c.de].some(x=>x&&x.toLowerCase().includes(q))));
 }
+let bAll=false;
 function renderBrowse(){
   const srs=L().srs;
   $("#lv-cells").innerHTML=LV().map(v=>{
@@ -3405,6 +3438,9 @@ function renderBrowse(){
     return `<button class="lvcell" data-lv="${v}" aria-pressed="${bLevel===v}"><span class="row">${lvTag(v)}<span class="n">${cs.length-k[0]} / ${cs.length}</span></span>
       <span class="stack">${[1,2,3,4].map(s=>cs.length&&k[s]?`<i class="k${s}" style="width:${100*k[s]/cs.length}%"></i>`:"").join("")}</span></button>`;
   }).join("");
+  const closed=!bLevel&&!bAll&&!$("#b-search").value.trim()&&!$("#b-stage").value&&!$("#b-src").value;
+  $("#b-hint").hidden=!closed; $("#b-table").hidden=closed; $("#b-count").hidden=closed;
+  { const a=$("#b-all"); a.setAttribute("aria-pressed",bAll); a.textContent=bAll?"收起全部词":"展开全部词"; }
   const rows=browseRows(), pile=L().pile, gs=glSel();
   $("#b-table").innerHTML=rows.length?`<table><thead><tr><th>单词</th><th>${gs.map(k=>GLN[k]).join(" / ")}</th><th>级别</th><th>掌握</th><th></th></tr></thead><tbody>${
     rows.map(c=>`<tr><td class="w"><button class="wlink" data-open="${esc(c.id)}">${wordHTML(c)}</button>${c.extra&&c.extra!=="—"?` <span class="extra">${esc(c.extra)}</span>`:""}${rowTags(c)}${c.ex?`<span class="exs">${esc(c.ex)}</span>`:""}</td>
@@ -3417,7 +3453,8 @@ function renderBrowse(){
   $("#b-cram").disabled=!learned.length;
   $("#b-cram").textContent= bLevel?`复习 ${lvName(bLevel)} 已学词（${learned.length}）`:`复习筛选出的已学词（${learned.length}）`;
 }
-$("#lv-cells").addEventListener("click",e=>{ const b=e.target.closest("[data-lv]"); if(!b) return; bLevel= bLevel===b.dataset.lv?"":b.dataset.lv; renderBrowse(); });
+$("#lv-cells").addEventListener("click",e=>{ const b=e.target.closest("[data-lv]"); if(!b) return; bLevel= bLevel===b.dataset.lv?"":b.dataset.lv; bAll=false; renderBrowse(); });
+$("#b-all").addEventListener("click",()=>{ bAll=!bAll; if(bAll) bLevel=""; renderBrowse(); });
 $("#b-search").addEventListener("input",renderBrowse);
 $("#b-stage").innerHTML=`<option value="">全部掌握程度</option>`+STAGES.map((s,i)=>`<option value="${i}">${s}</option>`).join("");
 $("#b-stage").addEventListener("change",renderBrowse);
@@ -4491,6 +4528,10 @@ const UI_DICT=[
 ["巴西小事", "Little Brazil", "Brasilien im Kleinen", "Coisas do Brasil", "巴西小事"],
 ["点一张明信片，读一个巴西小故事。", "Tap a postcard for a little story about Brazil.", "Tippe auf eine Postkarte für eine kleine Geschichte über Brasilien.", "Toque num cartão para ler uma curiosidade.", "點一張明信片，讀一個巴西小故事。"],
 ["入门", "Basics", "Grundlagen", "Básico", "入門"],
+["探索", "Explore", "Entdecken", "Explorar", "探索"],
+["展开全部词", "Show all words", "Alle Wörter zeigen", "Mostrar todas", "展開全部詞"],
+["收起全部词", "Hide all words", "Alle Wörter ausblenden", "Ocultar todas", "收起全部詞"],
+["点上面的级别，展开这一级的词。", "Tap a level above to see its words.", "Tippe oben auf eine Stufe, um ihre Wörter zu sehen.", "Toque num nível acima para ver as palavras.", "點上面的級別，展開這一級的詞。"],
 ["点一张卡片，复习一组基础词。", "Tap a card to review a set of basic words.", "Tippe auf eine Karte, um eine Gruppe Grundwörter zu wiederholen.", "Toque num cartão para rever um grupo de palavras básicas.", "點一張卡片，複習一組基礎詞。"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
@@ -4595,28 +4636,33 @@ function applyUILang(){
   const sel=$("#ui-lang"); if(sel) sel.value=UIL;
   const code=$("#ui-code"); if(code) code.textContent={zh:"简中",zht:"繁中",en:"EN",de:"DE",pt:"PT"}[UIL]||"中文";
 }
-$("#ui-lang").addEventListener("change",e=>{ UIL=e.target.value; try{ localStorage.setItem("pw-ui",UIL); }catch(x){} applyUILang(); if(cur==="read") mgRender(); if(cur==="stats") renderStats(); renderBackupHint(); });
+$("#ui-lang").addEventListener("change",e=>{ UIL=e.target.value; try{ localStorage.setItem("pw-ui",UIL); }catch(x){} applyUILang(); if(cur==="read") mgRender(); if(cur==="me") renderStats(); renderBackupHint(); });
 
 /* ---------- tabs & language ---------- */
 let cur="today";
-const TABS=["today","read","dict","new","pile","browse","stats","settings"];
+const TABS=["today","read","dict","me","extras"];
+const LEG={new:"browse",pile:"pile",browse:"browse",stats:"stats",settings:"settings"};
+function exRender(){
+  const go=()=>{ if(cur!=="extras") return; rbRender(); cuRender(); bsRender(); try{ pkRender(); }catch(e){} };
+  if(!MG.idx&&!MG.err&&typeof mgLoad==="function") mgLoad().then(go,go); else go();
+}
+function meRender(){ renderBrowse(); renderPile(); renderStats(); renderAISettings(); renderStorage(); renderBackupHint(); }
 function showTab(t){
-  if(t==="new") t="browse";
+  let fold=null;
+  if(LEG[t]){ fold=LEG[t]; t="me"; }
   if(t==="dict") setTimeout(()=>{ const q=$("#dx-q"); if(q&&!q.value) try{ q.focus({preventScroll:true}); }catch(e){} },80);
   if(!TABS.includes(t)) t="today";
-  cur=t; const grp={pile:"browse",settings:"stats"}[t]||t;
+  cur=t;
   { const st=document.querySelector("section.strip"); if(st) st.hidden=t!=="today"; }
-  $$("#tabs button").forEach(b=>{ b.setAttribute("aria-selected",b.dataset.tab===t); b.classList.toggle("grp-on",b.dataset.tab===grp); });
-  $$(".subsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.sub===t));
+  $$("#tabs button").forEach(b=>{ b.setAttribute("aria-selected",b.dataset.tab===t); b.classList.toggle("grp-on",b.dataset.tab===t); });
   TABS.forEach(k=>document.getElementById("tab-"+k).hidden=k!==t);
-  if(t==="pile") renderPile(); if(t==="browse") renderBrowse(); if(t==="stats") renderStats();
-  if(t==="settings"){ renderAISettings(); renderStorage(); renderBackupHint(); }
+  if(t==="me"){ meRender(); if(fold){ const d=document.getElementById("fold-"+fold); if(d){ d.open=true; setTimeout(()=>{ try{ d.scrollIntoView({block:"start"}); }catch(e){} },30); } } }
+  if(t==="extras") exRender();
   if(t==="today"&&sess) renderCard();
   if(t==="read") mgRender(); else { if(typeof mgClose==="function"&&MG.sheet) mgClose(); if(typeof rdStop==="function") rdStop(); }
   try{ localStorage.setItem("pw-tab",t); }catch(e){}
 }
 $("#tabs").addEventListener("click",e=>{ const b=e.target.closest("[data-tab]"); if(b) showTab(b.dataset.tab); });
-document.addEventListener("click",e=>{ const b=e.target.closest(".subsw [data-sub]"); if(b) showTab(b.dataset.sub); });
 $("#opt-langs").addEventListener("change",()=>{ const v=$$("#opt-langs input:checked").map(i=>i.value);
   if(!v.length){ toast(trOne("至少选一种语言。")); renderLangs(); return; }
   S.settings.langsOn=v; save(); if(!v.includes(lang())){ S.settings.lang=v[0]; save(); } applyLang(); });
