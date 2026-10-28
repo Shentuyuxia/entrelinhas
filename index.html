@@ -1187,7 +1187,20 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
   <!-- 我的 (词匣 + 生词堆 + 进度 + 设置) -->
   <section id="tab-me" class="me" hidden>
     <div class="acct" data-acct></div>
-        <details class="fold" id="fold-browse" open>
+    <details class="fold" id="fold-stats" open>
+      <summary><span>进度</span></summary>
+      <div id="tab-stats" class="grid foldbody">
+    <div class="panel" id="stats-main"></div>
+    <aside class="side">
+      <div class="panel help">
+        <h3>复习间隔怎么算</h3>
+        <p class="note">每次评分决定下次出现的时间：「忘了」当天重来；「模糊」间隔略增；「记得」按 1 → 3 → 约 7 → 约 18 天递增；「简单」跳得更远。</p>
+        <p class="note">间隔达到 30 天以上的词算「精通」。</p>
+      </div>
+    </aside>
+</div>
+    </details>
+    <details class="fold" id="fold-browse">
       <summary><span>词匣</span></summary>
       <div id="tab-browse" class="grid one foldbody">
     <div class="panel adpanel">
@@ -1240,19 +1253,6 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       <div class="panel help">
         <h3>掌握程度分级</h3>
         <div class="lvrows small" id="stage-legend"></div>
-      </div>
-    </aside>
-</div>
-    </details>
-    <details class="fold" id="fold-stats">
-      <summary><span>进度</span></summary>
-      <div id="tab-stats" class="grid foldbody">
-    <div class="panel" id="stats-main"></div>
-    <aside class="side">
-      <div class="panel help">
-        <h3>复习间隔怎么算</h3>
-        <p class="note">每次评分决定下次出现的时间：「忘了」当天重来；「模糊」间隔略增；「记得」按 1 → 3 → 约 7 → 约 18 天递增；「简单」跳得更远。</p>
-        <p class="note">间隔达到 30 天以上的词算「精通」。</p>
       </div>
     </aside>
 </div>
