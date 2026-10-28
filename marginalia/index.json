@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:02:47+00:00",
+ "updated": "2026-10-28T15:56:49+00:00",
  "days": [
   {
    "date": "2026-10-28",
@@ -42,6 +42,22 @@
      "title": "Zwanzig Liter Dankbarkeit – ein Paket beim Nachbarn",
      "kind": "dialogue",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Une tasse de thé à la biennale de Gwangju",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Gwangju, la biennale qui ne sait pas oublier",
+     "kind": "feature",
+     "level": "C1",
      "hour": null
     }
    ]
