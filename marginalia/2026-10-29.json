@@ -143,6 +143,257 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "feature",
+   "section": "Natur & Wissen",
+   "title": "Die Trompeter des Herbstes",
+   "dek": "Wenn im Oktober laute Rufe vom Himmel kommen, ziehen die Kraniche nach Süden. Über einen Vogel, der tanzt, sein Leben lang treu bleibt und in Deutschland ein erstaunliches Comeback erlebt hat.",
+   "paragraphs": [
+    "Man hört sie, bevor man sie sieht: ein vielstimmiges, trompetenartiges Rufen, das plötzlich den ganzen Himmel füllt. Wer dann nach oben schaut, entdeckt lange Ketten und Keile grauer Vögel, die nach Südwesten ziehen. Jeden Herbst machen sich Kraniche aus Skandinavien, dem Baltikum, Polen und Ostdeutschland auf den Weg in ihre Winterquartiere. Der Ökologe und Techno-DJ Dominik Eulberg, der für Spektrum der Wissenschaft über tönende Tiere schreibt, beobachtet dieses Schauspiel nach eigener Aussage am liebsten direkt von seiner Haustür aus.",
+    "Der Graukranich ist der größte Vogel Europas. Aufgerichtet erreicht er bis zu 1,30 Meter, wiegt etwa vier bis sieben Kilo und hat eine Flügelspannweite von bis zu 2,45 Metern. Sein Gefieder ist überwiegend grau, Kopf und Hals sind schwarz-weiß gezeichnet, und am Hinterkopf sitzt ein nackter roter Fleck, der bei Aufregung besonders gut zu sehen ist. Anders als Reiher fliegen Kraniche mit ausgestrecktem Hals, und sie schaffen bis zu 2.000 Kilometer am Stück.",
+    "Ihre gewaltige Stimme verdanken sie einer bis zu 1,30 Meter langen Luftröhre, die wie ein Resonanzraum wirkt. Junge Kraniche klingen dagegen noch hoch und piepsig – sie sind sozusagen noch nicht im Stimmbruch. Sogar der Name des Vogels soll auf seinen Ruf zurückgehen, ein lautmalerisches „krrou“. Und die Sprache hat noch mehr vom Kranich übernommen: Der Baukran ist nach seinem langen Hals benannt, und die Cranberry heißt im Niederdeutschen Kranbeere.",
+    "Kraniche sind ausgesprochen gesellig und bleiben meist ein Leben lang mit demselben Partner zusammen; auf dem Zug reisen sie als Familie. Berühmt ist ihr Balztanz im Frühjahr: Die Vögel verbeugen sich mit ausgebreiteten Flügeln, hüpfen, drehen sich im Kreis, laufen im Zickzack und werfen Zweige oder Pflanzenbüschel in die Luft. Danach brüten sie am Boden, am liebsten in nassen Bruch- und Moorwäldern. Das Wasser rund um das Nest hält Füchse und Wildschweine fern.",
+    "Auf dem Weg nach Süden legen die Kraniche wochenlange Pausen ein. Zehntausende sammeln sich an der Müritz, in der Boddenlandschaft Vorpommerns oder im brandenburgischen Linum. Im Nationalpark Unteres Odertal bei Gartz liegt einer der größten Schlafplätze im deutschen Binnenland, und im benachbarten polnischen Zwischenoderland können bis zu 15.000 Kraniche übernachten. Tagsüber fressen sie auf Wiesen und Feldern, abends fliegen sie laut rufend zu ihren Schlafplätzen im flachen Wasser. Der Nationalpark lädt deshalb jedes Jahr zu Kranichtagen ein, mit Abendführungen unter dem Motto „Kraniche gehen schlafen“ und sogar mit Kanutouren.",
+    "Traditionell überwintern die Vögel in den Eichenwäldern der spanischen Extremadura. Doch mit dem wärmeren Klima bleiben immer mehr schon in Südfrankreich oder sogar in Deutschland, etwa in der Diepholzer Moorniederung. Dass es überhaupt so viele Kraniche gibt, ist eine echte Erfolgsgeschichte: Anfang der 1970er-Jahre brüteten im Osten Deutschlands nur rund 800 Paare, im Westen weniger als 20. Heute sind es fast 12.000 Brutpaare, und die Zahl der durchziehenden Vögel ist von etwa 40.000 auf rund 400.000 gestiegen. Kein Wunder, dass der Kranich in vielen Kulturen als Vogel des Glücks gilt."
+   ],
+   "paragraphs_en": [
+    "You hear them before you see them: a many-voiced, trumpet-like calling that suddenly fills the whole sky. Anyone who looks up then spots long lines and wedges of grey birds heading south-west. Every autumn, cranes from Scandinavia, the Baltic states, Poland and eastern Germany set off for their winter quarters. The ecologist and techno DJ Dominik Eulberg, who writes about sounding animals for Spektrum der Wissenschaft, says he likes best to watch this spectacle straight from his front door.",
+    "The common crane is Europe's largest bird. Standing upright it reaches up to 1.30 metres, weighs about four to seven kilos and has a wingspan of up to 2.45 metres. Its plumage is mostly grey, its head and neck are marked in black and white, and on the back of its head there is a bare red patch that is especially visible when the bird is excited. Unlike herons, cranes fly with their necks stretched out, and they can manage up to 2,000 kilometres in one go.",
+    "They owe their mighty voice to a windpipe up to 1.30 metres long that works like a resonance chamber. Young cranes, by contrast, still sound high and squeaky – their voices, so to speak, haven't broken yet. Even the bird's name is said to come from its call, an onomatopoeic \"krrou\". And language has taken even more from the crane: the construction crane is named after its long neck, and in Low German the cranberry is called Kranbeere.",
+    "Cranes are extremely sociable and usually stay with the same partner for life; on migration they travel as a family. Their courtship dance in spring is famous: the birds bow with outspread wings, hop, turn in circles, run in zigzags and toss twigs or tufts of plants into the air. Afterwards they breed on the ground, preferably in wet swamp and bog forests. The water around the nest keeps foxes and wild boar away.",
+    "On their way south, the cranes take breaks lasting weeks. Tens of thousands gather at the Müritz lake, in the lagoon landscape of Western Pomerania or in Linum in Brandenburg. In the Lower Oder Valley National Park near Gartz lies one of the largest roosting sites in inland Germany, and in the neighbouring Polish Zwischenoderland up to 15,000 cranes can spend the night. By day they feed on meadows and fields; in the evening they fly, calling loudly, to their roosts in shallow water. That is why the national park holds Crane Days every year, with evening tours under the motto \"Cranes go to sleep\" and even canoe trips.",
+    "Traditionally the birds spend the winter in the oak forests of Spain's Extremadura. But with the warmer climate, more and more of them stay in southern France or even in Germany, for instance in the Diepholz moor lowlands. That there are so many cranes at all is a real success story: in the early 1970s only about 800 pairs bred in eastern Germany, and fewer than 20 in the west. Today there are almost 12,000 breeding pairs, and the number of birds passing through has risen from about 40,000 to around 400,000. No wonder that in many cultures the crane is seen as the bird of luck."
+   ],
+   "paragraphs_zh": [
+    "还没看见，先听见了：一阵此起彼伏、像小号一样的鸣叫忽然充满整片天空。这时抬头望去，就能看到一列列、一队队灰色的大鸟排成长线和人字形，朝西南方向飞去。每年秋天，来自斯堪的纳维亚、波罗的海国家、波兰和德国东部的灰鹤都会启程飞往越冬地。生态学家兼电子音乐DJ多米尼克·奥伊尔贝格在《科学光谱》上写“会发声的动物”专栏，他说自己最喜欢直接站在家门口看这场壮观的迁徙。",
+    "灰鹤是欧洲最大的鸟。它站直时可高达1.30米，体重约四到七公斤，翼展可达2.45米。它的羽毛大部分是灰色，头颈有黑白相间的花纹，后脑勺上有一块裸露的红斑，鸟儿激动时尤其明显。和鹭不同，鹤飞行时脖子是伸直的，一口气最远能飞2000公里。",
+    "它们洪亮的声音要归功于一根长达1.30米、像共鸣腔一样的气管。相比之下，小鹤的叫声还又高又细——可以说它们还没到变声期。据说连“鹤”这个德语名字都来自它的叫声，一个拟声的“krrou”。语言从鹤身上借来的还不止这些：建筑用的起重机因为长长的“脖子”而得名，而蔓越莓在低地德语里叫“鹤莓”。",
+    "鹤非常合群，通常一生只和同一个伴侣在一起；迁徙时它们以家庭为单位同行。它们春天的求偶舞很有名：鸟儿张开翅膀鞠躬、跳跃、转圈、走之字形，还把树枝或草丛抛向空中。之后它们在地面筑巢，最喜欢潮湿的沼泽林和泥炭林。巢周围的水能挡住狐狸和野猪。",
+    "南飞途中，鹤会停下来休息好几个星期。成千上万只鹤聚集在米里茨湖、前波美拉尼亚的潟湖地带，或者勃兰登堡的利努姆。在加茨附近的下奥得河谷国家公园，有德国内陆最大的夜栖地之一；而在相邻的波兰奥得河间地区，最多可有15000只鹤在此过夜。白天它们在草地和田野上觅食，傍晚则高声鸣叫着飞回浅水中的夜栖地。因此，国家公园每年都举办“灰鹤节”，有以“灰鹤去睡觉”为主题的傍晚导览，甚至还有独木舟之旅。",
+    "传统上，这些鸟在西班牙埃斯特雷马杜拉的橡树林里越冬。但随着气候变暖，越来越多的鹤在法国南部、甚至在德国就留了下来，比如迪普霍尔茨沼泽低地。能有这么多鹤，本身就是一个成功的故事：20世纪70年代初，德国东部只有约800对鹤繁殖，西部还不到20对。如今已有将近12000个繁殖对，途经德国的鹤也从约4万只增加到约40万只。难怪在许多文化里，鹤都被视为幸运之鸟。"
+   ],
+   "paragraphs_pt": [
+    "A gente ouve antes de ver: um chamado a muitas vozes, parecido com trompetes, que de repente enche o céu inteiro. Quem olha para cima descobre longas fileiras e formações em V de aves cinzentas rumo ao sudoeste. Todo outono, grous da Escandinávia, dos países bálticos, da Polônia e do leste da Alemanha partem para seus quartéis de inverno. O ecólogo e DJ de techno Dominik Eulberg, que escreve sobre animais sonoros para a Spektrum der Wissenschaft, diz que gosta mais de observar esse espetáculo direto da porta de casa.",
+    "O grou-comum é a maior ave da Europa. Em pé, chega a até 1,30 metro, pesa cerca de quatro a sete quilos e tem uma envergadura de até 2,45 metros. A plumagem é quase toda cinza, cabeça e pescoço têm desenho preto e branco, e na nuca há uma mancha vermelha sem penas, que aparece bem quando a ave está agitada. Ao contrário das garças, os grous voam com o pescoço esticado, e conseguem fazer até 2.000 quilômetros de uma vez.",
+    "Eles devem a voz poderosa a uma traqueia de até 1,30 metro, que funciona como caixa de ressonância. Os filhotes, por outro lado, ainda soam agudos e piados – estão, por assim dizer, antes da mudança de voz. Até o nome alemão da ave viria do seu chamado, um onomatopeico \"krrou\". E a língua pegou ainda mais coisas do grou: o guindaste (Kran) tem esse nome por causa do pescoço comprido, e o cranberry se chama Kranbeere em baixo-alemão.",
+    "Os grous são muito sociáveis e costumam ficar a vida toda com o mesmo parceiro; na migração, viajam em família. Famosa é a dança de acasalamento na primavera: as aves se curvam de asas abertas, pulam, giram em círculos, correm em zigue-zague e jogam galhos ou tufos de plantas para o alto. Depois fazem o ninho no chão, de preferência em matas alagadas e turfeiras. A água em volta do ninho mantém raposas e javalis longe.",
+    "No caminho para o sul, os grous fazem paradas de semanas. Dezenas de milhares se juntam no lago Müritz, nas lagunas da Pomerânia Ocidental ou em Linum, em Brandemburgo. No Parque Nacional do Baixo Oder, perto de Gartz, fica um dos maiores dormitórios do interior da Alemanha, e na vizinha região polonesa de Zwischenoderland até 15.000 grous podem passar a noite. De dia comem em prados e campos; à tardinha voam, chamando alto, para seus dormitórios em água rasa. Por isso o parque nacional promove todo ano os Dias do Grou, com passeios ao entardecer sob o lema \"Os grous vão dormir\" e até passeios de canoa.",
+    "Tradicionalmente as aves passam o inverno nos bosques de carvalho da Extremadura, na Espanha. Mas com o clima mais quente, cada vez mais ficam já no sul da França ou até na Alemanha, por exemplo na baixada pantanosa de Diepholz. Que existam tantos grous é uma verdadeira história de sucesso: no início dos anos 1970, só uns 800 casais se reproduziam no leste da Alemanha, e menos de 20 no oeste. Hoje são quase 12.000 casais reprodutores, e o número de aves de passagem subiu de cerca de 40.000 para uns 400.000. Não é à toa que em muitas culturas o grou é visto como a ave da sorte."
+   ],
+   "glossary": [
+    {
+     "w": "der Keil",
+     "de": "Eine Form wie ein spitzes V. Zugvögel fliegen oft in dieser Form hintereinander.",
+     "en": "wedge; V-formation",
+     "zh": "楔形；人字形（雁阵）",
+     "pt": "cunha; formação em V"
+    },
+    {
+     "w": "das Winterquartier",
+     "de": "Der Ort, an dem Tiere den Winter verbringen.",
+     "en": "winter quarters",
+     "zh": "越冬地",
+     "pt": "quartel de inverno, local onde passam o inverno"
+    },
+    {
+     "w": "die Flügelspannweite",
+     "de": "Die Strecke von einer Flügelspitze bis zur anderen, wenn die Flügel ganz offen sind.",
+     "en": "wingspan",
+     "zh": "翼展",
+     "pt": "envergadura"
+    },
+    {
+     "w": "die Luftröhre",
+     "de": "Das Rohr im Hals, durch das die Luft in die Lunge kommt.",
+     "en": "windpipe, trachea",
+     "zh": "气管",
+     "pt": "traqueia"
+    },
+    {
+     "w": "im Stimmbruch sein",
+     "de": "Wenn die Stimme von Jugendlichen tiefer wird und dabei oft unsicher klingt.",
+     "en": "to be going through one's voice breaking",
+     "zh": "处于变声期",
+     "pt": "estar na mudança de voz"
+    },
+    {
+     "w": "lautmalerisch",
+     "de": "So, dass ein Wort ein Geräusch nachahmt, z. B. „kikeriki“ oder „miau“.",
+     "en": "onomatopoeic",
+     "zh": "拟声的",
+     "pt": "onomatopeico"
+    },
+    {
+     "w": "die Balz",
+     "de": "Das besondere Verhalten von Vögeln (Tanz, Rufe), mit dem sie einen Partner gewinnen wollen.",
+     "en": "courtship display (of birds)",
+     "zh": "（鸟类的）求偶行为",
+     "pt": "ritual de acasalamento (de aves)"
+    },
+    {
+     "w": "brüten",
+     "de": "Auf den Eiern sitzen und sie warm halten, bis die Jungen schlüpfen.",
+     "en": "to brood, to breed",
+     "zh": "孵蛋；繁殖",
+     "pt": "chocar (ovos); reproduzir-se"
+    },
+    {
+     "w": "der Schlafplatz",
+     "de": "Der Ort, an dem Tiere die Nacht verbringen; bei Kranichen meist flaches Wasser.",
+     "en": "roost, sleeping place",
+     "zh": "夜栖地",
+     "pt": "dormitório, local de pernoite"
+    },
+    {
+     "w": "überwintern",
+     "de": "Den Winter an einem bestimmten Ort verbringen.",
+     "en": "to spend the winter, to overwinter",
+     "zh": "越冬",
+     "pt": "passar o inverno, invernar"
+    },
+    {
+     "w": "die Erfolgsgeschichte",
+     "de": "Eine Entwicklung, die am Ende sehr gut ausgegangen ist.",
+     "en": "success story",
+     "zh": "成功的故事",
+     "pt": "história de sucesso"
+    }
+   ],
+   "grammar": "The text uses extended adjective/participle attributes, a hallmark of written German: \"eine bis zu 1,30 Meter lange Luftröhre\" (a windpipe up to 1.30 metres long). Everything between the article and the noun describes the noun, with the adjective or participle placed last, right before the noun. English usually moves this information behind the noun or into a relative clause: \"eine Luftröhre, die bis zu 1,30 Meter lang ist\".",
+   "grammar_zh": "文中用了扩展的定语（形容词或分词短语作定语），这是德语书面语的典型特点：„eine bis zu 1,30 Meter lange Luftröhre“（一根长达1.30米的气管）。冠词和名词之间的所有内容都在修饰这个名词，形容词或分词放在最后、紧挨着名词。也可以改写成关系从句：„eine Luftröhre, die bis zu 1,30 Meter lang ist“。",
+   "grammar_de": "Im Text steht ein erweitertes Adjektivattribut, typisch für geschriebenes Deutsch: „eine bis zu 1,30 Meter lange Luftröhre“. Alles zwischen Artikel und Nomen beschreibt das Nomen; das Adjektiv oder Partizip steht am Ende, direkt vor dem Nomen. In der gesprochenen Sprache nimmt man oft lieber einen Relativsatz: „eine Luftröhre, die bis zu 1,30 Meter lang ist“.",
+   "grammar_pt": "O texto usa um atributo adjetival expandido, típico do alemão escrito: „eine bis zu 1,30 Meter lange Luftröhre“ (uma traqueia de até 1,30 metro de comprimento). Tudo o que fica entre o artigo e o substantivo descreve o substantivo, e o adjetivo ou particípio vem por último, logo antes dele. Na fala, prefere-se muitas vezes uma oração relativa: „eine Luftröhre, die bis zu 1,30 Meter lang ist“.",
+   "questions": [
+    "Hast du schon einmal Kraniche oder andere Zugvögel am Himmel gesehen oder gehört? Wie war das?",
+    "Gibt es in deiner Herkunftskultur ein Tier, das als Glücksbringer gilt? Woher kommt diese Bedeutung?",
+    "Würdest du an einer Abendführung „Kraniche gehen schlafen“ teilnehmen? Was würde dich daran reizen?"
+   ],
+   "sources": [
+    {
+     "title": "Dominik Eulberg: Eulbergs tönende Tierwelt – Der Kranich (Spektrum.de, 9.9.2024)",
+     "url": "https://www.spektrum.de/kolumne/eulbergs-toenende-tierwelt-der-kranich/2228694",
+     "license": "link only"
+    },
+    {
+     "title": "Kranichtage 2026: Dem Vogelzug auf der Spur (Nationalpark Unteres Odertal)",
+     "url": "https://www.nationalpark-unteres-odertal.eu/kranichtage-2026-dem-vogelzug-auf-der-spur/",
+     "license": "link only"
+    },
+    {
+     "title": "Kraniche in Deutschland (Planet Wissen, WDR)",
+     "url": "https://www.planet-wissen.de/natur/voegel/zugvoegel/pwiekranicheindeutschland100.html",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "de",
+   "level": "B2",
+   "kind": "brief",
+   "section": "Deutschland kurios",
+   "title": "Wer hat eigentlich den Döner erfunden?",
+   "dek": "Fleisch, Salat und Soße im Fladenbrot – der Döner gilt als Berliner Klassiker. Doch wer ihn zuerst verkauft hat, weiß niemand so genau.",
+   "paragraphs": [
+    "Kaum ein Imbiss ist in Deutschland so beliebt wie der Döner. Laut einem dpa-Bericht gibt es bundesweit über 16.000 Dönerläden, allein in Berlin mehr als 1.600 – die Stadt nennt sich gern „Hauptstadt des Döners“. Fragt man nach dem Erfinder, fällt meist ein Name: Kadir Nurman. Der frühere Gastarbeiter soll 1972 an seiner Imbissbude in der Nähe des Bahnhofs Zoo als Erster Fleisch vom Spieß ins Brot gelegt haben. Seine Idee: Viele Berliner aßen in der Mittagspause im Gehen. Salat und Soße kamen erst später dazu.",
+    "So erzählt es jedenfalls der Verein türkischer Dönerhersteller in Europa, der Nurman offiziell als „Vater des Döners“ ehrt; er starb 2013 mit 80 Jahren in Berlin. Der Soziologe Eberhard Seidel, der sich seit Jahrzehnten mit dem Döner beschäftigt, sieht das anders. Er sagt, man könne gar nicht sicher feststellen, wer ihn als Erster verkauft habe. In einigen türkischen Restaurants in Deutschland habe es ihn schon vorher gegeben, und Döner im Brot sei in der Türkei bereits Mitte der 1960er-Jahre bekannt gewesen.",
+    "Seidel nennt den deutschen Döner deshalb eine Berliner Kreation mit vielen Eltern: Hunderte ehemalige Gastarbeiterinnen und Gastarbeiter der ersten und zweiten Generation hätten ihn in Kreuzberg und anderswo weiterentwickelt. Heute gibt es sogar Luxusvarianten, etwa mit Trüffelcreme im Hotel Adlon für 26 Euro. Für die meisten bleibt der Döner aber, was er immer war: ein günstiges, sattmachendes Essen – und ein Stück deutsch-türkischer Alltagsgeschichte."
+   ],
+   "paragraphs_en": [
+    "Hardly any snack is as popular in Germany as the döner. According to a dpa report, there are more than 16,000 döner shops nationwide, more than 1,600 in Berlin alone – the city likes to call itself the \"döner capital\". Ask who invented it and one name usually comes up: Kadir Nurman. The former guest worker is said to have been the first, in 1972, to put meat from the spit into bread at his snack stand near Bahnhof Zoo. His idea: many Berliners ate on the go during their lunch break. Salad and sauce were only added later.",
+    "That, at least, is how the Association of Turkish Döner Producers in Europe tells it; it officially honours Nurman as the \"father of the döner\". He died in Berlin in 2013 at the age of 80. The sociologist Eberhard Seidel, who has studied the döner for decades, sees it differently. He says it cannot be determined with certainty who sold it first. According to him it had already existed in some Turkish restaurants in Germany before then, and döner in bread was already known in Turkey by the mid-1960s.",
+    "That is why Seidel calls the German döner a Berlin creation with many parents: hundreds of former guest workers of the first and second generation developed it further in Kreuzberg and elsewhere. Today there are even luxury versions, for example with truffle cream at the Hotel Adlon for 26 euros. For most people, though, the döner remains what it always was: a cheap, filling meal – and a piece of German-Turkish everyday history."
+   ],
+   "paragraphs_zh": [
+    "在德国，几乎没有哪种快餐像土耳其烤肉卷（Döner）这么受欢迎。据德新社报道，全德国有超过16000家烤肉店，光柏林就有1600多家——柏林喜欢自称“烤肉之都”。若问是谁发明的，人们通常会提到一个名字：卡迪尔·努尔曼。据说这位昔日的“客籍劳工”1972年在动物园火车站附近的小吃摊上，第一个把烤肉从烤架上切下来夹进面包里。他的想法是：很多柏林人午休时边走边吃。沙拉和酱汁是后来才加上的。",
+    "至少欧洲土耳其烤肉生产商协会是这么说的，该协会正式尊努尔曼为“烤肉之父”；他于2013年在柏林去世，享年80岁。研究烤肉几十年的社会学家埃伯哈德·塞德尔却不这么看。他说，根本无法确定是谁第一个卖烤肉卷的。据他说，在那之前德国的一些土耳其餐馆里就已经有了，而夹在面包里的烤肉在土耳其早在1960年代中期就已为人所知。",
+    "所以塞德尔把德式烤肉卷称为一个“有许多父母”的柏林创造：成百上千名第一代和第二代前客籍劳工在克罗伊茨贝格等地不断改良了它。如今甚至还有豪华版，比如阿德隆酒店里加松露奶油、售价26欧元的烤肉卷。但对大多数人来说，烤肉卷依然是它一直以来的样子：便宜、管饱的一顿饭——也是德土日常生活史的一部分。"
+   ],
+   "paragraphs_pt": [
+    "Quase nenhum lanche é tão popular na Alemanha quanto o döner. Segundo uma reportagem da dpa, há mais de 16.000 lojas de döner no país, mais de 1.600 só em Berlim – a cidade gosta de se chamar \"capital do döner\". Quando se pergunta quem o inventou, geralmente aparece um nome: Kadir Nurman. Diz-se que esse ex-trabalhador convidado foi o primeiro a colocar carne do espeto dentro do pão, em 1972, na sua barraquinha perto da estação Zoo. A ideia dele: muitos berlinenses comiam andando na pausa do almoço. Salada e molho só vieram depois.",
+    "Pelo menos é assim que conta a Associação dos Produtores Turcos de Döner na Europa, que homenageia Nurman oficialmente como \"pai do döner\"; ele morreu em Berlim em 2013, aos 80 anos. O sociólogo Eberhard Seidel, que estuda o döner há décadas, vê a coisa de outro jeito. Ele diz que não dá para saber com certeza quem o vendeu primeiro. Segundo ele, já existia antes em alguns restaurantes turcos na Alemanha, e o döner no pão já era conhecido na Turquia em meados dos anos 1960.",
+    "Por isso Seidel chama o döner alemão de uma criação berlinense com muitos pais: centenas de ex-trabalhadoras e ex-trabalhadores convidados da primeira e da segunda geração o desenvolveram em Kreuzberg e em outros lugares. Hoje existem até versões de luxo, por exemplo com creme de trufas no Hotel Adlon por 26 euros. Para a maioria, porém, o döner continua sendo o que sempre foi: uma refeição barata que enche a barriga – e um pedaço da história cotidiana teuto-turca."
+   ],
+   "glossary": [
+    {
+     "w": "der Imbiss",
+     "de": "Ein kleines, schnelles Essen – oder ein kleiner Laden bzw. Stand, an dem man so etwas kauft (auch: die Imbissbude).",
+     "en": "snack; snack bar/stand",
+     "zh": "小吃；小吃摊",
+     "pt": "lanche; lanchonete, barraca de lanche"
+    },
+    {
+     "w": "der Gastarbeiter / die Gastarbeiterin",
+     "de": "Eine Person, die ab den 1950er- bis 1970er-Jahren aus Ländern wie der Türkei oder Italien zum Arbeiten nach Westdeutschland angeworben wurde.",
+     "en": "guest worker (recruited labour migrant in West Germany)",
+     "zh": "客籍劳工（西德招募的外籍劳工）",
+     "pt": "trabalhador convidado (migrante recrutado pela Alemanha Ocidental)"
+    },
+    {
+     "w": "der Spieß",
+     "de": "Ein langer Stab aus Metall, auf dem Fleisch steckt und gebraten wird.",
+     "en": "spit, skewer",
+     "zh": "烤肉叉；烤架",
+     "pt": "espeto"
+    },
+    {
+     "w": "im Gehen essen",
+     "de": "Essen, während man läuft, ohne sich hinzusetzen.",
+     "en": "to eat on the go",
+     "zh": "边走边吃",
+     "pt": "comer andando"
+    },
+    {
+     "w": "ehren",
+     "de": "Jemandem öffentlich Anerkennung und Respekt zeigen.",
+     "en": "to honour",
+     "zh": "表彰；尊崇",
+     "pt": "homenagear"
+    },
+    {
+     "w": "feststellen",
+     "de": "Etwas sicher herausfinden; auch: etwas bemerken.",
+     "en": "to determine, to establish",
+     "zh": "确定；查明",
+     "pt": "constatar, determinar"
+    },
+    {
+     "w": "sattmachend",
+     "de": "So, dass man danach keinen Hunger mehr hat.",
+     "en": "filling",
+     "zh": "管饱的",
+     "pt": "que enche a barriga, que sacia"
+    },
+    {
+     "w": "anders sehen",
+     "de": "Eine andere Meinung haben (z. B.: „Das sehe ich anders.“).",
+     "en": "to see it differently, to disagree",
+     "zh": "看法不同",
+     "pt": "ver de outro jeito, discordar"
+    }
+   ],
+   "grammar": "In paragraph 2 Seidel's view is reported in Konjunktiv I, the subjunctive of indirect speech: \"man könne … feststellen\", \"wer ihn … verkauft habe\", \"habe es ihn … gegeben\", \"sei … bekannt gewesen\". It signals \"this is what he says\" without the writer vouching for it. Newspapers use it constantly; in everyday speech people usually say \"er sagt, man kann …\" or use Konjunktiv II (\"hätte\", \"wäre\").",
+   "grammar_zh": "第二段用第一虚拟式（Konjunktiv I）转述塞德尔的观点：„man könne … feststellen“、„wer ihn … verkauft habe“、„habe es ihn … gegeben“、„sei … bekannt gewesen“。它表示“这是他说的”，作者本人不为内容担保。报纸上常用这种形式；日常口语里人们一般直接说 „er sagt, man kann …“，或者用第二虚拟式（hätte, wäre）。",
+   "grammar_de": "Im zweiten Absatz wird Seidels Meinung im Konjunktiv I wiedergegeben, der Form der indirekten Rede: „man könne … feststellen“, „wer ihn … verkauft habe“, „habe es ihn … gegeben“, „sei … bekannt gewesen“. So zeigt der Text: Das sagt er, nicht die Autorin. In Zeitungen ist das Standard; im Alltag sagt man meist „er sagt, man kann …“ oder nimmt den Konjunktiv II (hätte, wäre).",
+   "grammar_pt": "No segundo parágrafo, a opinião de Seidel é relatada no Konjunktiv I, o subjuntivo do discurso indireto: „man könne … feststellen“, „wer ihn … verkauft habe“, „habe es ihn … gegeben“, „sei … bekannt gewesen“. Ele indica \"é o que ele diz\", sem que o texto se responsabilize. Os jornais usam isso o tempo todo; no dia a dia, as pessoas costumam dizer „er sagt, man kann …“ ou usar o Konjunktiv II (hätte, wäre).",
+   "questions": [
+    "Isst du gern Döner? Wo gibt es deiner Meinung nach den besten?",
+    "Kennst du ein anderes Gericht, das durch Migration in einem neuen Land entstanden oder verändert worden ist?"
+   ],
+   "sources": [
+    {
+     "title": "Döner Kebab ist eine Berliner Erfindung (berlin.de, dpa)",
+     "url": "https://www.berlin.de/tourismus/insidertipps/2036421-2339440-doener-kebab-ist-eine-berliner-erfindung.html",
+     "license": "link only"
+    },
+    {
+     "title": "50 Jahre Döner Kebab – Die Entwicklung des „German Döners“ (Tageskarte, dpa, 22.3.2022)",
+     "url": "https://www.tageskarte.io/gastronomie/detail/50-jahre-doener-kebab-die-entwicklung-des-german-doeners.html",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

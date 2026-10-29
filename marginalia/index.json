@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T05:22:06+00:00",
+ "updated": "2026-10-29T06:12:06+00:00",
  "days": [
   {
    "date": "2026-10-29",
@@ -10,6 +10,22 @@
      "title": "Who the sea is allowed to take",
      "kind": "essay",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Die Trompeter des Herbstes",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "de",
+     "title": "Wer hat eigentlich den Döner erfunden?",
+     "kind": "brief",
+     "level": "B2",
      "hour": null
     }
    ]
