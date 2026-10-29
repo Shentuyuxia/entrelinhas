@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-28T19:27:22+00:00",
+ "updated": "2026-10-29T05:22:06+00:00",
  "days": [
+  {
+   "date": "2026-10-29",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "Who the sea is allowed to take",
+     "kind": "essay",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-28",
    "items": [
