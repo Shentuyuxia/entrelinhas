@@ -766,6 +766,280 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 4
+   },
+   "title": "De quem é?",
+   "dek": "Duas canecas azuis, um ratinho que não é do Tito e uma meia na boca do Bolinha — hoje ninguém sabe o que é de quem.",
+   "paragraphs": [
+    "Quinta-feira, 29 de outubro de 2026. Querido diário, hoje chove muito. Acordo às sete horas. O Tito está na minha cama, no meu travesseiro. Para ele, a minha cama é a cama dele. E o meu travesseiro? Também é dele, claro.",
+    "Às sete e vinte, eu vou à padaria do Seu João com o meu guarda-chuva amarelo. Amarelo, como a minha casa! O Seu João pergunta do bolo do Lucas: — Qual é o sabor favorito dele, Ana? — Chocolate! — Ótimo. O meu bolo de chocolate é o melhor do bairro. E a festa é quando? — Terça-feira, dia 3 de novembro, às cinco da tarde.",
+    "No ônibus, eu escuto \"O Leãozinho\", do Caetano Veloso. É uma música curta e doce. Eu penso no Tito: ele é pequeno e laranja, como um leão pequeno. Ele é o meu leãozinho! Às oito e meia, eu chego na livraria.",
+    "Na cozinha da livraria tem duas canecas azuis. — Ana, esta caneca é sua ou minha? — pergunta o Lucas. — A minha caneca tem a letra A. A sua tem a letra L. — E a minha? — pergunta a Marta. — A sua é a vermelha, Marta! A Marta é a nossa gerente, e a caneca dela é a maior.",
+    "Ao meio-dia, o Lucas vai ao banco. Eu e a Marta falamos do nosso plano secreto. A irmã dele, a Bia, vem para a festa. Os pais dele também. E o presente? Um livro, claro. A gente trabalha numa livraria!",
+    "Às seis da tarde, eu volto para casa. Na porta, o Tito tem um ratinho azul na boca. Um ratinho de brinquedo! Mas ele não é do Tito. Os brinquedos dele são laranja, vermelhos e verdes. De quem é esse ratinho?",
+    "A Júlia chega com o guarda-chuva dela. — Ah, é o ratinho da Paçoca! É o brinquedo favorito dela. O Tito olha para mim. Os olhos dele dizem: \"Agora é meu.\" — Desculpa, Júlia! — Tudo bem, Ana. Os nossos gatos são vizinhos. Os brinquedos deles são de todos! E ela dá o ratinho para o Tito.",
+    "Depois chega a Dona Rosa com o Bolinha. O Bolinha tem uma meia rosa na boca. — Dona Rosa, essa meia é minha! — Ai, Ana, desculpa! O seu varal é muito baixo, e o Bolinha ama as suas meias. Hoje todo mundo pega as coisas dos vizinhos!",
+    "Às oito e quinze da noite, a minha mãe liga. Ela pergunta: — E a sua semana, filha? E os seus vizinhos? Eu conto tudo: o ratinho da Paçoca, a minha meia e o bolo do Lucas. A minha mãe ri muito. O aniversário dela é no dia 15 de dezembro. Eu escrevo a data no meu caderno.",
+    "São dez e vinte da noite. Amanhã é sexta-feira, dia 30. Faltam cinco dias para a festa do Lucas. Boa noite, diário. Boa noite, Tito, meu leãozinho."
+   ],
+   "paragraphs_en": [
+    "Thursday, 29 October 2026. Dear diary, it's raining a lot today. I wake up at seven o'clock. Tito is on my bed, on my pillow. For him, my bed is his bed. And my pillow? It's his too, of course.",
+    "At twenty past seven I go to Seu João's bakery with my yellow umbrella. Yellow, like my house! Seu João asks about Lucas's cake: \"What's his favourite flavour, Ana?\" \"Chocolate!\" \"Great. My chocolate cake is the best in the neighbourhood. And when is the party?\" \"Tuesday, 3 November, at five in the afternoon.\"",
+    "On the bus I listen to \"O Leãozinho\" by Caetano Veloso. It's a short, sweet song. I think of Tito: he's small and orange, like a little lion. He's my little lion! At half past eight I get to the bookshop.",
+    "In the bookshop kitchen there are two blue mugs. \"Ana, is this mug yours or mine?\" asks Lucas. \"My mug has the letter A. Yours has the letter L.\" \"And mine?\" asks Marta. \"Yours is the red one, Marta!\" Marta is our manager, and her mug is the biggest.",
+    "At noon Lucas goes to the bank. Marta and I talk about our secret plan. His sister, Bia, is coming to the party. His parents too. And the present? A book, of course. We work in a bookshop!",
+    "At six in the evening I go back home. At the door, Tito has a little blue mouse in his mouth. A toy mouse! But it isn't Tito's. His toys are orange, red and green. Whose is this little mouse?",
+    "Júlia arrives with her umbrella. \"Oh, it's Paçoca's mouse! It's her favourite toy.\" Tito looks at me. His eyes say: \"It's mine now.\" \"Sorry, Júlia!\" \"That's all right, Ana. Our cats are neighbours. Their toys belong to everyone!\" And she gives the mouse to Tito.",
+    "Then Dona Rosa arrives with Bolinha. Bolinha has a pink sock in his mouth. \"Dona Rosa, that sock is mine!\" \"Oh, Ana, sorry! Your clothesline is very low, and Bolinha loves your socks.\" Today everybody takes the neighbours' things!",
+    "At a quarter past eight in the evening my mother calls. She asks: \"And your week, sweetheart? And your neighbours?\" I tell her everything: Paçoca's mouse, my sock and Lucas's cake. My mother laughs a lot. Her birthday is on 15 December. I write the date in my notebook.",
+    "It's twenty past ten at night. Tomorrow is Friday, the 30th. Five days until Lucas's party. Good night, diary. Good night, Tito, my little lion."
+   ],
+   "paragraphs_zh": [
+    "2026年10月29日，星期四。亲爱的日记，今天雨下得很大。我七点起床。蒂托在我的床上，在我的枕头上。对他来说，我的床就是他的床。那我的枕头呢？当然也是他的。",
+    "七点二十，我拿着我的黄雨伞去若昂先生的面包店。黄色的，跟我的房子一样！若昂先生问起卢卡斯的蛋糕：“他最喜欢什么口味，安娜？”“巧克力！”“太好了。我的巧克力蛋糕是这一带最好的。派对是什么时候？”“11月3日，星期二，下午五点。”",
+    "在公交车上，我听卡埃塔诺·费洛索的《O Leãozinho》（小狮子）。这是一首又短又甜的歌。我想到蒂托：他小小的、橘色的，像一头小狮子。他是我的小狮子！八点半，我到了书店。",
+    "书店的厨房里有两个蓝色的杯子。“安娜，这个杯子是你的还是我的？”卢卡斯问。“我的杯子上有字母 A。你的有字母 L。”“那我的呢？”玛尔塔问。“你的是红色那个，玛尔塔！”玛尔塔是我们的经理，她的杯子最大。",
+    "中午，卢卡斯去银行。我和玛尔塔讨论我们的秘密计划。他的妹妹比娅会来派对。他的父母也来。礼物呢？当然是一本书。我们在书店工作嘛！",
+    "傍晚六点，我回家。在门口，蒂托嘴里叼着一只蓝色的小老鼠。一只玩具老鼠！但它不是蒂托的。他的玩具是橘色、红色和绿色的。这只小老鼠是谁的？",
+    "茹莉娅拿着她的雨伞来了。“啊，是帕索卡的小老鼠！那是她最喜欢的玩具。”蒂托看着我。他的眼睛在说：“现在是我的了。”“对不起，茹莉娅！”“没关系，安娜。我们的猫是邻居。它们的玩具是大家的！”她把小老鼠给了蒂托。",
+    "然后罗莎太太带着波利尼亚来了。波利尼亚嘴里叼着一只粉色的袜子。“罗莎太太，那只袜子是我的！”“哎呀，安娜，对不起！你的晾衣绳太低了，波利尼亚很爱你的袜子。”今天大家都拿邻居的东西！",
+    "晚上八点一刻，我妈妈打来电话。她问：“女儿，你这周怎么样？你的邻居们呢？”我把一切都告诉她：帕索卡的小老鼠、我的袜子和卢卡斯的蛋糕。我妈妈笑得很开心。她的生日是12月15日。我把日期写在我的本子上。",
+    "现在是晚上十点二十。明天是星期五，30号。离卢卡斯的派对还有五天。晚安，日记。晚安，蒂托，我的小狮子。"
+   ],
+   "paragraphs_de": [
+    "Donnerstag, 29. Oktober 2026. Liebes Tagebuch, heute regnet es sehr. Ich wache um sieben Uhr auf. Tito liegt auf meinem Bett, auf meinem Kissen. Für ihn ist mein Bett sein Bett. Und mein Kissen? Das ist natürlich auch seins.",
+    "Um zwanzig nach sieben gehe ich mit meinem gelben Regenschirm zur Bäckerei von Seu João. Gelb, wie mein Haus! Seu João fragt nach Lucas' Kuchen: „Was ist seine Lieblingssorte, Ana?“ „Schokolade!“ „Prima. Mein Schokoladenkuchen ist der beste im Viertel. Und wann ist die Party?“ „Dienstag, 3. November, um fünf Uhr nachmittags.“",
+    "Im Bus höre ich „O Leãozinho“ von Caetano Veloso. Es ist ein kurzes, süßes Lied. Ich denke an Tito: Er ist klein und orange, wie ein kleiner Löwe. Er ist mein Löwchen! Um halb neun komme ich in der Buchhandlung an.",
+    "In der Küche der Buchhandlung stehen zwei blaue Tassen. „Ana, ist diese Tasse deine oder meine?“, fragt Lucas. „Meine Tasse hat den Buchstaben A. Deine hat den Buchstaben L.“ „Und meine?“, fragt Marta. „Deine ist die rote, Marta!“ Marta ist unsere Chefin, und ihre Tasse ist die größte.",
+    "Mittags geht Lucas zur Bank. Marta und ich sprechen über unseren geheimen Plan. Seine Schwester Bia kommt zur Party. Seine Eltern auch. Und das Geschenk? Ein Buch natürlich. Wir arbeiten ja in einer Buchhandlung!",
+    "Um sechs Uhr abends gehe ich nach Hause. An der Tür hat Tito eine kleine blaue Maus im Maul. Eine Spielzeugmaus! Aber sie gehört nicht Tito. Seine Spielzeuge sind orange, rot und grün. Wem gehört diese kleine Maus?",
+    "Júlia kommt mit ihrem Regenschirm. „Ach, das ist Paçocas Maus! Das ist ihr Lieblingsspielzeug.“ Tito sieht mich an. Seine Augen sagen: „Jetzt ist sie meine.“ „Entschuldigung, Júlia!“ „Kein Problem, Ana. Unsere Katzen sind Nachbarn. Ihre Spielzeuge gehören allen!“ Und sie gibt Tito die Maus.",
+    "Dann kommt Dona Rosa mit Bolinha. Bolinha hat eine rosa Socke im Maul. „Dona Rosa, die Socke ist meine!“ „Ach, Ana, Entschuldigung! Deine Wäscheleine ist sehr niedrig, und Bolinha liebt deine Socken.“ Heute nehmen alle die Sachen der Nachbarn!",
+    "Um Viertel nach acht abends ruft meine Mutter an. Sie fragt: „Und wie ist deine Woche, Liebes? Und deine Nachbarn?“ Ich erzähle alles: Paçocas Maus, meine Socke und Lucas' Kuchen. Meine Mutter lacht sehr. Ihr Geburtstag ist am 15. Dezember. Ich schreibe das Datum in mein Heft.",
+    "Es ist zwanzig nach zehn abends. Morgen ist Freitag, der 30. Noch fünf Tage bis zu Lucas' Party. Gute Nacht, Tagebuch. Gute Nacht, Tito, mein Löwchen."
+   ],
+   "glossary": [
+    {
+     "w": "meu / minha / meus / minhas",
+     "en": "my, mine — agrees with the THING owned: meu travesseiro, minha cama, meus vizinhos, minhas meias",
+     "zh": "我的（跟所属物的阴阳性和单复数一致）",
+     "de": "mein, meine (richtet sich nach der Sache)",
+     "pt": "do \"eu\": o meu gato, a minha casa"
+    },
+    {
+     "w": "seu / sua",
+     "en": "your, yours (for você) — sua caneca, seu varal",
+     "zh": "你的（对 você 说）",
+     "de": "dein, deine (zu você)",
+     "pt": "de você: \"Esta caneca é sua?\""
+    },
+    {
+     "w": "nosso / nossa",
+     "en": "our, ours — nosso plano, nossa gerente, nossos gatos",
+     "zh": "我们的",
+     "de": "unser, unsere",
+     "pt": "de nós, da gente: a nossa rua"
+    },
+    {
+     "w": "dele / dela / deles",
+     "en": "his / her / their — comes AFTER the noun: a cama dele, o brinquedo dela",
+     "zh": "他的／她的／他们的（放在名词后面）",
+     "de": "sein / ihr / ihr (steht nach dem Nomen)",
+     "pt": "de + ele = dele; de + ela = dela: o gato dela"
+    },
+    {
+     "w": "de quem é?",
+     "en": "whose is it? (lit. 'of whom is it?')",
+     "zh": "是谁的？",
+     "de": "Wem gehört das?",
+     "pt": "pergunta para saber o dono de uma coisa"
+    },
+    {
+     "w": "o travesseiro",
+     "en": "pillow",
+     "zh": "枕头",
+     "de": "das Kopfkissen",
+     "pt": "coisa macia na cama, para a cabeça"
+    },
+    {
+     "w": "a caneca",
+     "en": "mug (cf. 'can')",
+     "zh": "马克杯",
+     "de": "die Tasse, der Becher",
+     "pt": "um copo grande com alça, para café ou chá"
+    },
+    {
+     "w": "o guarda-chuva",
+     "en": "umbrella (lit. 'guard-rain')",
+     "zh": "雨伞",
+     "de": "der Regenschirm",
+     "pt": "você usa quando chove"
+    },
+    {
+     "w": "o ratinho de brinquedo",
+     "en": "little toy mouse (rato = mouse, -inho = little)",
+     "zh": "玩具小老鼠",
+     "de": "die kleine Spielzeugmaus",
+     "pt": "um rato pequeno para o gato brincar"
+    },
+    {
+     "w": "o varal",
+     "en": "clothesline",
+     "zh": "晾衣绳",
+     "de": "die Wäscheleine",
+     "pt": "lugar onde a gente coloca a roupa para secar"
+    }
+   ],
+   "grammar": "Possessives: meu/minha, seu/sua and nosso/nossa agree with the thing owned, not the owner: o meu travesseiro, a minha cama, os nossos gatos. For \"his/her/their\", Brazilians usually put dele/dela/deles after the noun: a cama dele (his bed), o brinquedo dela (her toy). To ask \"whose?\": De quem é? — É meu! / É dela.",
+   "grammar_zh": "物主代词：meu/minha、seu/sua、nosso/nossa 跟“被拥有的东西”一致，而不是跟主人一致：o meu travesseiro，a minha cama，os nossos gatos。表示“他的／她的／他们的”，巴西人通常把 dele/dela/deles 放在名词后面：a cama dele（他的床），o brinquedo dela（她的玩具）。问“是谁的？”：De quem é? —— É meu! / É dela.",
+   "grammar_de": "Possessivpronomen: meu/minha, seu/sua und nosso/nossa richten sich nach der Sache, nicht nach dem Besitzer: o meu travesseiro, a minha cama, os nossos gatos. Für „sein/ihr“ stellen Brasilianer meist dele/dela/deles hinter das Nomen: a cama dele (sein Bett), o brinquedo dela (ihr Spielzeug). Frage nach dem Besitzer: De quem é? – É meu! / É dela.",
+   "grammar_pt": "Os possessivos meu/minha, seu/sua e nosso/nossa combinam com a coisa, não com o dono: o meu travesseiro, a minha cama, os nossos gatos. Para \"de ele\" e \"de ela\", a gente fala dele/dela depois da coisa: a cama dele, o brinquedo dela. Para perguntar o dono: De quem é? — É meu! / É dela.",
+   "questions": [
+    "Que dia é hoje no diário da Ana, e a que horas ela acorda?",
+    "De quem é o ratinho azul? E de quem é a caneca vermelha?",
+    "Como é o seu guarda-chuva? Qual é a cor da sua casa? Responda com \"meu\" ou \"minha\"."
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Nos achados e perdidos",
+   "dek": "O Carlos procura a mochila dele e o guarda-chuva da filha na rodoviária. Qual é o dele? Qual é o dela?",
+   "paragraphs": [
+    "Funcionária: Boa tarde! Achados e perdidos da rodoviária. Posso ajudar?",
+    "Carlos: Boa tarde! Eu procuro a minha mochila e o guarda-chuva da minha filha. Eles estão no ônibus das nove da manhã.",
+    "Funcionária: Como é a sua mochila?",
+    "Carlos: A minha mochila é preta e pequena. Dentro tem o meu nome: Carlos Melo.",
+    "Funcionária: Esta mochila preta é sua?",
+    "Carlos: Não, essa é grande. A minha é menor... Ah, aquela ali! Aquela é a minha!",
+    "Funcionária: Ótimo. E o guarda-chuva da sua filha? Como é o guarda-chuva dela?",
+    "Carlos: O guarda-chuva dela é rosa, com flores brancas.",
+    "Funcionária: Aqui tem dois guarda-chuvas rosa. Qual é o dela?",
+    "Carlos: O pequeno. O grande não é nosso.",
+    "Funcionária: Perfeito. Por favor, escreva aqui o seu nome, o seu telefone e a data: quinta-feira, 29 de outubro.",
+    "Carlos: Pronto! Muito obrigado. A minha filha vai ficar muito feliz!"
+   ],
+   "paragraphs_en": [
+    "Clerk: Good afternoon! Bus station lost and found. Can I help you?",
+    "Carlos: Good afternoon! I'm looking for my backpack and my daughter's umbrella. They're on the nine a.m. bus.",
+    "Clerk: What does your backpack look like?",
+    "Carlos: My backpack is black and small. My name is inside: Carlos Melo.",
+    "Clerk: Is this black backpack yours?",
+    "Carlos: No, that one is big. Mine is smaller... Oh, that one over there! That one is mine!",
+    "Clerk: Great. And your daughter's umbrella? What does her umbrella look like?",
+    "Carlos: Her umbrella is pink, with white flowers.",
+    "Clerk: There are two pink umbrellas here. Which one is hers?",
+    "Carlos: The small one. The big one isn't ours.",
+    "Clerk: Perfect. Please write your name, your phone number and the date here: Thursday, 29 October.",
+    "Carlos: Done! Thank you very much. My daughter is going to be very happy!"
+   ],
+   "paragraphs_zh": [
+    "工作人员：下午好！这里是长途汽车站失物招领处。需要帮忙吗？",
+    "卡洛斯：下午好！我在找我的背包和我女儿的雨伞。它们在早上九点那班车上。",
+    "工作人员：你的背包是什么样的？",
+    "卡洛斯：我的背包是黑色的，小小的。里面有我的名字：卡洛斯·梅洛。",
+    "工作人员：这个黑背包是你的吗？",
+    "卡洛斯：不是，那个太大了。我的小一点……啊，那边那个！那个是我的！",
+    "工作人员：太好了。那你女儿的雨伞呢？她的雨伞是什么样的？",
+    "卡洛斯：她的雨伞是粉色的，上面有白色的花。",
+    "工作人员：这里有两把粉色的雨伞。哪一把是她的？",
+    "卡洛斯：小的那把。大的不是我们的。",
+    "工作人员：好的。请在这里写下你的名字、你的电话和日期：星期四，10月29日。",
+    "卡洛斯：写好了！非常感谢。我女儿会很开心的！"
+   ],
+   "paragraphs_de": [
+    "Angestellte: Guten Tag! Fundbüro des Busbahnhofs. Kann ich helfen?",
+    "Carlos: Guten Tag! Ich suche meinen Rucksack und den Regenschirm meiner Tochter. Sie sind im Bus um neun Uhr morgens.",
+    "Angestellte: Wie sieht Ihr Rucksack aus?",
+    "Carlos: Mein Rucksack ist schwarz und klein. Innen steht mein Name: Carlos Melo.",
+    "Angestellte: Ist dieser schwarze Rucksack Ihrer?",
+    "Carlos: Nein, der ist groß. Meiner ist kleiner … Ah, der da drüben! Der ist meiner!",
+    "Angestellte: Prima. Und der Regenschirm Ihrer Tochter? Wie sieht ihr Regenschirm aus?",
+    "Carlos: Ihr Regenschirm ist rosa, mit weißen Blumen.",
+    "Angestellte: Hier sind zwei rosa Regenschirme. Welcher ist ihrer?",
+    "Carlos: Der kleine. Der große gehört nicht uns.",
+    "Angestellte: Perfekt. Bitte schreiben Sie hier Ihren Namen, Ihre Telefonnummer und das Datum: Donnerstag, 29. Oktober.",
+    "Carlos: Fertig! Vielen Dank. Meine Tochter wird sich sehr freuen!"
+   ],
+   "glossary": [
+    {
+     "w": "os achados e perdidos",
+     "en": "lost and found (lit. 'found and lost')",
+     "zh": "失物招领处",
+     "de": "das Fundbüro",
+     "pt": "lugar onde ficam as coisas que as pessoas esquecem"
+    },
+    {
+     "w": "a rodoviária",
+     "en": "bus station (for long-distance buses)",
+     "zh": "长途汽车站",
+     "de": "der Busbahnhof",
+     "pt": "lugar dos ônibus que vão para outras cidades"
+    },
+    {
+     "w": "procurar / procuro",
+     "en": "to look for / I'm looking for",
+     "zh": "寻找／我在找",
+     "de": "suchen / ich suche",
+     "pt": "tentar achar uma coisa"
+    },
+    {
+     "w": "a mochila",
+     "en": "backpack",
+     "zh": "背包",
+     "de": "der Rucksack",
+     "pt": "bolsa grande que a gente leva nas costas"
+    },
+    {
+     "w": "a minha / a sua",
+     "en": "mine / yours — the article + possessive can stand alone: A minha é menor.",
+     "zh": "我的那个／你的那个（可以单独用）",
+     "de": "meine / Ihre (allein stehend)",
+     "pt": "a gente usa sem a coisa: \"A minha é preta.\""
+    },
+    {
+     "w": "dela / nosso",
+     "en": "hers / ours: Qual é o dela? — O grande não é nosso.",
+     "zh": "她的／我们的",
+     "de": "ihrer / unser",
+     "pt": "dela = de ela; nosso = de nós"
+    },
+    {
+     "w": "aquela ali",
+     "en": "that one over there",
+     "zh": "那边那个",
+     "de": "die da drüben",
+     "pt": "uma coisa longe de você e de mim"
+    },
+    {
+     "w": "menor",
+     "en": "smaller (cf. 'minor')",
+     "zh": "更小的",
+     "de": "kleiner",
+     "pt": "mais pequeno"
+    }
+   ],
+   "grammar": "A possessive can stand alone, without the noun: A minha é menor (Mine is smaller). It still agrees with the thing: a mochila → a minha; o guarda-chuva → o dela. For \"hers/his/theirs\" use dela/dele/deles: Qual é o dela? — O pequeno.",
+   "grammar_zh": "物主代词可以单独使用，不带名词：A minha é menor（我的那个小一点）。它仍然跟所指的东西一致：a mochila → a minha；o guarda-chuva → o dela。表示“她的／他的／他们的”用 dela/dele/deles：Qual é o dela? —— O pequeno.",
+   "grammar_de": "Ein Possessiv kann auch allein stehen, ohne Nomen: A minha é menor (Meiner ist kleiner). Es richtet sich trotzdem nach der Sache: a mochila → a minha; o guarda-chuva → o dela. Für „ihrer/seiner“ nimmt man dela/dele/deles: Qual é o dela? – O pequeno.",
+   "grammar_pt": "O possessivo pode ficar sozinho, sem a coisa: A minha é menor. Ele combina com a coisa: a mochila → a minha; o guarda-chuva → o dela. Para \"de ela\", \"de ele\": Qual é o dela? — O pequeno.",
+   "questions": [
+    "Como é a mochila do Carlos?",
+    "Qual guarda-chuva é o da filha dele: o grande ou o pequeno?",
+    "A que horas é o ônibus do Carlos, e que dia é hoje no diálogo?"
+   ],
+   "sources": []
   }
  ]
 }

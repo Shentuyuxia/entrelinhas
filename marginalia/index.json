@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:08:45+00:00",
+ "updated": "2026-10-29T18:56:04+00:00",
  "days": [
   {
    "date": "2026-10-29",
@@ -58,6 +58,22 @@
      "title": "Souleymane Bachir Diagne et la leçon d'ubuntu",
      "kind": "feature",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "pt",
+     "title": "De quem é?",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "pt",
+     "title": "Nos achados e perdidos",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]
