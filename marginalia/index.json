@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T06:12:06+00:00",
+ "updated": "2026-10-29T06:12:17+00:00",
  "days": [
   {
    "date": "2026-10-29",
@@ -26,6 +26,22 @@
      "title": "Wer hat eigentlich den Döner erfunden?",
      "kind": "brief",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
+     "level": "C2",
      "hour": null
     }
    ]
