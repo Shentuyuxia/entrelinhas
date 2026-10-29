@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T06:12:17+00:00",
+ "updated": "2026-10-29T16:08:45+00:00",
  "days": [
   {
    "date": "2026-10-29",
@@ -42,6 +42,22 @@
      "title": "Today's reading list",
      "kind": "picks",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Ubuntu : « Je suis parce que nous sommes »",
+     "kind": "feature",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Souleymane Bachir Diagne et la leçon d'ubuntu",
+     "kind": "feature",
+     "level": "B2",
      "hour": null
     }
    ]
