@@ -3394,8 +3394,13 @@ function renderBackupHint(){
   if(synced) sy.querySelector("span").textContent="已开启多设备同步";
   const stale=!synced&&ownCount()>=5&&(days===null||days>=14);
   sy.className="sync"+(stale?" warn":"");
-  $("#backup-banner").hidden=!stale;
-  $("#backup-banner-t").textContent= days===null?"你已经录入了一些自己的内容，但还没有备份过。数据只存在这台设备上，建议导出一份备份文件。":`上次备份是 ${days} 天前。建议再导出一份备份文件。`;
+  // logged in by email, but this device is not actually syncing (encrypted data without the password, or the login expired)
+  let syStuck=false, syNeedPass=false; try{ syStuck=SY.mode==="sb"&&!!SY.email&&(!!SY.needPass||!SY.refresh); syNeedPass=!!SY.needPass; }catch(e){} // SY may not exist yet during start-up
+  const bb=$("#backup-banner"); bb.dataset.sy=syStuck?(syNeedPass?"pass":"login"):"";
+  bb.hidden=!stale&&!syStuck; if(syStuck) sy.className="sync warn";
+  $("#backup-banner-t").textContent= syStuck? (syNeedPass?"这台设备还没有同步：你的数据是加密的，请输入加密密码（和其他设备上的一样）。":"这台设备的登录已过期，暂时没有同步。请重新用邮箱登录。")
+    : days===null?"你已经录入了一些自己的内容，但还没有备份过。数据只存在这台设备上，建议导出一份备份文件。":`上次备份是 ${days} 天前。建议再导出一份备份文件。`;
+  $("#backup-banner-go").textContent= syStuck?(syNeedPass?"输入密码":"重新登录"):"现在备份";
   const bl=$("#bk-last"); if(bl) bl.textContent= S.lastBackup? "上次备份："+new Date(S.lastBackup).toLocaleString(uiLocale()) : "还没有备份过。";
 }
 
@@ -3522,7 +3527,7 @@ async function exportBackup(){
 }
 let pendingImport=null;
 $("#bk-export").addEventListener("click",exportBackup);
-$("#backup-banner-go").addEventListener("click",()=>{ showTab("settings"); exportBackup(); });
+$("#backup-banner-go").addEventListener("click",()=>{ const m=$("#backup-banner").dataset.sy; if(m){ showTab("settings"); syView="sb"; renderSync(); setTimeout(()=>{ const el=$(m==="pass"?"#sb-pass-in":"#sb-email"); const p=$("#sy-panel"); if(p) p.scrollIntoView({behavior:"smooth",block:"start"}); if(el&&!el.closest("[hidden]")) el.focus({preventScroll:true}); },60); return; } showTab("settings"); exportBackup(); });
 $("#sync").addEventListener("click",()=>showTab("settings"));
 $("#bk-import").addEventListener("change",async e=>{
   const f=e.target.files&&e.target.files[0]; e.target.value=""; if(!f) return;

@@ -200,7 +200,7 @@
   "format": "Three A1 items every evening: (1) Diário da Ana (first-person diary, full date, clock times, today's weekday focus); (2) a short everyday dialogue (8–12 lines); (3) a very short real-life text, \"Textinho\" (a WhatsApp chat, a note, a sign, a menu, an invitation, a small ad: 40–90 words). New glossary words of the day go into the flashcards (data/pt-BS.json).",
   "topics_by_weekday": {
    "Mon": "datas, horas e dias da semana + perguntas sobre estudos e profissão",
-   "Tue": "plural + masculino e feminino",
+   "Tue": "adjetivos e locuções adjetivas: concordância (o bolo gostoso, a casa amarela, os gatos pretos), posição depois do substantivo, substantivo + de + substantivo (bolo de chocolate, suco de laranja, casa de praia, comida de mãe) vs. de + artigo para posse (o bolo da mãe); + plural e masculino/feminino",
    "Wed": "números (contando em português: idades, preços, telefones, horários)",
    "Thu": "pronomes possessivos",
    "Fri": "pronomes interrogativos",
@@ -216,7 +216,8 @@
    "Masculino e Feminino",
    "Pronomes Interrogativos",
    "Advérbios",
-   "Preposições"
+   "Preposições",
+   "Adjetivos e locuções adjetivas (substantivo + de + substantivo)"
   ],
   "dialogue_focus": {
    "from": "2026-10-30",
