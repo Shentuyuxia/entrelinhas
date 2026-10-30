@@ -197,7 +197,7 @@
   "weekend": "Saturday and Sunday: no new English, German or French texts (no weekly review)."
  },
  "pt_focus": {
-  "format": "Diário de Ana (first-person diary, always opens with the full date and uses clock times) + one short dialogue on the same grammar topic",
+  "format": "Three A1 items every evening: (1) Diário da Ana (first-person diary, full date, clock times, today's weekday focus); (2) a short everyday dialogue (8–12 lines); (3) a very short real-life text, \"Textinho\" (a WhatsApp chat, a note, a sign, a menu, an invitation, a small ad: 40–90 words). New glossary words of the day go into the flashcards (data/pt-BS.json).",
   "topics_by_weekday": {
    "Mon": "datas, horas e dias da semana + perguntas sobre estudos e profissão",
    "Tue": "plural + masculino e feminino",
@@ -217,6 +217,21 @@
    "Pronomes Interrogativos",
    "Advérbios",
    "Preposições"
-  ]
+  ],
+  "dialogue_focus": {
+   "from": "2026-10-30",
+   "until": "2026-11-05",
+   "topic": "perguntas: pronomes interrogativos (que / o que, quem, onde, de onde, aonde, quando, como, qual / quais, quanto / quanta / quantos / quantas, por que vs. porque, a que horas, com quem, para quem) + yes/no questions with rising intonation, \"né?\", \"Tudo bem?\"",
+   "note": "Until this date the dialogue (and the Textinho, where natural) practises asking questions instead of the weekday topic; the diary keeps the weekday topic. After it, the dialogue follows topics_by_weekday again."
+  },
+  "textinho_rotation": {
+   "Mon": "mensagens de WhatsApp entre amigos",
+   "Tue": "um bilhete ou recado (na geladeira, para a vizinha)",
+   "Wed": "um cardápio, uma lista de preços ou um anúncio pequeno",
+   "Thu": "um convite (aniversário, festa, jantar)",
+   "Fri": "uma placa ou um aviso (na padaria, no prédio, no metrô)",
+   "Sat": "um cartão-postal ou uma mensagem de voz transcrita",
+   "Sun": "uma agenda ou lista de tarefas da semana"
+  }
  }
 }

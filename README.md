@@ -17,7 +17,7 @@ Daily reading and flashcards in German, English, Brazilian Portuguese and French
 - **词匣（Word box）**：自己加词，浏览全部词汇和生词堆（练习堆）。
 - **我的**：统计（Stats）和设置（Settings）。
 - **界面语言**：中文／English／Deutsch／Português；释义和语法说明的语言可单独设置，没有的语言退回英文。
-- **同步**：用电子邮件登录（Supabase），或用自己的私有 GitHub 仓库保存进度。不登录时，一切只存在这台设备的浏览器里。见 `privacy.html`。
+- **同步**：用电子邮件登录（Supabase），或用自己的私有 GitHub 仓库保存进度。改动后约 5 秒上传；App 开着时每分钟、切回 App 时都会取回其他设备的进度。每个浏览器（Safari、Chrome、加到主屏幕的 App）各算一台设备，都要用同一个邮箱登录。不登录时，一切只存在这台设备的浏览器里。见 `privacy.html`。
 - **离线**：打开过一次以后没有网络也能用（`sw.js`）。
 
 ## 文件结构
@@ -65,7 +65,7 @@ supabase/schema.sql     邮箱登录同步需要的数据表（在 Supabase 里�
 | 每天 06:37 | Lesetipps / Reading list | 德语、英语各一份「推荐阅读」原文链接 |
 | 每天 06:52 | Deutsch | 一篇 C1 文化与生活长文（不写政治新闻）+ 一篇 B2 短文（「Wort & Wendung」词语来历／「Deutschland kurios」冷知识） |
 | 每天 16:47 | Français | 两篇，一易一难，级别按星期轮换（见 `marginalia/config.json`）；不写推荐 |
-| 每天 19:52 | Português | 连载故事「Tito e Ana」+ 一段日常对话（A1） |
+| 每天 19:52 | Português | 三篇 A1：「O diário da Ana」日记 + 一段短对话 + 一则「Textinho」生活小文本（短信、留言、菜单、告示……）；当天的生词同时加进单词卡（`data/pt-BS.json`，「入门」）。对话的专项练习见 `marginalia/config.json` 的 `pt_focus.dialogue_focus` |
 | 周日 18:37 | Wochenrückblick | `marginalia/weekly.json`：本周回顾和测验 |
 
 写作规则（选题、来源、立场、版权、文件格式）都在 `marginalia/README.md`，难度和来源清单在 `marginalia/config.json`。

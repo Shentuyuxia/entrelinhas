@@ -2115,7 +2115,7 @@ function buildDaily(){
   const nw=mine.concat(LV().map(v=>shuffle(std.filter(c=>c.lvl===v))).flat());
   const q=[]; let i=0,j=0;
   while(i<due.length||j<nw.length){ for(let k=0;k<3&&i<due.length;k++) q.push({c:due[i++]}); if(j<nw.length) q.push({c:nw[j++],isNew:true}); }
-  sess={mode:"daily",title:"今日学习",queue:q,total:q.length,done:0,cur:null,flipped:false};
+  sess={mode:"daily",title:"今日学习",queue:q,total:q.length,done:0,cur:null,flipped:false,t0:Date.now()};
   next();
 }
 function buildExtra(n){
@@ -3553,12 +3553,15 @@ let SY=(()=>{ try{ return JSON.parse(localStorage.getItem(SYK))||{}; }catch(e){ 
 function sySave(){ try{ localStorage.setItem(SYK,JSON.stringify(SY)); }catch(e){} }
 const b64e=u8=>{ let s=""; for(let i=0;i<u8.length;i+=0x8000) s+=String.fromCharCode.apply(null,u8.subarray(i,i+0x8000)); return btoa(s); };
 const b64d=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
-async function syKey(pass,salt){ const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pass),"PBKDF2",false,["deriveKey"]); return crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:310000,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["encrypt","decrypt"]); }
-async function syEnc(obj,pass){ const salt=crypto.getRandomValues(new Uint8Array(16)), iv=crypto.getRandomValues(new Uint8Array(12));
+const SYKC=new Map(); // derived keys, cached per salt (PBKDF2 is slow on phones)
+async function syKey(pass,salt){ const ck=pass+"|"+b64e(salt); if(SYKC.has(ck)) return SYKC.get(ck); const k=await syKey0(pass,salt); if(SYKC.size>3) SYKC.clear(); SYKC.set(ck,k); return k; }
+async function syKey0(pass,salt){ const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pass),"PBKDF2",false,["deriveKey"]); return crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:310000,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["encrypt","decrypt"]); }
+let sySalt=null;
+async function syEnc(obj,pass){ const salt=sySalt||(sySalt=crypto.getRandomValues(new Uint8Array(16))), iv=crypto.getRandomValues(new Uint8Array(12));
   const ct=new Uint8Array(await crypto.subtle.encrypt({name:"AES-GCM",iv},await syKey(pass,salt),new TextEncoder().encode(JSON.stringify(obj))));
   return JSON.stringify({app:"entrelinhas-sync",v:1,salt:b64e(salt),iv:b64e(iv),ct:b64e(ct)}); }
 async function syDec(txt,pass){ let o; try{ o=JSON.parse(txt); }catch(e){ throw new Error("format"); } if(!o||o.app!=="entrelinhas-sync") throw new Error("format");
-  try{ const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64d(o.iv)},await syKey(pass,b64d(o.salt)),b64d(o.ct)); return JSON.parse(new TextDecoder().decode(pt)); }
+  try{ const salt=b64d(o.salt); const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64d(o.iv)},await syKey(pass,salt),b64d(o.ct)); sySalt=salt; return JSON.parse(new TextDecoder().decode(pt)); }
   catch(e){ throw new Error("pass"); } }
 function ghH(raw){ return {Authorization:"Bearer "+SY.token,Accept:raw?"application/vnd.github.raw+json":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}; }
 const ghURL=()=>`https://api.github.com/repos/${SY.repo}/contents/${SYF}`;
@@ -3699,13 +3702,15 @@ async function syncNow(manual){
     for(let k=0;k<3;k++){
       const g=await bk.get(); let next=syPack(), h=await canon(next);
       if(g&&g.ver===SY.ver&&h===SY.h){ SY.last=Date.now(); SY.err=""; break; }
-      if(g){ const R=await syDecode(g.text); changed=syApply(syMerge(next,R))||changed; next=syPack(); h=await canon(next);
+      // decode first (slow on phones), THEN take a fresh local snapshot and merge+apply synchronously,
+      // so cards graded while the request was in flight are never overwritten by an older snapshot
+      if(g){ const R=await syDecode(g.text); next=syPack(); changed=syApply(syMerge(next,R))||changed; next=syPack(); h=await canon(next);
         if(h===await canon(R)&&(!!SY.pass)===(JSON.parse(g.text).app==="entrelinhas-sync")){ SY.ver=g.ver; SY.h=h; SY.last=Date.now(); SY.err=""; break; } }
       const r=await bk.put(await syEncode(next),g?g.ver:null);
       if(r.ok){ SY.ver=r.ver; SY.h=h; SY.last=Date.now(); SY.err=""; break; }
     }
     sySave(); renderBackupHint(); renderSync();
-    if(changed){ await applyLang(); mineList(); }
+    if(changed){ await syRefresh(); mineList(); }
     if(manual) syMsg("已同步 · "+new Date(SY.last).toLocaleTimeString(uiLocale(),{hour:"2-digit",minute:"2-digit"}));
   }catch(e){
     if(e.message==="needpass"){ SY.needPass=true; }
@@ -3713,10 +3718,33 @@ async function syncNow(manual){
   }
   finally{ syBusy=false; if(syAgain){ syAgain=false; setTimeout(()=>syncNow(),500); } }
 }
-let syT=null;
-function syLater(){ if(!syOn()) return; clearTimeout(syT); syT=setTimeout(()=>syncNow(),20000); }
-document.addEventListener("visibilitychange",()=>{ if(!syOn()) return; if(document.hidden){ clearTimeout(syT); syncNow(); } else if(!sess||!sess.flipped) syncNow(); });
+/* after a sync brought in changes from another device: refresh quietly instead of resetting the whole page
+   (an open article or word sheet stays open; the current flashcard stays where it is) */
+async function syRefresh(){
+  const l=lang();
+  if(!langsOn().includes(S.settings.lang)||!DATA[l]){ await applyLang(); return; }
+  rebuildCards();
+  if(sess&&sess.mode==="daily"){
+    if(!sess.flipped&&!sess.done) buildDaily();
+    else { const srs=L().srs, t0=sess.t0||0; // drop cards that another device already studied after this session began
+      sess.queue=sess.queue.filter(q=>{ const st=srs[q.c.id]; return !(st&&st.t>t0&&st.d>today()); });
+      const need=Math.max(0,goal()-lg().n), nNew=sess.queue.filter(q=>q.isNew).length;
+      if(nNew>need){ let cut=nNew-need; for(let i=sess.queue.length-1;i>=0&&cut>0;i--) if(sess.queue[i].isNew){ sess.queue.splice(i,1); cut--; } }
+      sess.total=sess.done+sess.queue.length+(sess.cur?1:0); }
+  }
+  renderSettings(); renderStrip(); renderBackupHint();
+  if(!sess||!sess.cur||!sess.flipped) renderCard();
+}
+let syT=null, syPoll=null;
+function syLater(){ if(!syOn()) return; clearTimeout(syT); syT=setTimeout(()=>syncNow(),5000); }
+const syIdle=()=>!sess||!sess.flipped;
+function syWake(){ if(!syOn()||document.hidden) return; if(syIdle()) syncNow(); }
+document.addEventListener("visibilitychange",()=>{ if(!syOn()) return; if(document.hidden){ clearTimeout(syT); syncNow(); } else syWake(); });
+window.addEventListener("pageshow",e=>{ if(e.persisted) syWake(); }); // iOS restores pages from the back/forward cache without a visibility change
+window.addEventListener("focus",()=>{ if(SY.last&&Date.now()-SY.last<15000) return; syWake(); });
 window.addEventListener("online",()=>syncNow());
+// while the app stays open (e.g. iPad on the desk), pick up changes from the other device every minute
+syPoll=setInterval(()=>{ if(syOn()&&!document.hidden&&syIdle()&&(!SY.last||Date.now()-SY.last>55000)) syncNow(); },60000);
 let syView=null;
 function renderAcct(){
   const on=SY.mode==="sb"&&!!SY.refresh, gh=SY.mode==="gh"&&!!SY.repo, email=SY.email||"";
