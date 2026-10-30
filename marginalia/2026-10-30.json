@@ -1,144 +1,220 @@
 {
- "date": "2026-10-30",
- "createdBy": "claude",
- "items": [
-  {
-   "lang": "en",
-   "level": "C2",
-   "kind": "feature",
-   "section": "Society & Political Economy",
-   "title": "The tax on other alphabets",
-   "dek": "AI companies bill by the token, a unit that looks neutral until you write in Malayalam or Khmer. A new study puts a number on what speakers of most of the world's languages quietly pay extra.",
-   "paragraphs": [
-    "The pricing of artificial intelligence presents itself as impeccably neutral: developers pay per token, the small unit of text a model reads and writes, and everyone pays the same rate. Yet the token is not a natural quantity like a kilogram; it is an engineering decision. A study released in September by the Coalition for Language Equity in AI Research (CLEAR), a group that brings together academics, AI labs and language nonprofits, gives the resulting discrepancy a pointed name: a \"tokenizer tax.\" On 26 October, Rest of World's Mumbai-based reporter Ananya Bhattacharya laid out what that tax looks like in practice.",
-    "The mechanism is mundane, which is precisely why it escapes notice. Before a model can process anything, a tokenizer chops the input into pieces drawn from a fixed vocabulary, and those vocabularies have been built largely from English and a handful of other high-resource languages. English words therefore tend to survive intact, while words in many other languages fragment into several shards. Rest of World illustrated this with OpenAI's own tool: an English sentence splits into recognisable words, while the same sentence in Malayalam breaks into multiple pieces per word. The more pieces a text yields, the more it costs, the slower the reply arrives and the less of a conversation or document fits into the model's context window.",
-    "The study's figures make the scale concrete. Among the 20 languages most used online, the most expensive required between one and a half and five times as many tokens as the cheapest; widen the sample to 200 languages and, in one model, the gap reached seventeenfold. Strikingly, the number of speakers is not the decisive variable. Asturian, spoken by relatively few people, fares reasonably well because it is written in the Latin alphabet and borrows strength from Romance relatives such as Italian, whereas languages in scripts the tokenizers rarely encountered, among them Burmese, Tibetan, Tifinagh, Khmer, Lao and Ol Chiki, were the worst served across nearly every model tested.",
-    "None of this is entirely new. In 2023 a team of computational linguists led by Orevaoghene Ahia tested OpenAI's API on 22 typologically diverse languages and concluded that speakers of many of them were being overcharged while receiving poorer results, often in regions where the service was already less affordable. What the new research adds is breadth, and what Rest of World adds is the economic picture: a startup in Bengaluru may pay a surcharge on every prompt and every answer that a rival in Austin never sees. The penalty, in other words, falls hardest exactly where computing power and connectivity are already scarce, which is the classic profile of a regressive levy.",
-    "The people quoted in the report, mostly founders and investors in India's AI sector, are not calling for boycotts but for accountability. Pratyush Choudhury of the venture fund Activate AI describes a tutoring app that exhausts its memory of a student's history faster in one language than another, and argues that labs should publish a language-by-language scorecard of what it costs to complete comparable tasks, with measurable commitments for the worst-served languages. Dheemanth Reddy of Maya Research traces the problem to a shortage of good digital text but warns that more data alone will not repair a tokenizer that was never designed for these scripts. Raoul Nanavati of Navana.ai points to RESPIN, a Gates Foundation-funded project with the Indian Institute of Science that gathered text and speech from native speakers of 38 dialects.",
-    "Reddy also notes that token prices are falling, which should shrink the absolute burden over time. But a ratio is stubborn: if one language costs seventeen times another, cheaper compute merely lowers the price of the inequality without abolishing it. The deeper point, and this is interpretation rather than reporting, is that the tax follows lines drawn long before the digital age, by which writing systems were printed, digitised and archived, and by whose words ended up in the training data. Whether linguistic diversity is treated as a market inefficiency to be tolerated or as public infrastructure to be built for is ultimately a political choice, and a published scorecard would at least make visible who bears the brunt of the current one."
-   ],
-   "paragraphs_zh": [
-    "人工智能的定价看上去无可挑剔地中立：开发者按“token”（模型读写的小段文本单位）付费，人人同价。然而 token 并不像千克那样是自然的计量单位，它是一项工程决定。语言公平人工智能研究联盟（CLEAR）——一个汇集学者、AI 实验室和语言类非营利组织的团体——在九月发布的一项研究，给由此产生的差异起了一个尖锐的名字：“分词器税”。10 月 26 日，Rest of World 驻孟买记者阿南娅·巴塔查里亚详细描述了这笔税在现实中的样子。",
-    "其机制平淡无奇，而这正是它不被察觉的原因。模型处理任何内容之前，分词器都会把输入切成来自固定词表的片段，而这些词表主要是用英语和少数其他高资源语言构建的。因此，英语单词往往能完整保留，而许多其他语言的单词则会碎成好几块。Rest of World 用 OpenAI 自己的工具作了演示：一句英语被切分成可辨认的单词，而同一句马拉雅拉姆语却每个词都碎成好几段。一段文本切出的片段越多，费用就越高，回复越慢，能装进模型上下文窗口的对话或文档也越少。",
-    "研究的数字让规模变得具体。在网上最常用的 20 种语言中，最贵的语言所需的 token 数是最便宜语言的 1.5 到 5 倍；把样本扩大到 200 种语言，在其中一个模型里差距达到 17 倍。引人注目的是，使用人数并不是决定性因素。阿斯图里亚斯语使用者相对较少，但表现尚可，因为它用拉丁字母书写，并能借助意大利语等罗曼语亲属语言；而那些分词器很少接触的文字所书写的语言——包括缅甸语、藏语、提非纳文、高棉语、老挝语和桑塔利文（Ol Chiki）——在几乎所有受测模型中都处境最差。",
-    "这一切并非全新发现。2023 年，由奥雷瓦奥格内·阿希亚领衔的一组计算语言学家在 22 种类型各异的语言上测试了 OpenAI 的 API，结论是其中许多语言的使用者付费过高、得到的结果却更差，而且他们往往身处本就更难负担这项服务的地区。新研究增加的是广度，而 Rest of World 补充的是经济图景：班加罗尔的一家初创公司可能要为每一条提示和每一个回答支付额外费用，而奥斯汀的竞争对手从来不必。换句话说，这种惩罚恰恰最重地落在算力和网络本已稀缺的地方——这正是累退性税负的典型特征。",
-    "报道中引述的人大多是印度 AI 行业的创始人和投资人，他们并不呼吁抵制，而是要求问责。风投基金 Activate AI 的普拉蒂尤什·乔杜里描述了一款辅导应用：用某种语言时，它记住学生学习历史的空间比用另一种语言时耗尽得更快。他主张各实验室公布逐语言的“记分卡”，列出完成同类任务的成本，并对服务最差的语言作出可衡量的承诺。Maya Research 的迪曼特·雷迪把问题归因于优质数字文本的匮乏，但提醒说，光靠更多数据修不好一个从未为这些文字设计过的分词器。Navana.ai 的拉乌尔·纳纳瓦蒂提到 RESPIN 项目：这是盖茨基金会资助、与印度科学研究所合作的项目，收集了 38 种方言母语者的文本和语音。",
-    "雷迪也指出，token 价格正在下降，长期看应能减轻绝对负担。但比例是顽固的：如果一种语言的成本是另一种的十七倍，更便宜的算力只是降低了不平等的价格，而没有消除不平等。更深层的一点——这是解读而非报道——在于这笔税沿着数字时代之前早已划定的界线分布：哪些文字被印刷、数字化和存档，谁的文字进入了训练数据。语言多样性究竟被当作需要容忍的市场低效，还是需要为之建设的公共基础设施，归根结底是一个政治选择；而一份公开的记分卡至少能让人看清，眼下的选择由谁承受最重的代价。"
-   ],
-   "paragraphs_de": [
-    "Die Preisgestaltung künstlicher Intelligenz gibt sich makellos neutral: Entwickler zahlen pro Token, der kleinen Texteinheit, die ein Modell liest und schreibt, und alle zahlen denselben Satz. Doch ein Token ist keine natürliche Größe wie ein Kilogramm, sondern eine technische Entscheidung. Eine im September veröffentlichte Studie der Coalition for Language Equity in AI Research (CLEAR), eines Zusammenschlusses von Wissenschaftlern, KI-Laboren und gemeinnützigen Sprachorganisationen, gibt der daraus entstehenden Schieflage einen zugespitzten Namen: eine „Tokenizer-Steuer“. Am 26. Oktober beschrieb Ananya Bhattacharya, Reporterin von Rest of World in Mumbai, wie diese Steuer in der Praxis aussieht.",
-    "Der Mechanismus ist banal, und gerade deshalb fällt er nicht auf. Bevor ein Modell irgendetwas verarbeitet, zerlegt ein Tokenizer die Eingabe in Stücke aus einem festen Vokabular, und diese Vokabulare wurden überwiegend aus Englisch und einigen anderen ressourcenstarken Sprachen gebildet. Englische Wörter bleiben daher meist ganz, während Wörter vieler anderer Sprachen in mehrere Splitter zerfallen. Rest of World zeigte das mit OpenAIs eigenem Werkzeug: Ein englischer Satz wird in erkennbare Wörter geteilt, derselbe Satz auf Malayalam zerfällt in mehrere Stücke pro Wort. Je mehr Stücke ein Text ergibt, desto teurer wird er, desto langsamer kommt die Antwort und desto weniger von einem Gespräch oder Dokument passt in das Kontextfenster des Modells.",
-    "Die Zahlen der Studie machen das Ausmaß greifbar. Unter den 20 im Netz meistgenutzten Sprachen benötigte die teuerste das Anderthalb- bis Fünffache an Tokens der günstigsten; erweitert man die Stichprobe auf 200 Sprachen, erreichte der Abstand in einem Modell das Siebzehnfache. Bemerkenswert ist, dass die Zahl der Sprecher nicht die entscheidende Größe ist. Asturisch, das relativ wenige Menschen sprechen, schneidet recht gut ab, weil es in lateinischer Schrift geschrieben wird und von romanischen Verwandten wie dem Italienischen profitiert; Sprachen in Schriften, die die Tokenizer selten gesehen hatten, darunter Birmanisch, Tibetisch, Tifinagh, Khmer, Laotisch und Ol Chiki, waren dagegen in fast allen getesteten Modellen am schlechtesten bedient.",
-    "Ganz neu ist das nicht. 2023 testete ein Team von Computerlinguisten um Orevaoghene Ahia OpenAIs API mit 22 typologisch verschiedenen Sprachen und kam zu dem Schluss, dass Sprecher vieler dieser Sprachen zu viel bezahlten und zugleich schlechtere Ergebnisse erhielten, oft in Regionen, in denen der Dienst ohnehin weniger erschwinglich war. Die neue Forschung bringt Breite hinzu, und Rest of World das ökonomische Bild: Ein Start-up in Bengaluru zahlt womöglich auf jeden Prompt und jede Antwort einen Aufschlag, den ein Konkurrent in Austin nie sieht. Die Strafe trifft also gerade dort am härtesten, wo Rechenleistung und Internetzugang ohnehin knapp sind – das klassische Profil einer regressiven Abgabe.",
-    "Die im Bericht zitierten Personen, meist Gründer und Investoren aus Indiens KI-Branche, rufen nicht zum Boykott auf, sondern fordern Rechenschaft. Pratyush Choudhury vom Risikokapitalfonds Activate AI beschreibt eine Nachhilfe-App, deren Gedächtnis für den Lernverlauf eines Schülers in einer Sprache schneller erschöpft ist als in einer anderen, und plädiert dafür, dass Labore eine Bilanz Sprache für Sprache veröffentlichen, was vergleichbare Aufgaben kosten, mit messbaren Zusagen für die am schlechtesten bedienten Sprachen. Dheemanth Reddy von Maya Research führt das Problem auf einen Mangel an guten digitalen Texten zurück, warnt aber, dass mehr Daten allein keinen Tokenizer reparieren, der nie für diese Schriften entworfen wurde. Raoul Nanavati von Navana.ai verweist auf RESPIN, ein von der Gates Foundation finanziertes Projekt mit dem Indian Institute of Science, das Texte und Sprachaufnahmen von Muttersprachlern aus 38 Dialekten gesammelt hat.",
-    "Reddy merkt auch an, dass die Tokenpreise sinken, was die absolute Last mit der Zeit verringern dürfte. Doch ein Verhältnis ist hartnäckig: Kostet eine Sprache das Siebzehnfache einer anderen, senkt billigere Rechenleistung nur den Preis der Ungleichheit, ohne sie abzuschaffen. Der tiefere Punkt – und das ist Deutung, nicht Bericht – ist, dass die Steuer Linien folgt, die lange vor dem digitalen Zeitalter gezogen wurden: welche Schriften gedruckt, digitalisiert und archiviert wurden und wessen Wörter in den Trainingsdaten landeten. Ob sprachliche Vielfalt als hinzunehmende Marktineffizienz oder als öffentliche Infrastruktur behandelt wird, für die man baut, ist letztlich eine politische Entscheidung – und eine veröffentlichte Bilanz würde wenigstens sichtbar machen, wer die Hauptlast der gegenwärtigen trägt."
-   ],
-   "paragraphs_pt": [
-    "O preço da inteligência artificial se apresenta como impecavelmente neutro: desenvolvedores pagam por token, a pequena unidade de texto que um modelo lê e escreve, e todos pagam a mesma tarifa. Mas o token não é uma grandeza natural como o quilograma; é uma decisão de engenharia. Um estudo divulgado em setembro pela Coalition for Language Equity in AI Research (CLEAR), um grupo que reúne acadêmicos, laboratórios de IA e organizações sem fins lucrativos dedicadas a línguas, dá à distorção resultante um nome certeiro: um \"imposto do tokenizador\". Em 26 de outubro, Ananya Bhattacharya, repórter do Rest of World baseada em Mumbai, mostrou como esse imposto funciona na prática.",
-    "O mecanismo é banal, e é justamente por isso que passa despercebido. Antes de processar qualquer coisa, um tokenizador corta a entrada em pedaços tirados de um vocabulário fixo, e esses vocabulários foram construídos sobretudo a partir do inglês e de algumas outras línguas de muitos recursos. Por isso, palavras em inglês tendem a sobreviver inteiras, enquanto palavras de muitas outras línguas se fragmentam em vários cacos. O Rest of World ilustrou isso com a própria ferramenta da OpenAI: uma frase em inglês se divide em palavras reconhecíveis, enquanto a mesma frase em malaiala se quebra em vários pedaços por palavra. Quanto mais pedaços um texto gera, mais ele custa, mais lenta chega a resposta e menos de uma conversa ou documento cabe na janela de contexto do modelo.",
-    "Os números do estudo tornam a escala concreta. Entre as 20 línguas mais usadas na internet, a mais cara exigia de uma vez e meia a cinco vezes mais tokens que a mais barata; ampliando a amostra para 200 línguas, num dos modelos a diferença chegou a dezessete vezes. Chama a atenção que o número de falantes não é a variável decisiva. O asturiano, falado por relativamente poucas pessoas, se sai razoavelmente bem porque é escrito no alfabeto latino e se apoia em parentes românicos como o italiano, ao passo que línguas em escritas que os tokenizadores raramente viram, entre elas birmanês, tibetano, tifinague, khmer, laosiano e ol chiki, foram as mais prejudicadas em quase todos os modelos testados.",
-    "Nada disso é inteiramente novo. Em 2023, uma equipe de linguistas computacionais liderada por Orevaoghene Ahia testou a API da OpenAI em 22 línguas tipologicamente diversas e concluiu que falantes de muitas delas pagavam a mais e recebiam resultados piores, muitas vezes em regiões onde o serviço já era menos acessível. O que a nova pesquisa acrescenta é amplitude, e o que o Rest of World acrescenta é o quadro econômico: uma startup em Bengaluru pode pagar uma sobretaxa em cada prompt e em cada resposta que um concorrente em Austin nunca vê. Em outras palavras, a penalidade pesa mais justamente onde poder computacional e conectividade já são escassos, o perfil clássico de um tributo regressivo.",
-    "As pessoas citadas na reportagem, em sua maioria fundadores e investidores do setor de IA da Índia, não pedem boicote, e sim prestação de contas. Pratyush Choudhury, do fundo de capital de risco Activate AI, descreve um aplicativo de tutoria que esgota a memória do histórico de um aluno mais rápido numa língua do que em outra, e defende que os laboratórios publiquem um placar língua por língua do custo de concluir tarefas comparáveis, com compromissos mensuráveis para as línguas mais mal atendidas. Dheemanth Reddy, da Maya Research, atribui o problema à falta de bons textos digitais, mas alerta que mais dados, sozinhos, não consertam um tokenizador que nunca foi projetado para essas escritas. Raoul Nanavati, da Navana.ai, cita o RESPIN, projeto financiado pela Fundação Gates com o Indian Institute of Science, que reuniu textos e falas de falantes nativos de 38 dialetos.",
-    "Reddy também observa que os preços dos tokens estão caindo, o que deve reduzir o peso absoluto com o tempo. Mas uma proporção é teimosa: se uma língua custa dezessete vezes mais que outra, computação mais barata só baixa o preço da desigualdade, sem aboli-la. O ponto mais profundo, e isto é interpretação, não reportagem, é que o imposto segue linhas traçadas muito antes da era digital: quais escritas foram impressas, digitalizadas e arquivadas, e de quem eram as palavras que foram parar nos dados de treinamento. Tratar a diversidade linguística como uma ineficiência de mercado a ser tolerada ou como infraestrutura pública para a qual se deve construir é, no fim, uma escolha política, e um placar público ao menos deixaria visível quem arca com o maior peso da escolha atual."
-   ],
-   "glossary": [
+  "date": "2026-10-30",
+  "createdBy": "claude",
+  "items": [
     {
-     "w": "impeccably",
-     "en": "in a way that is perfect and cannot be faulted",
-     "zh": "无可挑剔地",
-     "de": "tadellos, makellos",
-     "pt": "impecavelmente"
+      "lang": "en",
+      "level": "C2",
+      "kind": "feature",
+      "section": "Society & Political Economy",
+      "title": "The tax on other alphabets",
+      "dek": "AI companies bill by the token, a unit that looks neutral until you write in Malayalam or Khmer. A new study puts a number on what speakers of most of the world's languages quietly pay extra.",
+      "paragraphs": [
+        "The pricing of artificial intelligence presents itself as impeccably neutral: developers pay per token, the small unit of text a model reads and writes, and everyone pays the same rate. Yet the token is not a natural quantity like a kilogram; it is an engineering decision. A study released in September by the Coalition for Language Equity in AI Research (CLEAR), a group that brings together academics, AI labs and language nonprofits, gives the resulting discrepancy a pointed name: a \"tokenizer tax.\" On 26 October, Rest of World's Mumbai-based reporter Ananya Bhattacharya laid out what that tax looks like in practice.",
+        "The mechanism is mundane, which is precisely why it escapes notice. Before a model can process anything, a tokenizer chops the input into pieces drawn from a fixed vocabulary, and those vocabularies have been built largely from English and a handful of other high-resource languages. English words therefore tend to survive intact, while words in many other languages fragment into several shards. Rest of World illustrated this with OpenAI's own tool: an English sentence splits into recognisable words, while the same sentence in Malayalam breaks into multiple pieces per word. The more pieces a text yields, the more it costs, the slower the reply arrives and the less of a conversation or document fits into the model's context window.",
+        "The study's figures make the scale concrete. Among the 20 languages most used online, the most expensive required between one and a half and five times as many tokens as the cheapest; widen the sample to 200 languages and, in one model, the gap reached seventeenfold. Strikingly, the number of speakers is not the decisive variable. Asturian, spoken by relatively few people, fares reasonably well because it is written in the Latin alphabet and borrows strength from Romance relatives such as Italian, whereas languages in scripts the tokenizers rarely encountered, among them Burmese, Tibetan, Tifinagh, Khmer, Lao and Ol Chiki, were the worst served across nearly every model tested.",
+        "None of this is entirely new. In 2023 a team of computational linguists led by Orevaoghene Ahia tested OpenAI's API on 22 typologically diverse languages and concluded that speakers of many of them were being overcharged while receiving poorer results, often in regions where the service was already less affordable. What the new research adds is breadth, and what Rest of World adds is the economic picture: a startup in Bengaluru may pay a surcharge on every prompt and every answer that a rival in Austin never sees. The penalty, in other words, falls hardest exactly where computing power and connectivity are already scarce, which is the classic profile of a regressive levy.",
+        "The people quoted in the report, mostly founders and investors in India's AI sector, are not calling for boycotts but for accountability. Pratyush Choudhury of the venture fund Activate AI describes a tutoring app that exhausts its memory of a student's history faster in one language than another, and argues that labs should publish a language-by-language scorecard of what it costs to complete comparable tasks, with measurable commitments for the worst-served languages. Dheemanth Reddy of Maya Research traces the problem to a shortage of good digital text but warns that more data alone will not repair a tokenizer that was never designed for these scripts. Raoul Nanavati of Navana.ai points to RESPIN, a Gates Foundation-funded project with the Indian Institute of Science that gathered text and speech from native speakers of 38 dialects.",
+        "Reddy also notes that token prices are falling, which should shrink the absolute burden over time. But a ratio is stubborn: if one language costs seventeen times another, cheaper compute merely lowers the price of the inequality without abolishing it. The deeper point, and this is interpretation rather than reporting, is that the tax follows lines drawn long before the digital age, by which writing systems were printed, digitised and archived, and by whose words ended up in the training data. Whether linguistic diversity is treated as a market inefficiency to be tolerated or as public infrastructure to be built for is ultimately a political choice, and a published scorecard would at least make visible who bears the brunt of the current one."
+      ],
+      "paragraphs_zh": [
+        "人工智能的定价看上去无可挑剔地中立：开发者按“token”（模型读写的小段文本单位）付费，人人同价。然而 token 并不像千克那样是自然的计量单位，它是一项工程决定。语言公平人工智能研究联盟（CLEAR）——一个汇集学者、AI 实验室和语言类非营利组织的团体——在九月发布的一项研究，给由此产生的差异起了一个尖锐的名字：“分词器税”。10 月 26 日，Rest of World 驻孟买记者阿南娅·巴塔查里亚详细描述了这笔税在现实中的样子。",
+        "其机制平淡无奇，而这正是它不被察觉的原因。模型处理任何内容之前，分词器都会把输入切成来自固定词表的片段，而这些词表主要是用英语和少数其他高资源语言构建的。因此，英语单词往往能完整保留，而许多其他语言的单词则会碎成好几块。Rest of World 用 OpenAI 自己的工具作了演示：一句英语被切分成可辨认的单词，而同一句马拉雅拉姆语却每个词都碎成好几段。一段文本切出的片段越多，费用就越高，回复越慢，能装进模型上下文窗口的对话或文档也越少。",
+        "研究的数字让规模变得具体。在网上最常用的 20 种语言中，最贵的语言所需的 token 数是最便宜语言的 1.5 到 5 倍；把样本扩大到 200 种语言，在其中一个模型里差距达到 17 倍。引人注目的是，使用人数并不是决定性因素。阿斯图里亚斯语使用者相对较少，但表现尚可，因为它用拉丁字母书写，并能借助意大利语等罗曼语亲属语言；而那些分词器很少接触的文字所书写的语言——包括缅甸语、藏语、提非纳文、高棉语、老挝语和桑塔利文（Ol Chiki）——在几乎所有受测模型中都处境最差。",
+        "这一切并非全新发现。2023 年，由奥雷瓦奥格内·阿希亚领衔的一组计算语言学家在 22 种类型各异的语言上测试了 OpenAI 的 API，结论是其中许多语言的使用者付费过高、得到的结果却更差，而且他们往往身处本就更难负担这项服务的地区。新研究增加的是广度，而 Rest of World 补充的是经济图景：班加罗尔的一家初创公司可能要为每一条提示和每一个回答支付额外费用，而奥斯汀的竞争对手从来不必。换句话说，这种惩罚恰恰最重地落在算力和网络本已稀缺的地方——这正是累退性税负的典型特征。",
+        "报道中引述的人大多是印度 AI 行业的创始人和投资人，他们并不呼吁抵制，而是要求问责。风投基金 Activate AI 的普拉蒂尤什·乔杜里描述了一款辅导应用：用某种语言时，它记住学生学习历史的空间比用另一种语言时耗尽得更快。他主张各实验室公布逐语言的“记分卡”，列出完成同类任务的成本，并对服务最差的语言作出可衡量的承诺。Maya Research 的迪曼特·雷迪把问题归因于优质数字文本的匮乏，但提醒说，光靠更多数据修不好一个从未为这些文字设计过的分词器。Navana.ai 的拉乌尔·纳纳瓦蒂提到 RESPIN 项目：这是盖茨基金会资助、与印度科学研究所合作的项目，收集了 38 种方言母语者的文本和语音。",
+        "雷迪也指出，token 价格正在下降，长期看应能减轻绝对负担。但比例是顽固的：如果一种语言的成本是另一种的十七倍，更便宜的算力只是降低了不平等的价格，而没有消除不平等。更深层的一点——这是解读而非报道——在于这笔税沿着数字时代之前早已划定的界线分布：哪些文字被印刷、数字化和存档，谁的文字进入了训练数据。语言多样性究竟被当作需要容忍的市场低效，还是需要为之建设的公共基础设施，归根结底是一个政治选择；而一份公开的记分卡至少能让人看清，眼下的选择由谁承受最重的代价。"
+      ],
+      "paragraphs_de": [
+        "Die Preisgestaltung künstlicher Intelligenz gibt sich makellos neutral: Entwickler zahlen pro Token, der kleinen Texteinheit, die ein Modell liest und schreibt, und alle zahlen denselben Satz. Doch ein Token ist keine natürliche Größe wie ein Kilogramm, sondern eine technische Entscheidung. Eine im September veröffentlichte Studie der Coalition for Language Equity in AI Research (CLEAR), eines Zusammenschlusses von Wissenschaftlern, KI-Laboren und gemeinnützigen Sprachorganisationen, gibt der daraus entstehenden Schieflage einen zugespitzten Namen: eine „Tokenizer-Steuer“. Am 26. Oktober beschrieb Ananya Bhattacharya, Reporterin von Rest of World in Mumbai, wie diese Steuer in der Praxis aussieht.",
+        "Der Mechanismus ist banal, und gerade deshalb fällt er nicht auf. Bevor ein Modell irgendetwas verarbeitet, zerlegt ein Tokenizer die Eingabe in Stücke aus einem festen Vokabular, und diese Vokabulare wurden überwiegend aus Englisch und einigen anderen ressourcenstarken Sprachen gebildet. Englische Wörter bleiben daher meist ganz, während Wörter vieler anderer Sprachen in mehrere Splitter zerfallen. Rest of World zeigte das mit OpenAIs eigenem Werkzeug: Ein englischer Satz wird in erkennbare Wörter geteilt, derselbe Satz auf Malayalam zerfällt in mehrere Stücke pro Wort. Je mehr Stücke ein Text ergibt, desto teurer wird er, desto langsamer kommt die Antwort und desto weniger von einem Gespräch oder Dokument passt in das Kontextfenster des Modells.",
+        "Die Zahlen der Studie machen das Ausmaß greifbar. Unter den 20 im Netz meistgenutzten Sprachen benötigte die teuerste das Anderthalb- bis Fünffache an Tokens der günstigsten; erweitert man die Stichprobe auf 200 Sprachen, erreichte der Abstand in einem Modell das Siebzehnfache. Bemerkenswert ist, dass die Zahl der Sprecher nicht die entscheidende Größe ist. Asturisch, das relativ wenige Menschen sprechen, schneidet recht gut ab, weil es in lateinischer Schrift geschrieben wird und von romanischen Verwandten wie dem Italienischen profitiert; Sprachen in Schriften, die die Tokenizer selten gesehen hatten, darunter Birmanisch, Tibetisch, Tifinagh, Khmer, Laotisch und Ol Chiki, waren dagegen in fast allen getesteten Modellen am schlechtesten bedient.",
+        "Ganz neu ist das nicht. 2023 testete ein Team von Computerlinguisten um Orevaoghene Ahia OpenAIs API mit 22 typologisch verschiedenen Sprachen und kam zu dem Schluss, dass Sprecher vieler dieser Sprachen zu viel bezahlten und zugleich schlechtere Ergebnisse erhielten, oft in Regionen, in denen der Dienst ohnehin weniger erschwinglich war. Die neue Forschung bringt Breite hinzu, und Rest of World das ökonomische Bild: Ein Start-up in Bengaluru zahlt womöglich auf jeden Prompt und jede Antwort einen Aufschlag, den ein Konkurrent in Austin nie sieht. Die Strafe trifft also gerade dort am härtesten, wo Rechenleistung und Internetzugang ohnehin knapp sind – das klassische Profil einer regressiven Abgabe.",
+        "Die im Bericht zitierten Personen, meist Gründer und Investoren aus Indiens KI-Branche, rufen nicht zum Boykott auf, sondern fordern Rechenschaft. Pratyush Choudhury vom Risikokapitalfonds Activate AI beschreibt eine Nachhilfe-App, deren Gedächtnis für den Lernverlauf eines Schülers in einer Sprache schneller erschöpft ist als in einer anderen, und plädiert dafür, dass Labore eine Bilanz Sprache für Sprache veröffentlichen, was vergleichbare Aufgaben kosten, mit messbaren Zusagen für die am schlechtesten bedienten Sprachen. Dheemanth Reddy von Maya Research führt das Problem auf einen Mangel an guten digitalen Texten zurück, warnt aber, dass mehr Daten allein keinen Tokenizer reparieren, der nie für diese Schriften entworfen wurde. Raoul Nanavati von Navana.ai verweist auf RESPIN, ein von der Gates Foundation finanziertes Projekt mit dem Indian Institute of Science, das Texte und Sprachaufnahmen von Muttersprachlern aus 38 Dialekten gesammelt hat.",
+        "Reddy merkt auch an, dass die Tokenpreise sinken, was die absolute Last mit der Zeit verringern dürfte. Doch ein Verhältnis ist hartnäckig: Kostet eine Sprache das Siebzehnfache einer anderen, senkt billigere Rechenleistung nur den Preis der Ungleichheit, ohne sie abzuschaffen. Der tiefere Punkt – und das ist Deutung, nicht Bericht – ist, dass die Steuer Linien folgt, die lange vor dem digitalen Zeitalter gezogen wurden: welche Schriften gedruckt, digitalisiert und archiviert wurden und wessen Wörter in den Trainingsdaten landeten. Ob sprachliche Vielfalt als hinzunehmende Marktineffizienz oder als öffentliche Infrastruktur behandelt wird, für die man baut, ist letztlich eine politische Entscheidung – und eine veröffentlichte Bilanz würde wenigstens sichtbar machen, wer die Hauptlast der gegenwärtigen trägt."
+      ],
+      "paragraphs_pt": [
+        "O preço da inteligência artificial se apresenta como impecavelmente neutro: desenvolvedores pagam por token, a pequena unidade de texto que um modelo lê e escreve, e todos pagam a mesma tarifa. Mas o token não é uma grandeza natural como o quilograma; é uma decisão de engenharia. Um estudo divulgado em setembro pela Coalition for Language Equity in AI Research (CLEAR), um grupo que reúne acadêmicos, laboratórios de IA e organizações sem fins lucrativos dedicadas a línguas, dá à distorção resultante um nome certeiro: um \"imposto do tokenizador\". Em 26 de outubro, Ananya Bhattacharya, repórter do Rest of World baseada em Mumbai, mostrou como esse imposto funciona na prática.",
+        "O mecanismo é banal, e é justamente por isso que passa despercebido. Antes de processar qualquer coisa, um tokenizador corta a entrada em pedaços tirados de um vocabulário fixo, e esses vocabulários foram construídos sobretudo a partir do inglês e de algumas outras línguas de muitos recursos. Por isso, palavras em inglês tendem a sobreviver inteiras, enquanto palavras de muitas outras línguas se fragmentam em vários cacos. O Rest of World ilustrou isso com a própria ferramenta da OpenAI: uma frase em inglês se divide em palavras reconhecíveis, enquanto a mesma frase em malaiala se quebra em vários pedaços por palavra. Quanto mais pedaços um texto gera, mais ele custa, mais lenta chega a resposta e menos de uma conversa ou documento cabe na janela de contexto do modelo.",
+        "Os números do estudo tornam a escala concreta. Entre as 20 línguas mais usadas na internet, a mais cara exigia de uma vez e meia a cinco vezes mais tokens que a mais barata; ampliando a amostra para 200 línguas, num dos modelos a diferença chegou a dezessete vezes. Chama a atenção que o número de falantes não é a variável decisiva. O asturiano, falado por relativamente poucas pessoas, se sai razoavelmente bem porque é escrito no alfabeto latino e se apoia em parentes românicos como o italiano, ao passo que línguas em escritas que os tokenizadores raramente viram, entre elas birmanês, tibetano, tifinague, khmer, laosiano e ol chiki, foram as mais prejudicadas em quase todos os modelos testados.",
+        "Nada disso é inteiramente novo. Em 2023, uma equipe de linguistas computacionais liderada por Orevaoghene Ahia testou a API da OpenAI em 22 línguas tipologicamente diversas e concluiu que falantes de muitas delas pagavam a mais e recebiam resultados piores, muitas vezes em regiões onde o serviço já era menos acessível. O que a nova pesquisa acrescenta é amplitude, e o que o Rest of World acrescenta é o quadro econômico: uma startup em Bengaluru pode pagar uma sobretaxa em cada prompt e em cada resposta que um concorrente em Austin nunca vê. Em outras palavras, a penalidade pesa mais justamente onde poder computacional e conectividade já são escassos, o perfil clássico de um tributo regressivo.",
+        "As pessoas citadas na reportagem, em sua maioria fundadores e investidores do setor de IA da Índia, não pedem boicote, e sim prestação de contas. Pratyush Choudhury, do fundo de capital de risco Activate AI, descreve um aplicativo de tutoria que esgota a memória do histórico de um aluno mais rápido numa língua do que em outra, e defende que os laboratórios publiquem um placar língua por língua do custo de concluir tarefas comparáveis, com compromissos mensuráveis para as línguas mais mal atendidas. Dheemanth Reddy, da Maya Research, atribui o problema à falta de bons textos digitais, mas alerta que mais dados, sozinhos, não consertam um tokenizador que nunca foi projetado para essas escritas. Raoul Nanavati, da Navana.ai, cita o RESPIN, projeto financiado pela Fundação Gates com o Indian Institute of Science, que reuniu textos e falas de falantes nativos de 38 dialetos.",
+        "Reddy também observa que os preços dos tokens estão caindo, o que deve reduzir o peso absoluto com o tempo. Mas uma proporção é teimosa: se uma língua custa dezessete vezes mais que outra, computação mais barata só baixa o preço da desigualdade, sem aboli-la. O ponto mais profundo, e isto é interpretação, não reportagem, é que o imposto segue linhas traçadas muito antes da era digital: quais escritas foram impressas, digitalizadas e arquivadas, e de quem eram as palavras que foram parar nos dados de treinamento. Tratar a diversidade linguística como uma ineficiência de mercado a ser tolerada ou como infraestrutura pública para a qual se deve construir é, no fim, uma escolha política, e um placar público ao menos deixaria visível quem arca com o maior peso da escolha atual."
+      ],
+      "glossary": [
+        {
+          "w": "impeccably",
+          "en": "in a way that is perfect and cannot be faulted",
+          "zh": "无可挑剔地",
+          "de": "tadellos, makellos",
+          "pt": "impecavelmente"
+        },
+        {
+          "w": "high-resource language",
+          "en": "a language with large amounts of digital text and tools available for training AI systems",
+          "zh": "高资源语言（数字语料丰富的语言）",
+          "de": "ressourcenstarke Sprache",
+          "pt": "língua com muitos recursos digitais"
+        },
+        {
+          "w": "fragment into",
+          "en": "to break into many small, separate pieces",
+          "zh": "碎裂成……",
+          "de": "in Teile zerfallen",
+          "pt": "fragmentar-se em"
+        },
+        {
+          "w": "context window",
+          "en": "the maximum amount of text an AI model can take into account at one time",
+          "zh": "上下文窗口",
+          "de": "Kontextfenster",
+          "pt": "janela de contexto"
+        },
+        {
+          "w": "script",
+          "en": "a system of written characters used for a language, such as the Latin or Khmer alphabet",
+          "zh": "文字（书写系统）",
+          "de": "Schrift(system)",
+          "pt": "escrita, sistema de escrita"
+        },
+        {
+          "w": "typologically diverse",
+          "en": "differing widely in grammatical structure and type, as linguists classify languages",
+          "zh": "类型多样的（语言学）",
+          "de": "typologisch verschieden",
+          "pt": "tipologicamente diverso"
+        },
+        {
+          "w": "surcharge",
+          "en": "an extra amount of money added to the usual price",
+          "zh": "附加费",
+          "de": "Aufschlag, Zuschlag",
+          "pt": "sobretaxa"
+        },
+        {
+          "w": "regressive levy",
+          "en": "a tax or charge that takes a larger share from those with fewer resources",
+          "zh": "累退性税负",
+          "de": "regressive Abgabe",
+          "pt": "tributo regressivo"
+        },
+        {
+          "w": "stubborn",
+          "en": "(of a thing) difficult to change, remove or deal with",
+          "zh": "顽固的，难以改变的",
+          "de": "hartnäckig",
+          "pt": "teimoso, persistente"
+        },
+        {
+          "w": "bear the brunt of",
+          "en": "to suffer the main force or the worst part of something unpleasant",
+          "zh": "首当其冲；承受主要压力",
+          "de": "die Hauptlast von etw. tragen",
+          "pt": "arcar com o pior de; sofrer o impacto principal"
+        }
+      ],
+      "grammar": "The comparative correlative \"The more pieces a text yields, the more it costs, the slower the reply arrives\" links two or more changes that rise together: \"the + comparative\" opens each clause, and the clauses usually keep normal subject-verb order. A third or fourth clause can be added, as here, to pile up consequences. In very formal or compressed writing the verb may be dropped entirely (\"the more, the better\").",
+      "grammar_zh": "比较关联结构 “The more pieces a text yields, the more it costs, the slower the reply arrives”（切出的片段越多，费用就越高，回复越慢）把同时增长的几种变化连在一起：每个分句都以“the + 比较级”开头，分句内部通常保持正常的主谓语序。像这里一样，还可以加上第三、第四个分句来叠加后果。在非常正式或简练的表达中，动词甚至可以完全省略（“the more, the better”，越多越好）。",
+      "grammar_de": "Die vergleichende Korrelativkonstruktion „The more pieces a text yields, the more it costs, the slower the reply arrives“ (je mehr Stücke, desto teurer, desto langsamer) verbindet Veränderungen, die gemeinsam zunehmen: Jeder Teilsatz beginnt mit „the + Komparativ“, und die Teilsätze behalten meist die normale Subjekt-Verb-Stellung. Wie hier lassen sich ein dritter oder vierter Teilsatz anfügen, um Folgen aufzureihen. In sehr knapper Sprache kann das Verb ganz entfallen („the more, the better“ – je mehr, desto besser).",
+      "grammar_pt": "A construção comparativa correlativa \"The more pieces a text yields, the more it costs, the slower the reply arrives\" (quanto mais pedaços, mais custa, mais lenta a resposta) liga mudanças que crescem juntas: cada oração começa com \"the + comparativo\", e as orações costumam manter a ordem normal sujeito-verbo. Como aqui, é possível acrescentar uma terceira ou quarta oração para acumular consequências. Em textos muito concisos, o verbo pode até sumir (\"the more, the better\" – quanto mais, melhor).",
+      "questions": [
+        "Why does the author insist that the token is \"an engineering decision\" rather than a natural unit, and what follows politically from that distinction?",
+        "The study found that script matters more than the number of speakers. What historical forces might explain which writing systems are well represented in digital text?",
+        "Would a language-by-language cost scorecard be enough to address the problem, or does the piece imply that a more structural remedy is needed?"
+      ],
+      "sources": [
+        {
+          "title": "Rest of World — AI models cost more when you don't use English (Ananya Bhattacharya, 26 Oct 2026)",
+          "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+          "license": "link only"
+        },
+        {
+          "title": "Ahia et al., Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models (EMNLP 2023)",
+          "url": "https://preview.aclanthology.org/setup/2023.emnlp-main.614",
+          "license": "CC BY 4.0"
+        },
+        {
+          "title": "LILT — CLEAR: The Coalition for Language Equity in AI Research",
+          "url": "https://lilt.com/blog/clear-the-coalition-for-language-equity-in-ai-research",
+          "license": "link only"
+        }
+      ]
     },
     {
-     "w": "high-resource language",
-     "en": "a language with large amounts of digital text and tools available for training AI systems",
-     "zh": "高资源语言（数字语料丰富的语言）",
-     "de": "ressourcenstarke Sprache",
-     "pt": "língua com muitos recursos digitais"
+      "lang": "de",
+      "level": "C1",
+      "kind": "picks",
+      "section": "Lesetipps",
+      "title": "Lesetipps für heute",
+      "dek": "Ein Jazztrompeter, der Töne in Farben sieht, und eine Architektin, die lieber umbaut als neu baut.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "taz",
+          "genre": "Porträt · Musik",
+          "title": "US-Jazztrompeter Rob Mazurek im Porträt: Galaktische Liebeswellen in wilden Farben hören",
+          "author": "Maxi Broecking",
+          "url": "https://taz.de/US-Jazztrompeter-Rob-Mazurek-im-Portraet/!6225391/",
+          "minutes": 6,
+          "en": "A portrait of Chicago trumpeter Rob Mazurek, on tour with the Chicago Underground Duo before Jazzfest Berlin — from his roots in the AACM scene to his synaesthetic feel for sound and colour and his painting in Marfa, Texas.",
+          "zh": "芝加哥小号手 Rob Mazurek 的人物特写：从 AACM 爵士传统到他“听见颜色”的通感，以及在得州 Marfa 的绘画创作。",
+          "de": "Porträt des Chicagoer Trompeters Rob Mazurek vor dem Jazzfest Berlin – über seine Wurzeln, sein Hören in Farben und seine Malerei in Marfa.",
+          "pt": "Perfil do trompetista de Chicago Rob Mazurek antes do Jazzfest Berlin: suas raízes no jazz, a sinestesia entre som e cor e sua pintura no Texas."
+        },
+        {
+          "outlet": "Monopol",
+          "genre": "Kritik · Film & Architektur",
+          "title": "Lieber nicht bauen als falsch bauen",
+          "author": "Alexandra Wach",
+          "url": "https://www.monopol-magazin.de/barbara-buser-film-lieber-nicht-bauen-als-falsch-bauen",
+          "minutes": 4,
+          "en": "On a new documentary about Basel architect Barbara Buser, who turns old factories and run-down houses into new spaces instead of building from scratch — a cheerful look at reuse as an architectural philosophy.",
+          "zh": "关于巴塞尔建筑师 Barbara Buser 的新纪录片：她宁可改造旧工厂和老房子也不新建，轻松地展示“再利用”的建筑理念。",
+          "de": "Über einen Dokumentarfilm zur Basler Architektin Barbara Buser, die lieber Altes umbaut als Neues hinstellt – Nachhaltigkeit mit Humor.",
+          "pt": "Sobre um documentário a respeito da arquiteta suíça Barbara Buser, que prefere reaproveitar prédios antigos a construir do zero."
+        }
+      ],
+      "glossary": [],
+      "questions": [],
+      "sources": []
     },
     {
-     "w": "fragment into",
-     "en": "to break into many small, separate pieces",
-     "zh": "碎裂成……",
-     "de": "in Teile zerfallen",
-     "pt": "fragmentar-se em"
-    },
-    {
-     "w": "context window",
-     "en": "the maximum amount of text an AI model can take into account at one time",
-     "zh": "上下文窗口",
-     "de": "Kontextfenster",
-     "pt": "janela de contexto"
-    },
-    {
-     "w": "script",
-     "en": "a system of written characters used for a language, such as the Latin or Khmer alphabet",
-     "zh": "文字（书写系统）",
-     "de": "Schrift(system)",
-     "pt": "escrita, sistema de escrita"
-    },
-    {
-     "w": "typologically diverse",
-     "en": "differing widely in grammatical structure and type, as linguists classify languages",
-     "zh": "类型多样的（语言学）",
-     "de": "typologisch verschieden",
-     "pt": "tipologicamente diverso"
-    },
-    {
-     "w": "surcharge",
-     "en": "an extra amount of money added to the usual price",
-     "zh": "附加费",
-     "de": "Aufschlag, Zuschlag",
-     "pt": "sobretaxa"
-    },
-    {
-     "w": "regressive levy",
-     "en": "a tax or charge that takes a larger share from those with fewer resources",
-     "zh": "累退性税负",
-     "de": "regressive Abgabe",
-     "pt": "tributo regressivo"
-    },
-    {
-     "w": "stubborn",
-     "en": "(of a thing) difficult to change, remove or deal with",
-     "zh": "顽固的，难以改变的",
-     "de": "hartnäckig",
-     "pt": "teimoso, persistente"
-    },
-    {
-     "w": "bear the brunt of",
-     "en": "to suffer the main force or the worst part of something unpleasant",
-     "zh": "首当其冲；承受主要压力",
-     "de": "die Hauptlast von etw. tragen",
-     "pt": "arcar com o pior de; sofrer o impacto principal"
+      "lang": "en",
+      "level": "C2",
+      "kind": "picks",
+      "section": "Reading list",
+      "title": "Today's reading list",
+      "dek": "A Halloween-season art history of Manet's black cat, and the communities pushing back against Big Tech's thirsty data centres.",
+      "paragraphs": [],
+      "picks": [
+        {
+          "outlet": "Hyperallergic",
+          "genre": "Feature · Art history",
+          "title": "How Édouard Manet's Black Cat Became a Symbol of Modernity",
+          "author": "Rebecca Schiffman",
+          "url": "https://hyperallergic.com/how-edouard-manets-black-cat-became-a-symbol-of-modernity/",
+          "minutes": 4,
+          "en": "How the black cat — long tied to witchcraft and bad luck — was reclaimed by 19th-century Parisian artists as a sign of independence, and why the arched-back cat in Manet's Olympia scandalised the 1865 Salon.",
+          "zh": "黑猫如何从巫术与厄运的象征，变成十九世纪巴黎艺术家的叛逆标志——以及马奈《奥林匹亚》里那只弓背黑猫为何引发轰动。",
+          "de": "Wie die schwarze Katze vom Unglückssymbol zum Zeichen künstlerischer Rebellion wurde – und warum Manets Katze in „Olympia“ 1865 einen Skandal auslöste.",
+          "pt": "Como o gato preto passou de símbolo de azar a emblema de rebeldia artística na Paris do século 19, e por que o gato da Olympia de Manet causou escândalo."
+        },
+        {
+          "outlet": "Rest of World",
+          "genre": "Feature · Society & environment",
+          "title": "Big Tech's thirst for water is sparking a global resistance",
+          "author": "Paris Marx",
+          "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/",
+          "minutes": 8,
+          "en": "Adapted from Paris Marx's book Hyperscale: how AI data centres compete with communities for scarce water, and how residents in Chile, Uruguay and Brazil have organised against Google and Microsoft projects.",
+          "zh": "摘自 Paris Marx 新书：AI 数据中心如何与居民争夺稀缺的水，智利、乌拉圭和巴西的社区又如何组织起来反对科技巨头的项目。",
+          "de": "Aus Paris Marx’ Buch „Hyperscale“: Wie KI-Rechenzentren Gemeinden das Wasser streitig machen – und wie Menschen in Chile, Uruguay und Brasilien sich wehren.",
+          "pt": "Trecho do livro de Paris Marx: como data centers de IA disputam água com comunidades, e a resistência no Chile, no Uruguai e no Brasil."
+        }
+      ],
+      "glossary": [],
+      "questions": [],
+      "sources": []
     }
-   ],
-   "grammar": "The comparative correlative \"The more pieces a text yields, the more it costs, the slower the reply arrives\" links two or more changes that rise together: \"the + comparative\" opens each clause, and the clauses usually keep normal subject-verb order. A third or fourth clause can be added, as here, to pile up consequences. In very formal or compressed writing the verb may be dropped entirely (\"the more, the better\").",
-   "grammar_zh": "比较关联结构 “The more pieces a text yields, the more it costs, the slower the reply arrives”（切出的片段越多，费用就越高，回复越慢）把同时增长的几种变化连在一起：每个分句都以“the + 比较级”开头，分句内部通常保持正常的主谓语序。像这里一样，还可以加上第三、第四个分句来叠加后果。在非常正式或简练的表达中，动词甚至可以完全省略（“the more, the better”，越多越好）。",
-   "grammar_de": "Die vergleichende Korrelativkonstruktion „The more pieces a text yields, the more it costs, the slower the reply arrives“ (je mehr Stücke, desto teurer, desto langsamer) verbindet Veränderungen, die gemeinsam zunehmen: Jeder Teilsatz beginnt mit „the + Komparativ“, und die Teilsätze behalten meist die normale Subjekt-Verb-Stellung. Wie hier lassen sich ein dritter oder vierter Teilsatz anfügen, um Folgen aufzureihen. In sehr knapper Sprache kann das Verb ganz entfallen („the more, the better“ – je mehr, desto besser).",
-   "grammar_pt": "A construção comparativa correlativa \"The more pieces a text yields, the more it costs, the slower the reply arrives\" (quanto mais pedaços, mais custa, mais lenta a resposta) liga mudanças que crescem juntas: cada oração começa com \"the + comparativo\", e as orações costumam manter a ordem normal sujeito-verbo. Como aqui, é possível acrescentar uma terceira ou quarta oração para acumular consequências. Em textos muito concisos, o verbo pode até sumir (\"the more, the better\" – quanto mais, melhor).",
-   "questions": [
-    "Why does the author insist that the token is \"an engineering decision\" rather than a natural unit, and what follows politically from that distinction?",
-    "The study found that script matters more than the number of speakers. What historical forces might explain which writing systems are well represented in digital text?",
-    "Would a language-by-language cost scorecard be enough to address the problem, or does the piece imply that a more structural remedy is needed?"
-   ],
-   "sources": [
-    {
-     "title": "Rest of World — AI models cost more when you don't use English (Ananya Bhattacharya, 26 Oct 2026)",
-     "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
-     "license": "link only"
-    },
-    {
-     "title": "Ahia et al., Do All Languages Cost the Same? Tokenization in the Era of Commercial Language Models (EMNLP 2023)",
-     "url": "https://preview.aclanthology.org/setup/2023.emnlp-main.614",
-     "license": "CC BY 4.0"
-    },
-    {
-     "title": "LILT — CLEAR: The Coalition for Language Equity in AI Research",
-     "url": "https://lilt.com/blog/clear-the-coalition-for-language-equity-in-ai-research",
-     "license": "link only"
-    }
-   ]
-  }
- ]
+  ]
 }

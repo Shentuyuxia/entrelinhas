@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T05:16:39+00:00",
+ "updated": "2026-10-30T05:50:25+00:00",
  "days": [
   {
    "date": "2026-10-30",
@@ -9,6 +9,22 @@
      "lang": "en",
      "title": "The tax on other alphabets",
      "kind": "feature",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Lesetipps für heute",
+     "kind": "picks",
+     "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "en",
+     "title": "Today's reading list",
+     "kind": "picks",
      "level": "C2",
      "hour": null
     }
