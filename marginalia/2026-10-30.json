@@ -837,6 +837,379 @@
           "license": "link only"
         }
       ]
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "story",
+      "section": "Diário",
+      "series": {
+        "name": "O diário da Ana",
+        "episode": 5
+      },
+      "title": "Tantas perguntas!",
+      "dek": "O Lucas encontra trinta balões coloridos na livraria e faz muitas perguntas. A Ana inventa uma festa — e agora a Dona Rosa também tem perguntas.",
+      "paragraphs": [
+        "Sexta-feira, 30 de outubro de 2026. Querido diário, hoje é um dia de perguntas! Acordo às seis e meia. O Tito olha para mim com os olhos grandes. O que ele quer? Comida, claro. Sempre comida.",
+        "Às sete e quinze, eu vou à padaria do Seu João. Ele tem muitas perguntas sobre o bolo do Lucas: — Como você quer o bolo, Ana? Redondo ou quadrado? Quantas velas? — Redondo, com vinte e três velas! — Que bolo grande! E quando você pega? — Na terça, às quatro da tarde.",
+        "No ônibus, eu escuto \"Mas Que Nada\", do Jorge Ben. É uma música alegre e muito famosa. Eu danço um pouco no meu lugar. Às oito e meia, eu chego na livraria.",
+        "Às nove e meia, o Lucas abre o armário da cozinha. Lá tem uma sacola de papel, grande e cheia. — Ana, o que é isso? — Nada! — Nada? Por que tem trinta balões coloridos aqui? — Porque… porque… são para a festa da Dona Rosa!",
+        "— Quem é a Dona Rosa? — pergunta o Lucas. — A minha vizinha. — E quando é a festa dela? — Hum… amanhã, sábado. — Onde? — Na minha casa amarela. — Quantos anos ela faz? — Setenta e três! O Lucas olha para mim. Ele não acredita muito.",
+        "Ao meio-dia, a Marta e eu almoçamos no restaurante da esquina. Eu peço uma salada de frutas e um suco de laranja. A Marta pergunta baixinho: — E o Lucas? Ele sabe da festa? — Não sabe, mas tem muitas perguntas! A Marta ri e leva a sacola para a sala dela.",
+        "Às seis da tarde, eu volto para casa. No portão, a Dona Rosa e o Bolinha estão me esperando. — Dona Rosa, uma pergunta: a senhora quer uma festa amanhã? — Uma festa? Para quem? Por quê? — Para a senhora! Porque o Lucas acha que é o seu aniversário.",
+        "A Dona Rosa ri muito. — O meu aniversário é no dia 8 de março, Ana! Mas uma festa… por que não? Às quatro da tarde, então. Eu levo um bolo de fubá, e você faz o café. O Bolinha late: au! Ele também quer ir.",
+        "À noite, eu como pão com queijo e penso: quem vem amanhã? O que eu compro? Quanto dinheiro eu tenho? O Tito dorme no sofá vermelho. Ele não tem nenhuma pergunta. Que vida boa!",
+        "São dez e meia da noite. Amanhã é sábado, dia 31 de outubro: festa na casa amarela, às quatro horas. Na terça, dia 3 de novembro, é a festa do Lucas. Duas festas, um gato e muitas perguntas. Boa noite, diário. Boa noite, Tito."
+      ],
+      "paragraphs_en": [
+        "Friday, 30 October 2026. Dear diary, today is a day of questions! I wake up at half past six. Tito looks at me with big eyes. What does he want? Food, of course. Always food.",
+        "At a quarter past seven I go to Seu João's bakery. He has lots of questions about Lucas's cake: \"How do you want the cake, Ana? Round or square? How many candles?\" \"Round, with twenty-three candles!\" \"What a big cake! And when are you picking it up?\" \"On Tuesday, at four in the afternoon.\"",
+        "On the bus I listen to \"Mas Que Nada\" by Jorge Ben. It's a cheerful and very famous song. I dance a little in my seat. At half past eight I get to the bookshop.",
+        "At half past nine Lucas opens the kitchen cupboard. There's a paper bag in there, big and full. \"Ana, what's this?\" \"Nothing!\" \"Nothing? Why are there thirty colourful balloons here?\" \"Because… because… they're for Dona Rosa's party!\"",
+        "\"Who is Dona Rosa?\" asks Lucas. \"My neighbour.\" \"And when is her party?\" \"Um… tomorrow, Saturday.\" \"Where?\" \"At my yellow house.\" \"How old is she turning?\" \"Seventy-three!\" Lucas looks at me. He doesn't really believe it.",
+        "At noon Marta and I have lunch at the restaurant on the corner. I order a fruit salad and an orange juice. Marta asks quietly: \"And Lucas? Does he know about the party?\" \"He doesn't know, but he has lots of questions!\" Marta laughs and takes the bag to her office.",
+        "At six in the evening I go back home. At the gate, Dona Rosa and Bolinha are waiting for me. \"Dona Rosa, a question: would you like a party tomorrow?\" \"A party? For whom? Why?\" \"For you! Because Lucas thinks it's your birthday.\"",
+        "Dona Rosa laughs a lot. \"My birthday is on 8 March, Ana! But a party… why not? At four in the afternoon, then. I'll bring a cornmeal cake, and you make the coffee.\" Bolinha barks: woof! He wants to come too.",
+        "In the evening I eat bread and cheese and think: who is coming tomorrow? What do I buy? How much money do I have? Tito is sleeping on the red sofa. He doesn't have a single question. What a good life!",
+        "It's half past ten at night. Tomorrow is Saturday, 31 October: a party at the yellow house, at four o'clock. On Tuesday, 3 November, it's Lucas's party. Two parties, one cat and lots of questions. Good night, diary. Good night, Tito."
+      ],
+      "paragraphs_zh": [
+        "2026年10月30日，星期五。亲爱的日记，今天是提问的一天！我六点半起床。蒂托睁着大眼睛看着我。他想要什么？当然是吃的。永远是吃的。",
+        "七点一刻，我去若昂先生的面包店。他对卢卡斯的蛋糕有很多问题：“安娜，蛋糕你想要什么样的？圆的还是方的？几根蜡烛？”“圆的，二十三根蜡烛！”“好大的蛋糕！你什么时候来取？”“星期二，下午四点。”",
+        "在公交车上，我听豪尔赫·本的《Mas Que Nada》。这是一首欢快又很有名的歌。我在座位上轻轻跳了跳。八点半，我到了书店。",
+        "九点半，卢卡斯打开厨房的柜子。里面有一个纸袋，又大又满。“安娜，这是什么？”“没什么！”“没什么？为什么这里有三十个彩色气球？”“因为……因为……是给罗莎太太的派对用的！”",
+        "“罗莎太太是谁？”卢卡斯问。“我的邻居。”“她的派对是什么时候？”“嗯……明天，星期六。”“在哪儿？”“在我的黄房子里。”“她满多少岁？”“七十三！”卢卡斯看着我。他不太相信。",
+        "中午，我和玛尔塔在街角的餐厅吃午饭。我点了一份水果沙拉和一杯橙汁。玛尔塔小声问：“卢卡斯呢？他知道派对的事吗？”“不知道，但他有好多问题！”玛尔塔笑了，把袋子拿到她的办公室去。",
+        "傍晚六点，我回家。在大门口，罗莎太太和波利尼亚在等我。“罗莎太太，问您一个问题：您明天想办个派对吗？”“派对？给谁？为什么？”“给您！因为卢卡斯以为是您的生日。”",
+        "罗莎太太笑得很厉害。“我的生日是3月8日，安娜！不过派对嘛……为什么不呢？那就下午四点。我带一个玉米粉蛋糕，你煮咖啡。”波利尼亚叫了一声：汪！他也想去。",
+        "晚上，我吃面包配奶酪，心里想：明天谁来？我买什么？我有多少钱？蒂托在红色沙发上睡觉。他一个问题都没有。日子真好！",
+        "现在是晚上十点半。明天是10月31日，星期六：下午四点在黄房子开派对。星期二，11月3日，是卢卡斯的派对。两个派对、一只猫和好多问题。晚安，日记。晚安，蒂托。"
+      ],
+      "paragraphs_de": [
+        "Freitag, 30. Oktober 2026. Liebes Tagebuch, heute ist ein Tag der Fragen! Ich wache um halb sieben auf. Tito sieht mich mit großen Augen an. Was will er? Essen natürlich. Immer Essen.",
+        "Um Viertel nach sieben gehe ich zur Bäckerei von Seu João. Er hat viele Fragen zu Lucas' Kuchen: „Wie willst du den Kuchen, Ana? Rund oder eckig? Wie viele Kerzen?“ „Rund, mit dreiundzwanzig Kerzen!“ „Was für ein großer Kuchen! Und wann holst du ihn ab?“ „Am Dienstag, um vier Uhr nachmittags.“",
+        "Im Bus höre ich „Mas Que Nada“ von Jorge Ben. Es ist ein fröhliches und sehr bekanntes Lied. Ich tanze ein bisschen auf meinem Platz. Um halb neun komme ich in der Buchhandlung an.",
+        "Um halb zehn öffnet Lucas den Küchenschrank. Darin steht eine Papiertüte, groß und voll. „Ana, was ist das?“ „Nichts!“ „Nichts? Warum sind hier dreißig bunte Luftballons?“ „Weil … weil … sie für Dona Rosas Party sind!“",
+        "„Wer ist Dona Rosa?“, fragt Lucas. „Meine Nachbarin.“ „Und wann ist ihre Party?“ „Hm … morgen, Samstag.“ „Wo?“ „In meinem gelben Haus.“ „Wie alt wird sie?“ „Dreiundsiebzig!“ Lucas sieht mich an. Er glaubt es nicht so ganz.",
+        "Mittags essen Marta und ich im Restaurant an der Ecke. Ich bestelle einen Obstsalat und einen Orangensaft. Marta fragt leise: „Und Lucas? Weiß er von der Party?“ „Nein, aber er hat viele Fragen!“ Marta lacht und bringt die Tüte in ihr Büro.",
+        "Um sechs Uhr abends gehe ich nach Hause. Am Tor warten Dona Rosa und Bolinha auf mich. „Dona Rosa, eine Frage: Möchten Sie morgen eine Party?“ „Eine Party? Für wen? Warum?“ „Für Sie! Weil Lucas denkt, dass Sie Geburtstag haben.“",
+        "Dona Rosa lacht sehr. „Mein Geburtstag ist am 8. März, Ana! Aber eine Party … warum nicht? Dann um vier Uhr nachmittags. Ich bringe einen Maismehlkuchen mit, und du machst den Kaffee.“ Bolinha bellt: wau! Er will auch kommen.",
+        "Abends esse ich Brot mit Käse und denke: Wer kommt morgen? Was kaufe ich? Wie viel Geld habe ich? Tito schläft auf dem roten Sofa. Er hat keine einzige Frage. Was für ein schönes Leben!",
+        "Es ist halb elf abends. Morgen ist Samstag, der 31. Oktober: Party im gelben Haus, um vier Uhr. Am Dienstag, dem 3. November, ist Lucas' Party. Zwei Partys, eine Katze und viele Fragen. Gute Nacht, Tagebuch. Gute Nacht, Tito."
+      ],
+      "glossary": [
+        {
+          "w": "o que? / que…!",
+          "en": "what? — O que é isso? (What is this?); in exclamations que = what a…: Que bolo grande! Que vida boa!",
+          "zh": "什么？／（感叹）多么……！",
+          "de": "was? / was für ein …!",
+          "pt": "pergunta sobre uma coisa: \"O que é isso?\" Com \"!\": \"Que bonito!\""
+        },
+        {
+          "w": "por que? / porque",
+          "en": "why? (two words) / because (one word) — Por que tem balões aqui? — Porque são para a festa.",
+          "zh": "为什么？（分开写）／因为（连写）",
+          "de": "warum? / weil",
+          "pt": "\"por que\" pergunta; \"porque\" responde"
+        },
+        {
+          "w": "quanto / quantos / quantas",
+          "en": "how much / how many — agrees with the noun: quanto dinheiro, quantos anos, quantas velas (cf. 'quantity')",
+          "zh": "多少（与名词阴阳性、单复数一致）",
+          "de": "wie viel / wie viele",
+          "pt": "pergunta o número: \"Quantos anos você tem?\""
+        },
+        {
+          "w": "qual? / quem? / onde? / quando?",
+          "en": "which? / who? / where? / when? — Quem é a Dona Rosa? Onde? Quando é a festa?",
+          "zh": "哪个？／谁？／哪里？／什么时候？",
+          "de": "welche? / wer? / wo? / wann?",
+          "pt": "palavras para perguntar: coisa, pessoa, lugar, tempo"
+        },
+        {
+          "w": "redondo / quadrado",
+          "en": "round / square (cf. 'quadrangle')",
+          "zh": "圆的／方的",
+          "de": "rund / eckig, quadratisch",
+          "pt": "redondo como uma bola; quadrado como uma caixa"
+        },
+        {
+          "w": "a vela",
+          "en": "candle",
+          "zh": "蜡烛",
+          "de": "die Kerze",
+          "pt": "coisa que a gente coloca no bolo de aniversário"
+        },
+        {
+          "w": "a sacola de papel",
+          "en": "paper bag (noun + de + noun: what it is made of)",
+          "zh": "纸袋",
+          "de": "die Papiertüte",
+          "pt": "sacola feita de papel"
+        },
+        {
+          "w": "colorido / colorida",
+          "en": "colourful (os balões coloridos — agrees: plural, masculine)",
+          "zh": "彩色的",
+          "de": "bunt",
+          "pt": "com muitas cores"
+        },
+        {
+          "w": "o suco de laranja",
+          "en": "orange juice (de + noun says what kind)",
+          "zh": "橙汁",
+          "de": "der Orangensaft",
+          "pt": "suco feito de laranja"
+        },
+        {
+          "w": "o bolo de fubá",
+          "en": "cornmeal cake, a typical Brazilian cake (fubá = cornmeal)",
+          "zh": "玉米粉蛋糕",
+          "de": "der Maismehlkuchen",
+          "pt": "bolo feito de farinha de milho"
+        }
+      ],
+      "grammar": "Question words go at the start: O que é isso? Quem é a Dona Rosa? Onde? Quando é a festa? \"Por que\" (two words) asks why; \"porque\" (one word) answers because: Por que tem balões aqui? — Porque são para a festa. \"Quanto\" agrees with the noun: quanto dinheiro, quantos anos, quantas velas.",
+      "grammar_zh": "疑问词放在句首：O que é isso?（这是什么？）Quem é a Dona Rosa?（罗莎太太是谁？）Onde?（在哪儿？）Quando é a festa?（派对什么时候？）“por que”（分开写）问“为什么”，“porque”（连写）答“因为”：Por que tem balões aqui? —— Porque são para a festa。“quanto”要跟名词一致：quanto dinheiro，quantos anos，quantas velas。",
+      "grammar_de": "Fragewörter stehen am Satzanfang: O que é isso? Quem é a Dona Rosa? Onde? Quando é a festa? „Por que“ (zwei Wörter) fragt warum; „porque“ (ein Wort) antwortet weil: Por que tem balões aqui? – Porque são para a festa. „Quanto“ richtet sich nach dem Nomen: quanto dinheiro, quantos anos, quantas velas.",
+      "grammar_pt": "A palavra da pergunta vem no começo: O que é isso? Quem é a Dona Rosa? Onde? Quando é a festa? \"Por que\" (separado) pergunta; \"porque\" (junto) responde: Por que tem balões aqui? — Porque são para a festa. \"Quanto\" combina com a coisa: quanto dinheiro, quantos anos, quantas velas.",
+      "questions": [
+        "Quantas velas tem o bolo do Lucas? Por quê?",
+        "Quando é o aniversário da Dona Rosa? E quando é o seu aniversário?",
+        "A que horas você acorda na sexta-feira? O que você come de manhã?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "dialogue",
+      "section": "Diálogo",
+      "title": "Na bilheteria do cinema",
+      "dek": "O Rafael quer dois ingressos para sexta à noite. Qual filme? A que horas? Quanto custa? E por que é mais barato na quarta?",
+      "paragraphs": [
+        "Atendente: Boa noite! Qual filme você quer ver?",
+        "Rafael: A comédia brasileira nova. A que horas começa?",
+        "Atendente: Às sete e às nove e meia. Que horário você prefere?",
+        "Rafael: Às nove e meia. Quanto custa o ingresso?",
+        "Atendente: Hoje, sexta-feira, custa trinta reais. Na quarta, só quinze.",
+        "Rafael: Por que é mais barato na quarta?",
+        "Atendente: Porque quarta-feira é o dia da promoção. Quantos ingressos?",
+        "Rafael: Dois: um inteiro e uma meia-entrada.",
+        "Atendente: Para quem é a meia-entrada?",
+        "Rafael: Para a minha irmã. Ela é estudante. Está ali, na fila da pipoca.",
+        "Atendente: Então são quarenta e cinco reais. Vocês querem sentar no meio, né?",
+        "Rafael: Isso, no meio! Fila F, lugares quinze e dezesseis. Obrigado!"
+      ],
+      "paragraphs_en": [
+        "Clerk: Good evening! Which film do you want to see?",
+        "Rafael: The new Brazilian comedy. What time does it start?",
+        "Clerk: At seven and at half past nine. Which time do you prefer?",
+        "Rafael: Half past nine. How much is a ticket?",
+        "Clerk: Today, Friday, it's thirty reais. On Wednesday, only fifteen.",
+        "Rafael: Why is it cheaper on Wednesday?",
+        "Clerk: Because Wednesday is the special-offer day. How many tickets?",
+        "Rafael: Two: one full price and one half price.",
+        "Clerk: Who is the half-price ticket for?",
+        "Rafael: For my sister. She's a student. She's over there, in the popcorn queue.",
+        "Clerk: Then that's forty-five reais. You want to sit in the middle, right?",
+        "Rafael: Exactly, in the middle! Row F, seats fifteen and sixteen. Thank you!"
+      ],
+      "paragraphs_zh": [
+        "售票员：晚上好！你想看哪部电影？",
+        "拉法埃尔：那部新的巴西喜剧。几点开始？",
+        "售票员：七点和九点半。你想要哪个场次？",
+        "拉法埃尔：九点半。票多少钱？",
+        "售票员：今天星期五，三十雷亚尔。星期三只要十五。",
+        "拉法埃尔：为什么星期三更便宜？",
+        "售票员：因为星期三是优惠日。要几张票？",
+        "拉法埃尔：两张：一张全价，一张半价。",
+        "售票员：半价票是给谁的？",
+        "拉法埃尔：给我妹妹。她是学生。她在那边，排队买爆米花。",
+        "售票员：那一共四十五雷亚尔。你们想坐中间，对吧？",
+        "拉法埃尔：对，中间！F排，15号和16号座位。谢谢！"
+      ],
+      "paragraphs_de": [
+        "Angestellte: Guten Abend! Welchen Film möchtest du sehen?",
+        "Rafael: Die neue brasilianische Komödie. Um wie viel Uhr fängt sie an?",
+        "Angestellte: Um sieben und um halb zehn. Welche Uhrzeit ist dir lieber?",
+        "Rafael: Um halb zehn. Was kostet eine Karte?",
+        "Angestellte: Heute, Freitag, kostet sie dreißig Reais. Am Mittwoch nur fünfzehn.",
+        "Rafael: Warum ist es am Mittwoch billiger?",
+        "Angestellte: Weil Mittwoch der Aktionstag ist. Wie viele Karten?",
+        "Rafael: Zwei: eine normale und eine ermäßigte.",
+        "Angestellte: Für wen ist die ermäßigte Karte?",
+        "Rafael: Für meine Schwester. Sie ist Studentin. Sie steht da drüben, in der Popcorn-Schlange.",
+        "Angestellte: Dann sind das fünfundvierzig Reais. Ihr wollt in der Mitte sitzen, oder?",
+        "Rafael: Genau, in der Mitte! Reihe F, Plätze fünfzehn und sechzehn. Danke!"
+      ],
+      "glossary": [
+        {
+          "w": "a bilheteria",
+          "en": "box office, ticket counter (bilhete = ticket)",
+          "zh": "售票处",
+          "de": "die Kasse, der Ticketschalter",
+          "pt": "lugar onde a gente compra o ingresso"
+        },
+        {
+          "w": "a que horas?",
+          "en": "at what time? — for events: A que horas começa? (but the clock now: Que horas são?)",
+          "zh": "几点（做某事）？",
+          "de": "um wie viel Uhr?",
+          "pt": "pergunta a hora de uma coisa: \"A que horas começa?\""
+        },
+        {
+          "w": "qual? / que?",
+          "en": "which? / what? — before a noun both work: Qual filme? Que horário?",
+          "zh": "哪个？／什么？（放在名词前都可以）",
+          "de": "welcher? / was für ein?",
+          "pt": "para escolher: \"Qual filme você quer?\""
+        },
+        {
+          "w": "o horário",
+          "en": "time, schedule slot (here: showtime)",
+          "zh": "时间、场次",
+          "de": "die Uhrzeit, die Vorstellungszeit",
+          "pt": "a hora de uma coisa: o horário do filme"
+        },
+        {
+          "w": "o ingresso",
+          "en": "(entrance) ticket",
+          "zh": "门票、电影票",
+          "de": "die Eintrittskarte",
+          "pt": "papel para entrar no cinema, no show"
+        },
+        {
+          "w": "a meia-entrada",
+          "en": "half-price ticket (for students, seniors…) vs. o inteiro = full price",
+          "zh": "半价票（学生、老人等）",
+          "de": "die ermäßigte Karte (halber Preis)",
+          "pt": "ingresso pela metade do preço, para estudantes"
+        },
+        {
+          "w": "mais barato",
+          "en": "cheaper (barato = cheap)",
+          "zh": "更便宜",
+          "de": "billiger",
+          "pt": "custa menos"
+        },
+        {
+          "w": "para quem?",
+          "en": "for whom? who for? — Para quem é? — Para a minha irmã.",
+          "zh": "给谁？",
+          "de": "für wen?",
+          "pt": "pergunta a pessoa que recebe: \"Para quem é?\""
+        },
+        {
+          "w": "a fila",
+          "en": "queue, line; also a row of seats (fila F)",
+          "zh": "队伍；（座位的）排",
+          "de": "die Schlange; die Reihe",
+          "pt": "pessoas uma atrás da outra; também as cadeiras do cinema"
+        },
+        {
+          "w": "né?",
+          "en": "right? isn't it? (from não é) — makes a yes/no question",
+          "zh": "对吧？是吧？",
+          "de": "oder? nicht wahr?",
+          "pt": "\"não é?\" bem curto, no fim da frase"
+        }
+      ],
+      "grammar": "\"A que horas…?\" asks when something happens: A que horas começa? — Às sete. (The time now is \"Que horas são?\") \"Por que\" (two words) asks why, \"porque\" (one word) answers: Por que é mais barato? — Porque é o dia da promoção. \"Quanto custa?\" asks the price; \"quantos/quantas\" asks how many and agrees: quantos ingressos, quantas pessoas.",
+      "grammar_zh": "“A que horas…?”问某事几点发生：A que horas começa? —— Às sete。（问现在几点用“Que horas são?”）“por que”（分开写）问“为什么”，“porque”（连写）回答“因为”：Por que é mais barato? —— Porque é o dia da promoção。“Quanto custa?”问价钱；“quantos/quantas”问数量，并要与名词一致：quantos ingressos，quantas pessoas。",
+      "grammar_de": "„A que horas …?“ fragt, wann etwas passiert: A que horas começa? – Às sete. (Die aktuelle Uhrzeit: „Que horas são?“) „Por que“ (zwei Wörter) fragt warum, „porque“ (ein Wort) antwortet weil: Por que é mais barato? – Porque é o dia da promoção. „Quanto custa?“ fragt nach dem Preis; „quantos/quantas“ fragt wie viele und richtet sich nach dem Nomen: quantos ingressos, quantas pessoas.",
+      "grammar_pt": "\"A que horas…?\" pergunta a hora de uma coisa: A que horas começa? — Às sete. (A hora agora: \"Que horas são?\") \"Por que\" (separado) pergunta, \"porque\" (junto) responde: Por que é mais barato? — Porque é o dia da promoção. \"Quanto custa?\" pergunta o preço; \"quantos/quantas\" pergunta o número: quantos ingressos, quantas pessoas.",
+      "questions": [
+        "A que horas você janta?",
+        "Quanto custa um ingresso de cinema na sua cidade?",
+        "Com quem você vai ao cinema? Que tipo de filme você prefere?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "brief",
+      "section": "Textinho",
+      "title": "Aviso na padaria",
+      "dek": "Na porta da padaria do Seu João tem um aviso novo: o horário do feriado, uma pergunta sobre bolos e uma promoção de sexta.",
+      "paragraphs": [
+        "PADARIA DO SEU JOÃO — AVISO",
+        "Segunda-feira, 2 de novembro, é feriado de Finados. Nesse dia, a padaria abre das 7h ao meio-dia. Sábado e domingo: horário normal, das 6h às 20h.",
+        "Quer um bolo de aniversário? De qual sabor? Para quantas pessoas? Fale com o Seu João no balcão ou ligue: 3456-7890.",
+        "Pão de queijo quentinho: R$ 2,50. Só hoje, sexta-feira: três por R$ 6,00!"
+      ],
+      "paragraphs_en": [
+        "SEU JOÃO'S BAKERY — NOTICE",
+        "Monday, 2 November, is the All Souls' Day holiday. On that day the bakery is open from 7 a.m. to noon. Saturday and Sunday: normal hours, from 6 a.m. to 8 p.m.",
+        "Would you like a birthday cake? Which flavour? For how many people? Talk to Seu João at the counter or call: 3456-7890.",
+        "Warm cheese bread: R$ 2.50. Today only, Friday: three for R$ 6.00!"
+      ],
+      "paragraphs_zh": [
+        "若昂先生面包店 —— 通知",
+        "11月2日星期一是万灵节（Finados）假日。当天面包店营业时间为早上7点到中午。星期六和星期日：正常营业，早上6点到晚上8点。",
+        "想要生日蛋糕吗？什么口味？几个人吃？请到柜台找若昂先生，或者打电话：3456-7890。",
+        "热乎乎的奶酪面包：2.50雷亚尔。仅限今天星期五：三个6.00雷亚尔！"
+      ],
+      "paragraphs_de": [
+        "BÄCKEREI SEU JOÃO — HINWEIS",
+        "Montag, 2. November, ist der Feiertag Allerseelen (Finados). An diesem Tag ist die Bäckerei von 7 bis 12 Uhr geöffnet. Samstag und Sonntag: normale Öffnungszeiten, von 6 bis 20 Uhr.",
+        "Möchten Sie eine Geburtstagstorte? Welche Sorte? Für wie viele Personen? Sprechen Sie mit Seu João an der Theke oder rufen Sie an: 3456-7890.",
+        "Warmes Käsebrot (Pão de queijo): 2,50 R$. Nur heute, Freitag: drei für 6,00 R$!"
+      ],
+      "glossary": [
+        {
+          "w": "o aviso",
+          "en": "notice, sign, announcement (cf. 'advice')",
+          "zh": "通知、告示",
+          "de": "der Hinweis, der Aushang",
+          "pt": "papel com uma informação importante"
+        },
+        {
+          "w": "o feriado de Finados",
+          "en": "All Souls' Day holiday (2 November, a national holiday in Brazil)",
+          "zh": "万灵节假日（11月2日，巴西全国假日）",
+          "de": "der Feiertag Allerseelen (2. November)",
+          "pt": "dia 2 de novembro: dia de lembrar as pessoas da família que morreram"
+        },
+        {
+          "w": "das 7h ao meio-dia",
+          "en": "from 7 a.m. to noon — de + as = das, a + o = ao (das 6h às 20h)",
+          "zh": "从早上7点到中午",
+          "de": "von 7 Uhr bis mittags",
+          "pt": "de… a…: a hora do começo e a hora do fim"
+        },
+        {
+          "w": "o balcão",
+          "en": "counter (in a shop or bakery)",
+          "zh": "柜台",
+          "de": "die Theke, der Tresen",
+          "pt": "mesa alta da loja, onde a gente paga e pede"
+        },
+        {
+          "w": "o pão de queijo",
+          "en": "cheese bread — small, round Brazilian cheese rolls",
+          "zh": "巴西奶酪面包（小圆球）",
+          "de": "das Käsebrötchen (brasilianisch)",
+          "pt": "pão pequeno e redondo, feito com queijo"
+        },
+        {
+          "w": "quentinho",
+          "en": "nice and warm, fresh from the oven (quente + -inho)",
+          "zh": "热乎乎的",
+          "de": "schön warm, ofenfrisch",
+          "pt": "um pouco quente, gostoso"
+        }
+      ],
+      "grammar": "Signs use short questions without a verb: De qual sabor? Para quantas pessoas? Opening hours use de… a… with contractions: das 7h ao meio-dia, das 6h às 20h (7h = sete horas).",
+      "grammar_zh": "告示里常用不带动词的短问句：De qual sabor?（什么口味？）Para quantas pessoas?（几个人？）营业时间用 de… a…，并且要缩合：das 7h ao meio-dia，das 6h às 20h（7h 读作 sete horas）。",
+      "grammar_de": "Auf Schildern stehen kurze Fragen ohne Verb: De qual sabor? Para quantas pessoas? Öffnungszeiten nennt man mit de … a … und Zusammenziehungen: das 7h ao meio-dia, das 6h às 20h (7h = sete horas).",
+      "grammar_pt": "No aviso, as perguntas são curtas, sem verbo: De qual sabor? Para quantas pessoas? Para o horário: de… a…, com contração: das 7h ao meio-dia, das 6h às 20h (7h = sete horas).",
+      "questions": [
+        "A que horas a padaria abre e fecha na segunda-feira, dia 2 de novembro?",
+        "Quanto custam três pães de queijo hoje?"
+      ],
+      "sources": []
     }
   ]
 }

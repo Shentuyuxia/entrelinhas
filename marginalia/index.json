@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T15:52:46+00:00",
+ "updated": "2026-10-30T18:57:37+00:00",
  "days": [
   {
    "date": "2026-10-30",
@@ -58,6 +58,30 @@
      "title": "Le prix d'une course : à Tunis, les livreurs face à l'algorithme",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 7,
+     "lang": "pt",
+     "title": "Tantas perguntas!",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 8,
+     "lang": "pt",
+     "title": "Na bilheteria do cinema",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 9,
+     "lang": "pt",
+     "title": "Aviso na padaria",
+     "kind": "brief",
+     "level": "A1",
      "hour": null
     }
    ]
