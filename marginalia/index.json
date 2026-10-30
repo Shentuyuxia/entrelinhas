@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:13:14+00:00",
+ "updated": "2026-10-30T15:52:46+00:00",
  "days": [
   {
    "date": "2026-10-30",
@@ -42,6 +42,22 @@
      "title": "Finger weg vom Joghurt! – Krisengespräch in der WG-Küche",
      "kind": "dialogue",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "fr",
+     "title": "Livreur à Tunis : trois dinars, s'il vous plaît",
+     "kind": "feature",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "fr",
+     "title": "Le prix d'une course : à Tunis, les livreurs face à l'algorithme",
+     "kind": "feature",
+     "level": "C1",
      "hour": null
     }
    ]
