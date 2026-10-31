@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-31",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "story",
+      "section": "Diário",
+      "series": {
+        "name": "O diário da Ana",
+        "episode": 6
+      },
+      "title": "Uma festa de mentira",
+      "dek": "Sábado sem trabalho: a Ana acorda tarde, canta mal e faz uma festa de aniversário para a Dona Rosa — mas hoje não é o aniversário dela. E o Lucas acredita?",
+      "paragraphs": [
+        "Sábado, 31 de outubro de 2026. Querido diário, hoje é sábado e eu não trabalho. No sábado, eu nunca acordo cedo! Mas o Tito sempre acorda cedo. Às seis horas, ele já está aqui, na minha cama: miau, miau! Eu durmo mais um pouco. Acordo bem tarde, às nove e meia.",
+        "Ontem eu fui dormir tarde, às onze e meia. Eu tenho muitas perguntas na cabeça. Hoje é a festa da Dona Rosa: uma festa de aniversário, mas não é o aniversário dela! É uma festa de mentira. E o Lucas também vem. Ele quer muito conhecer a minha vizinha.",
+        "Às dez horas, eu vou à padaria do Seu João. Hoje a padaria está muito cheia. — Bom dia, Ana! Tudo bem? — Mais ou menos, Seu João. Antes de uma festa, eu sempre durmo mal. Eu compro vinte pães de queijo e um pacote de café. O Seu João fala baixinho: — E o bolo do Lucas? Tudo certo para terça, às quatro!",
+        "Ao meio-dia, eu limpo a casa devagar e escuto \"Velha Infância\", dos Tribalistas. É uma música calma e bonita. Eu canto mal, mas canto muito! O Tito não gosta. Ele vai para o jardim e fica lá.",
+        "Às três e meia, a Júlia chega com uma torta de limão. — Onde eu coloco a torta, Ana? Aqui? — Não, lá, na mesa grande, perto da janela! Hoje o Pipoca e a Paçoca, os gatos pretos dela, ficam em casa. Que bom!",
+        "Às quatro em ponto, chega a Dona Rosa com um bolo de fubá. O Bolinha também chega, com um chapéu de festa azul. Que cachorro elegante! Às quatro e dez, chega o Lucas, com flores amarelas. — Parabéns, Dona Rosa! — Obrigada, meu filho! — ela responde. A Dona Rosa é uma ótima atriz.",
+        "O Lucas pergunta muito, como sempre. — Quantos anos a senhora faz hoje? — Setenta e três! — E a senhora mora aqui há muito tempo? — Há quarenta anos. Ali, na casa do lado. A Dona Rosa fala bem e ri muito. Eu falo pouco e como três pedaços de bolo.",
+        "Às sete da noite, a festa acaba. No portão, o Lucas diz: — Ana, a sua vizinha é muito legal! E o meu aniversário é na terça, né? Ele ri. Ele sabe? Ele não sabe? Com o Lucas, eu nunca sei!",
+        "Agora são onze da noite. A casa está uma bagunça: pratos sujos, flores amarelas e um chapéu de festa no sofá vermelho. O Tito dorme lá, em cima do chapéu.",
+        "Amanhã é domingo, dia 1º de novembro. Amanhã eu limpo tudo… ou depois de amanhã. Na terça, dia 3, é a festa de verdade: a festa do Lucas! Boa noite, diário. Boa noite, Tito."
+      ],
+      "paragraphs_en": [
+        "Saturday, 31 October 2026. Dear diary, today is Saturday and I'm not working. On Saturdays I never wake up early! But Tito always wakes up early. At six o'clock he's already here, on my bed: meow, meow! I sleep a little more. I wake up really late, at half past nine.",
+        "Yesterday I went to bed late, at half past eleven. I have lots of questions in my head. Today is Dona Rosa's party: a birthday party, but it isn't her birthday! It's a pretend party. And Lucas is coming too. He really wants to meet my neighbour.",
+        "At ten o'clock I go to Seu João's bakery. Today the bakery is very busy. \"Good morning, Ana! How are you?\" \"So-so, Seu João. Before a party I always sleep badly.\" I buy twenty cheese breads and a packet of coffee. Seu João says quietly: \"And Lucas's cake? All set for Tuesday, at four!\"",
+        "At noon I clean the house slowly and listen to \"Velha Infância\" by Tribalistas. It's a calm, pretty song. I sing badly, but I sing a lot! Tito doesn't like it. He goes into the garden and stays there.",
+        "At half past three Júlia arrives with a lemon pie. \"Where do I put the pie, Ana? Here?\" \"No, there, on the big table, near the window!\" Today Pipoca and Paçoca, her black cats, stay at home. Good!",
+        "At four o'clock sharp Dona Rosa arrives with a cornmeal cake. Bolinha comes too, wearing a blue party hat. What an elegant dog! At ten past four Lucas arrives, with yellow flowers. \"Happy birthday, Dona Rosa!\" \"Thank you, my dear!\" she answers. Dona Rosa is a great actress.",
+        "Lucas asks a lot of questions, as always. \"How old are you turning today?\" \"Seventy-three!\" \"And have you lived here for a long time?\" \"For forty years. Over there, in the house next door.\" Dona Rosa talks well and laughs a lot. I talk little and eat three pieces of cake.",
+        "At seven in the evening the party ends. At the gate Lucas says: \"Ana, your neighbour is really nice! And my birthday is on Tuesday, right?\" He laughs. Does he know? Doesn't he know? With Lucas, I never know!",
+        "Now it's eleven at night. The house is a mess: dirty plates, yellow flowers and a party hat on the red sofa. Tito is sleeping there, on top of the hat.",
+        "Tomorrow is Sunday, 1 November. Tomorrow I'll clean everything… or the day after tomorrow. On Tuesday, the 3rd, it's the real party: Lucas's party! Good night, diary. Good night, Tito."
+      ],
+      "paragraphs_zh": [
+        "2026年10月31日，星期六。亲爱的日记，今天是星期六，我不上班。星期六我从来不早起！可是蒂托总是起得很早。六点钟，他已经在这儿了，在我的床上：喵，喵！我再睡一会儿。我起得很晚，九点半才起。",
+        "昨天我睡得很晚，十一点半才睡。我脑子里有好多问题。今天是罗莎太太的派对：一个生日派对，可今天不是她的生日！这是一个假的派对。卢卡斯也要来。他很想认识我的邻居。",
+        "十点钟，我去若昂先生的面包店。今天面包店里人很多。“早上好，安娜！你好吗？”“马马虎虎，若昂先生。派对之前我总是睡不好。”我买了二十个奶酪面包和一包咖啡。若昂先生小声说：“卢卡斯的蛋糕呢？星期二四点，一切都准备好了！”",
+        "中午，我慢慢地打扫房子，听Tribalistas的《Velha Infância》。这是一首安静又好听的歌。我唱得不好，但唱得很多！蒂托不喜欢。他去了花园，待在那里。",
+        "三点半，茱莉亚带着一个柠檬派来了。“安娜，派放哪儿？这儿？”“不，那儿，放在大桌子上，靠近窗户！”今天她的两只黑猫，皮波卡和帕索卡，待在家里。太好了！",
+        "四点整，罗莎太太带着一个玉米粉蛋糕来了。波利尼亚也来了，戴着一顶蓝色的派对帽。多优雅的狗啊！四点十分，卢卡斯来了，拿着黄色的花。“生日快乐，罗莎太太！”“谢谢你，孩子！”她回答。罗莎太太是一位很棒的演员。",
+        "卢卡斯问了很多问题，和平时一样。“您今天满多少岁？”“七十三！”“您在这里住了很久吗？”“四十年了。就在那边，隔壁的房子。”罗莎太太很会说话，笑得很多。我说得很少，吃了三块蛋糕。",
+        "晚上七点，派对结束了。在大门口，卢卡斯说：“安娜，你的邻居人真好！我的生日是星期二，对吧？”他笑了。他知道吗？他不知道吗？跟卢卡斯在一起，我永远不知道！",
+        "现在是晚上十一点。家里乱七八糟：脏盘子、黄色的花，还有红沙发上的一顶派对帽。蒂托睡在那儿，睡在帽子上面。",
+        "明天是星期日，11月1日。明天我把一切都打扫干净……或者后天。星期二，3号，是真正的派对：卢卡斯的派对！晚安，日记。晚安，蒂托。"
+      ],
+      "paragraphs_de": [
+        "Samstag, 31. Oktober 2026. Liebes Tagebuch, heute ist Samstag und ich arbeite nicht. Samstags stehe ich nie früh auf! Aber Tito wacht immer früh auf. Um sechs Uhr ist er schon hier, auf meinem Bett: miau, miau! Ich schlafe noch ein bisschen. Ich wache ganz spät auf, um halb zehn.",
+        "Gestern bin ich spät ins Bett gegangen, um halb zwölf. Ich habe viele Fragen im Kopf. Heute ist Dona Rosas Party: eine Geburtstagsparty, aber es ist nicht ihr Geburtstag! Es ist eine Schein-Party. Und Lucas kommt auch. Er möchte meine Nachbarin unbedingt kennenlernen.",
+        "Um zehn Uhr gehe ich zur Bäckerei von Seu João. Heute ist die Bäckerei sehr voll. „Guten Morgen, Ana! Alles gut?“ „Geht so, Seu João. Vor einer Party schlafe ich immer schlecht.“ Ich kaufe zwanzig Käsebrötchen und eine Packung Kaffee. Seu João sagt leise: „Und Lucas' Kuchen? Alles klar für Dienstag, um vier!“",
+        "Mittags putze ich langsam das Haus und höre „Velha Infância“ von den Tribalistas. Es ist ein ruhiges, schönes Lied. Ich singe schlecht, aber ich singe viel! Tito mag das nicht. Er geht in den Garten und bleibt dort.",
+        "Um halb vier kommt Júlia mit einem Zitronenkuchen. „Wo stelle ich den Kuchen hin, Ana? Hierhin?“ „Nein, dorthin, auf den großen Tisch, nah am Fenster!“ Heute bleiben Pipoca und Paçoca, ihre schwarzen Katzen, zu Hause. Wie gut!",
+        "Um Punkt vier kommt Dona Rosa mit einem Maismehlkuchen. Bolinha kommt auch, mit einem blauen Partyhut. Was für ein eleganter Hund! Um zehn nach vier kommt Lucas, mit gelben Blumen. „Herzlichen Glückwunsch, Dona Rosa!“ „Danke, mein Junge!“, antwortet sie. Dona Rosa ist eine tolle Schauspielerin.",
+        "Lucas fragt viel, wie immer. „Wie alt werden Sie heute?“ „Dreiundsiebzig!“ „Und wohnen Sie schon lange hier?“ „Seit vierzig Jahren. Da drüben, im Haus nebenan.“ Dona Rosa redet gut und lacht viel. Ich rede wenig und esse drei Stücke Kuchen.",
+        "Um sieben Uhr abends ist die Party zu Ende. Am Tor sagt Lucas: „Ana, deine Nachbarin ist echt nett! Und mein Geburtstag ist am Dienstag, oder?“ Er lacht. Weiß er es? Weiß er es nicht? Bei Lucas weiß ich es nie!",
+        "Jetzt ist es elf Uhr abends. Das Haus ist ein Chaos: schmutzige Teller, gelbe Blumen und ein Partyhut auf dem roten Sofa. Tito schläft dort, auf dem Hut.",
+        "Morgen ist Sonntag, der 1. November. Morgen räume ich alles auf … oder übermorgen. Am Dienstag, dem 3., ist die echte Party: Lucas' Party! Gute Nacht, Tagebuch. Gute Nacht, Tito."
+      ],
+      "glossary": [
+        {
+          "w": "cedo / tarde",
+          "en": "early / late — Eu nunca acordo cedo. Acordo bem tarde. (But à tarde = in the afternoon.)",
+          "zh": "早／晚",
+          "de": "früh / spät",
+          "pt": "cedo: antes da hora normal; tarde: depois da hora normal"
+        },
+        {
+          "w": "sempre / nunca / às vezes",
+          "en": "always / never / sometimes — nunca comes before the verb: Eu nunca acordo cedo.",
+          "zh": "总是／从不／有时",
+          "de": "immer / nie / manchmal",
+          "pt": "sempre: todas as vezes; nunca: nenhuma vez; às vezes: algumas vezes"
+        },
+        {
+          "w": "bem / mal",
+          "en": "well / badly — adverbs say HOW: Ela fala bem. Eu canto mal. (Adjectives: bom, ruim.)",
+          "zh": "好地／不好地",
+          "de": "gut / schlecht",
+          "pt": "bem: de um jeito bom; mal: de um jeito ruim"
+        },
+        {
+          "w": "aqui / ali / lá",
+          "en": "here / over there / there (far) — Ele já está aqui. Ali, na casa do lado. Ele fica lá.",
+          "zh": "这里／那边／那里",
+          "de": "hier / da drüben / dort",
+          "pt": "aqui: perto de mim; ali: um pouco longe; lá: longe"
+        },
+        {
+          "w": "muito / pouco",
+          "en": "a lot / a little — as adverbs they never change: ri muito, falo pouco (but with nouns: muitas perguntas)",
+          "zh": "很多／很少",
+          "de": "viel / wenig",
+          "pt": "muito: grande quantidade; pouco: pequena quantidade"
+        },
+        {
+          "w": "devagar",
+          "en": "slowly",
+          "zh": "慢慢地",
+          "de": "langsam",
+          "pt": "sem pressa, não rápido"
+        },
+        {
+          "w": "fui (ir)",
+          "en": "I went — past tense of ir: Ontem eu fui dormir tarde.",
+          "zh": "我去了（ir 的过去式）",
+          "de": "ich ging, ich bin gegangen",
+          "pt": "passado de \"eu vou\": hoje eu vou, ontem eu fui"
+        },
+        {
+          "w": "de mentira / de verdade",
+          "en": "pretend, fake / real — describing phrases with de: uma festa de mentira, a festa de verdade",
+          "zh": "假的／真的",
+          "de": "Schein-, nicht echt / echt",
+          "pt": "de mentira: não é real; de verdade: é real"
+        },
+        {
+          "w": "o chapéu de festa",
+          "en": "party hat (noun + de + noun: what kind of hat)",
+          "zh": "派对帽",
+          "de": "der Partyhut",
+          "pt": "chapéu pequeno e colorido para festa de aniversário"
+        },
+        {
+          "w": "a bagunça",
+          "en": "mess, chaos — A casa está uma bagunça.",
+          "zh": "乱七八糟",
+          "de": "das Durcheinander, das Chaos",
+          "pt": "tudo fora do lugar, sem ordem"
+        }
+      ],
+      "grammar": "Adverbs tell you when, where, how or how much — and they never change form: Eu canto mal. Ela ri muito. (Compare the adjective, which agrees: muitas perguntas.) Time adverbs often open the sentence: Hoje…, Ontem…, Amanhã…. Nunca goes before the verb: Eu nunca acordo cedo.",
+      "grammar_zh": "副词说明时间、地点、方式或程度，而且形式永远不变：Eu canto mal.（我唱得不好。）Ela ri muito.（她笑得很多。）（对比形容词要变化：muitas perguntas。）时间副词常放在句首：Hoje…，Ontem…，Amanhã…。nunca 放在动词前面：Eu nunca acordo cedo.（我从不早起。）",
+      "grammar_de": "Adverbien sagen wann, wo, wie oder wie viel – und sie verändern sich nie: Eu canto mal. Ela ri muito. (Das Adjektiv dagegen passt sich an: muitas perguntas.) Zeitadverbien stehen oft am Satzanfang: Hoje …, Ontem …, Amanhã …. Nunca steht vor dem Verb: Eu nunca acordo cedo.",
+      "grammar_pt": "O advérbio diz quando, onde, como ou quanto — e ele nunca muda: Eu canto mal. Ela ri muito. (O adjetivo muda: muitas perguntas.) Hoje, ontem e amanhã vêm muitas vezes no começo da frase: Hoje…, Amanhã…. \"Nunca\" vem antes do verbo: Eu nunca acordo cedo.",
+      "questions": [
+        "A que horas você acorda no sábado? Cedo ou tarde?",
+        "O que você sempre faz no domingo? E o que você nunca faz?",
+        "Quando é a festa de verdade? E quando é o aniversário de verdade da Dona Rosa?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "dialogue",
+      "section": "Diálogo",
+      "title": "Numa festa: gente nova",
+      "dek": "A Carla e o Diego se conhecem numa festa. De onde ele é? O que ele faz? Qual pedaço de bolo ele quer? E aonde eles vão depois?",
+      "paragraphs": [
+        "Carla: Oi! Você é amigo da Paula, né?",
+        "Diego: Sou, sim! E você, como se chama?",
+        "Carla: Carla. Prazer! De onde você é?",
+        "Diego: Sou de Recife, mas moro aqui há dois anos.",
+        "Carla: Que legal! O que você faz?",
+        "Diego: Sou enfermeiro. E você, quem você conhece aqui?",
+        "Carla: Só a Paula. Ela é minha colega de trabalho.",
+        "Diego: Quantas pessoas tem na festa? Umas trinta?",
+        "Carla: Quarenta! E o bolo é de chocolate. Qual pedaço você quer?",
+        "Diego: O pedaço grande, por favor! Aonde você vai depois da festa?",
+        "Carla: Vou a um show de forró, às dez da noite. Quer ir também?",
+        "Diego: Quero! Mas amanhã eu trabalho às sete. Então só até meia-noite!"
+      ],
+      "paragraphs_en": [
+        "Carla: Hi! You're Paula's friend, right?",
+        "Diego: Yes, I am! And you, what's your name?",
+        "Carla: Carla. Nice to meet you! Where are you from?",
+        "Diego: I'm from Recife, but I've lived here for two years.",
+        "Carla: How nice! What do you do?",
+        "Diego: I'm a nurse. And you, who do you know here?",
+        "Carla: Only Paula. She's my colleague at work.",
+        "Diego: How many people are at the party? About thirty?",
+        "Carla: Forty! And the cake is chocolate. Which piece do you want?",
+        "Diego: The big piece, please! Where are you going after the party?",
+        "Carla: I'm going to a forró night, at ten in the evening. Do you want to come too?",
+        "Diego: Yes! But tomorrow I work at seven. So only until midnight!"
+      ],
+      "paragraphs_zh": [
+        "卡拉：嗨！你是葆拉的朋友，对吧？",
+        "迪亚哥：是的！你呢，你叫什么名字？",
+        "卡拉：卡拉。很高兴认识你！你是哪里人？",
+        "迪亚哥：我是累西腓人，不过我在这里住了两年了。",
+        "卡拉：真好！你是做什么的？",
+        "迪亚哥：我是护士。你呢，你在这里认识谁？",
+        "卡拉：只认识葆拉。她是我的同事。",
+        "迪亚哥：派对上有多少人？三十个左右？",
+        "卡拉：四十个！蛋糕是巧克力的。你要哪一块？",
+        "迪亚哥：大的那块，谢谢！派对之后你去哪儿？",
+        "卡拉：我去一个福罗舞演出，晚上十点。你也想去吗？",
+        "迪亚哥：想！可是我明天七点上班。那就只到午夜！"
+      ],
+      "paragraphs_de": [
+        "Carla: Hi! Du bist ein Freund von Paula, oder?",
+        "Diego: Ja, genau! Und du, wie heißt du?",
+        "Carla: Carla. Freut mich! Woher kommst du?",
+        "Diego: Ich komme aus Recife, aber ich wohne seit zwei Jahren hier.",
+        "Carla: Wie schön! Was machst du beruflich?",
+        "Diego: Ich bin Krankenpfleger. Und du, wen kennst du hier?",
+        "Carla: Nur Paula. Sie ist meine Arbeitskollegin.",
+        "Diego: Wie viele Leute sind auf der Party? Ungefähr dreißig?",
+        "Carla: Vierzig! Und der Kuchen ist Schokolade. Welches Stück willst du?",
+        "Diego: Das große Stück, bitte! Wohin gehst du nach der Party?",
+        "Carla: Ich gehe zu einem Forró-Abend, um zehn Uhr abends. Willst du auch mitkommen?",
+        "Diego: Ja! Aber morgen arbeite ich um sieben. Also nur bis Mitternacht!"
+      ],
+      "glossary": [
+        {
+          "w": "como você se chama?",
+          "en": "what's your name? (literally: how do you call yourself?)",
+          "zh": "你叫什么名字？",
+          "de": "Wie heißt du?",
+          "pt": "pergunta o nome de uma pessoa"
+        },
+        {
+          "w": "Prazer!",
+          "en": "Nice to meet you! (cf. 'pleasure'); also: Muito prazer!",
+          "zh": "很高兴认识你！",
+          "de": "Freut mich!",
+          "pt": "a gente fala quando conhece uma pessoa nova"
+        },
+        {
+          "w": "de onde?",
+          "en": "where from? — De onde você é? — Sou de Recife.",
+          "zh": "从哪里？哪里人？",
+          "de": "woher?",
+          "pt": "pergunta a cidade ou o país de uma pessoa"
+        },
+        {
+          "w": "aonde?",
+          "en": "where (to)? — used with ir: Aonde você vai? — Vou a um show. (Onde = where, no movement: Onde você mora?)",
+          "zh": "去哪里？",
+          "de": "wohin?",
+          "pt": "pergunta o lugar para onde a pessoa vai"
+        },
+        {
+          "w": "o que você faz?",
+          "en": "what do you do (for a living)?",
+          "zh": "你是做什么的？",
+          "de": "Was machst du beruflich?",
+          "pt": "pergunta a profissão"
+        },
+        {
+          "w": "o enfermeiro / a enfermeira",
+          "en": "nurse (m / f)",
+          "zh": "护士（男／女）",
+          "de": "der Krankenpfleger / die Krankenpflegerin",
+          "pt": "pessoa que trabalha no hospital e cuida dos doentes"
+        },
+        {
+          "w": "quem?",
+          "en": "who? whom? — Quem você conhece aqui? — Só a Paula.",
+          "zh": "谁？",
+          "de": "wer? wen?",
+          "pt": "pergunta uma pessoa"
+        },
+        {
+          "w": "quantas? / qual?",
+          "en": "how many? (feminine: quantas pessoas) / which? (to choose: Qual pedaço você quer?)",
+          "zh": "多少？／哪个？",
+          "de": "wie viele? / welches?",
+          "pt": "quantas: o número; qual: escolher uma coisa"
+        },
+        {
+          "w": "o show de forró",
+          "en": "forró night, forró concert (forró = dance music from Brazil's Northeast)",
+          "zh": "福罗舞音乐演出",
+          "de": "der Forró-Abend, das Forró-Konzert",
+          "pt": "festa com música e dança do Nordeste"
+        },
+        {
+          "w": "né?",
+          "en": "right? isn't it? (from não é) — turns a sentence into a yes/no question",
+          "zh": "对吧？",
+          "de": "oder? nicht wahr?",
+          "pt": "\"não é?\" bem curto, no fim da frase"
+        }
+      ],
+      "grammar": "Onde asks about a place: Onde você mora? De onde asks where someone is from: De onde você é? — Sou de Recife. Aonde asks where someone is going (with ir): Aonde você vai? — Vou a um show. Qual + noun asks you to choose: Qual pedaço você quer? — O pedaço grande.",
+      "grammar_zh": "onde 问地点：Onde você mora?（你住在哪儿？）de onde 问来自哪里：De onde você é? —— Sou de Recife。aonde 问去哪里（和 ir 一起用）：Aonde você vai? —— Vou a um show。qual + 名词 让人选择：Qual pedaço você quer? —— O pedaço grande。",
+      "grammar_de": "Onde fragt nach dem Ort: Onde você mora? De onde fragt, woher jemand kommt: De onde você é? – Sou de Recife. Aonde fragt, wohin jemand geht (mit ir): Aonde você vai? – Vou a um show. Qual + Nomen lässt wählen: Qual pedaço você quer? – O pedaço grande.",
+      "grammar_pt": "\"Onde\" pergunta o lugar: Onde você mora? \"De onde\" pergunta a origem: De onde você é? — Sou de Recife. \"Aonde\" pergunta para onde a pessoa vai (com ir): Aonde você vai? — Vou a um show. \"Qual\" + coisa é para escolher: Qual pedaço você quer? — O pedaço grande.",
+      "questions": [
+        "De onde você é? E onde você mora agora?",
+        "O que você faz? Você estuda ou trabalha?",
+        "Aonde você vai no sábado à noite? Com quem?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "brief",
+      "section": "Textinho",
+      "title": "Mensagem de voz do Seu João",
+      "dek": "Sábado à noite, o Seu João manda uma mensagem de voz para a Ana. Ele tem perguntas sobre o bolo do Lucas.",
+      "paragraphs": [
+        "Mensagem de voz · Seu João (Padaria) · sábado, 18h42",
+        "Oi, Ana, tudo bem? Aqui é o Seu João, da padaria. Tenho duas perguntas sobre o bolo do Lucas.",
+        "Qual bolo você quer: o bolo de chocolate simples ou o bolo de chocolate com morango? E o nome dele vai em cima do bolo? De que cor: azul ou vermelho?",
+        "O bolo é de graça, mas as velas custam oito reais. Na terça, dia 3, às quatro, está pronto. Você passa aqui amanhã? A gente abre às seis. Beijo!"
+      ],
+      "paragraphs_en": [
+        "Voice message · Seu João (Bakery) · Saturday, 6:42 p.m.",
+        "Hi, Ana, how are you? It's Seu João, from the bakery. I have two questions about Lucas's cake.",
+        "Which cake do you want: the plain chocolate cake or the chocolate cake with strawberries? And does his name go on top of the cake? In what colour: blue or red?",
+        "The cake is free, but the candles cost eight reais. On Tuesday, the 3rd, at four, it's ready. Will you drop by tomorrow? We open at six. Bye, love!"
+      ],
+      "paragraphs_zh": [
+        "语音留言 · 若昂先生（面包店）· 星期六，18:42",
+        "嗨，安娜，你好吗？我是面包店的若昂先生。关于卢卡斯的蛋糕，我有两个问题。",
+        "你要哪种蛋糕：普通的巧克力蛋糕，还是草莓巧克力蛋糕？他的名字要写在蛋糕上面吗？什么颜色：蓝色还是红色？",
+        "蛋糕免费，不过蜡烛要八雷亚尔。星期二，3号，四点做好。你明天来一趟吗？我们六点开门。亲亲！"
+      ],
+      "paragraphs_de": [
+        "Sprachnachricht · Seu João (Bäckerei) · Samstag, 18:42 Uhr",
+        "Hallo Ana, alles gut? Hier ist Seu João, von der Bäckerei. Ich habe zwei Fragen zu Lucas' Kuchen.",
+        "Welchen Kuchen möchtest du: den einfachen Schokoladenkuchen oder den Schokoladenkuchen mit Erdbeeren? Und kommt sein Name oben auf den Kuchen? In welcher Farbe: blau oder rot?",
+        "Der Kuchen ist umsonst, aber die Kerzen kosten acht Reais. Am Dienstag, dem 3., um vier Uhr ist er fertig. Kommst du morgen vorbei? Wir öffnen um sechs. Küsschen!"
+      ],
+      "glossary": [
+        {
+          "w": "a mensagem de voz",
+          "en": "voice message (noun + de + noun: what kind of message)",
+          "zh": "语音留言",
+          "de": "die Sprachnachricht",
+          "pt": "mensagem que a gente fala, não escreve"
+        },
+        {
+          "w": "o bolo de chocolate com morango",
+          "en": "chocolate cake with strawberries — de chocolate says what kind; o bolo do Lucas says whose",
+          "zh": "草莓巧克力蛋糕",
+          "de": "der Schokoladenkuchen mit Erdbeeren",
+          "pt": "bolo feito de chocolate, com frutas vermelhas em cima"
+        },
+        {
+          "w": "em cima de",
+          "en": "on top of — em cima do bolo (de + o = do)",
+          "zh": "在……上面",
+          "de": "oben auf",
+          "pt": "no lugar mais alto de uma coisa"
+        },
+        {
+          "w": "de graça",
+          "en": "free, at no cost",
+          "zh": "免费",
+          "de": "umsonst, gratis",
+          "pt": "não custa nada"
+        },
+        {
+          "w": "pronto / pronta",
+          "en": "ready (agrees: o bolo está pronto, a torta está pronta)",
+          "zh": "准备好的、做好的",
+          "de": "fertig",
+          "pt": "tudo feito, a gente pode pegar"
+        },
+        {
+          "w": "passar (aqui)",
+          "en": "to drop by, come by — Você passa aqui amanhã?",
+          "zh": "顺便来一趟",
+          "de": "vorbeikommen",
+          "pt": "ir rápido a um lugar"
+        }
+      ],
+      "grammar": "De + noun says what kind: o bolo de chocolate, a mensagem de voz. De + article says whose: o bolo do Lucas (Lucas's cake). A question with ou asks you to choose: azul ou vermelho?",
+      "grammar_zh": "de + 名词 说明种类：o bolo de chocolate（巧克力蛋糕）、a mensagem de voz（语音留言）。de + 冠词 说明是谁的：o bolo do Lucas（卢卡斯的蛋糕）。带 ou 的问句让人二选一：azul ou vermelho?",
+      "grammar_de": "De + Nomen sagt, welche Art: o bolo de chocolate, a mensagem de voz. De + Artikel sagt, wem es gehört: o bolo do Lucas (Lucas' Kuchen). Eine Frage mit ou lässt wählen: azul ou vermelho?",
+      "grammar_pt": "De + coisa diz o tipo: o bolo de chocolate, a mensagem de voz. De + o/a diz de quem é: o bolo do Lucas. A pergunta com \"ou\" é para escolher: azul ou vermelho?",
+      "questions": [
+        "Quanto custam as velas? E quanto custa o bolo?",
+        "Qual bolo você prefere: o bolo de chocolate ou o bolo de morango? Por quê?"
+      ],
+      "sources": []
+    }
+  ]
+}

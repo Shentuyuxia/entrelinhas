@@ -1,6 +1,35 @@
 {
- "updated": "2026-10-30T18:57:37+00:00",
+ "updated": "2026-10-31T18:56:50+00:00",
  "days": [
+  {
+   "date": "2026-10-31",
+   "items": [
+    {
+     "i": 0,
+     "lang": "pt",
+     "title": "Uma festa de mentira",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "pt",
+     "title": "Numa festa: gente nova",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "pt",
+     "title": "Mensagem de voz do Seu João",
+     "kind": "brief",
+     "level": "A1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-30",
    "items": [
