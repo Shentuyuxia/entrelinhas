@@ -8,6 +8,7 @@ Usage:
 Row formats (8 fields, all strings):
   pt: [word with article, pos, zh, en, fr, example, example_zh, example_en]
   fr: [word with article, pos, zh, en, de, example, example_zh, example_en]
+  es: [word with article, pos, de, en, pt, example, example_de, example_en]   (Latin American Spanish; levels A1–B2 + BS)
   de: [word with article, pos, plural or "", zh, en, example, example_zh, example_en]
   en: [word, pos, IPA, zh, English definition, de, example, example_zh]
 pos: pt/de/fr nouns use gender m / f / n (pl for plural-only); en nouns use "noun" · v · adj · adv · prep · conj · pron · num · interj · phr · expr
@@ -19,7 +20,9 @@ TARGET = {"A1": 600, "A2": 600, "B1": 1000, "B2": 1500, "C1": 1500, "C2": 1500, 
 # UG = Umgangssprache (German only): everyday spoken phrases, idioms and reactions; pos "expr", plural field ""
 # BS = Básico / 入门 (Portuguese only): greetings, dates, time, numbers, weather, moods; since 2026-10-30 the evening
 #      Portuguese task also appends the new glossary words of that day's A1 texts here, so the flashcards follow the readings
-def lvs(l): return LV[:6] + (["UG"] if l == "de" else []) + (["BS"] if l == "pt" else [])
+def lvs(l):
+    if l == "es": return LV[:4] + ["BS"]   # Spanish: A1–B2 plus the entry deck BS (Básico)
+    return LV[:6] + (["UG"] if l == "de" else []) + (["BS"] if l == "pt" else [])
 
 def path(l, lv): return os.path.join(D, f"{l}-{lv}.json")
 def load(l, lv):
@@ -34,11 +37,12 @@ def bad(l, r):
     need = [0, 1, 3, 4, 5, 6] if l != "en" else [0, 1, 3, 4, 6, 7]
     if any(not r[i].strip() for i in need): return "empty field"
     if l in ("pt", "de", "fr") and not re.search(r"[一-鿿]", r[3 if l == "de" else 2]): return "zh missing"
+    if l == "es" and (not r[2].strip() or not r[4].strip()): return "de/pt missing"
     return None
 
 def check():
     ok = True
-    for l in ("pt", "de", "en", "fr"):
+    for l in ("pt", "de", "en", "fr", "es"):
         seen = {}; counts = []
         for lv in lvs(l):
             rows = load(l, lv); counts.append(f"{lv} {len(rows)}/{TARGET[lv]}")
@@ -55,7 +59,7 @@ if __name__ == "__main__":
     if sys.argv[1:2] == ["--check"]:
         sys.exit(0 if check() else 1)
     l, lv, f = sys.argv[1], sys.argv[2], sys.argv[3]
-    assert l in ("pt", "de", "en", "fr") and lv in lvs(l)
+    assert l in ("pt", "de", "en", "fr", "es") and lv in lvs(l)
     new = json.load(open(f, encoding="utf-8"))
     have = {key(r[0]) for x in lvs(l) for r in load(l, x)}
     rows = load(l, lv); added = skipped = 0

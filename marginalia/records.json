@@ -355,6 +355,240 @@
     "de": "Sonntags machen viele Familien churrasco. Freunde kommen, einer kümmert sich ums Fleisch, und das Mittagessen dauert den ganzen Nachmittag – mit Musik, Fußball und vielen Gesprächen. Mehr Treffen als Essen.",
     "batch": 1
    }
+  ],
+  "es": [
+   {
+    "title": "Día de Muertos",
+    "tag": "Fiestas",
+    "emoji": "💀",
+    "es": "En México, el 1 y el 2 de noviembre es el Día de Muertos. Las familias hacen un altar con fotos, velas y flores naranjas de cempasúchil. Ponen la comida favorita de sus muertos. No es un día triste: es una fiesta para recordar.",
+    "en": "In Mexico, 1 and 2 November are the Day of the Dead. Families build an altar with photos, candles and orange marigolds, and put out their loved ones' favourite food. It isn't a sad day: it's a celebration to remember.",
+    "de": "In Mexiko ist am 1. und 2. November der Día de Muertos. Familien bauen einen Altar mit Fotos, Kerzen und orangen Tagetes und stellen das Lieblingsessen ihrer Verstorbenen dazu. Es ist kein trauriger Tag, sondern ein Fest der Erinnerung.",
+    "pt": "No México, 1º e 2 de novembro são o Dia dos Mortos. As famílias fazem um altar com fotos, velas e flores laranja e colocam a comida favorita dos seus mortos. Não é um dia triste: é uma festa para lembrar.",
+    "batch": 1
+   },
+   {
+    "title": "El mate",
+    "tag": "Costumbres",
+    "emoji": "🧉",
+    "es": "En Argentina, Uruguay y Paraguay mucha gente toma mate. Es una bebida de hierba en un recipiente con una bombilla. Una persona prepara el mate y lo pasa a cada amigo. Si dices \"gracias\", significa que ya no quieres más.",
+    "en": "In Argentina, Uruguay and Paraguay many people drink mate, an herbal drink in a cup with a metal straw. One person prepares it and passes it to each friend. If you say \"gracias\", it means you don't want any more.",
+    "de": "In Argentinien, Uruguay und Paraguay trinken viele Mate, ein Kräutergetränk in einem Gefäß mit Trinkhalm. Eine Person bereitet ihn zu und reicht ihn jedem in der Runde. Wer „gracias“ sagt, möchte keinen mehr.",
+    "pt": "Na Argentina, no Uruguai e no Paraguai muita gente toma mate (o chimarrão). Uma pessoa prepara e passa para cada amigo. Se você diz \"gracias\", quer dizer que não quer mais.",
+    "batch": 1
+   },
+   {
+    "title": "¿Mande?",
+    "tag": "Lengua",
+    "emoji": "👂",
+    "es": "En México, cuando no escuchas bien, puedes decir \"¿Mande?\". Es una forma muy educada de decir \"¿Qué?\". Los niños la usan con sus padres y la gente la usa en el trabajo.",
+    "en": "In Mexico, when you didn't hear something, you can say \"¿Mande?\". It's a very polite way to say \"What?\". Children use it with their parents, and people use it at work.",
+    "de": "Wenn man in Mexiko etwas nicht verstanden hat, sagt man „¿Mande?“ – eine sehr höfliche Art, „Wie bitte?“ zu sagen. Kinder sagen es zu ihren Eltern, Erwachsene im Job.",
+    "pt": "No México, quando você não ouve bem, pode dizer \"¿Mande?\". É um jeito muito educado de dizer \"O quê?\".",
+    "batch": 1
+   },
+   {
+    "title": "Ahorita",
+    "tag": "Lengua",
+    "emoji": "⏳",
+    "es": "En México, \"ahorita\" significa \"ahora mismo\"… o tal vez en una hora… o tal vez nunca. \"Ahorita vengo\" puede ser cinco minutos. ¡Depende de la persona y del tono!",
+    "en": "In Mexico, \"ahorita\" means \"right now\"… or maybe in an hour… or maybe never. \"Ahorita vengo\" can be five minutes. It depends on the person and the tone!",
+    "de": "In Mexiko heißt „ahorita“ „sofort“ … oder vielleicht in einer Stunde … oder vielleicht nie. „Ahorita vengo“ können fünf Minuten sein. Kommt auf die Person und den Ton an!",
+    "pt": "No México, \"ahorita\" quer dizer \"agora mesmo\"… ou talvez daqui a uma hora… ou talvez nunca. Depende da pessoa e do tom!",
+    "batch": 1
+   },
+   {
+    "title": "La once",
+    "tag": "Comida",
+    "emoji": "🫖",
+    "es": "En Chile, por la tarde, mucha gente toma \"la once\". Es una comida pequeña con té o café, pan, palta y queso. Muchas familias toman once a las seis o a las siete, en lugar de una cena grande.",
+    "en": "In Chile, in the late afternoon, many people have \"la once\": a small meal with tea or coffee, bread, avocado and cheese. Many families have it at six or seven instead of a big dinner.",
+    "de": "In Chile gibt es am späten Nachmittag „la once“: eine kleine Mahlzeit mit Tee oder Kaffee, Brot, Avocado und Käse. Viele Familien essen sie um sechs oder sieben statt eines großen Abendessens.",
+    "pt": "No Chile, no fim da tarde, muita gente toma \"la once\": chá ou café com pão, abacate e queijo, às vezes no lugar do jantar.",
+    "batch": 1
+   },
+   {
+    "title": "Ni Una Menos",
+    "tag": "Sociedad",
+    "emoji": "💜",
+    "es": "El 3 de junio de 2015, miles de personas marcharon en Argentina con el lema \"Ni Una Menos\", contra la violencia y los feminicidios. Pronto el movimiento llegó a muchos países de América Latina. Hoy es un símbolo del feminismo latinoamericano.",
+    "en": "On 3 June 2015, thousands of people marched in Argentina under the slogan \"Ni Una Menos\" (not one woman less), against violence and femicide. The movement soon spread to many Latin American countries and is now a symbol of Latin American feminism.",
+    "de": "Am 3. Juni 2015 gingen in Argentinien Tausende unter dem Motto „Ni Una Menos“ (keine einzige weniger) gegen Gewalt und Femizide auf die Straße. Die Bewegung erreichte bald viele Länder Lateinamerikas und ist heute ein Symbol des lateinamerikanischen Feminismus.",
+    "pt": "Em 3 de junho de 2015, milhares de pessoas marcharam na Argentina com o lema \"Ni Una Menos\", contra a violência e o feminicídio. Hoje é um símbolo do feminismo latino-americano.",
+    "batch": 1
+   },
+   {
+    "title": "Un tinto, por favor",
+    "tag": "Comida",
+    "emoji": "☕",
+    "es": "En Colombia, si pides \"un tinto\", no recibes vino. Recibes un café negro, pequeño y muchas veces dulce. En la calle, venden tintos en termos por muy poco dinero.",
+    "en": "In Colombia, if you order \"un tinto\", you don't get wine — you get a small black coffee, often sweet. On the street people sell tintos from thermos flasks for very little money.",
+    "de": "Wer in Kolumbien „un tinto“ bestellt, bekommt keinen Rotwein, sondern einen kleinen schwarzen Kaffee, oft gesüßt. Auf der Straße wird er für wenig Geld aus Thermoskannen verkauft.",
+    "pt": "Na Colômbia, \"un tinto\" não é vinho: é um cafezinho preto, muitas vezes doce, vendido na rua em garrafas térmicas.",
+    "batch": 1
+   },
+   {
+    "title": "Vos sos",
+    "tag": "Lengua",
+    "emoji": "🗣️",
+    "es": "En Argentina y Uruguay, la gente no dice \"tú eres\". Dice \"vos sos\". También dicen \"vos tenés\" y \"vos querés\". En América Central también se usa \"vos\". ¡Es el mismo español, con otro sabor!",
+    "en": "In Argentina and Uruguay people don't say \"tú eres\" but \"vos sos\" — and \"vos tenés\", \"vos querés\". \"Vos\" is used in Central America too. It's the same Spanish with a different flavour!",
+    "de": "In Argentinien und Uruguay sagt man nicht „tú eres“, sondern „vos sos“ – und „vos tenés“, „vos querés“. Auch in Mittelamerika ist „vos“ üblich. Gleiches Spanisch, anderer Geschmack!",
+    "pt": "Na Argentina e no Uruguai, em vez de \"tú eres\" se diz \"vos sos\" — e \"vos tenés\", \"vos querés\".",
+    "batch": 1
+   },
+   {
+    "title": "La quinceañera",
+    "tag": "Fiestas",
+    "emoji": "🎉",
+    "es": "En muchos países de América Latina, cuando una chica cumple quince años, la familia hace una gran fiesta: la fiesta de quince años. Hay música, baile, un vestido especial y un pastel enorme. Muchas veces bailan un vals con el papá.",
+    "en": "In many Latin American countries, when a girl turns fifteen, the family throws a big party: the quinceañera. There's music, dancing, a special dress and a huge cake, and often a waltz with her father.",
+    "de": "In vielen Ländern Lateinamerikas feiert die Familie den 15. Geburtstag eines Mädchens groß: die Quinceañera. Mit Musik, Tanz, einem besonderen Kleid, riesiger Torte – und oft einem Walzer mit dem Vater.",
+    "pt": "Em muitos países da América Latina, quando uma menina faz quinze anos, a família faz uma grande festa, com música, dança e um bolo enorme.",
+    "batch": 1
+   },
+   {
+    "title": "Las arepas",
+    "tag": "Comida",
+    "emoji": "🫓",
+    "es": "En Venezuela y Colombia, la gente come arepas: un pan redondo de maíz. Se comen en el desayuno, el almuerzo o la cena. Se rellenan con queso, frijoles, carne o aguacate. ¿Cuál es tu relleno favorito?",
+    "en": "In Venezuela and Colombia people eat arepas — round corn bread — at breakfast, lunch or dinner, filled with cheese, beans, meat or avocado. What's your favourite filling?",
+    "de": "In Venezuela und Kolumbien isst man Arepas – runde Maisfladen – zum Frühstück, Mittag- oder Abendessen, gefüllt mit Käse, Bohnen, Fleisch oder Avocado. Was ist deine Lieblingsfüllung?",
+    "pt": "Na Venezuela e na Colômbia se comem arepas: um pão redondo de milho, recheado com queijo, feijão, carne ou abacate.",
+    "batch": 1
+   }
   ]
- }
+ },
+ "es": [
+  {
+   "kind": "song",
+   "artist": "Café Tacvba",
+   "title": "Eres",
+   "tag": "Rock mexicano · canción de amor · 2003",
+   "url": "https://www.youtube.com/results?search_query=Caf%C3%A9+Tacvba+Eres",
+   "en": "A gentle, almost whispered love song by the Mexico City band Café Tacvba: one long list of 'you are…' sentences. Slow, clear and repetitive — perfect for practising ser and simple vocabulary.",
+   "de": "Ein sanftes, fast geflüstertes Liebeslied der Band Café Tacvba aus Mexiko-Stadt: eine lange Reihe von „du bist …“-Sätzen. Langsam, deutlich, mit vielen Wiederholungen – ideal, um ser und einfachen Wortschatz zu üben.",
+   "pt": "Uma canção de amor suave da banda mexicana Café Tacvba: uma longa lista de frases \"você é…\". Lenta e clara, ótima para praticar."
+  },
+  {
+   "kind": "song",
+   "artist": "Natalia Lafourcade",
+   "title": "Hasta la raíz",
+   "tag": "Pop · 2015",
+   "url": "https://www.youtube.com/results?search_query=Natalia+Lafourcade+Hasta+la+ra%C3%ADz",
+   "en": "Natalia Lafourcade from Veracruz wrote this song about carrying the people and places you love with you 'down to the roots'. Warm voice, clear diction, a modern Mexican classic.",
+   "de": "Natalia Lafourcade aus Veracruz singt davon, die Menschen und Orte, die man liebt, „bis zur Wurzel“ in sich zu tragen. Warme Stimme, klare Aussprache – ein moderner mexikanischer Klassiker.",
+   "pt": "Natalia Lafourcade canta sobre levar as pessoas e os lugares que amamos \"até a raiz\". Voz quente e dicção clara."
+  },
+  {
+   "kind": "song",
+   "artist": "Consuelo Velázquez",
+   "title": "Bésame mucho",
+   "tag": "Bolero · 1940",
+   "url": "https://www.youtube.com/results?search_query=Consuelo+Vel%C3%A1zquez+B%C3%A9same+mucho",
+   "en": "Written in 1940 by the Mexican pianist and composer Consuelo Velázquez, it became one of the most recorded songs in the Spanish language — from bolero singers to jazz musicians and The Beatles. Slow and romantic.",
+   "de": "1940 von der mexikanischen Pianistin und Komponistin Consuelo Velázquez geschrieben – eines der meistaufgenommenen Lieder in spanischer Sprache, vom Bolero bis zu Jazz und den Beatles. Langsam und romantisch.",
+   "pt": "Escrita em 1940 pela compositora mexicana Consuelo Velázquez, é uma das canções mais gravadas em espanhol."
+  },
+  {
+   "kind": "song",
+   "artist": "Mercedes Sosa",
+   "title": "Gracias a la vida",
+   "tag": "Nueva canción · 1966 / 1971",
+   "url": "https://www.youtube.com/results?search_query=Mercedes+Sosa+Gracias+a+la+vida",
+   "en": "Chilean artist Violeta Parra wrote this thank-you to life — for eyes, ears, words, feet and heart — and recorded it in 1966. The Argentine singer Mercedes Sosa made it famous across Latin America. Simple nouns, slow tempo: great for beginners.",
+   "de": "Die Chilenin Violeta Parra schrieb diesen Dank an das Leben – für Augen, Ohren, Worte, Füße und Herz – und nahm ihn 1966 auf. Die Argentinierin Mercedes Sosa machte ihn in ganz Lateinamerika berühmt. Einfache Nomen, langsames Tempo.",
+   "pt": "Violeta Parra escreveu este agradecimento à vida; a argentina Mercedes Sosa o tornou famoso em toda a América Latina."
+  },
+  {
+   "kind": "song",
+   "artist": "Chavela Vargas",
+   "title": "La Llorona",
+   "tag": "Canción tradicional mexicana",
+   "url": "https://www.youtube.com/results?search_query=Chavela+Vargas+La+Llorona",
+   "en": "A traditional song from southern Mexico about love and loss, sung by countless artists. Chavela Vargas — born in Costa Rica, at home in Mexico, an icon who lived openly as a lesbian — sings it in the film Frida (2002). Haunting and slow.",
+   "de": "Ein traditionelles Lied aus dem Süden Mexikos über Liebe und Verlust. Chavela Vargas – in Costa Rica geboren, in Mexiko zu Hause, eine Ikone, die offen lesbisch lebte – singt es im Film Frida (2002). Eindringlich und langsam.",
+   "pt": "Canção tradicional do sul do México. Chavela Vargas a canta no filme Frida (2002)."
+  },
+  {
+   "kind": "song",
+   "artist": "Vivir Quintana",
+   "title": "Canción sin miedo",
+   "tag": "Canción feminista · 2020",
+   "url": "https://www.youtube.com/results?search_query=Vivir+Quintana+Canci%C3%B3n+sin+miedo",
+   "en": "Mexican singer-songwriter Vivir Quintana wrote this anthem against femicide; it was first sung with Mon Laferte in Mexico City's Zócalo in March 2020 and is now heard at women's marches across Latin America.",
+   "de": "Die mexikanische Liedermacherin Vivir Quintana schrieb diese Hymne gegen Femizide; im März 2020 wurde sie mit Mon Laferte auf dem Zócalo in Mexiko-Stadt uraufgeführt – heute erklingt sie auf Frauenmärschen in ganz Lateinamerika.",
+   "pt": "Hino contra o feminicídio da mexicana Vivir Quintana, cantado nas marchas de mulheres da América Latina."
+  },
+  {
+   "kind": "song",
+   "artist": "Calle 13",
+   "title": "Latinoamérica",
+   "tag": "Rap · fusión · 2011",
+   "url": "https://www.youtube.com/results?search_query=Calle+13+Latinoam%C3%A9rica",
+   "en": "Puerto Rican duo Calle 13 paints a portrait of the continent — land, work, people, resistance — with guest voices of Totó la Momposina, Susana Baca and Maria Rita. For B1 and up; listen with the lyrics.",
+   "de": "Das puerto-ricanische Duo Calle 13 zeichnet ein Porträt des Kontinents – Land, Arbeit, Menschen, Widerstand – mit Totó la Momposina, Susana Baca und Maria Rita. Ab B1; am besten mit Text mitlesen.",
+   "pt": "O duo porto-riquenho Calle 13 pinta um retrato do continente, com Totó la Momposina, Susana Baca e Maria Rita."
+  },
+  {
+   "kind": "song",
+   "artist": "Joe Arroyo",
+   "title": "La rebelión",
+   "tag": "Salsa · 1986",
+   "url": "https://www.youtube.com/results?search_query=Joe+Arroyo+La+rebeli%C3%B3n",
+   "en": "Colombian salsa legend Joe Arroyo tells the story of enslaved Africans in colonial Cartagena — and you still can't stop dancing. A classic at every party in Colombia.",
+   "de": "Die kolumbianische Salsa-Legende Joe Arroyo erzählt von versklavten Afrikanern im kolonialen Cartagena – und trotzdem tanzt man. Ein Klassiker auf jeder Party in Kolumbien.",
+   "pt": "A lenda da salsa colombiana conta a história dos africanos escravizados em Cartagena — e todo mundo dança."
+  },
+  {
+   "kind": "song",
+   "artist": "Soda Stereo",
+   "title": "De música ligera",
+   "tag": "Rock argentino · 1990",
+   "url": "https://www.youtube.com/results?search_query=Soda+Stereo+De+m%C3%BAsica+ligera",
+   "en": "The best-known song of Argentina's Soda Stereo, from the album Canción animal. Gustavo Cerati's short lines and big chorus made it the anthem of Spanish-language rock.",
+   "de": "Der bekannteste Song der argentinischen Band Soda Stereo, vom Album Canción animal. Gustavo Ceratis kurze Zeilen und der große Refrain machten ihn zur Hymne des spanischsprachigen Rock.",
+   "pt": "A canção mais famosa da banda argentina Soda Stereo, hino do rock em espanhol."
+  },
+  {
+   "kind": "song",
+   "artist": "Los Ángeles Azules",
+   "title": "Cómo te voy a olvidar",
+   "tag": "Cumbia · 1996",
+   "url": "https://www.youtube.com/results?search_query=Los+%C3%81ngeles+Azules+C%C3%B3mo+te+voy+a+olvidar",
+   "en": "Cumbia from Iztapalapa in Mexico City, with marimba and a voice full of heartbreak. Families dance to it at every wedding and birthday — and the words are easy.",
+   "de": "Cumbia aus Iztapalapa in Mexiko-Stadt, mit Marimba und viel Herzschmerz. Auf jeder Hochzeit und jedem Geburtstag wird dazu getanzt – und der Text ist einfach.",
+   "pt": "Cumbia da Cidade do México, com marimba e coração partido. Todo mundo dança nas festas."
+  },
+  {
+   "kind": "film",
+   "artist": "Alfonso Cuarón",
+   "title": "Roma",
+   "tag": "Película · 2018",
+   "url": "https://www.youtube.com/results?search_query=Roma+Alfonso+Cuar%C3%B3n+tr%C3%A1iler",
+   "en": "Cuarón's black-and-white film about Cleo, an Indigenous domestic worker in 1970s Mexico City, and the women of the family she works for. Quiet, everyday, deeply feminist; it won the Golden Lion in Venice.",
+   "de": "Cuaróns Schwarzweißfilm über Cleo, eine indigene Hausangestellte im Mexiko-Stadt der 1970er, und die Frauen der Familie, für die sie arbeitet. Leise, alltäglich, zutiefst feministisch; Goldener Löwe in Venedig.",
+   "pt": "O filme de Cuarón sobre Cleo, empregada doméstica indígena na Cidade do México dos anos 1970."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Radio Ambulante",
+   "title": "Radio Ambulante",
+   "tag": "Podcast · historias latinoamericanas",
+   "url": "https://open.spotify.com/search/Radio%20Ambulante/podcasts",
+   "en": "Long-form true stories from all over Latin America, told by journalists in Spanish — love, migration, work, politics, everyday life. Their app Lupa adds transcripts and help for learners. B1–B2.",
+   "de": "Wahre Geschichten aus ganz Lateinamerika, von Journalist:innen auf Spanisch erzählt – Liebe, Migration, Arbeit, Alltag. Die App Lupa bietet Transkripte und Hilfen für Lernende. B1–B2.",
+   "pt": "Histórias reais de toda a América Latina, em espanhol. O app Lupa ajuda quem está aprendendo."
+  },
+  {
+   "kind": "podcast",
+   "artist": "Españolistos",
+   "title": "Españolistos",
+   "tag": "Podcast · A2–B1",
+   "url": "https://open.spotify.com/search/Espa%C3%B1olistos/podcasts",
+   "en": "A Colombian teacher and her husband talk about everyday topics in clear, slow Latin American Spanish, made for learners.",
+   "de": "Eine kolumbianische Lehrerin und ihr Mann sprechen über Alltagsthemen in klarem, langsamem lateinamerikanischem Spanisch – für Lernende gemacht.",
+   "pt": "Conversas sobre o dia a dia em espanhol latino-americano claro e devagar."
+  }
+ ]
 }

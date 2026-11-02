@@ -20,7 +20,7 @@
 /* Layout: header with language switch + today's check-in strip; tabs; main work column with a notes aside. Look follows Shiori: cool paper, ink-indigo text, hairlines instead of boxes, one muted accent per language (celadon PT, slate blue DE, ochre EN). */
 :root{
   --bg:#f2f4f3; --surface:#ffffff; --sunk:#e7ebea; --ink:#1c2930; --muted:#5d6a70; --line:#d5dbda; --rule:#1c2930;
-  --pt:#2c6b64; --pt-soft:#dbeae6; --de:#3b5b86; --de-soft:#dfe7f1; --en:#93582a; --en-soft:#f1e5d8; --fr:#7a3e6b; --fr-soft:#efe2ec; --on-acc:#ffffff;
+  --pt:#2c6b64; --pt-soft:#dbeae6; --de:#3b5b86; --de-soft:#dfe7f1; --en:#93582a; --en-soft:#f1e5d8; --fr:#7a3e6b; --fr-soft:#efe2ec; --es:#b0482c; --es-soft:#f5e1d9; --on-acc:#ffffff;
   --der:#3b5b86; --die:#a8473a; --das:#2f7a55;
   --a1:#4f7d3a; --a2:#2f7c76; --b1:#3b5b86; --b2:#6a5598; --c1:#9a4a6e; --c2:#8a4a2e;
   --ok:#2f7a55; --ok-soft:#dcebe2; --warn:#9a6f17; --warn-soft:#f3e9d3; --bad:#a8473a; --bad-soft:#f3e0dc;
@@ -33,7 +33,7 @@
 }
 @media (prefers-color-scheme: dark){ :root{
   --bg:#12181b; --surface:#1a2226; --sunk:#0e1316; --ink:#e3eaeb; --muted:#93a1a6; --line:#2b373b;
-  --pt:#7ebdb2; --pt-soft:#1f3735; --de:#9fb6dd; --de-soft:#222d3d; --en:#dcae80; --en-soft:#382a1c; --fr:#d9a6cc; --fr-soft:#33212e; --on-acc:#0f1a19;
+  --pt:#7ebdb2; --pt-soft:#1f3735; --de:#9fb6dd; --de-soft:#222d3d; --en:#dcae80; --en-soft:#382a1c; --fr:#d9a6cc; --fr-soft:#33212e; --es:#e8a08a; --es-soft:#3a231c; --on-acc:#0f1a19;
   --der:#9fb6dd; --die:#e08a7c; --das:#86c9a4;
   --a1:#9cc77f; --a2:#7cc4bd; --b1:#9fb6dd; --b2:#b7a3e0; --c1:#e09bbb; --c2:#e0a184;
   --ok:#86c9a4; --ok-soft:#1b3328; --warn:#d6ad5c; --warn-soft:#352a14; --bad:#e08a7c; --bad-soft:#3a201c;
@@ -44,6 +44,7 @@ body{margin:0;--acc:var(--pt);--acc-soft:var(--pt-soft);background:var(--bg);col
 body[data-lang="de"]{--acc:var(--de);--acc-soft:var(--de-soft)}
 body[data-lang="en"]{--acc:var(--en);--acc-soft:var(--en-soft)}
 body[data-lang="fr"]{--acc:var(--fr);--acc-soft:var(--fr-soft)}
+body[data-lang="es"]{--acc:var(--es);--acc-soft:var(--es-soft)}
 body.modal-open{overflow:hidden}
 *{box-sizing:border-box}
 [hidden],.top .langsw[hidden],.top .langsw button[hidden]{display:none!important}
@@ -626,6 +627,7 @@ body.lean .hint, body.lean .help{display:none!important}
 .langsw button+button{border-left:1px solid var(--line)!important}
 .langsw button::before{content:"";position:absolute;left:13px;top:15px;width:9px;height:9px;border-radius:50%;background:var(--lc);opacity:.45}
 .langsw button[data-l="pt"]{--lc:var(--pt);--lcs:var(--pt-soft)} .langsw button[data-l="de"]{--lc:var(--de);--lcs:var(--de-soft)} .langsw button[data-l="en"]{--lc:var(--en);--lcs:var(--en-soft)} .langsw button[data-l="fr"]{--lc:var(--fr);--lcs:var(--fr-soft)}
+.langsw button[data-l="es"]{--lc:var(--es);--lcs:var(--es-soft)}
 .langsw button b{font-size:16px;letter-spacing:.005em}
 .langsw button small{font-size:10.5px;letter-spacing:.06em;color:var(--muted)}
 .langsw button:hover{border-color:var(--lc)!important}
@@ -906,8 +908,8 @@ body{font-variant-numeric:tabular-nums}
 @media (max-width:480px){ .acct-out{flex-direction:column;align-items:stretch} .acct-out .btn{align-self:flex-start} }
 
 /* four language tabs on phones */
-@media (max-width:640px){ .langsw{gap:16px!important;overflow-x:auto;scrollbar-width:none} .langsw::-webkit-scrollbar{display:none} .langsw button b{font-size:15.5px!important} }
-@media (max-width:370px){ .langsw{gap:12px!important} .langsw button b{font-size:14.5px!important} }
+@media (max-width:640px){ .langsw{gap:0!important;overflow-x:auto;scrollbar-width:none} .langsw::-webkit-scrollbar{display:none} .langsw button b{font-size:15.5px!important} }
+@media (max-width:370px){ .langsw{gap:0!important} .langsw button b{font-size:14.5px!important} }
 .wk-ipa{font-family:var(--f-mono,monospace);font-size:13.5px;color:var(--muted);margin:0 0 4px}
 .dict-page{max-width:680px;margin:0 auto;width:100%}.dict-h{font-size:20px;margin:0 0 12px}
 .adpanel .adbox{margin-top:0;border-top:0;padding-top:0}
@@ -1016,6 +1018,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       <button data-l="de" aria-pressed="false"><b>Deutsch</b><small>A1–C2</small></button>
       <button data-l="en" aria-pressed="false"><b>English</b><small>A1–C2</small></button>
       <button data-l="fr" aria-pressed="false"><b>Français</b><small>A1–C2</small></button>
+      <button data-l="es" aria-pressed="false"><b>Español</b><small>LatAm · A1–B2</small></button>
     </div>
     <label class="uilang" title="界面语言"><span class="sr">界面语言</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
       <b id="ui-code">中文</b><select id="ui-lang" aria-label="界面语言"><option value="zh" data-raw>简体中文</option><option value="zht" data-raw>繁體中文</option><option value="en">English</option><option value="de">Deutsch</option><option value="pt">Português</option></select></label>
@@ -1440,10 +1443,11 @@ const LANG={
   pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["BS","A1","A2","B1","B2","C1","C2"],gl:["en","zh","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
   de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1","C2","UG"],gl:["en","zh"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
   en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"},
-  fr:{name:"Français",zh:"法语",ai:"French",tts:"fr-FR",re:/^fr[-_]FR/i,re2:/^fr/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","de"],done:"Bravo !",ok:"C'est fait !",theme:"#7a3e6b"}
+  fr:{name:"Français",zh:"法语",ai:"French",tts:"fr-FR",re:/^fr[-_]FR/i,re2:/^fr/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","de"],done:"Bravo !",ok:"C'est fait !",theme:"#7a3e6b"},
+  es:{name:"Español",zh:"西班牙语",ai:"Latin American Spanish",tts:"es-MX",re:/^es[-_](MX|US|419|CO|AR|CL|PE)/i,re2:/^es/i,levels:["BS","A1","A2","B1","B2"],gl:["en","de","pt"],done:"¡Muy bien!",ok:"¡Listo!",theme:"#b0482c"}
 };
-const GLN={zh:"中文",en:"English",fr:"Français",def:"英文释义",de:"Deutsch"};
-const GLS={zh:"中",en:"EN",fr:"FR",def:"DEF",de:"DE"};
+const GLN={zh:"中文",en:"English",fr:"Français",def:"英文释义",de:"Deutsch",pt:"Português"};
+const GLS={zh:"中",en:"EN",fr:"FR",def:"DEF",de:"DE",pt:"PT"};
 const STAGES=["未学","学习中","熟悉","掌握","精通"];
 const STAGE_NOTE=["还没学过","刚学或刚忘，间隔 ≤ 2 天","间隔 3–9 天","间隔 10–29 天","间隔 ≥ 30 天"];
 const POSN={v:"动词",adj:"形容词",adv:"副词",prep:"介词","präp":"介词",conj:"连词",konj:"连词",expr:"短语",phr:"短语",pron:"代词",pl:"复数名词",noun:"名词"};
@@ -1451,9 +1455,10 @@ const POSOPT={
   pt:[["m","阳性名词"],["f","阴性名词"],["v","动词"],["adj","形容词"],["adv","副词"],["prep","介词"],["conj","连词"],["expr","短语"]],
   de:[["m","der 名词"],["f","die 名词"],["n","das 名词"],["pl","复数名词"],["v","动词"],["adj","形容词"],["adv","副词"],["präp","介词"],["konj","连词"],["expr","短语"]],
   fr:[["m","阳性名词"],["f","阴性名词"],["v","动词"],["adj","形容词"],["adv","副词"],["prep","介词"],["conj","连词"],["expr","短语"]],
+  es:[["m","阳性名词"],["f","阴性名词"],["v","动词"],["adj","形容词"],["adv","副词"],["prep","介词"],["conj","连词"],["num","数词"],["interj","感叹词"],["expr","短语"]],
   en:[["noun","名词"],["v","动词"],["adj","形容词"],["adv","副词"],["phr","短语 / 短语动词"],["prep","介词"],["conj","连词"]]
 };
-const XLAB={fr:["变形 / 备注（可选）","les parapluies · (s')ouvrir"],pt:["变形 / 备注（可选）",""],de:["复数 / 动词变形","die Regenschirme · fährt ab · fuhr ab · ist abgefahren"],en:["音标","/ˈʌmbrelə/"]};
+const XLAB={es:["变形 / 备注（可选）","las casas · ir → voy"],fr:["变形 / 备注（可选）","les parapluies · (s')ouvrir"],pt:["变形 / 备注（可选）",""],de:["复数 / 动词变形","die Regenschirme · fährt ab · fuhr ab · ist abgefahren"],en:["音标","/ˈʌmbrelə/"]};
 const SLOTS=[["w","单词"],["s","例句"]];
 const I={
  exp:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg>',
@@ -1478,8 +1483,8 @@ const I={
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
-  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]},goal:{pt:15,de:15,en:15,fr:15},levels:{pt:["BS","A1","A2"],de:["B2","C1","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
-  pt:blank(),de:blank(),en:blank(),fr:blank(),updated:0,lastBackup:0};
+  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"],es:["en","de"]},goal:{pt:15,de:15,en:15,fr:15,es:15},levels:{es:["BS","A2","B1"],pt:["BS","A1","A2"],de:["B2","C1","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
+  pt:blank(),de:blank(),en:blank(),fr:blank(),es:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
 function merge(x){
   const o=clone(DEF); if(!x||typeof x!=="object") return o;
@@ -1490,11 +1495,13 @@ function merge(x){
   { const d=o.settings.levels.de; if(!o.settings.deUG&&Array.isArray(d)&&!d.includes("UG")) d.push("UG"); o.settings.deUG=1; }
   { const p=o.settings.levels.pt; if(!o.settings.ptBS&&Array.isArray(p)&&!p.includes("BS")) p.unshift("BS"); o.settings.ptBS=1; }
   { const f=o.settings.levels.fr; if(!o.settings.frLv2&&Array.isArray(f)&&f.join()==="B2,C1") o.settings.levels.fr=["A1","A2","B1","B2","C1"]; o.settings.frLv2=1; }
+  // Spanish arrived later: people who already used the app keep their own languages (Spanish stays hidden until they tick it)
+  if(!o.settings.esAdded){ if(x.settings&&!Array.isArray(o.settings.langsOn)) o.settings.langsOn=["pt","de","en","fr"]; o.settings.esAdded=1; }
   o.updated=x.updated||0; o.lastBackup=x.lastBackup||0; o.setAt=x.setAt||0; return o;
 }
 let S=clone(DEF);
 try{ const r=localStorage.getItem(LS); if(r) S=merge(JSON.parse(r)); }catch(e){}
-if(!S.settings.glossEN){ S.settings.gloss={pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"]}; S.settings.glossEN=1; } // English first; French is now opt-in
+if(!S.settings.glossEN){ S.settings.gloss={pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"],es:["en","de"]}; S.settings.glossEN=1; } // English first; French is now opt-in
 let saveWarned=false, SH=JSON.stringify(S.settings);
 function save(){
   S.updated=Date.now(); { const h=JSON.stringify(S.settings); if(h!==SH){ SH=h; S.setAt=Date.now(); } }
@@ -1586,9 +1593,10 @@ function aiErr(e){
 function refreshAI(){ aiState="off"; try{ renderNewButtons(); }catch(e){} }
 
 /* ---------- data ---------- */
-const DATA={pt:null,de:null,en:null,fr:null}, LOADING={};
+const DATA={pt:null,de:null,en:null,fr:null,es:null}, LOADING={};
 function toCard(l,lv,r){
   if(l==="pt") return {id:"pt:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:"",zh:r[2],en:r[3],fr:r[4],ex:r[5],exzh:r[6],exen:r[7]};
+  if(l==="es") return {id:"es:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:"",zh:"",de:r[2],en:r[3],pt:r[4],ex:r[5],exde:r[6],exen:r[7]};
   if(l==="fr") return {id:"fr:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:"",zh:r[2],en:r[3],de:r[4],ex:r[5],exzh:r[6],exen:r[7]};
   if(l==="de") return {id:"de:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:r[2],zh:r[3],en:r[4],ex:r[5],exzh:r[6],exen:r[7]};
   return {id:"en:"+r[0],lang:l,lvl:lv,w:r[0],pos:r[1],extra:r[2],zh:r[3],def:r[4],de:r[5],ex:r[6],exzh:r[7]};
@@ -1937,7 +1945,7 @@ function loadVoices(){ if(!hasTTS) return; VOICES=speechSynthesis.getVoices()||[
 /* Rank voices: iOS lists robotic "Eloquence" and novelty voices first (Eddy, Flo, Grandma…), so never just take the first match. */
 const V_NOVELTY=/\b(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred|Junior|Kathy|Ralph)\b/i;
 const V_ELOQ=/eloquence|\b(Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b/i;
-const V_GOOD={pt:/Luciana|Felipe|Fernanda|Francisca|Antonio|Thalita|Leila|Daniel/i,de:/Anna|Petra|Markus|Yannick|Helena|Katja|Conrad|Amala|Seraphina|Florian/i,en:/Ava|Samantha|Zoe|Evan|Nathan|Serena|Daniel|Kate|Oliver|Sonia|Ryan|Libby|Jenny|Aria|Guy/i,fr:/Thomas|Audrey|Aurélie|Marie|Amélie|Jacques|Virginie|Denise|Henri|Eloise/i};
+const V_GOOD={pt:/Luciana|Felipe|Fernanda|Francisca|Antonio|Thalita|Leila|Daniel/i,de:/Anna|Petra|Markus|Yannick|Helena|Katja|Conrad|Amala|Seraphina|Florian/i,en:/Ava|Samantha|Zoe|Evan|Nathan|Serena|Daniel|Kate|Oliver|Sonia|Ryan|Libby|Jenny|Aria|Guy/i,fr:/Thomas|Audrey|Aurélie|Marie|Amélie|Jacques|Virginie|Denise|Henri|Eloise/i,es:/Paulina|Juan|Mónica|Monica|Diego|Isabela|Dalia|Jorge|Sabina|Valeria|Andrea/i};
 function voiceScore(v,l){
   const d=LANG[l], id=(v.name||"")+" "+(v.voiceURI||"");
   let sc=d.re.test(v.lang)?20:d.re2.test(v.lang)?0:-1e4;
@@ -1982,7 +1990,8 @@ const NT_VOICES={
   fr:[["fr_FR-siwis-medium","Siwis · 女声",63],["fr_FR-tom-medium","Tom · 男声",63],["fr_FR-gilles-low","Gilles · 男声",63]],
   de:[["de_DE-thorsten-medium","Thorsten · 男声",63],["de_DE-thorsten-high","Thorsten · 男声 · 高清",109],["de_DE-kerstin-low","Kerstin · 女声",63],["de_DE-ramona-low","Ramona · 女声",63]],
   en:[["en_GB-cori-medium","Cori · 女声",63],["en_GB-cori-high","Cori · 女声 · 高清",109],["en_GB-jenny_dioco-medium","Jenny · 女声",63],["en_GB-alba-medium","Alba · 女声 · 苏格兰口音",63],["en_GB-alan-medium","Alan · 男声",63],["en_GB-northern_english_male-medium","Northern English · 男声",63]],
-  pt:[["pt_BR-faber-medium","Faber · 男声",63],["pt_BR-edresson-low","Edresson · 男声",63]]
+  pt:[["pt_BR-faber-medium","Faber · 男声",63],["pt_BR-edresson-low","Edresson · 男声",63]],
+  es:[["es_MX-claude-high","Claude · 高清",109],["es_MX-ald-medium","Ald · 男声",63]]
 };
 const NT={HF:"https://huggingface.co/rhasspy/piper-voices/resolve/main/",CACHE:"piper-voices-v1",have:new Set(),w:null,seq:0,wait:new Map(),lru:new Map(),ctx:null,src:null,dl:null};
 NT.url=id=>{ const [loc,name,q]=id.split("-"); return NT.HF+loc.slice(0,2)+"/"+loc+"/"+name+"/"+q+"/"+id+".onnx"; };
@@ -2073,8 +2082,8 @@ function highlight(ex,w){
 }
 function exHTML(c,all){
   if(!c.ex) return "";
-  const sel=all?["zh","en"]:glSel(); const tr=[]; if((sel.includes("en")||sel.includes("def")||sel.includes("fr"))&&c.exen) tr.push(c.exen); if(sel.includes("zh")&&c.exzh) tr.push(c.exzh);
-  if(!tr.length&&(c.exzh||c.exen)) tr.push(c.exzh||c.exen);
+  const sel=all?["zh","en"]:glSel(); const tr=[]; if((sel.includes("en")||sel.includes("def")||sel.includes("fr"))&&c.exen) tr.push(c.exen); if(sel.includes("zh")&&c.exzh) tr.push(c.exzh); if(sel.includes("de")&&c.exde) tr.push(c.exde);
+  if(!tr.length&&(c.exzh||c.exen||c.exde)) tr.push(c.exzh||c.exen||c.exde);
   return `<div class="ex"><div class="t">${highlight(c.ex,c.w)}</div>${tr.map(t=>`<div class="tr"${/[\u4e00-\u9fff]/.test(t)?' lang="zh"':""}>${esc(t)}</div>`).join("")}</div>`;
 }
 const stgHTML=st=>{ const s=stage(st); return `<span class="stg s${s}"><i></i>${STAGES[s]}</span>`; };
@@ -2443,7 +2452,7 @@ $("#ad-form").addEventListener("submit",e=>{
   const id=L().custom[L().custom.length-1].id; if(ex) L().mine[id]=[{t:ex,ts:Date.now()}]; save();
   ["ad-w","ad-m","ad-ex","ad-memo"].forEach(i=>$("#"+i).value=""); msg.textContent=T_("「{0}」已收进闪卡，下次学习最先出现。").replace("{0}",w); $("#ad-w").focus(); if(cur==="dict") renderBrowse();
 });
-function guessPos(w){ const l=lang(); if(l==="fr"){ if(/^le\s/i.test(w)) return "m"; if(/^la\s/i.test(w)) return "f"; } if(l==="pt"){ if(/^o\s/i.test(w)) return "m"; if(/^a\s/i.test(w)) return "f"; } else if(l==="de"){ const m=w.match(/^(der|die|das)\s/); if(m) return {der:"m",die:"f",das:"n"}[m[1]]; } return ""; }
+function guessPos(w){ const l=lang(); if(l==="es"){ if(/^(el|los)\s/i.test(w)) return "m"; if(/^(la|las)\s/i.test(w)) return "f"; } if(l==="fr"){ if(/^le\s/i.test(w)) return "m"; if(/^la\s/i.test(w)) return "f"; } if(l==="pt"){ if(/^o\s/i.test(w)) return "m"; if(/^a\s/i.test(w)) return "f"; } else if(l==="de"){ const m=w.match(/^(der|die|das)\s/); if(m) return {der:"m",die:"f",das:"n"}[m[1]]; } return ""; }
 $("#bulk-btn").addEventListener("click",()=>{
   const l=lang(), keys=LANG[l].gl, lv=$("#bulk-lv").value; let ok=0,dup=0,bad=0;
   $("#bulk").value.split("\n").map(s=>s.trim()).filter(Boolean).forEach(line=>{
@@ -2503,7 +2512,7 @@ function mgSave(){ try{ localStorage.setItem(MGK,JSON.stringify(MGS)); }catch(e)
 const MG_KIND={picks:"推荐",news:"新闻",brief:"短讯",short:"短评",essay:"随笔",feature:"专题",story:"故事",dialogue:"对话"};
 const MG_ORD=it=>it.hour?10:({dialogue:1,short:2,brief:3,picks:4}[it.kind]||0);
 const MG_MINOR=["brief","short","dialogue"];
-const MG_ETA={de:"07:00",en:"06:30",pt:"20:00",fr:"17:00"};
+const MG_ETA={de:"07:00",en:"06:30",pt:"20:00",fr:"17:00",es:"18:00"};
 async function mgGet(p){ const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }
 function mgLoad(){
   if(MG.idx) return Promise.resolve();
@@ -2593,7 +2602,7 @@ let MGX=(()=>{ try{ return localStorage.getItem("pw-mgx2")==="1"; }catch(e){ ret
 function mgxSet(v){ MGX=v; try{ localStorage.setItem("pw-mgx2",v?"1":""); }catch(e){} }
 /* helper language for glosses, grammar notes and reading-list blurbs: follows the interface language unless set */
 function HL(){ const h=S.settings.helpLang; if(h) return h; return UIL==="zht"?"zh":(UIL||"zh"); }
-const HL_NAME={zh:"中文",en:"English",de:"Deutsch",pt:"Português",fr:"Français"};
+const HL_NAME={zh:"中文",en:"English",de:"Deutsch",pt:"Português",fr:"Français",es:"Español"};
 /* glossary / word look-up: primary explanation language per text language (pt, en → English; de → German; fr → French),
    plus one optional language the reader is comfortable with (their helper language) */
 function PL(l,lv){ l=l||lang(); if(lv===undefined) lv=MG.cur&&MG.cur.it&&MG.cur.it.level; return {de:"de",fr:"fr"}[l]||"en"; }
@@ -2674,50 +2683,59 @@ function rbHue(t){ let h=0; for(const c of String(t)) h=(h*31+c.charCodeAt(0))%3
 function rbRender(){
   const box=$("#rbox"); if(!box) return; const l=lang(), list=(MG.rec&&MG.rec[l])||[];
   if(!list.length){ box.hidden=true; return; } box.hidden=false;
-  const hl=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), cur=list[RB.open];
+  const hl=rbHL(l), cur=list[RB.open];
   box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("唱片盒")||"唱片盒")} <span class="small muted">${list.length}</span></h3>
     <div class="rb-shelf" role="list">${list.map((r,i)=>`<button type="button" class="rb-disc${i===RB.open?" on":""}" data-rb="${i}" role="listitem" style="--h:${rbHue(r.artist+r.title)}" title="${esc(r.artist+" · "+r.title)}"><span class="rb-sleeve"><i>${RB_ICON[r.kind]||"♪"}</i><b lang="${l}" data-noi18n>${esc(r.title)}</b></span><span class="rb-a" data-noi18n>${esc(r.artist)}</span></button>`).join("")}</div>
     ${cur?`<div class="rb-card"><div class="rb-h"><b lang="${l}" data-noi18n>${esc(cur.title)}</b><span class="small muted" data-noi18n>${esc(cur.artist)} · ${esc(cur.tag||"")}</span></div>
-      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"],["de","DE"]].map(([k,n])=>`<button type="button" data-rbl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <div class="rb-langs" role="group">${RB_L(l).map(([k,n])=>`<button type="button" data-rbl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
       <p class="rb-d" lang="${hl}" data-noi18n>${esc(hl==="zh"?hz(cur.zh||""):(cur[hl]||cur.en||""))}</p>
       <a class="btn sm" href="${esc(cur.url)}" target="_blank" rel="noopener">${cur.kind==="podcast"?"🎙 ":"▶ "}${esc(trOne("去听")||"去听")}</a></div>`:`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张唱片，看它的故事。")||"点一张唱片，看它的故事。")}</p>`}`;
 }
 $("#rbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
   if(b.dataset.rb!=null){ const i=+b.dataset.rb; RB.open=RB.open===i?-1:i; rbRender(); }
   else if(b.dataset.rbl){ RB.hl=b.dataset.rbl; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} rbRender(); } });
+/* helper-language buttons of the shelves: Spanish readers get EN / DE / PT, everyone else EN / 中文 / DE */
+function RB_L(l){ return l==="es"?[["en","EN"],["de","DE"],["pt","PT"]]:[["en","EN"],["zh","中文"],["de","DE"]]; }
+function rbHL(l){ const o=RB_L(l).map(x=>x[0]); return o.includes(RB.hl)?RB.hl:(o.includes(HL())?HL():o[0]); }
 /* 巴西小事 · Coisas do Brasil: customs and small facts, simple Portuguese + translation (marginalia/records.json → curios) */
 const CU={open:-1};
 function cuRender(){
   const box=$("#cubox"); if(!box) return; const l=lang(), all=(MG.rec&&MG.rec.curios&&MG.rec.curios[l])||[], nb=Math.max(0,...all.map(c=>c.batch||1)), list=all.filter(c=>(c.batch||1)===nb);
   if(!list.length){ box.hidden=true; return; } box.hidden=false;
-  const hl=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), cur=list[CU.open];
-  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("巴西小事")||"巴西小事")} <span class="small muted" data-noi18n>Coisas do Brasil · ${list.length}</span></h3>
+  const hl=rbHL(l), cur=list[CU.open];
+  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(l==="es"?(trOne("拉美小事")||"拉美小事"):(trOne("巴西小事")||"巴西小事"))} <span class="small muted" data-noi18n>${l==="es"?"Cosas de Latinoamérica":"Coisas do Brasil"} · ${list.length}</span></h3>
     <div class="rb-shelf" role="list">${list.map((c,i)=>`<button type="button" class="rb-disc cu-card${i===CU.open?" on":""}" data-cu="${i}" role="listitem" style="--h:${rbHue(c.title)}"><span class="rb-sleeve"><i>${esc(c.emoji||"✶")}</i><b lang="${l}" data-noi18n>${esc(c.title)}</b></span><span class="rb-a" data-noi18n>${esc(c.tag||"")}</span></button>`).join("")}</div>
     ${cur?`<div class="rb-card"><div class="rb-h"><b lang="${l}" data-noi18n>${esc(cur.emoji||"")} ${esc(cur.title)}</b><span class="small muted" data-noi18n>${esc(cur.tag||"")}</span></div>
-      <p class="cu-pt" lang="${l==="pt"?"pt-BR":l}" data-noi18n>${esc(cur.pt||"")} <button type="button" class="ib cu-say" id="cu-say" aria-label="朗读">${I.spk}</button></p>
-      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"],["de","DE"]].map(([k,n])=>`<button type="button" data-cul="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <p class="cu-pt" lang="${l==="pt"?"pt-BR":l==="es"?"es-MX":l}" data-noi18n>${esc(cur[l]||cur.pt||"")} <button type="button" class="ib cu-say" id="cu-say" aria-label="朗读">${I.spk}</button></p>
+      <div class="rb-langs" role="group">${RB_L(l).map(([k,n])=>`<button type="button" data-cul="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
       <p class="rb-d" lang="${hl}" data-noi18n>${esc(hl==="zh"?hz(cur.zh||""):(cur[hl]||cur.en||""))}</p></div>`:`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张明信片，读一个巴西小故事。")||"点一张明信片，读一个巴西小故事。")}</p>`}`;
 }
 $("#cubox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
   if(b.dataset.cu!=null){ const i=+b.dataset.cu; CU.open=CU.open===i?-1:i; cuRender(); }
   else if(b.dataset.cul){ RB.hl=b.dataset.cul; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} cuRender(); rbRender(); pkRender(); }
-  else if(b.id==="cu-say"){ const all=((MG.rec&&MG.rec.curios&&MG.rec.curios[lang()])||[]), nb=Math.max(0,...all.map(c=>c.batch||1)); const c=all.filter(c=>(c.batch||1)===nb)[CU.open]; if(c) speak(c.pt); } });
+  else if(b.id==="cu-say"){ const all=((MG.rec&&MG.rec.curios&&MG.rec.curios[lang()])||[]), nb=Math.max(0,...all.map(c=>c.batch||1)); const c=all.filter(c=>(c.batch||1)===nb)[CU.open]; if(c) speak(c[lang()]||c.pt); } });
 /* 入门 · Básico: the beginner deck as its own browsable shelf, grouped by topic (data/pt-BS.json) */
 const BS={open:-1,rows:null,busy:false,ex:-1};
 const BS_GROUPS=[[0,26,"👋","Saudações","打招呼"],[26,46,"🕐","Dias e horas","日子与时间"],[46,53,"📅","Dias da semana","星期"],[53,65,"🗓","Meses","月份"],
   [65,86,"🔢","Números 0–20","数字 0–20"],[86,115,"💯","Números e anos","大数字与年份"],[115,133,"☀️","O tempo","天气"],[133,151,"🙂","Como você está?","心情"]];
+const BS_ES=[[0,41,"👋","Saludos y charla","Begrüßen & Smalltalk"],[41,55,"❓","Preguntas","Fragen stellen"],[55,76,"🧭","Direcciones","Nach dem Weg fragen"],[76,92,"🕐","Días y horas","Tage & Uhrzeit"],
+  [92,99,"📅","Días de la semana","Wochentage"],[99,111,"🗓","Meses","Monate"],[111,151,"🔢","Números y años","Zahlen & Jahre"],[151,161,"☀️","El tiempo","Wetter"],[161,175,"🙂","¿Cómo estás?","Gefühle"]];
+// per language: data file, topic groups, helper languages and their column in the row, text language tag
+const BS_CFG={pt:{groups:BS_GROUPS,langs:[["en","EN"],["zh","中文"]],mi:{zh:2,en:3},xi:{zh:6,en:7},tag:"pt-BR"},
+  es:{groups:BS_ES,langs:[["en","EN"],["de","DE"],["pt","PT"]],mi:{de:2,en:3,pt:4},xi:{de:6,en:7,pt:7},tag:"es-MX"}};
 async function bsRender(){
-  const box=$("#bsbox"); if(!box) return;
-  if(lang()!=="pt"){ box.hidden=true; return; }
-  if(!BS.rows){ if(BS.busy) return; BS.busy=true; try{ const r=await fetch("data/pt-BS.json"); if(r.ok) BS.rows=await r.json(); }catch(e){} BS.busy=false; if(!BS.rows||lang()!=="pt"){ box.hidden=true; return; } }
+  const box=$("#bsbox"); if(!box) return; const l=lang(), C=BS_CFG[l];
+  if(!C){ box.hidden=true; return; }
+  if(BS.l!==l){ BS.l=l; BS.rows=null; BS.open=-1; BS.ex=-1; }
+  if(!BS.rows){ if(BS.busy) return; BS.busy=true; try{ const r=await fetch("data/"+l+"-BS.json"); if(r.ok) BS.rows=await r.json(); }catch(e){} BS.busy=false; if(!BS.rows||lang()!==l){ box.hidden=true; return; } }
   box.hidden=false;
-  const hl0=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), hl=hl0==="zh"?"zh":"en", g=BS_GROUPS[BS.open];
-  const mi=hl==="zh"?2:3, xi=hl==="zh"?6:7;
-  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("入门")||"入门")} <span class="small muted" data-noi18n>Básico · ${BS.rows.length}</span></h3>
-    <div class="rb-shelf" role="list">${BS_GROUPS.map((t,i)=>`<button type="button" class="rb-disc bs-card${i===BS.open?" on":""}" data-bs="${i}" role="listitem" style="--h:${rbHue(t[3])}"><span class="rb-sleeve"><small>${t[1]-t[0]}</small><i>${t[2]}</i><b lang="pt-BR" data-noi18n>${esc(t[3])}</b></span></button>`).join("")}</div>
-    ${g?`<div class="rb-card"><div class="rb-h"><b lang="pt-BR" data-noi18n>${g[2]} ${esc(g[3])}</b><span class="small muted" data-noi18n>${esc(hl==="zh"?hz(g[4]):"")}</span></div>
-      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"]].map(([k,n])=>`<button type="button" data-bsl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
-      <ul class="bs-list" data-noi18n>${BS.rows.slice(g[0],g[1]).map((c,k)=>`<li><button type="button" class="bs-w${BS.ex===g[0]+k?" on":""}" data-bsw="${g[0]+k}" aria-expanded="${BS.ex===g[0]+k}"><b lang="pt-BR">${esc(c[0])}</b><span class="m" lang="${hl}">${esc(hl==="zh"?hz(c[mi]||""):(c[mi]||""))}</span>${c[5]&&BS.ex===g[0]+k?`<span class="ex"><i lang="pt-BR">${esc(c[5])}</i> ${esc(hl==="zh"?hz(c[xi]||""):(c[xi]||""))}</span>`:""}</button></li>`).join("")}</ul></div>`
+  const ks=C.langs.map(x=>x[0]), hl=ks.includes(RB.hl)?RB.hl:(ks.includes(HL())?HL():ks[0]), g=C.groups[BS.open];
+  const mi=C.mi[hl], xi=C.xi[hl], T=C.tag;
+  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("入门")||"入门")} <span class="small muted" data-noi18n>${l==="es"?"Básico":"Básico"} · ${BS.rows.length}</span></h3>
+    <div class="rb-shelf" role="list">${C.groups.map((t,i)=>`<button type="button" class="rb-disc bs-card${i===BS.open?" on":""}" data-bs="${i}" role="listitem" style="--h:${rbHue(t[3])}"><span class="rb-sleeve"><small>${t[1]-t[0]}</small><i>${t[2]}</i><b lang="${T}" data-noi18n>${esc(t[3])}</b></span></button>`).join("")}</div>
+    ${g?`<div class="rb-card"><div class="rb-h"><b lang="${T}" data-noi18n>${g[2]} ${esc(g[3])}</b><span class="small muted" data-noi18n>${esc(l==="pt"?(hl==="zh"?hz(g[4]):""):(hl==="de"?g[4]:""))}</span></div>
+      <div class="rb-langs" role="group">${C.langs.map(([k,n])=>`<button type="button" data-bsl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <ul class="bs-list" data-noi18n>${BS.rows.slice(g[0],g[1]).map((c,k)=>`<li><button type="button" class="bs-w${BS.ex===g[0]+k?" on":""}" data-bsw="${g[0]+k}" aria-expanded="${BS.ex===g[0]+k}"><b lang="${T}">${esc(c[0])}</b><span class="m" lang="${hl}">${esc(hl==="zh"?hz(c[mi]||""):(c[mi]||""))}</span>${c[5]&&BS.ex===g[0]+k?`<span class="ex"><i lang="${T}">${esc(c[5])}</i> ${esc(hl==="zh"?hz(c[xi]||""):(c[xi]||""))}</span>`:""}</button></li>`).join("")}</ul></div>`
     :`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张卡片，复习一组基础词。")||"点一张卡片，复习一组基础词。")}</p>`}`;
 }
 $("#bsbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
@@ -2735,11 +2753,11 @@ async function pkRender(){
   if(!picks.length){ box.hidden=true; box.innerHTML=""; return; }
   const key=day.date+"|"+l; if(PK.key!==key){ PK.key=key; PK.open=-1; }
   box.hidden=false;
-  const hl=RB.hl||(["en","zh","de"].includes(HL())?HL():"en"), cur=picks[PK.open];
+  const hl=rbHL(l), cur=picks[PK.open];
   box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("书架")||"书架")} <span class="small muted">${esc(trOne("今日推荐")||"今日推荐")} · ${picks.length}</span></h3>
     <div class="rb-shelf" role="list">${picks.map((p,i)=>`<button type="button" class="rb-disc pk-book${i===PK.open?" on":""}" data-pk="${i}" role="listitem" style="--h:${rbHue(p.outlet+p.title)}"><span class="rb-sleeve"><i data-noi18n>${esc(p.outlet||"")}</i><b lang="${esc(p.lang||l)}" data-noi18n>${esc(p.title)}</b></span><span class="rb-a" data-noi18n>${esc(p.genre||"")}</span></button>`).join("")}</div>
     ${cur?`<div class="rb-card"><div class="rb-h"><b lang="${esc(cur.lang||l)}" data-noi18n>${esc(cur.title)}</b><span class="small muted" data-noi18n>${esc([cur.author,cur.outlet,cur.minutes?cur.minutes+" min":""].filter(Boolean).join(" · "))}</span></div>
-      <div class="rb-langs" role="group">${[["en","EN"],["zh","中文"],["de","DE"]].map(([k,n])=>`<button type="button" data-pkl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
+      <div class="rb-langs" role="group">${RB_L(l).map(([k,n])=>`<button type="button" data-pkl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
       <p class="rb-d" lang="${hl}" data-noi18n>${esc(hl==="zh"?hz(cur.zh||""):(cur[hl]||cur.en||""))}</p>
       <a class="btn sm" href="${esc(cur.url)}" target="_blank" rel="noopener">${esc(trOne("阅读原文")||"阅读原文")} ↗</a></div>`:""}`;
 }
@@ -2820,7 +2838,7 @@ $("#nt-on").addEventListener("change",e=>{ S.settings.ntOn=S.settings.ntOn||{}; 
 $("#nt-get").addEventListener("click",()=>{ const v=ntVoice(); if(NT.have.has(v)){ ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate,()=>sysSpeak(VOICE_SAMPLE[lang()])); } else { ntUnlock(); ntDownload(v); } });
 $("#nt-del").addEventListener("click",()=>ntRemove(ntVoice()));
 ntCheck();
-const VOICE_SAMPLE={fr:"Bonjour ! Aujourd'hui, on lit un texte sur la musique et les idées.",pt:"Olá! Hoje vamos ler uma história curta juntos.",de:"Guten Morgen! Heute lesen wir gemeinsam die Zeitung.",en:"Good morning. Let's read something worth thinking about today."};
+const VOICE_SAMPLE={es:"¡Hola! Hoy vamos a leer un texto corto sobre la vida diaria.",fr:"Bonjour ! Aujourd'hui, on lit un texte sur la musique et les idées.",pt:"Olá! Hoje vamos ler uma história curta juntos.",de:"Guten Morgen! Heute lesen wir gemeinsam die Zeitung.",en:"Good morning. Let's read something worth thinking about today."};
 /* my articles: pasted by the reader, kept only on this device */
 const MINEK="pw-mine";
 function mineAll(){ try{ return JSON.parse(localStorage.getItem(MINEK))||[]; }catch(e){ return []; } }
@@ -2984,7 +3002,8 @@ const DX_LINKS={
   pt:[["Dicio","https://www.dicio.com.br/{q}/"],["Michaelis","https://michaelis.uol.com.br/moderno-portugues/busca/portugues-brasileiro/{q}/"],["Conjugação","https://www.conjugacao.com.br/busca.php?q={q}"],["Linguee","https://www.linguee.com/portuguese-english/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#pt_br"]],
   de:[["DWDS","https://www.dwds.de/wb/{q}"],["Duden","https://www.duden.de/suchen/dudenonline/{q}"],["Linguee","https://www.linguee.de/deutsch-englisch/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#de"]],
   en:[["Cambridge","https://dictionary.cambridge.org/dictionary/english/{q}"],["Oxford Learner's","https://www.oxfordlearnersdictionaries.com/search/english/?q={q}"],["Forvo","https://forvo.com/word/{q}/#en"]],
-  fr:[["Larousse","https://www.larousse.fr/dictionnaires/francais/{q}"],["CNRTL","https://www.cnrtl.fr/definition/{q}"],["Linguee","https://www.linguee.fr/francais-anglais/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#fr"]]
+  fr:[["Larousse","https://www.larousse.fr/dictionnaires/francais/{q}"],["CNRTL","https://www.cnrtl.fr/definition/{q}"],["Linguee","https://www.linguee.fr/francais-anglais/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#fr"]],
+  es:[["SpanishDict","https://www.spanishdict.com/translate/{q}"],["WordReference","https://www.wordreference.com/es/en/translation.asp?spen={q}"],["RAE","https://dle.rae.es/{q}"],["Linguee","https://www.linguee.com/english-spanish/search?query={q}"],["Forvo","https://forvo.com/word/{q}/#es"]]
 };
 /* which explanation comes first: en → English; de → German (then English); fr → French (then English);
    pt → English for now, Portuguese when the reader switches it on (S.settings.dxPt) */
@@ -3044,10 +3063,11 @@ const RV_NAMES={ // how each Wiktionary edition writes the target language at th
   pt:{en:["Portuguese"],de:["Portugiesisch"],zh:["葡萄牙语","葡萄牙語"],fr:["Portugais"]},
   de:{en:["German"],zh:["德语","德語"],fr:["Allemand"],pt:["Alemão"]},
   en:{de:["Englisch"],zh:["英语","英語"],fr:["Anglais"],pt:["Inglês"]},
-  fr:{en:["French"],de:["Französisch"],zh:["法语","法語"],pt:["Francês"]}};
-const RV_SRC={zh:"中文",en:"English",de:"Deutsch",fr:"Français",pt:"Português"};
+  fr:{en:["French"],de:["Französisch"],zh:["法语","法語"],pt:["Francês"]},
+  es:{en:["Spanish"],de:["Spanisch"],zh:["西班牙语","西班牙語"],fr:["Espagnol"],pt:["Espanhol"]}};
+const RV_SRC={zh:"中文",en:"English",de:"Deutsch",fr:"Français",pt:"Português",es:"Español"};
 function dxFromOpts(){ const el=$("#dx-from"); if(!el) return; const l=lang(), keep=el.value||(()=>{ try{ return localStorage.getItem("pw-dxfrom")||""; }catch(e){ return ""; } })();
-  const src=["zh","en","de"].filter(x=>x!==l);
+  const src=["zh","en","de"].concat(l==="es"?["pt"]:[]).filter(x=>x!==l);
   el.innerHTML=`<option value="">${esc(LANG[l].name||l)}</option>`+src.map(x=>`<option value="${x}">${esc(RV_SRC[x])} → ${esc(LANG[l].name||l)}</option>`).join("");
   el.value=src.includes(keep)?keep:""; }
 function rvParse(html,src,tgt){
@@ -3175,7 +3195,7 @@ $("#dx-out").addEventListener("click",e=>{ const b=e.target.closest("button"); i
     if(r==="ok"||r==="dup"){ DX.q=""; $("#dx-q").value=""; dxPaint(); } } });
 
 /* my-language meaning of a single word when no glossary/AI entry: MyMemory (free, no key) */
-const MT=new Map(), MT_CODE={zh:"zh-CN",de:"de-DE",pt:"pt-BR",en:"en-GB",fr:"fr-FR"};
+const MT=new Map(), MT_CODE={zh:"zh-CN",de:"de-DE",pt:"pt-BR",en:"en-GB",fr:"fr-FR",es:"es-MX"};
 function mtFetch(w,l,h){
   const k=l+"|"+h+"|"+w.toLowerCase();
   if(!MT.has(k)){ const ac=new AbortController(), tm=setTimeout(()=>ac.abort(),8000);
@@ -3249,7 +3269,7 @@ async function wkLookup(s){
   let form=null;
   if(allForm&&lemma&&lemma!==hit){ const ls=await anyPick(lemma,l); if(MG.sheet!==s) return; if(ls){ form=senses[0].defs[0].t; senses=ls; hit=lemma; } }
   if(senses.gender&&!s.gender) s.gender=senses.gender;
-  s.wk={state:"ok",lemma:hit,form,senses,ipa:senses.ipa||"",local:!!senses.local,url:"https://en.wiktionary.org/wiki/"+encodeURIComponent(hit.replace(/ /g,"_"))+"#"+({pt:"Portuguese",de:"German",en:"English",fr:"French"}[l])};
+  s.wk={state:"ok",lemma:hit,form,senses,ipa:senses.ipa||"",local:!!senses.local,url:"https://en.wiktionary.org/wiki/"+encodeURIComponent(hit.replace(/ /g,"_"))+"#"+({pt:"Portuguese",de:"German",en:"English",fr:"French",es:"Spanish"}[l])};
   if(!s.pos) s.pos=WK_POS[senses[0].pos]||"";
   if(s.lemma===s.word&&hit) s.lemma=hit;
   mgPaint();
@@ -3274,7 +3294,7 @@ function mgPaint(){
 async function mgAI(){
   const s=MG.sheet; if(!s||aiState!=="ready") return;
   MG.ctl&&MG.ctl.abort(); const ctl=MG.ctl=new AbortController(); s.state="ai"; mgPaint();
-  const HK=SL()||HL(), HN={zh:"Simplified Chinese",de:"German",pt:"Brazilian Portuguese",en:"English",fr:"French"}[HK]||"Simplified Chinese";
+  const HK=SL()||HL(), HN={zh:"Simplified Chinese",de:"German",pt:"Brazilian Portuguese",en:"English",fr:"French",es:"Spanish"}[HK]||"Simplified Chinese";
   const prompt=`You are a bilingual dictionary for a ${HN} speaker reading a ${LANG[lang()].ai} text.
 Look up "${s.word}" as used in: """${(s.sentence||"").slice(0,500)}"""
 Reply with ONLY JSON: {"lemma": dictionary form (German/Portuguese nouns with article; verbs in infinitive), "pos": part of speech in Chinese (名词/动词/形容词…), "gender": "阳性"/"阴性"/"中性" for German/Portuguese nouns else "", "m": concise ${HN} meaning fitting this sentence (max 8 words), "note": one short ${HN} usage note or ""}`;
@@ -3411,7 +3431,7 @@ function browseRows(){
   const srs=L().srs, LL=L(), q=$("#b-search").value.trim().toLowerCase(), sf=$("#b-stage").value, src=$("#b-src").value;
   return ALL.filter(c=>(!bLevel||c.lvl===bLevel)&&(sf===""||String(stage(srs[c.id]))===sf)
     &&(!src||(src==="mine"&&c.custom)||(src==="img"&&LL.imgs[c.id])||(src==="sent"&&(LL.mine[c.id]||[]).length)||(src==="aud"&&LL.auds[c.id])||(src==="plan"&&planHas(c.id)))
-    &&(!q||[c.w,c.zh,c.en,c.fr,c.def,c.de].some(x=>x&&x.toLowerCase().includes(q))));
+    &&(!q||[c.w,c.zh,c.en,c.fr,c.def,c.de,c.pt].some(x=>x&&x.toLowerCase().includes(q))));
 }
 let bAll=false;
 function renderBrowse(){
@@ -4539,6 +4559,7 @@ const UI_DICT=[
 ["收起全部词", "Hide all words", "Alle Wörter ausblenden", "Ocultar todas", "收起全部詞"],
 ["点上面的级别，展开这一级的词。", "Tap a level above to see its words.", "Tippe oben auf eine Stufe, um ihre Wörter zu sehen.", "Toque num nível acima para ver as palavras.", "點上面的級別，展開這一級的詞。"],
 ["点一张卡片，复习一组基础词。", "Tap a card to review a set of basic words.", "Tippe auf eine Karte, um eine Gruppe Grundwörter zu wiederholen.", "Toque num cartão para rever um grupo de palavras básicas.", "點一張卡片，複習一組基礎詞。"],
+["拉美小事", "Little Latin America", "Lateinamerika im Kleinen", "América Latina em miúdos", "拉美小事"],
 ["往期", "Archive", "Archiv", "Arquivo", "往期"],
 ["{0} 分钟", "{0} min", "{0} Min.", "{0} min", "{0} 分鐘"],
 ["{0} 篇", "{0} articles", "{0} Artikel", "{0} artigos", "{0} 篇"],
