@@ -5,23 +5,18 @@
   "pt": "A1",
   "fr": {
    "Mon": [
-    "A1",
-    "B2"
+    "A1"
    ],
    "Tue": [
-    "A2",
-    "C1"
+    "A2"
    ],
    "Wed": [
-    "B1",
-    "C1"
+    "B1"
    ],
    "Thu": [
-    "A1",
     "B2"
    ],
    "Fri": [
-    "A2",
     "C1"
    ]
   },
@@ -48,7 +43,7 @@
    ]
   }
  },
- "note": "Change a level here (A1–C2); the daily tasks read it before writing. English, German and French come Monday to Friday; the weekend is for review. French: two articles a day, one easier and one harder, levels rotating by weekday. Spanish (Latin American) for a friend: two items Monday to Friday, levels by weekday in levels.es.",
+ "note": "Change a level here (A1–C2); the daily tasks read it before writing. English, German, French and Spanish come Monday to Friday; the weekend is for review. French: ONE article a day, level rotating by weekday (levels.fr). Spanish (Latin American) for a friend: two items Monday to Friday, levels by weekday in levels.es.",
  "sources": {
   "en": {
    "rotate": [
@@ -213,12 +208,12 @@
  "schedule": {
   "en": "Mon–Fri: 2 items — 1 C2 long read + 1 short C1 piece ('In brief')",
   "de": "Mon–Fri: 1 article + 1 short item",
-  "fr": "Mon–Fri: 2 articles (easier + harder)",
+  "fr": "Mon–Fri: 1 article, level by weekday (A1, A2, B1, B2, C1)",
   "pt": "Every day three A1 items: diary + dialogue + Textinho. Saturday: the A1 song story replaces the dialogue (diary + song story + Textinho). Extras for the heritage-speaker friend at B1/B2 (not counted, invisible at A1): Wednesday crônica, Saturday B1/B2 song story.",
   "picks": "Mon, Wed, Fri: exactly 2 links per list (de, en)",
   "weekend": "Saturday and Sunday: no new English, German or French texts (no weekly review).",
-  "es": "Mon–Fri around 18:00: 2 items, Latin American Spanish (ustedes, no vosotros) — one reading (culture, feminism, everyday life) and one conversation dialogue (small talk, asking questions, directions), levels rotating A1–B2 by weekday, with a short grammar note. Helper languages: English, German, Portuguese.",
-  "limit": "DE/EN/FR/ES: two items Mon–Fri; PT: three A1 items every day; picks lists don't count.",
+  "es": "Mon–Fri around 18:00: 2 items, Latin American Spanish (ustedes, no vosotros) — one reading (culture, feminism, everyday life) and one conversation dialogue (small talk, asking questions, directions), levels rotating A1–B2 by weekday, with a short grammar note. Helper languages: English and German.",
+  "limit": "EN/DE/ES: two items Mon–Fri; FR: one item Mon–Fri; PT: three A1 items every day; picks lists don't count.",
   "records": "Once a month (1st): +2 records each for pt and es, and a new card batch for Coisas do Brasil and Cosas de Latinoamérica.",
   "wordbank": "Tuesday and Friday nights: only Spanish (A2→B1→A1→B2) and German UG grow; pt/de/en/fr CEFR decks are paused (enough cards for now)."
  },
@@ -287,5 +282,34 @@
    "subjuntivo after cuando/para que (B2)"
   ],
   "easter_eggs": "each item may end with a small 'dato curioso' or a regional word (e.g. México vs Argentina vs Colombia) — true facts only."
+ },
+ "helper_languages": {
+  "rule": "Write only these fields. Missing fields are fine: the app falls back to English, then Chinese.",
+  "en": {
+   "paragraphs": "none (no paragraphs_*)",
+   "glossary": "{w, en, zh}",
+   "grammar": "grammar (English) + grammar_zh"
+  },
+  "de": {
+   "paragraphs": "none (no paragraphs_*)",
+   "glossary": "{w, de, zh} — de = simple German explanation (main)",
+   "grammar": "grammar (English) + grammar_zh"
+  },
+  "pt": {
+   "paragraphs": "paragraphs_en + paragraphs_zh",
+   "glossary": "{w, en, zh}",
+   "grammar": "grammar (English) + grammar_zh"
+  },
+  "fr": {
+   "paragraphs": "paragraphs_en + paragraphs_de",
+   "glossary": "{w, fr, de} — fr = simple French explanation (main)",
+   "grammar": "grammar (English) + grammar_de"
+  },
+  "es": {
+   "paragraphs": "paragraphs_en + paragraphs_de",
+   "glossary": "{w, en, de}",
+   "grammar": "grammar (English) + grammar_de"
+  },
+  "tags": "every new item gets \"tags\": 2–4 short strings (country/region, topic or situation, grammar point), read by tools/mg_recent.py"
  }
 }

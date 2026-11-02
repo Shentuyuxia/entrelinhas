@@ -391,6 +391,23 @@ ol.steps li{margin:3px 0}
 .mg-gl dt{font-family:var(--f-word);font-weight:600}
 .mg-gl dd{margin:0;color:var(--muted)}
 .mg-gram{background:var(--sunk);border-radius:8px;padding:10px 12px}
+.wr summary{cursor:pointer;list-style:none}.wr summary::-webkit-details-marker{display:none}
+.wr summary h3{display:inline}.wr summary .ar{color:var(--muted);font-size:12px;margin-left:6px}
+.wr textarea{font-family:var(--f-word);font-size:16.5px;line-height:1.6;min-height:140px;margin:8px 0}
+.wr .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.wr-txt{font-family:var(--f-word);font-size:16.5px;line-height:1.75;white-space:pre-wrap;margin:12px 0 6px;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+.wr-txt mark{background:none;color:inherit;border-bottom:2px solid #d0663b;cursor:pointer;padding:0 1px}
+.wr-txt mark.sp{border-bottom-color:#c0392b}.wr-txt mark.st{border-bottom-color:#b88a1d;border-bottom-style:dotted}
+.wr-txt mark.on{background:var(--acc-soft)}
+.wr-list{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:8px}
+.wr-list li{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:15px}
+.wr-list li.on{border-color:var(--acc)}
+.wr-list .bad{font-family:var(--f-word);text-decoration:line-through;color:var(--muted);margin-right:6px}
+.wr-list .msg{display:block;margin:2px 0 6px}
+.wr-list .fx{display:flex;gap:6px;flex-wrap:wrap}
+.wr-list .fx button{border:1px solid var(--acc);color:var(--acc);background:none;border-radius:999px;padding:2px 10px;font-family:var(--f-word);font-size:15px;cursor:pointer}
+.wr-ok{color:var(--acc);margin:10px 0 0}
+.wr a{color:var(--acc)}
 .mg-q{margin:0;padding-left:1.3em;font-family:var(--f-word);font-size:16.5px;display:grid;gap:6px}
 .mg-src ul{margin:0;padding-left:1.1em}
 .mg-src a{color:var(--acc);word-break:break-word}
@@ -2647,6 +2664,7 @@ async function mgRender(){
     ${it.glossary&&it.glossary.length?(()=>{ const pl=PL(l,it.level), sl=SL(l,it.level), alt=sl&&it.glossary.some(g=>g[sl]);
       return `<div class="mg-blk mg-glb"><dl class="mg-gl${MGX?"":" hidezh"}" data-noi18n>${it.glossary.map(g=>{ const k=g[pl]?pl:(g.en?"en":(g.zh?"zh":"")); const m=glTxt(g,k); return `<dt>${esc(g.w)}</dt><dd>${m?`<span lang="${k}">${esc(m)}</span>`:""}${alt&&sl!==k&&g[sl]?`<span class="gl-zh" lang="${sl}">${esc(glTxt(g,sl))}</span>`:""}</dd>`; }).join("")}</dl></div>`; })():""}
     ${qs.length?`<div class="mg-blk"><h3>想一想</h3><ol class="mg-q" data-noi18n>${qs.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></div>`:""}
+    ${WR_LANGS[l]&&it.kind!=="picks"&&(it.paragraphs||[]).length?wrBlock(pick.date+"|"+pick.i,l):""}
     ${it.sources&&it.sources.length?`<div class="mg-blk mg-src"><h3>来源</h3><ul>${it.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>${s.license?`<span class="lic">${esc(s.license)}</span>`:""}</li>`).join("")}</ul></div>`:""}
     <div class="mg-fin">${(()=>{ const on=mgFavOn(pick.date+"|"+pick.i); return `<button class="btn mg-favb" data-favb="1" type="button" aria-pressed="${on}"><span class="st" aria-hidden="true">${on?"★":"☆"}</span> <span>${on?"已收藏":"收藏"}</span></button>`; })()}${it.kind!=="picks"||(it.picks||[]).length?`<button class="btn" id="mg-exp" type="button" aria-haspopup="menu">${I.exp}<span>导出</span></button>`:""}${mgRead(pick.date,pick.i)?'<span class="small muted">✓ 读完了</span>':`<button class="btn primary" id="mg-done" type="button">读完了</button>`}
     ${(()=>{ const k=es.findIndex(e=>e.date===pick.date&&e.i===pick.i); const nx=!pick.older&&k>=0?es[k+1]:null; return nx?`<button class="btn" data-mg="${nx.date}|${nx.i}" type="button">下一篇 →</button>`:""; })()}</div>
@@ -3605,6 +3623,7 @@ function syMergeState(A,B){
       const seen=new Set(), arr=[]; for(const s of [...((a.mine||{})[id]||[]),...((b.mine||{})[id]||[])]){ const k=s.t+"|"+(s.ts||""); if(!seen.has(k)){ seen.add(k); arr.push(s); } }
       arr.sort((p,q)=>(q.ts||0)-(p.ts||0)); m.mine[id]=arr; }
     m.plan=a.plan||b.plan||null;
+    m.essays={}; for(const k of new Set([...Object.keys(a.essays||{}),...Object.keys(b.essays||{})])){ const x=(a.essays||{})[k], y=(b.essays||{})[k]; m.essays[k]=!x?y:!y?x:((y.at||0)>(x.at||0)?y:x); }
   }
   o.updated=Math.max(A.updated||0,B.updated||0); o.lastBackup=Math.max(A.lastBackup||0,B.lastBackup||0);
   return o;
@@ -3937,6 +3956,21 @@ function s2t(str){ // Simplified → Traditional (Taiwan), phrase-aware for comm
   return o;
 }
 const UI_DICT=[
+["写一写", "Write", "Schreiben", "Escrever", "寫一寫"],
+["已存草稿", "draft saved", "Entwurf gespeichert", "rascunho salvo", "已存草稿"],
+["用今天的词写几句", "a few lines with today's words", "ein paar Sätze mit den Wörtern von heute", "algumas frases com as palavras de hoje", "用今天的詞寫幾句"],
+["回答上面的问题，或用今天的新词写几句。写的内容会自动保存。", "Answer the questions above, or write a few lines with today's new words. Your text is saved automatically.", "Beantworte die Fragen oben oder schreib ein paar Sätze mit den neuen Wörtern von heute. Dein Text wird automatisch gespeichert.", "Responda às perguntas acima ou escreva algumas frases com as palavras novas de hoje. O texto é salvo automaticamente.", "回答上面的問題，或用今天的新詞寫幾句。寫的內容會自動儲存。"],
+["检查拼写和语法", "Check spelling and grammar", "Rechtschreibung und Grammatik prüfen", "Verificar ortografia e gramática", "檢查拼寫和語法"],
+["免费检查：点「检查」时，文字会发送到 LanguageTool 的服务器。机器检查只看拼写和语法，不判断内容，也会漏掉一些错误。", "Free check: when you tap “Check”, your text is sent to LanguageTool's servers. The machine check looks at spelling and grammar only, not content, and it will miss some mistakes.", "Kostenlose Prüfung: Beim Tippen auf „Prüfen“ wird dein Text an die Server von LanguageTool geschickt. Die Maschine prüft nur Rechtschreibung und Grammatik, nicht den Inhalt, und übersieht manche Fehler.", "Verificação gratuita: ao tocar em “Verificar”, o texto é enviado aos servidores do LanguageTool. A máquina só olha ortografia e gramática, não o conteúdo, e deixa passar alguns erros.", "免費檢查：點「檢查」時，文字會傳送到 LanguageTool 的伺服器。機器檢查只看拼寫和語法，不判斷內容，也會漏掉一些錯誤。"],
+["✓ 没有发现拼写或语法问题。", "✓ No spelling or grammar problems found.", "✓ Keine Rechtschreib- oder Grammatikfehler gefunden.", "✓ Nenhum problema de ortografia ou gramática encontrado.", "✓ 沒有發現拼寫或語法問題。"],
+["发现 {0} 处可能的问题，点划线的地方或下面的建议。", "{0} possible problems — tap an underlined spot or a suggestion below.", "{0} mögliche Fehler – tippe auf eine unterstrichene Stelle oder einen Vorschlag unten.", "{0} possíveis problemas — toque num trecho sublinhado ou numa sugestão abaixo.", "發現 {0} 處可能的問題，點劃線的地方或下面的建議。"],
+["先写几句吧。", "Write a few lines first.", "Schreib zuerst ein paar Sätze.", "Escreva algumas frases primeiro.", "先寫幾句吧。"],
+["正在检查…", "Checking…", "Wird geprüft …", "Verificando…", "正在檢查…"],
+["现在没有网络，检查需要联网。", "You're offline — checking needs the internet.", "Du bist offline – die Prüfung braucht Internet.", "Você está offline — a verificação precisa de internet.", "現在沒有網路，檢查需要連網。"],
+["检查太频繁了，请等一分钟再试。", "Too many checks — wait a minute and try again.", "Zu viele Prüfungen – warte eine Minute.", "Verificações demais — espere um minuto.", "檢查太頻繁了，請等一分鐘再試。"],
+["检查服务暂时不可用，请稍后再试。", "The checking service isn't available right now. Try again later.", "Der Prüfdienst ist gerade nicht erreichbar. Versuch es später.", "O serviço de verificação não está disponível agora. Tente mais tarde.", "檢查服務暫時無法使用，請稍後再試。"],
+["连不上检查服务，请稍后再试。", "Couldn't reach the checking service. Try again later.", "Prüfdienst nicht erreichbar. Versuch es später.", "Não foi possível conectar ao serviço. Tente mais tarde.", "連不上檢查服務，請稍後再試。"],
+["太长了：一次最多检查约 6000 个字符。", "Too long: up to about 6,000 characters per check.", "Zu lang: höchstens etwa 6000 Zeichen pro Prüfung.", "Longo demais: até cerca de 6.000 caracteres por verificação.", "太長了：一次最多檢查約 6000 個字元。"],
 ["每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。下面的「学习总览」是你的进度。", "New words and reviews every day. Think, tap “Show answer”, then pick how well you knew it. “Overview” below shows your progress.", "Neue Wörter und Wiederholungen jeden Tag. Überlegen, „Antwort zeigen“ tippen, dann wählen, wie gut du es wusstest. Darunter zeigt „Überblick“ deinen Fortschritt.", "Palavras novas e revisões todo dia. Pense, toque em “Mostrar resposta” e escolha o quanto lembrou. Em “Visão geral”, logo abaixo, está seu progresso.", "每天的新詞和複習。看卡片想一想，點「顯示答案」，再按記得的程度選一個按鈕。下面的「學習總覽」是你的進度。"],
 ["查词典。下面的「词匣」里有全部词汇，可以自己加词；「生词堆」里是你收藏的生词。", "Look words up. Below, “Word box” holds every word (add your own there) and “Practice pile” the words you've saved.", "Wörter nachschlagen. Darunter: „Wortkiste“ mit allen Wörtern (dort auch eigene hinzufügen) und „Übungsstapel“ mit deinen gemerkten Wörtern.", "Procure palavras. Abaixo, “Caixa de palavras” tem todo o vocabulário (adicione as suas ali) e “Pilha de prática”, as que você guardou.", "查詞典。下面的「詞匣」裡有全部詞彙，可以自己加詞；「生詞堆」裡是你收藏的生詞。"],
 ["设置与备份。用邮箱登录后，进度会在手机、平板和电脑之间同步。", "Settings and backup. Sign in with email to sync across phone, tablet and computer.", "Einstellungen und Sicherung. Mit E-Mail-Anmeldung wird alles zwischen Handy, Tablet und Computer synchronisiert.", "Ajustes e backup. Entre com e-mail para sincronizar celular, tablet e computador.", "設定與備份。用郵箱登入後，進度會在手機、平板和電腦之間同步。"],
@@ -4761,6 +4795,66 @@ if(!S.settings.onboarded) showWelcome();
 let lastDay=today();
 setInterval(()=>{ if(today()!==lastDay){ lastDay=today(); if(DATA[lang()]){ buildDaily(); renderStrip(); } } },60000);
 document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible"&&today()!==lastDay){ lastDay=today(); if(DATA[lang()]){ buildDaily(); renderStrip(); } } });
+
+/* ---------- 写一写: free writing check (LanguageTool public API, no key, no AI) — Portuguese and Spanish ---------- */
+const WR_LANGS={pt:"pt-BR",es:"es"};
+const WR={key:null,text:null,res:null,busy:false,sel:-1};
+let wrT=null;
+function wrEss(l){ const L=S[l]; return L.essays||(L.essays={}); }
+function wrBlock(key,l){
+  const e=wrEss(l)[key]||{}, t=e.t||"", same=WR.key===key&&WR.text===t&&WR.res;
+  return `<details class="mg-blk wr" id="wr" data-key="${esc(key)}"${t?" open":""}><summary><h3>写一写</h3><span class="ar">${t?"已存草稿":"用今天的词写几句"}</span></summary>
+    <p class="small muted" style="margin:6px 0 0">回答上面的问题，或用今天的新词写几句。写的内容会自动保存。</p>
+    <textarea id="wr-t" lang="${WR_LANGS[l]}" spellcheck="false" autocapitalize="sentences" data-noi18n placeholder="${l==="pt"?"Hoje eu…":"Hoy yo…"}">${esc(t)}</textarea>
+    <div class="row"><button class="btn primary" id="wr-go" type="button">检查拼写和语法</button><span class="small muted" id="wr-msg"></span></div>
+    <div id="wr-out">${same?wrResult(t,WR.res):""}</div>
+    <p class="small muted" style="margin:10px 0 0"><span>免费检查：点「检查」时，文字会发送到 LanguageTool 的服务器。机器检查只看拼写和语法，不判断内容，也会漏掉一些错误。</span> <a href="https://languagetool.org" target="_blank" rel="noopener" data-noi18n>languagetool.org</a></p>
+  </details>`;
+}
+function wrCls(m){ const t=(m.rule&&m.rule.issueType)||""; return t==="misspelling"?"sp":(t==="style"||t==="typographical"||t==="whitespace")?"st":""; }
+function wrResult(t,ms){
+  if(!ms.length) return `<p class="wr-ok">✓ 没有发现拼写或语法问题。</p>`;
+  let h="", at=0;
+  ms.forEach((m,i)=>{ if(m.offset<at) return; h+=esc(t.slice(at,m.offset))+`<mark class="${wrCls(m)}${WR.sel===i?" on":""}" data-wri="${i}">${esc(t.substr(m.offset,m.length))}</mark>`; at=m.offset+m.length; });
+  h+=esc(t.slice(at));
+  return `<div class="small muted" style="margin-top:12px">发现 ${ms.length} 处可能的问题，点划线的地方或下面的建议。</div><div class="wr-txt" data-noi18n>${h}</div>
+    <ol class="wr-list" data-noi18n>${ms.map((m,i)=>`<li class="${WR.sel===i?"on":""}" data-wrli="${i}"><span class="bad">${esc(t.substr(m.offset,m.length))||"␣"}</span><span class="small muted">${esc((m.rule&&m.rule.category&&m.rule.category.name)||"")}</span><span class="msg">${esc(m.message||m.shortMessage||"")}</span>${(m.replacements||[]).length?`<span class="fx">${m.replacements.slice(0,4).map(r=>`<button type="button" data-wrfix="${i}" data-v="${esc(r.value)}">${esc(r.value)||"⌫"}</button>`).join("")}</span>`:""}</li>`).join("")}</ol>`;
+}
+function wrStore(l,key,t){ const E=wrEss(l); if(t.trim()) E[key]={t,at:Date.now()}; else delete E[key]; save(); }
+async function wrCheck(){
+  const box=$("#wr"), ta=$("#wr-t"), msg=$("#wr-msg"); if(!box||!ta||WR.busy) return;
+  const l=lang(), key=box.dataset.key, t=ta.value;
+  if(!t.trim()){ msg.textContent="先写几句吧。"; return; }
+  if(t.length>6000){ msg.textContent="太长了：一次最多检查约 6000 个字符。"; return; }
+  if(!navigator.onLine){ msg.textContent="现在没有网络，检查需要联网。"; return; }
+  WR.busy=true; msg.textContent="正在检查…"; wrStore(l,key,t);
+  try{
+    const r=await fetch("https://api.languagetool.org/v2/check",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({text:t,language:WR_LANGS[l],level:"default"})});
+    if(r.status===429) throw {m:"检查太频繁了，请等一分钟再试。"};
+    if(!r.ok) throw {m:"检查服务暂时不可用，请稍后再试。"};
+    const j=await r.json();
+    const ms=(j.matches||[]).filter(m=>m&&m.length>0).sort((a,b)=>a.offset-b.offset);
+    Object.assign(WR,{key,text:t,res:ms,sel:-1}); msg.textContent="";
+    const out=$("#wr-out"); if(out) out.innerHTML=wrResult(t,ms);
+  }catch(e){ msg.textContent=(e&&e.m)||"连不上检查服务，请稍后再试。"; }
+  finally{ WR.busy=false; }
+}
+function wrSel(i){ WR.sel=WR.sel===i?-1:i; $$("#wr-out [data-wri],#wr-out [data-wrli]").forEach(el=>el.classList.toggle("on",+(el.dataset.wri??el.dataset.wrli)===WR.sel));
+  const li=document.querySelector(`#wr-out [data-wrli="${i}"]`); if(li&&WR.sel===i) li.scrollIntoView({block:"nearest",behavior:"smooth"}); }
+function wrFix(i,v){
+  const ta=$("#wr-t"), box=$("#wr"); if(!ta||!WR.res||!WR.res[i]||ta.value!==WR.text) return;
+  const m=WR.res[i], t=ta.value, nt=t.slice(0,m.offset)+v+t.slice(m.offset+m.length), d=v.length-m.length;
+  const rest=WR.res.filter((x,k)=>k!==i&&(x.offset+x.length<=m.offset||x.offset>=m.offset+m.length)).map(x=>x.offset>m.offset?Object.assign({},x,{offset:x.offset+d}):x);
+  ta.value=nt; Object.assign(WR,{text:nt,res:rest,sel:-1}); wrStore(lang(),box.dataset.key,nt);
+  const out=$("#wr-out"); if(out) out.innerHTML=wrResult(nt,rest);
+}
+document.addEventListener("input",e=>{ if(e.target&&e.target.id==="wr-t"){ const box=$("#wr"), l=lang(), key=box&&box.dataset.key, t=e.target.value;
+  clearTimeout(wrT); wrT=setTimeout(()=>{ if(key) wrStore(l,key,t); },600);
+  if(WR.res&&t!==WR.text){ WR.res=null; WR.text=null; const out=$("#wr-out"); if(out) out.innerHTML=""; } } });
+document.addEventListener("click",e=>{ const b=e.target.closest&&e.target.closest("#wr-go,[data-wri],[data-wrli],[data-wrfix]"); if(!b) return;
+  if(b.id==="wr-go") wrCheck();
+  else if(b.dataset.wrfix!=null){ e.stopPropagation(); wrFix(+b.dataset.wrfix,b.dataset.v); }
+  else wrSel(+(b.dataset.wri??b.dataset.wrli)); });
 if("serviceWorker" in navigator&&location.protocol==="https:") navigator.serviceWorker.register("sw.js").catch(()=>{});
 })();
 </script>
