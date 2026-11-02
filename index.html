@@ -1073,7 +1073,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       <div class="sesshead"><h2 id="sess-title">今日学习</h2><div class="row" id="sess-actions"></div></div>
       <div class="bar"><i id="sess-bar"></i></div>
       <div id="card-area"><div class="empty"><b>正在载入词匣…</b></div></div>
-      <details class="fold" id="fold-stats">
+      <details class="fold" id="fold-stats" open>
       <summary><span class="fold-h"><span class="fold-t">学习总览</span><small class="fold-n" id="ov-sum"></small></span></summary>
       <div id="tab-stats" class="grid foldbody">
     <div class="panel" id="stats-main"></div>
@@ -4675,7 +4675,7 @@ function showTab(t){
 }
 { const fb=$("#fold-browse"), fp=$("#fold-pile"), fs=$("#fold-stats");
   fb.addEventListener("toggle",()=>{ if(fb.open) renderBrowse(); }); fp.addEventListener("toggle",()=>{ if(fp.open) renderPile(); });
-  try{ fs.open=localStorage.getItem("pw-ov")==="1"; }catch(e){} fs.addEventListener("toggle",()=>{ try{ localStorage.setItem("pw-ov",fs.open?"1":"0"); }catch(e){} if(fs.open) renderStats(); }); }
+  fs.open=true; fs.addEventListener("toggle",()=>{ if(fs.open) renderStats(); }); } // the overview is open every time the app starts
 $("#tabs").addEventListener("click",e=>{ const b=e.target.closest("[data-tab]"); if(b) showTab(b.dataset.tab); });
 $("#opt-langs").addEventListener("change",()=>{ const v=$$("#opt-langs input:checked").map(i=>i.value);
   if(!v.length){ toast(trOne("至少选一种语言。")); renderLangs(); return; }
