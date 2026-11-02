@@ -298,6 +298,235 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En el hostal: ¿hay wifi?",
+   "dek": "Quito, Ecuador. Nora llega a un hostal y le hace preguntas a Rosa, la recepcionista.",
+   "paragraphs": [
+    "Rosa: ¡Buenas tardes! Bienvenida. ¿Tiene una reserva?",
+    "Nora: Buenas tardes. Sí, para dos noches. Me llamo Nora Weber.",
+    "Rosa: Perfecto. Su habitación es la número siete. Está en el segundo piso.",
+    "Nora: Gracias. ¿Hay wifi?",
+    "Rosa: Sí, hay wifi en todo el hostal. La clave está en esta tarjeta.",
+    "Nora: ¿Y a qué hora es el desayuno?",
+    "Rosa: De siete a nueve, en la terraza. Hay pan, huevos y jugo de naranjilla.",
+    "Nora: ¡Qué rico! Una pregunta más: ¿hay un cajero cerca?",
+    "Rosa: Sí, hay uno en la esquina, al lado de la farmacia. Mi ñaña trabaja ahí.",
+    "Nora: ¿Su ñaña? ¿Qué significa?",
+    "Rosa: Mi hermana. Aquí en Quito decimos “ñaña”. Es una palabra del kichwa.",
+    "Nora: ¡Qué bonito! Muchas gracias, Rosa. Hoy aprendo una palabra nueva."
+   ],
+   "paragraphs_en": [
+    "Rosa: Good afternoon! Welcome. Do you have a reservation?",
+    "Nora: Good afternoon. Yes, for two nights. My name is Nora Weber.",
+    "Rosa: Perfect. Your room is number seven. It's on the second floor.",
+    "Nora: Thank you. Is there wifi?",
+    "Rosa: Yes, there's wifi all over the hostel. The password is on this card.",
+    "Nora: And what time is breakfast?",
+    "Rosa: From seven to nine, on the terrace. There's bread, eggs and naranjilla juice.",
+    "Nora: Delicious! One more question: is there an ATM nearby?",
+    "Rosa: Yes, there's one on the corner, next to the pharmacy. My ñaña works there.",
+    "Nora: Your ñaña? What does that mean?",
+    "Rosa: My sister. Here in Quito we say “ñaña”. It's a word from Kichwa.",
+    "Nora: How lovely! Thank you very much, Rosa. Today I'm learning a new word."
+   ],
+   "paragraphs_de": [
+    "Rosa: Guten Tag! Herzlich willkommen. Haben Sie eine Reservierung?",
+    "Nora: Guten Tag. Ja, für zwei Nächte. Ich heiße Nora Weber.",
+    "Rosa: Perfekt. Ihr Zimmer ist die Nummer sieben. Es ist im zweiten Stock.",
+    "Nora: Danke. Gibt es WLAN?",
+    "Rosa: Ja, es gibt WLAN im ganzen Hostel. Das Passwort steht auf dieser Karte.",
+    "Nora: Und um wie viel Uhr ist das Frühstück?",
+    "Rosa: Von sieben bis neun, auf der Terrasse. Es gibt Brot, Eier und Naranjilla-Saft.",
+    "Nora: Lecker! Noch eine Frage: Gibt es einen Geldautomaten in der Nähe?",
+    "Rosa: Ja, es gibt einen an der Ecke, neben der Apotheke. Meine Ñaña arbeitet dort.",
+    "Nora: Ihre Ñaña? Was bedeutet das?",
+    "Rosa: Meine Schwester. Hier in Quito sagen wir „ñaña“. Das ist ein Wort aus dem Kichwa.",
+    "Nora: Wie schön! Vielen Dank, Rosa. Heute lerne ich ein neues Wort."
+   ],
+   "paragraphs_pt": [
+    "Rosa: Boa tarde! Seja bem-vinda. A senhora tem reserva?",
+    "Nora: Boa tarde. Tenho, sim, para duas noites. Eu me chamo Nora Weber.",
+    "Rosa: Perfeito. O seu quarto é o número sete. Fica no segundo andar.",
+    "Nora: Obrigada. Tem wi-fi?",
+    "Rosa: Tem, sim, wi-fi em todo o hostel. A senha está neste cartão.",
+    "Nora: E a que horas é o café da manhã?",
+    "Rosa: Das sete às nove, no terraço. Tem pão, ovos e suco de naranjilla.",
+    "Nora: Que delícia! Mais uma pergunta: tem um caixa eletrônico por perto?",
+    "Rosa: Tem, sim, um na esquina, ao lado da farmácia. A minha ñaña trabalha lá.",
+    "Nora: A sua ñaña? O que significa isso?",
+    "Rosa: A minha irmã. Aqui em Quito a gente diz “ñaña”. É uma palavra do kíchwa.",
+    "Nora: Que bonito! Muito obrigada, Rosa. Hoje aprendi uma palavra nova."
+   ],
+   "glossary": [
+    {
+     "w": "la reserva",
+     "en": "reservation, booking",
+     "de": "die Reservierung",
+     "pt": "a reserva"
+    },
+    {
+     "w": "la habitación",
+     "en": "room (in a hotel or home)",
+     "de": "das Zimmer",
+     "pt": "o quarto (≠ habitação, moradia)"
+    },
+    {
+     "w": "el piso",
+     "en": "floor, storey",
+     "de": "der Stock",
+     "pt": "o andar"
+    },
+    {
+     "w": "la clave",
+     "en": "password (also la contraseña)",
+     "de": "das Passwort",
+     "pt": "a senha"
+    },
+    {
+     "w": "el desayuno",
+     "en": "breakfast",
+     "de": "das Frühstück",
+     "pt": "o café da manhã"
+    },
+    {
+     "w": "el cajero (automático)",
+     "en": "ATM, cash machine",
+     "de": "der Geldautomat",
+     "pt": "o caixa eletrônico"
+    },
+    {
+     "w": "la naranjilla",
+     "en": "tart orange fruit, popular for juice in Ecuador; called lulo in Colombia",
+     "de": "die Naranjilla (säuerliche Frucht; in Kolumbien: lulo)",
+     "pt": "a naranjilla (fruta azeda; na Colômbia, lulo)"
+    },
+    {
+     "w": "la ñaña / el ñaño",
+     "en": "sister / brother (Ecuadorian Andes, from Kichwa)",
+     "de": "die Schwester / der Bruder (Anden Ecuadors, aus dem Kichwa)",
+     "pt": "a irmã / o irmão (Andes do Equador, do kíchwa)"
+    }
+   ],
+   "grammar": "Hay or está? Use hay (“there is, there are”) when you ask or say that something exists, usually with un, una or no article: “¿Hay wifi?”, “Hay uno en la esquina.” Use estar to say where a specific, known thing is, usually with el, la or su: “La clave está en esta tarjeta.” Hay never changes: hay un cajero, hay dos cajeros.",
+   "grammar_de": "Hay oder está? Hay („es gibt“) benutzt du, wenn du fragst oder sagst, dass etwas existiert, meist mit un, una oder ohne Artikel: „¿Hay wifi?“, „Hay uno en la esquina.“ Mit estar sagst du, wo eine bestimmte, bekannte Sache ist, meist mit el, la oder su: „La clave está en esta tarjeta.“ Hay bleibt immer gleich: hay un cajero, hay dos cajeros.",
+   "grammar_pt": "Hay ou está? Use hay quando quiser perguntar ou dizer que algo existe, em geral com un, una ou sem artigo: “¿Hay wifi?”, “Hay uno en la esquina.” Use estar para dizer onde fica uma coisa específica e conhecida, em geral com el, la ou su: “La clave está en esta tarjeta.” Atenção: no Brasil dizemos “tem wi-fi?”, mas em espanhol tiene não funciona assim: é sempre hay, que nunca muda (hay un cajero, hay dos cajeros).",
+   "questions": [
+    "¿Dónde está la habitación de Nora?",
+    "¿Qué significa “ñaña”?",
+    "¿Y tú? ¿Qué preguntas haces en un hostal o en un hotel?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "feature",
+   "section": "Cultura",
+   "title": "Tereré: el mate frío de Paraguay",
+   "dek": "Cuando hace calor en Paraguay, la gente saca el termo, el hielo y una guampa para compartir.",
+   "paragraphs": [
+    "En Paraguay hace mucho calor en verano. Por eso, una de las bebidas más queridas del país no es caliente, sino fría. Se llama tereré: es yerba mate con agua muy fría y hielo. La bebida viene de los guaraníes, un pueblo indígena de esta región.",
+    "Para preparar tereré se necesitan tres cosas: una guampa (un vaso), una bombilla (un sorbete de metal con filtro) y un termo con agua fría. A muchas personas les gustan las hierbas frescas, y por eso agregan yuyos, como menta o cedrón. En guaraní, una lengua oficial de Paraguay junto con el español, estas plantas medicinales se llaman pohã ñana.",
+    "A los paraguayos les gusta el sabor, pero lo más importante es compartir. Una persona del grupo sirve el agua y pasa la guampa a cada uno, por turnos. Todos toman de la misma guampa, y la conversación sigue. El tereré se toma en familia, con amigos o solo, para descansar un rato.",
+    "En el Mercado 4 de Asunción, las yuyeras, vendedoras de hierbas, explican cuáles combinar. Ellas ayudan a conservar este saber. En diciembre de 2020, la UNESCO incluyó las prácticas y los saberes del tereré en su lista de patrimonio cultural inmaterial. Además, el último sábado de febrero es el Día del Tereré.",
+    "Dato curioso: si hablas portugués, quizás ya conoces esta bebida. El tereré también es popular en algunas regiones de Brasil, y allí a veces se prepara con jugo."
+   ],
+   "paragraphs_en": [
+    "Summers in Paraguay are very hot. That's why one of the country's best-loved drinks isn't hot but cold. It's called tereré: yerba mate with very cold water and ice. The drink comes from the Guaraní, an Indigenous people of this region.",
+    "To make tereré you need three things: a guampa (a cup), a bombilla (a metal straw with a filter) and a thermos of cold water. Many people like fresh herbs, so they add yuyos, such as mint or lemon verbena. In Guaraní, an official language of Paraguay alongside Spanish, these medicinal plants are called pohã ñana.",
+    "Paraguayans like the taste, but the most important thing is sharing. One person in the group pours the water and passes the guampa to each person in turn. Everyone drinks from the same guampa, and the conversation goes on. Tereré is drunk with family, with friends or alone, to rest for a while.",
+    "At Mercado 4 in Asunción, the yuyeras, women who sell herbs, explain which ones to combine. They help preserve this knowledge. In December 2020, UNESCO added the practices and knowledge of tereré to its list of intangible cultural heritage. And the last Saturday in February is Tereré Day.",
+    "Fun fact: if you speak Portuguese, you may already know this drink. Tereré is also popular in some regions of Brazil, where it is sometimes made with juice."
+   ],
+   "paragraphs_de": [
+    "In Paraguay ist es im Sommer sehr heiß. Deshalb ist eines der beliebtesten Getränke des Landes nicht heiß, sondern kalt. Es heißt Tereré: Yerba Mate mit sehr kaltem Wasser und Eis. Das Getränk stammt von den Guaraní, einem indigenen Volk dieser Region.",
+    "Für Tereré braucht man drei Dinge: eine Guampa (einen Becher), eine Bombilla (einen Metallstrohhalm mit Filter) und eine Thermoskanne mit kaltem Wasser. Viele Menschen mögen frische Kräuter und geben deshalb Yuyos hinzu, zum Beispiel Minze oder Zitronenverbene. Auf Guaraní, neben Spanisch eine Amtssprache Paraguays, heißen diese Heilpflanzen pohã ñana.",
+    "Den Paraguayern schmeckt der Tereré, aber am wichtigsten ist das Teilen. Eine Person aus der Gruppe gießt das Wasser ein und reicht die Guampa der Reihe nach an alle weiter. Alle trinken aus derselben Guampa, und das Gespräch geht weiter. Man trinkt Tereré mit der Familie, mit Freunden oder allein, um sich kurz auszuruhen.",
+    "Auf dem Mercado 4 in Asunción erklären die Yuyeras, die Kräuterverkäuferinnen, welche Kräuter man kombinieren kann. Sie helfen, dieses Wissen zu bewahren. Im Dezember 2020 nahm die UNESCO die Praktiken und das Wissen rund um den Tereré in ihre Liste des immateriellen Kulturerbes auf. Außerdem ist der letzte Samstag im Februar der Tag des Tereré.",
+    "Kurioses: Wenn du Portugiesisch sprichst, kennst du dieses Getränk vielleicht schon. Tereré ist auch in einigen Regionen Brasiliens beliebt und wird dort manchmal mit Saft zubereitet."
+   ],
+   "paragraphs_pt": [
+    "No Paraguai faz muito calor no verão. Por isso, uma das bebidas mais queridas do país não é quente, e sim fria. Ela se chama tereré: é erva-mate com água bem gelada e gelo. A bebida vem dos guaranis, um povo indígena desta região.",
+    "Para preparar tereré, são necessárias três coisas: uma guampa (um copo), uma bomba (um canudo de metal com filtro) e uma garrafa térmica com água gelada. Muita gente gosta de ervas frescas e, por isso, acrescenta yuyos, como hortelã ou cidró. Em guarani, língua oficial do Paraguai junto com o espanhol, essas plantas medicinais se chamam pohã ñana.",
+    "Os paraguaios gostam do sabor, mas o mais importante é compartilhar. Uma pessoa do grupo serve a água e passa a guampa para cada um, por turnos. Todos bebem da mesma guampa, e a conversa continua. O tereré é tomado em família, com amigos ou sozinho, para descansar um pouco.",
+    "No Mercado 4 de Assunção, as yuyeras, vendedoras de ervas, explicam quais combinar. Elas ajudam a conservar esse saber. Em dezembro de 2020, a UNESCO incluiu as práticas e os saberes do tereré na sua lista de patrimônio cultural imaterial. Além disso, o último sábado de fevereiro é o Dia do Tereré.",
+    "Curiosidade: se você fala português, talvez já conheça esta bebida. O tereré também é popular em algumas regiões do Brasil, onde às vezes é preparado com suco."
+   ],
+   "glossary": [
+    {
+     "w": "la yerba mate",
+     "en": "dried leaves of the mate plant, used for infusions",
+     "de": "der Mate-Tee (die getrockneten Blätter)",
+     "pt": "a erva-mate"
+    },
+    {
+     "w": "la bombilla",
+     "en": "metal drinking straw with a filter (elsewhere also 'light bulb')",
+     "de": "der Metallstrohhalm mit Filter (auch: die Glühbirne)",
+     "pt": "a bomba (de chimarrão ou tereré)"
+    },
+    {
+     "w": "el sorbete",
+     "en": "drinking straw (the word varies by country: popote in Mexico, pitillo in Colombia)",
+     "de": "der Strohhalm",
+     "pt": "o canudo"
+    },
+    {
+     "w": "agregar",
+     "en": "to add",
+     "de": "hinzufügen",
+     "pt": "acrescentar"
+    },
+    {
+     "w": "los yuyos",
+     "en": "herbs, especially medicinal ones (Paraguay, Argentina, Uruguay)",
+     "de": "die Kräuter",
+     "pt": "as ervas"
+    },
+    {
+     "w": "compartir",
+     "en": "to share",
+     "de": "teilen",
+     "pt": "compartilhar"
+    },
+    {
+     "w": "por turnos",
+     "en": "in turns",
+     "de": "der Reihe nach",
+     "pt": "por turnos, um de cada vez"
+    },
+    {
+     "w": "la vendedora",
+     "en": "saleswoman, vendor",
+     "de": "die Verkäuferin",
+     "pt": "a vendedora"
+    }
+   ],
+   "grammar": "Gustar works “backwards”: the thing you like is the subject. “A los paraguayos les gusta el sabor” literally says “the taste pleases them”. So the verb agrees with the thing: gusta for one thing or an infinitive (les gusta compartir), gustan for several (“les gustan las hierbas frescas”). Before it comes me, te, le, nos or les.",
+   "grammar_de": "Gustar funktioniert wie „gefallen“ oder „schmecken“: Das, was man mag, ist das Subjekt. „A los paraguayos les gusta el sabor“ heißt wörtlich „den Paraguayern gefällt der Geschmack“. Das Verb richtet sich also nach der Sache: gusta bei einer Sache oder einem Infinitiv (les gusta compartir), gustan bei mehreren („les gustan las hierbas frescas“). Davor steht me, te, le, nos oder les.",
+   "grammar_pt": "Gustar funciona ao contrário do nosso “gostar de”: em português, quem gosta é o sujeito (“os paraguaios gostam do sabor”); em espanhol, o sujeito é a coisa de que se gosta (“A los paraguayos les gusta el sabor”, algo como “o sabor agrada a eles”). Por isso o verbo concorda com a coisa: gusta para uma coisa ou um infinitivo (les gusta compartir), gustan para várias (“les gustan las hierbas frescas”). Antes vem me, te, le, nos ou les, e não se usa a preposição de.",
+   "questions": [
+    "¿Qué es el tereré y con qué se prepara?",
+    "¿Por qué es importante compartir la guampa?",
+    "¿Y a ti? ¿Qué bebida te gusta tomar con amigos cuando hace calor?"
+   ],
+   "sources": [
+    {
+     "title": "Tereré (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Terer%C3%A9",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "title": "El tereré, patrimonio de la humanidad: una tradición con siglos de paraguayidad (La Nación, Paraguay)",
+     "url": "https://www.lanacion.com.py/pais/2025/02/22/el-terere-patrimonio-de-la-humanidad-una-tradicion-con-siglos-de-paraguayidad/",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
