@@ -527,6 +527,389 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 7
+   },
+   "title": "Uma visita secreta",
+   "dek": "Hoje é feriado e a livraria está fechada. A Ana vai à rodoviária buscar a Bia, a irmã do Lucas. Fazer muitas perguntas é coisa de família!",
+   "paragraphs": [
+    "Segunda-feira, 2 de novembro de 2026. Querido diário, hoje é Dia de Finados, um feriado. A livraria está fechada, mas eu acordo às seis e quarenta. Por quê? Porque o Tito não sabe o que é feriado! Para ele, segunda-feira é um dia como os outros.",
+    "Às oito e quinze, eu encontro a Dona Rosa no portão, com flores brancas. Nesse dia, no Brasil, muitas pessoas levam flores ao cemitério. Ela vai visitar o marido dela. O Bolinha fica comigo até as dez horas.",
+    "Às oito e meia, eu vou à padaria do Seu João com o Bolinha. Hoje ela abre só das sete ao meio-dia. Ontem, domingo, dia 1º de novembro, eu fui lá, e agora está tudo certo: o bolo do Lucas vai ter morango e o nome dele em azul.",
+    "Às duas da tarde, eu pego o ônibus para a rodoviária. Escuto \"Asa Branca\", do Luiz Gonzaga. É uma música antiga do Nordeste, bonita e um pouco triste. Hoje eu tenho um plano secreto: a Bia, a irmã do Lucas, chega de Curitiba às três horas!",
+    "Às três em ponto, o ônibus dela chega. Uma moça de mochila verde olha para mim. — Você é a Ana? — Sou! E você é a Bia, né? — Sou, sim! Ela tem os olhos do Lucas. E as perguntas do Lucas também!",
+    "— Onde você trabalha, Ana? — Na livraria, com o seu irmão. — Há quanto tempo? — Há cinco anos. — E você gosta do seu trabalho? — Gosto muito! E você, Bia? Você estuda ou trabalha? — Eu estudo veterinária na universidade, em Curitiba. — Quando termina o seu curso? — Em dezembro de 2028.",
+    "Às quatro horas, a gente chega na minha casa amarela. A Bia fica aqui até quarta-feira, dia 4, porque o Lucas não pode saber. Ela olha para o Tito e começa uma consulta: — Quantos anos ele tem? — Quatro. — Quantas vezes por dia ele come? — Três… ou cinco. — Qual é a profissão dele? — Dormir! — Ana, o seu gato pequeno é um gato gordo!",
+    "Às cinco e meia, chega a Dona Rosa, com o Bolinha. Ela também pergunta: — O que você faz, minha filha? — Sou estudante de veterinária. — Que ótimo! Uma médica de animais na nossa rua! O Bolinha fica muito quieto. Ele não gosta de consultas.",
+    "Às sete da noite, o meu telefone toca. É o Lucas! — Ana, o que você faz hoje? — Nada, Lucas. Estou em casa, com o Tito. A Bia ri no sofá. — Quem está aí? — Ninguém! É a televisão! Ai, ai, ai. Eu sou vendedora de livros, não sou atriz.",
+    "Às oito e meia, a gente janta sopa de legumes. Agora são dez horas da noite, e a Bia dorme no sofá vermelho, com o Tito em cima dela. Amanhã é terça-feira, dia 3 de novembro: às quatro, eu pego o bolo; às cinco, é a festa na livraria. Boa noite, diário. Boa noite, Tito."
+   ],
+   "paragraphs_en": [
+    "Monday, 2 November 2026. Dear diary, today is All Souls' Day, a public holiday. The bookshop is closed, but I wake up at 6:40. Why? Because Tito doesn't know what a holiday is! For him, Monday is a day like any other.",
+    "At 8:15 I meet Dona Rosa at the gate, with white flowers. On this day, in Brazil, many people take flowers to the cemetery. She is going to visit her husband. Bolinha stays with me until ten o'clock.",
+    "At 8:30 I go to Seu João's bakery with Bolinha. Today it is only open from seven to noon. Yesterday, Sunday, 1 November, I went there, and now everything is settled: Lucas's cake is going to have strawberries and his name in blue.",
+    "At two in the afternoon I take the bus to the bus station. I listen to \"Asa Branca\" by Luiz Gonzaga. It's an old song from the Northeast, beautiful and a little sad. Today I have a secret plan: Bia, Lucas's sister, arrives from Curitiba at three o'clock!",
+    "At three on the dot her bus arrives. A young woman with a green backpack looks at me. \"Are you Ana?\" \"I am! And you're Bia, right?\" \"Yes, I am!\" She has Lucas's eyes. And Lucas's questions too!",
+    "\"Where do you work, Ana?\" \"At the bookshop, with your brother.\" \"For how long?\" \"For five years.\" \"And do you like your job?\" \"Very much! And you, Bia? Do you study or work?\" \"I study veterinary medicine at the university, in Curitiba.\" \"When does your course finish?\" \"In December 2028.\"",
+    "At four o'clock we get to my yellow house. Bia is staying here until Wednesday the 4th, because Lucas mustn't know. She looks at Tito and begins a check-up: \"How old is he?\" \"Four.\" \"How many times a day does he eat?\" \"Three… or five.\" \"What is his profession?\" \"Sleeping!\" \"Ana, your small cat is a fat cat!\"",
+    "At 5:30 Dona Rosa arrives, with Bolinha. She asks questions too: \"What do you do, my dear?\" \"I'm a veterinary student.\" \"How great! An animal doctor on our street!\" Bolinha goes very quiet. He doesn't like check-ups.",
+    "At seven in the evening my phone rings. It's Lucas! \"Ana, what are you doing today?\" \"Nothing, Lucas. I'm at home, with Tito.\" Bia laughs on the sofa. \"Who's there?\" \"Nobody! It's the TV!\" Oh dear. I'm a bookseller, not an actress.",
+    "At 8:30 we have vegetable soup for dinner. Now it's ten o'clock at night, and Bia is sleeping on the red sofa, with Tito on top of her. Tomorrow is Tuesday, 3 November: at four I pick up the cake; at five, it's the party at the bookshop. Good night, diary. Good night, Tito."
+   ],
+   "paragraphs_zh": [
+    "2026年11月2日，星期一。亲爱的日记，今天是万灵节，法定假日。书店关门，可我六点四十就醒了。为什么？因为蒂托不知道什么叫假日！对它来说，星期一和别的日子没什么两样。",
+    "八点十五分，我在大门口碰到罗莎太太，她拿着白色的花。这一天，在巴西，很多人会带花去墓地。她要去看她的丈夫。波利尼亚在我这儿待到十点。",
+    "八点半，我带着波利尼亚去若昂先生的面包店。今天只从七点开到中午。昨天，星期日，11月1日，我去过那里，现在一切都定好了：卢卡斯的蛋糕会有草莓，他的名字用蓝色写。",
+    "下午两点，我坐公交车去长途汽车站。我听路易斯·贡扎加的《Asa Branca》。这是一首来自东北部的老歌，很美，又有点忧伤。今天我有一个秘密计划：卢卡斯的妹妹比娅三点从库里蒂巴到！",
+    "三点整，她的车到了。一个背绿色双肩包的姑娘看着我。“你是安娜吗？”“是我！你是比娅，对吧？”“对，是我！”她有一双和卢卡斯一样的眼睛。还有和卢卡斯一样多的问题！",
+    "“你在哪里工作，安娜？”“在书店，和你哥哥一起。”“多久了？”“五年了。”“你喜欢你的工作吗？”“很喜欢！你呢，比娅？你是上学还是工作？”“我在库里蒂巴的大学学兽医。”“你什么时候毕业？”“2028年12月。”",
+    "四点，我们到了我的黄房子。比娅在这里住到星期三，4号，因为不能让卢卡斯知道。她看着蒂托，开始给它看诊：“它几岁了？”“四岁。”“它一天吃几次？”“三次……或者五次。”“它的职业是什么？”“睡觉！”“安娜，你的小猫是一只胖猫！”",
+    "五点半，罗莎太太带着波利尼亚来了。她也问：“孩子，你是做什么的？”“我是兽医专业的学生。”“太好了！我们这条街有动物医生了！”波利尼亚变得很安静。它不喜欢看诊。",
+    "晚上七点，我的电话响了。是卢卡斯！“安娜，你今天在做什么？”“没做什么，卢卡斯。我在家，和蒂托一起。”比娅在沙发上笑。“谁在那儿？”“没人！是电视！”哎呀呀。我是卖书的，不是演员。",
+    "八点半，我们晚饭吃蔬菜汤。现在是晚上十点，比娅睡在红沙发上，蒂托趴在她身上。明天是11月3日，星期二：四点我去取蛋糕；五点，书店里开派对。晚安，日记。晚安，蒂托。"
+   ],
+   "paragraphs_de": [
+    "Montag, 2. November 2026. Liebes Tagebuch, heute ist Allerseelen, ein Feiertag. Die Buchhandlung ist geschlossen, aber ich wache um sechs Uhr vierzig auf. Warum? Weil Tito nicht weiß, was ein Feiertag ist! Für ihn ist Montag ein Tag wie jeder andere.",
+    "Um Viertel nach acht treffe ich Dona Rosa am Tor, mit weißen Blumen. An diesem Tag bringen in Brasilien viele Menschen Blumen auf den Friedhof. Sie besucht ihren Mann. Bolinha bleibt bis zehn Uhr bei mir.",
+    "Um halb neun gehe ich mit Bolinha zu Seu Joãos Bäckerei. Heute hat sie nur von sieben bis zwölf Uhr mittags auf. Gestern, Sonntag, am 1. November, war ich dort, und jetzt ist alles klar: Lucas' Kuchen bekommt Erdbeeren und seinen Namen in Blau.",
+    "Um zwei Uhr nachmittags nehme ich den Bus zum Busbahnhof. Ich höre „Asa Branca“ von Luiz Gonzaga. Das ist ein altes Lied aus dem Nordosten, schön und ein bisschen traurig. Heute habe ich einen geheimen Plan: Bia, Lucas' Schwester, kommt um drei Uhr aus Curitiba an!",
+    "Punkt drei kommt ihr Bus an. Eine junge Frau mit grünem Rucksack schaut mich an. „Bist du Ana?“ „Ja! Und du bist Bia, oder?“ „Ja, genau!“ Sie hat Lucas' Augen. Und auch Lucas' Fragen!",
+    "„Wo arbeitest du, Ana?“ „In der Buchhandlung, mit deinem Bruder.“ „Seit wann?“ „Seit fünf Jahren.“ „Und gefällt dir deine Arbeit?“ „Sehr! Und du, Bia? Studierst du oder arbeitest du?“ „Ich studiere Tiermedizin an der Universität, in Curitiba.“ „Wann ist dein Studium zu Ende?“ „Im Dezember 2028.“",
+    "Um vier Uhr kommen wir in meinem gelben Haus an. Bia bleibt bis Mittwoch, dem 4., hier, denn Lucas darf nichts wissen. Sie schaut Tito an und beginnt eine Untersuchung: „Wie alt ist er?“ „Vier.“ „Wie oft am Tag frisst er?“ „Dreimal … oder fünfmal.“ „Was ist sein Beruf?“ „Schlafen!“ „Ana, dein kleiner Kater ist ein dicker Kater!“",
+    "Um halb sechs kommt Dona Rosa mit Bolinha. Auch sie fragt: „Was machst du, mein Kind?“ „Ich studiere Tiermedizin.“ „Wie toll! Eine Tierärztin in unserer Straße!“ Bolinha wird ganz still. Er mag keine Untersuchungen.",
+    "Um sieben Uhr abends klingelt mein Telefon. Es ist Lucas! „Ana, was machst du heute?“ „Nichts, Lucas. Ich bin zu Hause, mit Tito.“ Bia lacht auf dem Sofa. „Wer ist da?“ „Niemand! Das ist der Fernseher!“ Oje. Ich bin Buchhändlerin, keine Schauspielerin.",
+    "Um halb neun essen wir Gemüsesuppe zu Abend. Jetzt ist es zehn Uhr abends, und Bia schläft auf dem roten Sofa, mit Tito auf ihr. Morgen ist Dienstag, der 3. November: Um vier hole ich den Kuchen ab; um fünf ist die Party in der Buchhandlung. Gute Nacht, Tagebuch. Gute Nacht, Tito."
+   ],
+   "glossary": [
+    {
+     "w": "o feriado",
+     "en": "public holiday — no work, shops often closed",
+     "zh": "法定假日",
+     "de": "der Feiertag",
+     "pt": "um dia sem trabalho para muita gente"
+    },
+    {
+     "w": "o Dia de Finados",
+     "en": "All Souls' Day, 2 November — a public holiday in Brazil",
+     "zh": "万灵节（11月2日）",
+     "de": "Allerseelen",
+     "pt": "dia 2 de novembro; as pessoas lembram da família que já morreu"
+    },
+    {
+     "w": "fechado / fechada",
+     "en": "closed — it agrees: a livraria está fechada, o banco está fechado",
+     "zh": "关着的、关门的",
+     "de": "geschlossen",
+     "pt": "não está aberto"
+    },
+    {
+     "w": "o cemitério",
+     "en": "cemetery (same word!)",
+     "zh": "墓地",
+     "de": "der Friedhof",
+     "pt": "lugar onde estão as pessoas que já morreram"
+    },
+    {
+     "w": "a rodoviária",
+     "en": "long-distance bus station",
+     "zh": "长途汽车站",
+     "de": "der Busbahnhof",
+     "pt": "lugar dos ônibus de uma cidade para outra"
+    },
+    {
+     "w": "fui (ir)",
+     "en": "I went — past of ir: Ontem eu fui lá. (Present: eu vou.)",
+     "zh": "我去了（ir 的过去式）",
+     "de": "ich ging / ich war",
+     "pt": "eu vou hoje; ontem eu fui"
+    },
+    {
+     "w": "onde você trabalha?",
+     "en": "where do you work? — Na livraria. (em + a = na)",
+     "zh": "你在哪里工作？",
+     "de": "Wo arbeitest du?",
+     "pt": "pergunta o lugar do trabalho"
+    },
+    {
+     "w": "há quanto tempo?",
+     "en": "for how long? — Há cinco anos. = For five years.",
+     "zh": "多久了？",
+     "de": "seit wann?",
+     "pt": "pergunta o tempo de uma coisa"
+    },
+    {
+     "w": "a veterinária",
+     "en": "vet (f) (cf. 'veterinary'); also the subject: estudar veterinária. Masculine: o veterinário",
+     "zh": "兽医（女）；兽医专业",
+     "de": "die Tierärztin; Tiermedizin",
+     "pt": "médica de animais; também é o nome do curso"
+    },
+    {
+     "w": "a sopa de legumes",
+     "en": "vegetable soup (noun + de + noun: what kind of soup)",
+     "zh": "蔬菜汤",
+     "de": "die Gemüsesuppe",
+     "pt": "sopa feita com cenoura, batata e outros legumes"
+    }
+   ],
+   "grammar": "Dates: day + de + month + de + year, with the month in lowercase: 2 de novembro de 2026. The first of the month is 1º (primeiro): dia 1º de novembro. Clock times use às for \"at\": às três horas, às seis e quarenta, às oito e meia. Work and study questions: Onde você trabalha? — Na livraria. Você estuda ou trabalha? O que você faz?",
+   "grammar_zh": "日期：日 + de + 月 + de + 年，月份小写：2 de novembro de 2026。每月第一天写 1º（primeiro）：dia 1º de novembro。钟点用 às 表示“在……点”：às três horas、às seis e quarenta、às oito e meia。问工作和学习：Onde você trabalha? — Na livraria. Você estuda ou trabalha? O que você faz?",
+   "grammar_de": "Datum: Tag + de + Monat + de + Jahr, der Monat klein: 2 de novembro de 2026. Der Erste heißt 1º (primeiro): dia 1º de novembro. Bei Uhrzeiten steht às für „um“: às três horas, às seis e quarenta, às oito e meia. Fragen zu Arbeit und Studium: Onde você trabalha? — Na livraria. Você estuda ou trabalha? O que você faz?",
+   "grammar_pt": "Datas: dia + de + mês + de + ano, com o mês em letra minúscula: 2 de novembro de 2026. O primeiro dia do mês é 1º (primeiro): dia 1º de novembro. Para as horas, a gente usa às: às três horas, às seis e quarenta, às oito e meia. Perguntas sobre trabalho e estudos: Onde você trabalha? — Na livraria. Você estuda ou trabalha? O que você faz?",
+   "questions": [
+    "O que a Bia estuda? Onde ela estuda? Quando termina o curso dela?",
+    "Onde você trabalha ou estuda? Há quanto tempo?",
+    "Qual é a data de hoje? A que horas você acorda na segunda-feira?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Um quarto para alugar",
+   "dek": "O Rafael telefona para a Dona Lia. Para quem é o quarto? Quanto custa? Como ele é? E tem bicho em casa?",
+   "paragraphs": [
+    "Dona Lia: Alô? Quem fala?",
+    "Rafael: Boa tarde! Aqui é o Rafael. O quarto ainda está livre?",
+    "Dona Lia: Está, sim! Para quem é o quarto?",
+    "Rafael: É para mim. Quanto custa por mês?",
+    "Dona Lia: Mil e cem reais. Com quem você mora agora?",
+    "Rafael: Com os meus pais, em Santos. Como é o quarto?",
+    "Dona Lia: É pequeno e claro, com uma mesa de estudo. O que você faz?",
+    "Rafael: Sou estudante de engenharia. Quando eu posso ver o quarto?",
+    "Dona Lia: Na quinta-feira, dia 5. Pode ser?",
+    "Rafael: Pode! A que horas?",
+    "Dona Lia: Às seis e meia da tarde. Você não tem cachorro, né?",
+    "Rafael: Não, só um peixe vermelho. Ele é bem quieto!"
+   ],
+   "paragraphs_en": [
+    "Dona Lia: Hello? Who's speaking?",
+    "Rafael: Good afternoon! This is Rafael. Is the room still free?",
+    "Dona Lia: Yes, it is! Who is the room for?",
+    "Rafael: It's for me. How much is it per month?",
+    "Dona Lia: Eleven hundred reais. Who do you live with now?",
+    "Rafael: With my parents, in Santos. What is the room like?",
+    "Dona Lia: It's small and bright, with a study desk. What do you do?",
+    "Rafael: I'm an engineering student. When can I see the room?",
+    "Dona Lia: On Thursday the 5th. Is that OK?",
+    "Rafael: Yes! At what time?",
+    "Dona Lia: At half past six in the evening. You don't have a dog, do you?",
+    "Rafael: No, just a red fish. He's very quiet!"
+   ],
+   "paragraphs_zh": [
+    "莉亚太太：喂？您是哪位？",
+    "拉斐尔：下午好！我是拉斐尔。那个房间还空着吗？",
+    "莉亚太太：还空着！房间是给谁住的？",
+    "拉斐尔：给我自己。一个月多少钱？",
+    "莉亚太太：一千一百雷亚尔。你现在和谁住？",
+    "拉斐尔：和我父母一起，在桑托斯。房间怎么样？",
+    "莉亚太太：不大，很亮，有一张书桌。你是做什么的？",
+    "拉斐尔：我是工程专业的学生。我什么时候可以看房？",
+    "莉亚太太：星期四，5号。可以吗？",
+    "拉斐尔：可以！几点？",
+    "莉亚太太：下午六点半。你没有狗，对吧？",
+    "拉斐尔：没有，只有一条红鱼。它很安静！"
+   ],
+   "paragraphs_de": [
+    "Dona Lia: Hallo? Wer spricht da?",
+    "Rafael: Guten Tag! Hier ist Rafael. Ist das Zimmer noch frei?",
+    "Dona Lia: Ja, das ist es! Für wen ist das Zimmer?",
+    "Rafael: Für mich. Wie viel kostet es im Monat?",
+    "Dona Lia: Elfhundert Reais. Mit wem wohnst du jetzt?",
+    "Rafael: Mit meinen Eltern, in Santos. Wie ist das Zimmer?",
+    "Dona Lia: Klein und hell, mit einem Schreibtisch. Was machst du beruflich?",
+    "Rafael: Ich studiere Ingenieurwesen. Wann kann ich das Zimmer sehen?",
+    "Dona Lia: Am Donnerstag, dem 5. Passt das?",
+    "Rafael: Ja, das passt! Um wie viel Uhr?",
+    "Dona Lia: Um halb sieben abends. Du hast keinen Hund, oder?",
+    "Rafael: Nein, nur einen roten Fisch. Er ist sehr ruhig!"
+   ],
+   "glossary": [
+    {
+     "w": "Quem fala?",
+     "en": "Who's speaking? — the usual question on the phone",
+     "zh": "您是哪位？（电话用语）",
+     "de": "Wer spricht da?",
+     "pt": "pergunta o nome de quem telefona"
+    },
+    {
+     "w": "livre",
+     "en": "free, available — o quarto está livre (not 'free of charge': that is de graça)",
+     "zh": "空着的、自由的",
+     "de": "frei",
+     "pt": "sem ninguém; a gente pode usar"
+    },
+    {
+     "w": "para quem?",
+     "en": "who for? — Para quem é o quarto? — Para mim.",
+     "zh": "给谁？",
+     "de": "für wen?",
+     "pt": "pergunta a pessoa que vai receber ou usar"
+    },
+    {
+     "w": "com quem?",
+     "en": "who with? — Com quem você mora? — Com os meus pais.",
+     "zh": "和谁？",
+     "de": "mit wem?",
+     "pt": "pergunta a pessoa que está junto"
+    },
+    {
+     "w": "como é…?",
+     "en": "what is … like? — Como é o quarto? — É pequeno e claro.",
+     "zh": "……是什么样的？",
+     "de": "wie ist …?",
+     "pt": "pergunta os detalhes de uma coisa ou pessoa"
+    },
+    {
+     "w": "por mês",
+     "en": "per month — Quanto custa por mês?",
+     "zh": "每月",
+     "de": "pro Monat",
+     "pt": "em cada mês"
+    },
+    {
+     "w": "a mesa de estudo",
+     "en": "study desk (noun + de + noun: what kind of table)",
+     "zh": "书桌",
+     "de": "der Schreibtisch",
+     "pt": "mesa para estudar"
+    },
+    {
+     "w": "pode ser?",
+     "en": "is that OK? — Pode! / Pode ser!",
+     "zh": "可以吗？",
+     "de": "Passt das?",
+     "pt": "pergunta se a pessoa concorda"
+    },
+    {
+     "w": "o peixe",
+     "en": "fish (cf. 'Pisces')",
+     "zh": "鱼",
+     "de": "der Fisch",
+     "pt": "animal que mora na água"
+    }
+   ],
+   "grammar": "Prepositions come before quem: Para quem é o quarto? — Para mim. Com quem você mora? — Com os meus pais. Como is \"how\", but como é…? asks what something is like: Como é o quarto? — É pequeno e claro. Adjectives agree with the noun: o quarto pequeno, a casa pequena.",
+   "grammar_zh": "介词放在 quem 前面：Para quem é o quarto? — Para mim.（给谁？）Com quem você mora? — Com os meus pais.（和谁？）Como 是“怎样”，como é…? 问某物是什么样的：Como é o quarto? — É pequeno e claro. 形容词要和名词一致：o quarto pequeno、a casa pequena。",
+   "grammar_de": "Die Präposition steht vor quem: Para quem é o quarto? — Para mim. (für wen?) Com quem você mora? — Com os meus pais. (mit wem?) Como heißt „wie“; como é…? fragt, wie etwas ist: Como é o quarto? — É pequeno e claro. Adjektive richten sich nach dem Nomen: o quarto pequeno, a casa pequena.",
+   "grammar_pt": "A preposição vem antes de quem: Para quem é o quarto? — Para mim. Com quem você mora? — Com os meus pais. Como é…? pergunta os detalhes de uma coisa: Como é o quarto? — É pequeno e claro. O adjetivo concorda com o substantivo: o quarto pequeno, a casa pequena.",
+   "questions": [
+    "Com quem você mora?",
+    "Como é o seu quarto? Ele é grande ou pequeno?",
+    "Quando você estuda português? A que horas?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "brief",
+   "section": "Textinho",
+   "title": "Cem docinhos",
+   "dek": "Hoje à noite, a Marta e a Ana trocam mensagens no WhatsApp. Quem leva o quê?",
+   "paragraphs": [
+    "Marta: Oi, Ana! Onde está a Bia?",
+    "Ana: Aqui em casa, com o Tito.",
+    "Marta: Quem leva os balões amanhã?",
+    "Ana: Eu levo. E você, quantos docinhos tem?",
+    "Marta: Cem! Brigadeiros e docinhos de coco. Também tem suco de maracujá.",
+    "Ana: Cem? A gente é só seis!",
+    "Marta: Seis pessoas e um aniversário! A que horas você chega na livraria?",
+    "Ana: Às quatro e meia, com o bolo de chocolate.",
+    "Marta: E o Lucas? O que ele acha?",
+    "Ana: Ele acha que amanhã é um dia normal. Eu acho!"
+   ],
+   "paragraphs_en": [
+    "Marta: Hi, Ana! Where's Bia?",
+    "Ana: Here at home, with Tito.",
+    "Marta: Who's bringing the balloons tomorrow?",
+    "Ana: I am. And you, how many sweets have you got?",
+    "Marta: A hundred! Brigadeiros and coconut sweets. There's passion-fruit juice too.",
+    "Ana: A hundred? There are only six of us!",
+    "Marta: Six people and one birthday! What time are you getting to the bookshop?",
+    "Ana: At half past four, with the chocolate cake.",
+    "Marta: And Lucas? What does he think?",
+    "Ana: He thinks tomorrow is a normal day. I think!"
+   ],
+   "paragraphs_zh": [
+    "玛尔塔：嗨，安娜！比娅在哪儿？",
+    "安娜：在我家，和蒂托一起。",
+    "玛尔塔：明天谁带气球？",
+    "安娜：我带。你呢，你有多少小甜点？",
+    "玛尔塔：一百个！巧克力球和椰子小甜点。还有百香果汁。",
+    "安娜：一百个？我们只有六个人！",
+    "玛尔塔：六个人和一个生日！你几点到书店？",
+    "安娜：四点半，带着巧克力蛋糕。",
+    "玛尔塔：卢卡斯呢？他怎么想？",
+    "安娜：他以为明天是普通的一天。我觉得是！"
+   ],
+   "paragraphs_de": [
+    "Marta: Hi, Ana! Wo ist Bia?",
+    "Ana: Hier bei mir, mit Tito.",
+    "Marta: Wer bringt morgen die Luftballons mit?",
+    "Ana: Ich. Und du, wie viele Süßigkeiten hast du?",
+    "Marta: Hundert! Brigadeiros und Kokos-Süßigkeiten. Maracujasaft gibt es auch.",
+    "Ana: Hundert? Wir sind nur sechs!",
+    "Marta: Sechs Leute und ein Geburtstag! Um wie viel Uhr kommst du in die Buchhandlung?",
+    "Ana: Um halb fünf, mit dem Schokoladenkuchen.",
+    "Marta: Und Lucas? Was denkt er?",
+    "Ana: Er denkt, dass morgen ein normaler Tag ist. Glaube ich!"
+   ],
+   "glossary": [
+    {
+     "w": "o docinho de coco",
+     "en": "small coconut sweet (noun + de + noun: what kind of sweet)",
+     "zh": "椰子小甜点",
+     "de": "die Kokos-Süßigkeit",
+     "pt": "doce pequeno, feito de coco, para festas"
+    },
+    {
+     "w": "o brigadeiro",
+     "en": "chocolate fudge ball, the classic Brazilian party sweet",
+     "zh": "巴西巧克力球",
+     "de": "der Brigadeiro (Schokoladenkonfekt)",
+     "pt": "docinho de chocolate de festa de aniversário"
+    },
+    {
+     "w": "o suco de maracujá",
+     "en": "passion-fruit juice",
+     "zh": "百香果汁",
+     "de": "der Maracujasaft",
+     "pt": "suco de uma fruta amarela e azeda"
+    },
+    {
+     "w": "quantos? / quantas?",
+     "en": "how many? — it agrees: quantos docinhos, quantas pessoas",
+     "zh": "多少？",
+     "de": "wie viele?",
+     "pt": "pergunta o número de coisas ou pessoas"
+    },
+    {
+     "w": "achar",
+     "en": "to think (in my opinion) — Ele acha que amanhã é um dia normal. Eu acho!",
+     "zh": "认为、觉得",
+     "de": "denken, meinen",
+     "pt": "ter uma opinião"
+    }
+   ],
+   "grammar": "Chat questions are short, and short answers repeat only the verb: Quem leva os balões? — Eu levo. De + noun says what kind: o docinho de coco, o suco de maracujá.",
+   "grammar_zh": "聊天里的问题很短，简短回答只重复动词：Quem leva os balões? — Eu levo. de + 名词说明种类：o docinho de coco、o suco de maracujá。",
+   "grammar_de": "Fragen im Chat sind kurz, und die kurze Antwort wiederholt nur das Verb: Quem leva os balões? — Eu levo. De + Nomen sagt, welche Art: o docinho de coco, o suco de maracujá.",
+   "grammar_pt": "No WhatsApp, as perguntas são curtas, e a resposta curta repete só o verbo: Quem leva os balões? — Eu levo. De + substantivo diz o tipo: o docinho de coco, o suco de maracujá.",
+   "questions": [
+    "Quantos docinhos a Marta tem? Quantas pessoas vão à festa?",
+    "Qual suco você prefere: suco de laranja ou suco de maracujá?"
+   ],
+   "sources": []
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T17:27:30+00:00",
+ "updated": "2026-11-02T18:58:09+00:00",
  "days": [
   {
    "date": "2026-11-02",
@@ -34,6 +34,30 @@
      "title": "Tereré: el mate frío de Paraguay",
      "kind": "feature",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Uma visita secreta",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "pt",
+     "title": "Um quarto para alugar",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "pt",
+     "title": "Cem docinhos",
+     "kind": "brief",
+     "level": "A1",
      "hour": null
     }
    ]
