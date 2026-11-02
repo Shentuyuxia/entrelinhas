@@ -1058,6 +1058,250 @@
         "Quando a feira volta, e a que horas ela abre?"
       ],
       "sources": []
+    },
+    {
+      "lang": "es",
+      "level": "A2",
+      "kind": "dialogue",
+      "section": "Conversación",
+      "title": "¿Dónde queda la Plaza de Armas?",
+      "dek": "Lima, Perú. Sofía busca la Plaza de Armas y le pregunta el camino a un señor en la calle. Después pregunta otra vez, para estar segura.",
+      "paragraphs": [
+        "Sofía: Disculpe, señor, ¿me podría decir dónde queda la Plaza de Armas?",
+        "Señor: Claro. No está lejos. ¿Va a pie?",
+        "Sofía: Sí, a pie. ¿Cuánto tiempo se tarda más o menos?",
+        "Señor: Unos diez minutos. Siga derecho por esta avenida hasta el semáforo.",
+        "Sofía: ¿Hasta el semáforo, y después?",
+        "Señor: Después doble a la izquierda y camine dos cuadras. Va a ver una iglesia grande.",
+        "Sofía: ¿La plaza está al lado de la iglesia?",
+        "Señor: Exacto, la catedral está en la plaza. No tiene pérdida.",
+        "Sofía: Muchísimas gracias. ¡Muy amable!",
+        "Sofía: (diez minutos después) Perdona, ¿esta es la Plaza de Armas?",
+        "Chica: Sí, es esta. ¿Buscas algo en especial?",
+        "Sofía: Sí, un café para descansar un rato. ¿Hay alguno cerca?",
+        "Chica: Hay uno muy bueno en la esquina, frente a la catedral. Cruza la calle y ya está.",
+        "Sofía: ¡Perfecto! Gracias."
+      ],
+      "paragraphs_en": [
+        "Sofía: Excuse me, sir, could you tell me where the Plaza de Armas is?",
+        "Man: Of course. It's not far. Are you on foot?",
+        "Sofía: Yes, on foot. Roughly how long does it take?",
+        "Man: About ten minutes. Go straight along this avenue up to the traffic light.",
+        "Sofía: Up to the traffic light, and then?",
+        "Man: Then turn left and walk two blocks. You'll see a big church.",
+        "Sofía: Is the square next to the church?",
+        "Man: Exactly, the cathedral is on the square. You can't miss it.",
+        "Sofía: Thank you so much. Very kind!",
+        "Sofía: (ten minutes later) Excuse me, is this the Plaza de Armas?",
+        "Girl: Yes, this is it. Are you looking for anything in particular?",
+        "Sofía: Yes, a café to rest for a while. Is there one nearby?",
+        "Girl: There's a really good one on the corner, opposite the cathedral. Cross the street and you're there.",
+        "Sofía: Perfect! Thanks."
+      ],
+      "paragraphs_de": [
+        "Sofía: Entschuldigen Sie, könnten Sie mir sagen, wo die Plaza de Armas ist?",
+        "Herr: Natürlich. Es ist nicht weit. Sind Sie zu Fuß?",
+        "Sofía: Ja, zu Fuß. Wie lange braucht man ungefähr?",
+        "Herr: Etwa zehn Minuten. Gehen Sie diese Avenida geradeaus bis zur Ampel.",
+        "Sofía: Bis zur Ampel, und dann?",
+        "Herr: Dann biegen Sie links ab und gehen zwei Blocks. Sie sehen dann eine große Kirche.",
+        "Sofía: Ist der Platz neben der Kirche?",
+        "Herr: Genau, die Kathedrale steht am Platz. Sie können ihn nicht verfehlen.",
+        "Sofía: Vielen, vielen Dank. Sehr freundlich!",
+        "Sofía: (zehn Minuten später) Entschuldigung, ist das die Plaza de Armas?",
+        "Mädchen: Ja, genau. Suchst du etwas Bestimmtes?",
+        "Sofía: Ja, ein Café, um mich kurz auszuruhen. Gibt es eins in der Nähe?",
+        "Mädchen: An der Ecke, gegenüber der Kathedrale, ist ein sehr gutes. Geh über die Straße, dann bist du da.",
+        "Sofía: Perfekt! Danke."
+      ],
+      "paragraphs_pt": [
+        "Sofía: Com licença, senhor, o senhor poderia me dizer onde fica a Plaza de Armas?",
+        "Senhor: Claro. Não é longe. A senhora vai a pé?",
+        "Sofía: Sim, a pé. Quanto tempo leva, mais ou menos?",
+        "Senhor: Uns dez minutos. Siga reto por esta avenida até o semáforo.",
+        "Sofía: Até o semáforo, e depois?",
+        "Senhor: Depois vire à esquerda e ande dois quarteirões. A senhora vai ver uma igreja grande.",
+        "Sofía: A praça fica do lado da igreja?",
+        "Senhor: Exatamente, a catedral fica na praça. Não tem erro.",
+        "Sofía: Muitíssimo obrigada. Muito gentil!",
+        "Sofía: (dez minutos depois) Desculpa, esta é a Plaza de Armas?",
+        "Moça: É, sim. Está procurando alguma coisa especial?",
+        "Sofía: Sim, um café para descansar um pouco. Tem algum perto?",
+        "Moça: Tem um muito bom na esquina, em frente à catedral. Atravessa a rua e pronto.",
+        "Sofía: Perfeito! Obrigada."
+      ],
+      "glossary": [
+        {
+          "w": "¿Dónde queda…?",
+          "en": "Where is…? (for places; very common in Latin America)",
+          "de": "Wo liegt / wo ist …?",
+          "pt": "Onde fica…?"
+        },
+        {
+          "w": "tardar",
+          "en": "to take (time)",
+          "de": "(Zeit) brauchen, dauern",
+          "pt": "levar (tempo), demorar"
+        },
+        {
+          "w": "seguir derecho",
+          "en": "to go straight on",
+          "de": "geradeaus gehen",
+          "pt": "seguir reto"
+        },
+        {
+          "w": "el semáforo",
+          "en": "traffic light",
+          "de": "die Ampel",
+          "pt": "o semáforo"
+        },
+        {
+          "w": "doblar",
+          "en": "to turn (left/right)",
+          "de": "abbiegen",
+          "pt": "virar, dobrar"
+        },
+        {
+          "w": "la cuadra",
+          "en": "block (of streets) — Latin America; in Spain: la manzana",
+          "de": "der (Häuser-)Block",
+          "pt": "o quarteirão"
+        },
+        {
+          "w": "No tiene pérdida.",
+          "en": "You can't miss it.",
+          "de": "Sie können es nicht verfehlen.",
+          "pt": "Não tem erro."
+        },
+        {
+          "w": "cruzar",
+          "en": "to cross",
+          "de": "überqueren",
+          "pt": "atravessar, cruzar"
+        }
+      ],
+      "grammar": "Giving directions with the imperative. With usted: siga, doble, camine, cruce (formed from the yo form: sigo → siga, doblo → doble). With tú: sigue, dobla, camina, cruza. Listen to which form people use: the man says “doble a la izquierda” (usted), the girl says “cruza la calle” (tú).",
+      "grammar_de": "Wegbeschreibungen mit dem Imperativ. Mit usted: siga, doble, camine, cruce (gebildet aus der yo-Form: sigo → siga, doblo → doble). Mit tú: sigue, dobla, camina, cruza. Achte darauf, welche Form jemand benutzt: Der Herr sagt „doble a la izquierda“ (usted), das Mädchen sagt „cruza la calle“ (tú).",
+      "grammar_pt": "Indicar o caminho com o imperativo. Com usted: siga, doble, camine, cruce (formados a partir da forma yo: sigo → siga, doblo → doble). Com tú: sigue, dobla, camina, cruza. É bem parecido com o português: “siga reto”, “vire à esquerda”. Atenção ao falso amigo: “doblar” em espanhol é virar numa rua; no português do dia a dia usamos “virar”.",
+      "questions": [
+        "¿Cuánto tiempo tarda Sofía a pie?",
+        "¿Qué hay en la Plaza de Armas?",
+        "¿Y tú? Explica cómo se llega de tu casa a la panadería más cercana."
+      ],
+      "sources": []
+    },
+    {
+      "lang": "es",
+      "level": "B1",
+      "kind": "feature",
+      "section": "Mujeres y feminismo",
+      "title": "Ni Una Menos: tres palabras que recorrieron el continente",
+      "dek": "En 2015, un mensaje en las redes sociales llevó a miles de personas a las calles de Buenos Aires. Así nació un movimiento que hoy se conoce en toda América Latina.",
+      "paragraphs": [
+        "En mayo de 2015, una noticia conmovió a Argentina: Chiara Páez, una chica de catorce años, había sido asesinada por su novio. No era el primer caso. Los periódicos hablaban casi cada semana de mujeres asesinadas por sus parejas o exparejas. Para estos crímenes existe una palabra en español: feminicidio (en Argentina se dice también femicidio).",
+        "El 11 de mayo, la periodista de radio Marcela Ojeda escribió un mensaje en Twitter. Preguntaba, con mucha rabia, si las mujeres no iban a levantar la voz, porque las estaban matando. Otras periodistas, escritoras y activistas respondieron enseguida. En pocos días organizaron una marcha con un lema muy corto: “Ni una menos”.",
+        "La primera marcha fue el 3 de junio de 2015, frente al Congreso, en Buenos Aires. Según los organizadores y la prensa, fueron unas doscientas mil personas, y miles más salieron a la calle en otras ciudades del país. Había mujeres y hombres, abuelas, estudiantes, familias enteras. Muchas personas llevaban carteles con el nombre de una víctima.",
+        "El lema no era nuevo. Se atribuye a la poeta mexicana Susana Chávez, que escribía sobre los asesinatos de mujeres en Ciudad Juárez, en el norte de México. Ella misma fue asesinada en 2011. Con la marcha de 2015, sus palabras cruzaron fronteras: el movimiento llegó a otros países de América Latina y después también a Europa y Asia, dos años antes de que el #MeToo se hiciera viral en Estados Unidos.",
+        "Desde entonces, cada 3 de junio hay marchas en muchas ciudades. El movimiento habla de violencia, pero también de trabajo, de educación y de igualdad en la vida diaria. Dato curioso: en español, “ni uno” o “ni una” significa “ni siquiera uno”. Por eso el lema es tan fuerte: no se acepta perder ni a una sola mujer más."
+      ],
+      "paragraphs_en": [
+        "In May 2015, a piece of news shook Argentina: Chiara Páez, a fourteen-year-old girl, had been murdered by her boyfriend. It wasn't the first case. Almost every week the papers reported women killed by their partners or ex-partners. Spanish has a word for these crimes: feminicidio (in Argentina also femicidio).",
+        "On 11 May, radio journalist Marcela Ojeda posted a message on Twitter. Full of anger, she asked whether women were not going to raise their voices, because they were being killed. Other journalists, writers and activists responded at once. Within a few days they organised a march with a very short slogan: “Ni una menos” — “Not one less”.",
+        "The first march took place on 3 June 2015, in front of Congress in Buenos Aires. According to the organisers and the press, around two hundred thousand people came, and thousands more took to the streets in other cities across the country. There were women and men, grandmothers, students, whole families. Many people carried signs with a victim's name.",
+        "The slogan wasn't new. It is attributed to the Mexican poet Susana Chávez, who wrote about the murders of women in Ciudad Juárez, in northern Mexico. She herself was murdered in 2011. With the 2015 march her words crossed borders: the movement reached other Latin American countries and later Europe and Asia too, two years before #MeToo went viral in the United States.",
+        "Since then, there have been marches in many cities every 3 June. The movement talks about violence, but also about work, education and equality in everyday life. Fun fact: in Spanish, “ni uno” or “ni una” means “not even one”. That's why the slogan is so strong: losing even one more woman is not accepted."
+      ],
+      "paragraphs_de": [
+        "Im Mai 2015 erschütterte eine Nachricht Argentinien: Chiara Páez, ein vierzehnjähriges Mädchen, war von ihrem Freund ermordet worden. Es war nicht der erste Fall. Fast jede Woche berichteten die Zeitungen über Frauen, die von ihren Partnern oder Ex-Partnern getötet wurden. Für diese Verbrechen gibt es im Spanischen ein Wort: feminicidio (in Argentinien auch femicidio).",
+        "Am 11. Mai schrieb die Radiojournalistin Marcela Ojeda eine Nachricht auf Twitter. Voller Wut fragte sie, ob die Frauen denn nicht ihre Stimme erheben würden – man bringe sie schließlich um. Andere Journalistinnen, Schriftstellerinnen und Aktivistinnen antworteten sofort. Innerhalb weniger Tage organisierten sie einen Marsch mit einem ganz kurzen Motto: „Ni una menos“ – „Nicht eine weniger“.",
+        "Der erste Marsch fand am 3. Juni 2015 vor dem Kongress in Buenos Aires statt. Laut den Veranstalterinnen und der Presse kamen rund zweihunderttausend Menschen, und Tausende weitere gingen in anderen Städten des Landes auf die Straße. Es waren Frauen und Männer da, Großmütter, Studierende, ganze Familien. Viele trugen Schilder mit dem Namen eines Opfers.",
+        "Das Motto war nicht neu. Es wird der mexikanischen Dichterin Susana Chávez zugeschrieben, die über die Morde an Frauen in Ciudad Juárez im Norden Mexikos schrieb. Sie selbst wurde 2011 ermordet. Mit dem Marsch von 2015 überquerten ihre Worte Grenzen: Die Bewegung erreichte andere Länder Lateinamerikas und später auch Europa und Asien – zwei Jahre bevor #MeToo in den USA viral ging.",
+        "Seitdem gibt es jedes Jahr am 3. Juni Märsche in vielen Städten. Die Bewegung spricht über Gewalt, aber auch über Arbeit, Bildung und Gleichberechtigung im Alltag. Kleine Kuriosität: „Ni uno“ oder „ni una“ bedeutet auf Spanisch „nicht einmal eine(n)“. Deshalb ist das Motto so stark: Nicht eine einzige Frau mehr zu verlieren, das ist die Forderung."
+      ],
+      "paragraphs_pt": [
+        "Em maio de 2015, uma notícia comoveu a Argentina: Chiara Páez, uma menina de catorze anos, tinha sido assassinada pelo namorado. Não era o primeiro caso. Quase toda semana os jornais falavam de mulheres mortas por seus parceiros ou ex-parceiros. Para esses crimes existe uma palavra em espanhol: feminicidio (na Argentina também se diz femicidio) – em português, feminicídio.",
+        "No dia 11 de maio, a jornalista de rádio Marcela Ojeda escreveu uma mensagem no Twitter. Com muita raiva, perguntava se as mulheres não iam levantar a voz, já que estavam sendo mortas. Outras jornalistas, escritoras e ativistas responderam na hora. Em poucos dias organizaram uma marcha com um lema bem curto: “Ni una menos” – “Nem uma a menos”.",
+        "A primeira marcha foi em 3 de junho de 2015, em frente ao Congresso, em Buenos Aires. Segundo as organizadoras e a imprensa, foram umas duzentas mil pessoas, e milhares de outras saíram às ruas em outras cidades do país. Havia mulheres e homens, avós, estudantes, famílias inteiras. Muita gente levava cartazes com o nome de uma vítima.",
+        "O lema não era novo. Ele é atribuído à poeta mexicana Susana Chávez, que escrevia sobre os assassinatos de mulheres em Ciudad Juárez, no norte do México. Ela mesma foi assassinada em 2011. Com a marcha de 2015, suas palavras atravessaram fronteiras: o movimento chegou a outros países da América Latina e depois também à Europa e à Ásia, dois anos antes de o #MeToo viralizar nos Estados Unidos.",
+        "Desde então, todo 3 de junho há marchas em muitas cidades. O movimento fala de violência, mas também de trabalho, de educação e de igualdade no dia a dia. Curiosidade: em espanhol, “ni uno” ou “ni una” quer dizer “nem sequer um(a)”. Por isso o lema é tão forte: não se aceita perder nem mais uma mulher."
+      ],
+      "glossary": [
+        {
+          "w": "conmover",
+          "en": "to move, to shake (emotionally)",
+          "de": "erschüttern, bewegen",
+          "pt": "comover"
+        },
+        {
+          "w": "la pareja",
+          "en": "partner (in a couple); also 'couple'",
+          "de": "der/die Partner(in); das Paar",
+          "pt": "o(a) parceiro(a), o casal"
+        },
+        {
+          "w": "el feminicidio",
+          "en": "femicide, the killing of a woman because she is a woman",
+          "de": "der Femizid",
+          "pt": "o feminicídio"
+        },
+        {
+          "w": "la rabia",
+          "en": "anger, rage",
+          "de": "die Wut",
+          "pt": "a raiva"
+        },
+        {
+          "w": "levantar la voz",
+          "en": "to raise one's voice, to speak out",
+          "de": "die Stimme erheben",
+          "pt": "levantar a voz"
+        },
+        {
+          "w": "enseguida",
+          "en": "at once, right away",
+          "de": "sofort",
+          "pt": "na hora, logo"
+        },
+        {
+          "w": "el lema",
+          "en": "slogan, motto",
+          "de": "das Motto, der Slogan",
+          "pt": "o lema"
+        },
+        {
+          "w": "el cartel",
+          "en": "sign, poster, placard",
+          "de": "das Schild, das Plakat",
+          "pt": "o cartaz"
+        },
+        {
+          "w": "atribuir",
+          "en": "to attribute",
+          "de": "zuschreiben",
+          "pt": "atribuir"
+        },
+        {
+          "w": "la frontera",
+          "en": "border",
+          "de": "die Grenze",
+          "pt": "a fronteira"
+        }
+      ],
+      "grammar": "Pretérito vs. imperfecto. The pretérito tells single, finished events that move the story forward: “Marcela Ojeda escribió un mensaje”, “La primera marcha fue el 3 de junio”. The imperfecto describes the background — what was going on, what things were like: “Los periódicos hablaban casi cada semana…”, “Había mujeres y hombres…”, “Muchas personas llevaban carteles.” A good test: if you can add “una vez” (once), use pretérito; if you can add “siempre / mientras” (always / while), use imperfecto.",
+      "grammar_de": "Pretérito oder imperfecto? Das pretérito erzählt einzelne, abgeschlossene Ereignisse, die die Geschichte voranbringen: „Marcela Ojeda escribió un mensaje“, „La primera marcha fue el 3 de junio“. Das imperfecto beschreibt den Hintergrund – was gerade los war, wie etwas war: „Los periódicos hablaban casi cada semana…“, „Había mujeres y hombres…“, „Muchas personas llevaban carteles.“ Ein guter Test: Passt „una vez“ (einmal), nimm das pretérito; passt „siempre / mientras“ (immer / während), nimm das imperfecto.",
+      "grammar_pt": "Pretérito ou imperfecto? Aqui o português ajuda muito: o pretérito espanhol corresponde ao nosso pretérito perfeito (“escribió” = escreveu, “fue” = foi), para fatos únicos e terminados. O imperfecto corresponde ao nosso pretérito imperfeito (“hablaban” = falavam, “había” = havia, “llevaban” = levavam), para o cenário e o que acontecia. Uma diferença: “había sido asesinada” é o mais-que-perfeito composto, como o nosso “tinha sido assassinada”.",
+      "questions": [
+        "¿Quién escribió el primer mensaje y qué preguntaba?",
+        "¿Por qué el lema “Ni una menos” es tan fuerte?",
+        "¿Hay en tu país un movimiento o una fecha parecida? ¿Qué sabes de él?"
+      ],
+      "sources": [
+        {
+          "title": "Buenos Aires Herald — Ten years of Ni Una Menos: How one tweet led to a global phenomenon",
+          "url": "https://buenosairesherald.com/society/ten-years-of-ni-una-menos-how-one-tweet-led-to-a-global-phenomenon",
+          "license": "link only"
+        }
+      ]
     }
   ]
 }

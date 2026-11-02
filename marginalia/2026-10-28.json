@@ -1283,6 +1283,250 @@
     "Você já teve vergonha de alguma comida ou costume da sua família e depois passou a ter orgulho dele? Conte como foi."
    ],
    "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "Mucho gusto: un intercambio en Bogotá",
+   "dek": "Bogotá, Colombia. En un intercambio de idiomas, Julia conoce a Andrés. Hablan de dónde son, qué hacen y qué les gusta.",
+   "paragraphs": [
+    "Andrés: Hola, ¿qué tal? Me llamo Andrés. ¿Y tú?",
+    "Julia: Hola, yo soy Julia. Mucho gusto.",
+    "Andrés: Igualmente. ¿De dónde eres, Julia?",
+    "Julia: Soy de Alemania, de Hamburgo. ¿Y tú? ¿Eres de Bogotá?",
+    "Andrés: No, soy de Medellín, pero vivo aquí. ¿A qué te dedicas?",
+    "Julia: Soy enfermera. Y tú, ¿qué haces?",
+    "Andrés: Soy profesor de música. Enseño guitarra.",
+    "Julia: ¡Qué chévere! Me gusta mucho la música colombiana.",
+    "Andrés: ¿Sí? ¿Qué te gusta?",
+    "Julia: Me gusta la cumbia. Y me gusta bailar.",
+    "Andrés: Los viernes hay clase de baile aquí cerca. ¿Quieres venir?",
+    "Julia: ¡Sí, claro! ¿A qué hora es?",
+    "Andrés: A las siete de la noche. Te mando la dirección por WhatsApp.",
+    "Julia: ¡Perfecto! Hasta el viernes."
+   ],
+   "paragraphs_en": [
+    "Andrés: Hi, how's it going? My name is Andrés. And you?",
+    "Julia: Hi, I'm Julia. Nice to meet you.",
+    "Andrés: Likewise. Where are you from, Julia?",
+    "Julia: I'm from Germany, from Hamburg. And you? Are you from Bogotá?",
+    "Andrés: No, I'm from Medellín, but I live here. What do you do?",
+    "Julia: I'm a nurse. And you, what do you do?",
+    "Andrés: I'm a music teacher. I teach guitar.",
+    "Julia: How cool! I really like Colombian music.",
+    "Andrés: Really? What do you like?",
+    "Julia: I like cumbia. And I like dancing.",
+    "Andrés: On Fridays there's a dance class near here. Do you want to come?",
+    "Julia: Yes, sure! What time is it?",
+    "Andrés: At seven in the evening. I'll send you the address on WhatsApp.",
+    "Julia: Perfect! See you on Friday."
+   ],
+   "paragraphs_de": [
+    "Andrés: Hallo, wie geht's? Ich heiße Andrés. Und du?",
+    "Julia: Hallo, ich bin Julia. Freut mich.",
+    "Andrés: Mich auch. Woher kommst du, Julia?",
+    "Julia: Ich komme aus Deutschland, aus Hamburg. Und du? Bist du aus Bogotá?",
+    "Andrés: Nein, ich komme aus Medellín, aber ich wohne hier. Was machst du beruflich?",
+    "Julia: Ich bin Krankenpflegerin. Und du, was machst du?",
+    "Andrés: Ich bin Musiklehrer. Ich unterrichte Gitarre.",
+    "Julia: Wie cool! Ich mag kolumbianische Musik sehr.",
+    "Andrés: Echt? Was gefällt dir?",
+    "Julia: Ich mag Cumbia. Und ich tanze gern.",
+    "Andrés: Freitags gibt es hier in der Nähe einen Tanzkurs. Willst du mitkommen?",
+    "Julia: Ja, klar! Um wie viel Uhr ist der?",
+    "Andrés: Um sieben Uhr abends. Ich schicke dir die Adresse per WhatsApp.",
+    "Julia: Perfekt! Bis Freitag."
+   ],
+   "paragraphs_pt": [
+    "Andrés: Oi, tudo bem? Meu nome é Andrés. E você?",
+    "Julia: Oi, eu sou a Julia. Muito prazer.",
+    "Andrés: Igualmente. De onde você é, Julia?",
+    "Julia: Sou da Alemanha, de Hamburgo. E você? É de Bogotá?",
+    "Andrés: Não, sou de Medellín, mas moro aqui. Você trabalha com o quê?",
+    "Julia: Sou enfermeira. E você, o que você faz?",
+    "Andrés: Sou professor de música. Dou aula de violão.",
+    "Julia: Que legal! Gosto muito de música colombiana.",
+    "Andrés: É mesmo? Do que você gosta?",
+    "Julia: Gosto de cumbia. E gosto de dançar.",
+    "Andrés: Às sextas tem aula de dança aqui perto. Quer vir?",
+    "Julia: Quero, claro! Que horas é?",
+    "Andrés: Às sete da noite. Te mando o endereço pelo WhatsApp.",
+    "Julia: Perfeito! Até sexta."
+   ],
+   "glossary": [
+    {
+     "w": "Mucho gusto.",
+     "en": "Nice to meet you.",
+     "de": "Freut mich.",
+     "pt": "Muito prazer."
+    },
+    {
+     "w": "Igualmente.",
+     "en": "Likewise.",
+     "de": "Gleichfalls. / Mich auch.",
+     "pt": "Igualmente."
+    },
+    {
+     "w": "¿A qué te dedicas?",
+     "en": "What do you do (for a living)?",
+     "de": "Was machst du beruflich?",
+     "pt": "Você trabalha com o quê?"
+    },
+    {
+     "w": "el / la enfermero/a",
+     "en": "nurse",
+     "de": "der Krankenpfleger / die Krankenpflegerin",
+     "pt": "o(a) enfermeiro(a)"
+    },
+    {
+     "w": "enseñar",
+     "en": "to teach",
+     "de": "unterrichten, beibringen",
+     "pt": "ensinar"
+    },
+    {
+     "w": "¡Qué chévere!",
+     "en": "How cool! (Colombia, Venezuela, Peru, Caribbean)",
+     "de": "Wie cool!",
+     "pt": "Que legal!"
+    },
+    {
+     "w": "me gusta",
+     "en": "I like (literally: it pleases me)",
+     "de": "ich mag, mir gefällt",
+     "pt": "eu gosto (de)"
+    },
+    {
+     "w": "la dirección",
+     "en": "address; also 'direction'",
+     "de": "die Adresse; die Richtung",
+     "pt": "o endereço; a direção"
+    }
+   ],
+   "grammar": "Ser for who you are: origin (“Soy de Alemania”), profession (“Soy enfermera” — no article!), and name (“Yo soy Julia”). For the city you live in, use vivir: “Vivo en Bogotá”. And gustar works backwards: “Me gusta la cumbia” = cumbia pleases me. With a verb it stays singular: “Me gusta bailar.”",
+   "grammar_de": "Ser für das, was man ist: Herkunft („Soy de Alemania“), Beruf („Soy enfermera“ – ohne Artikel, wie im Deutschen!) und Name („Yo soy Julia“). Für den Wohnort nimmt man vivir: „Vivo en Bogotá“. Und gustar funktioniert „rückwärts“, wie „gefallen“: „Me gusta la cumbia“ = Cumbia gefällt mir. Mit einem Verb bleibt es Singular: „Me gusta bailar.“",
+   "grammar_pt": "Ser para quem você é: origem (“Soy de Alemania”), profissão (“Soy enfermera” – sem artigo, como em português) e nome (“Yo soy Julia”). Atenção ao gustar, que funciona ao contrário do português: em vez de “eu gosto DE cumbia”, o espanhol diz “me gusta la cumbia” (a cumbia me agrada), sem preposição. Com verbo: “Me gusta bailar” (gosto de dançar).",
+   "questions": [
+    "¿De dónde es Andrés y dónde vive?",
+    "¿Qué le gusta a Julia?",
+    "¿Y tú? ¿A qué te dedicas y qué música te gusta?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Cultura",
+   "title": "Día de Muertos: una fiesta para los que vuelven",
+   "dek": "A principios de noviembre, muchas familias mexicanas preparan un altar con flores, velas y comida. No es un día triste: es una visita.",
+   "paragraphs": [
+    "En México, a finales de octubre, los mercados cambian de color. Hay montañas de flores anaranjadas, panes redondos con figuras de huesos y calaveras de azúcar con nombres escritos en la frente. Se acerca el Día de Muertos, que se celebra sobre todo el 1 y el 2 de noviembre. Según la tradición, el 1 de noviembre se recuerda a los niños que murieron y el 2 de noviembre a los adultos.",
+    "La idea central es sencilla y bonita: durante esos días, las almas de los muertos vuelven por un rato para visitar a su familia. Para recibirlas, muchas familias preparan en casa una ofrenda, es decir, un altar. En la ofrenda ponen fotos de las personas queridas, velas, flores de cempasúchil y la comida y la bebida que más les gustaban: mole, tamales, un café, una cerveza o unos dulces.",
+    "El cempasúchil, una flor de color naranja intenso, tiene un papel especial. Con sus pétalos se hacen caminos desde la puerta o desde el cementerio hasta el altar, para que las almas encuentren la casa. También se pone pan de muerto, un pan dulce con forma redonda y decorado con “huesitos” de masa. En muchos pueblos, las familias pasan la noche en el cementerio, junto a las tumbas, con música, velas y comida.",
+    "Uno de los símbolos más conocidos es La Catrina, un esqueleto de mujer elegante con un gran sombrero. La creó el grabador José Guadalupe Posada a principios del siglo XX para burlarse de las personas que querían parecer europeas y olvidaban sus raíces. Años después, el pintor Diego Rivera la pintó de cuerpo entero en un famoso mural, y así se convirtió en un emblema nacional.",
+    "En 2008, la UNESCO incluyó esta fiesta indígena dedicada a los muertos en su lista del Patrimonio Cultural Inmaterial de la Humanidad. Para muchas personas, el Día de Muertos enseña algo importante: la muerte forma parte de la vida, y recordar a alguien con alegría es una forma de mantenerlo cerca. Dato curioso: en estas fechas se escriben “calaveritas literarias”, poemas cortos y graciosos en los que la muerte “se lleva” a amigos, profesores o políticos que todavía están vivos."
+   ],
+   "paragraphs_en": [
+    "In Mexico, at the end of October, the markets change colour. There are mountains of orange flowers, round loaves with bone shapes on top and sugar skulls with names written on the forehead. The Day of the Dead is approaching, celebrated mainly on 1 and 2 November. According to tradition, 1 November is for remembering children who died and 2 November for adults.",
+    "The central idea is simple and beautiful: during those days the souls of the dead come back for a while to visit their family. To welcome them, many families prepare an ofrenda at home, that is, an altar. On it they place photos of their loved ones, candles, cempasúchil flowers and the food and drink they liked best: mole, tamales, a coffee, a beer or some sweets.",
+    "Cempasúchil, a bright orange marigold, plays a special role. Its petals are used to make paths from the door or from the cemetery to the altar, so that the souls can find the house. There's also pan de muerto, a round sweet bread decorated with little dough “bones”. In many villages families spend the night in the cemetery, beside the graves, with music, candles and food.",
+    "One of the best-known symbols is La Catrina, the skeleton of an elegant woman wearing a large hat. The engraver José Guadalupe Posada created her in the early 20th century to make fun of people who wanted to look European and forgot their roots. Years later the painter Diego Rivera painted her full-length in a famous mural, and so she became a national emblem.",
+    "In 2008 UNESCO added this indigenous festivity dedicated to the dead to its list of the Intangible Cultural Heritage of Humanity. For many people the Day of the Dead teaches something important: death is part of life, and remembering someone with joy is a way of keeping them close. Fun fact: at this time of year people write “calaveritas literarias”, short funny poems in which Death “takes away” friends, teachers or politicians who are still alive."
+   ],
+   "paragraphs_de": [
+    "In Mexiko ändern die Märkte Ende Oktober ihre Farbe. Es gibt Berge von orangefarbenen Blumen, runde Brote mit Knochenformen obendrauf und Zuckerschädel mit Namen auf der Stirn. Der Tag der Toten steht bevor, der vor allem am 1. und 2. November gefeiert wird. Nach der Tradition erinnert man am 1. November an verstorbene Kinder und am 2. November an Erwachsene.",
+    "Die Grundidee ist einfach und schön: In diesen Tagen kehren die Seelen der Toten für eine Weile zurück, um ihre Familie zu besuchen. Um sie zu empfangen, bereiten viele Familien zu Hause eine Ofrenda vor, also einen Altar. Darauf stellen sie Fotos der Verstorbenen, Kerzen, Cempasúchil-Blumen und das Essen und Trinken, das sie am liebsten mochten: Mole, Tamales, einen Kaffee, ein Bier oder Süßigkeiten.",
+    "Cempasúchil, eine leuchtend orangefarbene Studentenblume, spielt eine besondere Rolle. Aus ihren Blütenblättern legt man Wege von der Tür oder vom Friedhof bis zum Altar, damit die Seelen das Haus finden. Dazu gehört auch das Pan de muerto, ein rundes süßes Brot, verziert mit kleinen „Knochen“ aus Teig. In vielen Dörfern verbringen die Familien die Nacht auf dem Friedhof, neben den Gräbern, mit Musik, Kerzen und Essen.",
+    "Eines der bekanntesten Symbole ist La Catrina, das Skelett einer eleganten Frau mit großem Hut. Der Grafiker José Guadalupe Posada schuf sie Anfang des 20. Jahrhunderts, um sich über Menschen lustig zu machen, die europäisch wirken wollten und ihre Wurzeln vergaßen. Jahre später malte der Maler Diego Rivera sie in voller Größe auf ein berühmtes Wandbild, und so wurde sie zu einem nationalen Symbol.",
+    "2008 nahm die UNESCO dieses indigene Fest der Toten in ihre Liste des immateriellen Kulturerbes der Menschheit auf. Für viele Menschen lehrt der Día de Muertos etwas Wichtiges: Der Tod gehört zum Leben, und sich mit Freude an jemanden zu erinnern, ist eine Art, ihn nah bei sich zu behalten. Kleine Kuriosität: In dieser Zeit schreibt man „calaveritas literarias“, kurze witzige Gedichte, in denen der Tod Freunde, Lehrer oder Politiker „mitnimmt“, die noch quicklebendig sind."
+   ],
+   "paragraphs_pt": [
+    "No México, no fim de outubro, os mercados mudam de cor. Há montanhas de flores laranja, pães redondos com formas de ossos e caveirinhas de açúcar com nomes escritos na testa. Está chegando o Dia de Muertos, celebrado sobretudo nos dias 1º e 2 de novembro. Pela tradição, no dia 1º se lembra das crianças que morreram e no dia 2, dos adultos.",
+    "A ideia central é simples e bonita: nesses dias, as almas dos mortos voltam por um tempo para visitar a família. Para recebê-las, muitas famílias preparam em casa uma oferenda, ou seja, um altar. Nele colocam fotos das pessoas queridas, velas, flores de cempasúchil e a comida e a bebida de que elas mais gostavam: mole, tamales, um café, uma cerveja ou uns doces.",
+    "O cempasúchil, uma flor de um laranja bem forte (parente do nosso cravo-de-defunto), tem um papel especial. Com as pétalas se fazem caminhos da porta ou do cemitério até o altar, para que as almas encontrem a casa. Também se coloca o pan de muerto, um pão doce redondo decorado com “ossinhos” de massa. Em muitos povoados, as famílias passam a noite no cemitério, junto aos túmulos, com música, velas e comida.",
+    "Um dos símbolos mais conhecidos é La Catrina, o esqueleto de uma mulher elegante com um grande chapéu. Quem a criou foi o gravurista José Guadalupe Posada, no começo do século XX, para zombar das pessoas que queriam parecer europeias e esqueciam suas raízes. Anos depois, o pintor Diego Rivera a pintou de corpo inteiro num mural famoso, e assim ela virou um emblema nacional.",
+    "Em 2008, a UNESCO incluiu essa festa indígena dedicada aos mortos na lista do Patrimônio Cultural Imaterial da Humanidade. Para muita gente, o Dia de Muertos ensina algo importante: a morte faz parte da vida, e lembrar de alguém com alegria é uma forma de mantê-lo por perto. Curiosidade: nessa época se escrevem “calaveritas literarias”, poemas curtos e engraçados em que a morte “leva” amigos, professores ou políticos que ainda estão bem vivos."
+   ],
+   "glossary": [
+    {
+     "w": "la calavera",
+     "en": "skull",
+     "de": "der Schädel, der Totenkopf",
+     "pt": "a caveira"
+    },
+    {
+     "w": "el hueso",
+     "en": "bone",
+     "de": "der Knochen",
+     "pt": "o osso"
+    },
+    {
+     "w": "acercarse",
+     "en": "to approach, to come near",
+     "de": "sich nähern, bevorstehen",
+     "pt": "aproximar-se, estar chegando"
+    },
+    {
+     "w": "el alma",
+     "en": "soul (feminine, but: el alma, las almas)",
+     "de": "die Seele",
+     "pt": "a alma"
+    },
+    {
+     "w": "la ofrenda",
+     "en": "offering; the home altar for the dead",
+     "de": "die Opfergabe; der Totenaltar",
+     "pt": "a oferenda"
+    },
+    {
+     "w": "la vela",
+     "en": "candle",
+     "de": "die Kerze",
+     "pt": "a vela"
+    },
+    {
+     "w": "el pétalo",
+     "en": "petal",
+     "de": "das Blütenblatt",
+     "pt": "a pétala"
+    },
+    {
+     "w": "la tumba",
+     "en": "grave, tomb",
+     "de": "das Grab",
+     "pt": "o túmulo"
+    },
+    {
+     "w": "burlarse de",
+     "en": "to make fun of",
+     "de": "sich lustig machen über",
+     "pt": "zombar de, tirar sarro de"
+    },
+    {
+     "w": "las raíces",
+     "en": "roots",
+     "de": "die Wurzeln",
+     "pt": "as raízes"
+    }
+   ],
+   "grammar": "Por or para? Para points to a goal or purpose: “Para recibirlas, preparan una ofrenda” (in order to welcome them), “para que las almas encuentren la casa” (so that the souls find the house — note the subjunctive after para que). Por gives a cause or a vague time/place: “vuelven por un rato” (for a while), “se celebra por todo el país” (all over the country).",
+   "grammar_de": "Por oder para? Para zeigt auf ein Ziel oder einen Zweck: „Para recibirlas, preparan una ofrenda“ (um sie zu empfangen), „para que las almas encuentren la casa“ (damit die Seelen das Haus finden – nach para que folgt der Subjuntivo). Por nennt einen Grund oder eine ungefähre Zeit bzw. einen Ort: „vuelven por un rato“ (für eine Weile), „se celebra por todo el país“ (im ganzen Land).",
+   "grammar_pt": "Por ou para? Em espanhol os dois existem como em português, mas o uso não é idêntico. Para indica finalidade: “Para recibirlas” (para recebê-las), “para que las almas encuentren la casa” (para que as almas encontrem a casa – com subjuntivo, igual ao português). Por indica causa ou tempo/lugar aproximado: “vuelven por un rato” (por um tempo). Atenção: o espanhol não tem contrações como “pelo/pela”; diz-se “por el país”, “por la calle”.",
+   "questions": [
+    "¿Qué se pone en una ofrenda y para qué sirven los pétalos de cempasúchil?",
+    "¿Por qué creó Posada a La Catrina?",
+    "¿Cómo se recuerda a los muertos en tu familia o en tu país? ¿Te gusta la idea mexicana?"
+   ],
+   "sources": [
+    {
+     "title": "UNESCO — Indigenous festivity dedicated to the dead (Mexico)",
+     "url": "https://ich.unesco.org/en/RL/00054",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

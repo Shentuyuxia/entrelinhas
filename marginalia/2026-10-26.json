@@ -724,6 +724,234 @@
     "Quando começa o curso, e a que horas é a aula?"
    ],
    "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "Un café en Coyoacán",
+   "dek": "Ciudad de México. Lena está en una cafetería y habla con el mesero y con una señora en la mesa de al lado.",
+   "paragraphs": [
+    "Mesero: ¡Buenos días! ¿Qué le sirvo?",
+    "Lena: Buenos días. Un café con leche, por favor.",
+    "Mesero: ¿Grande o chico?",
+    "Lena: Grande, por favor. ¿Tienen pan dulce?",
+    "Mesero: Sí, tenemos conchas. Son muy ricas.",
+    "Lena: Perfecto, una concha. ¿Cuánto es?",
+    "Mesero: Son ochenta pesos.",
+    "Señora: Perdón, ¿eres de aquí?",
+    "Lena: No, soy de Alemania. Vivo en Hannover.",
+    "Señora: ¡Qué bien! Hablas muy bien español.",
+    "Lena: ¡Gracias! Hablo un poquito. Estoy aprendiendo.",
+    "Señora: Las conchas de aquí son las mejores. ¡Buen provecho!",
+    "Lena: ¡Muchas gracias! Muy amable."
+   ],
+   "paragraphs_en": [
+    "Waiter: Good morning! What can I get you?",
+    "Lena: Good morning. A coffee with milk, please.",
+    "Waiter: Large or small?",
+    "Lena: Large, please. Do you have sweet bread?",
+    "Waiter: Yes, we have conchas. They're very good.",
+    "Lena: Perfect, one concha. How much is it?",
+    "Waiter: That's eighty pesos.",
+    "Lady: Excuse me, are you from here?",
+    "Lena: No, I'm from Germany. I live in Hanover.",
+    "Lady: How nice! You speak Spanish very well.",
+    "Lena: Thank you! I speak a little bit. I'm learning.",
+    "Lady: The conchas here are the best. Enjoy your meal!",
+    "Lena: Thank you very much! That's very kind."
+   ],
+   "paragraphs_de": [
+    "Kellner: Guten Morgen! Was darf ich Ihnen bringen?",
+    "Lena: Guten Morgen. Einen Milchkaffee, bitte.",
+    "Kellner: Groß oder klein?",
+    "Lena: Groß, bitte. Haben Sie süßes Gebäck?",
+    "Kellner: Ja, wir haben Conchas. Die sind sehr lecker.",
+    "Lena: Perfekt, eine Concha. Was macht das?",
+    "Kellner: Das sind achtzig Pesos.",
+    "Dame: Entschuldigung, bist du von hier?",
+    "Lena: Nein, ich komme aus Deutschland. Ich wohne in Hannover.",
+    "Dame: Wie schön! Du sprichst sehr gut Spanisch.",
+    "Lena: Danke! Ich spreche ein bisschen. Ich lerne noch.",
+    "Dame: Die Conchas hier sind die besten. Guten Appetit!",
+    "Lena: Vielen Dank! Sehr freundlich."
+   ],
+   "paragraphs_pt": [
+    "Garçom: Bom dia! O que vai ser?",
+    "Lena: Bom dia. Um café com leite, por favor.",
+    "Garçom: Grande ou pequeno?",
+    "Lena: Grande, por favor. Vocês têm pão doce?",
+    "Garçom: Temos, sim, conchas. São muito gostosas.",
+    "Lena: Perfeito, uma concha. Quanto é?",
+    "Garçom: São oitenta pesos.",
+    "Senhora: Com licença, você é daqui?",
+    "Lena: Não, sou da Alemanha. Moro em Hannover.",
+    "Senhora: Que legal! Você fala espanhol muito bem.",
+    "Lena: Obrigada! Falo um pouquinho. Estou aprendendo.",
+    "Senhora: As conchas daqui são as melhores. Bom apetite!",
+    "Lena: Muito obrigada! Muito gentil."
+   ],
+   "glossary": [
+    {
+     "w": "el mesero",
+     "en": "waiter (Mexico, Central America; elsewhere also el mozo, el camarero)",
+     "de": "der Kellner",
+     "pt": "o garçom"
+    },
+    {
+     "w": "¿Qué le sirvo?",
+     "en": "What can I get you? (polite, usted)",
+     "de": "Was darf ich Ihnen bringen?",
+     "pt": "O que vai ser? / O que o(a) senhor(a) deseja?"
+    },
+    {
+     "w": "chico",
+     "en": "small (Mexico); in many countries also 'boy'",
+     "de": "klein",
+     "pt": "pequeno"
+    },
+    {
+     "w": "el pan dulce",
+     "en": "sweet bread, pastries eaten with coffee",
+     "de": "das süße Gebäck",
+     "pt": "o pão doce"
+    },
+    {
+     "w": "rico",
+     "en": "tasty, delicious (for food); also 'rich'",
+     "de": "lecker",
+     "pt": "gostoso"
+    },
+    {
+     "w": "¿Cuánto es?",
+     "en": "How much is it?",
+     "de": "Was macht das? / Wie viel kostet das?",
+     "pt": "Quanto é?"
+    },
+    {
+     "w": "un poquito",
+     "en": "a little bit",
+     "de": "ein bisschen",
+     "pt": "um pouquinho"
+    },
+    {
+     "w": "¡Buen provecho!",
+     "en": "Enjoy your meal!",
+     "de": "Guten Appetit!",
+     "pt": "Bom apetite!"
+    }
+   ],
+   "grammar": "Tú or usted? The waiter uses usted, the polite form, with a customer: “¿Qué le sirvo?” The older lady and Lena, two customers, quickly switch to tú: “¿Eres de aquí?”, “Hablas muy bien español.” In Latin America the plural is always ustedes, for friends and strangers alike: “¿Ustedes son de aquí?”",
+   "grammar_de": "Tú oder usted? Der Kellner benutzt usted, die höfliche Form, gegenüber der Kundin: „¿Qué le sirvo?“ Die ältere Dame und Lena, beide Gäste, wechseln schnell zu tú: „¿Eres de aquí?“, „Hablas muy bien español.“ In Lateinamerika ist der Plural immer ustedes – für Freunde wie für Fremde: „¿Ustedes son de aquí?“",
+   "grammar_pt": "Tú ou usted? O garçom usa usted, a forma educada, com a cliente: “¿Qué le sirvo?” A senhora e Lena, duas clientes, passam logo para tú: “¿Eres de aquí?”, “Hablas muy bien español.” Para quem fala português do Brasil: tú funciona como o nosso “você” do dia a dia, e usted como “o senhor / a senhora”. No plural, a América Latina usa sempre ustedes – como o nosso “vocês”.",
+   "questions": [
+    "¿Qué pide Lena?",
+    "¿De dónde es Lena y dónde vive?",
+    "¿Y tú? ¿Qué pides en una cafetería: café, té o chocolate?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "feature",
+   "section": "Comida",
+   "title": "Tacos al pastor: un viaje del Líbano a México",
+   "dek": "Son uno de los tacos más famosos de México. Pero su historia empieza muy lejos, con inmigrantes libaneses y un plato llamado shawarma.",
+   "paragraphs": [
+    "Es de noche en la Ciudad de México. En muchas esquinas hay un puesto de tacos con una luz amarilla y mucha gente. En el centro del puesto hay un trompo: una gran columna de carne de cerdo que gira despacio delante del fuego. Arriba del trompo hay una piña. Son los famosos tacos al pastor.",
+    "El taquero corta la carne en pedazos muy finos con un cuchillo largo. Los pone en una tortilla pequeña de maíz. Después, con un movimiento rápido, corta un poco de piña y la pone encima. Al final se agregan cebolla, cilantro, unas gotas de limón y salsa. Se comen con la mano, de pie, y muchas veces con un refresco frío.",
+    "Pero el trompo no es una idea mexicana. A finales del siglo XIX y a principios del siglo XX llegaron a México muchos inmigrantes del Líbano. Trajeron el shawarma, una carne que se cocina en vertical. Al principio era carne de cordero, pero en México la gente empezó a usar carne de cerdo, con chiles y especias. El estado de Puebla, en el centro del país, es muy importante en esta historia: allí también nacieron los “tacos árabes”, en pan árabe.",
+    "Hoy los tacos al pastor son un símbolo de la comida callejera de México. Muchas personas dicen que es su taco favorito. Es una buena historia sobre la migración: una receta viaja, cambia y se convierte en algo nuevo.",
+    "Dato curioso: en México, “un taco” no siempre es comida. “Echarse un taco” significa comer algo rápido, y “hacerse taco” es envolverse en una cobija cuando hace frío."
+   ],
+   "paragraphs_en": [
+    "It's night in Mexico City. On many street corners there is a taco stand with a yellow light and lots of people. In the middle of the stand there's a trompo: a big column of pork turning slowly in front of the fire. On top of the trompo there's a pineapple. These are the famous tacos al pastor.",
+    "The taquero cuts the meat into very thin pieces with a long knife. He puts them on a small corn tortilla. Then, with a quick movement, he cuts a bit of pineapple and puts it on top. Finally, onion, coriander, a few drops of lime and salsa are added. They are eaten by hand, standing up, and often with a cold soft drink.",
+    "But the trompo is not a Mexican idea. In the late 19th and early 20th century many immigrants from Lebanon came to Mexico. They brought shawarma, meat that is cooked vertically. At first it was lamb, but in Mexico people began to use pork, with chillies and spices. The state of Puebla, in the centre of the country, is very important in this story: the “tacos árabes”, served in Arabic bread, were also born there.",
+    "Today tacos al pastor are a symbol of Mexican street food. Many people say they are their favourite taco. It's a good story about migration: a recipe travels, changes and becomes something new.",
+    "Fun fact: in Mexico, “un taco” isn't always food. “Echarse un taco” means having a quick bite, and “hacerse taco” means wrapping yourself up in a blanket when it's cold."
+   ],
+   "paragraphs_de": [
+    "Es ist Abend in Mexiko-Stadt. An vielen Straßenecken steht ein Taco-Stand mit gelbem Licht und vielen Leuten. In der Mitte des Stands steht ein Trompo: eine große Säule aus Schweinefleisch, die sich langsam vor dem Feuer dreht. Oben auf dem Trompo sitzt eine Ananas. Das sind die berühmten Tacos al pastor.",
+    "Der Taquero schneidet das Fleisch mit einem langen Messer in ganz dünne Stücke. Er legt sie auf eine kleine Maistortilla. Dann schneidet er mit einer schnellen Bewegung ein bisschen Ananas ab und legt sie obendrauf. Zum Schluss kommen Zwiebeln, Koriander, ein paar Tropfen Limette und Salsa dazu. Man isst sie mit der Hand, im Stehen, und oft mit einer kalten Limo.",
+    "Aber der Trompo ist keine mexikanische Idee. Ende des 19. und Anfang des 20. Jahrhunderts kamen viele Einwanderer aus dem Libanon nach Mexiko. Sie brachten Schawarma mit, Fleisch, das senkrecht gegart wird. Anfangs war es Lammfleisch, aber in Mexiko nahm man bald Schweinefleisch, mit Chilis und Gewürzen. Der Bundesstaat Puebla in der Mitte des Landes spielt in dieser Geschichte eine wichtige Rolle: Dort entstanden auch die „Tacos árabes“ im arabischen Fladenbrot.",
+    "Heute sind Tacos al pastor ein Symbol für das mexikanische Streetfood. Viele sagen, es sei ihr Lieblingstaco. Es ist eine schöne Geschichte über Migration: Ein Rezept reist, verändert sich und wird zu etwas Neuem.",
+    "Kleine Kuriosität: In Mexiko ist „un taco“ nicht immer etwas zu essen. „Echarse un taco“ heißt, schnell etwas zu essen, und „hacerse taco“ bedeutet, sich bei Kälte in eine Decke einzuwickeln."
+   ],
+   "paragraphs_pt": [
+    "É noite na Cidade do México. Em muitas esquinas há uma barraca de tacos com uma luz amarela e muita gente. No meio da barraca há um trompo: uma grande coluna de carne de porco que gira devagar na frente do fogo. Em cima do trompo há um abacaxi. São os famosos tacos al pastor.",
+    "O taquero corta a carne em pedaços bem finos com uma faca comprida. Coloca os pedaços numa tortilha pequena de milho. Depois, com um movimento rápido, corta um pouco de abacaxi e coloca por cima. No final vão cebola, coentro, umas gotas de limão e molho. Come-se com a mão, em pé, e muitas vezes com um refrigerante gelado.",
+    "Mas o trompo não é uma ideia mexicana. No fim do século XIX e no começo do século XX chegaram ao México muitos imigrantes do Líbano. Eles trouxeram o shawarma, uma carne assada na vertical. No começo era carne de cordeiro, mas no México as pessoas começaram a usar carne de porco, com pimentas e especiarias. O estado de Puebla, no centro do país, é muito importante nessa história: lá também nasceram os “tacos árabes”, no pão árabe.",
+    "Hoje os tacos al pastor são um símbolo da comida de rua do México. Muita gente diz que é o seu taco favorito. É uma boa história sobre migração: uma receita viaja, muda e vira algo novo.",
+    "Curiosidade: no México, “un taco” nem sempre é comida. “Echarse un taco” quer dizer comer algo rápido, e “hacerse taco” é se enrolar num cobertor quando faz frio."
+   ],
+   "glossary": [
+    {
+     "w": "la esquina",
+     "en": "street corner",
+     "de": "die Straßenecke",
+     "pt": "a esquina"
+    },
+    {
+     "w": "el puesto",
+     "en": "stall, stand",
+     "de": "der Stand",
+     "pt": "a barraca"
+    },
+    {
+     "w": "girar",
+     "en": "to turn, to spin",
+     "de": "sich drehen",
+     "pt": "girar"
+    },
+    {
+     "w": "la piña",
+     "en": "pineapple",
+     "de": "die Ananas",
+     "pt": "o abacaxi (in Portugal: o ananás)"
+    },
+    {
+     "w": "el cerdo",
+     "en": "pig; pork",
+     "de": "das Schwein; Schweinefleisch",
+     "pt": "o porco"
+    },
+    {
+     "w": "agregar",
+     "en": "to add",
+     "de": "hinzufügen",
+     "pt": "acrescentar"
+    },
+    {
+     "w": "el refresco",
+     "en": "soft drink",
+     "de": "die Limonade, das Erfrischungsgetränk",
+     "pt": "o refrigerante"
+    },
+    {
+     "w": "la comida callejera",
+     "en": "street food",
+     "de": "das Streetfood, Essen von der Straße",
+     "pt": "a comida de rua"
+    }
+   ],
+   "grammar": "The impersonal or passive se: “Se comen con la mano” (they are eaten by hand), “se agregan cebolla y cilantro” (onion and coriander are added), “se cocina en vertical” (it is cooked vertically). Use se + verb when it doesn't matter who does the action. The verb agrees with the thing: se come un taco, se comen los tacos.",
+   "grammar_de": "Das unpersönliche bzw. passivische se: „Se comen con la mano“ (man isst sie mit der Hand), „se agregan cebolla y cilantro“ (Zwiebeln und Koriander kommen dazu), „se cocina en vertical“ (wird senkrecht gegart). Man benutzt se + Verb, wenn es egal ist, wer etwas tut – wie das deutsche „man“. Das Verb richtet sich nach der Sache: se come un taco, se comen los tacos.",
+   "grammar_pt": "O se impessoal ou passivo: “Se comen con la mano” (comem-se com a mão), “se agregan cebolla y cilantro” (acrescentam-se cebola e coentro), “se cocina en vertical”. É a mesma estrutura do português escrito (“vende-se casa”, “alugam-se quartos”). Uma diferença: em espanhol o se vem antes do verbo conjugado (“se comen”), enquanto no português formal ele costuma vir depois (“comem-se”).",
+   "questions": [
+    "¿Qué hay arriba del trompo?",
+    "¿Quiénes trajeron el shawarma a México y qué cambió?",
+    "¿Y tú? ¿Conoces una comida que viajó de un país a otro y cambió?"
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Al pastor",
+     "url": "https://en.wikipedia.org/wiki/Al_pastor",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   }
  ]
 }

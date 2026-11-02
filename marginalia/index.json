@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T13:35:06+00:00",
+ "updated": "2026-11-02T14:30:05+00:00",
  "days": [
   {
    "date": "2026-10-31",
@@ -112,6 +112,22 @@
      "kind": "brief",
      "level": "A1",
      "hour": null
+    },
+    {
+     "i": 10,
+     "lang": "es",
+     "title": "¿Qué hacemos el sábado?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 11,
+     "lang": "es",
+     "title": "Guagua, camión, colectivo: el autobús tiene muchos nombres",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
     }
    ]
   },
@@ -188,6 +204,22 @@
      "title": "Nos achados e perdidos",
      "kind": "dialogue",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 9,
+     "lang": "es",
+     "title": "En la feria: ¿a cuánto están las paltas?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 10,
+     "lang": "es",
+     "title": "Gabriela Mistral, la maestra que ganó el Nobel",
+     "kind": "feature",
+     "level": "B2",
      "hour": null
     }
    ]
@@ -274,6 +306,22 @@
      "kind": "essay",
      "level": "B2",
      "hour": null
+    },
+    {
+     "i": 10,
+     "lang": "es",
+     "title": "Mucho gusto: un intercambio en Bogotá",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 11,
+     "lang": "es",
+     "title": "Día de Muertos: una fiesta para los que vuelven",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
     }
    ]
   },
@@ -351,6 +399,22 @@
      "kind": "dialogue",
      "level": "A1",
      "hour": null
+    },
+    {
+     "i": 9,
+     "lang": "es",
+     "title": "¿Dónde queda la Plaza de Armas?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 10,
+     "lang": "es",
+     "title": "Ni Una Menos: tres palabras que recorrieron el continente",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
     }
    ]
   },
@@ -395,6 +459,22 @@
      "title": "A matrícula no curso de inglês",
      "kind": "dialogue",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "es",
+     "title": "Un café en Coyoacán",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "es",
+     "title": "Tacos al pastor: un viaje del Líbano a México",
+     "kind": "feature",
+     "level": "A2",
      "hour": null
     }
    ]

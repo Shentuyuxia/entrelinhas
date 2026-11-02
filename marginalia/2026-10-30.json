@@ -1210,6 +1210,238 @@
         "Quanto custam três pães de queijo hoje?"
       ],
       "sources": []
+    },
+    {
+      "lang": "es",
+      "level": "A2",
+      "kind": "dialogue",
+      "section": "Conversación",
+      "title": "¿Qué hacemos el sábado?",
+      "dek": "Montevideo, Uruguay. Valeria llama por teléfono a su amiga Inés para hacer planes para el fin de semana.",
+      "paragraphs": [
+        "Inés: ¿Hola?",
+        "Valeria: ¡Hola, Inés! Habla Valeria. ¿Cómo estás?",
+        "Inés: ¡Bien, bien! ¿Y tú? ¿Qué cuentas?",
+        "Valeria: Todo bien. Oye, ¿tienes planes para el sábado?",
+        "Inés: Todavía no. ¿Por qué? ¿Qué vas a hacer?",
+        "Valeria: Voy a ir a la feria de Tristán Narvaja por la mañana. ¿Quieres venir?",
+        "Inés: ¡Me encanta esa feria! Pero el domingo, ¿no? El sábado no hay.",
+        "Valeria: ¡Ay, tienes razón! Es el domingo. Entonces, ¿qué tal si el sábado vamos a la rambla?",
+        "Inés: Dale. Podemos caminar y tomar mate frente al río.",
+        "Valeria: ¡Perfecto! ¿A qué hora nos vemos?",
+        "Inés: ¿A las cinco? A esa hora no hace tanto calor.",
+        "Valeria: Bueno. ¿Dónde nos encontramos?",
+        "Inés: En la parada del ómnibus, frente a la farmacia. Yo llevo el termo.",
+        "Valeria: Y yo llevo unos bizcochos. ¡Nos vemos el sábado!"
+      ],
+      "paragraphs_en": [
+        "Inés: Hello?",
+        "Valeria: Hi, Inés! It's Valeria. How are you?",
+        "Inés: Good, good! And you? What's new?",
+        "Valeria: All good. Listen, do you have plans for Saturday?",
+        "Inés: Not yet. Why? What are you going to do?",
+        "Valeria: I'm going to go to the Tristán Narvaja market in the morning. Do you want to come?",
+        "Inés: I love that market! But it's on Sunday, isn't it? There's none on Saturday.",
+        "Valeria: Oh, you're right! It's on Sunday. So how about going to the rambla on Saturday?",
+        "Inés: Sure. We can walk and drink mate by the river.",
+        "Valeria: Perfect! What time shall we meet?",
+        "Inés: At five? It's not so hot at that time.",
+        "Valeria: OK. Where shall we meet?",
+        "Inés: At the bus stop opposite the pharmacy. I'll bring the thermos.",
+        "Valeria: And I'll bring some pastries. See you on Saturday!"
+      ],
+      "paragraphs_de": [
+        "Inés: Hallo?",
+        "Valeria: Hallo, Inés! Hier ist Valeria. Wie geht's dir?",
+        "Inés: Gut, gut! Und dir? Was gibt's Neues?",
+        "Valeria: Alles gut. Du, hast du am Samstag schon was vor?",
+        "Inés: Noch nicht. Warum? Was hast du vor?",
+        "Valeria: Ich gehe am Vormittag auf den Tristán-Narvaja-Markt. Willst du mitkommen?",
+        "Inés: Ich liebe diesen Markt! Aber der ist doch am Sonntag, oder? Samstags gibt es ihn nicht.",
+        "Valeria: Ach, du hast recht! Er ist am Sonntag. Wie wäre es dann, wenn wir am Samstag zur Rambla gehen?",
+        "Inés: Gerne. Wir können spazieren und am Fluss Mate trinken.",
+        "Valeria: Perfekt! Um wie viel Uhr treffen wir uns?",
+        "Inés: Um fünf? Dann ist es nicht mehr so heiß.",
+        "Valeria: Gut. Wo treffen wir uns?",
+        "Inés: An der Bushaltestelle gegenüber der Apotheke. Ich bringe die Thermoskanne mit.",
+        "Valeria: Und ich bringe Gebäck mit. Bis Samstag!"
+      ],
+      "paragraphs_pt": [
+        "Inés: Alô?",
+        "Valeria: Oi, Inés! É a Valeria. Tudo bem?",
+        "Inés: Tudo, tudo! E você? Quais são as novidades?",
+        "Valeria: Tudo certo. Escuta, você tem planos para sábado?",
+        "Inés: Ainda não. Por quê? O que você vai fazer?",
+        "Valeria: Vou à feira de Tristán Narvaja de manhã. Quer vir?",
+        "Inés: Adoro essa feira! Mas é no domingo, né? No sábado não tem.",
+        "Valeria: Ai, você tem razão! É no domingo. Então, que tal se no sábado a gente for à rambla?",
+        "Inés: Fechado. Dá pra caminhar e tomar chimarrão de frente pro rio.",
+        "Valeria: Perfeito! A que horas a gente se vê?",
+        "Inés: Às cinco? Nessa hora não faz tanto calor.",
+        "Valeria: Beleza. Onde a gente se encontra?",
+        "Inés: No ponto de ônibus, em frente à farmácia. Eu levo a garrafa térmica.",
+        "Valeria: E eu levo uns biscoitos. Até sábado!"
+      ],
+      "glossary": [
+        {
+          "w": "Habla …",
+          "en": "It's … speaking (on the phone)",
+          "de": "Hier ist …",
+          "pt": "É o/a … / Aqui é o/a …"
+        },
+        {
+          "w": "¿Qué cuentas?",
+          "en": "What's new? (lit. what do you tell?)",
+          "de": "Was gibt's Neues?",
+          "pt": "Quais são as novidades?"
+        },
+        {
+          "w": "¿Qué tal si…?",
+          "en": "How about …? (making a suggestion)",
+          "de": "Wie wäre es, wenn …?",
+          "pt": "Que tal se…?"
+        },
+        {
+          "w": "la rambla",
+          "en": "seafront/riverfront promenade (Montevideo's famous one is over 20 km long)",
+          "de": "die Uferpromenade",
+          "pt": "o calçadão, a orla"
+        },
+        {
+          "w": "¡Dale!",
+          "en": "OK! Sure! Let's do it! (Río de la Plata, Caribbean, widely used)",
+          "de": "Okay! Abgemacht!",
+          "pt": "Fechado! Beleza!"
+        },
+        {
+          "w": "el mate",
+          "en": "mate, a herbal infusion drunk from a gourd with a metal straw",
+          "de": "der Mate(-Tee)",
+          "pt": "o chimarrão, o mate"
+        },
+        {
+          "w": "el ómnibus",
+          "en": "bus (Uruguay, Peru)",
+          "de": "der Bus",
+          "pt": "o ônibus"
+        },
+        {
+          "w": "el termo",
+          "en": "thermos flask",
+          "de": "die Thermoskanne",
+          "pt": "a garrafa térmica"
+        }
+      ],
+      "grammar": "Plans with ir a + infinitive: “¿Qué vas a hacer?”, “Voy a ir a la feria.” It's the everyday way to talk about the future. For suggestions, use “¿Qué tal si + present?” (“¿Qué tal si vamos a la rambla?”) or “Podemos + infinitive” (“Podemos caminar”). To arrange a meeting: “¿A qué hora nos vemos?”, “¿Dónde nos encontramos?”",
+      "grammar_de": "Pläne mit ir a + Infinitiv: „¿Qué vas a hacer?“, „Voy a ir a la feria.“ So spricht man im Alltag über die Zukunft – wie „ich werde“ oder einfach „ich gehe morgen…“. Für Vorschläge: „¿Qué tal si + Präsens?“ („¿Qué tal si vamos a la rambla?“) oder „Podemos + Infinitiv“ („Podemos caminar“). Zum Verabreden: „¿A qué hora nos vemos?“, „¿Dónde nos encontramos?“",
+      "grammar_pt": "Planos com ir a + infinitivo: “¿Qué vas a hacer?”, “Voy a ir a la feria.” É como o nosso “vou fazer”, “vou ir” – só que em espanhol entra a preposição a: voy A hacer. E “voy a ir” é perfeitamente correto em espanhol (no português, “vou ir” soa estranho). Para sugerir: “¿Qué tal si vamos…?” (que tal se a gente for…?) – atenção: em espanhol usa-se o presente, não o subjuntivo.",
+      "questions": [
+        "¿Por qué no van a la feria el sábado?",
+        "¿Qué va a llevar cada amiga?",
+        "¿Y tú? ¿Qué vas a hacer este fin de semana?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "es",
+      "level": "B1",
+      "kind": "feature",
+      "section": "Palabras",
+      "title": "Guagua, camión, colectivo: el autobús tiene muchos nombres",
+      "dek": "Si viajas por América Latina, vas a subir a muchos autobuses. Lo difícil no es el viaje: es saber cómo se llaman.",
+      "paragraphs": [
+        "Imagina que estás en La Habana y preguntas dónde para el autobús. Probablemente te van a mirar con cara de sorpresa y te van a decir: “¿La guagua? Ahí, en la esquina.” En Cuba, en Puerto Rico y en la República Dominicana, el autobús es la guagua. La palabra también se usa en las islas Canarias, en España, que siempre tuvieron mucho contacto con el Caribe.",
+        "Si viajas a la Ciudad de México, en cambio, tienes que pedir un camión. Para muchas personas de otros países, un camión es un vehículo grande para llevar mercancías, pero en México es también el autobús de la ciudad. En Argentina la palabra más común es colectivo, y en la calle mucha gente dice bondi, de forma informal. En Chile vas a oír micro, en Colombia buseta para los autobuses más pequeños, y en Uruguay y Perú, ómnibus.",
+        "Con el carro pasa algo parecido. En México, Colombia y Venezuela se dice carro; en Argentina, Chile y Uruguay, auto; y en España, coche. Cuidado: en algunos países “coche” también puede ser el cochecito de un bebé. Y si quieres decir que alguien conduce, en América Latina lo más común es manejar: “¿Sabes manejar?”",
+        "¿Es un problema tener tantas palabras? En realidad, casi nunca. Las personas que hablan español están acostumbradas a estas diferencias y casi siempre entienden la palabra de otro país, sobre todo gracias a la televisión, la música y las series. Para una persona que aprende, la mejor estrategia es sencilla: aprende una palabra general, como autobús, y cuando llegues a un país nuevo, escucha cómo hablan los demás.",
+        "Muchas veces, estas palabras son la puerta para empezar una conversación. Si en Buenos Aires dices “colectivo” y en México “camión”, la gente va a sonreír y probablemente te va a preguntar de dónde eres. Dato curioso: “bondi” viene del portugués de Brasil “bonde”, que significa tranvía. Y “bonde”, según la explicación más conocida, viene de la palabra inglesa “bond”, por los bonos o billetes de los primeros tranvías de Río de Janeiro."
+      ],
+      "paragraphs_en": [
+        "Imagine you're in Havana and you ask where the bus stops. People will probably look at you in surprise and say: “The guagua? Over there, on the corner.” In Cuba, Puerto Rico and the Dominican Republic, the bus is la guagua. The word is also used in the Canary Islands in Spain, which always had a lot of contact with the Caribbean.",
+        "If you travel to Mexico City, on the other hand, you have to ask for a camión. For many people from other countries a camión is a big vehicle for transporting goods, but in Mexico it's also the city bus. In Argentina the most common word is colectivo, and on the street many people informally say bondi. In Chile you'll hear micro, in Colombia buseta for smaller buses, and in Uruguay and Peru, ómnibus.",
+        "Something similar happens with the car. In Mexico, Colombia and Venezuela people say carro; in Argentina, Chile and Uruguay, auto; and in Spain, coche. Careful: in some countries “coche” can also be a baby's pram. And if you want to say that someone drives, in Latin America the most common verb is manejar: “¿Sabes manejar?”",
+        "Is it a problem to have so many words? Actually, hardly ever. Spanish speakers are used to these differences and almost always understand the word from another country, above all thanks to television, music and series. For a learner, the best strategy is simple: learn a general word like autobús, and when you arrive in a new country, listen to how the others speak.",
+        "Often these words are the door to starting a conversation. If you say “colectivo” in Buenos Aires and “camión” in Mexico, people will smile and will probably ask you where you're from. Fun fact: “bondi” comes from the Brazilian Portuguese “bonde”, meaning tram. And “bonde”, according to the best-known explanation, comes from the English word “bond”, after the bonds or tickets of the first trams in Rio de Janeiro."
+      ],
+      "paragraphs_de": [
+        "Stell dir vor, du bist in Havanna und fragst, wo der Bus hält. Wahrscheinlich schaut man dich überrascht an und sagt: „Die Guagua? Da vorne, an der Ecke.“ In Kuba, Puerto Rico und der Dominikanischen Republik heißt der Bus la guagua. Das Wort benutzt man auch auf den Kanarischen Inseln in Spanien, die schon immer viel Kontakt mit der Karibik hatten.",
+        "Wenn du dagegen nach Mexiko-Stadt reist, musst du nach einem camión fragen. Für viele Menschen aus anderen Ländern ist ein camión ein großes Fahrzeug für Waren, also ein Lastwagen – aber in Mexiko ist es auch der Stadtbus. In Argentinien ist das häufigste Wort colectivo, und auf der Straße sagen viele umgangssprachlich bondi. In Chile hörst du micro, in Kolumbien buseta für kleinere Busse, und in Uruguay und Peru ómnibus.",
+        "Beim Auto ist es ähnlich. In Mexiko, Kolumbien und Venezuela sagt man carro, in Argentinien, Chile und Uruguay auto und in Spanien coche. Vorsicht: In manchen Ländern kann „coche“ auch ein Kinderwagen sein. Und wenn du sagen willst, dass jemand Auto fährt, ist in Lateinamerika manejar am üblichsten: „¿Sabes manejar?“",
+        "Ist es ein Problem, so viele Wörter zu haben? Eigentlich fast nie. Spanischsprachige sind an diese Unterschiede gewöhnt und verstehen das Wort aus einem anderen Land fast immer – vor allem dank Fernsehen, Musik und Serien. Für Lernende ist die beste Strategie einfach: Lern ein allgemeines Wort wie autobús, und wenn du in ein neues Land kommst, hör zu, wie die anderen sprechen.",
+        "Oft sind diese Wörter der Einstieg in ein Gespräch. Wenn du in Buenos Aires „colectivo“ sagst und in Mexiko „camión“, lächeln die Leute und fragen dich wahrscheinlich, woher du kommst. Kleine Kuriosität: „Bondi“ kommt vom brasilianisch-portugiesischen „bonde“, Straßenbahn. Und „bonde“ stammt nach der bekanntesten Erklärung vom englischen Wort „bond“ – nach den Fahrscheinen der ersten Straßenbahnen in Rio de Janeiro."
+      ],
+      "paragraphs_pt": [
+        "Imagine que você está em Havana e pergunta onde o ônibus para. Provavelmente vão te olhar com cara de surpresa e dizer: “A guagua? Ali, na esquina.” Em Cuba, em Porto Rico e na República Dominicana, o ônibus é a guagua. A palavra também é usada nas Ilhas Canárias, na Espanha, que sempre tiveram muito contato com o Caribe.",
+        "Se você viajar para a Cidade do México, por outro lado, tem que pedir um camión. Para muita gente de outros países, camión é um veículo grande de carga (um caminhão), mas no México é também o ônibus da cidade. Na Argentina a palavra mais comum é colectivo, e na rua muita gente diz bondi, de forma informal. No Chile você vai ouvir micro, na Colômbia buseta para os ônibus menores, e no Uruguai e no Peru, ómnibus.",
+        "Com o carro acontece algo parecido. No México, na Colômbia e na Venezuela se diz carro; na Argentina, no Chile e no Uruguai, auto; e na Espanha, coche. Cuidado: em alguns países “coche” também pode ser o carrinho de bebê. E para dizer que alguém dirige, na América Latina o mais comum é manejar: “¿Sabes manejar?” (você sabe dirigir?).",
+        "É um problema ter tantas palavras? Na verdade, quase nunca. Quem fala espanhol está acostumado a essas diferenças e quase sempre entende a palavra de outro país, principalmente graças à televisão, à música e às séries. Para quem está aprendendo, a melhor estratégia é simples: aprenda uma palavra geral, como autobús, e quando chegar a um país novo, escute como os outros falam.",
+        "Muitas vezes, essas palavras são a porta para começar uma conversa. Se em Buenos Aires você disser “colectivo” e no México “camión”, as pessoas vão sorrir e provavelmente vão perguntar de onde você é. Curiosidade: “bondi” vem justamente do nosso “bonde”! E “bonde”, segundo a explicação mais conhecida, vem da palavra inglesa “bond”, por causa dos bilhetes dos primeiros bondes do Rio de Janeiro."
+      ],
+      "glossary": [
+        {
+          "w": "parar",
+          "en": "to stop",
+          "de": "halten, anhalten",
+          "pt": "parar"
+        },
+        {
+          "w": "la guagua",
+          "en": "bus (Cuba, Puerto Rico, Dominican Republic, Canary Islands)",
+          "de": "der Bus (Karibik, Kanaren)",
+          "pt": "o ônibus (Caribe, Canárias)"
+        },
+        {
+          "w": "el camión",
+          "en": "truck/lorry; in Mexico also the city bus",
+          "de": "der Lastwagen; in Mexiko auch der Stadtbus",
+          "pt": "o caminhão; no México também o ônibus"
+        },
+        {
+          "w": "la mercancía",
+          "en": "goods, merchandise",
+          "de": "die Ware",
+          "pt": "a mercadoria"
+        },
+        {
+          "w": "el colectivo",
+          "en": "bus (Argentina); shared taxi in some countries",
+          "de": "der Bus (Argentinien); Sammeltaxi",
+          "pt": "o ônibus (Argentina); a lotação"
+        },
+        {
+          "w": "manejar",
+          "en": "to drive (Latin America; in Spain: conducir)",
+          "de": "Auto fahren",
+          "pt": "dirigir"
+        },
+        {
+          "w": "acostumbrado a",
+          "en": "used to",
+          "de": "gewöhnt an",
+          "pt": "acostumado a"
+        },
+        {
+          "w": "sobre todo",
+          "en": "above all, especially",
+          "de": "vor allem",
+          "pt": "sobretudo, principalmente"
+        },
+        {
+          "w": "el tranvía",
+          "en": "tram",
+          "de": "die Straßenbahn",
+          "pt": "o bonde"
+        }
+      ],
+      "grammar": "Contrast words: en cambio, mientras que, pero. “Si viajas a la Ciudad de México, en cambio, tienes que pedir un camión” — en cambio (on the other hand) often sits between commas inside the sentence. Mientras que joins two contrasting facts in one sentence: “En México se dice carro, mientras que en Argentina se dice auto.” Also note “cuando llegues” — after cuando, a future action takes the subjunctive.",
+      "grammar_de": "Wörter für Gegensätze: en cambio, mientras que, pero. „Si viajas a la Ciudad de México, en cambio, tienes que pedir un camión“ – en cambio (dagegen) steht oft zwischen Kommas mitten im Satz. Mientras que verbindet zwei gegensätzliche Fakten in einem Satz: „En México se dice carro, mientras que en Argentina se dice auto.“ Achte auch auf „cuando llegues“: Nach cuando steht bei einer zukünftigen Handlung der Subjuntivo.",
+      "grammar_pt": "Palavras de contraste: en cambio, mientras que, pero. “Si viajas a la Ciudad de México, en cambio, tienes que pedir un camión” – en cambio equivale ao nosso “por outro lado” / “já”. Mientras que é “enquanto”: “En México se dice carro, mientras que en Argentina se dice auto.” E “cuando llegues” (quando você chegar): o espanhol usa o presente do subjuntivo onde o português usa o futuro do subjuntivo, que não existe no espanhol de hoje.",
+      "questions": [
+        "¿Cómo se dice “autobús” en Cuba, en México y en Argentina?",
+        "¿Qué estrategia recomienda el texto para quien aprende español?",
+        "¿Conoces otra palabra que cambia de un país a otro, en español o en otro idioma?"
+      ],
+      "sources": []
     }
   ]
 }

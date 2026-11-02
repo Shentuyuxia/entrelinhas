@@ -1040,6 +1040,262 @@
     "A que horas é o ônibus do Carlos, e que dia é hoje no diálogo?"
    ],
    "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En la feria: ¿a cuánto están las paltas?",
+   "dek": "Santiago de Chile, sábado por la mañana. Camila hace las compras en la feria, el mercado de la calle, y pregunta precios y cantidades.",
+   "paragraphs": [
+    "Vendedor: ¡Buenos días, casera! ¿Qué va a llevar hoy?",
+    "Camila: Buenos días. ¿A cuánto están las paltas?",
+    "Vendedor: El kilo a tres mil pesos. Están buenísimas, muy maduras.",
+    "Camila: ¿Me da medio kilo, por favor?",
+    "Vendedor: Claro. ¿Para hoy o para mañana?",
+    "Camila: Para hoy, para el almuerzo.",
+    "Vendedor: Entonces le doy estas, que están listas. ¿Algo más?",
+    "Camila: Sí, ¿tiene tomates?",
+    "Vendedor: Sí, aquí están. ¿Cuántos quiere?",
+    "Camila: Cuatro, por favor. ¿Y esos limones cuánto cuestan?",
+    "Vendedor: Mil pesos la bolsa. Se la dejo en ochocientos.",
+    "Camila: ¡Gracias! Me la llevo. ¿Cuánto es todo?",
+    "Vendedor: Son tres mil cuatrocientos. Y le regalo un poco de cilantro.",
+    "Camila: ¡Qué amable! Aquí tiene. Hasta el próximo sábado."
+   ],
+   "paragraphs_en": [
+    "Seller: Good morning, dear customer! What will you take today?",
+    "Camila: Good morning. How much are the avocados?",
+    "Seller: Three thousand pesos a kilo. They're excellent, nice and ripe.",
+    "Camila: Could I have half a kilo, please?",
+    "Seller: Of course. For today or for tomorrow?",
+    "Camila: For today, for lunch.",
+    "Seller: Then I'll give you these ones, they're ready. Anything else?",
+    "Camila: Yes, do you have tomatoes?",
+    "Seller: Yes, here they are. How many would you like?",
+    "Camila: Four, please. And how much are those lemons?",
+    "Seller: A thousand pesos a bag. I'll let you have it for eight hundred.",
+    "Camila: Thanks! I'll take it. How much is it altogether?",
+    "Seller: That's three thousand four hundred. And here's some coriander, on the house.",
+    "Camila: How kind! Here you are. See you next Saturday."
+   ],
+   "paragraphs_de": [
+    "Verkäufer: Guten Morgen, liebe Kundin! Was darf's heute sein?",
+    "Camila: Guten Morgen. Was kosten die Avocados?",
+    "Verkäufer: Dreitausend Pesos das Kilo. Die sind super, schön reif.",
+    "Camila: Geben Sie mir bitte ein halbes Kilo?",
+    "Verkäufer: Klar. Für heute oder für morgen?",
+    "Camila: Für heute, fürs Mittagessen.",
+    "Verkäufer: Dann gebe ich Ihnen diese hier, die sind fertig. Noch etwas?",
+    "Camila: Ja, haben Sie Tomaten?",
+    "Verkäufer: Ja, hier sind sie. Wie viele möchten Sie?",
+    "Camila: Vier, bitte. Und was kosten die Zitronen da?",
+    "Verkäufer: Tausend Pesos die Tüte. Ich gebe sie Ihnen für achthundert.",
+    "Camila: Danke! Die nehme ich. Was macht das zusammen?",
+    "Verkäufer: Dreitausendvierhundert. Und ein bisschen Koriander schenke ich Ihnen.",
+    "Camila: Wie nett! Bitte schön. Bis nächsten Samstag."
+   ],
+   "paragraphs_pt": [
+    "Feirante: Bom dia, freguesa! O que vai levar hoje?",
+    "Camila: Bom dia. Quanto estão os abacates?",
+    "Feirante: O quilo a três mil pesos. Estão ótimos, bem maduros.",
+    "Camila: O senhor me dá meio quilo, por favor?",
+    "Feirante: Claro. Para hoje ou para amanhã?",
+    "Camila: Para hoje, para o almoço.",
+    "Feirante: Então dou estes, que estão no ponto. Mais alguma coisa?",
+    "Camila: Sim, o senhor tem tomate?",
+    "Feirante: Tenho, aqui estão. Quantos a senhora quer?",
+    "Camila: Quatro, por favor. E aqueles limões, quanto custam?",
+    "Feirante: Mil pesos o saquinho. Faço por oitocentos.",
+    "Camila: Obrigada! Vou levar. Quanto dá tudo?",
+    "Feirante: Dá três mil e quatrocentos. E de presente um pouco de coentro.",
+    "Camila: Que gentil! Aqui está. Até o próximo sábado."
+   ],
+   "glossary": [
+    {
+     "w": "la feria",
+     "en": "(Chile, Peru) street market; elsewhere also 'fair'",
+     "de": "der Wochenmarkt (Chile); die Messe",
+     "pt": "a feira"
+    },
+    {
+     "w": "casero / casera",
+     "en": "(Chile, Peru) friendly way for sellers and regular customers to address each other",
+     "de": "Stammkunde/-kundin; freundliche Anrede auf dem Markt",
+     "pt": "freguês / freguesa"
+    },
+    {
+     "w": "la palta",
+     "en": "avocado (Chile, Peru, Argentina, Uruguay); elsewhere el aguacate",
+     "de": "die Avocado",
+     "pt": "o abacate"
+    },
+    {
+     "w": "¿A cuánto está(n)…?",
+     "en": "How much is/are … (today)? — for prices that change",
+     "de": "Was kostet/kosten … (heute)?",
+     "pt": "Quanto está(ão)…?"
+    },
+    {
+     "w": "maduro",
+     "en": "ripe",
+     "de": "reif",
+     "pt": "maduro"
+    },
+    {
+     "w": "el almuerzo",
+     "en": "lunch (the main midday meal)",
+     "de": "das Mittagessen",
+     "pt": "o almoço"
+    },
+    {
+     "w": "la bolsa",
+     "en": "bag",
+     "de": "die Tüte, die Tasche",
+     "pt": "a sacola, o saco (falso amigo: a bolsa = el bolso)"
+    },
+    {
+     "w": "regalar",
+     "en": "to give (as a gift)",
+     "de": "schenken",
+     "pt": "dar de presente"
+    }
+   ],
+   "grammar": "Object pronouns save words. “¿Me da medio kilo?” (me = to me). “Se la dejo en ochocientos” (I'll leave it to you for 800: se = to you, la = la bolsa). “Me la llevo” (I'll take it). The order is always: indirect (me, te, le/se) before direct (lo, la, los, las), both before the conjugated verb. Le becomes se before lo/la: not “le la”, but “se la”.",
+   "grammar_de": "Objektpronomen sparen Wörter. „¿Me da medio kilo?“ (me = mir). „Se la dejo en ochocientos“ (ich lasse sie Ihnen für 800: se = Ihnen, la = la bolsa). „Me la llevo“ (ich nehme sie). Die Reihenfolge ist immer: indirekt (me, te, le/se) vor direkt (lo, la, los, las), beide vor dem konjugierten Verb. Le wird vor lo/la zu se: nicht „le la“, sondern „se la“.",
+   "grammar_pt": "Os pronomes oblíquos economizam palavras. “¿Me da medio kilo?” (me dá meio quilo?). “Se la dejo en ochocientos” (deixo para a senhora por oitocentos: se = para a senhora, la = a sacola). “Me la llevo” (vou levá-la). A ordem é sempre indireto + direto antes do verbo: “me la”, “se lo”. No Brasil falamos “eu levo” ou “vou levar” sem pronome; em espanhol o pronome é quase obrigatório.",
+   "questions": [
+    "¿Qué compra Camila y para qué?",
+    "¿Qué le regala el vendedor?",
+    "¿Y tú? ¿Vas al mercado? ¿Qué compras allí normalmente?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Mujeres y feminismo",
+   "title": "Gabriela Mistral, la maestra que ganó el Nobel",
+   "dek": "Antes de ser la primera escritora latinoamericana con el Premio Nobel de Literatura, Lucila Godoy fue maestra rural en el norte de Chile. Nunca dejó de serlo.",
+   "paragraphs": [
+    "Si alguien paga en Chile con un billete de cinco mil pesos, lleva en la mano el rostro de una mujer seria, de pelo corto y mirada tranquila. Es Gabriela Mistral, el nombre que eligió para firmar sus poemas Lucila Godoy Alcayaga. Nació el 7 de abril de 1889 en Vicuña, en el valle de Elqui, una zona de montañas secas y cielos limpísimos en el norte del país. En 1945 se convirtió en la primera persona de América Latina en recibir el Premio Nobel de Literatura, y fue además la quinta mujer en obtenerlo.",
+    "Su vida, sin embargo, no empezó entre libros elegantes, sino en aulas pobres. Con apenas quince años ya trabajaba como ayudante de maestra en un pueblo pequeño, y durante años dio clases en escuelas y liceos de distintas regiones de Chile, desde el desierto del norte hasta Punta Arenas, en el extremo sur, donde llegó a ser directora de un liceo. Aunque no tenía un título universitario, defendía con fuerza una idea que entonces no era evidente: que las niñas y los niños del campo tenían el mismo derecho a una buena educación que los de la ciudad.",
+    "Esa convicción la llevó lejos. En 1922 aceptó una invitación del gobierno mexicano y del ministro de Educación José Vasconcelos para colaborar en la reforma de las escuelas y las bibliotecas rurales de México. Más tarde trabajó como cónsul de Chile en ciudades de Europa y América, entre ellas Madrid, Lisboa, Petrópolis, en Brasil, y Nueva York. Vivió casi siempre lejos de su país, pero escribía sobre él con una mezcla de ternura y nostalgia.",
+    "En sus poemas aparecen con frecuencia la infancia, la maternidad, el paisaje de su valle y el dolor por la pérdida. Escribió también rondas y canciones de cuna que todavía se aprenden en las escuelas. Algunos lectores la imaginaron durante mucho tiempo como una especie de madre dulce y sufrida; hoy, en cambio, muchas investigadoras subrayan que fue una mujer independiente, con ideas propias sobre la educación, los pueblos indígenas y el papel de las mujeres en la vida pública.",
+    "Gabriela Mistral murió el 10 de enero de 1957 en Nueva York. Seis años antes, en 1951, había recibido por fin el Premio Nacional de Literatura de Chile, un reconocimiento que llegó bastante después del Nobel. Dato curioso: aunque murió lejos, hoy descansa en Montegrande, un pueblito del valle de Elqui donde pasó parte de su infancia, tal como ella había pedido."
+   ],
+   "paragraphs_en": [
+    "If you pay with a five-thousand-peso note in Chile, you're holding the face of a serious woman with short hair and a calm gaze. It's Gabriela Mistral, the name Lucila Godoy Alcayaga chose to sign her poems with. She was born on 7 April 1889 in Vicuña, in the Elqui Valley, an area of dry mountains and crystal-clear skies in the north of the country. In 1945 she became the first person from Latin America to receive the Nobel Prize in Literature, and she was also the fifth woman to win it.",
+    "Her life, however, didn't begin among elegant books but in poor classrooms. At just fifteen she was already working as a teaching assistant in a small village, and for years she taught at schools and secondary schools in different regions of Chile, from the northern desert to Punta Arenas in the far south, where she became head of a secondary school. Although she had no university degree, she strongly defended an idea that was not obvious at the time: that girls and boys in the countryside had the same right to a good education as those in the city.",
+    "That conviction took her far. In 1922 she accepted an invitation from the Mexican government and Education Minister José Vasconcelos to help reform Mexico's rural schools and libraries. Later she worked as Chilean consul in cities in Europe and the Americas, among them Madrid, Lisbon, Petrópolis in Brazil, and New York. She lived almost always far from her country, but wrote about it with a mixture of tenderness and nostalgia.",
+    "Her poems often deal with childhood, motherhood, the landscape of her valley and the pain of loss. She also wrote children's rounds and lullabies that are still learned in schools. For a long time some readers imagined her as a kind of sweet, long-suffering mother; today, by contrast, many scholars stress that she was an independent woman with her own ideas about education, indigenous peoples and the role of women in public life.",
+    "Gabriela Mistral died on 10 January 1957 in New York. Six years earlier, in 1951, she had finally received Chile's National Prize for Literature, a recognition that came quite a while after the Nobel. Fun fact: although she died far away, today she rests in Montegrande, a tiny village in the Elqui Valley where she spent part of her childhood, just as she had asked."
+   ],
+   "paragraphs_de": [
+    "Wer in Chile mit einem Fünftausend-Peso-Schein bezahlt, hält das Gesicht einer ernsten Frau mit kurzen Haaren und ruhigem Blick in der Hand. Es ist Gabriela Mistral – der Name, mit dem Lucila Godoy Alcayaga ihre Gedichte unterschrieb. Sie wurde am 7. April 1889 in Vicuña im Elqui-Tal geboren, einer Gegend mit trockenen Bergen und glasklarem Himmel im Norden des Landes. 1945 erhielt sie als erste Person aus Lateinamerika den Literaturnobelpreis, und sie war außerdem die fünfte Frau, die ihn bekam.",
+    "Ihr Leben begann jedoch nicht zwischen eleganten Büchern, sondern in armen Klassenzimmern. Mit gerade einmal fünfzehn Jahren arbeitete sie schon als Hilfslehrerin in einem kleinen Dorf, und jahrelang unterrichtete sie an Schulen und Gymnasien in verschiedenen Regionen Chiles, von der Wüste im Norden bis nach Punta Arenas im äußersten Süden, wo sie Direktorin eines Gymnasiums wurde. Obwohl sie keinen Universitätsabschluss hatte, verteidigte sie leidenschaftlich eine Idee, die damals nicht selbstverständlich war: dass Kinder auf dem Land dasselbe Recht auf gute Bildung haben wie Kinder in der Stadt.",
+    "Diese Überzeugung führte sie weit. 1922 nahm sie eine Einladung der mexikanischen Regierung und des Bildungsministers José Vasconcelos an, an der Reform der ländlichen Schulen und Bibliotheken Mexikos mitzuarbeiten. Später arbeitete sie als chilenische Konsulin in Städten in Europa und Amerika, darunter Madrid, Lissabon, Petrópolis in Brasilien und New York. Sie lebte fast immer fern ihrer Heimat, schrieb aber mit einer Mischung aus Zärtlichkeit und Sehnsucht über sie.",
+    "In ihren Gedichten geht es oft um Kindheit, Mutterschaft, die Landschaft ihres Tals und den Schmerz über Verlust. Sie schrieb auch Kinderreigen und Wiegenlieder, die bis heute in Schulen gelernt werden. Manche Leser stellten sie sich lange als eine Art sanfte, leidgeprüfte Mutter vor; heute betonen dagegen viele Forscherinnen, dass sie eine unabhängige Frau war, mit eigenen Ideen über Bildung, indigene Völker und die Rolle der Frauen im öffentlichen Leben.",
+    "Gabriela Mistral starb am 10. Januar 1957 in New York. Sechs Jahre zuvor, 1951, hatte sie endlich den chilenischen Nationalpreis für Literatur erhalten – eine Anerkennung, die erst ziemlich lange nach dem Nobelpreis kam. Kleine Kuriosität: Obwohl sie in der Ferne starb, ruht sie heute in Montegrande, einem Dörfchen im Elqui-Tal, in dem sie einen Teil ihrer Kindheit verbrachte – so, wie sie es sich gewünscht hatte."
+   ],
+   "paragraphs_pt": [
+    "Quem paga no Chile com uma nota de cinco mil pesos tem na mão o rosto de uma mulher séria, de cabelo curto e olhar tranquilo. É Gabriela Mistral, o nome que Lucila Godoy Alcayaga escolheu para assinar seus poemas. Ela nasceu em 7 de abril de 1889 em Vicuña, no vale do Elqui, uma região de montanhas secas e céus limpíssimos no norte do país. Em 1945 tornou-se a primeira pessoa da América Latina a receber o Prêmio Nobel de Literatura, e foi também a quinta mulher a ganhá-lo.",
+    "Sua vida, porém, não começou entre livros elegantes, e sim em salas de aula pobres. Com apenas quinze anos já trabalhava como auxiliar de professora num povoado pequeno, e durante anos deu aulas em escolas e liceus de várias regiões do Chile, do deserto do norte até Punta Arenas, no extremo sul, onde chegou a ser diretora de um liceu. Embora não tivesse diploma universitário, defendia com força uma ideia que na época não era óbvia: que as crianças do campo tinham o mesmo direito a uma boa educação que as da cidade.",
+    "Essa convicção a levou longe. Em 1922 aceitou um convite do governo mexicano e do ministro da Educação José Vasconcelos para colaborar na reforma das escolas e bibliotecas rurais do México. Mais tarde trabalhou como cônsul do Chile em cidades da Europa e das Américas, entre elas Madri, Lisboa, Petrópolis, no Brasil, e Nova York. Viveu quase sempre longe do seu país, mas escrevia sobre ele com uma mistura de ternura e saudade.",
+    "Em seus poemas aparecem com frequência a infância, a maternidade, a paisagem do seu vale e a dor da perda. Escreveu também cirandas e canções de ninar que ainda se aprendem nas escolas. Durante muito tempo, alguns leitores a imaginaram como uma espécie de mãe doce e sofrida; hoje, ao contrário, muitas pesquisadoras ressaltam que ela foi uma mulher independente, com ideias próprias sobre a educação, os povos indígenas e o papel das mulheres na vida pública.",
+    "Gabriela Mistral morreu em 10 de janeiro de 1957 em Nova York. Seis anos antes, em 1951, tinha recebido finalmente o Prêmio Nacional de Literatura do Chile, um reconhecimento que chegou bem depois do Nobel. Curiosidade: embora tenha morrido longe, hoje ela descansa em Montegrande, um povoadinho do vale do Elqui onde passou parte da infância, como tinha pedido."
+   ],
+   "glossary": [
+    {
+     "w": "el billete",
+     "en": "banknote; also ticket",
+     "de": "der Geldschein; die Fahrkarte",
+     "pt": "a nota (de dinheiro); o bilhete"
+    },
+    {
+     "w": "el rostro",
+     "en": "face (more literary than la cara)",
+     "de": "das Gesicht, das Antlitz",
+     "pt": "o rosto"
+    },
+    {
+     "w": "firmar",
+     "en": "to sign",
+     "de": "unterschreiben",
+     "pt": "assinar (falso amigo: firmar em português = estabilizar)"
+    },
+    {
+     "w": "el aula",
+     "en": "classroom (feminine: el aula, las aulas)",
+     "de": "das Klassenzimmer",
+     "pt": "a sala de aula"
+    },
+    {
+     "w": "apenas",
+     "en": "barely, only, just",
+     "de": "kaum, gerade einmal",
+     "pt": "apenas, mal"
+    },
+    {
+     "w": "el liceo",
+     "en": "secondary school (Chile, Uruguay, Venezuela)",
+     "de": "das Gymnasium, die weiterführende Schule",
+     "pt": "o liceu, a escola de ensino médio"
+    },
+    {
+     "w": "llegar a ser",
+     "en": "to go on to become",
+     "de": "(schließlich) werden",
+     "pt": "chegar a ser"
+    },
+    {
+     "w": "la ternura",
+     "en": "tenderness",
+     "de": "die Zärtlichkeit",
+     "pt": "a ternura"
+    },
+    {
+     "w": "la canción de cuna",
+     "en": "lullaby",
+     "de": "das Wiegenlied",
+     "pt": "a canção de ninar"
+    },
+    {
+     "w": "subrayar",
+     "en": "to underline; to stress",
+     "de": "unterstreichen, betonen",
+     "pt": "sublinhar, ressaltar"
+    },
+    {
+     "w": "en cambio",
+     "en": "on the other hand, by contrast",
+     "de": "dagegen, hingegen",
+     "pt": "por outro lado, ao contrário"
+    },
+    {
+     "w": "el reconocimiento",
+     "en": "recognition",
+     "de": "die Anerkennung",
+     "pt": "o reconhecimento"
+    }
+   ],
+   "grammar": "Aunque + indicative or subjunctive. With the indicative, aunque introduces a fact the speaker knows: “Aunque no tenía un título universitario, defendía…” (she really had no degree). With the subjunctive it introduces something hypothetical or not important to the speaker: “Aunque no tenga título, puede enseñar” (even if she may not have a degree…). Also note the pluperfect for an earlier past: “había recibido”, “como ella había pedido”.",
+   "grammar_de": "Aunque mit Indikativ oder Subjuntivo. Mit dem Indikativ leitet aunque eine bekannte Tatsache ein: „Aunque no tenía un título universitario, defendía…“ (sie hatte wirklich keinen Abschluss – „obwohl“). Mit dem Subjuntivo etwas Hypothetisches oder für den Sprecher Unwichtiges: „Aunque no tenga título, puede enseñar“ („selbst wenn“). Achte auch auf das Plusquamperfekt für eine frühere Vergangenheit: „había recibido“, „como ella había pedido“.",
+   "grammar_pt": "Aunque com indicativo ou subjuntivo – exatamente como “embora” e “mesmo que” em português, mas com uma diferença importante: em português, “embora” pede sempre subjuntivo (“embora não tivesse diploma”), enquanto em espanhol um fato real vai no indicativo: “Aunque no tenía un título universitario”. O subjuntivo fica para o hipotético: “Aunque no tenga título, puede enseñar” (mesmo que não tenha). E o mais-que-perfeito “había recibido” corresponde ao nosso “tinha recebido”.",
+   "questions": [
+    "¿Qué idea sobre la educación defendía Gabriela Mistral?",
+    "¿Por qué crees que su imagen de “madre dulce y sufrida” cambió con el tiempo?",
+    "¿Qué escritora o profesora ha sido importante para ti? ¿Por qué?"
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Gabriela Mistral",
+     "url": "https://en.wikipedia.org/wiki/Gabriela_Mistral",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   }
  ]
 }
