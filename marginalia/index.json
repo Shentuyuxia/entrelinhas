@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-02T14:30:05+00:00",
+ "updated": "2026-11-02T16:08:39+00:00",
  "days": [
+  {
+   "date": "2026-11-02",
+   "items": [
+    {
+     "i": 0,
+     "lang": "fr",
+     "title": "Faqir cherche du travail",
+     "kind": "feature",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "fr",
+     "title": "Afghanistan : le pays où l'on renvoie les gens",
+     "kind": "feature",
+     "level": "B2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-10-31",
    "items": [

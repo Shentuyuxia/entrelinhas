@@ -1,0 +1,303 @@
+{
+ "date": "2026-11-02",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "fr",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Migrations",
+   "title": "Faqir cherche du travail",
+   "dek": "Un maçon afghan, vingt ans de travail en Iran, et aujourd'hui trois jours par semaine.",
+   "paragraphs": [
+    "Faqir a 54 ans. Il est maçon : il construit des maisons et des murs. Il cherche du travail à Sheberghan, une ville du nord de l'Afghanistan.",
+    "Faqir connaît bien l'Iran : c'est vingt ans de sa vie de travail. Mais aujourd'hui, c'est fini. Il ne peut plus travailler là-bas. L'Iran et le Pakistan renvoient beaucoup d'Afghans dans leur pays. Ils sont des millions.",
+    "Maintenant, Faqir a du travail trois jours par semaine : ce n'est pas beaucoup. À Sheberghan, des hommes attendent au bord de la route. Ils veulent travailler, mais il y a peu de travail. Les familles paient un loyer, et après, il ne reste pas d'argent pour manger. Pour Faqir, c'est simple : les gens ont besoin d'une maison et d'un travail."
+   ],
+   "paragraphs_en": [
+    "Faqir is 54. He is a mason: he builds houses and walls. He is looking for work in Sheberghan, a town in the north of Afghanistan.",
+    "Faqir knows Iran well: it is twenty years of his working life. But today that is over. He can no longer work there. Iran and Pakistan are sending many Afghans back to their country. There are millions of them.",
+    "Now Faqir has work three days a week. That is not much. In Sheberghan, men wait by the side of the road. They want to work, but there is little work. Families pay rent, and afterwards there is no money left for food. For Faqir it is simple: people need a home and a job."
+   ],
+   "paragraphs_zh": [
+    "法基尔今年54岁，是一名泥瓦匠：他盖房子、砌墙。他在阿富汗北部城市希比尔甘找工作。",
+    "法基尔很了解伊朗：那是他二十年的工作生涯。但如今这一切都结束了，他再也不能去那里工作了。伊朗和巴基斯坦正把许多阿富汗人遣返回国，人数多达数百万。",
+    "现在，法基尔每周有三天活干。这并不多。在希比尔甘，男人们在路边等活。他们想工作，可是工作很少。各家付完房租，就没有钱吃饭了。在法基尔看来，事情很简单：人们需要一个家和一份工作。"
+   ],
+   "paragraphs_de": [
+    "Faqir ist 54 Jahre alt. Er ist Maurer: Er baut Häuser und Mauern. Er sucht Arbeit in Scheberghan, einer Stadt im Norden Afghanistans.",
+    "Faqir kennt den Iran gut: Das sind zwanzig Jahre seines Arbeitslebens. Aber heute ist das vorbei. Er kann dort nicht mehr arbeiten. Der Iran und Pakistan schicken viele Afghanen in ihr Land zurück. Es sind Millionen.",
+    "Jetzt hat Faqir an drei Tagen pro Woche Arbeit. Das ist nicht viel. In Scheberghan warten Männer am Straßenrand. Sie wollen arbeiten, aber es gibt wenig Arbeit. Die Familien zahlen Miete, und danach bleibt kein Geld zum Essen. Für Faqir ist es einfach: Die Menschen brauchen ein Zuhause und eine Arbeit."
+   ],
+   "paragraphs_pt": [
+    "Faqir tem 54 anos. Ele é pedreiro: constrói casas e muros. Ele procura trabalho em Sheberghan, uma cidade do norte do Afeganistão.",
+    "Faqir conhece bem o Irã: são vinte anos da sua vida de trabalho. Mas hoje isso acabou. Ele não pode mais trabalhar lá. O Irã e o Paquistão mandam muitos afegãos de volta para o seu país. São milhões.",
+    "Agora, Faqir tem trabalho três dias por semana. Não é muito. Em Sheberghan, homens esperam na beira da estrada. Eles querem trabalhar, mas há pouco trabalho. As famílias pagam aluguel, e depois não sobra dinheiro para comer. Para Faqir, é simples: as pessoas precisam de uma casa e de um trabalho."
+   ],
+   "glossary": [
+    {
+     "w": "un maçon",
+     "fr": "un homme qui construit des maisons et des murs",
+     "en": "a mason, bricklayer",
+     "zh": "泥瓦匠",
+     "de": "der Maurer",
+     "pt": "um pedreiro"
+    },
+    {
+     "w": "construire",
+     "fr": "faire une maison, un mur, un pont",
+     "en": "to build",
+     "zh": "建造，盖",
+     "de": "bauen",
+     "pt": "construir"
+    },
+    {
+     "w": "chercher du travail",
+     "fr": "vouloir trouver un emploi",
+     "en": "to look for work",
+     "zh": "找工作",
+     "de": "Arbeit suchen",
+     "pt": "procurar trabalho"
+    },
+    {
+     "w": "renvoyer",
+     "fr": "faire partir quelqu'un, le faire retourner",
+     "en": "to send back",
+     "zh": "遣返，送回",
+     "de": "zurückschicken",
+     "pt": "mandar de volta"
+    },
+    {
+     "w": "attendre",
+     "fr": "rester à un endroit jusqu'à un moment ou jusqu'à l'arrivée de quelqu'un",
+     "en": "to wait",
+     "zh": "等待",
+     "de": "warten",
+     "pt": "esperar"
+    },
+    {
+     "w": "le bord de la route",
+     "fr": "le côté de la route",
+     "en": "the side of the road",
+     "zh": "路边",
+     "de": "der Straßenrand",
+     "pt": "a beira da estrada"
+    },
+    {
+     "w": "un loyer",
+     "fr": "l'argent qu'on paie chaque mois pour habiter une maison",
+     "en": "rent",
+     "zh": "房租",
+     "de": "die Miete",
+     "pt": "um aluguel"
+    },
+    {
+     "w": "avoir besoin de",
+     "fr": "ne pas pouvoir vivre ou faire quelque chose sans une chose",
+     "en": "to need",
+     "zh": "需要",
+     "de": "brauchen",
+     "pt": "precisar de"
+    }
+   ],
+   "grammar": "« Il ne peut plus travailler là-bas » uses ne … plus, meaning 'no longer'. It works like ne … pas: ne goes before the verb, plus after it. Compare: il ne travaille pas (he doesn't work) and il ne travaille plus (he doesn't work any more, but he did before).",
+   "grammar_zh": "« Il ne peut plus travailler là-bas » 用的是 ne … plus，意思是“不再”。它和 ne … pas 的用法一样：ne 放在动词前，plus 放在动词后。比较：il ne travaille pas（他不工作）和 il ne travaille plus（他不再工作了，以前工作过）。",
+   "grammar_de": "« Il ne peut plus travailler là-bas » enthält ne … plus, das heißt „nicht mehr“. Es funktioniert wie ne … pas: ne steht vor dem Verb, plus danach. Vergleiche: il ne travaille pas (er arbeitet nicht) und il ne travaille plus (er arbeitet nicht mehr, früher aber schon).",
+   "grammar_pt": "« Il ne peut plus travailler là-bas » usa ne … plus, que significa 'não … mais'. Funciona como ne … pas: ne vem antes do verbo, plus vem depois. Compare: il ne travaille pas (ele não trabalha) e il ne travaille plus (ele não trabalha mais, mas trabalhava antes).",
+   "questions": [
+    "Quel est le travail de Faqir ?",
+    "Où est Sheberghan ?",
+    "Faqir travaille combien de jours par semaine ?"
+   ],
+   "sources": [
+    {
+     "title": "Avec le retour de millions d'Afghans, rude lutte pour un emploi ou un logement (AFP, via Boursorama, 28 octobre 2026)",
+     "url": "https://www.boursorama.com/actualite-economique/actualites/avec-le-retour-de-millions-d-afghans-rude-lutte-pour-un-emploi-ou-un-logement-c941c19f9dfd6b4c51427b8d78eec2d7",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Migrations",
+   "title": "Afghanistan : le pays où l'on renvoie les gens",
+   "dek": "Plus de 6,6 millions d'Afghans sont revenus en un peu plus de trois ans, la plupart poussés dehors par l'Iran et le Pakistan. Dans le nord du pays, on se dispute désormais le travail et les loyers.",
+   "paragraphs": [
+    "Au bord d'une route de Sheberghan, dans le nord de l'Afghanistan, des journaliers attendent qu'on leur propose n'importe quelle tâche. Ghulam Sakhi Barat, journalier octogénaire, fait vivre sept personnes. Interrogé par l'AFP, il constate que le travail se fait rare pour les habitants depuis l'arrivée des familles revenues de l'étranger, et que l'aide va surtout à ces nouveaux venus. Ainsi commence, très concrètement, une crise migratoire dont l'Europe parle peu : celle des gens qu'on renvoie.",
+    "Selon l'ONU, plus de 6,6 millions d'Afghans ont regagné leur pays en un peu plus de trois ans, le plus grand retour de ce type dans le monde. Certains vivaient en Iran ou au Pakistan depuis des décennies, après avoir fui la guerre civile des années 1990. Le mouvement s'explique par le durcissement des politiques migratoires des deux voisins : le Pakistan a lancé en octobre 2023 une campagne contre les migrants sans papiers, et l'Iran a suivi presque au même moment.",
+    "Le mot « retour » est donc trompeur. D'après le HCR, l'agence de l'ONU pour les réfugiés, 581 600 Afghans sont revenus d'Iran entre le 1er janvier et le 3 octobre 2026, dont 492 300 expulsés de force, soit 85 %. En 2025, ils avaient été plus de 1,9 million, dont environ 1,26 million d'expulsions. L'accélération date de mars 2025, lorsque les documents de recensement de quelque deux millions d'Afghans ont expiré en Iran.",
+    "Le pays d'arrivée n'a pas de quoi les accueillir. Près d'un Afghan sur trois, soit 15,9 millions de personnes, a connu une insécurité alimentaire aiguë en septembre et octobre, selon l'ONU. Dans la province de Djozdjan, touchée par une sécheresse persistante, des habitants évoquent des loyers en hausse de 150 % ces dernières années, et l'ONU prévoit que la population du district d'Aqcha augmentera de plus de 26 % cette année. Abdul Qader Hotak, 60 ans, renvoyé il y a huit mois après vingt ans au Pakistan, voit ses enfants, autrefois scolarisés, ramasser des ordures pour gagner un peu d'argent. Quant aux femmes et aux filles, elles arrivent dans un pays où l'enseignement secondaire et supérieur leur est interdit depuis 2021 et où elles sont largement écartées de l'emploi.",
+    "Les talibans au pouvoir, qui ont critiqué les expulsions, minimisent les difficultés locales. Saifuddin Muhtasem, responsable de l'information de la province, affirme qu'il n'y a de chômeurs que parmi ceux qui ne veulent pas travailler, et annonce une commission chargée de contrôler les loyers. Un fonctionnaire interrogé par l'AFP dit n'en avoir jamais entendu parler ; son propre loyer a doublé en dix-huit mois. Georgette Gagnon, représentante adjointe de l'ONU, prévient que, sans soutien durable aux rapatriés comme aux habitants qui les reçoivent, la rareté des ressources nourrira rivalités et instabilité.",
+    "Cette logique dépasse la région. D'après des documents judiciaires obtenus par l'agence AP, l'administration Trump prévoit de renvoyer vers l'Afghanistan, via le Pakistan, des Afghans détenus aux États-Unis ; des associations de défense affirment que leur vie pourrait être en danger. Une lecture possible de cet ensemble : des personnes longtemps utiles comme main-d'œuvre ou comme alliés deviennent, un jour, un surplus à éliminer. Et la facture retombe sur les plus pauvres, qui se retrouvent en concurrence sur le bord d'une route."
+   ],
+   "paragraphs_en": [
+    "By a roadside in Sheberghan, in northern Afghanistan, day labourers wait to be offered any job at all. Ghulam Sakhi Barat, a day labourer in his eighties, supports seven people. Speaking to AFP, he says work has become scarce for local people since families came back from abroad, and that aid goes mainly to the newcomers. This is how, in very concrete terms, a migration crisis Europe rarely talks about begins: the crisis of people being sent back.",
+    "According to the UN, more than 6.6 million Afghans have returned to their country in just over three years, the largest return of its kind in the world. Some had lived in Iran or Pakistan for decades after fleeing the civil war of the 1990s. The movement is explained by the hardening migration policies of the two neighbours: Pakistan launched a campaign against undocumented migrants in October 2023, and Iran followed at almost the same time.",
+    "The word 'return' is therefore misleading. According to UNHCR, the UN refugee agency, 581,600 Afghans came back from Iran between 1 January and 3 October 2026, 492,300 of them forcibly deported, or 85 percent. In 2025 there were more than 1.9 million, including about 1.26 million deportations. The acceleration dates from March 2025, when the census documents held by some two million Afghans expired in Iran.",
+    "The country they arrive in does not have the means to take them in. Nearly one Afghan in three, or 15.9 million people, faced acute food insecurity in September and October, according to the UN. In Jawzjan province, hit by persistent drought, residents speak of rents rising by 150 percent in recent years, and the UN expects the population of Aqcha district to grow by more than 26 percent this year. Abdul Qader Hotak, 60, sent back eight months ago after twenty years in Pakistan, sees his children, who used to go to school, collecting rubbish to earn a little money. As for women and girls, they arrive in a country where secondary and higher education has been forbidden to them since 2021 and where they are largely excluded from employment.",
+    "The Taliban in power, who have criticised the expulsions, play down the local difficulties. Saifuddin Muhtasem, the province's information chief, claims the only unemployed are those who do not want to work, and announces a commission to control rents. A civil servant interviewed by AFP says he has never heard of it; his own rent has doubled in eighteen months. Georgette Gagnon, the UN's deputy representative, warns that without lasting support for returnees and for the residents who receive them, scarce resources will fuel rivalry and instability.",
+    "This logic goes beyond the region. According to court documents obtained by the AP news agency, the Trump administration plans to send Afghans detained in the United States back to Afghanistan via Pakistan; advocacy groups say their lives could be in danger. One possible reading of all this: people long useful as labour or as allies one day become a surplus to get rid of. And the bill falls on the poorest, who find themselves competing by the side of a road."
+   ],
+   "paragraphs_zh": [
+    "在阿富汗北部的希比尔甘，一条路边，打零工的人等着有人给他们随便什么活。八十多岁的零工古拉姆·萨希·巴拉特要养活七口人。他对法新社说，自从从国外回来的家庭到了这里，本地人的活就少了，援助也主要给了这些新来的人。一场欧洲很少谈论的移民危机，就这样非常具体地开始了：这是被遣返者的危机。",
+    "据联合国统计，三年多一点的时间里，有超过660万阿富汗人回到本国，这是世界上同类回返中规模最大的一次。其中一些人在20世纪90年代逃离内战后，已在伊朗或巴基斯坦生活了几十年。这场人口流动源于两个邻国移民政策的收紧：巴基斯坦于2023年10月发起打击无证移民的行动，伊朗几乎同时跟进。",
+    "因此，“回返”这个词具有误导性。据联合国难民署统计，2026年1月1日至10月3日，有581,600名阿富汗人从伊朗回国，其中492,300人被强制遣返，占85%。2025年，这一人数超过190万，其中约126万人被驱逐。加速始于2025年3月，当时约两百万阿富汗人在伊朗持有的人口登记文件到期。",
+    "他们抵达的国家没有能力接纳他们。据联合国统计，9月和10月，近三分之一的阿富汗人，即1590万人，面临严重粮食不安全。在持续干旱的朱兹詹省，有居民说近几年房租上涨了150%；联合国预计，阿克恰县今年的人口将增长超过26%。60岁的阿卜杜勒·卡德尔·霍塔克在巴基斯坦生活二十年后，八个月前被遣返。他的孩子曾经上学，如今却捡垃圾挣点钱。至于妇女和女童，她们来到的这个国家自2021年起禁止她们接受中等和高等教育，也在很大程度上把她们排除在就业之外。",
+    "执政的塔利班批评了这些驱逐行动，却淡化当地的困难。省新闻部门负责人赛富丁·穆赫塔森声称，只有不愿工作的人才会失业，并宣布成立一个管控房租的委员会。一位接受法新社采访的公务员说，他从未听说过这个委员会；他自己的房租在十八个月里翻了一番。联合国副特别代表乔治特·加尼翁警告说，如果不向回返者和接纳他们的居民提供持久支持，稀缺的资源将加剧争夺和不稳定。",
+    "这种逻辑不止于这一地区。据美联社获得的法庭文件，特朗普政府计划经由巴基斯坦，把在美国被关押的阿富汗人遣返回阿富汗；维权组织表示，他们的生命可能面临危险。对这一切的一种解读是：长期被当作劳动力或盟友使用的人，有一天成了要清除的“剩余”。而账单落到了最穷的人头上，他们在路边彼此竞争。"
+   ],
+   "paragraphs_de": [
+    "An einer Straße in Scheberghan im Norden Afghanistans warten Tagelöhner darauf, dass ihnen irgendeine Arbeit angeboten wird. Ghulam Sakhi Barat, ein Tagelöhner von über achtzig Jahren, ernährt sieben Menschen. Der AFP sagt er, für die Einheimischen sei die Arbeit knapp geworden, seit die Familien aus dem Ausland zurückgekehrt seien, und die Hilfe gehe vor allem an die Neuankömmlinge. So beginnt ganz konkret eine Migrationskrise, über die in Europa wenig gesprochen wird: die Krise der Zurückgeschickten.",
+    "Nach Angaben der UNO sind in etwas mehr als drei Jahren über 6,6 Millionen Afghanen in ihr Land zurückgekehrt, die größte Rückkehr dieser Art weltweit. Manche hatten seit Jahrzehnten im Iran oder in Pakistan gelebt, nachdem sie vor dem Bürgerkrieg der 1990er-Jahre geflohen waren. Der Grund ist die verschärfte Migrationspolitik der beiden Nachbarn: Pakistan begann im Oktober 2023 eine Kampagne gegen Migranten ohne Papiere, der Iran folgte fast zur selben Zeit.",
+    "Das Wort „Rückkehr“ führt also in die Irre. Laut dem UN-Flüchtlingshilfswerk UNHCR kamen zwischen dem 1. Januar und dem 3. Oktober 2026 581.600 Afghanen aus dem Iran zurück, davon 492.300 zwangsweise abgeschoben, also 85 Prozent. 2025 waren es über 1,9 Millionen, darunter etwa 1,26 Millionen Abschiebungen. Die Beschleunigung geht auf März 2025 zurück, als die Zählungsdokumente von rund zwei Millionen Afghanen im Iran abliefen.",
+    "Das Ankunftsland hat nicht die Mittel, sie aufzunehmen. Fast jeder dritte Afghane, also 15,9 Millionen Menschen, litt laut UNO im September und Oktober unter akuter Ernährungsunsicherheit. In der von anhaltender Dürre betroffenen Provinz Dschusdschan berichten Bewohner von Mietsteigerungen um 150 Prozent in den letzten Jahren, und die UNO erwartet, dass die Bevölkerung des Bezirks Aqcha in diesem Jahr um mehr als 26 Prozent wächst. Abdul Qader Hotak, 60, vor acht Monaten nach zwanzig Jahren in Pakistan zurückgeschickt, sieht, wie seine Kinder, die früher zur Schule gingen, Müll sammeln, um etwas Geld zu verdienen. Frauen und Mädchen wiederum kommen in ein Land, in dem ihnen weiterführende Schulen und Hochschulen seit 2021 verboten sind und sie vom Arbeitsmarkt weitgehend ausgeschlossen werden.",
+    "Die regierenden Taliban, die die Abschiebungen kritisiert haben, spielen die Schwierigkeiten vor Ort herunter. Saifuddin Muhtasem, Informationschef der Provinz, behauptet, arbeitslos seien nur jene, die nicht arbeiten wollten, und kündigt eine Kommission zur Kontrolle der Mieten an. Ein von der AFP befragter Beamter sagt, er habe davon nie gehört; seine eigene Miete habe sich in achtzehn Monaten verdoppelt. Georgette Gagnon, stellvertretende UN-Sonderbeauftragte, warnt: Ohne dauerhafte Unterstützung für Rückkehrer und aufnehmende Gemeinden werde die Knappheit Rivalität und Instabilität schüren.",
+    "Diese Logik reicht über die Region hinaus. Laut Gerichtsdokumenten, die die Agentur AP erhalten hat, plant die Trump-Regierung, in den USA inhaftierte Afghanen über Pakistan nach Afghanistan zurückzuschicken; Hilfsorganisationen erklären, ihr Leben könne in Gefahr sein. Eine mögliche Lesart des Ganzen: Menschen, die lange als Arbeitskräfte oder Verbündete nützlich waren, werden eines Tages zu einem Überschuss, den man loswerden will. Und die Rechnung zahlen die Ärmsten, die am Straßenrand miteinander konkurrieren."
+   ],
+   "paragraphs_pt": [
+    "À beira de uma estrada em Sheberghan, no norte do Afeganistão, diaristas esperam que alguém lhes ofereça qualquer trabalho. Ghulam Sakhi Barat, diarista com mais de oitenta anos, sustenta sete pessoas. Em entrevista à AFP, ele diz que o trabalho ficou escasso para os moradores desde a chegada das famílias que voltaram do exterior, e que a ajuda vai sobretudo para os recém-chegados. Assim começa, de forma muito concreta, uma crise migratória de que a Europa pouco fala: a das pessoas mandadas de volta.",
+    "Segundo a ONU, mais de 6,6 milhões de afegãos voltaram ao seu país em pouco mais de três anos, o maior retorno desse tipo no mundo. Alguns viviam no Irã ou no Paquistão havia décadas, depois de fugir da guerra civil dos anos 1990. O movimento se explica pelo endurecimento das políticas migratórias dos dois vizinhos: o Paquistão lançou em outubro de 2023 uma campanha contra migrantes sem documentos, e o Irã fez o mesmo quase ao mesmo tempo.",
+    "A palavra \"retorno\" é, portanto, enganosa. De acordo com o Acnur, a agência da ONU para refugiados, 581.600 afegãos voltaram do Irã entre 1º de janeiro e 3 de outubro de 2026, dos quais 492.300 deportados à força, ou seja, 85%. Em 2025, foram mais de 1,9 milhão, incluindo cerca de 1,26 milhão de deportações. A aceleração data de março de 2025, quando os documentos de recenseamento de cerca de dois milhões de afegãos expiraram no Irã.",
+    "O país de chegada não tem meios para recebê-los. Quase um em cada três afegãos, ou 15,9 milhões de pessoas, enfrentou insegurança alimentar aguda em setembro e outubro, segundo a ONU. Na província de Jawzjan, atingida por uma seca persistente, moradores falam de aluguéis 150% mais altos nos últimos anos, e a ONU prevê que a população do distrito de Aqcha crescerá mais de 26% neste ano. Abdul Qader Hotak, 60 anos, mandado de volta há oito meses depois de vinte anos no Paquistão, vê seus filhos, que antes iam à escola, recolherem lixo para ganhar um pouco de dinheiro. Já as mulheres e as meninas chegam a um país onde o ensino secundário e superior lhes é proibido desde 2021 e onde elas são amplamente excluídas do emprego.",
+    "Os talibãs no poder, que criticaram as expulsões, minimizam as dificuldades locais. Saifuddin Muhtasem, responsável pela informação na província, afirma que só está desempregado quem não quer trabalhar e anuncia uma comissão para controlar os aluguéis. Um funcionário público entrevistado pela AFP diz nunca ter ouvido falar dela; o aluguel dele dobrou em dezoito meses. Georgette Gagnon, representante adjunta da ONU, adverte que, sem apoio duradouro aos repatriados e aos moradores que os recebem, a escassez de recursos alimentará rivalidades e instabilidade.",
+    "Essa lógica vai além da região. Segundo documentos judiciais obtidos pela agência AP, o governo Trump planeja mandar de volta ao Afeganistão, via Paquistão, afegãos detidos nos Estados Unidos; organizações de defesa afirmam que a vida deles pode estar em perigo. Uma leitura possível de tudo isso: pessoas por muito tempo úteis como mão de obra ou como aliadas um dia se tornam um excedente a ser descartado. E a conta recai sobre os mais pobres, que acabam competindo à beira de uma estrada."
+   ],
+   "glossary": [
+    {
+     "w": "un journalier",
+     "fr": "un ouvrier payé à la journée, sans emploi stable",
+     "en": "day labourer",
+     "zh": "打零工的人，日工",
+     "de": "der Tagelöhner",
+     "pt": "um diarista"
+    },
+    {
+     "w": "regagner",
+     "fr": "retourner dans un lieu qu'on avait quitté",
+     "en": "to return to, get back to",
+     "zh": "回到，返回",
+     "de": "zurückkehren in",
+     "pt": "voltar a, regressar a"
+    },
+    {
+     "w": "le durcissement",
+     "fr": "le fait de devenir plus sévère, plus strict",
+     "en": "hardening, tightening",
+     "zh": "收紧，强硬化",
+     "de": "die Verschärfung",
+     "pt": "o endurecimento"
+    },
+    {
+     "w": "trompeur, trompeuse",
+     "fr": "qui donne une fausse idée de la réalité",
+     "en": "misleading",
+     "zh": "有误导性的",
+     "de": "irreführend",
+     "pt": "enganoso, enganosa"
+    },
+    {
+     "w": "expulser",
+     "fr": "obliger quelqu'un à quitter un pays ou un logement",
+     "en": "to expel, deport",
+     "zh": "驱逐，遣送",
+     "de": "abschieben, ausweisen",
+     "pt": "expulsar, deportar"
+    },
+    {
+     "w": "expirer",
+     "fr": "arriver à la fin de sa durée de validité (pour un document)",
+     "en": "to expire",
+     "zh": "到期，失效",
+     "de": "ablaufen",
+     "pt": "expirar, vencer"
+    },
+    {
+     "w": "l'insécurité alimentaire",
+     "fr": "la situation de ceux qui n'ont pas assez à manger de façon sûre",
+     "en": "food insecurity",
+     "zh": "粮食不安全",
+     "de": "die Ernährungsunsicherheit",
+     "pt": "a insegurança alimentar"
+    },
+    {
+     "w": "ramasser",
+     "fr": "prendre par terre des choses",
+     "en": "to pick up, collect",
+     "zh": "捡，拾",
+     "de": "aufsammeln, sammeln",
+     "pt": "recolher, catar"
+    },
+    {
+     "w": "minimiser",
+     "fr": "présenter une chose comme moins grave qu'elle ne l'est",
+     "en": "to play down",
+     "zh": "淡化，轻描淡写",
+     "de": "herunterspielen",
+     "pt": "minimizar"
+    },
+    {
+     "w": "un rapatrié, une rapatriée",
+     "fr": "une personne ramenée dans son pays d'origine",
+     "en": "returnee, repatriated person",
+     "zh": "被遣返者，回返者",
+     "de": "der/die Rückkehrer/in",
+     "pt": "um repatriado, uma repatriada"
+    },
+    {
+     "w": "la main-d'œuvre",
+     "fr": "l'ensemble des personnes qui font un travail, surtout manuel",
+     "en": "labour, workforce",
+     "zh": "劳动力",
+     "de": "die Arbeitskräfte",
+     "pt": "a mão de obra"
+    },
+    {
+     "w": "la facture retombe sur",
+     "fr": "expression : ce sont ces personnes qui paient le prix d'une situation",
+     "en": "the bill falls on",
+     "zh": "代价落到……头上",
+     "de": "die Rechnung zahlen (am Ende) …",
+     "pt": "a conta recai sobre"
+    }
+   ],
+   "grammar": "« 581 600 Afghans sont revenus d'Iran, dont 492 300 expulsés de force »: here dont introduces a subset of the group just named and means 'of whom' or 'including'. No verb is needed after it, which makes it very common with figures in news writing. Compare with the relative pronoun dont + verb, as in « une crise dont l'Europe parle peu », where it replaces de (parler de quelque chose).",
+   "grammar_zh": "« 581 600 Afghans sont revenus d'Iran, dont 492 300 expulsés de force » 中，dont 引出刚提到的群体中的一部分，意思是“其中”。它后面不需要动词，所以在新闻写作的数字表达里非常常见。比较关系代词 dont + 动词的用法，如 « une crise dont l'Europe parle peu »，这里 dont 代替 de（parler de quelque chose）。",
+   "grammar_de": "« 581 600 Afghans sont revenus d'Iran, dont 492 300 expulsés de force »: Hier leitet dont einen Teil der eben genannten Gruppe ein und bedeutet „davon“ oder „darunter“. Danach braucht man kein Verb, deshalb ist es in Nachrichtentexten mit Zahlen sehr häufig. Vergleiche das Relativpronomen dont + Verb, wie in « une crise dont l'Europe parle peu », wo es de ersetzt (parler de quelque chose).",
+   "grammar_pt": "« 581 600 Afghans sont revenus d'Iran, dont 492 300 expulsés de force »: aqui dont introduz uma parte do grupo que acabou de ser citado e significa 'dos quais' ou 'incluindo'. Não é preciso verbo depois dele, por isso é muito comum com números em textos jornalísticos. Compare com o pronome relativo dont + verbo, como em « une crise dont l'Europe parle peu », em que ele substitui de (parler de quelque chose).",
+   "questions": [
+    "Pourquoi l'auteur dit-il que le mot « retour » est trompeur ?",
+    "Quels problèmes l'arrivée des familles crée-t-elle à Sheberghan et dans la province de Djozdjan ?",
+    "Que pensez-vous de la dernière phrase de l'article ? Est-ce un fait ou une interprétation ?"
+   ],
+   "sources": [
+    {
+     "title": "Avec le retour de millions d'Afghans, rude lutte pour un emploi ou un logement (AFP, via Boursorama, 28 octobre 2026)",
+     "url": "https://www.boursorama.com/actualite-economique/actualites/avec-le-retour-de-millions-d-afghans-rude-lutte-pour-un-emploi-ou-un-logement-c941c19f9dfd6b4c51427b8d78eec2d7",
+     "license": "link only"
+    },
+    {
+     "title": "Over 492,000 Afghans forcibly deported from Iran in 2026: UNHCR (Pajhwok Afghan News)",
+     "url": "https://pajhwok.com/2026/10/09/over-492000-afghans-forcibly-deported-from-iran-in-2026-unhcr/",
+     "license": "link only"
+    },
+    {
+     "title": "Over 581,000 Afghans Return from Iran in 2026 as Deportation Drive Continues (KabulNow)",
+     "url": "https://kabulnow.com/2026/10/over-581000-afghans-return-from-iran-in-2026-as-deportation-drive-continues/",
+     "license": "link only"
+    },
+    {
+     "title": "The return of millions of Afghans from Pakistan and Iran pushes Afghanistan to the brink, UN warns (AP)",
+     "url": "https://www.yahoo.com/news/articles/return-millions-afghans-pakistan-iran-161237994.html",
+     "license": "link only"
+    },
+    {
+     "title": "U.S. plans to deport Afghans back to their home country through Pakistan, documents show (AP, via WSLS)",
+     "url": "https://www.wsls.com/news/politics/2026/10/31/us-plans-to-deport-afghans-back-to-their-home-country-through-pakistan-documents-show/",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
+}
