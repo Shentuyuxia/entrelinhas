@@ -211,17 +211,19 @@
   }
  },
  "schedule": {
-  "en": "Mon–Fri: 1 long read",
+  "en": "Mon–Fri: 2 items — 1 C2 long read + 1 short C1 piece ('In brief')",
   "de": "Mon–Fri: 1 article + 1 short item",
   "fr": "Mon–Fri: 2 articles (easier + harder)",
-  "pt": "Exactly two Portuguese items a day. Mon/Thu/Sun: A1 diary + dialogue. Tue/Fri: A1 diary + Textinho. Wednesday: A1 diary + one B1/B2 crônica (for a heritage-speaker friend). Saturday: no diary — 'Histórias de canções', one song story in an A1 and a B1/B2 version.",
-  "picks": "Mon–Fri: exactly 2 links per list (de, en)",
+  "pt": "Every day three A1 items: diary + dialogue + Textinho. Saturday: the A1 song story replaces the dialogue (diary + song story + Textinho). Extras for the heritage-speaker friend at B1/B2 (not counted, invisible at A1): Wednesday crônica, Saturday B1/B2 song story.",
+  "picks": "Mon, Wed, Fri: exactly 2 links per list (de, en)",
   "weekend": "Saturday and Sunday: no new English, German or French texts (no weekly review).",
   "es": "Mon–Fri around 18:00: 2 items, Latin American Spanish (ustedes, no vosotros) — one reading (culture, feminism, everyday life) and one conversation dialogue (small talk, asking questions, directions), levels rotating A1–B2 by weekday, with a short grammar note. Helper languages: English, German, Portuguese.",
-  "limit": "Every language at most two items a day (picks lists don't count)."
+  "limit": "DE/EN/FR/ES: two items Mon–Fri; PT: three A1 items every day; picks lists don't count.",
+  "records": "Once a month (1st): +2 records each for pt and es, and a new card batch for Coisas do Brasil and Cosas de Latinoamérica.",
+  "wordbank": "Tuesday and Friday nights: only Spanish (A2→B1→A1→B2) and German UG grow; pt/de/en/fr CEFR decks are paused (enough cards for now)."
  },
  "pt_focus": {
-  "format": "Two items every day (see schedule.pt): the Diário da Ana (first-person diary, full date, clock times, today's weekday focus) on every day except Saturday, plus ONE second item — a short everyday dialogue (Mon/Thu/Sun), a very short real-life text \"Textinho\" (Tue/Fri, 40–90 words), the B1/B2 crônica (Wed, separate task) or, on Saturday, the two song-story versions (separate task) instead of the diary. New glossary words of the day go into the flashcards (data/pt-BS.json).",
+  "format": "Three A1 items every evening: (1) Diário da Ana (first-person diary, full date, clock times, today's weekday focus); (2) a short everyday dialogue (8–12 lines) — on Saturday replaced by the A1 'Histórias de canções' item from the Saturday task; (3) a very short real-life text, \"Textinho\" (40–90 words). New glossary words of the day go into the flashcards (data/pt-BS.json).",
   "topics_by_weekday": {
    "Mon": "datas, horas e dias da semana + perguntas sobre estudos e profissão",
    "Tue": "adjetivos e locuções adjetivas: concordância (o bolo gostoso, a casa amarela, os gatos pretos), posição depois do substantivo, substantivo + de + substantivo (bolo de chocolate, suco de laranja, casa de praia, comida de mãe) vs. de + artigo para posse (o bolo da mãe); + plural e masculino/feminino",
@@ -250,8 +252,13 @@
    "note": "Until this date the dialogue (and the Textinho, where natural) practises asking questions instead of the weekday topic; the diary keeps the weekday topic. After it, the dialogue follows topics_by_weekday again."
   },
   "textinho_rotation": {
-   "Tue": "rotate by ISO week number mod 3 — 0: mensagens de WhatsApp entre amigos; 1: um bilhete ou recado (na geladeira, para a vizinha); 2: um convite (aniversário, festa, jantar)",
-   "Fri": "rotate by ISO week number mod 3 — 0: um cardápio ou uma lista de preços; 1: uma placa ou um aviso (na padaria, no prédio, no metrô); 2: um cartão-postal ou uma agenda da semana"
+   "Mon": "mensagens de WhatsApp entre amigos",
+   "Tue": "um bilhete ou recado (na geladeira, para a vizinha)",
+   "Wed": "um cardápio, uma lista de preços ou um anúncio pequeno",
+   "Thu": "um convite (aniversário, festa, jantar)",
+   "Fri": "uma placa ou um aviso (na padaria, no prédio, no metrô)",
+   "Sat": "um cartão-postal ou uma mensagem de voz transcrita",
+   "Sun": "uma agenda ou lista de tarefas da semana"
   }
  },
  "es_focus": {
