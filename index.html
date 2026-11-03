@@ -41,10 +41,6 @@
 
 html{-webkit-text-size-adjust:100%;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0;--acc:var(--pt);--acc-soft:var(--pt-soft);background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.55}
-body[data-lang="de"]{--acc:var(--de);--acc-soft:var(--de-soft)}
-body[data-lang="en"]{--acc:var(--en);--acc-soft:var(--en-soft)}
-body[data-lang="fr"]{--acc:var(--fr);--acc-soft:var(--fr-soft)}
-body[data-lang="es"]{--acc:var(--es);--acc-soft:var(--es-soft)}
 body.modal-open{overflow:hidden}
 *{box-sizing:border-box}
 [hidden],.top .langsw[hidden],.top .langsw button[hidden]{display:none!important}
@@ -649,10 +645,9 @@ body.lean .hint, body.lean .help{display:none!important}
 .langsw button{position:relative;border:1px solid var(--line)!important;border-radius:12px!important;background:var(--surface);padding:8px 16px 8px 30px;align-items:flex-start;gap:1px;transition:border-color .15s,background-color .15s}
 .langsw button+button{border-left:1px solid var(--line)!important}
 .langsw button::before{content:"";position:absolute;left:13px;top:15px;width:9px;height:9px;border-radius:50%;background:var(--lc);opacity:.45}
-.langsw button[data-l="pt"]{--lc:var(--pt);--lcs:var(--pt-soft)} .langsw button[data-l="de"]{--lc:var(--de);--lcs:var(--de-soft)} .langsw button[data-l="en"]{--lc:var(--en);--lcs:var(--en-soft)} .langsw button[data-l="fr"]{--lc:var(--fr);--lcs:var(--fr-soft)}
-.langsw button[data-l="es"]{--lc:var(--es);--lcs:var(--es-soft)}
 .langsw button b{font-size:16px;letter-spacing:.005em}
 .langsw button small{font-size:10.5px;letter-spacing:.06em;color:var(--muted)}
+.langsw button{--lc:var(--acc);--lcs:var(--acc-soft)}
 .langsw button:hover{border-color:var(--lc)!important}
 .langsw button[aria-pressed="true"]{background:var(--lcs);border-color:var(--lc)!important;box-shadow:inset 0 0 0 1px var(--lc)}
 .langsw button[aria-pressed="true"]::before{opacity:1}
@@ -1238,9 +1233,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
           </div>
         <p class="note" style="margin-top:8px"><button class="linkbtn" id="opt-guide" type="button">使用指南</button></p>
         <label class="tog" style="margin-top:12px"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
-        <div class="field" style="margin-top:14px"><label for="opt-help">释义和语法说明的语言</label>
-          <select id="opt-help"><option value="">跟随界面语言</option><option value="zh" data-raw>中文</option><option value="en" data-raw>English</option><option value="de" data-raw>Deutsch</option><option value="pt" data-raw>Português</option></select></div>
-        <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
+                <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
           <div class="row" style="flex-wrap:nowrap"><select id="opt-voice"></select><button class="btn sm" id="voice-test" type="button">试听</button></div>
           <p class="note hint">★ 是增强/高级语音，听起来更自然。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音」里下载。</p></div>
         <div class="field nt" id="nt-row" style="margin-top:16px"><label for="nt-voice">开源神经语音（Piper）</label>
@@ -2623,7 +2616,7 @@ let MGZH=(()=>{ try{ return localStorage.getItem("pw-glzh")==="1"; }catch(e){ re
 let MGX=(()=>{ try{ return localStorage.getItem("pw-mgx2")==="1"; }catch(e){ return false; } })(); // one switch next to 朗读: also show my language (words, glossary, paragraphs)
 function mgxSet(v){ MGX=v; try{ localStorage.setItem("pw-mgx2",v?"1":""); }catch(e){} }
 /* helper language for glosses, grammar notes and reading-list blurbs: follows the interface language unless set */
-function HL(){ const h=S.settings.helpLang; if(h) return h; return UIL==="zht"?"zh":(UIL||"zh"); }
+function HL(){ return UIL==="zht"?"zh":(UIL||"zh"); } // explanations always follow the interface language
 const HL_NAME={zh:"中文",en:"English",de:"Deutsch",pt:"Português",fr:"Français",es:"Español"};
 /* glossary / word look-up: primary explanation language per text language (pt, en → English; de → German; fr → French),
    plus one optional language the reader is comfortable with (their helper language) */
@@ -2855,7 +2848,7 @@ $("#rd-bar").addEventListener("click",e=>{ const b=e.target.closest("button"); i
 
 $("#opt-voice").addEventListener("change",e=>{ S.settings.voice=S.settings.voice||{}; S.settings.voice[lang()]=e.target.value; save(); speak(VOICE_SAMPLE[lang()]); });
 $("#voice-test").addEventListener("click",()=>speak(VOICE_SAMPLE[lang()]));
-$("#opt-help").addEventListener("change",e=>{ S.settings.helpLang=e.target.value||""; save(); if(cur==="read") mgRender(); });
+$("#opt-help")?.addEventListener("change",e=>{ S.settings.helpLang=e.target.value||""; save(); if(cur==="read") mgRender(); });
 $("#nt-voice").addEventListener("change",e=>{ S.settings.ntVoice=S.settings.ntVoice||{}; S.settings.ntVoice[lang()]=e.target.value; save(); renderNT(); if(NT.have.has(e.target.value)) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
 $("#nt-on").addEventListener("change",e=>{ S.settings.ntOn=S.settings.ntOn||{}; S.settings.ntOn[lang()]=e.target.checked; save(); renderNT(); if(e.target.checked) ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate); });
 $("#nt-get").addEventListener("click",()=>{ const v=ntVoice(); if(NT.have.has(v)){ ntSpeak(VOICE_SAMPLE[lang()],S.settings.rate,()=>sysSpeak(VOICE_SAMPLE[lang()])); } else { ntUnlock(); ntDownload(v); } });
@@ -4758,7 +4751,6 @@ async function applyLang(){
   if(!langsOn().includes(S.settings.lang)){ S.settings.lang=langsOn()[0]; save(); }
   renderLangs();
   const l=lang(); document.body.dataset.lang=l;
-  const tm=document.querySelector('meta[name="theme-color"]'); if(tm) tm.content=LANG[l].theme;
   $$("#langsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===l));
   if(detailOpen) closeDetail();
   if(MG.sheet) mgClose(); MG.key=null;
