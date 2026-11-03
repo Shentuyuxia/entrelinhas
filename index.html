@@ -1149,7 +1149,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
         <div class="field"><label for="opt-rate" class="small">系统朗读语速 <span class="mono" id="rate-v"></span></label><input type="range" id="opt-rate" min="0.6" max="1.2" step="0.05"></div>
         <div id="voice-note" class="notice" hidden></div>
         <div class="field" style="margin-top:12px"><label class="tog"><input type="checkbox" id="opt-autopile"> 评为「忘了」的词自动放进生词堆</label></div>
-        <p class="note" style="margin-top:6px">快捷键：<span class="kbd">空格</span> 翻面 · <span class="kbd">1</span>–<span class="kbd">4</span> 评分 · <span class="kbd">S</span> 朗读 · <span class="kbd">M</span> 我的录音 · <span class="kbd">P</span> 生词堆 · <span class="kbd">E</span> 例句、录音</p>
+        <p class="note hint" style="margin-top:6px">快捷键：<span class="kbd">空格</span> 翻面 · <span class="kbd">1</span>–<span class="kbd">4</span> 评分 · <span class="kbd">S</span> 朗读 · <span class="kbd">M</span> 我的录音 · <span class="kbd">P</span> 生词堆 · <span class="kbd">E</span> 例句、录音</p>
       </div>
     </aside>
   </section>
@@ -3510,24 +3510,15 @@ function renderStats(){
     if(k>t){ cells+=`<div class="d blank"></div>`; continue; }
     const v=LL.log[k]; const cls=v&&v.c?"chk":v&&(v.n+v.r)>0?"act":"";
     cells+=`<div class="d ${cls} ${k===t?"today":""}" title="${k}${v?` · 新 ${v.n} · 复习 ${v.r}${v.c?" · 已打卡":""}`:""}">${dd.getDate()}</div>`; }
-  const lvRows=LV().map(v=>{ const cs=ALL.filter(c=>c.lvl===v), k=[0,0,0,0,0]; cs.forEach(c=>k[stage(srs[c.id])]++);
-    return `<div class="lvrow"><span class="lv lv-${v}" style="text-align:center">${esc(lvName(v))}</span><span class="stack">${[1,2,3,4].map(s=>cs.length&&k[s]?`<i class="k${s}" style="width:${100*k[s]/cs.length}%"></i>`:"").join("")}</span><span class="n">${cs.length-k[0]} / ${cs.length}</span></div>`; }).join("");
+  const lvRows=LV().map(v=>{ const cs=ALL.filter(c=>c.lvl===v); if(!cs.length) return ""; const got=cs.filter(c=>stage(srs[c.id])>0).length;
+    return `<div class="lvrow"><span class="lv lv-${v}" style="text-align:center">${esc(lvName(v))}</span><span class="stack">${got?`<i class="k3" style="width:${Math.max(2,100*got/cs.length)}%"></i>`:""}</span><span class="n">${got} / ${cs.length}</span></div>`; }).join("");
   { const o=$("#ov-sum"); if(o){ o.setAttribute("data-noi18n",""); o.textContent=[T_("已学 {0} 词").replace("{0}",learned),T_("精通 {0}").replace("{0}",mastered),T_("累计打卡 {0} 天").replace("{0}",chk)].join(" · "); } }
   $("#stats-main").innerHTML=`
-    <h3 class="sec">${d.name} · 总览</h3>
-    <div class="kpis">
-      <div class="kpi"><b>${streak(l)}</b><span>连续打卡天数</span></div>
-      <div class="kpi"><b>${chk}</b><span>累计打卡天数</span></div>
-      <div class="kpi"><b>${learned}</b><span>已学单词</span></div>
-      <div class="kpi"><b>${mastered}</b><span>已精通</span></div>
-    </div>
     <h3 class="sec">最近五周</h3>
     <div class="cal">${uiWeekdays().map(x=>`<div class="h">${x}</div>`).join("")}${cells}</div>
-    <div class="legend"><span><i style="background:var(--acc)"></i>已打卡</span><span><i style="background:var(--acc-soft)"></i>学了但未打卡</span><span><i style="background:var(--sunk)"></i>没学</span></div>
-    <h3 class="sec">各级别掌握情况</h3>
-    <div class="lvrows">${lvRows}</div>
-    <div class="legend">${[1,2,3,4].map(s=>`<span><i class="k${s}"></i>${STAGES[s]}</span>`).join("")}</div>
-    <p class="note" style="margin-top:14px">累计学习 ${reviews} 次（新词 + 复习）。录入 ${LL.custom.length} 个自己的词，写了 ${sents} 个例句，配了 ${imgs} 张图，录了 ${auds} 段发音。</p>`;
+    <div class="legend"><span><i style="background:var(--acc)"></i>打卡</span><span><i style="background:var(--acc-soft)"></i>学过</span></div>
+    <h3 class="sec">各级别</h3>
+    <div class="lvrows">${lvRows}</div>`;
 }
 $("#stage-legend").innerHTML=STAGES.map((s,i)=>`<div class="row" style="gap:10px"><span class="stg s${i}" style="min-width:64px"><i></i>${s}</span><span class="muted">${STAGE_NOTE[i]}</span></div>`).join("");
 
@@ -3961,6 +3952,9 @@ function s2t(str){ // Simplified → Traditional (Taiwan), phrase-aware for comm
   return o;
 }
 const UI_DICT=[
+["打卡", "Done", "Erledigt", "Feito", "打卡"],
+["学过", "Studied", "Gelernt", "Estudado", "學過"],
+["各级别", "By level", "Nach Niveau", "Por nível", "各級別"],
 ["点卡片翻面", "Tap the card to flip", "Karte antippen zum Umdrehen", "Toque no cartão para virar", "點卡片翻面"],
 ["看卡片想一想，点一下卡片翻面，再选记得的程度。", "Think about the card, tap it to flip, then rate how well you knew it.", "Überleg kurz, tipp die Karte zum Umdrehen an und bewerte, wie gut du es wusstest.", "Pense na palavra, toque no cartão para virar e diga quanto lembrou.", "看卡片想一想，點一下卡片翻面，再選記得的程度。"],
 ["用今天的词写几句，或者回答上面的问题。", "Write a few sentences with today's words, or answer the questions above.", "Schreib ein paar Sätze mit den Wörtern von heute oder beantworte die Fragen oben.", "Escreva algumas frases com as palavras de hoje ou responda às perguntas acima.", "用今天的詞寫幾句，或者回答上面的問題。"],
