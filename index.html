@@ -235,7 +235,11 @@ input[type=range]{accent-color:var(--acc);width:100%}
 .rate button small{font-family:var(--f-mono);font-weight:400;font-size:11px;color:var(--muted)}
 .rate .g0{color:var(--bad)} .rate .g1{color:var(--warn)} .rate .g2{color:var(--ok)} .rate .g3{color:var(--acc)}
 .rate button:hover{background:var(--sunk)}
+#sy-gh{display:none!important}
 .flipbtn{margin-top:14px;width:100%;padding:13px}
+.card.tap{cursor:pointer;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none}
+.card.tap:active{transform:scale(.995)}
+.fliphint{text-align:center;color:var(--muted);font-size:13px;margin:12px 0 0}
 .kbd{font-family:var(--f-mono);font-size:11px;border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px;color:var(--muted);font-weight:400}
 .foot{display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:12.5px;color:var(--muted);flex-wrap:wrap;align-items:center}
 .done{text-align:center;padding:36px 12px;display:flex;flex-direction:column;align-items:center;gap:8px}
@@ -391,9 +395,11 @@ ol.steps li{margin:3px 0}
 .mg-gl dt{font-family:var(--f-word);font-weight:600}
 .mg-gl dd{margin:0;color:var(--muted)}
 .mg-gram{background:var(--sunk);border-radius:8px;padding:10px 12px}
-.wr summary{cursor:pointer;list-style:none}.wr summary::-webkit-details-marker{display:none}
-.wr summary h3{display:inline}.wr summary .ar{color:var(--muted);font-size:12px;margin-left:6px}
-.wr textarea{font-family:var(--f-word);font-size:16.5px;line-height:1.6;min-height:140px;margin:8px 0}
+.mg-blk.wr{background:var(--acc-soft);border:1px solid color-mix(in srgb,var(--acc) 28%,transparent);border-radius:14px;padding:16px 16px 12px;margin-top:22px}
+.mg-blk.wr h3{color:var(--acc)!important;font-size:18px!important;margin:0 0 4px!important;border:0!important;padding:0!important;letter-spacing:0!important;text-transform:none!important}
+.wr-prompt{margin:0 0 10px;font-size:15px;color:var(--ink)}
+.wr textarea{display:block;width:100%;box-sizing:border-box;font-family:var(--f-word);font-size:16.5px;line-height:1.6;min-height:130px;margin:0 0 10px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.wr-note{font-size:12px;color:var(--muted);margin:10px 0 0}
 .wr .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .wr-txt{font-family:var(--f-word);font-size:16.5px;line-height:1.75;white-space:pre-wrap;margin:12px 0 6px;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
 .wr-txt mark{background:none;color:inherit;border-bottom:2px solid #d0663b;cursor:pointer;padding:0 1px}
@@ -1229,7 +1235,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
         <h3 class="ph3">界面</h3>
         <div class="field"><label>我在学的语言</label>
           <div class="checks" id="opt-langs"></div>
-          <p class="note">只显示勾选的语言。取消勾选不会删除进度，重新勾上就回来。</p></div>
+          </div>
         <p class="note" style="margin-top:8px"><button class="linkbtn" id="opt-guide" type="button">使用指南</button></p>
         <label class="tog" style="margin-top:12px"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
         <div class="field" style="margin-top:14px"><label for="opt-help">释义和语法说明的语言</label>
@@ -1242,12 +1248,12 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
           <div class="row" style="flex-wrap:nowrap;margin-top:8px"><select id="nt-voice"></select><button class="btn sm" id="nt-get" type="button">下载</button></div>
           <div class="nt-bar" id="nt-prog" hidden><i></i><span class="small muted mono"></span></div>
           <p class="note" id="nt-status" hidden></p>
-          <p class="note">语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。</p>
+          <p class="note hint">语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。</p>
           <p class="note"><button class="linkbtn small" id="nt-del" type="button" hidden>删除这个声音</button></p></div>
       </div>
       <div class="panel">
         <h3 class="ph3">备份与恢复</h3>
-        <p class="note hint">所有内容都保存在这台设备的浏览器里：学习进度、你录入的词、图片、录音和例句。换设备、清理浏览器之前，先导出一份备份文件。</p>
+        <p class="note hint">换设备或清理浏览器之前，先导出一份备份。</p>
         <p class="note" id="bk-last"></p>
         <div class="row" style="margin-top:12px">
           <button class="btn primary" id="bk-export" type="button">导出备份文件</button>
@@ -1255,12 +1261,11 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
         </div>
         <div id="bk-confirm"></div>
         <p class="small muted" id="bk-msg" style="margin:8px 0 0"></p>
-        <p class="note hint" style="margin-top:10px">从 Claude 里那个版本搬过来：在那边「进度」页点「导出备份」，再在这里导入同一个文件。</p>
       </div>
       <div class="panel" id="sy-panel">
         <h3 class="ph3">多设备同步</h3>
-        <p class="note">用同一个邮箱登录，iPhone、iPad 和电脑就共用同一份学习进度、自录单词和我的文章。只用邮箱来登录，不发其他邮件，也不收集别的信息。<a href="privacy.html" target="_blank" rel="noopener">隐私说明</a></p>
-        <div class="segs" id="sy-modes" role="tablist"><button type="button" data-sym="sb" aria-pressed="true">邮箱登录</button><button type="button" data-sym="gh" aria-pressed="false">GitHub（高级）</button></div>
+        <p class="note">用同一个邮箱登录，各设备共用学习进度。<a href="privacy.html" target="_blank" rel="noopener">隐私说明</a></p>
+        <div class="segs" id="sy-modes" role="tablist" hidden><button type="button" data-sym="sb" aria-pressed="true">邮箱登录</button></div>
 
         <div id="sy-sb">
           <p class="note" id="sb-off" hidden>邮箱登录还在准备中，开通后这里就能用。</p>
@@ -1345,7 +1350,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
         <p class="note hint" style="margin-top:8px">浏览器空间紧张时可能清理网站数据。点上面的按钮，请浏览器把这里的数据标记为「不要自动删除」。iPhone 上装到主屏幕后更稳妥。</p>
       </div>
     </aside>
-        <p class="note copy" style="grid-column:1/-1;margin:18px 0 4px;font-size:12.5px;color:var(--muted)" data-noi18n>© 2026 申屠余夏 · 字里行间 · Entrelinhas · 保留所有权利 · All rights reserved. 个人学习免费使用；复制、再发布或商业、机构使用须事先获得书面许可。Private learning is free; copying, redistribution or commercial / institutional use needs written permission. <a href="privacy.html#copyright" target="_blank" rel="noopener">版权与开源组件 / Copyright</a></p>
+        <p class="note copy" style="grid-column:1/-1;margin:18px 0 4px;font-size:12.5px;color:var(--muted)" data-noi18n>© 2026 申屠余夏 · 字里行间 · All rights reserved · <a href="privacy.html#copyright" target="_blank" rel="noopener">版权 / Copyright</a></p>
 </div>
     </div>
   </section>
@@ -1367,7 +1372,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       <div id="dx-out"></div>
     </div>
     <details class="fold" id="fold-browse">
-      <summary><span class="fold-h"><span class="fold-t">词匣</span><small class="fold-n">所有学过和收进来的词，可以按级别和掌握程度查找，也可以自己加词。</small></span></summary>
+      <summary><span class="fold-h"><span class="fold-t">词匣</span><small class="fold-n">学过和收进来的词</small></span></summary>
       <div id="tab-browse" class="grid one foldbody">
     <div class="panel adpanel">
       <details class="adbox" id="ad-box">
@@ -1397,7 +1402,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 </div>
     </details>
     <details class="fold" id="fold-pile">
-      <summary><span class="fold-h"><span class="fold-t">生词堆<span class="ct" id="sub-pile-ct"></span></span><small class="fold-n">总记不住的词：点卡片上的星标放进来，在这里集中复习。评为「简单」的词会自动移出。</small></span></summary>
+      <summary><span class="fold-h"><span class="fold-t">生词堆<span class="ct" id="sub-pile-ct"></span></span><small class="fold-n">总记不住的词</small></span></summary>
       <div id="tab-pile" class="grid foldbody">
     <div class="panel">
       <div class="sesshead">
@@ -1442,7 +1447,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
   <div class="welcome-in" id="wl-guide" hidden>
     <h2>怎么用</h2>
     <ol class="wl-steps">
-      <li><b>今日学习</b><span>每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。下面的「学习总览」是你的进度。</span></li>
+      <li><b>今日学习</b><span>每天的新词和复习。看卡片想一想，点一下卡片翻面，再选记得的程度。</span></li>
       <li><b>阅读</b><span>每天的新文章。点任意单词看解释、收进生词堆；「朗读」旁边的语言按钮可以打开你的母语翻译。</span></li>
       <li><b>字典</b><span>查词典。下面的「词匣」里有全部词汇，可以自己加词；「生词堆」里是你收藏的生词。</span></li>
       <li><b>我的</b><span>设置与备份。用邮箱登录后，进度会在手机、平板和电脑之间同步。</span></li>
@@ -2205,7 +2210,7 @@ function renderCard(){
         <button class="g1" data-g="1">模糊<small>${preview(st,1)} · 2</small></button>
         <button class="g2" data-g="2">记得<small>${preview(st,2)} · 3</small></button>
         <button class="g3" data-g="3">简单<small>${preview(st,3)} · 4</small></button></div>`
-    : `<button class="btn primary flipbtn" id="c-flip">显示答案 <span class="kbd" style="color:inherit;border-color:currentColor;opacity:.75">空格</span></button>`;
+    : `<p class="fliphint">点卡片翻面</p>`;
   area.innerHTML=`<div class="card">${top}<div class="card-body">${body}</div></div>${actions}
     <div class="foot"><span>本轮剩余 ${sess.queue.length+1} 张</span>${sess.flipped&&!hasImg&&!mine.length&&!hasAud?`<button class="btn ghost sm" id="c-add">${I.pen} 例句 / 录音</button>`:`<span>${sess.mode==="pile"?"评「简单」会移出生词堆":""}</span>`}</div>`;
   fillImgs(area);
@@ -2214,7 +2219,7 @@ function renderCard(){
   $("#c-pile").onclick=()=>{ togglePile(c.id); renderCard(); };
   $("#c-edit").onclick=()=>openDetail(c.id);
   const ad=$("#c-add"); if(ad) ad.onclick=()=>openDetail(c.id);
-  const f=$("#c-flip"); if(f) f.onclick=flip;
+  const ce=area.querySelector(".card"); if(ce){ ce.classList.add("tap"); ce.onclick=e=>{ if(e.target.closest("button,a,input,textarea,select,audio,[data-say]")) return; const sel=window.getSelection&&String(window.getSelection()); if(sel) return; if(sess.flipped){ sess.flipped=false; renderCard(); } else flip(); }; }
   area.querySelectorAll(".rate button").forEach(b=>b.onclick=()=>grade(+b.dataset.g));
 }
 function renderDone(area){
@@ -3776,7 +3781,7 @@ function renderAcct(){
   $$("[data-acct]").forEach(el=>{
     el.innerHTML= on||gh
       ? `<div class="acct-in"><span class="av">${on?esc(ini):I.check}</span><div class="who"><b>${on?esc(email):"GitHub · "+esc(SY.repo)}</b><span>${SY.err?esc(SY.err):(last?"已同步 · "+esc(last):"已开启多设备同步")}</span></div><button class="btn sm" type="button" data-acctgo="1">管理账户</button></div>`
-      : `<div class="acct-out"><div><b>登录账户</b><p>登录后，学习进度、自录单词和「我的文章」会在 iPhone、iPad 和电脑之间自动同步；换手机或清理浏览器也不会丢。不登录也能完整使用，数据只保存在这台设备上。</p></div><button class="btn primary sm" type="button" data-acctgo="1">用邮箱登录</button></div>`;
+      : `<div class="acct-out"><div><b>登录账户</b><p>登录后，各设备自动同步。不登录也能用。</p></div><button class="btn primary sm" type="button" data-acctgo="1">用邮箱登录</button></div>`;
   });
 }
 document.addEventListener("click",e=>{ const b=e.target.closest("[data-acctgo]"); if(!b) return; showTab("settings"); syView=SY.mode==="gh"?"gh":"sb"; renderSync(); setTimeout(()=>{ const p=$("#sy-panel"); if(p) p.scrollIntoView({behavior:"smooth",block:"start"}); const em=$("#sb-email"); if(em&&!em.closest("[hidden]")) em.focus({preventScroll:true}); },60); });
@@ -3956,6 +3961,18 @@ function s2t(str){ // Simplified → Traditional (Taiwan), phrase-aware for comm
   return o;
 }
 const UI_DICT=[
+["点卡片翻面", "Tap the card to flip", "Karte antippen zum Umdrehen", "Toque no cartão para virar", "點卡片翻面"],
+["看卡片想一想，点一下卡片翻面，再选记得的程度。", "Think about the card, tap it to flip, then rate how well you knew it.", "Überleg kurz, tipp die Karte zum Umdrehen an und bewerte, wie gut du es wusstest.", "Pense na palavra, toque no cartão para virar e diga quanto lembrou.", "看卡片想一想，點一下卡片翻面，再選記得的程度。"],
+["用今天的词写几句，或者回答上面的问题。", "Write a few sentences with today's words, or answer the questions above.", "Schreib ein paar Sätze mit den Wörtern von heute oder beantworte die Fragen oben.", "Escreva algumas frases com as palavras de hoje ou responda às perguntas acima.", "用今天的詞寫幾句，或者回答上面的問題。"],
+["检查", "Check", "Prüfen", "Verificar", "檢查"],
+["已自动保存", "Saved", "Gespeichert", "Salvo", "已自動保存"],
+["检查由", "Checked by", "Geprüft von", "Verificação por", "檢查由"],
+["提供，文字会发送到它的服务器。", "; your text is sent to its server.", "; der Text wird an dessen Server gesendet.", "; o texto é enviado ao servidor dele.", "提供，文字會發送到它的伺服器。"],
+["用同一个邮箱登录，各设备共用学习进度。", "Log in with the same email and all your devices share your progress.", "Mit derselben E-Mail anmelden – alle Geräte teilen den Lernstand.", "Entre com o mesmo e-mail e todos os aparelhos compartilham o progresso.", "用同一個郵箱登入，各裝置共用學習進度。"],
+["换设备或清理浏览器之前，先导出一份备份。", "Export a backup before switching devices or clearing the browser.", "Vor Gerätewechsel oder Browser-Bereinigung ein Backup exportieren.", "Exporte um backup antes de trocar de aparelho ou limpar o navegador.", "換裝置或清理瀏覽器之前，先匯出一份備份。"],
+["登录后，各设备自动同步。不登录也能用。", "Log in to sync across devices. Works without logging in, too.", "Anmelden, um Geräte zu synchronisieren. Geht auch ohne.", "Entre para sincronizar entre aparelhos. Funciona sem login também.", "登入後，各裝置自動同步。不登入也能用。"],
+["学过和收进来的词", "Words you've learned or saved", "Gelernte und gesammelte Wörter", "Palavras aprendidas e guardadas", "學過和收進來的詞"],
+["总记不住的词", "Words that won't stick", "Wörter, die nicht hängen bleiben", "Palavras que não grudam", "總記不住的詞"],
 ["写一写", "Write", "Schreiben", "Escrever", "寫一寫"],
 ["已存草稿", "draft saved", "Entwurf gespeichert", "rascunho salvo", "已存草稿"],
 ["用今天的词写几句", "a few lines with today's words", "ein paar Sätze mit den Wörtern von heute", "algumas frases com as palavras de hoje", "用今天的詞寫幾句"],
@@ -3971,7 +3988,7 @@ const UI_DICT=[
 ["检查服务暂时不可用，请稍后再试。", "The checking service isn't available right now. Try again later.", "Der Prüfdienst ist gerade nicht erreichbar. Versuch es später.", "O serviço de verificação não está disponível agora. Tente mais tarde.", "檢查服務暫時無法使用，請稍後再試。"],
 ["连不上检查服务，请稍后再试。", "Couldn't reach the checking service. Try again later.", "Prüfdienst nicht erreichbar. Versuch es später.", "Não foi possível conectar ao serviço. Tente mais tarde.", "連不上檢查服務，請稍後再試。"],
 ["太长了：一次最多检查约 6000 个字符。", "Too long: up to about 6,000 characters per check.", "Zu lang: höchstens etwa 6000 Zeichen pro Prüfung.", "Longo demais: até cerca de 6.000 caracteres por verificação.", "太長了：一次最多檢查約 6000 個字元。"],
-["每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。下面的「学习总览」是你的进度。", "New words and reviews every day. Think, tap “Show answer”, then pick how well you knew it. “Overview” below shows your progress.", "Neue Wörter und Wiederholungen jeden Tag. Überlegen, „Antwort zeigen“ tippen, dann wählen, wie gut du es wusstest. Darunter zeigt „Überblick“ deinen Fortschritt.", "Palavras novas e revisões todo dia. Pense, toque em “Mostrar resposta” e escolha o quanto lembrou. Em “Visão geral”, logo abaixo, está seu progresso.", "每天的新詞和複習。看卡片想一想，點「顯示答案」，再按記得的程度選一個按鈕。下面的「學習總覽」是你的進度。"],
+["每天的新词和复习。看卡片想一想，点一下卡片翻面，再选记得的程度。", "New words and reviews every day. Think, tap the card to flip it, then rate how well you knew it.", "Jeden Tag neue Wörter und Wiederholungen. Überleg kurz, tipp die Karte zum Umdrehen an und bewerte dich.", "Palavras novas e revisões todos os dias. Pense, toque no cartão para virar e diga quanto lembrou.", "每天的新詞和複習。看卡片想一想，點一下卡片翻面，再選記得的程度。"],
 ["查词典。下面的「词匣」里有全部词汇，可以自己加词；「生词堆」里是你收藏的生词。", "Look words up. Below, “Word box” holds every word (add your own there) and “Practice pile” the words you've saved.", "Wörter nachschlagen. Darunter: „Wortkiste“ mit allen Wörtern (dort auch eigene hinzufügen) und „Übungsstapel“ mit deinen gemerkten Wörtern.", "Procure palavras. Abaixo, “Caixa de palavras” tem todo o vocabulário (adicione as suas ali) e “Pilha de prática”, as que você guardou.", "查詞典。下面的「詞匣」裡有全部詞彙，可以自己加詞；「生詞堆」裡是你收藏的生詞。"],
 ["设置与备份。用邮箱登录后，进度会在手机、平板和电脑之间同步。", "Settings and backup. Sign in with email to sync across phone, tablet and computer.", "Einstellungen und Sicherung. Mit E-Mail-Anmeldung wird alles zwischen Handy, Tablet und Computer synchronisiert.", "Ajustes e backup. Entre com e-mail para sincronizar celular, tablet e computador.", "設定與備份。用郵箱登入後，進度會在手機、平板和電腦之間同步。"],
 ["学习总览", "Overview", "Überblick", "Visão geral", "學習總覽"],
@@ -4150,7 +4167,6 @@ const UI_DICT=[
 ["已收进闪卡，下次学习会先出现。", "Added – it will come first in your next session.", "Hinzugefügt – kommt beim nächsten Lernen zuerst.", "Adicionada – vai aparecer primeiro no próximo estudo.", "已收進閃卡，下次學習會先出現。"],
 ["词匣里已经有这个词，已放到最前面。", "Already in your word box – moved to the front.", "Schon im Wortkästchen – jetzt ganz vorne.", "Já está em Palavras – foi para o começo da fila.", "詞匣裡已經有這個詞，已放到最前面。"],
 ["怎么用", "How it works", "So funktioniert's", "Como funciona", "怎麼用"],
-["每天的新词和复习。看卡片想一想，点「显示答案」，再按记得的程度选一个按钮。", "New words and reviews every day. Think about the card, tap “Show answer”, then rate how well you knew it.", "Jeden Tag neue Wörter und Wiederholungen. Überleg kurz, tippe auf „Antwort zeigen“ und bewerte, wie gut du es wusstest.", "Palavras novas e revisões todo dia. Pense no cartão, toque em “Mostrar resposta” e diga o quanto você lembrava.", "每天的新詞和複習。看卡片想一想，點「顯示答案」，再按記得的程度選一個按鈕。"],
 ["每天的新文章。点任意单词看解释、收进生词堆；「朗读」旁边的语言按钮可以打开你的母语翻译。", "New texts every day. Tap any word for its meaning and save it; the language button next to “Read aloud” shows translations in your language.", "Jeden Tag neue Texte. Tippe auf ein Wort für die Erklärung und speichere es; der Sprachknopf neben „Vorlesen“ zeigt Übersetzungen in deiner Sprache.", "Textos novos todo dia. Toque numa palavra para ver o significado e salvá-la; o botão de idioma ao lado de “Ler em voz alta” mostra traduções no seu idioma.", "每天的新文章。點任意單詞看解釋、收進生詞堆；「朗讀」旁邊的語言按鈕可以打開你的母語翻譯。"],
 ["查词典、自己加词，浏览全部词汇和你收藏的生词。", "Look words up, add your own, browse every word and your saved ones.", "Wörter nachschlagen, eigene hinzufügen, alle Wörter und deine gemerkten durchsehen.", "Procure palavras, adicione as suas, veja todo o vocabulário e as que guardou.", "查詞典、自己加詞，瀏覽全部詞彙和你收藏的生詞。"],
 ["自己加词", "Add your own word", "Eigenes Wort hinzufügen", "Adicionar palavra", "自己加詞"],
@@ -4797,19 +4813,20 @@ setInterval(()=>{ if(today()!==lastDay){ lastDay=today(); if(DATA[lang()]){ buil
 document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible"&&today()!==lastDay){ lastDay=today(); if(DATA[lang()]){ buildDaily(); renderStrip(); } } });
 
 /* ---------- 写一写: free writing check (LanguageTool public API, no key, no AI) — Portuguese and Spanish ---------- */
-const WR_LANGS={pt:"pt-BR",es:"es"};
+const WR_LANGS={pt:"pt-BR",es:"es",fr:"fr",de:"de-DE",en:"en-US"};
+const WR_PH={pt:"Hoje eu…",es:"Hoy yo…",fr:"Aujourd\u2019hui, je…",de:"Heute habe ich…",en:"Today I…"};
 const WR={key:null,text:null,res:null,busy:false,sel:-1};
 let wrT=null;
 function wrEss(l){ const L=S[l]; return L.essays||(L.essays={}); }
 function wrBlock(key,l){
   const e=wrEss(l)[key]||{}, t=e.t||"", same=WR.key===key&&WR.text===t&&WR.res;
-  return `<details class="mg-blk wr" id="wr" data-key="${esc(key)}"${t?" open":""}><summary><h3>写一写</h3><span class="ar">${t?"已存草稿":"用今天的词写几句"}</span></summary>
-    <p class="small muted" style="margin:6px 0 0">回答上面的问题，或用今天的新词写几句。写的内容会自动保存。</p>
-    <textarea id="wr-t" lang="${WR_LANGS[l]}" spellcheck="false" autocapitalize="sentences" data-noi18n placeholder="${l==="pt"?"Hoje eu…":"Hoy yo…"}">${esc(t)}</textarea>
-    <div class="row"><button class="btn primary" id="wr-go" type="button">检查拼写和语法</button><span class="small muted" id="wr-msg"></span></div>
+  return `<section class="mg-blk wr" id="wr" data-key="${esc(key)}"><h3>写一写</h3>
+    <p class="wr-prompt">用今天的词写几句，或者回答上面的问题。</p>
+    <textarea id="wr-t" lang="${WR_LANGS[l]}" spellcheck="false" autocapitalize="sentences" rows="5" data-noi18n placeholder="${esc(WR_PH[l]||"")}">${esc(t)}</textarea>
+    <div class="row"><button class="btn primary" id="wr-go" type="button">检查</button><span class="small muted" id="wr-msg">${t?"已自动保存":""}</span></div>
     <div id="wr-out">${same?wrResult(t,WR.res):""}</div>
-    <p class="small muted" style="margin:10px 0 0"><span>免费检查：点「检查」时，文字会发送到 LanguageTool 的服务器。机器检查只看拼写和语法，不判断内容，也会漏掉一些错误。</span> <a href="https://languagetool.org" target="_blank" rel="noopener" data-noi18n>languagetool.org</a></p>
-  </details>`;
+    <p class="wr-note">检查由 <a href="https://languagetool.org" target="_blank" rel="noopener" data-noi18n>LanguageTool</a> 提供，文字会发送到它的服务器。</p>
+  </section>`;
 }
 function wrCls(m){ const t=(m.rule&&m.rule.issueType)||""; return t==="misspelling"?"sp":(t==="style"||t==="typographical"||t==="whitespace")?"st":""; }
 function wrResult(t,ms){
@@ -4849,7 +4866,7 @@ function wrFix(i,v){
   const out=$("#wr-out"); if(out) out.innerHTML=wrResult(nt,rest);
 }
 document.addEventListener("input",e=>{ if(e.target&&e.target.id==="wr-t"){ const box=$("#wr"), l=lang(), key=box&&box.dataset.key, t=e.target.value;
-  clearTimeout(wrT); wrT=setTimeout(()=>{ if(key) wrStore(l,key,t); },600);
+  clearTimeout(wrT); wrT=setTimeout(()=>{ if(key){ wrStore(l,key,t); const m=$("#wr-msg"); if(m&&!WR.busy) m.textContent=t.trim()?trOne("已自动保存"):""; } },600);
   if(WR.res&&t!==WR.text){ WR.res=null; WR.text=null; const out=$("#wr-out"); if(out) out.innerHTML=""; } } });
 document.addEventListener("click",e=>{ const b=e.target.closest&&e.target.closest("#wr-go,[data-wri],[data-wrli],[data-wrfix]"); if(!b) return;
   if(b.id==="wr-go") wrCheck();
