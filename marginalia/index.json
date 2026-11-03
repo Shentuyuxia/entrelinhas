@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:50:25+00:00",
+ "updated": "2026-11-03T16:53:41+00:00",
  "days": [
   {
    "date": "2026-11-03",
@@ -26,6 +26,22 @@
      "title": "La musique du vieux bidon",
      "kind": "feature",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "es",
+     "title": "Primer día en Quito: ¿a qué te dedicas?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "es",
+     "title": "«Pura vida»: dos palabras que son una actitud",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]

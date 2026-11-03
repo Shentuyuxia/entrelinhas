@@ -1,287 +1,519 @@
 {
-  "date": "2026-11-03",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-03",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "essay",
+   "section": "Music",
+   "title": "The toll on the keyboard",
+   "dek": "Two new novels, by Yiyun Li and Barbara Kingsolver, treat the piano as an exit from poverty and the colonial margin. Reviewing them in The Baffler, Kevin Ng shows how much that exit costs, and who pays.",
+   "tags": [
+    "music",
+    "The Baffler",
+    "class",
+    "negative inversion"
+   ],
+   "paragraphs": [
+    "Few instruments have been asked to carry as much social freight as the piano, which has served as parlour furniture, as a discipline for the young and as a promise of escape. That promise animates two novels published this autumn, Yiyun Li's Music Against the Night and Barbara Kingsolver's Partita, which the critic Kevin Ng reviews side by side in The Baffler. Ng reads both as social novels at heart: stories in which talent opens a route out, while the institutions of classical music make that route punishingly hard to travel. The verdicts below on each book's merits are his; the conclusions about labour are this article's own.",
+    "Li's book, the first of a planned Nocturne trilogy, starts from two real lives. John Field, who was born in Dublin in 1782 and died in Moscow in 1837, is the Irish pianist credited with inventing the nocturne, the form Chopin would make famous with twenty-one examples of his own. Adelaide Percheron was the pupil he married. In Li's telling she comes to the piano in French-occupied Pondicherry, the daughter of a French father and a mother of mixed Tamil, Arab and European descent, and is brought up by her grandmother after her mother dies in childbirth. Not until the closing pages, in the Moscow of 1807, do the two finally meet.",
+    "What fills the time before that meeting is a long education in dependency. Adelaide must get past disapproving relatives and predatory guardians simply to secure a piano of her own, and she relies on a shifting cast of lovers, mentors and benefactors; the ambition applauded in men, Ng notes, counts against her. Race and gender then bar her way in Europe, and Ng finds in that Eurocentric elitism rich matter for a novel of society. John's path looks easier only by comparison: his mother uproots the family and finally surrenders him to Muzio Clementi, who in Li's version schools the boy in self-promotion and in the need to defeat other musicians.",
+    "That cameo, which Ng finds witty, rests on solid history. Clementi co-founded a firm in 1799 that both published music and manufactured pianos, and the young Field demonstrated instruments to customers for him. It is hard not to hear a contemporary note here: the virtuoso as sales representative, his art inseparable from the product it advertises, is a recognisable ancestor of today's musician managing a personal brand. Two centuries of technological change have altered the shop floor more than the bargain.",
+    "Kingsolver moves the same problem to contemporary Appalachia. Her heroine, Livia, was once a prodigy and now teaches piano and lives as a farmer's wife, until a call from Sigurd, her college boyfriend and a labour organiser, sends the novel back into her past through chapters named after Baroque dances. As a student she has teachers who mock her accent and clothes, and it is a restaurant job that ends her career, by injuring her hand. Ng calls this the book's clearest argument about class, since she alone among her classmates needs the kind of physical work that endangers the very asset she is training. Kingsolver knows the terrain: she studied piano for a year in college before concluding that she would not be among the very few who make a concert career.",
+    "On the novel's politics Ng is less persuaded. Sigurd flirts in revolutionary slogans, and Ng cannot decide whether this is a critique of the left's moralising or an indulgence on the author's part; the flashbacks, he adds, drift towards melodrama. He is warmer about the sounds and rhythms of her Appalachia, and her picture of a community drained by extraction. He also admires an ending that refuses the redemptive escape narrative associated with J.D. Vance's Hillbilly Elegy, offering instead a small act of catharsis when Livia burns her dead mother's belongings.",
+    "Ng's final conceit is that the two titles might be exchanged, since Kingsolver has written something closer to a nocturne and Li, the more formally ambitious of the two, something closer to a partita. Read together, the books also suggest a less elegant conclusion. The hours of practice that produce a pianist are paid for by somebody, whether a mother who gives up a home, a grandmother, a patron with expectations or a student working restaurant shifts. Classical music has tended to present that bill as a matter of sacrifice and vocation, and both novels, in their different keys, insist on reading it as what it also is: a question of who can afford to play."
+   ],
+   "glossary": [
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "essay",
-      "section": "Music",
-      "title": "The toll on the keyboard",
-      "dek": "Two new novels, by Yiyun Li and Barbara Kingsolver, treat the piano as an exit from poverty and the colonial margin. Reviewing them in The Baffler, Kevin Ng shows how much that exit costs, and who pays.",
-      "tags": [
-        "music",
-        "The Baffler",
-        "class",
-        "negative inversion"
-      ],
-      "paragraphs": [
-        "Few instruments have been asked to carry as much social freight as the piano, which has served as parlour furniture, as a discipline for the young and as a promise of escape. That promise animates two novels published this autumn, Yiyun Li's Music Against the Night and Barbara Kingsolver's Partita, which the critic Kevin Ng reviews side by side in The Baffler. Ng reads both as social novels at heart: stories in which talent opens a route out, while the institutions of classical music make that route punishingly hard to travel. The verdicts below on each book's merits are his; the conclusions about labour are this article's own.",
-        "Li's book, the first of a planned Nocturne trilogy, starts from two real lives. John Field, who was born in Dublin in 1782 and died in Moscow in 1837, is the Irish pianist credited with inventing the nocturne, the form Chopin would make famous with twenty-one examples of his own. Adelaide Percheron was the pupil he married. In Li's telling she comes to the piano in French-occupied Pondicherry, the daughter of a French father and a mother of mixed Tamil, Arab and European descent, and is brought up by her grandmother after her mother dies in childbirth. Not until the closing pages, in the Moscow of 1807, do the two finally meet.",
-        "What fills the time before that meeting is a long education in dependency. Adelaide must get past disapproving relatives and predatory guardians simply to secure a piano of her own, and she relies on a shifting cast of lovers, mentors and benefactors; the ambition applauded in men, Ng notes, counts against her. Race and gender then bar her way in Europe, and Ng finds in that Eurocentric elitism rich matter for a novel of society. John's path looks easier only by comparison: his mother uproots the family and finally surrenders him to Muzio Clementi, who in Li's version schools the boy in self-promotion and in the need to defeat other musicians.",
-        "That cameo, which Ng finds witty, rests on solid history. Clementi co-founded a firm in 1799 that both published music and manufactured pianos, and the young Field demonstrated instruments to customers for him. It is hard not to hear a contemporary note here: the virtuoso as sales representative, his art inseparable from the product it advertises, is a recognisable ancestor of today's musician managing a personal brand. Two centuries of technological change have altered the shop floor more than the bargain.",
-        "Kingsolver moves the same problem to contemporary Appalachia. Her heroine, Livia, was once a prodigy and now teaches piano and lives as a farmer's wife, until a call from Sigurd, her college boyfriend and a labour organiser, sends the novel back into her past through chapters named after Baroque dances. As a student she has teachers who mock her accent and clothes, and it is a restaurant job that ends her career, by injuring her hand. Ng calls this the book's clearest argument about class, since she alone among her classmates needs the kind of physical work that endangers the very asset she is training. Kingsolver knows the terrain: she studied piano for a year in college before concluding that she would not be among the very few who make a concert career.",
-        "On the novel's politics Ng is less persuaded. Sigurd flirts in revolutionary slogans, and Ng cannot decide whether this is a critique of the left's moralising or an indulgence on the author's part; the flashbacks, he adds, drift towards melodrama. He is warmer about the sounds and rhythms of her Appalachia, and her picture of a community drained by extraction. He also admires an ending that refuses the redemptive escape narrative associated with J.D. Vance's Hillbilly Elegy, offering instead a small act of catharsis when Livia burns her dead mother's belongings.",
-        "Ng's final conceit is that the two titles might be exchanged, since Kingsolver has written something closer to a nocturne and Li, the more formally ambitious of the two, something closer to a partita. Read together, the books also suggest a less elegant conclusion. The hours of practice that produce a pianist are paid for by somebody, whether a mother who gives up a home, a grandmother, a patron with expectations or a student working restaurant shifts. Classical music has tended to present that bill as a matter of sacrifice and vocation, and both novels, in their different keys, insist on reading it as what it also is: a question of who can afford to play."
-      ],
-      "glossary": [
-        {
-          "w": "social freight",
-          "en": "the weight of meanings and expectations that a society attaches to something",
-          "zh": "社会意涵；社会包袱"
-        },
-        {
-          "w": "punishingly",
-          "en": "in a way that is extremely hard or exhausting",
-          "zh": "令人精疲力竭地"
-        },
-        {
-          "w": "bar someone's way",
-          "en": "to stop someone from going forward or reaching a goal",
-          "zh": "挡住某人的去路"
-        },
-        {
-          "w": "surrender someone to",
-          "en": "to give someone up into another person's care or control",
-          "zh": "把某人交托给"
-        },
-        {
-          "w": "cameo",
-          "en": "a brief appearance by a well-known figure in a book or film",
-          "zh": "客串；短暂露面"
-        },
-        {
-          "w": "the shop floor",
-          "en": "the place where the practical work of a business is done, as opposed to its management",
-          "zh": "生产一线；车间"
-        },
-        {
-          "w": "the terrain",
-          "en": "figuratively, a subject or field of experience that someone knows",
-          "zh": "（喻）领域；所涉的天地"
-        },
-        {
-          "w": "moralising",
-          "en": "the act of judging others' behaviour in a superior way",
-          "zh": "说教；道德评判"
-        },
-        {
-          "w": "catharsis",
-          "en": "the release of strong feeling, bringing a sense of relief",
-          "zh": "情感宣泄；净化"
-        },
-        {
-          "w": "conceit",
-          "en": "an ingenious, deliberately striking comparison or idea",
-          "zh": "巧妙的比喻；奇思"
-        },
-        {
-          "w": "present a bill",
-          "en": "here figurative: to make someone face the cost of something",
-          "zh": "（喻）开出账单；要人承担代价"
-        }
-      ],
-      "grammar": "\"Not until the closing pages, in the Moscow of 1807, do the two finally meet\" fronts a negative adverbial, which forces subject-auxiliary inversion (\"do the two meet\", not \"the two meet\"). The ordinary order would be \"The two do not meet until the closing pages\". Fronting holds back the event and places the weight on the delay, which suits literary and formal prose. The same pattern follows \"only when\", \"never\" and \"rarely\".",
-      "grammar_zh": "\"Not until the closing pages, in the Moscow of 1807, do the two finally meet\" 把否定状语提到句首，因此主语和助动词必须倒装（写成 \"do the two meet\"，而不是 \"the two meet\"）。正常语序是 \"The two do not meet until the closing pages\"。前置后，事件被推迟到句末，重心落在\"等待之久\"上，适合文学和正式文体。\"only when\"、\"never\"、\"rarely\" 开头时也用同样的结构。",
-      "questions": [
-        "How does the history of Clementi's business change the way you read his cameo in Li's novel?",
-        "Why does Ng regard Livia's restaurant job as the clearest argument about class in Partita?",
-        "The closing paragraph says practice is 'paid for by somebody'. Do you think that framing clarifies or reduces what musicians' families and patrons do?"
-      ],
-      "sources": [
-        {
-          "title": "An Almost Classical Mode (Kevin Ng, The Baffler, 26 October 2026)",
-          "url": "https://thebaffler.com/latest/an-almost-classical-mode-ng",
-          "license": "link only"
-        },
-        {
-          "title": "Music Against the Night (Kirkus Reviews)",
-          "url": "https://www.kirkusreviews.com/book-reviews/yiyun-li/music-against-the-night/",
-          "license": "link only"
-        },
-        {
-          "title": "Barbara Kingsolver's book 'Partita' grapples with the reality that our bodies fail us (WYPR)",
-          "url": "https://www.wypr.org/2026-10-05/barbara-kingsolvers-book-partita-grapples-with-the-reality-that-our-bodies-fail-us",
-          "license": "link only"
-        },
-        {
-          "title": "Muzio Clementi (Britannica)",
-          "url": "https://www.britannica.com/biography/Muzio-Clementi",
-          "license": "link only"
-        },
-        {
-          "title": "John Field (1782–1837) (MFiles)",
-          "url": "https://w.mfiles.co.uk/composers/John-Field.htm",
-          "license": "link only"
-        }
-      ]
+     "w": "social freight",
+     "en": "the weight of meanings and expectations that a society attaches to something",
+     "zh": "社会意涵；社会包袱"
     },
     {
-      "lang": "en",
-      "level": "C1",
-      "kind": "brief",
-      "section": "In brief",
-      "title": "The mosquito on the sofa",
-      "dek": "A party snack, a forest roof and a French settee all descend from one small, whining insect.",
-      "tags": [
-        "etymology",
-        "Merriam-Webster",
-        "food",
-        "gapping"
-      ],
-      "paragraphs": [
-        "Pick up a canapé at a reception and you are holding, by a long and improbable route, a mosquito. The ancient Greek word for the insect was kōnōps, and from it came a word for the net that kept it away. According to Etymonline, the Greek term could also mean an Egyptian couch hung with such curtains, a bed you could sleep on unbitten. The origin of kōnōps itself is unknown, although one proposal looks to an Egyptian word for gnat.",
-        "The Romans borrowed the word as conopeum, and from there it split in two. English kept the net, French the furniture. Middle English canope became canopy, first a cloth hung over a bed, then a cover set above a dignitary or a sacred object, and eventually the top layer of a forest, the glass over a cockpit and the fabric of a parachute. French canapé, meanwhile, came to mean a sofa, as the same word still does in Spanish and Portuguese, the insect and its netting long forgotten.",
-        "The final leap was culinary. A piece of bread or toast topped with something savoury was thought to resemble a couch, and so the sofa lent its name to the snack, which English later borrowed from French along with the word. Merriam-Webster traces the whole family through these steps. So the next time a waiter offers you a tiny square of toast and caviar, you may reflect that it is, etymologically, a very small piece of furniture named after a pest."
-      ],
-      "glossary": [
-        {
-          "w": "improbable",
-          "en": "not likely to be true or to happen; surprising",
-          "zh": "出人意料的；不大可能的"
-        },
-        {
-          "w": "dignitary",
-          "en": "a person of high rank or official position",
-          "zh": "显要人物；高官"
-        },
-        {
-          "w": "savoury",
-          "en": "salty or spicy rather than sweet",
-          "zh": "咸香的；开胃的"
-        },
-        {
-          "w": "settee",
-          "en": "a long comfortable seat for two or more people; a sofa",
-          "zh": "长沙发"
-        },
-        {
-          "w": "lend its name to",
-          "en": "to give its name to something else",
-          "zh": "以其名称为……命名"
-        }
-      ],
-      "grammar": "\"English kept the net, French the furniture\" is an example of gapping: the verb \"kept\" is left out of the second clause because the reader can supply it from the first. The device is crisp and suits parallel contrasts in written English. A comma often marks the place of the missing verb.",
-      "grammar_zh": "\"English kept the net, French the furniture\" 是\"空缺句\"（gapping）：第二个分句省略了动词 \"kept\"，读者可以从第一分句补出。这种写法简洁利落，适合书面英语中的平行对比。省略处通常用逗号标示。",
-      "questions": [
-        "How did a word for an insect come to name both a forest layer and a snack?",
-        "Which step in this word's history do you find least predictable, and why?"
-      ],
-      "sources": [
-        {
-          "title": "12 Words Whose History Will Surprise You (Merriam-Webster)",
-          "url": "https://www.merriam-webster.com/wordplay/words-with-surprising-histories",
-          "license": "link only"
-        },
-        {
-          "title": "canopy (Etymonline)",
-          "url": "https://www.etymonline.com/word/canopy",
-          "license": "link only"
-        },
-        {
-          "title": "canopy (Merriam-Webster Dictionary)",
-          "url": "https://www.merriam-webster.com/dictionary/canopy",
-          "license": "link only"
-        }
-      ]
+     "w": "punishingly",
+     "en": "in a way that is extremely hard or exhausting",
+     "zh": "令人精疲力竭地"
     },
     {
-      "lang": "fr",
-      "level": "A2",
-      "kind": "feature",
-      "section": "Musique",
-      "title": "La musique du vieux bidon",
-      "dek": "Les autorités coloniales ont interdit les tambours. Alors, à Trinité-et-Tobago, des musiciens ont inventé un instrument avec des bidons de pétrole.",
-      "tags": [
-        "Trinité-et-Tobago",
-        "Caraïbes",
-        "colonialisme",
-        "passé composé négatif"
-      ],
-      "paragraphs": [
-        "Trinité-et-Tobago est un petit pays des Caraïbes, près du Venezuela. Son instrument national est le steelpan. Il ressemble à une grande casserole en métal, et il est fait avec un bidon de pétrole. Sa musique est joyeuse, mais son histoire est une histoire de lutte.",
-        "Au XIXe siècle, les Britanniques ont dirigé ce pays. Des descendants d'esclaves africains ont joué du tambour pendant le carnaval. Les autorités n'ont pas aimé ça : dans les années 1880, elles ont interdit les tambours. Mais les musiciens n'ont pas arrêté. Ils ont coupé du bambou et ils ont continué à jouer. Plus tard, les autorités ont aussi interdit le bambou.",
-        "Alors, les musiciens ont cherché autre chose. En 1937, à Laventille, un quartier populaire de la capitale, ils ont joué sur des poêles, des couvercles de poubelle et des bidons. Le pays produit du pétrole, donc il y a beaucoup de bidons ! Les musiciens ont tapé sur le métal et ils ont découvert une chose : selon sa forme, il donne des notes différentes. Le steelpan est né.",
-        "En 1951, un orchestre de steelpans est allé à Londres pour un grand festival. Ces musiciens ont joué dans la capitale de ceux qui ont interdit leurs tambours. En 2023, l'ONU a choisi une journée mondiale du steelpan : le 11 août. Et au prochain carnaval, de grands orchestres vont encore jouer dans le concours Panorama."
-      ],
-      "paragraphs_en": [
-        "Trinidad and Tobago is a small Caribbean country near Venezuela. Its national instrument is the steelpan. It looks like a big metal pot, and it is made from an oil drum. Its music is cheerful, but its history is a history of struggle.",
-        "In the 19th century, the British ruled this country. Descendants of enslaved Africans played drums during carnival. The authorities did not like that: in the 1880s, they banned drums. But the musicians did not stop. They cut bamboo and kept on playing. Later, the authorities banned bamboo too.",
-        "So the musicians looked for something else. In 1937, in Laventille, a working-class district of the capital, they played on frying pans, dustbin lids and drums. The country produces oil, so there are plenty of drums! The musicians hammered the metal and discovered something: depending on its shape, it gives different notes. The steelpan was born.",
-        "In 1951, a steelpan orchestra went to London for a big festival. These musicians played in the capital of the people who had banned their drums. In 2023, the UN chose a world steelpan day: 11 August. And at the next carnival, big orchestras will play once again in the Panorama competition."
-      ],
-      "paragraphs_de": [
-        "Trinidad und Tobago ist ein kleines Land in der Karibik, nahe bei Venezuela. Sein Nationalinstrument ist die Steelpan. Sie sieht aus wie ein großer Metalltopf und wird aus einem Ölfass gemacht. Ihre Musik ist fröhlich, aber ihre Geschichte ist eine Geschichte des Kampfes.",
-        "Im 19. Jahrhundert regierten die Briten dieses Land. Nachfahren versklavter Afrikaner spielten beim Karneval Trommel. Den Behörden gefiel das nicht: In den 1880er-Jahren verboten sie die Trommeln. Doch die Musiker hörten nicht auf. Sie schnitten Bambus und spielten weiter. Später verboten die Behörden auch den Bambus.",
-        "Also suchten die Musiker etwas anderes. 1937 spielten sie in Laventille, einem Arbeiterviertel der Hauptstadt, auf Bratpfannen, Mülleimerdeckeln und Fässern. Das Land fördert Öl, deshalb gibt es viele Fässer! Die Musiker schlugen auf das Metall und entdeckten etwas: Je nach Form gibt es verschiedene Töne. Die Steelpan war geboren.",
-        "1951 reiste ein Steelpan-Orchester zu einem großen Festival nach London. Diese Musiker spielten in der Hauptstadt derer, die ihre Trommeln verboten hatten. 2023 legte die UNO einen Welttag der Steelpan fest: den 11. August. Und beim nächsten Karneval werden große Orchester wieder im Wettbewerb Panorama spielen."
-      ],
-      "glossary": [
-        {
-          "w": "le bidon",
-          "fr": "un grand récipient en métal pour un liquide, par exemple le pétrole",
-          "de": "das Fass, der Kanister"
-        },
-        {
-          "w": "le tambour",
-          "fr": "un instrument de musique : on tape dessus avec les mains ou des bâtons",
-          "de": "die Trommel"
-        },
-        {
-          "w": "interdire",
-          "fr": "dire qu'une chose n'est pas permise",
-          "de": "verbieten"
-        },
-        {
-          "w": "la lutte",
-          "fr": "l'action de se battre pour quelque chose, pour ses droits par exemple",
-          "de": "der Kampf"
-        },
-        {
-          "w": "un descendant",
-          "fr": "une personne de la famille qui vient après : un enfant, un petit-enfant…",
-          "de": "der Nachfahre"
-        },
-        {
-          "w": "la poêle",
-          "fr": "un objet de cuisine plat pour faire cuire les œufs ou la viande",
-          "de": "die Bratpfanne"
-        },
-        {
-          "w": "le couvercle",
-          "fr": "la partie qui ferme le haut d'une boîte ou d'une casserole",
-          "de": "der Deckel"
-        },
-        {
-          "w": "taper",
-          "fr": "donner des coups sur quelque chose",
-          "de": "schlagen, klopfen"
-        }
-      ],
-      "grammar": "Negation in the passé composé: ne and pas go around the auxiliary, not around the whole verb. So you say « Les musiciens n'ont pas arrêté », with ne before ont and pas right after it; the past participle arrêté comes last. Before a vowel, ne becomes n', as in « Les autorités n'ont pas aimé ça ».",
-      "grammar_de": "Verneinung im passé composé: ne und pas stehen um das Hilfsverb, nicht um das ganze Verb. Man sagt also « Les musiciens n'ont pas arrêté », mit ne vor ont und pas direkt danach; das Partizip arrêté kommt zuletzt. Vor einem Vokal wird ne zu n', wie in « Les autorités n'ont pas aimé ça ».",
-      "questions": [
-        "Avec quel objet fait-on un steelpan ?",
-        "Pourquoi les musiciens ont-ils joué avec du bambou ?",
-        "Qu'est-ce que l'ONU a choisi en 2023 ?"
-      ],
-      "sources": [
-        {
-          "title": "Steelpan",
-          "url": "https://en.wikipedia.org/wiki/Steelpan",
-          "license": "CC BY-SA 4.0"
-        },
-        {
-          "title": "The story of the steel drum in Trinidad and Tobago",
-          "url": "https://oxfordbusinessgroup.com/reports/trinidad-tobago/2015-report/economy/the-story-of-the-steel-drum-in-trinidad-and-tobago",
-          "license": "link only"
-        },
-        {
-          "title": "UN declares Aug. 11 World Steelpan Day",
-          "url": "https://www.caribbeanlife.com/un-declares-aug-11-world-steelpan-day",
-          "license": "link only"
-        }
-      ]
+     "w": "bar someone's way",
+     "en": "to stop someone from going forward or reaching a goal",
+     "zh": "挡住某人的去路"
+    },
+    {
+     "w": "surrender someone to",
+     "en": "to give someone up into another person's care or control",
+     "zh": "把某人交托给"
+    },
+    {
+     "w": "cameo",
+     "en": "a brief appearance by a well-known figure in a book or film",
+     "zh": "客串；短暂露面"
+    },
+    {
+     "w": "the shop floor",
+     "en": "the place where the practical work of a business is done, as opposed to its management",
+     "zh": "生产一线；车间"
+    },
+    {
+     "w": "the terrain",
+     "en": "figuratively, a subject or field of experience that someone knows",
+     "zh": "（喻）领域；所涉的天地"
+    },
+    {
+     "w": "moralising",
+     "en": "the act of judging others' behaviour in a superior way",
+     "zh": "说教；道德评判"
+    },
+    {
+     "w": "catharsis",
+     "en": "the release of strong feeling, bringing a sense of relief",
+     "zh": "情感宣泄；净化"
+    },
+    {
+     "w": "conceit",
+     "en": "an ingenious, deliberately striking comparison or idea",
+     "zh": "巧妙的比喻；奇思"
+    },
+    {
+     "w": "present a bill",
+     "en": "here figurative: to make someone face the cost of something",
+     "zh": "（喻）开出账单；要人承担代价"
     }
-  ]
+   ],
+   "grammar": "\"Not until the closing pages, in the Moscow of 1807, do the two finally meet\" fronts a negative adverbial, which forces subject-auxiliary inversion (\"do the two meet\", not \"the two meet\"). The ordinary order would be \"The two do not meet until the closing pages\". Fronting holds back the event and places the weight on the delay, which suits literary and formal prose. The same pattern follows \"only when\", \"never\" and \"rarely\".",
+   "grammar_zh": "\"Not until the closing pages, in the Moscow of 1807, do the two finally meet\" 把否定状语提到句首，因此主语和助动词必须倒装（写成 \"do the two meet\"，而不是 \"the two meet\"）。正常语序是 \"The two do not meet until the closing pages\"。前置后，事件被推迟到句末，重心落在\"等待之久\"上，适合文学和正式文体。\"only when\"、\"never\"、\"rarely\" 开头时也用同样的结构。",
+   "questions": [
+    "How does the history of Clementi's business change the way you read his cameo in Li's novel?",
+    "Why does Ng regard Livia's restaurant job as the clearest argument about class in Partita?",
+    "The closing paragraph says practice is 'paid for by somebody'. Do you think that framing clarifies or reduces what musicians' families and patrons do?"
+   ],
+   "sources": [
+    {
+     "title": "An Almost Classical Mode (Kevin Ng, The Baffler, 26 October 2026)",
+     "url": "https://thebaffler.com/latest/an-almost-classical-mode-ng",
+     "license": "link only"
+    },
+    {
+     "title": "Music Against the Night (Kirkus Reviews)",
+     "url": "https://www.kirkusreviews.com/book-reviews/yiyun-li/music-against-the-night/",
+     "license": "link only"
+    },
+    {
+     "title": "Barbara Kingsolver's book 'Partita' grapples with the reality that our bodies fail us (WYPR)",
+     "url": "https://www.wypr.org/2026-10-05/barbara-kingsolvers-book-partita-grapples-with-the-reality-that-our-bodies-fail-us",
+     "license": "link only"
+    },
+    {
+     "title": "Muzio Clementi (Britannica)",
+     "url": "https://www.britannica.com/biography/Muzio-Clementi",
+     "license": "link only"
+    },
+    {
+     "title": "John Field (1782–1837) (MFiles)",
+     "url": "https://w.mfiles.co.uk/composers/John-Field.htm",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "C1",
+   "kind": "brief",
+   "section": "In brief",
+   "title": "The mosquito on the sofa",
+   "dek": "A party snack, a forest roof and a French settee all descend from one small, whining insect.",
+   "tags": [
+    "etymology",
+    "Merriam-Webster",
+    "food",
+    "gapping"
+   ],
+   "paragraphs": [
+    "Pick up a canapé at a reception and you are holding, by a long and improbable route, a mosquito. The ancient Greek word for the insect was kōnōps, and from it came a word for the net that kept it away. According to Etymonline, the Greek term could also mean an Egyptian couch hung with such curtains, a bed you could sleep on unbitten. The origin of kōnōps itself is unknown, although one proposal looks to an Egyptian word for gnat.",
+    "The Romans borrowed the word as conopeum, and from there it split in two. English kept the net, French the furniture. Middle English canope became canopy, first a cloth hung over a bed, then a cover set above a dignitary or a sacred object, and eventually the top layer of a forest, the glass over a cockpit and the fabric of a parachute. French canapé, meanwhile, came to mean a sofa, as the same word still does in Spanish and Portuguese, the insect and its netting long forgotten.",
+    "The final leap was culinary. A piece of bread or toast topped with something savoury was thought to resemble a couch, and so the sofa lent its name to the snack, which English later borrowed from French along with the word. Merriam-Webster traces the whole family through these steps. So the next time a waiter offers you a tiny square of toast and caviar, you may reflect that it is, etymologically, a very small piece of furniture named after a pest."
+   ],
+   "glossary": [
+    {
+     "w": "improbable",
+     "en": "not likely to be true or to happen; surprising",
+     "zh": "出人意料的；不大可能的"
+    },
+    {
+     "w": "dignitary",
+     "en": "a person of high rank or official position",
+     "zh": "显要人物；高官"
+    },
+    {
+     "w": "savoury",
+     "en": "salty or spicy rather than sweet",
+     "zh": "咸香的；开胃的"
+    },
+    {
+     "w": "settee",
+     "en": "a long comfortable seat for two or more people; a sofa",
+     "zh": "长沙发"
+    },
+    {
+     "w": "lend its name to",
+     "en": "to give its name to something else",
+     "zh": "以其名称为……命名"
+    }
+   ],
+   "grammar": "\"English kept the net, French the furniture\" is an example of gapping: the verb \"kept\" is left out of the second clause because the reader can supply it from the first. The device is crisp and suits parallel contrasts in written English. A comma often marks the place of the missing verb.",
+   "grammar_zh": "\"English kept the net, French the furniture\" 是\"空缺句\"（gapping）：第二个分句省略了动词 \"kept\"，读者可以从第一分句补出。这种写法简洁利落，适合书面英语中的平行对比。省略处通常用逗号标示。",
+   "questions": [
+    "How did a word for an insect come to name both a forest layer and a snack?",
+    "Which step in this word's history do you find least predictable, and why?"
+   ],
+   "sources": [
+    {
+     "title": "12 Words Whose History Will Surprise You (Merriam-Webster)",
+     "url": "https://www.merriam-webster.com/wordplay/words-with-surprising-histories",
+     "license": "link only"
+    },
+    {
+     "title": "canopy (Etymonline)",
+     "url": "https://www.etymonline.com/word/canopy",
+     "license": "link only"
+    },
+    {
+     "title": "canopy (Merriam-Webster Dictionary)",
+     "url": "https://www.merriam-webster.com/dictionary/canopy",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "fr",
+   "level": "A2",
+   "kind": "feature",
+   "section": "Musique",
+   "title": "La musique du vieux bidon",
+   "dek": "Les autorités coloniales ont interdit les tambours. Alors, à Trinité-et-Tobago, des musiciens ont inventé un instrument avec des bidons de pétrole.",
+   "tags": [
+    "Trinité-et-Tobago",
+    "Caraïbes",
+    "colonialisme",
+    "passé composé négatif"
+   ],
+   "paragraphs": [
+    "Trinité-et-Tobago est un petit pays des Caraïbes, près du Venezuela. Son instrument national est le steelpan. Il ressemble à une grande casserole en métal, et il est fait avec un bidon de pétrole. Sa musique est joyeuse, mais son histoire est une histoire de lutte.",
+    "Au XIXe siècle, les Britanniques ont dirigé ce pays. Des descendants d'esclaves africains ont joué du tambour pendant le carnaval. Les autorités n'ont pas aimé ça : dans les années 1880, elles ont interdit les tambours. Mais les musiciens n'ont pas arrêté. Ils ont coupé du bambou et ils ont continué à jouer. Plus tard, les autorités ont aussi interdit le bambou.",
+    "Alors, les musiciens ont cherché autre chose. En 1937, à Laventille, un quartier populaire de la capitale, ils ont joué sur des poêles, des couvercles de poubelle et des bidons. Le pays produit du pétrole, donc il y a beaucoup de bidons ! Les musiciens ont tapé sur le métal et ils ont découvert une chose : selon sa forme, il donne des notes différentes. Le steelpan est né.",
+    "En 1951, un orchestre de steelpans est allé à Londres pour un grand festival. Ces musiciens ont joué dans la capitale de ceux qui ont interdit leurs tambours. En 2023, l'ONU a choisi une journée mondiale du steelpan : le 11 août. Et au prochain carnaval, de grands orchestres vont encore jouer dans le concours Panorama."
+   ],
+   "paragraphs_en": [
+    "Trinidad and Tobago is a small Caribbean country near Venezuela. Its national instrument is the steelpan. It looks like a big metal pot, and it is made from an oil drum. Its music is cheerful, but its history is a history of struggle.",
+    "In the 19th century, the British ruled this country. Descendants of enslaved Africans played drums during carnival. The authorities did not like that: in the 1880s, they banned drums. But the musicians did not stop. They cut bamboo and kept on playing. Later, the authorities banned bamboo too.",
+    "So the musicians looked for something else. In 1937, in Laventille, a working-class district of the capital, they played on frying pans, dustbin lids and drums. The country produces oil, so there are plenty of drums! The musicians hammered the metal and discovered something: depending on its shape, it gives different notes. The steelpan was born.",
+    "In 1951, a steelpan orchestra went to London for a big festival. These musicians played in the capital of the people who had banned their drums. In 2023, the UN chose a world steelpan day: 11 August. And at the next carnival, big orchestras will play once again in the Panorama competition."
+   ],
+   "paragraphs_de": [
+    "Trinidad und Tobago ist ein kleines Land in der Karibik, nahe bei Venezuela. Sein Nationalinstrument ist die Steelpan. Sie sieht aus wie ein großer Metalltopf und wird aus einem Ölfass gemacht. Ihre Musik ist fröhlich, aber ihre Geschichte ist eine Geschichte des Kampfes.",
+    "Im 19. Jahrhundert regierten die Briten dieses Land. Nachfahren versklavter Afrikaner spielten beim Karneval Trommel. Den Behörden gefiel das nicht: In den 1880er-Jahren verboten sie die Trommeln. Doch die Musiker hörten nicht auf. Sie schnitten Bambus und spielten weiter. Später verboten die Behörden auch den Bambus.",
+    "Also suchten die Musiker etwas anderes. 1937 spielten sie in Laventille, einem Arbeiterviertel der Hauptstadt, auf Bratpfannen, Mülleimerdeckeln und Fässern. Das Land fördert Öl, deshalb gibt es viele Fässer! Die Musiker schlugen auf das Metall und entdeckten etwas: Je nach Form gibt es verschiedene Töne. Die Steelpan war geboren.",
+    "1951 reiste ein Steelpan-Orchester zu einem großen Festival nach London. Diese Musiker spielten in der Hauptstadt derer, die ihre Trommeln verboten hatten. 2023 legte die UNO einen Welttag der Steelpan fest: den 11. August. Und beim nächsten Karneval werden große Orchester wieder im Wettbewerb Panorama spielen."
+   ],
+   "glossary": [
+    {
+     "w": "le bidon",
+     "fr": "un grand récipient en métal pour un liquide, par exemple le pétrole",
+     "de": "das Fass, der Kanister"
+    },
+    {
+     "w": "le tambour",
+     "fr": "un instrument de musique : on tape dessus avec les mains ou des bâtons",
+     "de": "die Trommel"
+    },
+    {
+     "w": "interdire",
+     "fr": "dire qu'une chose n'est pas permise",
+     "de": "verbieten"
+    },
+    {
+     "w": "la lutte",
+     "fr": "l'action de se battre pour quelque chose, pour ses droits par exemple",
+     "de": "der Kampf"
+    },
+    {
+     "w": "un descendant",
+     "fr": "une personne de la famille qui vient après : un enfant, un petit-enfant…",
+     "de": "der Nachfahre"
+    },
+    {
+     "w": "la poêle",
+     "fr": "un objet de cuisine plat pour faire cuire les œufs ou la viande",
+     "de": "die Bratpfanne"
+    },
+    {
+     "w": "le couvercle",
+     "fr": "la partie qui ferme le haut d'une boîte ou d'une casserole",
+     "de": "der Deckel"
+    },
+    {
+     "w": "taper",
+     "fr": "donner des coups sur quelque chose",
+     "de": "schlagen, klopfen"
+    }
+   ],
+   "grammar": "Negation in the passé composé: ne and pas go around the auxiliary, not around the whole verb. So you say « Les musiciens n'ont pas arrêté », with ne before ont and pas right after it; the past participle arrêté comes last. Before a vowel, ne becomes n', as in « Les autorités n'ont pas aimé ça ».",
+   "grammar_de": "Verneinung im passé composé: ne und pas stehen um das Hilfsverb, nicht um das ganze Verb. Man sagt also « Les musiciens n'ont pas arrêté », mit ne vor ont und pas direkt danach; das Partizip arrêté kommt zuletzt. Vor einem Vokal wird ne zu n', wie in « Les autorités n'ont pas aimé ça ».",
+   "questions": [
+    "Avec quel objet fait-on un steelpan ?",
+    "Pourquoi les musiciens ont-ils joué avec du bambou ?",
+    "Qu'est-ce que l'ONU a choisi en 2023 ?"
+   ],
+   "sources": [
+    {
+     "title": "Steelpan",
+     "url": "https://en.wikipedia.org/wiki/Steelpan",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "title": "The story of the steel drum in Trinidad and Tobago",
+     "url": "https://oxfordbusinessgroup.com/reports/trinidad-tobago/2015-report/economy/the-story-of-the-steel-drum-in-trinidad-and-tobago",
+     "license": "link only"
+    },
+    {
+     "title": "UN declares Aug. 11 World Steelpan Day",
+     "url": "https://www.caribbeanlife.com/un-declares-aug-11-world-steelpan-day",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "Primer día en Quito: ¿a qué te dedicas?",
+   "dek": "Situación: dos compañeras de trabajo se conocen en una oficina de Quito, Ecuador, y hablan de su rutina y de planes para la tarde.",
+   "tags": [
+    "Quito",
+    "small talk",
+    "verbos reflexivos"
+   ],
+   "paragraphs": [
+    "Valeria: ¡Hola! Tú eres Camila, ¿verdad? Yo soy Valeria. Trabajo en la oficina de al lado.",
+    "Camila: ¡Hola, Valeria! Mucho gusto. Hoy es mi primer día en Quito.",
+    "Valeria: ¡Bienvenida! ¿De dónde eres?",
+    "Camila: Soy de Guayaquil, pero ahora vivo cerca del parque La Carolina.",
+    "Valeria: ¡Qué chévere! Yo vivo en el centro. Me levanto a las seis y media y voy al trabajo en trolebús.",
+    "Camila: ¿A las seis y media? Yo me levanto más tarde. Me ducho, desayuno y salgo a las ocho.",
+    "Valeria: ¿Y a qué te dedicas? ¿Qué haces en la empresa?",
+    "Camila: Soy diseñadora. Me gusta mucho mi trabajo, pero todavía no conozco a nadie.",
+    "Valeria: No te preocupes. Esta tarde nos reunimos con unos amigos en un café. ¿Quieres venir?",
+    "Camila: ¡Sí, claro! ¿A qué hora se reúnen?",
+    "Valeria: A las seis. Nos encontramos en la entrada del edificio.",
+    "Camila: Perfecto. Me quedo hasta las cinco y media y luego bajo.",
+    "Valeria: ¡Listo! Y si necesitas algo, me llamas. Me llamo Valeria, pero mis amigos me dicen Vale.",
+    "Camila: Gracias, Vale. ¡Nos vemos en la tarde!"
+   ],
+   "paragraphs_en": [
+    "Valeria: Hi! You're Camila, right? I'm Valeria. I work in the office next door.",
+    "Camila: Hi, Valeria! Nice to meet you. Today is my first day in Quito.",
+    "Valeria: Welcome! Where are you from?",
+    "Camila: I'm from Guayaquil, but now I live near La Carolina park.",
+    "Valeria: How cool! I live downtown. I get up at six thirty and go to work by trolleybus.",
+    "Camila: At six thirty? I get up later. I take a shower, have breakfast and leave at eight.",
+    "Valeria: And what do you do for a living? What do you do at the company?",
+    "Camila: I'm a designer. I like my job a lot, but I don't know anyone yet.",
+    "Valeria: Don't worry. This afternoon we're meeting some friends at a café. Do you want to come?",
+    "Camila: Yes, of course! What time are you meeting?",
+    "Valeria: At six. We meet at the entrance of the building.",
+    "Camila: Perfect. I'll stay until five thirty and then come down.",
+    "Valeria: Great! And if you need anything, call me. My name is Valeria, but my friends call me Vale.",
+    "Camila: Thanks, Vale. See you this afternoon!"
+   ],
+   "paragraphs_de": [
+    "Valeria: Hallo! Du bist Camila, oder? Ich bin Valeria. Ich arbeite im Büro nebenan.",
+    "Camila: Hallo, Valeria! Freut mich. Heute ist mein erster Tag in Quito.",
+    "Valeria: Willkommen! Woher kommst du?",
+    "Camila: Ich komme aus Guayaquil, wohne aber jetzt in der Nähe des Parks La Carolina.",
+    "Valeria: Wie cool! Ich wohne im Zentrum. Ich stehe um halb sieben auf und fahre mit dem Trolebús zur Arbeit.",
+    "Camila: Um halb sieben? Ich stehe später auf. Ich dusche, frühstücke und gehe um acht los.",
+    "Valeria: Und was machst du beruflich? Was machst du in der Firma?",
+    "Camila: Ich bin Designerin. Mein Job gefällt mir sehr, aber ich kenne noch niemanden.",
+    "Valeria: Keine Sorge. Heute Nachmittag treffen wir uns mit ein paar Freunden in einem Café. Willst du mitkommen?",
+    "Camila: Ja, klar! Um wie viel Uhr trefft ihr euch?",
+    "Valeria: Um sechs. Wir treffen uns am Eingang des Gebäudes.",
+    "Camila: Perfekt. Ich bleibe bis halb sechs und komme dann runter.",
+    "Valeria: Prima! Und wenn du etwas brauchst, ruf mich an. Ich heiße Valeria, aber meine Freunde nennen mich Vale.",
+    "Camila: Danke, Vale. Bis heute Nachmittag!"
+   ],
+   "glossary": [
+    {
+     "w": "me levanto",
+     "en": "I get up (levantarse)",
+     "de": "ich stehe auf"
+    },
+    {
+     "w": "me ducho",
+     "en": "I take a shower",
+     "de": "ich dusche mich"
+    },
+    {
+     "w": "¿A qué te dedicas?",
+     "en": "What do you do for a living?",
+     "de": "Was machst du beruflich?"
+    },
+    {
+     "w": "nos reunimos",
+     "en": "we get together / meet",
+     "de": "wir treffen uns"
+    },
+    {
+     "w": "nos encontramos",
+     "en": "we meet (up)",
+     "de": "wir treffen uns"
+    },
+    {
+     "w": "me quedo",
+     "en": "I stay",
+     "de": "ich bleibe"
+    },
+    {
+     "w": "la entrada",
+     "en": "the entrance",
+     "de": "der Eingang"
+    },
+    {
+     "w": "¡Qué chévere!",
+     "en": "How cool! (Ecuador, Colombia, Peru…)",
+     "de": "Wie cool!"
+    },
+    {
+     "w": "el trolebús",
+     "en": "trolleybus",
+     "de": "der Oberleitungsbus"
+    },
+    {
+     "w": "la diseñadora",
+     "en": "the (female) designer",
+     "de": "die Designerin"
+    }
+   ],
+   "grammar": "Reflexive verbs use a small extra word (me, te, se, nos, se) that matches the subject: the action ‘returns’ to the person. “Me levanto a las seis y media” = I get up (literally: I raise myself). The same pattern gives “me ducho”, “nos reunimos”, “me quedo”. Put the pronoun before the conjugated verb: “¿A qué hora te levantas?”.",
+   "grammar_de": "Reflexive Verben haben ein kleines Zusatzwort (me, te, se, nos, se), das zum Subjekt passt: die Handlung ‚kehrt zur Person zurück‘. „Me levanto a las seis y media“ = Ich stehe um halb sieben auf (wörtlich: ich hebe mich). Genauso: „me ducho“, „nos reunimos“, „me quedo“. Das Pronomen steht vor dem konjugierten Verb: „¿A qué hora te levantas?“.",
+   "questions": [
+    "¿A qué hora te levantas tú?",
+    "¿Te reúnes con amigos después del trabajo? ¿Dónde?",
+    "¿Y tú? ¿A qué te dedicas y qué te gusta de tu día?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Palabras",
+   "title": "«Pura vida»: dos palabras que son una actitud",
+   "dek": "En Costa Rica, una expresión sirve para saludar, agradecer y decir que todo va bien.",
+   "tags": [
+    "Costa Rica",
+    "expresiones",
+    "subjuntivo con ojalá"
+   ],
+   "paragraphs": [
+    "Si viajas a Costa Rica, vas a escuchar una expresión en todas partes: «¡Pura vida!». Los costarricenses, que se llaman a sí mismos «ticos» y «ticas», la usan para saludar, para despedirse, para decir que todo está bien o para dar las gracias. Si alguien te pregunta «¿Cómo está?» y tú contestas «Pura vida», quiere decir que estás muy bien.",
+    "¿De dónde viene? Según una fuente que consulté, hay una película mexicana de 1956 con ese título, y su estreno en Costa Rica ayudó a que algunas personas empezaran a repetir la frase. Se usaba allí desde finales de los años cincuenta. Su uso se hizo mucho más común en los años ochenta, cuando los costarricenses compararon su calidad de vida con la de otros países de Centroamérica y se sintieron orgullosos de ella.",
+    "Hoy «pura vida» es más que dos palabras: es una actitud. Muchas personas dicen que representa una forma tranquila de ver la vida, con optimismo y sin demasiada prisa. Por supuesto, los ticos también tienen problemas y preocupaciones, como todo el mundo. Pero la expresión muestra cómo les gusta recibir a los visitantes y cómo quieren que los demás los vean.",
+    "Veamos algunos ejemplos de la vida diaria. Un vendedor te da el cambio y tú dices «Gracias»; él responde «Pura vida». Una amiga te escribe: «¿Nos vemos a las cinco?» y tú contestas: «¡Pura vida!», para decir que estás de acuerdo. También puedes oírla cuando alguien se despide de ti con una sonrisa. Como ves, el contexto y el tono de voz son muy importantes para entender qué quiere decir exactamente.",
+    "Esto es lo interesante para quien aprende español: muchas frases no se pueden traducir palabra por palabra. «Pura vida» significaría «vida pura» en inglés, pero en la conversación cumple muchas funciones a la vez. Cuando escuchas una expresión nueva, no te preocupes si no entiendes cada palabra. Observa quién la dice, en qué situación y cómo reacciona la otra persona. Así aprendes como lo hace la gente en la calle, y poco a poco vas a sentirte más segura al hablar.",
+    "Aprender frases así es muy útil, porque las conversaciones reales están llenas de ellas. Ojalá puedas usar «pura vida» cuando conozcas a alguien de Costa Rica; seguramente va a sonreír. Y si algún día visitas el país, espero que escuches la frase muchas veces y que entiendas su sentido sin traducirla.",
+    "Dato curioso: la palabra «tico» viene de la costumbre de usar muchos diminutivos con «-ico», como «chiquitico» o «momentico», en lugar de «-ito». Por eso a los costarricenses se les llama ticos en toda Latinoamérica."
+   ],
+   "paragraphs_en": [
+    "If you travel to Costa Rica, you will hear one expression everywhere: “¡Pura vida!”. Costa Ricans, who call themselves “ticos” and “ticas”, use it to say hello, to say goodbye, to say everything is fine, or to say thank you. If someone asks you “How are you?” and you answer “Pura vida”, it means you are doing very well.",
+    "Where does it come from? According to a source I consulted, there is a Mexican film from 1956 with that title, and its release in Costa Rica helped some people start repeating the phrase. It was used there from the late 1950s. It became much more common in the 1980s, when Costa Ricans compared their quality of life with that of other Central American countries and felt proud of it.",
+    "Today “pura vida” is more than two words: it is an attitude. Many people say it stands for a calm way of seeing life, with optimism and without too much hurry. Of course, ticos also have problems and worries, like everyone. But the expression shows how they like to welcome visitors and how they want others to see them.",
+    "Let's look at some everyday examples. A vendor gives you your change and you say “Thanks”; he answers “Pura vida”. A friend writes to you: “Shall we meet at five?” and you reply: “¡Pura vida!”, to say you agree. You can also hear it when someone says goodbye to you with a smile. As you can see, context and tone of voice are very important for understanding exactly what it means.",
+    "Here is the interesting part for someone learning Spanish: many phrases cannot be translated word for word. “Pura vida” would be “pure life” in English, but in conversation it does many jobs at once. When you hear a new expression, don't worry if you don't understand every word. Notice who says it, in what situation, and how the other person reacts. That is how people learn on the street, and little by little you will feel more confident when you speak.",
+    "Learning phrases like this is very useful, because real conversations are full of them. I hope you can use “pura vida” when you meet someone from Costa Rica; they will surely smile. And if you ever visit the country, I hope you hear the phrase many times and understand its meaning without translating it.",
+    "Fun fact: the word “tico” comes from the habit of using many diminutives with “-ico”, like “chiquitico” or “momentico”, instead of “-ito”. That is why Costa Ricans are called ticos all over Latin America."
+   ],
+   "paragraphs_de": [
+    "Wenn du nach Costa Rica reist, hörst du überall einen Ausdruck: „¡Pura vida!“. Die Costa-Ricaner, die sich selbst „ticos“ und „ticas“ nennen, benutzen ihn zum Grüßen, zum Verabschieden, um zu sagen, dass alles gut ist, oder um sich zu bedanken. Wenn dich jemand fragt „¿Cómo está?“ und du antwortest „Pura vida“, heißt das, dass es dir sehr gut geht.",
+    "Woher kommt er? Laut einer Quelle, die ich gelesen habe, gibt es einen mexikanischen Film von 1956 mit diesem Titel, und sein Start in Costa Rica trug dazu bei, dass manche Leute den Satz zu wiederholen begannen. Dort wurde er seit Ende der Fünfzigerjahre benutzt. In den Achtzigerjahren wurde er viel üblicher, als die Costa-Ricaner ihre Lebensqualität mit der anderer Länder Mittelamerikas verglichen und stolz darauf waren.",
+    "Heute ist „pura vida“ mehr als zwei Wörter: Es ist eine Haltung. Viele Leute sagen, es stehe für eine ruhige Sicht auf das Leben, mit Optimismus und ohne zu viel Eile. Natürlich haben auch die Ticos Probleme und Sorgen, wie alle. Aber der Ausdruck zeigt, wie sie Besucher gern empfangen und wie sie von anderen gesehen werden möchten.",
+    "Schauen wir uns ein paar Alltagsbeispiele an. Ein Verkäufer gibt dir das Wechselgeld und du sagst „Gracias“; er antwortet „Pura vida“. Eine Freundin schreibt dir: „¿Nos vemos a las cinco?“ und du antwortest: „¡Pura vida!“, um zuzustimmen. Du kannst es auch hören, wenn sich jemand mit einem Lächeln von dir verabschiedet. Wie du siehst, sind Kontext und Tonfall sehr wichtig, um genau zu verstehen, was gemeint ist.",
+    "Das Interessante für Spanischlernende: Viele Wendungen lassen sich nicht Wort für Wort übersetzen. „Pura vida“ hieße auf Deutsch „reines Leben“, erfüllt im Gespräch aber viele Aufgaben zugleich. Wenn du einen neuen Ausdruck hörst, mach dir keine Sorgen, wenn du nicht jedes Wort verstehst. Achte darauf, wer ihn sagt, in welcher Situation und wie die andere Person reagiert. So lernen die Leute auf der Straße, und nach und nach wirst du dich beim Sprechen sicherer fühlen.",
+    "Solche Wendungen zu lernen ist sehr nützlich, denn echte Gespräche sind voll davon. Hoffentlich kannst du „pura vida“ benutzen, wenn du jemanden aus Costa Rica triffst; er oder sie wird bestimmt lächeln. Und wenn du das Land einmal besuchst, hoffe ich, dass du den Satz oft hörst und seinen Sinn verstehst, ohne zu übersetzen.",
+    "Wissenswert: Das Wort „tico“ kommt von der Gewohnheit, viele Verkleinerungsformen mit „-ico“ zu bilden, wie „chiquitico“ oder „momentico“, statt „-ito“. Deshalb nennt man die Costa-Ricaner in ganz Lateinamerika Ticos."
+   ],
+   "glossary": [
+    {
+     "w": "el saludo",
+     "en": "greeting",
+     "de": "der Gruß"
+    },
+    {
+     "w": "despedirse",
+     "en": "to say goodbye",
+     "de": "sich verabschieden"
+    },
+    {
+     "w": "el estreno",
+     "en": "(film) release, premiere",
+     "de": "die Premiere"
+    },
+    {
+     "w": "la calidad de vida",
+     "en": "quality of life",
+     "de": "die Lebensqualität"
+    },
+    {
+     "w": "orgulloso",
+     "en": "proud",
+     "de": "stolz"
+    },
+    {
+     "w": "la actitud",
+     "en": "attitude",
+     "de": "die Haltung"
+    },
+    {
+     "w": "la prisa",
+     "en": "hurry, rush",
+     "de": "die Eile"
+    },
+    {
+     "w": "el visitante",
+     "en": "visitor",
+     "de": "der Besucher"
+    },
+    {
+     "w": "seguramente",
+     "en": "surely, most likely",
+     "de": "sicherlich"
+    },
+    {
+     "w": "el diminutivo",
+     "en": "diminutive (e.g. -ito, -ico)",
+     "de": "die Verkleinerungsform"
+    },
+    {
+     "w": "ojalá",
+     "en": "I hope / let's hope",
+     "de": "hoffentlich"
+    }
+   ],
+   "grammar": "Subjunctive after ojalá and espero que (B1). Use ojalá or espero que + present subjunctive for wishes about the present or future: “Ojalá puedas usar «pura vida»”, “Espero que escuches la frase”. Verbs in -ar take -e endings (escuches), -er/-ir take -a endings (puedas, entiendas). The wish is not a fact yet, so the subjunctive is used.",
+   "grammar_de": "Subjuntivo nach ojalá und espero que (B1). Ojalá oder espero que + Subjuntivo Präsens drückt Wünsche für Gegenwart oder Zukunft aus: „Ojalá puedas usar «pura vida»“, „Espero que escuches la frase“. Verben auf -ar bekommen -e-Endungen (escuches), -er/-ir -a-Endungen (puedas, entiendas). Der Wunsch ist noch keine Tatsache, deshalb steht der Subjuntivo.",
+   "questions": [
+    "¿Cuándo usan los costarricenses la expresión «pura vida»?",
+    "¿Qué pasó en los años ochenta, según el texto?",
+    "¿Y tú? ¿Tienes una expresión favorita en tu idioma? Explícala en español."
+   ],
+   "sources": [
+    {
+     "title": "Pura Vida (film) – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pura_Vida_(film)",
+     "license": "CC BY-SA"
+    }
+   ]
+  }
+ ]
 }
