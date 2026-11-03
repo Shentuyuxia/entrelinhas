@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-03",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "en",
+      "level": "C2",
+      "kind": "essay",
+      "section": "Music",
+      "title": "The toll on the keyboard",
+      "dek": "Two new novels, by Yiyun Li and Barbara Kingsolver, treat the piano as an exit from poverty and the colonial margin. Reviewing them in The Baffler, Kevin Ng shows how much that exit costs, and who pays.",
+      "tags": [
+        "music",
+        "The Baffler",
+        "class",
+        "negative inversion"
+      ],
+      "paragraphs": [
+        "Few instruments have been asked to carry as much social freight as the piano, which has served as parlour furniture, as a discipline for the young and as a promise of escape. That promise animates two novels published this autumn, Yiyun Li's Music Against the Night and Barbara Kingsolver's Partita, which the critic Kevin Ng reviews side by side in The Baffler. Ng reads both as social novels at heart: stories in which talent opens a route out, while the institutions of classical music make that route punishingly hard to travel. The verdicts below on each book's merits are his; the conclusions about labour are this article's own.",
+        "Li's book, the first of a planned Nocturne trilogy, starts from two real lives. John Field, who was born in Dublin in 1782 and died in Moscow in 1837, is the Irish pianist credited with inventing the nocturne, the form Chopin would make famous with twenty-one examples of his own. Adelaide Percheron was the pupil he married. In Li's telling she comes to the piano in French-occupied Pondicherry, the daughter of a French father and a mother of mixed Tamil, Arab and European descent, and is brought up by her grandmother after her mother dies in childbirth. Not until the closing pages, in the Moscow of 1807, do the two finally meet.",
+        "What fills the time before that meeting is a long education in dependency. Adelaide must get past disapproving relatives and predatory guardians simply to secure a piano of her own, and she relies on a shifting cast of lovers, mentors and benefactors; the ambition applauded in men, Ng notes, counts against her. Race and gender then bar her way in Europe, and Ng finds in that Eurocentric elitism rich matter for a novel of society. John's path looks easier only by comparison: his mother uproots the family and finally surrenders him to Muzio Clementi, who in Li's version schools the boy in self-promotion and in the need to defeat other musicians.",
+        "That cameo, which Ng finds witty, rests on solid history. Clementi co-founded a firm in 1799 that both published music and manufactured pianos, and the young Field demonstrated instruments to customers for him. It is hard not to hear a contemporary note here: the virtuoso as sales representative, his art inseparable from the product it advertises, is a recognisable ancestor of today's musician managing a personal brand. Two centuries of technological change have altered the shop floor more than the bargain.",
+        "Kingsolver moves the same problem to contemporary Appalachia. Her heroine, Livia, was once a prodigy and now teaches piano and lives as a farmer's wife, until a call from Sigurd, her college boyfriend and a labour organiser, sends the novel back into her past through chapters named after Baroque dances. As a student she has teachers who mock her accent and clothes, and it is a restaurant job that ends her career, by injuring her hand. Ng calls this the book's clearest argument about class, since she alone among her classmates needs the kind of physical work that endangers the very asset she is training. Kingsolver knows the terrain: she studied piano for a year in college before concluding that she would not be among the very few who make a concert career.",
+        "On the novel's politics Ng is less persuaded. Sigurd flirts in revolutionary slogans, and Ng cannot decide whether this is a critique of the left's moralising or an indulgence on the author's part; the flashbacks, he adds, drift towards melodrama. He is warmer about the sounds and rhythms of her Appalachia, and her picture of a community drained by extraction. He also admires an ending that refuses the redemptive escape narrative associated with J.D. Vance's Hillbilly Elegy, offering instead a small act of catharsis when Livia burns her dead mother's belongings.",
+        "Ng's final conceit is that the two titles might be exchanged, since Kingsolver has written something closer to a nocturne and Li, the more formally ambitious of the two, something closer to a partita. Read together, the books also suggest a less elegant conclusion. The hours of practice that produce a pianist are paid for by somebody, whether a mother who gives up a home, a grandmother, a patron with expectations or a student working restaurant shifts. Classical music has tended to present that bill as a matter of sacrifice and vocation, and both novels, in their different keys, insist on reading it as what it also is: a question of who can afford to play."
+      ],
+      "glossary": [
+        {
+          "w": "social freight",
+          "en": "the weight of meanings and expectations that a society attaches to something",
+          "zh": "社会意涵；社会包袱"
+        },
+        {
+          "w": "punishingly",
+          "en": "in a way that is extremely hard or exhausting",
+          "zh": "令人精疲力竭地"
+        },
+        {
+          "w": "bar someone's way",
+          "en": "to stop someone from going forward or reaching a goal",
+          "zh": "挡住某人的去路"
+        },
+        {
+          "w": "surrender someone to",
+          "en": "to give someone up into another person's care or control",
+          "zh": "把某人交托给"
+        },
+        {
+          "w": "cameo",
+          "en": "a brief appearance by a well-known figure in a book or film",
+          "zh": "客串；短暂露面"
+        },
+        {
+          "w": "the shop floor",
+          "en": "the place where the practical work of a business is done, as opposed to its management",
+          "zh": "生产一线；车间"
+        },
+        {
+          "w": "the terrain",
+          "en": "figuratively, a subject or field of experience that someone knows",
+          "zh": "（喻）领域；所涉的天地"
+        },
+        {
+          "w": "moralising",
+          "en": "the act of judging others' behaviour in a superior way",
+          "zh": "说教；道德评判"
+        },
+        {
+          "w": "catharsis",
+          "en": "the release of strong feeling, bringing a sense of relief",
+          "zh": "情感宣泄；净化"
+        },
+        {
+          "w": "conceit",
+          "en": "an ingenious, deliberately striking comparison or idea",
+          "zh": "巧妙的比喻；奇思"
+        },
+        {
+          "w": "present a bill",
+          "en": "here figurative: to make someone face the cost of something",
+          "zh": "（喻）开出账单；要人承担代价"
+        }
+      ],
+      "grammar": "\"Not until the closing pages, in the Moscow of 1807, do the two finally meet\" fronts a negative adverbial, which forces subject-auxiliary inversion (\"do the two meet\", not \"the two meet\"). The ordinary order would be \"The two do not meet until the closing pages\". Fronting holds back the event and places the weight on the delay, which suits literary and formal prose. The same pattern follows \"only when\", \"never\" and \"rarely\".",
+      "grammar_zh": "\"Not until the closing pages, in the Moscow of 1807, do the two finally meet\" 把否定状语提到句首，因此主语和助动词必须倒装（写成 \"do the two meet\"，而不是 \"the two meet\"）。正常语序是 \"The two do not meet until the closing pages\"。前置后，事件被推迟到句末，重心落在\"等待之久\"上，适合文学和正式文体。\"only when\"、\"never\"、\"rarely\" 开头时也用同样的结构。",
+      "questions": [
+        "How does the history of Clementi's business change the way you read his cameo in Li's novel?",
+        "Why does Ng regard Livia's restaurant job as the clearest argument about class in Partita?",
+        "The closing paragraph says practice is 'paid for by somebody'. Do you think that framing clarifies or reduces what musicians' families and patrons do?"
+      ],
+      "sources": [
+        {
+          "title": "An Almost Classical Mode (Kevin Ng, The Baffler, 26 October 2026)",
+          "url": "https://thebaffler.com/latest/an-almost-classical-mode-ng",
+          "license": "link only"
+        },
+        {
+          "title": "Music Against the Night (Kirkus Reviews)",
+          "url": "https://www.kirkusreviews.com/book-reviews/yiyun-li/music-against-the-night/",
+          "license": "link only"
+        },
+        {
+          "title": "Barbara Kingsolver's book 'Partita' grapples with the reality that our bodies fail us (WYPR)",
+          "url": "https://www.wypr.org/2026-10-05/barbara-kingsolvers-book-partita-grapples-with-the-reality-that-our-bodies-fail-us",
+          "license": "link only"
+        },
+        {
+          "title": "Muzio Clementi (Britannica)",
+          "url": "https://www.britannica.com/biography/Muzio-Clementi",
+          "license": "link only"
+        },
+        {
+          "title": "John Field (1782–1837) (MFiles)",
+          "url": "https://w.mfiles.co.uk/composers/John-Field.htm",
+          "license": "link only"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "level": "C1",
+      "kind": "brief",
+      "section": "In brief",
+      "title": "The mosquito on the sofa",
+      "dek": "A party snack, a forest roof and a French settee all descend from one small, whining insect.",
+      "tags": [
+        "etymology",
+        "Merriam-Webster",
+        "food",
+        "gapping"
+      ],
+      "paragraphs": [
+        "Pick up a canapé at a reception and you are holding, by a long and improbable route, a mosquito. The ancient Greek word for the insect was kōnōps, and from it came a word for the net that kept it away. According to Etymonline, the Greek term could also mean an Egyptian couch hung with such curtains, a bed you could sleep on unbitten. The origin of kōnōps itself is unknown, although one proposal looks to an Egyptian word for gnat.",
+        "The Romans borrowed the word as conopeum, and from there it split in two. English kept the net, French the furniture. Middle English canope became canopy, first a cloth hung over a bed, then a cover set above a dignitary or a sacred object, and eventually the top layer of a forest, the glass over a cockpit and the fabric of a parachute. French canapé, meanwhile, came to mean a sofa, as the same word still does in Spanish and Portuguese, the insect and its netting long forgotten.",
+        "The final leap was culinary. A piece of bread or toast topped with something savoury was thought to resemble a couch, and so the sofa lent its name to the snack, which English later borrowed from French along with the word. Merriam-Webster traces the whole family through these steps. So the next time a waiter offers you a tiny square of toast and caviar, you may reflect that it is, etymologically, a very small piece of furniture named after a pest."
+      ],
+      "glossary": [
+        {
+          "w": "improbable",
+          "en": "not likely to be true or to happen; surprising",
+          "zh": "出人意料的；不大可能的"
+        },
+        {
+          "w": "dignitary",
+          "en": "a person of high rank or official position",
+          "zh": "显要人物；高官"
+        },
+        {
+          "w": "savoury",
+          "en": "salty or spicy rather than sweet",
+          "zh": "咸香的；开胃的"
+        },
+        {
+          "w": "settee",
+          "en": "a long comfortable seat for two or more people; a sofa",
+          "zh": "长沙发"
+        },
+        {
+          "w": "lend its name to",
+          "en": "to give its name to something else",
+          "zh": "以其名称为……命名"
+        }
+      ],
+      "grammar": "\"English kept the net, French the furniture\" is an example of gapping: the verb \"kept\" is left out of the second clause because the reader can supply it from the first. The device is crisp and suits parallel contrasts in written English. A comma often marks the place of the missing verb.",
+      "grammar_zh": "\"English kept the net, French the furniture\" 是\"空缺句\"（gapping）：第二个分句省略了动词 \"kept\"，读者可以从第一分句补出。这种写法简洁利落，适合书面英语中的平行对比。省略处通常用逗号标示。",
+      "questions": [
+        "How did a word for an insect come to name both a forest layer and a snack?",
+        "Which step in this word's history do you find least predictable, and why?"
+      ],
+      "sources": [
+        {
+          "title": "12 Words Whose History Will Surprise You (Merriam-Webster)",
+          "url": "https://www.merriam-webster.com/wordplay/words-with-surprising-histories",
+          "license": "link only"
+        },
+        {
+          "title": "canopy (Etymonline)",
+          "url": "https://www.etymonline.com/word/canopy",
+          "license": "link only"
+        },
+        {
+          "title": "canopy (Merriam-Webster Dictionary)",
+          "url": "https://www.merriam-webster.com/dictionary/canopy",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}

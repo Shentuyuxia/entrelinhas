@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-02T21:29:10+00:00",
+ "updated": "2026-11-03T05:24:10+00:00",
  "days": [
+  {
+   "date": "2026-11-03",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "The toll on the keyboard",
+     "kind": "essay",
+     "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "en",
+     "title": "The mosquito on the sofa",
+     "kind": "brief",
+     "level": "C1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-02",
    "items": [
