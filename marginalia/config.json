@@ -206,11 +206,11 @@
   }
  },
  "schedule": {
-  "en": "Mon–Fri: 2 items — 1 C2 long read + 1 short C1 piece ('In brief')",
-  "de": "Mon–Fri: 1 article + 1 short item",
+  "en": "PAUSED since 2026-11-03 (the owner has plenty to read); the earlier English articles stay as a library.",
+  "de": "PAUSED since 2026-11-03 (the owner has plenty to read); the earlier German articles stay as a library.",
   "fr": "Mon–Fri: 1 article, level by weekday (A1, A2, B1, B2, C1)",
   "pt": "Every day three A1 items: diary + dialogue + Textinho. Saturday: the A1 song story replaces the dialogue (diary + song story + Textinho). Extras for the heritage-speaker friend at B1/B2 (not counted, invisible at A1): Wednesday crônica, Saturday B1/B2 song story.",
-  "picks": "Mon, Wed, Fri: exactly 2 links per list (de, en)",
+  "picks": "PAUSED since 2026-11-03 together with English and German.",
   "weekend": "Saturday and Sunday: no new English, German or French texts (no weekly review).",
   "es": "Mon–Fri around 18:00: 2 items, Latin American Spanish (ustedes, no vosotros) — one reading (culture, feminism, everyday life) and one conversation dialogue (small talk, asking questions, directions), levels rotating A1–B2 by weekday, with a short grammar note. Helper languages: English and German.",
   "limit": "EN/DE/ES: two items Mon–Fri; FR: one item Mon–Fri; PT: three A1 items every day; picks lists don't count.",
