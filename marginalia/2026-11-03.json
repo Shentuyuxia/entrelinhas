@@ -514,6 +514,114 @@
      "license": "CC BY-SA"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "O vizinho novo",
+   "dek": "Um moço novo chega na rua da Ana. Quem é ele? De onde é? Com quem mora? E como é o gato dele?",
+   "paragraphs": [
+    "Davi: Oi! Eu sou o Davi. Quem é você?",
+    "Ana: Eu sou a Ana. Qual é a sua casa?",
+    "Davi: É a casa branca, na esquina.",
+    "Ana: De onde você é, Davi?",
+    "Davi: Sou de Recife. E você?",
+    "Ana: Sou daqui. Com quem você mora?",
+    "Davi: Com o meu gato preto.",
+    "Ana: Que fofo! Como ele é?",
+    "Davi: É grande, preto e muito calmo.",
+    "Ana: O meu gato é pequeno e laranja!"
+   ],
+   "paragraphs_en": [
+    "Davi: Hi! I'm Davi. Who are you?",
+    "Ana: I'm Ana. Which is your house?",
+    "Davi: It's the white house on the corner.",
+    "Ana: Where are you from, Davi?",
+    "Davi: I'm from Recife. And you?",
+    "Ana: I'm from here. Who do you live with?",
+    "Davi: With my black cat.",
+    "Ana: How cute! What is he like?",
+    "Davi: He's big, black and very calm.",
+    "Ana: My cat is small and orange!"
+   ],
+   "paragraphs_zh": [
+    "达维：嗨！我是达维。你是谁？",
+    "安娜：我是安娜。哪一间是你的房子？",
+    "达维：是街角那间白房子。",
+    "安娜：达维，你是哪里人？",
+    "达维：我是累西腓人。你呢？",
+    "安娜：我是本地人。你和谁一起住？",
+    "达维：和我的黑猫。",
+    "安娜：真可爱！它是什么样的？",
+    "达维：又大又黑，而且很安静。",
+    "安娜：我的猫又小又是橙色的！"
+   ],
+   "paragraphs_de": [
+    "Davi: Hallo! Ich bin Davi. Und wer bist du?",
+    "Ana: Ich bin Ana. Welches ist dein Haus?",
+    "Davi: Das weiße Haus an der Ecke.",
+    "Ana: Woher kommst du, Davi?",
+    "Davi: Ich komme aus Recife. Und du?",
+    "Ana: Ich bin von hier. Mit wem wohnst du?",
+    "Davi: Mit meinem schwarzen Kater.",
+    "Ana: Wie süß! Wie ist er?",
+    "Davi: Er ist groß, schwarz und sehr ruhig.",
+    "Ana: Mein Kater ist klein und orange!"
+   ],
+   "glossary": [
+    {
+     "w": "o vizinho / a vizinha",
+     "en": "neighbour",
+     "zh": "邻居",
+     "de": "der Nachbar / die Nachbarin",
+     "pt": "pessoa que mora perto da sua casa"
+    },
+    {
+     "w": "a esquina",
+     "en": "corner (of a street)",
+     "zh": "街角",
+     "de": "die Ecke",
+     "pt": "onde duas ruas se encontram"
+    },
+    {
+     "w": "daqui",
+     "en": "from here — Sou daqui. (= I'm from here)",
+     "zh": "本地的、从这里",
+     "de": "von hier",
+     "pt": "deste lugar, desta cidade"
+    },
+    {
+     "w": "fofo",
+     "en": "cute, sweet (for animals, babies, things)",
+     "zh": "可爱的、萌的",
+     "de": "süß, niedlich",
+     "pt": "bonitinho e simpático: um gato fofo"
+    },
+    {
+     "w": "de onde",
+     "en": "where from — De onde você é? — Sou de Recife.",
+     "zh": "从哪里",
+     "de": "woher",
+     "pt": "pergunta a cidade ou o país de uma pessoa"
+    }
+   ],
+   "grammar": "Four question words in one chat: Qual é a sua casa? (which?) De onde você é? (where from?) Com quem você mora? (who with?) Como ele é? (what is he like?). The answer comes in the next line: É a casa branca. Sou de Recife. Adjectives come after the noun and agree with it: o gato preto, a casa branca.",
+   "grammar_zh": "一段对话里有四个疑问词：Qual é a sua casa?（哪一个？）De onde você é?（从哪里来？）Com quem você mora?（和谁？）Como ele é?（是什么样的？）下一行就是回答：É a casa branca. Sou de Recife. 形容词放在名词后面并且要一致：o gato preto、a casa branca。",
+   "grammar_de": "Vier Fragewörter in einem Gespräch: Qual é a sua casa? (welches?) De onde você é? (woher?) Com quem você mora? (mit wem?) Como ele é? (wie ist er?). Die Antwort steht in der nächsten Zeile: É a casa branca. Sou de Recife. Adjektive stehen nach dem Nomen und richten sich danach: o gato preto, a casa branca.",
+   "grammar_pt": "Quatro perguntas na conversa: Qual é a sua casa? De onde você é? Com quem você mora? Como ele é? A resposta vem na linha de baixo: É a casa branca. Sou de Recife. O adjetivo vem depois do substantivo: o gato preto, a casa branca.",
+   "questions": [
+    "De onde você é?",
+    "Com quem você mora?",
+    "E você? Como é a sua casa? Ela é grande ou pequena?"
+   ],
+   "sources": [],
+   "tags": [
+    "vizinhos",
+    "perguntas",
+    "adjetivos"
+   ]
   }
  ]
 }

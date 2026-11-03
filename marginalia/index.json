@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:53:41+00:00",
+ "updated": "2026-11-03T18:56:14+00:00",
  "days": [
   {
    "date": "2026-11-03",
@@ -42,6 +42,14 @@
      "title": "«Pura vida»: dos palabras que son una actitud",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "pt",
+     "title": "O vizinho novo",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]
