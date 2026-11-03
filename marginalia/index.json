@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T05:24:10+00:00",
+ "updated": "2026-11-03T15:50:25+00:00",
  "days": [
   {
    "date": "2026-11-03",
@@ -18,6 +18,14 @@
      "title": "The mosquito on the sofa",
      "kind": "brief",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "fr",
+     "title": "La musique du vieux bidon",
+     "kind": "feature",
+     "level": "A2",
      "hour": null
     }
    ]

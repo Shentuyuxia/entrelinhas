@@ -184,6 +184,104 @@
           "license": "link only"
         }
       ]
+    },
+    {
+      "lang": "fr",
+      "level": "A2",
+      "kind": "feature",
+      "section": "Musique",
+      "title": "La musique du vieux bidon",
+      "dek": "Les autorités coloniales ont interdit les tambours. Alors, à Trinité-et-Tobago, des musiciens ont inventé un instrument avec des bidons de pétrole.",
+      "tags": [
+        "Trinité-et-Tobago",
+        "Caraïbes",
+        "colonialisme",
+        "passé composé négatif"
+      ],
+      "paragraphs": [
+        "Trinité-et-Tobago est un petit pays des Caraïbes, près du Venezuela. Son instrument national est le steelpan. Il ressemble à une grande casserole en métal, et il est fait avec un bidon de pétrole. Sa musique est joyeuse, mais son histoire est une histoire de lutte.",
+        "Au XIXe siècle, les Britanniques ont dirigé ce pays. Des descendants d'esclaves africains ont joué du tambour pendant le carnaval. Les autorités n'ont pas aimé ça : dans les années 1880, elles ont interdit les tambours. Mais les musiciens n'ont pas arrêté. Ils ont coupé du bambou et ils ont continué à jouer. Plus tard, les autorités ont aussi interdit le bambou.",
+        "Alors, les musiciens ont cherché autre chose. En 1937, à Laventille, un quartier populaire de la capitale, ils ont joué sur des poêles, des couvercles de poubelle et des bidons. Le pays produit du pétrole, donc il y a beaucoup de bidons ! Les musiciens ont tapé sur le métal et ils ont découvert une chose : selon sa forme, il donne des notes différentes. Le steelpan est né.",
+        "En 1951, un orchestre de steelpans est allé à Londres pour un grand festival. Ces musiciens ont joué dans la capitale de ceux qui ont interdit leurs tambours. En 2023, l'ONU a choisi une journée mondiale du steelpan : le 11 août. Et au prochain carnaval, de grands orchestres vont encore jouer dans le concours Panorama."
+      ],
+      "paragraphs_en": [
+        "Trinidad and Tobago is a small Caribbean country near Venezuela. Its national instrument is the steelpan. It looks like a big metal pot, and it is made from an oil drum. Its music is cheerful, but its history is a history of struggle.",
+        "In the 19th century, the British ruled this country. Descendants of enslaved Africans played drums during carnival. The authorities did not like that: in the 1880s, they banned drums. But the musicians did not stop. They cut bamboo and kept on playing. Later, the authorities banned bamboo too.",
+        "So the musicians looked for something else. In 1937, in Laventille, a working-class district of the capital, they played on frying pans, dustbin lids and drums. The country produces oil, so there are plenty of drums! The musicians hammered the metal and discovered something: depending on its shape, it gives different notes. The steelpan was born.",
+        "In 1951, a steelpan orchestra went to London for a big festival. These musicians played in the capital of the people who had banned their drums. In 2023, the UN chose a world steelpan day: 11 August. And at the next carnival, big orchestras will play once again in the Panorama competition."
+      ],
+      "paragraphs_de": [
+        "Trinidad und Tobago ist ein kleines Land in der Karibik, nahe bei Venezuela. Sein Nationalinstrument ist die Steelpan. Sie sieht aus wie ein großer Metalltopf und wird aus einem Ölfass gemacht. Ihre Musik ist fröhlich, aber ihre Geschichte ist eine Geschichte des Kampfes.",
+        "Im 19. Jahrhundert regierten die Briten dieses Land. Nachfahren versklavter Afrikaner spielten beim Karneval Trommel. Den Behörden gefiel das nicht: In den 1880er-Jahren verboten sie die Trommeln. Doch die Musiker hörten nicht auf. Sie schnitten Bambus und spielten weiter. Später verboten die Behörden auch den Bambus.",
+        "Also suchten die Musiker etwas anderes. 1937 spielten sie in Laventille, einem Arbeiterviertel der Hauptstadt, auf Bratpfannen, Mülleimerdeckeln und Fässern. Das Land fördert Öl, deshalb gibt es viele Fässer! Die Musiker schlugen auf das Metall und entdeckten etwas: Je nach Form gibt es verschiedene Töne. Die Steelpan war geboren.",
+        "1951 reiste ein Steelpan-Orchester zu einem großen Festival nach London. Diese Musiker spielten in der Hauptstadt derer, die ihre Trommeln verboten hatten. 2023 legte die UNO einen Welttag der Steelpan fest: den 11. August. Und beim nächsten Karneval werden große Orchester wieder im Wettbewerb Panorama spielen."
+      ],
+      "glossary": [
+        {
+          "w": "le bidon",
+          "fr": "un grand récipient en métal pour un liquide, par exemple le pétrole",
+          "de": "das Fass, der Kanister"
+        },
+        {
+          "w": "le tambour",
+          "fr": "un instrument de musique : on tape dessus avec les mains ou des bâtons",
+          "de": "die Trommel"
+        },
+        {
+          "w": "interdire",
+          "fr": "dire qu'une chose n'est pas permise",
+          "de": "verbieten"
+        },
+        {
+          "w": "la lutte",
+          "fr": "l'action de se battre pour quelque chose, pour ses droits par exemple",
+          "de": "der Kampf"
+        },
+        {
+          "w": "un descendant",
+          "fr": "une personne de la famille qui vient après : un enfant, un petit-enfant…",
+          "de": "der Nachfahre"
+        },
+        {
+          "w": "la poêle",
+          "fr": "un objet de cuisine plat pour faire cuire les œufs ou la viande",
+          "de": "die Bratpfanne"
+        },
+        {
+          "w": "le couvercle",
+          "fr": "la partie qui ferme le haut d'une boîte ou d'une casserole",
+          "de": "der Deckel"
+        },
+        {
+          "w": "taper",
+          "fr": "donner des coups sur quelque chose",
+          "de": "schlagen, klopfen"
+        }
+      ],
+      "grammar": "Negation in the passé composé: ne and pas go around the auxiliary, not around the whole verb. So you say « Les musiciens n'ont pas arrêté », with ne before ont and pas right after it; the past participle arrêté comes last. Before a vowel, ne becomes n', as in « Les autorités n'ont pas aimé ça ».",
+      "grammar_de": "Verneinung im passé composé: ne und pas stehen um das Hilfsverb, nicht um das ganze Verb. Man sagt also « Les musiciens n'ont pas arrêté », mit ne vor ont und pas direkt danach; das Partizip arrêté kommt zuletzt. Vor einem Vokal wird ne zu n', wie in « Les autorités n'ont pas aimé ça ».",
+      "questions": [
+        "Avec quel objet fait-on un steelpan ?",
+        "Pourquoi les musiciens ont-ils joué avec du bambou ?",
+        "Qu'est-ce que l'ONU a choisi en 2023 ?"
+      ],
+      "sources": [
+        {
+          "title": "Steelpan",
+          "url": "https://en.wikipedia.org/wiki/Steelpan",
+          "license": "CC BY-SA 4.0"
+        },
+        {
+          "title": "The story of the steel drum in Trinidad and Tobago",
+          "url": "https://oxfordbusinessgroup.com/reports/trinidad-tobago/2015-report/economy/the-story-of-the-steel-drum-in-trinidad-and-tobago",
+          "license": "link only"
+        },
+        {
+          "title": "UN declares Aug. 11 World Steelpan Day",
+          "url": "https://www.caribbeanlife.com/un-declares-aug-11-world-steelpan-day",
+          "license": "link only"
+        }
+      ]
     }
   ]
 }
