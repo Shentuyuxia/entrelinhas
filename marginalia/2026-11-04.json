@@ -1,140 +1,361 @@
 {
-  "date": "2026-11-04",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-04",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "fr",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Photographie",
+   "title": "Claudia Andujar : des numéros pour sauver un peuple",
+   "dek": "Sa famille a été tuée par les nazis. Au Brésil, cette photographe a consacré sa vie à défendre les Yanomami, un peuple d'Amazonie.",
+   "tags": [
+    "Brésil",
+    "Amazonie",
+    "peuples autochtones",
+    "voix passive"
+   ],
+   "paragraphs": [
+    "En 1971, une photographe est partie en Amazonie pour le magazine brésilien Realidade. Elle s'appelait Claudia Andujar. Pendant ce voyage, elle a rencontré les Yanomami, un peuple autochtone qui vit dans la forêt, entre le Brésil et le Venezuela. Elle devait faire un simple reportage, mais cette rencontre a changé sa vie.",
+    "Son histoire avait commencé loin de là. Elle est née en 1931 à Neuchâtel, en Suisse, sous le nom de Claudine Haas, et elle a grandi en Transylvanie. Son père, qui était juif, a été déporté à Dachau et il y a été tué, comme presque toute sa famille. La jeune fille a fui en Suisse avec sa mère, puis elle est partie aux États-Unis. En 1955, elle s'est installée au Brésil, sans parler un mot de portugais, et elle est devenue photographe de presse.",
+    "Chez les Yanomami, elle a inventé sa propre manière de travailler. Elle mettait de la vaseline sur son objectif et elle utilisait un film infrarouge : ses images sont floues, et la lumière y est étrange. Mais ce peuple était en danger. Dans les années 1970, la dictature militaire a fait construire une route sur ses terres, et les ouvriers ont apporté des maladies. Andujar a dénoncé cette situation. En 1977, elle a été expulsée de la région. L'année suivante, elle a fondé une commission pour défendre le territoire yanomami, avec le missionnaire Carlo Zacquini et l'anthropologue Bruce Albert.",
+    "En 1981, la commission a organisé une campagne de vaccination, et Andujar est partie avec les médecins. Les Yanomami ne révèlent pas leur nom : chaque personne a donc reçu un numéro, et son portrait a été ajouté à son dossier médical. Ces images ont troublé la photographe, car elles ressemblaient aux photos des Juifs marqués par les nazis. Mais il y avait une grande différence, selon elle : cette fois, les gens étaient marqués pour être sauvés. La série s'appelle Marcados (« Marqués »).",
+    "À la fin des années 1980, l'or a attiré environ 40 000 mineurs illégaux. Selon l'ONG Survival International, près d'un Yanomami sur cinq est mort de maladie ou de faim entre 1987 et 1993. Avec le chaman Davi Kopenawa, Andujar a alerté le monde entier. En 1992, juste avant le Sommet de la Terre à Rio, le président a signé un décret : le territoire yanomami a été protégé d'un seul tenant.",
+    "La lutte continue : en 2019, une association yanomami estimait à 20 000 le nombre de mineurs sur ces terres. Mais l'histoire d'Andujar pose une question simple : une photo peut-elle seulement montrer le monde, ou peut-elle aussi le défendre ?"
+   ],
+   "paragraphs_en": [
+    "In 1971, a photographer set off for the Amazon for the Brazilian magazine Realidade. Her name was Claudia Andujar. During that trip she met the Yanomami, an Indigenous people who live in the forest between Brazil and Venezuela. She was supposed to do an ordinary report, but this encounter changed her life.",
+    "Her story had begun far from there. She was born in 1931 in Neuchâtel, Switzerland, as Claudine Haas, and grew up in Transylvania. Her father, who was Jewish, was deported to Dachau and killed there, like almost all of his family. The girl fled to Switzerland with her mother, then left for the United States. In 1955 she settled in Brazil without speaking a word of Portuguese, and became a press photographer.",
+    "Among the Yanomami she invented her own way of working. She put Vaseline on her lens and used infrared film: her images are blurred, and the light in them is strange. But this people was in danger. In the 1970s the military dictatorship had a road built across their land, and the workers brought diseases. Andujar denounced the situation. In 1977 she was expelled from the region. The following year she founded a commission to defend Yanomami territory, with the missionary Carlo Zacquini and the anthropologist Bruce Albert.",
+    "In 1981 the commission organised a vaccination campaign, and Andujar went along with the doctors. The Yanomami do not reveal their names, so each person was given a number, and their portrait was added to their medical file. These images disturbed the photographer, because they resembled the photos of Jews marked by the Nazis. But there was one great difference, in her view: this time, people were marked in order to be saved. The series is called Marcados (\"Marked\").",
+    "At the end of the 1980s, gold drew some 40,000 illegal miners. According to the NGO Survival International, nearly one Yanomami in five died of disease or hunger between 1987 and 1993. Together with the shaman Davi Kopenawa, Andujar alerted the whole world. In 1992, just before the Earth Summit in Rio, the president signed a decree: Yanomami territory was protected as one continuous area.",
+    "The struggle goes on: in 2019 a Yanomami association put the number of miners on this land at 20,000. Yet Andujar's story raises a simple question: can a photo only show the world, or can it also defend it?"
+   ],
+   "paragraphs_de": [
+    "1971 reiste eine Fotografin für die brasilianische Zeitschrift Realidade ins Amazonasgebiet. Sie hieß Claudia Andujar. Auf dieser Reise lernte sie die Yanomami kennen, ein indigenes Volk, das im Wald zwischen Brasilien und Venezuela lebt. Sie sollte eine einfache Reportage machen, aber diese Begegnung veränderte ihr Leben.",
+    "Ihre Geschichte hatte weit entfernt davon begonnen. Sie wurde 1931 in Neuenburg in der Schweiz als Claudine Haas geboren und wuchs in Siebenbürgen auf. Ihr Vater, der Jude war, wurde nach Dachau deportiert und dort ermordet, wie fast seine ganze Familie. Das Mädchen floh mit seiner Mutter in die Schweiz und ging dann in die Vereinigten Staaten. 1955 ließ sie sich in Brasilien nieder, ohne ein Wort Portugiesisch zu sprechen, und wurde Pressefotografin.",
+    "Bei den Yanomami erfand sie ihre eigene Arbeitsweise. Sie strich Vaseline auf ihr Objektiv und benutzte Infrarotfilm: Ihre Bilder sind unscharf, und das Licht darin ist seltsam. Doch dieses Volk war in Gefahr. In den 1970er-Jahren ließ die Militärdiktatur eine Straße durch sein Land bauen, und die Arbeiter brachten Krankheiten mit. Andujar prangerte diese Lage an. 1977 wurde sie aus der Region ausgewiesen. Im Jahr darauf gründete sie mit dem Missionar Carlo Zacquini und dem Anthropologen Bruce Albert eine Kommission zur Verteidigung des Yanomami-Gebiets.",
+    "1981 organisierte die Kommission eine Impfkampagne, und Andujar reiste mit den Ärzten mit. Die Yanomami geben ihren Namen nicht preis: Jede Person bekam deshalb eine Nummer, und ihr Porträt wurde ihrer Krankenakte beigefügt. Diese Bilder verstörten die Fotografin, denn sie ähnelten den Fotos der von den Nazis gekennzeichneten Juden. Doch es gab, so sah sie es, einen großen Unterschied: Diesmal wurden die Menschen gekennzeichnet, um gerettet zu werden. Die Serie heißt Marcados („Gekennzeichnet“).",
+    "Ende der 1980er-Jahre lockte das Gold rund 40 000 illegale Goldsucher an. Nach Angaben der NGO Survival International starb zwischen 1987 und 1993 fast jeder fünfte Yanomami an Krankheit oder Hunger. Gemeinsam mit dem Schamanen Davi Kopenawa alarmierte Andujar die ganze Welt. 1992, kurz vor dem Erdgipfel in Rio, unterzeichnete der Präsident ein Dekret: Das Yanomami-Gebiet wurde als zusammenhängende Fläche geschützt.",
+    "Der Kampf geht weiter: 2019 schätzte eine Yanomami-Vereinigung die Zahl der Goldsucher auf diesem Land auf 20 000. Doch Andujars Geschichte stellt eine einfache Frage: Kann ein Foto die Welt nur zeigen, oder kann es sie auch verteidigen?"
+   ],
+   "glossary": [
     {
-      "lang": "fr",
-      "level": "B1",
-      "kind": "feature",
-      "section": "Photographie",
-      "title": "Claudia Andujar : des numéros pour sauver un peuple",
-      "dek": "Sa famille a été tuée par les nazis. Au Brésil, cette photographe a consacré sa vie à défendre les Yanomami, un peuple d'Amazonie.",
-      "tags": [
-        "Brésil",
-        "Amazonie",
-        "peuples autochtones",
-        "voix passive"
-      ],
-      "paragraphs": [
-        "En 1971, une photographe est partie en Amazonie pour le magazine brésilien Realidade. Elle s'appelait Claudia Andujar. Pendant ce voyage, elle a rencontré les Yanomami, un peuple autochtone qui vit dans la forêt, entre le Brésil et le Venezuela. Elle devait faire un simple reportage, mais cette rencontre a changé sa vie.",
-        "Son histoire avait commencé loin de là. Elle est née en 1931 à Neuchâtel, en Suisse, sous le nom de Claudine Haas, et elle a grandi en Transylvanie. Son père, qui était juif, a été déporté à Dachau et il y a été tué, comme presque toute sa famille. La jeune fille a fui en Suisse avec sa mère, puis elle est partie aux États-Unis. En 1955, elle s'est installée au Brésil, sans parler un mot de portugais, et elle est devenue photographe de presse.",
-        "Chez les Yanomami, elle a inventé sa propre manière de travailler. Elle mettait de la vaseline sur son objectif et elle utilisait un film infrarouge : ses images sont floues, et la lumière y est étrange. Mais ce peuple était en danger. Dans les années 1970, la dictature militaire a fait construire une route sur ses terres, et les ouvriers ont apporté des maladies. Andujar a dénoncé cette situation. En 1977, elle a été expulsée de la région. L'année suivante, elle a fondé une commission pour défendre le territoire yanomami, avec le missionnaire Carlo Zacquini et l'anthropologue Bruce Albert.",
-        "En 1981, la commission a organisé une campagne de vaccination, et Andujar est partie avec les médecins. Les Yanomami ne révèlent pas leur nom : chaque personne a donc reçu un numéro, et son portrait a été ajouté à son dossier médical. Ces images ont troublé la photographe, car elles ressemblaient aux photos des Juifs marqués par les nazis. Mais il y avait une grande différence, selon elle : cette fois, les gens étaient marqués pour être sauvés. La série s'appelle Marcados (« Marqués »).",
-        "À la fin des années 1980, l'or a attiré environ 40 000 mineurs illégaux. Selon l'ONG Survival International, près d'un Yanomami sur cinq est mort de maladie ou de faim entre 1987 et 1993. Avec le chaman Davi Kopenawa, Andujar a alerté le monde entier. En 1992, juste avant le Sommet de la Terre à Rio, le président a signé un décret : le territoire yanomami a été protégé d'un seul tenant.",
-        "La lutte continue : en 2019, une association yanomami estimait à 20 000 le nombre de mineurs sur ces terres. Mais l'histoire d'Andujar pose une question simple : une photo peut-elle seulement montrer le monde, ou peut-elle aussi le défendre ?"
-      ],
-      "paragraphs_en": [
-        "In 1971, a photographer set off for the Amazon for the Brazilian magazine Realidade. Her name was Claudia Andujar. During that trip she met the Yanomami, an Indigenous people who live in the forest between Brazil and Venezuela. She was supposed to do an ordinary report, but this encounter changed her life.",
-        "Her story had begun far from there. She was born in 1931 in Neuchâtel, Switzerland, as Claudine Haas, and grew up in Transylvania. Her father, who was Jewish, was deported to Dachau and killed there, like almost all of his family. The girl fled to Switzerland with her mother, then left for the United States. In 1955 she settled in Brazil without speaking a word of Portuguese, and became a press photographer.",
-        "Among the Yanomami she invented her own way of working. She put Vaseline on her lens and used infrared film: her images are blurred, and the light in them is strange. But this people was in danger. In the 1970s the military dictatorship had a road built across their land, and the workers brought diseases. Andujar denounced the situation. In 1977 she was expelled from the region. The following year she founded a commission to defend Yanomami territory, with the missionary Carlo Zacquini and the anthropologist Bruce Albert.",
-        "In 1981 the commission organised a vaccination campaign, and Andujar went along with the doctors. The Yanomami do not reveal their names, so each person was given a number, and their portrait was added to their medical file. These images disturbed the photographer, because they resembled the photos of Jews marked by the Nazis. But there was one great difference, in her view: this time, people were marked in order to be saved. The series is called Marcados (\"Marked\").",
-        "At the end of the 1980s, gold drew some 40,000 illegal miners. According to the NGO Survival International, nearly one Yanomami in five died of disease or hunger between 1987 and 1993. Together with the shaman Davi Kopenawa, Andujar alerted the whole world. In 1992, just before the Earth Summit in Rio, the president signed a decree: Yanomami territory was protected as one continuous area.",
-        "The struggle goes on: in 2019 a Yanomami association put the number of miners on this land at 20,000. Yet Andujar's story raises a simple question: can a photo only show the world, or can it also defend it?"
-      ],
-      "paragraphs_de": [
-        "1971 reiste eine Fotografin für die brasilianische Zeitschrift Realidade ins Amazonasgebiet. Sie hieß Claudia Andujar. Auf dieser Reise lernte sie die Yanomami kennen, ein indigenes Volk, das im Wald zwischen Brasilien und Venezuela lebt. Sie sollte eine einfache Reportage machen, aber diese Begegnung veränderte ihr Leben.",
-        "Ihre Geschichte hatte weit entfernt davon begonnen. Sie wurde 1931 in Neuenburg in der Schweiz als Claudine Haas geboren und wuchs in Siebenbürgen auf. Ihr Vater, der Jude war, wurde nach Dachau deportiert und dort ermordet, wie fast seine ganze Familie. Das Mädchen floh mit seiner Mutter in die Schweiz und ging dann in die Vereinigten Staaten. 1955 ließ sie sich in Brasilien nieder, ohne ein Wort Portugiesisch zu sprechen, und wurde Pressefotografin.",
-        "Bei den Yanomami erfand sie ihre eigene Arbeitsweise. Sie strich Vaseline auf ihr Objektiv und benutzte Infrarotfilm: Ihre Bilder sind unscharf, und das Licht darin ist seltsam. Doch dieses Volk war in Gefahr. In den 1970er-Jahren ließ die Militärdiktatur eine Straße durch sein Land bauen, und die Arbeiter brachten Krankheiten mit. Andujar prangerte diese Lage an. 1977 wurde sie aus der Region ausgewiesen. Im Jahr darauf gründete sie mit dem Missionar Carlo Zacquini und dem Anthropologen Bruce Albert eine Kommission zur Verteidigung des Yanomami-Gebiets.",
-        "1981 organisierte die Kommission eine Impfkampagne, und Andujar reiste mit den Ärzten mit. Die Yanomami geben ihren Namen nicht preis: Jede Person bekam deshalb eine Nummer, und ihr Porträt wurde ihrer Krankenakte beigefügt. Diese Bilder verstörten die Fotografin, denn sie ähnelten den Fotos der von den Nazis gekennzeichneten Juden. Doch es gab, so sah sie es, einen großen Unterschied: Diesmal wurden die Menschen gekennzeichnet, um gerettet zu werden. Die Serie heißt Marcados („Gekennzeichnet“).",
-        "Ende der 1980er-Jahre lockte das Gold rund 40 000 illegale Goldsucher an. Nach Angaben der NGO Survival International starb zwischen 1987 und 1993 fast jeder fünfte Yanomami an Krankheit oder Hunger. Gemeinsam mit dem Schamanen Davi Kopenawa alarmierte Andujar die ganze Welt. 1992, kurz vor dem Erdgipfel in Rio, unterzeichnete der Präsident ein Dekret: Das Yanomami-Gebiet wurde als zusammenhängende Fläche geschützt.",
-        "Der Kampf geht weiter: 2019 schätzte eine Yanomami-Vereinigung die Zahl der Goldsucher auf diesem Land auf 20 000. Doch Andujars Geschichte stellt eine einfache Frage: Kann ein Foto die Welt nur zeigen, oder kann es sie auch verteidigen?"
-      ],
-      "glossary": [
-        {
-          "w": "autochtone",
-          "fr": "qui vit dans une région depuis très longtemps, avant l'arrivée des colons",
-          "de": "indigen"
-        },
-        {
-          "w": "déporter",
-          "fr": "envoyer quelqu'un de force dans un camp ou un pays lointain",
-          "de": "deportieren"
-        },
-        {
-          "w": "l'objectif (m.)",
-          "fr": "la partie d'un appareil photo avec le verre, par où entre la lumière",
-          "de": "das Objektiv"
-        },
-        {
-          "w": "flou, floue",
-          "fr": "pas net, difficile à voir clairement",
-          "de": "unscharf"
-        },
-        {
-          "w": "dénoncer",
-          "fr": "dire publiquement qu'une chose est injuste ou mauvaise",
-          "de": "anprangern"
-        },
-        {
-          "w": "expulser",
-          "fr": "obliger quelqu'un à quitter un lieu",
-          "de": "ausweisen, vertreiben"
-        },
-        {
-          "w": "le dossier médical",
-          "fr": "l'ensemble des documents d'un médecin sur la santé d'une personne",
-          "de": "die Krankenakte"
-        },
-        {
-          "w": "troubler",
-          "fr": "rendre quelqu'un mal à l'aise, inquiet ou ému",
-          "de": "verstören, beunruhigen"
-        },
-        {
-          "w": "le mineur illégal",
-          "fr": "une personne qui cherche de l'or ou d'autres métaux dans la terre sans en avoir le droit",
-          "de": "der illegale Goldsucher"
-        },
-        {
-          "w": "le décret",
-          "fr": "une décision officielle écrite, prise par un président ou un gouvernement",
-          "de": "das Dekret, die Verordnung"
-        },
-        {
-          "w": "d'un seul tenant",
-          "fr": "en une seule partie, sans morceaux séparés",
-          "de": "zusammenhängend, an einem Stück"
-        }
-      ],
-      "grammar": "The passive voice is être + past participle, and the person or thing undergoing the action becomes the subject. The tense sits in être: « elle a été expulsée » (passé composé) but « les gens étaient marqués » (imparfait). The participle agrees with the subject like an adjective, hence « expulsée » with -e and « marqués » with -s. It suits this story because it puts the victims first and can leave out who acted; when you name the agent, use par: « marqués par les nazis ».",
-      "grammar_de": "Das Passiv bildet man mit être + Partizip Perfekt, und die Person oder Sache, mit der etwas geschieht, wird zum Subjekt. Die Zeit steckt in être: « elle a été expulsée » (passé composé), aber « les gens étaient marqués » (imparfait). Das Partizip richtet sich wie ein Adjektiv nach dem Subjekt, daher « expulsée » mit -e und « marqués » mit -s. Es passt zu dieser Geschichte, weil es die Opfer nach vorne stellt und den Täter weglassen kann; nennt man ihn, steht par: « marqués par les nazis ».",
-      "questions": [
-        "Pourquoi les portraits de la série Marcados ont-ils troublé Claudia Andujar ?",
-        "Quelles menaces venues de l'extérieur les Yanomami ont-ils subies depuis les années 1970 ?",
-        "À votre avis, une photo peut-elle changer une décision politique ? Donnez un exemple."
-      ],
-      "sources": [
-        {
-          "title": "Claudia Andujar – from war trauma to defending Amazon communities (Swissinfo)",
-          "url": "https://www.swissinfo.ch/eng/culture/claudia-andujar-from-war-trauma-to-defending-amazon-communities/89467794",
-          "license": "link only"
-        },
-        {
-          "title": "Claudia Andujar (Fondation Cartier)",
-          "url": "https://www.fondationcartier.com/en/collection/artists/claudia-andujar",
-          "license": "link only"
-        },
-        {
-          "title": "Horizontal 2, from the series Marcados (Hammer Museum)",
-          "url": "https://hammer.ucla.edu/radical-women/art/art/horizontal-2-from-the-series-marcados-marked",
-          "license": "link only"
-        },
-        {
-          "title": "Claudia Andujar : chronologie (MUAC, UNAM)",
-          "url": "https://muac.unam.mx/assets/docs/andujar_chronology.pdf",
-          "license": "link only"
-        },
-        {
-          "title": "Yanomami timeline (Survival International)",
-          "url": "https://assets.survivalinternational.org/documents/1867/yanomami-timeline-updated-sept-2019.pdf",
-          "license": "link only"
-        },
-        {
-          "title": "Claudia Andujar : La lutte Yanomami (Arte al Día)",
-          "url": "https://www.artealdia.com/Reviews/CLAUDIA-ANDUJAR-LA-LUTTE-YANOMAMI-FONDATION-CARTIER-POUR-L-ART-CONTEMPORAIN",
-          "license": "link only"
-        }
-      ]
+     "w": "autochtone",
+     "fr": "qui vit dans une région depuis très longtemps, avant l'arrivée des colons",
+     "de": "indigen"
+    },
+    {
+     "w": "déporter",
+     "fr": "envoyer quelqu'un de force dans un camp ou un pays lointain",
+     "de": "deportieren"
+    },
+    {
+     "w": "l'objectif (m.)",
+     "fr": "la partie d'un appareil photo avec le verre, par où entre la lumière",
+     "de": "das Objektiv"
+    },
+    {
+     "w": "flou, floue",
+     "fr": "pas net, difficile à voir clairement",
+     "de": "unscharf"
+    },
+    {
+     "w": "dénoncer",
+     "fr": "dire publiquement qu'une chose est injuste ou mauvaise",
+     "de": "anprangern"
+    },
+    {
+     "w": "expulser",
+     "fr": "obliger quelqu'un à quitter un lieu",
+     "de": "ausweisen, vertreiben"
+    },
+    {
+     "w": "le dossier médical",
+     "fr": "l'ensemble des documents d'un médecin sur la santé d'une personne",
+     "de": "die Krankenakte"
+    },
+    {
+     "w": "troubler",
+     "fr": "rendre quelqu'un mal à l'aise, inquiet ou ému",
+     "de": "verstören, beunruhigen"
+    },
+    {
+     "w": "le mineur illégal",
+     "fr": "une personne qui cherche de l'or ou d'autres métaux dans la terre sans en avoir le droit",
+     "de": "der illegale Goldsucher"
+    },
+    {
+     "w": "le décret",
+     "fr": "une décision officielle écrite, prise par un président ou un gouvernement",
+     "de": "das Dekret, die Verordnung"
+    },
+    {
+     "w": "d'un seul tenant",
+     "fr": "en une seule partie, sans morceaux séparés",
+     "de": "zusammenhängend, an einem Stück"
     }
-  ]
+   ],
+   "grammar": "The passive voice is être + past participle, and the person or thing undergoing the action becomes the subject. The tense sits in être: « elle a été expulsée » (passé composé) but « les gens étaient marqués » (imparfait). The participle agrees with the subject like an adjective, hence « expulsée » with -e and « marqués » with -s. It suits this story because it puts the victims first and can leave out who acted; when you name the agent, use par: « marqués par les nazis ».",
+   "grammar_de": "Das Passiv bildet man mit être + Partizip Perfekt, und die Person oder Sache, mit der etwas geschieht, wird zum Subjekt. Die Zeit steckt in être: « elle a été expulsée » (passé composé), aber « les gens étaient marqués » (imparfait). Das Partizip richtet sich wie ein Adjektiv nach dem Subjekt, daher « expulsée » mit -e und « marqués » mit -s. Es passt zu dieser Geschichte, weil es die Opfer nach vorne stellt und den Täter weglassen kann; nennt man ihn, steht par: « marqués par les nazis ».",
+   "questions": [
+    "Pourquoi les portraits de la série Marcados ont-ils troublé Claudia Andujar ?",
+    "Quelles menaces venues de l'extérieur les Yanomami ont-ils subies depuis les années 1970 ?",
+    "À votre avis, une photo peut-elle changer une décision politique ? Donnez un exemple."
+   ],
+   "sources": [
+    {
+     "title": "Claudia Andujar – from war trauma to defending Amazon communities (Swissinfo)",
+     "url": "https://www.swissinfo.ch/eng/culture/claudia-andujar-from-war-trauma-to-defending-amazon-communities/89467794",
+     "license": "link only"
+    },
+    {
+     "title": "Claudia Andujar (Fondation Cartier)",
+     "url": "https://www.fondationcartier.com/en/collection/artists/claudia-andujar",
+     "license": "link only"
+    },
+    {
+     "title": "Horizontal 2, from the series Marcados (Hammer Museum)",
+     "url": "https://hammer.ucla.edu/radical-women/art/art/horizontal-2-from-the-series-marcados-marked",
+     "license": "link only"
+    },
+    {
+     "title": "Claudia Andujar : chronologie (MUAC, UNAM)",
+     "url": "https://muac.unam.mx/assets/docs/andujar_chronology.pdf",
+     "license": "link only"
+    },
+    {
+     "title": "Yanomami timeline (Survival International)",
+     "url": "https://assets.survivalinternational.org/documents/1867/yanomami-timeline-updated-sept-2019.pdf",
+     "license": "link only"
+    },
+    {
+     "title": "Claudia Andujar : La lutte Yanomami (Arte al Día)",
+     "url": "https://www.artealdia.com/Reviews/CLAUDIA-ANDUJAR-LA-LUTTE-YANOMAMI-FONDATION-CARTIER-POUR-L-ART-CONTEMPORAIN",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En la farmacia: tengo dolor de cabeza",
+   "dek": "Situación: una clienta pide ayuda en una farmacia de Santiago de Chile.",
+   "tags": [
+    "Santiago",
+    "farmacia",
+    "tener"
+   ],
+   "paragraphs": [
+    "Camila: Buenas tardes.",
+    "Farmacéutico: Buenas tardes. ¿En qué le puedo ayudar?",
+    "Camila: Tengo dolor de cabeza. ¿Tiene algo para el dolor?",
+    "Farmacéutico: Sí, tengo aspirinas y paracetamol. ¿Tiene fiebre?",
+    "Camila: No, no tengo fiebre. Solo tengo dolor de cabeza y un poco de frío.",
+    "Farmacéutico: Entonces le recomiendo el paracetamol. Lea las instrucciones en la caja.",
+    "Camila: ¿Cuánto cuesta?",
+    "Farmacéutico: Cuesta dos mil quinientos pesos.",
+    "Camila: Muy bien, lo compro. ¿Puedo pagar con tarjeta?",
+    "Farmacéutico: Sí, claro. Aquí tiene.",
+    "Camila: Gracias. ¡Hasta luego!",
+    "Farmacéutico: De nada. ¡Que se mejore!",
+    "Dato curioso: en muchos países de América Latina es de buena educación decir «Buenos días» o «Buenas tardes» al entrar a una tienda, antes de pedir algo."
+   ],
+   "paragraphs_en": [
+    "Camila: Good afternoon.",
+    "Pharmacist: Good afternoon. How can I help you?",
+    "Camila: I have a headache. Do you have something for the pain?",
+    "Pharmacist: Yes, I have aspirin and paracetamol. Do you have a fever?",
+    "Camila: No, I don't have a fever. I just have a headache and I feel a little cold.",
+    "Pharmacist: Then I recommend the paracetamol. Read the instructions on the box.",
+    "Camila: How much does it cost?",
+    "Pharmacist: It costs two thousand five hundred pesos.",
+    "Camila: Very well, I'll buy it. Can I pay by card?",
+    "Pharmacist: Yes, of course. Here you are.",
+    "Camila: Thank you. See you later!",
+    "Pharmacist: You're welcome. Get well soon!",
+    "Fun fact: in many Latin American countries it is polite to say “Buenos días” or “Buenas tardes” when you enter a shop, before you ask for something."
+   ],
+   "paragraphs_de": [
+    "Camila: Guten Tag.",
+    "Apotheker: Guten Tag. Wie kann ich Ihnen helfen?",
+    "Camila: Ich habe Kopfschmerzen. Haben Sie etwas gegen den Schmerz?",
+    "Apotheker: Ja, ich habe Aspirin und Paracetamol. Haben Sie Fieber?",
+    "Camila: Nein, ich habe kein Fieber. Ich habe nur Kopfschmerzen und mir ist ein bisschen kalt.",
+    "Apotheker: Dann empfehle ich Ihnen das Paracetamol. Lesen Sie die Anleitung auf der Packung.",
+    "Camila: Was kostet es?",
+    "Apotheker: Es kostet zweitausendfünfhundert Pesos.",
+    "Camila: Sehr gut, ich nehme es. Kann ich mit Karte bezahlen?",
+    "Apotheker: Ja, natürlich. Bitte sehr.",
+    "Camila: Danke. Bis später!",
+    "Apotheker: Gern geschehen. Gute Besserung!",
+    "Kleiner Fun Fact: In vielen Ländern Lateinamerikas ist es höflich, beim Betreten eines Geschäfts „Buenos días“ oder „Buenas tardes“ zu sagen, bevor man etwas verlangt."
+   ],
+   "glossary": [
+    {
+     "w": "la farmacia",
+     "en": "pharmacy",
+     "de": "die Apotheke"
+    },
+    {
+     "w": "el dolor de cabeza",
+     "en": "headache",
+     "de": "die Kopfschmerzen"
+    },
+    {
+     "w": "la fiebre",
+     "en": "fever",
+     "de": "das Fieber"
+    },
+    {
+     "w": "la pastilla",
+     "en": "pill, tablet",
+     "de": "die Tablette"
+    },
+    {
+     "w": "tener frío",
+     "en": "to feel cold",
+     "de": "frieren"
+    },
+    {
+     "w": "la tarjeta",
+     "en": "card",
+     "de": "die Karte"
+    },
+    {
+     "w": "¿Cuánto cuesta?",
+     "en": "How much does it cost?",
+     "de": "Was kostet es?"
+    },
+    {
+     "w": "¡Que se mejore!",
+     "en": "Get well soon!",
+     "de": "Gute Besserung!"
+    }
+   ],
+   "grammar": "Tener (to have) is very useful for small problems: tengo, tienes, tiene, tenemos, tienen. In Spanish you “have” pain, fever, cold, hunger: “Tengo dolor de cabeza”, “No tengo fiebre”, “Tengo frío”. With usted, use tiene: “¿Tiene algo para el dolor?”",
+   "grammar_de": "Tener (haben) ist sehr nützlich bei kleinen Problemen: tengo, tienes, tiene, tenemos, tienen. Im Spanischen „hat“ man Schmerz, Fieber, Kälte, Hunger: „Tengo dolor de cabeza“, „No tengo fiebre“, „Tengo frío“. Mit usted benutzt man tiene: „¿Tiene algo para el dolor?“",
+   "questions": [
+    "¿Tienes dolor de cabeza hoy?",
+    "¿Tienes frío o calor en este momento?",
+    "¿Y tú? ¿Qué dices en una farmacia cuando necesitas ayuda?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Mujeres y feminismo",
+   "title": "Las Cholitas Escaladoras: subir montañas con pollera",
+   "dek": "Un grupo de mujeres aymaras de Bolivia escala picos de más de 6.000 metros con su ropa tradicional.",
+   "tags": [
+    "Bolivia",
+    "mujeres y deporte",
+    "subjuntivo con querer que"
+   ],
+   "paragraphs": [
+    "En La Paz y en El Alto, dos ciudades de Bolivia, es normal ver a mujeres aymaras con polleras, esas faldas anchas y de colores, y con dos trenzas largas. Muchas trabajan en los mercados, venden comida o cuidan a sus familias. Pero hay un grupo de mujeres que usa esa ropa para algo que casi nadie esperaba: subir montañas.",
+    "Se llaman las Cholitas Escaladoras. El grupo nació en 2015, cuando varias mujeres de La Paz y El Alto, entre ellas Cecilia Llusco Alaña, decidieron escalar juntas. Hoy tiene dieciséis integrantes, y las mujeres del grupo tienen entre 24 y 50 años. Cada una tiene su propia historia, pero todas comparten las mismas ganas de llegar arriba.",
+    "Ese mismo año, once de ellas llegaron a la cima del Huayna Potosí, una montaña de 6.088 metros de altura. La líder de aquella primera subida, Lidia Huayllas Estrada, trabajaba como cocinera de montaña, es decir, preparaba la comida para los grupos que subían. Para escalar, las Cholitas usan casco, botas, crampones y cuerdas, como cualquier alpinista. La diferencia es que llevan la pollera y cargan el equipo en un manto tradicional sobre la espalda.",
+    "Su aventura más famosa llegó en enero de 2019. Cinco integrantes del grupo se convirtieron en las primeras mujeres aymaras en subir al Aconcagua, la montaña más alta de América, con casi 6.970 metros. Subir tan alto con ropa tradicional llamó la atención de periodistas y fotógrafos de muchos países, y su historia se conoció mucho fuera de Bolivia. Para llegar a la cima, el grupo tuvo que prepararse durante mucho tiempo, porque a esa altura hace frío y hay poco oxígeno. Fue un logro de trabajo en equipo y de mucha paciencia.",
+    "La ropa no es un simple detalle. La palabra «cholita» se ha usado muchas veces de forma despectiva para hablar de las mujeres aymaras, y ellas han vivido burlas y discriminación en espacios públicos y en el trabajo. Escalar con polleras es una forma de cambiar esa imagen. Quieren que la gente vea su cultura con orgullo y que nadie piense que una montaña no es lugar para una mujer.",
+    "Dato curioso: el Aconcagua no está en Bolivia, sino en Argentina, en la provincia de Mendoza."
+   ],
+   "paragraphs_en": [
+    "In La Paz and El Alto, two cities in Bolivia, it is normal to see Aymara women wearing polleras, those wide, colorful skirts, with two long braids. Many of them work in the markets, sell food, or take care of their families. But there is a group of women who use that clothing for something almost nobody expected: climbing mountains.",
+    "They are called the Cholitas Escaladoras (the Climbing Cholitas). The group started in 2015, when several women from La Paz and El Alto, among them Cecilia Llusco Alaña, decided to climb together. Today it has sixteen members, and the women in the group are between 24 and 50 years old. Each one has her own story, but they all share the same desire to reach the top.",
+    "That same year, eleven of them reached the summit of Huayna Potosí, a mountain 6,088 meters high. The leader of that first climb, Lidia Huayllas Estrada, worked as a mountain cook, that is, she prepared food for the groups that were climbing. To climb, the Cholitas use helmets, boots, crampons and ropes, like any mountaineer. The difference is that they wear the pollera and carry their gear on their backs in a traditional shawl.",
+    "Their most famous adventure came in January 2019. Five members of the group became the first Aymara women to climb Aconcagua, the highest mountain in the Americas, at almost 6,970 meters. Climbing so high in traditional clothing caught the attention of journalists and photographers from many countries, and their story became well known outside Bolivia. To reach the top, the group had to prepare for a long time, because at that altitude it is cold and there is little oxygen. It was an achievement of teamwork and great patience.",
+    "The clothing is not just a detail. The word “cholita” has often been used in a derogatory way to refer to Aymara women, and they have faced mockery and discrimination in public places and at work. Climbing in polleras is a way of changing that image. They want people to see their culture with pride and no one to think that a mountain is no place for a woman.",
+    "Fun fact: Aconcagua is not in Bolivia but in Argentina, in the province of Mendoza."
+   ],
+   "paragraphs_de": [
+    "In La Paz und in El Alto, zwei Städten in Bolivien, sieht man ganz normal Aymara-Frauen in Polleras, diesen weiten, bunten Röcken, und mit zwei langen Zöpfen. Viele arbeiten auf Märkten, verkaufen Essen oder kümmern sich um ihre Familien. Aber es gibt eine Gruppe von Frauen, die diese Kleidung für etwas benutzt, das fast niemand erwartet hat: Berge besteigen.",
+    "Sie heißen die Cholitas Escaladoras (die kletternden Cholitas). Die Gruppe entstand 2015, als mehrere Frauen aus La Paz und El Alto, unter ihnen Cecilia Llusco Alaña, beschlossen, gemeinsam zu klettern. Heute hat sie sechzehn Mitglieder, und die Frauen der Gruppe sind zwischen 24 und 50 Jahre alt. Jede hat ihre eigene Geschichte, aber alle teilen die Lust, ganz nach oben zu kommen.",
+    "Noch im selben Jahr erreichten elf von ihnen den Gipfel des Huayna Potosí, eines 6.088 Meter hohen Berges. Die Anführerin dieser ersten Besteigung, Lidia Huayllas Estrada, arbeitete als Bergköchin, das heißt, sie bereitete das Essen für die Gruppen zu, die hinaufstiegen. Zum Klettern benutzen die Cholitas Helm, Stiefel, Steigeisen und Seile, wie jede Alpinistin. Der Unterschied ist, dass sie die Pollera tragen und die Ausrüstung in einem traditionellen Tuch auf dem Rücken tragen.",
+    "Ihr berühmtestes Abenteuer kam im Januar 2019. Fünf Mitglieder der Gruppe wurden die ersten Aymara-Frauen auf dem Aconcagua, dem höchsten Berg Amerikas, mit fast 6.970 Metern. Dass sie so hoch in traditioneller Kleidung stiegen, erregte die Aufmerksamkeit von Journalisten und Fotografen aus vielen Ländern, und ihre Geschichte wurde auch außerhalb Boliviens bekannt. Um den Gipfel zu erreichen, musste sich die Gruppe lange vorbereiten, denn in dieser Höhe ist es kalt und es gibt wenig Sauerstoff. Es war eine Leistung aus Teamarbeit und viel Geduld.",
+    "Die Kleidung ist kein bloßes Detail. Das Wort „cholita“ wurde oft abwertend für Aymara-Frauen benutzt, und sie haben Spott und Diskriminierung im öffentlichen Raum und bei der Arbeit erlebt. In Polleras zu klettern ist eine Möglichkeit, dieses Bild zu verändern. Sie wollen, dass die Leute ihre Kultur mit Stolz sehen und dass niemand denkt, ein Berg sei kein Ort für eine Frau.",
+    "Kleiner Fun Fact: Der Aconcagua liegt nicht in Bolivien, sondern in Argentinien, in der Provinz Mendoza."
+   ],
+   "glossary": [
+    {
+     "w": "la pollera",
+     "en": "wide, pleated skirt worn by Aymara women",
+     "de": "der weite Faltenrock"
+    },
+    {
+     "w": "la trenza",
+     "en": "braid",
+     "de": "der Zopf"
+    },
+    {
+     "w": "la cima",
+     "en": "summit, top",
+     "de": "der Gipfel"
+    },
+    {
+     "w": "escalar",
+     "en": "to climb",
+     "de": "klettern, besteigen"
+    },
+    {
+     "w": "el casco",
+     "en": "helmet",
+     "de": "der Helm"
+    },
+    {
+     "w": "la cuerda",
+     "en": "rope",
+     "de": "das Seil"
+    },
+    {
+     "w": "el manto",
+     "en": "shawl, cloth",
+     "de": "das Tuch"
+    },
+    {
+     "w": "la cocinera",
+     "en": "(female) cook",
+     "de": "die Köchin"
+    },
+    {
+     "w": "despectivo",
+     "en": "derogatory",
+     "de": "abwertend"
+    },
+    {
+     "w": "la burla",
+     "en": "mockery",
+     "de": "der Spott"
+    },
+    {
+     "w": "el orgullo",
+     "en": "pride",
+     "de": "der Stolz"
+    },
+    {
+     "w": "el integrante",
+     "en": "member",
+     "de": "das Mitglied"
+    }
+   ],
+   "grammar": "Subjunctive after querer que (B1). When the person who wants something is different from the person who acts, use que + subjunctive: “Quieren que la gente vea su cultura con orgullo.” For -ar verbs the endings change to -e (dejar → deje); for -er/-ir verbs they change to -a (ver → vea). If the subject is the same, use the infinitive: “Quieren subir.”",
+   "grammar_de": "Subjuntivo nach querer que (B1). Wenn die Person, die etwas will, nicht dieselbe ist wie die handelnde Person, steht que + Subjuntivo: „Quieren que la gente vea su cultura con orgullo.“ Bei -ar-Verben wechselt die Endung zu -e (dejar → deje), bei -er/-ir-Verben zu -a (ver → vea). Bei gleichem Subjekt steht der Infinitiv: „Quieren subir.“",
+   "questions": [
+    "¿Por qué las Cholitas Escaladoras escalan con ropa tradicional?",
+    "¿Qué quieren las Cholitas que la gente piense de su cultura?",
+    "¿Conoces a otras mujeres que cambian ideas viejas en el deporte o en el trabajo?"
+   ],
+   "sources": [
+    {
+     "title": "Cholita Climbers – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Cholita_Climbers",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T15:51:07+00:00",
+ "updated": "2026-11-04T16:48:34+00:00",
  "days": [
   {
    "date": "2026-11-04",
@@ -8,6 +8,22 @@
      "i": 0,
      "lang": "fr",
      "title": "Claudia Andujar : des numéros pour sauver un peuple",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "En la farmacia: tengo dolor de cabeza",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "Las Cholitas Escaladoras: subir montañas con pollera",
      "kind": "feature",
      "level": "B1",
      "hour": null
