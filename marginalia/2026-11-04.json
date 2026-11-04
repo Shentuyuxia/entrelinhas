@@ -356,6 +356,98 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 8
+   },
+   "title": "Trinta e duas velas",
+   "dek": "Ontem foi a festa do Lucas. Quantas pessoas? Quantas velas? Quantos reais? A Ana conta tudo — e o Bolinha só olha para o bolo.",
+   "tags": [
+    "festa",
+    "números",
+    "preços e idades"
+   ],
+   "paragraphs": [
+    "Quarta-feira, 4 de novembro de 2026. Querido diário, ontem foi a festa do Lucas. Hoje eu estou cansada, mas feliz.",
+    "Na livraria, tem trinta pessoas. O Lucas vê a Bia e grita: — Que surpresa! O bolo de morango tem trinta e duas velas azuis. O Lucas tem trinta e dois anos.",
+    "O bolo custa quarenta reais. A Dona Rosa come dois pedaços e a Júlia come três. O Bolinha olha para o bolo e fica triste.",
+    "Hoje, às onze horas, a Bia vai para a rodoviária. A passagem custa cento e vinte reais. O ônibus sai às doze e meia. Tchau, Bia!",
+    "Agora são nove horas da noite. Um gato, uma Ana e um sofá vermelho. O Tito tem quatro anos e dorme muito. Boa noite, diário. Boa noite, Tito."
+   ],
+   "paragraphs_en": [
+    "Wednesday, 4 November 2026. Dear diary, yesterday was Lucas's party. Today I am tired, but happy.",
+    "At the bookshop there are thirty people. Lucas sees Bia and shouts: \"What a surprise!\" The strawberry cake has thirty-two blue candles. Lucas is thirty-two years old.",
+    "The cake costs forty reais. Dona Rosa eats two pieces and Júlia eats three. Bolinha looks at the cake and gets sad.",
+    "Today, at eleven o'clock, Bia goes to the bus station. The ticket costs one hundred and twenty reais. The bus leaves at half past twelve. Bye, Bia!",
+    "Now it is nine o'clock at night. One cat, one Ana and one red sofa. Tito is four years old and sleeps a lot. Good night, diary. Good night, Tito."
+   ],
+   "paragraphs_zh": [
+    "2026年11月4日，星期三。亲爱的日记，昨天是卢卡斯的派对。今天我很累，但是很开心。",
+    "书店里有三十个人。卢卡斯看到比娅，大喊：“好惊喜！”草莓蛋糕上有三十二根蓝色蜡烛。卢卡斯三十二岁。",
+    "蛋糕四十雷亚尔。罗莎太太吃了两块，茹莉亚吃了三块。波利尼亚看着蛋糕，变得很难过。",
+    "今天十一点，比娅去长途汽车站。车票一百二十雷亚尔。车十二点半开。再见，比娅！",
+    "现在是晚上九点。一只猫、一个安娜、一张红沙发。蒂托四岁了，很爱睡觉。晚安，日记。晚安，蒂托。"
+   ],
+   "paragraphs_de": [
+    "Mittwoch, 4. November 2026. Liebes Tagebuch, gestern war Lucas' Party. Heute bin ich müde, aber glücklich.",
+    "In der Buchhandlung sind dreißig Leute. Lucas sieht Bia und ruft: „Was für eine Überraschung!“ Der Erdbeerkuchen hat zweiunddreißig blaue Kerzen. Lucas ist zweiunddreißig Jahre alt.",
+    "Der Kuchen kostet vierzig Reais. Dona Rosa isst zwei Stücke und Júlia isst drei. Bolinha schaut den Kuchen an und wird traurig.",
+    "Heute um elf Uhr fährt Bia zum Busbahnhof. Das Ticket kostet hundertzwanzig Reais. Der Bus fährt um halb eins ab. Tschüss, Bia!",
+    "Jetzt ist es neun Uhr abends. Eine Katze, eine Ana und ein rotes Sofa. Tito ist vier Jahre alt und schläft viel. Gute Nacht, Tagebuch. Gute Nacht, Tito."
+   ],
+   "glossary": [
+    {
+     "w": "a vela",
+     "en": "candle — trinta e duas velas",
+     "zh": "蜡烛",
+     "de": "die Kerze",
+     "pt": "fica no bolo de aniversário"
+    },
+    {
+     "w": "gritar",
+     "en": "to shout",
+     "zh": "大喊",
+     "de": "rufen, schreien",
+     "pt": "falar muito alto"
+    },
+    {
+     "w": "custar",
+     "en": "to cost — O bolo custa quarenta reais.",
+     "zh": "价钱是、花费",
+     "de": "kosten",
+     "pt": "dizer o preço de uma coisa"
+    },
+    {
+     "w": "a passagem",
+     "en": "ticket (bus, plane)",
+     "zh": "车票",
+     "de": "das Ticket, die Fahrkarte",
+     "pt": "papel para viajar de ônibus"
+    },
+    {
+     "w": "cento e vinte",
+     "en": "120 — 100 alone is cem; with more, cento: cento e vinte",
+     "zh": "一百二十",
+     "de": "hundertzwanzig",
+     "pt": "100 + 20"
+    }
+   ],
+   "grammar": "Counting: 1 and 2 have a feminine form: um bolo, uma vela; dois pedaços, duas velas. From 21 on, join with e: trinta e dois (32). 100 alone is cem; with more it is cento: cento e vinte (120).",
+   "grammar_zh": "数数：1 和 2 有阴性形式：um bolo、uma vela；dois pedaços、duas velas。21 以上用 e 连接：trinta e dois（32）。单独的 100 是 cem；后面还有数字时用 cento：cento e vinte（120）。",
+   "grammar_de": "Zählen: 1 und 2 haben eine weibliche Form: um bolo, uma vela; dois pedaços, duas velas. Ab 21 verbindet man mit e: trinta e dois (32). 100 allein heißt cem; mit weiteren Zahlen cento: cento e vinte (120).",
+   "grammar_pt": "Contar: 1 e 2 têm feminino: um bolo, uma vela; dois pedaços, duas velas. Depois de 20, usamos e: trinta e dois (32). 100 sozinho é cem; com outro número é cento: cento e vinte (120).",
+   "questions": [
+    "Quantas velas tem o bolo do Lucas? Quanto custa o bolo?",
+    "Quantos anos o Tito tem? E a Ana, quantos anos você acha que ela tem?",
+    "E você? Quantos anos você tem? Qual é o seu número de telefone?"
+   ],
+   "sources": []
   }
  ]
 }

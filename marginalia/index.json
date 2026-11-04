@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:48:34+00:00",
+ "updated": "2026-11-04T18:54:17+00:00",
  "days": [
   {
    "date": "2026-11-04",
@@ -26,6 +26,14 @@
      "title": "Las Cholitas Escaladoras: subir montañas con pollera",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Trinta e duas velas",
+     "kind": "story",
+     "level": "A1",
      "hour": null
     }
    ]
