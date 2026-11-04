@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:54:17+00:00",
+ "updated": "2026-11-04T20:26:20+00:00",
  "days": [
   {
    "date": "2026-11-04",
@@ -34,6 +34,14 @@
      "title": "Trinta e duas velas",
      "kind": "story",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "A lanterna e a bandeirinha",
+     "kind": "essay",
+     "level": "B1",
      "hour": null
     }
    ]
