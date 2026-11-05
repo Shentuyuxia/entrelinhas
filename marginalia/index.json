@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T16:48:56+00:00",
+ "updated": "2026-11-05T18:54:12+00:00",
  "days": [
   {
    "date": "2026-11-05",
@@ -26,6 +26,14 @@
      "title": "Barranquilla: cuatro días en que la ciudad baila",
      "kind": "feature",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Convite: a festa do Bolinha",
+     "kind": "brief",
+     "level": "A1",
      "hour": null
     }
    ]

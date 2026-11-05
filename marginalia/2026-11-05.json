@@ -350,6 +350,81 @@
     "¿Y tú? ¿Hay en tu país una fiesta con disfraces? ¿Cómo es?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "brief",
+   "section": "Textinho",
+   "title": "Convite: a festa do Bolinha",
+   "dek": "A Dona Rosa faz uma festa. O convidado de honra é um cachorro marrom!",
+   "paragraphs": [
+    "Convite: a festa do Bolinha!",
+    "Quando? Sábado, 7 de novembro, às 16h.",
+    "Onde? No jardim da Dona Rosa.",
+    "Quem vem? Os amigos do Bolinha: a Ana, o Tito e o Seu João.",
+    "O que tem? Biscoitos para o Bolinha e bolo de chocolate para a gente.",
+    "Quanto custa? Nada! O meu cachorro faz 5 anos.",
+    "O meu telefone: 98765-4321. Dona Rosa"
+   ],
+   "paragraphs_en": [
+    "Invitation: Bolinha's party!",
+    "When? Saturday, 7 November, at 4 p.m.",
+    "Where? In Dona Rosa's garden.",
+    "Who's coming? Bolinha's friends: Ana, Tito and Seu João.",
+    "What is there? Biscuits for Bolinha and chocolate cake for us.",
+    "How much does it cost? Nothing! My dog is turning 5.",
+    "My phone: 98765-4321. Dona Rosa"
+   ],
+   "paragraphs_zh": [
+    "邀请：波利尼亚的派对！",
+    "什么时候？星期六，11月7日，下午4点。",
+    "在哪里？在罗莎夫人的花园里。",
+    "谁来？波利尼亚的朋友们：安娜、蒂托和若昂先生。",
+    "有什么？给波利尼亚的饼干，给我们的巧克力蛋糕。",
+    "多少钱？免费！我的狗狗五岁了。",
+    "我的电话：98765-4321。罗莎夫人"
+   ],
+   "glossary": [
+    {
+     "w": "o convite",
+     "en": "invitation",
+     "zh": "邀请、请柬"
+    },
+    {
+     "w": "o jardim",
+     "en": "garden",
+     "zh": "花园"
+    },
+    {
+     "w": "fazer anos",
+     "en": "to have a birthday, to turn … (O meu cachorro faz 5 anos)",
+     "zh": "过生日、满……岁"
+    },
+    {
+     "w": "Quanto custa?",
+     "en": "How much does it cost? — Nada! = Nothing! (free)",
+     "zh": "多少钱？——Nada! = 什么都不用（免费）"
+    },
+    {
+     "w": "o meu / a minha",
+     "en": "my — o meu cachorro, o meu telefone, a minha casa",
+     "zh": "我的"
+    }
+   ],
+   "grammar": "Invitations ask short questions with question words, then answer them: Quando? Sábado. Onde? No jardim. Possessives agree with the thing: o meu cachorro, a minha casa.",
+   "grammar_zh": "请柬用疑问词提出简短的问题，再马上回答：Quando? Sábado. Onde? No jardim. 物主代词要和名词一致：o meu cachorro、a minha casa。",
+   "questions": [
+    "Quando é a festa do Bolinha? Onde é a festa?",
+    "Quem vem à festa? O que tem na festa?",
+    "E você? Quando é o seu aniversário?"
+   ],
+   "tags": [
+    "convite",
+    "perguntas",
+    "possessivos"
+   ],
+   "sources": []
   }
  ]
 }
