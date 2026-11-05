@@ -1,135 +1,355 @@
 {
-  "date": "2026-11-05",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-05",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "fr",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Philosophie",
+   "title": "Foucault en Iran : ce que le centenaire ne règle pas",
+   "dek": "Paris célèbre les cent ans du philosophe. Ses reportages de 1978 sur le soulèvement iranien, eux, divisent toujours : erreur d'aveuglement ou effort pour penser hors de l'Occident ?",
+   "tags": [
+    "Iran",
+    "Foucault",
+    "gauche et révolution",
+    "conditionnel journalistique"
+   ],
+   "paragraphs": [
+    "Michel Foucault, né le 15 octobre 1926, aurait eu cent ans le mois dernier. Une exposition montée par le Collège de France, où il a enseigné de 1970 à sa mort en 1984, et la Bibliothèque nationale de France lui est consacrée jusqu'au 15 janvier. Mais c'est peut-être en juin que l'hommage a été le plus utile, lors d'un colloque intitulé « Foucault sans frontières », qui voulait éviter à la fois l'hagiographie et la critique facile. L'une des séances portait sur le dossier le plus inconfortable de sa vie : l'Iran.",
+    "En 1978, alors que le régime du chah vacille, le philosophe se fait reporter pour le quotidien italien Corriere della Sera. Il se rend deux fois en Iran : du 16 au 24 septembre, une semaine après le « vendredi noir », puis du 9 au 15 novembre. Il rend visite à des grévistes à Abadan et interroge le grand ayatollah Shariatmadari, qui devient son principal informateur sur le chiisme. Il n'aurait en revanche jamais rencontré Khomeini, contrairement à ce qu'on lit parfois : d'après Daniel Defert, son compagnon, il est seulement allé une fois à Neauphle-le-Château, en région parisienne, pour observer le rituel quotidien autour de l'ayatollah exilé.",
+    "De ces voyages, Foucault rapporte une expression qui fera scandale : la « spiritualité politique ». Selon Defert, elle n'avait rien de fondamentalement religieux. Ce qui comptait à ses yeux, c'était le fait d'accepter de risquer sa vie pour mener « une vie autre », et il appliquera plus tard la même idée aux étudiants marxistes de Tunisie, où il avait enseigné. Une partie de la gauche française n'en est pas moins choquée. Quand une certaine Atoussa H. l'interpelle, il lui répond qu'il faut traiter l'islam avec respect.",
+    "La suite assombrit le tableau. Le chah tombe, Khomeini rentre à Téhéran et, en mars 1979, des féministes manifestent ; viennent ensuite les premières exécutions et le début de la terreur. Les critiques se multiplient alors, et Foucault écrit en avril une lettre ouverte au Premier ministre Mehdi Bazargan. Son dernier texte sur le sujet s'intitule « Inutile de se soulever ? ». Le titre, à lui seul, montre que la question de la révolte reste pour lui ouverte.",
+    "Depuis, deux lectures s'opposent. Dans Foucault and the Iranian Revolution, paru en 2005, Janet Afary et Kevin Anderson voient un philosophe séduit par l'islamisme et aveugle aux questions de genre, et font de l'Iran un tournant dans sa pensée ; ils lisent la révolution comme un seul mouvement continu. Behrooz Ghamari-Tabrizi, ancien militant marxiste-léniniste et auteur de Foucault in Iran, publié en 2016, défend au contraire la démarche d'un penseur qui a pris au sérieux une conception non européenne de la modernité. Il parle même de falsifications à propos du livre de ses prédécesseurs, si l'on en croit Defert.",
+    "Ce débat dépasse le cas Foucault, et c'est là notre lecture plutôt qu'un fait établi. Il met face à face deux exigences de la gauche : ne pas juger une révolte du Sud à la seule mesure de l'Occident, et ne pas oublier celles qui en paient le prix. Defert rappelle que Foucault a été témoin d'un soulèvement, non de la révolution qui a suivi, et que ces deux choses ne se confondent pas. Reste une question ouverte : peut-on défendre le droit de se révolter sans répondre de ce que la révolte devient ?"
+   ],
+   "paragraphs_en": [
+    "Michel Foucault, born on 15 October 1926, would have turned one hundred last month. An exhibition put together by the Collège de France, where he taught from 1970 until his death in 1984, and the Bibliothèque nationale de France is devoted to him until 15 January. But the homage may have been most useful in June, at a conference called “Foucault Without Borders”, which set out to avoid both hagiography and easy criticism. One of its sessions dealt with the most uncomfortable file of his life: Iran.",
+    "In 1978, as the Shah's regime was tottering, the philosopher turned reporter for the Italian daily Corriere della Sera. He went to Iran twice: from 16 to 24 September, a week after “Black Friday”, then from 9 to 15 November. He visited strikers in Abadan and interviewed Grand Ayatollah Shariatmadari, who became his main informant on Shiism. He apparently never met Khomeini, however, contrary to what one sometimes reads: according to Daniel Defert, his partner, he went only once to Neauphle-le-Château, in the Paris region, to watch the daily ritual around the exiled ayatollah.",
+    "From these trips Foucault brought back an expression that would cause a scandal: “political spirituality”. According to Defert, there was nothing fundamentally religious about it. What mattered to him was the fact of accepting the risk to one's life in order to lead “another life”, and he would later apply the same idea to the Marxist students of Tunisia, where he had taught. Part of the French left was shocked all the same. When a certain Atoussa H. challenged him, he answered that Islam must be treated with respect.",
+    "What followed darkened the picture. The Shah fell, Khomeini returned to Tehran and, in March 1979, feminists demonstrated; then came the first executions and the beginning of the terror. Criticism multiplied, and in April Foucault wrote an open letter to Prime Minister Mehdi Bazargan. His last text on the subject is entitled “Is It Useless to Revolt?”. The title alone shows that, for him, the question of revolt remains open.",
+    "Since then, two readings have stood opposed. In Foucault and the Iranian Revolution, published in 2005, Janet Afary and Kevin Anderson see a philosopher seduced by Islamism and blind to questions of gender, and make Iran a turning point in his thought; they read the revolution as one continuous movement. Behrooz Ghamari-Tabrizi, a former Marxist-Leninist activist and author of Foucault in Iran, published in 2016, by contrast defends the approach of a thinker who took a non-European conception of modernity seriously. He even speaks of falsifications in his predecessors' book, if Defert is to be believed.",
+    "This debate goes beyond the Foucault case, and that is our reading rather than an established fact. It sets two demands of the left against each other: not to judge a revolt of the South solely by the measure of the West, and not to forget the women who pay the price for it. Defert points out that Foucault witnessed an uprising, not the revolution that followed, and that the two must not be confused. One open question remains: can one defend the right to revolt without answering for what the revolt becomes?"
+   ],
+   "paragraphs_de": [
+    "Michel Foucault, geboren am 15. Oktober 1926, wäre im vergangenen Monat hundert Jahre alt geworden. Eine Ausstellung des Collège de France, an dem er von 1970 bis zu seinem Tod 1984 lehrte, und der Bibliothèque nationale de France ist ihm noch bis zum 15. Januar gewidmet. Am nützlichsten war die Würdigung aber vielleicht im Juni, auf einem Kolloquium mit dem Titel „Foucault ohne Grenzen“, das sowohl die Heiligenverehrung als auch die billige Kritik vermeiden wollte. Eine der Sitzungen befasste sich mit dem unbequemsten Kapitel seines Lebens: dem Iran.",
+    "1978, als das Regime des Schahs ins Wanken geriet, wurde der Philosoph Reporter für die italienische Tageszeitung Corriere della Sera. Er reiste zweimal in den Iran: vom 16. bis 24. September, eine Woche nach dem „Schwarzen Freitag“, dann vom 9. bis 15. November. Er besuchte Streikende in Abadan und befragte den Großajatollah Schariatmadari, der zu seinem wichtigsten Informanten über den Schiismus wurde. Khomeini soll er dagegen nie getroffen haben, anders als man manchmal liest: Laut Daniel Defert, seinem Lebensgefährten, fuhr er nur einmal nach Neauphle-le-Château bei Paris, um das tägliche Ritual um den exilierten Ajatollah zu beobachten.",
+    "Von diesen Reisen brachte Foucault einen Ausdruck mit, der Empörung auslösen sollte: die „politische Spiritualität“. Laut Defert hatte er nichts grundsätzlich Religiöses. Worauf es ihm ankam, war die Bereitschaft, sein Leben zu riskieren, um „ein anderes Leben“ zu führen, und später wandte er dieselbe Idee auf die marxistischen Studierenden in Tunesien an, wo er gelehrt hatte. Ein Teil der französischen Linken war trotzdem schockiert. Als ihn eine gewisse Atoussa H. zur Rede stellte, antwortete er, man müsse den Islam mit Respekt behandeln.",
+    "Was folgte, verdüsterte das Bild. Der Schah stürzte, Khomeini kehrte nach Teheran zurück, und im März 1979 demonstrierten Feministinnen; dann kamen die ersten Hinrichtungen und der Beginn des Terrors. Die Kritik nahm zu, und im April schrieb Foucault einen offenen Brief an Ministerpräsident Mehdi Bazargan. Sein letzter Text zum Thema trägt den Titel „Ist es sinnlos, sich zu erheben?“. Schon der Titel zeigt, dass die Frage der Revolte für ihn offen bleibt.",
+    "Seitdem stehen sich zwei Lesarten gegenüber. In Foucault and the Iranian Revolution von 2005 sehen Janet Afary und Kevin Anderson einen vom Islamismus verführten Philosophen, blind für Geschlechterfragen, und machen den Iran zu einem Wendepunkt in seinem Denken; die Revolution lesen sie als eine einzige zusammenhängende Bewegung. Behrooz Ghamari-Tabrizi, früher marxistisch-leninistischer Aktivist und Autor von Foucault in Iran aus dem Jahr 2016, verteidigt dagegen das Vorgehen eines Denkers, der eine nichteuropäische Vorstellung von Moderne ernst nahm. Glaubt man Defert, spricht er beim Buch seiner Vorgänger sogar von Fälschungen.",
+    "Diese Debatte reicht über den Fall Foucault hinaus, und das ist unsere Deutung, keine gesicherte Tatsache. Sie stellt zwei Forderungen der Linken einander gegenüber: eine Revolte des Südens nicht allein am Maßstab des Westens zu messen und jene Frauen nicht zu vergessen, die den Preis dafür zahlen. Defert erinnert daran, dass Foucault Zeuge eines Aufstands war, nicht der darauf folgenden Revolution, und dass man beides nicht verwechseln darf. Offen bleibt eine Frage: Kann man das Recht auf Revolte verteidigen, ohne dafür einzustehen, was aus der Revolte wird?"
+   ],
+   "glossary": [
     {
-      "lang": "fr",
-      "level": "B2",
-      "kind": "feature",
-      "section": "Philosophie",
-      "title": "Foucault en Iran : ce que le centenaire ne règle pas",
-      "dek": "Paris célèbre les cent ans du philosophe. Ses reportages de 1978 sur le soulèvement iranien, eux, divisent toujours : erreur d'aveuglement ou effort pour penser hors de l'Occident ?",
-      "tags": [
-        "Iran",
-        "Foucault",
-        "gauche et révolution",
-        "conditionnel journalistique"
-      ],
-      "paragraphs": [
-        "Michel Foucault, né le 15 octobre 1926, aurait eu cent ans le mois dernier. Une exposition montée par le Collège de France, où il a enseigné de 1970 à sa mort en 1984, et la Bibliothèque nationale de France lui est consacrée jusqu'au 15 janvier. Mais c'est peut-être en juin que l'hommage a été le plus utile, lors d'un colloque intitulé « Foucault sans frontières », qui voulait éviter à la fois l'hagiographie et la critique facile. L'une des séances portait sur le dossier le plus inconfortable de sa vie : l'Iran.",
-        "En 1978, alors que le régime du chah vacille, le philosophe se fait reporter pour le quotidien italien Corriere della Sera. Il se rend deux fois en Iran : du 16 au 24 septembre, une semaine après le « vendredi noir », puis du 9 au 15 novembre. Il rend visite à des grévistes à Abadan et interroge le grand ayatollah Shariatmadari, qui devient son principal informateur sur le chiisme. Il n'aurait en revanche jamais rencontré Khomeini, contrairement à ce qu'on lit parfois : d'après Daniel Defert, son compagnon, il est seulement allé une fois à Neauphle-le-Château, en région parisienne, pour observer le rituel quotidien autour de l'ayatollah exilé.",
-        "De ces voyages, Foucault rapporte une expression qui fera scandale : la « spiritualité politique ». Selon Defert, elle n'avait rien de fondamentalement religieux. Ce qui comptait à ses yeux, c'était le fait d'accepter de risquer sa vie pour mener « une vie autre », et il appliquera plus tard la même idée aux étudiants marxistes de Tunisie, où il avait enseigné. Une partie de la gauche française n'en est pas moins choquée. Quand une certaine Atoussa H. l'interpelle, il lui répond qu'il faut traiter l'islam avec respect.",
-        "La suite assombrit le tableau. Le chah tombe, Khomeini rentre à Téhéran et, en mars 1979, des féministes manifestent ; viennent ensuite les premières exécutions et le début de la terreur. Les critiques se multiplient alors, et Foucault écrit en avril une lettre ouverte au Premier ministre Mehdi Bazargan. Son dernier texte sur le sujet s'intitule « Inutile de se soulever ? ». Le titre, à lui seul, montre que la question de la révolte reste pour lui ouverte.",
-        "Depuis, deux lectures s'opposent. Dans Foucault and the Iranian Revolution, paru en 2005, Janet Afary et Kevin Anderson voient un philosophe séduit par l'islamisme et aveugle aux questions de genre, et font de l'Iran un tournant dans sa pensée ; ils lisent la révolution comme un seul mouvement continu. Behrooz Ghamari-Tabrizi, ancien militant marxiste-léniniste et auteur de Foucault in Iran, publié en 2016, défend au contraire la démarche d'un penseur qui a pris au sérieux une conception non européenne de la modernité. Il parle même de falsifications à propos du livre de ses prédécesseurs, si l'on en croit Defert.",
-        "Ce débat dépasse le cas Foucault, et c'est là notre lecture plutôt qu'un fait établi. Il met face à face deux exigences de la gauche : ne pas juger une révolte du Sud à la seule mesure de l'Occident, et ne pas oublier celles qui en paient le prix. Defert rappelle que Foucault a été témoin d'un soulèvement, non de la révolution qui a suivi, et que ces deux choses ne se confondent pas. Reste une question ouverte : peut-on défendre le droit de se révolter sans répondre de ce que la révolte devient ?"
-      ],
-      "paragraphs_en": [
-        "Michel Foucault, born on 15 October 1926, would have turned one hundred last month. An exhibition put together by the Collège de France, where he taught from 1970 until his death in 1984, and the Bibliothèque nationale de France is devoted to him until 15 January. But the homage may have been most useful in June, at a conference called “Foucault Without Borders”, which set out to avoid both hagiography and easy criticism. One of its sessions dealt with the most uncomfortable file of his life: Iran.",
-        "In 1978, as the Shah's regime was tottering, the philosopher turned reporter for the Italian daily Corriere della Sera. He went to Iran twice: from 16 to 24 September, a week after “Black Friday”, then from 9 to 15 November. He visited strikers in Abadan and interviewed Grand Ayatollah Shariatmadari, who became his main informant on Shiism. He apparently never met Khomeini, however, contrary to what one sometimes reads: according to Daniel Defert, his partner, he went only once to Neauphle-le-Château, in the Paris region, to watch the daily ritual around the exiled ayatollah.",
-        "From these trips Foucault brought back an expression that would cause a scandal: “political spirituality”. According to Defert, there was nothing fundamentally religious about it. What mattered to him was the fact of accepting the risk to one's life in order to lead “another life”, and he would later apply the same idea to the Marxist students of Tunisia, where he had taught. Part of the French left was shocked all the same. When a certain Atoussa H. challenged him, he answered that Islam must be treated with respect.",
-        "What followed darkened the picture. The Shah fell, Khomeini returned to Tehran and, in March 1979, feminists demonstrated; then came the first executions and the beginning of the terror. Criticism multiplied, and in April Foucault wrote an open letter to Prime Minister Mehdi Bazargan. His last text on the subject is entitled “Is It Useless to Revolt?”. The title alone shows that, for him, the question of revolt remains open.",
-        "Since then, two readings have stood opposed. In Foucault and the Iranian Revolution, published in 2005, Janet Afary and Kevin Anderson see a philosopher seduced by Islamism and blind to questions of gender, and make Iran a turning point in his thought; they read the revolution as one continuous movement. Behrooz Ghamari-Tabrizi, a former Marxist-Leninist activist and author of Foucault in Iran, published in 2016, by contrast defends the approach of a thinker who took a non-European conception of modernity seriously. He even speaks of falsifications in his predecessors' book, if Defert is to be believed.",
-        "This debate goes beyond the Foucault case, and that is our reading rather than an established fact. It sets two demands of the left against each other: not to judge a revolt of the South solely by the measure of the West, and not to forget the women who pay the price for it. Defert points out that Foucault witnessed an uprising, not the revolution that followed, and that the two must not be confused. One open question remains: can one defend the right to revolt without answering for what the revolt becomes?"
-      ],
-      "paragraphs_de": [
-        "Michel Foucault, geboren am 15. Oktober 1926, wäre im vergangenen Monat hundert Jahre alt geworden. Eine Ausstellung des Collège de France, an dem er von 1970 bis zu seinem Tod 1984 lehrte, und der Bibliothèque nationale de France ist ihm noch bis zum 15. Januar gewidmet. Am nützlichsten war die Würdigung aber vielleicht im Juni, auf einem Kolloquium mit dem Titel „Foucault ohne Grenzen“, das sowohl die Heiligenverehrung als auch die billige Kritik vermeiden wollte. Eine der Sitzungen befasste sich mit dem unbequemsten Kapitel seines Lebens: dem Iran.",
-        "1978, als das Regime des Schahs ins Wanken geriet, wurde der Philosoph Reporter für die italienische Tageszeitung Corriere della Sera. Er reiste zweimal in den Iran: vom 16. bis 24. September, eine Woche nach dem „Schwarzen Freitag“, dann vom 9. bis 15. November. Er besuchte Streikende in Abadan und befragte den Großajatollah Schariatmadari, der zu seinem wichtigsten Informanten über den Schiismus wurde. Khomeini soll er dagegen nie getroffen haben, anders als man manchmal liest: Laut Daniel Defert, seinem Lebensgefährten, fuhr er nur einmal nach Neauphle-le-Château bei Paris, um das tägliche Ritual um den exilierten Ajatollah zu beobachten.",
-        "Von diesen Reisen brachte Foucault einen Ausdruck mit, der Empörung auslösen sollte: die „politische Spiritualität“. Laut Defert hatte er nichts grundsätzlich Religiöses. Worauf es ihm ankam, war die Bereitschaft, sein Leben zu riskieren, um „ein anderes Leben“ zu führen, und später wandte er dieselbe Idee auf die marxistischen Studierenden in Tunesien an, wo er gelehrt hatte. Ein Teil der französischen Linken war trotzdem schockiert. Als ihn eine gewisse Atoussa H. zur Rede stellte, antwortete er, man müsse den Islam mit Respekt behandeln.",
-        "Was folgte, verdüsterte das Bild. Der Schah stürzte, Khomeini kehrte nach Teheran zurück, und im März 1979 demonstrierten Feministinnen; dann kamen die ersten Hinrichtungen und der Beginn des Terrors. Die Kritik nahm zu, und im April schrieb Foucault einen offenen Brief an Ministerpräsident Mehdi Bazargan. Sein letzter Text zum Thema trägt den Titel „Ist es sinnlos, sich zu erheben?“. Schon der Titel zeigt, dass die Frage der Revolte für ihn offen bleibt.",
-        "Seitdem stehen sich zwei Lesarten gegenüber. In Foucault and the Iranian Revolution von 2005 sehen Janet Afary und Kevin Anderson einen vom Islamismus verführten Philosophen, blind für Geschlechterfragen, und machen den Iran zu einem Wendepunkt in seinem Denken; die Revolution lesen sie als eine einzige zusammenhängende Bewegung. Behrooz Ghamari-Tabrizi, früher marxistisch-leninistischer Aktivist und Autor von Foucault in Iran aus dem Jahr 2016, verteidigt dagegen das Vorgehen eines Denkers, der eine nichteuropäische Vorstellung von Moderne ernst nahm. Glaubt man Defert, spricht er beim Buch seiner Vorgänger sogar von Fälschungen.",
-        "Diese Debatte reicht über den Fall Foucault hinaus, und das ist unsere Deutung, keine gesicherte Tatsache. Sie stellt zwei Forderungen der Linken einander gegenüber: eine Revolte des Südens nicht allein am Maßstab des Westens zu messen und jene Frauen nicht zu vergessen, die den Preis dafür zahlen. Defert erinnert daran, dass Foucault Zeuge eines Aufstands war, nicht der darauf folgenden Revolution, und dass man beides nicht verwechseln darf. Offen bleibt eine Frage: Kann man das Recht auf Revolte verteidigen, ohne dafür einzustehen, was aus der Revolte wird?"
-      ],
-      "glossary": [
-        {
-          "w": "l'hagiographie (f.)",
-          "fr": "récit qui présente une personne comme un saint, sans aucune critique",
-          "de": "die Heiligenverehrung, Lobhudelei"
-        },
-        {
-          "w": "vaciller",
-          "fr": "bouger comme si on allait tomber ; devenir fragile, pour un pouvoir",
-          "de": "wanken"
-        },
-        {
-          "w": "le chah",
-          "fr": "titre du souverain d'Iran avant la révolution",
-          "de": "der Schah"
-        },
-        {
-          "w": "le gréviste, la gréviste",
-          "fr": "personne qui arrête le travail pour protester",
-          "de": "der/die Streikende"
-        },
-        {
-          "w": "l'informateur (m.)",
-          "fr": "personne qui donne des renseignements à un enquêteur ou à un journaliste",
-          "de": "der Informant"
-        },
-        {
-          "w": "le chiisme",
-          "fr": "l'une des deux grandes branches de l'islam, majoritaire en Iran",
-          "de": "der Schiismus"
-        },
-        {
-          "w": "interpeller quelqu'un",
-          "fr": "s'adresser à quelqu'un pour lui demander de s'expliquer",
-          "de": "jemanden zur Rede stellen"
-        },
-        {
-          "w": "assombrir",
-          "fr": "rendre plus sombre ou plus triste",
-          "de": "verdüstern"
-        },
-        {
-          "w": "se soulever",
-          "fr": "se révolter collectivement contre un pouvoir",
-          "de": "sich erheben"
-        },
-        {
-          "w": "la falsification",
-          "fr": "le fait de changer un texte ou des faits pour tromper",
-          "de": "die Fälschung"
-        },
-        {
-          "w": "répondre de quelque chose",
-          "fr": "en accepter la responsabilité, en assumer les conséquences",
-          "de": "für etwas einstehen"
-        }
-      ],
-      "grammar": "The past conditional has two very different jobs in this text. In « il aurait eu cent ans », it is unreal: it describes what would have happened if he were alive. In « il n'aurait jamais rencontré Khomeini », it is the journalistic conditional: the writer reports a claim without vouching for it, which English renders with 'apparently' or 'reportedly'. Only the context tells them apart; a source named nearby, such as « d'après Daniel Defert », is a strong signal of the second use.",
-      "grammar_de": "Das Conditionnel passé hat in diesem Text zwei ganz verschiedene Aufgaben. In « il aurait eu cent ans » ist es irreal: Es beschreibt, was gewesen wäre, wenn er noch lebte. In « il n'aurait jamais rencontré Khomeini » ist es das journalistische Conditionnel: Die Schreibenden geben eine Behauptung wieder, ohne sich dafür zu verbürgen, wie im Deutschen mit „soll“ oder „angeblich“. Nur der Kontext unterscheidet beide; eine genannte Quelle in der Nähe, etwa « d'après Daniel Defert », spricht klar für die zweite Bedeutung.",
-      "questions": [
-        "Selon Daniel Defert, qu'est-ce que Foucault voulait dire par « spiritualité politique » ?",
-        "Sur quels points la lecture d'Afary et Anderson s'oppose-t-elle à celle de Ghamari-Tabrizi ?",
-        "Pensez-vous qu'on puisse soutenir une révolte sans être responsable de ce qu'elle devient ? Pourquoi ?"
-      ],
-      "sources": [
-        {
-          "title": "Foucault sans frontières (colloque, 5 juin 2026)",
-          "url": "https://www.college-de-france.fr/fr/agenda/colloque/foucault-sans-frontieres",
-          "license": "link only"
-        },
-        {
-          "title": "Centenaire de la naissance de Michel Foucault",
-          "url": "https://www.college-de-france.fr/fr/actualites/centenaire-de-la-naissance-de-michel-foucault",
-          "license": "link only"
-        },
-        {
-          "title": "Daniel Defert, Foucault and Iran",
-          "url": "https://blogs.law.columbia.edu/uprising1313/daniel-defert-foucault-and-iran",
-          "license": "link only"
-        },
-        {
-          "title": "Angus Reoch, Foucault in Iran (Hong Kong Review of Books)",
-          "url": "https://hkrbooks.com/2016/11/22/foucault-in-iran/",
-          "license": "link only"
-        },
-        {
-          "title": "Janet Afary, Kevin B. Anderson, Foucault and the Iranian Revolution (University of Chicago Press)",
-          "url": "https://www.press.uchicago.edu/ucp/books/book/chicago/F/bo3534884.html",
-          "license": "link only"
-        }
-      ]
+     "w": "l'hagiographie (f.)",
+     "fr": "récit qui présente une personne comme un saint, sans aucune critique",
+     "de": "die Heiligenverehrung, Lobhudelei"
+    },
+    {
+     "w": "vaciller",
+     "fr": "bouger comme si on allait tomber ; devenir fragile, pour un pouvoir",
+     "de": "wanken"
+    },
+    {
+     "w": "le chah",
+     "fr": "titre du souverain d'Iran avant la révolution",
+     "de": "der Schah"
+    },
+    {
+     "w": "le gréviste, la gréviste",
+     "fr": "personne qui arrête le travail pour protester",
+     "de": "der/die Streikende"
+    },
+    {
+     "w": "l'informateur (m.)",
+     "fr": "personne qui donne des renseignements à un enquêteur ou à un journaliste",
+     "de": "der Informant"
+    },
+    {
+     "w": "le chiisme",
+     "fr": "l'une des deux grandes branches de l'islam, majoritaire en Iran",
+     "de": "der Schiismus"
+    },
+    {
+     "w": "interpeller quelqu'un",
+     "fr": "s'adresser à quelqu'un pour lui demander de s'expliquer",
+     "de": "jemanden zur Rede stellen"
+    },
+    {
+     "w": "assombrir",
+     "fr": "rendre plus sombre ou plus triste",
+     "de": "verdüstern"
+    },
+    {
+     "w": "se soulever",
+     "fr": "se révolter collectivement contre un pouvoir",
+     "de": "sich erheben"
+    },
+    {
+     "w": "la falsification",
+     "fr": "le fait de changer un texte ou des faits pour tromper",
+     "de": "die Fälschung"
+    },
+    {
+     "w": "répondre de quelque chose",
+     "fr": "en accepter la responsabilité, en assumer les conséquences",
+     "de": "für etwas einstehen"
     }
-  ]
+   ],
+   "grammar": "The past conditional has two very different jobs in this text. In « il aurait eu cent ans », it is unreal: it describes what would have happened if he were alive. In « il n'aurait jamais rencontré Khomeini », it is the journalistic conditional: the writer reports a claim without vouching for it, which English renders with 'apparently' or 'reportedly'. Only the context tells them apart; a source named nearby, such as « d'après Daniel Defert », is a strong signal of the second use.",
+   "grammar_de": "Das Conditionnel passé hat in diesem Text zwei ganz verschiedene Aufgaben. In « il aurait eu cent ans » ist es irreal: Es beschreibt, was gewesen wäre, wenn er noch lebte. In « il n'aurait jamais rencontré Khomeini » ist es das journalistische Conditionnel: Die Schreibenden geben eine Behauptung wieder, ohne sich dafür zu verbürgen, wie im Deutschen mit „soll“ oder „angeblich“. Nur der Kontext unterscheidet beide; eine genannte Quelle in der Nähe, etwa « d'après Daniel Defert », spricht klar für die zweite Bedeutung.",
+   "questions": [
+    "Selon Daniel Defert, qu'est-ce que Foucault voulait dire par « spiritualité politique » ?",
+    "Sur quels points la lecture d'Afary et Anderson s'oppose-t-elle à celle de Ghamari-Tabrizi ?",
+    "Pensez-vous qu'on puisse soutenir une révolte sans être responsable de ce qu'elle devient ? Pourquoi ?"
+   ],
+   "sources": [
+    {
+     "title": "Foucault sans frontières (colloque, 5 juin 2026)",
+     "url": "https://www.college-de-france.fr/fr/agenda/colloque/foucault-sans-frontieres",
+     "license": "link only"
+    },
+    {
+     "title": "Centenaire de la naissance de Michel Foucault",
+     "url": "https://www.college-de-france.fr/fr/actualites/centenaire-de-la-naissance-de-michel-foucault",
+     "license": "link only"
+    },
+    {
+     "title": "Daniel Defert, Foucault and Iran",
+     "url": "https://blogs.law.columbia.edu/uprising1313/daniel-defert-foucault-and-iran",
+     "license": "link only"
+    },
+    {
+     "title": "Angus Reoch, Foucault in Iran (Hong Kong Review of Books)",
+     "url": "https://hkrbooks.com/2016/11/22/foucault-in-iran/",
+     "license": "link only"
+    },
+    {
+     "title": "Janet Afary, Kevin B. Anderson, Foucault and the Iranian Revolution (University of Chicago Press)",
+     "url": "https://www.press.uchicago.edu/ucp/books/book/chicago/F/bo3534884.html",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En Montevideo: ¿es más grande que tu ciudad?",
+   "dek": "Dos mujeres se conocen en Montevideo, Uruguay, y comparan sus ciudades: el tamaño, el clima, la comida y el transporte.",
+   "tags": [
+    "Montevideo",
+    "small talk",
+    "comparativos"
+   ],
+   "paragraphs": [
+    "Camila: ¡Hola! ¿Eres nueva por aquí?",
+    "Anna: Sí, llegué ayer a Montevideo. Soy de Berlín.",
+    "Camila: ¡Qué bien! Berlín es más grande que Montevideo, ¿verdad?",
+    "Anna: Sí, es mucho más grande, pero Montevideo es más tranquila.",
+    "Camila: ¿Y el clima? ¿En Berlín hace más frío que aquí?",
+    "Anna: Ahora sí. En noviembre Berlín es más frío y más oscuro. Aquí hay más sol.",
+    "Camila: ¿Te gusta la comida de aquí?",
+    "Anna: Mucho. El chivito es tan rico como una hamburguesa alemana, ¡pero es más grande!",
+    "Camila: Ja, ja. ¿Y qué otra cosa es diferente?",
+    "Anna: El transporte. Aquí no hay metro, pero los autobuses son bastante buenos.",
+    "Camila: Es verdad. ¿Quieres caminar por la Rambla mañana? Es más bonita al atardecer.",
+    "Anna: ¡Me encantaría! ¿A qué hora?",
+    "Camila: A las seis. Yo llevo el mate.",
+    "Anna: Perfecto. ¡Hasta mañana!",
+    "Dato curioso: en Uruguay muchas personas dicen «vos» en lugar de «tú», y es normal ver a alguien caminando por la calle con el mate y el termo bajo el brazo."
+   ],
+   "paragraphs_en": [
+    "Camila: Hi! Are you new around here?",
+    "Anna: Yes, I arrived in Montevideo yesterday. I'm from Berlin.",
+    "Camila: How nice! Berlin is bigger than Montevideo, right?",
+    "Anna: Yes, it's much bigger, but Montevideo is calmer.",
+    "Camila: And the weather? Is it colder in Berlin than here?",
+    "Anna: Right now, yes. In November Berlin is colder and darker. Here there is more sun.",
+    "Camila: Do you like the food here?",
+    "Anna: A lot. The chivito is as tasty as a German burger, but it's bigger!",
+    "Camila: Ha, ha. And what else is different?",
+    "Anna: Transport. Here there is no metro, but the buses are quite good.",
+    "Camila: That's true. Do you want to walk along the Rambla tomorrow? It's prettier at sunset.",
+    "Anna: I'd love to! What time?",
+    "Camila: At six. I'll bring the mate.",
+    "Anna: Perfect. See you tomorrow!",
+    "Fun fact: in Uruguay many people say “vos” instead of “tú”, and it is normal to see someone walking down the street with a mate and a thermos under their arm."
+   ],
+   "paragraphs_de": [
+    "Camila: Hallo! Bist du neu hier?",
+    "Anna: Ja, ich bin gestern in Montevideo angekommen. Ich komme aus Berlin.",
+    "Camila: Wie schön! Berlin ist größer als Montevideo, stimmt's?",
+    "Anna: Ja, viel größer, aber Montevideo ist ruhiger.",
+    "Camila: Und das Wetter? Ist es in Berlin kälter als hier?",
+    "Anna: Im Moment ja. Im November ist Berlin kälter und dunkler. Hier gibt es mehr Sonne.",
+    "Camila: Gefällt dir das Essen hier?",
+    "Anna: Sehr. Der Chivito ist so lecker wie ein deutscher Burger, aber er ist größer!",
+    "Camila: Haha. Und was ist sonst noch anders?",
+    "Anna: Der Nahverkehr. Hier gibt es keine U-Bahn, aber die Busse sind ziemlich gut.",
+    "Camila: Stimmt. Willst du morgen an der Rambla spazieren gehen? Sie ist bei Sonnenuntergang schöner.",
+    "Anna: Sehr gern! Um wie viel Uhr?",
+    "Camila: Um sechs. Ich bringe den Mate mit.",
+    "Anna: Perfekt. Bis morgen!",
+    "Kleine Kuriosität: In Uruguay sagen viele Leute „vos“ statt „tú“, und es ist normal, jemanden mit Mate und Thermoskanne unter dem Arm auf der Straße zu sehen."
+   ],
+   "glossary": [
+    {
+     "w": "más… que",
+     "en": "more … than (comparison)",
+     "de": "mehr/-er … als"
+    },
+    {
+     "w": "tan… como",
+     "en": "as … as",
+     "de": "so … wie"
+    },
+    {
+     "w": "el clima",
+     "en": "the weather, the climate",
+     "de": "das Wetter, das Klima"
+    },
+    {
+     "w": "tranquilo/a",
+     "en": "calm, quiet",
+     "de": "ruhig"
+    },
+    {
+     "w": "el atardecer",
+     "en": "sunset, dusk",
+     "de": "der Sonnenuntergang"
+    },
+    {
+     "w": "el autobús",
+     "en": "the bus (also guagua, colectivo, camión by country)",
+     "de": "der Bus"
+    },
+    {
+     "w": "llevar",
+     "en": "to bring, to carry, to wear",
+     "de": "mitbringen, tragen"
+    },
+    {
+     "w": "me encantaría",
+     "en": "I would love to",
+     "de": "ich würde sehr gern"
+    }
+   ],
+   "grammar": "Comparatives: use más + adjective + que to say “more/-er than”: “Berlín es más grande que Montevideo.” Use tan + adjective + como for “as … as”: “El chivito es tan rico como una hamburguesa.” Remember the irregular forms mejor (better) and peor (worse), which never take más: “Los autobuses son mejores.”",
+   "grammar_de": "Komparativ: más + Adjektiv + que heißt „-er als“: „Berlín es más grande que Montevideo.“ Mit tan + Adjektiv + como sagt man „so … wie“: „El chivito es tan rico como una hamburguesa.“ Unregelmäßig sind mejor (besser) und peor (schlechter); sie stehen nie mit más: „Los autobuses son mejores.“",
+   "questions": [
+    "¿Y tú? ¿Tu ciudad es más grande o más pequeña que Montevideo?",
+    "¿Qué es más rico para ti: el café o el mate?",
+    "¿En tu ciudad hace más frío o más calor que en Montevideo en noviembre?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Cultura",
+   "title": "Barranquilla: cuatro días en que la ciudad baila",
+   "dek": "El Carnaval de Barranquilla mezcla tradiciones indígenas, africanas y europeas, y termina con el entierro de un personaje muy querido.",
+   "tags": [
+    "Colombia",
+    "Barranquilla",
+    "carnaval",
+    "subjuntivo con cuando y para que"
+   ],
+   "paragraphs": [
+    "Cuando se acerca la Cuaresma, Barranquilla, en la costa caribeña de Colombia, cambia de ritmo. Durante cuatro días, de sábado a martes, las calles se llenan de música, disfraces y baile. Es uno de los carnavales más famosos del país, y su lema lo dice todo: «Quien lo vive es quien lo goza». No basta con mirar; la gente quiere que todos participen.",
+    "La fiesta se abre con la Batalla de Flores, un gran desfile de carrozas, grupos de baile y reinas. El nombre engaña: nadie pelea, y las únicas armas son los colores y la alegría. Según la historia que se cuenta, esta batalla nació a comienzos del siglo XX, después de una guerra civil, como un gesto de paz. Cuando llega el sábado, miles de personas esperan en las aceras con sus sillas.",
+    "El carnaval es el resultado de una mezcla de tradiciones indígenas, africanas y europeas. Por eso en los desfiles se bailan la cumbia, el garabato y el congo, y se oyen tambores, gaitas y acordeones. Entre los disfraces más conocidos está la marimonda, con su nariz larga y sus orejas grandes; según la tradición popular, es una manera humorística de burlarse de la gente con poder. Muchas familias preparan los trajes durante meses para que todo esté listo cuando empiece el desfile. A veces los vecinos de una calle se reúnen cada noche para coser, ensayar y decidir los colores del grupo.",
+    "Las mujeres tienen un papel central en esta fiesta. Cada año se elige a una reina, pero también hay bailarinas, músicas y directoras de comparsas que mantienen vivas las danzas y las enseñan a las nuevas generaciones. Para muchas de ellas, el carnaval no es solo diversión: es una forma de cuidar la memoria de su barrio y de transmitirla. Cuando una niña aprende un paso de baile de su abuela, también aprende una historia familiar. Así, la fiesta funciona como una escuela abierta durante todo el año, y no solo en los cuatro días de febrero.",
+    "El martes llega el momento más curioso. Joselito Carnaval, un personaje que representa la alegría de la fiesta, «muere» y se le hace un entierro simbólico. Sus «viudas» lloran de forma exagerada, y todo el mundo se ríe y baila al mismo tiempo. La idea es sencilla: cuando termine la fiesta, hay que despedirse con humor, y se sabe que Joselito volverá el año siguiente.",
+    "En 2003 la UNESCO proclamó el carnaval obra maestra del patrimonio oral e intangible de la humanidad, y en 2008 pasó a la lista representativa del patrimonio cultural inmaterial. Si algún día quieres ir, reserva con mucha anticipación para que no te quedes sin hotel, y cuando llegues, pregunta a los vecinos: ellos siempre saben dónde está la mejor música.",
+    "Dato curioso: Barranquilla es también la ciudad natal de la cantante Shakira."
+   ],
+   "paragraphs_en": [
+    "When Lent approaches, Barranquilla, on Colombia's Caribbean coast, changes its rhythm. For four days, from Saturday to Tuesday, the streets fill with music, costumes and dancing. It is one of the country's most famous carnivals, and its motto says it all: “Whoever lives it is whoever enjoys it.” Watching is not enough; people want everyone to take part.",
+    "The party opens with the Batalla de Flores (Battle of Flowers), a big parade of floats, dance groups and queens. The name is misleading: nobody fights, and the only weapons are colors and joy. According to the story that is told, this battle began in the early twentieth century, after a civil war, as a gesture of peace. When Saturday comes, thousands of people wait on the sidewalks with their chairs.",
+    "The carnival is the result of a mix of Indigenous, African and European traditions. That is why the parades feature cumbia, garabato and congo dances, and you hear drums, gaitas and accordions. Among the best-known costumes is the marimonda, with its long nose and big ears; according to popular tradition, it is a humorous way of poking fun at people in power. Many families prepare their costumes for months so that everything is ready when the parade starts. Sometimes the neighbors on one street meet every night to sew, rehearse and choose the group's colors.",
+    "Women play a central role in this festival. Every year a queen is chosen, but there are also dancers, musicians and comparsa directors who keep the dances alive and teach them to new generations. For many of them, the carnival is not just fun: it is a way of caring for their neighborhood's memory and passing it on. When a girl learns a dance step from her grandmother, she also learns a family story. In this way the festival works as an open school all year round, not only during the four days in February.",
+    "On Tuesday comes the most curious moment. Joselito Carnaval, a character who represents the joy of the festival, “dies” and is given a symbolic funeral. His “widows” cry in an exaggerated way, and everyone laughs and dances at the same time. The idea is simple: when the party ends, you say goodbye with humor, and everyone knows Joselito will return next year.",
+    "In 2003 UNESCO proclaimed the carnival a masterpiece of the oral and intangible heritage of humanity, and in 2008 it moved to the representative list of intangible cultural heritage. If you ever want to go, book well in advance so that you don't end up without a hotel, and when you arrive, ask the locals: they always know where the best music is.",
+    "Fun fact: Barranquilla is also the hometown of the singer Shakira."
+   ],
+   "paragraphs_de": [
+    "Wenn die Fastenzeit näher rückt, ändert Barranquilla an der Karibikküste Kolumbiens seinen Rhythmus. Vier Tage lang, von Samstag bis Dienstag, füllen sich die Straßen mit Musik, Kostümen und Tanz. Es ist einer der berühmtesten Karnevale des Landes, und sein Motto sagt alles: „Wer es erlebt, ist der, der es genießt.“ Zuschauen reicht nicht; die Leute wollen, dass alle mitmachen.",
+    "Das Fest beginnt mit der Batalla de Flores (Blumenschlacht), einem großen Umzug mit Wagen, Tanzgruppen und Königinnen. Der Name täuscht: Niemand kämpft, und die einzigen Waffen sind Farben und Freude. Der Überlieferung nach entstand diese Schlacht Anfang des 20. Jahrhunderts nach einem Bürgerkrieg als Friedensgeste. Wenn der Samstag kommt, warten Tausende Menschen mit ihren Stühlen am Straßenrand.",
+    "Der Karneval ist das Ergebnis einer Mischung aus indigenen, afrikanischen und europäischen Traditionen. Deshalb tanzt man bei den Umzügen Cumbia, Garabato und Congo, und man hört Trommeln, Gaitas und Akkordeons. Zu den bekanntesten Kostümen gehört die Marimonda mit langer Nase und großen Ohren; nach der Volkstradition ist sie eine humorvolle Art, sich über Mächtige lustig zu machen. Viele Familien bereiten die Kostüme monatelang vor, damit alles fertig ist, wenn der Umzug beginnt. Manchmal treffen sich die Nachbarn einer Straße jeden Abend, um zu nähen, zu proben und die Farben der Gruppe zu wählen.",
+    "Frauen spielen bei diesem Fest eine zentrale Rolle. Jedes Jahr wird eine Königin gewählt, aber es gibt auch Tänzerinnen, Musikerinnen und Leiterinnen von Comparsas, die die Tänze lebendig halten und an neue Generationen weitergeben. Für viele von ihnen ist der Karneval nicht nur Vergnügen: Er ist eine Möglichkeit, die Erinnerung an ihr Viertel zu pflegen und weiterzugeben. Wenn ein Mädchen von seiner Großmutter einen Tanzschritt lernt, lernt es auch eine Familiengeschichte. So funktioniert das Fest wie eine offene Schule das ganze Jahr über, nicht nur an den vier Tagen im Februar.",
+    "Am Dienstag kommt der kurioseste Moment. Joselito Carnaval, eine Figur, die die Freude des Festes verkörpert, „stirbt“ und bekommt eine symbolische Beerdigung. Seine „Witwen“ weinen übertrieben, und alle lachen und tanzen zugleich. Die Idee ist einfach: Wenn das Fest zu Ende geht, verabschiedet man sich mit Humor, und alle wissen, dass Joselito im nächsten Jahr zurückkehrt.",
+    "2003 erklärte die UNESCO den Karneval zum Meisterwerk des mündlichen und immateriellen Erbes der Menschheit, und 2008 kam er auf die Repräsentative Liste des immateriellen Kulturerbes. Wenn du eines Tages hinfahren willst, buche früh, damit du nicht ohne Hotel dastehst, und frag bei der Ankunft die Nachbarn: Sie wissen immer, wo die beste Musik spielt.",
+    "Kleine Kuriosität: Barranquilla ist auch die Heimatstadt der Sängerin Shakira."
+   ],
+   "glossary": [
+    {
+     "w": "la Cuaresma",
+     "en": "Lent, the weeks before Easter",
+     "de": "die Fastenzeit"
+    },
+    {
+     "w": "la carroza",
+     "en": "parade float",
+     "de": "der Festwagen"
+    },
+    {
+     "w": "la comparsa",
+     "en": "carnival dance group",
+     "de": "die Tanzgruppe (im Karneval)"
+    },
+    {
+     "w": "el disfraz",
+     "en": "costume",
+     "de": "das Kostüm"
+    },
+    {
+     "w": "gozar",
+     "en": "to enjoy, to have a great time",
+     "de": "genießen"
+    },
+    {
+     "w": "burlarse de",
+     "en": "to make fun of",
+     "de": "sich lustig machen über"
+    },
+    {
+     "w": "el desfile",
+     "en": "parade",
+     "de": "der Umzug"
+    },
+    {
+     "w": "el entierro",
+     "en": "funeral, burial",
+     "de": "die Beerdigung"
+    },
+    {
+     "w": "la viuda",
+     "en": "widow",
+     "de": "die Witwe"
+    },
+    {
+     "w": "el patrimonio",
+     "en": "heritage",
+     "de": "das (Kultur-)Erbe"
+    },
+    {
+     "w": "con anticipación",
+     "en": "well in advance",
+     "de": "rechtzeitig, früh"
+    }
+   ],
+   "grammar": "Subjunctive after cuando and para que (B2). After para que (“so that”) you always use the subjunctive: “para que todo esté listo”. After cuando, use the subjunctive when the action is in the future and has not happened yet: “cuando termine la fiesta, hay que despedirse con humor”. For habits or the past, use the indicative: “cuando llega el sábado, miles de personas esperan”.",
+   "grammar_de": "Subjuntivo nach cuando und para que (B2). Nach para que („damit“) steht immer der Subjuntivo: „para que todo esté listo“. Nach cuando steht der Subjuntivo, wenn die Handlung in der Zukunft liegt und noch nicht passiert ist: „cuando termine la fiesta, hay que despedirse con humor“. Bei Gewohnheiten oder Vergangenem steht der Indikativ: „cuando llega el sábado, miles de personas esperan“.",
+   "questions": [
+    "¿Qué papel tienen las mujeres en el Carnaval de Barranquilla?",
+    "¿Por qué la gente hace un entierro simbólico de Joselito Carnaval?",
+    "¿Y tú? ¿Hay en tu país una fiesta con disfraces? ¿Cómo es?"
+   ],
+   "sources": []
+  }
+ ]
 }
