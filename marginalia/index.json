@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:51:43+00:00",
+ "updated": "2026-11-06T16:48:09+00:00",
  "days": [
   {
    "date": "2026-11-06",
@@ -10,6 +10,22 @@
      "title": "Une COP à deux têtes : Antalya, Canberra et la voix du Pacifique",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "Por teléfono en Casco Viejo: ¿dónde estás?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "Los quince años: la fiesta que marca una etapa",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]

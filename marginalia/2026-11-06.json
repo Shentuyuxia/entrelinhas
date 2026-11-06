@@ -133,6 +133,219 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "Por teléfono en Casco Viejo: ¿dónde estás?",
+   "dek": "Daniela llega al Casco Viejo de la Ciudad de Panamá y llama a su amiga Marta para encontrarse. Hablan por teléfono y piden indicaciones.",
+   "tags": [
+    "Panamá",
+    "teléfono y direcciones",
+    "estar + gerundio"
+   ],
+   "paragraphs": [
+    "Daniela: ¿Aló, Marta? Ya llegué al Casco Viejo, pero no sé dónde estás.",
+    "Marta: ¡Hola, Dani! Estoy esperando frente a un café azul. ¿Qué ves tú?",
+    "Daniela: Veo una iglesia grande y una plaza con árboles.",
+    "Marta: Es la catedral. ¡Estás muy cerca! ¿Me puedes decir en qué calle estás?",
+    "Daniela: Un momento… Estoy mirando el letrero. Dice «Avenida A».",
+    "Marta: Perfecto. Camina hacia el mar y después dobla a la derecha.",
+    "Daniela: ¿Hacia el mar? Perdón, ¿puedes repetir, por favor?",
+    "Marta: Claro. Sigue derecho dos cuadras y dobla a la derecha.",
+    "Daniela: Listo, ya estoy caminando. ¿Cuántos minutos faltan?",
+    "Marta: Solo cinco. Acabo de pedir dos cafés para nosotras.",
+    "Daniela: ¡Gracias! Ya veo el café azul. ¡Estoy llegando!",
+    "Marta: ¡Te veo! Estoy saludando con la mano.",
+    "Daniela: ¡Ah, ahí estás! Cuelgo. ¡Un abrazo!",
+    "Dato curioso: en Panamá, los viejos autobuses pintados con colores y dibujos se llamaban «diablos rojos»; hoy ya no son el transporte normal de la ciudad."
+   ],
+   "paragraphs_en": [
+    "Daniela: Hello, Marta? I've already arrived in Casco Viejo, but I don't know where you are.",
+    "Marta: Hi, Dani! I'm waiting in front of a blue café. What do you see?",
+    "Daniela: I see a big church and a square with trees.",
+    "Marta: That's the cathedral. You're very close! Can you tell me which street you're on?",
+    "Daniela: One moment… I'm looking at the sign. It says “Avenida A”.",
+    "Marta: Perfect. Walk toward the sea and then turn right.",
+    "Daniela: Toward the sea? Sorry, can you repeat that, please?",
+    "Marta: Of course. Keep going straight for two blocks and turn right.",
+    "Daniela: Okay, I'm already walking. How many minutes are left?",
+    "Marta: Only five. I've just ordered two coffees for us.",
+    "Daniela: Thanks! I can already see the blue café. I'm arriving!",
+    "Marta: I see you! I'm waving with my hand.",
+    "Daniela: Ah, there you are! I'm hanging up. A hug!",
+    "Fun fact: in Panama, the old buses painted with bright colors and drawings were called “diablos rojos”; today they are no longer the city's normal transport."
+   ],
+   "paragraphs_de": [
+    "Daniela: Hallo, Marta? Ich bin schon im Casco Viejo, aber ich weiß nicht, wo du bist.",
+    "Marta: Hallo, Dani! Ich warte vor einem blauen Café. Was siehst du?",
+    "Daniela: Ich sehe eine große Kirche und einen Platz mit Bäumen.",
+    "Marta: Das ist die Kathedrale. Du bist ganz nah! Kannst du mir sagen, in welcher Straße du bist?",
+    "Daniela: Einen Moment … Ich schaue gerade auf das Schild. Da steht „Avenida A“.",
+    "Marta: Perfekt. Geh in Richtung Meer und biege dann rechts ab.",
+    "Daniela: Richtung Meer? Entschuldige, kannst du das bitte wiederholen?",
+    "Marta: Klar. Geh zwei Häuserblocks geradeaus und biege rechts ab.",
+    "Daniela: Alles klar, ich gehe schon. Wie viele Minuten noch?",
+    "Marta: Nur fünf. Ich habe gerade zwei Kaffee für uns bestellt.",
+    "Daniela: Danke! Ich sehe schon das blaue Café. Ich komme gleich an!",
+    "Marta: Ich sehe dich! Ich winke mit der Hand.",
+    "Daniela: Ah, da bist du ja! Ich lege auf. Eine Umarmung!",
+    "Kleine Kuriosität: In Panama hießen die alten, bunt bemalten Busse „diablos rojos“; heute sind sie nicht mehr das normale Verkehrsmittel der Stadt."
+   ],
+   "glossary": [
+    {
+     "w": "aló",
+     "en": "hello (on the phone)",
+     "de": "hallo (am Telefon)"
+    },
+    {
+     "w": "la catedral",
+     "en": "cathedral",
+     "de": "die Kathedrale"
+    },
+    {
+     "w": "el letrero",
+     "en": "sign",
+     "de": "das Schild"
+    },
+    {
+     "w": "la cuadra",
+     "en": "block (of a street)",
+     "de": "der Häuserblock"
+    },
+    {
+     "w": "doblar",
+     "en": "to turn",
+     "de": "abbiegen"
+    },
+    {
+     "w": "seguir derecho",
+     "en": "to go straight on",
+     "de": "geradeaus gehen"
+    },
+    {
+     "w": "frente a",
+     "en": "in front of, opposite",
+     "de": "gegenüber von, vor"
+    },
+    {
+     "w": "colgar",
+     "en": "to hang up (the phone)",
+     "de": "auflegen"
+    }
+   ],
+   "grammar": "Use estar + gerundio for what is happening right now: “Estoy mirando el letrero”, “Ya estoy caminando”. Form the gerund with -ando for -ar verbs (mirar → mirando) and -iendo for -er/-ir verbs (comer → comiendo). Acabar de + infinitive says something just happened: “Acabo de pedir dos cafés.”",
+   "grammar_de": "Mit estar + gerundio sagt man, was gerade passiert: „Estoy mirando el letrero“, „Ya estoy caminando“. Das Gerundium endet bei -ar-Verben auf -ando (mirar → mirando), bei -er/-ir-Verben auf -iendo (comer → comiendo). Acabar de + Infinitiv bedeutet „gerade etwas getan haben“: „Acabo de pedir dos cafés.“",
+   "questions": [
+    "¿Dónde estás ahora? Describe lo que ves.",
+    "¿Y tú? ¿Qué estás haciendo en este momento?",
+    "¿Qué frases usas cuando no sabes llegar a un lugar?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Día a día",
+   "title": "Los quince años: la fiesta que marca una etapa",
+   "dek": "En muchos países latinoamericanos, cumplir quince años es motivo de una gran fiesta con vals, vestido y toda la familia.",
+   "tags": [
+    "Latinoamérica",
+    "fiesta de quince años",
+    "soler + infinitivo"
+   ],
+   "paragraphs": [
+    "Cuando una chica cumple quince años en muchos países de América Latina, su familia suele preparar una fiesta muy especial: la fiesta de quince años, también llamada quinceañera o «los quince». Para muchas familias es un día importante, porque marca el paso de la niñez a una nueva etapa de la vida.",
+    "La celebración cambia según el país, la región y el dinero de la familia, pero hay algunas costumbres que suelen repetirse. A veces el día empieza con una misa o con una bendición en la iglesia. Después viene la fiesta, con comida, música y muchos invitados: padres, abuelos, tíos, primos y amigos. La protagonista suele llevar un vestido elegante, muchas veces largo y de un color claro o brillante.",
+    "Otro momento típico es el baile. En muchas fiestas la quinceañera baila un vals, primero con su padre o con otro familiar y luego con un grupo de jóvenes. Estos acompañantes se llaman damas y chambelanes, y antes de la fiesta suelen ensayar la coreografía durante semanas. En algunos lugares hay además tradiciones más pequeñas, como el cambio de zapatos, cuando la chica pasa de zapatos bajos a zapatos de tacón, o la entrega de una última muñeca, que simboliza que deja los juegos de la infancia.",
+    "Hoy no todas las chicas quieren una fiesta tradicional. Algunas prefieren un viaje con la familia, una reunión pequeña con amigos o un regalo diferente. Otras familias no pueden pagar una celebración grande, porque el salón, la comida y el vestido cuestan mucho. Por eso también aparece una pregunta sobre igualdad: ¿por qué se celebra tanto esta edad en las chicas, y los chicos no siempre tienen una fiesta parecida? Cada persona opina distinto, y es bueno conversar sobre eso con respeto.",
+    "La tradición viene de América Latina, pero hoy también se ve en comunidades latinas de otros países, por ejemplo en Estados Unidos. Si alguna vez te invitan a unos quince, no hace falta saber bailar vals: lo más importante es llegar con buen humor, saludar a la familia y felicitar a la festejada. Y si te ofrecen un trozo de pastel, ¡di que sí!",
+    "Dato curioso: la palabra «chambelán» es muy antigua. En las cortes europeas era el nombre de un noble que servía a un rey. Hoy, en una fiesta de quince años, es el joven que acompaña y baila con la quinceañera."
+   ],
+   "paragraphs_en": [
+    "When a girl turns fifteen in many Latin American countries, her family usually prepares a very special party: the fiesta de quince años, also called a quinceañera or “los quince”. For many families it is an important day, because it marks the step from childhood to a new stage of life.",
+    "The celebration changes depending on the country, the region and the family's money, but some customs tend to repeat. Sometimes the day begins with a Mass or a blessing at church. Then comes the party, with food, music and many guests: parents, grandparents, aunts and uncles, cousins and friends. The main person usually wears an elegant dress, often long and in a light or bright color.",
+    "Another typical moment is the dance. At many parties the quinceañera dances a waltz, first with her father or another relative and then with a group of young people. These companions are called damas and chambelanes, and before the party they usually rehearse the choreography for weeks. In some places there are also smaller traditions, such as the change of shoes, when the girl goes from flat shoes to high heels, or the giving of a last doll, which symbolizes that she leaves childhood games behind.",
+    "Today not every girl wants a traditional party. Some prefer a trip with the family, a small gathering with friends or a different gift. Other families cannot afford a big celebration, because the hall, the food and the dress cost a lot. That is why a question about equality also comes up: why is this age celebrated so much for girls, while boys don't always get a similar party? Everyone has a different opinion, and it is good to talk about it respectfully.",
+    "The tradition comes from Latin America, but today it is also seen in Latino communities in other countries, for example in the United States. If you are ever invited to a quince, you don't need to know how to waltz: the most important thing is to arrive in a good mood, greet the family and congratulate the guest of honor. And if they offer you a piece of cake, say yes!",
+    "Fun fact: the word “chambelán” is very old. In European courts it was the name of a nobleman who served a king. Today, at a fiesta de quince años, it is the young man who accompanies and dances with the quinceañera."
+   ],
+   "paragraphs_de": [
+    "Wenn ein Mädchen in vielen Ländern Lateinamerikas fünfzehn wird, bereitet ihre Familie meistens ein ganz besonderes Fest vor: die „fiesta de quince años“, auch Quinceañera oder „los quince“ genannt. Für viele Familien ist es ein wichtiger Tag, weil er den Übergang von der Kindheit in einen neuen Lebensabschnitt markiert.",
+    "Die Feier unterscheidet sich je nach Land, Region und Geld der Familie, aber einige Bräuche wiederholen sich oft. Manchmal beginnt der Tag mit einer Messe oder einem Segen in der Kirche. Danach folgt das Fest mit Essen, Musik und vielen Gästen: Eltern, Großeltern, Onkel und Tanten, Cousins und Freunde. Die Hauptperson trägt meistens ein elegantes Kleid, oft lang und in einer hellen oder leuchtenden Farbe.",
+    "Ein weiterer typischer Moment ist der Tanz. Auf vielen Festen tanzt die Quinceañera einen Walzer, zuerst mit ihrem Vater oder einem anderen Verwandten und dann mit einer Gruppe junger Leute. Diese Begleiter heißen „damas“ und „chambelanes“, und vor dem Fest proben sie die Choreografie oft wochenlang. An manchen Orten gibt es außerdem kleinere Traditionen, etwa den Schuhwechsel, bei dem das Mädchen von flachen Schuhen zu Absatzschuhen wechselt, oder die Übergabe einer letzten Puppe, die symbolisiert, dass es die Kinderspiele hinter sich lässt.",
+    "Heute möchte nicht jedes Mädchen ein traditionelles Fest. Manche bevorzugen eine Reise mit der Familie, ein kleines Treffen mit Freunden oder ein anderes Geschenk. Andere Familien können sich keine große Feier leisten, weil Saal, Essen und Kleid viel kosten. Deshalb taucht auch eine Frage zur Gleichberechtigung auf: Warum wird dieses Alter bei Mädchen so groß gefeiert, während Jungen nicht immer ein ähnliches Fest haben? Jeder sieht das anders, und es ist gut, respektvoll darüber zu sprechen.",
+    "Die Tradition kommt aus Lateinamerika, ist heute aber auch in lateinamerikanischen Gemeinschaften in anderen Ländern zu sehen, zum Beispiel in den USA. Wenn du einmal zu einer „quince“ eingeladen wirst, musst du keinen Walzer tanzen können: Am wichtigsten ist, gut gelaunt zu kommen, die Familie zu begrüßen und der Gefeierten zu gratulieren. Und wenn man dir ein Stück Kuchen anbietet, sag Ja!",
+    "Kleine Kuriosität: Das Wort „chambelán“ ist sehr alt. An europäischen Höfen hieß so ein Adliger, der einem König diente. Heute ist es auf einer „fiesta de quince años“ der junge Mann, der die Quinceañera begleitet und mit ihr tanzt."
+   ],
+   "glossary": [
+    {
+     "w": "cumplir años",
+     "en": "to turn (an age), have a birthday",
+     "de": "Geburtstag haben, ... Jahre alt werden"
+    },
+    {
+     "w": "la niñez",
+     "en": "childhood",
+     "de": "die Kindheit"
+    },
+    {
+     "w": "la misa",
+     "en": "Mass (church service)",
+     "de": "die Messe"
+    },
+    {
+     "w": "el vestido",
+     "en": "dress",
+     "de": "das Kleid"
+    },
+    {
+     "w": "el vals",
+     "en": "waltz",
+     "de": "der Walzer"
+    },
+    {
+     "w": "ensayar",
+     "en": "to rehearse",
+     "de": "proben"
+    },
+    {
+     "w": "el zapato de tacón",
+     "en": "high-heeled shoe",
+     "de": "der Absatzschuh"
+    },
+    {
+     "w": "la muñeca",
+     "en": "doll",
+     "de": "die Puppe"
+    },
+    {
+     "w": "el salón",
+     "en": "party hall, ballroom",
+     "de": "der Festsaal"
+    },
+    {
+     "w": "la festejada",
+     "en": "the guest of honor (female)",
+     "de": "die Gefeierte"
+    },
+    {
+     "w": "el pastel",
+     "en": "cake (Latin America; also la torta)",
+     "de": "der Kuchen"
+    }
+   ],
+   "grammar": "Soler + infinitive says what usually happens: “Su familia suele preparar una fiesta”, “Los invitados suelen llevar ropa elegante”. Soler changes like poder (o → ue): suele, suelen. It works well for customs and habits, and you only use it in the present or the imperfect (solía): “Antes solíamos bailar toda la noche.”",
+   "grammar_de": "Soler + Infinitiv drückt aus, was normalerweise geschieht: „Su familia suele preparar una fiesta“, „Los invitados suelen llevar ropa elegante“. Soler wird wie poder konjugiert (o → ue): suele, suelen. Es passt gut zu Bräuchen und Gewohnheiten und steht nur im Präsens oder im Imperfekt (solía): „Antes solíamos bailar toda la noche.“",
+   "questions": [
+    "¿Qué suele pasar en una fiesta de cumpleaños importante en tu país?",
+    "¿Qué te parece más interesante de los quince años: el vals, el vestido o la familia? ¿Por qué?",
+    "¿Y tú? ¿Cómo celebraste un cumpleaños especial?"
+   ],
+   "sources": []
   }
  ]
 }
