@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-05T18:54:12+00:00",
+ "updated": "2026-11-06T15:51:43+00:00",
  "days": [
+  {
+   "date": "2026-11-06",
+   "items": [
+    {
+     "i": 0,
+     "lang": "fr",
+     "title": "Une COP à deux têtes : Antalya, Canberra et la voix du Pacifique",
+     "kind": "feature",
+     "level": "C1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-05",
    "items": [
