@@ -346,6 +346,114 @@
     "¿Y tú? ¿Cómo celebraste un cumpleaños especial?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Um bolo para o Bolinha",
+   "dek": "Ana está na padaria do Seu João. O que ela quer? Para quem é? Quanto custa? E como ela paga?",
+   "paragraphs": [
+    "Seu João: Bom dia, Ana! O que você quer?",
+    "Ana: Quero um bolo de chocolate, por favor.",
+    "Seu João: Para quem é o bolo?",
+    "Ana: É para o Bolinha. Ele faz cinco anos!",
+    "Seu João: Que bom! Quando é a festa?",
+    "Ana: É amanhã, às quatro horas.",
+    "Ana: Quanto custa o bolo, Seu João?",
+    "Seu João: Custa vinte e cinco reais.",
+    "Seu João: Como você vai pagar?",
+    "Ana: Com dinheiro. Aqui, trinta reais!"
+   ],
+   "paragraphs_en": [
+    "Seu João: Good morning, Ana! What do you want?",
+    "Ana: I want a chocolate cake, please.",
+    "Seu João: Who is the cake for?",
+    "Ana: It's for Bolinha. He's turning five!",
+    "Seu João: How nice! When is the party?",
+    "Ana: It's tomorrow, at four o'clock.",
+    "Ana: How much is the cake, Seu João?",
+    "Seu João: It costs twenty-five reais.",
+    "Seu João: How will you pay?",
+    "Ana: With cash. Here, thirty reais!"
+   ],
+   "paragraphs_zh": [
+    "若昂先生：早上好，安娜！你想要什么？",
+    "安娜：我想要一个巧克力蛋糕，谢谢。",
+    "若昂先生：这个蛋糕是给谁的？",
+    "安娜：是给博里尼亚的。它五岁了！",
+    "若昂先生：太好了！派对什么时候？",
+    "安娜：明天，四点钟。",
+    "安娜：若昂先生，蛋糕多少钱？",
+    "若昂先生：二十五雷亚尔。",
+    "若昂先生：你怎么付钱？",
+    "安娜：用现金。给，三十雷亚尔！"
+   ],
+   "paragraphs_de": [
+    "Seu João: Guten Morgen, Ana! Was möchtest du?",
+    "Ana: Ich möchte einen Schokoladenkuchen, bitte.",
+    "Seu João: Für wen ist der Kuchen?",
+    "Ana: Er ist für Bolinha. Er wird fünf!",
+    "Seu João: Wie schön! Wann ist die Party?",
+    "Ana: Morgen, um vier Uhr.",
+    "Ana: Was kostet der Kuchen, Seu João?",
+    "Seu João: Er kostet fünfundzwanzig Reais.",
+    "Seu João: Wie bezahlst du?",
+    "Ana: Bar. Hier, dreißig Reais!"
+   ],
+   "glossary": [
+    {
+     "w": "Para quem é?",
+     "en": "Who is it for? — Para quem é o bolo? — É para o Bolinha.",
+     "zh": "是给谁的？",
+     "de": "Für wen ist es?",
+     "pt": "pergunta sobre a pessoa que recebe uma coisa"
+    },
+    {
+     "w": "custar",
+     "en": "to cost — O bolo custa vinte e cinco reais.",
+     "zh": "值（多少钱）、花费",
+     "de": "kosten",
+     "pt": "ter um preço"
+    },
+    {
+     "w": "pagar com dinheiro",
+     "en": "to pay with cash",
+     "zh": "用现金付款",
+     "de": "bar bezahlen",
+     "pt": "pagar com notas e moedas, sem cartão"
+    },
+    {
+     "w": "amanhã",
+     "en": "tomorrow",
+     "zh": "明天",
+     "de": "morgen",
+     "pt": "o dia depois de hoje"
+    },
+    {
+     "w": "fazer anos",
+     "en": "to have a birthday — Ele faz cinco anos. (He turns five.)",
+     "zh": "过生日、满……岁",
+     "de": "Geburtstag haben, … Jahre alt werden",
+     "pt": "ter aniversário"
+    }
+   ],
+   "grammar": "Each question word gets its answer in the next line: O que você quer? — Quero um bolo. Para quem é? — É para o Bolinha. Quando é? — É amanhã. Quanto custa? — Custa vinte e cinco reais. Como você vai pagar? — Com dinheiro. Tiny tip: \"por favor\" makes a request polite: Quero um bolo, por favor.",
+   "grammar_zh": "每个疑问词，下一行就有回答：O que você quer?——Quero um bolo.（你要什么？）Para quem é?——É para o Bolinha.（给谁的？）Quando é?——É amanhã.（什么时候？）Quanto custa?——Custa vinte e cinco reais.（多少钱？）Como você vai pagar?——Com dinheiro.（怎么付？）小提示：加上 \"por favor\" 请求就更有礼貌：Quero um bolo, por favor.",
+   "grammar_de": "Jedes Fragewort bekommt in der nächsten Zeile seine Antwort: O que você quer? — Quero um bolo. (Was willst du?) Para quem é? — É para o Bolinha. (Für wen?) Quando é? — É amanhã. (Wann?) Quanto custa? — Custa vinte e cinco reais. (Wie viel kostet es?) Como você vai pagar? — Com dinheiro. (Wie bezahlst du?) Kleiner Tipp: \"por favor\" macht eine Bitte höflich: Quero um bolo, por favor.",
+   "grammar_pt": "Cada pergunta tem a resposta na linha de baixo: O que você quer? — Quero um bolo. Para quem é? — É para o Bolinha. Quando é? — É amanhã. Quanto custa? — Custa vinte e cinco reais. Como você vai pagar? — Com dinheiro. Dica: \"por favor\" é educado: Quero um bolo, por favor.",
+   "questions": [
+    "O que a Ana quer na padaria?",
+    "Quanto custa o bolo?",
+    "E você? Como você paga na padaria: com dinheiro ou com cartão?"
+   ],
+   "sources": [],
+   "tags": [
+    "padaria",
+    "perguntas",
+    "preços"
+   ]
   }
  ]
 }

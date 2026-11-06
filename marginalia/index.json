@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T16:48:09+00:00",
+ "updated": "2026-11-06T18:54:10+00:00",
  "days": [
   {
    "date": "2026-11-06",
@@ -26,6 +26,14 @@
      "title": "Los quince años: la fiesta que marca una etapa",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Um bolo para o Bolinha",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]
