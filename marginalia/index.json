@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-06T18:54:10+00:00",
+ "updated": "2026-11-07T20:32:33+00:00",
  "days": [
+  {
+   "date": "2026-11-07",
+   "items": [
+    {
+     "i": 0,
+     "lang": "pt",
+     "title": "Asa Branca: a canção do sertão",
+     "kind": "feature",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "pt",
+     "title": "Asa Branca: o pássaro que levou o sertão para o Brasil inteiro",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-06",
    "items": [
