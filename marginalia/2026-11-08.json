@@ -1,0 +1,98 @@
+{
+ "date": "2026-11-08",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 9
+   },
+   "title": "Domingo é dia de nada",
+   "dek": "Hoje a Ana não trabalha. Ela vai à padaria, liga para o Lucas e descobre quem dorme no sofá do Tito.",
+   "tags": [
+    "domingo",
+    "preposições",
+    "em, com, para, de"
+   ],
+   "paragraphs": [
+    "Domingo, 8 de novembro de 2026. Querido diário, hoje é domingo e eu não trabalho. Eu moro na casa amarela, com o Tito.",
+    "Às nove horas, eu vou à padaria do Seu João. Eu compro pão para a Dona Rosa e um bolo para mim.",
+    "Às dez, a Dona Rosa chega com o Bolinha. O pão está na mesa. O Bolinha está no sofá! Mas o sofá é do Tito.",
+    "Às duas da tarde, eu ligo para o Lucas. — Onde você está, Ana? — Em casa, com o Tito e o Bolinha. — O que vocês fazem? — Nada! Domingo é dia de nada.",
+    "Agora são nove da noite. O Tito dorme no sofá, com o Bolinha. Boa noite, diário. Boa noite, Tito."
+   ],
+   "paragraphs_en": [
+    "Sunday, 8 November 2026. Dear diary, today is Sunday and I don't work. I live in the yellow house, with Tito.",
+    "At nine o'clock I go to Seu João's bakery. I buy bread for Dona Rosa and a cake for myself.",
+    "At ten, Dona Rosa arrives with Bolinha. The bread is on the table. Bolinha is on the sofa! But the sofa is Tito's.",
+    "At two in the afternoon, I call Lucas. \"Where are you, Ana?\" \"At home, with Tito and Bolinha.\" \"What are you doing?\" \"Nothing! Sunday is a day of nothing.\"",
+    "Now it is nine at night. Tito is sleeping on the sofa, with Bolinha. Good night, diary. Good night, Tito."
+   ],
+   "paragraphs_zh": [
+    "2026年11月8日，星期日。亲爱的日记，今天是星期日，我不上班。我和蒂托住在黄色的房子里。",
+    "九点，我去若昂先生的面包店。我给罗莎太太买面包，给自己买一个蛋糕。",
+    "十点，罗莎太太带着波利尼亚来了。面包在桌子上。波利尼亚在沙发上！可是沙发是蒂托的。",
+    "下午两点，我给卢卡斯打电话。“安娜，你在哪儿？”“在家，和蒂托、波利尼亚在一起。”“你们在做什么？”“什么也没做！星期日是什么都不做的一天。”",
+    "现在是晚上九点。蒂托睡在沙发上，和波利尼亚在一起。晚安，日记。晚安，蒂托。"
+   ],
+   "paragraphs_de": [
+    "Sonntag, 8. November 2026. Liebes Tagebuch, heute ist Sonntag und ich arbeite nicht. Ich wohne im gelben Haus, mit Tito.",
+    "Um neun Uhr gehe ich zur Bäckerei von Seu João. Ich kaufe Brot für Dona Rosa und einen Kuchen für mich.",
+    "Um zehn kommt Dona Rosa mit Bolinha. Das Brot liegt auf dem Tisch. Bolinha ist auf dem Sofa! Aber das Sofa gehört Tito.",
+    "Um zwei Uhr nachmittags rufe ich Lucas an. „Wo bist du, Ana?“ „Zu Hause, mit Tito und Bolinha.“ „Was macht ihr?“ „Nichts! Sonntag ist der Tag des Nichts.“",
+    "Jetzt ist es neun Uhr abends. Tito schläft auf dem Sofa, mit Bolinha. Gute Nacht, Tagebuch. Gute Nacht, Tito."
+   ],
+   "glossary": [
+    {
+     "w": "querido",
+     "en": "dear — Querido diário",
+     "zh": "亲爱的",
+     "de": "lieb, liebes",
+     "pt": "uma pessoa ou coisa de que você gosta muito"
+    },
+    {
+     "w": "ligar para",
+     "en": "to call (phone) — Eu ligo para o Lucas.",
+     "zh": "给……打电话",
+     "de": "anrufen",
+     "pt": "usar o telefone para falar com alguém"
+    },
+    {
+     "w": "em casa",
+     "en": "at home",
+     "zh": "在家",
+     "de": "zu Hause",
+     "pt": "no lugar onde você mora"
+    },
+    {
+     "w": "o sofá",
+     "en": "sofa — o sofá do Tito",
+     "zh": "沙发",
+     "de": "das Sofa",
+     "pt": "móvel para sentar na sala"
+    },
+    {
+     "w": "a mesa",
+     "en": "table — na mesa",
+     "zh": "桌子",
+     "de": "der Tisch",
+     "pt": "móvel para comer ou escrever"
+    }
+   ],
+   "grammar": "Small words connect things: em/no/na = in/on/at (na mesa, no sofá, em casa); com = with (com o Tito); para = for/to (pão para a Dona Rosa); de + o = do (o sofá do Tito = Tito's sofa).",
+   "grammar_zh": "小词连接句子：em/no/na = 在（na mesa 在桌上，no sofá 在沙发上，em casa 在家）；com = 和；para = 给/为（pão para a Dona Rosa）；de + o = do（o sofá do Tito = 蒂托的沙发）。",
+   "grammar_de": "Kleine Wörter verbinden: em/no/na = in/auf/an (na mesa, no sofá, em casa); com = mit (com o Tito); para = für/zu (pão para a Dona Rosa); de + o = do (o sofá do Tito = Titos Sofa).",
+   "grammar_pt": "Palavras pequenas ligam as ideias: em/no/na = lugar (na mesa, no sofá, em casa); com = junto (com o Tito); para = destino (pão para a Dona Rosa); de + o = do (o sofá do Tito).",
+   "questions": [
+    "Onde está o pão? E onde está o Bolinha?",
+    "Com quem a Ana mora? De quem é o sofá?",
+    "E você? Onde você está agora? O que você faz no domingo?"
+   ],
+   "sources": []
+  }
+ ]
+}
