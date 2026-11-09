@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-09",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "fr",
+      "level": "A1",
+      "kind": "feature",
+      "section": "Migrations",
+      "title": "Le voyage à l'envers",
+      "dek": "Au Panama, des familles vénézuéliennes ne vont plus vers le nord. Elles prennent un bateau vers le sud.",
+      "tags": [
+        "Panama",
+        "Venezuela",
+        "migration inversée",
+        "à / au / en + lieu"
+      ],
+      "paragraphs": [
+        "Miramar est un petit village au Panama, au bord de la mer des Caraïbes. Ici, des familles attendent un bateau. Elles ont des sacs, des enfants et peu d'argent. Ce sont surtout des Vénézuéliens.",
+        "Ces familles connaissent bien la route du nord. Elles veulent vivre aux États-Unis, mais la frontière est fermée pour elles. Beaucoup attendent longtemps au Mexique. Maintenant, elles font le voyage à l'envers : vers le sud.",
+        "Le bateau va à Puerto Obaldía, un village près de la Colombie. Après, un autre bateau va à Necoclí, en Colombie. Le voyage est long et la mer est dangereuse. En 2025, plus de 22 000 personnes prennent cette route. Elles rentrent chez elles, ou elles cherchent une nouvelle maison."
+      ],
+      "paragraphs_en": [
+        "Miramar is a small village in Panama, on the Caribbean coast. Here, families wait for a boat. They have bags, children and little money. Most of them are Venezuelans.",
+        "These families know the road north well. They want to live in the United States, but the border is closed to them. Many wait a long time in Mexico. Now they are making the journey in reverse: towards the south.",
+        "The boat goes to Puerto Obaldía, a village near Colombia. Then another boat goes to Necoclí, in Colombia. The journey is long and the sea is dangerous. In 2025, more than 22,000 people take this route. They go back home, or they look for a new home."
+      ],
+      "paragraphs_de": [
+        "Miramar ist ein kleines Dorf in Panama, an der Karibikküste. Hier warten Familien auf ein Boot. Sie haben Taschen, Kinder und wenig Geld. Es sind vor allem Venezolaner.",
+        "Diese Familien kennen den Weg nach Norden gut. Sie wollen in den USA leben, aber die Grenze ist für sie geschlossen. Viele warten lange in Mexiko. Jetzt machen sie die Reise rückwärts: nach Süden.",
+        "Das Boot fährt nach Puerto Obaldía, einem Dorf nahe Kolumbien. Danach fährt ein anderes Boot nach Necoclí, in Kolumbien. Die Reise ist lang und das Meer ist gefährlich. Im Jahr 2025 nehmen mehr als 22 000 Menschen diesen Weg. Sie kehren nach Hause zurück oder suchen ein neues Zuhause."
+      ],
+      "glossary": [
+        {
+          "w": "attendre",
+          "fr": "rester à un endroit jusqu'à l'arrivée de quelque chose ou de quelqu'un",
+          "de": "warten (auf)"
+        },
+        {
+          "w": "le bateau",
+          "fr": "il va sur l'eau, sur la mer ou sur une rivière",
+          "de": "das Boot, das Schiff"
+        },
+        {
+          "w": "la frontière",
+          "fr": "la ligne entre deux pays",
+          "de": "die Grenze"
+        },
+        {
+          "w": "fermé(e)",
+          "fr": "le contraire d'ouvert : on ne peut pas passer",
+          "de": "geschlossen"
+        },
+        {
+          "w": "à l'envers",
+          "fr": "dans le sens contraire",
+          "de": "rückwärts, umgekehrt"
+        },
+        {
+          "w": "le nord / le sud",
+          "fr": "deux directions : le nord est en haut sur la carte, le sud est en bas",
+          "de": "der Norden / der Süden"
+        },
+        {
+          "w": "dangereux, dangereuse",
+          "fr": "qui peut faire du mal ; on peut avoir un accident",
+          "de": "gefährlich"
+        },
+        {
+          "w": "rentrer chez soi",
+          "fr": "retourner à sa maison, dans son pays",
+          "de": "nach Hause zurückkehren"
+        }
+      ],
+      "grammar": "Place names take different little words. Towns and villages take à: à Miramar, à Necoclí. Most feminine countries (ending in -e) take en: en Colombie. Masculine countries take au: au Panama, au Mexique. Plural countries take aux: aux États-Unis.",
+      "grammar_de": "Vor Ortsnamen stehen verschiedene kleine Wörter. Städte und Dörfer bekommen à: à Miramar, à Necoclí. Die meisten weiblichen Länder (auf -e) bekommen en: en Colombie. Männliche Länder bekommen au: au Panama, au Mexique. Länder im Plural bekommen aux: aux États-Unis.",
+      "questions": [
+        "Où est Miramar ?",
+        "Pourquoi les familles ne vont pas aux États-Unis ?",
+        "Où va le deuxième bateau ?"
+      ],
+      "sources": [
+        {
+          "title": "Migrants arrive in Panama on their return journey to South America (EFE / Q24N)",
+          "url": "https://qcostarica.com/migrants-arrive-in-panama-on-their-return-journey-to-south-america",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}
