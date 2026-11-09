@@ -272,6 +272,98 @@
     "¿Y tú? ¿Hay ropa tradicional en tu país o región? ¿Cómo es?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 10
+   },
+   "title": "Qual é o seu curso?",
+   "dek": "Segunda-feira: prova na sexta, aluno novo na aula e uma surpresa sobre o pão do Seu João.",
+   "tags": [
+    "segunda-feira",
+    "estudos e profissão",
+    "perguntas"
+   ],
+   "paragraphs": [
+    "Segunda-feira, 9 de novembro de 2026. Querido diário, hoje é segunda-feira. Eu trabalho na livraria e estudo à noite.",
+    "Às nove horas, o Lucas pergunta: — Quando é a sua prova, Ana? — Na sexta-feira, às sete da noite. — Boa sorte!",
+    "Às sete, eu chego na aula. Tem um aluno novo, o Pedro. Ele pergunta: — Que curso você faz? — Letras. E você? — Eu também!",
+    "— Onde você trabalha, Pedro? — Na padaria do Seu João! — Que legal! Eu compro pão lá todo dia. Então o pão da Dona Rosa é do Pedro!",
+    "Às dez da noite, eu volto para casa. O Tito está no sofá. Amanhã é terça-feira, dia 10. Boa noite, diário. Boa noite, Tito."
+   ],
+   "paragraphs_en": [
+    "Monday, 9 November 2026. Dear diary, today is Monday. I work at the bookshop and I study at night.",
+    "At nine o'clock, Lucas asks: \"When is your test, Ana?\" \"On Friday, at seven in the evening.\" \"Good luck!\"",
+    "At seven, I arrive at class. There is a new student, Pedro. He asks: \"What course do you do?\" \"Languages and Literature. And you?\" \"Me too!\"",
+    "\"Where do you work, Pedro?\" \"At Seu João's bakery!\" \"How nice! I buy bread there every day. So Dona Rosa's bread is Pedro's!\"",
+    "At ten at night, I go back home. Tito is on the sofa. Tomorrow is Tuesday, the 10th. Good night, diary. Good night, Tito."
+   ],
+   "paragraphs_zh": [
+    "2026年11月9日，星期一。亲爱的日记，今天是星期一。我在书店工作，晚上上学。",
+    "九点，卢卡斯问：“安娜，你的考试是什么时候？”“星期五，晚上七点。”“祝你好运！”",
+    "七点，我到教室。有一个新同学，佩德罗。他问：“你读什么专业？”“文学。你呢？”“我也是！”",
+    "“佩德罗，你在哪儿工作？”“在若昂先生的面包店！”“真好！我每天都在那儿买面包。原来罗莎太太的面包是佩德罗做的！”",
+    "晚上十点，我回家。蒂托在沙发上。明天是星期二，10号。晚安，日记。晚安，蒂托。"
+   ],
+   "paragraphs_de": [
+    "Montag, 9. November 2026. Liebes Tagebuch, heute ist Montag. Ich arbeite in der Buchhandlung und abends studiere ich.",
+    "Um neun Uhr fragt Lucas: „Wann ist deine Prüfung, Ana?“ „Am Freitag, um sieben Uhr abends.“ „Viel Glück!“",
+    "Um sieben komme ich in den Unterricht. Da ist ein neuer Student, Pedro. Er fragt: „Was studierst du?“ „Literatur und Sprachen. Und du?“ „Ich auch!“",
+    "„Wo arbeitest du, Pedro?“ „In der Bäckerei von Seu João!“ „Wie schön! Ich kaufe dort jeden Tag Brot. Dann ist das Brot von Dona Rosa von Pedro!“",
+    "Um zehn Uhr abends fahre ich nach Hause. Tito liegt auf dem Sofa. Morgen ist Dienstag, der 10. Gute Nacht, Tagebuch. Gute Nacht, Tito."
+   ],
+   "glossary": [
+    {
+     "w": "a prova",
+     "en": "test, exam — Quando é a prova?",
+     "zh": "考试",
+     "de": "die Prüfung",
+     "pt": "um teste na escola"
+    },
+    {
+     "w": "o aluno / a aluna",
+     "en": "student (at a school)",
+     "zh": "学生",
+     "de": "der Schüler / Student",
+     "pt": "pessoa que estuda numa escola"
+    },
+    {
+     "w": "o curso",
+     "en": "course, programme — Que curso você faz?",
+     "zh": "课程，专业",
+     "de": "der Kurs, das Studienfach",
+     "pt": "o que você estuda: Letras, Matemática…"
+    },
+    {
+     "w": "à noite",
+     "en": "at night, in the evening",
+     "zh": "在晚上",
+     "de": "abends, nachts",
+     "pt": "depois das seis da tarde"
+    },
+    {
+     "w": "Boa sorte!",
+     "en": "Good luck!",
+     "zh": "祝你好运！",
+     "de": "Viel Glück!",
+     "pt": "o que você diz antes de uma prova"
+    }
+   ],
+   "grammar": "Questions about study and work start with a question word: Quando é a prova? Que curso você faz? Onde você trabalha? The answer comes right after: Na sexta-feira. Letras. Na padaria.",
+   "grammar_zh": "关于学习和工作的问题以疑问词开头：Quando é a prova?（什么时候）Que curso você faz?（什么专业）Onde você trabalha?（在哪里）。答案紧跟在后面：Na sexta-feira. Letras. Na padaria.",
+   "grammar_de": "Fragen zu Studium und Arbeit beginnen mit einem Fragewort: Quando é a prova? Que curso você faz? Onde você trabalha? Die Antwort folgt gleich: Na sexta-feira. Letras. Na padaria.",
+   "grammar_pt": "Perguntas sobre estudo e trabalho começam com uma palavra: Quando é a prova? Que curso você faz? Onde você trabalha? A resposta vem na linha seguinte: Na sexta-feira. Letras. Na padaria.",
+   "questions": [
+    "Quando é a prova da Ana? Onde o Pedro trabalha?",
+    "Que curso a Ana faz? Que dia é amanhã?",
+    "E você? Você estuda ou trabalha? Qual é o seu curso?"
+   ],
+   "sources": []
   }
  ]
 }
