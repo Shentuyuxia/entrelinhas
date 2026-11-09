@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T15:49:05+00:00",
+ "updated": "2026-11-09T16:48:27+00:00",
  "days": [
   {
    "date": "2026-11-09",
@@ -10,6 +10,22 @@
      "title": "Le voyage à l'envers",
      "kind": "feature",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "En Lima: ¿tienes hermanos?",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "El huipil: una blusa que cuenta historias",
+     "kind": "feature",
+     "level": "A2",
      "hour": null
     }
    ]

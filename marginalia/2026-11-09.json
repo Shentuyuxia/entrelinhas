@@ -1,91 +1,277 @@
 {
-  "date": "2026-11-09",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-09",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "fr",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Migrations",
+   "title": "Le voyage à l'envers",
+   "dek": "Au Panama, des familles vénézuéliennes ne vont plus vers le nord. Elles prennent un bateau vers le sud.",
+   "tags": [
+    "Panama",
+    "Venezuela",
+    "migration inversée",
+    "à / au / en + lieu"
+   ],
+   "paragraphs": [
+    "Miramar est un petit village au Panama, au bord de la mer des Caraïbes. Ici, des familles attendent un bateau. Elles ont des sacs, des enfants et peu d'argent. Ce sont surtout des Vénézuéliens.",
+    "Ces familles connaissent bien la route du nord. Elles veulent vivre aux États-Unis, mais la frontière est fermée pour elles. Beaucoup attendent longtemps au Mexique. Maintenant, elles font le voyage à l'envers : vers le sud.",
+    "Le bateau va à Puerto Obaldía, un village près de la Colombie. Après, un autre bateau va à Necoclí, en Colombie. Le voyage est long et la mer est dangereuse. En 2025, plus de 22 000 personnes prennent cette route. Elles rentrent chez elles, ou elles cherchent une nouvelle maison."
+   ],
+   "paragraphs_en": [
+    "Miramar is a small village in Panama, on the Caribbean coast. Here, families wait for a boat. They have bags, children and little money. Most of them are Venezuelans.",
+    "These families know the road north well. They want to live in the United States, but the border is closed to them. Many wait a long time in Mexico. Now they are making the journey in reverse: towards the south.",
+    "The boat goes to Puerto Obaldía, a village near Colombia. Then another boat goes to Necoclí, in Colombia. The journey is long and the sea is dangerous. In 2025, more than 22,000 people take this route. They go back home, or they look for a new home."
+   ],
+   "paragraphs_de": [
+    "Miramar ist ein kleines Dorf in Panama, an der Karibikküste. Hier warten Familien auf ein Boot. Sie haben Taschen, Kinder und wenig Geld. Es sind vor allem Venezolaner.",
+    "Diese Familien kennen den Weg nach Norden gut. Sie wollen in den USA leben, aber die Grenze ist für sie geschlossen. Viele warten lange in Mexiko. Jetzt machen sie die Reise rückwärts: nach Süden.",
+    "Das Boot fährt nach Puerto Obaldía, einem Dorf nahe Kolumbien. Danach fährt ein anderes Boot nach Necoclí, in Kolumbien. Die Reise ist lang und das Meer ist gefährlich. Im Jahr 2025 nehmen mehr als 22 000 Menschen diesen Weg. Sie kehren nach Hause zurück oder suchen ein neues Zuhause."
+   ],
+   "glossary": [
     {
-      "lang": "fr",
-      "level": "A1",
-      "kind": "feature",
-      "section": "Migrations",
-      "title": "Le voyage à l'envers",
-      "dek": "Au Panama, des familles vénézuéliennes ne vont plus vers le nord. Elles prennent un bateau vers le sud.",
-      "tags": [
-        "Panama",
-        "Venezuela",
-        "migration inversée",
-        "à / au / en + lieu"
-      ],
-      "paragraphs": [
-        "Miramar est un petit village au Panama, au bord de la mer des Caraïbes. Ici, des familles attendent un bateau. Elles ont des sacs, des enfants et peu d'argent. Ce sont surtout des Vénézuéliens.",
-        "Ces familles connaissent bien la route du nord. Elles veulent vivre aux États-Unis, mais la frontière est fermée pour elles. Beaucoup attendent longtemps au Mexique. Maintenant, elles font le voyage à l'envers : vers le sud.",
-        "Le bateau va à Puerto Obaldía, un village près de la Colombie. Après, un autre bateau va à Necoclí, en Colombie. Le voyage est long et la mer est dangereuse. En 2025, plus de 22 000 personnes prennent cette route. Elles rentrent chez elles, ou elles cherchent une nouvelle maison."
-      ],
-      "paragraphs_en": [
-        "Miramar is a small village in Panama, on the Caribbean coast. Here, families wait for a boat. They have bags, children and little money. Most of them are Venezuelans.",
-        "These families know the road north well. They want to live in the United States, but the border is closed to them. Many wait a long time in Mexico. Now they are making the journey in reverse: towards the south.",
-        "The boat goes to Puerto Obaldía, a village near Colombia. Then another boat goes to Necoclí, in Colombia. The journey is long and the sea is dangerous. In 2025, more than 22,000 people take this route. They go back home, or they look for a new home."
-      ],
-      "paragraphs_de": [
-        "Miramar ist ein kleines Dorf in Panama, an der Karibikküste. Hier warten Familien auf ein Boot. Sie haben Taschen, Kinder und wenig Geld. Es sind vor allem Venezolaner.",
-        "Diese Familien kennen den Weg nach Norden gut. Sie wollen in den USA leben, aber die Grenze ist für sie geschlossen. Viele warten lange in Mexiko. Jetzt machen sie die Reise rückwärts: nach Süden.",
-        "Das Boot fährt nach Puerto Obaldía, einem Dorf nahe Kolumbien. Danach fährt ein anderes Boot nach Necoclí, in Kolumbien. Die Reise ist lang und das Meer ist gefährlich. Im Jahr 2025 nehmen mehr als 22 000 Menschen diesen Weg. Sie kehren nach Hause zurück oder suchen ein neues Zuhause."
-      ],
-      "glossary": [
-        {
-          "w": "attendre",
-          "fr": "rester à un endroit jusqu'à l'arrivée de quelque chose ou de quelqu'un",
-          "de": "warten (auf)"
-        },
-        {
-          "w": "le bateau",
-          "fr": "il va sur l'eau, sur la mer ou sur une rivière",
-          "de": "das Boot, das Schiff"
-        },
-        {
-          "w": "la frontière",
-          "fr": "la ligne entre deux pays",
-          "de": "die Grenze"
-        },
-        {
-          "w": "fermé(e)",
-          "fr": "le contraire d'ouvert : on ne peut pas passer",
-          "de": "geschlossen"
-        },
-        {
-          "w": "à l'envers",
-          "fr": "dans le sens contraire",
-          "de": "rückwärts, umgekehrt"
-        },
-        {
-          "w": "le nord / le sud",
-          "fr": "deux directions : le nord est en haut sur la carte, le sud est en bas",
-          "de": "der Norden / der Süden"
-        },
-        {
-          "w": "dangereux, dangereuse",
-          "fr": "qui peut faire du mal ; on peut avoir un accident",
-          "de": "gefährlich"
-        },
-        {
-          "w": "rentrer chez soi",
-          "fr": "retourner à sa maison, dans son pays",
-          "de": "nach Hause zurückkehren"
-        }
-      ],
-      "grammar": "Place names take different little words. Towns and villages take à: à Miramar, à Necoclí. Most feminine countries (ending in -e) take en: en Colombie. Masculine countries take au: au Panama, au Mexique. Plural countries take aux: aux États-Unis.",
-      "grammar_de": "Vor Ortsnamen stehen verschiedene kleine Wörter. Städte und Dörfer bekommen à: à Miramar, à Necoclí. Die meisten weiblichen Länder (auf -e) bekommen en: en Colombie. Männliche Länder bekommen au: au Panama, au Mexique. Länder im Plural bekommen aux: aux États-Unis.",
-      "questions": [
-        "Où est Miramar ?",
-        "Pourquoi les familles ne vont pas aux États-Unis ?",
-        "Où va le deuxième bateau ?"
-      ],
-      "sources": [
-        {
-          "title": "Migrants arrive in Panama on their return journey to South America (EFE / Q24N)",
-          "url": "https://qcostarica.com/migrants-arrive-in-panama-on-their-return-journey-to-south-america",
-          "license": "link only"
-        }
-      ]
+     "w": "attendre",
+     "fr": "rester à un endroit jusqu'à l'arrivée de quelque chose ou de quelqu'un",
+     "de": "warten (auf)"
+    },
+    {
+     "w": "le bateau",
+     "fr": "il va sur l'eau, sur la mer ou sur une rivière",
+     "de": "das Boot, das Schiff"
+    },
+    {
+     "w": "la frontière",
+     "fr": "la ligne entre deux pays",
+     "de": "die Grenze"
+    },
+    {
+     "w": "fermé(e)",
+     "fr": "le contraire d'ouvert : on ne peut pas passer",
+     "de": "geschlossen"
+    },
+    {
+     "w": "à l'envers",
+     "fr": "dans le sens contraire",
+     "de": "rückwärts, umgekehrt"
+    },
+    {
+     "w": "le nord / le sud",
+     "fr": "deux directions : le nord est en haut sur la carte, le sud est en bas",
+     "de": "der Norden / der Süden"
+    },
+    {
+     "w": "dangereux, dangereuse",
+     "fr": "qui peut faire du mal ; on peut avoir un accident",
+     "de": "gefährlich"
+    },
+    {
+     "w": "rentrer chez soi",
+     "fr": "retourner à sa maison, dans son pays",
+     "de": "nach Hause zurückkehren"
     }
-  ]
+   ],
+   "grammar": "Place names take different little words. Towns and villages take à: à Miramar, à Necoclí. Most feminine countries (ending in -e) take en: en Colombie. Masculine countries take au: au Panama, au Mexique. Plural countries take aux: aux États-Unis.",
+   "grammar_de": "Vor Ortsnamen stehen verschiedene kleine Wörter. Städte und Dörfer bekommen à: à Miramar, à Necoclí. Die meisten weiblichen Länder (auf -e) bekommen en: en Colombie. Männliche Länder bekommen au: au Panama, au Mexique. Länder im Plural bekommen aux: aux États-Unis.",
+   "questions": [
+    "Où est Miramar ?",
+    "Pourquoi les familles ne vont pas aux États-Unis ?",
+    "Où va le deuxième bateau ?"
+   ],
+   "sources": [
+    {
+     "title": "Migrants arrive in Panama on their return journey to South America (EFE / Q24N)",
+     "url": "https://qcostarica.com/migrants-arrive-in-panama-on-their-return-journey-to-south-america",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En Lima: ¿tienes hermanos?",
+   "dek": "Rosa y Karin se conocen en Lima y hablan de sus familias.",
+   "tags": [
+    "Lima",
+    "small talk",
+    "posesivos"
+   ],
+   "paragraphs": [
+    "Rosa: ¡Hola! Me llamo Rosa. ¿Y tú?",
+    "Karin: Hola, Rosa. Me llamo Karin. Soy de Alemania.",
+    "Rosa: ¡Qué bien! Yo soy de Lima. ¿Tienes familia aquí?",
+    "Karin: No, mi familia está en Berlín. Tengo un hermano y una hermana.",
+    "Rosa: ¿Cómo se llaman tus hermanos?",
+    "Karin: Mi hermano se llama Jonas y mi hermana se llama Mia.",
+    "Rosa: Yo tengo dos hermanos. Viven en Arequipa. Mis padres viven aquí, en Miraflores.",
+    "Karin: ¿Tu mamá cocina bien?",
+    "Rosa: ¡Sí, muy bien! Los domingos comemos ceviche en su casa. ¿Quieres venir?",
+    "Karin: ¡Sí, gracias! ¡Con mucho gusto!",
+    "Dato curioso: En Perú, mucha gente come el ceviche al mediodía y no por la noche, porque el pescado tiene que estar muy fresco."
+   ],
+   "paragraphs_en": [
+    "Rosa: Hello! My name is Rosa. And you?",
+    "Karin: Hello, Rosa. My name is Karin. I'm from Germany.",
+    "Rosa: How nice! I'm from Lima. Do you have family here?",
+    "Karin: No, my family is in Berlin. I have a brother and a sister.",
+    "Rosa: What are your siblings called?",
+    "Karin: My brother is called Jonas and my sister is called Mia.",
+    "Rosa: I have two siblings. They live in Arequipa. My parents live here, in Miraflores.",
+    "Karin: Does your mom cook well?",
+    "Rosa: Yes, very well! On Sundays we eat ceviche at her house. Do you want to come?",
+    "Karin: Yes, thank you! With pleasure!",
+    "Fun fact: In Peru, many people eat ceviche at midday and not at night, because the fish has to be very fresh."
+   ],
+   "paragraphs_de": [
+    "Rosa: Hallo! Ich heiße Rosa. Und du?",
+    "Karin: Hallo, Rosa. Ich heiße Karin. Ich komme aus Deutschland.",
+    "Rosa: Schön! Ich komme aus Lima. Hast du hier Familie?",
+    "Karin: Nein, meine Familie ist in Berlin. Ich habe einen Bruder und eine Schwester.",
+    "Rosa: Wie heißen deine Geschwister?",
+    "Karin: Mein Bruder heißt Jonas und meine Schwester heißt Mia.",
+    "Rosa: Ich habe zwei Geschwister. Sie wohnen in Arequipa. Meine Eltern wohnen hier, in Miraflores.",
+    "Karin: Kocht deine Mama gut?",
+    "Rosa: Ja, sehr gut! Sonntags essen wir Ceviche bei ihr zu Hause. Möchtest du kommen?",
+    "Karin: Ja, danke! Sehr gern!",
+    "Wusstest du? In Peru essen viele Leute Ceviche mittags und nicht abends, weil der Fisch ganz frisch sein muss."
+   ],
+   "glossary": [
+    {
+     "w": "la familia",
+     "en": "family",
+     "de": "die Familie"
+    },
+    {
+     "w": "el hermano / la hermana",
+     "en": "brother / sister",
+     "de": "der Bruder / die Schwester"
+    },
+    {
+     "w": "los padres",
+     "en": "parents",
+     "de": "die Eltern"
+    },
+    {
+     "w": "vivir",
+     "en": "to live",
+     "de": "wohnen, leben"
+    },
+    {
+     "w": "cocinar",
+     "en": "to cook",
+     "de": "kochen"
+    },
+    {
+     "w": "el domingo",
+     "en": "Sunday",
+     "de": "der Sonntag"
+    },
+    {
+     "w": "¿Quieres venir?",
+     "en": "Do you want to come?",
+     "de": "Möchtest du kommen?"
+    },
+    {
+     "w": "Con mucho gusto",
+     "en": "With pleasure / gladly",
+     "de": "Sehr gern"
+    }
+   ],
+   "grammar": "Possessives (mi, tu, su) agree with the thing owned, not with the owner: one thing is mi / tu / su, several things are mis / tus / sus. Example: “mi hermano” but “mis padres”, “tu mamá” but “tus hermanos”. Note that su can mean his, her, their or your (formal).",
+   "grammar_de": "Die Possessivbegleiter (mi, tu, su) richten sich nach der besessenen Sache, nicht nach dem Besitzer: Singular heißt mi / tu / su, Plural mis / tus / sus. Beispiel: „mi hermano“, aber „mis padres“; „tu mamá“, aber „tus hermanos“. Su kann „sein, ihr, Ihr“ bedeuten.",
+   "questions": [
+    "¿De dónde es Karin?",
+    "¿Dónde viven los hermanos de Rosa?",
+    "¿Y tú? ¿Tienes hermanos? ¿Cómo se llaman?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "feature",
+   "section": "Cultura",
+   "title": "El huipil: una blusa que cuenta historias",
+   "dek": "En Guatemala, muchas mujeres mayas tejen y llevan una blusa que dice mucho de su comunidad.",
+   "tags": [
+    "Guatemala",
+    "tejidos mayas",
+    "tener que + infinitivo"
+   ],
+   "paragraphs": [
+    "En Guatemala, muchas mujeres mayas llevan un huipil. El huipil es una blusa larga y tradicional. También se usa en el sur de México y en otros países de Centroamérica. No es solo ropa: también es una forma de mostrar de dónde eres.",
+    "Muchas mujeres hacen el huipil a mano. Usan un telar de cintura. Un extremo del telar está atado a un árbol o a una pared, y el otro está atado a la cintura de la mujer. Así ella tiene que mover el cuerpo para tensar los hilos. Tejer un huipil lleva mucho tiempo y mucha paciencia.",
+    "Los colores y los dibujos cambian de un pueblo a otro. Con un huipil, muchas veces se puede saber de qué comunidad viene una mujer. Los dibujos pueden tener flores, animales o figuras geométricas, y muchos diseños tienen un significado especial para la familia o para el pueblo.",
+    "Hoy, muchas mujeres venden sus tejidos en mercados y tiendas. Así ganan dinero para su familia y mantienen viva una tradición. Si quieres comprar un huipil, tienes que preguntar quién lo hizo y pagar un precio justo.",
+    "Dato curioso: la palabra «huipil» viene del náhuatl, una lengua de México."
+   ],
+   "paragraphs_en": [
+    "In Guatemala, many Maya women wear a huipil. The huipil is a long, traditional blouse. It is also worn in southern Mexico and in other Central American countries. It is not just clothing: it is also a way of showing where you are from.",
+    "Many women make the huipil by hand. They use a backstrap loom. One end of the loom is tied to a tree or a wall, and the other is tied around the woman's waist. So she has to move her body to keep the threads tight. Weaving a huipil takes a lot of time and a lot of patience.",
+    "The colors and patterns change from one town to another. With a huipil, you can often tell which community a woman comes from. The patterns can include flowers, animals or geometric shapes, and many designs have a special meaning for the family or the town.",
+    "Today, many women sell their textiles in markets and shops. This way they earn money for their families and keep a tradition alive. If you want to buy a huipil, you have to ask who made it and pay a fair price.",
+    "Fun fact: the word “huipil” comes from Nahuatl, a language of Mexico."
+   ],
+   "paragraphs_de": [
+    "In Guatemala tragen viele Maya-Frauen einen Huipil. Der Huipil ist eine lange, traditionelle Bluse. Man trägt ihn auch im Süden Mexikos und in anderen Ländern Mittelamerikas. Er ist nicht nur Kleidung: Er zeigt auch, woher du kommst.",
+    "Viele Frauen machen den Huipil von Hand. Sie benutzen einen Rückengurtwebstuhl. Ein Ende des Webstuhls ist an einem Baum oder an einer Wand befestigt, das andere Ende an der Taille der Frau. So muss sie ihren Körper bewegen, um die Fäden zu spannen. Einen Huipil zu weben dauert lange und braucht viel Geduld.",
+    "Die Farben und Muster sind von Dorf zu Dorf verschieden. An einem Huipil kann man oft erkennen, aus welcher Gemeinde eine Frau kommt. Die Muster zeigen zum Beispiel Blumen, Tiere oder geometrische Formen, und viele Muster haben eine besondere Bedeutung für die Familie oder das Dorf.",
+    "Heute verkaufen viele Frauen ihre Stoffe auf Märkten und in Geschäften. So verdienen sie Geld für ihre Familie und halten eine Tradition lebendig. Wenn du einen Huipil kaufen möchtest, musst du fragen, wer ihn gemacht hat, und einen fairen Preis zahlen.",
+    "Wusstest du? Das Wort „Huipil“ kommt aus dem Nahuatl, einer Sprache Mexikos."
+   ],
+   "glossary": [
+    {
+     "w": "el huipil",
+     "en": "traditional blouse worn by Indigenous women",
+     "de": "die traditionelle Bluse"
+    },
+    {
+     "w": "el telar",
+     "en": "loom",
+     "de": "der Webstuhl"
+    },
+    {
+     "w": "tejer",
+     "en": "to weave, to knit",
+     "de": "weben, stricken"
+    },
+    {
+     "w": "el hilo",
+     "en": "thread",
+     "de": "der Faden"
+    },
+    {
+     "w": "la cintura",
+     "en": "waist",
+     "de": "die Taille"
+    },
+    {
+     "w": "el pueblo",
+     "en": "town, village; also people",
+     "de": "das Dorf; das Volk"
+    },
+    {
+     "w": "el dibujo",
+     "en": "pattern, drawing",
+     "de": "das Muster, die Zeichnung"
+    },
+    {
+     "w": "justo",
+     "en": "fair",
+     "de": "fair, gerecht"
+    }
+   ],
+   "grammar": "Tener que + infinitive says that something is necessary: “ella tiene que mover el cuerpo”, “tienes que preguntar”. The verb tener changes (tengo, tienes, tiene…), but que stays and the second verb stays in the infinitive. Use it for rules and obligations; for a general “one must” you can also say hay que + infinitive.",
+   "grammar_de": "Tener que + Infinitiv drückt aus, dass etwas nötig ist: „ella tiene que mover el cuerpo“, „tienes que preguntar“. Tener wird konjugiert (tengo, tienes, tiene …), que bleibt gleich, das zweite Verb steht im Infinitiv. Es entspricht „müssen“; für ein allgemeines „man muss“ sagt man auch hay que + Infinitiv.",
+   "questions": [
+    "¿Cómo se hace un huipil?",
+    "¿Qué dicen los colores y los dibujos de un huipil?",
+    "¿Y tú? ¿Hay ropa tradicional en tu país o región? ¿Cómo es?"
+   ],
+   "sources": []
+  }
+ ]
 }
