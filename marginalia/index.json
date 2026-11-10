@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:44:22+00:00",
+ "updated": "2026-11-10T18:54:05+00:00",
  "days": [
   {
    "date": "2026-11-10",
@@ -26,6 +26,14 @@
      "title": "Buscar departamento: cómo se alquila en Latinoamérica",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Um sorvete para a Dona Rosa",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]

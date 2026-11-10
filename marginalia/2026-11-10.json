@@ -310,6 +310,114 @@
         "¿Y tú? ¿Cómo es el departamento o la casa que buscas? Usa «Busco un lugar que…»"
       ],
       "sources": []
+    },
+    {
+      "lang": "pt",
+      "level": "A1",
+      "kind": "dialogue",
+      "section": "Diálogo",
+      "title": "Um sorvete para a Dona Rosa",
+      "dek": "Na sorveteria faz calor. Qual sabor a Ana quer? E para quem é o sorvete grande?",
+      "paragraphs": [
+        "Moça: Boa tarde! O que você quer?",
+        "Ana: Quero um sorvete, por favor.",
+        "Moça: Qual sabor? Chocolate ou morango?",
+        "Ana: Morango. Um sorvete grande, por favor.",
+        "Ana: Quanto custa o sorvete grande?",
+        "Moça: Custa oito reais. Para quem é?",
+        "Ana: É para a Dona Rosa.",
+        "Moça: Onde ela está agora?",
+        "Ana: Na praça, no banco azul.",
+        "Moça: Que legal! Aqui está o sorvete."
+      ],
+      "paragraphs_en": [
+        "Girl: Good afternoon! What do you want?",
+        "Ana: I want an ice cream, please.",
+        "Girl: Which flavour? Chocolate or strawberry?",
+        "Ana: Strawberry. A big ice cream, please.",
+        "Ana: How much is the big ice cream?",
+        "Girl: It costs eight reais. Who is it for?",
+        "Ana: It's for Dona Rosa.",
+        "Girl: Where is she now?",
+        "Ana: In the square, on the blue bench.",
+        "Girl: How nice! Here is your ice cream."
+      ],
+      "paragraphs_zh": [
+        "店员：下午好！你想要什么？",
+        "安娜：我想要一个冰淇淋，谢谢。",
+        "店员：什么口味？巧克力还是草莓？",
+        "安娜：草莓。一个大冰淇淋，谢谢。",
+        "安娜：大冰淇淋多少钱？",
+        "店员：八雷亚尔。是给谁的？",
+        "安娜：是给罗莎太太的。",
+        "店员：她现在在哪儿？",
+        "安娜：在广场上，在蓝色的长椅上。",
+        "店员：真好！冰淇淋给你。"
+      ],
+      "paragraphs_de": [
+        "Verkäuferin: Guten Tag! Was möchtest du?",
+        "Ana: Ich möchte ein Eis, bitte.",
+        "Verkäuferin: Welche Sorte? Schokolade oder Erdbeere?",
+        "Ana: Erdbeere. Ein großes Eis, bitte.",
+        "Ana: Was kostet das große Eis?",
+        "Verkäuferin: Es kostet acht Reais. Für wen ist es?",
+        "Ana: Es ist für Dona Rosa.",
+        "Verkäuferin: Wo ist sie jetzt?",
+        "Ana: Auf dem Platz, auf der blauen Bank.",
+        "Verkäuferin: Wie schön! Hier ist dein Eis."
+      ],
+      "glossary": [
+        {
+          "w": "o sabor",
+          "en": "flavour — Qual sabor você quer?",
+          "zh": "口味",
+          "de": "die Sorte, der Geschmack",
+          "pt": "o gosto de um sorvete ou de um bolo"
+        },
+        {
+          "w": "o morango",
+          "en": "strawberry — sorvete de morango",
+          "zh": "草莓",
+          "de": "die Erdbeere",
+          "pt": "uma fruta pequena e vermelha"
+        },
+        {
+          "w": "a praça",
+          "en": "square — Dona Rosa está na praça.",
+          "zh": "广场",
+          "de": "der Platz",
+          "pt": "um lugar grande na rua, com bancos e árvores"
+        },
+        {
+          "w": "o banco da praça",
+          "en": "bench in the square",
+          "zh": "广场上的长椅",
+          "de": "die Bank (zum Sitzen) auf dem Platz",
+          "pt": "onde as pessoas sentam na praça"
+        },
+        {
+          "w": "Aqui está.",
+          "en": "Here you are. / Here it is.",
+          "zh": "给你。（递东西时说）",
+          "de": "Hier, bitte. / Hier ist es.",
+          "pt": "a gente diz quando dá uma coisa para a pessoa"
+        }
+      ],
+      "grammar": "Adjectives come after the noun and agree with it: o sorvete grande, o banco azul. De + noun says the flavour: sorvete de morango, bolo de chocolate. Questions again: Qual sabor? Quanto custa? Para quem é? Onde ela está?",
+      "grammar_zh": "形容词放在名词后面，并和名词保持一致：o sorvete grande（大冰淇淋）、o banco azul（蓝色长椅）。de + 名词表示口味或种类：sorvete de morango（草莓冰淇淋）、bolo de chocolate（巧克力蛋糕）。再练疑问词：Qual sabor?（什么口味？）Quanto custa?（多少钱？）Para quem é?（给谁的？）Onde ela está?（她在哪儿？）",
+      "grammar_de": "Das Adjektiv steht nach dem Nomen und passt sich an: o sorvete grande, o banco azul. De + Nomen nennt die Sorte: sorvete de morango, bolo de chocolate. Nochmal Fragen: Qual sabor? (Welche Sorte?) Quanto custa? (Was kostet es?) Para quem é? (Für wen?) Onde ela está? (Wo ist sie?)",
+      "grammar_pt": "O adjetivo vem depois do substantivo: o sorvete grande, o banco azul. De + substantivo diz o sabor: sorvete de morango, bolo de chocolate. Perguntas: Qual sabor? Quanto custa? Para quem é? Onde ela está?",
+      "questions": [
+        "Qual sabor de sorvete a Ana quer?",
+        "Onde a Dona Rosa está?",
+        "E você? Qual é o seu sabor de sorvete? Chocolate, morango ou outro?"
+      ],
+      "sources": [],
+      "tags": [
+        "sorveteria",
+        "perguntas",
+        "adjetivos"
+      ]
     }
   ]
 }
