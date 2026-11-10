@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-10",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "fr",
+      "level": "A2",
+      "kind": "feature",
+      "section": "Musique",
+      "title": "La guitare de Víctor Jara",
+      "dek": "Un chanteur chilien, un stade de Santiago et des chansons qui ne meurent pas.",
+      "tags": [
+        "Chili",
+        "Nueva Canción",
+        "musique et politique",
+        "il y a + durée"
+      ],
+      "paragraphs": [
+        "Víctor Jara est né au Chili en 1932. Il a grandi dans une famille pauvre, à la campagne. À Santiago, il a étudié le théâtre, puis il a pris sa guitare. Il chante la vie des paysans, des ouvriers et des enfants pauvres. Ses chansons sont simples et douces, mais elles parlent de justice.",
+        "Dans les années 1960, Jara fait partie de la « Nueva Canción », la « nouvelle chanson » d'Amérique latine. Avec d'autres artistes, comme Violeta Parra ou Mercedes Sosa, il mélange musique populaire et politique. Il soutient Salvador Allende, le président socialiste élu en 1970. En 1971, il a écrit une chanson célèbre : « El derecho de vivir en paz », « Le droit de vivre en paix ».",
+        "Il y a cinquante-trois ans, le 11 septembre 1973, l'armée du général Pinochet a pris le pouvoir. Les soldats ont arrêté Víctor Jara et des milliers d'autres personnes. Ils l'ont enfermé dans un stade de Santiago. Là, ils l'ont frappé, ils lui ont cassé les mains, et quelques jours plus tard, ils l'ont tué.",
+        "Aujourd'hui, ce stade porte son nom : l'Estadio Víctor Jara. En 2023, la Cour suprême du Chili a condamné sept anciens militaires pour sa mort. Et ses chansons ? Elles sont toujours vivantes. Ce soir encore, dans une manifestation ou dans une fête, quelqu'un va prendre une guitare et chanter Víctor Jara."
+      ],
+      "paragraphs_en": [
+        "Víctor Jara was born in Chile in 1932. He grew up in a poor family in the countryside. In Santiago he studied theatre, then he picked up his guitar. He sings about the lives of peasants, workers and poor children. His songs are simple and gentle, but they speak of justice.",
+        "In the 1960s, Jara is part of the \"Nueva Canción\", the \"new song\" movement of Latin America. With other artists, such as Violeta Parra or Mercedes Sosa, he mixes folk music and politics. He supports Salvador Allende, the socialist president elected in 1970. In 1971 he wrote a famous song: \"El derecho de vivir en paz\", \"The right to live in peace\".",
+        "Fifty-three years ago, on 11 September 1973, General Pinochet's army seized power. The soldiers arrested Víctor Jara and thousands of other people. They locked him up in a stadium in Santiago. There they beat him, broke his hands, and a few days later they killed him.",
+        "Today the stadium bears his name: the Estadio Víctor Jara. In 2023, Chile's Supreme Court convicted seven former soldiers for his death. And his songs? They are still alive. Tonight again, at a demonstration or a party, someone is going to pick up a guitar and sing Víctor Jara."
+      ],
+      "paragraphs_de": [
+        "Víctor Jara wurde 1932 in Chile geboren. Er wuchs in einer armen Familie auf dem Land auf. In Santiago studierte er Theater, dann nahm er seine Gitarre in die Hand. Er singt vom Leben der Bauern, der Arbeiter und der armen Kinder. Seine Lieder sind einfach und sanft, aber sie sprechen von Gerechtigkeit.",
+        "In den 1960er-Jahren gehört Jara zur „Nueva Canción“, dem „neuen Lied“ Lateinamerikas. Mit anderen Künstlerinnen und Künstlern wie Violeta Parra oder Mercedes Sosa verbindet er Volksmusik und Politik. Er unterstützt Salvador Allende, den 1970 gewählten sozialistischen Präsidenten. 1971 schrieb er ein berühmtes Lied: „El derecho de vivir en paz“, „Das Recht, in Frieden zu leben“.",
+        "Vor dreiundfünfzig Jahren, am 11. September 1973, ergriff die Armee von General Pinochet die Macht. Die Soldaten verhafteten Víctor Jara und Tausende andere Menschen. Sie sperrten ihn in ein Stadion in Santiago. Dort schlugen sie ihn, brachen ihm die Hände, und einige Tage später töteten sie ihn.",
+        "Heute trägt das Stadion seinen Namen: Estadio Víctor Jara. 2023 verurteilte der Oberste Gerichtshof Chiles sieben ehemalige Militärs für seinen Tod. Und seine Lieder? Sie leben immer noch. Auch heute Abend wird jemand auf einer Demonstration oder einem Fest eine Gitarre nehmen und Víctor Jara singen."
+      ],
+      "glossary": [
+        {
+          "w": "grandir",
+          "fr": "devenir grand, passer son enfance quelque part",
+          "de": "aufwachsen"
+        },
+        {
+          "w": "le paysan",
+          "fr": "une personne qui travaille la terre à la campagne",
+          "de": "der Bauer"
+        },
+        {
+          "w": "l'ouvrier",
+          "fr": "une personne qui travaille avec ses mains, dans une usine par exemple",
+          "de": "der Arbeiter"
+        },
+        {
+          "w": "doux, douce",
+          "fr": "calme et agréable, pas fort, pas dur",
+          "de": "sanft"
+        },
+        {
+          "w": "soutenir",
+          "fr": "aider quelqu'un, être de son côté",
+          "de": "unterstützen"
+        },
+        {
+          "w": "prendre le pouvoir",
+          "fr": "devenir le chef d'un pays, souvent par la force",
+          "de": "die Macht ergreifen"
+        },
+        {
+          "w": "enfermer",
+          "fr": "mettre quelqu'un dans un lieu fermé, sans liberté",
+          "de": "einsperren"
+        },
+        {
+          "w": "condamner",
+          "fr": "pour un juge : décider qu'une personne est coupable et lui donner une peine",
+          "de": "verurteilen"
+        }
+      ],
+      "grammar": "« Il y a » + a length of time means 'ago': « Il y a cinquante-trois ans, l'armée a pris le pouvoir. » It usually goes with a past tense such as the passé composé. Don't confuse it with « il y a » meaning 'there is / there are': « il y a un stade à Santiago ». To ask the question, say « Il y a combien de temps ? »",
+      "grammar_de": "« Il y a » + eine Zeitangabe bedeutet „vor“: « Il y a cinquante-trois ans, l'armée a pris le pouvoir. » – „Vor dreiundfünfzig Jahren ergriff die Armee die Macht.“ Meist steht dabei eine Vergangenheitsform wie das passé composé. Nicht verwechseln mit « il y a » im Sinn von „es gibt“: « il y a un stade à Santiago ». Die Frage lautet « Il y a combien de temps ? »",
+      "questions": [
+        "Où est-ce que Víctor Jara a grandi ?",
+        "Qu'est-ce qui s'est passé le 11 septembre 1973 au Chili ?",
+        "Quel est le nom du stade aujourd'hui ?"
+      ],
+      "sources": [
+        {
+          "title": "Victor Jara, cinquante ans après (Afrik.com, 31 août 2023)",
+          "url": "https://www.afrik.com/victor-jara-cinquante-ans-apres",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}
