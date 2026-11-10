@@ -89,6 +89,227 @@
           "license": "link only"
         }
       ]
+    },
+    {
+      "lang": "es",
+      "level": "A2",
+      "kind": "dialogue",
+      "section": "Conversación",
+      "title": "En el metro de la Ciudad de México: ¿me podría ayudar?",
+      "dek": "Valeria está en la estación Chapultepec y quiere ir al Zócalo. Le pide ayuda a un señor amable.",
+      "tags": [
+        "Ciudad de México",
+        "metro y direcciones",
+        "¿Me podría…?"
+      ],
+      "paragraphs": [
+        "Valeria: Perdón, señor. ¿Me podría ayudar?",
+        "Jorge: Claro, joven. ¿Qué necesita?",
+        "Valeria: Quiero ir al Zócalo, pero no sé qué línea tomar. Estoy en la estación Chapultepec.",
+        "Jorge: Muy bien. Tome la línea 1, en dirección a Pantitlán.",
+        "Valeria: ¿Pantitlán? ¿Me podría repetir el nombre, por favor?",
+        "Jorge: Sí: Pan-ti-tlán. Es la última estación de la línea. También puede mirar los letreros en el andén.",
+        "Valeria: Perfecto. ¿Cuántas estaciones son?",
+        "Jorge: Son siete. Baje en Pino Suárez y haga un transbordo a la línea 2.",
+        "Valeria: ¿Qué es un transbordo?",
+        "Jorge: Es cambiar de una línea a otra. Allí siga los letreros y tome la línea 2, en dirección a Cuatro Caminos.",
+        "Valeria: ¿Y cuántas estaciones son en la línea 2?",
+        "Jorge: Solo una. La estación se llama Zócalo.",
+        "Valeria: ¡Qué fácil! Muchas gracias, don Jorge. Es usted muy amable.",
+        "Jorge: De nada. ¡Que disfrute la ciudad!",
+        "Dato curioso: el Metro de la Ciudad de México abrió en 1969 y cada estación tiene un dibujo propio, además del nombre. Así, las personas que no sabían leer bien también podían reconocer su estación."
+      ],
+      "paragraphs_en": [
+        "Valeria: Excuse me, sir. Could you help me?",
+        "Jorge: Of course, miss. What do you need?",
+        "Valeria: I want to go to the Zócalo, but I don't know which line to take. I'm at Chapultepec station.",
+        "Jorge: Very good. Take line 1, in the direction of Pantitlán.",
+        "Valeria: Pantitlán? Could you repeat the name for me, please?",
+        "Jorge: Yes: Pan-ti-tlán. It's the last station on the line. You can also look at the signs on the platform.",
+        "Valeria: Perfect. How many stations is it?",
+        "Jorge: Seven. Get off at Pino Suárez and transfer to line 2.",
+        "Valeria: What is a \"transbordo\"?",
+        "Jorge: It's changing from one line to another. There, follow the signs and take line 2, in the direction of Cuatro Caminos.",
+        "Valeria: And how many stations is it on line 2?",
+        "Jorge: Just one. The station is called Zócalo.",
+        "Valeria: How easy! Thank you very much, don Jorge. You are very kind.",
+        "Jorge: You're welcome. Enjoy the city!",
+        "Fun fact: the Mexico City Metro opened in 1969, and every station has its own picture as well as its name. That way, people who could not read well could also recognize their station."
+      ],
+      "paragraphs_de": [
+        "Valeria: Entschuldigung, mein Herr. Könnten Sie mir helfen?",
+        "Jorge: Natürlich, junge Frau. Was brauchen Sie?",
+        "Valeria: Ich möchte zum Zócalo, aber ich weiß nicht, welche Linie ich nehmen soll. Ich bin an der Station Chapultepec.",
+        "Jorge: Sehr gut. Nehmen Sie die Linie 1 in Richtung Pantitlán.",
+        "Valeria: Pantitlán? Könnten Sie mir den Namen bitte wiederholen?",
+        "Jorge: Ja: Pan-ti-tlán. Das ist die letzte Station der Linie. Sie können auch auf die Schilder am Bahnsteig schauen.",
+        "Valeria: Perfekt. Wie viele Stationen sind es?",
+        "Jorge: Sieben. Steigen Sie an der Station Pino Suárez aus und steigen Sie in die Linie 2 um.",
+        "Valeria: Was ist ein „transbordo“?",
+        "Jorge: Das ist der Wechsel von einer Linie zur anderen. Folgen Sie dort den Schildern und nehmen Sie die Linie 2 in Richtung Cuatro Caminos.",
+        "Valeria: Und wie viele Stationen sind es auf der Linie 2?",
+        "Jorge: Nur eine. Die Station heißt Zócalo.",
+        "Valeria: Wie einfach! Vielen Dank, Don Jorge. Sie sind sehr freundlich.",
+        "Jorge: Gern geschehen. Genießen Sie die Stadt!",
+        "Kurioses: Die U-Bahn von Mexiko-Stadt wurde 1969 eröffnet, und jede Station hat neben dem Namen ein eigenes Bild. So konnten auch Menschen, die nicht gut lesen konnten, ihre Station erkennen."
+      ],
+      "glossary": [
+        {
+          "w": "la línea",
+          "en": "line (metro line)",
+          "de": "die Linie"
+        },
+        {
+          "w": "la estación",
+          "en": "station",
+          "de": "die Station"
+        },
+        {
+          "w": "el andén",
+          "en": "platform",
+          "de": "der Bahnsteig"
+        },
+        {
+          "w": "el letrero",
+          "en": "sign",
+          "de": "das Schild"
+        },
+        {
+          "w": "el transbordo",
+          "en": "transfer, change of line",
+          "de": "das Umsteigen"
+        },
+        {
+          "w": "bajar",
+          "en": "to get off; to go down",
+          "de": "aussteigen; hinuntergehen"
+        },
+        {
+          "w": "tomar",
+          "en": "to take (a bus, a line)",
+          "de": "nehmen"
+        },
+        {
+          "w": "amable",
+          "en": "kind, friendly",
+          "de": "freundlich"
+        }
+      ],
+      "grammar": "For polite requests to a stranger, use ¿Me podría + infinitive? (“Could you … for me?”): “¿Me podría ayudar?”, “¿Me podría repetir el nombre?”. It is softer than ¿Me puede …? With usted, directions use the usted imperative: tome, baje, siga, haga (“Tome la línea 1”). You can learn these as ready-made phrases first.",
+      "grammar_de": "Für höfliche Bitten an Fremde benutzt man ¿Me podría + Infinitiv? („Könnten Sie mir …?“): „¿Me podría ayudar?“, „¿Me podría repetir el nombre?“. Das klingt weicher als ¿Me puede …? Wegbeschreibungen mit usted nutzen den Imperativ der Höflichkeitsform: tome, baje, siga, haga („Tome la línea 1“). Am Anfang kannst du diese Formen als feste Wendungen lernen.",
+      "questions": [
+        "¿Cómo se llama la estación donde baja Valeria para hacer el transbordo?",
+        "¿Cómo pides ayuda a una persona que no conoces?",
+        "¿Y tú? ¿Usas el metro o el autobús en tu ciudad? ¿Es fácil o difícil?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "es",
+      "level": "B1",
+      "kind": "feature",
+      "section": "Día a día",
+      "title": "Buscar departamento: cómo se alquila en Latinoamérica",
+      "dek": "Carteles, depósito, fiador y palabras que cambian de país: una pequeña guía para entender los anuncios.",
+      "tags": [
+        "Latinoamérica",
+        "alquilar un departamento",
+        "subjuntivo en oraciones relativas"
+      ],
+      "paragraphs": [
+        "Cuando una persona llega a una ciudad nueva, lo primero que busca es un lugar donde vivir. En América Latina mucha gente usa internet y las redes sociales para encontrar un departamento, pero también se siguen viendo carteles en las ventanas y en las puertas de los edificios. Si lees «Se renta» o «Se arrienda», significa que alguien está ofreciendo ese lugar.",
+        "Los anuncios usan palabras que cambian según el país. En México se dice «recámara»; en otros lugares, «habitación», «pieza» o «dormitorio». Si el departamento es «amueblado», incluye muebles, y la frase «servicios incluidos» quiere decir que el precio ya cubre, por ejemplo, el agua o la luz. Antes de aceptar, conviene preguntar qué está incluido y qué tienes que pagar tú.",
+        "La visita es el momento más importante. Muchas personas prefieren ir acompañadas y hacer preguntas como «¿Cuánto cuesta el alquiler al mes?», «¿Hay que pagar un depósito?» o «¿Se aceptan mascotas?». También es buena idea mirar las ventanas, abrir las llaves del agua y hablar con algún vecino. Quien busca un departamento que tenga buena luz y esté cerca del transporte suele visitar varios antes de decidir.",
+        "Para firmar el contrato, casi siempre piden un depósito, que es dinero que te devuelven al final si todo está bien. En algunos países también piden un fiador, es decir, una persona que garantiza que vas a pagar. Esto puede ser difícil para estudiantes o extranjeros que no tienen familia en la ciudad. Por eso algunos buscan propietarios que no pidan fiador, y otros comparten el departamento con amigos para dividir los gastos.",
+        "Compartir casa tiene ventajas: es más barato y no estás solo. Pero hay que hablar claro desde el principio: quién limpia, quién paga cada factura y qué pasa con las visitas. Una conversación sencilla al comienzo evita muchos problemas después. «Busco a alguien que sea tranquilo y ordenado» es una frase típica en estos anuncios.",
+        "Dato curioso: la palabra para «alquilar» cambia con el país. En México se habla de «renta» y «rentar»; en Colombia y Chile, de «arriendo» y «arrendar»; en Argentina, de «alquiler» y «alquilar». Y «departamento» se dice en México, Argentina y Chile, mientras que en Colombia y Venezuela se prefiere «apartamento»."
+      ],
+      "paragraphs_en": [
+        "When a person arrives in a new city, the first thing they look for is a place to live. In Latin America many people use the internet and social media to find an apartment, but you can still see signs in windows and on the doors of buildings. If you read “Se renta” or “Se arrienda”, it means that someone is offering that place.",
+        "The ads use words that change from country to country. In Mexico people say “recámara”; elsewhere, “habitación”, “pieza” or “dormitorio”. If the apartment is “amueblado”, it comes with furniture, and the phrase “servicios incluidos” means that the price already covers, for example, water or electricity. Before you accept, it is a good idea to ask what is included and what you have to pay yourself.",
+        "The visit is the most important moment. Many people prefer to go with someone and ask questions such as “How much is the rent per month?”, “Do I have to pay a deposit?” or “Are pets allowed?”. It is also a good idea to look at the windows, turn on the water taps and talk to a neighbor. Someone who is looking for an apartment with good light that is close to public transport usually visits several before deciding.",
+        "To sign the contract, they almost always ask for a deposit, which is money that is returned to you at the end if everything is fine. In some countries they also ask for a guarantor, that is, a person who guarantees that you will pay. This can be difficult for students or foreigners who have no family in the city. So some people look for landlords who do not ask for a guarantor, and others share the apartment with friends to split the costs.",
+        "Sharing a home has advantages: it is cheaper and you are not alone. But you have to talk clearly from the start: who cleans, who pays each bill, and what happens with guests. A simple conversation at the beginning avoids many problems later. “I'm looking for someone who is calm and tidy” is a typical sentence in these ads.",
+        "Fun fact: the word for “to rent” changes with the country. In Mexico people say “renta” and “rentar”; in Colombia and Chile, “arriendo” and “arrendar”; in Argentina, “alquiler” and “alquilar”. And “departamento” is used in Mexico, Argentina and Chile, while in Colombia and Venezuela “apartamento” is preferred."
+      ],
+      "paragraphs_de": [
+        "Wenn jemand in einer neuen Stadt ankommt, sucht er zuerst einen Ort zum Wohnen. In Lateinamerika nutzen viele Menschen das Internet und soziale Netzwerke, um eine Wohnung zu finden, aber man sieht immer noch Schilder in Fenstern und an den Türen der Gebäude. Wenn du „Se renta“ oder „Se arrienda“ liest, bedeutet das, dass jemand diese Wohnung anbietet.",
+        "Die Anzeigen benutzen Wörter, die sich von Land zu Land ändern. In Mexiko sagt man „recámara“; anderswo „habitación“, „pieza“ oder „dormitorio“. Ist die Wohnung „amueblado“, dann hat sie Möbel, und der Ausdruck „servicios incluidos“ bedeutet, dass der Preis zum Beispiel Wasser oder Strom schon enthält. Bevor du zusagst, ist es gut zu fragen, was inklusive ist und was du selbst bezahlen musst.",
+        "Die Besichtigung ist der wichtigste Moment. Viele Menschen gehen lieber in Begleitung und stellen Fragen wie „Wie viel kostet die Miete im Monat?“, „Muss man eine Kaution zahlen?“ oder „Sind Haustiere erlaubt?“. Es ist auch eine gute Idee, die Fenster anzuschauen, die Wasserhähne aufzudrehen und mit einem Nachbarn zu sprechen. Wer eine Wohnung mit gutem Licht sucht, die nahe am Nahverkehr liegt, besichtigt meistens mehrere, bevor er sich entscheidet.",
+        "Für den Mietvertrag verlangt man fast immer eine Kaution; das ist Geld, das du am Ende zurückbekommst, wenn alles in Ordnung ist. In manchen Ländern verlangt man auch einen Bürgen, also eine Person, die garantiert, dass du zahlst. Das kann für Studierende oder Ausländer schwierig sein, die keine Familie in der Stadt haben. Deshalb suchen manche Vermieter, die keinen Bürgen verlangen, und andere teilen sich die Wohnung mit Freunden, um die Kosten zu teilen.",
+        "Zusammenwohnen hat Vorteile: Es ist billiger und du bist nicht allein. Aber man muss von Anfang an klar sprechen: wer putzt, wer jede Rechnung bezahlt und was mit Besuch ist. Ein einfaches Gespräch am Anfang vermeidet später viele Probleme. „Busco a alguien que sea tranquilo y ordenado“ („Ich suche jemanden, der ruhig und ordentlich ist“) ist ein typischer Satz in diesen Anzeigen.",
+        "Kurioses: Das Wort für „mieten“ ändert sich je nach Land. In Mexiko sagt man „renta“ und „rentar“; in Kolumbien und Chile „arriendo“ und „arrendar“; in Argentinien „alquiler“ und „alquilar“. Und „departamento“ sagt man in Mexiko, Argentinien und Chile, während man in Kolumbien und Venezuela „apartamento“ bevorzugt."
+      ],
+      "glossary": [
+        {
+          "w": "el departamento",
+          "en": "apartment (México, Argentina, Chile…)",
+          "de": "die Wohnung"
+        },
+        {
+          "w": "el alquiler / la renta",
+          "en": "rent (the payment); the act of renting",
+          "de": "die Miete"
+        },
+        {
+          "w": "el cartel",
+          "en": "sign, poster",
+          "de": "das Schild, das Plakat"
+        },
+        {
+          "w": "amueblado",
+          "en": "furnished",
+          "de": "möbliert"
+        },
+        {
+          "w": "el depósito",
+          "en": "deposit (returned at the end)",
+          "de": "die Kaution"
+        },
+        {
+          "w": "el fiador",
+          "en": "guarantor",
+          "de": "der Bürge"
+        },
+        {
+          "w": "el propietario",
+          "en": "owner, landlord",
+          "de": "der Eigentümer, der Vermieter"
+        },
+        {
+          "w": "el contrato",
+          "en": "contract",
+          "de": "der Vertrag"
+        },
+        {
+          "w": "el vecino",
+          "en": "neighbor",
+          "de": "der Nachbar"
+        },
+        {
+          "w": "conviene",
+          "en": "it is a good idea / advisable (convenir)",
+          "de": "es ist ratsam"
+        },
+        {
+          "w": "compartir",
+          "en": "to share",
+          "de": "teilen"
+        },
+        {
+          "w": "la factura",
+          "en": "bill, invoice",
+          "de": "die Rechnung"
+        }
+      ],
+      "grammar": "Subjunctive in relative clauses (B1). When you describe something you are looking for and you do not know yet if it exists, the verb after que is in the subjunctive: “Busco un departamento que tenga buena luz y esté cerca del transporte.” When the thing is real and known, use the indicative: “Tengo un departamento que tiene buena luz.” Typical triggers: buscar, necesitar, querer + something unknown.",
+      "grammar_de": "Subjuntivo in Relativsätzen (B1). Wenn du etwas beschreibst, das du suchst und von dem du noch nicht weißt, ob es existiert, steht das Verb nach que im Subjuntivo: „Busco un departamento que tenga buena luz y esté cerca del transporte.“ Ist die Sache real und bekannt, benutzt man den Indikativ: „Tengo un departamento que tiene buena luz.“ Typische Auslöser: buscar, necesitar, querer + etwas Unbekanntes.",
+      "questions": [
+        "¿Qué significa «servicios incluidos» en un anuncio?",
+        "¿Qué preguntas es buena idea hacer durante la visita a un departamento?",
+        "¿Y tú? ¿Cómo es el departamento o la casa que buscas? Usa «Busco un lugar que…»"
+      ],
+      "sources": []
     }
   ]
 }

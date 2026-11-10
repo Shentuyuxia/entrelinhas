@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T15:49:10+00:00",
+ "updated": "2026-11-10T16:44:22+00:00",
  "days": [
   {
    "date": "2026-11-10",
@@ -10,6 +10,22 @@
      "title": "La guitare de Víctor Jara",
      "kind": "feature",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "En el metro de la Ciudad de México: ¿me podría ayudar?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "Buscar departamento: cómo se alquila en Latinoamérica",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]
