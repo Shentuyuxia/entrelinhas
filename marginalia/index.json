@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T18:57:29+00:00",
+ "updated": "2026-11-11T20:25:07+00:00",
  "days": [
   {
    "date": "2026-11-11",
@@ -34,6 +34,14 @@
      "title": "Quanto é tudo?",
      "kind": "story",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Macaxeira, aipim, mandioca",
+     "kind": "essay",
+     "level": "B2",
      "hour": null
     }
    ]
