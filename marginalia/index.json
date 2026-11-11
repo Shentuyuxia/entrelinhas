@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T16:48:56+00:00",
+ "updated": "2026-11-11T18:57:29+00:00",
  "days": [
   {
    "date": "2026-11-11",
@@ -26,6 +26,14 @@
      "title": "La once: la comida chilena que no es ni almuerzo ni cena",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Quanto é tudo?",
+     "kind": "story",
+     "level": "A1",
      "hour": null
     }
    ]

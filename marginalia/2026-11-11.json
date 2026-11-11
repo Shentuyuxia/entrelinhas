@@ -322,6 +322,98 @@
     "¿Y tú? ¿Qué comiste ayer por la tarde y con quién?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 11
+   },
+   "title": "Quanto é tudo?",
+   "dek": "Quarta-feira de números: pães, moedas, a idade do Bolinha e um telefone.",
+   "tags": [
+    "quarta-feira",
+    "números",
+    "preços e idades"
+   ],
+   "paragraphs": [
+    "Quarta-feira, 11 de novembro de 2026. Querido diário, hoje é quarta-feira. Às oito horas, eu vou à padaria do Seu João.",
+    "Eu compro dois pães e um café. Cada pão custa dois reais. O café custa três reais. — Quanto é tudo? — São sete reais.",
+    "Eu pago com dez reais. O Seu João dá o troco: três moedas de um real. Obrigada!",
+    "A Dona Rosa está lá com o Bolinha. Eu pergunto: — Qual é a idade do Bolinha? — Cinco anos. — E o Tito tem dois anos! Ela pergunta: — Qual é o seu telefone, Ana? — É nove, oito, sete, seis, cinco, quatro, três, dois, um.",
+    "Às dez da noite, eu escrevo no diário. Amanhã é quinta-feira, dia 12. Boa noite, diário. Boa noite, Tito."
+   ],
+   "paragraphs_en": [
+    "Wednesday, 11 November 2026. Dear diary, today is Wednesday. At eight o'clock, I go to Seu João's bakery.",
+    "I buy two breads and a coffee. Each bread costs two reais. The coffee costs three reais. \"How much is everything?\" \"Seven reais.\"",
+    "I pay with ten reais. Seu João gives the change: three coins of one real. Thank you!",
+    "Dona Rosa is there with Bolinha. I ask: \"How old is Bolinha?\" \"Five years.\" \"And Tito is two years old!\" She asks: \"What is your phone number, Ana?\" \"It's nine, eight, seven, six, five, four, three, two, one.\"",
+    "At ten at night, I write in my diary. Tomorrow is Thursday, the 12th. Good night, diary. Good night, Tito."
+   ],
+   "paragraphs_zh": [
+    "2026年11月11日，星期三。亲爱的日记，今天是星期三。八点钟，我去若昂先生的面包店。",
+    "我买两个面包和一杯咖啡。每个面包两雷亚尔。咖啡三雷亚尔。“一共多少钱？”“七雷亚尔。”",
+    "我用十雷亚尔付钱。若昂先生找零：三个一雷亚尔的硬币。谢谢！",
+    "罗莎太太和波利尼亚在那儿。我问：“波利尼亚几岁了？”“五岁。”“蒂托两岁！”她问：“安娜，你的电话是多少？”“是九，八，七，六，五，四，三，二，一。”",
+    "晚上十点，我写日记。明天是星期四，12号。晚安，日记。晚安，蒂托。"
+   ],
+   "paragraphs_de": [
+    "Mittwoch, 11. November 2026. Liebes Tagebuch, heute ist Mittwoch. Um acht Uhr gehe ich zur Bäckerei von Seu João.",
+    "Ich kaufe zwei Brötchen und einen Kaffee. Jedes Brötchen kostet zwei Reais. Der Kaffee kostet drei Reais. „Wie viel ist alles?“ „Sieben Reais.“",
+    "Ich zahle mit zehn Reais. Seu João gibt das Wechselgeld: drei Münzen zu einem Real. Danke!",
+    "Dona Rosa ist mit Bolinha da. Ich frage: „Wie alt ist Bolinha?“ „Fünf Jahre.“ „Und Tito ist zwei Jahre alt!“ Sie fragt: „Wie ist deine Telefonnummer, Ana?“ „Neun, acht, sieben, sechs, fünf, vier, drei, zwei, eins.“",
+    "Um zehn Uhr abends schreibe ich in mein Tagebuch. Morgen ist Donnerstag, der 12. Gute Nacht, Tagebuch. Gute Nacht, Tito."
+   ],
+   "glossary": [
+    {
+     "w": "Quanto é tudo?",
+     "en": "How much is everything? (the total)",
+     "zh": "一共多少钱？",
+     "de": "Wie viel macht das zusammen?",
+     "pt": "você pergunta isso para pagar"
+    },
+    {
+     "w": "a moeda",
+     "en": "coin",
+     "zh": "硬币",
+     "de": "die Münze",
+     "pt": "dinheiro pequeno, redondo, de metal"
+    },
+    {
+     "w": "a idade",
+     "en": "age — Qual é a idade dele?",
+     "zh": "年龄",
+     "de": "das Alter",
+     "pt": "quantos anos você tem"
+    },
+    {
+     "w": "o troco",
+     "en": "change (money back)",
+     "zh": "找零",
+     "de": "das Wechselgeld",
+     "pt": "o dinheiro que você recebe de volta"
+    },
+    {
+     "w": "cada",
+     "en": "each, every — Cada pão custa dois reais.",
+     "zh": "每个",
+     "de": "jeder, jede",
+     "pt": "um por um: cada pão = um pão, um pão…"
+    }
+   ],
+   "grammar": "Numbers answer questions about price, age and phone: Quanto custa? Cinco reais. Quantos anos ele tem? Cinco anos. Say a phone number digit by digit: nove, oito, sete…",
+   "grammar_zh": "数字用来回答价格、年龄和电话的问题：Quanto custa?（多少钱）Cinco reais.（五雷亚尔）Quantos anos ele tem?（几岁）Cinco anos.（五岁）电话号码一个数字一个数字地读：nove, oito, sete…",
+   "grammar_de": "Zahlen beantworten Fragen nach Preis, Alter und Telefon: Quanto custa? Cinco reais. Quantos anos ele tem? Cinco anos. Telefonnummern sagt man Ziffer für Ziffer: nove, oito, sete…",
+   "grammar_pt": "Os números respondem perguntas sobre preço, idade e telefone: Quanto custa? Cinco reais. Quantos anos ele tem? Cinco anos. O telefone: um número de cada vez: nove, oito, sete…",
+   "questions": [
+    "Quanto custa o café? Quanto custa cada pão?",
+    "Qual é a idade do Bolinha? E a idade do Tito?",
+    "E você? Qual é o seu telefone? Quantos anos você tem?"
+   ],
+   "sources": []
   }
  ]
 }
