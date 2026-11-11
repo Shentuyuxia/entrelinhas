@@ -2806,17 +2806,20 @@ function rdPaint(){
   $("#rd-loop").setAttribute("aria-pressed",RD.loop);
   $("#rd-rate").textContent="×"+RD.rate;
 }
+// dialogues: the speaker name before the colon is not read aloud
+function rdClean(n){ let t=n.textContent.replace(/\s*\/\s*/g,", ").replace(/^[—–-]\s*/,"").trim();
+  if(n.closest&&n.closest(".dlg")) t=t.replace(/^[^:：\n]{1,30}[:：]\s*/,""); return t; }
 function rdSay(){
   const tok=++RD.tok, ns=rdNodes(RD.src), n=ns[RD.i];
   try{ speechSynthesis.cancel(); }catch(e){}
   if(!n){ RD.on=false; RD.i=Math.max(0,ns.length-1); rdPaint(); return; }
   RD.on=true; rdPaint();
-  const txt=n.textContent.replace(/\s*\/\s*/g,", ").replace(/^[—–-]\s*/,"").trim();
+  const txt=rdClean(n);
   if(!txt){ RD.i++; return rdSay(); }
   if(ntOn()){ const v=ntVoice(), rate=RD.rate; ntUnlock(); ntStop();
     const next=()=>{ if(tok!==RD.tok||!RD.on) return; if(!RD.loop) RD.i++; setTimeout(()=>{ if(tok===RD.tok&&RD.on) rdSay(); },RD.loop?450:60); };
     ntSynth(v,txt,rate).then(r=>{ if(tok!==RD.tok||!RD.on) return; ntPlay(r,next);
-      const n2=ns[RD.i+1]; if(n2){ const t2=n2.textContent.replace(/\s*\/\s*/g,", ").replace(/^[—–-]\s*/,"").trim(); if(t2) ntSynth(v,t2,rate).catch(()=>{}); } })
+      const n2=ns[RD.i+1]; if(n2){ const t2=rdClean(n2); if(t2) ntSynth(v,t2,rate).catch(()=>{}); } })
     .catch(e=>{ if(tok===RD.tok){ RD.on=false; rdPaint(); toast(trOne("神经语音出错了，已切回系统语音。")+" ("+(e&&e.message||e)+")"); S.settings.ntOn[lang()]=false; save(); renderNT(); } });
     return; }
   const u=new SpeechSynthesisUtterance(txt); RD.u=u;
