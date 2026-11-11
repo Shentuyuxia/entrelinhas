@@ -1,122 +1,327 @@
 {
-  "date": "2026-11-11",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-11",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "fr",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Architecture",
+   "title": "Des toits en terre pour le Sahel",
+   "dek": "À Nairobi, la première biennale panafricaine d'architecture a mis au centre des savoirs anciens. Parmi eux : la voûte nubienne, une maison sans bois ni tôle.",
+   "tags": [
+    "Architecture",
+    "Sahel",
+    "Biennale de Nairobi",
+    "pronom relatif « où »"
+   ],
+   "paragraphs": [
+    "En septembre 2026, Nairobi, la capitale du Kenya, a accueilli un événement nouveau : la première Biennale panafricaine d'architecture. Elle a eu lieu du 7 au 11 septembre et l'entrée était gratuite. C'est l'architecte italo-somalien Omar Degan qui l'a dirigée, avec l'Association des architectes du Kenya. Pour la première fois, une grande biennale d'architecture sur l'Afrique était pensée et organisée en Afrique, et pas à Venise ou à Paris.",
+    "Le thème de la biennale était « Déplacer le centre : de la fragilité à la résilience ». Une cinquantaine d'agences et de collectifs venaient de tout le continent et de la diaspora. Les organisateurs ne les ont pas classés par pays, mais par zones climatiques. Ils ont aussi demandé aux participants de montrer leur méthode de travail, et pas seulement de belles images. Une partie du programme parlait des savoirs hérités : les façons de construire que les familles et les villages se transmettent depuis longtemps.",
+    "Parmi les participants, il y avait La Voûte Nubienne, une association franco-burkinabè. Elle enseigne une technique très simple. On fabrique des briques avec de la terre, de la paille et de l'eau, puis on construit des voûtes qui portent le toit. On n'a pas besoin de bois ni de tôle. C'est important au Sahel, où le bois devient rare à cause de la déforestation et où la tôle coûte cher.",
+    "La technique est ancienne. Au XXe siècle, l'architecte égyptien Hassan Fathy l'a fait connaître, et l'association la diffuse depuis le début des années 2000, d'abord au Burkina Faso, puis au Mali, au Sénégal, au Ghana ou au Bénin. Selon un reportage du site Reporterre, les maçons apprennent surtout à l'oral, avec des photos et des dessins. Un maçon de Boromo raconte qu'il habite dans une voûte depuis cinq ans : dehors il fait très chaud, mais dedans il fait frais.",
+    "Ces maisons ne sont pas seulement belles. Elles posent une question politique : qui décide de la manière de construire ? Pendant longtemps, le béton et la tôle étaient le signe de la modernité. Ils venaient souvent de l'extérieur, et ils coûtent cher aux familles pauvres. La terre, au contraire, est sur place, et le savoir reste dans le village. À Nairobi, beaucoup d'architectes ont défendu cette idée : l'avenir de l'Afrique peut aussi venir de ses propres savoirs."
+   ],
+   "paragraphs_en": [
+    "In September 2026, Nairobi, the capital of Kenya, hosted something new: the first Pan-African Biennale of Architecture. It took place from 7 to 11 September and entry was free. It was led by the Somali-Italian architect Omar Degan, together with the Architectural Association of Kenya. For the first time, a major architecture biennale about Africa was conceived and organised in Africa, not in Venice or Paris.",
+    "The biennale's theme was \"Shifting the Center: From Fragility to Resilience\". Around fifty practices and collectives came from across the continent and the diaspora. The organisers grouped them not by country but by climate zone. They also asked participants to show how they work, not just beautiful images. Part of the programme dealt with inherited knowledge: the ways of building that families and villages have passed on for a long time.",
+    "Among the participants was La Voûte Nubienne (the Nubian Vault), a Franco-Burkinabè association. It teaches a very simple technique. Bricks are made from earth, straw and water, then vaults are built to carry the roof. No wood or sheet metal is needed. That matters in the Sahel, where wood is becoming scarce because of deforestation and where sheet metal is expensive.",
+    "The technique is old. In the 20th century the Egyptian architect Hassan Fathy made it known, and the association has been spreading it since the early 2000s, first in Burkina Faso, then in Mali, Senegal, Ghana and Benin. According to a report by the website Reporterre, masons learn mostly orally, with photos and drawings. A mason in Boromo says he has lived in a vault for five years: outside it is very hot, but inside it is cool.",
+    "These houses are not only beautiful. They raise a political question: who decides how people build? For a long time, concrete and sheet metal were the sign of modernity. They often came from outside, and they are expensive for poor families. Earth, by contrast, is right there, and the knowledge stays in the village. In Nairobi, many architects defended this idea: Africa's future can also come from its own knowledge."
+   ],
+   "paragraphs_de": [
+    "Im September 2026 war Nairobi, die Hauptstadt Kenias, Gastgeberin von etwas Neuem: der ersten Panafrikanischen Architekturbiennale. Sie fand vom 7. bis 11. September statt, der Eintritt war frei. Geleitet hat sie der somalisch-italienische Architekt Omar Degan, zusammen mit dem Kenianischen Architektenverband. Zum ersten Mal wurde eine große Architekturbiennale über Afrika in Afrika konzipiert und organisiert – nicht in Venedig oder Paris.",
+    "Das Thema der Biennale lautete „Das Zentrum verschieben: von der Fragilität zur Resilienz“. Rund fünfzig Büros und Kollektive kamen aus dem ganzen Kontinent und aus der Diaspora. Die Veranstalter ordneten sie nicht nach Ländern, sondern nach Klimazonen. Außerdem baten sie die Teilnehmenden, ihre Arbeitsweise zu zeigen und nicht nur schöne Bilder. Ein Teil des Programms drehte sich um überliefertes Wissen: die Bauweisen, die Familien und Dörfer seit langer Zeit weitergeben.",
+    "Unter den Teilnehmenden war La Voûte Nubienne (Das nubische Gewölbe), ein französisch-burkinischer Verein. Er lehrt eine sehr einfache Technik. Man stellt Ziegel aus Erde, Stroh und Wasser her und baut dann Gewölbe, die das Dach tragen. Man braucht weder Holz noch Wellblech. Das ist im Sahel wichtig, wo Holz wegen der Entwaldung knapp wird und Blech teuer ist.",
+    "Die Technik ist alt. Im 20. Jahrhundert machte der ägyptische Architekt Hassan Fathy sie bekannt, und der Verein verbreitet sie seit Anfang der 2000er-Jahre, zuerst in Burkina Faso, dann in Mali, Senegal, Ghana oder Benin. Laut einer Reportage der Website Reporterre lernen die Maurer vor allem mündlich, mit Fotos und Zeichnungen. Ein Maurer aus Boromo erzählt, dass er seit fünf Jahren in einem Gewölbehaus wohnt: Draußen ist es sehr heiß, drinnen aber kühl.",
+    "Diese Häuser sind nicht nur schön. Sie werfen eine politische Frage auf: Wer entscheidet, wie gebaut wird? Lange galten Beton und Blech als Zeichen der Moderne. Sie kamen oft von außen und sind für arme Familien teuer. Erde dagegen ist vor Ort, und das Wissen bleibt im Dorf. In Nairobi verteidigten viele Architektinnen und Architekten diese Idee: Afrikas Zukunft kann auch aus seinem eigenen Wissen kommen."
+   ],
+   "glossary": [
     {
-      "lang": "fr",
-      "level": "B1",
-      "kind": "feature",
-      "section": "Architecture",
-      "title": "Des toits en terre pour le Sahel",
-      "dek": "À Nairobi, la première biennale panafricaine d'architecture a mis au centre des savoirs anciens. Parmi eux : la voûte nubienne, une maison sans bois ni tôle.",
-      "tags": [
-        "Architecture",
-        "Sahel",
-        "Biennale de Nairobi",
-        "pronom relatif « où »"
-      ],
-      "paragraphs": [
-        "En septembre 2026, Nairobi, la capitale du Kenya, a accueilli un événement nouveau : la première Biennale panafricaine d'architecture. Elle a eu lieu du 7 au 11 septembre et l'entrée était gratuite. C'est l'architecte italo-somalien Omar Degan qui l'a dirigée, avec l'Association des architectes du Kenya. Pour la première fois, une grande biennale d'architecture sur l'Afrique était pensée et organisée en Afrique, et pas à Venise ou à Paris.",
-        "Le thème de la biennale était « Déplacer le centre : de la fragilité à la résilience ». Une cinquantaine d'agences et de collectifs venaient de tout le continent et de la diaspora. Les organisateurs ne les ont pas classés par pays, mais par zones climatiques. Ils ont aussi demandé aux participants de montrer leur méthode de travail, et pas seulement de belles images. Une partie du programme parlait des savoirs hérités : les façons de construire que les familles et les villages se transmettent depuis longtemps.",
-        "Parmi les participants, il y avait La Voûte Nubienne, une association franco-burkinabè. Elle enseigne une technique très simple. On fabrique des briques avec de la terre, de la paille et de l'eau, puis on construit des voûtes qui portent le toit. On n'a pas besoin de bois ni de tôle. C'est important au Sahel, où le bois devient rare à cause de la déforestation et où la tôle coûte cher.",
-        "La technique est ancienne. Au XXe siècle, l'architecte égyptien Hassan Fathy l'a fait connaître, et l'association la diffuse depuis le début des années 2000, d'abord au Burkina Faso, puis au Mali, au Sénégal, au Ghana ou au Bénin. Selon un reportage du site Reporterre, les maçons apprennent surtout à l'oral, avec des photos et des dessins. Un maçon de Boromo raconte qu'il habite dans une voûte depuis cinq ans : dehors il fait très chaud, mais dedans il fait frais.",
-        "Ces maisons ne sont pas seulement belles. Elles posent une question politique : qui décide de la manière de construire ? Pendant longtemps, le béton et la tôle étaient le signe de la modernité. Ils venaient souvent de l'extérieur, et ils coûtent cher aux familles pauvres. La terre, au contraire, est sur place, et le savoir reste dans le village. À Nairobi, beaucoup d'architectes ont défendu cette idée : l'avenir de l'Afrique peut aussi venir de ses propres savoirs."
-      ],
-      "paragraphs_en": [
-        "In September 2026, Nairobi, the capital of Kenya, hosted something new: the first Pan-African Biennale of Architecture. It took place from 7 to 11 September and entry was free. It was led by the Somali-Italian architect Omar Degan, together with the Architectural Association of Kenya. For the first time, a major architecture biennale about Africa was conceived and organised in Africa, not in Venice or Paris.",
-        "The biennale's theme was \"Shifting the Center: From Fragility to Resilience\". Around fifty practices and collectives came from across the continent and the diaspora. The organisers grouped them not by country but by climate zone. They also asked participants to show how they work, not just beautiful images. Part of the programme dealt with inherited knowledge: the ways of building that families and villages have passed on for a long time.",
-        "Among the participants was La Voûte Nubienne (the Nubian Vault), a Franco-Burkinabè association. It teaches a very simple technique. Bricks are made from earth, straw and water, then vaults are built to carry the roof. No wood or sheet metal is needed. That matters in the Sahel, where wood is becoming scarce because of deforestation and where sheet metal is expensive.",
-        "The technique is old. In the 20th century the Egyptian architect Hassan Fathy made it known, and the association has been spreading it since the early 2000s, first in Burkina Faso, then in Mali, Senegal, Ghana and Benin. According to a report by the website Reporterre, masons learn mostly orally, with photos and drawings. A mason in Boromo says he has lived in a vault for five years: outside it is very hot, but inside it is cool.",
-        "These houses are not only beautiful. They raise a political question: who decides how people build? For a long time, concrete and sheet metal were the sign of modernity. They often came from outside, and they are expensive for poor families. Earth, by contrast, is right there, and the knowledge stays in the village. In Nairobi, many architects defended this idea: Africa's future can also come from its own knowledge."
-      ],
-      "paragraphs_de": [
-        "Im September 2026 war Nairobi, die Hauptstadt Kenias, Gastgeberin von etwas Neuem: der ersten Panafrikanischen Architekturbiennale. Sie fand vom 7. bis 11. September statt, der Eintritt war frei. Geleitet hat sie der somalisch-italienische Architekt Omar Degan, zusammen mit dem Kenianischen Architektenverband. Zum ersten Mal wurde eine große Architekturbiennale über Afrika in Afrika konzipiert und organisiert – nicht in Venedig oder Paris.",
-        "Das Thema der Biennale lautete „Das Zentrum verschieben: von der Fragilität zur Resilienz“. Rund fünfzig Büros und Kollektive kamen aus dem ganzen Kontinent und aus der Diaspora. Die Veranstalter ordneten sie nicht nach Ländern, sondern nach Klimazonen. Außerdem baten sie die Teilnehmenden, ihre Arbeitsweise zu zeigen und nicht nur schöne Bilder. Ein Teil des Programms drehte sich um überliefertes Wissen: die Bauweisen, die Familien und Dörfer seit langer Zeit weitergeben.",
-        "Unter den Teilnehmenden war La Voûte Nubienne (Das nubische Gewölbe), ein französisch-burkinischer Verein. Er lehrt eine sehr einfache Technik. Man stellt Ziegel aus Erde, Stroh und Wasser her und baut dann Gewölbe, die das Dach tragen. Man braucht weder Holz noch Wellblech. Das ist im Sahel wichtig, wo Holz wegen der Entwaldung knapp wird und Blech teuer ist.",
-        "Die Technik ist alt. Im 20. Jahrhundert machte der ägyptische Architekt Hassan Fathy sie bekannt, und der Verein verbreitet sie seit Anfang der 2000er-Jahre, zuerst in Burkina Faso, dann in Mali, Senegal, Ghana oder Benin. Laut einer Reportage der Website Reporterre lernen die Maurer vor allem mündlich, mit Fotos und Zeichnungen. Ein Maurer aus Boromo erzählt, dass er seit fünf Jahren in einem Gewölbehaus wohnt: Draußen ist es sehr heiß, drinnen aber kühl.",
-        "Diese Häuser sind nicht nur schön. Sie werfen eine politische Frage auf: Wer entscheidet, wie gebaut wird? Lange galten Beton und Blech als Zeichen der Moderne. Sie kamen oft von außen und sind für arme Familien teuer. Erde dagegen ist vor Ort, und das Wissen bleibt im Dorf. In Nairobi verteidigten viele Architektinnen und Architekten diese Idee: Afrikas Zukunft kann auch aus seinem eigenen Wissen kommen."
-      ],
-      "glossary": [
-        {
-          "w": "accueillir",
-          "fr": "recevoir des personnes ou un événement chez soi",
-          "de": "empfangen, Gastgeber sein"
-        },
-        {
-          "w": "une biennale",
-          "fr": "une grande exposition qui a lieu tous les deux ans",
-          "de": "die Biennale"
-        },
-        {
-          "w": "un savoir hérité",
-          "fr": "une connaissance qu'on reçoit des générations d'avant",
-          "de": "überliefertes Wissen"
-        },
-        {
-          "w": "transmettre",
-          "fr": "donner un savoir à une autre personne, souvent plus jeune",
-          "de": "weitergeben"
-        },
-        {
-          "w": "une voûte",
-          "fr": "un plafond courbe, en forme d'arc, fait de briques ou de pierres",
-          "de": "das Gewölbe"
-        },
-        {
-          "w": "la paille",
-          "fr": "les tiges sèches des céréales, comme le blé",
-          "de": "das Stroh"
-        },
-        {
-          "w": "la tôle",
-          "fr": "une feuille de métal mince ; on l'utilise souvent pour les toits",
-          "de": "das (Well-)Blech"
-        },
-        {
-          "w": "la déforestation",
-          "fr": "quand on coupe beaucoup d'arbres et que la forêt disparaît",
-          "de": "die Entwaldung"
-        },
-        {
-          "w": "un maçon",
-          "fr": "un ouvrier qui construit des murs avec des briques ou des pierres",
-          "de": "der Maurer"
-        },
-        {
-          "w": "frais",
-          "fr": "un peu froid, agréable quand il fait chaud",
-          "de": "kühl"
-        },
-        {
-          "w": "sur place",
-          "fr": "à l'endroit même où l'on est",
-          "de": "vor Ort"
-        }
-      ],
-      "grammar": "The relative pronoun « où » refers to a place (or a time) and replaces « dans lequel / là »: « au Sahel, où le bois devient rare ». After a place name, a comma before « où » adds extra information about that place. The article repeats it: « où le bois devient rare… et où la tôle coûte cher » – in a list, you repeat « où » before each new clause.",
-      "grammar_de": "Das Relativpronomen « où » bezieht sich auf einen Ort (oder eine Zeit) und entspricht dem deutschen „wo“: « au Sahel, où le bois devient rare » – „im Sahel, wo Holz knapp wird“. Steht ein Komma davor, liefert der Satz eine Zusatzinformation zu diesem Ort. Im Text wird « où » wiederholt: « où le bois devient rare… et où la tôle coûte cher » – bei einer Aufzählung steht « où » vor jedem neuen Nebensatz.",
-      "questions": [
-        "Pourquoi la biennale de Nairobi est-elle différente des autres biennales d'architecture sur l'Afrique ?",
-        "Avec quels matériaux construit-on une voûte nubienne, et pourquoi n'utilise-t-on pas de bois ?",
-        "Selon vous, pourquoi le béton et la tôle ont-ils longtemps été le signe de la modernité ?"
-      ],
-      "sources": [
-        {
-          "title": "Africa's First Architecture Biennale Opens in Nairobi",
-          "url": "https://africa.com/lifestyle/africas-first-architecture-biennale-opens-in-nairobi",
-          "license": "link only"
-        },
-        {
-          "title": "From Algeria to Zimbabwe: Meet the Spatial Practices Shaping the First-Ever Pan-African Biennale",
-          "url": "https://africanscolumn.com/from-algeria-to-zimbabwe-meet-the-spatial-practices-shaping-the-first-ever-pan-african-biennale/",
-          "license": "link only"
-        },
-        {
-          "title": "Les voûtes nubiennes : la nouvelle vie d'une technique de construction ancestrale",
-          "url": "https://reporterre.net/Les-voutes-nubiennes-la-nouvelle-vie-d-une-technique-de-construction-ancestrale",
-          "license": "link only"
-        }
-      ]
+     "w": "accueillir",
+     "fr": "recevoir des personnes ou un événement chez soi",
+     "de": "empfangen, Gastgeber sein"
+    },
+    {
+     "w": "une biennale",
+     "fr": "une grande exposition qui a lieu tous les deux ans",
+     "de": "die Biennale"
+    },
+    {
+     "w": "un savoir hérité",
+     "fr": "une connaissance qu'on reçoit des générations d'avant",
+     "de": "überliefertes Wissen"
+    },
+    {
+     "w": "transmettre",
+     "fr": "donner un savoir à une autre personne, souvent plus jeune",
+     "de": "weitergeben"
+    },
+    {
+     "w": "une voûte",
+     "fr": "un plafond courbe, en forme d'arc, fait de briques ou de pierres",
+     "de": "das Gewölbe"
+    },
+    {
+     "w": "la paille",
+     "fr": "les tiges sèches des céréales, comme le blé",
+     "de": "das Stroh"
+    },
+    {
+     "w": "la tôle",
+     "fr": "une feuille de métal mince ; on l'utilise souvent pour les toits",
+     "de": "das (Well-)Blech"
+    },
+    {
+     "w": "la déforestation",
+     "fr": "quand on coupe beaucoup d'arbres et que la forêt disparaît",
+     "de": "die Entwaldung"
+    },
+    {
+     "w": "un maçon",
+     "fr": "un ouvrier qui construit des murs avec des briques ou des pierres",
+     "de": "der Maurer"
+    },
+    {
+     "w": "frais",
+     "fr": "un peu froid, agréable quand il fait chaud",
+     "de": "kühl"
+    },
+    {
+     "w": "sur place",
+     "fr": "à l'endroit même où l'on est",
+     "de": "vor Ort"
     }
-  ]
+   ],
+   "grammar": "The relative pronoun « où » refers to a place (or a time) and replaces « dans lequel / là »: « au Sahel, où le bois devient rare ». After a place name, a comma before « où » adds extra information about that place. The article repeats it: « où le bois devient rare… et où la tôle coûte cher » – in a list, you repeat « où » before each new clause.",
+   "grammar_de": "Das Relativpronomen « où » bezieht sich auf einen Ort (oder eine Zeit) und entspricht dem deutschen „wo“: « au Sahel, où le bois devient rare » – „im Sahel, wo Holz knapp wird“. Steht ein Komma davor, liefert der Satz eine Zusatzinformation zu diesem Ort. Im Text wird « où » wiederholt: « où le bois devient rare… et où la tôle coûte cher » – bei einer Aufzählung steht « où » vor jedem neuen Nebensatz.",
+   "questions": [
+    "Pourquoi la biennale de Nairobi est-elle différente des autres biennales d'architecture sur l'Afrique ?",
+    "Avec quels matériaux construit-on une voûte nubienne, et pourquoi n'utilise-t-on pas de bois ?",
+    "Selon vous, pourquoi le béton et la tôle ont-ils longtemps été le signe de la modernité ?"
+   ],
+   "sources": [
+    {
+     "title": "Africa's First Architecture Biennale Opens in Nairobi",
+     "url": "https://africa.com/lifestyle/africas-first-architecture-biennale-opens-in-nairobi",
+     "license": "link only"
+    },
+    {
+     "title": "From Algeria to Zimbabwe: Meet the Spatial Practices Shaping the First-Ever Pan-African Biennale",
+     "url": "https://africanscolumn.com/from-algeria-to-zimbabwe-meet-the-spatial-practices-shaping-the-first-ever-pan-african-biennale/",
+     "license": "link only"
+    },
+    {
+     "title": "Les voûtes nubiennes : la nouvelle vie d'une technique de construction ancestrale",
+     "url": "https://reporterre.net/Les-voutes-nubiennes-la-nouvelle-vie-d-une-technique-de-construction-ancestrale",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "Buenos Aires: ¿dónde está la parada?",
+   "dek": "Una turista pregunta cómo llegar a la parada del colectivo en Buenos Aires.",
+   "tags": [
+    "Buenos Aires",
+    "direcciones",
+    "a + el = al"
+   ],
+   "paragraphs": [
+    "Julia: Disculpe, ¿dónde está la parada del colectivo?",
+    "Hugo: Hola. ¿Adónde va?",
+    "Julia: Voy al Jardín Botánico. ¿Está lejos?",
+    "Hugo: No, está cerca. Siga derecho una cuadra.",
+    "Julia: ¿Una cuadra? Muy bien.",
+    "Hugo: Sí. Después doble a la derecha.",
+    "Julia: Derecho una cuadra y a la derecha. ¿Y después?",
+    "Hugo: Ahí hay un kiosco. La parada está al lado.",
+    "Julia: Perfecto. ¿Está a cinco minutos?",
+    "Hugo: Sí, a cinco minutos a pie.",
+    "Julia: Muchas gracias. ¡Es usted muy amable!",
+    "Hugo: De nada. ¡Buen viaje!",
+    "Dato curioso: el autobús tiene muchos nombres. En Buenos Aires se dice «colectivo», en México «camión», en Chile «micro» y en Cuba «guagua»."
+   ],
+   "paragraphs_en": [
+    "Julia: Excuse me, where is the bus stop?",
+    "Hugo: Hello. Where are you going?",
+    "Julia: I'm going to the Botanical Garden. Is it far?",
+    "Hugo: No, it's close. Go straight for one block.",
+    "Julia: One block? Very good.",
+    "Hugo: Yes. Then turn right.",
+    "Julia: Straight for one block and then right. And after that?",
+    "Hugo: There is a kiosk there. The stop is next to it.",
+    "Julia: Perfect. Is it five minutes away?",
+    "Hugo: Yes, five minutes on foot.",
+    "Julia: Thank you very much. You are very kind!",
+    "Hugo: You're welcome. Have a good trip!",
+    "Fun fact: the bus has many names. In Buenos Aires people say “colectivo”, in Mexico “camión”, in Chile “micro” and in Cuba “guagua”."
+   ],
+   "paragraphs_de": [
+    "Julia: Entschuldigen Sie, wo ist die Bushaltestelle?",
+    "Hugo: Hallo. Wohin fahren Sie?",
+    "Julia: Ich fahre zum Botanischen Garten. Ist es weit?",
+    "Hugo: Nein, es ist nah. Gehen Sie einen Block geradeaus.",
+    "Julia: Einen Block? Sehr gut.",
+    "Hugo: Ja. Danach biegen Sie rechts ab.",
+    "Julia: Einen Block geradeaus und dann rechts. Und danach?",
+    "Hugo: Dort gibt es einen Kiosk. Die Haltestelle ist daneben.",
+    "Julia: Perfekt. Sind es fünf Minuten?",
+    "Hugo: Ja, fünf Minuten zu Fuß.",
+    "Julia: Vielen Dank. Sie sind sehr freundlich!",
+    "Hugo: Gern geschehen. Gute Fahrt!",
+    "Wussten Sie schon? Der Bus hat viele Namen. In Buenos Aires sagt man «colectivo», in Mexiko «camión», in Chile «micro» und in Kuba «guagua»."
+   ],
+   "glossary": [
+    {
+     "w": "la parada",
+     "en": "bus stop",
+     "de": "die Haltestelle"
+    },
+    {
+     "w": "el colectivo",
+     "en": "city bus (Argentina)",
+     "de": "der Stadtbus"
+    },
+    {
+     "w": "Siga derecho",
+     "en": "go straight (usted)",
+     "de": "Gehen Sie geradeaus"
+    },
+    {
+     "w": "doble",
+     "en": "turn (usted)",
+     "de": "biegen Sie ab"
+    },
+    {
+     "w": "la cuadra",
+     "en": "block (of houses)",
+     "de": "der Häuserblock"
+    },
+    {
+     "w": "cerca",
+     "en": "near, close",
+     "de": "nah"
+    },
+    {
+     "w": "lejos",
+     "en": "far",
+     "de": "weit"
+    },
+    {
+     "w": "al lado",
+     "en": "next to",
+     "de": "daneben"
+    }
+   ],
+   "grammar": "When you say where you are going, use ir + a: “Voy a la parada.” But a + el becomes al: “Voy al Jardín Botánico” (not “a el”). With la, los and las nothing changes: “Voy a la estación.” Use this every time you ask or answer “¿Adónde va(s)?”.",
+   "grammar_de": "Wenn du sagst, wohin du gehst, benutzt du ir + a: «Voy a la parada.» Aber a + el wird zu al: «Voy al Jardín Botánico» (nicht «a el»). Bei la, los und las ändert sich nichts: «Voy a la estación.» Du brauchst das bei jeder Frage und Antwort mit «¿Adónde va(s)?».",
+   "questions": [
+    "¿Adónde va Julia?",
+    "¿Está lejos la parada?",
+    "¿Y tú? ¿Cómo vas al trabajo o a la universidad: en autobús, a pie o en carro?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Comida",
+   "title": "La once: la comida chilena que no es ni almuerzo ni cena",
+   "dek": "Té, pan y conversación: así se vive la tarde en Chile.",
+   "tags": [
+    "Chile",
+    "la once",
+    "pretérito simple"
+   ],
+   "paragraphs": [
+    "En Chile, la cena no es la única comida de la tarde. Entre las cinco y las ocho, muchas familias se sientan a la mesa para tomar la once. No es una comida enorme, pero tampoco es solo un café rápido. Es un momento para conversar después del trabajo o del colegio, y para algunas personas es más importante que la cena.",
+    "Lo básico es simple: té o café, pan y algo para ponerle encima. El pan más típico es la marraqueta, un pan crujiente por fuera y suave por dentro. Se come con mantequilla, queso, jamón, palta o mermelada. En muchas casas del sur de Chile también aparece el kuchen, un pastel que llegó con los inmigrantes alemanes. Para muchas personas, una buena once es sencilla: pan caliente, una taza grande y tiempo para sentarse. No necesitas una receta complicada ni una mesa elegante.",
+    "La palabra «once» significa 11 en español, y por eso mucha gente pregunta por qué se llama así. Existen varias explicaciones populares, pero no hay una respuesta que todos acepten. Lo que sí sabemos es cómo se usa la palabra hoy, aunque no sabemos con seguridad de dónde viene. Por eso es mejor no repetir historias que nadie puede comprobar, y disfrutar la costumbre tal como es.",
+    "Hoy la once es sobre todo una costumbre social. Cuando una amiga dice «Ven a mi casa a tomar once», no te invita a una gran fiesta; te invita a conversar sin prisa. En las familias, en los colegios y en las oficinas es una pausa para estar juntos. Si visitas Chile, probablemente alguien te pregunte: «¿Ya tomaste once?». Muchas veces se prolonga una hora o más, porque siempre hay otra taza de té y otro tema de conversación.",
+    "Fíjate en esa pregunta. En España es frecuente decir «¿Has tomado once?», con el pretérito perfecto. En Chile y en gran parte de Latinoamérica, en cambio, se usa más el pretérito simple: «¿Ya tomaste?», «Hoy trabajé mucho», «Esta semana comí en casa». Las dos formas existen, pero la elección cambia según la región. Si hablas con latinoamericanos, el pretérito simple es una buena opción.",
+    "Dato curioso: la palabra también existe en Colombia, donde «las onces» son una pausa con algo de comer, por la mañana o por la tarde. En Argentina y Uruguay, para una comida parecida se habla de la merienda."
+   ],
+   "paragraphs_en": [
+    "In Chile, dinner is not the only meal of the late day. Between five and eight, many families sit down at the table for “la once”. It is not a huge meal, but it is not just a quick coffee either. It is a moment to talk after work or school, and for some people it matters more than dinner.",
+    "The basics are simple: tea or coffee, bread and something to put on top. The most typical bread is the marraqueta, crunchy outside and soft inside. It is eaten with butter, cheese, ham, avocado or jam. In many homes in the south of Chile there is also kuchen, a cake that came with German immigrants. For many people, a good once is simple: warm bread, a big cup and time to sit down. You do not need a complicated recipe or an elegant table.",
+    "The word “once” means 11 in Spanish, so many people ask why it is called that. There are several popular explanations, but no answer that everybody accepts. What we do know is how the word is used today, even though we do not know for sure where it comes from. That is why it is better not to repeat stories that nobody can prove, and to enjoy the custom as it is.",
+    "Today the once is above all a social custom. When a friend says “Come to my house for once”, she is not inviting you to a big party; she is inviting you to chat without hurry. In families, schools and offices it is a pause to be together. If you visit Chile, someone will probably ask you: “Have you had once yet?” Often it lasts an hour or more, because there is always another cup of tea and another topic of conversation.",
+    "Look at that question. In Spain it is common to say “¿Has tomado once?”, using the present perfect. In Chile and in much of Latin America, however, the simple past is used more: “¿Ya tomaste?”, “Hoy trabajé mucho”, “Esta semana comí en casa”. Both forms exist, but the choice changes by region. If you talk with Latin Americans, the simple past is a good option.",
+    "Fun fact: the word also exists in Colombia, where “las onces” are a break with something to eat, in the morning or in the afternoon. In Argentina and Uruguay, a similar meal is called “la merienda”."
+   ],
+   "paragraphs_de": [
+    "In Chile ist das Abendessen nicht die einzige Mahlzeit des späten Tages. Zwischen fünf und acht setzen sich viele Familien zur «once» an den Tisch. Es ist keine riesige Mahlzeit, aber auch nicht nur ein schneller Kaffee. Es ist ein Moment zum Reden nach der Arbeit oder der Schule, und für manche ist sie wichtiger als das Abendessen.",
+    "Das Grundprinzip ist einfach: Tee oder Kaffee, Brot und etwas zum Daraufmachen. Das typischste Brot ist die «marraqueta», außen knusprig und innen weich. Man isst sie mit Butter, Käse, Schinken, Avocado oder Marmelade. In vielen Häusern im Süden Chiles gibt es auch «kuchen», einen Kuchen, der mit deutschen Einwanderern kam. Für viele ist eine gute once einfach: warmes Brot, eine große Tasse und Zeit, sich hinzusetzen. Man braucht kein kompliziertes Rezept und keinen eleganten Tisch.",
+    "Das Wort «once» bedeutet auf Spanisch 11, deshalb fragen viele Leute, warum es so heißt. Es gibt mehrere beliebte Erklärungen, aber keine Antwort, die alle akzeptieren. Wir wissen, wie das Wort heute benutzt wird, aber nicht sicher, woher es kommt. Deshalb wiederholt man besser keine Geschichten, die niemand belegen kann, und genießt den Brauch so, wie er ist.",
+    "Heute ist die «once» vor allem ein gesellschaftlicher Brauch. Wenn eine Freundin sagt «Komm zu mir zur once», lädt sie dich nicht zu einer großen Party ein, sondern zu einem Gespräch ohne Eile. In Familien, Schulen und Büros ist sie eine Pause, um zusammen zu sein. Wenn du Chile besuchst, fragt dich wahrscheinlich jemand: «Hast du schon once gehabt?» Oft dauert sie eine Stunde oder länger, weil es immer noch eine Tasse Tee und ein weiteres Gesprächsthema gibt.",
+    "Achte auf diese Frage. In Spanien sagt man oft «¿Has tomado once?» mit dem Perfekt. In Chile und in großen Teilen Lateinamerikas benutzt man dagegen häufiger das einfache Präteritum: «¿Ya tomaste?», «Hoy trabajé mucho», «Esta semana comí en casa». Beide Formen gibt es, aber die Wahl ändert sich je nach Region. Wenn du mit Lateinamerikanern sprichst, ist das einfache Präteritum eine gute Wahl.",
+    "Wussten Sie schon? Das Wort gibt es auch in Kolumbien, wo «las onces» eine Pause mit etwas zu essen sind, am Vormittag oder am Nachmittag. In Argentinien und Uruguay nennt man eine ähnliche Mahlzeit «la merienda»."
+   ],
+   "glossary": [
+    {
+     "w": "la once",
+     "en": "afternoon tea meal in Chile",
+     "de": "die chilenische Teestunde"
+    },
+    {
+     "w": "la marraqueta",
+     "en": "crusty Chilean bread roll",
+     "de": "das knusprige Brötchen"
+    },
+    {
+     "w": "crujiente",
+     "en": "crunchy",
+     "de": "knusprig"
+    },
+    {
+     "w": "la mantequilla",
+     "en": "butter",
+     "de": "die Butter"
+    },
+    {
+     "w": "la mermelada",
+     "en": "jam",
+     "de": "die Marmelade"
+    },
+    {
+     "w": "la palta",
+     "en": "avocado (Chile, Peru, Argentina)",
+     "de": "die Avocado"
+    },
+    {
+     "w": "el pastel",
+     "en": "cake, pastry",
+     "de": "der Kuchen"
+    },
+    {
+     "w": "la costumbre",
+     "en": "custom, habit",
+     "de": "die Gewohnheit"
+    },
+    {
+     "w": "sin prisa",
+     "en": "without hurry",
+     "de": "ohne Eile"
+    },
+    {
+     "w": "la merienda",
+     "en": "afternoon snack",
+     "de": "die Nachmittagsjause"
+    }
+   ],
+   "grammar": "Simple past vs. present perfect. In Spain people often say “¿Has comido?” for something that happened today. In Latin America the simple past is more common: “¿Ya comiste?”, “Hoy trabajé mucho”. Both are correct, so choose the simple past (-é, -aste, -ó) when you talk with Latin Americans.",
+   "grammar_de": "Einfaches Präteritum vs. Perfekt. In Spanien sagt man für etwas, das heute passiert ist, oft «¿Has comido?». In Lateinamerika ist das einfache Präteritum häufiger: «¿Ya comiste?», «Hoy trabajé mucho». Beides ist richtig; mit Lateinamerikanern wählst du am besten das einfache Präteritum (-é, -aste, -ó).",
+   "questions": [
+    "¿Qué se come y se bebe en una once chilena?",
+    "¿Por qué es importante la once para las familias?",
+    "¿Y tú? ¿Qué comiste ayer por la tarde y con quién?"
+   ],
+   "sources": []
+  }
+ ]
 }

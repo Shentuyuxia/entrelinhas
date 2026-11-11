@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T15:49:27+00:00",
+ "updated": "2026-11-11T16:48:56+00:00",
  "days": [
   {
    "date": "2026-11-11",
@@ -8,6 +8,22 @@
      "i": 0,
      "lang": "fr",
      "title": "Des toits en terre pour le Sahel",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "Buenos Aires: ¿dónde está la parada?",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "La once: la comida chilena que no es ni almuerzo ni cena",
      "kind": "feature",
      "level": "B1",
      "hour": null
