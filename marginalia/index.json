@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-10T18:54:05+00:00",
+ "updated": "2026-11-11T15:49:27+00:00",
  "days": [
+  {
+   "date": "2026-11-11",
+   "items": [
+    {
+     "i": 0,
+     "lang": "fr",
+     "title": "Des toits en terre pour le Sahel",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-10",
    "items": [
