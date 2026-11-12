@@ -365,6 +365,103 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "brief",
+   "section": "Textinho",
+   "title": "Convite: jantar na casa amarela",
+   "dek": "A Ana faz um jantar para os amigos. O cardápio? Sopa, bolo e um cachorro com fome!",
+   "paragraphs": [
+    "Convite: jantar na casa amarela!",
+    "Quando? Sexta-feira, 13 de novembro, às 19h30.",
+    "Onde? Na casa da Ana. É a casa amarela!",
+    "Quem vem? A Dona Rosa, o Seu João e o Bolinha.",
+    "O que tem? Sopa de legumes e bolo de chocolate.",
+    "Quanto custa? Nada! Mas você traz uma bebida, né?",
+    "O meu WhatsApp: 91234-5678. Beijos, Ana"
+   ],
+   "paragraphs_en": [
+    "Invitation: dinner at the yellow house!",
+    "When? Friday, 13 November, at 7:30 p.m.",
+    "Where? At Ana's house. It's the yellow house!",
+    "Who's coming? Dona Rosa, Seu João and Bolinha.",
+    "What is there? Vegetable soup and chocolate cake.",
+    "How much does it cost? Nothing! But you bring a drink, right?",
+    "My WhatsApp: 91234-5678. Kisses, Ana"
+   ],
+   "paragraphs_zh": [
+    "邀请：在黄房子里吃晚饭！",
+    "什么时候？星期五，11月13日，晚上7点半。",
+    "在哪里？在安娜家。就是那栋黄房子！",
+    "谁来？罗莎夫人、若昂先生和波利尼亚。",
+    "有什么？蔬菜汤和巧克力蛋糕。",
+    "多少钱？免费！但是你带一瓶饮料，好吗？",
+    "我的WhatsApp：91234-5678。亲亲，安娜"
+   ],
+   "paragraphs_de": [
+    "Einladung: Abendessen im gelben Haus!",
+    "Wann? Freitag, 13. November, um 19:30 Uhr.",
+    "Wo? Bei Ana zu Hause. Es ist das gelbe Haus!",
+    "Wer kommt? Dona Rosa, Seu João und Bolinha.",
+    "Was gibt es? Gemüsesuppe und Schokoladenkuchen.",
+    "Was kostet es? Nichts! Aber du bringst ein Getränk mit, oder?",
+    "Mein WhatsApp: 91234-5678. Küsschen, Ana"
+   ],
+   "glossary": [
+    {
+     "w": "o jantar",
+     "en": "dinner",
+     "zh": "晚饭",
+     "de": "das Abendessen",
+     "pt": "A comida da noite. Jantar é comer à noite."
+    },
+    {
+     "w": "o legume",
+     "en": "vegetable",
+     "zh": "蔬菜",
+     "de": "das Gemüse",
+     "pt": "Cenoura e batata são legumes."
+    },
+    {
+     "w": "trazer",
+     "en": "to bring (você traz)",
+     "zh": "带来",
+     "de": "mitbringen (você traz)",
+     "pt": "Você vem e leva uma coisa com você."
+    },
+    {
+     "w": "a bebida",
+     "en": "drink, beverage",
+     "zh": "饮料",
+     "de": "das Getränk",
+     "pt": "Suco, água e café são bebidas."
+    },
+    {
+     "w": "Beijos",
+     "en": "Kisses (friendly ending of a message)",
+     "zh": "亲亲（信息结尾的亲切用语）",
+     "de": "Küsschen (freundlicher Gruß am Ende)",
+     "pt": "Palavra de carinho no fim de uma mensagem."
+    }
+   ],
+   "grammar": "An invitation asks short question words and answers them at once: Quando? Sexta-feira. Onde? Na casa da Ana. Remember: na = em + a, da = de + a.",
+   "grammar_zh": "请柬先用疑问词提问，再马上回答：Quando? Sexta-feira. Onde? Na casa da Ana. 记住：na = em + a，da = de + a。",
+   "grammar_de": "Eine Einladung stellt kurze Fragen mit Fragewörtern und antwortet sofort: Quando? Sexta-feira. Onde? Na casa da Ana. Merke: na = em + a, da = de + a.",
+   "grammar_pt": "No convite, a pergunta vem e a resposta vem logo: Quando? Sexta-feira. Onde? Na casa da Ana. Na = em + a. Da = de + a.",
+   "questions": [
+    "Quando é o jantar? Onde é o jantar?",
+    "Quem vem? O que tem no jantar?",
+    "E você? O que você come no jantar?"
+   ],
+   "tags": [
+    "convite",
+    "jantar",
+    "perguntas",
+    "na / da"
+   ],
+   "sources": []
   }
  ]
 }
