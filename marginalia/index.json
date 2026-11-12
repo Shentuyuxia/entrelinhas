@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:51:52+00:00",
+ "updated": "2026-11-12T16:49:56+00:00",
  "days": [
   {
    "date": "2026-11-12",
@@ -8,6 +8,22 @@
      "i": 0,
      "lang": "fr",
      "title": "Felwine Sarr : le présent comme atelier",
+     "kind": "feature",
+     "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "En el consultorio: me duele la garganta",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "Violeta Parra: de los restaurantes del sur al Louvre",
      "kind": "feature",
      "level": "B2",
      "hour": null
