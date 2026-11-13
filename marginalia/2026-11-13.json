@@ -1,357 +1,465 @@
 {
-  "date": "2026-11-13",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-13",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "fr",
+   "level": "C1",
+   "kind": "feature",
+   "section": "Culture du thé",
+   "title": "De la colline au rayon : qui boit la valeur du thé de Ceylan ?",
+   "dek": "Un rapport de War on Want suit le thé sri-lankais du théier jusqu'aux supermarchés britanniques. À chaque escale, la feuille prend de la valeur — sauf pour celles qui la cueillent.",
+   "tags": [
+    "Culture du thé",
+    "Sri Lanka",
+    "War on Want",
+    "avoir beau + infinitif"
+   ],
+   "paragraphs": [
+    "Chaque jour, selon l'ONG britannique War on Want, le Royaume-Uni boit environ cent millions de tasses de thé. Une partie de ce thé pousse sur les collines du Sri Lanka, troisième exportateur mondial. Dans un rapport publié en septembre 2026, « Brewing Inequality », rédigé avec le Mouvement pour la réforme agraire et foncière (MONLAR), l'organisation reconstitue le trajet de la feuille, du jardin de thé jusqu'au rayon. Son constat tient en une phrase : plus le thé s'éloigne de la plantation, plus il vaut cher, et moins ceux qui le produisent en profitent.",
+    "Au départ, il y a un geste répété des milliers de fois. D'après une étude du MONLAR citée dans le rapport, une cueilleuse employée sur un domaine ramasse environ vingt kilos de feuilles vertes par jour, payées entre 50 et 60 roupies sri-lankaises le kilo, soit 10 à 13 pence. Les femmes qui cueillent gagnent autour de 1 200 roupies par jour, à peu près trois livres sterling. Sur les grands domaines, cette main-d'œuvre est en grande partie composée de Tamouls dits Malaiyaha, descendants de travailleurs amenés du sud de l'Inde à l'époque coloniale. Le rapport rappelle qu'environ deux millions d'Indiens ont été réinstallés à travers les territoires britanniques sous le régime de l'engagement, l'« indenture ».",
+    "Puis la feuille voyage, et son prix grimpe. Le rapport compare les prix moyens à l'importation et à la réexportation. En 2023, les Émirats arabes unis achetaient du thé à 2,91 livres le kilo et en revendaient à 6,17 livres. Le Royaume-Uni importe en moyenne à 2,33 livres le kilo et réexporte son thé transformé à 7,38 livres ; l'Allemagne, dont le Sri Lanka est le principal fournisseur, paie 4,75 livres et réexporte à 12 livres. Dans les supermarchés britanniques, où Tesco, Sainsbury's et Asda se partagent presque la moitié du marché alimentaire, le thé de Ceylan se vend entre 15 et 30 livres le kilo, et seulement en petits paquets.",
+    "Ce que dessinent ces chiffres, selon les auteurs, c'est une chaîne où la valeur se fabrique loin du champ : au mélange, à la marque, à la distribution. Le pays producteur, lui, reste dépendant. Le Sri Lanka assure environ 5 % de la production mondiale de thé, mais jusqu'à 16,5 % de la valeur des exportations, et le thé pesait en 2024 entre 10 et 12 % de ses exportations de marchandises. Les petits planteurs, qui cultivent moins de dix acres, fournissent plus de 70 % de la récolte nationale ; leurs marges sont si minces, explique le rapport, qu'elles poussent à rogner sur les intrants et à grignoter la forêt.",
+    "Les propriétaires changent, la structure demeure, estiment les auteurs. Unilever a cédé sa branche thé en 2022 au fonds d'investissement CVC Capital Partners pour 4,5 milliards de dollars ; le groupe sri-lankais Browns Investments a racheté James Finlay Kenya en 2023, puis les domaines de Lipton au Kenya, au Rwanda et en Tanzanie en 2024. Lipton, qui se présente comme le premier acheteur de thé au monde, expérimente avec Twinings et Taylors of Harrogate des compléments de salaire sur des domaines au Kenya, au Sri Lanka et au Malawi. Pour War on Want, ces primes valent aveu : si l'on doit compléter les salaires, c'est que les prix sont injustes, et un salaire décent devrait être un droit plutôt qu'une faveur accordée par une marque.",
+    "Les chiffres appellent une précaution : un prix de réexportation n'est pas un bénéfice, car il comprend aussi la transformation, l'emballage et le transport. Mais la géographie que le rapport met au jour n'a rien de neuf. C'est celle d'une économie de plantation née sous l'Empire, dont les rapports de force ont survécu aux changements de drapeau et de propriétaire. Le thé a beau tripler de prix d'une escale à l'autre, la cueilleuse des collines n'en voit presque rien."
+   ],
+   "paragraphs_en": [
+    "Every day, according to the British NGO War on Want, the United Kingdom drinks around one hundred million cups of tea. Some of that tea grows on the hills of Sri Lanka, the world's third-largest exporter. In a report published in September 2026, \"Brewing Inequality\", written with the Movement for Land and Agricultural Reform (MONLAR), the organisation retraces the leaf's journey from the tea garden to the shelf. Its finding fits in one sentence: the further tea travels from the plantation, the more it is worth, and the less those who produce it benefit.",
+    "It starts with a gesture repeated thousands of times. According to a MONLAR study cited in the report, a plucker employed on an estate picks about twenty kilos of green leaf a day, paid between 50 and 60 Sri Lankan rupees a kilo, or 10 to 13 pence. Women pluckers earn around 1,200 rupees a day, roughly three pounds sterling. On the large estates this workforce is largely made up of so-called Malaiyaha Tamils, descendants of workers brought from southern India in the colonial era. The report recalls that around two million Indians were resettled across British territories under indenture.",
+    "Then the leaf travels, and its price climbs. The report compares average import and re-export prices. In 2023 the United Arab Emirates bought tea at £2.91 a kilo and sold it on at £6.17. The UK imports at an average of £2.33 a kilo and re-exports its processed tea at £7.38; Germany, whose main supplier is Sri Lanka, pays £4.75 and re-exports at £12. In British supermarkets, where Tesco, Sainsbury's and Asda share almost half of the grocery market, Ceylon tea sells for between £15 and £30 a kilo, and only in small packs.",
+    "What these figures sketch, according to the authors, is a chain in which value is created far from the field: in blending, branding and retail. The producing country, for its part, remains dependent. Sri Lanka accounts for about 5% of world tea production but up to 16.5% of export value, and in 2024 tea made up between 10 and 12% of its merchandise exports. Smallholders farming less than ten acres supply more than 70% of the national harvest; their margins are so thin, the report explains, that they push them to skimp on inputs and to eat into the forest.",
+    "Owners change, the structure stays, the authors argue. Unilever sold its tea division in 2022 to the investment fund CVC Capital Partners for 4.5 billion dollars; the Sri Lankan group Browns Investments bought James Finlay Kenya in 2023, then Lipton's estates in Kenya, Rwanda and Tanzania in 2024. Lipton, which presents itself as the world's largest tea buyer, is trialling wage top-ups with Twinings and Taylors of Harrogate on estates in Kenya, Sri Lanka and Malawi. For War on Want these bonuses amount to an admission: if wages have to be topped up, prices are unjust, and a decent wage should be a right rather than a favour granted by a brand.",
+    "The figures call for one caveat: a re-export price is not a profit, since it also covers processing, packaging and transport. But the geography the report brings to light is nothing new. It is that of a plantation economy born under the Empire, whose power relations have survived changes of flag and of owner. However much tea triples in price from one stop to the next, the plucker in the hills sees almost none of it."
+   ],
+   "paragraphs_de": [
+    "Jeden Tag trinkt das Vereinigte Königreich laut der britischen NGO War on Want rund hundert Millionen Tassen Tee. Ein Teil davon wächst in den Hügeln Sri Lankas, des drittgrößten Exporteurs der Welt. In einem im September 2026 veröffentlichten Bericht, „Brewing Inequality“, verfasst gemeinsam mit der Bewegung für Land- und Agrarreform (MONLAR), zeichnet die Organisation den Weg des Blattes vom Teegarten bis ins Regal nach. Ihr Befund passt in einen Satz: Je weiter sich der Tee von der Plantage entfernt, desto mehr ist er wert – und desto weniger haben die davon, die ihn erzeugen.",
+    "Am Anfang steht eine tausendfach wiederholte Handbewegung. Laut einer im Bericht zitierten MONLAR-Studie pflückt eine auf einem Gut angestellte Pflückerin etwa zwanzig Kilo grüne Blätter am Tag und bekommt dafür 50 bis 60 sri-lankische Rupien pro Kilo, also 10 bis 13 Pence. Pflückerinnen verdienen rund 1.200 Rupien am Tag, ungefähr drei Pfund Sterling. Auf den großen Gütern besteht diese Arbeiterschaft zu einem großen Teil aus sogenannten Malaiyaha-Tamilen, Nachfahren von Arbeitern, die in der Kolonialzeit aus Südindien geholt wurden. Der Bericht erinnert daran, dass etwa zwei Millionen Inder im System der Kontraktarbeit („indenture“) in britische Gebiete umgesiedelt wurden.",
+    "Dann reist das Blatt, und sein Preis steigt. Der Bericht vergleicht durchschnittliche Import- und Reexportpreise. 2023 kauften die Vereinigten Arabischen Emirate Tee zu 2,91 Pfund pro Kilo und verkauften ihn zu 6,17 Pfund weiter. Großbritannien importiert im Schnitt zu 2,33 Pfund pro Kilo und reexportiert verarbeiteten Tee zu 7,38 Pfund; Deutschland, dessen wichtigster Lieferant Sri Lanka ist, zahlt 4,75 Pfund und reexportiert zu 12 Pfund. In britischen Supermärkten, wo Tesco, Sainsbury's und Asda sich fast die Hälfte des Lebensmittelmarkts teilen, kostet Ceylon-Tee zwischen 15 und 30 Pfund pro Kilo – und das nur in kleinen Packungen.",
+    "Was diese Zahlen zeigen, ist nach Ansicht der Autoren eine Kette, in der der Wert fern vom Feld entsteht: beim Mischen, bei der Marke, im Handel. Das Erzeugerland bleibt abhängig. Sri Lanka liefert etwa 5 % der weltweiten Teeproduktion, aber bis zu 16,5 % des Exportwerts, und 2024 machte Tee 10 bis 12 % seiner Warenexporte aus. Kleinbauern mit weniger als zehn Acres liefern mehr als 70 % der nationalen Ernte; ihre Margen sind so dünn, erklärt der Bericht, dass sie dazu drängen, an Betriebsmitteln zu sparen und in den Wald vorzudringen.",
+    "Die Eigentümer wechseln, die Struktur bleibt, meinen die Autoren. Unilever verkaufte seine Teesparte 2022 für 4,5 Milliarden Dollar an den Investmentfonds CVC Capital Partners; die sri-lankische Gruppe Browns Investments kaufte 2023 James Finlay Kenya und 2024 Liptons Güter in Kenia, Ruanda und Tansania. Lipton, das sich als größter Teeeinkäufer der Welt bezeichnet, erprobt mit Twinings und Taylors of Harrogate Lohnzuschläge auf Gütern in Kenia, Sri Lanka und Malawi. Für War on Want kommen diese Prämien einem Eingeständnis gleich: Wenn Löhne aufgestockt werden müssen, sind die Preise ungerecht – und ein angemessener Lohn sollte ein Recht sein, keine Gefälligkeit einer Marke.",
+    "Die Zahlen verlangen eine Einschränkung: Ein Reexportpreis ist kein Gewinn, denn er umfasst auch Verarbeitung, Verpackung und Transport. Doch die Geografie, die der Bericht freilegt, ist nicht neu. Es ist die einer im Empire entstandenen Plantagenwirtschaft, deren Machtverhältnisse den Wechsel von Flaggen und Eigentümern überdauert haben. Der Tee mag von Station zu Station noch so sehr im Preis steigen – die Pflückerin in den Hügeln sieht davon fast nichts."
+   ],
+   "glossary": [
     {
-      "lang": "fr",
-      "level": "C1",
-      "kind": "feature",
-      "section": "Culture du thé",
-      "title": "De la colline au rayon : qui boit la valeur du thé de Ceylan ?",
-      "dek": "Un rapport de War on Want suit le thé sri-lankais du théier jusqu'aux supermarchés britanniques. À chaque escale, la feuille prend de la valeur — sauf pour celles qui la cueillent.",
-      "tags": [
-        "Culture du thé",
-        "Sri Lanka",
-        "War on Want",
-        "avoir beau + infinitif"
-      ],
-      "paragraphs": [
-        "Chaque jour, selon l'ONG britannique War on Want, le Royaume-Uni boit environ cent millions de tasses de thé. Une partie de ce thé pousse sur les collines du Sri Lanka, troisième exportateur mondial. Dans un rapport publié en septembre 2026, « Brewing Inequality », rédigé avec le Mouvement pour la réforme agraire et foncière (MONLAR), l'organisation reconstitue le trajet de la feuille, du jardin de thé jusqu'au rayon. Son constat tient en une phrase : plus le thé s'éloigne de la plantation, plus il vaut cher, et moins ceux qui le produisent en profitent.",
-        "Au départ, il y a un geste répété des milliers de fois. D'après une étude du MONLAR citée dans le rapport, une cueilleuse employée sur un domaine ramasse environ vingt kilos de feuilles vertes par jour, payées entre 50 et 60 roupies sri-lankaises le kilo, soit 10 à 13 pence. Les femmes qui cueillent gagnent autour de 1 200 roupies par jour, à peu près trois livres sterling. Sur les grands domaines, cette main-d'œuvre est en grande partie composée de Tamouls dits Malaiyaha, descendants de travailleurs amenés du sud de l'Inde à l'époque coloniale. Le rapport rappelle qu'environ deux millions d'Indiens ont été réinstallés à travers les territoires britanniques sous le régime de l'engagement, l'« indenture ».",
-        "Puis la feuille voyage, et son prix grimpe. Le rapport compare les prix moyens à l'importation et à la réexportation. En 2023, les Émirats arabes unis achetaient du thé à 2,91 livres le kilo et en revendaient à 6,17 livres. Le Royaume-Uni importe en moyenne à 2,33 livres le kilo et réexporte son thé transformé à 7,38 livres ; l'Allemagne, dont le Sri Lanka est le principal fournisseur, paie 4,75 livres et réexporte à 12 livres. Dans les supermarchés britanniques, où Tesco, Sainsbury's et Asda se partagent presque la moitié du marché alimentaire, le thé de Ceylan se vend entre 15 et 30 livres le kilo, et seulement en petits paquets.",
-        "Ce que dessinent ces chiffres, selon les auteurs, c'est une chaîne où la valeur se fabrique loin du champ : au mélange, à la marque, à la distribution. Le pays producteur, lui, reste dépendant. Le Sri Lanka assure environ 5 % de la production mondiale de thé, mais jusqu'à 16,5 % de la valeur des exportations, et le thé pesait en 2024 entre 10 et 12 % de ses exportations de marchandises. Les petits planteurs, qui cultivent moins de dix acres, fournissent plus de 70 % de la récolte nationale ; leurs marges sont si minces, explique le rapport, qu'elles poussent à rogner sur les intrants et à grignoter la forêt.",
-        "Les propriétaires changent, la structure demeure, estiment les auteurs. Unilever a cédé sa branche thé en 2022 au fonds d'investissement CVC Capital Partners pour 4,5 milliards de dollars ; le groupe sri-lankais Browns Investments a racheté James Finlay Kenya en 2023, puis les domaines de Lipton au Kenya, au Rwanda et en Tanzanie en 2024. Lipton, qui se présente comme le premier acheteur de thé au monde, expérimente avec Twinings et Taylors of Harrogate des compléments de salaire sur des domaines au Kenya, au Sri Lanka et au Malawi. Pour War on Want, ces primes valent aveu : si l'on doit compléter les salaires, c'est que les prix sont injustes, et un salaire décent devrait être un droit plutôt qu'une faveur accordée par une marque.",
-        "Les chiffres appellent une précaution : un prix de réexportation n'est pas un bénéfice, car il comprend aussi la transformation, l'emballage et le transport. Mais la géographie que le rapport met au jour n'a rien de neuf. C'est celle d'une économie de plantation née sous l'Empire, dont les rapports de force ont survécu aux changements de drapeau et de propriétaire. Le thé a beau tripler de prix d'une escale à l'autre, la cueilleuse des collines n'en voit presque rien."
-      ],
-      "paragraphs_en": [
-        "Every day, according to the British NGO War on Want, the United Kingdom drinks around one hundred million cups of tea. Some of that tea grows on the hills of Sri Lanka, the world's third-largest exporter. In a report published in September 2026, \"Brewing Inequality\", written with the Movement for Land and Agricultural Reform (MONLAR), the organisation retraces the leaf's journey from the tea garden to the shelf. Its finding fits in one sentence: the further tea travels from the plantation, the more it is worth, and the less those who produce it benefit.",
-        "It starts with a gesture repeated thousands of times. According to a MONLAR study cited in the report, a plucker employed on an estate picks about twenty kilos of green leaf a day, paid between 50 and 60 Sri Lankan rupees a kilo, or 10 to 13 pence. Women pluckers earn around 1,200 rupees a day, roughly three pounds sterling. On the large estates this workforce is largely made up of so-called Malaiyaha Tamils, descendants of workers brought from southern India in the colonial era. The report recalls that around two million Indians were resettled across British territories under indenture.",
-        "Then the leaf travels, and its price climbs. The report compares average import and re-export prices. In 2023 the United Arab Emirates bought tea at £2.91 a kilo and sold it on at £6.17. The UK imports at an average of £2.33 a kilo and re-exports its processed tea at £7.38; Germany, whose main supplier is Sri Lanka, pays £4.75 and re-exports at £12. In British supermarkets, where Tesco, Sainsbury's and Asda share almost half of the grocery market, Ceylon tea sells for between £15 and £30 a kilo, and only in small packs.",
-        "What these figures sketch, according to the authors, is a chain in which value is created far from the field: in blending, branding and retail. The producing country, for its part, remains dependent. Sri Lanka accounts for about 5% of world tea production but up to 16.5% of export value, and in 2024 tea made up between 10 and 12% of its merchandise exports. Smallholders farming less than ten acres supply more than 70% of the national harvest; their margins are so thin, the report explains, that they push them to skimp on inputs and to eat into the forest.",
-        "Owners change, the structure stays, the authors argue. Unilever sold its tea division in 2022 to the investment fund CVC Capital Partners for 4.5 billion dollars; the Sri Lankan group Browns Investments bought James Finlay Kenya in 2023, then Lipton's estates in Kenya, Rwanda and Tanzania in 2024. Lipton, which presents itself as the world's largest tea buyer, is trialling wage top-ups with Twinings and Taylors of Harrogate on estates in Kenya, Sri Lanka and Malawi. For War on Want these bonuses amount to an admission: if wages have to be topped up, prices are unjust, and a decent wage should be a right rather than a favour granted by a brand.",
-        "The figures call for one caveat: a re-export price is not a profit, since it also covers processing, packaging and transport. But the geography the report brings to light is nothing new. It is that of a plantation economy born under the Empire, whose power relations have survived changes of flag and of owner. However much tea triples in price from one stop to the next, the plucker in the hills sees almost none of it."
-      ],
-      "paragraphs_de": [
-        "Jeden Tag trinkt das Vereinigte Königreich laut der britischen NGO War on Want rund hundert Millionen Tassen Tee. Ein Teil davon wächst in den Hügeln Sri Lankas, des drittgrößten Exporteurs der Welt. In einem im September 2026 veröffentlichten Bericht, „Brewing Inequality“, verfasst gemeinsam mit der Bewegung für Land- und Agrarreform (MONLAR), zeichnet die Organisation den Weg des Blattes vom Teegarten bis ins Regal nach. Ihr Befund passt in einen Satz: Je weiter sich der Tee von der Plantage entfernt, desto mehr ist er wert – und desto weniger haben die davon, die ihn erzeugen.",
-        "Am Anfang steht eine tausendfach wiederholte Handbewegung. Laut einer im Bericht zitierten MONLAR-Studie pflückt eine auf einem Gut angestellte Pflückerin etwa zwanzig Kilo grüne Blätter am Tag und bekommt dafür 50 bis 60 sri-lankische Rupien pro Kilo, also 10 bis 13 Pence. Pflückerinnen verdienen rund 1.200 Rupien am Tag, ungefähr drei Pfund Sterling. Auf den großen Gütern besteht diese Arbeiterschaft zu einem großen Teil aus sogenannten Malaiyaha-Tamilen, Nachfahren von Arbeitern, die in der Kolonialzeit aus Südindien geholt wurden. Der Bericht erinnert daran, dass etwa zwei Millionen Inder im System der Kontraktarbeit („indenture“) in britische Gebiete umgesiedelt wurden.",
-        "Dann reist das Blatt, und sein Preis steigt. Der Bericht vergleicht durchschnittliche Import- und Reexportpreise. 2023 kauften die Vereinigten Arabischen Emirate Tee zu 2,91 Pfund pro Kilo und verkauften ihn zu 6,17 Pfund weiter. Großbritannien importiert im Schnitt zu 2,33 Pfund pro Kilo und reexportiert verarbeiteten Tee zu 7,38 Pfund; Deutschland, dessen wichtigster Lieferant Sri Lanka ist, zahlt 4,75 Pfund und reexportiert zu 12 Pfund. In britischen Supermärkten, wo Tesco, Sainsbury's und Asda sich fast die Hälfte des Lebensmittelmarkts teilen, kostet Ceylon-Tee zwischen 15 und 30 Pfund pro Kilo – und das nur in kleinen Packungen.",
-        "Was diese Zahlen zeigen, ist nach Ansicht der Autoren eine Kette, in der der Wert fern vom Feld entsteht: beim Mischen, bei der Marke, im Handel. Das Erzeugerland bleibt abhängig. Sri Lanka liefert etwa 5 % der weltweiten Teeproduktion, aber bis zu 16,5 % des Exportwerts, und 2024 machte Tee 10 bis 12 % seiner Warenexporte aus. Kleinbauern mit weniger als zehn Acres liefern mehr als 70 % der nationalen Ernte; ihre Margen sind so dünn, erklärt der Bericht, dass sie dazu drängen, an Betriebsmitteln zu sparen und in den Wald vorzudringen.",
-        "Die Eigentümer wechseln, die Struktur bleibt, meinen die Autoren. Unilever verkaufte seine Teesparte 2022 für 4,5 Milliarden Dollar an den Investmentfonds CVC Capital Partners; die sri-lankische Gruppe Browns Investments kaufte 2023 James Finlay Kenya und 2024 Liptons Güter in Kenia, Ruanda und Tansania. Lipton, das sich als größter Teeeinkäufer der Welt bezeichnet, erprobt mit Twinings und Taylors of Harrogate Lohnzuschläge auf Gütern in Kenia, Sri Lanka und Malawi. Für War on Want kommen diese Prämien einem Eingeständnis gleich: Wenn Löhne aufgestockt werden müssen, sind die Preise ungerecht – und ein angemessener Lohn sollte ein Recht sein, keine Gefälligkeit einer Marke.",
-        "Die Zahlen verlangen eine Einschränkung: Ein Reexportpreis ist kein Gewinn, denn er umfasst auch Verarbeitung, Verpackung und Transport. Doch die Geografie, die der Bericht freilegt, ist nicht neu. Es ist die einer im Empire entstandenen Plantagenwirtschaft, deren Machtverhältnisse den Wechsel von Flaggen und Eigentümern überdauert haben. Der Tee mag von Station zu Station noch so sehr im Preis steigen – die Pflückerin in den Hügeln sieht davon fast nichts."
-      ],
-      "glossary": [
-        {
-          "w": "la cueilleuse",
-          "fr": "femme qui ramasse à la main les feuilles ou les fruits d'une plante",
-          "de": "die Pflückerin"
-        },
-        {
-          "w": "le domaine",
-          "fr": "ici : grande propriété agricole, une plantation",
-          "de": "das Gut, die Plantage"
-        },
-        {
-          "w": "l'engagement (indenture)",
-          "fr": "contrat de travail de plusieurs années, souvent très dur, imposé aux travailleurs envoyés dans les colonies",
-          "de": "die Kontraktarbeit"
-        },
-        {
-          "w": "la réexportation",
-          "fr": "fait de revendre à l'étranger une marchandise qu'on a d'abord importée",
-          "de": "der Reexport"
-        },
-        {
-          "w": "une escale",
-          "fr": "arrêt sur un trajet ; ici, chaque étape du commerce",
-          "de": "die Zwischenstation"
-        },
-        {
-          "w": "rogner sur",
-          "fr": "réduire, dépenser moins pour quelque chose",
-          "de": "an etwas sparen"
-        },
-        {
-          "w": "les intrants",
-          "fr": "ce qu'on utilise pour produire en agriculture : engrais, semences, produits",
-          "de": "die Betriebsmittel"
-        },
-        {
-          "w": "grignoter",
-          "fr": "prendre peu à peu, par petits morceaux",
-          "de": "nach und nach anknabbern"
-        },
-        {
-          "w": "céder",
-          "fr": "vendre ou donner ce que l'on possède à quelqu'un d'autre",
-          "de": "veräußern, abtreten"
-        },
-        {
-          "w": "valoir aveu",
-          "fr": "montrer, sans le dire, que l'on reconnaît une faute",
-          "de": "einem Eingeständnis gleichkommen"
-        },
-        {
-          "w": "mettre au jour",
-          "fr": "faire apparaître ce qui était caché",
-          "de": "freilegen, ans Licht bringen"
-        },
-        {
-          "w": "les rapports de force",
-          "fr": "relations entre groupes qui ont plus ou moins de pouvoir",
-          "de": "die Machtverhältnisse"
-        }
-      ],
-      "grammar": "« Le thé a beau tripler de prix…, la cueilleuse n'en voit presque rien » uses avoir beau + infinitive, a concessive structure meaning 'however much / even though'. Only avoir is conjugated (a beau, avaient beau, aura beau); the second clause states the result that does not follow. It is close to « bien que + subjunctive » but more vivid and typical of written and spoken French alike: « Elle a beau travailler, elle reste pauvre. »",
-      "grammar_de": "« Le thé a beau tripler de prix…, la cueilleuse n'en voit presque rien » verwendet avoir beau + Infinitiv, eine konzessive Struktur im Sinne von „so sehr auch / obwohl“. Nur avoir wird konjugiert (a beau, avaient beau, aura beau); der zweite Satzteil nennt das Ergebnis, das trotzdem nicht eintritt. Sie ist bedeutungsnah zu « bien que + subjonctif », aber anschaulicher und in Schrift und Gespräch gleichermaßen üblich: « Elle a beau travailler, elle reste pauvre. »",
-      "questions": [
-        "Selon le rapport, à quelles étapes de la chaîne la valeur du thé se crée-t-elle surtout ?",
-        "Pourquoi War on Want voit-il dans les compléments de salaire proposés par Lipton un « aveu » ?",
-        "Quelle précaution faut-il prendre en lisant les écarts entre prix d'importation et de réexportation ?"
-      ],
-      "sources": [
-        {
-          "title": "Brewing Inequality: Sri Lankan tea, global trade and the struggle for a just transition (War on Want / MONLAR, septembre 2026)",
-          "url": "https://waronwant.org/sites/default/files/2026-09/Brewing%20Inequality%20Briefing.pdf",
-          "license": "link only"
-        }
-      ]
+     "w": "la cueilleuse",
+     "fr": "femme qui ramasse à la main les feuilles ou les fruits d'une plante",
+     "de": "die Pflückerin"
     },
     {
-      "lang": "es",
-      "level": "A2",
-      "kind": "dialogue",
-      "section": "Conversación",
-      "title": "En Medellín: ¿qué vas a hacer el sábado?",
-      "dek": "Dos amigos hablan del clima y hacen planes para el fin de semana en Medellín, Colombia.",
-      "tags": [
-        "Medellín",
-        "small talk",
-        "acabar de"
-      ],
-      "paragraphs": [
-        "Camila: ¡Hola, Andrés! ¿Qué tal?",
-        "Andrés: ¡Hola, Camila! Bien, gracias. Acabo de llegar del trabajo. ¿Y tú?",
-        "Camila: Yo acabo de salir de la universidad. Hoy hace mucho calor, ¿no?",
-        "Andrés: Sí, pero en Medellín casi siempre hace buen clima. Por eso la llaman la ciudad de la eterna primavera.",
-        "Camila: Qué bonito. ¿Qué vas a hacer este fin de semana?",
-        "Andrés: El sábado voy a ir a Guatapé con unos amigos. ¿Quieres venir?",
-        "Camila: ¡Claro! ¿Cómo se llega?",
-        "Andrés: Vamos en autobús desde la Terminal del Norte. Es un viaje de unas dos horas.",
-        "Camila: ¿Y a qué hora salimos?",
-        "Andrés: A las ocho de la mañana. ¿Te parece bien?",
-        "Camila: Perfecto. ¿Qué debo llevar?",
-        "Andrés: Lleva ropa cómoda, protector solar y un poco de dinero para el almuerzo.",
-        "Camila: ¡Listo! Mi hermana acaba de comprar un carro. ¿Vamos con ella?",
-        "Andrés: ¡Buena idea! Entonces nos vemos a las siete y media en mi casa.",
-        "Camila: Perfecto. ¡Chao, hasta el sábado!",
-        "Dato curioso: en Colombia, la gente dice «listo» muchas veces para decir «de acuerdo» o «está bien». Es una palabra muy útil para conversar."
-      ],
-      "paragraphs_en": [
-        "Camila: Hi, Andrés! How's it going?",
-        "Andrés: Hi, Camila! Fine, thanks. I just got home from work. And you?",
-        "Camila: I just left the university. It's very hot today, isn't it?",
-        "Andrés: Yes, but in Medellín the weather is almost always nice. That's why they call it the city of eternal spring.",
-        "Camila: How lovely. What are you going to do this weekend?",
-        "Andrés: On Saturday I'm going to Guatapé with some friends. Do you want to come?",
-        "Camila: Of course! How do you get there?",
-        "Andrés: We go by bus from the Terminal del Norte. It's a trip of about two hours.",
-        "Camila: And what time do we leave?",
-        "Andrés: At eight in the morning. Does that work for you?",
-        "Camila: Perfect. What should I bring?",
-        "Andrés: Bring comfortable clothes, sunscreen and a little money for lunch.",
-        "Camila: Okay! My sister just bought a car. Shall we go with her?",
-        "Andrés: Good idea! Then let's meet at half past seven at my place.",
-        "Camila: Perfect. Bye, see you on Saturday!",
-        "Fun fact: in Colombia people often say “listo” to mean “agreed” or “okay.” It's a very useful word for conversation."
-      ],
-      "paragraphs_de": [
-        "Camila: Hallo, Andrés! Wie geht's?",
-        "Andrés: Hallo, Camila! Gut, danke. Ich bin gerade von der Arbeit gekommen. Und du?",
-        "Camila: Ich komme gerade von der Uni. Heute ist es sehr heiß, oder?",
-        "Andrés: Ja, aber in Medellín ist das Wetter fast immer schön. Deshalb nennt man sie die Stadt des ewigen Frühlings.",
-        "Camila: Wie schön. Was machst du dieses Wochenende?",
-        "Andrés: Am Samstag fahre ich mit ein paar Freunden nach Guatapé. Willst du mitkommen?",
-        "Camila: Klar! Wie kommt man hin?",
-        "Andrés: Wir fahren mit dem Bus vom Terminal del Norte. Die Fahrt dauert etwa zwei Stunden.",
-        "Camila: Und um wie viel Uhr fahren wir los?",
-        "Andrés: Um acht Uhr morgens. Passt dir das?",
-        "Camila: Perfekt. Was soll ich mitbringen?",
-        "Andrés: Bring bequeme Kleidung, Sonnencreme und etwas Geld fürs Mittagessen mit.",
-        "Camila: Alles klar! Meine Schwester hat gerade ein Auto gekauft. Fahren wir mit ihr?",
-        "Andrés: Gute Idee! Dann treffen wir uns um halb acht bei mir zu Hause.",
-        "Camila: Perfekt. Tschüss, bis Samstag!",
-        "Wissenswert: In Kolumbien sagt man oft «listo» für «einverstanden» oder «in Ordnung». Ein sehr nützliches Wort im Gespräch."
-      ],
-      "glossary": [
-        {
-          "w": "acabar de + inf.",
-          "en": "to have just (done something)",
-          "de": "gerade etwas getan haben"
-        },
-        {
-          "w": "el clima",
-          "en": "the weather",
-          "de": "das Wetter"
-        },
-        {
-          "w": "la eterna primavera",
-          "en": "eternal spring",
-          "de": "der ewige Frühling"
-        },
-        {
-          "w": "el fin de semana",
-          "en": "the weekend",
-          "de": "das Wochenende"
-        },
-        {
-          "w": "el autobús",
-          "en": "the bus",
-          "de": "der Bus"
-        },
-        {
-          "w": "el viaje",
-          "en": "the trip",
-          "de": "die Reise / die Fahrt"
-        },
-        {
-          "w": "llevar",
-          "en": "to bring, to carry, to wear",
-          "de": "mitbringen, tragen"
-        },
-        {
-          "w": "el protector solar",
-          "en": "sunscreen",
-          "de": "die Sonnencreme"
-        },
-        {
-          "w": "el carro",
-          "en": "car (Latin America; also coche, auto)",
-          "de": "das Auto"
-        },
-        {
-          "w": "listo",
-          "en": "okay, agreed (Colombia); also ready",
-          "de": "einverstanden; fertig"
-        }
-      ],
-      "grammar": "Acabar de + infinitive says that something has just happened: “Acabo de llegar” (I just arrived), “Mi hermana acaba de comprar un carro.” Only acabar changes (acabo, acabas, acaba, acabamos, acaban); the verb after de stays in the infinitive. It is a handy way to talk about the very recent past.",
-      "grammar_de": "Acabar de + Infinitiv drückt aus, dass etwas gerade erst passiert ist: «Acabo de llegar» (Ich bin gerade angekommen), «Mi hermana acaba de comprar un carro.» Nur acabar wird konjugiert (acabo, acabas, acaba, acabamos, acaban); das Verb nach de bleibt im Infinitiv. So spricht man leicht über die ganz nahe Vergangenheit.",
-      "questions": [
-        "¿Qué vas a hacer este fin de semana?",
-        "¿Cómo es el clima en tu ciudad?",
-        "¿Y tú? ¿De dónde acabas de volver hoy (del trabajo, de la universidad, de la tienda)?"
-      ],
-      "sources": []
+     "w": "le domaine",
+     "fr": "ici : grande propriété agricole, une plantation",
+     "de": "das Gut, die Plantage"
     },
     {
-      "lang": "es",
-      "level": "B1",
-      "kind": "feature",
-      "section": "Mujeres y feminismo",
-      "title": "Sor Juana: la monja que quería estudiar",
-      "dek": "En el siglo XVII, una mujer de la Nueva España defendió con palabras el derecho de las mujeres a aprender.",
-      "tags": [
-        "México",
-        "mujeres y escritoras",
-        "pronombres relativos"
-      ],
-      "paragraphs": [
-        "Juana Inés de la Cruz nació en el siglo XVII en lo que hoy es México, cuando el país todavía formaba parte de la Nueva España. Desde niña quería aprender todo lo que podía. Según se cuenta, aprendió a leer a una edad muy temprana y siempre pedía libros.",
-        "En esa época, las mujeres casi no tenían acceso a la universidad, y la mayoría debía casarse o entrar a un convento. Juana prefirió el convento, que le daba tiempo y un lugar tranquilo para leer, escribir y estudiar. Allí tomó el nombre de Sor Juana. Con los años reunió una biblioteca muy grande para su época, con libros de literatura, ciencia y religión.",
-        "Sor Juana escribió poemas y obras de teatro que todavía se leen hoy. En sus versos habla del amor, del conocimiento y de la manera en que la sociedad veía a las mujeres. Muchas personas la consideran una de las voces más importantes de la literatura en español.",
-        "En 1691 escribió una carta famosa, la Respuesta a Sor Filotea de la Cruz. En ella defendió que las mujeres también tienen derecho a estudiar y a pensar, algo que muchos hombres de su tiempo no aceptaban. Hoy muchas personas leen ese texto como un antecedente del pensamiento feminista en el mundo hispano.",
-        "Sor Juana murió en 1695, cuando ayudaba a otras monjas enfermas durante una epidemia. Su memoria sigue muy viva en México: su retrato aparece en el billete de 200 pesos, y muchas escuelas y calles llevan su nombre. Para quienes aprenden español, leer algunos de sus poemas es una buena manera de descubrir cómo suena el idioma de otra época.",
-        "Su historia también nos deja una pregunta que sigue siendo actual: ¿quién puede estudiar y quién decide qué es posible para una mujer? En su tiempo, Sor Juana encontró una solución dentro de las pocas opciones que tenía, pero escribió con mucha claridad sobre lo que necesitaba: libros, silencio y libertad para pensar. Por eso su nombre aparece hoy en clases de literatura, en museos y en conversaciones sobre la igualdad de las mujeres en la educación.",
-        "Dato curioso: a Sor Juana también la llaman «la Décima Musa». En la mitología griega había nueve musas, y con ese apodo se dice que ella era tan genial que merecía una más."
-      ],
-      "paragraphs_en": [
-        "Juana Inés de la Cruz was born in the 17th century in what is now Mexico, when the country was still part of New Spain. From childhood she wanted to learn everything she could. The story goes that she learned to read at a very early age and was always asking for books.",
-        "At that time women had almost no access to university, and most of them had to marry or enter a convent. Juana preferred the convent, which gave her time and a quiet place to read, write and study. There she took the name Sor Juana. Over the years she gathered a very large library for her time, with books on literature, science and religion.",
-        "Sor Juana wrote poems and plays that are still read today. In her verses she talks about love, knowledge and the way society saw women. Many people consider her one of the most important voices in Spanish-language literature.",
-        "In 1691 she wrote a famous letter, the Respuesta a Sor Filotea de la Cruz. In it she argued that women also have the right to study and to think, something many men of her time did not accept. Today many people read that text as a forerunner of feminist thought in the Spanish-speaking world.",
-        "Sor Juana died in 1695 while she was helping other sick nuns during an epidemic. Her memory is still very much alive in Mexico: her portrait appears on the 200-peso banknote, and many schools and streets bear her name. For people learning Spanish, reading some of her poems is a good way to discover how the language sounded in another era.",
-        "Her story also leaves us with a question that is still relevant today: who gets to study, and who decides what is possible for a woman? In her time, Sor Juana found a solution among the few options she had, but she wrote very clearly about what she needed: books, silence and freedom to think. That is why her name appears today in literature classes, in museums and in conversations about women's equality in education.",
-        "Fun fact: Sor Juana is also called “la Décima Musa” (the Tenth Muse). In Greek mythology there were nine muses, and the nickname suggests she was so brilliant that she deserved one more."
-      ],
-      "paragraphs_de": [
-        "Juana Inés de la Cruz wurde im 17. Jahrhundert im heutigen Mexiko geboren, als das Land noch zu Neuspanien gehörte. Schon als Kind wollte sie alles lernen, was sie konnte. Man erzählt, dass sie sehr früh lesen lernte und immer nach Büchern fragte.",
-        "Damals hatten Frauen fast keinen Zugang zur Universität, und die meisten mussten heiraten oder in ein Kloster eintreten. Juana zog das Kloster vor, das ihr Zeit und einen ruhigen Ort zum Lesen, Schreiben und Studieren gab. Dort nahm sie den Namen Sor Juana an. Im Lauf der Jahre baute sie eine für ihre Zeit sehr große Bibliothek mit Büchern über Literatur, Wissenschaft und Religion auf.",
-        "Sor Juana schrieb Gedichte und Theaterstücke, die noch heute gelesen werden. In ihren Versen spricht sie über die Liebe, das Wissen und die Art, wie die Gesellschaft Frauen sah. Viele halten sie für eine der wichtigsten Stimmen der spanischsprachigen Literatur.",
-        "1691 schrieb sie einen berühmten Brief, die Respuesta a Sor Filotea de la Cruz. Darin verteidigte sie, dass auch Frauen das Recht haben zu studieren und zu denken, was viele Männer ihrer Zeit nicht akzeptierten. Heute lesen viele diesen Text als Vorläufer des feministischen Denkens in der spanischsprachigen Welt.",
-        "Sor Juana starb 1695, als sie während einer Epidemie anderen kranken Nonnen half. In Mexiko ist die Erinnerung an sie sehr lebendig: Ihr Porträt ist auf dem 200-Peso-Schein, und viele Schulen und Straßen tragen ihren Namen. Wer Spanisch lernt, entdeckt beim Lesen einiger ihrer Gedichte, wie die Sprache in einer anderen Epoche klang.",
-        "Ihre Geschichte hinterlässt auch eine Frage, die bis heute aktuell ist: Wer darf studieren, und wer entscheidet, was für eine Frau möglich ist? Zu ihrer Zeit fand Sor Juana unter den wenigen Möglichkeiten, die sie hatte, eine Lösung, schrieb aber sehr klar darüber, was sie brauchte: Bücher, Stille und die Freiheit zu denken. Deshalb taucht ihr Name heute in Literaturkursen, in Museen und in Gesprächen über die Gleichberechtigung von Frauen in der Bildung auf.",
-        "Wissenswert: Sor Juana wird auch «la Décima Musa» (die zehnte Muse) genannt. In der griechischen Mythologie gab es neun Musen, und der Beiname sagt, dass sie so genial war, dass sie eine weitere verdiente."
-      ],
-      "glossary": [
-        {
-          "w": "el siglo",
-          "en": "century",
-          "de": "das Jahrhundert"
-        },
-        {
-          "w": "la Nueva España",
-          "en": "New Spain (colonial Mexico)",
-          "de": "Neuspanien"
-        },
-        {
-          "w": "el convento",
-          "en": "convent",
-          "de": "das Kloster"
-        },
-        {
-          "w": "la monja",
-          "en": "nun",
-          "de": "die Nonne"
-        },
-        {
-          "w": "la biblioteca",
-          "en": "library",
-          "de": "die Bibliothek"
-        },
-        {
-          "w": "los versos",
-          "en": "verses, lines of poetry",
-          "de": "die Verse"
-        },
-        {
-          "w": "la obra de teatro",
-          "en": "play",
-          "de": "das Theaterstück"
-        },
-        {
-          "w": "defender",
-          "en": "to defend, to argue for",
-          "de": "verteidigen"
-        },
-        {
-          "w": "el antecedente",
-          "en": "forerunner, precedent",
-          "de": "der Vorläufer"
-        },
-        {
-          "w": "el billete",
-          "en": "banknote (also: ticket)",
-          "de": "der Geldschein"
-        },
-        {
-          "w": "la epidemia",
-          "en": "epidemic",
-          "de": "die Epidemie"
-        },
-        {
-          "w": "el apodo",
-          "en": "nickname",
-          "de": "der Spitzname"
-        }
-      ],
-      "grammar": "Relative pronouns connect two ideas in one sentence. Que is the most common and refers to things or people: “un convento, que le daba tiempo” (a convent, which gave her time). Use donde for places (“lo que hoy es México”, “el lugar donde estudia”) and quien/quienes for people after a preposition or a comma: “Para quienes aprenden español…”. Remember that, unlike English “which/who”, que is never dropped.",
-      "grammar_de": "Relativpronomen verbinden zwei Gedanken in einem Satz. Que ist das häufigste und steht für Sachen und Personen: «un convento, que le daba tiempo» (ein Kloster, das ihr Zeit gab). Für Orte benutzt man donde («el lugar donde estudia»), für Personen nach Präposition oder Komma quien/quienes: «Para quienes aprenden español…». Anders als im Englischen darf que nie weggelassen werden.",
-      "questions": [
-        "¿Por qué entró Sor Juana al convento?",
-        "¿Qué defendió Sor Juana en su carta de 1691?",
-        "¿Y tú? ¿Hay una mujer escritora, científica o artista que admiras? ¿Por qué?"
-      ],
-      "sources": []
+     "w": "l'engagement (indenture)",
+     "fr": "contrat de travail de plusieurs années, souvent très dur, imposé aux travailleurs envoyés dans les colonies",
+     "de": "die Kontraktarbeit"
+    },
+    {
+     "w": "la réexportation",
+     "fr": "fait de revendre à l'étranger une marchandise qu'on a d'abord importée",
+     "de": "der Reexport"
+    },
+    {
+     "w": "une escale",
+     "fr": "arrêt sur un trajet ; ici, chaque étape du commerce",
+     "de": "die Zwischenstation"
+    },
+    {
+     "w": "rogner sur",
+     "fr": "réduire, dépenser moins pour quelque chose",
+     "de": "an etwas sparen"
+    },
+    {
+     "w": "les intrants",
+     "fr": "ce qu'on utilise pour produire en agriculture : engrais, semences, produits",
+     "de": "die Betriebsmittel"
+    },
+    {
+     "w": "grignoter",
+     "fr": "prendre peu à peu, par petits morceaux",
+     "de": "nach und nach anknabbern"
+    },
+    {
+     "w": "céder",
+     "fr": "vendre ou donner ce que l'on possède à quelqu'un d'autre",
+     "de": "veräußern, abtreten"
+    },
+    {
+     "w": "valoir aveu",
+     "fr": "montrer, sans le dire, que l'on reconnaît une faute",
+     "de": "einem Eingeständnis gleichkommen"
+    },
+    {
+     "w": "mettre au jour",
+     "fr": "faire apparaître ce qui était caché",
+     "de": "freilegen, ans Licht bringen"
+    },
+    {
+     "w": "les rapports de force",
+     "fr": "relations entre groupes qui ont plus ou moins de pouvoir",
+     "de": "die Machtverhältnisse"
     }
-  ]
+   ],
+   "grammar": "« Le thé a beau tripler de prix…, la cueilleuse n'en voit presque rien » uses avoir beau + infinitive, a concessive structure meaning 'however much / even though'. Only avoir is conjugated (a beau, avaient beau, aura beau); the second clause states the result that does not follow. It is close to « bien que + subjunctive » but more vivid and typical of written and spoken French alike: « Elle a beau travailler, elle reste pauvre. »",
+   "grammar_de": "« Le thé a beau tripler de prix…, la cueilleuse n'en voit presque rien » verwendet avoir beau + Infinitiv, eine konzessive Struktur im Sinne von „so sehr auch / obwohl“. Nur avoir wird konjugiert (a beau, avaient beau, aura beau); der zweite Satzteil nennt das Ergebnis, das trotzdem nicht eintritt. Sie ist bedeutungsnah zu « bien que + subjonctif », aber anschaulicher und in Schrift und Gespräch gleichermaßen üblich: « Elle a beau travailler, elle reste pauvre. »",
+   "questions": [
+    "Selon le rapport, à quelles étapes de la chaîne la valeur du thé se crée-t-elle surtout ?",
+    "Pourquoi War on Want voit-il dans les compléments de salaire proposés par Lipton un « aveu » ?",
+    "Quelle précaution faut-il prendre en lisant les écarts entre prix d'importation et de réexportation ?"
+   ],
+   "sources": [
+    {
+     "title": "Brewing Inequality: Sri Lankan tea, global trade and the struggle for a just transition (War on Want / MONLAR, septembre 2026)",
+     "url": "https://waronwant.org/sites/default/files/2026-09/Brewing%20Inequality%20Briefing.pdf",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En Medellín: ¿qué vas a hacer el sábado?",
+   "dek": "Dos amigos hablan del clima y hacen planes para el fin de semana en Medellín, Colombia.",
+   "tags": [
+    "Medellín",
+    "small talk",
+    "acabar de"
+   ],
+   "paragraphs": [
+    "Camila: ¡Hola, Andrés! ¿Qué tal?",
+    "Andrés: ¡Hola, Camila! Bien, gracias. Acabo de llegar del trabajo. ¿Y tú?",
+    "Camila: Yo acabo de salir de la universidad. Hoy hace mucho calor, ¿no?",
+    "Andrés: Sí, pero en Medellín casi siempre hace buen clima. Por eso la llaman la ciudad de la eterna primavera.",
+    "Camila: Qué bonito. ¿Qué vas a hacer este fin de semana?",
+    "Andrés: El sábado voy a ir a Guatapé con unos amigos. ¿Quieres venir?",
+    "Camila: ¡Claro! ¿Cómo se llega?",
+    "Andrés: Vamos en autobús desde la Terminal del Norte. Es un viaje de unas dos horas.",
+    "Camila: ¿Y a qué hora salimos?",
+    "Andrés: A las ocho de la mañana. ¿Te parece bien?",
+    "Camila: Perfecto. ¿Qué debo llevar?",
+    "Andrés: Lleva ropa cómoda, protector solar y un poco de dinero para el almuerzo.",
+    "Camila: ¡Listo! Mi hermana acaba de comprar un carro. ¿Vamos con ella?",
+    "Andrés: ¡Buena idea! Entonces nos vemos a las siete y media en mi casa.",
+    "Camila: Perfecto. ¡Chao, hasta el sábado!",
+    "Dato curioso: en Colombia, la gente dice «listo» muchas veces para decir «de acuerdo» o «está bien». Es una palabra muy útil para conversar."
+   ],
+   "paragraphs_en": [
+    "Camila: Hi, Andrés! How's it going?",
+    "Andrés: Hi, Camila! Fine, thanks. I just got home from work. And you?",
+    "Camila: I just left the university. It's very hot today, isn't it?",
+    "Andrés: Yes, but in Medellín the weather is almost always nice. That's why they call it the city of eternal spring.",
+    "Camila: How lovely. What are you going to do this weekend?",
+    "Andrés: On Saturday I'm going to Guatapé with some friends. Do you want to come?",
+    "Camila: Of course! How do you get there?",
+    "Andrés: We go by bus from the Terminal del Norte. It's a trip of about two hours.",
+    "Camila: And what time do we leave?",
+    "Andrés: At eight in the morning. Does that work for you?",
+    "Camila: Perfect. What should I bring?",
+    "Andrés: Bring comfortable clothes, sunscreen and a little money for lunch.",
+    "Camila: Okay! My sister just bought a car. Shall we go with her?",
+    "Andrés: Good idea! Then let's meet at half past seven at my place.",
+    "Camila: Perfect. Bye, see you on Saturday!",
+    "Fun fact: in Colombia people often say “listo” to mean “agreed” or “okay.” It's a very useful word for conversation."
+   ],
+   "paragraphs_de": [
+    "Camila: Hallo, Andrés! Wie geht's?",
+    "Andrés: Hallo, Camila! Gut, danke. Ich bin gerade von der Arbeit gekommen. Und du?",
+    "Camila: Ich komme gerade von der Uni. Heute ist es sehr heiß, oder?",
+    "Andrés: Ja, aber in Medellín ist das Wetter fast immer schön. Deshalb nennt man sie die Stadt des ewigen Frühlings.",
+    "Camila: Wie schön. Was machst du dieses Wochenende?",
+    "Andrés: Am Samstag fahre ich mit ein paar Freunden nach Guatapé. Willst du mitkommen?",
+    "Camila: Klar! Wie kommt man hin?",
+    "Andrés: Wir fahren mit dem Bus vom Terminal del Norte. Die Fahrt dauert etwa zwei Stunden.",
+    "Camila: Und um wie viel Uhr fahren wir los?",
+    "Andrés: Um acht Uhr morgens. Passt dir das?",
+    "Camila: Perfekt. Was soll ich mitbringen?",
+    "Andrés: Bring bequeme Kleidung, Sonnencreme und etwas Geld fürs Mittagessen mit.",
+    "Camila: Alles klar! Meine Schwester hat gerade ein Auto gekauft. Fahren wir mit ihr?",
+    "Andrés: Gute Idee! Dann treffen wir uns um halb acht bei mir zu Hause.",
+    "Camila: Perfekt. Tschüss, bis Samstag!",
+    "Wissenswert: In Kolumbien sagt man oft «listo» für «einverstanden» oder «in Ordnung». Ein sehr nützliches Wort im Gespräch."
+   ],
+   "glossary": [
+    {
+     "w": "acabar de + inf.",
+     "en": "to have just (done something)",
+     "de": "gerade etwas getan haben"
+    },
+    {
+     "w": "el clima",
+     "en": "the weather",
+     "de": "das Wetter"
+    },
+    {
+     "w": "la eterna primavera",
+     "en": "eternal spring",
+     "de": "der ewige Frühling"
+    },
+    {
+     "w": "el fin de semana",
+     "en": "the weekend",
+     "de": "das Wochenende"
+    },
+    {
+     "w": "el autobús",
+     "en": "the bus",
+     "de": "der Bus"
+    },
+    {
+     "w": "el viaje",
+     "en": "the trip",
+     "de": "die Reise / die Fahrt"
+    },
+    {
+     "w": "llevar",
+     "en": "to bring, to carry, to wear",
+     "de": "mitbringen, tragen"
+    },
+    {
+     "w": "el protector solar",
+     "en": "sunscreen",
+     "de": "die Sonnencreme"
+    },
+    {
+     "w": "el carro",
+     "en": "car (Latin America; also coche, auto)",
+     "de": "das Auto"
+    },
+    {
+     "w": "listo",
+     "en": "okay, agreed (Colombia); also ready",
+     "de": "einverstanden; fertig"
+    }
+   ],
+   "grammar": "Acabar de + infinitive says that something has just happened: “Acabo de llegar” (I just arrived), “Mi hermana acaba de comprar un carro.” Only acabar changes (acabo, acabas, acaba, acabamos, acaban); the verb after de stays in the infinitive. It is a handy way to talk about the very recent past.",
+   "grammar_de": "Acabar de + Infinitiv drückt aus, dass etwas gerade erst passiert ist: «Acabo de llegar» (Ich bin gerade angekommen), «Mi hermana acaba de comprar un carro.» Nur acabar wird konjugiert (acabo, acabas, acaba, acabamos, acaban); das Verb nach de bleibt im Infinitiv. So spricht man leicht über die ganz nahe Vergangenheit.",
+   "questions": [
+    "¿Qué vas a hacer este fin de semana?",
+    "¿Cómo es el clima en tu ciudad?",
+    "¿Y tú? ¿De dónde acabas de volver hoy (del trabajo, de la universidad, de la tienda)?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Mujeres y feminismo",
+   "title": "Sor Juana: la monja que quería estudiar",
+   "dek": "En el siglo XVII, una mujer de la Nueva España defendió con palabras el derecho de las mujeres a aprender.",
+   "tags": [
+    "México",
+    "mujeres y escritoras",
+    "pronombres relativos"
+   ],
+   "paragraphs": [
+    "Juana Inés de la Cruz nació en el siglo XVII en lo que hoy es México, cuando el país todavía formaba parte de la Nueva España. Desde niña quería aprender todo lo que podía. Según se cuenta, aprendió a leer a una edad muy temprana y siempre pedía libros.",
+    "En esa época, las mujeres casi no tenían acceso a la universidad, y la mayoría debía casarse o entrar a un convento. Juana prefirió el convento, que le daba tiempo y un lugar tranquilo para leer, escribir y estudiar. Allí tomó el nombre de Sor Juana. Con los años reunió una biblioteca muy grande para su época, con libros de literatura, ciencia y religión.",
+    "Sor Juana escribió poemas y obras de teatro que todavía se leen hoy. En sus versos habla del amor, del conocimiento y de la manera en que la sociedad veía a las mujeres. Muchas personas la consideran una de las voces más importantes de la literatura en español.",
+    "En 1691 escribió una carta famosa, la Respuesta a Sor Filotea de la Cruz. En ella defendió que las mujeres también tienen derecho a estudiar y a pensar, algo que muchos hombres de su tiempo no aceptaban. Hoy muchas personas leen ese texto como un antecedente del pensamiento feminista en el mundo hispano.",
+    "Sor Juana murió en 1695, cuando ayudaba a otras monjas enfermas durante una epidemia. Su memoria sigue muy viva en México: su retrato aparece en el billete de 200 pesos, y muchas escuelas y calles llevan su nombre. Para quienes aprenden español, leer algunos de sus poemas es una buena manera de descubrir cómo suena el idioma de otra época.",
+    "Su historia también nos deja una pregunta que sigue siendo actual: ¿quién puede estudiar y quién decide qué es posible para una mujer? En su tiempo, Sor Juana encontró una solución dentro de las pocas opciones que tenía, pero escribió con mucha claridad sobre lo que necesitaba: libros, silencio y libertad para pensar. Por eso su nombre aparece hoy en clases de literatura, en museos y en conversaciones sobre la igualdad de las mujeres en la educación.",
+    "Dato curioso: a Sor Juana también la llaman «la Décima Musa». En la mitología griega había nueve musas, y con ese apodo se dice que ella era tan genial que merecía una más."
+   ],
+   "paragraphs_en": [
+    "Juana Inés de la Cruz was born in the 17th century in what is now Mexico, when the country was still part of New Spain. From childhood she wanted to learn everything she could. The story goes that she learned to read at a very early age and was always asking for books.",
+    "At that time women had almost no access to university, and most of them had to marry or enter a convent. Juana preferred the convent, which gave her time and a quiet place to read, write and study. There she took the name Sor Juana. Over the years she gathered a very large library for her time, with books on literature, science and religion.",
+    "Sor Juana wrote poems and plays that are still read today. In her verses she talks about love, knowledge and the way society saw women. Many people consider her one of the most important voices in Spanish-language literature.",
+    "In 1691 she wrote a famous letter, the Respuesta a Sor Filotea de la Cruz. In it she argued that women also have the right to study and to think, something many men of her time did not accept. Today many people read that text as a forerunner of feminist thought in the Spanish-speaking world.",
+    "Sor Juana died in 1695 while she was helping other sick nuns during an epidemic. Her memory is still very much alive in Mexico: her portrait appears on the 200-peso banknote, and many schools and streets bear her name. For people learning Spanish, reading some of her poems is a good way to discover how the language sounded in another era.",
+    "Her story also leaves us with a question that is still relevant today: who gets to study, and who decides what is possible for a woman? In her time, Sor Juana found a solution among the few options she had, but she wrote very clearly about what she needed: books, silence and freedom to think. That is why her name appears today in literature classes, in museums and in conversations about women's equality in education.",
+    "Fun fact: Sor Juana is also called “la Décima Musa” (the Tenth Muse). In Greek mythology there were nine muses, and the nickname suggests she was so brilliant that she deserved one more."
+   ],
+   "paragraphs_de": [
+    "Juana Inés de la Cruz wurde im 17. Jahrhundert im heutigen Mexiko geboren, als das Land noch zu Neuspanien gehörte. Schon als Kind wollte sie alles lernen, was sie konnte. Man erzählt, dass sie sehr früh lesen lernte und immer nach Büchern fragte.",
+    "Damals hatten Frauen fast keinen Zugang zur Universität, und die meisten mussten heiraten oder in ein Kloster eintreten. Juana zog das Kloster vor, das ihr Zeit und einen ruhigen Ort zum Lesen, Schreiben und Studieren gab. Dort nahm sie den Namen Sor Juana an. Im Lauf der Jahre baute sie eine für ihre Zeit sehr große Bibliothek mit Büchern über Literatur, Wissenschaft und Religion auf.",
+    "Sor Juana schrieb Gedichte und Theaterstücke, die noch heute gelesen werden. In ihren Versen spricht sie über die Liebe, das Wissen und die Art, wie die Gesellschaft Frauen sah. Viele halten sie für eine der wichtigsten Stimmen der spanischsprachigen Literatur.",
+    "1691 schrieb sie einen berühmten Brief, die Respuesta a Sor Filotea de la Cruz. Darin verteidigte sie, dass auch Frauen das Recht haben zu studieren und zu denken, was viele Männer ihrer Zeit nicht akzeptierten. Heute lesen viele diesen Text als Vorläufer des feministischen Denkens in der spanischsprachigen Welt.",
+    "Sor Juana starb 1695, als sie während einer Epidemie anderen kranken Nonnen half. In Mexiko ist die Erinnerung an sie sehr lebendig: Ihr Porträt ist auf dem 200-Peso-Schein, und viele Schulen und Straßen tragen ihren Namen. Wer Spanisch lernt, entdeckt beim Lesen einiger ihrer Gedichte, wie die Sprache in einer anderen Epoche klang.",
+    "Ihre Geschichte hinterlässt auch eine Frage, die bis heute aktuell ist: Wer darf studieren, und wer entscheidet, was für eine Frau möglich ist? Zu ihrer Zeit fand Sor Juana unter den wenigen Möglichkeiten, die sie hatte, eine Lösung, schrieb aber sehr klar darüber, was sie brauchte: Bücher, Stille und die Freiheit zu denken. Deshalb taucht ihr Name heute in Literaturkursen, in Museen und in Gesprächen über die Gleichberechtigung von Frauen in der Bildung auf.",
+    "Wissenswert: Sor Juana wird auch «la Décima Musa» (die zehnte Muse) genannt. In der griechischen Mythologie gab es neun Musen, und der Beiname sagt, dass sie so genial war, dass sie eine weitere verdiente."
+   ],
+   "glossary": [
+    {
+     "w": "el siglo",
+     "en": "century",
+     "de": "das Jahrhundert"
+    },
+    {
+     "w": "la Nueva España",
+     "en": "New Spain (colonial Mexico)",
+     "de": "Neuspanien"
+    },
+    {
+     "w": "el convento",
+     "en": "convent",
+     "de": "das Kloster"
+    },
+    {
+     "w": "la monja",
+     "en": "nun",
+     "de": "die Nonne"
+    },
+    {
+     "w": "la biblioteca",
+     "en": "library",
+     "de": "die Bibliothek"
+    },
+    {
+     "w": "los versos",
+     "en": "verses, lines of poetry",
+     "de": "die Verse"
+    },
+    {
+     "w": "la obra de teatro",
+     "en": "play",
+     "de": "das Theaterstück"
+    },
+    {
+     "w": "defender",
+     "en": "to defend, to argue for",
+     "de": "verteidigen"
+    },
+    {
+     "w": "el antecedente",
+     "en": "forerunner, precedent",
+     "de": "der Vorläufer"
+    },
+    {
+     "w": "el billete",
+     "en": "banknote (also: ticket)",
+     "de": "der Geldschein"
+    },
+    {
+     "w": "la epidemia",
+     "en": "epidemic",
+     "de": "die Epidemie"
+    },
+    {
+     "w": "el apodo",
+     "en": "nickname",
+     "de": "der Spitzname"
+    }
+   ],
+   "grammar": "Relative pronouns connect two ideas in one sentence. Que is the most common and refers to things or people: “un convento, que le daba tiempo” (a convent, which gave her time). Use donde for places (“lo que hoy es México”, “el lugar donde estudia”) and quien/quienes for people after a preposition or a comma: “Para quienes aprenden español…”. Remember that, unlike English “which/who”, que is never dropped.",
+   "grammar_de": "Relativpronomen verbinden zwei Gedanken in einem Satz. Que ist das häufigste und steht für Sachen und Personen: «un convento, que le daba tiempo» (ein Kloster, das ihr Zeit gab). Für Orte benutzt man donde («el lugar donde estudia»), für Personen nach Präposition oder Komma quien/quienes: «Para quienes aprenden español…». Anders als im Englischen darf que nie weggelassen werden.",
+   "questions": [
+    "¿Por qué entró Sor Juana al convento?",
+    "¿Qué defendió Sor Juana en su carta de 1691?",
+    "¿Y tú? ¿Hay una mujer escritora, científica o artista que admiras? ¿Por qué?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Uma consulta para o Tito",
+   "dek": "Ana liga para a clínica. O Tito, o gato laranja, quer uma consulta, e a moça tem muitas perguntas!",
+   "paragraphs": [
+    "Moça: Clínica Bicho Bom, bom dia!",
+    "Ana: Bom dia! Quero uma consulta.",
+    "Moça: Como se chama o gato?",
+    "Ana: Ele se chama Tito.",
+    "Moça: Quantos anos ele tem?",
+    "Ana: Ele tem três anos.",
+    "Moça: Qual é o seu telefone?",
+    "Ana: É 98765-4321.",
+    "Moça: Quando você quer ir?",
+    "Ana: Hoje, às três horas. Obrigada!"
+   ],
+   "paragraphs_en": [
+    "Receptionist: Bicho Bom Clinic, good morning!",
+    "Ana: Good morning! I want an appointment.",
+    "Receptionist: What is the cat's name?",
+    "Ana: His name is Tito.",
+    "Receptionist: How old is he?",
+    "Ana: He is three years old.",
+    "Receptionist: What is your phone number?",
+    "Ana: It's 98765-4321.",
+    "Receptionist: When do you want to come?",
+    "Ana: Today, at three o'clock. Thank you!"
+   ],
+   "paragraphs_zh": [
+    "接待员：好动物诊所，早上好！",
+    "安娜：早上好！我想预约看诊。",
+    "接待员：猫叫什么名字？",
+    "安娜：它叫蒂托。",
+    "接待员：它几岁了？",
+    "安娜：它三岁了。",
+    "接待员：您的电话号码是多少？",
+    "安娜：是 98765-4321。",
+    "接待员：您想什么时候来？",
+    "安娜：今天，三点钟。谢谢！"
+   ],
+   "paragraphs_de": [
+    "Empfang: Tierklinik Bicho Bom, guten Morgen!",
+    "Ana: Guten Morgen! Ich möchte einen Termin.",
+    "Empfang: Wie heißt die Katze?",
+    "Ana: Er heißt Tito.",
+    "Empfang: Wie alt ist er?",
+    "Ana: Er ist drei Jahre alt.",
+    "Empfang: Wie ist Ihre Telefonnummer?",
+    "Ana: Sie ist 98765-4321.",
+    "Empfang: Wann möchten Sie kommen?",
+    "Ana: Heute, um drei Uhr. Danke!"
+   ],
+   "glossary": [
+    {
+     "w": "a clínica",
+     "en": "clinic — Clínica Bicho Bom",
+     "zh": "诊所",
+     "de": "die Klinik, die Praxis",
+     "pt": "um lugar onde o médico ou o veterinário recebe as pessoas"
+    },
+    {
+     "w": "o bicho",
+     "en": "animal, critter (casual) — o bicho de casa",
+     "zh": "动物（口语）",
+     "de": "das Tier (umgangssprachlich)",
+     "pt": "um animal, por exemplo um gato ou um cachorro"
+    },
+    {
+     "w": "a consulta",
+     "en": "appointment, check-up — Quero uma consulta.",
+     "zh": "门诊预约；看诊",
+     "de": "der Termin beim Arzt, die Sprechstunde",
+     "pt": "a hora com o médico"
+    },
+    {
+     "w": "chamar-se",
+     "en": "to be called — Como se chama o gato?",
+     "zh": "叫……（名字）",
+     "de": "heißen",
+     "pt": "o nome de uma pessoa ou de um animal"
+    },
+    {
+     "w": "o telefone",
+     "en": "phone, phone number — Qual é o seu telefone?",
+     "zh": "电话；电话号码",
+     "de": "das Telefon, die Telefonnummer",
+     "pt": "a gente liga para a pessoa com o telefone"
+    }
+   ],
+   "grammar": "Four question words in one phone call: Como se chama? (what is the name) Quantos anos ele tem? (how old) Qual é o seu telefone? (which/what) Quando você quer ir? (when). Each answer comes in the next line: Ele se chama Tito. Ele tem três anos.",
+   "grammar_zh": "一通电话里有四个疑问词：Como se chama?（叫什么名字）Quantos anos ele tem?（几岁）Qual é o seu telefone?（电话是多少）Quando você quer ir?（什么时候）。答案就在下一句：Ele se chama Tito.（它叫蒂托。）Ele tem três anos.（它三岁。）",
+   "grammar_de": "Vier Fragewörter in einem Telefonat: Como se chama? (Wie heißt …?) Quantos anos ele tem? (Wie alt ist er?) Qual é o seu telefone? (Welche/Wie ist Ihre Nummer?) Quando você quer ir? (Wann?). Die Antwort kommt in der nächsten Zeile: Ele se chama Tito. Ele tem três anos.",
+   "grammar_pt": "Quatro perguntas numa ligação: Como se chama? Quantos anos ele tem? Qual é o seu telefone? Quando você quer ir? A resposta vem na linha de baixo: Ele se chama Tito. Ele tem três anos.",
+   "questions": [
+    "Como se chama o gato da Ana?",
+    "Quantos anos o Tito tem?",
+    "E você? Qual é o seu telefone? Quantos anos você tem?"
+   ],
+   "sources": [],
+   "tags": [
+    "clínica",
+    "telefone",
+    "perguntas"
+   ]
+  }
+ ]
 }
