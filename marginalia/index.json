@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:24:24+00:00",
+ "updated": "2026-11-13T16:54:27+00:00",
  "days": [
   {
    "date": "2026-11-13",
@@ -10,6 +10,22 @@
      "title": "De la colline au rayon : qui boit la valeur du thé de Ceylan ?",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "En Medellín: ¿qué vas a hacer el sábado?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "Sor Juana: la monja que quería estudiar",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]

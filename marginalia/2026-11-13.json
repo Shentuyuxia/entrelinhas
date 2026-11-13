@@ -115,6 +115,243 @@
           "license": "link only"
         }
       ]
+    },
+    {
+      "lang": "es",
+      "level": "A2",
+      "kind": "dialogue",
+      "section": "Conversación",
+      "title": "En Medellín: ¿qué vas a hacer el sábado?",
+      "dek": "Dos amigos hablan del clima y hacen planes para el fin de semana en Medellín, Colombia.",
+      "tags": [
+        "Medellín",
+        "small talk",
+        "acabar de"
+      ],
+      "paragraphs": [
+        "Camila: ¡Hola, Andrés! ¿Qué tal?",
+        "Andrés: ¡Hola, Camila! Bien, gracias. Acabo de llegar del trabajo. ¿Y tú?",
+        "Camila: Yo acabo de salir de la universidad. Hoy hace mucho calor, ¿no?",
+        "Andrés: Sí, pero en Medellín casi siempre hace buen clima. Por eso la llaman la ciudad de la eterna primavera.",
+        "Camila: Qué bonito. ¿Qué vas a hacer este fin de semana?",
+        "Andrés: El sábado voy a ir a Guatapé con unos amigos. ¿Quieres venir?",
+        "Camila: ¡Claro! ¿Cómo se llega?",
+        "Andrés: Vamos en autobús desde la Terminal del Norte. Es un viaje de unas dos horas.",
+        "Camila: ¿Y a qué hora salimos?",
+        "Andrés: A las ocho de la mañana. ¿Te parece bien?",
+        "Camila: Perfecto. ¿Qué debo llevar?",
+        "Andrés: Lleva ropa cómoda, protector solar y un poco de dinero para el almuerzo.",
+        "Camila: ¡Listo! Mi hermana acaba de comprar un carro. ¿Vamos con ella?",
+        "Andrés: ¡Buena idea! Entonces nos vemos a las siete y media en mi casa.",
+        "Camila: Perfecto. ¡Chao, hasta el sábado!",
+        "Dato curioso: en Colombia, la gente dice «listo» muchas veces para decir «de acuerdo» o «está bien». Es una palabra muy útil para conversar."
+      ],
+      "paragraphs_en": [
+        "Camila: Hi, Andrés! How's it going?",
+        "Andrés: Hi, Camila! Fine, thanks. I just got home from work. And you?",
+        "Camila: I just left the university. It's very hot today, isn't it?",
+        "Andrés: Yes, but in Medellín the weather is almost always nice. That's why they call it the city of eternal spring.",
+        "Camila: How lovely. What are you going to do this weekend?",
+        "Andrés: On Saturday I'm going to Guatapé with some friends. Do you want to come?",
+        "Camila: Of course! How do you get there?",
+        "Andrés: We go by bus from the Terminal del Norte. It's a trip of about two hours.",
+        "Camila: And what time do we leave?",
+        "Andrés: At eight in the morning. Does that work for you?",
+        "Camila: Perfect. What should I bring?",
+        "Andrés: Bring comfortable clothes, sunscreen and a little money for lunch.",
+        "Camila: Okay! My sister just bought a car. Shall we go with her?",
+        "Andrés: Good idea! Then let's meet at half past seven at my place.",
+        "Camila: Perfect. Bye, see you on Saturday!",
+        "Fun fact: in Colombia people often say “listo” to mean “agreed” or “okay.” It's a very useful word for conversation."
+      ],
+      "paragraphs_de": [
+        "Camila: Hallo, Andrés! Wie geht's?",
+        "Andrés: Hallo, Camila! Gut, danke. Ich bin gerade von der Arbeit gekommen. Und du?",
+        "Camila: Ich komme gerade von der Uni. Heute ist es sehr heiß, oder?",
+        "Andrés: Ja, aber in Medellín ist das Wetter fast immer schön. Deshalb nennt man sie die Stadt des ewigen Frühlings.",
+        "Camila: Wie schön. Was machst du dieses Wochenende?",
+        "Andrés: Am Samstag fahre ich mit ein paar Freunden nach Guatapé. Willst du mitkommen?",
+        "Camila: Klar! Wie kommt man hin?",
+        "Andrés: Wir fahren mit dem Bus vom Terminal del Norte. Die Fahrt dauert etwa zwei Stunden.",
+        "Camila: Und um wie viel Uhr fahren wir los?",
+        "Andrés: Um acht Uhr morgens. Passt dir das?",
+        "Camila: Perfekt. Was soll ich mitbringen?",
+        "Andrés: Bring bequeme Kleidung, Sonnencreme und etwas Geld fürs Mittagessen mit.",
+        "Camila: Alles klar! Meine Schwester hat gerade ein Auto gekauft. Fahren wir mit ihr?",
+        "Andrés: Gute Idee! Dann treffen wir uns um halb acht bei mir zu Hause.",
+        "Camila: Perfekt. Tschüss, bis Samstag!",
+        "Wissenswert: In Kolumbien sagt man oft «listo» für «einverstanden» oder «in Ordnung». Ein sehr nützliches Wort im Gespräch."
+      ],
+      "glossary": [
+        {
+          "w": "acabar de + inf.",
+          "en": "to have just (done something)",
+          "de": "gerade etwas getan haben"
+        },
+        {
+          "w": "el clima",
+          "en": "the weather",
+          "de": "das Wetter"
+        },
+        {
+          "w": "la eterna primavera",
+          "en": "eternal spring",
+          "de": "der ewige Frühling"
+        },
+        {
+          "w": "el fin de semana",
+          "en": "the weekend",
+          "de": "das Wochenende"
+        },
+        {
+          "w": "el autobús",
+          "en": "the bus",
+          "de": "der Bus"
+        },
+        {
+          "w": "el viaje",
+          "en": "the trip",
+          "de": "die Reise / die Fahrt"
+        },
+        {
+          "w": "llevar",
+          "en": "to bring, to carry, to wear",
+          "de": "mitbringen, tragen"
+        },
+        {
+          "w": "el protector solar",
+          "en": "sunscreen",
+          "de": "die Sonnencreme"
+        },
+        {
+          "w": "el carro",
+          "en": "car (Latin America; also coche, auto)",
+          "de": "das Auto"
+        },
+        {
+          "w": "listo",
+          "en": "okay, agreed (Colombia); also ready",
+          "de": "einverstanden; fertig"
+        }
+      ],
+      "grammar": "Acabar de + infinitive says that something has just happened: “Acabo de llegar” (I just arrived), “Mi hermana acaba de comprar un carro.” Only acabar changes (acabo, acabas, acaba, acabamos, acaban); the verb after de stays in the infinitive. It is a handy way to talk about the very recent past.",
+      "grammar_de": "Acabar de + Infinitiv drückt aus, dass etwas gerade erst passiert ist: «Acabo de llegar» (Ich bin gerade angekommen), «Mi hermana acaba de comprar un carro.» Nur acabar wird konjugiert (acabo, acabas, acaba, acabamos, acaban); das Verb nach de bleibt im Infinitiv. So spricht man leicht über die ganz nahe Vergangenheit.",
+      "questions": [
+        "¿Qué vas a hacer este fin de semana?",
+        "¿Cómo es el clima en tu ciudad?",
+        "¿Y tú? ¿De dónde acabas de volver hoy (del trabajo, de la universidad, de la tienda)?"
+      ],
+      "sources": []
+    },
+    {
+      "lang": "es",
+      "level": "B1",
+      "kind": "feature",
+      "section": "Mujeres y feminismo",
+      "title": "Sor Juana: la monja que quería estudiar",
+      "dek": "En el siglo XVII, una mujer de la Nueva España defendió con palabras el derecho de las mujeres a aprender.",
+      "tags": [
+        "México",
+        "mujeres y escritoras",
+        "pronombres relativos"
+      ],
+      "paragraphs": [
+        "Juana Inés de la Cruz nació en el siglo XVII en lo que hoy es México, cuando el país todavía formaba parte de la Nueva España. Desde niña quería aprender todo lo que podía. Según se cuenta, aprendió a leer a una edad muy temprana y siempre pedía libros.",
+        "En esa época, las mujeres casi no tenían acceso a la universidad, y la mayoría debía casarse o entrar a un convento. Juana prefirió el convento, que le daba tiempo y un lugar tranquilo para leer, escribir y estudiar. Allí tomó el nombre de Sor Juana. Con los años reunió una biblioteca muy grande para su época, con libros de literatura, ciencia y religión.",
+        "Sor Juana escribió poemas y obras de teatro que todavía se leen hoy. En sus versos habla del amor, del conocimiento y de la manera en que la sociedad veía a las mujeres. Muchas personas la consideran una de las voces más importantes de la literatura en español.",
+        "En 1691 escribió una carta famosa, la Respuesta a Sor Filotea de la Cruz. En ella defendió que las mujeres también tienen derecho a estudiar y a pensar, algo que muchos hombres de su tiempo no aceptaban. Hoy muchas personas leen ese texto como un antecedente del pensamiento feminista en el mundo hispano.",
+        "Sor Juana murió en 1695, cuando ayudaba a otras monjas enfermas durante una epidemia. Su memoria sigue muy viva en México: su retrato aparece en el billete de 200 pesos, y muchas escuelas y calles llevan su nombre. Para quienes aprenden español, leer algunos de sus poemas es una buena manera de descubrir cómo suena el idioma de otra época.",
+        "Su historia también nos deja una pregunta que sigue siendo actual: ¿quién puede estudiar y quién decide qué es posible para una mujer? En su tiempo, Sor Juana encontró una solución dentro de las pocas opciones que tenía, pero escribió con mucha claridad sobre lo que necesitaba: libros, silencio y libertad para pensar. Por eso su nombre aparece hoy en clases de literatura, en museos y en conversaciones sobre la igualdad de las mujeres en la educación.",
+        "Dato curioso: a Sor Juana también la llaman «la Décima Musa». En la mitología griega había nueve musas, y con ese apodo se dice que ella era tan genial que merecía una más."
+      ],
+      "paragraphs_en": [
+        "Juana Inés de la Cruz was born in the 17th century in what is now Mexico, when the country was still part of New Spain. From childhood she wanted to learn everything she could. The story goes that she learned to read at a very early age and was always asking for books.",
+        "At that time women had almost no access to university, and most of them had to marry or enter a convent. Juana preferred the convent, which gave her time and a quiet place to read, write and study. There she took the name Sor Juana. Over the years she gathered a very large library for her time, with books on literature, science and religion.",
+        "Sor Juana wrote poems and plays that are still read today. In her verses she talks about love, knowledge and the way society saw women. Many people consider her one of the most important voices in Spanish-language literature.",
+        "In 1691 she wrote a famous letter, the Respuesta a Sor Filotea de la Cruz. In it she argued that women also have the right to study and to think, something many men of her time did not accept. Today many people read that text as a forerunner of feminist thought in the Spanish-speaking world.",
+        "Sor Juana died in 1695 while she was helping other sick nuns during an epidemic. Her memory is still very much alive in Mexico: her portrait appears on the 200-peso banknote, and many schools and streets bear her name. For people learning Spanish, reading some of her poems is a good way to discover how the language sounded in another era.",
+        "Her story also leaves us with a question that is still relevant today: who gets to study, and who decides what is possible for a woman? In her time, Sor Juana found a solution among the few options she had, but she wrote very clearly about what she needed: books, silence and freedom to think. That is why her name appears today in literature classes, in museums and in conversations about women's equality in education.",
+        "Fun fact: Sor Juana is also called “la Décima Musa” (the Tenth Muse). In Greek mythology there were nine muses, and the nickname suggests she was so brilliant that she deserved one more."
+      ],
+      "paragraphs_de": [
+        "Juana Inés de la Cruz wurde im 17. Jahrhundert im heutigen Mexiko geboren, als das Land noch zu Neuspanien gehörte. Schon als Kind wollte sie alles lernen, was sie konnte. Man erzählt, dass sie sehr früh lesen lernte und immer nach Büchern fragte.",
+        "Damals hatten Frauen fast keinen Zugang zur Universität, und die meisten mussten heiraten oder in ein Kloster eintreten. Juana zog das Kloster vor, das ihr Zeit und einen ruhigen Ort zum Lesen, Schreiben und Studieren gab. Dort nahm sie den Namen Sor Juana an. Im Lauf der Jahre baute sie eine für ihre Zeit sehr große Bibliothek mit Büchern über Literatur, Wissenschaft und Religion auf.",
+        "Sor Juana schrieb Gedichte und Theaterstücke, die noch heute gelesen werden. In ihren Versen spricht sie über die Liebe, das Wissen und die Art, wie die Gesellschaft Frauen sah. Viele halten sie für eine der wichtigsten Stimmen der spanischsprachigen Literatur.",
+        "1691 schrieb sie einen berühmten Brief, die Respuesta a Sor Filotea de la Cruz. Darin verteidigte sie, dass auch Frauen das Recht haben zu studieren und zu denken, was viele Männer ihrer Zeit nicht akzeptierten. Heute lesen viele diesen Text als Vorläufer des feministischen Denkens in der spanischsprachigen Welt.",
+        "Sor Juana starb 1695, als sie während einer Epidemie anderen kranken Nonnen half. In Mexiko ist die Erinnerung an sie sehr lebendig: Ihr Porträt ist auf dem 200-Peso-Schein, und viele Schulen und Straßen tragen ihren Namen. Wer Spanisch lernt, entdeckt beim Lesen einiger ihrer Gedichte, wie die Sprache in einer anderen Epoche klang.",
+        "Ihre Geschichte hinterlässt auch eine Frage, die bis heute aktuell ist: Wer darf studieren, und wer entscheidet, was für eine Frau möglich ist? Zu ihrer Zeit fand Sor Juana unter den wenigen Möglichkeiten, die sie hatte, eine Lösung, schrieb aber sehr klar darüber, was sie brauchte: Bücher, Stille und die Freiheit zu denken. Deshalb taucht ihr Name heute in Literaturkursen, in Museen und in Gesprächen über die Gleichberechtigung von Frauen in der Bildung auf.",
+        "Wissenswert: Sor Juana wird auch «la Décima Musa» (die zehnte Muse) genannt. In der griechischen Mythologie gab es neun Musen, und der Beiname sagt, dass sie so genial war, dass sie eine weitere verdiente."
+      ],
+      "glossary": [
+        {
+          "w": "el siglo",
+          "en": "century",
+          "de": "das Jahrhundert"
+        },
+        {
+          "w": "la Nueva España",
+          "en": "New Spain (colonial Mexico)",
+          "de": "Neuspanien"
+        },
+        {
+          "w": "el convento",
+          "en": "convent",
+          "de": "das Kloster"
+        },
+        {
+          "w": "la monja",
+          "en": "nun",
+          "de": "die Nonne"
+        },
+        {
+          "w": "la biblioteca",
+          "en": "library",
+          "de": "die Bibliothek"
+        },
+        {
+          "w": "los versos",
+          "en": "verses, lines of poetry",
+          "de": "die Verse"
+        },
+        {
+          "w": "la obra de teatro",
+          "en": "play",
+          "de": "das Theaterstück"
+        },
+        {
+          "w": "defender",
+          "en": "to defend, to argue for",
+          "de": "verteidigen"
+        },
+        {
+          "w": "el antecedente",
+          "en": "forerunner, precedent",
+          "de": "der Vorläufer"
+        },
+        {
+          "w": "el billete",
+          "en": "banknote (also: ticket)",
+          "de": "der Geldschein"
+        },
+        {
+          "w": "la epidemia",
+          "en": "epidemic",
+          "de": "die Epidemie"
+        },
+        {
+          "w": "el apodo",
+          "en": "nickname",
+          "de": "der Spitzname"
+        }
+      ],
+      "grammar": "Relative pronouns connect two ideas in one sentence. Que is the most common and refers to things or people: “un convento, que le daba tiempo” (a convent, which gave her time). Use donde for places (“lo que hoy es México”, “el lugar donde estudia”) and quien/quienes for people after a preposition or a comma: “Para quienes aprenden español…”. Remember that, unlike English “which/who”, que is never dropped.",
+      "grammar_de": "Relativpronomen verbinden zwei Gedanken in einem Satz. Que ist das häufigste und steht für Sachen und Personen: «un convento, que le daba tiempo» (ein Kloster, das ihr Zeit gab). Für Orte benutzt man donde («el lugar donde estudia»), für Personen nach Präposition oder Komma quien/quienes: «Para quienes aprenden español…». Anders als im Englischen darf que nie weggelassen werden.",
+      "questions": [
+        "¿Por qué entró Sor Juana al convento?",
+        "¿Qué defendió Sor Juana en su carta de 1691?",
+        "¿Y tú? ¿Hay una mujer escritora, científica o artista que admiras? ¿Por qué?"
+      ],
+      "sources": []
     }
   ]
 }
