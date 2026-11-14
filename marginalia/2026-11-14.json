@@ -1,0 +1,230 @@
+{
+ "date": "2026-11-14",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Histórias de canções",
+   "title": "Trem das Onze: o samba do último trem",
+   "dek": "Um samba de 1964 sobre um namorado, uma mãe e um trem às onze da noite.",
+   "tags": [
+    "Trem das Onze",
+    "samba paulista",
+    "São Paulo",
+    "às + horas"
+   ],
+   "paragraphs": [
+    "Trem das Onze é um samba muito famoso de São Paulo. O autor é Adoniran Barbosa. A canção é de 1964. O grupo Demônios da Garoa canta a canção, e ela é um grande sucesso.",
+    "Adoniran Barbosa não é o nome verdadeiro dele. O nome verdadeiro é João Rubinato. Ele nasce em Valinhos, no estado de São Paulo, no dia 6 de agosto de 1910. Os pais dele são italianos.",
+    "Antes da música, Adoniran tem muitos trabalhos: ele é pintor, encanador e garçom. Depois, ele trabalha no rádio. Lá, ele faz comédia. Ele é muito engraçado!",
+    "A canção é sobre um homem apaixonado. Ele está com a namorada, mas não pode ficar. Por quê? O último trem para o Jaçanã sai às onze horas da noite. O Jaçanã é um bairro longe do centro.",
+    "E tem mais: a mãe dele não dorme antes de ele chegar em casa. Ele é filho único. Então, ele precisa pegar o trem!",
+    "Em 1964, o disco vende mais de 50 mil cópias. É muito! Hoje, no Jaçanã, tem até uma rua com o nome da canção: a Rua Trem das Onze.",
+    "Por que as pessoas amam esse samba? A história é simples, engraçada e doce. Para a revista Rolling Stone Brasil, é a 15ª (décima quinta) maior canção brasileira. Para muita gente, é um símbolo de São Paulo."
+   ],
+   "paragraphs_en": [
+    "Trem das Onze (\"The Eleven O'Clock Train\") is a very famous samba from São Paulo. The writer is Adoniran Barbosa. The song is from 1964. The group Demônios da Garoa sings the song, and it is a big hit.",
+    "Adoniran Barbosa is not his real name. His real name is João Rubinato. He is born in Valinhos, in the state of São Paulo, on 6 August 1910. His parents are Italian.",
+    "Before music, Adoniran has many jobs: he is a painter, a plumber and a waiter. Later, he works in radio. There, he does comedy. He is very funny!",
+    "The song is about a man in love. He is with his girlfriend, but he can't stay. Why? The last train to Jaçanã leaves at eleven o'clock at night. Jaçanã is a neighbourhood far from the centre.",
+    "And there is more: his mother doesn't sleep before he gets home. He is an only child. So he has to catch the train!",
+    "In 1964, the record sells more than 50,000 copies. That's a lot! Today, in Jaçanã, there is even a street with the song's name: Rua Trem das Onze.",
+    "Why do people love this samba? The story is simple, funny and sweet. For Rolling Stone Brasil magazine, it is the 15th (fifteenth) greatest Brazilian song. For many people, it is a symbol of São Paulo."
+   ],
+   "paragraphs_zh": [
+    "《Trem das Onze》（《十一点的火车》）是圣保罗一首非常有名的桑巴。作者是 Adoniran Barbosa。这首歌是 1964 年的。Demônios da Garoa 乐团唱了这首歌，它大受欢迎。",
+    "Adoniran Barbosa 不是他的真名。他的真名是 João Rubinato。他 1910 年 8 月 6 日出生在圣保罗州的 Valinhos。他的父母是意大利人。",
+    "在做音乐之前，Adoniran 做过很多工作：油漆工、水管工、服务员。后来，他在电台工作。在那里，他演喜剧。他非常有趣！",
+    "这首歌讲的是一个恋爱中的男人。他和女朋友在一起，但是不能留下来。为什么？去 Jaçanã 的最后一班火车晚上十一点开。Jaçanã 是一个离市中心很远的街区。",
+    "还有：他妈妈在他到家之前不睡觉。他是独生子。所以，他必须赶上火车！",
+    "1964 年，这张唱片卖出了五万多张。很多！今天，在 Jaçanã 甚至有一条以这首歌命名的街：Trem das Onze 街。",
+    "为什么大家喜欢这首桑巴？故事简单、好笑又甜蜜。《滚石》巴西版认为它是巴西第 15 伟大的歌曲。对很多人来说，它是圣保罗的象征。"
+   ],
+   "glossary": [
+    {
+     "w": "o trem",
+     "en": "train",
+     "zh": "火车"
+    },
+    {
+     "w": "último",
+     "en": "last",
+     "zh": "最后的"
+    },
+    {
+     "w": "sair",
+     "en": "to leave, to go out",
+     "zh": "离开；出发"
+    },
+    {
+     "w": "o bairro",
+     "en": "neighbourhood",
+     "zh": "街区，社区"
+    },
+    {
+     "w": "longe (de)",
+     "en": "far (from)",
+     "zh": "（离…）远"
+    },
+    {
+     "w": "verdadeiro",
+     "en": "real, true",
+     "zh": "真正的"
+    },
+    {
+     "w": "engraçado",
+     "en": "funny",
+     "zh": "好笑的，有趣的"
+    },
+    {
+     "w": "o filho único",
+     "en": "only child (son)",
+     "zh": "独生子"
+    }
+   ],
+   "grammar": "Telling the time: use \"às\" + the hour for \"at\": \"às onze horas\" (at eleven o'clock), \"às duas\" (at two). For one o'clock it is \"à uma\" (singular). Add \"da manhã\", \"da tarde\" or \"da noite\" for morning, afternoon or night.",
+   "grammar_zh": "说“在几点”：用 “às” + 钟点，例如 “às onze horas”（在十一点）、“às duas”（在两点）。一点钟用单数 “à uma”。后面可以加 “da manhã”（上午）、“da tarde”（下午）或 “da noite”（晚上）。",
+   "questions": [
+    "Qual é o nome verdadeiro de Adoniran Barbosa?",
+    "A que horas sai o último trem para o Jaçanã?",
+    "Por que o homem precisa ir para casa?"
+   ],
+   "sources": [
+    {
+     "title": "Trem das Onze — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Trem_das_Onze",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "title": "Adoniran Barbosa — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Adoniran_Barbosa",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
+  },
+  {
+   "lang": "pt",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Histórias de canções",
+   "title": "Trem das Onze: o samba de quem não pode perder a hora",
+   "dek": "Como um filho de imigrantes italianos transformou um horário de trem num dos maiores símbolos de São Paulo.",
+   "tags": [
+    "Trem das Onze",
+    "Adoniran Barbosa",
+    "samba de breque",
+    "antes de ele + infinitivo"
+   ],
+   "paragraphs": [
+    "Todo mundo já viveu essa cena: a conversa está boa, a noite ainda é uma criança, e de repente alguém olha o relógio e se levanta, meio sem graça, porque o último ônibus — ou o último trem — não espera ninguém. Em 1964, Adoniran Barbosa transformou esse pequeno drama cotidiano num samba que São Paulo nunca mais esqueceu.",
+    "Adoniran, na verdade, se chamava João Rubinato. Nasceu em Valinhos, no interior paulista, em 6 de agosto de 1910, sétimo filho de Francesco Rubinato e Emma Ricchini, imigrantes italianos vindos de Cavarzere, perto de Veneza. Dizem que ele chegou a falsificar a data de nascimento para poder trabalhar mais cedo. E trabalhou de tudo: foi varredor numa companhia ferroviária em Jundiaí e, em Santo André, tecelão, pintor, encanador, mascate e garçom. O nome artístico juntou o apelido dado por um amigo e o sobrenome do sambista Luiz Barbosa, seu ídolo.",
+    "Em 1933 mudou-se para a capital e tentou a sorte num programa de calouros da Rádio Cruzeiro do Sul. A partir de 1941, na Rádio Record, virou estrela do humor radiofônico, criando personagens com o roteirista Osvaldo Moles — entre eles o Charutinho, de 1955. Paralelamente, compunha sambas como Saudosa Maloca (1951) e Samba do Arnesto (1953), quase sempre gravados pelo conjunto Demônios da Garoa.",
+    "Trem das Onze segue a mesma receita. O narrador está com a namorada, mas precisa ir embora: mora no Jaçanã, bairro distante, e o último trem sai às onze da noite. Pior: a mãe não dorme antes de ele chegar, e ele é filho único. A gravação dos Demônios da Garoa vendeu mais de 50 mil discos na época — um número enorme para 1964.",
+    "O que faz o samba funcionar é o tom. Adoniran escrevia na língua das ruas paulistanas, com o jeito de falar dos operários, dos filhos de imigrantes, dos moradores do Bexiga e do Brás. Muita gente torceu o nariz para esse português \"errado\"; ele respondia que fazia samba para o povo. Em Trem das Onze, essa fala dá à desculpa do namorado um ar ao mesmo tempo cômico e terno.",
+    "A fama demorou a se converter em reconhecimento. Adoniran gravou seu primeiro disco próprio só em 1973 e morreu em São Paulo, em 23 de novembro de 1982, em situação financeira modesta. Hoje, porém, o Jaçanã tem uma Rua Trem das Onze, a Rolling Stone Brasil incluiu a canção entre as maiores da música brasileira (em 15º lugar) e, em 2023, Paulo Miklos o interpretou no cinema, no filme Saudosa Maloca.",
+    "Ao ouvir, preste atenção no breque: no samba de breque, os instrumentos param de repente e o cantor solta um comentário falado, quase uma piada. Repare também na mistura de pressa e carinho — é um samba sobre ir embora, mas cantado por quem gostaria muito de ficar."
+   ],
+   "paragraphs_en": [
+    "Everyone has lived this scene: the conversation is good, the night is still young, and suddenly someone looks at their watch and gets up, a little embarrassed, because the last bus — or the last train — waits for no one. In 1964 Adoniran Barbosa turned this small everyday drama into a samba that São Paulo has never forgotten.",
+    "Adoniran's real name was João Rubinato. He was born in Valinhos, in the interior of São Paulo state, on 6 August 1910, the seventh child of Francesco Rubinato and Emma Ricchini, Italian immigrants from Cavarzere, near Venice. It is said that he even falsified his date of birth so he could start working earlier. And he did every kind of work: he was a sweeper at a railway company in Jundiaí and, in Santo André, a loom operator, painter, plumber, peddler and waiter. His stage name combined a nickname given by a friend with the surname of the samba singer Luiz Barbosa, his idol.",
+    "In 1933 he moved to the city of São Paulo and tried his luck on a talent show at Rádio Cruzeiro do Sul. From 1941, at Rádio Record, he became a star of radio comedy, creating characters with the writer Osvaldo Moles — among them Charutinho, from 1955. At the same time he wrote sambas such as Saudosa Maloca (1951) and Samba do Arnesto (1953), almost always recorded by the group Demônios da Garoa.",
+    "Trem das Onze follows the same recipe. The narrator is with his girlfriend but has to leave: he lives in Jaçanã, a distant neighbourhood, and the last train leaves at eleven at night. Worse: his mother won't sleep until he gets home, and he is an only child. The Demônios da Garoa recording sold more than 50,000 records at the time — a huge number for 1964.",
+    "What makes the samba work is the tone. Adoniran wrote in the language of São Paulo's streets, with the way of speaking of factory workers, immigrants' children, and the people of Bexiga and Brás. Many people turned up their noses at this \"incorrect\" Portuguese; he replied that he wrote samba for the people. In Trem das Onze, this speech gives the boyfriend's excuse an air that is both comic and tender.",
+    "Fame was slow to turn into recognition. Adoniran recorded his first album of his own only in 1973 and died in São Paulo on 23 November 1982, with modest means. Today, however, Jaçanã has a Rua Trem das Onze, Rolling Stone Brasil included the song among the greatest in Brazilian music (in 15th place) and, in 2023, Paulo Miklos played him on screen in the film Saudosa Maloca.",
+    "When you listen, pay attention to the breque: in samba de breque the instruments suddenly stop and the singer drops a spoken comment, almost a joke. Notice, too, the mix of hurry and affection — it is a samba about leaving, sung by someone who would very much like to stay."
+   ],
+   "paragraphs_zh": [
+    "每个人都经历过这样的场景：聊得正开心，夜晚才刚开始，突然有人看了看表，有点不好意思地站起来——因为末班公交车，或者末班火车，不等任何人。1964 年，Adoniran Barbosa 把这个日常的小小戏剧写成了一首桑巴，圣保罗从此再也没有忘记它。",
+    "Adoniran 的真名是 João Rubinato。他 1910 年 8 月 6 日生于圣保罗州内陆的 Valinhos，是 Francesco Rubinato 和 Emma Ricchini 的第七个孩子，父母是来自威尼斯附近 Cavarzere 的意大利移民。据说他甚至改过出生日期，好早点出去工作。他什么活都干过：在 Jundiaí 的一家铁路公司当清扫工；在 Santo André 当过织布工、油漆工、水管工、小贩和服务员。他的艺名由朋友给的绰号和他的偶像、桑巴歌手 Luiz Barbosa 的姓组成。",
+    "1933 年，他搬到圣保罗市，在 Cruzeiro do Sul 电台的新人选秀节目里碰运气。从 1941 年起，他在 Record 电台成了广播喜剧明星，和编剧 Osvaldo Moles 一起创造了许多角色——其中包括 1955 年的 Charutinho。与此同时，他还写桑巴，比如《Saudosa Maloca》（1951）和《Samba do Arnesto》（1953），几乎都由 Demônios da Garoa 乐团录制。",
+    "《Trem das Onze》用的是同样的配方。叙述者和女朋友在一起，却不得不离开：他住在遥远的 Jaçanã 街区，末班火车晚上十一点开。更糟的是：他到家之前妈妈不肯睡，而他是独生子。Demônios da Garoa 的录音当时卖出了五万多张唱片——在 1964 年这是个巨大的数字。",
+    "这首桑巴成功的关键在于语气。Adoniran 用圣保罗街头的语言写歌，用的是工人、移民子女、Bexiga 和 Brás 居民的说话方式。很多人对这种“不正确”的葡萄牙语嗤之以鼻；他回答说，他是为老百姓写桑巴的。在《Trem das Onze》里，这种口语让男友的借口显得既滑稽又温柔。",
+    "名气很久才变成认可。Adoniran 直到 1973 年才录制了第一张个人专辑，1982 年 11 月 23 日在圣保罗去世，生活清贫。但如今，Jaçanã 有一条 Trem das Onze 街，《滚石》巴西版把这首歌列为巴西音乐最伟大的歌曲之一（第 15 名）；2023 年，Paulo Miklos 在电影《Saudosa Maloca》中扮演了他。",
+    "听的时候，注意那个 “breque”：在 samba de breque 里，乐器会突然停下，歌手插入一句说出来的评论，几乎像个笑话。也请留意其中匆忙与温情的混合——这是一首关于离开的桑巴，却由一个非常想留下来的人唱出来。"
+   ],
+   "glossary": [
+    {
+     "w": "a noite é uma criança",
+     "en": "the night is young (idiom)",
+     "zh": "夜晚才刚开始（习语）"
+    },
+    {
+     "w": "sem graça",
+     "en": "embarrassed, awkward",
+     "zh": "尴尬的，不好意思的"
+    },
+    {
+     "w": "chegar a + infinitivo",
+     "en": "to go as far as (doing)",
+     "zh": "甚至到了…的地步"
+    },
+    {
+     "w": "o mascate",
+     "en": "peddler, door-to-door seller",
+     "zh": "走街串巷的小贩"
+    },
+    {
+     "w": "o tecelão",
+     "en": "weaver, loom operator",
+     "zh": "织布工"
+    },
+    {
+     "w": "o programa de calouros",
+     "en": "talent show for newcomers",
+     "zh": "新人选秀节目"
+    },
+    {
+     "w": "paralelamente",
+     "en": "at the same time, alongside",
+     "zh": "同时，与此并行"
+    },
+    {
+     "w": "torcer o nariz (para)",
+     "en": "to turn up one's nose (at)",
+     "zh": "对…嗤之以鼻"
+    },
+    {
+     "w": "terno",
+     "en": "tender, affectionate",
+     "zh": "温柔的，深情的"
+    },
+    {
+     "w": "converter-se em",
+     "en": "to turn into (written register)",
+     "zh": "转变为（书面语）"
+    },
+    {
+     "w": "o breque",
+     "en": "break: sudden stop in samba de breque for a spoken aside",
+     "zh": "（桑巴中的）停顿插白"
+    },
+    {
+     "w": "o conjunto",
+     "en": "(music) group, band",
+     "zh": "乐团，组合"
+    }
+   ],
+   "grammar": "Written norm: \"antes de ele chegar\", not \"antes dele chegar\". When a pronoun or noun is the subject of the infinitive that follows, careful writing keeps the preposition separate: \"antes de ele chegar\", \"depois de a mãe dormir\". In speech (and in much informal writing) the contraction \"dele\", \"da\" is everywhere, but in exams and formal texts the separate form is expected.",
+   "grammar_zh": "书面规范：写 “antes de ele chegar”，而不是 “antes dele chegar”。当代词或名词是后面不定式的主语时，正式书面语里介词不与它缩合：“antes de ele chegar”、“depois de a mãe dormir”。口语（以及很多非正式文字）里到处都是缩合形式 “dele”“da”，但在考试和正式文本中应使用分开的写法。",
+   "questions": [
+    "Que trabalhos Adoniran Barbosa fez antes de se tornar famoso?",
+    "Por que o jeito de escrever de Adoniran foi criticado, e como ele respondia?",
+    "Você conhece alguma canção que transforma um problema do dia a dia em poesia? Qual?"
+   ],
+   "sources": [
+    {
+     "title": "Trem das Onze — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Trem_das_Onze",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "title": "Adoniran Barbosa — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Adoniran_Barbosa",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
+  }
+ ]
+}
