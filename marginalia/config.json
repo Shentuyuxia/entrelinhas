@@ -213,16 +213,17 @@
   }
  },
  "schedule": {
-  "en": "Advanced track (C1/C2 long reads, picks): PAUSED since 2026-11-03, earlier articles stay as a library. Beginner track (since 2026-11-15, revised): Mon–Fri one A2–B1 item with Chinese help only — Mon Mia's Diary (A2), Tue everyday dialogue (A2), Wed world cultures, customs & food (B1), Thu arts, music & ideas (B1), Fri places, landscapes & the outdoors or a magazine-style portrait (B1). In the app all English articles are together; a reading filter (全部 / 初级 A1–B1 / 高阶 B2–C2) narrows the list without touching the flashcards; the Basics entry deck is always on the Explore page.",
-  "de": "PAUSED since 2026-11-03 (the owner has plenty to read); the earlier German articles stay as a library.",
-  "fr": "Mon–Fri: 1 article, level by weekday (A1, A2, B1, B2, C1)",
+  "en": "Advanced: one C2 long read on Mon, Thu, Sun (themes rotate). Beginner A2–B1 track for a friend: Mon–Fri one item (Chinese help only). In the app all English articles are together; a reading filter (全部 / 初级 A1–B1 / 高阶 B2–C2) narrows the list.",
+  "de": "Tue: one C1 feature (themes rotate) · Fri: one B2 item (Alltagsdeutsch or Deutschland kurios, alternating).",
+  "fr": "Wed and Sat: one article; level cycles A2 → B1 → B2 → C1, themes rotate.",
   "pt": "ONE A1 item a day for the owner (Portuguese is the main language of the app). Mon Diário da Ana · Tue Diálogo · Wed Cultura (customs, festivals, food) · Thu Textinho · Fri Diário da Ana · Sat Música (A1 song story, Saturday task) · Sun Lugares e gente (landscapes, regions and the people who live there). B1/B2 extras for the heritage-speaker friend: Wed crônica, Sat B1/B2 song story.",
   "picks": "PAUSED since 2026-11-03 together with English and German.",
   "weekend": "Saturday and Sunday: no new English, German or French texts (no weekly review).",
   "es": "Mon–Fri around 18:00: 2 items, Latin American Spanish (ustedes, no vosotros) — one reading (culture, feminism, everyday life) and one conversation dialogue (small talk, asking questions, directions), levels rotating A1–B2 by weekday, with a short grammar note. Helper languages: English and German.",
-  "limit": "PT: one A1 item a day; FR and ES: two items Mon–Fri; EN, DE and picks paused.",
+  "limit": "PT: one A1 item every day (the owner's main language). EN/DE/FR: one article a day in rotation. ES: two items Mon–Fri for a friend. EN A2–B1: one item Mon–Fri for a friend.",
   "records": "Once a month (1st): +2 records each for pt and es, and a new card batch for Coisas do Brasil and Cosas de Latinoamérica.",
-  "wordbank": "Tuesday and Friday nights: only Spanish (A2→B1→A1→B2) and German UG grow; pt/de/en/fr CEFR decks are paused (enough cards for now)."
+  "wordbank": "Tuesday and Friday nights: only Spanish (A2→B1→A1→B2) and German UG grow; pt/de/en/fr CEFR decks are paused (enough cards for now).",
+  "rotation": "Advanced reading rotates by weekday, one foreign-language article a day besides Portuguese: Mon English · Tue German · Wed French · Thu English · Fri German · Sat French · Sun English."
  },
  "pt_focus": {
   "format": "One short A1 item a day, rotating: Diário da Ana (Mon, Wed, Sun; 4–6 short paragraphs), dialogue (Tue, Fri; 6–10 short lines), Textinho (Thu; 30–60 words); Saturday: the A1 song story. At most ~5 new words per item, lots of repetition. New glossary words go into the flashcards (data/pt-BS.json).",
