@@ -1167,6 +1167,53 @@ nav.tabs button[aria-selected="true"]{border-bottom-color:var(--ink)}
 }
 @media (min-width:1100px){ .top .langsw{margin-left:-16px} }
 .brand h1 .alt{color:var(--muted)!important}
+
+/* ===== v3c: one spacing scale (8 / 16 / 24 / 32 / 48) and three button levels ===== */
+:root{--s1:8px;--s2:16px;--s3:24px;--s4:32px;--s6:48px}
+.row{gap:var(--s1)}
+.side{gap:var(--s3)!important}
+.side .panel ~ .panel{padding-top:var(--s3)!important}
+.field{gap:4px;margin-bottom:var(--s2)}
+.checks{gap:var(--s1)}
+.panel h3{margin-bottom:var(--s1)}
+.reread{margin:var(--s3) 0 0;gap:var(--s1)}
+.reread h3{margin-bottom:4px}
+.reread button{padding:12px 16px;border-radius:12px}
+#tab-today .fold{margin-top:var(--s3)}
+#tab-dict{gap:var(--s2)}
+.fold>summary{padding:var(--s2) var(--s3)}
+.foldbody .side{margin-top:var(--s2)}
+.bar{margin-bottom:var(--s2)!important}
+.done2{gap:var(--s3);padding:var(--s2) 0 0}
+.d2-head{gap:var(--s2)}
+.d2-words,.d2-acts{padding-top:var(--s2)}
+.d2-words .small{margin:4px 0 12px}
+.d2-chips,.d2-acts{gap:var(--s1)}
+.d2c{padding:4px 14px}
+#tab-me{gap:var(--s3)!important}
+@media (min-width:641px){
+  .strip{margin-top:var(--s2)!important}
+  section.grid,section.me,#tab-me{margin-top:var(--s3)!important}
+  .grid{gap:var(--s4)}
+  .grid:not(.one) > aside,.grid:not(.one) > aside.side{padding-left:var(--s3)}
+}
+@media (min-width:1360px){ .grid{gap:var(--s4)} }
+@media (min-width:1100px){
+  .wrap{column-gap:var(--s6)!important;padding-block:var(--s3) var(--s6)}
+  .navbrand{padding:0 12px var(--s3)}
+  nav.tabs button{padding:10px 12px}
+}
+@media (min-width:1700px){ .grid{gap:var(--s6)} }
+/* buttons: primary = solid ink (one per screen), secondary = outline, quiet = text only */
+.btn{border-radius:10px!important;font-weight:500;padding:8px 16px;min-height:38px;font-size:14px}
+.btn.sm{padding:4px 12px;min-height:30px;font-size:13px}
+.btn.primary{font-weight:600}
+.btn.primary:hover{filter:none;opacity:.88}
+.btn:not(.primary):not(.ghost):not(.danger):not(.rec){background:none;border-color:var(--line);color:var(--ink)}
+.btn:not(.primary):not(.ghost):not(.danger):not(.rec):hover{border-color:var(--muted);background:var(--surface)}
+.btn.ghost{padding-inline:8px}
+.btn.ghost:hover{background:none!important}
+@media (max-width:640px){ .btn{min-height:42px} .btn.sm{min-height:34px} }
 </style>
 </head>
 <body>
@@ -1397,7 +1444,7 @@ nav.tabs button[aria-selected="true"]{border-bottom-color:var(--ink)}
         <p class="note hint">换设备或清理浏览器之前，先导出一份备份。</p>
         <p class="note" id="bk-last"></p>
         <div class="row" style="margin-top:12px">
-          <button class="btn primary" id="bk-export" type="button">导出备份文件</button>
+          <button class="btn" id="bk-export" type="button">导出备份文件</button>
           <label class="btn filebtn">导入备份文件<input type="file" id="bk-import" accept=".json,application/json"></label>
         </div>
         <div id="bk-confirm"></div>
@@ -1442,7 +1489,7 @@ nav.tabs button[aria-selected="true"]{border-bottom-color:var(--ink)}
               <div class="row"><button class="btn sm" id="sb-pw-save" type="button">保存密码</button></div>
               <p class="note hint" style="margin-top:6px">设置后，其他设备可以直接用邮箱 + 密码登录，不用等验证码邮件。</p>
             </details>
-            <div class="row" style="margin-top:10px"><button class="btn primary sm" id="sb-now" type="button">立即同步</button><button class="btn sm" id="sb-logout" type="button">退出登录</button><button class="btn ghost sm danger-t" id="sb-delete" type="button">删除账号和云端数据</button></div>
+            <div class="row" style="margin-top:10px"><button class="btn sm" id="sb-now" type="button">立即同步</button><button class="btn sm" id="sb-logout" type="button">退出登录</button><button class="btn ghost sm danger-t" id="sb-delete" type="button">删除账号和云端数据</button></div>
           </div>
         </div>
 
@@ -1451,7 +1498,7 @@ nav.tabs button[aria-selected="true"]{border-bottom-color:var(--ink)}
           <div id="sy-on" hidden>
             <p class="note" style="margin-top:10px">已连接：<b id="sy-repo-t"></b><br><span id="sy-last"></span></p>
             <label class="tog" style="margin-top:6px"><input type="checkbox" id="sy-mine-on" checked> 也同步「我的文章」</label>
-            <div class="row" style="margin-top:10px"><button class="btn primary sm" id="sy-now" type="button">立即同步</button><button class="btn sm" id="sy-copy" type="button">复制设置码</button><button class="btn ghost sm" id="sy-off" type="button">在本机停用</button></div>
+            <div class="row" style="margin-top:10px"><button class="btn sm" id="sy-now" type="button">立即同步</button><button class="btn sm" id="sy-copy" type="button">复制设置码</button><button class="btn ghost sm" id="sy-off" type="button">在本机停用</button></div>
           </div>
           <div id="sy-setup">
             <details class="sy-how" style="margin-top:10px"><summary>第一次设置（约 3 分钟）</summary>
