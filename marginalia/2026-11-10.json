@@ -536,6 +536,91 @@
         "And you? What do you do?"
       ],
       "sources": []
+    },
+    {
+      "lang": "en",
+      "level": "B1",
+      "kind": "feature",
+      "section": "World & Food",
+      "title": "Afternoon tea: the British habit that began with a hungry duchess",
+      "dek": "Tiny sandwiches, warm scones and a pot of tea. How did a snack become a national tradition?",
+      "paragraphs": [
+        "In the early nineteenth century, rich families in England ate a big breakfast, a small lunch and then dinner very late in the evening — often at eight o'clock or even later. That meant a long, hungry afternoon. One woman who felt this very strongly was Anna Russell, the seventh Duchess of Bedford.",
+        "Around the 1840s, the story goes, she started to feel what she called a 'sinking feeling' at about four o'clock. So she asked for a pot of tea, some bread and butter and a little cake to be brought to her room. Soon she invited friends to join her. A private snack slowly became a social event, and other upper-class families copied the idea.",
+        "Today, a classic afternoon tea has three parts. First come small 'finger' sandwiches with no crusts, for example cucumber or egg mayonnaise. Then there are scones, a kind of soft, round bread, served with jam and thick clotted cream. Finally, there are little cakes and pastries. Everything is served on a tall stand with two or three plates.",
+        "There is even a friendly argument about scones. In Devon, many people put the cream on first and the jam on top. In Cornwall, the next county, people usually do it the other way round. Both sides are sure they are right!",
+        "Many visitors think that 'high tea' is the elegant version of afternoon tea, but historically it was the opposite. High tea was an early evening meal for working families after a long day at work, with bread, cheese, vegetables and sometimes meat, eaten at the main dining table. Afternoon tea, on the other hand, was a light snack for people with free time.",
+        "So if a friend in Britain invites you for 'tea', ask a question first: do they mean a cup of tea, a plate of scones — or dinner?"
+      ],
+      "paragraphs_zh": [
+        "十九世纪初，英国的富裕家庭早餐吃得很丰盛，午餐吃得很少，而晚餐吃得很晚——常常在八点甚至更晚。这意味着一个漫长又饥饿的下午。有一位女士对此感受特别深，她就是第七代贝德福德公爵夫人安娜·罗素。",
+        "据说在1840年代前后，她开始在下午四点左右感到一种她称之为“往下沉的感觉”。于是她让人把一壶茶、一些黄油面包和一小块蛋糕送到她的房间。很快她就邀请朋友们一起来。一份私人的小点心慢慢变成了社交活动，其他上流家庭也纷纷效仿。",
+        "今天，经典的下午茶分三部分。先是去掉面包边的小“手指”三明治，比如黄瓜或蛋黄酱鸡蛋三明治。然后是司康饼——一种松软的圆面包，配果酱和浓稠的凝脂奶油。最后是小蛋糕和小点心。所有东西都放在一个有两三层盘子的高架上。",
+        "关于司康饼，甚至还有一场友好的争论。在德文郡，很多人先抹奶油，再在上面放果酱。在相邻的康沃尔郡，人们通常反过来做。双方都确信自己是对的！",
+        "很多游客以为“high tea”是下午茶的高雅版本，但从历史上看恰恰相反。High tea 是劳动家庭在一天辛苦工作之后吃的傍晚正餐，有面包、奶酪、蔬菜，有时还有肉，在主餐桌上吃。而下午茶则是有闲暇的人吃的轻便小点心。",
+        "所以，如果英国朋友请你去“喝茶”，先问一句：他们指的是一杯茶、一盘司康饼——还是晚饭？"
+      ],
+      "glossary": [
+        {
+          "w": "duchess",
+          "en": "a woman with a very high noble title; the wife of a duke",
+          "zh": "公爵夫人"
+        },
+        {
+          "w": "the story goes",
+          "en": "people say that (we are not 100% sure)",
+          "zh": "据说"
+        },
+        {
+          "w": "social event",
+          "en": "an occasion when people meet to enjoy themselves together",
+          "zh": "社交活动"
+        },
+        {
+          "w": "copy an idea",
+          "en": "to do the same thing as someone else",
+          "zh": "效仿；照着做"
+        },
+        {
+          "w": "crust",
+          "en": "the hard outside edge of bread",
+          "zh": "面包皮；面包边"
+        },
+        {
+          "w": "clotted cream",
+          "en": "very thick cream from the south-west of England",
+          "zh": "凝脂奶油"
+        },
+        {
+          "w": "the other way round",
+          "en": "in the opposite order",
+          "zh": "反过来"
+        },
+        {
+          "w": "county",
+          "en": "one of the areas that Britain is divided into",
+          "zh": "郡"
+        },
+        {
+          "w": "on the other hand",
+          "en": "used to show a different or opposite point",
+          "zh": "另一方面；而"
+        }
+      ],
+      "grammar": "To compare the past and today, the text uses the past simple for finished history (“she started to feel…”, “other families copied the idea”) and the present simple for today (“Today, a classic afternoon tea has three parts”). Linking words like 'so', 'soon', 'finally' and 'on the other hand' help the reader follow the story.",
+      "grammar_zh": "文章用一般过去时讲已经结束的历史（“she started to feel…”，“other families copied the idea”），用一般现在时讲今天的情况（“Today, a classic afternoon tea has three parts”）。so、soon、finally、on the other hand 这些连接词帮助读者跟上叙述的顺序和对比。",
+      "questions": [
+        "Why did the Duchess of Bedford feel hungry in the afternoon?",
+        "What was 'high tea' originally?",
+        "What do you think: cream first or jam first? Is there a similar food argument in your country?"
+      ],
+      "sources": [
+        {
+          "title": "Lovefood — A history of afternoon tea",
+          "url": "https://lovefood.com/guides/87666/a-history-of-afternoon-tea-why-we-love-it-and-how-to-host-your-own",
+          "license": "link only"
+        }
+      ]
     }
   ]
 }

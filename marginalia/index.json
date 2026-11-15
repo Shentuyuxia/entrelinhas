@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:40:57+00:00",
+ "updated": "2026-11-15T07:51:29+00:00",
  "days": [
   {
    "date": "2026-11-14",
@@ -64,6 +64,14 @@
      "kind": "dialogue",
      "level": "A1",
      "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "en",
+     "title": "The Giant's Causeway: stepping stones made by fire",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
     }
    ]
   },
@@ -108,6 +116,14 @@
      "title": "Messages with Sam",
      "kind": "brief",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "en",
+     "title": "If you change every part, is it still the same thing?",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]
@@ -162,6 +178,14 @@
      "kind": "story",
      "level": "A1",
      "hour": null
+    },
+    {
+     "i": 6,
+     "lang": "en",
+     "title": "The Great Wave: one picture, seen all over the world",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
     }
    ]
   },
@@ -207,6 +231,14 @@
      "kind": "dialogue",
      "level": "A1",
      "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "en",
+     "title": "Afternoon tea: the British habit that began with a hungry duchess",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
     }
    ]
   },
@@ -251,6 +283,14 @@
      "title": "Mia's Diary 1: A new home",
      "kind": "story",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "en",
+     "title": "What are you doing this weekend?",
+     "kind": "dialogue",
+     "level": "A2",
      "hour": null
     }
    ]

@@ -548,6 +548,80 @@
     "Where do Mia and Sam meet?"
    ],
    "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Ideas",
+   "title": "If you change every part, is it still the same thing?",
+   "dek": "An old puzzle about a ship, a bike and maybe you.",
+   "paragraphs": [
+    "Imagine you have an old wooden boat. Every year, one plank of wood becomes rotten, so you take it out and put in a new one. After twenty years, every single plank has been replaced. Here is the question: is it still the same boat?",
+    "This puzzle is more than two thousand years old. The Greek writer Plutarch described it with the ship of the hero Theseus. The people of Athens kept his ship for a very long time, and whenever a piece of wood got old, they replaced it. Philosophers began to argue: was it really Theseus's ship any more, or only a copy?",
+    "Many people answer 'yes, it's the same boat', because it changed slowly and it always had the same name, the same owner and the same job. Other people say 'no', because none of the original material is left. Then the puzzle becomes even harder: what if someone collected all the old planks and built a second boat from them? Which one is the real ship?",
+    "You can find the same question in everyday life. If you have a bike and, over the years, you change the tyres, the seat, the chain and finally the frame, is it still 'your old bike'? Many people would say yes — it has a history with you, even though nothing physical is the same.",
+    "And the strangest version is about us. The cells in our bodies are replaced again and again, and our ideas and tastes change too. You are not exactly the same person you were at ten years old. And yet you still say 'I' when you talk about that child. Perhaps what makes something 'the same' is not the material, but the story that connects the parts.",
+    "There is no single correct answer. That is why the puzzle is still useful: it makes us think carefully about what we mean by 'the same'."
+   ],
+   "paragraphs_zh": [
+    "想象你有一条旧木船。每年都有一块木板腐烂了，于是你把它拆下来，换上一块新的。二十年后，每一块木板都被换过了。问题来了：它还是同一条船吗？",
+    "这个难题已经有两千多年了。希腊作家普鲁塔克用英雄忒修斯的船来描述它。雅典人把他的船保存了很长时间，每当一块木头变旧，他们就把它换掉。哲学家们开始争论：它真的还是忒修斯的船吗，还是只是一件复制品？",
+    "很多人回答“是的，还是同一条船”，因为它是慢慢变化的，而且一直有同样的名字、同样的主人、同样的用途。另一些人说“不是”，因为原来的材料一点都没剩下。接着难题变得更难了：如果有人把所有旧木板收集起来，用它们造了第二条船呢？哪一条才是真正的船？",
+    "在日常生活里也能找到同样的问题。如果你有一辆自行车，这些年你换了轮胎、车座、链条，最后连车架也换了，它还是“你那辆旧自行车”吗？很多人会说是——它和你有一段共同的经历，尽管实物上已经没有一样是原来的了。",
+    "最奇怪的版本是关于我们自己的。我们身体里的细胞一次又一次地被替换，我们的想法和口味也在改变。你和十岁时的你并不完全一样。可是当你谈起那个孩子时，你仍然说“我”。也许让一样东西成为“同一个”的，不是材料，而是把各个部分连在一起的故事。",
+    "这个问题没有唯一正确的答案。正因为如此，这个难题至今仍然有用：它让我们认真思考，我们所说的“同一个”究竟是什么意思。"
+   ],
+   "glossary": [
+    {
+     "w": "plank",
+     "en": "a long, flat piece of wood",
+     "zh": "木板"
+    },
+    {
+     "w": "rotten",
+     "en": "old and bad, starting to break down",
+     "zh": "腐烂的"
+    },
+    {
+     "w": "replace",
+     "en": "to put something new in the place of something old",
+     "zh": "替换；更换"
+    },
+    {
+     "w": "puzzle",
+     "en": "a difficult question that makes you think",
+     "zh": "难题；谜题"
+    },
+    {
+     "w": "philosopher",
+     "en": "a person who studies big questions about life and knowledge",
+     "zh": "哲学家"
+    },
+    {
+     "w": "original",
+     "en": "the first one, from the beginning",
+     "zh": "原来的；最初的"
+    },
+    {
+     "w": "even though",
+     "en": "despite the fact that",
+     "zh": "尽管；即使"
+    },
+    {
+     "w": "connect",
+     "en": "to join two or more things together",
+     "zh": "连接；联系"
+    }
+   ],
+   "grammar": "Present perfect for a result now: “After twenty years, every single plank has been replaced.” (have/has + past participle). Compare the past simple for a finished time in history: “Plutarch described it.” Use the present perfect when the past action matters for the present situation.",
+   "grammar_zh": "现在完成时表示对现在的结果：“After twenty years, every single plank has been replaced.”（二十年后，每一块木板都已经被换过了。）结构是 have/has + 过去分词。对比一般过去时，用于历史上已经结束的时间：“Plutarch described it.” 当过去的动作对现在有影响时，用现在完成时。",
+   "questions": [
+    "What happened to Theseus's ship in Athens?",
+    "Why do some people say it is no longer the same ship?",
+    "What do you think: are you the same person you were ten years ago? Why?"
+   ],
+   "sources": []
   }
  ]
 }

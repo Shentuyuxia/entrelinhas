@@ -578,6 +578,96 @@
     "And you? What do you usually order in a café?"
    ],
    "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Places",
+   "title": "The Giant's Causeway: stepping stones made by fire",
+   "dek": "On the north coast of Northern Ireland, tens of thousands of stone columns go down into the sea. Science and a legend tell two very different stories.",
+   "paragraphs": [
+    "When you first arrive, it looks almost too perfect to be natural. Thousands of grey-black stone columns stand close together like the cells of a giant honeycomb. Some are tall, some are short, and many of their tops are flat, so you can walk across them like stepping stones until they disappear into the waves.",
+    "This is the Giant's Causeway, on the north coast of County Antrim in Northern Ireland. There are more than 40,000 columns here, made of a dark volcanic rock called basalt. Together with the coast around it, it is Northern Ireland's only UNESCO World Heritage Site.",
+    "So how were the columns made? About sixty million years ago, this area was very volcanic. Hot, liquid lava flowed out and filled a kind of lake. Because the lava was deep and cooled slowly and evenly, it shrank as it became solid, and it cracked — a bit like mud that dries in the sun. The cracks formed long, straight-sided columns.",
+    "Local people, of course, have an older and much more fun explanation. According to the legend, an Irish giant called Finn McCool (in Irish, Fionn mac Cumhaill) built the causeway across the sea so he could fight a Scottish giant. In one popular version, when Finn saw how huge his enemy was, he ran home. His clever wife dressed him as a baby. When the Scottish giant saw the size of the 'baby', he imagined how enormous the father must be — and ran back to Scotland, breaking the causeway behind him.",
+    "Today, you can walk down to the stones from the visitor centre, or follow the cliff path above for wonderful views of the sea. Go early in the morning or late in the afternoon if you want fewer people. And bring good shoes: the stones are often wet and slippery.",
+    "Whether you believe the geologists or the storytellers, it is hard to stand there and not feel small."
+   ],
+   "paragraphs_zh": [
+    "刚到的时候，它看起来完美得几乎不像是天然的。成千上万根灰黑色的石柱紧紧挨在一起，像一个巨大蜂巢的格子。有的高，有的矮，许多石柱顶部是平的，所以你可以像踩垫脚石一样走过去，直到它们消失在海浪里。",
+    "这就是巨人之路，位于北爱尔兰安特里姆郡的北部海岸。这里有四万多根石柱，由一种叫玄武岩的深色火山岩构成。它和周围的海岸一起，是北爱尔兰唯一的联合国教科文组织世界遗产。",
+    "那么这些石柱是怎么形成的呢？大约六千万年前，这一带火山活动非常频繁。滚烫的液态熔岩流出来，填满了一个类似湖泊的地方。因为熔岩很深，冷却得又慢又均匀，它在凝固时收缩，裂开——有点像在太阳下晒干的泥巴。这些裂缝形成了一根根侧面笔直的长石柱。",
+    "当然，当地人有一个更古老、也有趣得多的解释。传说中，一个叫芬·麦库尔（爱尔兰语 Fionn mac Cumhaill）的爱尔兰巨人在海上修了这条路，好去和一个苏格兰巨人打架。在一个流行的版本里，芬看到对手那么高大，就跑回了家。他聪明的妻子把他打扮成婴儿。苏格兰巨人看到这个“婴儿”的个头，想象他父亲该有多么庞大——于是逃回苏格兰，一路上把身后的堤道踩断了。",
+    "今天，你可以从游客中心步行走到石柱那里，也可以沿着上方的悬崖小路走，欣赏美丽的海景。如果想人少一点，就早上早点去或者傍晚去。还要穿一双好鞋：石头常常又湿又滑。",
+    "无论你相信地质学家还是讲故事的人，站在那里，都很难不觉得自己渺小。"
+   ],
+   "glossary": [
+    {
+     "w": "column",
+     "en": "a tall, straight shape like a pillar",
+     "zh": "柱子；柱状物"
+    },
+    {
+     "w": "honeycomb",
+     "en": "the shape bees make, with many six-sided cells",
+     "zh": "蜂巢"
+    },
+    {
+     "w": "stepping stones",
+     "en": "flat stones you walk on to cross water",
+     "zh": "垫脚石；踏脚石"
+    },
+    {
+     "w": "volcanic",
+     "en": "coming from or related to a volcano",
+     "zh": "火山的"
+    },
+    {
+     "w": "lava",
+     "en": "hot liquid rock that comes out of a volcano",
+     "zh": "熔岩"
+    },
+    {
+     "w": "shrink",
+     "en": "to become smaller",
+     "zh": "收缩；缩小"
+    },
+    {
+     "w": "crack",
+     "en": "to break so that thin lines appear",
+     "zh": "裂开"
+    },
+    {
+     "w": "legend",
+     "en": "an old, traditional story that may not be true",
+     "zh": "传说"
+    },
+    {
+     "w": "cliff",
+     "en": "a high, steep rock face, often next to the sea",
+     "zh": "悬崖"
+    },
+    {
+     "w": "slippery",
+     "en": "wet or smooth, so it is easy to fall",
+     "zh": "滑的"
+    }
+   ],
+   "grammar": "Past simple vs past continuous: the past continuous (was/were + -ing) describes a longer background action, and the past simple a shorter, completed action: “The lava was cooling slowly when it cracked.” In the legend, the actions follow each other in the past simple: “Finn saw… he ran home… his wife dressed him…”",
+   "grammar_zh": "一般过去时与过去进行时：过去进行时（was/were + -ing）描述一个持续的背景动作，一般过去时描述一个较短、已经完成的动作：“The lava was cooling slowly when it cracked.”（熔岩正在慢慢冷却时裂开了。）传说里一连串先后发生的动作则都用一般过去时：“Finn saw… he ran home… his wife dressed him…”",
+   "questions": [
+    "How did the columns form, according to scientists?",
+    "Why did the Scottish giant run away in the legend?",
+    "Is there a famous place with a legend in your country? Tell the story."
+   ],
+   "sources": [
+    {
+     "title": "British Geological Survey — The Giant's Causeway and Causeway Coast",
+     "url": "https://www.bgs.ac.uk/discovering-geology/maps-and-resources/office-geology/the-giants-causeway-and-causeway-coast/",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

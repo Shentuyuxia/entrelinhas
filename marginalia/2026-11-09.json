@@ -458,6 +458,96 @@
     "And you? Where are you from, and how old are you?"
    ],
    "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Dialogue",
+   "title": "What are you doing this weekend?",
+   "dek": "Sam calls Mia on Friday evening. They make plans — and change them.",
+   "paragraphs": [
+    "Sam: Hi Mia, it's Sam. Are you busy?",
+    "Mia: Not really. I'm just making dinner. What's up?",
+    "Sam: What are you doing this weekend? Have you got any plans?",
+    "Mia: Not yet. I'm going to clean my flat on Saturday morning. That's all.",
+    "Sam: Cleaning? On a Saturday? Come on! The weather's going to be lovely.",
+    "Mia: Really? The forecast said rain.",
+    "Sam: Not any more. It's going to be sunny and about fourteen degrees. Let's go to the coast!",
+    "Mia: That sounds great. How are we going to get there?",
+    "Sam: By train. It only takes about forty minutes. We can walk along the beach and have fish and chips.",
+    "Mia: Fish and chips by the sea… very British! What time is the train?",
+    "Sam: There's one at half past nine. Is that too early for you?",
+    "Mia: A bit, but it's fine. I'll bring some coffee for the train.",
+    "Sam: Perfect. And your flat?",
+    "Mia: My flat can wait until Sunday!"
+   ],
+   "paragraphs_zh": [
+    "萨姆：嗨，米娅，我是萨姆。你忙吗？",
+    "米娅：不太忙。我正在做晚饭。怎么了？",
+    "萨姆：你这个周末做什么？有什么计划吗？",
+    "米娅：还没有。我打算星期六上午打扫公寓。就这些。",
+    "萨姆：打扫？在星期六？别这样嘛！天气会很好的。",
+    "米娅：真的吗？天气预报说要下雨。",
+    "萨姆：现在不会了。会是晴天，大约十四度。我们去海边吧！",
+    "米娅：听起来很棒。我们怎么去？",
+    "萨姆：坐火车。只要四十分钟左右。我们可以沿着海滩散步，吃炸鱼薯条。",
+    "米娅：在海边吃炸鱼薯条……太英国了！火车几点？",
+    "萨姆：九点半有一班。对你来说太早吗？",
+    "米娅：有点早，不过没关系。我带点咖啡在火车上喝。",
+    "萨姆：太好了。那你的公寓呢？",
+    "米娅：我的公寓可以等到星期天！"
+   ],
+   "glossary": [
+    {
+     "w": "What's up?",
+     "en": "an informal way to ask what is happening or what someone wants",
+     "zh": "怎么了？有什么事？"
+    },
+    {
+     "w": "Have you got any plans?",
+     "en": "British English: do you have plans?",
+     "zh": "你有什么安排吗？"
+    },
+    {
+     "w": "Come on!",
+     "en": "said to encourage someone or to say 'don't be silly'",
+     "zh": "别这样嘛！来吧！"
+    },
+    {
+     "w": "forecast",
+     "en": "what experts say the weather will be",
+     "zh": "（天气）预报"
+    },
+    {
+     "w": "coast",
+     "en": "the land next to the sea",
+     "zh": "海岸；海边"
+    },
+    {
+     "w": "That sounds great.",
+     "en": "a friendly way to say you like an idea",
+     "zh": "听起来很棒。"
+    },
+    {
+     "w": "fish and chips",
+     "en": "fried fish with thick fried potatoes, a classic British meal",
+     "zh": "炸鱼薯条"
+    },
+    {
+     "w": "can wait",
+     "en": "is not urgent; you can do it later",
+     "zh": "可以等等；不着急"
+    }
+   ],
+   "grammar": "Talking about the future with going to: we use it for plans (“I'm going to clean my flat”) and for predictions when we can see signs now (“The weather's going to be lovely”). For a decision made at the moment of speaking, we often use will: “I'll bring some coffee.”",
+   "grammar_zh": "用 going to 谈将来：表示已经打算好的计划（“I'm going to clean my flat”），或根据现在的迹象作出的预测（“The weather's going to be lovely”）。如果是说话当下才做的决定，常用 will：“I'll bring some coffee.”（那我带点咖啡。）",
+   "questions": [
+    "Why does Mia want to stay at home on Saturday?",
+    "How are they going to travel to the coast?",
+    "And you? What are you going to do this weekend?"
+   ],
+   "sources": []
   }
  ]
 }
