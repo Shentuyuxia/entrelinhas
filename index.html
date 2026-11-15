@@ -2161,7 +2161,7 @@ function startCram(list,title,mode){
 }
 function next(){ sess.cur=sess.queue.shift()||null; sess.flipped=false; renderCard(); if(sess.cur&&S.settings.autoSpeak&&S.settings.dir==="t2g") speak(sess.cur.c.w); }
 function flip(){
-  if(!sess||!sess.cur||sess.flipped) return; sess.flipped=true; sess.anim=1; renderCard();
+  if(!sess||!sess.cur||sess.flipped) return; sess.flipped=true; sess.anim=1; try{ localStorage.setItem("pw-fh",fhN()+1); }catch(e){} renderCard();
   const id=sess.cur.c.id;
   if(S.settings.autoMine&&(audsOf(id).w||audsOf(id).s)) playMine(id);
   else if(S.settings.autoSpeak&&S.settings.dir==="g2t") speak(sess.cur.c.w);
@@ -2195,6 +2195,7 @@ function togglePile(id){
   save(); renderStrip();
 }
 
+function fhN(){ try{ return +localStorage.getItem("pw-fh")||0; }catch(e){ return 0; } } // the "tap to flip" hint shows only for the first five flips
 function renderCard(){
   const area=$("#card-area");
   $("#sess-title").textContent=sess?sess.title:"今日学习";
@@ -2229,7 +2230,7 @@ function renderCard(){
         <button class="g1" data-g="1">模糊<small>${preview(st,1)} · 2</small></button>
         <button class="g2" data-g="2">记得<small>${preview(st,2)} · 3</small></button>
         <button class="g3" data-g="3">简单<small>${preview(st,3)} · 4</small></button></div>`
-    : "";
+    : (fhN()<5?`<p class="fliphint">点卡片翻面</p>`:"");
   area.innerHTML=`<div class="card">${top}<div class="card-body">${body}</div></div>${actions}
     <div class="foot"><span>本轮剩余 ${sess.queue.length+1} 张</span>${sess.flipped&&!hasImg&&!mine.length&&!hasAud?`<button class="btn ghost sm" id="c-add">${I.pen} 例句 / 录音</button>`:`<span>${sess.mode==="pile"?"评「简单」会移出生词堆":""}</span>`}</div>`;
   fillImgs(area);
