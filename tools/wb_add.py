@@ -18,11 +18,11 @@ D = os.path.join(os.path.dirname(__file__), "..", "data")
 LV = ["A1", "A2", "B1", "B2", "C1", "C2", "UG", "BS"]
 TARGET = {"A1": 600, "A2": 600, "B1": 1000, "B2": 1500, "C1": 1500, "C2": 1500, "UG": 800, "BS": 1000}  # BS has no fixed target: it grows with the words of the daily Portuguese readings
 # UG = Umgangssprache (German only): everyday spoken phrases, idioms and reactions; pos "expr", plural field ""
-# BS = Básico / 入门 (Portuguese only): greetings, dates, time, numbers, weather, moods; since 2026-10-30 the evening
+# BS = Básico / 入门 (Portuguese, and English since 2026-11-15 for the beginner track): greetings, dates, time, numbers, weather, moods; since 2026-10-30 the evening
 #      Portuguese task also appends the new glossary words of that day's A1 texts here, so the flashcards follow the readings
 def lvs(l):
     if l == "es": return LV[:4] + ["BS"]   # Spanish: A1–B2 plus the entry deck BS (Básico)
-    return LV[:6] + (["UG"] if l == "de" else []) + (["BS"] if l == "pt" else [])
+    return LV[:6] + (["UG"] if l == "de" else []) + (["BS"] if l in ("pt", "en") else [])
 
 def path(l, lv): return os.path.join(D, f"{l}-{lv}.json")
 def load(l, lv):

@@ -41,6 +41,14 @@
     "A2",
     "B1"
    ]
+  },
+  "en_beg": {
+   "Mon": "A1",
+   "Tue": "A1",
+   "Wed": "A1",
+   "Thu": "A1",
+   "Fri": "A1",
+   "note": "from syllabus week 12 on: A2 on Wed and Fri"
   }
  },
  "note": "Change a level here (A1–C2); the daily tasks read it before writing. English, German, French and Spanish come Monday to Friday; the weekend is for review. French: ONE article a day, level rotating by weekday (levels.fr). Spanish (Latin American) for a friend: two items Monday to Friday, levels by weekday in levels.es.",
@@ -206,7 +214,7 @@
   }
  },
  "schedule": {
-  "en": "PAUSED since 2026-11-03 (the owner has plenty to read); the earlier English articles stay as a library.",
+  "en": "Advanced track (C1/C2 long reads, picks): PAUSED since 2026-11-03, earlier articles stay as a library. Beginner track (since 2026-11-15): Mon–Fri one short A1/A2 item — Mon/Wed 'Mia's Diary', Tue/Fri dialogue, Thu short text — following en_beg_focus.syllabus. The app shows A1/A2 English items only on the beginner track.",
   "de": "PAUSED since 2026-11-03 (the owner has plenty to read); the earlier German articles stay as a library.",
   "fr": "Mon–Fri: 1 article, level by weekday (A1, A2, B1, B2, C1)",
   "pt": "ONE short, easy A1 item a day (since 2026-11-03): Mon/Wed/Sun diary, Tue/Fri dialogue, Thu Textinho, Sat the A1 song story (Saturday task). B1/B2 extras for the heritage-speaker friend (Wed crônica, Sat B1/B2 song story) are invisible at A1.",
@@ -311,5 +319,31 @@
    "grammar": "grammar (English) + grammar_de"
   },
   "tags": "every new item gets \"tags\": 2–4 short strings (country/region, topic or situation, grammar point), read by tools/mg_recent.py"
+ },
+ "en_beg_focus": {
+  "who": "Adults starting English from zero; helper languages Chinese, German, Brazilian Portuguese.",
+  "start": "2026-11-09",
+  "story": "Mia's Diary: Mia (28, from Hamburg) moved to Bristol; small flat no. 4 with a balcony; works at a bookshop on Park Street; boss Helen; colleague and friend Sam (25, from Manchester, likes music and books about the sea); neighbour Mr Raj Patel (teacher, from Leicester) and his brown dog Biscuit.",
+  "syllabus": [
+   "1 greetings, introductions, to be (I'm, you're, he's)",
+   "2 numbers & prices, shopping, Can I have…?",
+   "3 time & daily routine, present simple (he works)",
+   "4 family, possessives (my, your, his, her, our, their)",
+   "5 food & drink, some/any, countable/uncountable",
+   "6 the home, there is / there are, prepositions of place",
+   "7 town & directions, imperatives (turn left, go straight on)",
+   "8 weather & seasons, like + -ing",
+   "9 free time, adverbs of frequency (always, usually, never)",
+   "10 right now: present continuous",
+   "11 yesterday: was / were",
+   "12 past simple, regular verbs (-ed)",
+   "13 past simple, common irregular verbs",
+   "14 plans: going to",
+   "15 comparing: comparatives (bigger, more interesting)",
+   "16 abilities: can / can't",
+   "17 the body & feeling ill, have got",
+   "18 travel & transport, review"
+  ],
+  "rule": "Week number = whole weeks since 'start' + 1 (wrap around after the last line). Mostly present tense until week 11; at most ~5 new words per item; reuse earlier words."
  }
 }

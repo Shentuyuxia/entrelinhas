@@ -364,6 +364,100 @@
     "E você? Você estuda ou trabalha? Qual é o seu curso?"
    ],
    "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diary",
+   "series": {
+    "name": "Mia's Diary",
+    "episode": 1
+   },
+   "title": "Mia's Diary 1: A new home",
+   "dek": "Mia has a new flat in a new city. This is the first page of her diary.",
+   "paragraphs": [
+    "Monday, 9 November 2026. Hello, diary! My name is Mia. I'm 28 years old. I'm from Hamburg, in Germany. Now I live in Bristol, in England.",
+    "I have a new flat. It's small, but it's nice. My flat is number 4. It has one bedroom, a kitchen and a small balcony.",
+    "I have a new job, too. I work in a bookshop. My first day is on Wednesday. I'm a little nervous!",
+    "My neighbour is Mr Patel. He's very friendly. He has a dog. The dog's name is Biscuit. Biscuit is brown and very funny.",
+    "It's 10 o'clock in the evening now. It's raining. I'm tired, but I'm happy. Good night, diary!"
+   ],
+   "paragraphs_zh": [
+    "2026年11月9日，星期一。你好，日记！我叫米娅。我28岁。我来自德国汉堡。现在我住在英国的布里斯托尔。",
+    "我有了一间新公寓。它很小，但是很好。我的公寓是4号。它有一间卧室、一个厨房和一个小阳台。",
+    "我也有了一份新工作。我在一家书店工作。我第一天上班是星期三。我有点紧张！",
+    "我的邻居是帕特尔先生。他非常友好。他有一只狗。狗的名字叫饼干。饼干是棕色的，非常逗。",
+    "现在是晚上10点。外面在下雨。我很累，但我很开心。晚安，日记！"
+   ],
+   "paragraphs_de": [
+    "Montag, 9. November 2026. Hallo, Tagebuch! Ich heiße Mia. Ich bin 28 Jahre alt. Ich komme aus Hamburg, in Deutschland. Jetzt wohne ich in Bristol, in England.",
+    "Ich habe eine neue Wohnung. Sie ist klein, aber schön. Meine Wohnung ist Nummer 4. Sie hat ein Schlafzimmer, eine Küche und einen kleinen Balkon.",
+    "Ich habe auch einen neuen Job. Ich arbeite in einer Buchhandlung. Mein erster Tag ist am Mittwoch. Ich bin ein bisschen nervös!",
+    "Mein Nachbar ist Mr Patel. Er ist sehr freundlich. Er hat einen Hund. Der Hund heißt Biscuit. Biscuit ist braun und sehr lustig.",
+    "Es ist jetzt 10 Uhr abends. Es regnet. Ich bin müde, aber glücklich. Gute Nacht, Tagebuch!"
+   ],
+   "paragraphs_pt": [
+    "Segunda-feira, 9 de novembro de 2026. Olá, diário! Meu nome é Mia. Tenho 28 anos. Sou de Hamburgo, na Alemanha. Agora moro em Bristol, na Inglaterra.",
+    "Tenho um apartamento novo. É pequeno, mas é bonito. Meu apartamento é o número 4. Tem um quarto, uma cozinha e uma varanda pequena.",
+    "Tenho um emprego novo também. Trabalho numa livraria. Meu primeiro dia é na quarta-feira. Estou um pouco nervosa!",
+    "Meu vizinho é o Sr. Patel. Ele é muito simpático. Ele tem um cachorro. O nome do cachorro é Biscuit. O Biscuit é marrom e muito engraçado.",
+    "Agora são 10 horas da noite. Está chovendo. Estou cansada, mas estou feliz. Boa noite, diário!"
+   ],
+   "glossary": [
+    {
+     "w": "flat",
+     "en": "a home on one floor of a building (US: apartment)",
+     "zh": "公寓",
+     "de": "die Wohnung",
+     "pt": "o apartamento"
+    },
+    {
+     "w": "bedroom",
+     "en": "the room where you sleep",
+     "zh": "卧室",
+     "de": "das Schlafzimmer",
+     "pt": "o quarto"
+    },
+    {
+     "w": "job",
+     "en": "the work you do for money",
+     "zh": "工作",
+     "de": "der Job, die Arbeit",
+     "pt": "o emprego, o trabalho"
+    },
+    {
+     "w": "bookshop",
+     "en": "a shop that sells books",
+     "zh": "书店",
+     "de": "die Buchhandlung",
+     "pt": "a livraria"
+    },
+    {
+     "w": "neighbour",
+     "en": "a person who lives next to you",
+     "zh": "邻居",
+     "de": "der Nachbar, die Nachbarin",
+     "pt": "o vizinho, a vizinha"
+    },
+    {
+     "w": "friendly",
+     "en": "kind and nice to other people",
+     "zh": "友好的",
+     "de": "freundlich",
+     "pt": "simpático, amigável"
+    }
+   ],
+   "grammar": "The verb to be: I am (I'm), you are (you're), he/she/it is (he's, she's, it's). We use it for name, age, country and feelings: “I'm 28 years old.” “I'm from Hamburg.” “I'm tired.” Note: in English, age uses be, not have.",
+   "grammar_zh": "动词 be：I am（I'm）、you are（you're）、he/she/it is（he's、she's、it's）。介绍名字、年龄、国家和心情都用它：“I'm 28 years old.”（我28岁）“I'm from Hamburg.”“I'm tired.”注意：英语说年龄用 be，不用 have。",
+   "grammar_de": "Das Verb to be: I am (I'm), you are (you're), he/she/it is (he's, she's, it's). Man benutzt es für Name, Alter, Herkunft und Gefühle: „I'm 28 years old.“ „I'm from Hamburg.“ „I'm tired.“ Wie im Deutschen steht beim Alter „sein“: Ich bin 28.",
+   "grammar_pt": "O verbo to be: I am (I'm), you are (you're), he/she/it is (he's, she's, it's). Usamos para nome, idade, país e sentimentos: “I'm 28 years old.” “I'm from Hamburg.” “I'm tired.” Atenção: em português dizemos “tenho 28 anos”, mas em inglês a idade usa be: “I am 28”.",
+   "questions": [
+    "Where is Mia from?",
+    "What is the dog's name?",
+    "And you? Where are you from, and how old are you?"
+   ],
+   "sources": []
   }
  ]
 }

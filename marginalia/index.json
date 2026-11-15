@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:31:33+00:00",
+ "updated": "2026-11-15T00:40:57+00:00",
  "days": [
   {
    "date": "2026-11-14",
@@ -56,6 +56,14 @@
      "kind": "dialogue",
      "level": "A1",
      "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "At the café",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
     }
    ]
   },
@@ -90,6 +98,14 @@
      "i": 3,
      "lang": "pt",
      "title": "Convite: jantar na casa amarela",
+     "kind": "brief",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "Messages with Sam",
      "kind": "brief",
      "level": "A1",
      "hour": null
@@ -138,6 +154,14 @@
      "kind": "essay",
      "level": "B2",
      "hour": null
+    },
+    {
+     "i": 5,
+     "lang": "en",
+     "title": "Mia's Diary 2: My first day at work",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
     }
    ]
   },
@@ -175,6 +199,14 @@
      "kind": "dialogue",
      "level": "A1",
      "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "Nice to meet you",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
     }
    ]
   },
@@ -209,6 +241,14 @@
      "i": 3,
      "lang": "pt",
      "title": "Qual é o seu curso?",
+     "kind": "story",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "en",
+     "title": "Mia's Diary 1: A new home",
      "kind": "story",
      "level": "A1",
      "hour": null

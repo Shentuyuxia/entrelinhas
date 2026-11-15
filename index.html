@@ -1023,6 +1023,9 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 .foldbody>.panel.adpanel{margin-bottom:12px}
 #tab-me .acct:empty{display:none}
 #b-hint{margin:10px 0 2px;color:var(--muted);font-size:14px}
+.entrack{display:flex;gap:6px;margin:10px 0 2px;flex-wrap:wrap}
+.entrack button{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:5px 14px;font:inherit;font-size:13.5px;cursor:pointer}
+.entrack button[aria-pressed="true"]{background:var(--acc-soft);color:var(--acc);border-color:var(--acc);font-weight:600}
 #tab-extras .exwrap{display:grid;gap:18px;max-width:760px;margin:0 auto}
 @media (min-width:900px){ #tab-me{max-width:860px;margin-left:auto;margin-right:auto} }
 </style>
@@ -1044,6 +1047,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
     <label class="uilang" title="界面语言"><span class="sr">界面语言</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
       <b id="ui-code">中文</b><select id="ui-lang" aria-label="界面语言"><option value="zh" data-raw>简体中文</option><option value="zht" data-raw>繁體中文</option><option value="en">English</option><option value="de">Deutsch</option><option value="pt">Português</option></select></label>
   </header>
+  <div class="entrack" id="entrack" role="group" aria-label="English" hidden><button type="button" data-trk="beg" aria-pressed="false">初级 · Beginner</button><button type="button" data-trk="adv" aria-pressed="true">高阶 · Advanced</button></div>
 
   <section class="strip" aria-label="今日打卡">
     <div class="ring">
@@ -1460,7 +1464,7 @@ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const LANG={
   pt:{name:"Português",zh:"葡语",ai:"Brazilian Portuguese",tts:"pt-BR",re:/^pt[-_]BR/i,re2:/^pt/i,levels:["BS","A1","A2","B1","B2","C1","C2"],gl:["en","zh","fr"],done:"Muito bem!",ok:"Feito!",theme:"#16785a"},
   de:{name:"Deutsch",zh:"德语",ai:"German",tts:"de-DE",re:/^de[-_]DE/i,re2:/^de/i,levels:["A1","A2","B1","B2","C1","C2","UG"],gl:["en","zh"],done:"Gut gemacht!",ok:"Geschafft!",theme:"#3f50b0"},
-  en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"},
+  en:{name:"English",zh:"英语",ai:"English",tts:"en-GB",re:/^en[-_]GB/i,re2:/^en/i,levels:["BS","A1","A2","B1","B2","C1","C2"],gl:["def","zh","de"],done:"Well done!",ok:"Done for today!",theme:"#a2560a"},
   fr:{name:"Français",zh:"法语",ai:"French",tts:"fr-FR",re:/^fr[-_]FR/i,re2:/^fr/i,levels:["A1","A2","B1","B2","C1","C2"],gl:["en","zh","de"],done:"Bravo !",ok:"C'est fait !",theme:"#7a3e6b"},
   es:{name:"Español",zh:"西班牙语",ai:"Latin American Spanish",tts:"es-MX",re:/^es[-_](MX|US|419|CO|AR|CL|PE)/i,re2:/^es/i,levels:["BS","A1","A2","B1","B2"],gl:["en","de","pt"],done:"¡Muy bien!",ok:"¡Listo!",theme:"#b0482c"}
 };
@@ -2545,13 +2549,17 @@ function mgLoad(){
 }
 async function mgDay(d){ if(MG.days[d]) return MG.days[d]; const x=await mgGet("marginalia/"+d+".json"); MG.days[d]=x; return x; }
 const LV_ORDER=["A1","A2","B1","B2","C1","C2"];
+/* English has two tracks: beginner (entry deck + short A1/A2 texts) and advanced (C1/C2 long reads, picks) */
+const EN_BEG=["A1","A2"];
+function enTrack(){ return S.settings.enTrack==="beg"?"beg":"adv"; }
+function mgTrackOK(x){ if(!x||x.lang!=="en") return true; const b=EN_BEG.includes(x.level); return enTrack()==="beg"?b:!b; }
 function mgLevels(dayIdx,l){ const day=MG.idx&&MG.idx.days[dayIdx]; if(!day) return [];
-  return [...new Set(day.items.filter(x=>x.lang===l&&x.kind!=="picks"&&x.level).map(x=>x.level))].sort((a,b)=>LV_ORDER.indexOf(a)-LV_ORDER.indexOf(b)); }
+  return [...new Set(day.items.filter(x=>x.lang===l&&x.kind!=="picks"&&x.level&&mgTrackOK(x)).map(x=>x.level))].sort((a,b)=>LV_ORDER.indexOf(a)-LV_ORDER.indexOf(b)); }
 function mgLvSel(dayIdx,l){ const lv=mgLevels(dayIdx,l), want=(S.settings.rdLv||{})[l]; return lv.length>1&&lv.includes(want)?want:null; }
 function mgEntries(dayIdx,l){
   const day=MG.idx&&MG.idx.days[dayIdx]; if(!day) return [];
   const sel=mgLvSel(dayIdx,l);
-  return day.items.filter(x=>x.lang===l&&x.kind!=="picks"&&(!sel||x.level===sel)).map((x,n)=>({...x,n,date:day.date})).sort((a,b)=>(MG_ORD(a)-MG_ORD(b))||String(a.hour||"").localeCompare(String(b.hour||""))||a.n-b.n);
+  return day.items.filter(x=>x.lang===l&&x.kind!=="picks"&&mgTrackOK(x)&&(!sel||x.level===sel)).map((x,n)=>({...x,n,date:day.date})).sort((a,b)=>(MG_ORD(a)-MG_ORD(b))||String(a.hour||"").localeCompare(String(b.hour||""))||a.n-b.n);
 }
 function mgPick(){ // returns {date,i} of the article to show
   const l=lang(), es=mgEntries(MG.di,l);
@@ -2676,7 +2684,7 @@ async function mgRender(){
   mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); cuRender(); bsRender(); pkRender(); rdSync(); mineList();
 }
 function mgArch(pick){
-  const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l&&x.kind!=="picks") rows.push({...x,date:d.date,di}); }));
+  const l=lang(), rows=[]; (MG.idx?MG.idx.days:[]).forEach((d,di)=>d.items.forEach(x=>{ if(x.lang===l&&x.kind!=="picks"&&mgTrackOK(x)) rows.push({...x,date:d.date,di}); }));
   rows.sort((a,b)=>b.date.localeCompare(a.date)||(MG_ORD(a)-MG_ORD(b)));
   const show=MG.archAll?rows:rows.slice(0,5);
   $("#mg-arch").innerHTML=`<h3 style="margin:0 0 8px"><span>往期</span> · <span>${rows.length} 篇</span></h3>${rows.length?`<div class="mg-arch">${show.map(x=>`<button data-mg="${x.date}|${x.i}" data-di="${x.di}" aria-current="${!!pick&&pick.date===x.date&&pick.i===x.i}"><span class="k">${new Date(x.date+"T12:00").toLocaleDateString(uiLocale(),{month:"short",day:"numeric"})}</span><span class="t" lang="${l}">${esc(x.title)}</span><span class="m">${mgRead(x.date,x.i)?"✓":""}</span></button>`).join("")}</div>${rows.length>12&&!MG.archAll?'<button class="btn ghost sm" id="mg-archall" type="button">显示全部</button>':""}`:'<p class="note">还没有往期文章。</p>'}`;
@@ -2737,24 +2745,27 @@ $("#cubox").addEventListener("click",e=>{ const b=e.target.closest("button"); if
 const BS={open:-1,rows:null,busy:false,ex:-1};
 const BS_GROUPS=[[0,26,"👋","Saudações","打招呼"],[26,46,"🕐","Dias e horas","日子与时间"],[46,53,"📅","Dias da semana","星期"],[53,65,"🗓","Meses","月份"],
   [65,86,"🔢","Números 0–20","数字 0–20"],[86,115,"💯","Números e anos","大数字与年份"],[115,133,"☀️","O tempo","天气"],[133,151,"🙂","Como você está?","心情"]];
+const BS_EN=[[0,34,"👋","Hello & small talk","问候和寒暄"],[34,45,"❓","Questions","提问"],[45,60,"🧭","Directions","问路"],[60,79,"🕐","Time","时间"],[79,86,"📅","Days of the week","星期"],[86,98,"🗓","Months","月份"],[98,131,"🔢","Numbers","数字"],[131,141,"☀️","Weather","天气"],[141,153,"🙂","How do you feel?","心情"]];
 const BS_ES=[[0,41,"👋","Saludos y charla","Begrüßen & Smalltalk"],[41,55,"❓","Preguntas","Fragen stellen"],[55,76,"🧭","Direcciones","Nach dem Weg fragen"],[76,92,"🕐","Días y horas","Tage & Uhrzeit"],
   [92,99,"📅","Días de la semana","Wochentage"],[99,111,"🗓","Meses","Monate"],[111,151,"🔢","Números y años","Zahlen & Jahre"],[151,161,"☀️","El tiempo","Wetter"],[161,175,"🙂","¿Cómo estás?","Gefühle"]];
 // per language: data file, topic groups, helper languages and their column in the row, text language tag
 const BS_CFG={pt:{groups:BS_GROUPS,langs:[["en","EN"],["zh","中文"]],mi:{zh:2,en:3},xi:{zh:6,en:7},tag:"pt-BR"},
-  es:{groups:BS_ES,langs:[["en","EN"],["de","DE"],["pt","PT"]],mi:{de:2,en:3,pt:4},xi:{de:6,en:7,pt:7},tag:"es-MX"}};
+  es:{groups:BS_ES,langs:[["en","EN"],["de","DE"],["pt","PT"]],mi:{de:2,en:3,pt:4},xi:{de:6,en:7,pt:7},tag:"es-MX",subk:"de"},
+  en:{groups:BS_EN,langs:[["zh","中文"],["de","DE"]],mi:{zh:3,de:5},xi:{zh:7},exi:6,tag:"en-GB",subk:"zh",name:"Basics"}};
+BS_CFG.pt.subk="zh";
 async function bsRender(){
   const box=$("#bsbox"); if(!box) return; const l=lang(), C=BS_CFG[l];
-  if(!C){ box.hidden=true; return; }
+  if(!C||(l==="en"&&enTrack()!=="beg")){ box.hidden=true; return; }
   if(BS.l!==l){ BS.l=l; BS.rows=null; BS.open=-1; BS.ex=-1; }
   if(!BS.rows){ if(BS.busy) return; BS.busy=true; try{ const r=await fetch("data/"+l+"-BS.json"); if(r.ok) BS.rows=await r.json(); }catch(e){} BS.busy=false; if(!BS.rows||lang()!==l){ box.hidden=true; return; } }
   box.hidden=false;
   const ks=C.langs.map(x=>x[0]), hl=ks.includes(RB.hl)?RB.hl:(ks.includes(HL())?HL():ks[0]), g=C.groups[BS.open];
   const mi=C.mi[hl], xi=C.xi[hl], T=C.tag;
-  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("入门")||"入门")} <span class="small muted" data-noi18n>${l==="es"?"Básico":"Básico"} · ${BS.rows.length}</span></h3>
+  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("入门")||"入门")} <span class="small muted" data-noi18n>${C.name||"Básico"} · ${BS.rows.length}</span></h3>
     <div class="rb-shelf" role="list">${C.groups.map((t,i)=>`<button type="button" class="rb-disc bs-card${i===BS.open?" on":""}" data-bs="${i}" role="listitem" style="--h:${rbHue(t[3])}"><span class="rb-sleeve"><small>${t[1]-t[0]}</small><i>${t[2]}</i><b lang="${T}" data-noi18n>${esc(t[3])}</b></span></button>`).join("")}</div>
-    ${g?`<div class="rb-card"><div class="rb-h"><b lang="${T}" data-noi18n>${g[2]} ${esc(g[3])}</b><span class="small muted" data-noi18n>${esc(l==="pt"?(hl==="zh"?hz(g[4]):""):(hl==="de"?g[4]:""))}</span></div>
+    ${g?`<div class="rb-card"><div class="rb-h"><b lang="${T}" data-noi18n>${g[2]} ${esc(g[3])}</b><span class="small muted" data-noi18n>${esc(hl===C.subk?(hl==="zh"?hz(g[4]):g[4]):"")}</span></div>
       <div class="rb-langs" role="group">${C.langs.map(([k,n])=>`<button type="button" data-bsl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
-      <ul class="bs-list" data-noi18n>${BS.rows.slice(g[0],g[1]).map((c,k)=>`<li><button type="button" class="bs-w${BS.ex===g[0]+k?" on":""}" data-bsw="${g[0]+k}" aria-expanded="${BS.ex===g[0]+k}"><b lang="${T}">${esc(c[0])}</b><span class="m" lang="${hl}">${esc(hl==="zh"?hz(c[mi]||""):(c[mi]||""))}</span>${c[5]&&BS.ex===g[0]+k?`<span class="ex"><i lang="${T}">${esc(c[5])}</i> ${esc(hl==="zh"?hz(c[xi]||""):(c[xi]||""))}</span>`:""}</button></li>`).join("")}</ul></div>`
+      <ul class="bs-list" data-noi18n>${BS.rows.slice(g[0],g[1]).map((c,k)=>`<li><button type="button" class="bs-w${BS.ex===g[0]+k?" on":""}" data-bsw="${g[0]+k}" aria-expanded="${BS.ex===g[0]+k}"><b lang="${T}">${esc(c[0])}</b><span class="m" lang="${hl}">${esc(hl==="zh"?hz(c[mi]||""):(c[mi]||""))}</span>${c[C.exi||5]&&BS.ex===g[0]+k?`<span class="ex"><i lang="${T}">${esc(c[C.exi||5])}</i> ${esc(hl==="zh"?hz(c[xi]||""):(c[xi]||""))}</span>`:""}</button></li>`).join("")}</ul></div>`
     :`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张卡片，复习一组基础词。")||"点一张卡片，复习一组基础词。")}</p>`}`;
 }
 $("#bsbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
@@ -2768,7 +2779,7 @@ async function pkRender(){
   if(!day){ box.hidden=true; return; }
   let d=null; try{ d=await mgDay(day.date); }catch(e){}
   if(lang()!==l) return;
-  const picks=d?d.items.filter(x=>x.lang===l&&x.kind==="picks").flatMap(x=>x.picks||[]):[];
+  const picks=d?d.items.filter(x=>x.lang===l&&x.kind==="picks"&&mgTrackOK(x)).flatMap(x=>x.picks||[]):[];
   if(!picks.length){ box.hidden=true; box.innerHTML=""; return; }
   const key=day.date+"|"+l; if(PK.key!==key){ PK.key=key; PK.open=-1; }
   box.hidden=false;
@@ -3951,6 +3962,8 @@ function s2t(str){ // Simplified → Traditional (Taiwan), phrase-aware for comm
   return o;
 }
 const UI_DICT=[
+["初级 · Beginner", "Beginner", "Anfänger", "Iniciante", "初級 · Beginner"],
+["高阶 · Advanced", "Advanced", "Fortgeschritten", "Avançado", "高階 · Advanced"],
 ["打卡", "Done", "Erledigt", "Feito", "打卡"],
 ["学过", "Studied", "Gelernt", "Estudado", "學過"],
 ["各级别", "By level", "Nach Niveau", "Por nível", "各級別"],
@@ -4745,6 +4758,12 @@ $("#opt-langs").addEventListener("change",()=>{ const v=$$("#opt-langs input:che
   if(!v.length){ toast(trOne("至少选一种语言。")); renderLangs(); return; }
   S.settings.langsOn=v; save(); if(!v.includes(lang())){ S.settings.lang=v[0]; save(); } applyLang(); });
 $("#langsw").addEventListener("click",e=>{ const b=e.target.closest("[data-l]"); if(!b||b.dataset.l===lang()) return; S.settings.lang=b.dataset.l; save(); applyLang(); });
+function renderTrack(){ const t=$("#entrack"); if(!t) return; t.hidden=lang()!=="en"; $$("#entrack button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.trk===enTrack()))); }
+$("#entrack").addEventListener("click",e=>{ const b=e.target.closest("[data-trk]"); if(!b||b.dataset.trk===enTrack()) return;
+  const L=S.settings.levels;
+  if(b.dataset.trk==="beg"){ S.settings.enAdvLv=(L.en||[]).filter(v=>v!=="BS"&&!EN_BEG.includes(v)); L.en=["BS","A1"]; }
+  else L.en=(S.settings.enAdvLv&&S.settings.enAdvLv.length)?S.settings.enAdvLv:["C1","C2"];
+  S.settings.enTrack=b.dataset.trk; S.settings.rdLv=S.settings.rdLv||{}; S.settings.rdLv.en=null; save(); applyLang(); });
 /* languages I'm learning: hide the others (progress is kept) */
 function langsOn(){ const a=(S.settings.langsOn||Object.keys(LANG)).filter(k=>LANG[k]); return a.length?a:Object.keys(LANG); }
 function renderLangs(){
@@ -4755,7 +4774,7 @@ function renderLangs(){
 }
 async function applyLang(){
   if(!langsOn().includes(S.settings.lang)){ S.settings.lang=langsOn()[0]; save(); }
-  renderLangs();
+  renderLangs(); renderTrack();
   const l=lang(); document.body.dataset.lang=l;
   $$("#langsw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===l));
   if(detailOpen) closeDetail();

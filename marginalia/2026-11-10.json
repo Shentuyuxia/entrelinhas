@@ -418,6 +418,124 @@
         "perguntas",
         "adjetivos"
       ]
+    },
+    {
+      "lang": "en",
+      "level": "A1",
+      "kind": "dialogue",
+      "section": "Dialogue",
+      "title": "Nice to meet you",
+      "dek": "Mia meets her neighbour, Mr Patel, on the stairs.",
+      "paragraphs": [
+        "Mr Patel: Hello! Are you the new neighbour?",
+        "Mia: Yes, I am. Hi! I'm Mia.",
+        "Mr Patel: Nice to meet you, Mia. I'm Raj Patel.",
+        "Mia: Nice to meet you, too. Is this your dog?",
+        "Mr Patel: Yes. This is Biscuit. He's three years old.",
+        "Mia: He's lovely! Where are you from, Mr Patel?",
+        "Mr Patel: I'm from Leicester. And you?",
+        "Mia: I'm from Germany, from Hamburg.",
+        "Mr Patel: Welcome to Bristol! What do you do?",
+        "Mia: I work in a bookshop. And you?",
+        "Mr Patel: I'm a teacher. Have a nice evening, Mia!",
+        "Mia: Thanks, you too. Bye, Biscuit!"
+      ],
+      "paragraphs_zh": [
+        "帕特尔先生：你好！你是新来的邻居吗？",
+        "米娅：是的。你好！我是米娅。",
+        "帕特尔先生：很高兴认识你，米娅。我是拉吉·帕特尔。",
+        "米娅：我也很高兴认识你。这是你的狗吗？",
+        "帕特尔先生：是的。这是饼干。它三岁了。",
+        "米娅：它真可爱！帕特尔先生，你是哪里人？",
+        "帕特尔先生：我是莱斯特人。你呢？",
+        "米娅：我来自德国，汉堡。",
+        "帕特尔先生：欢迎来到布里斯托尔！你做什么工作？",
+        "米娅：我在一家书店工作。你呢？",
+        "帕特尔先生：我是老师。祝你晚上愉快，米娅！",
+        "米娅：谢谢，你也是。拜拜，饼干！"
+      ],
+      "paragraphs_de": [
+        "Mr Patel: Hallo! Bist du die neue Nachbarin?",
+        "Mia: Ja, genau. Hi! Ich bin Mia.",
+        "Mr Patel: Freut mich, Mia. Ich bin Raj Patel.",
+        "Mia: Freut mich auch. Ist das Ihr Hund?",
+        "Mr Patel: Ja. Das ist Biscuit. Er ist drei Jahre alt.",
+        "Mia: Er ist süß! Woher kommen Sie, Mr Patel?",
+        "Mr Patel: Ich komme aus Leicester. Und du?",
+        "Mia: Ich komme aus Deutschland, aus Hamburg.",
+        "Mr Patel: Willkommen in Bristol! Was machst du beruflich?",
+        "Mia: Ich arbeite in einer Buchhandlung. Und Sie?",
+        "Mr Patel: Ich bin Lehrer. Einen schönen Abend, Mia!",
+        "Mia: Danke, gleichfalls. Tschüss, Biscuit!"
+      ],
+      "paragraphs_pt": [
+        "Sr. Patel: Olá! Você é a nova vizinha?",
+        "Mia: Sim, sou eu. Oi! Eu sou a Mia.",
+        "Sr. Patel: Prazer, Mia. Eu sou o Raj Patel.",
+        "Mia: O prazer é meu. Esse cachorro é seu?",
+        "Sr. Patel: É. Este é o Biscuit. Ele tem três anos.",
+        "Mia: Ele é uma graça! De onde o senhor é, Sr. Patel?",
+        "Sr. Patel: Sou de Leicester. E você?",
+        "Mia: Sou da Alemanha, de Hamburgo.",
+        "Sr. Patel: Bem-vinda a Bristol! O que você faz?",
+        "Mia: Trabalho numa livraria. E o senhor?",
+        "Sr. Patel: Sou professor. Boa noite, Mia!",
+        "Mia: Obrigada, para o senhor também. Tchau, Biscuit!"
+      ],
+      "glossary": [
+        {
+          "w": "Nice to meet you.",
+          "en": "what you say when you meet someone for the first time",
+          "zh": "很高兴认识你。",
+          "de": "Freut mich.",
+          "pt": "Prazer em conhecer."
+        },
+        {
+          "w": "lovely",
+          "en": "very nice, beautiful (British, very common)",
+          "zh": "可爱的；很好的",
+          "de": "süß, schön",
+          "pt": "lindo, uma graça"
+        },
+        {
+          "w": "Welcome to …",
+          "en": "you say this to someone new in a place",
+          "zh": "欢迎来到……",
+          "de": "Willkommen in …",
+          "pt": "Bem-vindo(a) a …"
+        },
+        {
+          "w": "What do you do?",
+          "en": "a question about someone's job",
+          "zh": "你做什么工作？",
+          "de": "Was machst du beruflich?",
+          "pt": "O que você faz?"
+        },
+        {
+          "w": "teacher",
+          "en": "a person who teaches at a school",
+          "zh": "老师",
+          "de": "der Lehrer, die Lehrerin",
+          "pt": "o professor, a professora"
+        },
+        {
+          "w": "You too.",
+          "en": "the same to you",
+          "zh": "你也是。",
+          "de": "Gleichfalls.",
+          "pt": "Para você também."
+        }
+      ],
+      "grammar": "Questions with be: put the verb first. “You are the new neighbour.” → “Are you the new neighbour?” “This is your dog.” → “Is this your dog?” Short answers: “Yes, I am.” / “No, I'm not.”",
+      "grammar_zh": "用 be 提问时，把 be 放到句首：“You are the new neighbour.” → “Are you the new neighbour?”；“This is your dog.” → “Is this your dog?”简短回答：“Yes, I am.” / “No, I'm not.”",
+      "grammar_de": "Fragen mit be: Das Verb kommt nach vorn – wie im Deutschen „Bist du …?“. „You are the new neighbour.“ → „Are you the new neighbour?“ Kurzantworten: „Yes, I am.“ / „No, I'm not.“ (nicht nur „Yes.“).",
+      "grammar_pt": "Perguntas com be: o verbo vai para o começo. “You are the new neighbour.” → “Are you the new neighbour?” Em português basta a entonação (“Você é a nova vizinha?”), mas em inglês a ordem muda. Respostas curtas: “Yes, I am.” / “No, I'm not.”",
+      "questions": [
+        "What is Mr Patel's job?",
+        "How old is Biscuit?",
+        "And you? What do you do?"
+      ],
+      "sources": []
     }
   ]
 }

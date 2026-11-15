@@ -460,6 +460,124 @@
     "telefone",
     "perguntas"
    ]
+  },
+  {
+   "lang": "en",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Dialogue",
+   "title": "At the café",
+   "dek": "After work, Mia stops at a small café near the bookshop.",
+   "paragraphs": [
+    "Waiter: Hi there! What can I get you?",
+    "Mia: Hello. Can I have a tea, please?",
+    "Waiter: Sure. With milk?",
+    "Mia: Yes, please. And a piece of carrot cake.",
+    "Waiter: Eat in or take away?",
+    "Mia: Eat in, please.",
+    "Waiter: OK. That's £6.50, please.",
+    "Mia: Can I pay by card?",
+    "Waiter: Of course. … Thank you! Here's your tea.",
+    "Mia: Thanks a lot. Is the Wi-Fi free?",
+    "Waiter: Yes, it is. The password is on the wall.",
+    "Mia: Great, thank you!"
+   ],
+   "paragraphs_zh": [
+    "服务员：你好！要点什么？",
+    "米娅：你好。请给我一杯茶，好吗？",
+    "服务员：好的。加牛奶吗？",
+    "米娅：要的，谢谢。再来一块胡萝卜蛋糕。",
+    "服务员：在这儿吃还是带走？",
+    "米娅：在这儿吃，谢谢。",
+    "服务员：好。一共6.50英镑。",
+    "米娅：可以刷卡吗？",
+    "服务员：当然。……谢谢！这是你的茶。",
+    "米娅：非常感谢。Wi-Fi 是免费的吗？",
+    "服务员：是的。密码在墙上。",
+    "米娅：太好了，谢谢！"
+   ],
+   "paragraphs_de": [
+    "Kellner: Hallo! Was darf's sein?",
+    "Mia: Hallo. Kann ich bitte einen Tee haben?",
+    "Kellner: Klar. Mit Milch?",
+    "Mia: Ja, bitte. Und ein Stück Karottenkuchen.",
+    "Kellner: Zum Hieressen oder zum Mitnehmen?",
+    "Mia: Zum Hieressen, bitte.",
+    "Kellner: Okay. Das macht 6,50 Pfund, bitte.",
+    "Mia: Kann ich mit Karte zahlen?",
+    "Kellner: Natürlich. … Danke! Hier ist Ihr Tee.",
+    "Mia: Vielen Dank. Ist das WLAN kostenlos?",
+    "Kellner: Ja. Das Passwort steht an der Wand.",
+    "Mia: Super, danke!"
+   ],
+   "paragraphs_pt": [
+    "Garçom: Oi! O que vai ser?",
+    "Mia: Olá. Pode me ver um chá, por favor?",
+    "Garçom: Claro. Com leite?",
+    "Mia: Sim, por favor. E uma fatia de bolo de cenoura.",
+    "Garçom: Para comer aqui ou para levar?",
+    "Mia: Para comer aqui, por favor.",
+    "Garçom: Ok. São 6,50 libras, por favor.",
+    "Mia: Posso pagar com cartão?",
+    "Garçom: Claro. … Obrigado! Aqui está seu chá.",
+    "Mia: Muito obrigada. O Wi-Fi é grátis?",
+    "Garçom: É, sim. A senha está na parede.",
+    "Mia: Ótimo, obrigada!"
+   ],
+   "glossary": [
+    {
+     "w": "What can I get you?",
+     "en": "what a waiter says: what do you want?",
+     "zh": "要点什么？",
+     "de": "Was darf's sein?",
+     "pt": "O que vai ser?"
+    },
+    {
+     "w": "Can I have …, please?",
+     "en": "a polite way to ask for something",
+     "zh": "请给我……好吗？",
+     "de": "Kann ich bitte … haben?",
+     "pt": "Pode me ver …, por favor?"
+    },
+    {
+     "w": "a piece of",
+     "en": "one part of something, e.g. cake",
+     "zh": "一块",
+     "de": "ein Stück",
+     "pt": "um pedaço, uma fatia"
+    },
+    {
+     "w": "take away",
+     "en": "food or drink you take with you (US: to go)",
+     "zh": "外带",
+     "de": "zum Mitnehmen",
+     "pt": "para levar"
+    },
+    {
+     "w": "pay by card",
+     "en": "to pay with a bank card, not cash",
+     "zh": "刷卡付款",
+     "de": "mit Karte zahlen",
+     "pt": "pagar com cartão"
+    },
+    {
+     "w": "password",
+     "en": "a secret word you need to log in",
+     "zh": "密码",
+     "de": "das Passwort",
+     "pt": "a senha"
+    }
+   ],
+   "grammar": "Polite requests with can: “Can I have a tea, please?” “Can I pay by card?” Can + I + verb. It's polite and very common in British cafés and shops. Add please at the end.",
+   "grammar_zh": "用 can 礼貌地提要求：“Can I have a tea, please?”“Can I pay by card?”结构是 Can + I + 动词原形。在英国的咖啡馆和商店里非常常用，句末加上 please 更礼貌。",
+   "grammar_de": "Höfliche Bitten mit can: „Can I have a tea, please?“ „Can I pay by card?“ – Can + I + Verb, wie „Kann ich …?“ im Deutschen. In britischen Cafés und Läden sehr üblich; please kommt ans Ende.",
+   "grammar_pt": "Pedidos educados com can: “Can I have a tea, please?” “Can I pay by card?” – Can + I + verbo, como “Posso …?” em português. É muito comum nos cafés e lojas britânicos; o please vai no final.",
+   "questions": [
+    "What does Mia order?",
+    "How much is it?",
+    "And you? What do you usually order in a café?"
+   ],
+   "sources": []
   }
  ]
 }

@@ -521,6 +521,100 @@
     "Na sua família, existe alguma palavra que só vocês usam ou que vem de uma região específica?"
    ],
    "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diary",
+   "series": {
+    "name": "Mia's Diary",
+    "episode": 2
+   },
+   "title": "Mia's Diary 2: My first day at work",
+   "dek": "Wednesday: Mia's first day at the bookshop.",
+   "paragraphs": [
+    "Wednesday, 11 November 2026. Today is my first day at the bookshop. I get up at seven o'clock. I drink a coffee and I eat a banana.",
+    "The bookshop is on Park Street. It's near my flat. I walk there. It takes fifteen minutes.",
+    "My boss is Helen. She's very nice. My colleague is Sam. He's 25 and he's from Manchester. He likes music and books about the sea.",
+    "The shop opens at nine o'clock and closes at six. At one o'clock, Sam and I have lunch. We eat sandwiches in the park.",
+    "Now it's eight o'clock in the evening. I'm at home. My feet are tired, but I like my new job!"
+   ],
+   "paragraphs_zh": [
+    "2026年11月11日，星期三。今天是我在书店上班的第一天。我七点起床。我喝一杯咖啡，吃一根香蕉。",
+    "书店在公园街。离我的公寓很近。我走路过去。要走十五分钟。",
+    "我的老板是海伦。她人很好。我的同事是萨姆。他25岁，来自曼彻斯特。他喜欢音乐和关于大海的书。",
+    "书店九点开门，六点关门。一点钟，萨姆和我吃午饭。我们在公园里吃三明治。",
+    "现在是晚上八点。我在家。我的脚很累，但我喜欢我的新工作！"
+   ],
+   "paragraphs_de": [
+    "Mittwoch, 11. November 2026. Heute ist mein erster Tag in der Buchhandlung. Ich stehe um sieben Uhr auf. Ich trinke einen Kaffee und esse eine Banane.",
+    "Die Buchhandlung ist in der Park Street. Sie ist in der Nähe meiner Wohnung. Ich gehe zu Fuß. Es dauert fünfzehn Minuten.",
+    "Meine Chefin ist Helen. Sie ist sehr nett. Mein Kollege ist Sam. Er ist 25 und kommt aus Manchester. Er mag Musik und Bücher über das Meer.",
+    "Der Laden öffnet um neun Uhr und schließt um sechs. Um ein Uhr essen Sam und ich zu Mittag. Wir essen Sandwiches im Park.",
+    "Jetzt ist es acht Uhr abends. Ich bin zu Hause. Meine Füße sind müde, aber ich mag meinen neuen Job!"
+   ],
+   "paragraphs_pt": [
+    "Quarta-feira, 11 de novembro de 2026. Hoje é meu primeiro dia na livraria. Acordo às sete horas. Tomo um café e como uma banana.",
+    "A livraria fica na Park Street. É perto do meu apartamento. Vou a pé. Leva quinze minutos.",
+    "Minha chefe é a Helen. Ela é muito legal. Meu colega é o Sam. Ele tem 25 anos e é de Manchester. Ele gosta de música e de livros sobre o mar.",
+    "A loja abre às nove horas e fecha às seis. À uma hora, eu e o Sam almoçamos. Comemos sanduíches no parque.",
+    "Agora são oito horas da noite. Estou em casa. Meus pés estão cansados, mas eu gosto do meu emprego novo!"
+   ],
+   "glossary": [
+    {
+     "w": "get up",
+     "en": "to leave your bed in the morning",
+     "zh": "起床",
+     "de": "aufstehen",
+     "pt": "levantar-se, acordar"
+    },
+    {
+     "w": "It takes …",
+     "en": "it needs this much time",
+     "zh": "需要（多长时间）",
+     "de": "Es dauert …",
+     "pt": "Leva …"
+    },
+    {
+     "w": "boss",
+     "en": "the person who is in charge of you at work",
+     "zh": "老板；上司",
+     "de": "der Chef, die Chefin",
+     "pt": "o chefe, a chefe"
+    },
+    {
+     "w": "colleague",
+     "en": "a person you work with",
+     "zh": "同事",
+     "de": "der Kollege, die Kollegin",
+     "pt": "o colega de trabalho"
+    },
+    {
+     "w": "have lunch",
+     "en": "to eat the meal in the middle of the day",
+     "zh": "吃午饭",
+     "de": "zu Mittag essen",
+     "pt": "almoçar"
+    },
+    {
+     "w": "feet",
+     "en": "plural of foot; the parts at the end of your legs",
+     "zh": "脚（复数）",
+     "de": "die Füße",
+     "pt": "os pés"
+    }
+   ],
+   "grammar": "The present simple for routines: I get up, I walk, we eat. With he, she and it, add -s: “The shop opens at nine.” “He likes music.” Use at with clock times: at seven o'clock, at one o'clock.",
+   "grammar_zh": "一般现在时表示日常习惯：I get up, I walk, we eat。主语是 he、she、it 时，动词加 -s：“The shop opens at nine.”“He likes music.”具体钟点前用 at：at seven o'clock, at one o'clock。",
+   "grammar_de": "Das Present Simple für Routinen: I get up, I walk, we eat. Bei he, she und it kommt ein -s dazu: „The shop opens at nine.“ „He likes music.“ Bei Uhrzeiten steht at: at seven o'clock (um sieben Uhr).",
+   "grammar_pt": "O present simple para a rotina: I get up, I walk, we eat. Com he, she e it, acrescente -s: “The shop opens at nine.” “He likes music.” Para horas, use at: at seven o'clock (às sete horas).",
+   "questions": [
+    "What time does the shop open?",
+    "Who is Sam?",
+    "And you? What time do you get up?"
+   ],
+   "sources": []
   }
  ]
 }

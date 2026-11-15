@@ -462,6 +462,92 @@
     "na / da"
    ],
    "sources": []
+  },
+  {
+   "lang": "en",
+   "level": "A1",
+   "kind": "brief",
+   "section": "Short text",
+   "title": "Messages with Sam",
+   "dek": "Sam sends Mia a message about Saturday.",
+   "paragraphs": [
+    "Sam: Hi Mia! Are you free on Saturday? 😊",
+    "Mia: Hi Sam! Yes, I am. Why?",
+    "Sam: There's a market by the river. Good food and music! Do you want to come?",
+    "Mia: Yes, please! What time?",
+    "Sam: At 11 o'clock? We can meet at the bus stop on Park Street.",
+    "Mia: Perfect. See you on Saturday! 👋"
+   ],
+   "paragraphs_zh": [
+    "萨姆：嗨，米娅！你星期六有空吗？😊",
+    "米娅：嗨，萨姆！有空。怎么了？",
+    "萨姆：河边有个集市。有好吃的，还有音乐！你想来吗？",
+    "米娅：想！几点？",
+    "萨姆：11点？我们可以在公园街的公交车站见面。",
+    "米娅：太好了。星期六见！👋"
+   ],
+   "paragraphs_de": [
+    "Sam: Hi Mia! Hast du am Samstag Zeit? 😊",
+    "Mia: Hi Sam! Ja, hab ich. Warum?",
+    "Sam: Am Fluss gibt es einen Markt. Gutes Essen und Musik! Willst du mitkommen?",
+    "Mia: Ja, gern! Um wie viel Uhr?",
+    "Sam: Um 11 Uhr? Wir können uns an der Bushaltestelle in der Park Street treffen.",
+    "Mia: Perfekt. Bis Samstag! 👋"
+   ],
+   "paragraphs_pt": [
+    "Sam: Oi, Mia! Você está livre no sábado? 😊",
+    "Mia: Oi, Sam! Estou, sim. Por quê?",
+    "Sam: Tem uma feira perto do rio. Comida boa e música! Quer vir?",
+    "Mia: Quero, sim! Que horas?",
+    "Sam: Às 11 horas? Podemos nos encontrar no ponto de ônibus da Park Street.",
+    "Mia: Perfeito. Até sábado! 👋"
+   ],
+   "glossary": [
+    {
+     "w": "free",
+     "en": "not busy; also: costs nothing",
+     "zh": "有空的；免费的",
+     "de": "frei; kostenlos",
+     "pt": "livre; grátis"
+    },
+    {
+     "w": "market",
+     "en": "a place outside where people sell food and things",
+     "zh": "集市；市场",
+     "de": "der Markt",
+     "pt": "a feira, o mercado"
+    },
+    {
+     "w": "river",
+     "en": "a long line of water that flows to the sea",
+     "zh": "河",
+     "de": "der Fluss",
+     "pt": "o rio"
+    },
+    {
+     "w": "Do you want to come?",
+     "en": "a friendly invitation",
+     "zh": "你想来吗？",
+     "de": "Willst du mitkommen?",
+     "pt": "Quer vir?"
+    },
+    {
+     "w": "meet",
+     "en": "to see someone at a place and time you agree",
+     "zh": "见面",
+     "de": "sich treffen",
+     "pt": "encontrar-se"
+    }
+   ],
+   "grammar": "Days with on, times with at: “on Saturday”, “at 11 o'clock”. Days of the week always start with a capital letter in English: Monday, Saturday.",
+   "grammar_zh": "星期前用 on，钟点前用 at：“on Saturday”，“at 11 o'clock”。英语里星期几的首字母总是大写：Monday、Saturday。",
+   "grammar_de": "Wochentage mit on, Uhrzeiten mit at: „on Saturday“ (am Samstag), „at 11 o'clock“ (um 11 Uhr). Wochentage schreibt man im Englischen immer groß: Monday, Saturday.",
+   "grammar_pt": "Dias com on, horas com at: “on Saturday” (no sábado), “at 11 o'clock” (às 11 horas). Em inglês, os dias da semana sempre começam com letra maiúscula: Monday, Saturday – em português, com minúscula.",
+   "questions": [
+    "Where is the market?",
+    "Where do Mia and Sam meet?"
+   ],
+   "sources": []
   }
  ]
 }
