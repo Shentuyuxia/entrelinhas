@@ -305,7 +305,22 @@
    "Paraty",
    "Florianópolis e a cultura açoriana",
    "Manaus e o encontro das águas"
-  ]
+  ],
+  "roadmap": [
+   "ser e estar (ser para quem/o que é, estar para onde/como está)",
+   "verbos regulares no presente: -ar, -er, -ir (falo, como, abro)",
+   "verbos irregulares comuns no presente: ter, ir, fazer, poder, querer, ver",
+   "gostar de + substantivo / + verbo (gosto de café, gosto de dançar)",
+   "futuro próximo: ir + infinitivo (vou viajar)",
+   "estar + gerúndio (estou lendo)",
+   "demonstrativos: este, esse, aquele (isto, isso, aquilo)",
+   "pretérito perfeito regular (falei, comi, abri)",
+   "pretérito perfeito irregular (fui, fiz, tive, estive)",
+   "comparativos: mais … do que, menos … do que, tão … quanto",
+   "imperativo para instruções e receitas (vire, siga, misture)",
+   "pretérito imperfeito para descrever o passado (era, tinha, morava)"
+  ],
+  "roadmap_rule": "The CURRENT point is the first roadmap line not yet covered by pt_focus.learned. Texts stay inside 'learned', but once a week (the Friday diary) Ana may use the CURRENT point 2–3 times in a very simple, glossed way, with a one-sentence 'Prévia' note at the end of the grammar field (e.g. 'Prévia: next you will learn ser vs estar — notice \"estou cansada\" here.'). When the owner says she has learned it, move it into 'learned'."
  },
  "es_focus": {
   "who": "A friend at A2 who wants to talk to people; material A1–B2, most of it A2–B1.",

@@ -1006,6 +1006,15 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 
 /* ===== 我的 page: folds ===== */
 #tab-me{display:grid;gap:12px;margin-top:14px}
+.reread{margin:14px 0 4px;display:flex;flex-direction:column;gap:6px}
+.reread h3{font-size:13px;color:var(--muted);font-weight:600;margin:0}
+.reread button{display:flex;gap:10px;align-items:baseline;text-align:left;width:100%;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:9px 12px;font:inherit;color:var(--ink);cursor:pointer}
+.reread button small{color:var(--muted);flex:none;font-size:12.5px}
+.reread button b{font-weight:600;font-size:14.5px}
+.gram-it{border-top:1px dashed var(--line);padding:8px 0}
+.gram-it summary{cursor:pointer;list-style:none;font-size:14px}.gram-it summary::-webkit-details-marker{display:none}
+.gram-it summary small{color:var(--muted);margin-right:6px}
+.gram-it p{margin:6px 0 2px;font-size:14.5px;line-height:1.6}
 .fold{border:1px solid var(--line);background:var(--surface);border-radius:16px;overflow:hidden}
 .fold>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:14px 18px;font-weight:600;font-size:16px;color:var(--ink)}
 .fold>summary::-webkit-details-marker{display:none}
@@ -1101,6 +1110,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       <div class="sesshead"><h2 id="sess-title">今日学习</h2><div class="row" id="sess-actions"></div></div>
       <div class="bar"><i id="sess-bar"></i></div>
       <div id="card-area"><div class="empty"><b>正在载入词匣…</b></div></div>
+      <div id="reread" class="reread" hidden></div>
       <details class="fold" id="fold-stats" open>
       <summary><span class="fold-h"><span class="fold-t">学习总览</span><small class="fold-n" id="ov-sum"></small></span></summary>
       <div id="tab-stats" class="grid foldbody">
@@ -1427,6 +1437,10 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
       </div>
     </aside>
 </div>
+    </details>
+    <details class="fold" id="fold-gram">
+      <summary><span class="fold-h"><span class="fold-t">语法小本子</span><small class="fold-n">读过的文章里的语法说明</small></span></summary>
+      <div class="foldbody" style="padding:12px 16px 16px"><input type="search" id="gram-q" placeholder="搜索语法…" style="margin-bottom:10px"><div id="gram-list"></div></div>
     </details>
   </section>
 
@@ -3507,6 +3521,38 @@ $("#b-table").addEventListener("click",e=>{
 });
 
 /* ---------- stats ---------- */
+/* ---------- 重读: an article from ~3 and ~7 days ago, for spaced re-reading ---------- */
+function rrPick(l,minAgo,maxAgo){
+  if(!MG.idx) return null; const lvSel=(S.settings.rdLv||{})[l]; const now=new Date(); now.setHours(12,0,0,0);
+  for(let di=0;di<MG.idx.days.length;di++){ const d=MG.idx.days[di]; const [y,m,dd]=d.date.split("-").map(Number); const ago=Math.round((now-new Date(y,m-1,dd,12))/864e5);
+    if(ago<minAgo) continue; if(ago>maxAgo) break;
+    const its=d.items.filter(x=>x.lang===l&&x.kind!=="picks"&&mgTrackOK(x)&&(!lvSel||x.level===lvSel));
+    const it=its.find(x=>!MG_MINOR.includes(x.kind))||its[0]; if(it) return {date:d.date,di,i:it.i,title:it.title,ago}; }
+  return null; }
+function rrRender(){
+  const box=$("#reread"); if(!box) return; const l=lang();
+  const go=()=>{ if(lang()!==l) return; const a=rrPick(l,3,5), b=rrPick(l,7,10); const rows=[a,b].filter(Boolean);
+    if(!rows.length){ box.hidden=true; return; } box.hidden=false;
+    box.innerHTML=`<h3>${esc(trOne("该重读了"))}</h3>`+rows.map(r=>`<button type="button" data-rr="${esc(r.date)}|${r.i}" data-di="${r.di}"><small>${esc(trOne("{0} 天前").replace("{0}",r.ago))}</small><b data-noi18n>${esc(r.title||"")}</b></button>`).join(""); };
+  if(!MG.idx&&!MG.err&&typeof mgLoad==="function") mgLoad().then(go,()=>{}); else go(); }
+$("#reread").addEventListener("click",e=>{ const b=e.target.closest("[data-rr]"); if(!b) return; MG.mine=null; MG.key=b.dataset.rr; MG.di=+b.dataset.di; showTab("read"); });
+/* ---------- 语法小本子: every grammar note of the current language, newest first ---------- */
+const GN={l:null,rows:null,busy:false};
+async function gramRender(){
+  const box=$("#gram-list"); if(!box) return; const l=lang();
+  if(GN.l!==l){ GN.l=l; GN.rows=null; }
+  if(!GN.rows){ if(GN.busy) return; GN.busy=true; box.innerHTML=`<p class="small muted">…</p>`;
+    try{ if(!MG.idx) await mgLoad(); const rows=[];
+      for(const d of (MG.idx?MG.idx.days:[])){ if(!d.items.some(x=>x.lang===l&&x.kind!=="picks")) continue; let day; try{ day=await mgDay(d.date); }catch(e){ continue; }
+        (day.items||[]).forEach((it,i)=>{ if(it.lang===l&&it.kind!=="picks"&&(it.grammar||it.grammar_zh)) rows.push({date:d.date,i,it}); }); }
+      GN.rows=rows; }catch(e){ GN.rows=[]; } GN.busy=false; if(lang()!==l) return; }
+  const q=($("#gram-q").value||"").trim().toLowerCase();
+  const lvSel=(S.settings.rdLv||{})[l]; const rows=GN.rows.filter(r=>mgTrackOK(r.it)&&(!lvSel||r.it.level===lvSel)).filter(r=>{ if(!q) return true; const g=hxPick(r.it,"grammar"); return ((g&&g.text)||"").toLowerCase().includes(q)||String(r.it.title||"").toLowerCase().includes(q); });
+  box.innerHTML=rows.length?rows.map(r=>{ const g=hxPick(r.it,"grammar"); return `<details class="gram-it"><summary><small>${esc(r.date.slice(5))} · ${esc(r.it.level||"")}</small><span data-noi18n>${esc(r.it.title||"")}</span></summary><p lang="${g?g.lang:""}" data-noi18n>${esc(g?g.text:"")}</p><button type="button" class="btn ghost small" data-gopen="${esc(r.date)}|${r.i}">${esc(trOne("打开文章"))}</button></details>`; }).join(""):`<p class="small muted">${esc(trOne("还没有语法说明"))}</p>`;
+}
+{ const fg=$("#fold-gram"); fg.addEventListener("toggle",()=>{ if(fg.open) gramRender(); }); }
+$("#gram-q").addEventListener("input",()=>gramRender());
+$("#gram-list").addEventListener("click",e=>{ const b=e.target.closest("[data-gopen]"); if(!b) return; const d=b.dataset.gopen.split("|")[0]; const k=MG.idx?MG.idx.days.findIndex(x=>x.date===d):-1; MG.mine=null; MG.key=b.dataset.gopen; if(k>=0) MG.di=k; showTab("read"); });
 function renderStats(){
   const l=lang(), LL=S[l], srs=LL.srs, d=LANG[l];
   const days=Object.entries(LL.log), chk=days.filter(([k,v])=>v.c).length;
@@ -3962,6 +4008,13 @@ function s2t(str){ // Simplified → Traditional (Taiwan), phrase-aware for comm
   return o;
 }
 const UI_DICT=[
+["该重读了", "Time to re-read", "Zeit zum Wiederlesen", "Hora de reler", "該重讀了"],
+["{0} 天前", "{0} days ago", "vor {0} Tagen", "há {0} dias", "{0} 天前"],
+["语法小本子", "Grammar notebook", "Grammatikheft", "Caderno de gramática", "語法小本子"],
+["读过的文章里的语法说明", "Grammar notes from the articles", "Grammatik aus den Texten", "Notas de gramática dos textos", "讀過的文章裡的語法說明"],
+["搜索语法…", "Search grammar…", "Grammatik suchen…", "Buscar gramática…", "搜尋語法…"],
+["打开文章", "Open the article", "Text öffnen", "Abrir o texto", "打開文章"],
+["还没有语法说明", "No grammar notes yet", "Noch keine Grammatik", "Ainda sem notas de gramática", "還沒有語法說明"],
 ["初级 A1–B1", "Easier A1–B1", "Leichter A1–B1", "Mais fácil A1–B1", "初級 A1–B1"],
 ["高阶 B2–C2", "Harder B2–C2", "Schwerer B2–C2", "Mais difícil B2–C2", "高階 B2–C2"],
 ["初级 · Beginner", "Beginner", "Anfänger", "Iniciante", "初級 · Beginner"],
@@ -4745,7 +4798,7 @@ function showTab(t){
   TABS.forEach(k=>document.getElementById("tab-"+k).hidden=k!==t);
   if(t==="me") meRender();
   if(t==="dict"){ if(foldOn("browse")) renderBrowse(); if(foldOn("pile")) renderPile(); }
-  if(t==="today") renderStats();
+  if(t==="today"){ renderStats(); rrRender(); }
   if(fold){ { const d=document.getElementById("fold-"+fold); if(d){ d.open=true; setTimeout(()=>{ try{ d.scrollIntoView({block:"start"}); }catch(e){} },30); } } }
   if(t==="extras") exRender();
   renderTrack();
@@ -4786,8 +4839,9 @@ async function applyLang(){
   try{ await loadLang(l); }
   catch(e){ $("#card-area").innerHTML=`<div class="empty"><b>词匣没有载入</b>请检查网络后刷新页面。（${esc(e.message)}）</div>`; return; }
   if(lang()!==l) return;
-  rebuildCards(); buildDaily(); renderStrip();
+  rebuildCards(); buildDaily(); renderStrip(); rrRender();
   if(cur!=="today") showTab(cur);
+  { const fg=$("#fold-gram"); if(fg&&fg.open) gramRender(); }
 }
 
 /* ---------- lean interface & study-settings drawer ---------- */
