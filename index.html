@@ -1065,6 +1065,18 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 #card-area .say-on .w2{animation:sayw 1s ease-in-out .25s infinite}
 @keyframes sayw{0%,100%{opacity:1}50%{opacity:.2}}
 @media (prefers-reduced-motion:reduce){#card-area .say-on .w1,#card-area .say-on .w2{animation:none}}
+
+/* wide screens: use more of the width so the page doesn't float in a narrow column */
+@media (min-width:1360px){
+  .wrap{max-width:1260px}
+  .grid{grid-template-columns:minmax(0,1fr) 340px;gap:36px}
+  #tab-read.grid{grid-template-columns:minmax(0,1fr) 360px}
+}
+@media (min-width:1700px){
+  .wrap{max-width:1440px}
+  .grid{grid-template-columns:minmax(0,1fr) 380px;gap:48px}
+  #tab-read.grid{grid-template-columns:minmax(0,1fr) 400px}
+}
 </style>
 </head>
 <body>
