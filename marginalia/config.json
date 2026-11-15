@@ -216,7 +216,7 @@
   "en": "Advanced track (C1/C2 long reads, picks): PAUSED since 2026-11-03, earlier articles stay as a library. Beginner track (since 2026-11-15, revised): Mon–Fri one A2–B1 item with Chinese help only — Mon Mia's Diary (A2), Tue everyday dialogue (A2), Wed world cultures, customs & food (B1), Thu arts, music & ideas (B1), Fri places, landscapes & the outdoors or a magazine-style portrait (B1). In the app all English articles are together; a reading filter (全部 / 初级 A1–B1 / 高阶 B2–C2) narrows the list without touching the flashcards; the Basics entry deck is always on the Explore page.",
   "de": "PAUSED since 2026-11-03 (the owner has plenty to read); the earlier German articles stay as a library.",
   "fr": "Mon–Fri: 1 article, level by weekday (A1, A2, B1, B2, C1)",
-  "pt": "ONE short, easy A1 item a day (since 2026-11-03): Mon/Wed/Sun diary, Tue/Fri dialogue, Thu Textinho, Sat the A1 song story (Saturday task). B1/B2 extras for the heritage-speaker friend (Wed crônica, Sat B1/B2 song story) are invisible at A1.",
+  "pt": "ONE A1 item a day for the owner (Portuguese is the main language of the app). Mon Diário da Ana · Tue Diálogo · Wed Cultura (customs, festivals, food) · Thu Textinho · Fri Diário da Ana · Sat Música (A1 song story, Saturday task) · Sun Lugares e gente (landscapes, regions and the people who live there). B1/B2 extras for the heritage-speaker friend: Wed crônica, Sat B1/B2 song story.",
   "picks": "PAUSED since 2026-11-03 together with English and German.",
   "weekend": "Saturday and Sunday: no new English, German or French texts (no weekly review).",
   "es": "Mon–Fri around 18:00: 2 items, Latin American Spanish (ustedes, no vosotros) — one reading (culture, feminism, everyday life) and one conversation dialogue (small talk, asking questions, directions), levels rotating A1–B2 by weekday, with a short grammar note. Helper languages: English and German.",
@@ -261,7 +261,50 @@
    "Fri": "uma placa ou um aviso (na padaria, no prédio, no metrô)",
    "Sat": "um cartão-postal ou uma mensagem de voz transcrita",
    "Sun": "uma agenda ou lista de tarefas da semana"
-  }
+  },
+  "weekly": {
+   "Mon": "Diário da Ana",
+   "Tue": "Diálogo",
+   "Wed": "Cultura — one Brazilian custom, festival or dish",
+   "Thu": "Textinho",
+   "Fri": "Diário da Ana",
+   "Sat": "Música — A1 song story (separate task)",
+   "Sun": "Lugares e gente — one Brazilian landscape or region and the people who live there"
+  },
+  "cultura_ideas": [
+   "Festa Junina",
+   "Carnaval de rua",
+   "o cafezinho",
+   "feijoada aos sábados",
+   "pão de queijo de Minas",
+   "o churrasco no domingo",
+   "açaí no Pará",
+   "Círio de Nazaré",
+   "Bumba meu boi",
+   "o Natal com calor",
+   "futebol de várzea",
+   "a roda de capoeira",
+   "as feiras livres",
+   "o jeitinho de cumprimentar (beijo no rosto)",
+   "Réveillon de branco na praia"
+  ],
+  "lugares_ideas": [
+   "a Amazônia e as pessoas ribeirinhas",
+   "o Pantanal e os peões",
+   "os Lençóis Maranhenses",
+   "as Cataratas do Iguaçu",
+   "o sertão nordestino",
+   "Salvador e o Pelourinho",
+   "Ouro Preto e as cidades históricas de Minas",
+   "a Chapada Diamantina",
+   "Fernando de Noronha",
+   "os pampas gaúchos e o chimarrão",
+   "o Rio São Francisco",
+   "Brasília",
+   "Paraty",
+   "Florianópolis e a cultura açoriana",
+   "Manaus e o encontro das águas"
+  ]
  },
  "es_focus": {
   "who": "A friend at A2 who wants to talk to people; material A1–B2, most of it A2–B1.",
