@@ -1077,6 +1077,64 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
   .grid{grid-template-columns:minmax(0,1fr) 380px;gap:48px}
   #tab-read.grid{grid-template-columns:minmax(0,1fr) 400px}
 }
+
+/* ===== calm layout v3: left nav on wide screens, one-line strip, fewer lines, accent only for progress ===== */
+.navbrand{display:none}
+#t-pile{display:none!important}
+#sess-title[hidden]{display:none}
+.sesshead:has(#sess-title[hidden]):has(#sess-actions:empty){display:none}
+/* one-line status strip */
+@media (min-width:641px){
+  .strip{display:flex!important;flex-wrap:wrap;align-items:baseline;gap:6px 0!important;border:0!important;padding:0!important;margin-top:12px!important}
+  .strip > div,.strip .ring{display:inline-flex!important;flex-direction:row-reverse;align-items:baseline;gap:6px;padding:0!important;border:0!important}
+  .strip > div + div::after{content:"·";color:var(--muted);margin:0 12px 0 0;order:1}
+  .strip > div + div{margin-left:12px}
+  .strip .ring .t{display:inline-flex;flex-direction:row-reverse;align-items:baseline;gap:6px}
+  .strip .ring .t b,.strip .stat b{display:inline!important;font-family:var(--f-ui)!important;font-size:14px!important;font-weight:600!important;color:var(--ink)!important}
+  .strip .ring .t span,.strip .stat span{display:inline!important;font-size:13.5px!important;color:var(--muted)!important}
+  .strip .badge.on{background:none!important;border:0!important;color:var(--ink);padding:0;margin:0 0 0 18px!important;font-weight:500;font-size:13.5px;grid-column:auto}
+  .strip .badge svg{width:15px;height:15px}
+  nav.tabs{border-bottom:0}
+  .langsw button[aria-pressed="true"] small{display:none!important}
+}
+/* colours: ink + grey; the accent stays only on progress bars and rings */
+.done .seal{background:none;color:var(--ink);border:1.5px solid var(--line)}
+.btn.primary{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.checks input,.tog input{accent-color:var(--ink)}
+.checks label:has(input:checked){border-color:var(--ink);background:none}
+.langsw button{--lc:var(--ink);--lcs:transparent}
+.langsw button small{display:none!important}
+.langsw button::before{display:none}
+.langsw button{padding:8px 16px!important;border-color:transparent!important;background:none!important;box-shadow:none!important}
+.langsw button[aria-pressed="true"]{border-color:var(--line)!important;background:var(--surface)!important}
+.langsw button:not([aria-pressed="true"]) b{color:var(--muted);font-weight:500}
+.top .langsw{border:0!important;background:none!important}
+nav.tabs button[aria-selected="true"]{border-bottom-color:var(--ink)}
+.settog{border:0!important;background:none!important;padding:6px 0!important;color:var(--muted)!important;width:auto!important;font-size:14px}
+.settog:hover{color:var(--ink)!important}
+.side .settog + .tset{margin-top:6px}
+/* wide screens: navigation becomes a left column */
+@media (min-width:1100px){
+  .wrap{display:grid;grid-template-columns:184px minmax(0,1fr);column-gap:44px;max-width:1340px}
+  .wrap>*{grid-column:2}
+  .wrap>nav.tabs{grid-column:1;grid-row:1 / span 60;align-self:start;position:sticky;top:0;display:flex;flex-direction:column;gap:2px;margin:0;padding-top:4px;border:0;overflow:visible;background:none;z-index:5}
+  .navbrand{display:flex;align-items:center;gap:10px;padding:2px 10px 26px}
+  .navbrand .mark{width:36px;height:36px;border-radius:9px;flex:none}
+  .navbrand span{display:flex;flex-direction:column;line-height:1.15}
+  .navbrand b{font-size:17px;font-weight:600;color:var(--ink);letter-spacing:.04em}
+  .navbrand i{font-size:12.5px;color:var(--muted)}
+  .top .brand{display:none}
+  .top{justify-content:space-between;min-height:44px}
+  nav.tabs button{display:flex;align-items:center;gap:12px;text-align:left;padding:10px 12px;border:0!important;border-radius:10px;margin:0;font-size:15px;color:var(--muted)}
+  nav.tabs button svg{display:block;width:19px;height:19px;flex:none}
+  nav.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink)}
+  nav.tabs button:not([aria-selected="true"]):hover{background:color-mix(in srgb,var(--surface) 60%,transparent)}
+  section.grid,section.me{margin-top:18px}
+  #tab-me{margin-left:0!important;max-width:900px}
+  #tab-dict .fold,#tab-dict .dict-page{margin-left:0!important}
+  #tab-extras .exwrap{margin-left:0}
+}
+@media (min-width:1700px){ .wrap{max-width:1560px;grid-template-columns:200px minmax(0,1fr);column-gap:56px} }
 </style>
 </head>
 <body>
@@ -1113,6 +1171,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
   <div class="banner" id="backup-banner" hidden><span id="backup-banner-t"></span><span class="spacer"></span><button class="btn sm" id="backup-banner-go" type="button">现在备份</button></div>
 
   <nav class="tabs" role="tablist" id="tabs">
+    <div class="navbrand" aria-hidden="true"><svg class="mark" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="var(--ink)"/><rect x="108" y="112" width="296" height="40" rx="20" fill="var(--bg)"/><path d="M128 232 q 32 -34 64 0 t 64 0 t 64 0 t 64 0" fill="none" stroke="var(--pt-mark)" stroke-width="22" stroke-linecap="round"/><rect x="108" y="300" width="296" height="40" rx="20" fill="var(--bg)"/><rect x="108" y="372" width="176" height="40" rx="20" fill="var(--bg)" opacity=".55"/></svg><span><b>字里行间</b><i data-noi18n>Entrelinhas</i></span></div>
     <button role="tab" data-tab="today" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="m9 14.5 2 2 4-4"/></svg><span class="tl">今日学习</span></button>
     <button role="tab" data-tab="read" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5c3-1.2 6-1.2 9 .8 3-2 6-2 9-.8v13c-3-1.2-6-1.2-9 .8-3-2-6-2-9-.8z"/><path d="M12 6.3v13"/></svg><span class="tl">阅读</span></button>
     <button role="tab" data-tab="dict" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span class="tl">字典</span></button>
@@ -1167,7 +1226,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
     </div>
     <aside class="side">
       <div class="panel" id="plan-panel"></div>
-      <button class="btn ghost settog" id="tset-tog" type="button" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>学习设定</span><i class="chev" aria-hidden="true"></i></button>
+      <button class="btn ghost settog" id="tset-tog" type="button" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>设定</span><i class="chev" aria-hidden="true"></i></button>
       <div class="panel tset">
         <h3>每日打卡</h3>
         <div class="field" id="goal-manual">
@@ -1769,7 +1828,7 @@ function renderPlan(){
   }
   const learned=planLearned(p), left=planDaysLeft(p), total=Math.max(1,dayDiff(p.start,p.deadline)+1), elapsed=Math.min(total,Math.max(0,dayDiff(p.start,today())));
   const expected=Math.round(p.target*elapsed/total), diff=learned-expected, q=planQuota(), over=today()>p.deadline;
-  const pace= over? `<span style="color:var(--bad)">已过截止日期，可以点「调整」延后</span>` : diff>=0? `<span style="color:var(--ok)">进度正常${diff>0?`，超前 ${diff} 个`:""}</span>` : `<span style="color:var(--warn)">落后 ${-diff} 个，每天的新词数已经自动调高</span>`;
+  const pace= over? `<span style="color:var(--bad)">已过截止日期，可以点「调整」延后</span>` : diff>=0? `<span>进度正常${diff>0?`，超前 ${diff} 个`:""}</span>` : `<span style="color:var(--warn)">落后 ${-diff} 个，每天的新词数已经自动调高</span>`;
   if(p.ids.length&&p.target>p.ids.length) p.target=p.ids.length; // without AI generation a plan can only cover the built-in word list
   const ready=p.ids.length, gen=false;
   gm.hidden=true; gp.hidden=false; gp.innerHTML=`每天新词数由学习计划自动计算：<b>今天 ${q} 个</b>。`;
@@ -2235,7 +2294,7 @@ function togglePile(id){
 function fhN(){ try{ return +localStorage.getItem("pw-fh")||0; }catch(e){ return 0; } } // the "tap to flip" hint shows only for the first five flips
 function renderCard(){
   const area=$("#card-area");
-  $("#sess-title").textContent=sess?sess.title:"今日学习";
+  $("#sess-title").textContent=sess?sess.title:"今日学习"; $("#sess-title").hidden=!sess||sess.mode==="daily";
   $("#sess-actions").innerHTML= sess&&sess.mode!=="daily" ? `<button class="btn ghost sm" id="back-daily">返回今日学习</button>` : "";
   const bd=$("#back-daily"); if(bd) bd.onclick=buildDaily;
   if(!DATA[lang()]) return;
@@ -2738,7 +2797,7 @@ async function mgRender(){
     ${(()=>{ const k=es.findIndex(e=>e.date===pick.date&&e.i===pick.i); const nx=!pick.older&&k>=0?es[k+1]:null; return nx?`<button class="btn" data-mg="${nx.date}|${nx.i}" type="button">下一篇 →</button>`:""; })()}</div>
   </article>`;
   main.innerHTML=h; MG.cur={...pick,it};
-  if(innerWidth>640) document.documentElement.style.setProperty("--tabs-h",$("#tabs").offsetHeight+"px");
+  document.documentElement.style.setProperty("--tabs-h",tabsOff()+"px");
   { const t=main.querySelector(".mg-toc"), a=t&&t.querySelector('[aria-current="true"]'); if(a) t.scrollLeft=a.offsetLeft-(t.clientWidth-a.offsetWidth)/2; }
   mgArch(pick); mgFavList(pick); mgWeek(); rbRender(); cuRender(); bsRender(); pkRender(); rdSync(); mineList();
 }
@@ -3424,10 +3483,10 @@ $("#tab-read").addEventListener("click",e=>{
     MG.sIdx=rdNodes("art").indexOf(w.closest(".s"));
     $$(".mg-w.on").forEach(x=>x.classList.remove("on")); w.classList.add("on"); mgOpen(w.textContent,mgSentenceOf(w)); return; }
   if(!b) return;
-  if(b.dataset.mine){ MG.mine=b.dataset.mine; mgClose(); mgRender(); mineList(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
+  if(b.dataset.mine){ MG.mine=b.dataset.mine; mgClose(); mgRender(); mineList(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(tabsOff()+4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
   if(b.dataset.mglv!=null){ S.settings.rdLv=S.settings.rdLv||{}; S.settings.rdLv[lang()]=b.dataset.mglv||null; save(); MG.key=null; mgClose(); rdStop(); mgRender(); return; }
   if(b.dataset.mineopen){ const d=$("#mine-box"); d.open=true; d.scrollIntoView({behavior:"smooth",block:"start"}); return; }
-  if(b.dataset.mg){ MG.mine=null; MG.key=b.dataset.mg; if(b.dataset.di!=null) MG.di=+b.dataset.di; else { const d=b.dataset.mg.split("|")[0]; const k=MG.idx.days.findIndex(x=>x.date===d); if(k>=0) MG.di=k; } mgClose(); mgRender(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(innerWidth>640?$("#tabs").offsetHeight+4:4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
+  if(b.dataset.mg){ MG.mine=null; MG.key=b.dataset.mg; if(b.dataset.di!=null) MG.di=+b.dataset.di; else { const d=b.dataset.mg.split("|")[0]; const k=MG.idx.days.findIndex(x=>x.date===d); if(k>=0) MG.di=k; } mgClose(); mgRender(); { const m=$("#mg-main"); const y=m.getBoundingClientRect().top+scrollY-(tabsOff()+4); if(scrollY>y) window.scrollTo({top:y,behavior:"smooth"}); } return; }
   if(b.dataset.wq!=null){ MG.wpick[b.dataset.wq]=+b.dataset.wo; mgWeek(); return; }
   const id=b.id;
   if(id==="mg-prev"){ MG.di++; MG.key=null; mgRender(); } else if(id==="mg-next"){ MG.di--; MG.key=null; mgRender(); }
@@ -4894,8 +4953,9 @@ const lsGet=(k,d)=>{ try{ const v=localStorage.getItem(k); return v==null?d:v; }
 const lsSet=(k,v)=>{ try{ localStorage.setItem(k,v); }catch(e){} };
 function applyLean(){ const show=lsGet("pw-hints","0")==="1"; document.body.classList.toggle("lean",!show); const c=$("#opt-hints"); if(c) c.checked=show; }
 $("#opt-hints").addEventListener("change",e=>{ lsSet("pw-hints",e.target.checked?"1":"0"); applyLean(); });
-function applyTset(){ const open=lsGet("pw-tset","0")==="1"; const t=$("#tset-tog"); t.setAttribute("aria-expanded",String(open)); t.closest(".side").classList.toggle("tset-closed",!open); }
-$("#tset-tog").addEventListener("click",()=>{ lsSet("pw-tset",lsGet("pw-tset","0")==="1"?"0":"1"); applyTset(); });
+function tabsOff(){ return innerWidth>640&&innerWidth<1100?$("#tabs").offsetHeight:0; }
+function applyTset(){ const open=lsGet("pw-tset2","0")==="1"; const t=$("#tset-tog"); t.setAttribute("aria-expanded",String(open)); t.closest(".side").classList.toggle("tset-closed",!open); }
+$("#tset-tog").addEventListener("click",()=>{ lsSet("pw-tset2",lsGet("pw-tset2","0")==="1"?"0":"1"); applyTset(); });
 applyLean(); applyTset();
 
 /* ---------- first visit: ask interface language + languages I'm learning ---------- */
