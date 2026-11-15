@@ -2550,7 +2550,7 @@ function mgLoad(){
 async function mgDay(d){ if(MG.days[d]) return MG.days[d]; const x=await mgGet("marginalia/"+d+".json"); MG.days[d]=x; return x; }
 const LV_ORDER=["A1","A2","B1","B2","C1","C2"];
 /* English has two tracks: beginner (entry deck + short A1/A2 texts) and advanced (C1/C2 long reads, picks) */
-const EN_BEG=["A1","A2"];
+const EN_BEG=["A1","A2","B1"];
 function enTrack(){ return S.settings.enTrack==="beg"?"beg":"adv"; }
 function mgTrackOK(x){ if(!x||x.lang!=="en") return true; const b=EN_BEG.includes(x.level); return enTrack()==="beg"?b:!b; }
 function mgLevels(dayIdx,l){ const day=MG.idx&&MG.idx.days[dayIdx]; if(!day) return [];
@@ -2751,7 +2751,7 @@ const BS_ES=[[0,41,"👋","Saludos y charla","Begrüßen & Smalltalk"],[41,55,"�
 // per language: data file, topic groups, helper languages and their column in the row, text language tag
 const BS_CFG={pt:{groups:BS_GROUPS,langs:[["en","EN"],["zh","中文"]],mi:{zh:2,en:3},xi:{zh:6,en:7},tag:"pt-BR"},
   es:{groups:BS_ES,langs:[["en","EN"],["de","DE"],["pt","PT"]],mi:{de:2,en:3,pt:4},xi:{de:6,en:7,pt:7},tag:"es-MX",subk:"de"},
-  en:{groups:BS_EN,langs:[["zh","中文"],["de","DE"]],mi:{zh:3,de:5},xi:{zh:7},exi:6,tag:"en-GB",subk:"zh",name:"Basics"}};
+  en:{groups:BS_EN,langs:[["zh","中文"]],mi:{zh:3},xi:{zh:7},exi:6,tag:"en-GB",subk:"zh",name:"Basics"}};
 BS_CFG.pt.subk="zh";
 async function bsRender(){
   const box=$("#bsbox"); if(!box) return; const l=lang(), C=BS_CFG[l];
@@ -4761,8 +4761,9 @@ $("#langsw").addEventListener("click",e=>{ const b=e.target.closest("[data-l]");
 function renderTrack(){ const t=$("#entrack"); if(!t) return; t.hidden=lang()!=="en"; $$("#entrack button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.trk===enTrack()))); }
 $("#entrack").addEventListener("click",e=>{ const b=e.target.closest("[data-trk]"); if(!b||b.dataset.trk===enTrack()) return;
   const L=S.settings.levels;
-  if(b.dataset.trk==="beg"){ S.settings.enAdvLv=(L.en||[]).filter(v=>v!=="BS"&&!EN_BEG.includes(v)); L.en=["BS","A1"]; }
-  else L.en=(S.settings.enAdvLv&&S.settings.enAdvLv.length)?S.settings.enAdvLv:["C1","C2"];
+  const G=S.settings.gloss;
+  if(b.dataset.trk==="beg"){ S.settings.enAdvLv=(L.en||[]).filter(v=>v!=="BS"&&!EN_BEG.includes(v)); S.settings.enAdvGl=G.en; L.en=["BS","A2"]; G.en=["zh"]; }
+  else { L.en=(S.settings.enAdvLv&&S.settings.enAdvLv.length)?S.settings.enAdvLv:["C1","C2"]; G.en=(S.settings.enAdvGl&&S.settings.enAdvGl.length)?S.settings.enAdvGl:["def","zh"]; }
   S.settings.enTrack=b.dataset.trk; S.settings.rdLv=S.settings.rdLv||{}; S.settings.rdLv.en=null; save(); applyLang(); });
 /* languages I'm learning: hide the others (progress is kept) */
 function langsOn(){ const a=(S.settings.langsOn||Object.keys(LANG)).filter(k=>LANG[k]); return a.length?a:Object.keys(LANG); }
