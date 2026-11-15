@@ -1548,7 +1548,7 @@ const I={
 const LS="palavra-wort-v1";
 const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
-  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"],es:["en","de"]},goal:{pt:15,de:15,en:15,fr:15,es:15},levels:{es:["BS","A2","B1"],pt:["BS","A1","A2"],de:["B2","C1","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
+  gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"],es:["en","de"]},goal:{pt:15,de:15,en:15,fr:15,es:15},levels:{es:["BS","A2","B1"],pt:["BS","A1","A2"],de:["C1","C2","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
   pt:blank(),de:blank(),en:blank(),fr:blank(),es:blank(),updated:0,lastBackup:0};
 const clone=x=>JSON.parse(JSON.stringify(x));
 function merge(x){
@@ -1558,6 +1558,7 @@ function merge(x){
   for(const l of Object.keys(LANG)) if(x[l]) o[l]=Object.assign(blank(),x[l]);
   if(!LANG[o.settings.lang]) o.settings.lang="pt";
   { const d=o.settings.levels.de; if(!o.settings.deUG&&Array.isArray(d)&&!d.includes("UG")) d.push("UG"); o.settings.deUG=1; }
+  { const d=o.settings.levels.de; if(!o.settings.deC2&&Array.isArray(d)&&d.slice().sort().join()==="B2,C1,UG") o.settings.levels.de=["C1","C2","UG"]; o.settings.deC2=1; }
   { const p=o.settings.levels.pt; if(!o.settings.ptBS&&Array.isArray(p)&&!p.includes("BS")) p.unshift("BS"); o.settings.ptBS=1; }
   { const f=o.settings.levels.fr; if(!o.settings.frLv2&&Array.isArray(f)&&f.join()==="B2,C1") o.settings.levels.fr=["A1","A2","B1","B2","C1"]; o.settings.frLv2=1; }
   // Spanish arrived later: people who already used the app keep their own languages (Spanish stays hidden until they tick it)

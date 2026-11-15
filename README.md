@@ -61,7 +61,7 @@ supabase/schema.sql     邮箱登录同步需要的数据表（在 Supabase 里�
 
 | 时间 | 任务 | 模型 | 写入 |
 |---|---|---|---|
-| 周二、五 03:23 | Wortschatz / Word bank | Sonnet | `data/`：只扩充西语和德语口语 UG（其他词库暂停） |
+| 周二、五 03:23 | Wortschatz / Word bank | Sonnet | `data/`：扩充德语 C1、C2（每次各约 30 个，真正的高阶词）和西语；其他词库暂停 |
 | 周一至五 06:13 | English | Opus | 一篇 C2 长文 + 一篇 C1 短文，主题按星期轮换 |
 | 周一至五 11:52 | Deutsch | Opus | 一篇 C1 文化与生活长文 + 一篇 B2 短文（Alltagsdeutsch／Deutschland kurios） |
 | 周一、三、五 13:37 | Lesetipps / Reading list | Sonnet | 德语、英语各 2 个原文链接 |
