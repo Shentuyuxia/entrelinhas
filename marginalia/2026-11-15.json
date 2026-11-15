@@ -1,0 +1,116 @@
+{
+ "date": "2026-11-15",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Lugares e gente",
+   "title": "Lagoas no meio da areia",
+   "dek": "No Maranhão, a chuva faz lagoas azuis entre dunas brancas. Parece um deserto, mas não é!",
+   "tags": [
+    "Maranhão",
+    "Lençóis Maranhenses",
+    "preposições"
+   ],
+   "paragraphs": [
+    "Os Lençóis Maranhenses ficam no Maranhão, no Nordeste do Brasil, perto do mar. É um parque nacional desde 2 de junho de 1981.",
+    "Lá tem muita areia branca. As dunas são grandes: algumas têm 40 metros! De longe, as dunas parecem lençóis brancos numa cama enorme. Por isso o nome: Lençóis.",
+    "Mas não é um deserto. De janeiro a junho, chove muito. A água fica entre as dunas: são as lagoas, azuis e verdes. De junho a agosto, as lagoas estão cheias.",
+    "Muitos turistas vão para Barreirinhas, uma cidade perto do parque. De lá, eles vão de carro para as dunas.",
+    "Algumas famílias moram no meio das dunas há muitos anos. Muita gente trabalha com os turistas, nas pousadas e nos restaurantes.",
+    "E uma surpresa: nas lagoas tem peixes! Sem chuva, as lagoas ficam secas. Um peixe, a traíra, dorme na lama e espera a chuva do próximo ano."
+   ],
+   "paragraphs_en": [
+    "The Lençóis Maranhenses are in Maranhão, in the Northeast of Brazil, near the sea. It has been a national park since 2 June 1981.",
+    "There is a lot of white sand there. The dunes are big: some are 40 metres high! From far away, the dunes look like white sheets on a huge bed. That's why the name: Lençóis (sheets).",
+    "But it is not a desert. From January to June it rains a lot. The water stays between the dunes: these are the lagoons, blue and green. From June to August, the lagoons are full.",
+    "Many tourists go to Barreirinhas, a town near the park. From there, they go by car to the dunes.",
+    "Some families have lived in the middle of the dunes for many years. Many people work with the tourists, in the guesthouses and in the restaurants.",
+    "And a surprise: there are fish in the lagoons! Without rain, the lagoons dry up. One fish, the traíra (wolf fish), sleeps in the mud and waits for next year's rain."
+   ],
+   "paragraphs_zh": [
+    "拉克伊斯·马拉年塞斯位于巴西东北部的马拉尼昂州，靠近大海。从1981年6月2日起，它就是国家公园。",
+    "那里有很多白色的沙子。沙丘很大：有的高40米！远远看去，沙丘像一张巨大的床上铺着的白床单。所以叫这个名字：Lençóis（床单）。",
+    "但它不是沙漠。从一月到六月，雨下得很多。雨水留在沙丘之间：这就是蓝色和绿色的湖。六月到八月，湖水是满的。",
+    "很多游客去巴雷里尼亚斯，一个离公园很近的城市。从那里，他们坐车去沙丘。",
+    "有些家庭在沙丘中间住了很多年。很多人为游客工作，在民宿和餐馆里。",
+    "还有一个惊喜：湖里有鱼！没有雨，湖就干了。有一种鱼，叫 traíra（狼鱼），它睡在泥里，等第二年的雨。"
+   ],
+   "paragraphs_de": [
+    "Die Lençóis Maranhenses liegen in Maranhão, im Nordosten Brasiliens, nahe am Meer. Seit dem 2. Juni 1981 sind sie ein Nationalpark.",
+    "Dort gibt es viel weißen Sand. Die Dünen sind groß: manche sind 40 Meter hoch! Von weitem sehen die Dünen aus wie weiße Laken auf einem riesigen Bett. Daher der Name: Lençóis (Laken).",
+    "Aber es ist keine Wüste. Von Januar bis Juni regnet es viel. Das Wasser bleibt zwischen den Dünen: Das sind die Lagunen, blau und grün. Von Juni bis August sind die Lagunen voll.",
+    "Viele Touristen fahren nach Barreirinhas, einer Stadt nahe am Park. Von dort fahren sie mit dem Auto zu den Dünen.",
+    "Einige Familien wohnen seit vielen Jahren mitten in den Dünen. Viele Leute arbeiten mit den Touristen, in den Pensionen und in den Restaurants.",
+    "Und eine Überraschung: In den Lagunen gibt es Fische! Ohne Regen trocknen die Lagunen aus. Ein Fisch, die Traíra (Wolfsfisch), schläft im Schlamm und wartet auf den Regen im nächsten Jahr."
+   ],
+   "glossary": [
+    {
+     "w": "a areia",
+     "en": "sand — muita areia branca",
+     "zh": "沙子",
+     "de": "der Sand",
+     "pt": "o chão da praia, pequeno e amarelo ou branco"
+    },
+    {
+     "w": "a duna",
+     "en": "dune — As dunas são grandes.",
+     "zh": "沙丘",
+     "de": "die Düne",
+     "pt": "uma montanha de areia"
+    },
+    {
+     "w": "o lençol (os lençóis)",
+     "en": "bedsheet — lençóis brancos numa cama",
+     "zh": "床单",
+     "de": "das Bettlaken",
+     "pt": "o pano branco na cama"
+    },
+    {
+     "w": "a lagoa",
+     "en": "lagoon, small lake — as lagoas azuis e verdes",
+     "zh": "湖；潟湖",
+     "de": "die Lagune, der kleine See",
+     "pt": "água no meio da terra, menor que um lago"
+    },
+    {
+     "w": "cheio / cheia",
+     "en": "full — As lagoas estão cheias.",
+     "zh": "满的",
+     "de": "voll",
+     "pt": "com muita água, com tudo dentro"
+    },
+    {
+     "w": "a lama",
+     "en": "mud — O peixe dorme na lama.",
+     "zh": "泥",
+     "de": "der Schlamm",
+     "pt": "terra com água"
+    }
+   ],
+   "grammar": "Prepositions join with the article: em + o = no, em + a = na, de + o = do, de + as = das: no Maranhão, na lama, perto do mar, no meio das dunas. With transport, Portuguese uses de: de carro, de ônibus.",
+   "grammar_zh": "介词和冠词会缩合：em + o = no，em + a = na，de + o = do，de + as = das：no Maranhão（在马拉尼昂），na lama（在泥里），perto do mar（靠近大海），no meio das dunas（在沙丘中间）。交通方式用 de：de carro（坐车），de ônibus（坐公交）。",
+   "grammar_de": "Präpositionen verschmelzen mit dem Artikel: em + o = no, em + a = na, de + o = do, de + as = das: no Maranhão (in Maranhão), na lama (im Schlamm), perto do mar (nah am Meer), no meio das dunas (mitten in den Dünen). Bei Verkehrsmitteln steht de: de carro (mit dem Auto), de ônibus (mit dem Bus).",
+   "grammar_pt": "Em e de ficam juntos com o artigo: em + o = no, em + a = na, de + o = do, de + as = das. Exemplos: no Maranhão, na lama, perto do mar, no meio das dunas. Para o transporte, a gente usa de: de carro, de ônibus.",
+   "questions": [
+    "Onde ficam os Lençóis Maranhenses?",
+    "De que cor são as lagoas? Quando elas estão cheias?",
+    "E você? Você mora perto do mar? Onde você quer passar as férias?"
+   ],
+   "sources": [
+    {
+     "title": "Lençóis Maranhenses National Park (Wikipedia, via Wikiwand)",
+     "url": "https://www.wikiwand.com/en/articles/Len%C3%A7%C3%B3is_Maranhenses_National_Park",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "title": "O paraíso de dunas e lagoas cristalinas no Nordeste que ganhou o título de Patrimônio Mundial (Correio Braziliense)",
+     "url": "https://www.correiobraziliense.com.br/cbradar/o-paraiso-de-dunas-e-lagoas-cristalinas-no-nordeste-que-ganhou-o-titulo-de-patrimonio-mundial/",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
+}
