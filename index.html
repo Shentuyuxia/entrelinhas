@@ -4762,7 +4762,7 @@ function renderTrack(){ const t=$("#entrack"); if(!t) return; t.hidden=lang()!==
 $("#entrack").addEventListener("click",e=>{ const b=e.target.closest("[data-trk]"); if(!b||b.dataset.trk===enTrack()) return;
   const L=S.settings.levels;
   const G=S.settings.gloss;
-  if(b.dataset.trk==="beg"){ S.settings.enAdvLv=(L.en||[]).filter(v=>v!=="BS"&&!EN_BEG.includes(v)); S.settings.enAdvGl=G.en; L.en=["BS","A2"]; G.en=["zh"]; }
+  if(b.dataset.trk==="beg"){ S.settings.enAdvLv=(L.en||[]).filter(v=>v!=="BS"); S.settings.enAdvGl=G.en; L.en=["BS","A2"]; G.en=["zh"]; }
   else { L.en=(S.settings.enAdvLv&&S.settings.enAdvLv.length)?S.settings.enAdvLv:["C1","C2"]; G.en=(S.settings.enAdvGl&&S.settings.enAdvGl.length)?S.settings.enAdvGl:["def","zh"]; }
   S.settings.enTrack=b.dataset.trk; S.settings.rdLv=S.settings.rdLv||{}; S.settings.rdLv.en=null; save(); applyLang(); });
 /* languages I'm learning: hide the others (progress is kept) */
