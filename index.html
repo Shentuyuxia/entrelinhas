@@ -2201,7 +2201,7 @@ function renderCard(){
   if(!sess||!sess.cur){ renderDone(area); return; }
   const it=sess.cur, c=it.c, LL=L(), st=LL.srs[c.id], inPile=!!LL.pile[c.id], dir=S.settings.dir;
   const hasImg=false, memo=memoOf(c), mine=mineOf(c), au=audsOf(c.id), hasAud=!!(au.w||au.s);
-  const top=`<div class="card-top">${lvTag(c.lvl)}${it.isNew?'<span class="chip new">新词</span>':stgHTML(st)}${c.custom?'<span class="chip">我录入的</span>':""}<span class="spacer"></span>
+  const top=!sess.flipped?`<div class="card-top"><span class="spacer"></span><button class="ib" id="c-say" aria-label="系统朗读" title="系统朗读 (S)">${I.spk}</button></div>`:`<div class="card-top">${lvTag(c.lvl)}${it.isNew?'<span class="chip new">新词</span>':stgHTML(st)}${c.custom?'<span class="chip">我录入的</span>':""}<span class="spacer"></span>
     <button class="ib" id="c-edit" aria-label="例句、录音" title="例句、录音 (E)">${I.pen}</button>
     <button class="ib ${inPile?"on":""}" id="c-pile" aria-label="${inPile?"移出生词堆":"放进生词堆"}" title="${inPile?"移出生词堆":"放进生词堆"} (P)">${inPile?I.starF:I.star}</button>
     ${hasAud?`<button class="ib me" id="c-mine" aria-label="播放我的录音" title="我的录音 (M)">${I.mic}</button>`:""}
@@ -2212,11 +2212,11 @@ function renderCard(){
   const backBits=()=>`${memo?`<div class="memo"><b>记忆</b><span data-noi18n>${esc(memo)}</span></div>`:""}${exHTML(c)}${mine.length?`<div class="mine"><span class="h">我的例句</span>${mine.slice(0,3).map(m=>`<div class="s">${esc(m.t)}${m.fix&&m.fix!==m.t?`<span class="fx">→ ${esc(m.fix)}</span>`:""}</div>`).join("")}</div>`:""}`;
   let body;
   if(dir==="t2g"){
-    body=`${imgFront?imgEl:""}<div class="word">${wordHTML(c)}</div><div class="row" style="justify-content:center">${posChip(c)}</div>`;
-    if(sess.flipped) body+=`${extra}<div class="divider"></div>${!imgFront?imgEl:""}${glossHTML(c)}${backBits()}`;
+    body=`${imgFront?imgEl:""}<div class="word">${wordHTML(c)}</div>`;
+    if(sess.flipped) body+=`<div class="row" style="justify-content:center">${posChip(c)}</div>${extra}<div class="divider"></div>${!imgFront?imgEl:""}${glossHTML(c)}${backBits()}`;
   } else {
-    body=`${imgFront?imgEl:""}${glossHTML(c,true)}<div class="row" style="justify-content:center">${posChip(c)}</div>`;
-    if(sess.flipped) body+=`<div class="divider"></div>${!imgFront?imgEl:""}<div class="word sm">${wordHTML(c)}</div>${extra}${backBits()}`;
+    body=`${imgFront?imgEl:""}${glossHTML(c,true)}`;
+    if(sess.flipped) body+=`<div class="row" style="justify-content:center">${posChip(c)}</div><div class="divider"></div>${!imgFront?imgEl:""}<div class="word sm">${wordHTML(c)}</div>${extra}${backBits()}`;
   }
   const actions= sess.flipped
     ? `<div class="rate">
@@ -2230,8 +2230,8 @@ function renderCard(){
   fillImgs(area);
   $("#c-say").onclick=()=>speak(sess.flipped&&c.ex?c.w+". "+c.ex:c.w);
   const cm=$("#c-mine"); if(cm) cm.onclick=()=>playMine(c.id,sess.flipped&&au.s?"s":"w");
-  $("#c-pile").onclick=()=>{ togglePile(c.id); renderCard(); };
-  $("#c-edit").onclick=()=>openDetail(c.id);
+  { const b=$("#c-pile"); if(b) b.onclick=()=>{ togglePile(c.id); renderCard(); }; }
+  { const b=$("#c-edit"); if(b) b.onclick=()=>openDetail(c.id); }
   const ad=$("#c-add"); if(ad) ad.onclick=()=>openDetail(c.id);
   const ce=area.querySelector(".card"); if(ce){ ce.classList.add("tap"); ce.onclick=e=>{ if(e.target.closest("button,a,input,textarea,select,audio,[data-say]")) return; const sel=window.getSelection&&String(window.getSelection()); if(sel) return; if(sess.flipped){ sess.flipped=false; sess.anim=1; renderCard(); } else flip(); }; if(sess.anim){ sess.anim=0; ce.classList.add("flipping"); } }
   area.querySelectorAll(".rate button").forEach(b=>b.onclick=()=>grade(+b.dataset.g));
