@@ -2100,8 +2100,7 @@ function wordHTML(c){
   return esc(c.w);
 }
 function posChip(c){
-  if(c.lang==="pt"&&(c.pos==="m"||c.pos==="f")) return `<span class="chip g-${c.pos==="m"?"der":"die"}">${c.pos==="m"?"阳性 m.":"阴性 f."}</span>`;
-  if(c.lang==="de"&&["m","f","n"].includes(c.pos)) return "";
+  if(["m","f","n"].includes(c.pos)) return ""; // gender is already shown by the article (o/a, el/la, le/la, der/die/das)
   if(POSN[c.pos]) return `<span class="chip">${POSN[c.pos]}</span>`;
   return "";
 }
