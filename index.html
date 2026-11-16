@@ -1034,6 +1034,8 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 .foldbody>.panel{box-shadow:none;border:0;padding:0;background:transparent}
 .foldbody.grid{grid-template-columns:minmax(0,1fr)}
 .foldbody .side{margin-top:14px}
+/* 设置页：宽屏两列，左边账号与同步、界面、备份，右边存储与安装说明（与字里一致） */
+@media (min-width:881px){#tab-settings.foldbody.grid{grid-template-columns:minmax(0,1fr) 310px;gap:22px}}
 .foldbody>.panel.adpanel{margin-bottom:12px}
 #tab-me .acct:empty{display:none}
 #b-hint{margin:10px 0 2px;color:var(--muted);font-size:14px}
@@ -1539,11 +1541,11 @@ nav.tabs{margin:24px 0 26px}
 
   <!-- 我的 (词匣 + 生词堆 + 进度 + 设置) -->
   <section id="tab-me" class="me" hidden>
-    <div class="acct" data-acct></div>
     <div id="fold-settings">
       <div id="tab-settings" class="grid foldbody">
     
     <div class="side" style="gap:22px">
+        <div class="acct" data-acct></div>
       <div class="panel" id="sy-panel">
         <p class="note">用同一个邮箱登录，各设备共用学习进度。<a href="privacy.html" target="_blank" rel="noopener">隐私说明</a></p>
         <div class="segs" id="sy-modes" role="tablist" hidden><button type="button" data-sym="sb" aria-pressed="true">邮箱登录</button></div>
