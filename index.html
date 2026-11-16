@@ -1343,7 +1343,7 @@ nav.tabs{margin:24px 0 26px}
   <header class="top">
     <div class="brand">
       <svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" rx="112" fill="var(--ink)"/><rect x="108" y="112" width="296" height="40" rx="20" fill="var(--bg)"/><path d="M128 232 q 32 -34 64 0 t 64 0 t 64 0 t 64 0" fill="none" stroke="var(--pt-mark)" stroke-width="22" stroke-linecap="round"/><rect x="108" y="300" width="296" height="40" rx="20" fill="var(--bg)"/><rect x="108" y="372" width="176" height="40" rx="20" fill="var(--bg)" opacity=".55"/></svg>
-      <div><h1><span>字里行间</span><span class="alt" data-noi18n>Entrelinhas</span></h1></div>
+      <div><h1><span data-noi18n>字里行间</span><span class="alt" data-noi18n>Entrelinhas</span></h1></div>
     </div>
     <div class="langsw" role="group" aria-label="学习语言" id="langsw">
       <button data-l="pt" aria-pressed="true"><b>Português</b><small>BR · A1–C2</small></button>
@@ -1372,7 +1372,7 @@ nav.tabs{margin:24px 0 26px}
   <div class="banner" id="backup-banner" hidden><span id="backup-banner-t"></span><span class="spacer"></span><button class="btn sm" id="backup-banner-go" type="button">现在备份</button></div>
 
   <nav class="tabs" role="tablist" id="tabs">
-    <div class="navbrand" aria-hidden="true"><svg class="mark" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="var(--ink)"/><rect x="108" y="112" width="296" height="40" rx="20" fill="var(--bg)"/><path d="M128 232 q 32 -34 64 0 t 64 0 t 64 0 t 64 0" fill="none" stroke="var(--pt-mark)" stroke-width="22" stroke-linecap="round"/><rect x="108" y="300" width="296" height="40" rx="20" fill="var(--bg)"/><rect x="108" y="372" width="176" height="40" rx="20" fill="var(--bg)" opacity=".55"/></svg><span><b>字里行间</b><i data-noi18n>Entrelinhas</i></span></div>
+    <div class="navbrand" aria-hidden="true"><svg class="mark" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="var(--ink)"/><rect x="108" y="112" width="296" height="40" rx="20" fill="var(--bg)"/><path d="M128 232 q 32 -34 64 0 t 64 0 t 64 0 t 64 0" fill="none" stroke="var(--pt-mark)" stroke-width="22" stroke-linecap="round"/><rect x="108" y="300" width="296" height="40" rx="20" fill="var(--bg)"/><rect x="108" y="372" width="176" height="40" rx="20" fill="var(--bg)" opacity=".55"/></svg><span><b data-noi18n>字里行间</b><i data-noi18n>Entrelinhas</i></span></div>
     <button role="tab" data-tab="today" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="m9 14.5 2 2 4-4"/></svg><span class="tl">今日学习</span></button>
     <button role="tab" data-tab="read" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5c3-1.2 6-1.2 9 .8 3-2 6-2 9-.8v13c-3-1.2-6-1.2-9 .8-3-2-6-2-9-.8z"/><path d="M12 6.3v13"/></svg><span class="tl">阅读</span></button>
     <button role="tab" data-tab="dict" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><span class="tl">字典</span></button>
@@ -5072,7 +5072,38 @@ const UI_DICT=[
 ["已收进「{0}」，在生词堆里", "Saved “{0}” to the practice pile", "„{0}“ im Übungsstapel gespeichert", "“{0}” guardada na pilha", "已收進「{0}」，在生詞堆裡"],
 ["已经在词匣里，放进了生词堆", "Already in your list; added to the pile", "Schon im Wortkästchen; in den Stapel gelegt", "Já estava em Palavras; posta na pilha", "已經在詞匣裡，放進了生詞堆"],
 ["没有保存", "Not saved", "Nicht gespeichert", "Não salvo", "沒有儲存"],
-["出自 {0}", "from {0}", "aus {0}", "de {0}", "出自 {0}"]
+["出自 {0}", "from {0}", "aus {0}", "de {0}", "出自 {0}"],
+["从哪种语言查", "Look up from which language", "Aus welcher Sprache nachschlagen", "Pesquisar a partir de qual idioma", "從哪種語言查"],
+["密码", "Password", "Passwort", "Senha", "密碼"],
+["导入 PDF / Word / 文本文件", "Import PDF / Word / text file", "PDF / Word / Textdatei importieren", "Importar PDF / Word / arquivo de texto", "匯入 PDF / Word / 文字檔"],
+["今日", "Today", "Heute", "Hoje", "今日"],
+["分级阅读", "By level", "Nach Niveau", "Por nível", "分級閱讀"],
+["{0} 篇，按级别挑", "{0} articles, pick a level", "{0} Artikel, wähle ein Niveau", "{0} textos, escolha um nível", "{0} 篇，按級別挑"],
+["展开全部（{0} 篇）", "Show all ({0})", "Alle zeigen ({0})", "Mostrar todos ({0})", "展開全部（{0} 篇）"],
+["收起", "Show less", "Weniger", "Mostrar menos", "收起"],
+["还没有文章", "No articles yet", "Noch keine Artikel", "Ainda não há textos", "還沒有文章"],
+["放进生词堆（词卡复习）", "Add to review pile (flashcards)", "Zum Wiederholen (Karteikarten)", "Adicionar à revisão (cartões)", "放進生詞堆（詞卡複習）"],
+["这个词暂时没有释义，不能放进生词堆", "This word has no meaning yet, so it can't be added", "Für dieses Wort gibt es noch keine Bedeutung", "Esta palavra ainda não tem significado", "這個詞暫時沒有釋義，不能放進生詞堆"],
+["已放进生词堆，可以在词卡里复习", "Added – it will come up in your flashcards", "Hinzugefügt – kommt in deinen Karteikarten", "Adicionada – vai aparecer nos cartões", "已放進生詞堆，可以在詞卡裡複習"],
+["这个词已经在词匣里了，点爱心放进生词堆。", "This word is already in your word box; tap the heart to add it to the review pile.", "Das Wort ist schon in deinem Wortkasten; tippe auf das Herz zum Wiederholen.", "A palavra já está na sua caixa; toque no coração para revisar.", "這個詞已經在詞匣裡了，點愛心放進生詞堆。"],
+["已读", "Read", "Gelesen", "Lido", "已讀"],
+["下一篇", "Next", "Nächster", "Próximo", "下一篇"],
+["今天的新词", "Today's new words", "Neue Wörter heute", "Palavras novas de hoje", "今天的新詞"],
+["点一下听发音", "Tap to hear", "Antippen zum Anhören", "Toque para ouvir", "點一下聽發音"],
+["翻卡复习今天的词", "Review today's words", "Heutige Wörter wiederholen", "Revisar as palavras de hoje", "翻卡複習今天的詞"],
+["设定", "Settings", "Einstellungen", "Ajustes", "設定"],
+["{0} 个基础词，分成 {1} 组。点一组看词；点一个词听发音、看例句。", "{0} basic words in {1} groups. Tap a group to see its words; tap a word to hear it and see an example.", "{0} Grundwörter in {1} Gruppen. Tippe auf eine Gruppe, dann auf ein Wort zum Anhören und für ein Beispiel.", "{0} palavras básicas em {1} grupos. Toque num grupo e depois numa palavra para ouvir e ver um exemplo.", "{0} 個基礎詞，分成 {1} 組。點一組看詞；點一個詞聽發音、看例句。"],
+["选一组，开始看词。", "Pick a group to start.", "Wähle eine Gruppe.", "Escolha um grupo.", "選一組，開始看詞。"],
+["{0} 词", "{0} words", "{0} Wörter", "{0} palavras", "{0} 詞"],
+["例句翻译", "Translation", "Übersetzung", "Tradução", "例句翻譯"],
+["修改例句", "Edit example", "Beispiel bearbeiten", "Editar exemplo", "修改例句"],
+["删除例句", "Delete example", "Beispiel löschen", "Apagar exemplo", "刪除例句"],
+["添加例句", "Add example", "Beispiel hinzufügen", "Adicionar exemplo", "添加例句"],
+["例句已保存", "Example saved", "Beispiel gespeichert", "Exemplo salvo", "例句已儲存"],
+["例句已删除", "Example deleted", "Beispiel gelöscht", "Exemplo apagado", "例句已刪除"],
+["读完了 ✓", "Done ✓", "Fertig ✓", "Lido ✓", "讀完了 ✓"],
+["进度正常，超前 {0} 个", "On track, {0} ahead", "Im Plan, {0} voraus", "No ritmo, {0} à frente", "進度正常，超前 {0} 個"],
+["再点一次确认删除", "Tap again to delete", "Zum Löschen nochmal tippen", "Toque de novo para apagar", "再點一次確認刪除"]
 ];
 
 /* ---------- interface language ---------- */
