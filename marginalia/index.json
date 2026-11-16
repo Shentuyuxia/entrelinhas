@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:16:12+00:00",
+ "updated": "2026-11-16T05:18:42+00:00",
  "days": [
   {
    "date": "2026-11-16",
@@ -10,6 +10,14 @@
      "title": "Dead crabs and a free port",
      "kind": "feature",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "en",
+     "title": "Mia's Diary 3: A dog, the rain and a seagull",
+     "kind": "story",
+     "level": "A2",
      "hour": null
     }
    ]
