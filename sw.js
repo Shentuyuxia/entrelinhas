@@ -2,7 +2,7 @@
 // Only this app's own old caches ("palavra-…") are cleaned up: other apps on the same site (Shiori, Zili) and the Piper voice caches keep theirs.
 // App files: served from cache, refreshed in the background.
 // Marginalia articles (marginalia/*) and word lists (data/*): network first, so new articles show up right away; cache is the offline fallback.
-const CACHE = "palavra-v106"
+const CACHE = "palavra-v107"
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./fonts/fonts.css", "./vendor/printkit.js"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
@@ -17,6 +17,10 @@ self.addEventListener("fetch", e => {
   const sameOrigin = url.origin === self.location.origin;
   const isFont = url.hostname === "fonts.googleapis.com" || url.hostname === "fonts.gstatic.com";
   if (!sameOrigin && !isFont) return; // never touch API calls
+  if (sameOrigin && /\/(privacy|copyright)\.html$/.test(url.pathname)) { // info pages: always the newest text, cache only offline
+    e.respondWith(fetch(req).then(res => { if (res && res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(req, copy)); } return res; }).catch(() => caches.match(req)));
+    return;
+  }
   if (sameOrigin && (url.pathname.includes("/vendor/ort/") || url.pathname.includes("/vendor/piper/"))) {
     // neural-voice engine (~30 MB): own cache that survives app updates
     e.respondWith(caches.open("piper-assets-v1").then(async c => {
