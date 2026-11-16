@@ -1544,37 +1544,7 @@ nav.tabs{margin:24px 0 26px}
       <div id="tab-settings" class="grid foldbody">
     
     <div class="side" style="gap:22px">
-      <div class="panel">
-        <h3 class="ph3">界面</h3>
-        <div class="field"><label>我在学的语言</label>
-          <div class="checks" id="opt-langs"></div>
-          </div>
-        <p class="note" style="margin-top:8px"><button class="linkbtn" id="opt-guide" type="button">使用指南</button></p>
-        <label class="tog" style="margin-top:12px"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
-                <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
-          <div class="row" style="flex-wrap:nowrap"><select id="opt-voice"></select><button class="btn sm" id="voice-test" type="button">试听</button></div>
-          <p class="note hint">★ 是增强/高级语音，听起来更自然。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音」里下载。</p></div>
-        <div class="field nt" id="nt-row" style="margin-top:16px"><label for="nt-voice">开源神经语音（Piper）</label>
-          <label class="tog"><input type="checkbox" id="nt-on"> <span>用开源神经语音朗读这门语言</span></label>
-          <div class="row" style="flex-wrap:nowrap;margin-top:8px"><select id="nt-voice"></select><button class="btn sm" id="nt-get" type="button">下载</button></div>
-          <div class="nt-bar" id="nt-prog" hidden><i></i><span class="small muted mono"></span></div>
-          <p class="note" id="nt-status" hidden></p>
-          <p class="note hint">语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。</p>
-          <p class="note"><button class="linkbtn small" id="nt-del" type="button" hidden>删除这个声音</button></p></div>
-      </div>
-      <div class="panel">
-        <h3 class="ph3">备份与恢复</h3>
-        <p class="note hint">换设备或清理浏览器之前，先导出一份备份。</p>
-        <p class="note" id="bk-last"></p>
-        <div class="row" style="margin-top:12px">
-          <button class="btn" id="bk-export" type="button">导出备份文件</button>
-          <label class="btn filebtn">导入备份文件<input type="file" id="bk-import" accept=".json,application/json"></label>
-        </div>
-        <div id="bk-confirm"></div>
-        <p class="small muted" id="bk-msg" style="margin:8px 0 0"></p>
-      </div>
       <div class="panel" id="sy-panel">
-        <h3 class="ph3">多设备同步</h3>
         <p class="note">用同一个邮箱登录，各设备共用学习进度。<a href="privacy.html" target="_blank" rel="noopener">隐私说明</a></p>
         <div class="segs" id="sy-modes" role="tablist" hidden><button type="button" data-sym="sb" aria-pressed="true">邮箱登录</button></div>
 
@@ -1642,6 +1612,35 @@ nav.tabs{margin:24px 0 26px}
           </div>
         </div>
         <p class="small muted" id="sy-msg" style="margin:8px 0 0" aria-live="polite"></p>
+      </div>
+      <div class="panel">
+        <h3 class="ph3">界面</h3>
+        <div class="field"><label>我在学的语言</label>
+          <div class="checks" id="opt-langs"></div>
+          </div>
+        <p class="note" style="margin-top:8px"><button class="linkbtn" id="opt-guide" type="button">使用指南</button></p>
+        <label class="tog" style="margin-top:12px"><input type="checkbox" id="opt-hints"> 显示说明文字</label>
+                <div class="field" id="voice-row" style="margin-top:14px" hidden><label for="opt-voice">朗读语音</label>
+          <div class="row" style="flex-wrap:nowrap"><select id="opt-voice"></select><button class="btn sm" id="voice-test" type="button">试听</button></div>
+          <p class="note hint">★ 是增强/高级语音，听起来更自然。iPhone 可在「设置 → 辅助功能 → 朗读内容 → 声音」里下载。</p></div>
+        <div class="field nt" id="nt-row" style="margin-top:16px"><label for="nt-voice">开源神经语音（Piper）</label>
+          <label class="tog"><input type="checkbox" id="nt-on"> <span>用开源神经语音朗读这门语言</span></label>
+          <div class="row" style="flex-wrap:nowrap;margin-top:8px"><select id="nt-voice"></select><button class="btn sm" id="nt-get" type="button">下载</button></div>
+          <div class="nt-bar" id="nt-prog" hidden><i></i><span class="small muted mono"></span></div>
+          <p class="note" id="nt-status" hidden></p>
+          <p class="note hint">语音在这台设备上生成，文字不会上传。每个声音第一次要从 Hugging Face 下载一次模型（约 60–110 MB，建议连 Wi-Fi），之后离线也能用。没下载好时会自动用系统语音。</p>
+          <p class="note"><button class="linkbtn small" id="nt-del" type="button" hidden>删除这个声音</button></p></div>
+      </div>
+      <div class="panel">
+        <h3 class="ph3">备份与恢复</h3>
+        <p class="note hint">换设备或清理浏览器之前，先导出一份备份。</p>
+        <p class="note" id="bk-last"></p>
+        <div class="row" style="margin-top:12px">
+          <button class="btn" id="bk-export" type="button">导出备份文件</button>
+          <label class="btn filebtn">导入备份文件<input type="file" id="bk-import" accept=".json,application/json"></label>
+        </div>
+        <div id="bk-confirm"></div>
+        <p class="small muted" id="bk-msg" style="margin:8px 0 0"></p>
       </div>
     </div>
     <aside class="side">
