@@ -1289,6 +1289,50 @@ nav.tabs{margin:24px 0 26px}
 #tab-read[data-rt="mine"] aside,#tab-read[data-rt="shelf"] #mg-main{border:0!important;padding-left:0!important;margin-left:0!important}
 .mg-sw button[aria-pressed="true"]{background:var(--surface)!important;color:var(--ink)!important}
 @media (min-width:900px){ #tab-me{max-width:none!important;margin-left:0!important} #tab-me #tab-settings{display:grid!important;grid-template-columns:minmax(0,1fr) 340px;gap:var(--s4)} }
+
+/* 探索 · 入门: tiles + word list (Zili style) */
+#tab-extras .exwrap{max-width:none!important;margin:0!important}
+#bsbox.panel{background:none;border:0;padding:0;box-shadow:none}
+.bs-head h2{margin:0;font:600 22px var(--f-ui);color:var(--ink)}
+.bs-head h2 span{font:italic 400 16px var(--f-word);color:var(--muted);margin-left:6px}
+.bs-head p{margin:6px 0 0;font-size:14px}
+.bs-layout{display:grid;gap:var(--s3);margin-top:var(--s3)}
+.bs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.bs-tile{display:grid;grid-template-rows:auto auto 1fr auto;gap:2px;text-align:left;min-height:132px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--surface);color:var(--ink);cursor:pointer;font:inherit;transition:border-color .15s,transform .15s}
+.bs-tile:hover{border-color:var(--muted)}
+.bs-tile:active{transform:scale(.98)}
+.bs-tile.on{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink) inset}
+.bs-tile .e{font-size:26px;line-height:1;margin-bottom:10px}
+.bs-tile b{font:600 15.5px var(--f-word);line-height:1.25}
+.bs-tile .s{font-size:13px;color:var(--muted)}
+.bs-tile .n{font-size:12px;color:var(--muted);margin-top:8px}
+.bs-detail{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px;min-width:0;align-self:start}
+.bs-dh{display:flex;align-items:center;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.bs-dh .e{font-size:28px}
+.bs-dh b{display:block;font:600 18px var(--f-word)}
+.bs-dh .small{display:block;margin-top:2px}
+.bs-l{gap:16px!important}
+.bs-l button{background:none!important;border:0!important;box-shadow:none!important;padding:6px 2px!important;min-height:32px!important;border-radius:0!important;color:var(--muted)!important;font:500 13.5px var(--f-ui)!important}
+.bs-l button[aria-pressed="true"]{color:var(--ink)!important;font-weight:700!important;box-shadow:inset 0 -2px 0 var(--acc)!important}
+.bs-detail .bs-list li+li{border-top:1px solid var(--line)}
+.bs-detail .bs-w{padding:12px 2px}
+.bs-detail .bs-w b{font-family:var(--f-word);font-size:16.5px;font-weight:500}
+.bs-detail .bs-w.on b,.bs-detail .bs-w:hover b{color:var(--ink);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line)}
+.bs-detail .bs-w .ex{margin-top:6px;font-size:13.5px}
+.bs-empty{margin:0;padding:40px 0;text-align:center}
+@media (min-width:1100px){
+  .bs-layout{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:start}
+  .bs-detail{position:sticky;top:20px;max-height:calc(100vh - 40px);overflow:auto}
+}
+@media (max-width:640px){ .bs-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px} .bs-tile{min-height:118px;padding:12px 14px} }
+
+.bs-l{background:none!important;padding:0!important}
+#exwrap{gap:var(--s6)!important}
+#exwrap .rbox.panel{background:none;border:0;padding:0;box-shadow:none}
+#exwrap .rbox > h3{font:600 22px var(--f-ui)!important;color:var(--ink)!important;margin:0 0 4px!important;border:0!important;padding:0!important;letter-spacing:0!important;text-transform:none!important}
+#exwrap .rbox > h3 .small{font:italic 400 16px var(--f-word)!important;margin-left:6px}
+#exwrap .rb-shelf{margin-top:var(--s2);padding-bottom:6px;scrollbar-width:thin}
+#exwrap .rb-card{margin-top:var(--s2);background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
 </style>
 </head>
 <body>
@@ -3065,15 +3109,16 @@ async function bsRender(){
   box.hidden=false;
   const ks=C.langs.map(x=>x[0]), hl=ks.includes(RB.hl)?RB.hl:(ks.includes(HL())?HL():ks[0]), g=C.groups[BS.open];
   const mi=C.mi[hl], xi=C.xi[hl], T=C.tag;
-  box.innerHTML=`<h3 style="margin:0 0 10px">${esc(trOne("入门")||"入门")} <span class="small muted" data-noi18n>${C.name||"Básico"} · ${BS.rows.length}</span></h3>
-    <div class="rb-shelf" role="list">${C.groups.map((t,i)=>`<button type="button" class="rb-disc bs-card${i===BS.open?" on":""}" data-bs="${i}" role="listitem" style="--h:${rbHue(t[3])}"><span class="rb-sleeve"><small>${t[1]-t[0]}</small><i>${t[2]}</i><b lang="${T}" data-noi18n>${esc(t[3])}</b></span></button>`).join("")}</div>
-    ${g?`<div class="rb-card"><div class="rb-h"><b lang="${T}" data-noi18n>${g[2]} ${esc(g[3])}</b><span class="small muted" data-noi18n>${esc(hl===C.subk?(hl==="zh"?hz(g[4]):g[4]):"")}</span></div>
-      <div class="rb-langs" role="group">${C.langs.map(([k,n])=>`<button type="button" data-bsl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div>
-      <ul class="bs-list" data-noi18n>${BS.rows.slice(g[0],g[1]).map((c,k)=>`<li><button type="button" class="bs-w${BS.ex===g[0]+k?" on":""}" data-bsw="${g[0]+k}" aria-expanded="${BS.ex===g[0]+k}"><b lang="${T}">${esc(c[0])}</b><span class="m" lang="${hl}">${esc(hl==="zh"?hz(c[mi]||""):(c[mi]||""))}</span>${c[C.exi||5]&&BS.ex===g[0]+k?`<span class="ex"><i lang="${T}">${esc(c[C.exi||5])}</i> ${esc(hl==="zh"?hz(c[xi]||""):(c[xi]||""))}</span>`:""}</button></li>`).join("")}</ul></div>`
-    :`<p class="small muted" style="margin:8px 0 0">${esc(trOne("点一张卡片，复习一组基础词。")||"点一张卡片，复习一组基础词。")}</p>`}`;
+  if(!BS.init){ BS.init=1; if(BS.open<0&&innerWidth>=1100) BS.open=0; }
+  const g2=C.groups[BS.open], sub=t=>esc(C.subk==="zh"||l==="pt"||l==="en"?hz(t[4]||""):(t[4]||""));
+  box.innerHTML=`<div class="bs-head"><h2>${esc(trOne("入门")||"入门")} <span data-noi18n>${C.name||"Básico"}</span></h2><p class="muted">${BS.rows.length} 个基础词，分成 ${C.groups.length} 组。点一组看词；点一个词听发音、看例句。</p></div>
+    <div class="bs-layout"><div class="bs-grid" role="list">${C.groups.map((t,i)=>`<button type="button" class="bs-tile${i===BS.open?" on":""}" data-bs="${i}" role="listitem" aria-pressed="${i===BS.open}"><span class="e" aria-hidden="true">${t[2]}</span><b lang="${T}" data-noi18n>${esc(t[3])}</b><span class="s" data-noi18n>${sub(t)}</span><span class="n">${t[1]-t[0]} 词</span></button>`).join("")}</div>
+    <div class="bs-detail" id="bs-detail">${g2?`<div class="bs-dh"><span class="e" aria-hidden="true">${g2[2]}</span><div><b lang="${T}" data-noi18n>${esc(g2[3])}</b><span class="small muted" data-noi18n>${sub(g2)} · ${g2[1]-g2[0]} 词</span></div><span class="spacer"></span><div class="mg-sw tr-sw bs-l" role="group">${C.langs.map(([k,n])=>`<button type="button" data-bsl="${k}" aria-pressed="${hl===k}">${n}</button>`).join("")}</div></div>
+      <ul class="bs-list" data-noi18n>${BS.rows.slice(g2[0],g2[1]).map((c,k)=>`<li><button type="button" class="bs-w${BS.ex===g2[0]+k?" on":""}" data-bsw="${g2[0]+k}" aria-expanded="${BS.ex===g2[0]+k}"><b lang="${T}">${esc(c[0])}</b><span class="m" lang="${hl}">${esc(hl==="zh"?hz(c[mi]||""):(c[mi]||""))}</span>${c[C.exi||5]&&BS.ex===g2[0]+k?`<span class="ex"><i lang="${T}">${esc(c[C.exi||5])}</i> ${esc(hl==="zh"?hz(c[xi]||""):(c[xi]||""))}</span>`:""}</button></li>`).join("")}</ul>`
+      :`<p class="bs-empty muted">选一组，开始看词。</p>`}</div></div>`;
 }
 $("#bsbox").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b) return;
-  if(b.dataset.bs!=null){ const i=+b.dataset.bs; BS.open=BS.open===i?-1:i; BS.ex=-1; bsRender(); }
+  if(b.dataset.bs!=null){ const i=+b.dataset.bs; BS.open=BS.open===i&&innerWidth<1100?-1:i; BS.ex=-1; bsRender().then(()=>{ if(innerWidth<1100&&BS.open>=0){ const d=$("#bs-detail"); if(d) d.scrollIntoView({behavior:"smooth",block:"start"}); } }); }
   else if(b.dataset.bsl){ RB.hl=b.dataset.bsl; try{ localStorage.setItem("pw-rb-hl",RB.hl); }catch(x){} bsRender(); cuRender(); rbRender(); pkRender(); }
   else if(b.dataset.bsw!=null&&BS.rows){ const i=+b.dataset.bsw, c=BS.rows[i]; if(!c) return; BS.ex=BS.ex===i?-1:i; speak(c[0]); bsRender(); } });
 /* 书架 · today's reading recommendations (kind "picks"), beside the reading instead of in the article list */
@@ -5082,9 +5127,12 @@ let cur="today";
 const TABS=["today","read","dict","me","extras"];
 // former 我的 sections: 进度 now sits under today's cards, 词匣 / 生词堆 under the dictionary
 const LEG={new:["dict","browse"],pile:["dict","pile"],browse:["dict","browse"],stats:["today","stats"],settings:["me","settings"]};
-function exRender(){
+async function exRender(){
   const go=()=>{ if(cur!=="extras") return; rbRender(); cuRender(); bsRender(); try{ pkRender(); }catch(e){} };
-  if(!MG.idx&&!MG.err&&typeof mgLoad==="function") mgLoad().then(go,go); else go();
+  go();
+  try{ if(MG.loading) await MG.loading; else if(!MG.idx&&!MG.err) await mgLoad(); }catch(e){}
+  if(!MG.rec){ try{ MG.rec=await mgGet("marginalia/records.json"); }catch(e){} }
+  go();
 }
 function meRender(){ renderAISettings(); renderStorage(); renderBackupHint(); }
 const foldOn=k=>!!(document.getElementById("fold-"+k)||{}).open;
