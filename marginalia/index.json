@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:42:58+00:00",
+ "updated": "2026-11-16T18:54:14+00:00",
  "days": [
   {
    "date": "2026-11-16",
@@ -34,6 +34,14 @@
      "title": "Cebiche: el plato favorito de Perú",
      "kind": "feature",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "A profissão do Tito",
+     "kind": "story",
+     "level": "A1",
      "hour": null
     }
    ]

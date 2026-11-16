@@ -361,6 +361,116 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 12
+   },
+   "title": "A profissão do Tito",
+   "dek": "Segunda-feira: a nota da prova, as profissões da turma e uma pergunta da Dona Rosa sobre o Tito.",
+   "tags": [
+    "segunda-feira",
+    "estudos e profissão",
+    "perguntas"
+   ],
+   "paragraphs": [
+    "Segunda-feira, 16 de novembro de 2026. Querido diário, hoje é segunda-feira. De manhã, o Tito dorme na minha cama. Ele não quer acordar.",
+    "Às oito e meia, eu chego na livraria. O Lucas pergunta: — Qual é a sua nota na prova, Ana? — Eu não sei. A professora dá as notas hoje à noite.",
+    "À noite, a aula começa. A professora dá as notas. A minha nota é nove! A nota do Pedro é oito. Que bom!",
+    "Depois, a professora pergunta: — Qual é a profissão de vocês? O Pedro é padeiro. A Júlia é enfermeira e trabalha no hospital de manhã. E eu? Eu sou vendedora na livraria.",
+    "Às dez e meia da noite, eu volto para casa. A Dona Rosa está no portão com o Bolinha. Ela pergunta: — E o Tito, Ana? Qual é a profissão dele? Eu respondo: — Dormir! Ele dorme quinze horas por dia.",
+    "Amanhã é terça-feira, dia 17. Boa noite, diário. Boa noite, Tito, meu dorminhoco."
+   ],
+   "paragraphs_en": [
+    "Monday, 16 November 2026. Dear diary, today is Monday. In the morning, Tito sleeps on my bed. He doesn't want to wake up.",
+    "At half past eight, I arrive at the bookshop. Lucas asks: \"What is your grade on the test, Ana?\" \"I don't know. The teacher gives out the grades tonight.\"",
+    "In the evening, class begins. The teacher gives out the grades. My grade is nine! Pedro's grade is eight. How nice!",
+    "Then the teacher asks: \"What are your professions?\" Pedro is a baker. Júlia is a nurse and works at the hospital in the morning. And me? I'm a sales assistant at the bookshop.",
+    "At half past ten at night, I go back home. Dona Rosa is at the gate with Bolinha. She asks: \"And Tito, Ana? What is his profession?\" I answer: \"Sleeping! He sleeps fifteen hours a day.\"",
+    "Tomorrow is Tuesday, the 17th. Good night, diary. Good night, Tito, my little sleepyhead."
+   ],
+   "paragraphs_zh": [
+    "2026年11月16日，星期一。亲爱的日记，今天是星期一。早上，蒂托在我的床上睡觉。他不想起来。",
+    "八点半，我到书店。卢卡斯问：“安娜，你考试得了几分？”“我不知道。老师今天晚上发成绩。”",
+    "晚上，上课了。老师发成绩。我的成绩是九分！佩德罗的成绩是八分。太好了！",
+    "然后，老师问：“你们是做什么工作的？”佩德罗是面包师。茱莉亚是护士，早上在医院工作。我呢？我是书店的店员。",
+    "晚上十点半，我回家。罗莎太太和波利尼亚在大门口。她问：“安娜，那蒂托呢？他的职业是什么？”我回答：“睡觉！他一天睡十五个小时。”",
+    "明天是星期二，17号。晚安，日记。晚安，蒂托，我的小瞌睡虫。"
+   ],
+   "paragraphs_de": [
+    "Montag, 16. November 2026. Liebes Tagebuch, heute ist Montag. Morgens schläft Tito auf meinem Bett. Er will nicht aufwachen.",
+    "Um halb neun komme ich in der Buchhandlung an. Lucas fragt: „Welche Note hast du in der Prüfung, Ana?“ „Ich weiß es nicht. Die Lehrerin gibt die Noten heute Abend.“",
+    "Am Abend beginnt der Unterricht. Die Lehrerin gibt die Noten. Meine Note ist eine Neun! Pedros Note ist eine Acht. Wie schön!",
+    "Dann fragt die Lehrerin: „Was sind eure Berufe?“ Pedro ist Bäcker. Júlia ist Krankenschwester und arbeitet morgens im Krankenhaus. Und ich? Ich bin Verkäuferin in der Buchhandlung.",
+    "Um halb elf abends gehe ich nach Hause. Dona Rosa steht mit Bolinha am Tor. Sie fragt: „Und Tito, Ana? Was ist sein Beruf?“ Ich antworte: „Schlafen! Er schläft fünfzehn Stunden am Tag.“",
+    "Morgen ist Dienstag, der 17. Gute Nacht, Tagebuch. Gute Nacht, Tito, du kleine Schlafmütze."
+   ],
+   "glossary": [
+    {
+     "w": "a nota",
+     "en": "grade, mark — Qual é a sua nota?",
+     "zh": "分数，成绩",
+     "de": "die Note",
+     "pt": "o número da prova: oito, nove, dez…"
+    },
+    {
+     "w": "a profissão",
+     "en": "profession, job — Qual é a sua profissão?",
+     "zh": "职业",
+     "de": "der Beruf",
+     "pt": "o seu trabalho: padeiro, enfermeira…"
+    },
+    {
+     "w": "o padeiro / a padeira",
+     "en": "baker",
+     "zh": "面包师",
+     "de": "der Bäcker / die Bäckerin",
+     "pt": "pessoa que faz pão na padaria"
+    },
+    {
+     "w": "a enfermeira / o enfermeiro",
+     "en": "nurse",
+     "zh": "护士",
+     "de": "die Krankenschwester / der Pfleger",
+     "pt": "pessoa que trabalha no hospital com o médico"
+    },
+    {
+     "w": "o vendedor / a vendedora",
+     "en": "salesperson, shop assistant",
+     "zh": "售货员，店员",
+     "de": "der Verkäufer / die Verkäuferin",
+     "pt": "pessoa que vende numa loja"
+    },
+    {
+     "w": "o portão",
+     "en": "gate",
+     "zh": "大门",
+     "de": "das Tor",
+     "pt": "a porta grande na frente da casa"
+    },
+    {
+     "w": "o dorminhoco / a dorminhoca",
+     "en": "sleepyhead",
+     "zh": "瞌睡虫，爱睡觉的人",
+     "de": "die Schlafmütze",
+     "pt": "quem dorme muito, como o Tito"
+    }
+   ],
+   "grammar": "To ask someone's job: Qual é a sua profissão? To answer, use ser + the job, with no article: Eu sou vendedora. O Pedro é padeiro.",
+   "grammar_zh": "问别人的职业：Qual é a sua profissão? 回答时用 ser + 职业，职业前不加冠词：Eu sou vendedora.（我是店员。）O Pedro é padeiro.（佩德罗是面包师。）",
+   "grammar_de": "Nach dem Beruf fragt man: Qual é a sua profissão? Die Antwort: ser + Beruf, ohne Artikel – wie im Deutschen: Eu sou vendedora. O Pedro é padeiro.",
+   "grammar_pt": "Para perguntar o trabalho de alguém: Qual é a sua profissão? Para responder: ser + profissão, sem artigo: Eu sou vendedora. O Pedro é padeiro.",
+   "questions": [
+    "Qual é a nota da Ana? E a nota do Pedro?",
+    "Qual é a profissão da Júlia? Onde ela trabalha?",
+    "E você? Qual é a sua profissão? A que horas você chega no trabalho?"
+   ],
+   "sources": []
   }
  ]
 }
