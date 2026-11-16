@@ -167,6 +167,200 @@
     "And you? What were you doing at this time yesterday?"
    ],
    "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En La Paz: ¿qué tiempo hace hoy?",
+   "dek": "Dos amigos hablan del clima en La Paz, Bolivia, y comparan con otra ciudad.",
+   "tags": [
+    "La Paz",
+    "small talk: el clima",
+    "hacer + clima"
+   ],
+   "paragraphs": [
+    "Rosa: ¡Hola, Mateo! ¿Qué tal?",
+    "Mateo: Hola, Rosa. Bien, ¿y tú?",
+    "Rosa: Bien, gracias. Pero hoy hace mucho frío en La Paz.",
+    "Mateo: Sí, por la mañana hace frío. Pero hoy hay sol.",
+    "Rosa: ¿De dónde eres? ¿Qué tiempo hace en tu ciudad?",
+    "Mateo: Soy de Santa Cruz. Allí hace calor.",
+    "Rosa: ¡Qué bien! ¿Y llueve mucho?",
+    "Mateo: Sí, en verano llueve mucho. ¿Y aquí?",
+    "Rosa: Aquí llueve de diciembre a marzo. Hoy no llueve.",
+    "Mateo: ¡Perfecto! ¿Tomamos un té caliente?",
+    "Rosa: ¡Sí, vamos!",
+    "Dato curioso: La Paz está a más de 3.500 metros de altura, por eso muchas personas dicen «hace frío» aunque haya sol."
+   ],
+   "paragraphs_en": [
+    "Rosa: Hi, Mateo! How's it going?",
+    "Mateo: Hi, Rosa. Fine, and you?",
+    "Rosa: Fine, thanks. But today it's very cold in La Paz.",
+    "Mateo: Yes, in the morning it's cold. But today it's sunny.",
+    "Rosa: Where are you from? What's the weather like in your city?",
+    "Mateo: I'm from Santa Cruz. It's hot there.",
+    "Rosa: Nice! And does it rain a lot?",
+    "Mateo: Yes, in summer it rains a lot. And here?",
+    "Rosa: Here it rains from December to March. Today it isn't raining.",
+    "Mateo: Perfect! Shall we have a hot tea?",
+    "Rosa: Yes, let's go!",
+    "Fun fact: La Paz is more than 3,500 metres above sea level, so many people say \"it's cold\" even when the sun is out."
+   ],
+   "paragraphs_de": [
+    "Rosa: Hallo, Mateo! Wie geht's?",
+    "Mateo: Hallo, Rosa. Gut, und dir?",
+    "Rosa: Gut, danke. Aber heute ist es in La Paz sehr kalt.",
+    "Mateo: Ja, am Morgen ist es kalt. Aber heute scheint die Sonne.",
+    "Rosa: Woher kommst du? Wie ist das Wetter in deiner Stadt?",
+    "Mateo: Ich komme aus Santa Cruz. Dort ist es heiß.",
+    "Rosa: Schön! Und regnet es viel?",
+    "Mateo: Ja, im Sommer regnet es viel. Und hier?",
+    "Rosa: Hier regnet es von Dezember bis März. Heute regnet es nicht.",
+    "Mateo: Perfekt! Trinken wir einen heißen Tee?",
+    "Rosa: Ja, los geht's!",
+    "Kurioses: La Paz liegt über 3.500 Meter hoch, deshalb sagen viele Leute „es ist kalt“, auch wenn die Sonne scheint."
+   ],
+   "glossary": [
+    {
+     "w": "hace frío",
+     "en": "it's cold (weather)",
+     "de": "es ist kalt"
+    },
+    {
+     "w": "hace calor",
+     "en": "it's hot (weather)",
+     "de": "es ist heiß"
+    },
+    {
+     "w": "hay sol",
+     "en": "it's sunny",
+     "de": "die Sonne scheint"
+    },
+    {
+     "w": "llueve",
+     "en": "it rains / it's raining",
+     "de": "es regnet"
+    },
+    {
+     "w": "el verano",
+     "en": "summer",
+     "de": "der Sommer"
+    },
+    {
+     "w": "la mañana",
+     "en": "morning",
+     "de": "der Morgen"
+    },
+    {
+     "w": "el té",
+     "en": "tea",
+     "de": "der Tee"
+    },
+    {
+     "w": "¿Qué tal?",
+     "en": "How's it going?",
+     "de": "Wie geht's?"
+    }
+   ],
+   "grammar": "Weather in Spanish uses hacer, not ser: hace frío, hace calor, hace sol (literally \"it makes cold\"). Use hay for things you can see: hay sol, hay viento. Rain and snow are verbs: llueve, nieva. From the text: \"Hoy hace mucho frío.\" Add mucho to say \"very\".",
+   "grammar_de": "Das Wetter wird auf Spanisch mit hacer gebildet, nicht mit ser: hace frío, hace calor, hace sol (wörtlich „es macht kalt“). Mit hay sagst du, was man sieht: hay sol, hay viento. Regen und Schnee sind Verben: llueve, nieva. Aus dem Text: „Hoy hace mucho frío.“ Mit mucho sagst du „sehr“.",
+   "questions": [
+    "¿Qué tiempo hace hoy en tu ciudad?",
+    "¿Y tú? ¿Te gusta más el frío o el calor?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "feature",
+   "section": "Comida",
+   "title": "Cebiche: el plato favorito de Perú",
+   "dek": "Pescado, limón, ají y una «leche» muy especial.",
+   "tags": [
+    "Perú",
+    "cebiche",
+    "ser y estar"
+   ],
+   "paragraphs": [
+    "En Perú, mucha gente dice que el cebiche es el plato más representativo del país. Es un plato de pescado crudo con jugo de limón, cebolla roja, ají y sal. El pescado tiene que estar muy fresco.",
+    "El cebiche normalmente no viene solo. Se sirve con camote, choclo y a veces lechuga o maíz tostado. El camote es dulce, el ají es picante y el limón es ácido: por eso el plato tiene un sabor tan interesante.",
+    "Cuando el pescado ya está en el jugo, ese jugo se llama «leche de tigre». En muchos restaurantes la sirven también aparte, en un vaso o en una copa. ¡Está muy fría y es muy fuerte!",
+    "Para los peruanos, el cebiche es parte de su identidad. Desde 2004 es Patrimonio Cultural de la Nación, y el 28 de junio es el Día Nacional del Cebiche.",
+    "Dato curioso: se puede escribir «cebiche» o «ceviche». Las dos formas existen y se pronuncian igual. También hay una variante, el tiradito, con el pescado en rebanadas finas y sin cebolla."
+   ],
+   "paragraphs_en": [
+    "In Peru, many people say that cebiche is the country's most representative dish. It is a dish of raw fish with lime juice, red onion, chili pepper and salt. The fish has to be very fresh.",
+    "Cebiche usually doesn't come alone. It is served with sweet potato, large-kernel corn, and sometimes lettuce or toasted corn. The sweet potato is sweet, the chili is spicy and the lime is sour: that's why the dish tastes so interesting.",
+    "When the fish is already in the juice, that juice is called \"tiger's milk\". In many restaurants it is also served on its own, in a glass or a cup. It's very cold and very strong!",
+    "For Peruvians, cebiche is part of their identity. Since 2004 it has been Cultural Heritage of the Nation, and 28 June is National Cebiche Day.",
+    "Fun fact: you can write \"cebiche\" or \"ceviche\". Both forms exist and are pronounced the same. There is also a variant, tiradito, with the fish in thin slices and without onion."
+   ],
+   "paragraphs_de": [
+    "In Peru sagen viele Leute, dass Cebiche das typischste Gericht des Landes ist. Es ist ein Gericht aus rohem Fisch mit Limettensaft, roter Zwiebel, Chili und Salz. Der Fisch muss sehr frisch sein.",
+    "Cebiche kommt normalerweise nicht allein. Es wird mit Süßkartoffel, Choclo (großem Mais) und manchmal Salat oder geröstetem Mais serviert. Die Süßkartoffel ist süß, die Chili ist scharf und die Limette ist sauer: Deshalb schmeckt das Gericht so interessant.",
+    "Wenn der Fisch schon im Saft liegt, heißt dieser Saft „Tigermilch“ („leche de tigre“). In vielen Restaurants wird sie auch extra serviert, in einem Glas oder einer Schale. Sie ist sehr kalt und sehr stark!",
+    "Für die Peruaner ist Cebiche ein Teil ihrer Identität. Seit 2004 ist es Kulturerbe der Nation, und der 28. Juni ist der Nationale Cebiche-Tag.",
+    "Kurioses: Man kann „cebiche“ oder „ceviche“ schreiben. Beide Formen existieren und werden gleich ausgesprochen. Es gibt auch eine Variante, den Tiradito, mit dünn geschnittenem Fisch und ohne Zwiebel."
+   ],
+   "glossary": [
+    {
+     "w": "el pescado",
+     "en": "fish (as food)",
+     "de": "der Fisch"
+    },
+    {
+     "w": "crudo",
+     "en": "raw",
+     "de": "roh"
+    },
+    {
+     "w": "el jugo de limón",
+     "en": "lime/lemon juice",
+     "de": "der Limettensaft"
+    },
+    {
+     "w": "el ají",
+     "en": "chili pepper",
+     "de": "die Chili"
+    },
+    {
+     "w": "el camote",
+     "en": "sweet potato",
+     "de": "die Süßkartoffel"
+    },
+    {
+     "w": "el choclo",
+     "en": "large-kernel corn (Andean)",
+     "de": "der Mais (großkörnig)"
+    },
+    {
+     "w": "picante",
+     "en": "spicy",
+     "de": "scharf"
+    },
+    {
+     "w": "ácido",
+     "en": "sour, acidic",
+     "de": "sauer"
+    }
+   ],
+   "grammar": "Ser or estar? Use ser for what something is like (identity, permanent traits): \"El camote es dulce.\" Use estar for a state or condition at a given moment: \"El pescado tiene que estar fresco\", \"Está muy fría.\" Think: ser = what it is; estar = how it is right now.",
+   "grammar_de": "Ser oder estar? Mit ser sagst du, wie etwas ist (Identität, feste Eigenschaften): „El camote es dulce.“ Mit estar sagst du einen Zustand im Moment: „El pescado tiene que estar fresco“, „Está muy fría.“ Merke: ser = was es ist; estar = wie es gerade ist.",
+   "questions": [
+    "¿Qué ingredientes tiene el cebiche?",
+    "¿Te gusta el pescado crudo? ¿Por qué?",
+    "¿Cuál es un plato típico de tu país? ¿Cómo es?"
+   ],
+   "sources": [
+    {
+     "title": "Andina: Día del Cebiche, plato símbolo de la biodiversidad de Perú",
+     "url": "https://andina.pe/ingles/noticia-hoy-28-junio-se-celebra-dia-del-cebiche-plato-simbolo-de-biodiversidad-peru-899183.aspx",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

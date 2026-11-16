@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:18:42+00:00",
+ "updated": "2026-11-16T16:42:58+00:00",
  "days": [
   {
    "date": "2026-11-16",
@@ -17,6 +17,22 @@
      "lang": "en",
      "title": "Mia's Diary 3: A dog, the rain and a seagull",
      "kind": "story",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "En La Paz: ¿qué tiempo hace hoy?",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "es",
+     "title": "Cebiche: el plato favorito de Perú",
+     "kind": "feature",
      "level": "A2",
      "hour": null
     }
