@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-16",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "en",
+      "level": "C2",
+      "kind": "feature",
+      "section": "Film",
+      "title": "Dead crabs and a free port",
+      "dek": "Jeanie Finlay's new documentary follows Teesside fishers demanding to know why the shellfish died. In Sight and Sound, Nick Bradshaw reads it as a film about who gets believed in a region long left to fend for itself.",
+      "tags": [
+        "film",
+        "Sight and Sound",
+        "deindustrialisation",
+        "inversion with only"
+      ],
+      "paragraphs": [
+        "Since 2021, the coast of north-east England has been the scene of a grim recurring spectacle: crabs and lobsters dying in their thousands around the Tees estuary, their bodies washing up on beaches as far south as Scarborough. For the people who fish those waters, the die-offs have meant collapsing catches. For the documentary-maker Jeanie Finlay, who was born in Stockton-on-Tees, they became the occasion to return home with a camera for the first time since Sound It Out, her 2011 portrait of Teesside's last record shop.",
+        "The result, All Rivers Spill Their Stories to the Sea, made together with the fisherman Stan Rennie, opened in UK cinemas on 23 October. Rennie is its hinge. Unwilling to accept the official shrug, he set up the North East Fishing Collective and gathered some sixty fellow fishers behind a single demand: an honest account of what happened, and action to match it. Finlay follows him on the boat, in the pub and in the community hall, and onwards to testimony before a parliamentary committee.",
+        "The questions the film raises are concrete. Local scientists suspect that contaminants buried in the silt of old industrial sites were stirred up, and the obvious candidate for the stirring is the dredging of the harbour for Teesworks, the vast free port development championed by the Tees Valley mayor, Ben Houchen. Houchen appears in media clips denying any link, and, according to BBC reporting cited in the review, an official report backed him up. The scientists interviewed reject that conclusion; the film gives their dissent the hearing it was denied elsewhere.",
+        "Reviewing it for Sight and Sound, Nick Bradshaw is clear about where the film's sympathies lie, and about why they matter. In his reading, the dead shellfish are only the newest chapter in a longer story of a region gutted by the deindustrialisation of the 1970s and 1980s and then courted, in the Brexit years, with promises of regeneration. One of the film's most telling moments, he notes, shows Thérèse Coffey, then environment secretary, at the Commons dispatch box, rebuking an MP for questioning her department's scientists. Expertise, in that scene, functions less as a method of finding out than as a wall.",
+        "What makes the film more than an exposé is its refusal to manufacture a verdict it cannot prove. Bradshaw acknowledges that the investigation runs into closed doors and unanswered questions, but he treats that frustration as part of the subject rather than a flaw: the opacity is the story. The solidarity on screen, fishers who were never activists learning to speak to ministers, is where the film locates its hope.",
+        "It is worth separating the record from the reading. That the die-offs occurred, that the free port was built, and that the official explanation is contested are matters of fact; that they add up to a parable of patronage and abandonment is the critic's argument, and a persuasive one. Only by watching who is permitted to define a disaster, the film suggests, can a community begin to contest it."
+      ],
+      "glossary": [
+        {
+          "w": "die-off",
+          "en": "a sudden mass death of animals or plants in one area",
+          "zh": "大量死亡；集体死亡"
+        },
+        {
+          "w": "hinge",
+          "en": "the central element on which something depends",
+          "zh": "关键；枢纽"
+        },
+        {
+          "w": "the official shrug",
+          "en": "an authority's dismissive refusal to take a problem seriously",
+          "zh": "官方的敷衍态度"
+        },
+        {
+          "w": "exposé",
+          "en": "a report revealing hidden wrongdoing",
+          "zh": "揭露性报道"
+        },
+        {
+          "w": "vindicate",
+          "en": "to show that someone was right or not to blame",
+          "zh": "证明……正确；为……辩白"
+        },
+        {
+          "w": "dispatch box",
+          "en": "the lectern in the House of Commons from which ministers speak",
+          "zh": "（英国下议院）发言台"
+        },
+        {
+          "w": "gutted",
+          "en": "stripped of its core economy or contents",
+          "zh": "被掏空的；遭重创的"
+        },
+        {
+          "w": "court (someone) with promises",
+          "en": "to try to win someone's support by offering inducements",
+          "zh": "以承诺拉拢"
+        },
+        {
+          "w": "opacity",
+          "en": "the quality of being hard to see into or understand; lack of transparency",
+          "zh": "不透明；晦涩"
+        },
+        {
+          "w": "parable",
+          "en": "a story used to illustrate a moral or political lesson",
+          "zh": "寓言；喻世故事"
+        }
+      ],
+      "grammar": "The last sentence uses subject–auxiliary inversion after a fronted 'only' phrase: 'Only by watching who is permitted to define a disaster … can a community begin to contest it.' When 'only' + an adverbial (only by, only then, only after) opens the clause, the auxiliary comes before the subject, as in a question. The structure is formal and emphatic, stressing that this condition is the one and only route to the result.",
+      "grammar_zh": "最后一句在句首用了 only 引导的状语，因此主句发生部分倒装：Only by watching … can a community begin to contest it。only + 状语（only by / only then / only after）放在句首时，助动词要提到主语前面，语序像疑问句。这种结构语气正式而强调，突出“唯有这一条件”才能带来结果。",
+      "questions": [
+        "Why does the film's refusal to deliver a definitive verdict strengthen rather than weaken its political argument, according to the review?",
+        "How does the piece distinguish the established facts of the Tees die-offs from the critic's interpretation of them?",
+        "What does the scene at the dispatch box suggest about the relationship between official expertise and local knowledge?"
+      ],
+      "sources": [
+        {
+          "title": "Nick Bradshaw, review of All Rivers Spill Their Stories to the Sea, Sight and Sound (BFI), 15 October 2026",
+          "url": "https://www.bfi.org.uk/sight-and-sound/reviews/all-rivers-spill-their-stories-sea-jeanie-finlays-documentary-display-community-solidarity-face-ecological-disaster",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}

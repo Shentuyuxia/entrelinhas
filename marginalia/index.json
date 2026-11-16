@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-15T19:00:36+00:00",
+ "updated": "2026-11-16T05:16:05+00:00",
  "days": [
+  {
+   "date": "2026-11-16",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "Dead crabs and a free port",
+     "kind": "feature",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-15",
    "items": [
