@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T11:00:01+00:00",
+ "updated": "2026-11-17T16:48:55+00:00",
  "days": [
   {
    "date": "2026-11-17",
@@ -18,6 +18,22 @@
      "title": "Briefe, die man hören konnte",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "El lunes en la oficina: ¿qué hiciste el fin de semana?",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "es",
+     "title": "El coquí: la rana que canta la noche de Puerto Rico",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]

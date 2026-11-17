@@ -186,6 +186,227 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "El lunes en la oficina: ¿qué hiciste el fin de semana?",
+   "dek": "Dos compañeros de trabajo en San José, Costa Rica, se cuentan lo que hicieron el fin de semana.",
+   "tags": [
+    "San José",
+    "small talk",
+    "pretérito"
+   ],
+   "paragraphs": [
+    "Marta: ¡Buenos días, Diego! ¿Qué tal el fin de semana?",
+    "Diego: ¡Hola, Marta! Muy bien, gracias. ¿Y tú? ¿Qué hiciste?",
+    "Marta: El sábado visité a mi abuela en Cartago y comimos juntas.",
+    "Diego: ¡Qué lindo! ¿Y el domingo?",
+    "Marta: Descansé en casa. Leí un libro y hablé con mi hermana por teléfono. ¿Y tú?",
+    "Diego: El sábado salí con unos amigos. Caminamos por el centro y tomamos un café.",
+    "Marta: ¿Fueron al mercado?",
+    "Diego: Sí, fuimos a la feria del agricultor. Compré piña, mango y un poco de queso.",
+    "Marta: ¡Qué rico! ¿Cuánto pagaste por la piña?",
+    "Diego: Pagué dos mil colones. Estaba muy dulce.",
+    "Marta: ¡Qué buen precio! ¿Y el domingo?",
+    "Diego: Trabajé un rato en casa y después miré una película con mi mamá.",
+    "Marta: ¡Perfecto! Bueno, ahora a trabajar. ¡Pura vida!",
+    "Diego: ¡Pura vida, Marta! Buen día.",
+    "Dato curioso: en Costa Rica, a las personas del país se les dice «ticos» y «ticas». Es una palabra muy cariñosa y la usan los mismos costarricenses."
+   ],
+   "paragraphs_en": [
+    "Marta: Good morning, Diego! How was the weekend?",
+    "Diego: Hi, Marta! Very well, thanks. And you? What did you do?",
+    "Marta: On Saturday I visited my grandmother in Cartago and we ate together.",
+    "Diego: How nice! And on Sunday?",
+    "Marta: I rested at home. I read a book and talked to my sister on the phone. And you?",
+    "Diego: On Saturday I went out with some friends. We walked around the center and had a coffee.",
+    "Marta: Did you go to the market?",
+    "Diego: Yes, we went to the farmers' market. I bought pineapple, mango and a little cheese.",
+    "Marta: How delicious! How much did you pay for the pineapple?",
+    "Diego: I paid two thousand colones. It was very sweet.",
+    "Marta: What a good price! And on Sunday?",
+    "Diego: I worked at home for a while and then watched a movie with my mom.",
+    "Marta: Perfect! Well, now back to work. Pura vida!",
+    "Diego: Pura vida, Marta! Have a good day.",
+    "Fun fact: in Costa Rica, people from the country are called “ticos” and “ticas”. It is an affectionate word that Costa Ricans use themselves."
+   ],
+   "paragraphs_de": [
+    "Marta: Guten Morgen, Diego! Wie war das Wochenende?",
+    "Diego: Hallo, Marta! Sehr gut, danke. Und du? Was hast du gemacht?",
+    "Marta: Am Samstag habe ich meine Oma in Cartago besucht und wir haben zusammen gegessen.",
+    "Diego: Wie schön! Und am Sonntag?",
+    "Marta: Ich habe mich zu Hause ausgeruht. Ich habe ein Buch gelesen und mit meiner Schwester telefoniert. Und du?",
+    "Diego: Am Samstag bin ich mit ein paar Freunden ausgegangen. Wir sind durch die Innenstadt gelaufen und haben einen Kaffee getrunken.",
+    "Marta: Seid ihr auf den Markt gegangen?",
+    "Diego: Ja, wir sind zum Bauernmarkt gegangen. Ich habe Ananas, Mango und ein bisschen Käse gekauft.",
+    "Marta: Wie lecker! Wie viel hast du für die Ananas bezahlt?",
+    "Diego: Ich habe zweitausend Colones bezahlt. Sie war sehr süß.",
+    "Marta: Was für ein guter Preis! Und am Sonntag?",
+    "Diego: Ich habe eine Weile zu Hause gearbeitet und danach mit meiner Mama einen Film angesehen.",
+    "Marta: Perfekt! Na gut, jetzt wird gearbeitet. Pura vida!",
+    "Diego: Pura vida, Marta! Einen schönen Tag noch.",
+    "Wissenswert: In Costa Rica nennt man die Menschen aus dem Land „ticos“ und „ticas“. Das Wort ist liebevoll gemeint und wird von den Costa-Ricanern selbst benutzt."
+   ],
+   "glossary": [
+    {
+     "w": "el fin de semana",
+     "en": "weekend",
+     "de": "das Wochenende"
+    },
+    {
+     "w": "visité",
+     "en": "I visited (visitar)",
+     "de": "ich habe besucht"
+    },
+    {
+     "w": "descansé",
+     "en": "I rested (descansar)",
+     "de": "ich habe mich ausgeruht"
+    },
+    {
+     "w": "salí",
+     "en": "I went out (salir)",
+     "de": "ich bin ausgegangen"
+    },
+    {
+     "w": "fuimos",
+     "en": "we went (ir)",
+     "de": "wir sind gegangen"
+    },
+    {
+     "w": "la feria del agricultor",
+     "en": "farmers' market",
+     "de": "der Bauernmarkt"
+    },
+    {
+     "w": "pagué",
+     "en": "I paid (pagar)",
+     "de": "ich habe bezahlt"
+    },
+    {
+     "w": "¡Qué lindo!",
+     "en": "How nice! (very common in Latin America)",
+     "de": "Wie schön!"
+    }
+   ],
+   "grammar": "To talk about finished actions in the past, use the pretérito. Regular -ar verbs end in -é, -aste, -ó, -amos, -aron (visité, hablé, caminamos); regular -er/-ir verbs end in -í, -iste, -ió, -imos, -ieron (comí, salí, comimos). Ir is irregular: fui, fuiste, fue, fuimos, fueron. Example: “El sábado visité a mi abuela.” To ask: “¿Qué hiciste?”",
+   "grammar_de": "Für abgeschlossene Handlungen in der Vergangenheit benutzt man das Pretérito. Regelmäßige -ar-Verben enden auf -é, -aste, -ó, -amos, -aron (visité, hablé, caminamos); regelmäßige -er/-ir-Verben auf -í, -iste, -ió, -imos, -ieron (comí, salí, comimos). Ir ist unregelmäßig: fui, fuiste, fue, fuimos, fueron. Beispiel: „El sábado visité a mi abuela.“ Zum Fragen: „¿Qué hiciste?“",
+   "questions": [
+    "¿Qué hizo Diego el sábado?",
+    "¿Qué compró Diego en la feria?",
+    "¿Y tú? ¿Qué hiciste el fin de semana?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Cultura",
+   "title": "El coquí: la rana que canta la noche de Puerto Rico",
+   "dek": "Una rana de pocos centímetros que se oye más de lo que se ve, y que los puertorriqueños sienten como suya.",
+   "tags": [
+    "Puerto Rico",
+    "naturaleza",
+    "si + futuro"
+   ],
+   "paragraphs": [
+    "Si caminas por una calle de San Juan o por un pueblo de la montaña después de la puesta del sol, probablemente escucharás un sonido pequeño y repetido. No es un pájaro ni un grillo: es un coquí, una rana diminuta que vive en Puerto Rico. Su nombre viene de su canto, que suena como «co-quí». Es uno de esos sonidos que no se olvidan cuando se viaja a la isla.",
+    "El canto tiene dos partes: primero una nota más baja, «co», y después una más alta, «quí». Aunque el coquí es muy pequeño, su voz es sorprendentemente potente. Los que cantan son los machos, y lo hacen de noche, sobre todo para marcar su territorio y para llamar a las hembras. Cuando hay muchos coquíes juntos, el coro es tan fuerte que a los visitantes les puede costar dormir las primeras noches. Sin embargo, para muchos puertorriqueños ese ruido es simplemente el sonido de su casa.",
+    "El coquí es pequeño y discreto. Durante el día se esconde entre las hojas, debajo de las piedras o en los troncos, y por eso es más fácil escucharlo que verlo. Además, no necesita un estanque para reproducirse: la hembra pone los huevos en la tierra o entre las hojas, y el macho suele quedarse cerca para cuidarlos. De los huevos no salen renacuajos, sino ranitas que ya se parecen a sus padres. Por eso, para conocerlo de verdad, hay que tener paciencia.",
+    "Para los puertorriqueños, el coquí es mucho más que un animal. Aparece en canciones, cuentos para niños y dibujos, y muchas personas lo consideran un símbolo de la isla. Existen varias especies de coquí, pero la más conocida es el coquí común. Para quienes viven lejos de Puerto Rico, su canto suele ser un recuerdo de casa.",
+    "Si visitas Puerto Rico, sal una noche a un jardín o a un parque con árboles. Si hay un poco de silencio, escucharás el canto primero y, con paciencia y una linterna, quizás veas al pequeño cantante. Pero si no lo encuentras, no te preocupes: es normal. El coquí prefiere que lo escuchen.",
+    "Dato curioso: a los puertorriqueños también se les llama «boricuas». La palabra viene de Borikén (o Borinquen), el nombre que los taínos daban a la isla."
+   ],
+   "paragraphs_en": [
+    "If you walk along a street in San Juan or through a mountain village after sunset, you will probably hear a small, repeated sound. It is not a bird or a cricket: it is a coquí, a tiny frog that lives in Puerto Rico. Its name comes from its call, which sounds like “co-kee”. It is one of those sounds you do not forget after traveling to the island.",
+    "The call has two parts: first a lower note, “co”, and then a higher one, “kee”. Although the coquí is very small, its voice is surprisingly powerful. The ones that sing are the males, and they do it at night, mainly to mark their territory and to attract the females. When there are many coquís together, the chorus is so loud that visitors may find it hard to sleep the first few nights. Still, for many Puerto Ricans that noise is simply the sound of home.",
+    "The coquí is small and discreet. During the day it hides among leaves, under stones or in tree trunks, so it is easier to hear than to see. It also does not need a pond to reproduce: the female lays the eggs on the ground or among leaves, and the male usually stays nearby to look after them. The eggs do not produce tadpoles but tiny frogs that already look like their parents. So to really get to know it, you need patience.",
+    "For Puerto Ricans, the coquí is much more than an animal. It appears in songs, children's stories and drawings, and many people consider it a symbol of the island. There are several species of coquí, but the best known is the common coquí. For people who live far from Puerto Rico, its song is often a reminder of home.",
+    "If you visit Puerto Rico, go out one night to a garden or a park with trees. If it is a little quiet, you will hear the song first and, with patience and a flashlight, you may see the little singer. But if you do not find him, do not worry: that is normal. The coquí prefers to be heard.",
+    "Fun fact: Puerto Ricans are also called “boricuas”. The word comes from Borikén (or Borinquen), the name the Taíno people gave to the island."
+   ],
+   "paragraphs_de": [
+    "Wenn du nach Sonnenuntergang durch eine Straße in San Juan oder durch ein Bergdorf gehst, wirst du wahrscheinlich ein kleines, sich wiederholendes Geräusch hören. Es ist kein Vogel und keine Grille: Es ist ein Coquí, ein winziger Frosch, der in Puerto Rico lebt. Sein Name kommt von seinem Ruf, der wie „co-quí“ klingt. Es ist eines der Geräusche, die man nach einer Reise auf die Insel nicht vergisst.",
+    "Der Ruf hat zwei Teile: zuerst einen tieferen Ton, „co“, dann einen höheren, „quí“. Obwohl der Coquí sehr klein ist, ist seine Stimme überraschend kräftig. Die Sänger sind die Männchen, und sie singen nachts, vor allem um ihr Revier zu markieren und die Weibchen anzulocken. Wenn viele Coquíes zusammen sind, ist der Chor so laut, dass es Besuchern in den ersten Nächten schwerfallen kann zu schlafen. Für viele Puertorikaner ist dieses Geräusch aber einfach der Klang von zu Hause.",
+    "Der Coquí ist klein und unauffällig. Tagsüber versteckt er sich zwischen Blättern, unter Steinen oder in Baumstämmen, deshalb ist er leichter zu hören als zu sehen. Außerdem braucht er keinen Teich zur Fortpflanzung: Das Weibchen legt die Eier auf den Boden oder zwischen Blätter, und das Männchen bleibt meist in der Nähe, um sie zu bewachen. Aus den Eiern schlüpfen keine Kaulquappen, sondern winzige Fröschchen, die ihren Eltern schon ähneln. Um ihn wirklich kennenzulernen, braucht man also Geduld.",
+    "Für die Puertorikaner ist der Coquí viel mehr als ein Tier. Er kommt in Liedern, Kindergeschichten und Zeichnungen vor, und viele Menschen sehen in ihm ein Symbol der Insel. Es gibt mehrere Coquí-Arten, aber die bekannteste ist der Gewöhnliche Coquí. Für Menschen, die weit weg von Puerto Rico leben, ist sein Gesang oft eine Erinnerung an zu Hause.",
+    "Wenn du Puerto Rico besuchst, geh eines Abends in einen Garten oder einen Park mit Bäumen. Wenn es ein bisschen still ist, wirst du zuerst den Gesang hören und mit Geduld und einer Taschenlampe vielleicht den kleinen Sänger sehen. Aber wenn du ihn nicht findest, mach dir keine Sorgen: Das ist normal. Der Coquí hört man lieber, als dass man ihn sieht.",
+    "Wissenswert: Die Puertorikaner nennt man auch „boricuas“. Das Wort kommt von Borikén (oder Borinquen), dem Namen, den die Taíno der Insel gaben."
+   ],
+   "glossary": [
+    {
+     "w": "la rana",
+     "en": "frog",
+     "de": "der Frosch"
+    },
+    {
+     "w": "diminuta",
+     "en": "tiny",
+     "de": "winzig"
+    },
+    {
+     "w": "el canto",
+     "en": "song, call",
+     "de": "der Gesang, der Ruf"
+    },
+    {
+     "w": "el macho / la hembra",
+     "en": "male / female (animals)",
+     "de": "das Männchen / das Weibchen"
+    },
+    {
+     "w": "marcar su territorio",
+     "en": "to mark its territory",
+     "de": "sein Revier markieren"
+    },
+    {
+     "w": "costar dormir",
+     "en": "to find it hard to sleep",
+     "de": "schwer einschlafen"
+    },
+    {
+     "w": "esconderse",
+     "en": "to hide (oneself)",
+     "de": "sich verstecken"
+    },
+    {
+     "w": "el estanque",
+     "en": "pond",
+     "de": "der Teich"
+    },
+    {
+     "w": "el renacuajo",
+     "en": "tadpole",
+     "de": "die Kaulquappe"
+    },
+    {
+     "w": "el huevo",
+     "en": "egg",
+     "de": "das Ei"
+    },
+    {
+     "w": "la linterna",
+     "en": "flashlight",
+     "de": "die Taschenlampe"
+    },
+    {
+     "w": "el símbolo",
+     "en": "symbol",
+     "de": "das Symbol"
+    }
+   ],
+   "grammar": "Real conditions in the future (B1): si + present, then future. “Si caminas por una calle de San Juan, escucharás un sonido pequeño.” The si-part uses the present (never the future); the result uses the future (escucharás, verás) or the present/imperative (“sal una noche”). It works like English “If you walk…, you will hear…”.",
+   "grammar_de": "Reale Bedingungen in der Zukunft (B1): si + Präsens, dann Futur. „Si caminas por una calle de San Juan, escucharás un sonido pequeño.“ Der si-Teil steht im Präsens (nie im Futur); die Folge steht im Futur (escucharás, verás) oder im Präsens/Imperativ („sal una noche“). Es funktioniert wie im Deutschen: „Wenn du … gehst, wirst du … hören.“",
+   "questions": [
+    "¿Por qué esta rana se llama «coquí»?",
+    "¿Qué sonido de la noche es típico de tu ciudad o de tu país?",
+    "Si visitas Puerto Rico, ¿qué harás para escuchar al coquí?"
+   ],
+   "sources": []
   }
  ]
 }
