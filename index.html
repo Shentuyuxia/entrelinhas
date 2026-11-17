@@ -1035,7 +1035,7 @@ nav.tabs button[data-tab="stats"] .tl-m{display:inline!important}
 .foldbody.grid{grid-template-columns:minmax(0,1fr)}
 .foldbody .side{margin-top:14px}
 /* 设置页：宽屏两列，左边账号与同步、界面、备份，右边存储与安装说明（与字里一致） */
-@media (min-width:881px){#tab-settings.foldbody.grid{grid-template-columns:minmax(0,1fr) 310px;gap:22px}#tab-settings.foldbody.grid>.side{margin-top:0}#tab-settings.foldbody.grid{padding-top:0;margin-top:-13px}#tab-settings.foldbody.grid>aside.side>.panel{padding-top:33px!important;border-top:0!important}}
+@media (min-width:881px){#tab-settings.foldbody.grid{grid-template-columns:minmax(0,1fr) 220px;gap:22px}#tab-settings.foldbody.grid>.side{margin-top:0}#tab-settings.foldbody.grid{padding-top:0;margin-top:-13px}#tab-settings.foldbody.grid>aside.side>.panel{padding-top:33px!important;border-top:0!important}}
 @media (min-width:881px){#tab-read{row-gap:10px}#tab-read>.rt-sw{margin-bottom:0!important}#tab-read>#mg-main{padding-top:6px}}
 .foldbody>.panel.adpanel{margin-bottom:12px}
 #tab-me .acct:empty{display:none}
@@ -1339,6 +1339,22 @@ nav.tabs{margin:24px 0 26px}
 .ownex-ed textarea,.ownex-ed input{width:100%}
 .ownex-ed .lab2{display:block;margin-bottom:4px}
 .ownex-acts .btn svg{width:14px;height:14px;vertical-align:-2px}
+
+/* 探索页：去掉渐变封面、装饰圆和 emoji，只保留平的白底卡片与细边框（与字里一致的克制风格） */
+.rb-sleeve,.bs-card .rb-sleeve,.cu-card .rb-sleeve{background:var(--surface)!important;border:1px solid var(--line)!important;box-shadow:none!important;color:var(--ink)!important}
+.rb-sleeve::before,.rb-sleeve::after,.cu-card .rb-sleeve::before{display:none!important}
+.rb-sleeve i,.cu-card .rb-sleeve i,.bs-card .rb-sleeve i{display:none!important}
+.rb-sleeve b{color:var(--ink)!important;text-shadow:none!important}
+.bs-tile .e,.bs-dh .e{display:none!important}
+.bs-tile{border-radius:12px}
+
+/* 巴西的一点元素：分区标题前的绿黄细线、唱片左侧的色条（绿黄蓝赭循环）、巴西小事像明信片 */
+#rbox h3::before,.bs-head h2::before{content:"";display:inline-block;width:26px;height:3px;margin:0 10px 4px 0;vertical-align:middle;background:linear-gradient(90deg,#2e7d4f 50%,#d9a400 50%)}
+.rb-disc:nth-child(4n+1) .rb-sleeve{border-left:4px solid #2e7d4f!important}
+.rb-disc:nth-child(4n+2) .rb-sleeve{border-left:4px solid #d9a400!important}
+.rb-disc:nth-child(4n+3) .rb-sleeve{border-left:4px solid #2f5d9e!important}
+.rb-disc:nth-child(4n+4) .rb-sleeve{border-left:4px solid #b5543a!important}
+.cu-card .rb-sleeve{border:1px dashed color-mix(in srgb,var(--muted) 60%,transparent)!important;border-radius:2px!important}
 </style>
 </head>
 <body>
