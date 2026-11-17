@@ -93,6 +93,99 @@
     "And you? Have you ever gone to the wrong place to meet someone? What happened?"
    ],
    "sources": []
+  },
+  {
+   "lang": "de",
+   "level": "C1",
+   "kind": "feature",
+   "section": "Menschen & Migration",
+   "title": "Briefe, die man hören konnte",
+   "dek": "Vor 65 Jahren unterschrieben Deutschland und die Türkei das Anwerbeabkommen. Die schönsten Spuren dieser Geschichte sind oft ganz klein: eine Wasserflasche, ein Zug, eine Kassette voller Stimmen.",
+   "tags": [
+    "Türkei",
+    "Gastarbeit",
+    "Erinnerung",
+    "Plusquamperfekt"
+   ],
+   "paragraphs": [
+    "Im Bezirksrathaus von Köln-Ehrenfeld lagert eine Sammlung, die man leicht unterschätzt. Das Migrationsmuseum DOMiD bewahrt dort Dinge auf, die Menschen einmal in ihrem Gepäck mitgebracht haben. Bengü Kocatürk-Schuster vom DOMiD zeigt gern zwei davon: eine blaue Wasserflasche und eine Kassettenhülle. Beide erzählen von einer Geschichte, die am 30. Oktober 1961 begann, als Deutschland und die Türkei in Bonn das Anwerbeabkommen unterzeichneten. In diesem Herbst ist das 65 Jahre her.",
+    "Die Kassettenhülle ist das rührendere Stück. Sie gehörte zu sogenannten Hörbriefen: Eine Tochter, die bei Verwandten in der Türkei zurückgeblieben war, sprach ihre Nachrichten auf Band und schickte sie zu den Eltern nach Deutschland. Manchmal waren diese Kassetten monatelang unterwegs. Man stelle sich vor, wie eine Mutter eine Stimme hört, die längst ein paar Monate älter geworden ist – und trotzdem jedes Wort zehnmal zurückspult.",
+    "Auch die Ankunft war ein Abenteuer. Anfangs fuhren Sonderzüge von Istanbul aus, und die Reise dauerte 50 bis 55 Stunden. Die erste Station in Deutschland war oft ein ehemaliger Luftschutzbunker unter Gleis 11 im Münchner Hauptbahnhof, wo die Bundesanstalt für Arbeit die Neuankömmlinge auf die Betriebe verteilte. Gewohnt wurde danach in Baracken, Fabrikhallen oder Bunkern, die die Arbeitgeber stellten, mit strengen Hausregeln.",
+    "Wer da kam, war keineswegs ungelernt. Der Turkologe Haci-Halil Uslucan von der Universität Duisburg-Essen verweist auf Studien, nach denen 20 bis 50 Prozent der Angeworbenen schon eine Qualifikation mitbrachten – darunter Lehrer, die in Deutschland nie wieder vor einer Klasse standen. Geplant war ein kurzer Aufenthalt. Bis 1973 kehrten etwa eine halbe Million Menschen zurück, fast eine Million aber blieb und holte in den Siebzigerjahren die Familien nach.",
+    "In Berlin wurde vor allem Kreuzberg zu ihrem Viertel. Ein Rückblick des Portals mein-berlin.net erinnert an Fotos aus dieser Zeit: ein Junge in blauer Jacke, der 1969 auf der Straße spielt, eine Mutter mit ihren Kindern am Oranienplatz, dreißig Jahre später. Dazwischen liegen Bäckereien mit frischem Brot am Morgen, Moscheen, Musik und Familienfeste, die so laut und lang sein durften, wie sie eben waren.",
+    "Heute leben rund 2,9 Millionen Menschen mit türkischen Wurzeln in Deutschland, und ihre Spuren stecken in der Sprache, in der Musik, im Essen und in den Hochzeitsbräuchen. Die Enkelgeneration erzählt die Geschichte inzwischen selbst: Der Berliner Rapper Pashanim erinnert in seinem Song „Sommergewitter“ an Eltern, die mit zwei Taschen ankamen. Und Uslucan zieht zum Jubiläum einen hübschen Vergleich mit Udo Jürgens, dessen bekanntes Lied verspricht, dass das Leben im Rentenalter erst richtig anfängt. Mit 65 wäre man also gerade so weit."
+   ],
+   "glossary": [
+    {
+     "w": "das Anwerbeabkommen",
+     "de": "Vertrag zwischen zwei Staaten, damit Arbeitskräfte aus dem einen Land im anderen arbeiten können",
+     "zh": "招募劳工协定"
+    },
+    {
+     "w": "unterschätzen",
+     "de": "etwas für kleiner oder unwichtiger halten, als es ist",
+     "zh": "低估"
+    },
+    {
+     "w": "rührend",
+     "de": "so, dass es Gefühle weckt und einen innerlich bewegt",
+     "zh": "感人的"
+    },
+    {
+     "w": "der Hörbrief",
+     "de": "ein Brief, den man nicht schreibt, sondern auf eine Kassette spricht",
+     "zh": "录音信"
+    },
+    {
+     "w": "zurückspulen",
+     "de": "ein Band (Kassette, Video) zurücklaufen lassen, um etwas noch einmal zu hören",
+     "zh": "倒带"
+    },
+    {
+     "w": "der Neuankömmling",
+     "de": "eine Person, die gerade irgendwo angekommen ist",
+     "zh": "新来的人"
+    },
+    {
+     "w": "keineswegs",
+     "de": "überhaupt nicht, auf keinen Fall",
+     "zh": "绝不，一点也不"
+    },
+    {
+     "w": "jemanden nachholen",
+     "de": "Familie oder Partner später an den eigenen neuen Wohnort kommen lassen",
+     "zh": "把（家人）接过来"
+    },
+    {
+     "w": "die Wurzeln (Pl.)",
+     "de": "hier: die Herkunft einer Familie; nicht die Wurzeln einer Pflanze",
+     "zh": "根，出身"
+    },
+    {
+     "w": "gerade so weit sein",
+     "de": "umgangssprachlich: genau an dem Punkt angekommen sein",
+     "zh": "刚好到那一步"
+    }
+   ],
+   "grammar": "The Plusquamperfekt marks something that happened before another past event: 'Eine Tochter, die bei Verwandten zurückgeblieben war, sprach ihre Nachrichten auf Band.' Staying behind came first, recording the tapes came later. It is formed with 'hatte' or 'war' plus the past participle; verbs of movement or change of state like 'bleiben' take 'war'.",
+   "grammar_zh": "过去完成时（Plusquamperfekt）表示在另一个过去事件之前发生的事：“Eine Tochter, die bei Verwandten zurückgeblieben war, sprach ihre Nachrichten auf Band.” 留在亲戚家在先，录音在后。构成方式是 hatte 或 war 加过去分词；表示位移或状态变化的动词（如 bleiben）用 war。",
+   "questions": [
+    "Welcher Gegenstand würde in einem Museum am besten von deinem eigenen Umzug oder deiner Familiengeschichte erzählen?",
+    "Hast du selbst einmal über große Entfernung Kontakt gehalten? Wie hat sich das angefühlt?",
+    "Wo begegnet dir türkische Kultur im deutschen Alltag – beim Essen, in der Musik, in der Sprache?"
+   ],
+   "sources": [
+    {
+     "title": "Gastarbeiter aus der Türkei: 65 Jahre Migration nach Deutschland (MiGAZIN/dpa, 29.10.2026)",
+     "url": "https://www.migazin.de/2026/10/29/jahre-tuerkei-abkommen-von-anwerbung-verpiss-dich-praemie/",
+     "license": "link only"
+    },
+    {
+     "title": "65 Jahre Anwerbeabkommen: Die türkische Prägung Berlins und ihre Geschichten (mein-berlin.net)",
+     "url": "https://www.mein-berlin.net/berlin/steglitz-zehlendorf/65-jahre-anwerbeabkommen-die-tuerkische-praegung-berlins-und-ihre-geschichten",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
