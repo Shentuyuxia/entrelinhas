@@ -1371,6 +1371,8 @@ nav.tabs{margin:24px 0 26px}
 /* 今天的新词：一张纸一样的方框，只列词，没有释义和分隔线，点词听发音 */
 .d2-sheet{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px 12px;margin-top:8px}
 .d2w{background:none;border:0;padding:4px 0;font-family:var(--f-word);font-size:18px;color:var(--ink);text-align:left;cursor:pointer}
+/* 今日完成页：再学 5 个新词紧跟在「Feito」下面 */
+.d2-more{margin:14px 0 4px}
 </style>
 </head>
 <body>
@@ -2588,8 +2590,9 @@ function renderDone(area){
     const tw=todayNew();
     h=`<div class="done2">
       <div class="d2-head"><span class="seal">${I.check}</span><div><h2>${d.ok}</h2><p class="muted">今天的${d.zh}打卡完成：新学 ${log.n} 个，复习 ${log.r} 次。连续打卡 ${streak()} 天。</p></div></div>
+      ${fp?`<div class="d2-more"><button class="btn primary" id="d-more">再学 5 个新词</button></div>`:""}
       ${tw.length?`<div class="d2-words"><h3>今天的新词 <span>${tw.length}</span></h3><p class="small muted">点一下听发音</p><div class="d2-sheet">${tw.map(c=>`<button type="button" class="d2w" data-tw="${esc(c.id)}" lang="${lang()==="pt"?"pt-BR":lang()}">${esc(c.w)}</button>`).join("")}</div></div>`:""}
-      <div class="d2-acts">${fp?`<button class="btn primary" id="d-more">再学 5 个新词</button>`:""}${tw.length?`<button class="btn" id="d-tw">翻卡复习今天的词</button>`:""}${Object.keys(L().pile).length?`<button class="btn" id="d-pile">复习生词堆</button>`:""}<button class="btn ghost" id="d-new">录入新词</button></div>
+      <div class="d2-acts">${tw.length?`<button class="btn ghost" id="d-tw">翻卡复习今天的词</button>`:""}${Object.keys(L().pile).length?`<button class="btn ghost" id="d-pile">复习生词堆</button>`:""}</div>
     </div>`;
   } else if(fp===0&&due===0){
     h=`<div class="done"><h2>选中的级别学完了</h2><p class="muted">在右边「新词从哪些级别来」里勾选其他级别，或者去「词匣」加自己的词。</p></div>`;
