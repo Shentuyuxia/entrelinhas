@@ -1,0 +1,98 @@
+{
+ "date": "2026-11-17",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Dialogue",
+   "title": "Two cinemas, one film",
+   "dek": "Ben and Nina both wait for each other outside the cinema — but not the same one.",
+   "paragraphs": [
+    "Ben: Nina, where are you? The film started ten minutes ago!",
+    "Nina: I'm at the cinema! I got here at half past six, and I was waiting outside when you called.",
+    "Ben: That's strange. I'm at the cinema too. I was standing at the door at six.",
+    "Nina: Which cinema are you at?",
+    "Ben: The one near the university, of course. Where else?",
+    "Nina: Oh no. I'm at the one in the city centre.",
+    "Ben: What? I told you yesterday: \"near the university\"!",
+    "Nina: Well, I was making dinner while you were talking, so I didn't hear everything.",
+    "Ben: Ha! So we both waited at different cinemas.",
+    "Nina: And while I was looking for you everywhere, I bought a huge box of popcorn.",
+    "Ben: The film has already started. What shall we do?",
+    "Nina: How about dinner instead? I'm hungry, and I've got popcorn.",
+    "Ben: Good idea. Let's meet at the café between the two cinemas.",
+    "Nina: OK. Stay there! Don't move!",
+    "Ben: Don't worry. This time I'm going to write it down."
+   ],
+   "paragraphs_zh": [
+    "本：妮娜，你在哪儿？电影十分钟前就开始了！",
+    "妮娜：我在电影院啊！我六点半到的，你打电话的时候我正在外面等着。",
+    "本：真奇怪。我也在电影院。六点的时候我就站在门口了。",
+    "妮娜：你在哪家电影院？",
+    "本：当然是大学旁边那家啊。还能是哪家？",
+    "妮娜：糟了。我在市中心这一家。",
+    "本：什么？我昨天跟你说了：“在大学旁边”！",
+    "妮娜：嗯，你说话的时候我正在做晚饭，所以没听清全部。",
+    "本：哈！所以我们俩在不同的电影院里等了对方。",
+    "妮娜：而且我到处找你的时候，还买了一大盒爆米花。",
+    "本：电影已经开始了。我们怎么办？",
+    "妮娜：不如改成吃晚饭？我饿了，而且我还有爆米花。",
+    "本：好主意。我们在两家电影院中间的咖啡馆见面吧。",
+    "妮娜：好。待在那儿！别动！",
+    "本：别担心。这次我会把它写下来。"
+   ],
+   "glossary": [
+    {
+     "w": "strange",
+     "en": "not normal; surprising",
+     "zh": "奇怪的"
+    },
+    {
+     "w": "while",
+     "en": "during the time that something else is happening",
+     "zh": "当……的时候；一边……一边"
+    },
+    {
+     "w": "everywhere",
+     "en": "in every place",
+     "zh": "到处；每个地方"
+    },
+    {
+     "w": "popcorn",
+     "en": "a snack of corn that pops when it is heated, eaten at the cinema",
+     "zh": "爆米花"
+    },
+    {
+     "w": "instead",
+     "en": "in place of something else",
+     "zh": "代替；改为"
+    },
+    {
+     "w": "How about …?",
+     "en": "a way to suggest an idea",
+     "zh": "……怎么样？不如……？"
+    },
+    {
+     "w": "Don't worry.",
+     "en": "you say this to help someone feel calm",
+     "zh": "别担心。"
+    },
+    {
+     "w": "write down",
+     "en": "to put words on paper so you remember them",
+     "zh": "写下来；记下"
+    }
+   ],
+   "grammar": "Past simple vs past continuous: we use the past simple for a finished action (“I got here at half past six”, “The film started”). We use the past continuous (was/were + -ing) for an action that was in progress at a moment in the past (“I was waiting outside when you called”, “I was making dinner while you were talking”). Often a short action (called) interrupts a longer one (was waiting).",
+   "grammar_zh": "过去简单时 vs 过去进行时：已经完成的动作用过去简单时（“I got here at half past six”“The film started”）；过去某个时刻正在进行的动作用过去进行时（was/were + -ing），如“I was waiting outside when you called”（你打电话时我正在外面等）、“I was making dinner while you were talking”（你说话时我正在做晚饭）。常见用法是：短的动作（called）打断长的动作（was waiting）。",
+   "questions": [
+    "Why did Ben and Nina not meet at the cinema?",
+    "What was Nina doing when Ben was talking yesterday?",
+    "And you? Have you ever gone to the wrong place to meet someone? What happened?"
+   ],
+   "sources": []
+  }
+ ]
+}
