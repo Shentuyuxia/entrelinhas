@@ -1355,6 +1355,12 @@ nav.tabs{margin:24px 0 26px}
 .rb-disc:nth-child(4n+3) .rb-sleeve{border-left:4px solid #2f5d9e!important}
 .rb-disc:nth-child(4n+4) .rb-sleeve{border-left:4px solid #b5543a!important}
 .cu-card .rb-sleeve{border:1px dashed color-mix(in srgb,var(--muted) 60%,transparent)!important;border-radius:2px!important}
+
+/* 探索页按钮：不用灰底分段控件和描边按钮，改成文字切换（选中的加下划线），与入门分组一致 */
+.rb-card .rb-langs{background:none!important;border:0!important;padding:0!important;gap:16px!important;display:flex;margin:6px 0 0}
+.rb-card .rb-langs button{background:none!important;border:0!important;box-shadow:none!important;padding:4px 0!important;min-height:0!important;border-radius:0!important;color:var(--muted)!important;font:500 13.5px var(--f-ui)!important}
+.rb-card .rb-langs button[aria-pressed="true"]{color:var(--ink)!important;font-weight:700!important;box-shadow:inset 0 -2px 0 var(--acc)!important}
+.rb-card a.btn.sm{background:none!important;border:0!important;box-shadow:none!important;padding:4px 0!important;min-height:0!important;color:var(--ink)!important;font-size:13.5px;text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line);margin-top:8px}
 </style>
 </head>
 <body>
