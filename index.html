@@ -1368,13 +1368,9 @@ nav.tabs{margin:24px 0 26px}
 #rt-sw button:focus-visible{box-shadow:inset 0 -2px 0 var(--muted)!important}
 #rt-sw button[aria-pressed="true"]{color:var(--ink)!important;font-weight:600!important;box-shadow:inset 0 -2px 0 var(--acc)!important}
 
-/* 今天的新词：一张表格（词 | 释义），点一行听发音，不再用胶囊按钮 */
-.d2-tbl{width:100%;border-collapse:collapse;margin-top:6px}
-.d2-tbl td{padding:10px 2px;border-bottom:1px solid var(--line);vertical-align:baseline;text-align:left}
-.d2-tbl td:first-child{font-family:var(--f-word);font-size:18px;color:var(--ink);width:46%}
-.d2-tbl td:last-child{font-family:var(--f-ui);font-size:14.5px;color:var(--muted);text-align:right}
-.d2-tbl tr{cursor:pointer}
-.d2-tbl tr:active td{background:var(--surface)}
+/* 今天的新词：一张纸一样的方框，只列词，没有释义和分隔线，点词听发音 */
+.d2-sheet{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px 12px;margin-top:8px}
+.d2w{background:none;border:0;padding:4px 0;font-family:var(--f-word);font-size:18px;color:var(--ink);text-align:left;cursor:pointer}
 </style>
 </head>
 <body>
@@ -2592,7 +2588,7 @@ function renderDone(area){
     const tw=todayNew();
     h=`<div class="done2">
       <div class="d2-head"><span class="seal">${I.check}</span><div><h2>${d.ok}</h2><p class="muted">今天的${d.zh}打卡完成：新学 ${log.n} 个，复习 ${log.r} 次。连续打卡 ${streak()} 天。</p></div></div>
-      ${tw.length?`<div class="d2-words"><h3>今天的新词 <span>${tw.length}</span></h3><p class="small muted">点一下听发音</p><table class="d2-tbl"><tbody>${tw.map(c=>{const ks=glSel();const k=ks.find(x=>c[x])||(LANG[c.lang].gl||[]).find(x=>c[x]);return `<tr data-tw="${esc(c.id)}"><td lang="${lang()==="pt"?"pt-BR":lang()}">${esc(c.w)}</td><td>${k?esc(c[k]):""}</td></tr>`;}).join("")}</tbody></table></div>`:""}
+      ${tw.length?`<div class="d2-words"><h3>今天的新词 <span>${tw.length}</span></h3><p class="small muted">点一下听发音</p><div class="d2-sheet">${tw.map(c=>`<button type="button" class="d2w" data-tw="${esc(c.id)}" lang="${lang()==="pt"?"pt-BR":lang()}">${esc(c.w)}</button>`).join("")}</div></div>`:""}
       <div class="d2-acts">${fp?`<button class="btn primary" id="d-more">再学 5 个新词</button>`:""}${tw.length?`<button class="btn" id="d-tw">翻卡复习今天的词</button>`:""}${Object.keys(L().pile).length?`<button class="btn" id="d-pile">复习生词堆</button>`:""}<button class="btn ghost" id="d-new">录入新词</button></div>
     </div>`;
   } else if(fp===0&&due===0){
