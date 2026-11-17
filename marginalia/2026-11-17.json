@@ -407,6 +407,115 @@
     "Si visitas Puerto Rico, ¿qué harás para escuchar al coquí?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Uma camiseta para o Seu João",
+   "dek": "Na loja de roupas, a Ana quer um presente. Qual tamanho? De que cor? E quanto custa?",
+   "paragraphs": [
+    "Vendedora: Boa tarde! O que você quer hoje?",
+    "Ana: Uma camiseta de presente, por favor.",
+    "Vendedora: Que legal! Para quem é?",
+    "Ana: Para o Seu João, da padaria.",
+    "Vendedora: Qual é o tamanho dele? P, M ou G?",
+    "Ana: G. O Seu João é grande.",
+    "Vendedora: E de que cor? Branca ou azul?",
+    "Ana: Branca, com um gato laranja. Quanto custa?",
+    "Vendedora: Quarenta reais. É de algodão.",
+    "Ana: Barata e bonita! Quero duas: uma para mim!"
+   ],
+   "paragraphs_en": [
+    "Shop assistant: Good afternoon! What would you like today?",
+    "Ana: A T-shirt as a present, please.",
+    "Shop assistant: How nice! Who is it for?",
+    "Ana: For Seu João, from the bakery.",
+    "Shop assistant: What is his size? S, M or L?",
+    "Ana: L. Seu João is big.",
+    "Shop assistant: And what colour? White or blue?",
+    "Ana: White, with an orange cat. How much is it?",
+    "Shop assistant: Forty reais. It's cotton.",
+    "Ana: Cheap and pretty! I want two: one for me!"
+   ],
+   "paragraphs_zh": [
+    "店员：下午好！你今天想要什么？",
+    "安娜：一件T恤，当礼物，谢谢。",
+    "店员：真好！是给谁的？",
+    "安娜：给面包店的若昂先生。",
+    "店员：他穿什么尺码？小号、中号还是大号？",
+    "安娜：大号。若昂先生个子很大。",
+    "店员：什么颜色呢？白色还是蓝色？",
+    "安娜：白色的，上面有一只橘猫。多少钱？",
+    "店员：四十雷亚尔。是棉的。",
+    "安娜：又便宜又好看！我要两件：一件给我自己！"
+   ],
+   "paragraphs_de": [
+    "Verkäuferin: Guten Tag! Was möchtest du heute?",
+    "Ana: Ein T-Shirt als Geschenk, bitte.",
+    "Verkäuferin: Wie schön! Für wen ist es?",
+    "Ana: Für Seu João von der Bäckerei.",
+    "Verkäuferin: Welche Größe hat er? S, M oder L?",
+    "Ana: L. Seu João ist groß.",
+    "Verkäuferin: Und welche Farbe? Weiß oder blau?",
+    "Ana: Weiß, mit einer orangen Katze. Was kostet es?",
+    "Verkäuferin: Vierzig Reais. Es ist aus Baumwolle.",
+    "Ana: Billig und hübsch! Ich nehme zwei: eins für mich!"
+   ],
+   "glossary": [
+    {
+     "w": "a loja de roupas",
+     "en": "clothes shop",
+     "zh": "服装店",
+     "de": "das Bekleidungsgeschäft",
+     "pt": "uma loja onde a gente compra camisetas e vestidos"
+    },
+    {
+     "w": "o tamanho",
+     "en": "size — P (pequeno), M (médio), G (grande)",
+     "zh": "尺码；大小",
+     "de": "die Größe",
+     "pt": "P, M ou G: pequeno, médio ou grande"
+    },
+    {
+     "w": "laranja",
+     "en": "orange (colour) — never changes: o gato laranja, a camiseta laranja",
+     "zh": "橙色的，橘色的（词形不变）",
+     "de": "orange",
+     "pt": "a cor da fruta laranja; não muda: o gato laranja, a camiseta laranja"
+    },
+    {
+     "w": "o algodão",
+     "en": "cotton — camiseta de algodão",
+     "zh": "棉；棉布",
+     "de": "die Baumwolle",
+     "pt": "uma planta branca; a gente faz roupa com ela"
+    },
+    {
+     "w": "barato / barata",
+     "en": "cheap — the opposite of caro",
+     "zh": "便宜的",
+     "de": "billig, günstig",
+     "pt": "não custa muito dinheiro; o contrário de caro"
+    }
+   ],
+   "grammar": "Adjectives agree with the noun: a camiseta branca, barata, bonita — but o gato branco. Colours named after things, like laranja, never change: o gato laranja, a camiseta laranja. De + noun says the material or purpose: camiseta de algodão, camiseta de presente.",
+   "grammar_zh": "形容词要和名词保持一致：a camiseta branca, barata, bonita（白色、便宜、好看的T恤）——但 o gato branco（白猫）。用东西命名的颜色，比如 laranja（橙色），形式不变：o gato laranja（橘猫）、a camiseta laranja（橙色T恤）。de + 名词表示材料或用途：camiseta de algodão（棉T恤）、camiseta de presente（当礼物的T恤）。",
+   "grammar_de": "Adjektive passen sich dem Nomen an: a camiseta branca, barata, bonita – aber o gato branco. Farben, die nach Dingen benannt sind, wie laranja, ändern sich nie: o gato laranja, a camiseta laranja. De + Nomen nennt Material oder Zweck: camiseta de algodão (aus Baumwolle), camiseta de presente (als Geschenk).",
+   "grammar_pt": "O adjetivo concorda com o substantivo: a camiseta branca, barata, bonita — mas o gato branco. A cor laranja não muda: o gato laranja, a camiseta laranja. De + substantivo diz o material ou para quê: camiseta de algodão, camiseta de presente.",
+   "questions": [
+    "Para quem é a camiseta?",
+    "De que cor é a camiseta? E quanto custa?",
+    "E você? Qual é o seu tamanho: P, M ou G? Qual é a sua cor favorita?"
+   ],
+   "sources": [],
+   "tags": [
+    "loja de roupas",
+    "perguntas",
+    "adjetivos",
+    "cores"
+   ]
   }
  ]
 }
