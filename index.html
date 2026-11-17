@@ -1291,7 +1291,7 @@ nav.tabs{margin:24px 0 26px}
 #tab-read[data-rt="mine"] #mine-box{display:block}
 #tab-read[data-rt="mine"] aside,#tab-read[data-rt="shelf"] #mg-main{border:0!important;padding-left:0!important;margin-left:0!important}
 .mg-sw button[aria-pressed="true"]{background:var(--surface)!important;color:var(--ink)!important}
-@media (min-width:900px){ #tab-me{max-width:none!important;margin-left:0!important} #tab-me #tab-settings{display:grid!important;grid-template-columns:minmax(0,1fr) 340px;gap:var(--s4)} }
+@media (min-width:900px){ #tab-me{max-width:none!important;margin-left:0!important;width:100%} #tab-me #tab-settings{display:grid!important;grid-template-columns:minmax(0,1fr) 260px;gap:var(--s4)} }
 
 /* 探索 · 入门: tiles + word list (Zili style) */
 #tab-extras .exwrap{max-width:none!important;margin:0!important}
@@ -1570,6 +1570,7 @@ nav.tabs{margin:24px 0 26px}
     <div class="side" style="gap:22px">
         <div class="acct" data-acct></div>
       <div class="panel" id="sy-panel">
+        <h3 class="ph3">多设备同步</h3>
         <p class="note">用同一个邮箱登录，各设备共用学习进度。<a href="privacy.html" target="_blank" rel="noopener">隐私说明</a></p>
         <div class="segs" id="sy-modes" role="tablist" hidden><button type="button" data-sym="sb" aria-pressed="true">邮箱登录</button></div>
 
