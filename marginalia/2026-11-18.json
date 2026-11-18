@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-18",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "fr",
+      "level": "A2",
+      "kind": "feature",
+      "section": "Le monde en petit",
+      "title": "Les porteurs de déjeuners de Bombay",
+      "dek": "À Bombay, en Inde, 5 000 travailleurs apportent chaque jour un repas fait maison à 200 000 personnes. Sans ordinateur, avec le train et le vélo.",
+      "tags": [
+        "Inde",
+        "Bombay",
+        "travail",
+        "futur proche"
+      ],
+      "paragraphs": [
+        "Il est huit heures et demie à Bombay, en Inde. Dans toute la ville, des hommes en vêtements blancs, avec un petit bonnet blanc, frappent aux portes. Ils prennent une boîte en métal avec un repas chaud, préparé à la maison. Ces hommes s'appellent les « dabbawalas ». Le mot « dabba » veut dire « boîte ».",
+        "Les dabbawalas sont environ 5 000. Chaque jour, ils apportent presque 200 000 déjeuners à des employés de bureau et à des étudiants. Ils portent les boîtes sur la tête, prennent le train de banlieue, puis ils finissent le trajet à vélo ou à pied. Sur chaque boîte, il y a un petit code avec des lettres et des chiffres : la gare de départ, la gare d'arrivée, l'immeuble et l'étage.",
+        "Ce service n'est pas nouveau. Il a commencé en 1890 : un homme, Mahadeo Havaji Bachche, a réuni cent porteurs. Depuis, les boîtes voyagent tous les jours dans la ville. Il n'y a pas de grand patron ni d'application : les travailleurs ont leur propre association.",
+        "Il est midi et demi. Dans un bureau, une employée ouvre sa boîte : le riz est encore chaud. Mais la journée des dabbawalas n'est pas finie. Ils vont reprendre les boîtes vides et ils vont les rapporter dans les maisons avant le soir. Demain matin, ils vont recommencer."
+      ],
+      "paragraphs_en": [
+        "It is half past eight in Mumbai, India. All over the city, men in white clothes, wearing a small white cap, knock on doors. They pick up a metal box with a hot meal cooked at home. These men are called “dabbawalas”. The word “dabba” means “box”.",
+        "There are about 5,000 dabbawalas. Every day they bring almost 200,000 lunches to office workers and students. They carry the boxes on their heads, take the suburban train, then finish the journey by bicycle or on foot. On each box there is a small code of letters and numbers: the departure station, the arrival station, the building and the floor.",
+        "This service is not new. It began in 1890: a man named Mahadeo Havaji Bachche brought together a hundred carriers. Since then, the boxes have travelled across the city every day. There is no big boss and no app: the workers have their own association.",
+        "It is half past twelve. In an office, an employee opens her box: the rice is still hot. But the dabbawalas' day is not over. They are going to collect the empty boxes and take them back to the homes before evening. Tomorrow morning they are going to start again."
+      ],
+      "paragraphs_de": [
+        "Es ist halb neun in Mumbai, Indien. In der ganzen Stadt klopfen Männer in weißer Kleidung und mit einer kleinen weißen Mütze an die Türen. Sie holen eine Metallbox mit einem warmen, zu Hause gekochten Essen ab. Diese Männer heißen „Dabbawalas“. Das Wort „Dabba“ bedeutet „Box“.",
+        "Es gibt etwa 5.000 Dabbawalas. Jeden Tag bringen sie fast 200.000 Mittagessen zu Büroangestellten und Studierenden. Sie tragen die Boxen auf dem Kopf, nehmen den Vorortzug und legen den Rest des Weges mit dem Fahrrad oder zu Fuß zurück. Auf jeder Box steht ein kleiner Code aus Buchstaben und Zahlen: Abfahrtsbahnhof, Zielbahnhof, Gebäude und Stockwerk.",
+        "Dieser Dienst ist nicht neu. Er begann 1890: Ein Mann namens Mahadeo Havaji Bachche brachte hundert Träger zusammen. Seitdem reisen die Boxen jeden Tag durch die Stadt. Es gibt keinen großen Chef und keine App: Die Arbeiter haben ihren eigenen Verband.",
+        "Es ist halb eins. In einem Büro öffnet eine Angestellte ihre Box: Der Reis ist noch warm. Aber der Tag der Dabbawalas ist nicht vorbei. Sie werden die leeren Boxen wieder abholen und sie vor dem Abend zu den Häusern zurückbringen. Morgen früh fangen sie wieder an."
+      ],
+      "glossary": [
+        {
+          "w": "le déjeuner",
+          "fr": "le repas de midi",
+          "de": "das Mittagessen"
+        },
+        {
+          "w": "un bonnet",
+          "fr": "un petit chapeau souple, sans bord",
+          "de": "die Mütze"
+        },
+        {
+          "w": "frapper à la porte",
+          "fr": "taper sur la porte avec la main pour entrer ou appeler",
+          "de": "an die Tür klopfen"
+        },
+        {
+          "w": "le train de banlieue",
+          "fr": "train pour aller des quartiers loin du centre jusqu'au centre-ville",
+          "de": "der Vorortzug"
+        },
+        {
+          "w": "le trajet",
+          "fr": "le chemin d'un endroit à un autre",
+          "de": "der Weg, die Strecke"
+        },
+        {
+          "w": "l'étage",
+          "fr": "un niveau dans un immeuble (le 1er, le 2e…)",
+          "de": "das Stockwerk"
+        },
+        {
+          "w": "réunir",
+          "fr": "mettre des personnes ensemble",
+          "de": "versammeln, zusammenbringen"
+        },
+        {
+          "w": "rapporter",
+          "fr": "porter une chose à l'endroit d'où elle vient",
+          "de": "zurückbringen"
+        }
+      ],
+      "grammar": "The futur proche is aller in the present + an infinitive: « ils vont reprendre les boîtes ». It describes what is going to happen soon. With a pronoun, the pronoun goes before the infinitive, not before aller: « ils vont les rapporter ». Compare the passé composé in paragraph 3: « il a commencé en 1890 ».",
+      "grammar_de": "Das futur proche bildet man mit aller im Präsens + Infinitiv: « ils vont reprendre les boîtes » (sie werden die Boxen wieder abholen). Es beschreibt, was bald passiert. Ein Pronomen steht vor dem Infinitiv, nicht vor aller: « ils vont les rapporter ». Vergleiche das passé composé in Absatz 3: « il a commencé en 1890 ».",
+      "questions": [
+        "Qu'est-ce qu'il y a dans les boîtes des dabbawalas ?",
+        "Comment les dabbawalas savent-ils où apporter chaque boîte ?",
+        "Qu'est-ce que les dabbawalas vont faire l'après-midi ?"
+      ],
+      "sources": [
+        {
+          "title": "Mumbai Dabbawala — About us",
+          "url": "https://mumbaidabbawala.in/about-us",
+          "license": "official"
+        },
+        {
+          "title": "How Mumbai's Dabbawalas Deliver 200,000 Homemade Meals a Day (Atlas Obscura)",
+          "url": "https://atlasobscura.com/articles/how-mumbais-dabbawalas-deliver-200000-meals",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}
