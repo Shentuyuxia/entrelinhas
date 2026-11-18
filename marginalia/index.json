@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T16:43:29+00:00",
+ "updated": "2026-11-18T19:00:31+00:00",
  "days": [
   {
    "date": "2026-11-18",
@@ -26,6 +26,14 @@
      "title": "Candombe: los tambores que llaman en Montevideo",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Pão de queijo: pequeno, quentinho e mineiro",
+     "kind": "feature",
+     "level": "A1",
      "hour": null
     }
    ]

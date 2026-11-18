@@ -321,6 +321,116 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Cultura",
+   "title": "Pão de queijo: pequeno, quentinho e mineiro",
+   "dek": "Um pão pequeno, sem farinha de trigo e com muito queijo. Quantos você come no café da manhã?",
+   "tags": [
+    "Minas Gerais",
+    "comida",
+    "números"
+   ],
+   "paragraphs": [
+    "O pão de queijo é de Minas Gerais, no Sudeste do Brasil. É uma bolinha pequena e quentinha: tem de 3 a 5 centímetros.",
+    "A história começa no século XVIII, nas fazendas de Minas. Lá não tem farinha de trigo boa. Então as cozinheiras fazem um pó branco de mandioca: o polvilho.",
+    "A receita é simples: polvilho, queijo, leite, ovos, óleo e sal. Não tem trigo, então não tem glúten!",
+    "Os brasileiros comem pão de queijo no café da manhã, com um cafezinho. E também à tarde, no lanche. Tem na padaria, no bar e no supermercado.",
+    "Quantos pães de queijo uma pessoa come? Um, dois, três, quatro… Ninguém come só um!",
+    "E uma surpresa: o pão de queijo tem um dia nacional. É o dia 17 de agosto!"
+   ],
+   "paragraphs_en": [
+    "Pão de queijo (cheese bread) comes from Minas Gerais, in the Southeast of Brazil. It is a small, nice and warm little ball: 3 to 5 centimetres.",
+    "The story begins in the 18th century, on the farms of Minas. There was no good wheat flour there. So the cooks made a white powder from cassava: polvilho (cassava starch).",
+    "The recipe is simple: polvilho, cheese, milk, eggs, oil and salt. There's no wheat, so there's no gluten!",
+    "Brazilians eat pão de queijo for breakfast, with a cafezinho (a small coffee). And also in the afternoon, as a snack. You find it at the bakery, the snack bar and the supermarket.",
+    "How many cheese breads does one person eat? One, two, three, four… Nobody eats just one!",
+    "And a surprise: pão de queijo has a national day. It's 17 August!"
+   ],
+   "paragraphs_zh": [
+    "奶酪面包（pão de queijo）来自巴西东南部的米纳斯吉拉斯。它是一个热乎乎的小圆球：直径3到5厘米。",
+    "故事从18世纪开始，在米纳斯的农场里。那里没有好的小麦面粉。于是厨娘们用木薯做成一种白色的粉：polvilho（木薯淀粉）。",
+    "做法很简单：木薯淀粉、奶酪、牛奶、鸡蛋、油和盐。没有小麦，所以不含麸质！",
+    "巴西人早餐吃奶酪面包，配一小杯咖啡（cafezinho）。下午吃点心时也吃。面包店、小吃店和超市里都有。",
+    "一个人吃几个奶酪面包？一个、两个、三个、四个……没有人只吃一个！",
+    "还有一个惊喜：奶酪面包有一个全国性的节日。就是8月17日！"
+   ],
+   "paragraphs_de": [
+    "Pão de queijo (Käsebrot) kommt aus Minas Gerais, im Südosten Brasiliens. Es ist ein kleines, ofenwarmes Bällchen: 3 bis 5 Zentimeter groß.",
+    "Die Geschichte beginnt im 18. Jahrhundert, auf den Bauernhöfen von Minas. Dort gab es kein gutes Weizenmehl. Also machten die Köchinnen aus Maniok ein weißes Pulver: Polvilho (Maniokstärke).",
+    "Das Rezept ist einfach: Polvilho, Käse, Milch, Eier, Öl und Salz. Kein Weizen, also kein Gluten!",
+    "Die Brasilianer essen pão de queijo zum Frühstück, mit einem cafezinho (einem kleinen Kaffee). Und auch am Nachmittag, als Snack. Es gibt es in der Bäckerei, in der Imbissbar und im Supermarkt.",
+    "Wie viele Käsebrote isst ein Mensch? Eins, zwei, drei, vier … Niemand isst nur eins!",
+    "Und eine Überraschung: Pão de queijo hat einen nationalen Tag. Es ist der 17. August!"
+   ],
+   "glossary": [
+    {
+     "w": "a bolinha",
+     "en": "little ball — uma bolinha pequena e quentinha",
+     "zh": "小球",
+     "de": "das Bällchen, die kleine Kugel",
+     "pt": "uma bola pequena"
+    },
+    {
+     "w": "quentinho / quentinha",
+     "en": "nice and warm, fresh from the oven — uma bolinha quentinha",
+     "zh": "热乎乎的",
+     "de": "schön warm, ofenwarm",
+     "pt": "um pouco quente, gostoso"
+    },
+    {
+     "w": "o século",
+     "en": "century — no século XVIII",
+     "zh": "世纪",
+     "de": "das Jahrhundert",
+     "pt": "cem anos"
+    },
+    {
+     "w": "o trigo",
+     "en": "wheat — farinha de trigo",
+     "zh": "小麦",
+     "de": "der Weizen",
+     "pt": "a planta da farinha do pão normal"
+    },
+    {
+     "w": "a mandioca",
+     "en": "cassava, manioc — um pó branco de mandioca",
+     "zh": "木薯",
+     "de": "der Maniok",
+     "pt": "uma raiz grande do Brasil; a gente come cozida ou frita"
+    },
+    {
+     "w": "o polvilho",
+     "en": "cassava starch — um pó branco de mandioca: o polvilho",
+     "zh": "木薯淀粉",
+     "de": "die Maniokstärke",
+     "pt": "um pó branco feito de mandioca"
+    }
+   ],
+   "grammar": "With numbers, the noun agrees: um pão, dois pães; uma bolinha, duas bolinhas. In a phrase with de, only the first noun takes the plural: um pão de queijo → três pães de queijo (not “pães de queijos”).",
+   "grammar_zh": "数字后面的名词要配合：um pão（一个面包），dois pães（两个面包）；uma bolinha，duas bolinhas。带 de 的词组只有第一个名词变复数：um pão de queijo → três pães de queijo（不是 “pães de queijos”）。",
+   "grammar_de": "Nach Zahlen richtet sich das Nomen: um pão, dois pães; uma bolinha, duas bolinhas. In einer Verbindung mit de steht nur das erste Nomen im Plural: um pão de queijo → três pães de queijo (nicht „pães de queijos“).",
+   "grammar_pt": "Com números, o substantivo concorda: um pão, dois pães; uma bolinha, duas bolinhas. Com de, só a primeira palavra vai para o plural: um pão de queijo → três pães de queijo (não “pães de queijos”).",
+   "questions": [
+    "De onde é o pão de queijo? E do que ele é feito?",
+    "Qual é o dia nacional do pão de queijo?",
+    "E você? Quantos pães de queijo você come no café da manhã?"
+   ],
+   "sources": [
+    {
+     "title": "Pão de queijo (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/P%C3%A3o_de_queijo",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "title": "Dia Nacional do Pão de Queijo: país celebra um dos símbolos da sua culinária (Tribuna de Jundiaí)",
+     "url": "https://tribunadejundiai.com.br/gastronomia/dia-nacional-do-pao-de-queijo-pais-celebra-um-dos-simbolos-da-sua-culinaria/",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
