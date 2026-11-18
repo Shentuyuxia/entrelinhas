@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:00:31+00:00",
+ "updated": "2026-11-18T20:25:01+00:00",
  "days": [
   {
    "date": "2026-11-18",
@@ -34,6 +34,14 @@
      "title": "Pão de queijo: pequeno, quentinho e mineiro",
      "kind": "feature",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "A ligação de domingo",
+     "kind": "essay",
+     "level": "B1",
      "hour": null
     }
    ]
