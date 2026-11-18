@@ -2,10 +2,10 @@
 // Only this app's own old caches ("palavra-…") are cleaned up: other apps on the same site (Shiori, Zili) and the Piper voice caches keep theirs.
 // App files: served from cache, refreshed in the background.
 // Marginalia articles (marginalia/*) and word lists (data/*): network first, so new articles show up right away; cache is the offline fallback.
-const CACHE = "palavra-v126"
+const CACHE = "palavra-v127"
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./fonts/fonts.css", "./vendor/printkit.js"];
 self.addEventListener("install", e => {
-  e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, { cache: "reload" })).catch(() => null)))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith("palavra-") && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
@@ -45,7 +45,7 @@ self.addEventListener("fetch", e => {
   e.respondWith(
     caches.open(CACHE).then(async cache => {
       const cached = await cache.match(req, { ignoreSearch: sameOrigin });
-      const fresh = fetch(req).then(res => {
+      const fresh = fetch(sameOrigin ? new Request(req.url, { cache: "no-cache", credentials: "same-origin" }) : req).then(res => {
         if (res && (res.ok || res.type === "opaque")) cache.put(req, res.clone());
         return res;
       }).catch(() => cached);
