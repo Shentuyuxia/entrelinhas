@@ -1881,7 +1881,7 @@ const I={
 
 /* ---------- state (localStorage) ---------- */
 const LS="palavra-wort-v1";
-const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
+const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},mdel:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
   gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"],es:["en","de"]},goal:{pt:15,de:15,en:15,fr:15,es:15},levels:{es:["BS","A2","B1"],pt:["BS","A1","A2"],de:["B2","C1","C2","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
   pt:blank(),de:blank(),en:blank(),fr:blank(),es:blank(),updated:0,lastBackup:0};
@@ -2564,7 +2564,7 @@ function renderCard(){
   if(!DATA[lang()]) return;
   $("#sess-bar").style.width= sess&&sess.total? Math.min(100,100*sess.done/sess.total)+"%" : (sess&&!sess.cur?"100%":"0");
   if(!sess||!sess.cur){ renderDone(area); return; }
-  const it=sess.cur, c=it.c, LL=L(), st=LL.srs[c.id], inPile=!!LL.pile[c.id], dir=S.settings.dir;
+  const it=sess.cur, c=BYID.get(it.c.id)||it.c, LL=L(), st=LL.srs[c.id], inPile=!!LL.pile[c.id], dir=S.settings.dir;
   const hasImg=false, memo=memoOf(c), mine=mineOf(c), au=audsOf(c.id), hasAud=!!(au.w||au.s);
   const big=`<button class="bigspk" id="c-say" type="button" aria-label="系统朗读" title="系统朗读 (S)">${I.say}</button>`;
   const top=!sess.flipped?"":`<div class="card-top">${lvTag(c.lvl)}${it.isNew?'<span class="chip new">新词</span>':stgHTML(st)}${c.custom?'<span class="chip">我录入的</span>':""}<span class="spacer"></span>
@@ -2731,7 +2731,7 @@ function renderDetail(note){
   const ac=$("#d-add-chk"); if(ac) ac.onclick=()=>addSent(true);
   root.querySelectorAll("[data-chk]").forEach(b=>b.onclick=()=>checkSent(c,+b.dataset.chk));
   root.querySelectorAll("[data-use]").forEach(b=>b.onclick=()=>{ const m=mineOf(c)[+b.dataset.use]; m.t=m.fix; m.ok=true; save(); renderDetail("已改用修改后的句子"); });
-  root.querySelectorAll(".sent [data-del]").forEach(b=>b.onclick=()=>{ const arr=mineOf(c); arr.splice(+b.dataset.del,1); if(!arr.length) delete L().mine[id]; save(); renderDetail(); });
+  root.querySelectorAll(".sent [data-del]").forEach(b=>b.onclick=()=>{ const arr=mineOf(c); const gone=arr.splice(+b.dataset.del,1)[0]; const LM=L(); if(gone){ (LM.mdel||(LM.mdel={}))[id]=Object.assign({},LM.mdel[id]||{},{[gone.t+"|"+(gone.ts||"")]:Date.now()}); } if(!arr.length) delete LM.mine[id]; save(); renderDetail(); });
   root.querySelectorAll(".sent [data-say]").forEach(b=>b.onclick=()=>{ const m=mineOf(c)[+b.dataset.say]; speak(m.fix||m.t); });
   bindRecs($("#d-recs"),"d",{
     has:()=>audsOf(id),
@@ -4111,8 +4111,9 @@ function syMergeState(A,B){
     m.log={}; for(const d of new Set([...Object.keys(a.log),...Object.keys(b.log)])){ const x=a.log[d]||{n:0,r:0,c:false}, y=b.log[d]||{n:0,r:0,c:false};
       m.log[d]={n:Math.max(x.n||0,y.n||0),r:Math.max(x.r||0,y.r||0),c:!!(x.c||y.c)}; const pn=Math.max(x.pn||0,y.pn||0); if(pn) m.log[d].pn=pn; }
     for(const k of ["memo","imgs","auds"]){ m[k]=Object.assign({},b[k]||{},a[k]||{}); for(const id in m[k]) if(del[id]) delete m[k][id]; }
-    m.mine={}; for(const id of new Set([...Object.keys(a.mine||{}),...Object.keys(b.mine||{})])){ if(del[id]) continue;
-      const seen=new Set(), arr=[]; for(const s of [...((a.mine||{})[id]||[]),...((b.mine||{})[id]||[])]){ const k=s.t+"|"+(s.ts||""); if(!seen.has(k)){ seen.add(k); arr.push(s); } }
+    m.mine={}; m.mdel={}; for(const id of new Set([...Object.keys(a.mine||{}),...Object.keys(b.mine||{})])){ if(del[id]) continue;
+      const dl=m.mdel[id]=tsMax((a.mdel||{})[id],(b.mdel||{})[id]);
+      const seen=new Set(), arr=[]; for(const s of [...((a.mine||{})[id]||[]),...((b.mine||{})[id]||[])]){ const k=s.t+"|"+(s.ts||""); if(!seen.has(k)&&!dl[k]){ seen.add(k); arr.push(s); } }
       arr.sort((p,q)=>(q.ts||0)-(p.ts||0)); m.mine[id]=arr; }
     m.plan=a.plan||b.plan||null;
     m.essays={}; for(const k of new Set([...Object.keys(a.essays||{}),...Object.keys(b.essays||{})])){ const x=(a.essays||{})[k], y=(b.essays||{})[k]; m.essays[k]=!x?y:!y?x:((y.at||0)>(x.at||0)?y:x); }
