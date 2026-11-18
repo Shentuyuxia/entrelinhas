@@ -1,99 +1,326 @@
 {
-  "date": "2026-11-18",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-18",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "fr",
+   "level": "A2",
+   "kind": "feature",
+   "section": "Le monde en petit",
+   "title": "Les porteurs de déjeuners de Bombay",
+   "dek": "À Bombay, en Inde, 5 000 travailleurs apportent chaque jour un repas fait maison à 200 000 personnes. Sans ordinateur, avec le train et le vélo.",
+   "tags": [
+    "Inde",
+    "Bombay",
+    "travail",
+    "futur proche"
+   ],
+   "paragraphs": [
+    "Il est huit heures et demie à Bombay, en Inde. Dans toute la ville, des hommes en vêtements blancs, avec un petit bonnet blanc, frappent aux portes. Ils prennent une boîte en métal avec un repas chaud, préparé à la maison. Ces hommes s'appellent les « dabbawalas ». Le mot « dabba » veut dire « boîte ».",
+    "Les dabbawalas sont environ 5 000. Chaque jour, ils apportent presque 200 000 déjeuners à des employés de bureau et à des étudiants. Ils portent les boîtes sur la tête, prennent le train de banlieue, puis ils finissent le trajet à vélo ou à pied. Sur chaque boîte, il y a un petit code avec des lettres et des chiffres : la gare de départ, la gare d'arrivée, l'immeuble et l'étage.",
+    "Ce service n'est pas nouveau. Il a commencé en 1890 : un homme, Mahadeo Havaji Bachche, a réuni cent porteurs. Depuis, les boîtes voyagent tous les jours dans la ville. Il n'y a pas de grand patron ni d'application : les travailleurs ont leur propre association.",
+    "Il est midi et demi. Dans un bureau, une employée ouvre sa boîte : le riz est encore chaud. Mais la journée des dabbawalas n'est pas finie. Ils vont reprendre les boîtes vides et ils vont les rapporter dans les maisons avant le soir. Demain matin, ils vont recommencer."
+   ],
+   "paragraphs_en": [
+    "It is half past eight in Mumbai, India. All over the city, men in white clothes, wearing a small white cap, knock on doors. They pick up a metal box with a hot meal cooked at home. These men are called “dabbawalas”. The word “dabba” means “box”.",
+    "There are about 5,000 dabbawalas. Every day they bring almost 200,000 lunches to office workers and students. They carry the boxes on their heads, take the suburban train, then finish the journey by bicycle or on foot. On each box there is a small code of letters and numbers: the departure station, the arrival station, the building and the floor.",
+    "This service is not new. It began in 1890: a man named Mahadeo Havaji Bachche brought together a hundred carriers. Since then, the boxes have travelled across the city every day. There is no big boss and no app: the workers have their own association.",
+    "It is half past twelve. In an office, an employee opens her box: the rice is still hot. But the dabbawalas' day is not over. They are going to collect the empty boxes and take them back to the homes before evening. Tomorrow morning they are going to start again."
+   ],
+   "paragraphs_de": [
+    "Es ist halb neun in Mumbai, Indien. In der ganzen Stadt klopfen Männer in weißer Kleidung und mit einer kleinen weißen Mütze an die Türen. Sie holen eine Metallbox mit einem warmen, zu Hause gekochten Essen ab. Diese Männer heißen „Dabbawalas“. Das Wort „Dabba“ bedeutet „Box“.",
+    "Es gibt etwa 5.000 Dabbawalas. Jeden Tag bringen sie fast 200.000 Mittagessen zu Büroangestellten und Studierenden. Sie tragen die Boxen auf dem Kopf, nehmen den Vorortzug und legen den Rest des Weges mit dem Fahrrad oder zu Fuß zurück. Auf jeder Box steht ein kleiner Code aus Buchstaben und Zahlen: Abfahrtsbahnhof, Zielbahnhof, Gebäude und Stockwerk.",
+    "Dieser Dienst ist nicht neu. Er begann 1890: Ein Mann namens Mahadeo Havaji Bachche brachte hundert Träger zusammen. Seitdem reisen die Boxen jeden Tag durch die Stadt. Es gibt keinen großen Chef und keine App: Die Arbeiter haben ihren eigenen Verband.",
+    "Es ist halb eins. In einem Büro öffnet eine Angestellte ihre Box: Der Reis ist noch warm. Aber der Tag der Dabbawalas ist nicht vorbei. Sie werden die leeren Boxen wieder abholen und sie vor dem Abend zu den Häusern zurückbringen. Morgen früh fangen sie wieder an."
+   ],
+   "glossary": [
     {
-      "lang": "fr",
-      "level": "A2",
-      "kind": "feature",
-      "section": "Le monde en petit",
-      "title": "Les porteurs de déjeuners de Bombay",
-      "dek": "À Bombay, en Inde, 5 000 travailleurs apportent chaque jour un repas fait maison à 200 000 personnes. Sans ordinateur, avec le train et le vélo.",
-      "tags": [
-        "Inde",
-        "Bombay",
-        "travail",
-        "futur proche"
-      ],
-      "paragraphs": [
-        "Il est huit heures et demie à Bombay, en Inde. Dans toute la ville, des hommes en vêtements blancs, avec un petit bonnet blanc, frappent aux portes. Ils prennent une boîte en métal avec un repas chaud, préparé à la maison. Ces hommes s'appellent les « dabbawalas ». Le mot « dabba » veut dire « boîte ».",
-        "Les dabbawalas sont environ 5 000. Chaque jour, ils apportent presque 200 000 déjeuners à des employés de bureau et à des étudiants. Ils portent les boîtes sur la tête, prennent le train de banlieue, puis ils finissent le trajet à vélo ou à pied. Sur chaque boîte, il y a un petit code avec des lettres et des chiffres : la gare de départ, la gare d'arrivée, l'immeuble et l'étage.",
-        "Ce service n'est pas nouveau. Il a commencé en 1890 : un homme, Mahadeo Havaji Bachche, a réuni cent porteurs. Depuis, les boîtes voyagent tous les jours dans la ville. Il n'y a pas de grand patron ni d'application : les travailleurs ont leur propre association.",
-        "Il est midi et demi. Dans un bureau, une employée ouvre sa boîte : le riz est encore chaud. Mais la journée des dabbawalas n'est pas finie. Ils vont reprendre les boîtes vides et ils vont les rapporter dans les maisons avant le soir. Demain matin, ils vont recommencer."
-      ],
-      "paragraphs_en": [
-        "It is half past eight in Mumbai, India. All over the city, men in white clothes, wearing a small white cap, knock on doors. They pick up a metal box with a hot meal cooked at home. These men are called “dabbawalas”. The word “dabba” means “box”.",
-        "There are about 5,000 dabbawalas. Every day they bring almost 200,000 lunches to office workers and students. They carry the boxes on their heads, take the suburban train, then finish the journey by bicycle or on foot. On each box there is a small code of letters and numbers: the departure station, the arrival station, the building and the floor.",
-        "This service is not new. It began in 1890: a man named Mahadeo Havaji Bachche brought together a hundred carriers. Since then, the boxes have travelled across the city every day. There is no big boss and no app: the workers have their own association.",
-        "It is half past twelve. In an office, an employee opens her box: the rice is still hot. But the dabbawalas' day is not over. They are going to collect the empty boxes and take them back to the homes before evening. Tomorrow morning they are going to start again."
-      ],
-      "paragraphs_de": [
-        "Es ist halb neun in Mumbai, Indien. In der ganzen Stadt klopfen Männer in weißer Kleidung und mit einer kleinen weißen Mütze an die Türen. Sie holen eine Metallbox mit einem warmen, zu Hause gekochten Essen ab. Diese Männer heißen „Dabbawalas“. Das Wort „Dabba“ bedeutet „Box“.",
-        "Es gibt etwa 5.000 Dabbawalas. Jeden Tag bringen sie fast 200.000 Mittagessen zu Büroangestellten und Studierenden. Sie tragen die Boxen auf dem Kopf, nehmen den Vorortzug und legen den Rest des Weges mit dem Fahrrad oder zu Fuß zurück. Auf jeder Box steht ein kleiner Code aus Buchstaben und Zahlen: Abfahrtsbahnhof, Zielbahnhof, Gebäude und Stockwerk.",
-        "Dieser Dienst ist nicht neu. Er begann 1890: Ein Mann namens Mahadeo Havaji Bachche brachte hundert Träger zusammen. Seitdem reisen die Boxen jeden Tag durch die Stadt. Es gibt keinen großen Chef und keine App: Die Arbeiter haben ihren eigenen Verband.",
-        "Es ist halb eins. In einem Büro öffnet eine Angestellte ihre Box: Der Reis ist noch warm. Aber der Tag der Dabbawalas ist nicht vorbei. Sie werden die leeren Boxen wieder abholen und sie vor dem Abend zu den Häusern zurückbringen. Morgen früh fangen sie wieder an."
-      ],
-      "glossary": [
-        {
-          "w": "le déjeuner",
-          "fr": "le repas de midi",
-          "de": "das Mittagessen"
-        },
-        {
-          "w": "un bonnet",
-          "fr": "un petit chapeau souple, sans bord",
-          "de": "die Mütze"
-        },
-        {
-          "w": "frapper à la porte",
-          "fr": "taper sur la porte avec la main pour entrer ou appeler",
-          "de": "an die Tür klopfen"
-        },
-        {
-          "w": "le train de banlieue",
-          "fr": "train pour aller des quartiers loin du centre jusqu'au centre-ville",
-          "de": "der Vorortzug"
-        },
-        {
-          "w": "le trajet",
-          "fr": "le chemin d'un endroit à un autre",
-          "de": "der Weg, die Strecke"
-        },
-        {
-          "w": "l'étage",
-          "fr": "un niveau dans un immeuble (le 1er, le 2e…)",
-          "de": "das Stockwerk"
-        },
-        {
-          "w": "réunir",
-          "fr": "mettre des personnes ensemble",
-          "de": "versammeln, zusammenbringen"
-        },
-        {
-          "w": "rapporter",
-          "fr": "porter une chose à l'endroit d'où elle vient",
-          "de": "zurückbringen"
-        }
-      ],
-      "grammar": "The futur proche is aller in the present + an infinitive: « ils vont reprendre les boîtes ». It describes what is going to happen soon. With a pronoun, the pronoun goes before the infinitive, not before aller: « ils vont les rapporter ». Compare the passé composé in paragraph 3: « il a commencé en 1890 ».",
-      "grammar_de": "Das futur proche bildet man mit aller im Präsens + Infinitiv: « ils vont reprendre les boîtes » (sie werden die Boxen wieder abholen). Es beschreibt, was bald passiert. Ein Pronomen steht vor dem Infinitiv, nicht vor aller: « ils vont les rapporter ». Vergleiche das passé composé in Absatz 3: « il a commencé en 1890 ».",
-      "questions": [
-        "Qu'est-ce qu'il y a dans les boîtes des dabbawalas ?",
-        "Comment les dabbawalas savent-ils où apporter chaque boîte ?",
-        "Qu'est-ce que les dabbawalas vont faire l'après-midi ?"
-      ],
-      "sources": [
-        {
-          "title": "Mumbai Dabbawala — About us",
-          "url": "https://mumbaidabbawala.in/about-us",
-          "license": "official"
-        },
-        {
-          "title": "How Mumbai's Dabbawalas Deliver 200,000 Homemade Meals a Day (Atlas Obscura)",
-          "url": "https://atlasobscura.com/articles/how-mumbais-dabbawalas-deliver-200000-meals",
-          "license": "link only"
-        }
-      ]
+     "w": "le déjeuner",
+     "fr": "le repas de midi",
+     "de": "das Mittagessen"
+    },
+    {
+     "w": "un bonnet",
+     "fr": "un petit chapeau souple, sans bord",
+     "de": "die Mütze"
+    },
+    {
+     "w": "frapper à la porte",
+     "fr": "taper sur la porte avec la main pour entrer ou appeler",
+     "de": "an die Tür klopfen"
+    },
+    {
+     "w": "le train de banlieue",
+     "fr": "train pour aller des quartiers loin du centre jusqu'au centre-ville",
+     "de": "der Vorortzug"
+    },
+    {
+     "w": "le trajet",
+     "fr": "le chemin d'un endroit à un autre",
+     "de": "der Weg, die Strecke"
+    },
+    {
+     "w": "l'étage",
+     "fr": "un niveau dans un immeuble (le 1er, le 2e…)",
+     "de": "das Stockwerk"
+    },
+    {
+     "w": "réunir",
+     "fr": "mettre des personnes ensemble",
+     "de": "versammeln, zusammenbringen"
+    },
+    {
+     "w": "rapporter",
+     "fr": "porter une chose à l'endroit d'où elle vient",
+     "de": "zurückbringen"
     }
-  ]
+   ],
+   "grammar": "The futur proche is aller in the present + an infinitive: « ils vont reprendre les boîtes ». It describes what is going to happen soon. With a pronoun, the pronoun goes before the infinitive, not before aller: « ils vont les rapporter ». Compare the passé composé in paragraph 3: « il a commencé en 1890 ».",
+   "grammar_de": "Das futur proche bildet man mit aller im Präsens + Infinitiv: « ils vont reprendre les boîtes » (sie werden die Boxen wieder abholen). Es beschreibt, was bald passiert. Ein Pronomen steht vor dem Infinitiv, nicht vor aller: « ils vont les rapporter ». Vergleiche das passé composé in Absatz 3: « il a commencé en 1890 ».",
+   "questions": [
+    "Qu'est-ce qu'il y a dans les boîtes des dabbawalas ?",
+    "Comment les dabbawalas savent-ils où apporter chaque boîte ?",
+    "Qu'est-ce que les dabbawalas vont faire l'après-midi ?"
+   ],
+   "sources": [
+    {
+     "title": "Mumbai Dabbawala — About us",
+     "url": "https://mumbaidabbawala.in/about-us",
+     "license": "official"
+    },
+    {
+     "title": "How Mumbai's Dabbawalas Deliver 200,000 Homemade Meals a Day (Atlas Obscura)",
+     "url": "https://atlasobscura.com/articles/how-mumbais-dabbawalas-deliver-200000-meals",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En la panadería de Cuenca: ¿cuánto cuesta?",
+   "dek": "Ana compra pan y empanadas en una panadería de Cuenca, Ecuador. Practicas pedir cosas y preguntar el precio.",
+   "tags": [
+    "Cuenca",
+    "en la tienda",
+    "querer y costar"
+   ],
+   "paragraphs": [
+    "Rosa: Buenas tardes. ¿Qué desea?",
+    "Ana: Buenas tardes. Quiero pan, por favor.",
+    "Rosa: Claro. Tenemos pan de yuca y pan integral.",
+    "Ana: ¿Cuánto cuesta el pan de yuca?",
+    "Rosa: Cuesta un dólar el paquete.",
+    "Ana: Muy bien. Quiero dos paquetes de pan de yuca.",
+    "Rosa: Perfecto. ¿Quiere algo más?",
+    "Ana: Sí. ¿Tiene empanadas?",
+    "Rosa: Sí, tenemos empanadas de queso. Cuestan cincuenta centavos.",
+    "Ana: Quiero tres empanadas, por favor. ¿Cuánto es en total?",
+    "Rosa: Son tres dólares cincuenta.",
+    "Ana: Aquí tiene. ¡Muchas gracias y buen día!"
+   ],
+   "paragraphs_en": [
+    "Rosa: Good afternoon. What would you like?",
+    "Ana: Good afternoon. I'd like some bread, please.",
+    "Rosa: Of course. We have yuca bread and whole-grain bread.",
+    "Ana: How much does the yuca bread cost?",
+    "Rosa: It costs one dollar a pack.",
+    "Ana: Very good. I'd like two packs of yuca bread.",
+    "Rosa: Perfect. Would you like anything else?",
+    "Ana: Yes. Do you have empanadas?",
+    "Rosa: Yes, we have cheese empanadas. They cost fifty cents.",
+    "Ana: I'd like three empanadas, please. How much is it in total?",
+    "Rosa: That's three dollars fifty.",
+    "Ana: Here you are. Thank you very much and have a nice day!"
+   ],
+   "paragraphs_de": [
+    "Rosa: Guten Tag. Was möchten Sie?",
+    "Ana: Guten Tag. Ich möchte Brot, bitte.",
+    "Rosa: Gern. Wir haben Yuca-Brot und Vollkornbrot.",
+    "Ana: Wie viel kostet das Yuca-Brot?",
+    "Rosa: Es kostet einen Dollar pro Packung.",
+    "Ana: Sehr gut. Ich möchte zwei Packungen Yuca-Brot.",
+    "Rosa: Perfekt. Möchten Sie noch etwas?",
+    "Ana: Ja. Haben Sie Empanadas?",
+    "Rosa: Ja, wir haben Käse-Empanadas. Sie kosten fünfzig Cent.",
+    "Ana: Ich möchte drei Empanadas, bitte. Wie viel macht das insgesamt?",
+    "Rosa: Das macht drei Dollar fünfzig.",
+    "Ana: Bitte schön. Vielen Dank und einen schönen Tag!"
+   ],
+   "glossary": [
+    {
+     "w": "querer: quiero",
+     "en": "to want (polite way to order: “I'd like”)",
+     "de": "wollen / möchten"
+    },
+    {
+     "w": "cuesta / cuestan",
+     "en": "it costs / they cost",
+     "de": "es kostet / sie kosten"
+    },
+    {
+     "w": "¿Cuánto es en total?",
+     "en": "How much is it altogether?",
+     "de": "Wie viel macht das insgesamt?"
+    },
+    {
+     "w": "el pan",
+     "en": "bread",
+     "de": "das Brot"
+    },
+    {
+     "w": "la empanada",
+     "en": "pastry turnover with a filling",
+     "de": "die Empanada (gefüllte Teigtasche)"
+    },
+    {
+     "w": "el paquete",
+     "en": "pack, package",
+     "de": "die Packung"
+    },
+    {
+     "w": "¿Qué desea?",
+     "en": "What would you like? (shop phrase)",
+     "de": "Was möchten Sie?"
+    },
+    {
+     "w": "Aquí tiene",
+     "en": "Here you are",
+     "de": "Bitte schön"
+    }
+   ],
+   "grammar": "To order something, use quiero + noun: “Quiero dos paquetes de pan.” To ask a price, use cuesta for one thing and cuestan for several: “¿Cuánto cuesta el pan?” / “Cuestan cincuenta centavos.” Add por favor to be polite.",
+   "grammar_de": "Zum Bestellen benutzt du quiero + Nomen: „Quiero dos paquetes de pan.“ Für den Preis sagst du cuesta bei einer Sache und cuestan bei mehreren: „¿Cuánto cuesta el pan?“ / „Cuestan cincuenta centavos.“ Mit por favor klingt es höflich.",
+   "questions": [
+    "¿Qué quiere comprar Ana?",
+    "¿Cuánto cuestan las empanadas?",
+    "¿Y tú? ¿Qué quieres comer hoy?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Música",
+   "title": "Candombe: los tambores que llaman en Montevideo",
+   "dek": "Cada domingo, en tres barrios de Montevideo, el sonido de los tambores reúne a vecinos, músicos y curiosos.",
+   "tags": [
+    "Uruguay",
+    "Montevideo",
+    "música",
+    "voz pasiva"
+   ],
+   "paragraphs": [
+    "En Montevideo, la capital de Uruguay, hay un sonido que muchas personas reconocen enseguida: el de los tambores del candombe. Este ritmo nació de la cultura de las personas africanas que llegaron a la región como esclavizadas. Con los años, ellas y sus descendientes conservaron la música a pesar de las dificultades, y hoy el candombe es un símbolo que identifica a todo el país.",
+    "El candombe vive sobre todo en los barrios Sur, Palermo y Cordón, en el sur de la ciudad. Allí, los domingos y en muchos días de fiesta, los vecinos se reúnen alrededor de fuegos para afinar sus tambores y charlar. Después empieza el desfile: los tamborileros más respetados, que muchas veces vienen de familias que tocan desde hace generaciones, abren la marcha, y los demás músicos los siguen en filas. Algunos bailan al lado, y otras personas miran desde los balcones.",
+    "El tambor más grande y de sonido más grave se llama «piano». Cada barrio toca con un toque propio, así que quien conoce bien el candombe puede reconocer de dónde viene un grupo solo por escuchar su ritmo. Cuando los grupos se encuentran en la calle, se «llaman» unos a otros con los tambores y se responden. De ahí viene el nombre de las Llamadas, el gran desfile de candombe que se celebra cada año por las calles de Montevideo.",
+    "La historia de las llamadas es larga. Según los textos históricos, desde 1760 por lo menos los africanos esclavizados de Montevideo podían reunirse los domingos en pequeños espacios cerca de la muralla de la ciudad. Cada grupo se juntaba con su gente y los llamaba con cantos y tambores. Esa idea de llamar y responder todavía se escucha hoy en la calle.",
+    "En 2009 el candombe fue declarado Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Sin embargo, para muchas familias esto no cambió lo más importante: el candombe se aprende en casa y en el barrio, de padres a hijos y entre vecinos. También se celebra un Día Nacional del Candombe cada 3 de diciembre, una fecha que se festeja desde 2006.",
+    "Si algún día visitas Montevideo, no necesitas un escenario para escuchar candombe. Muchas veces basta con caminar por Barrio Sur un domingo por la tarde y seguir el sonido de los tambores. Ojalá puedas hacerlo algún día, porque el candombe se entiende mejor cuando se siente en el cuerpo.",
+    "Dato curioso: el «piano» del candombe no tiene teclas ni cuerdas: es el tambor más grande y más grave del grupo. Su nombre es una broma sonora, porque su voz profunda lleva la base del ritmo."
+   ],
+   "paragraphs_en": [
+    "In Montevideo, the capital of Uruguay, there is a sound that many people recognize at once: the drums of candombe. This rhythm was born from the culture of people from Africa who came to the region as enslaved persons. Over the years, they and their descendants kept the music alive despite hardship, and today candombe is a symbol that identifies the whole country.",
+    "Candombe lives above all in the Sur, Palermo and Cordón neighborhoods, in the south of the city. There, on Sundays and on many holidays, neighbors gather around fires to tune their drums and chat. Then the parade begins: the most respected drummers, who often come from families that have played for generations, lead the march, and the other musicians follow in rows. Some people dance alongside, and others watch from balconies.",
+    "The biggest drum, with the deepest sound, is called the “piano.” Each neighborhood plays with its own beat, so someone who knows candombe well can tell where a group comes from just by hearing its rhythm. When groups meet in the street, they “call” each other with the drums and answer back. That is where the name Llamadas (“calls”) comes from, the big candombe parade held every year on the streets of Montevideo.",
+    "The history of the llamadas is long. According to historical texts, at least since 1760 enslaved Africans in Montevideo could gather on Sundays in small spaces near the city wall. Each group met with its own people and called them with songs and drums. That idea of calling and answering can still be heard in the street today.",
+    "In 2009, candombe was declared Intangible Cultural Heritage of Humanity by UNESCO. Still, for many families this did not change the most important thing: candombe is learned at home and in the neighborhood, from parents to children and among neighbors. There is also a National Candombe Day every 3 December, a date celebrated since 2006.",
+    "If you ever visit Montevideo, you don't need a stage to hear candombe. Often it is enough to walk through Barrio Sur on a Sunday afternoon and follow the sound of the drums. I hope you can do it one day, because candombe is understood better when you feel it in your body.",
+    "Fun fact: the candombe “piano” has no keys or strings: it is the biggest and deepest drum of the group. Its name is a sound joke, because its deep voice carries the base of the rhythm."
+   ],
+   "paragraphs_de": [
+    "In Montevideo, der Hauptstadt Uruguays, gibt es einen Klang, den viele Menschen sofort erkennen: die Trommeln des Candombe. Dieser Rhythmus entstand aus der Kultur von Menschen aus Afrika, die als Versklavte in die Region kamen. Im Lauf der Jahre bewahrten sie und ihre Nachkommen die Musik trotz aller Schwierigkeiten, und heute ist der Candombe ein Symbol, das das ganze Land kennzeichnet.",
+    "Der Candombe lebt vor allem in den Vierteln Sur, Palermo und Cordón im Süden der Stadt. Dort treffen sich die Nachbarn sonntags und an vielen Feiertagen um Feuer, um ihre Trommeln zu stimmen und zu plaudern. Dann beginnt der Umzug: Die angesehensten Trommler, oft aus Familien, die seit Generationen spielen, führen den Zug an, und die anderen Musiker folgen in Reihen. Manche tanzen daneben, andere schauen von den Balkonen zu.",
+    "Die größte Trommel mit dem tiefsten Klang heißt „Piano“. Jedes Viertel spielt mit einem eigenen Schlag, sodass man als Kenner schon am Rhythmus hört, woher eine Gruppe kommt. Wenn sich Gruppen auf der Straße begegnen, „rufen“ sie einander mit den Trommeln und antworten. Daher kommt der Name Llamadas („Rufe“), der große Candombe-Umzug, der jedes Jahr durch die Straßen von Montevideo zieht.",
+    "Die Geschichte der Llamadas ist lang. Historischen Texten zufolge durften sich versklavte Afrikaner in Montevideo mindestens seit 1760 sonntags in kleinen Räumen nahe der Stadtmauer treffen. Jede Gruppe traf sich mit ihren Leuten und rief sie mit Gesang und Trommeln. Diese Idee von Rufen und Antworten hört man heute noch auf der Straße.",
+    "2009 wurde der Candombe von der UNESCO zum Immateriellen Kulturerbe der Menschheit erklärt. Für viele Familien änderte das aber nicht das Wichtigste: Candombe lernt man zu Hause und im Viertel, von den Eltern an die Kinder und unter Nachbarn. Außerdem gibt es jedes Jahr am 3. Dezember den Nationalen Candombe-Tag, der seit 2006 gefeiert wird.",
+    "Wenn du eines Tages Montevideo besuchst, brauchst du keine Bühne, um Candombe zu hören. Oft reicht es, an einem Sonntagnachmittag durch Barrio Sur zu gehen und dem Klang der Trommeln zu folgen. Hoffentlich kannst du das eines Tages tun, denn Candombe versteht man besser, wenn man ihn im Körper spürt.",
+    "Dato curioso (Wissenswertes): Das „Piano“ des Candombe hat weder Tasten noch Saiten: Es ist die größte und tiefste Trommel der Gruppe. Der Name ist ein Klangscherz, denn die tiefe Stimme trägt die Basis des Rhythmus."
+   ],
+   "glossary": [
+    {
+     "w": "el tambor",
+     "en": "drum",
+     "de": "die Trommel"
+    },
+    {
+     "w": "el tamborilero",
+     "en": "drummer",
+     "de": "der Trommler"
+    },
+    {
+     "w": "el desfile",
+     "en": "parade",
+     "de": "der Umzug"
+    },
+    {
+     "w": "esclavizado/a",
+     "en": "enslaved",
+     "de": "versklavt"
+    },
+    {
+     "w": "el barrio",
+     "en": "neighborhood",
+     "de": "das Viertel"
+    },
+    {
+     "w": "el toque",
+     "en": "beat, way of playing",
+     "de": "der Schlag, Rhythmus"
+    },
+    {
+     "w": "afinar",
+     "en": "to tune",
+     "de": "stimmen"
+    },
+    {
+     "w": "la muralla",
+     "en": "city wall",
+     "de": "die Stadtmauer"
+    },
+    {
+     "w": "el patrimonio",
+     "en": "heritage",
+     "de": "das Kulturerbe"
+    },
+    {
+     "w": "el balcón",
+     "en": "balcony",
+     "de": "der Balkon"
+    },
+    {
+     "w": "el vecino",
+     "en": "neighbor",
+     "de": "der Nachbar"
+    },
+    {
+     "w": "conservar",
+     "en": "to keep, preserve",
+     "de": "bewahren"
+    }
+   ],
+   "grammar": "The passive voice (B1) puts the focus on what happens, not on who does it. With ser + past participle: “El candombe fue declarado Patrimonio de la Humanidad” (the participle agrees with the subject). With se + verb: “Se celebra un Día Nacional del Candombe.” Both are common in written texts and news; in speech, the se-form is more frequent.",
+   "grammar_de": "Das Passiv (B1) betont, was geschieht, nicht wer es tut. Mit ser + Partizip: „El candombe fue declarado Patrimonio de la Humanidad“ (das Partizip richtet sich nach dem Subjekt). Mit se + Verb: „Se celebra un Día Nacional del Candombe.“ Beide Formen sind in Texten und Nachrichten häufig; in der gesprochenen Sprache ist die se-Form üblicher.",
+   "questions": [
+    "¿Cómo se prepara el desfile de candombe en los barrios?",
+    "¿Por qué las llamadas se llaman así?",
+    "¿Hay en tu país algún ritmo o fiesta que se aprende en casa y en el barrio? Cuéntalo."
+   ],
+   "sources": [
+    {
+     "title": "Candombe and its socio-cultural space: a community practice (UNESCO)",
+     "url": "https://ich.unesco.org/en/RL?RL=00182",
+     "license": "link only"
+    },
+    {
+     "title": "Candombe, Patrimonio de la Humanidad (Ministerio de Educación y Cultura, Uruguay)",
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/patrimonio-uruguay/candombe-patrimonio-humanidad",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
 }

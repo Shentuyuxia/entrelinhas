@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:48:50+00:00",
+ "updated": "2026-11-18T16:43:29+00:00",
  "days": [
   {
    "date": "2026-11-18",
@@ -10,6 +10,22 @@
      "title": "Les porteurs de déjeuners de Bombay",
      "kind": "feature",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "En la panadería de Cuenca: ¿cuánto cuesta?",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "Candombe: los tambores que llaman en Montevideo",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]
