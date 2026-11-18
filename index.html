@@ -1373,6 +1373,23 @@ nav.tabs{margin:24px 0 26px}
 .d2w{background:none;border:0;padding:4px 0;font-family:var(--f-word);font-size:18px;color:var(--ink);text-align:left;cursor:pointer}
 /* 今日完成页：再学 5 个新词紧跟在「Feito」下面 */
 .d2-more{margin:14px 0 4px}
+
+/* 与字里同步的界面整理（2026-11） */
+.brand h1 .amp,.brand h1 .alt,.mg-dek,.mg-sheet .ex,.wk-form,.mg-tr-en,.extra,.dx-ex{font-style:normal!important}
+#tab-extras h2 span,#tab-extras h3 span{font-style:normal!important}
+#langsw button[aria-pressed="true"]{background:none!important}
+.strip{border-top:0!important;border-bottom:0!important}
+.bar:has(> #sess-bar){background:transparent!important}
+.btn.primary{border-radius:4px!important;box-shadow:none!important}
+.checks label{border-radius:4px!important}
+@media (max-width:640px){
+  #dx-form{flex-wrap:wrap!important}
+  #dx-form #dx-q{flex:1 1 100%!important;order:-1}
+  #dx-form #dx-from{flex:1 1 auto!important}
+}
+@media (min-width:881px){
+  #tab-dict .fold,#tab-dict .dict-page{margin-left:auto!important;margin-right:auto!important;translate:var(--dict-shift,0px) 0}
+}
 </style>
 </head>
 <body>
@@ -5229,9 +5246,13 @@ async function exRender(){
 }
 function meRender(){ renderAISettings(); renderStorage(); renderBackupHint(); }
 const foldOn=k=>!!(document.getElementById("fold-"+k)||{}).open;
+/* 字典页按窗口中心对齐（侧栏让内容列偏移，这里做一次补偿） */
+function dictCenter(){ const d=document.getElementById("tab-dict"); if(!d) return; d.style.removeProperty("--dict-shift"); if(d.hidden) return; const p=d.querySelector(".dict-page"); if(!p) return; const r=p.getBoundingClientRect(); if(!r.width) return; const cw=document.documentElement.clientWidth; d.style.setProperty("--dict-shift",(cw/2-(r.left+r.width/2))+"px"); }
+addEventListener("resize",()=>{ if(cur==="dict") dictCenter(); });
 function showTab(t){
   let fold=null;
   if(LEG[t]){ fold=LEG[t][1]; t=LEG[t][0]; }
+  if(t==="dict") setTimeout(dictCenter,0);
   if(t==="dict") setTimeout(()=>{ const q=$("#dx-q"); if(q&&!q.value) try{ q.focus({preventScroll:true}); }catch(e){} },80);
   if(!TABS.includes(t)) t="today";
   cur=t;
