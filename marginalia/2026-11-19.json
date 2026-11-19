@@ -1,94 +1,184 @@
 {
-  "date": "2026-11-19",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-19",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "essay",
+   "section": "Books & Ideas",
+   "title": "A name the registry would not accept",
+   "dek": "In a new essay for Literary Hub, the novelist Kirmen Uribe argues that a minority language survives by being chosen, not by being kept pure, and that a small literature can be a stage as easily as a cage.",
+   "tags": [
+    "books & ideas",
+    "Literary Hub",
+    "Basque",
+    "concessive 'as easily as'"
+   ],
+   "paragraphs": [
+    "Kirmen Uribe's life as a writer begins, by his own account, at a civil registry counter. He was born in the Basque Country in the early 1970s, while Franco was still in power, and the clerk who recorded his birth told his mother that Basque names were not permitted, offering Spanish alternatives instead. She refused to give way, and the official record still carries the single name Kirmen. For Uribe, who recounts the episode in an essay published by Literary Hub on 9 November, the scene contains the whole problem of a minority language in miniature: a word that is ordinary at home becomes an act of defiance the moment it meets the state.",
+    "What follows is less a lament than an inventory of recovery. Uribe belongs, he writes, to the first generation that could be educated in Basque from primary school all the way to university, in a system that began in improvised classrooms before it had printed textbooks, and that was soon joined by Basque-language radio and television. He puts the number of speakers today at around one million in a region of almost two and a half million, and notes that roughly a third more people speak the language than did in the 1970s. Many of them, he stresses, learned it as adults, and he counts them as Basque speakers by adoption rather than as second-class heirs.",
+    "That emphasis on adoption is the essay's quiet polemic. Basque is famous as a linguistic isolate, a language that predates the Indo-European arrivals in Europe, and it is tempting to romanticise it as a sealed survivor of deep time. Uribe declines the temptation. He delights instead in the words Basque has borrowed over the centuries from Latin, Arabic, French and Spanish, down to a verb for googling, and he recalls how his own student theory about an ancient sound in the speech of his home town, Ondarroa, collapsed when it turned out to come from older speakers' dentures. A living language, on this account, is defined by traffic, not by purity.",
+    "The political edge of the argument lies in what Uribe says about smallness. A minor literature, he suggests, can make its writers visible far beyond their numbers, yet it can just as easily turn them into emblems, with institutions anointing one figure as the representative voice and expecting loyalty in return. He sets Claudio Magris's view that border cultures see the world with unusual sharpness against Milan Kundera's warning that small nations may demand obedience from their artists. The tension is familiar to anyone who has watched identity become a brand: the same recognition that protects a culture can also fence its writers in.",
+    "Uribe's own life now complicates the picture further. He lives in New York and teaches at New York University, speaking Basque at home and Spanish in the classroom, in a city he describes as home to more than six hundred languages. He writes in Basque, Spanish and English, and resists calling this self-translation, preferring the idea of writing oneself anew in each language. His novel Life Before Dolphins, translated from Spanish by Megan McDowell and published in English by Coffee House Press, won the Spanish Critics Award for narrative in Basque in 2022.",
+    "Read from the left, the essay offers a useful corrective to two opposite habits. Against the nationalist instinct to treat a minority tongue as blood inheritance, Uribe makes belonging a matter of practice and choice, open to newcomers and learners. Against a cosmopolitanism that shrugs at small languages as quaint, he shows how much institutional effort, from schools to broadcasters, it took to make one viable again. It is a reminder that linguistic survival is as much a question of public investment as of private loyalty, which is, he notes at the end, what his name means."
+   ],
+   "glossary": [
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "essay",
-      "section": "Books & Ideas",
-      "title": "A name the registry would not accept",
-      "dek": "In a new essay for Literary Hub, the novelist Kirmen Uribe argues that a minority language survives by being chosen, not by being kept pure, and that a small literature can be a stage as easily as a cage.",
-      "tags": [
-        "books & ideas",
-        "Literary Hub",
-        "Basque",
-        "concessive 'as easily as'"
-      ],
-      "paragraphs": [
-        "Kirmen Uribe's life as a writer begins, by his own account, at a civil registry counter. He was born in the Basque Country in the early 1970s, while Franco was still in power, and the clerk who recorded his birth told his mother that Basque names were not permitted, offering Spanish alternatives instead. She refused to give way, and the official record still carries the single name Kirmen. For Uribe, who recounts the episode in an essay published by Literary Hub on 9 November, the scene contains the whole problem of a minority language in miniature: a word that is ordinary at home becomes an act of defiance the moment it meets the state.",
-        "What follows is less a lament than an inventory of recovery. Uribe belongs, he writes, to the first generation that could be educated in Basque from primary school all the way to university, in a system that began in improvised classrooms before it had printed textbooks, and that was soon joined by Basque-language radio and television. He puts the number of speakers today at around one million in a region of almost two and a half million, and notes that roughly a third more people speak the language than did in the 1970s. Many of them, he stresses, learned it as adults, and he counts them as Basque speakers by adoption rather than as second-class heirs.",
-        "That emphasis on adoption is the essay's quiet polemic. Basque is famous as a linguistic isolate, a language that predates the Indo-European arrivals in Europe, and it is tempting to romanticise it as a sealed survivor of deep time. Uribe declines the temptation. He delights instead in the words Basque has borrowed over the centuries from Latin, Arabic, French and Spanish, down to a verb for googling, and he recalls how his own student theory about an ancient sound in the speech of his home town, Ondarroa, collapsed when it turned out to come from older speakers' dentures. A living language, on this account, is defined by traffic, not by purity.",
-        "The political edge of the argument lies in what Uribe says about smallness. A minor literature, he suggests, can make its writers visible far beyond their numbers, yet it can just as easily turn them into emblems, with institutions anointing one figure as the representative voice and expecting loyalty in return. He sets Claudio Magris's view that border cultures see the world with unusual sharpness against Milan Kundera's warning that small nations may demand obedience from their artists. The tension is familiar to anyone who has watched identity become a brand: the same recognition that protects a culture can also fence its writers in.",
-        "Uribe's own life now complicates the picture further. He lives in New York and teaches at New York University, speaking Basque at home and Spanish in the classroom, in a city he describes as home to more than six hundred languages. He writes in Basque, Spanish and English, and resists calling this self-translation, preferring the idea of writing oneself anew in each language. His novel Life Before Dolphins, translated from Spanish by Megan McDowell and published in English by Coffee House Press, won the Spanish Critics Award for narrative in Basque in 2022.",
-        "Read from the left, the essay offers a useful corrective to two opposite habits. Against the nationalist instinct to treat a minority tongue as blood inheritance, Uribe makes belonging a matter of practice and choice, open to newcomers and learners. Against a cosmopolitanism that shrugs at small languages as quaint, he shows how much institutional effort, from schools to broadcasters, it took to make one viable again. It is a reminder that linguistic survival is as much a question of public investment as of private loyalty, which is, he notes at the end, what his name means."
-      ],
-      "glossary": [
-        {
-          "w": "in miniature",
-          "en": "on a small scale that nonetheless contains all the features of something larger",
-          "zh": "缩影；具体而微"
-        },
-        {
-          "w": "to give way",
-          "en": "to yield under pressure or stop resisting",
-          "zh": "让步；屈服"
-        },
-        {
-          "w": "polemic",
-          "en": "a forceful argument against an opinion or position",
-          "zh": "论战；抨击性论点"
-        },
-        {
-          "w": "linguistic isolate",
-          "en": "a language with no demonstrable relationship to any other living language",
-          "zh": "孤立语言（无亲属关系的语言）"
-        },
-        {
-          "w": "to romanticise",
-          "en": "to present something as more ideal or heroic than it is",
-          "zh": "美化；浪漫化"
-        },
-        {
-          "w": "to anoint",
-          "en": "to choose someone formally or symbolically as a leader or representative",
-          "zh": "钦定；推举为代表"
-        },
-        {
-          "w": "to fence in",
-          "en": "to confine or restrict someone's freedom of movement or action",
-          "zh": "圈住；束缚"
-        },
-        {
-          "w": "corrective",
-          "en": "something that counteracts or puts right a mistaken tendency",
-          "zh": "纠正；矫正手段"
-        },
-        {
-          "w": "to shrug at",
-          "en": "to treat something as unimportant or not worth concern",
-          "zh": "对……不屑一顾"
-        },
-        {
-          "w": "viable",
-          "en": "able to survive and function successfully",
-          "zh": "可存续的；可行的"
-        }
-      ],
-      "grammar": "Paragraph four says a minor literature can make writers visible 'yet it can just as easily turn them into emblems'. 'Just as easily' (and the parallel 'as much a question of X as of Y' in the last paragraph) is a comparative of equality used concessively: it grants the first claim while insisting the opposite outcome is equally likely or important. The structure lets a writer refuse a one-sided reading without explicitly saying 'but'.",
-      "grammar_zh": "第四段说小语种文学能让作家被看见，“yet it can just as easily turn them into emblems”。“just as easily”以及最后一段的“as much a question of X as of Y”都是同级比较，这里带让步意味：先承认前一种说法，再强调相反的结果同样可能或同样重要。这样写不必直接用“but”，就能拒绝片面的解读。",
-      "questions": [
-        "Why does Uribe treat adult learners as full Basque speakers, and what does this imply about how cultural belonging should be defined?",
-        "How can the visibility granted to a 'small literature' become a constraint on its writers? Think of an example from another language or culture.",
-        "The final paragraph claims that language survival depends on public investment as much as private loyalty. Do you agree?"
-      ],
-      "sources": [
-        {
-          "title": "Kirmen Uribe, 'What It Means To Be a Basque Writer', Literary Hub, 9 November 2026",
-          "url": "https://lithub.com/what-it-means-to-be-a-basque-writer/",
-          "license": "link only"
-        }
-      ]
+     "w": "in miniature",
+     "en": "on a small scale that nonetheless contains all the features of something larger",
+     "zh": "缩影；具体而微"
+    },
+    {
+     "w": "to give way",
+     "en": "to yield under pressure or stop resisting",
+     "zh": "让步；屈服"
+    },
+    {
+     "w": "polemic",
+     "en": "a forceful argument against an opinion or position",
+     "zh": "论战；抨击性论点"
+    },
+    {
+     "w": "linguistic isolate",
+     "en": "a language with no demonstrable relationship to any other living language",
+     "zh": "孤立语言（无亲属关系的语言）"
+    },
+    {
+     "w": "to romanticise",
+     "en": "to present something as more ideal or heroic than it is",
+     "zh": "美化；浪漫化"
+    },
+    {
+     "w": "to anoint",
+     "en": "to choose someone formally or symbolically as a leader or representative",
+     "zh": "钦定；推举为代表"
+    },
+    {
+     "w": "to fence in",
+     "en": "to confine or restrict someone's freedom of movement or action",
+     "zh": "圈住；束缚"
+    },
+    {
+     "w": "corrective",
+     "en": "something that counteracts or puts right a mistaken tendency",
+     "zh": "纠正；矫正手段"
+    },
+    {
+     "w": "to shrug at",
+     "en": "to treat something as unimportant or not worth concern",
+     "zh": "对……不屑一顾"
+    },
+    {
+     "w": "viable",
+     "en": "able to survive and function successfully",
+     "zh": "可存续的；可行的"
     }
-  ]
+   ],
+   "grammar": "Paragraph four says a minor literature can make writers visible 'yet it can just as easily turn them into emblems'. 'Just as easily' (and the parallel 'as much a question of X as of Y' in the last paragraph) is a comparative of equality used concessively: it grants the first claim while insisting the opposite outcome is equally likely or important. The structure lets a writer refuse a one-sided reading without explicitly saying 'but'.",
+   "grammar_zh": "第四段说小语种文学能让作家被看见，“yet it can just as easily turn them into emblems”。“just as easily”以及最后一段的“as much a question of X as of Y”都是同级比较，这里带让步意味：先承认前一种说法，再强调相反的结果同样可能或同样重要。这样写不必直接用“but”，就能拒绝片面的解读。",
+   "questions": [
+    "Why does Uribe treat adult learners as full Basque speakers, and what does this imply about how cultural belonging should be defined?",
+    "How can the visibility granted to a 'small literature' become a constraint on its writers? Think of an example from another language or culture.",
+    "The final paragraph claims that language survival depends on public investment as much as private loyalty. Do you agree?"
+   ],
+   "sources": [
+    {
+     "title": "Kirmen Uribe, 'What It Means To Be a Basque Writer', Literary Hub, 9 November 2026",
+     "url": "https://lithub.com/what-it-means-to-be-a-basque-writer/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Music",
+   "title": "The steelpan: how old oil drums learned to sing",
+   "dek": "A bright, bell-like instrument born in the streets of Trinidad.",
+   "paragraphs": [
+    "Imagine a musical instrument made from a metal barrel. It sounds sweet, bright and a little like a bell. This is the steelpan, and it comes from the islands of Trinidad and Tobago in the Caribbean.",
+    "The story of the steelpan began in the street. In the early twentieth century, Carnival groups called tamboo bamboo bands were making rhythms with bamboo sticks. Later, the musicians added pieces of metal, such as a car's brake part and a biscuit tin. The steelpan grew out of these bands during the 1930s and 1940s.",
+    "Nobody can name one single inventor. While some players were testing old pots and pans, others were trying oil drums, and they all kept learning from each other. Today, a modern pan is made from a 200-litre industrial drum. The maker shapes the top into several ovals, and each oval is one note: the bigger the oval, the lower the sound. Then a tuner works carefully with small hammers until every note is right.",
+    "Two names are famous in this story. Ellie Mannette is often called the 'Father of the Modern Steel Drum', and Winston 'Spree' Simon is known for the 'Ping Pong' pan, a lead instrument that plays the tune. In 1951, both men travelled to Britain with the Trinidad All-Steel Pan Percussion Orchestra, a band that came to play at the Festival of Britain.",
+    "Steelbands are not small. In Trinidad, big orchestras sometimes have over a hundred players, and every year they take part in Panorama, which Wikipedia describes as the largest steelband contest in the world. In Britain, there has been a Panorama at the Notting Hill Carnival in London since 1978. If you walk through the streets of Notting Hill at the end of August, you might hear a steel orchestra practising before the contest.",
+    "In 2023, the United Nations General Assembly declared 11 August to be World Steelpan Day. It is a proud moment for an instrument that began on the streets with ordinary objects. Next time you see an old metal drum, look at it again: it could be the start of a song."
+   ],
+   "paragraphs_zh": [
+    "想象一种用金属桶做成的乐器。它的声音甜美、明亮，有点像钟声。这就是钢鼓（steelpan），它来自加勒比海的特立尼达和多巴哥群岛。",
+    "钢鼓的故事始于街头。二十世纪初，狂欢节上有一种叫“tamboo bamboo”的竹乐队，用竹棒敲出节奏。后来，乐手们加入了金属物件，比如汽车的刹车部件和饼干铁盒。钢鼓就是在二十世纪三四十年代从这些乐队中发展出来的。",
+    "没有人能说出唯一的发明者。当一些乐手在试验旧锅旧盘的时候，另一些人在试验油桶，大家不断互相学习。今天，现代钢鼓是用200升的工业桶制成的。制作者把桶面塑造成若干个椭圆，每个椭圆就是一个音：椭圆越大，声音越低。然后调音师用小锤子仔细地敲，直到每个音都准确。",
+    "这个故事里有两个著名的名字。埃利·曼内特（Ellie Mannette）常被称为“现代钢鼓之父”，温斯顿“斯普里”西蒙（Winston ‘Spree’ Simon）则以“乒乓”（Ping Pong）鼓闻名，这是一种演奏旋律的主音鼓。1951年，两人随特立尼达全钢鼓打击乐团前往英国，这个乐团是去参加英国节（Festival of Britain）演出的。",
+    "钢鼓乐队并不小。在特立尼达，大型乐团有时有一百多名乐手，每年他们都参加“Panorama”，维基百科称它为世界上最大的钢鼓乐队比赛。在英国，自1978年起，伦敦的诺丁山狂欢节上也有了Panorama。如果你八月底走在诺丁山的街头，也许会听到钢鼓乐团在比赛前练习。",
+    "2023年，联合国大会宣布8月11日为“世界钢鼓日”。对一件从街头用普通物件开始的乐器来说，这是一个自豪的时刻。下次你看到一只旧金属桶时，再看它一眼：它也许就是一首歌的开始。"
+   ],
+   "glossary": [
+    {
+     "w": "bamboo",
+     "en": "a tall plant with hard, hollow stems",
+     "zh": "竹子"
+    },
+    {
+     "w": "oil drum",
+     "en": "a large metal container for oil",
+     "zh": "油桶"
+    },
+    {
+     "w": "tune",
+     "en": "to change an instrument so each note sounds right",
+     "zh": "调音"
+    },
+    {
+     "w": "oval",
+     "en": "a shape like a long circle, or an egg",
+     "zh": "椭圆"
+    },
+    {
+     "w": "orchestra",
+     "en": "a large group of musicians who play together",
+     "zh": "乐团；管弦乐队"
+    },
+    {
+     "w": "contest",
+     "en": "a competition where people try to win",
+     "zh": "比赛"
+    },
+    {
+     "w": "rhythm",
+     "en": "a regular pattern of beats in music",
+     "zh": "节奏"
+    },
+    {
+     "w": "develop",
+     "en": "to grow or change slowly into something new",
+     "zh": "发展；形成"
+    },
+    {
+     "w": "grow out of",
+     "en": "to start from something earlier",
+     "zh": "由……发展而来"
+    },
+    {
+     "w": "take part in",
+     "en": "to join an activity with other people",
+     "zh": "参加"
+    }
+   ],
+   "grammar": "Past simple vs past continuous: use the past simple for finished actions (“The steelpan grew out of these bands”) and the past continuous (was/were + -ing) for an action in progress, often in the background (“While some players were testing old pots and pans, others were trying oil drums”). “While” often goes with the past continuous.",
+   "grammar_zh": "一般过去时 vs 过去进行时：已经完成的动作用一般过去时（“The steelpan grew out of these bands”）；某个时间段内正在进行的动作、常作背景，用过去进行时 was/were + -ing（“While some players were testing old pots and pans, others were trying oil drums”，一些乐手在试验旧锅旧盘时，另一些人在试验油桶）。while 常和过去进行时连用。",
+   "questions": [
+    "Where does the steelpan come from, and what is a modern pan made from?",
+    "What does the size of an oval tell you about its note?",
+    "What do you think: could you make music from everyday objects in your home? Which ones?"
+   ],
+   "sources": [
+    {
+     "title": "Steelpan – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Steelpan",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
+  }
+ ]
 }

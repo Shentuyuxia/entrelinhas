@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T05:15:46+00:00",
+ "updated": "2026-11-19T05:19:00+00:00",
  "days": [
   {
    "date": "2026-11-19",
@@ -10,6 +10,14 @@
      "title": "A name the registry would not accept",
      "kind": "essay",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "en",
+     "title": "The steelpan: how old oil drums learned to sing",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]
