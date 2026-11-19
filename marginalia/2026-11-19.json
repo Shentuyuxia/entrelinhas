@@ -179,6 +179,236 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En el Malecón de La Habana: de niña yo vivía…",
+   "dek": "Dos vecinas conversan junto al mar en La Habana y se cuentan cómo era su vida de niñas.",
+   "tags": [
+    "La Habana",
+    "small talk",
+    "imperfecto"
+   ],
+   "paragraphs": [
+    "Yamila: ¡Hola, Marta! ¿Qué tal? ¿Qué haces aquí tan temprano?",
+    "Marta: Hola, Yamila. Estoy mirando el mar. De niña venía al Malecón todos los domingos.",
+    "Yamila: ¿De verdad? ¿Dónde vivías entonces?",
+    "Marta: Vivía en un barrio cerca de aquí, con mis abuelos. Mi casa era pequeña, pero muy alegre.",
+    "Yamila: ¿Y qué hacías los domingos?",
+    "Marta: Primero íbamos a la playa. Mi abuelo pescaba y yo jugaba con mis primos.",
+    "Yamila: ¡Qué bonito! ¿Y tu abuela?",
+    "Marta: Ella siempre preparaba el almuerzo. Cocinaba arroz con frijoles y plátanos fritos.",
+    "Yamila: ¡Yo también comía eso en casa! Me encantaba.",
+    "Marta: ¿Y tú? ¿Dónde vivías de pequeña?",
+    "Yamila: Vivía en Santiago de Cuba. Mi escuela estaba lejos y caminaba una hora todos los días.",
+    "Marta: ¡Una hora! ¿No te cansabas?",
+    "Yamila: Un poco, pero iba con mis amigas y hablábamos todo el camino.",
+    "Marta: ¡Qué recuerdos! ¿Quieres tomar un café conmigo?",
+    "Yamila: ¡Claro! Vamos.",
+    "Dato curioso: en Cuba muchas personas saludan con «¿Qué bolá?», que significa más o menos «¿Qué tal?». Y para el autobús dicen «la guagua»."
+   ],
+   "paragraphs_en": [
+    "Yamila: Hi, Marta! How are you? What are you doing here so early?",
+    "Marta: Hi, Yamila. I'm looking at the sea. As a child I came to the Malecón every Sunday.",
+    "Yamila: Really? Where did you live then?",
+    "Marta: I lived in a neighborhood near here, with my grandparents. My house was small, but very cheerful.",
+    "Yamila: And what did you do on Sundays?",
+    "Marta: First we went to the beach. My grandfather fished and I played with my cousins.",
+    "Yamila: How lovely! And your grandmother?",
+    "Marta: She always made lunch. She cooked rice with beans and fried plantains.",
+    "Yamila: I ate that at home too! I loved it.",
+    "Marta: And you? Where did you live as a little girl?",
+    "Yamila: I lived in Santiago de Cuba. My school was far away and I walked an hour every day.",
+    "Marta: An hour! Weren't you tired?",
+    "Yamila: A little, but I went with my friends and we talked the whole way.",
+    "Marta: What memories! Do you want to have a coffee with me?",
+    "Yamila: Of course! Let's go.",
+    "Fun fact: in Cuba many people greet each other with “¿Qué bolá?”, which means roughly “How's it going?”. And for the bus they say “la guagua”."
+   ],
+   "paragraphs_de": [
+    "Yamila: Hallo, Marta! Wie geht's? Was machst du so früh hier?",
+    "Marta: Hallo, Yamila. Ich schaue aufs Meer. Als Kind kam ich jeden Sonntag zum Malecón.",
+    "Yamila: Wirklich? Wo hast du damals gewohnt?",
+    "Marta: Ich wohnte in einem Viertel ganz in der Nähe, bei meinen Großeltern. Unser Haus war klein, aber sehr fröhlich.",
+    "Yamila: Und was hast du sonntags gemacht?",
+    "Marta: Zuerst gingen wir zum Strand. Mein Opa angelte und ich spielte mit meinen Cousins.",
+    "Yamila: Wie schön! Und deine Oma?",
+    "Marta: Sie machte immer das Mittagessen. Sie kochte Reis mit Bohnen und gebratene Kochbananen.",
+    "Yamila: Das habe ich zu Hause auch gegessen! Ich liebte es.",
+    "Marta: Und du? Wo hast du als Kind gewohnt?",
+    "Yamila: Ich wohnte in Santiago de Cuba. Meine Schule war weit weg und ich lief jeden Tag eine Stunde.",
+    "Marta: Eine Stunde! Warst du nicht müde?",
+    "Yamila: Ein bisschen, aber ich ging mit meinen Freundinnen und wir redeten den ganzen Weg.",
+    "Marta: Was für Erinnerungen! Möchtest du mit mir einen Kaffee trinken?",
+    "Yamila: Klar! Gehen wir.",
+    "Wissenswertes: In Kuba grüßen sich viele mit „¿Qué bolá?“, das heißt ungefähr „Wie läuft's?“. Und für den Bus sagt man „la guagua“."
+   ],
+   "glossary": [
+    {
+     "w": "el barrio",
+     "en": "neighborhood",
+     "de": "das Viertel"
+    },
+    {
+     "w": "pescar",
+     "en": "to fish",
+     "de": "angeln, fischen"
+    },
+    {
+     "w": "de niña",
+     "en": "as a child (girl)",
+     "de": "als Kind (Mädchen)"
+    },
+    {
+     "w": "el recuerdo",
+     "en": "memory",
+     "de": "die Erinnerung"
+    },
+    {
+     "w": "cansarse",
+     "en": "to get tired",
+     "de": "müde werden"
+    },
+    {
+     "w": "el almuerzo",
+     "en": "lunch",
+     "de": "das Mittagessen"
+    },
+    {
+     "w": "el frijol",
+     "en": "bean",
+     "de": "die Bohne"
+    },
+    {
+     "w": "lejos",
+     "en": "far away",
+     "de": "weit weg"
+    }
+   ],
+   "grammar": "The imperfect (imperfecto) describes how things used to be and what you used to do regularly. Regular endings: -ar verbs take -aba (“jugaba”), -er/-ir verbs take -ía (“vivía”, “comía”). Only ir (iba), ser (era) and ver (veía) are irregular. Example: “Vivía en Santiago de Cuba.”",
+   "grammar_de": "Das Imperfecto beschreibt, wie etwas früher war und was man regelmäßig tat. Regelmäßige Endungen: -ar-Verben haben -aba („jugaba“), -er/-ir-Verben haben -ía („vivía“, „comía“). Nur ir (iba), ser (era) und ver (veía) sind unregelmäßig. Beispiel: „Vivía en Santiago de Cuba.“",
+   "questions": [
+    "¿Dónde vivía Marta de niña y qué hacía los domingos?",
+    "¿Cómo iba Yamila a la escuela?",
+    "¿Y tú? ¿Dónde vivías de niño o de niña y qué te gustaba hacer?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Mujeres y feminismo",
+   "title": "Matilde Hidalgo: la puerta cerrada que se abrió",
+   "dek": "La primera bachiller, la primera médica y una de las primeras mujeres que votaron en América Latina: la historia de una ecuatoriana que insistió.",
+   "tags": [
+    "Ecuador",
+    "mujeres pioneras",
+    "si + imperfecto de subjuntivo"
+   ],
+   "paragraphs": [
+    "En octubre de 1913, en la ciudad ecuatoriana de Loja, una joven de veinticuatro años terminó el bachillerato y, sin saberlo, entró en los libros de historia. Se llamaba Matilde Hidalgo y fue la primera mujer de Ecuador que se graduó de la secundaria. Para lograrlo, había pedido con insistencia, con la ayuda de su hermano, que la aceptaran en un colegio laico de su ciudad, y después de un tiempo el director aceptó. Aquel «sí» cambió su destino y, con los años, también el de muchas otras mujeres.",
+    "El camino hacia la universidad no fue más fácil. En Quito, la Universidad Central no quiso admitirla porque era mujer y, según se cuenta, un decano le aconsejó que se dedicara a su casa y a sus futuros hijos. Matilde no se rindió. En 1919 viajó a Cuenca, estudió medicina allí y se graduó con honores. Dos años más tarde volvió a Quito y consiguió el doctorado, de modo que se convirtió en la primera médica del país. Además, escribía poemas desde sus años de estudiante, y esa afición la acompañó durante mucho tiempo.",
+    "El momento por el que más se la recuerda llegó en 1924. Cuando se acercaban las elecciones presidenciales, Matilde anunció que pensaba votar. En aquella época las mujeres no votaban, y mucha gente creía que la ley simplemente no lo permitía. Sin embargo, el asunto se llevó a una consulta oficial y la respuesta fue favorable. Así, en la ciudad de Machala, Matilde depositó su voto. Por eso se la considera la primera mujer latinoamericana que votó en unas elecciones nacionales, y Ecuador suele citarse entre los primeros países de la región que reconocieron el voto femenino.",
+    "Su vida pública no terminó ahí. Ejerció la medicina en Guayaquil, fue la primera mujer concejal de Machala y, en 1941, se presentó como candidata en Loja, su ciudad natal. Más tarde ganó una beca para estudiar pediatría y neurología en Argentina. Recibió varios reconocimientos nacionales por su trabajo y murió en Guayaquil en 1974, a los ochenta y cuatro años.",
+    "Hoy su historia sirve para pensar en lo que damos por sentado. Si Matilde viviera ahora, probablemente se alegraría de que las mujeres voten, estudien medicina y se presenten a las elecciones sin pedir permiso a nadie. Pero también preguntaría qué otras puertas siguen cerradas, y quizás nos pediría que no esperáramos a que otra persona las abriera. Si cada generación se conformara con lo que ya existe, nada cambiaría; por eso conviene recordar a quienes, hace cien años, insistieron en que una puerta cerrada no es una puerta cerrada para siempre.",
+    "Dato curioso: en 2019 Google le dedicó un Doodle a Matilde Hidalgo para recordar los 130 años de su nacimiento, y así su historia llegó a un público mucho más amplio."
+   ],
+   "paragraphs_en": [
+    "In October 1913, in the Ecuadorian city of Loja, a 24-year-old woman finished secondary school and, without knowing it, entered the history books. Her name was Matilde Hidalgo, and she was the first woman in Ecuador to graduate from high school. To achieve this, she had insistently asked, with her brother's help, to be accepted at a secular school in her city, and after a while the director agreed. That “yes” changed her destiny and, over the years, the destiny of many other women too.",
+    "The road to university was no easier. In Quito, the Central University refused to admit her because she was a woman and, as the story goes, a dean advised her to devote herself to her home and her future children. Matilde did not give up. In 1919 she traveled to Cuenca, studied medicine there and graduated with honors. Two years later she went back to Quito and earned her doctorate, so she became the first woman doctor in the country. She also wrote poems from her student years, and that hobby stayed with her for a long time.",
+    "The moment she is best remembered for came in 1924. As the presidential elections approached, Matilde announced that she intended to vote. At that time women did not vote, and many people believed the law simply did not allow it. However, the matter was taken to an official consultation and the answer was favorable. So, in the city of Machala, Matilde cast her vote. For this reason she is considered the first Latin American woman to vote in a national election, and Ecuador is often cited among the first countries in the region to recognize women's suffrage.",
+    "Her public life did not end there. She practiced medicine in Guayaquil, was the first woman councilor of Machala and, in 1941, ran as a candidate in Loja, her hometown. Later she won a scholarship to study pediatrics and neurology in Argentina. She received several national honors for her work and died in Guayaquil in 1974, at the age of eighty-four.",
+    "Today her story helps us think about what we take for granted. If Matilde were alive now, she would probably be glad that women vote, study medicine and run for office without asking anyone's permission. But she would also ask which other doors are still closed, and she might ask us not to wait for someone else to open them. If every generation settled for what already exists, nothing would change; that is why it is worth remembering those who, a hundred years ago, insisted that a closed door is not closed forever.",
+    "Fun fact: in 2019 Google dedicated a Doodle to Matilde Hidalgo to mark 130 years since her birth, and her story reached a much wider audience."
+   ],
+   "paragraphs_de": [
+    "Im Oktober 1913 beendete in der ecuadorianischen Stadt Loja eine 24-jährige Frau die Schule mit dem Abitur und kam, ohne es zu wissen, in die Geschichtsbücher. Sie hieß Matilde Hidalgo und war die erste Frau in Ecuador, die einen Sekundarschulabschluss machte. Um das zu erreichen, hatte sie mit Hilfe ihres Bruders beharrlich darum gebeten, an einer weltlichen Schule ihrer Stadt aufgenommen zu werden, und nach einiger Zeit stimmte der Direktor zu. Dieses „Ja“ veränderte ihr Schicksal und mit den Jahren auch das vieler anderer Frauen.",
+    "Der Weg zur Universität war nicht leichter. In Quito wollte die Zentraluniversität sie nicht aufnehmen, weil sie eine Frau war, und einem Bericht zufolge riet ihr ein Dekan, sich lieber um Haus und künftige Kinder zu kümmern. Matilde gab nicht auf. 1919 reiste sie nach Cuenca, studierte dort Medizin und schloss mit Auszeichnung ab. Zwei Jahre später kehrte sie nach Quito zurück und erwarb den Doktortitel, sodass sie die erste Ärztin des Landes wurde. Außerdem schrieb sie seit ihrer Studienzeit Gedichte, und dieses Hobby begleitete sie lange.",
+    "Der Moment, an den man sich am meisten erinnert, kam 1924. Als die Präsidentschaftswahlen näher rückten, kündigte Matilde an, dass sie wählen wolle. Damals wählten Frauen nicht, und viele glaubten, das Gesetz erlaube es einfach nicht. Doch die Frage wurde offiziell angefragt, und die Antwort fiel günstig aus. So gab Matilde in der Stadt Machala ihre Stimme ab. Deshalb gilt sie als die erste lateinamerikanische Frau, die bei einer nationalen Wahl wählte, und Ecuador wird oft unter den ersten Ländern der Region genannt, die das Frauenwahlrecht anerkannten.",
+    "Ihr öffentliches Leben endete damit nicht. Sie arbeitete als Ärztin in Guayaquil, war die erste Stadträtin von Machala und kandidierte 1941 in Loja, ihrer Heimatstadt. Später gewann sie ein Stipendium, um in Argentinien Pädiatrie und Neurologie zu studieren. Sie erhielt mehrere nationale Auszeichnungen für ihre Arbeit und starb 1974 in Guayaquil im Alter von 84 Jahren.",
+    "Heute regt ihre Geschichte dazu an, über das nachzudenken, was wir für selbstverständlich halten. Wenn Matilde heute lebte, würde sie sich wahrscheinlich freuen, dass Frauen wählen, Medizin studieren und kandidieren, ohne jemanden um Erlaubnis zu bitten. Aber sie würde auch fragen, welche anderen Türen noch verschlossen sind, und uns vielleicht bitten, nicht darauf zu warten, dass jemand anderes sie öffnet. Würde sich jede Generation mit dem Bestehenden zufriedengeben, würde sich nichts ändern; deshalb lohnt es sich, an die zu erinnern, die vor hundert Jahren darauf bestanden, dass eine geschlossene Tür nicht für immer geschlossen bleibt.",
+    "Wissenswertes: 2019 widmete Google Matilde Hidalgo ein Doodle zum 130. Jahrestag ihrer Geburt, und so erreichte ihre Geschichte ein viel größeres Publikum."
+   ],
+   "glossary": [
+    {
+     "w": "el bachillerato",
+     "en": "secondary-school diploma",
+     "de": "der Sekundarschulabschluss"
+    },
+    {
+     "w": "laico",
+     "en": "secular, non-religious",
+     "de": "weltlich"
+    },
+    {
+     "w": "el decano",
+     "en": "dean (of a faculty)",
+     "de": "der Dekan"
+    },
+    {
+     "w": "rendirse",
+     "en": "to give up",
+     "de": "aufgeben"
+    },
+    {
+     "w": "graduarse",
+     "en": "to graduate",
+     "de": "den Abschluss machen"
+    },
+    {
+     "w": "el doctorado",
+     "en": "doctorate",
+     "de": "der Doktortitel"
+    },
+    {
+     "w": "la consulta",
+     "en": "(official) consultation, inquiry",
+     "de": "die Anfrage"
+    },
+    {
+     "w": "depositar el voto",
+     "en": "to cast one's vote",
+     "de": "seine Stimme abgeben"
+    },
+    {
+     "w": "el concejal / la concejal",
+     "en": "city councilor",
+     "de": "der Stadtrat / die Stadträtin"
+    },
+    {
+     "w": "la beca",
+     "en": "scholarship",
+     "de": "das Stipendium"
+    },
+    {
+     "w": "dar por sentado",
+     "en": "to take for granted",
+     "de": "für selbstverständlich halten"
+    },
+    {
+     "w": "conformarse con",
+     "en": "to settle for",
+     "de": "sich zufriedengeben mit"
+    }
+   ],
+   "grammar": "Unreal present conditions (B2): si + imperfect subjunctive, then the conditional. It describes something unlikely or imaginary now: “Si Matilde viviera ahora, probablemente se alegraría…” (If Matilde were alive now, she would probably be glad…). The imperfect subjunctive is formed from the ustedes preterite stem: vivieron → viviera, conformaron → conformara. Never put the conditional in the si-clause.",
+   "grammar_de": "Irreale Bedingungen der Gegenwart (B2): si + Imperfecto de subjuntivo, dann das Konditional. Das drückt etwas Unwahrscheinliches oder Erfundenes für jetzt aus: „Si Matilde viviera ahora, probablemente se alegraría…“ (Wenn Matilde jetzt lebte, würde sie sich wahrscheinlich freuen…). Der Imperfecto de subjuntivo wird vom Stamm des Pretérito in der 3. Person Plural gebildet: vivieron → viviera, conformaron → conformara. Das Konditional steht nie im si-Satz.",
+   "questions": [
+    "¿Qué obstáculos encontró Matilde Hidalgo para estudiar y qué hizo para superarlos?",
+    "¿Por qué se recuerda tanto su voto de 1924?",
+    "Si pudieras hablar con Matilde Hidalgo, ¿qué le preguntarías? ¿Y qué puertas crees que siguen cerradas hoy?"
+   ],
+   "sources": [
+    {
+     "title": "Matilde Hidalgo – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Matilde_Hidalgo",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   }
  ]
 }
