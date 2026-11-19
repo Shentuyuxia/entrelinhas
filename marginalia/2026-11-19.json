@@ -409,6 +409,110 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "brief",
+   "section": "Textinho",
+   "title": "WhatsApp: um gato laranja na minha cozinha",
+   "dek": "A Ana está na livraria. A Dona Rosa manda uma mensagem: tem um visitante na cozinha dela — e ele está com fome!",
+   "paragraphs": [
+    "Dona Rosa (14:05): Ana, tem um gato laranja na minha cozinha. É seu?",
+    "Ana (14:06): É o meu Tito, sim! O que ele faz aí?",
+    "Dona Rosa (14:07): Ele come a comida do Bolinha!",
+    "Ana (14:08): Desculpa! E onde está o seu Bolinha?",
+    "Dona Rosa (14:09): No sofá. A tigela dele está vazia.",
+    "Ana (14:10): Coitado! Às seis eu levo ração para ele.",
+    "Dona Rosa (14:12): Obrigada, querida! E o Tito? Agora ele dorme na cama do Bolinha."
+   ],
+   "paragraphs_en": [
+    "Dona Rosa (14:05): Ana, there's an orange cat in my kitchen. Is it yours?",
+    "Ana (14:06): It's my Tito, yes! What is he doing there?",
+    "Dona Rosa (14:07): He's eating Bolinha's food!",
+    "Ana (14:08): Sorry! And where is your Bolinha?",
+    "Dona Rosa (14:09): On the sofa. His bowl is empty.",
+    "Ana (14:10): Poor thing! At six I'll bring him some dog food.",
+    "Dona Rosa (14:12): Thank you, dear! And Tito? Now he's sleeping in Bolinha's bed."
+   ],
+   "paragraphs_zh": [
+    "罗莎太太（14:05）：安娜，我的厨房里有一只橘猫。是你的吗？",
+    "安娜（14:06）：是我的蒂托，没错！它在那儿干什么？",
+    "罗莎太太（14:07）：它在吃小球的饭！",
+    "安娜（14:08）：对不起！那你的小球在哪儿？",
+    "罗莎太太（14:09）：在沙发上。它的碗空了。",
+    "安娜（14:10）：可怜的家伙！六点我给它带狗粮来。",
+    "罗莎太太（14:12）：谢谢你，亲爱的！那蒂托呢？现在它睡在小球的床上。"
+   ],
+   "paragraphs_de": [
+    "Dona Rosa (14:05): Ana, in meiner Küche ist eine orange Katze. Ist das deine?",
+    "Ana (14:06): Das ist mein Tito, ja! Was macht er da?",
+    "Dona Rosa (14:07): Er frisst Bolinhas Futter!",
+    "Ana (14:08): Entschuldigung! Und wo ist dein Bolinha?",
+    "Dona Rosa (14:09): Auf dem Sofa. Sein Napf ist leer.",
+    "Ana (14:10): Der Arme! Um sechs bringe ich ihm Hundefutter.",
+    "Dona Rosa (14:12): Danke, meine Liebe! Und Tito? Jetzt schläft er in Bolinhas Bett."
+   ],
+   "glossary": [
+    {
+     "w": "aí",
+     "en": "there (near you)",
+     "zh": "那里（你那儿）",
+     "de": "da (bei dir)",
+     "pt": "Lugar perto de você. Aqui é perto de mim."
+    },
+    {
+     "w": "a tigela",
+     "en": "bowl",
+     "zh": "碗",
+     "de": "die Schüssel, der Napf",
+     "pt": "Um prato fundo. O cachorro come na tigela."
+    },
+    {
+     "w": "vazio / vazia",
+     "en": "empty",
+     "zh": "空的",
+     "de": "leer",
+     "pt": "Não tem nada dentro. A tigela vazia não tem comida."
+    },
+    {
+     "w": "dele / dela",
+     "en": "his / her (after the noun)",
+     "zh": "他的 / 她的（放在名词后）",
+     "de": "sein / ihr (nach dem Nomen)",
+     "pt": "De + ele = dele. A tigela dele = a tigela do Bolinha."
+    },
+    {
+     "w": "Coitado!",
+     "en": "Poor thing!",
+     "zh": "可怜的家伙！",
+     "de": "Der Arme!",
+     "pt": "Palavra para dizer: que pena, ele está mal."
+    },
+    {
+     "w": "a ração",
+     "en": "pet food (dry food)",
+     "zh": "宠物饲料（狗粮、猫粮）",
+     "de": "das Tierfutter",
+     "pt": "A comida de cachorro e de gato."
+    }
+   ],
+   "grammar": "Seu/sua means 'your' and goes before the noun: o seu Bolinha, a sua casa. For 'his' or 'her', Brazilians usually say dele/dela after the noun (de + ele, de + ela): a tigela dele (his bowl), a cozinha dela (her kitchen).",
+   "grammar_zh": "seu/sua 表示“你的”，放在名词前：o seu Bolinha，a sua casa。表示“他的 / 她的”，巴西人常把 dele/dela 放在名词后（de + ele，de + ela）：a tigela dele（它的碗），a cozinha dela（她的厨房）。",
+   "grammar_de": "Seu/sua heißt „dein“ und steht vor dem Nomen: o seu Bolinha, a sua casa. Für „sein“ oder „ihr“ sagt man in Brasilien meist dele/dela nach dem Nomen (de + ele, de + ela): a tigela dele (sein Napf), a cozinha dela (ihre Küche).",
+   "grammar_pt": "Seu e sua = de você: o seu Bolinha, a sua casa. Para ele e ela, a gente fala dele e dela depois da palavra: a tigela dele, a cozinha dela.",
+   "questions": [
+    "Onde está o Tito? O que ele come?",
+    "De quem é a tigela vazia?",
+    "E você? Você tem um gato ou um cachorro? Qual é o nome dele?"
+   ],
+   "tags": [
+    "WhatsApp",
+    "vizinhos",
+    "possessivos",
+    "dele / dela"
+   ],
+   "sources": []
   }
  ]
 }
