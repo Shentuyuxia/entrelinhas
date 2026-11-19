@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-19",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "en",
+      "level": "C2",
+      "kind": "essay",
+      "section": "Books & Ideas",
+      "title": "A name the registry would not accept",
+      "dek": "In a new essay for Literary Hub, the novelist Kirmen Uribe argues that a minority language survives by being chosen, not by being kept pure, and that a small literature can be a stage as easily as a cage.",
+      "tags": [
+        "books & ideas",
+        "Literary Hub",
+        "Basque",
+        "concessive 'as easily as'"
+      ],
+      "paragraphs": [
+        "Kirmen Uribe's life as a writer begins, by his own account, at a civil registry counter. He was born in the Basque Country in the early 1970s, while Franco was still in power, and the clerk who recorded his birth told his mother that Basque names were not permitted, offering Spanish alternatives instead. She refused to give way, and the official record still carries the single name Kirmen. For Uribe, who recounts the episode in an essay published by Literary Hub on 9 November, the scene contains the whole problem of a minority language in miniature: a word that is ordinary at home becomes an act of defiance the moment it meets the state.",
+        "What follows is less a lament than an inventory of recovery. Uribe belongs, he writes, to the first generation that could be educated in Basque from primary school all the way to university, in a system that began in improvised classrooms before it had printed textbooks, and that was soon joined by Basque-language radio and television. He puts the number of speakers today at around one million in a region of almost two and a half million, and notes that roughly a third more people speak the language than did in the 1970s. Many of them, he stresses, learned it as adults, and he counts them as Basque speakers by adoption rather than as second-class heirs.",
+        "That emphasis on adoption is the essay's quiet polemic. Basque is famous as a linguistic isolate, a language that predates the Indo-European arrivals in Europe, and it is tempting to romanticise it as a sealed survivor of deep time. Uribe declines the temptation. He delights instead in the words Basque has borrowed over the centuries from Latin, Arabic, French and Spanish, down to a verb for googling, and he recalls how his own student theory about an ancient sound in the speech of his home town, Ondarroa, collapsed when it turned out to come from older speakers' dentures. A living language, on this account, is defined by traffic, not by purity.",
+        "The political edge of the argument lies in what Uribe says about smallness. A minor literature, he suggests, can make its writers visible far beyond their numbers, yet it can just as easily turn them into emblems, with institutions anointing one figure as the representative voice and expecting loyalty in return. He sets Claudio Magris's view that border cultures see the world with unusual sharpness against Milan Kundera's warning that small nations may demand obedience from their artists. The tension is familiar to anyone who has watched identity become a brand: the same recognition that protects a culture can also fence its writers in.",
+        "Uribe's own life now complicates the picture further. He lives in New York and teaches at New York University, speaking Basque at home and Spanish in the classroom, in a city he describes as home to more than six hundred languages. He writes in Basque, Spanish and English, and resists calling this self-translation, preferring the idea of writing oneself anew in each language. His novel Life Before Dolphins, translated from Spanish by Megan McDowell and published in English by Coffee House Press, won the Spanish Critics Award for narrative in Basque in 2022.",
+        "Read from the left, the essay offers a useful corrective to two opposite habits. Against the nationalist instinct to treat a minority tongue as blood inheritance, Uribe makes belonging a matter of practice and choice, open to newcomers and learners. Against a cosmopolitanism that shrugs at small languages as quaint, he shows how much institutional effort, from schools to broadcasters, it took to make one viable again. It is a reminder that linguistic survival is as much a question of public investment as of private loyalty, which is, he notes at the end, what his name means."
+      ],
+      "glossary": [
+        {
+          "w": "in miniature",
+          "en": "on a small scale that nonetheless contains all the features of something larger",
+          "zh": "缩影；具体而微"
+        },
+        {
+          "w": "to give way",
+          "en": "to yield under pressure or stop resisting",
+          "zh": "让步；屈服"
+        },
+        {
+          "w": "polemic",
+          "en": "a forceful argument against an opinion or position",
+          "zh": "论战；抨击性论点"
+        },
+        {
+          "w": "linguistic isolate",
+          "en": "a language with no demonstrable relationship to any other living language",
+          "zh": "孤立语言（无亲属关系的语言）"
+        },
+        {
+          "w": "to romanticise",
+          "en": "to present something as more ideal or heroic than it is",
+          "zh": "美化；浪漫化"
+        },
+        {
+          "w": "to anoint",
+          "en": "to choose someone formally or symbolically as a leader or representative",
+          "zh": "钦定；推举为代表"
+        },
+        {
+          "w": "to fence in",
+          "en": "to confine or restrict someone's freedom of movement or action",
+          "zh": "圈住；束缚"
+        },
+        {
+          "w": "corrective",
+          "en": "something that counteracts or puts right a mistaken tendency",
+          "zh": "纠正；矫正手段"
+        },
+        {
+          "w": "to shrug at",
+          "en": "to treat something as unimportant or not worth concern",
+          "zh": "对……不屑一顾"
+        },
+        {
+          "w": "viable",
+          "en": "able to survive and function successfully",
+          "zh": "可存续的；可行的"
+        }
+      ],
+      "grammar": "Paragraph four says a minor literature can make writers visible 'yet it can just as easily turn them into emblems'. 'Just as easily' (and the parallel 'as much a question of X as of Y' in the last paragraph) is a comparative of equality used concessively: it grants the first claim while insisting the opposite outcome is equally likely or important. The structure lets a writer refuse a one-sided reading without explicitly saying 'but'.",
+      "grammar_zh": "第四段说小语种文学能让作家被看见，“yet it can just as easily turn them into emblems”。“just as easily”以及最后一段的“as much a question of X as of Y”都是同级比较，这里带让步意味：先承认前一种说法，再强调相反的结果同样可能或同样重要。这样写不必直接用“but”，就能拒绝片面的解读。",
+      "questions": [
+        "Why does Uribe treat adult learners as full Basque speakers, and what does this imply about how cultural belonging should be defined?",
+        "How can the visibility granted to a 'small literature' become a constraint on its writers? Think of an example from another language or culture.",
+        "The final paragraph claims that language survival depends on public investment as much as private loyalty. Do you agree?"
+      ],
+      "sources": [
+        {
+          "title": "Kirmen Uribe, 'What It Means To Be a Basque Writer', Literary Hub, 9 November 2026",
+          "url": "https://lithub.com/what-it-means-to-be-a-basque-writer/",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}
