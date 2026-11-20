@@ -407,6 +407,110 @@
     "Si viajaras a Venezuela o Colombia, ¿qué otra comida pedirías?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 13
+   },
+   "title": "Onde está o Tito?",
+   "dek": "Sexta-feira: a ração para a Dona Rosa, um Bolinha triste e um gato laranja que não está em casa.",
+   "tags": [
+    "sexta-feira",
+    "perguntas",
+    "por que / porque",
+    "estar"
+   ],
+   "paragraphs": [
+    "Sexta-feira, 20 de novembro de 2026. Querido diário, hoje é sexta-feira. Eu estou cansada, mas feliz. Amanhã não tem aula!",
+    "Às seis horas, eu levo a ração para a Dona Rosa. Ela abre o portão e pergunta: — Como você está, Ana? — Estou bem, obrigada. E o Bolinha?",
+    "— O Bolinha está triste. A tigela dele está vazia. — Por quê? — Porque o Tito come a comida dele!",
+    "Eu procuro o Tito. Onde ele está? Na cozinha? Não. No sofá? Não. Quem sabe onde ele está? O Bolinha sabe! Ele vai para o jardim.",
+    "O Tito está no jardim, com o Bolinha. Eu dou a ração para eles. E os dois comem juntos, na tigela do Bolinha. Que amigos!",
+    "Às nove e meia da noite, eu escrevo no diário. Quantos amigos tem o Tito? Um: o Bolinha. Amanhã é sábado, dia 21. Boa noite, diário. Boa noite, Tito, meu ladrãozinho."
+   ],
+   "paragraphs_en": [
+    "Friday, 20 November 2026. Dear diary, today is Friday. I am tired, but happy. Tomorrow there's no class!",
+    "At six o'clock, I take the pet food to Dona Rosa. She opens the gate and asks: \"How are you, Ana?\" \"I'm fine, thanks. And Bolinha?\"",
+    "\"Bolinha is sad. His bowl is empty.\" \"Why?\" \"Because Tito eats his food!\"",
+    "I look for Tito. Where is he? In the kitchen? No. On the sofa? No. Who knows where he is? Bolinha knows! He goes into the garden.",
+    "Tito is in the garden, with Bolinha. I give them the food. And the two of them eat together, from Bolinha's bowl. What friends!",
+    "At half past nine at night, I write in my diary. How many friends does Tito have? One: Bolinha. Tomorrow is Saturday, the 21st. Good night, diary. Good night, Tito, my little thief."
+   ],
+   "paragraphs_zh": [
+    "2026年11月20日，星期五。亲爱的日记，今天是星期五。我很累，但是很开心。明天没有课！",
+    "六点，我把宠物饲料带给罗莎太太。她打开大门问：“安娜，你好吗？”“我很好，谢谢。波利尼亚呢？”",
+    "“波利尼亚很难过。它的碗是空的。”“为什么？”“因为蒂托吃它的食物！”",
+    "我找蒂托。他在哪儿？在厨房？不在。在沙发上？不在。谁知道他在哪儿？波利尼亚知道！它往花园走去。",
+    "蒂托在花园里，和波利尼亚在一起。我把饲料给它们。两个一起吃，用波利尼亚的碗。真是好朋友！",
+    "晚上九点半，我写日记。蒂托有几个朋友？一个：波利尼亚。明天是星期六，21号。晚安，日记。晚安，蒂托，我的小偷。"
+   ],
+   "paragraphs_de": [
+    "Freitag, 20. November 2026. Liebes Tagebuch, heute ist Freitag. Ich bin müde, aber glücklich. Morgen ist kein Unterricht!",
+    "Um sechs Uhr bringe ich Dona Rosa das Tierfutter. Sie öffnet das Tor und fragt: „Wie geht es dir, Ana?“ „Gut, danke. Und Bolinha?“",
+    "„Bolinha ist traurig. Sein Napf ist leer.“ „Warum?“ „Weil Tito  sein Futter frisst!“",
+    "Ich suche Tito. Wo ist er? In der Küche? Nein. Auf dem Sofa? Nein. Wer weiß, wo er ist? Bolinha weiß es! Er geht in den Garten.",
+    "Tito ist im Garten, bei Bolinha. Ich gebe ihnen das Futter. Und die beiden fressen zusammen, aus Bolinhas Napf. Was für Freunde!",
+    "Um halb zehn abends schreibe ich ins Tagebuch. Wie viele Freunde hat Tito? Einen: Bolinha. Morgen ist Samstag, der 21. Gute Nacht, Tagebuch. Gute Nacht, Tito, mein kleiner Dieb."
+   ],
+   "glossary": [
+    {
+     "w": "estar (eu estou, ele está)",
+     "en": "to be (how or where someone is now) — Eu estou cansada.",
+     "zh": "是；处于（现在的状态或位置）",
+     "de": "sein (wie/wo jemand gerade ist)",
+     "pt": "Para dizer como você está agora: Estou bem. Estou cansada."
+    },
+    {
+     "w": "Por quê? / Porque",
+     "en": "Why? / Because",
+     "zh": "为什么？/ 因为",
+     "de": "Warum? / Weil",
+     "pt": "Por quê? é a pergunta. Porque… é a resposta."
+    },
+    {
+     "w": "procurar",
+     "en": "to look for, to search",
+     "zh": "寻找",
+     "de": "suchen",
+     "pt": "Tentar achar uma coisa ou uma pessoa: Eu procuro o Tito."
+    },
+    {
+     "w": "o jardim",
+     "en": "garden, yard",
+     "zh": "花园",
+     "de": "der Garten",
+     "pt": "Lugar perto da casa, com plantas e flores."
+    },
+    {
+     "w": "juntos / juntas",
+     "en": "together",
+     "zh": "一起",
+     "de": "zusammen",
+     "pt": "Um com o outro: o Tito e o Bolinha comem juntos."
+    },
+    {
+     "w": "o ladrãozinho",
+     "en": "little thief (affectionate)",
+     "zh": "小偷（亲昵的说法）",
+     "de": "der kleine Dieb",
+     "pt": "Ladrão pequeno: quem pega a comida dos outros, como o Tito."
+    }
+   ],
+   "grammar": "Por que (two words) asks \"why?\"; alone at the end it takes an accent: Por quê? Porque (one word) answers \"because\": Porque o Tito come a comida dele. Prévia: next you will learn ser vs estar — notice \"Eu estou cansada\" and \"O Bolinha está triste\" (how someone is right now).",
+   "grammar_zh": "Por que（两个词）问“为什么？”；单独放在句末时要加重音符号：Por quê? Porque（一个词）回答“因为”：Porque o Tito come a comida dele.（因为蒂托吃它的食物。）预告：接下来你会学 ser 和 estar —— 注意 “Eu estou cansada”（我现在很累）和 “O Bolinha está triste”（波利尼亚现在很难过）：estar 说的是现在的状态。",
+   "grammar_de": "Por que (zwei Wörter) fragt „warum?“; allein am Satzende bekommt es einen Akzent: Por quê? Porque (ein Wort) antwortet „weil“: Porque o Tito come a comida dele. Vorschau: Als Nächstes lernst du ser und estar – achte auf „Eu estou cansada“ und „O Bolinha está triste“ (wie jemand gerade ist).",
+   "grammar_pt": "Por que (duas palavras) é a pergunta; sozinho no fim da frase, tem acento: Por quê? Porque (uma palavra) é a resposta: Porque o Tito come a comida dele. Prévia: depois você vai aprender ser e estar — veja \"Eu estou cansada\" e \"O Bolinha está triste\" (como a pessoa está agora).",
+   "questions": [
+    "Por que o Bolinha está triste?",
+    "Onde está o Tito? Com quem ele come?",
+    "E você? Como você está hoje? Quantos amigos você tem no seu curso?"
+   ],
+   "sources": []
   }
  ]
 }

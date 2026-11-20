@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:48:09+00:00",
+ "updated": "2026-11-20T18:54:04+00:00",
  "days": [
   {
    "date": "2026-11-20",
@@ -34,6 +34,14 @@
      "title": "La arepa: el pan de maíz que Venezuela y Colombia comparten",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Onde está o Tito?",
+     "kind": "story",
+     "level": "A1",
      "hour": null
     }
    ]
