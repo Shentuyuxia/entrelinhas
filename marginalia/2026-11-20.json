@@ -188,6 +188,225 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En la terminal de Asunción: un pasaje para Encarnación",
+   "dek": "Camila compra dos pasajes de bus en la terminal de Asunción, Paraguay, y pregunta por el horario, el precio y la plataforma.",
+   "tags": [
+    "Asunción",
+    "comprar un pasaje",
+    "por y para"
+   ],
+   "paragraphs": [
+    "Camila: Buenos días. ¿Me podría decir a qué hora sale el próximo bus para Encarnación?",
+    "Julio: Buenos días. Hay uno a las diez y media, por la mañana, y otro a las dos de la tarde.",
+    "Camila: ¿Cuánto cuesta el pasaje?",
+    "Julio: Cuesta cuarenta mil guaraníes. ¿Es para usted sola?",
+    "Camila: No, es para mí y para mi amiga. Entonces, dos pasajes, por favor.",
+    "Julio: Muy bien. ¿Quieren un asiento junto a la ventana?",
+    "Camila: Sí, por favor. ¿Cuánto tarda el viaje?",
+    "Julio: Tarda unas cinco horas. El bus pasa por varias ciudades.",
+    "Camila: Perfecto. ¿Puedo pagar con tarjeta?",
+    "Julio: Sí, claro. Son ochenta mil guaraníes en total.",
+    "Camila: Aquí tiene. ¿Dónde sale el bus?",
+    "Julio: Sale de la plataforma siete. Doble a la derecha, siga derecho y la va a ver.",
+    "Camila: Muchas gracias. ¡Qué amable!",
+    "Julio: De nada. ¡Buen viaje!"
+   ],
+   "paragraphs_en": [
+    "Camila: Good morning. Could you tell me what time the next bus to Encarnación leaves?",
+    "Julio: Good morning. There is one at ten thirty in the morning and another one at two in the afternoon.",
+    "Camila: How much is the ticket?",
+    "Julio: It costs forty thousand guaraníes. Is it just for you?",
+    "Camila: No, it is for me and for my friend. So, two tickets, please.",
+    "Julio: Very well. Would you like a seat next to the window?",
+    "Camila: Yes, please. How long does the trip take?",
+    "Julio: It takes about five hours. The bus goes through several towns.",
+    "Camila: Perfect. Can I pay by card?",
+    "Julio: Yes, of course. It is eighty thousand guaraníes in total.",
+    "Camila: Here you are. Where does the bus leave from?",
+    "Julio: It leaves from platform seven. Turn right, keep going straight and you will see it.",
+    "Camila: Thank you very much. How kind!",
+    "Julio: You are welcome. Have a good trip!"
+   ],
+   "paragraphs_de": [
+    "Camila: Guten Morgen. Könnten Sie mir sagen, wann der nächste Bus nach Encarnación abfährt?",
+    "Julio: Guten Morgen. Einer fährt um halb elf am Vormittag, ein weiterer um zwei Uhr nachmittags.",
+    "Camila: Wie viel kostet die Fahrkarte?",
+    "Julio: Sie kostet vierzigtausend Guaraníes. Ist sie nur für Sie?",
+    "Camila: Nein, sie ist für mich und für meine Freundin. Also zwei Fahrkarten, bitte.",
+    "Julio: Gut. Möchten Sie einen Platz am Fenster?",
+    "Camila: Ja, bitte. Wie lange dauert die Fahrt?",
+    "Julio: Sie dauert etwa fünf Stunden. Der Bus fährt durch mehrere Städte.",
+    "Camila: Perfekt. Kann ich mit Karte zahlen?",
+    "Julio: Ja, natürlich. Es sind insgesamt achtzigtausend Guaraníes.",
+    "Camila: Bitte sehr. Wo fährt der Bus ab?",
+    "Julio: Er fährt von Bahnsteig sieben ab. Biegen Sie rechts ab, gehen Sie geradeaus, dann sehen Sie ihn.",
+    "Camila: Vielen Dank. Wie freundlich!",
+    "Julio: Gern geschehen. Gute Fahrt!"
+   ],
+   "glossary": [
+    {
+     "w": "el pasaje",
+     "en": "ticket (for a trip by bus or boat)",
+     "de": "die Fahrkarte"
+    },
+    {
+     "w": "el bus",
+     "en": "bus (also: autobús, camión in Mexico, guagua in the Caribbean)",
+     "de": "der Bus"
+    },
+    {
+     "w": "la plataforma",
+     "en": "platform, bay where the bus leaves",
+     "de": "der Bahnsteig, die Haltebucht"
+    },
+    {
+     "w": "tardar",
+     "en": "to take (time): el viaje tarda cinco horas",
+     "de": "dauern"
+    },
+    {
+     "w": "junto a",
+     "en": "next to",
+     "de": "neben"
+    },
+    {
+     "w": "la ventana",
+     "en": "window",
+     "de": "das Fenster"
+    },
+    {
+     "w": "siga derecho",
+     "en": "keep going straight (usted command)",
+     "de": "gehen Sie geradeaus"
+    },
+    {
+     "w": "el guaraní",
+     "en": "the currency of Paraguay (and an indigenous language)",
+     "de": "die Währung Paraguays (und eine Sprache)"
+    }
+   ],
+   "grammar": "Por or para? Use para for a destination, a person who receives something, or a purpose: “un bus para Encarnación”, “es para mi amiga”. Use por for a time of day or for passing through a place: “por la mañana”, “pasa por varias ciudades”.",
+   "grammar_de": "Por oder para? Para steht für ein Ziel, eine Person, die etwas bekommt, oder einen Zweck: „un bus para Encarnación“, „es para mi amiga“. Por steht für eine Tageszeit oder das Durchqueren eines Ortes: „por la mañana“, „pasa por varias ciudades“.",
+   "questions": [
+    "¿Para quién compras pasajes o regalos normalmente?",
+    "¿Y tú? ¿Qué haces por la mañana y qué haces por la noche?",
+    "¿Cuánto tarda el viaje de tu casa al trabajo o a la universidad?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Comida",
+   "title": "La arepa: el pan de maíz que Venezuela y Colombia comparten",
+   "dek": "Un pan redondo, mil rellenos y una amistosa discusión entre dos países.",
+   "tags": [
+    "Venezuela",
+    "Colombia",
+    "arepas",
+    "condicional"
+   ],
+   "paragraphs": [
+    "La arepa es un pan redondo y plano hecho de maíz. Se come en Venezuela y en Colombia todos los días: en el desayuno, en la merienda o en la cena. Aunque los dos países la consideran suya, cada uno la prepara a su manera, y por eso muchas personas bromean sobre el tema, siempre con cariño.",
+    "En Venezuela la arepa suele abrirse por la mitad y se rellena como un sándwich. Hay rellenos para todos los gustos: queso, jamón, aguacate, carne o frijoles negros. La «reina pepiada» lleva pollo desmenuzado con aguacate, y la «pabellón» lleva carne mechada, frijoles negros, queso y plátano frito, igual que el plato nacional del mismo nombre. Hay lugares que solo venden arepas: se llaman areperas, y mucha gente va allí después de salir con amigos.",
+    "En Colombia la arepa suele ser más gruesa y muchas veces se come sola, con un poco de mantequilla o de queso. Cambia mucho según la región: algunas se hacen con maíz blanco, otras con maíz dulce, y hay arepas que llevan el queso dentro de la masa. Es normal comerlas con huevos en el desayuno o como acompañamiento del almuerzo.",
+    "Hoy día es fácil hacer arepas en casa porque se usa harina de maíz precocida. No hay que moler el maíz: se mezcla la harina con agua y sal, se forma una bolita, se aplasta con las manos y se cocina en una sartén o en una plancha. Muchas familias dicen que, en su casa, la arepa nunca falta en la mesa.",
+    "Si viajaras a Caracas o a Bogotá, yo te recomendaría probar una arepa en una arepera local. Pedirías una arepa rellena en Venezuela y una arepa con queso en Colombia, y así podrías comparar las dos. Además, preguntarías a la gente cuál es su favorita: seguramente cada persona te daría una respuesta diferente.",
+    "Dato curioso: en las dos regiones la palabra «arepa» también se usa en el lenguaje cotidiano. En algunas partes de Colombia, por ejemplo, se dice «¡Qué arepa!» cuando alguien tiene mucha suerte. El significado puede cambiar según el país, así que conviene preguntar."
+   ],
+   "paragraphs_en": [
+    "The arepa is a round, flat bread made of corn. People eat it in Venezuela and Colombia every day: at breakfast, as a snack or at dinner. Although both countries consider it their own, each prepares it in its own way, and so many people joke about the subject, always with affection.",
+    "In Venezuela the arepa is usually cut open and filled like a sandwich. There are fillings for every taste: cheese, ham, avocado, meat or black beans. The “reina pepiada” has shredded chicken with avocado, and the “pabellón” has shredded beef, black beans, cheese and fried plantain, just like the national dish of the same name. Some places sell only arepas: they are called areperas, and many people go there after going out with friends.",
+    "In Colombia the arepa is usually thicker and is often eaten on its own, with a little butter or cheese. It changes a lot by region: some are made with white corn, others with sweet corn, and some have the cheese inside the dough. It is normal to eat them with eggs at breakfast or as a side with lunch.",
+    "Nowadays it is easy to make arepas at home because precooked corn flour is used. You do not have to grind the corn: you mix the flour with water and salt, shape a little ball, flatten it with your hands and cook it in a pan or on a griddle. Many families say that in their home the arepa is never missing from the table.",
+    "If you travelled to Caracas or Bogotá, I would recommend trying an arepa in a local arepera. You would order a filled arepa in Venezuela and an arepa with cheese in Colombia, and that way you could compare the two. You would also ask people which one is their favourite: surely each person would give you a different answer.",
+    "Fun fact: in both regions the word “arepa” is also used in everyday speech. In some parts of Colombia, for example, people say “¡Qué arepa!” when someone is very lucky. The meaning can change from country to country, so it is wise to ask."
+   ],
+   "paragraphs_de": [
+    "Die Arepa ist ein rundes, flaches Brot aus Mais. In Venezuela und Kolumbien isst man sie jeden Tag: zum Frühstück, als Zwischenmahlzeit oder zum Abendessen. Obwohl beide Länder sie für sich beanspruchen, bereitet jedes sie auf seine Art zu, und deshalb scherzen viele Menschen darüber, immer liebevoll.",
+    "In Venezuela schneidet man die Arepa meist in der Mitte auf und füllt sie wie ein Sandwich. Es gibt Füllungen für jeden Geschmack: Käse, Schinken, Avocado, Fleisch oder schwarze Bohnen. Die „reina pepiada“ enthält zerzupftes Hähnchen mit Avocado, und die „pabellón“ enthält geschmortes Rindfleisch, schwarze Bohnen, Käse und gebratene Kochbanane, genau wie das gleichnamige Nationalgericht. Manche Lokale verkaufen nur Arepas: Sie heißen Areperas, und viele gehen dorthin, nachdem sie mit Freunden ausgegangen sind.",
+    "In Kolumbien ist die Arepa meist dicker und wird oft pur gegessen, mit etwas Butter oder Käse. Sie unterscheidet sich stark nach Region: Manche werden aus weißem Mais gemacht, andere aus Süßmais, und manche haben den Käse im Teig. Man isst sie normalerweise mit Eiern zum Frühstück oder als Beilage zum Mittagessen.",
+    "Heute ist es leicht, Arepas zu Hause zu machen, weil man vorgekochtes Maismehl benutzt. Man muss den Mais nicht mahlen: Man mischt das Mehl mit Wasser und Salz, formt eine kleine Kugel, drückt sie mit den Händen flach und brät sie in einer Pfanne oder auf einer Platte. Viele Familien sagen, dass bei ihnen zu Hause die Arepa auf dem Tisch nie fehlt.",
+    "Wenn du nach Caracas oder Bogotá reisen würdest, würde ich dir empfehlen, in einer Arepera vor Ort eine Arepa zu probieren. Du würdest in Venezuela eine gefüllte Arepa bestellen und in Kolumbien eine Arepa mit Käse, und so könntest du die beiden vergleichen. Außerdem würdest du die Leute fragen, welche ihre Lieblingsarepa ist: Bestimmt würde dir jeder eine andere Antwort geben.",
+    "Kleiner Fun Fact: In beiden Regionen wird das Wort „arepa“ auch in der Alltagssprache benutzt. In manchen Teilen Kolumbiens sagt man zum Beispiel „¡Qué arepa!“, wenn jemand viel Glück hat. Die Bedeutung kann sich von Land zu Land ändern, deshalb fragt man am besten nach."
+   ],
+   "glossary": [
+    {
+     "w": "la arepa",
+     "en": "round corn bread, flat and often filled",
+     "de": "die Arepa (Maisbrot)"
+    },
+    {
+     "w": "el maíz",
+     "en": "corn, maize",
+     "de": "der Mais"
+    },
+    {
+     "w": "rellenar",
+     "en": "to fill, to stuff",
+     "de": "füllen"
+    },
+    {
+     "w": "el relleno",
+     "en": "filling",
+     "de": "die Füllung"
+    },
+    {
+     "w": "desmenuzado/a",
+     "en": "shredded",
+     "de": "zerzupft"
+    },
+    {
+     "w": "el aguacate",
+     "en": "avocado (also: la palta in Peru, Chile, Argentina)",
+     "de": "die Avocado"
+    },
+    {
+     "w": "la masa",
+     "en": "dough",
+     "de": "der Teig"
+    },
+    {
+     "w": "la harina precocida",
+     "en": "precooked flour",
+     "de": "das vorgekochte Mehl"
+    },
+    {
+     "w": "la sartén",
+     "en": "frying pan",
+     "de": "die Pfanne"
+    },
+    {
+     "w": "la arepera",
+     "en": "place that sells arepas",
+     "de": "das Arepa-Lokal"
+    },
+    {
+     "w": "gruesa",
+     "en": "thick",
+     "de": "dick"
+    },
+    {
+     "w": "bromear",
+     "en": "to joke",
+     "de": "scherzen"
+    }
+   ],
+   "grammar": "The conditional (B1) says what you would do or recommend: “yo te recomendaría probar…”, “pedirías una arepa”. Take the infinitive and add -ía, -ías, -ía, -íamos, -ían: recomendar → recomendaría, poder → podría. It is also a polite way to suggest or ask for things.",
+   "grammar_de": "Der Konditional (B1) sagt, was man tun oder empfehlen würde: „yo te recomendaría probar…“, „pedirías una arepa“. Man hängt an den Infinitiv -ía, -ías, -ía, -íamos, -ían: recomendar → recomendaría, poder → podría. Er ist auch eine höfliche Form für Vorschläge und Bitten.",
+   "questions": [
+    "¿Qué relleno de arepa te gustaría probar primero y por qué?",
+    "¿Qué comida de tu país se parece a la arepa?",
+    "Si viajaras a Venezuela o Colombia, ¿qué otra comida pedirías?"
+   ],
+   "sources": []
   }
  ]
 }
