@@ -98,6 +98,96 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "de",
+   "level": "B2",
+   "kind": "brief",
+   "section": "Deutschland kurios",
+   "title": "Der erste Adventskranz war ein Wagenrad",
+   "dek": "Vier Kerzen, vier Sonntage – so kennt man den Adventskranz. Erfunden wurde er aber ganz anders: in Hamburg, mit über zwanzig Kerzen.",
+   "tags": [
+    "Advent",
+    "Hamburg",
+    "Bräuche",
+    "Plusquamperfekt"
+   ],
+   "paragraphs": [
+    "Am 29. November ist in diesem Jahr der erste Advent, und in vielen Wohnungen steht dann wieder ein Kranz aus Tannengrün mit vier Kerzen. Kaum jemand weiß, dass die Idee erst gut 180 Jahre alt ist. Erfunden hat sie 1839 der Hamburger Theologe Johann Hinrich Wichern, und zwar im Rauhen Haus, einem Heim für Kinder aus den Armenvierteln der Stadt, das er einige Jahre vorher gegründet hatte.",
+    "Wicherns Kranz sah allerdings ganz anders aus als unserer. Er war aus Holz, ungefähr so groß wie ein Wagenrad, und hing unter der Decke des Betsaals. Für jeden Tag bis Heiligabend kam eine Kerze dazu, und jeden Tag wurde eine weitere angezündet. So konnten die Kinder mit eigenen Augen sehen, wie Weihnachten näher rückte – ein Adventskalender aus Licht, sozusagen.",
+    "Je nachdem, auf welches Datum der erste Advent fiel, brauchte man zwischen 22 und 28 Kerzen. Oft heißt es, dass vier große weiße Kerzen für die Sonntage standen und kleine rote für die Werktage. Das Rauhe Haus selbst sagte 2020 aber, dafür gebe es keine Belege: Auf der einzigen alten Zeichnung sehen alle Kerzen gleich groß aus, die Farben erkennt man nicht. Tannenzweige kamen erst um 1860 dazu.",
+    "Warum sind heute nur noch vier Kerzen übrig? Ganz praktisch: Ein Riesenkranz passte nicht in normale Wohnzimmer, und eng nebeneinander hätten sich die Kerzen gegenseitig geschmolzen. Also behielt man nur die Sonntage. Von Hamburg aus wanderte der Brauch langsam nach Süden – in Köln hängte eine katholische Kirche 1925 einen Kranz auf, in München sah man den ersten 1930. Und im Rauhen Haus brennt bis heute jedes Jahr ein Kranz im alten Stil."
+   ],
+   "glossary": [
+    {
+     "w": "der Advent",
+     "de": "die vier Wochen vor Weihnachten",
+     "zh": "将临期（圣诞节前四周）"
+    },
+    {
+     "w": "der Kranz, -ä-e",
+     "de": "ein Ring aus Zweigen oder Blumen",
+     "zh": "花环"
+    },
+    {
+     "w": "das Tannengrün",
+     "de": "Zweige von Tannenbäumen als Schmuck",
+     "zh": "冷杉枝（装饰用）"
+    },
+    {
+     "w": "das Wagenrad",
+     "de": "das große Rad von einem (Pferde-)Wagen",
+     "zh": "车轮（马车轮）"
+    },
+    {
+     "w": "der Betsaal",
+     "de": "ein Raum zum Beten, kleiner als eine Kirche",
+     "zh": "祈祷厅"
+    },
+    {
+     "w": "näher rücken",
+     "de": "langsam näher kommen (für Zeit oder Termine)",
+     "zh": "临近，逼近"
+    },
+    {
+     "w": "sozusagen",
+     "de": "man könnte es so nennen",
+     "zh": "可以说，好比"
+    },
+    {
+     "w": "der Beleg, -e",
+     "de": "ein Beweis, ein Dokument, das etwas zeigt",
+     "zh": "证据，凭证"
+    },
+    {
+     "w": "der Werktag",
+     "de": "ein normaler Arbeitstag (Montag bis Samstag), kein Sonn- oder Feiertag",
+     "zh": "工作日"
+    },
+    {
+     "w": "der Brauch, -ä-e",
+     "de": "eine Tradition, etwas, das man immer wieder so macht",
+     "zh": "习俗"
+    }
+   ],
+   "grammar": "\"das er einige Jahre vorher gegründet hatte\" is in the Plusquamperfekt (hatte/war + participle). It marks an action that was already finished before another past moment – here, the founding of the Rauhes Haus came before the invention of the wreath in 1839. Words like vorher, schon or bereits often signal it.",
+   "grammar_zh": "\"das er einige Jahre vorher gegründet hatte\" 用的是过去完成时（hatte/war + 第二分词）。它表示在另一个过去时间点之前就已完成的动作——这里，建立 Rauhes Haus 发生在 1839 年发明花环之前。vorher、schon、bereits 等词常常是它的信号。",
+   "questions": [
+    "Welche Bräuche gibt es bei dir in der Zeit vor Weihnachten oder vor einem anderen großen Fest?",
+    "Fändest du einen Kranz mit einer Kerze für jeden Tag schöner als einen Adventskalender? Warum?"
+   ],
+   "sources": [
+    {
+     "title": "Neuigkeiten vom Adventskranz (evangelisch.de, 27.11.2020)",
+     "url": "https://www.evangelisch.de/inhalte/178946/27-11-2020/neue-erkenntnisse-zum-adventskranz",
+     "license": "link only"
+    },
+    {
+     "title": "Der Adventskranz – vier Kerzen erobern die Welt (Hamburg Tourismus)",
+     "url": "https://www.hamburg-tourism.de/magazin/der-adventskranz-vier-kerzen-erobern-die-welt/",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }

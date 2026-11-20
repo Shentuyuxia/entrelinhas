@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T05:19:58+00:00",
+ "updated": "2026-11-20T10:54:01+00:00",
  "days": [
   {
    "date": "2026-11-20",
@@ -10,6 +10,14 @@
      "title": "Murmuration: when a thousand starlings become one cloud",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Der erste Adventskranz war ein Wagenrad",
+     "kind": "brief",
+     "level": "B2",
      "hour": null
     }
    ]
