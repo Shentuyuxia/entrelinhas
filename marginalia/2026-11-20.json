@@ -1,0 +1,103 @@
+{
+ "date": "2026-11-20",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Outdoors",
+   "title": "Murmuration: when a thousand starlings become one cloud",
+   "dek": "On winter evenings, thousands of starlings fill the sky over British wetlands. How do they move together, and why?",
+   "paragraphs": [
+    "Imagine a cold December evening on a wetland in Somerset. While the sun was going down, a few small black birds flew over the reeds. Then more arrived, and more. Within minutes, thousands of starlings were moving across the sky like one huge, dark cloud that kept changing shape.",
+    "This is a murmuration. The word means a large group of starlings, and it also describes the shapes they make as they wheel overhead. The cloud stretches, folds and turns, and it looks a little like smoke in the wind.",
+    "The best time to see one is winter, from about November to early March, at or just before dusk. Starlings live in Britain all year, but every autumn birds from Eastern Europe and Scandinavia join them, so the numbers grow. One of the largest starling roosts in the country is at Ham Wall in Somerset, and nearby Shapwick Heath is another famous place. The numbers change from year to year, so it is wise to check online before you go.",
+    "How do thousands of birds turn at the same moment without crashing? Starlings react very fast. In dense flocks they can fly at about 40 miles an hour, only a little more than a body length apart. Researchers found that each bird watches several birds around it, not only the one next to it. Because of this, a turn travels through the flock like a ripple, about three times faster than if every bird watched just one neighbour.",
+    "Why do they do it? The main reason is safety. A huge, moving crowd confuses a predator such as a peregrine falcon, and it is hard to pick out a single bird. The birds also keep moving inside the flock, so none of them stays at the dangerous edge for long. There are other advantages: a crowded roost is warmer on a freezing night, and the birds can learn from each other where the good feeding places are.",
+    "At the end of the show, the cloud suddenly breaks up. The birds peel off in groups and drop into the reedbeds with a loud flurry of wings and a lot of chattering. Then, almost at once, it is quiet.",
+    "If you want to watch, arrive well before dusk and wear warm clothes. While the light is fading, you will probably be standing still for a while, but the wait is part of the pleasure."
+   ],
+   "paragraphs_zh": [
+    "想象十二月一个寒冷的傍晚，你在萨默塞特的一片湿地上。太阳落山的时候，几只黑色的小鸟飞过芦苇。接着来了更多，再来更多。几分钟之内，成千上万只椋鸟在天空中移动，像一大片不断变换形状的深色云。",
+    "这就是椋鸟群舞（murmuration）。这个词指一大群椋鸟，也用来形容它们在空中盘旋时形成的各种形状。这片“云”时而拉长，时而折叠，时而转向，有点像风中的烟。",
+    "观看的最佳时间是冬天，大约从十一月到三月初，在黄昏时或黄昏前不久。椋鸟全年生活在英国，但每年秋天，来自东欧和斯堪的纳维亚的鸟会加入它们，所以数量会增加。全国最大的椋鸟栖息地之一就在萨默塞特的哈姆沃尔，附近的沙普威克荒原也是著名的观鸟地。每年的数量不同，所以出发前最好先上网查一查。",
+    "成千上万只鸟怎么能在同一时刻转弯而不相撞呢？椋鸟的反应非常快。在密集的鸟群中，它们的飞行时速可达约40英里，彼此之间只隔一个身长多一点。研究人员发现，每只鸟会留意周围的好几只鸟，而不只是身边那一只。因此，转向的动作会像涟漪一样传遍整个鸟群，速度大约是每只鸟只看一个邻居时的三倍。",
+    "它们为什么这样做？主要原因是安全。一大群不断移动的鸟会让猎食者（比如游隼）眼花缭乱，很难从中挑出一只。鸟儿也会在鸟群里不断换位置，所以没有哪一只会长时间待在危险的边缘。还有别的好处：拥挤的栖息地在寒冷的夜里更暖和，鸟儿们也能互相了解哪里有好的觅食地点。",
+    "表演的最后，这片云突然散开。鸟儿们一群一群地分开，伴随着响亮的振翅声和一片叽叽喳喳，落进芦苇丛。然后，几乎一下子，四周安静了下来。",
+    "如果你想去看，要在黄昏前很早就到，并穿上保暖的衣服。天色渐暗的时候，你大概要站着不动等一阵子，但等待本身也是乐趣的一部分。"
+   ],
+   "glossary": [
+    {
+     "w": "murmuration",
+     "en": "a large group of starlings flying together, or the shapes they make",
+     "zh": "椋鸟群舞"
+    },
+    {
+     "w": "flock",
+     "en": "a group of birds that stay or fly together",
+     "zh": "鸟群"
+    },
+    {
+     "w": "roost",
+     "en": "a place where birds rest and sleep at night",
+     "zh": "（鸟类的）栖息处；栖息"
+    },
+    {
+     "w": "predator",
+     "en": "an animal that hunts and eats other animals",
+     "zh": "捕食者；猎食者"
+    },
+    {
+     "w": "wheel",
+     "en": "to fly or move round in a big circle",
+     "zh": "盘旋"
+    },
+    {
+     "w": "reedbed",
+     "en": "a wet place where tall reed plants grow thickly",
+     "zh": "芦苇丛"
+    },
+    {
+     "w": "ripple",
+     "en": "a small wave that spreads out; here, a movement that passes from one bird to the next",
+     "zh": "涟漪；波动"
+    },
+    {
+     "w": "migrant",
+     "en": "a bird or person that moves from one place to another for part of the year",
+     "zh": "迁徙者；候鸟"
+    },
+    {
+     "w": "dusk",
+     "en": "the time in the evening when the light is going",
+     "zh": "黄昏"
+    },
+    {
+     "w": "peel off",
+     "en": "to leave a group and go away from it",
+     "zh": "（从群体中）分出去"
+    }
+   ],
+   "grammar": "Use the past simple for finished actions that follow each other: “a few small black birds flew over the reeds. Then more arrived.” Use the past continuous (was/were + -ing) for an action in progress, often the background: “While the sun was going down, a few small black birds flew over the reeds.” Often the longer background action is in the past continuous and the shorter action in the past simple.",
+   "grammar_zh": "过去简单时用来讲按顺序发生、已经完成的动作：“a few small black birds flew over the reeds. Then more arrived.”（几只黑鸟飞过芦苇，然后来了更多。）过去进行时（was/were + -ing）表示当时正在进行的动作，常作背景：“While the sun was going down, a few small black birds flew over the reeds.”（太阳正在落山时，几只黑鸟飞过芦苇。）通常较长的背景动作用过去进行时，较短的、插入的动作用过去简单时。",
+   "questions": [
+    "Why do starlings fly in such big groups?",
+    "Would you like to stand in a cold wetland to watch a murmuration? Why, or why not?",
+    "And you? Have you ever watched birds or other animals in nature? What did you see?"
+   ],
+   "sources": [
+    {
+     "title": "Woodland Trust – Starling murmurations",
+     "url": "https://www.woodlandtrust.org.uk/blog/starling-murmurations/",
+     "license": "link only"
+    },
+    {
+     "title": "WWT – Marvellous murmurations: why do birds flock together?",
+     "url": "https://www.wwt.org.uk/discover-wetlands/blog/marvellous-murmurations-why-do-birds-flock-together",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
+}
