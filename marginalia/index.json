@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-20T18:54:04+00:00",
+ "updated": "2026-11-21T15:50:16+00:00",
  "days": [
+  {
+   "date": "2026-11-21",
+   "items": [
+    {
+     "i": 0,
+     "lang": "fr",
+     "title": "Le dimanche, Central appartient aux travailleuses",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-20",
    "items": [
