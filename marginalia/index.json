@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:50:16+00:00",
+ "updated": "2026-11-21T20:31:14+00:00",
  "days": [
   {
    "date": "2026-11-21",
@@ -8,6 +8,22 @@
      "i": 0,
      "lang": "fr",
      "title": "Le dimanche, Central appartient aux travailleuses",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "pt",
+     "title": "Carinhoso: uma canção de amor com duas partes",
+     "kind": "feature",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "pt",
+     "title": "Carinhoso: o choro que passou anos na gaveta",
      "kind": "feature",
      "level": "B1",
      "hour": null

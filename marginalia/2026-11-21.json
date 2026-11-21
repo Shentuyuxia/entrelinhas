@@ -117,6 +117,222 @@
      "license": "official"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Histórias de canções",
+   "title": "Carinhoso: uma canção de amor com duas partes",
+   "dek": "Um choro de 1917, uma letra de 1936 e uma gravação de 1937.",
+   "tags": [
+    "Carinhoso",
+    "choro",
+    "Rio de Janeiro",
+    "por quê / porque"
+   ],
+   "paragraphs": [
+    "\"Carinhoso\" é uma música muito famosa no Brasil. É um choro. O compositor é Pixinguinha. Ele nasce no dia 23 de abril de 1897.",
+    "Pixinguinha escreve a música por volta de 1917. Ele tem só 20 anos. Mas ele não mostra a música a ninguém. Por quê? Porque, naquela época, um choro tem três partes. \"Carinhoso\" tem só duas.",
+    "Nos anos 1920, a música tem uma gravação sem letra, só com instrumentos. Um crítico não gosta. Para ele, o começo parece um foxtrote americano.",
+    "Em 1936, a cantora Heloísa Helena precisa de uma música nova. Ela pede ajuda ao amigo Braguinha. Ele escreve a letra de \"Carinhoso\" em uma noite.",
+    "No dia 28 de maio de 1937, o cantor Orlando Silva grava a canção. É a música mais tocada do ano de 1937!",
+    "Hoje, \"Carinhoso\" tem mais de 200 gravações. Elis Regina, Paulinho da Viola e Marisa Monte cantam a música. Muitas pessoas chamam a canção de \"segundo hino nacional\".",
+    "Como é a música? É uma canção de amor, simples e doce. E o dia 23 de abril, aniversário de Pixinguinha, é o Dia Nacional do Choro."
+   ],
+   "paragraphs_en": [
+    "\"Carinhoso\" is a very famous song in Brazil. It is a choro. The composer is Pixinguinha. He is born on 23 April 1897.",
+    "Pixinguinha writes the music around 1917. He is only 20 years old. But he doesn't show the music to anyone. Why? Because at that time a choro has three parts. \"Carinhoso\" has only two.",
+    "In the 1920s the music gets a recording without lyrics, only with instruments. A critic doesn't like it. For him, the beginning sounds like an American foxtrot.",
+    "In 1936 the singer Heloísa Helena needs a new song. She asks her friend Braguinha for help. He writes the lyrics of \"Carinhoso\" in one night.",
+    "On 28 May 1937 the singer Orlando Silva records the song. It is the most played song of 1937!",
+    "Today \"Carinhoso\" has more than 200 recordings. Elis Regina, Paulinho da Viola and Marisa Monte sing it. Many people call the song the \"second national anthem\".",
+    "What is the song like? It is a love song, simple and sweet. And 23 April, Pixinguinha's birthday, is National Choro Day."
+   ],
+   "paragraphs_zh": [
+    "《Carinhoso》是巴西一首非常有名的乐曲。它是一首肖罗（choro）。作曲者是皮欣吉尼亚。他生于1897年4月23日。",
+    "皮欣吉尼亚大约在1917年写下这首曲子。他那时才20岁。但他没有把曲子给任何人看。为什么？因为在那个年代，一首肖罗要有三个部分，而《Carinhoso》只有两个。",
+    "20世纪20年代，这首曲子有了一个没有歌词、只有乐器的录音。一位评论家不喜欢它。他觉得开头像一首美国狐步舞曲。",
+    "1936年，女歌手埃洛伊莎·埃莱娜需要一首新歌。她请朋友布拉吉尼亚帮忙。他用一个晚上写好了《Carinhoso》的歌词。",
+    "1937年5月28日，歌手奥兰多·席尔瓦录下了这首歌。它是1937年播放最多的歌！",
+    "今天，《Carinhoso》有两百多个录音版本。埃利斯·雷吉娜、保利尼奥·达维奥拉和玛丽莎·蒙特都唱过它。很多人把这首歌叫作“第二国歌”。",
+    "这首歌是什么样的？它是一首情歌，简单又甜美。而4月23日，皮欣吉尼亚的生日，是全国肖罗日。"
+   ],
+   "glossary": [
+    {
+     "w": "o compositor",
+     "en": "composer",
+     "zh": "作曲家"
+    },
+    {
+     "w": "a parte",
+     "en": "part",
+     "zh": "部分"
+    },
+    {
+     "w": "a letra",
+     "en": "lyrics (of a song)",
+     "zh": "歌词"
+    },
+    {
+     "w": "a gravação",
+     "en": "recording",
+     "zh": "录音"
+    },
+    {
+     "w": "gravar",
+     "en": "to record",
+     "zh": "录制"
+    },
+    {
+     "w": "a cantora",
+     "en": "singer (woman)",
+     "zh": "女歌手"
+    },
+    {
+     "w": "o hino",
+     "en": "anthem",
+     "zh": "颂歌；国歌"
+    },
+    {
+     "w": "doce",
+     "en": "sweet",
+     "zh": "甜的；温柔的"
+    }
+   ],
+   "grammar": "Three spellings, one sound: \"Por que…?\" starts a question (Why…?), \"Por quê?\" with an accent stands at the end or alone (\"Why?\"), and \"porque\" in one word means \"because\". In the text: \"Por quê? Porque, naquela época, um choro tem três partes.\"",
+   "grammar_zh": "三种写法，同一个读音：“Por que…?” 放在问句开头（为什么……？）；带重音符号的 “Por quê?” 放在句末或单独使用（“为什么？”）；连写的 “porque” 意思是“因为”。文中：“Por quê? Porque, naquela época, um choro tem três partes.”",
+   "questions": [
+    "Quantos anos tem Pixinguinha em 1917?",
+    "Por que ele não mostra a música?",
+    "Quem escreve a letra de \"Carinhoso\"?"
+   ],
+   "sources": [
+    {
+     "title": "A música que esperou quase 20 anos por uma letra (Correio Braziliense)",
+     "url": "https://www.correiobraziliense.com.br/cbradar/a-musica-que-esperou-quase-20-anos-por-uma-letra-como-carinhoso-quase-morreu-engavetada-antes-de-virar-patrimonio/",
+     "license": "link only"
+    },
+    {
+     "title": "Pixinguinha e os 90 anos de Carinhoso (Migalhas)",
+     "url": "https://www.migalhas.com.br/depeso/58943/pixinguinha-e-os-90-anos-de-carinhoso",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "pt",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Histórias de canções",
+   "title": "Carinhoso: o choro que passou anos na gaveta",
+   "dek": "Como uma peça que o próprio Pixinguinha achava \"incompleta\" virou o segundo hino nacional do Brasil.",
+   "tags": [
+    "Carinhoso",
+    "Pixinguinha",
+    "choro",
+    "crase"
+   ],
+   "paragraphs": [
+    "Toda família brasileira tem uma música que aparece sem ser convidada: no aniversário da avó, no fim de uma roda de samba, no violão do tio que só sabe quatro acordes. Em muitas casas, essa música é \"Carinhoso\". Quase todo mundo reconhece a melodia nos primeiros compassos; pouca gente sabe que ela passou anos esquecida numa gaveta, porque o próprio autor tinha vergonha dela.",
+    "O autor era Alfredo da Rocha Vianna Júnior, o Pixinguinha, nascido em 23 de abril de 1897 e considerado por muitos o grande organizador da música popular brasileira. Por volta de 1917 — a data exata ainda é discutida pelos pesquisadores —, com uns vinte anos, ele compôs um choro diferente. O problema era a forma: a peça tinha só duas partes, e os choros da época deveriam ter três. Décadas depois, num depoimento ao Museu da Imagem e do Som do Rio, Pixinguinha contou que foi por isso que a guardou.",
+    "Quando enfim saiu da gaveta, \"Carinhoso\" ganhou uma gravação instrumental nos anos 1920 — e não agradou a todos. O crítico Cruz Cordeiro, da revista Phonoarte, achou que a introdução lembrava um foxtrote, e chegou-se a falar na \"jazzificação\" de Pixinguinha. Hoje a história soa irônica: justamente o que parecia estrangeiro demais virou símbolo do que há de mais brasileiro.",
+    "A virada veio em 1936. A cantora Heloísa Helena precisava de uma música nova para um espetáculo beneficente no Theatro Municipal do Rio de Janeiro e pediu socorro ao amigo Braguinha, também conhecido como João de Barro. Ele não tinha nada pronto, mas se ofereceu para escrever versos para aquela melodia antiga. Segundo o próprio Braguinha, a letra ficou pronta em uma noite — e o pagamento foi uma gravata italiana.",
+    "Em 28 de maio de 1937, Orlando Silva, um dos cantores mais populares do rádio, gravou a canção pela Victor, e \"Carinhoso\" foi a música mais tocada daquele ano. Desde então, foram mais de duzentas gravações, de Dalva de Oliveira e Elizeth Cardoso a Elis Regina, Paulinho da Viola e Marisa Monte; em 1950, houve até uma versão em inglês para o cinema. Não é à toa que muita gente a chama de \"segundo hino nacional\".",
+    "Ao ouvir, preste atenção à melodia, que sobe e desce com uma delicadeza quase de conversa, e ao contraste entre as duas partes — justamente aquelas que pareceram poucas ao jovem compositor. A letra de Braguinha fala de um amor terno, de um coração que se alegra só de ver a pessoa amada. E, se você precisar de uma desculpa para escutá-la de novo, lembre-se: 23 de abril, aniversário de Pixinguinha, é o Dia Nacional do Choro."
+   ],
+   "paragraphs_en": [
+    "Every Brazilian family has a song that shows up uninvited: at grandma's birthday, at the end of a samba circle, on the guitar of the uncle who only knows four chords. In many homes that song is \"Carinhoso\". Almost everyone recognises the melody in the first bars; few people know that it spent years forgotten in a drawer, because its own author was ashamed of it.",
+    "The author was Alfredo da Rocha Vianna Júnior, known as Pixinguinha, born on 23 April 1897 and considered by many the great organiser of Brazilian popular music. Around 1917 — researchers still debate the exact date — at about twenty, he composed an unusual choro. The problem was its form: the piece had only two parts, and choros of the time were supposed to have three. Decades later, in a testimony to Rio's Museum of Image and Sound, Pixinguinha said that this was why he put it away.",
+    "When it finally left the drawer, \"Carinhoso\" got an instrumental recording in the 1920s — and not everyone liked it. The critic Cruz Cordeiro, of the magazine Phonoarte, felt the introduction resembled a foxtrot, and people even spoke of Pixinguinha's \"jazzification\". Today the story sounds ironic: the very thing that seemed too foreign became a symbol of all that is most Brazilian.",
+    "The turning point came in 1936. The singer Heloísa Helena needed a new song for a charity show at the Theatro Municipal in Rio de Janeiro and turned for help to her friend Braguinha, also known as João de Barro. He had nothing ready, but offered to write words for that old melody. According to Braguinha himself, the lyrics were done in one night — and his payment was an Italian tie.",
+    "On 28 May 1937 Orlando Silva, one of the most popular radio singers, recorded the song for Victor, and \"Carinhoso\" was the most played song of that year. Since then there have been more than two hundred recordings, from Dalva de Oliveira and Elizeth Cardoso to Elis Regina, Paulinho da Viola and Marisa Monte; in 1950 there was even an English version for the cinema. No wonder many people call it the \"second national anthem\".",
+    "When you listen, pay attention to the melody, which rises and falls with an almost conversational delicacy, and to the contrast between the two parts — the very ones that seemed too few to the young composer. Braguinha's lyrics speak of a tender love, of a heart that rejoices just at the sight of the beloved. And if you need an excuse to hear it again, remember: 23 April, Pixinguinha's birthday, is National Choro Day."
+   ],
+   "paragraphs_zh": [
+    "每个巴西家庭都有一首不请自来的歌：在奶奶的生日会上，在桑巴圈的尾声，在只会四个和弦的叔叔的吉他上。在很多家里，这首歌就是《Carinhoso》。几乎人人听到开头几小节就认得出旋律；却很少有人知道，它曾在抽屉里被遗忘多年，因为作者本人觉得它拿不出手。",
+    "作者是小阿尔弗雷多·达罗沙·维安纳，人称皮欣吉尼亚，生于1897年4月23日，被许多人视为巴西流行音乐的伟大整理者。大约在1917年——确切日期研究者至今仍有争论——二十岁左右的他写了一首与众不同的肖罗。问题在于形式：这首曲子只有两个部分，而当时的肖罗应该有三个。几十年后，皮欣吉尼亚在里约图像与声音博物馆的口述访谈中说，正因如此他才把它收了起来。",
+    "当它终于离开抽屉，20世纪20年代有了一个器乐录音——但并非人人喜欢。《Phonoarte》杂志的评论家克鲁斯·科尔代罗认为前奏像狐步舞曲，甚至有人说皮欣吉尼亚“爵士化”了。今天看来颇具讽刺：当年显得太“洋”的东西，后来恰恰成了最巴西的象征。",
+    "转折出现在1936年。女歌手埃洛伊莎·埃莱娜要在里约热内卢市立剧院的一场慈善演出中唱一首新歌，便向朋友布拉吉尼亚（又名若昂·德巴罗）求助。他手头没有现成的作品，却主动提出为那段老旋律填词。据布拉吉尼亚本人说，歌词一个晚上就写好了——报酬是一条意大利领带。",
+    "1937年5月28日，当时最受欢迎的电台歌手之一奥兰多·席尔瓦在胜利唱片公司录下这首歌，《Carinhoso》成了那一年播放最多的歌曲。从那以后，它有了两百多个录音版本，从达尔娃·德奥利维拉、埃利泽特·卡多佐到埃利斯·雷吉娜、保利尼奥·达维奥拉和玛丽莎·蒙特；1950年甚至还有一个为电影制作的英文版。难怪很多人称它为“第二国歌”。",
+    "聆听时，请留意旋律——它起伏之间带着近乎说话般的细腻——还有两个部分之间的对比，正是当年让年轻作曲家觉得“太少”的那两个部分。布拉吉尼亚的歌词写的是一份温柔的爱：一颗只要看见心上人就欢喜的心。如果你需要一个再听一遍的理由，请记住：4月23日，皮欣吉尼亚的生日，是全国肖罗日。"
+   ],
+   "glossary": [
+    {
+     "w": "a gaveta",
+     "en": "drawer",
+     "zh": "抽屉"
+    },
+    {
+     "w": "o compasso",
+     "en": "bar (in music)",
+     "zh": "小节"
+    },
+    {
+     "w": "ter vergonha de",
+     "en": "to be ashamed/embarrassed of",
+     "zh": "为……感到难为情"
+    },
+    {
+     "w": "o depoimento",
+     "en": "testimony, recorded account",
+     "zh": "证词；口述"
+    },
+    {
+     "w": "agradar a",
+     "en": "to please",
+     "zh": "使……满意；讨……喜欢"
+    },
+    {
+     "w": "chegou-se a falar",
+     "en": "people even went as far as saying",
+     "zh": "人们甚至说起"
+    },
+    {
+     "w": "a virada",
+     "en": "turning point",
+     "zh": "转折"
+    },
+    {
+     "w": "beneficente",
+     "en": "charitable, for charity",
+     "zh": "慈善的"
+    },
+    {
+     "w": "pedir socorro",
+     "en": "to ask for help (lit. call for rescue)",
+     "zh": "求助"
+    },
+    {
+     "w": "não é à toa que",
+     "en": "it's no wonder that",
+     "zh": "难怪"
+    },
+    {
+     "w": "terno",
+     "en": "tender, gentle",
+     "zh": "温柔的"
+    }
+   ],
+   "grammar": "Crase (à) is the preposition \"a\" fused with the article \"a\". \"Prestar atenção\" asks for \"a\", so \"preste atenção à melodia\" (a + a melodia), but \"ao contraste\" with a masculine noun. A quick test: if a masculine noun would need \"ao\", the feminine one needs \"à\". The same happens in the fixed expression \"não é à toa\".",
+   "grammar_zh": "重音符号 à（crase）是介词 “a” 与阴性冠词 “a” 的合写。“prestar atenção” 要求介词 “a”，所以写 “preste atenção à melodia”（a + a melodia），而阳性名词则是 “ao contraste”。小测试：如果换成阳性名词要用 “ao”，阴性名词就要用 “à”。固定说法 “não é à toa” 里也是如此。",
+   "questions": [
+    "Por que Pixinguinha guardou \"Carinhoso\" por tantos anos?",
+    "Como Braguinha entrou na história da canção?",
+    "Na sua família, existe uma música que aparece em todas as festas? Qual?"
+   ],
+   "sources": [
+    {
+     "title": "A música que esperou quase 20 anos por uma letra (Correio Braziliense)",
+     "url": "https://www.correiobraziliense.com.br/cbradar/a-musica-que-esperou-quase-20-anos-por-uma-letra-como-carinhoso-quase-morreu-engavetada-antes-de-virar-patrimonio/",
+     "license": "link only"
+    },
+    {
+     "title": "Pixinguinha e os 90 anos de Carinhoso (Migalhas)",
+     "url": "https://www.migalhas.com.br/depeso/58943/pixinguinha-e-os-90-anos-de-carinhoso",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
