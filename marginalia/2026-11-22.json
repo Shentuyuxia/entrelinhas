@@ -1,104 +1,210 @@
 {
-  "date": "2026-11-22",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-22",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "feature",
+   "section": "Humanities, nature & science",
+   "title": "The bubble before the gene",
+   "dek": "Quanta's new series on the origin of life revisits an old, unfashionable idea: that before anything could copy itself, something had to be enclosed.",
+   "tags": [
+    "origin of life",
+    "Quanta",
+    "lipid world",
+    "concessive 'for all'"
+   ],
+   "paragraphs": [
+    "Most stories about how life began are stories about molecules that copy themselves. Quanta Magazine's November series on the origins of life makes room for a quieter rival, and in a piece by Perri Thaler the protagonist is not a gene at all but a wall. The starting observation is almost architectural: a modern cell runs something like a billion chemical reactions every second, and it can only do so because a membrane keeps the ingredients close together. Bruce Damer, an astrobiologist at UC Santa Cruz, argues that early chemistry faced the same problem of dilution, and that nothing much could happen until it had somewhere to gather.",
+    "The lipid-first hypothesis goes a step further than saying containers were useful; it proposes that the containers themselves were the first things to evolve. Lipids are well suited to the role, since each molecule is half drawn to water and half repelled by it, so that in water they arrange themselves into double-layered sheets that curl shut into spheres. Imagine two molecules inside such a bubble that speed up each other's production, so that the bubble grows and eventually splits, handing on roughly the same mix to its daughters. A stray third molecule slipping in plays the part of a mutation, and bubbles whose blend makes them grow faster gradually crowd out the rest.",
+    "The idea acquired its formal shape in 2000, when the geneticist Doron Lancet of the Weizmann Institute of Science and the computational biologist Daniel Segrè, now at Boston University, published a computer model in PNAS. Their simulated bubbles passed on their composition rather than a sequence, yet still varied and competed in the way natural selection requires. Damer and the biochemist David Deamer, also of UC Santa Cruz and a collaborator of the two modellers, later moved the scene to volcanic hot springs. Their hot spring hypothesis, published in Astrobiology in 2019, imagines pools drying out and refilling again and again, pressing molecules together between layers of lipid.",
+    "Not everyone is persuaded. Jack Szostak, the Nobel laureate at the University of Chicago who favours a beginning built on RNA, tells Quanta that a life made of lipids alone has never made sense to him, because no one has shown that such systems can actually evolve. He also points out that how simple lipids formed in the first place remains among the least developed parts of prebiotic chemistry, and a 2010 analysis in PNAS concluded that inheriting a rough mixture is too imprecise for selection to work on. For all his scepticism, though, Szostak grants the point on which the whole camp rests: without some kind of compartment, Darwinian evolution could not have operated.",
+    "That concession explains why Damer now says there is no longer a distinct lipid-world hypothesis. The bubble has been absorbed into almost every rival account, alongside other candidate vessels such as mineral walls of iron sulfide and coacervates, liquid droplets that hold chemistry together without any membrane. Across the series, Quanta describes a field that spent the early 2000s in bitter feuds between camps and is now being reshaped by younger researchers less attached to the question of which molecule came first.",
+    "Read with a humanist's eye, and this is interpretation rather than reporting, the debate has a familiar shape. A gene-centred story prizes the replicator, the heroic individual that reproduces itself, while the lipid story insists that nothing persists without a shared, bounded space in which relations can accumulate. Science settles such questions with evidence, not metaphors, and the evidence here is still thin. But it is worth noticing that the most stubborn dispute about our beginnings is, at bottom, an argument about whether the self or the commons came first."
+   ],
+   "glossary": [
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "feature",
-      "section": "Humanities, nature & science",
-      "title": "The bubble before the gene",
-      "dek": "Quanta's new series on the origin of life revisits an old, unfashionable idea: that before anything could copy itself, something had to be enclosed.",
-      "tags": [
-        "origin of life",
-        "Quanta",
-        "lipid world",
-        "concessive 'for all'"
-      ],
-      "paragraphs": [
-        "Most stories about how life began are stories about molecules that copy themselves. Quanta Magazine's November series on the origins of life makes room for a quieter rival, and in a piece by Perri Thaler the protagonist is not a gene at all but a wall. The starting observation is almost architectural: a modern cell runs something like a billion chemical reactions every second, and it can only do so because a membrane keeps the ingredients close together. Bruce Damer, an astrobiologist at UC Santa Cruz, argues that early chemistry faced the same problem of dilution, and that nothing much could happen until it had somewhere to gather.",
-        "The lipid-first hypothesis goes a step further than saying containers were useful; it proposes that the containers themselves were the first things to evolve. Lipids are well suited to the role, since each molecule is half drawn to water and half repelled by it, so that in water they arrange themselves into double-layered sheets that curl shut into spheres. Imagine two molecules inside such a bubble that speed up each other's production, so that the bubble grows and eventually splits, handing on roughly the same mix to its daughters. A stray third molecule slipping in plays the part of a mutation, and bubbles whose blend makes them grow faster gradually crowd out the rest.",
-        "The idea acquired its formal shape in 2000, when the geneticist Doron Lancet of the Weizmann Institute of Science and the computational biologist Daniel Segrè, now at Boston University, published a computer model in PNAS. Their simulated bubbles passed on their composition rather than a sequence, yet still varied and competed in the way natural selection requires. Damer and the biochemist David Deamer, also of UC Santa Cruz and a collaborator of the two modellers, later moved the scene to volcanic hot springs. Their hot spring hypothesis, published in Astrobiology in 2019, imagines pools drying out and refilling again and again, pressing molecules together between layers of lipid.",
-        "Not everyone is persuaded. Jack Szostak, the Nobel laureate at the University of Chicago who favours a beginning built on RNA, tells Quanta that a life made of lipids alone has never made sense to him, because no one has shown that such systems can actually evolve. He also points out that how simple lipids formed in the first place remains among the least developed parts of prebiotic chemistry, and a 2010 analysis in PNAS concluded that inheriting a rough mixture is too imprecise for selection to work on. For all his scepticism, though, Szostak grants the point on which the whole camp rests: without some kind of compartment, Darwinian evolution could not have operated.",
-        "That concession explains why Damer now says there is no longer a distinct lipid-world hypothesis. The bubble has been absorbed into almost every rival account, alongside other candidate vessels such as mineral walls of iron sulfide and coacervates, liquid droplets that hold chemistry together without any membrane. Across the series, Quanta describes a field that spent the early 2000s in bitter feuds between camps and is now being reshaped by younger researchers less attached to the question of which molecule came first.",
-        "Read with a humanist's eye, and this is interpretation rather than reporting, the debate has a familiar shape. A gene-centred story prizes the replicator, the heroic individual that reproduces itself, while the lipid story insists that nothing persists without a shared, bounded space in which relations can accumulate. Science settles such questions with evidence, not metaphors, and the evidence here is still thin. But it is worth noticing that the most stubborn dispute about our beginnings is, at bottom, an argument about whether the self or the commons came first."
-      ],
-      "glossary": [
-        {
-          "w": "dilution",
-          "en": "the weakening of a substance by spreading it through a larger volume",
-          "zh": "稀释"
-        },
-        {
-          "w": "to crowd out",
-          "en": "to push aside or replace something by taking up the available space or resources",
-          "zh": "挤出；排挤"
-        },
-        {
-          "w": "to acquire its formal shape",
-          "en": "to be stated precisely and systematically for the first time",
-          "zh": "成形；得到正式表述"
-        },
-        {
-          "w": "to be persuaded",
-          "en": "to be convinced by an argument",
-          "zh": "被说服"
-        },
-        {
-          "w": "prebiotic",
-          "en": "relating to the chemistry that existed before living things",
-          "zh": "前生命的；生命起源前的"
-        },
-        {
-          "w": "to grant a point",
-          "en": "to admit that part of an opponent's argument is correct",
-          "zh": "承认某一论点"
-        },
-        {
-          "w": "concession",
-          "en": "an admission made in an argument, often reluctantly",
-          "zh": "让步；承认"
-        },
-        {
-          "w": "to be absorbed into",
-          "en": "to become part of something larger and lose a separate identity",
-          "zh": "被吸收进；被并入"
-        },
-        {
-          "w": "feud",
-          "en": "a long and bitter quarrel between groups",
-          "zh": "长期不和；宿怨"
-        },
-        {
-          "w": "to prize",
-          "en": "to value something very highly",
-          "zh": "珍视；推崇"
-        },
-        {
-          "w": "at bottom",
-          "en": "fundamentally; when everything is considered",
-          "zh": "归根结底"
-        }
-      ],
-      "grammar": "Look at 'For all his scepticism, Szostak grants the point…'. Here 'for all + noun phrase' is concessive and means 'despite': it admits something that seems to point one way and then states a contrary result. It is more literary than 'although', often paired with 'though' or 'still' in the main clause, and the noun is usually a quality or circumstance (for all its flaws, for all their wealth).",
-      "grammar_zh": "注意 'For all his scepticism, Szostak grants the point…'。这里 'for all + 名词短语' 表示让步，相当于 'despite'（尽管）：先承认一个看似指向某个方向的事实，再说出相反的结果。它比 'although' 更书面，主句里常配 'though' 或 'still'，名词多为品质或情况，如 for all its flaws、for all their wealth。",
-      "questions": [
-        "Why does the lipid-first hypothesis treat inheritance of composition, rather than of a sequence, as enough for natural selection, and what is the main objection to that view?",
-        "What does Szostak's concession reveal about how scientific rivals can disagree on origins yet agree on conditions?",
-        "The last paragraph reads the debate as one about 'the self or the commons'. Is this metaphor illuminating or misleading?"
-      ],
-      "sources": [
-        {
-          "title": "The Case for a Bubble at Life's Start (Perri Thaler, Quanta Magazine, 10 Nov 2026)",
-          "url": "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
-          "license": "link only"
-        },
-        {
-          "title": "The Evolving Story of How Chemistry Became Biology (Yasemin Saplakoglu, Quanta Magazine, 12 Nov 2026)",
-          "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
-          "license": "link only"
-        }
-      ]
+     "w": "dilution",
+     "en": "the weakening of a substance by spreading it through a larger volume",
+     "zh": "稀释"
+    },
+    {
+     "w": "to crowd out",
+     "en": "to push aside or replace something by taking up the available space or resources",
+     "zh": "挤出；排挤"
+    },
+    {
+     "w": "to acquire its formal shape",
+     "en": "to be stated precisely and systematically for the first time",
+     "zh": "成形；得到正式表述"
+    },
+    {
+     "w": "to be persuaded",
+     "en": "to be convinced by an argument",
+     "zh": "被说服"
+    },
+    {
+     "w": "prebiotic",
+     "en": "relating to the chemistry that existed before living things",
+     "zh": "前生命的；生命起源前的"
+    },
+    {
+     "w": "to grant a point",
+     "en": "to admit that part of an opponent's argument is correct",
+     "zh": "承认某一论点"
+    },
+    {
+     "w": "concession",
+     "en": "an admission made in an argument, often reluctantly",
+     "zh": "让步；承认"
+    },
+    {
+     "w": "to be absorbed into",
+     "en": "to become part of something larger and lose a separate identity",
+     "zh": "被吸收进；被并入"
+    },
+    {
+     "w": "feud",
+     "en": "a long and bitter quarrel between groups",
+     "zh": "长期不和；宿怨"
+    },
+    {
+     "w": "to prize",
+     "en": "to value something very highly",
+     "zh": "珍视；推崇"
+    },
+    {
+     "w": "at bottom",
+     "en": "fundamentally; when everything is considered",
+     "zh": "归根结底"
     }
-  ]
+   ],
+   "grammar": "Look at 'For all his scepticism, Szostak grants the point…'. Here 'for all + noun phrase' is concessive and means 'despite': it admits something that seems to point one way and then states a contrary result. It is more literary than 'although', often paired with 'though' or 'still' in the main clause, and the noun is usually a quality or circumstance (for all its flaws, for all their wealth).",
+   "grammar_zh": "注意 'For all his scepticism, Szostak grants the point…'。这里 'for all + 名词短语' 表示让步，相当于 'despite'（尽管）：先承认一个看似指向某个方向的事实，再说出相反的结果。它比 'although' 更书面，主句里常配 'though' 或 'still'，名词多为品质或情况，如 for all its flaws、for all their wealth。",
+   "questions": [
+    "Why does the lipid-first hypothesis treat inheritance of composition, rather than of a sequence, as enough for natural selection, and what is the main objection to that view?",
+    "What does Szostak's concession reveal about how scientific rivals can disagree on origins yet agree on conditions?",
+    "The last paragraph reads the debate as one about 'the self or the commons'. Is this metaphor illuminating or misleading?"
+   ],
+   "sources": [
+    {
+     "title": "The Case for a Bubble at Life's Start (Perri Thaler, Quanta Magazine, 10 Nov 2026)",
+     "url": "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
+     "license": "link only"
+    },
+    {
+     "title": "The Evolving Story of How Chemistry Became Biology (Yasemin Saplakoglu, Quanta Magazine, 12 Nov 2026)",
+     "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Lugares e gente",
+   "title": "Água grande na fronteira",
+   "dek": "No Paraná, um rio enorme cai em quase trezentas quedas de água. E os quatis esperam o seu lanche!",
+   "tags": [
+    "Paraná",
+    "Cataratas do Iguaçu",
+    "preposições"
+   ],
+   "paragraphs": [
+    "As Cataratas do Iguaçu ficam no Paraná, no Sul do Brasil, na fronteira com a Argentina. O nome Iguaçu vem do guarani e quer dizer \"água grande\".",
+    "São mais ou menos 275 quedas de água. A água cai de mais de 60 metros. O barulho é forte, e no ar tem muitos arco-íris.",
+    "O Parque Nacional do Iguaçu existe desde 10 de janeiro de 1939. No parque tem uma floresta verde, com tucanos coloridos e até onças.",
+    "A cidade perto das cataratas é Foz do Iguaçu. Muita gente da cidade trabalha com os turistas, nos hotéis e nos restaurantes.",
+    "E cuidado com os quatis! O quati é um animal pequeno e marrom, com um nariz comprido. Ele adora a comida dos turistas — um pouco como o Tito na cozinha da Ana!"
+   ],
+   "paragraphs_en": [
+    "The Iguaçu Falls are in Paraná, in the South of Brazil, on the border with Argentina. The name Iguaçu comes from Guaraní and means \"great water\".",
+    "There are about 275 waterfalls. The water falls from more than 60 metres. The noise is loud, and there are lots of rainbows in the air.",
+    "Iguaçu National Park has existed since 10 January 1939. In the park there is a green forest, with colourful toucans and even jaguars.",
+    "The town near the falls is Foz do Iguaçu. Many people from the town work with the tourists, in the hotels and restaurants.",
+    "And watch out for the coatis! The coati is a small brown animal with a long nose. It loves the tourists' food — a bit like Tito in Ana's kitchen!"
+   ],
+   "paragraphs_zh": [
+    "伊瓜苏瀑布位于巴西南部的巴拉那州，在和阿根廷的边境上。“伊瓜苏”这个名字来自瓜拉尼语，意思是“大水”。",
+    "这里大约有275道瀑布。水从60多米高的地方落下。声音很大，空中有很多彩虹。",
+    "伊瓜苏国家公园从1939年1月10日起就存在了。公园里有一片绿色的森林，有五颜六色的巨嘴鸟，甚至还有美洲豹。",
+    "离瀑布很近的城市是伊瓜苏市（Foz do Iguaçu）。城里很多人为游客工作，在酒店和餐馆里。",
+    "还要小心长鼻浣熊！长鼻浣熊是一种棕色的小动物，鼻子很长。它特别喜欢游客的食物——有点像安娜厨房里的Tito！"
+   ],
+   "paragraphs_de": [
+    "Die Iguaçu-Wasserfälle liegen in Paraná, im Süden Brasiliens, an der Grenze zu Argentinien. Der Name Iguaçu kommt aus dem Guaraní und bedeutet „großes Wasser“.",
+    "Es sind ungefähr 275 Wasserfälle. Das Wasser fällt aus mehr als 60 Metern Höhe. Es ist laut, und in der Luft gibt es viele Regenbögen.",
+    "Den Iguaçu-Nationalpark gibt es seit dem 10. Januar 1939. Im Park gibt es einen grünen Wald mit bunten Tukanen und sogar Jaguaren.",
+    "Die Stadt nahe den Wasserfällen ist Foz do Iguaçu. Viele Leute aus der Stadt arbeiten mit den Touristen, in den Hotels und Restaurants.",
+    "Und Vorsicht vor den Nasenbären! Der Nasenbär ist ein kleines braunes Tier mit einer langen Nase. Er liebt das Essen der Touristen – ein bisschen wie Tito in Anas Küche!"
+   ],
+   "glossary": [
+    {
+     "w": "a queda de água",
+     "en": "waterfall — 275 quedas de água",
+     "zh": "瀑布",
+     "de": "der Wasserfall",
+     "pt": "um lugar onde a água do rio cai de cima"
+    },
+    {
+     "w": "a fronteira",
+     "en": "border — na fronteira com a Argentina",
+     "zh": "边境；国界",
+     "de": "die Grenze",
+     "pt": "a linha entre dois países"
+    },
+    {
+     "w": "o arco-íris (os arco-íris)",
+     "en": "rainbow — no ar tem muitos arco-íris",
+     "zh": "彩虹",
+     "de": "der Regenbogen",
+     "pt": "as cores no céu depois da chuva ou perto da água"
+    },
+    {
+     "w": "a floresta",
+     "en": "forest — uma floresta verde",
+     "zh": "森林",
+     "de": "der Wald",
+     "pt": "um lugar com muitas, muitas árvores"
+    },
+    {
+     "w": "a onça",
+     "en": "jaguar — tucanos coloridos e até onças",
+     "zh": "美洲豹",
+     "de": "der Jaguar",
+     "pt": "um gato muito grande e forte da floresta"
+    },
+    {
+     "w": "o quati",
+     "en": "coati — O quati é pequeno e marrom.",
+     "zh": "长鼻浣熊",
+     "de": "der Nasenbär",
+     "pt": "um animal pequeno, marrom, com um nariz comprido"
+    }
+   ],
+   "grammar": "Prepositions + article tell you where: no Paraná (em + o), na fronteira (em + a), nos hotéis (em + os). De + article says from or of: a comida dos turistas, perto das cataratas.",
+   "grammar_zh": "介词加冠词表示“在哪里”：no Paraná（em + o，在巴拉那州），na fronteira（em + a，在边境），nos hotéis（em + os，在酒店里）。de 加冠词表示“……的”或“从……”：a comida dos turistas（游客的食物），perto das cataratas（在瀑布附近）。",
+   "grammar_de": "Präposition + Artikel sagt, wo: no Paraná (em + o, in Paraná), na fronteira (em + a, an der Grenze), nos hotéis (em + os, in den Hotels). De + Artikel heißt „von“ oder „des/der“: a comida dos turistas (das Essen der Touristen), perto das cataratas (nahe den Wasserfällen).",
+   "grammar_pt": "Em + artigo diz onde: no Paraná (em + o), na fronteira (em + a), nos hotéis (em + os). De + artigo diz de quem ou de onde: a comida dos turistas, perto das cataratas.",
+   "questions": [
+    "Onde ficam as Cataratas do Iguaçu? Com qual país é a fronteira?",
+    "Como é o quati? O que ele adora?",
+    "E você? Você gosta de cachoeiras e florestas? Qual lugar você quer visitar no Brasil?"
+   ],
+   "sources": [
+    {
+     "title": "Iguaçu National Park (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Igua%C3%A7u_National_Park",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "title": "Iguaçu Falls (Encyclopaedia Britannica)",
+     "url": "https://www.britannica.com/place/Iguacu-Falls",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
 }
