@@ -1,0 +1,84 @@
+{
+ "date": "2026-11-23",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "A2",
+   "kind": "story",
+   "section": "Diary",
+   "series": {
+    "name": "Mia's Diary",
+    "episode": 4
+   },
+   "title": "Mia's Diary 4: My first window display",
+   "dek": "Monday: Mia has a new job at the bookshop, and she has never done it before.",
+   "paragraphs": [
+    "Monday, 23 November 2026. It is cold today, and I have just come home from work. I have made a big cup of tea, so now I can write.",
+    "This morning Helen asked me, “Mia, have you ever made a window display?” “No, never,” I said. “Good,” she said. “Today is your first time!” The theme is “Winter Stories”.",
+    "I have already chosen ten books. There is a book about snow, a story about a polar bear, and Sam's favourite book about the sea. Sam has just helped me carry the boxes to the window.",
+    "I felt a little nervous. I have never done anything like this before! Helen said, “Don't worry. Have you ever seen a bad window on Park Street? No? Then yours will be fine.”",
+    "At four o'clock, a woman stopped and looked at the window. Then she came in and bought the polar bear book. Helen smiled. “You have already sold a book, and you haven't even finished!”",
+    "On my way home I met Mr Patel. Biscuit has just jumped in a puddle, and he was very muddy. “Have you ever seen such a dirty dog?” asked Mr Patel. “No, never!” I said. Tomorrow I will buy some small lights for the window."
+   ],
+   "paragraphs_zh": [
+    "2026年11月23日，星期一。今天很冷，我刚刚下班回到家。我已经泡了一大杯茶，所以现在可以写日记了。",
+    "今天早上，海伦问我：“米娅，你做过橱窗展示吗？”“没有，从来没做过。”我说。“很好，”她说，“今天是你的第一次！”主题是“冬日故事”。",
+    "我已经选好了十本书。有一本关于雪的书，一个关于北极熊的故事，还有萨姆最爱的那本关于大海的书。萨姆刚刚帮我把箱子搬到橱窗那边。",
+    "我有一点紧张。我以前从来没做过这样的事！海伦说：“别担心。你在公园街上见过难看的橱窗吗？没有吧？那你的也不会差。”",
+    "四点钟，一位女士停下来看橱窗。然后她走进店里，买了那本北极熊的书。海伦笑了。“你已经卖出一本书了，而且你还没做完呢！”",
+    "回家的路上，我遇到了帕特尔先生。饼干刚刚跳进了一个水坑，浑身是泥。“你见过这么脏的狗吗？”帕特尔先生问。“没有，从来没见过！”我说。明天我要买一些小灯挂在橱窗里。"
+   ],
+   "glossary": [
+    {
+     "w": "window display",
+     "en": "the things a shop puts in its front window for people to see",
+     "zh": "橱窗展示"
+    },
+    {
+     "w": "theme",
+     "en": "the main idea of something",
+     "zh": "主题"
+    },
+    {
+     "w": "nervous",
+     "en": "a little afraid or worried before something important",
+     "zh": "紧张的"
+    },
+    {
+     "w": "carry",
+     "en": "to take something from one place to another in your hands",
+     "zh": "搬；提"
+    },
+    {
+     "w": "polar bear",
+     "en": "a big white bear that lives in the cold north",
+     "zh": "北极熊"
+    },
+    {
+     "w": "puddle",
+     "en": "a small pool of water on the ground after rain",
+     "zh": "水坑"
+    },
+    {
+     "w": "muddy",
+     "en": "covered in wet earth",
+     "zh": "满是泥的"
+    },
+    {
+     "w": "not even",
+     "en": "used to say something is surprising or very small",
+     "zh": "甚至还没……"
+    }
+   ],
+   "grammar": "Use the present perfect (have/has + past participle) to talk about your life up to now, or about something that happened a short time ago. Ever and never show experience: “Have you ever made a window display?” “No, never.” Just means a very short time ago, and already means earlier than you thought: “Sam has just helped me”, “I have already chosen ten books”.",
+   "grammar_zh": "现在完成时（have/has + 过去分词）用来说“到现在为止”的经历，或刚刚发生的事。ever 和 never 表示经历：“Have you ever made a window display?”（你做过橱窗展示吗？）“No, never.”（没有，从来没有。）just 表示“刚刚”，already 表示“已经”：“Sam has just helped me”（萨姆刚刚帮了我），“I have already chosen ten books”（我已经选好了十本书）。和汉语的“过”“已经”“刚”有点像，但英语不用具体的过去时间词，比如不能说 yesterday。",
+   "questions": [
+    "What has Mia never done before?",
+    "Why does Helen smile at four o'clock?",
+    "And you? Have you ever done something new at work or school? What was it?"
+   ],
+   "sources": []
+  }
+ ]
+}

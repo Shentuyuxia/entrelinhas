@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-22T19:00:09+00:00",
+ "updated": "2026-11-23T05:18:26+00:00",
  "days": [
+  {
+   "date": "2026-11-23",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "Mia's Diary 4: My first window display",
+     "kind": "story",
+     "level": "A2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-22",
    "items": [
