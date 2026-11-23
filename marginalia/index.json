@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T05:18:26+00:00",
+ "updated": "2026-11-23T05:20:54+00:00",
  "days": [
   {
    "date": "2026-11-23",
@@ -10,6 +10,14 @@
      "title": "Mia's Diary 4: My first window display",
      "kind": "story",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "en",
+     "title": "The cardiologist and the gig",
+     "kind": "essay",
+     "level": "C2",
      "hour": null
     }
    ]

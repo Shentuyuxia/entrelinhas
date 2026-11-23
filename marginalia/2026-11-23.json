@@ -1,84 +1,173 @@
 {
- "date": "2026-11-23",
- "createdBy": "claude",
- "items": [
-  {
-   "lang": "en",
-   "level": "A2",
-   "kind": "story",
-   "section": "Diary",
-   "series": {
-    "name": "Mia's Diary",
-    "episode": 4
-   },
-   "title": "Mia's Diary 4: My first window display",
-   "dek": "Monday: Mia has a new job at the bookshop, and she has never done it before.",
-   "paragraphs": [
-    "Monday, 23 November 2026. It is cold today, and I have just come home from work. I have made a big cup of tea, so now I can write.",
-    "This morning Helen asked me, “Mia, have you ever made a window display?” “No, never,” I said. “Good,” she said. “Today is your first time!” The theme is “Winter Stories”.",
-    "I have already chosen ten books. There is a book about snow, a story about a polar bear, and Sam's favourite book about the sea. Sam has just helped me carry the boxes to the window.",
-    "I felt a little nervous. I have never done anything like this before! Helen said, “Don't worry. Have you ever seen a bad window on Park Street? No? Then yours will be fine.”",
-    "At four o'clock, a woman stopped and looked at the window. Then she came in and bought the polar bear book. Helen smiled. “You have already sold a book, and you haven't even finished!”",
-    "On my way home I met Mr Patel. Biscuit has just jumped in a puddle, and he was very muddy. “Have you ever seen such a dirty dog?” asked Mr Patel. “No, never!” I said. Tomorrow I will buy some small lights for the window."
-   ],
-   "paragraphs_zh": [
-    "2026年11月23日，星期一。今天很冷，我刚刚下班回到家。我已经泡了一大杯茶，所以现在可以写日记了。",
-    "今天早上，海伦问我：“米娅，你做过橱窗展示吗？”“没有，从来没做过。”我说。“很好，”她说，“今天是你的第一次！”主题是“冬日故事”。",
-    "我已经选好了十本书。有一本关于雪的书，一个关于北极熊的故事，还有萨姆最爱的那本关于大海的书。萨姆刚刚帮我把箱子搬到橱窗那边。",
-    "我有一点紧张。我以前从来没做过这样的事！海伦说：“别担心。你在公园街上见过难看的橱窗吗？没有吧？那你的也不会差。”",
-    "四点钟，一位女士停下来看橱窗。然后她走进店里，买了那本北极熊的书。海伦笑了。“你已经卖出一本书了，而且你还没做完呢！”",
-    "回家的路上，我遇到了帕特尔先生。饼干刚刚跳进了一个水坑，浑身是泥。“你见过这么脏的狗吗？”帕特尔先生问。“没有，从来没见过！”我说。明天我要买一些小灯挂在橱窗里。"
-   ],
-   "glossary": [
+  "date": "2026-11-23",
+  "createdBy": "claude",
+  "items": [
     {
-     "w": "window display",
-     "en": "the things a shop puts in its front window for people to see",
-     "zh": "橱窗展示"
+      "lang": "en",
+      "level": "A2",
+      "kind": "story",
+      "section": "Diary",
+      "series": {
+        "name": "Mia's Diary",
+        "episode": 4
+      },
+      "title": "Mia's Diary 4: My first window display",
+      "dek": "Monday: Mia has a new job at the bookshop, and she has never done it before.",
+      "paragraphs": [
+        "Monday, 23 November 2026. It is cold today, and I have just come home from work. I have made a big cup of tea, so now I can write.",
+        "This morning Helen asked me, “Mia, have you ever made a window display?” “No, never,” I said. “Good,” she said. “Today is your first time!” The theme is “Winter Stories”.",
+        "I have already chosen ten books. There is a book about snow, a story about a polar bear, and Sam's favourite book about the sea. Sam has just helped me carry the boxes to the window.",
+        "I felt a little nervous. I have never done anything like this before! Helen said, “Don't worry. Have you ever seen a bad window on Park Street? No? Then yours will be fine.”",
+        "At four o'clock, a woman stopped and looked at the window. Then she came in and bought the polar bear book. Helen smiled. “You have already sold a book, and you haven't even finished!”",
+        "On my way home I met Mr Patel. Biscuit has just jumped in a puddle, and he was very muddy. “Have you ever seen such a dirty dog?” asked Mr Patel. “No, never!” I said. Tomorrow I will buy some small lights for the window."
+      ],
+      "paragraphs_zh": [
+        "2026年11月23日，星期一。今天很冷，我刚刚下班回到家。我已经泡了一大杯茶，所以现在可以写日记了。",
+        "今天早上，海伦问我：“米娅，你做过橱窗展示吗？”“没有，从来没做过。”我说。“很好，”她说，“今天是你的第一次！”主题是“冬日故事”。",
+        "我已经选好了十本书。有一本关于雪的书，一个关于北极熊的故事，还有萨姆最爱的那本关于大海的书。萨姆刚刚帮我把箱子搬到橱窗那边。",
+        "我有一点紧张。我以前从来没做过这样的事！海伦说：“别担心。你在公园街上见过难看的橱窗吗？没有吧？那你的也不会差。”",
+        "四点钟，一位女士停下来看橱窗。然后她走进店里，买了那本北极熊的书。海伦笑了。“你已经卖出一本书了，而且你还没做完呢！”",
+        "回家的路上，我遇到了帕特尔先生。饼干刚刚跳进了一个水坑，浑身是泥。“你见过这么脏的狗吗？”帕特尔先生问。“没有，从来没见过！”我说。明天我要买一些小灯挂在橱窗里。"
+      ],
+      "glossary": [
+        {
+          "w": "window display",
+          "en": "the things a shop puts in its front window for people to see",
+          "zh": "橱窗展示"
+        },
+        {
+          "w": "theme",
+          "en": "the main idea of something",
+          "zh": "主题"
+        },
+        {
+          "w": "nervous",
+          "en": "a little afraid or worried before something important",
+          "zh": "紧张的"
+        },
+        {
+          "w": "carry",
+          "en": "to take something from one place to another in your hands",
+          "zh": "搬；提"
+        },
+        {
+          "w": "polar bear",
+          "en": "a big white bear that lives in the cold north",
+          "zh": "北极熊"
+        },
+        {
+          "w": "puddle",
+          "en": "a small pool of water on the ground after rain",
+          "zh": "水坑"
+        },
+        {
+          "w": "muddy",
+          "en": "covered in wet earth",
+          "zh": "满是泥的"
+        },
+        {
+          "w": "not even",
+          "en": "used to say something is surprising or very small",
+          "zh": "甚至还没……"
+        }
+      ],
+      "grammar": "Use the present perfect (have/has + past participle) to talk about your life up to now, or about something that happened a short time ago. Ever and never show experience: “Have you ever made a window display?” “No, never.” Just means a very short time ago, and already means earlier than you thought: “Sam has just helped me”, “I have already chosen ten books”.",
+      "grammar_zh": "现在完成时（have/has + 过去分词）用来说“到现在为止”的经历，或刚刚发生的事。ever 和 never 表示经历：“Have you ever made a window display?”（你做过橱窗展示吗？）“No, never.”（没有，从来没有。）just 表示“刚刚”，already 表示“已经”：“Sam has just helped me”（萨姆刚刚帮了我），“I have already chosen ten books”（我已经选好了十本书）。和汉语的“过”“已经”“刚”有点像，但英语不用具体的过去时间词，比如不能说 yesterday。",
+      "questions": [
+        "What has Mia never done before?",
+        "Why does Helen smile at four o'clock?",
+        "And you? Have you ever done something new at work or school? What was it?"
+      ],
+      "sources": []
     },
     {
-     "w": "theme",
-     "en": "the main idea of something",
-     "zh": "主题"
-    },
-    {
-     "w": "nervous",
-     "en": "a little afraid or worried before something important",
-     "zh": "紧张的"
-    },
-    {
-     "w": "carry",
-     "en": "to take something from one place to another in your hands",
-     "zh": "搬；提"
-    },
-    {
-     "w": "polar bear",
-     "en": "a big white bear that lives in the cold north",
-     "zh": "北极熊"
-    },
-    {
-     "w": "puddle",
-     "en": "a small pool of water on the ground after rain",
-     "zh": "水坑"
-    },
-    {
-     "w": "muddy",
-     "en": "covered in wet earth",
-     "zh": "满是泥的"
-    },
-    {
-     "w": "not even",
-     "en": "used to say something is surprising or very small",
-     "zh": "甚至还没……"
+      "lang": "en",
+      "level": "C2",
+      "kind": "essay",
+      "section": "Society & Political Economy",
+      "title": "The cardiologist and the gig",
+      "dek": "In Rest of World, the scholar Julián Posada argues that AI is not so much abolishing skilled work as breaking it into piecework, and that the template was drawn years ago in Venezuela.",
+      "tags": [
+        "labour & AI",
+        "Rest of World",
+        "platform work",
+        "concessive 'however'"
+      ],
+      "paragraphs": [
+        "The usual fear about artificial intelligence is that it will make professionals redundant. Julián Posada, an assistant professor at Yale and the author of a book on what he calls platform extractivism, proposes a less cinematic but arguably grimmer outcome in an essay for Rest of World published on 19 November. Expertise, he suggests, is not disappearing; it is being repackaged as gig work, priced task by task and terminable at a click.",
+        "The figures he gathers make the hierarchy plain. Outlier, a recruiting platform run by Scale AI, advertised rates of up to 180 dollars an hour for American cardiologists to write cardiac scenarios and rank the answers of AI models. Comparable work in Tagalog was listed at up to 7.50 dollars an hour, and in Swahili at up to 12.50. Companies that once sought the cheapest labour they could find now court physicians, lawyers and people with doctorates as well.",
+        "Posada's argument rests on six years of interviews, most of them in Venezuela, where the economic collapse produced a vast pool of educated people willing to label data for dollars. One former computer science teacher, whom he calls Rogelio, worked alongside his teenage son on platforms such as Hive and Scale's Remotasks; the boy earned 18 cents for a few hours, the father just over two dollars on his first day. A lucrative task briefly lifted the family's takings to 20 dollars in a single day in December 2020, but by early 2021 it had vanished, and their earnings slipped below the five-dollar weekly minimum Hive required before paying out.",
+        "What follows, in Posada's telling, is a recognisable cycle: pay generously to assemble a workforce, then trim rates and move elsewhere. Remotasks ended its hourly programme in Venezuela in 2021, and in March 2024 it shut down in Kenya, Nigeria and Pakistan, citing security protocols; Scale later conceded that Kenyan workers never received the advance notice it said had been sent. The platforms' terms of service, he notes, let the company withhold or delay payment at its own determination and deactivate accounts without warning.",
+        "The newer, credentialed recruits appear to be meeting the same logic. Posada draws on reporting by Josh Dzieza, who spoke with more than thirty laid-off lawyers, scientists and screenwriters and heard of mounting demands, shrinking time allowances and falling pay over the life of a project. In one case a designer tagging videos for Meta at 21 dollars an hour lost the work over scope changes, only for the same job to reappear under another name at 16 dollars.",
+        "Accountability, meanwhile, dissolves along the supply chain. At a 2024 meeting convened by Partnership on AI and the Fairwork project, the AI firms said they employed no data workers, the outsourcers said their prices were dictated by the AI firms, and no workers were in the room. Courts have begun to intervene, from a Kenyan ruling in 2023 that briefly halted the dismissal of 260 Facebook moderators to a proposed settlement over Scale's platforms and a pending class action alleging that the platform Mercor misclassified more than 30,000 professionals; Scale denies wrongdoing, and the Mercor case is unresolved.",
+        "Posada's sharpest point is that the cardiologist and the Venezuelan teacher now share a condition, however far apart their pay. Neither controls the rate, and either can watch a task evaporate overnight. Read from the left, the essay recasts the AI debate as an old question of labour power rather than a new one about machines: the issue is not whether skill survives, but who gets to set its price."
+      ],
+      "glossary": [
+        {
+          "w": "piecework",
+          "en": "work paid by the unit or task completed rather than by time",
+          "zh": "计件工作"
+        },
+        {
+          "w": "terminable at a click",
+          "en": "able to be ended instantly and without formality",
+          "zh": "一点即可终止"
+        },
+        {
+          "w": "to court (someone)",
+          "en": "to try to attract or win over",
+          "zh": "招揽；争取"
+        },
+        {
+          "w": "takings",
+          "en": "the money earned from work or sales over a period",
+          "zh": "收入；进账"
+        },
+        {
+          "w": "to concede",
+          "en": "to admit, often reluctantly, that something is true",
+          "zh": "（勉强）承认"
+        },
+        {
+          "w": "at its own determination",
+          "en": "according to its own judgement, without external check",
+          "zh": "由其自行决定"
+        },
+        {
+          "w": "credentialed",
+          "en": "holding formal qualifications such as degrees or licences",
+          "zh": "有资质的；有学历证书的"
+        },
+        {
+          "w": "to dissolve along the supply chain",
+          "en": "to disappear as responsibility is passed between linked firms",
+          "zh": "在供应链中层层消散"
+        },
+        {
+          "w": "to misclassify",
+          "en": "to label workers wrongly, especially as contractors instead of employees",
+          "zh": "错误归类（雇员身份）"
+        },
+        {
+          "w": "labour power",
+          "en": "workers' collective capacity to shape pay and conditions",
+          "zh": "劳工力量；劳动者议价能力"
+        }
+      ],
+      "grammar": "The final paragraph uses 'however' as a concessive adverb before an adjective or adverb: 'however far apart their pay'. It means 'no matter how far apart their pay is', and the verb 'to be' is often dropped in formal writing. The structure is 'however + adjective/adverb (+ subject + verb)', as in 'however skilled they are' or 'however hard she tried'.",
+      "grammar_zh": "最后一段的 'however far apart their pay' 中，however 是让步副词，后接形容词或副词，意思是「无论……多么……」。正式文体中常省略 be 动词，完整形式是 'however far apart their pay is'。结构为「however + 形容词/副词（+ 主语 + 谓语）」，例如 'however skilled they are'（无论他们多有技能）。",
+      "questions": [
+        "Why does Posada locate the origins of the pattern in Venezuela rather than in Silicon Valley?",
+        "What does the 2024 meeting reveal about how responsibility is distributed between AI firms and outsourcers?",
+        "Is 'extractivism' a convincing metaphor for data work, given that a platform can move tasks in a way an oil field cannot?"
+      ],
+      "sources": [
+        {
+          "title": "Julián Posada, 'AI isn't replacing your job. It's turning it into low-paid gig work.' Rest of World, 19 November 2026",
+          "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+          "license": "link only"
+        }
+      ]
     }
-   ],
-   "grammar": "Use the present perfect (have/has + past participle) to talk about your life up to now, or about something that happened a short time ago. Ever and never show experience: “Have you ever made a window display?” “No, never.” Just means a very short time ago, and already means earlier than you thought: “Sam has just helped me”, “I have already chosen ten books”.",
-   "grammar_zh": "现在完成时（have/has + 过去分词）用来说“到现在为止”的经历，或刚刚发生的事。ever 和 never 表示经历：“Have you ever made a window display?”（你做过橱窗展示吗？）“No, never.”（没有，从来没有。）just 表示“刚刚”，already 表示“已经”：“Sam has just helped me”（萨姆刚刚帮了我），“I have already chosen ten books”（我已经选好了十本书）。和汉语的“过”“已经”“刚”有点像，但英语不用具体的过去时间词，比如不能说 yesterday。",
-   "questions": [
-    "What has Mia never done before?",
-    "Why does Helen smile at four o'clock?",
-    "And you? Have you ever done something new at work or school? What was it?"
-   ],
-   "sources": []
-  }
- ]
+  ]
 }
