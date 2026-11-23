@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T05:20:54+00:00",
+ "updated": "2026-11-23T16:47:54+00:00",
  "days": [
   {
    "date": "2026-11-23",
@@ -18,6 +18,22 @@
      "title": "The cardiologist and the gig",
      "kind": "essay",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "En Antigua Guatemala: ¿dónde está el banco?",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "es",
+     "title": "Galápagos: islas donde los animales no tienen miedo",
+     "kind": "feature",
+     "level": "A2",
      "hour": null
     }
    ]
