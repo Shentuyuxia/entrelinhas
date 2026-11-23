@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:47:54+00:00",
+ "updated": "2026-11-23T18:54:16+00:00",
  "days": [
   {
    "date": "2026-11-23",
@@ -34,6 +34,14 @@
      "title": "Galápagos: islas donde los animales no tienen miedo",
      "kind": "feature",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "A aluna nova",
+     "kind": "story",
+     "level": "A1",
      "hour": null
     }
    ]

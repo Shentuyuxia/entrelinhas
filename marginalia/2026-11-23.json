@@ -370,6 +370,110 @@
     "¿Y tú? ¿Qué animal quieres ver en un viaje?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 14
+   },
+   "title": "A aluna nova",
+   "dek": "Segunda-feira: uma aluna nova na aula de Letras — e ela conhece muito bem um gato laranja.",
+   "tags": [
+    "segunda-feira",
+    "estudos e profissão",
+    "perguntas",
+    "há quanto tempo?"
+   ],
+   "paragraphs": [
+    "Segunda-feira, 23 de novembro de 2026. Querido diário, hoje é segunda-feira. De manhã, o Tito come a ração dele e dorme no sofá. Que vida boa!",
+    "Às sete da noite, eu chego na aula. Tem uma aluna nova. Ela é alta e simpática. A professora pergunta: — Como você se chama? — Clara. — De onde você é? — De Curitiba.",
+    "— O que você faz, Clara? — Sou veterinária. — Onde você trabalha? — Na Clínica Bicho Bom. — Há quanto tempo? — Há dois anos.",
+    "Depois da aula, eu pergunto: — Por que você faz Letras, Clara? Ela ri: — Porque os meus pacientes não falam!",
+    "Então ela pergunta: — Ana, o seu gato é pequeno e laranja? O nome dele é Tito? — Sim! Como você sabe? — Ele é meu paciente. É pequeno, mas muito bravo!",
+    "Às dez e meia da noite, eu volto para casa. Eu falo: — Tito, a sua veterinária é minha colega! O Tito corre para debaixo da cama. Amanhã é terça-feira, dia 24. Boa noite, diário. Boa noite, Tito, meu paciente bravo."
+   ],
+   "paragraphs_en": [
+    "Monday, 23 November 2026. Dear diary, today is Monday. In the morning, Tito eats his food and sleeps on the sofa. What a good life!",
+    "At seven in the evening, I arrive at class. There is a new student. She is tall and friendly. The teacher asks: \"What's your name?\" \"Clara.\" \"Where are you from?\" \"From Curitiba.\"",
+    "\"What do you do, Clara?\" \"I'm a vet.\" \"Where do you work?\" \"At the Bicho Bom clinic.\" \"For how long?\" \"For two years.\"",
+    "After class, I ask: \"Why are you studying Letters, Clara?\" She laughs: \"Because my patients don't talk!\"",
+    "Then she asks: \"Ana, is your cat small and orange? Is his name Tito?\" \"Yes! How do you know?\" \"He's my patient. He's small, but very grumpy!\"",
+    "At half past ten at night, I go back home. I say: \"Tito, your vet is my classmate!\" Tito runs under the bed. Tomorrow is Tuesday, the 24th. Good night, diary. Good night, Tito, my grumpy patient."
+   ],
+   "paragraphs_zh": [
+    "2026年11月23日，星期一。亲爱的日记，今天是星期一。早上，蒂托吃完它的饲料，在沙发上睡觉。日子真好！",
+    "晚上七点，我到了课上。有一个新同学。她个子高，人很友善。老师问：“你叫什么名字？”“克拉拉。”“你是哪里人？”“库里蒂巴人。”",
+    "“克拉拉，你是做什么的？”“我是兽医。”“你在哪里工作？”“在‘好动物’诊所。”“多久了？”“两年了。”",
+    "下课后，我问：“克拉拉，你为什么学文学？”她笑着说：“因为我的病人不会说话！”",
+    "然后她问：“安娜，你的猫是不是又小又橙？它叫蒂托吗？”“是的！你怎么知道？”“它是我的病人。它个子小，可是脾气很凶！”",
+    "晚上十点半，我回家。我说：“蒂托，你的兽医是我的同学！”蒂托跑到床底下去了。明天是星期二，24号。晚安，日记。晚安，蒂托，我的凶巴巴的小病人。"
+   ],
+   "paragraphs_de": [
+    "Montag, 23. November 2026. Liebes Tagebuch, heute ist Montag. Morgens frisst Tito sein Futter und schläft auf dem Sofa. Was für ein schönes Leben!",
+    "Um sieben Uhr abends komme ich zum Unterricht. Es gibt eine neue Studentin. Sie ist groß und sympathisch. Die Lehrerin fragt: „Wie heißt du?“ „Clara.“ „Woher kommst du?“ „Aus Curitiba.“",
+    "„Was machst du beruflich, Clara?“ „Ich bin Tierärztin.“ „Wo arbeitest du?“ „In der Klinik Bicho Bom.“ „Seit wann?“ „Seit zwei Jahren.“",
+    "Nach dem Unterricht frage ich: „Warum studierst du Literatur, Clara?“ Sie lacht: „Weil meine Patienten nicht sprechen!“",
+    "Dann fragt sie: „Ana, ist deine Katze klein und orange? Heißt er Tito?“ „Ja! Woher weißt du das?“ „Er ist mein Patient. Er ist klein, aber sehr grimmig!“",
+    "Um halb elf abends gehe ich nach Hause. Ich sage: „Tito, deine Tierärztin ist meine Kommilitonin!“ Tito rennt unter das Bett. Morgen ist Dienstag, der 24. Gute Nacht, Tagebuch. Gute Nacht, Tito, mein grimmiger Patient."
+   ],
+   "glossary": [
+    {
+     "w": "a aluna / o aluno",
+     "en": "student, pupil",
+     "zh": "学生（女/男）",
+     "de": "die Schülerin / der Schüler, Studentin",
+     "pt": "Pessoa que estuda numa aula: a Clara é uma aluna nova."
+    },
+    {
+     "w": "simpático / simpática",
+     "en": "friendly, nice",
+     "zh": "友善的；讨人喜欢的",
+     "de": "sympathisch, nett",
+     "pt": "Uma pessoa simpática é boa e alegre com os outros."
+    },
+    {
+     "w": "o paciente / a paciente",
+     "en": "patient",
+     "zh": "病人",
+     "de": "der Patient / die Patientin",
+     "pt": "Quem vai ao médico ou à veterinária: o Tito é paciente da Clara."
+    },
+    {
+     "w": "rir (ela ri)",
+     "en": "to laugh",
+     "zh": "笑",
+     "de": "lachen",
+     "pt": "Fazer \"ha ha ha\" quando uma coisa é engraçada."
+    },
+    {
+     "w": "a colega / o colega",
+     "en": "classmate, colleague",
+     "zh": "同学；同事",
+     "de": "die Kollegin / der Kollege, Mitschülerin",
+     "pt": "Pessoa da mesma aula ou do mesmo trabalho."
+    },
+    {
+     "w": "correr (ele corre)",
+     "en": "to run",
+     "zh": "跑",
+     "de": "rennen, laufen",
+     "pt": "Ir muito rápido com os pés (ou com as patas!)."
+    }
+   ],
+   "grammar": "Questions about work and study come in a chain: O que você faz? (what do you do?) — Sou veterinária (no article before the job!). To ask \"for how long?\" say Há quanto tempo? and answer with há + time: Há dois anos (for two years).",
+   "grammar_zh": "问工作和学习的问题常常一个接一个：O que você faz?（你是做什么的？）—— Sou veterinária（我是兽医；职业前不加冠词！）。问“多久了？”说 Há quanto tempo?，回答用 há + 时间：Há dois anos（两年了）。",
+   "grammar_de": "Fragen zu Beruf und Studium kommen oft hintereinander: O que você faz? (Was machst du beruflich?) — Sou veterinária (ohne Artikel vor dem Beruf!). „Seit wann?“ heißt Há quanto tempo?, die Antwort ist há + Zeit: Há dois anos (seit zwei Jahren).",
+   "grammar_pt": "Perguntas sobre trabalho e estudo vêm uma depois da outra: O que você faz? — Sou veterinária (sem artigo antes da profissão!). Para perguntar o tempo, use Há quanto tempo? e responda com há + tempo: Há dois anos.",
+   "questions": [
+    "Qual é a profissão da Clara? Onde ela trabalha?",
+    "Por que a Clara faz Letras?",
+    "E você? O que você faz? Há quanto tempo?"
+   ],
+   "sources": []
   }
  ]
 }
