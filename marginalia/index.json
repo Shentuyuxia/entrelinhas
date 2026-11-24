@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:18:55+00:00",
+ "updated": "2026-11-24T11:00:12+00:00",
  "days": [
   {
    "date": "2026-11-24",
@@ -10,6 +10,14 @@
      "title": "The lost rucksack",
      "kind": "dialogue",
      "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "de",
+     "title": "Vom Griot zum Mikrofon",
+     "kind": "feature",
+     "level": "C1",
      "hour": null
     }
    ]
