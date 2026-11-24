@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:00:12+00:00",
+ "updated": "2026-11-24T16:48:32+00:00",
  "days": [
   {
    "date": "2026-11-24",
@@ -18,6 +18,22 @@
      "title": "Vom Griot zum Mikrofon",
      "kind": "feature",
      "level": "C1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "En Córdoba: necesito un chip para mi celular",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "es",
+     "title": "Frida Kahlo: pintar desde la cama",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]

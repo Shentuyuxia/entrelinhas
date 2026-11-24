@@ -200,6 +200,234 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En Córdoba: necesito un chip para mi celular",
+   "dek": "Una turista alemana compra un chip y una recarga en una tienda de celulares de Córdoba, Argentina.",
+   "tags": [
+    "Córdoba",
+    "en la tienda",
+    "poder"
+   ],
+   "paragraphs": [
+    "Martín: Buenas tardes. ¿En qué puedo ayudarla?",
+    "Clara: Buenas tardes. Necesito un chip para mi celular. Soy turista.",
+    "Martín: Claro. ¿Su celular puede usar dos tarjetas o solo una?",
+    "Clara: No sé. ¿Puede mirarlo, por favor?",
+    "Martín: Sí, cómo no. Tiene espacio para dos. Perfecto.",
+    "Clara: ¿Cuánto cuesta el chip?",
+    "Martín: El chip es gratis, pero necesita una recarga. ¿Puede pagar con tarjeta?",
+    "Clara: Sí, puedo pagar con tarjeta. ¿Cuántos gigas puedo usar con la recarga más barata?",
+    "Martín: Con la recarga básica puede usar cinco gigas durante treinta días.",
+    "Clara: Está bien. ¿Y puedo llamar a Alemania con el chip?",
+    "Martín: Las llamadas internacionales no están incluidas, pero puede usar WhatsApp con internet.",
+    "Clara: ¡Perfecto! Entonces quiero la recarga básica.",
+    "Martín: ¿Me puede mostrar su pasaporte? Necesito registrar el chip.",
+    "Clara: Claro, aquí está. ¿Cuánto tarda?",
+    "Martín: Solo cinco minutos. Puede esperar aquí, si quiere.",
+    "Clara: Muchas gracias, Martín. Usted es muy amable.",
+    "Dato curioso: en Argentina mucha gente dice «vos» en lugar de «tú»: «¿Podés mirarlo?» en vez de «¿Puedes mirarlo?». En España, en cambio, el celular se llama «móvil»."
+   ],
+   "paragraphs_en": [
+    "Martín: Good afternoon. How can I help you?",
+    "Clara: Good afternoon. I need a SIM card for my cell phone. I'm a tourist.",
+    "Martín: Of course. Can your phone use two cards or only one?",
+    "Clara: I don't know. Can you look at it, please?",
+    "Martín: Yes, of course. It has room for two. Perfect.",
+    "Clara: How much does the SIM card cost?",
+    "Martín: The SIM card is free, but it needs a top-up. Can you pay by card?",
+    "Clara: Yes, I can pay by card. How many gigabytes can I use with the cheapest top-up?",
+    "Martín: With the basic top-up you can use five gigabytes for thirty days.",
+    "Clara: That's fine. And can I call Germany with the SIM card?",
+    "Martín: International calls are not included, but you can use WhatsApp with the internet.",
+    "Clara: Perfect! Then I want the basic top-up.",
+    "Martín: Can you show me your passport? I need to register the SIM card.",
+    "Clara: Of course, here it is. How long does it take?",
+    "Martín: Only five minutes. You can wait here, if you like.",
+    "Clara: Thank you very much, Martín. You are very kind.",
+    "Fun fact: in Argentina many people say “vos” instead of “tú”: “¿Podés mirarlo?” instead of “¿Puedes mirarlo?”. In Spain, on the other hand, the cell phone is called “móvil”."
+   ],
+   "paragraphs_de": [
+    "Martín: Guten Tag. Wie kann ich Ihnen helfen?",
+    "Clara: Guten Tag. Ich brauche eine SIM-Karte für mein Handy. Ich bin Touristin.",
+    "Martín: Natürlich. Kann Ihr Handy zwei Karten benutzen oder nur eine?",
+    "Clara: Ich weiß es nicht. Können Sie es bitte ansehen?",
+    "Martín: Ja, gern. Es hat Platz für zwei. Perfekt.",
+    "Clara: Was kostet die SIM-Karte?",
+    "Martín: Die SIM-Karte ist gratis, aber sie braucht eine Aufladung. Können Sie mit Karte bezahlen?",
+    "Clara: Ja, ich kann mit Karte bezahlen. Wie viele Gigabyte kann ich mit der billigsten Aufladung benutzen?",
+    "Martín: Mit der Basis-Aufladung können Sie dreißig Tage lang fünf Gigabyte benutzen.",
+    "Clara: Gut. Und kann ich mit der SIM-Karte nach Deutschland telefonieren?",
+    "Martín: Internationale Anrufe sind nicht inbegriffen, aber Sie können WhatsApp mit dem Internet benutzen.",
+    "Clara: Perfekt! Dann möchte ich die Basis-Aufladung.",
+    "Martín: Können Sie mir Ihren Reisepass zeigen? Ich muss die SIM-Karte registrieren.",
+    "Clara: Natürlich, hier ist er. Wie lange dauert das?",
+    "Martín: Nur fünf Minuten. Sie können hier warten, wenn Sie möchten.",
+    "Clara: Vielen Dank, Martín. Sie sind sehr freundlich.",
+    "Wissenswertes: In Argentinien sagen viele Leute „vos“ statt „tú“: „¿Podés mirarlo?“ statt „¿Puedes mirarlo?“. In Spanien dagegen heißt das Handy „móvil“."
+   ],
+   "glossary": [
+    {
+     "w": "el chip",
+     "en": "SIM card",
+     "de": "die SIM-Karte"
+    },
+    {
+     "w": "la recarga",
+     "en": "top-up (prepaid credit)",
+     "de": "die Aufladung"
+    },
+    {
+     "w": "el celular",
+     "en": "cell phone",
+     "de": "das Handy"
+    },
+    {
+     "w": "poder",
+     "en": "to be able to, can",
+     "de": "können"
+    },
+    {
+     "w": "gratis",
+     "en": "free (no cost)",
+     "de": "gratis"
+    },
+    {
+     "w": "cuánto cuesta",
+     "en": "how much does it cost",
+     "de": "was kostet"
+    },
+    {
+     "w": "tardar",
+     "en": "to take (time)",
+     "de": "dauern"
+    },
+    {
+     "w": "el pasaporte",
+     "en": "passport",
+     "de": "der Reisepass"
+    }
+   ],
+   "grammar": "Poder (can, to be able to) changes its stem: o becomes ue in yo puedo, tú puedes, usted/él/ella puede, ellos/ustedes pueden (but nosotros podemos). It is perfect for polite questions with an infinitive: “¿Puede mirarlo, por favor?” or “¿Me puede mostrar su pasaporte?” The infinitive stays unchanged.",
+   "grammar_de": "Poder (können) verändert den Stamm: o wird zu ue bei yo puedo, tú puedes, usted/él/ella puede, ellos/ustedes pueden (aber nosotros podemos). Mit einem Infinitiv eignet es sich gut für höfliche Fragen: „¿Puede mirarlo, por favor?“ oder „¿Me puede mostrar su pasaporte?“ Der Infinitiv bleibt unverändert.",
+   "questions": [
+    "¿Qué necesita comprar Clara?",
+    "¿Puede Clara llamar a Alemania con el chip? ¿Qué puede usar?",
+    "¿Y tú? ¿Puedes usar dos tarjetas en tu celular? ¿Qué aplicación usas para hablar con tu familia?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Mujeres y feminismo",
+   "title": "Frida Kahlo: pintar desde la cama",
+   "dek": "Después de un accidente a los 18 años, Frida Kahlo convirtió el dolor en una obra que hoy se conoce en todo el mundo.",
+   "tags": [
+    "México",
+    "mujeres artistas",
+    "porque, como y por eso"
+   ],
+   "paragraphs": [
+    "Frida Kahlo nació el 6 de julio de 1907 en la Ciudad de México, en una casa de Coyoacán que hoy se conoce como la Casa Azul. Su padre era fotógrafo y su familia vivía allí desde hacía unos años. Frida era una chica curiosa, y quería estudiar para ser médica.",
+    "Pero en 1925, cuando tenía 18 años, tuvo un accidente muy grave: el camión en que viajaba chocó con un tranvía. Como se lastimó la columna, la pelvis y una pierna, tuvo que pasar muchos meses en cama. Mientras se recuperaba, empezó a pintar. Sus padres hicieron preparar un caballete especial para que pudiera trabajar acostada.",
+    "Pintar se volvió una forma de seguir adelante. Con los años, hizo muchos autorretratos. Como pasaba tanto tiempo en casa y tenía dolores, se pintaba a sí misma con frecuencia: su cuerpo, su cara y sus emociones eran los temas que mejor conocía. Por eso sus cuadros son tan personales y tan directos. Durante esos años, pintar también le dio una razón para levantarse cada día. Muchas de sus obras muestran el dolor, pero también mucha fuerza y mucho color, y por eso todavía sorprenden a quien las ve por primera vez.",
+    "En 1929 se casó con el pintor Diego Rivera. Su relación fue intensa y difícil: se divorciaron en 1939 y se volvieron a casar en 1940. Aunque Diego era muy famoso, Frida construyó su propio camino. En 1938 presentó una exposición individual en una galería de Nueva York, y más tarde expuso en París. Un museo importante, el Louvre, compró uno de sus autorretratos.",
+    "Frida murió el 13 de julio de 1954, a los 47 años, en la misma Casa Azul donde había nacido. Hoy mucha gente la recuerda no solo como pintora, sino también como una mujer que habló de su cuerpo, de su identidad mexicana y de su vida sin esconder nada. Para muchas mujeres de América Latina, su historia es una fuente de inspiración.",
+    "Dato curioso: en México, el autobús de ciudad se llama «camión». En otros países se dice «guagua» (Cuba, Puerto Rico), «colectivo» (Argentina) o «micro» (Chile)."
+   ],
+   "paragraphs_en": [
+    "Frida Kahlo was born on 6 July 1907 in Mexico City, in a house in Coyoacán that is now known as the Casa Azul (Blue House). Her father was a photographer, and her family had lived there for a few years. Frida was a curious girl, and she wanted to study to become a doctor.",
+    "But in 1925, when she was 18, she had a very serious accident: the bus she was travelling on collided with a tram. Because she injured her spine, her pelvis and one leg, she had to spend many months in bed. While she was recovering, she began to paint. Her parents had a special easel prepared so that she could work lying down.",
+    "Painting became a way of moving forward. Over the years she made many self-portraits. Because she spent so much time at home and was in pain, she often painted herself: her body, her face and her emotions were the subjects she knew best. That is why her paintings are so personal and so direct. During those years, painting also gave her a reason to get up every day. Many of her works show pain, but also great strength and a lot of colour, and that is why they still surprise anyone seeing them for the first time.",
+    "In 1929 she married the painter Diego Rivera. Their relationship was intense and difficult: they divorced in 1939 and married again in 1940. Although Diego was very famous, Frida built her own path. In 1938 she had a solo exhibition at a gallery in New York, and later she exhibited in Paris. An important museum, the Louvre, bought one of her self-portraits.",
+    "Frida died on 13 July 1954, aged 47, in the same Casa Azul where she had been born. Today many people remember her not only as a painter, but also as a woman who spoke about her body, her Mexican identity and her life without hiding anything. For many women in Latin America, her story is a source of inspiration.",
+    "Fun fact: in Mexico, the city bus is called “camión”. In other countries people say “guagua” (Cuba, Puerto Rico), “colectivo” (Argentina) or “micro” (Chile)."
+   ],
+   "paragraphs_de": [
+    "Frida Kahlo wurde am 6. Juli 1907 in Mexiko-Stadt geboren, in einem Haus in Coyoacán, das heute als Casa Azul (Blaues Haus) bekannt ist. Ihr Vater war Fotograf, und ihre Familie wohnte schon einige Jahre dort. Frida war ein neugieriges Mädchen und wollte Ärztin werden.",
+    "Aber 1925, als sie 18 Jahre alt war, hatte sie einen sehr schweren Unfall: Der Bus, in dem sie fuhr, stieß mit einer Straßenbahn zusammen. Weil sie sich die Wirbelsäule, das Becken und ein Bein verletzte, musste sie viele Monate im Bett verbringen. Während sie sich erholte, begann sie zu malen. Ihre Eltern ließen eine besondere Staffelei vorbereiten, damit sie im Liegen arbeiten konnte.",
+    "Das Malen wurde zu einer Art, weiterzumachen. Im Lauf der Jahre schuf sie viele Selbstporträts. Weil sie so viel Zeit zu Hause verbrachte und Schmerzen hatte, malte sie sich oft selbst: Ihr Körper, ihr Gesicht und ihre Gefühle waren die Themen, die sie am besten kannte. Deshalb sind ihre Bilder so persönlich und so direkt. In diesen Jahren gab ihr das Malen auch einen Grund, jeden Tag aufzustehen. Viele ihrer Werke zeigen Schmerz, aber auch viel Stärke und viele Farben, und deshalb überraschen sie noch heute jeden, der sie zum ersten Mal sieht.",
+    "1929 heiratete sie den Maler Diego Rivera. Ihre Beziehung war intensiv und schwierig: Sie ließen sich 1939 scheiden und heirateten 1940 erneut. Obwohl Diego sehr berühmt war, ging Frida ihren eigenen Weg. 1938 hatte sie eine Einzelausstellung in einer Galerie in New York, und später stellte sie in Paris aus. Ein wichtiges Museum, der Louvre, kaufte eines ihrer Selbstporträts.",
+    "Frida starb am 13. Juli 1954 im Alter von 47 Jahren in derselben Casa Azul, in der sie geboren worden war. Heute erinnern sich viele nicht nur an die Malerin, sondern auch an eine Frau, die über ihren Körper, ihre mexikanische Identität und ihr Leben sprach, ohne etwas zu verstecken. Für viele Frauen in Lateinamerika ist ihre Geschichte eine Quelle der Inspiration.",
+    "Wissenswertes: In Mexiko heißt der Stadtbus „camión“. In anderen Ländern sagt man „guagua“ (Kuba, Puerto Rico), „colectivo“ (Argentinien) oder „micro“ (Chile)."
+   ],
+   "glossary": [
+    {
+     "w": "el accidente",
+     "en": "accident",
+     "de": "der Unfall"
+    },
+    {
+     "w": "el camión",
+     "en": "bus (Mexico)",
+     "de": "der Bus (Mexiko)"
+    },
+    {
+     "w": "el tranvía",
+     "en": "tram, streetcar",
+     "de": "die Straßenbahn"
+    },
+    {
+     "w": "el caballete",
+     "en": "easel",
+     "de": "die Staffelei"
+    },
+    {
+     "w": "el autorretrato",
+     "en": "self-portrait",
+     "de": "das Selbstporträt"
+    },
+    {
+     "w": "la pelvis",
+     "en": "pelvis",
+     "de": "das Becken"
+    },
+    {
+     "w": "lastimarse",
+     "en": "to hurt oneself, get injured",
+     "de": "sich verletzen"
+    },
+    {
+     "w": "recuperarse",
+     "en": "to recover",
+     "de": "sich erholen"
+    },
+    {
+     "w": "la exposición",
+     "en": "exhibition",
+     "de": "die Ausstellung"
+    },
+    {
+     "w": "el divorcio / divorciarse",
+     "en": "divorce / to get divorced",
+     "de": "die Scheidung / sich scheiden lassen"
+    },
+    {
+     "w": "la fuente de inspiración",
+     "en": "source of inspiration",
+     "de": "die Inspirationsquelle"
+    }
+   ],
+   "grammar": "Cause and consequence (B1): porque and como give the reason, por eso gives the result. Porque comes after the result (“Se pintaba a sí misma porque pasaba mucho tiempo en casa”). Como comes at the start: “Como pasaba tanto tiempo en casa, se pintaba a sí misma.” Por eso starts the consequence: “…por eso sus cuadros son tan personales.”",
+   "grammar_de": "Grund und Folge (B1): porque und como nennen den Grund, por eso nennt die Folge. Porque steht nach der Folge („Se pintaba a sí misma porque pasaba mucho tiempo en casa“). Como steht am Satzanfang: „Como pasaba tanto tiempo en casa, se pintaba a sí misma.“ Por eso leitet die Folge ein: „…por eso sus cuadros son tan personales.“",
+   "questions": [
+    "¿Qué pasó en 1925 y qué hizo Frida durante los meses en cama?",
+    "¿Por qué sus cuadros son tan personales?",
+    "¿Y tú? ¿Hay una artista o escritora que te inspira? ¿Por qué?"
+   ],
+   "sources": [
+    {
+     "title": "Museo Frida Kahlo: Biografías de Frida Kahlo (PDF)",
+     "url": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo.pdf",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
