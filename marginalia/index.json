@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-23T18:54:16+00:00",
+ "updated": "2026-11-24T05:18:55+00:00",
  "days": [
+  {
+   "date": "2026-11-24",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "The lost rucksack",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-23",
    "items": [

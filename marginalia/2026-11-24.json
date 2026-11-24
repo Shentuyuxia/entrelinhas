@@ -1,0 +1,102 @@
+{
+ "date": "2026-11-24",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Dialogue",
+   "title": "The lost rucksack",
+   "dek": "Anna loses her bag on a train — and worries most about her sandwich.",
+   "paragraphs": [
+    "Mr Hall: Good morning, Leeds Station lost property. How can I help?",
+    "Anna: Hello. I think I've lost my rucksack. I was on the 9.15 train from York.",
+    "Mr Hall: I'm sorry to hear that. What does it look like?",
+    "Anna: It's dark green, with a small yellow bird on the front.",
+    "Mr Hall: Have you checked the train company's website?",
+    "Anna: Yes, I've already looked, but there's nothing there yet.",
+    "Mr Hall: What's inside the bag?",
+    "Anna: My laptop, a blue notebook and a cheese sandwich. I haven't eaten it yet!",
+    "Mr Hall: A cheese sandwich? Please wait a moment. I'll check the shelf.",
+    "Anna: Thank you. I've never lost anything on a train before. I feel terrible.",
+    "Mr Hall: Don't worry, it happens every day. Oh! I've just found a green rucksack with a yellow bird on it.",
+    "Anna: Really? That's mine! Has anyone opened it?",
+    "Mr Hall: Someone has handed it in, but nobody has opened it. And the sandwich is still inside.",
+    "Anna: Wonderful! Can I collect it today?",
+    "Mr Hall: Yes. We're open until five o'clock. Please bring some ID.",
+    "Anna: I will. I'm coming now! Please don't eat my sandwich.",
+    "Mr Hall: Don't worry. I've already had my lunch. It was a very small one, though."
+   ],
+   "paragraphs_zh": [
+    "霍尔先生：早上好，这里是利兹火车站失物招领处。有什么可以帮您？",
+    "安娜：你好。我想我把背包弄丢了。我坐的是从约克开来的9点15分那趟火车。",
+    "霍尔先生：真遗憾。它看起来什么样？",
+    "安娜：深绿色的，正面有一只黄色的小鸟。",
+    "霍尔先生：您查过火车公司的网站了吗？",
+    "安娜：查过了，我已经看过了，但那里还什么都没有。",
+    "霍尔先生：包里有什么？",
+    "安娜：我的笔记本电脑、一本蓝色笔记本和一个奶酪三明治。我还没吃呢！",
+    "霍尔先生：奶酪三明治？请稍等，我去看看架子上有没有。",
+    "安娜：谢谢。我以前从来没在火车上丢过东西。我觉得糟透了。",
+    "霍尔先生：别担心，这种事天天都有。哦！我刚刚找到了一个带黄色小鸟的绿色背包。",
+    "安娜：真的吗？那是我的！有人打开过吗？",
+    "霍尔先生：有人把它交了上来，但没有人打开过。三明治还在里面。",
+    "安娜：太好了！我今天能来取吗？",
+    "霍尔先生：可以。我们营业到五点。请带上身份证件。",
+    "安娜：好的。我马上过来！请别吃我的三明治。",
+    "霍尔先生：别担心，我已经吃过午饭了。不过那顿饭很小。"
+   ],
+   "glossary": [
+    {
+     "w": "lost property",
+     "en": "the place where lost things are kept until the owner comes",
+     "zh": "失物招领处"
+    },
+    {
+     "w": "rucksack",
+     "en": "a bag that you carry on your back",
+     "zh": "背包；双肩包"
+    },
+    {
+     "w": "I'm sorry to hear that.",
+     "en": "you say this when someone tells you bad news",
+     "zh": "听到这个我很遗憾。"
+    },
+    {
+     "w": "yet",
+     "en": "until now (used in negative sentences and questions)",
+     "zh": "（否定句）还；（疑问句）已经"
+    },
+    {
+     "w": "shelf",
+     "en": "a flat board on a wall where you put things",
+     "zh": "架子；搁板"
+    },
+    {
+     "w": "hand in",
+     "en": "to give something to someone in charge",
+     "zh": "上交；交还"
+    },
+    {
+     "w": "collect",
+     "en": "to go to a place and take something that is yours",
+     "zh": "领取；取走"
+    },
+    {
+     "w": "ID",
+     "en": "a card or paper that shows who you are",
+     "zh": "身份证件"
+    }
+   ],
+   "grammar": "We use the present perfect (have/has + past participle) to talk about the past when it matters now: “I've lost my rucksack” (I don't have it now). Use already for something done earlier (“I've already looked”), just for a very recent action (“I've just found it”), yet in negative sentences (“nothing there yet”) and never/ever for life experience (“I've never lost anything on a train before”).",
+   "grammar_zh": "现在完成时（have/has + 过去分词）用来谈论与现在有关的过去的事：“I've lost my rucksack”（现在包不在我身边）。already 表示已经做完（“I've already looked”），just 表示刚刚发生（“I've just found it”），yet 用在否定句里，意思是“还（没有）”，never/ever 用来说人生经历（“我以前从来没在火车上丢过东西”）。汉语常用“了”“过”表达，英语则要用 have/has + 过去分词。",
+   "questions": [
+    "Why is Anna worried about her sandwich?",
+    "What does Mr Hall do when Anna describes her bag?",
+    "And you? Have you ever lost something important? What happened?"
+   ],
+   "sources": []
+  }
+ ]
+}
