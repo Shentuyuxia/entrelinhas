@@ -428,6 +428,115 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Diálogo",
+   "title": "Duas pizzas para a casa amarela",
+   "dek": "A Ana pede pizza por telefone. De que sabor? Onde ela mora? E a que horas a pizza chega?",
+   "paragraphs": [
+    "Atendente: Pizzaria do Bairro, boa noite!",
+    "Ana: Boa noite! Uma pizza grande, por favor.",
+    "Atendente: De que sabor? Queijo ou frango?",
+    "Ana: De queijo. E uma pizza pequena de chocolate.",
+    "Atendente: Duas pizzas. E onde você mora?",
+    "Ana: Na Rua das Flores, doze. Quanto é?",
+    "Atendente: Setenta e dois reais.",
+    "Ana: Ótimo! A que horas chega?",
+    "Atendente: Às oito e meia. Mais alguma coisa?",
+    "Ana: Não, obrigada. O Tito está com fome!"
+   ],
+   "paragraphs_en": [
+    "Server: Neighbourhood Pizzeria, good evening!",
+    "Ana: Good evening! A large pizza, please.",
+    "Server: Which flavour? Cheese or chicken?",
+    "Ana: Cheese. And a small chocolate pizza.",
+    "Server: Two pizzas. And where do you live?",
+    "Ana: At 12 Rua das Flores. How much is it?",
+    "Server: Seventy-two reais.",
+    "Ana: Great! What time does it arrive?",
+    "Server: At half past eight. Anything else?",
+    "Ana: No, thank you. Tito is hungry!"
+   ],
+   "paragraphs_zh": [
+    "店员：街坊披萨店，晚上好！",
+    "安娜：晚上好！要一个大披萨，谢谢。",
+    "店员：什么口味？芝士的还是鸡肉的？",
+    "安娜：芝士的。再要一个小的巧克力披萨。",
+    "店员：两个披萨。你住在哪里？",
+    "安娜：花街十二号。多少钱？",
+    "店员：七十二雷亚尔。",
+    "安娜：太好了！几点送到？",
+    "店员：八点半。还要别的吗？",
+    "安娜：不用了，谢谢。蒂托饿了！"
+   ],
+   "paragraphs_de": [
+    "Mitarbeiter: Pizzeria do Bairro, guten Abend!",
+    "Ana: Guten Abend! Eine große Pizza, bitte.",
+    "Mitarbeiter: Welche Sorte? Käse oder Hähnchen?",
+    "Ana: Käse. Und eine kleine Schokoladenpizza.",
+    "Mitarbeiter: Zwei Pizzen. Und wo wohnst du?",
+    "Ana: Rua das Flores Nummer zwölf. Was kostet das?",
+    "Mitarbeiter: Zweiundsiebzig Reais.",
+    "Ana: Super! Um wie viel Uhr kommt sie?",
+    "Mitarbeiter: Um halb neun. Sonst noch etwas?",
+    "Ana: Nein, danke. Tito hat Hunger!"
+   ],
+   "glossary": [
+    {
+     "w": "o sabor",
+     "en": "flavour, taste — De que sabor? (Which flavour?)",
+     "zh": "口味，味道",
+     "de": "der Geschmack, die Sorte",
+     "pt": "o gosto de uma comida: doce, de queijo, de chocolate…"
+    },
+    {
+     "w": "o frango",
+     "en": "chicken (as food) — pizza de frango",
+     "zh": "鸡肉",
+     "de": "das Hähnchen",
+     "pt": "a carne da galinha; a gente come frango com arroz"
+    },
+    {
+     "w": "a rua",
+     "en": "street — a Rua das Flores",
+     "zh": "街道，马路",
+     "de": "die Straße",
+     "pt": "o lugar entre as casas, onde passam os carros"
+    },
+    {
+     "w": "chegar",
+     "en": "to arrive — A que horas chega? (What time does it arrive?)",
+     "zh": "到达，送到",
+     "de": "ankommen",
+     "pt": "vir a um lugar: a pizza chega às oito e meia"
+    },
+    {
+     "w": "Mais alguma coisa?",
+     "en": "Anything else?",
+     "zh": "还要别的吗？",
+     "de": "Sonst noch etwas?",
+     "pt": "a pergunta da loja: você quer mais uma coisa?"
+    }
+   ],
+   "grammar": "In a noun phrase the adjective comes right after the noun, and de + noun comes after that: uma pizza pequena de chocolate (a small chocolate pizza). In the plural both noun and adjective take -s: duas pizzas grandes.",
+   "grammar_zh": "名词短语里，形容词紧跟在名词后面，de + 名词放在最后：uma pizza pequena de chocolate（一个小的巧克力披萨）。复数时名词和形容词都加 -s：duas pizzas grandes（两个大披萨）。",
+   "grammar_de": "Das Adjektiv steht direkt nach dem Nomen, de + Nomen kommt danach: uma pizza pequena de chocolate (eine kleine Schokoladenpizza). Im Plural bekommen Nomen und Adjektiv ein -s: duas pizzas grandes (zwei große Pizzen).",
+   "grammar_pt": "Primeiro vem o substantivo, depois o adjetivo, e no fim de + substantivo: uma pizza pequena de chocolate. No plural, os dois têm -s: duas pizzas grandes.",
+   "questions": [
+    "De que sabor é a pizza grande?",
+    "A que horas a pizza chega? E quanto é?",
+    "E você? Qual é o seu sabor de pizza favorito?"
+   ],
+   "sources": [],
+   "tags": [
+    "pizzaria",
+    "telefone",
+    "perguntas",
+    "adjetivos"
+   ]
   }
  ]
 }

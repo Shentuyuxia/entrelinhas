@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:48:32+00:00",
+ "updated": "2026-11-24T18:54:43+00:00",
  "days": [
   {
    "date": "2026-11-24",
@@ -34,6 +34,14 @@
      "title": "Frida Kahlo: pintar desde la cama",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Duas pizzas para a casa amarela",
+     "kind": "dialogue",
+     "level": "A1",
      "hour": null
     }
    ]
