@@ -1,434 +1,541 @@
 {
- "date": "2026-11-25",
- "createdBy": "claude",
- "items": [
-  {
-   "lang": "en",
-   "level": "B1",
-   "kind": "feature",
-   "section": "World & Food",
-   "title": "The jebena: Ethiopia's slow, three-round coffee",
-   "dek": "In Ethiopia and Eritrea, a cup of coffee is not a quick stop. It is a ceremony with a clay pot, small cups, snacks and plenty of time to talk.",
-   "paragraphs": [
-    "Imagine that you have just arrived at a friend's house in Ethiopia. Before you can sit down, the woman of the house tells everyone that the coffee ceremony is about to begin. Have you ever been invited to spend two hours over a single cup of coffee? In Ethiopia and Eritrea, this is completely normal.",
-    "The ceremony starts with the beans. A woman washes them, roasts them and grinds them, and she often mixes them with spices. This can take up to forty-five minutes, so nobody is in a hurry. While the beans roast, people eat popcorn or other small snacks, and the host often lights incense to make the room feel calm.",
-    "The star of the show is the jebena, a pot made of clay with a round base, a narrow neck, a spout and a handle. The narrow neck works like a strainer, so the coffee grounds stay inside. Most jebenas are between 20 and 45 centimetres tall, because the pot is filled again several times. It is heated over hot coals and stands on a small cloth or some hay, so that the base does not burn.",
-    "When the coffee is ready, it is poured through a sieve into tiny cups. The host carries a tray round to each guest, and people sit on the ground. Usually nobody adds sugar, butter or milk, so the taste is pure and strong. Men and women often chat in separate groups while the coffee is being made.",
-    "The coffee is served in three rounds, called awel, kale'i and baraka. The first is the strongest, and each one after that is weaker. Because the cups are so small, every guest can drink all three. By the time the last cup arrives, you have already spent about two hours with your hosts, and traditionally a family would repeat the whole ceremony three times a day: morning, noon and evening.",
-    "Many families own only one jebena, and it is often passed down like a family treasure. Some are painted in bright colours, and old, fancy ones covered in gold or silver were once kept for the upper class and royalty. For Ethiopian families who have moved to other countries, the pot can stand for the whole ritual. The long wait gives everyone time to talk, and people say that without a jebena, it is not really a coffee ceremony at all."
-   ],
-   "paragraphs_zh": [
-    "想象一下，你刚刚抵达埃塞俄比亚的一位朋友家。你还没来得及坐下，女主人就告诉大家咖啡仪式马上要开始了。你有没有被邀请花两个小时喝一杯咖啡呢？在埃塞俄比亚和厄立特里亚，这再正常不过。",
-    "仪式从咖啡豆开始。一位女性把豆子洗净、烘焙、研磨，还常常加入香料。这可能要花上四十五分钟，所以没有人着急。豆子烘焙时，大家吃爆米花或其他小点心，主人也常常点上熏香，让房间显得宁静。",
-    "主角是“杰贝纳”（jebena），一种黏土做的壶，有圆圆的底、窄窄的颈、壶嘴和把手。窄颈就像滤网，让咖啡渣留在里面。大多数杰贝纳高约20到45厘米，因为壶要反复加水好几次。壶在热炭上加热，下面垫一小块布或一些干草，免得壶底烧坏。",
-    "咖啡煮好后，通过滤网倒进小小的杯子里。主人端着托盘送到每位客人面前，大家坐在地上。通常没有人加糖、黄油或牛奶，所以味道纯正浓郁。煮咖啡的时候，男人和女人常常分成不同的小组聊天。",
-    "咖啡分三轮上桌，名字叫 awel、kale'i 和 baraka。第一轮最浓，之后每一轮都更淡。因为杯子很小，每位客人都能喝完三轮。等最后一杯端上来时，你已经和主人共度了大约两个小时。按传统，一个家庭一天要把整个仪式重复三次：早上、中午和晚上。",
-    "许多家庭只有一把杰贝纳，常常像传家宝一样一代代传下去。有的涂着鲜艳的颜色；而那些镶着金银的华丽旧壶，曾经只属于上层阶级和王室。对于搬到其他国家的埃塞俄比亚家庭来说，这把壶可以代表整个仪式。漫长的等待让大家有时间聊天，人们说，没有杰贝纳，就根本算不上真正的咖啡仪式。"
-   ],
-   "glossary": [
+  "date": "2026-11-25",
+  "createdBy": "claude",
+  "items": [
     {
-     "w": "roast",
-     "en": "cook beans or nuts in a very hot oven or pan",
-     "zh": "烘焙；烤"
+      "lang": "en",
+      "level": "B1",
+      "kind": "feature",
+      "section": "World & Food",
+      "title": "The jebena: Ethiopia's slow, three-round coffee",
+      "dek": "In Ethiopia and Eritrea, a cup of coffee is not a quick stop. It is a ceremony with a clay pot, small cups, snacks and plenty of time to talk.",
+      "paragraphs": [
+        "Imagine that you have just arrived at a friend's house in Ethiopia. Before you can sit down, the woman of the house tells everyone that the coffee ceremony is about to begin. Have you ever been invited to spend two hours over a single cup of coffee? In Ethiopia and Eritrea, this is completely normal.",
+        "The ceremony starts with the beans. A woman washes them, roasts them and grinds them, and she often mixes them with spices. This can take up to forty-five minutes, so nobody is in a hurry. While the beans roast, people eat popcorn or other small snacks, and the host often lights incense to make the room feel calm.",
+        "The star of the show is the jebena, a pot made of clay with a round base, a narrow neck, a spout and a handle. The narrow neck works like a strainer, so the coffee grounds stay inside. Most jebenas are between 20 and 45 centimetres tall, because the pot is filled again several times. It is heated over hot coals and stands on a small cloth or some hay, so that the base does not burn.",
+        "When the coffee is ready, it is poured through a sieve into tiny cups. The host carries a tray round to each guest, and people sit on the ground. Usually nobody adds sugar, butter or milk, so the taste is pure and strong. Men and women often chat in separate groups while the coffee is being made.",
+        "The coffee is served in three rounds, called awel, kale'i and baraka. The first is the strongest, and each one after that is weaker. Because the cups are so small, every guest can drink all three. By the time the last cup arrives, you have already spent about two hours with your hosts, and traditionally a family would repeat the whole ceremony three times a day: morning, noon and evening.",
+        "Many families own only one jebena, and it is often passed down like a family treasure. Some are painted in bright colours, and old, fancy ones covered in gold or silver were once kept for the upper class and royalty. For Ethiopian families who have moved to other countries, the pot can stand for the whole ritual. The long wait gives everyone time to talk, and people say that without a jebena, it is not really a coffee ceremony at all."
+      ],
+      "paragraphs_zh": [
+        "想象一下，你刚刚抵达埃塞俄比亚的一位朋友家。你还没来得及坐下，女主人就告诉大家咖啡仪式马上要开始了。你有没有被邀请花两个小时喝一杯咖啡呢？在埃塞俄比亚和厄立特里亚，这再正常不过。",
+        "仪式从咖啡豆开始。一位女性把豆子洗净、烘焙、研磨，还常常加入香料。这可能要花上四十五分钟，所以没有人着急。豆子烘焙时，大家吃爆米花或其他小点心，主人也常常点上熏香，让房间显得宁静。",
+        "主角是“杰贝纳”（jebena），一种黏土做的壶，有圆圆的底、窄窄的颈、壶嘴和把手。窄颈就像滤网，让咖啡渣留在里面。大多数杰贝纳高约20到45厘米，因为壶要反复加水好几次。壶在热炭上加热，下面垫一小块布或一些干草，免得壶底烧坏。",
+        "咖啡煮好后，通过滤网倒进小小的杯子里。主人端着托盘送到每位客人面前，大家坐在地上。通常没有人加糖、黄油或牛奶，所以味道纯正浓郁。煮咖啡的时候，男人和女人常常分成不同的小组聊天。",
+        "咖啡分三轮上桌，名字叫 awel、kale'i 和 baraka。第一轮最浓，之后每一轮都更淡。因为杯子很小，每位客人都能喝完三轮。等最后一杯端上来时，你已经和主人共度了大约两个小时。按传统，一个家庭一天要把整个仪式重复三次：早上、中午和晚上。",
+        "许多家庭只有一把杰贝纳，常常像传家宝一样一代代传下去。有的涂着鲜艳的颜色；而那些镶着金银的华丽旧壶，曾经只属于上层阶级和王室。对于搬到其他国家的埃塞俄比亚家庭来说，这把壶可以代表整个仪式。漫长的等待让大家有时间聊天，人们说，没有杰贝纳，就根本算不上真正的咖啡仪式。"
+      ],
+      "glossary": [
+        {
+          "w": "roast",
+          "en": "cook beans or nuts in a very hot oven or pan",
+          "zh": "烘焙；烤"
+        },
+        {
+          "w": "grind",
+          "en": "crush something into small pieces or powder",
+          "zh": "研磨；磨碎"
+        },
+        {
+          "w": "in a hurry",
+          "en": "trying to do something very fast",
+          "zh": "匆忙；着急"
+        },
+        {
+          "w": "incense",
+          "en": "a sweet-smelling smoke burned for a calm feeling",
+          "zh": "熏香"
+        },
+        {
+          "w": "strainer",
+          "en": "a tool with small holes that keeps solid things out of a liquid",
+          "zh": "滤网；过滤器"
+        },
+        {
+          "w": "spout",
+          "en": "the narrow part of a pot where the liquid comes out",
+          "zh": "壶嘴"
+        },
+        {
+          "w": "sieve",
+          "en": "a tool with a net used to separate liquid from solid pieces",
+          "zh": "筛子；滤器"
+        },
+        {
+          "w": "host",
+          "en": "the person who invites guests and looks after them",
+          "zh": "主人；东道主"
+        },
+        {
+          "w": "weak",
+          "en": "not strong in taste",
+          "zh": "（味道）淡的"
+        },
+        {
+          "w": "pass down",
+          "en": "give something to younger people in the family over the years",
+          "zh": "传给后代；世代相传"
+        }
+      ],
+      "grammar": "We use the present perfect (have/has + past participle) to connect the past with now. Use just for something that happened a moment ago, already for something done earlier than expected, and ever/never for life experience: “you have just arrived”, “Have you ever been invited…?”, “you have already spent about two hours”.",
+      "grammar_zh": "现在完成时（have/has + 过去分词）把过去和现在联系起来。just 表示“刚刚”，already 表示“已经”，ever/never 用于问或说人生经历：“you have just arrived”（你刚到）、“Have you ever been invited…?”（你有没有被邀请过……？）、“you have already spent about two hours”（你已经花了大约两个小时）。中文常用“了”“过”来表达，如“已经花了”“有没有……过”。",
+      "questions": [
+        "Why do you think the ceremony takes so long, and why is the first round the strongest?",
+        "Why is the jebena often passed down in a family?",
+        "And you? Have you ever shared a long drink or meal with friends or family? What was it like?"
+      ],
+      "sources": [
+        {
+          "title": "Jebena – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jebena",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
     },
     {
-     "w": "grind",
-     "en": "crush something into small pieces or powder",
-     "zh": "研磨；磨碎"
+      "lang": "es",
+      "level": "A1",
+      "kind": "dialogue",
+      "section": "Conversación",
+      "title": "En San Salvador: ¿qué te gusta hacer?",
+      "dek": "Dos compañeros de trabajo hablan de sus pasatiempos un sábado en un parque de San Salvador, El Salvador.",
+      "tags": [
+        "San Salvador",
+        "small talk",
+        "gustar"
+      ],
+      "paragraphs": [
+        "Ana: ¡Hola, Diego! ¿Qué tal?",
+        "Diego: Bien, gracias. ¿Y tú?",
+        "Ana: Muy bien. Hoy es sábado y hace sol.",
+        "Diego: Sí, es un día bonito. ¿Qué te gusta hacer los sábados?",
+        "Ana: Me gusta caminar en el parque y escuchar música. ¿Y a ti?",
+        "Diego: Me gusta jugar al fútbol con mis amigos. No me gusta cocinar.",
+        "Ana: ¿No te gusta cocinar? ¿Y qué comes?",
+        "Diego: Como pupusas. ¡Me gustan mucho!",
+        "Ana: ¡A mí también! ¿Te gustan de queso?",
+        "Diego: Sí, me gustan de queso y de frijoles.",
+        "Ana: ¡Vamos a comer pupusas ahora!",
+        "Diego: ¡Buena idea!",
+        "Dato curioso: las pupusas son el plato más famoso de El Salvador. Son tortillas gruesas con queso, frijoles u otro relleno, y se comen con curtido, una ensalada de repollo."
+      ],
+      "paragraphs_en": [
+        "Ana: Hi, Diego! How are you?",
+        "Diego: Fine, thanks. And you?",
+        "Ana: Very well. Today is Saturday and it's sunny.",
+        "Diego: Yes, it's a beautiful day. What do you like to do on Saturdays?",
+        "Ana: I like walking in the park and listening to music. And you?",
+        "Diego: I like playing soccer with my friends. I don't like cooking.",
+        "Ana: You don't like cooking? And what do you eat?",
+        "Diego: I eat pupusas. I like them a lot!",
+        "Ana: Me too! Do you like the cheese ones?",
+        "Diego: Yes, I like the ones with cheese and with beans.",
+        "Ana: Let's go eat pupusas now!",
+        "Diego: Good idea!",
+        "Fun fact: pupusas are the most famous dish of El Salvador. They are thick tortillas with cheese, beans or another filling, and they are eaten with curtido, a cabbage salad."
+      ],
+      "paragraphs_de": [
+        "Ana: Hallo, Diego! Wie geht's?",
+        "Diego: Gut, danke. Und dir?",
+        "Ana: Sehr gut. Heute ist Samstag und die Sonne scheint.",
+        "Diego: Ja, es ist ein schöner Tag. Was machst du samstags gern?",
+        "Ana: Ich gehe gern im Park spazieren und höre Musik. Und du?",
+        "Diego: Ich spiele gern Fußball mit meinen Freunden. Ich koche nicht gern.",
+        "Ana: Du kochst nicht gern? Und was isst du?",
+        "Diego: Ich esse Pupusas. Die mag ich sehr!",
+        "Ana: Ich auch! Magst du die mit Käse?",
+        "Diego: Ja, ich mag die mit Käse und mit Bohnen.",
+        "Ana: Komm, wir essen jetzt Pupusas!",
+        "Diego: Gute Idee!",
+        "Wissenswertes: Pupusas sind das bekannteste Gericht von El Salvador. Es sind dicke Tortillas mit Käse, Bohnen oder einer anderen Füllung, dazu isst man Curtido, einen Krautsalat."
+      ],
+      "glossary": [
+        {
+          "w": "me gusta",
+          "en": "I like (one thing / an action)",
+          "de": "ich mag, mir gefällt"
+        },
+        {
+          "w": "me gustan",
+          "en": "I like (several things)",
+          "de": "ich mag (Plural)"
+        },
+        {
+          "w": "el sábado",
+          "en": "Saturday",
+          "de": "der Samstag"
+        },
+        {
+          "w": "caminar",
+          "en": "to walk",
+          "de": "gehen, spazieren gehen"
+        },
+        {
+          "w": "cocinar",
+          "en": "to cook",
+          "de": "kochen"
+        },
+        {
+          "w": "el frijol",
+          "en": "bean (Central America)",
+          "de": "die Bohne"
+        },
+        {
+          "w": "¡A mí también!",
+          "en": "Me too!",
+          "de": "Ich auch!"
+        },
+        {
+          "w": "la pupusa",
+          "en": "thick filled tortilla from El Salvador",
+          "de": "die Pupusa (gefüllte Maistortilla)"
+        }
+      ],
+      "grammar": "To say what you like, use gustar. With one thing or an action, say me gusta: “Me gusta caminar.” With several things, say me gustan: “Me gustan las pupusas.” The little word changes with the person: me (I), te (you). To return the question, say “¿Y a ti?” (and you?) or “A mí también” (me too).",
+      "grammar_de": "Wenn du sagen willst, was du magst, benutze gustar. Bei einer Sache oder einer Tätigkeit sagst du me gusta: „Me gusta caminar.“ Bei mehreren Dingen sagst du me gustan: „Me gustan las pupusas.“ Das kleine Wort ändert sich mit der Person: me (ich), te (du). Für die Rückfrage sagst du „¿Y a ti?“ (und dir?) oder „A mí también“ (ich auch).",
+      "questions": [
+        "¿Y tú? ¿Qué te gusta hacer los sábados?",
+        "¿Te gusta cocinar? ¿Qué comes normalmente?",
+        "¿Te gustan las pupusas? ¿Qué comida te gusta mucho?"
+      ],
+      "sources": []
     },
     {
-     "w": "in a hurry",
-     "en": "trying to do something very fast",
-     "zh": "匆忙；着急"
+      "lang": "es",
+      "level": "B1",
+      "kind": "feature",
+      "section": "Comida",
+      "title": "La papa: 3.000 variedades en el Perú",
+      "dek": "Amarillas, moradas, rojas: en los Andes peruanos la papa es mucho más que una comida.",
+      "tags": [
+        "Perú",
+        "papa",
+        "pronombres de objeto directo"
+      ],
+      "paragraphs": [
+        "En el mercado de cualquier ciudad de los Andes peruanos, las papas no son todas iguales. Hay papas amarillas, moradas y rojas, redondas, largas y arrugadas. Algunas tienen formas tan raras que los visitantes se ríen al verlas. Para muchos peruanos, la papa no es solo un alimento: es parte de su historia y de su vida diaria.",
+        "Según la agencia de noticias Andina, en el Perú existen aproximadamente 3.000 variedades, y cada una tiene su propia forma, color, sabor y textura. Las variedades nativas se cultivan sobre todo en la sierra, a más de 3.000 metros de altura, donde hace mucho frío. Algunas tienen nombres muy bonitos, como «huayro rojo» o «sangre de toro». Los agricultores las conocen muy bien y las cuidan de generación en generación.",
+        "La papa también es importante para la economía. En 2023 el país produjo unos 5,4 millones de toneladas, más que ningún otro país de América Latina. Más de 711.000 familias de pequeños agricultores trabajan con este cultivo, y casi toda la producción viene de la sierra. Cuando una familia tiene una buena cosecha, no solo come mejor: también puede vender el resto en el mercado.",
+        "En la cocina peruana, las papas aparecen en muchísimos platos. Se hierven para preparar la papa a la huancaína, que lleva una salsa cremosa de queso y ají amarillo. También se fríen, se hornean o se sirven con ají. Según el mismo artículo, cada peruano come en promedio unos 92 kilos de papa al año. Si las comes todos los días, ¡casi estás comiendo como un peruano!",
+        "En 2005 el Perú creó el Día Nacional de la Papa para recordar el valor de este cultivo. Además, las Naciones Unidas aprobaron un Día Internacional de la Papa, que se celebra el 30 de mayo. Muchos agricultores quieren que más personas conozcan las variedades nativas, porque así es más fácil protegerlas. Si tuvieras la oportunidad de probar diez variedades diferentes, ¿cuál elegirías primero?",
+        "Dato curioso: la palabra «papa» viene del quechua, el idioma de los Andes. En toda América Latina se dice «papa», pero en España se usa «patata»."
+      ],
+      "paragraphs_en": [
+        "In the market of any city in the Peruvian Andes, potatoes are not all the same. There are yellow, purple and red potatoes, round, long and wrinkled ones. Some have shapes so strange that visitors laugh when they see them. For many Peruvians, the potato is not just food: it is part of their history and daily life.",
+        "According to the news agency Andina, Peru has approximately 3,000 varieties, and each one has its own shape, color, flavor and texture. The native varieties are grown mostly in the highlands, above 3,000 meters, where it is very cold. Some have very pretty names, like “huayro rojo” or “sangre de toro” (bull's blood). Farmers know them very well and take care of them from generation to generation.",
+        "The potato is also important for the economy. In 2023 the country produced about 5.4 million tonnes, more than any other country in Latin America. More than 711,000 families of small farmers work with this crop, and almost all of the production comes from the highlands. When a family has a good harvest, it not only eats better: it can also sell the rest at the market.",
+        "In Peruvian cooking, potatoes appear in a great many dishes. They are boiled to make papa a la huancaína, which has a creamy sauce of cheese and yellow chili. They are also fried, baked or served with chili. According to the same article, each Peruvian eats on average about 92 kilos of potatoes a year. If you eat them every day, you're almost eating like a Peruvian!",
+        "In 2005 Peru created the National Potato Day to remember the value of this crop. In addition, the United Nations approved an International Potato Day, celebrated on May 30. Many farmers want more people to know the native varieties, because that makes it easier to protect them. If you had the chance to try ten different varieties, which would you choose first?",
+        "Fun fact: the word “papa” comes from Quechua, the language of the Andes. All over Latin America people say “papa,” but in Spain they use “patata.”"
+      ],
+      "paragraphs_de": [
+        "Auf dem Markt jeder Stadt in den peruanischen Anden sind die Kartoffeln nicht alle gleich. Es gibt gelbe, lila und rote Kartoffeln, runde, lange und runzelige. Manche haben so seltsame Formen, dass Besucher lachen, wenn sie sie sehen. Für viele Peruaner ist die Kartoffel nicht nur ein Lebensmittel: Sie gehört zu ihrer Geschichte und ihrem Alltag.",
+        "Laut der Nachrichtenagentur Andina gibt es in Peru ungefähr 3.000 Sorten, und jede hat ihre eigene Form, Farbe, ihren eigenen Geschmack und ihre eigene Textur. Die einheimischen Sorten werden vor allem im Hochland angebaut, über 3.000 Metern Höhe, wo es sehr kalt ist. Manche haben sehr schöne Namen, wie „huayro rojo“ oder „sangre de toro“ (Stierblut). Die Bauern kennen sie sehr gut und pflegen sie von Generation zu Generation.",
+        "Die Kartoffel ist auch für die Wirtschaft wichtig. 2023 produzierte das Land etwa 5,4 Millionen Tonnen, mehr als jedes andere Land Lateinamerikas. Mehr als 711.000 Familien von Kleinbauern arbeiten mit dieser Pflanze, und fast die gesamte Produktion kommt aus dem Hochland. Wenn eine Familie eine gute Ernte hat, isst sie nicht nur besser: Sie kann den Rest auch auf dem Markt verkaufen.",
+        "In der peruanischen Küche kommen Kartoffeln in sehr vielen Gerichten vor. Man kocht sie für die papa a la huancaína, die eine cremige Sauce aus Käse und gelbem Chili hat. Man frittiert oder backt sie auch oder serviert sie mit Chili. Laut demselben Artikel isst jeder Peruaner im Durchschnitt etwa 92 Kilo Kartoffeln im Jahr. Wenn du sie jeden Tag isst, isst du fast wie ein Peruaner!",
+        "2005 schuf Peru den Nationalen Tag der Kartoffel, um an den Wert dieser Pflanze zu erinnern. Außerdem haben die Vereinten Nationen einen Internationalen Tag der Kartoffel beschlossen, der am 30. Mai gefeiert wird. Viele Bauern möchten, dass mehr Menschen die einheimischen Sorten kennenlernen, weil man sie so leichter schützen kann. Wenn du die Gelegenheit hättest, zehn verschiedene Sorten zu probieren, welche würdest du zuerst wählen?",
+        "Wissenswertes: Das Wort „papa“ kommt aus dem Quechua, der Sprache der Anden. In ganz Lateinamerika sagt man „papa“, in Spanien dagegen „patata“."
+      ],
+      "glossary": [
+        {
+          "w": "la papa",
+          "en": "potato (Latin America; “patata” in Spain)",
+          "de": "die Kartoffel"
+        },
+        {
+          "w": "la variedad",
+          "en": "variety, type",
+          "de": "die Sorte"
+        },
+        {
+          "w": "arrugado",
+          "en": "wrinkled",
+          "de": "runzelig"
+        },
+        {
+          "w": "la sierra",
+          "en": "the highlands (the Andes region)",
+          "de": "das Hochland"
+        },
+        {
+          "w": "el agricultor",
+          "en": "farmer",
+          "de": "der Bauer, Landwirt"
+        },
+        {
+          "w": "cuidar",
+          "en": "to take care of",
+          "de": "pflegen, sich kümmern um"
+        },
+        {
+          "w": "la cosecha",
+          "en": "harvest",
+          "de": "die Ernte"
+        },
+        {
+          "w": "la tonelada",
+          "en": "tonne (1,000 kg)",
+          "de": "die Tonne"
+        },
+        {
+          "w": "hervir",
+          "en": "to boil",
+          "de": "kochen (im Wasser)"
+        },
+        {
+          "w": "freír",
+          "en": "to fry",
+          "de": "braten, frittieren"
+        },
+        {
+          "w": "proteger",
+          "en": "to protect",
+          "de": "schützen"
+        },
+        {
+          "w": "el ají",
+          "en": "chili pepper (Andes, Caribbean)",
+          "de": "die Chilischote"
+        }
+      ],
+      "grammar": "Direct object pronouns (B1): lo, la, los, las replace a noun that was already mentioned, so you don't repeat it. They go before the conjugated verb and match the noun in gender and number. “Los agricultores las conocen muy bien” (las = las variedades). With an infinitive they can also be attached at the end: “quieren protegerlas.”",
+      "grammar_de": "Direkte Objektpronomen (B1): lo, la, los, las ersetzen ein Nomen, das schon genannt wurde, damit man es nicht wiederholt. Sie stehen vor dem konjugierten Verb und passen sich Geschlecht und Zahl des Nomens an. „Los agricultores las conocen muy bien“ (las = las variedades). Beim Infinitiv können sie auch hinten angehängt werden: „quieren protegerlas“.",
+      "questions": [
+        "¿Qué papas o platos con papa te gustan más? ¿Los preparas tú?",
+        "¿Por qué es importante proteger las variedades nativas, según el texto?",
+        "¿Qué alimento tradicional de tu país te gustaría presentar? ¿Cómo se prepara?"
+      ],
+      "sources": [
+        {
+          "title": "Perú: cuna de la papa, tesoro para la seguridad alimentaria mundial (Andina)",
+          "url": "https://andina.pe/agencia/noticia-peru-cuna-de-papa-tesoro-para-seguridad-alimentaria-mundial-987076.aspx",
+          "license": "link only"
+        }
+      ]
     },
     {
-     "w": "incense",
-     "en": "a sweet-smelling smoke burned for a calm feeling",
-     "zh": "熏香"
+      "lang": "pt",
+      "level": "A1",
+      "kind": "feature",
+      "section": "Cultura",
+      "title": "Natal no verão: ceia, calor e rabanada",
+      "dek": "No Brasil, dezembro é verão. Tem neve no Natal? Não. Tem praia? Tem!",
+      "tags": [
+        "Natal",
+        "comida",
+        "números"
+      ],
+      "paragraphs": [
+        "No Brasil, o Natal é no verão. Em dezembro faz calor. Não tem neve, mas tem uma árvore de Natal bonita na sala.",
+        "A festa grande não é no dia 25. É no dia 24 de dezembro, à noite: é a ceia de Natal. A família come junto — às vezes dez, quinze ou vinte pessoas!",
+        "Na mesa tem peru, arroz, salada e frutas. Tem panetone, um pão doce dos italianos. E tem rabanada: pão com leite e ovo, frito, com açúcar e canela.",
+        "Muitas famílias comem só à meia-noite, quando começa o dia 25. Outras famílias vão à Missa do Galo, na igreja, também à meia-noite.",
+        "No dia 25, o Papai Noel traz os presentes. De manhã, a família come rabanada no café da manhã. E nas cidades com mar, as praias ficam cheias.",
+        "Pobre Papai Noel: roupa vermelha de inverno no calor do verão!"
+      ],
+      "paragraphs_en": [
+        "In Brazil, Christmas is in summer. In December it is hot. There is no snow, but there is a pretty Christmas tree in the living room.",
+        "The big party is not on the 25th. It is on 24 December, in the evening: the ceia de Natal (Christmas Eve dinner). The family eats together — sometimes ten, fifteen or twenty people!",
+        "On the table there is turkey, rice, salad and fruit. There is panettone, a sweet bread from the Italians. And there is rabanada: bread with milk and egg, fried, with sugar and cinnamon.",
+        "Many families only eat at midnight, when the 25th begins. Other families go to Midnight Mass (the Missa do Galo, 'Mass of the Rooster') at church, also at midnight.",
+        "On the 25th, Father Christmas (Papai Noel) brings the presents. In the morning, the family eats rabanada for breakfast. And in towns by the sea, the beaches are full.",
+        "Poor Papai Noel: red winter clothes in the summer heat!"
+      ],
+      "paragraphs_zh": [
+        "在巴西，圣诞节在夏天。十二月很热。没有雪，但客厅里有一棵漂亮的圣诞树。",
+        "大聚会不在25号，而是在12月24日晚上：圣诞夜大餐（ceia de Natal）。全家人一起吃饭——有时候十个、十五个，甚至二十个人！",
+        "桌上有火鸡、米饭、沙拉和水果。有潘妮托尼（panetone），一种意大利人带来的甜面包。还有 rabanada：面包泡牛奶和鸡蛋，油炸，再撒上糖和肉桂。",
+        "很多家庭到午夜、也就是25号开始的时候才吃饭。另一些家庭去教堂参加午夜弥撒（Missa do Galo，“公鸡弥撒”），也是在午夜。",
+        "25号，圣诞老人（Papai Noel）送来礼物。早上，全家人早餐吃 rabanada。在海边的城市，海滩上挤满了人。",
+        "可怜的圣诞老人：在夏天的炎热里穿着红色的冬装！"
+      ],
+      "paragraphs_de": [
+        "In Brasilien ist Weihnachten im Sommer. Im Dezember ist es heiß. Es gibt keinen Schnee, aber im Wohnzimmer steht ein schöner Weihnachtsbaum.",
+        "Das große Fest ist nicht am 25. Es ist am 24. Dezember, am Abend: die ceia de Natal (das Weihnachtsessen am Heiligabend). Die Familie isst zusammen — manchmal zehn, fünfzehn oder zwanzig Leute!",
+        "Auf dem Tisch gibt es Truthahn, Reis, Salat und Obst. Es gibt Panettone, ein süßes Brot von den Italienern. Und es gibt Rabanada: Brot mit Milch und Ei, frittiert, mit Zucker und Zimt.",
+        "Viele Familien essen erst um Mitternacht, wenn der 25. beginnt. Andere Familien gehen in die Christmette (die Missa do Galo, „Hahnenmesse“) in der Kirche, auch um Mitternacht.",
+        "Am 25. bringt der Weihnachtsmann (Papai Noel) die Geschenke. Am Morgen isst die Familie Rabanada zum Frühstück. Und in den Städten am Meer sind die Strände voll.",
+        "Armer Papai Noel: rote Winterkleidung in der Sommerhitze!"
+      ],
+      "glossary": [
+        {
+          "w": "a ceia",
+          "en": "evening feast, (Christmas Eve) dinner — a ceia de Natal",
+          "zh": "晚餐；圣诞夜大餐",
+          "de": "das (festliche) Abendessen",
+          "pt": "um jantar grande e especial, à noite"
+        },
+        {
+          "w": "o peru",
+          "en": "turkey — Na mesa tem peru",
+          "zh": "火鸡",
+          "de": "der Truthahn, die Pute",
+          "pt": "uma ave grande; a gente come no Natal"
+        },
+        {
+          "w": "o panetone",
+          "en": "panettone — um pão doce dos italianos",
+          "zh": "潘妮托尼（意式圣诞甜面包）",
+          "de": "der Panettone",
+          "pt": "um pão doce e alto, com frutas, do Natal"
+        },
+        {
+          "w": "a rabanada",
+          "en": "Brazilian French toast — pão com leite e ovo, frito",
+          "zh": "巴西式法式吐司（圣诞甜点）",
+          "de": "süßes, frittiertes Brot (wie „Arme Ritter“)",
+          "pt": "pão com leite e ovo, frito, com açúcar e canela"
+        },
+        {
+          "w": "a canela",
+          "en": "cinnamon — com açúcar e canela",
+          "zh": "肉桂",
+          "de": "der Zimt",
+          "pt": "um pó marrom e doce para bolos e doces"
+        },
+        {
+          "w": "a Missa do Galo",
+          "en": "Midnight Mass (lit. 'Mass of the Rooster')",
+          "zh": "午夜弥撒（直译“公鸡弥撒”）",
+          "de": "die Christmette",
+          "pt": "a missa na igreja à meia-noite, no Natal"
+        },
+        {
+          "w": "o Papai Noel",
+          "en": "Father Christmas, Santa Claus",
+          "zh": "圣诞老人",
+          "de": "der Weihnachtsmann",
+          "pt": "o homem de roupa vermelha que traz os presentes"
+        }
+      ],
+      "grammar": "Dates use the plain numbers: no dia 24 de dezembro (on 24 December), no dia 25 (on the 25th). Only the first day of a month is said with primeiro: 1º de janeiro = primeiro de janeiro.",
+      "grammar_zh": "日期直接用基数词：no dia 24 de dezembro（在12月24日），no dia 25（在25号）。只有每月的第一天用 primeiro（第一）：1º de janeiro = primeiro de janeiro（1月1日）。",
+      "grammar_de": "Für Daten nimmt man die normalen Zahlen: no dia 24 de dezembro (am 24. Dezember), no dia 25 (am 25.). Nur der erste Tag des Monats heißt primeiro: 1º de janeiro = primeiro de janeiro (1. Januar).",
+      "grammar_pt": "Nas datas, a gente usa os números normais: no dia 24 de dezembro, no dia 25. Só o primeiro dia do mês é diferente: 1º de janeiro = primeiro de janeiro.",
+      "questions": [
+        "Quando é a ceia de Natal no Brasil? A que horas muitas famílias comem?",
+        "O que tem na rabanada?",
+        "E você? Onde você está no dia 24 de dezembro? Faz frio ou calor?"
+      ],
+      "sources": [
+        {
+          "title": "8 coisas espetaculares que você só vai ver no Natal do Brasil (TudoGostoso)",
+          "url": "https://www.tudogostoso.com.br/noticias/tradicoes-e-comidas-que-so-tem-no-natal-do-brasil-a10338.htm",
+          "license": "link only"
+        },
+        {
+          "title": "Por que a ceia de Natal é no dia 24 se a data da festa é 25? (TudoGostoso)",
+          "url": "https://www.tudogostoso.com.br/noticias/por-que-a-ceia-de-natal-e-no-dia-24-se-a-data-da-festa-e-25-entenda-tradicao-e-o-motivo-de-esperar-ate-meia-noite-a7422.htm",
+          "license": "link only"
+        }
+      ]
     },
     {
-     "w": "strainer",
-     "en": "a tool with small holes that keeps solid things out of a liquid",
-     "zh": "滤网；过滤器"
-    },
-    {
-     "w": "spout",
-     "en": "the narrow part of a pot where the liquid comes out",
-     "zh": "壶嘴"
-    },
-    {
-     "w": "sieve",
-     "en": "a tool with a net used to separate liquid from solid pieces",
-     "zh": "筛子；滤器"
-    },
-    {
-     "w": "host",
-     "en": "the person who invites guests and looks after them",
-     "zh": "主人；东道主"
-    },
-    {
-     "w": "weak",
-     "en": "not strong in taste",
-     "zh": "（味道）淡的"
-    },
-    {
-     "w": "pass down",
-     "en": "give something to younger people in the family over the years",
-     "zh": "传给后代；世代相传"
+      "lang": "pt",
+      "level": "B2",
+      "kind": "essay",
+      "section": "Crônica",
+      "title": "Das treze às quinze",
+      "dek": "Um regulamento plastificado, um almoço de domingo que dura seis horas e uma vizinha alemã que nunca reclamou: crônica sobre barulho, silêncio e o que existe entre os dois.",
+      "tags": [
+        "vida de vizinhança",
+        "Brasil e Alemanha",
+        "crase"
+      ],
+      "paragraphs": [
+        "Existe no nosso prédio, colado ao lado das caixas de correio, um papel plastificado que ninguém lê e todo mundo conhece: a Hausordnung, o regulamento da casa. Entre regras sobre o lixo e as bicicletas, há uma frase em negrito que, para a minha família, sempre soou como uma provocação: das treze às quinze horas, silêncio. Aos domingos, o dia inteiro.",
+        "O problema é que o almoço de domingo, numa casa brasileira, não começa à uma da tarde: começa às onze, quando minha mãe liga o rádio, e termina lá pelas cinco, quando o último tio desiste do pudim. Entre uma coisa e outra, há feijão na panela de pressão — que apita feito trem —, cadeiras arrastadas, três conversas paralelas e alguém que, sem que ninguém peça, resolve mostrar no celular, em volume máximo, o vídeo de um pagode gravado num aniversário em Belo Horizonte.",
+        "A dona Becker, do andar de baixo, nunca reclamou. Isso, de certa forma, era pior. Ela simplesmente aparecia na escada, à tarde, regando as plantas do corredor com uma lentidão quase cerimonial, e cumprimentava minha mãe com um „Schönen Sonntag noch“ que, dependendo da entonação, podia ser um desejo sincero ou o começo de um processo judicial. Minha mãe, por via das dúvidas, respondia com um sorriso enorme e, na semana seguinte, descia com um pedaço de bolo de fubá.",
+        "Durante anos vivi dividido entre os dois mundos, feito um diplomata sem credenciais. Na escola, explicava aos colegas por que lá em casa ninguém conseguia falar baixo; em casa, explicava aos meus pais que, na Alemanha, o barulho não é só barulho: é uma questão de respeito, quase de moral. Meu pai ouvia, balançava a cabeça e, cinco minutos depois, estava cantando Roberto Carlos à janela, de costas para o regulamento.",
+        "Foi num domingo de novembro, desses em que às quatro da tarde já está escuro, que a dona Becker tocou a campainha. Fez-se aquele silêncio que nenhum regulamento jamais conseguira impor. Ela estava parada à porta, com o prato do bolo devolvido, limpo, e uma pergunta: se minha mãe lhe ensinaria a receita. Depois, meio sem jeito, confessou que morava sozinha havia doze anos e que os domingos, no prédio, eram compridos demais. O barulho lá de cima, disse, era a única coisa que ainda lhe lembrava uma casa cheia.",
+        "Desde então, a dona Becker almoça conosco no último domingo de cada mês. Chega às doze em ponto, à alemã, e vai embora às cinco, à brasileira. Aprendeu a dizer „nossa senhora“ com a entonação certa e já nem se assusta com a panela de pressão. O regulamento continua lá embaixo, plastificado, ao lado das caixas de correio; ninguém o arrancou. Mas eu desconfio que toda regra de silêncio, no fundo, é escrita por alguém que sente falta de algum barulho — só não sabe ainda de qual."
+      ],
+      "paragraphs_en": [
+        "In our building, stuck next to the letterboxes, there is a laminated sheet that nobody reads and everybody knows: the Hausordnung, the house rules. Among rules about rubbish and bicycles there is a sentence in bold that, to my family, always sounded like a provocation: from one to three p.m., silence. On Sundays, all day long.",
+        "The problem is that Sunday lunch in a Brazilian home does not start at one o'clock: it starts at eleven, when my mother turns on the radio, and ends around five, when the last uncle gives up on the pudding. In between there are beans in the pressure cooker — which whistles like a train — chairs being dragged, three parallel conversations, and someone who, without anyone asking, decides to show on their phone, at full volume, a video of a pagode recorded at a birthday party in Belo Horizonte.",
+        "Frau Becker, from the floor below, never complained. In a way, that was worse. She would simply appear on the stairs in the afternoon, watering the plants in the hallway with an almost ceremonial slowness, and greet my mother with a “Schönen Sonntag noch” that, depending on the intonation, could be a sincere wish or the start of a lawsuit. My mother, just in case, answered with an enormous smile and, the following week, went downstairs with a slice of cornmeal cake.",
+        "For years I lived split between the two worlds, like a diplomat without credentials. At school I explained to my classmates why nobody at home could speak quietly; at home I explained to my parents that in Germany noise is not just noise: it is a question of respect, almost of morality. My father would listen, shake his head and, five minutes later, be singing Roberto Carlos at the window, with his back to the house rules.",
+        "It was on a Sunday in November, one of those when it is already dark at four in the afternoon, that Frau Becker rang the doorbell. There fell the kind of silence that no set of rules had ever managed to impose. She was standing at the door with the cake plate returned, clean, and a question: would my mother teach her the recipe? Then, somewhat awkwardly, she confessed that she had lived alone for twelve years and that Sundays in the building were far too long. The noise from upstairs, she said, was the only thing that still reminded her of a full house.",
+        "Since then, Frau Becker has lunch with us on the last Sunday of every month. She arrives at twelve on the dot, German-style, and leaves at five, Brazilian-style. She has learned to say “nossa senhora” with the right intonation and is no longer startled by the pressure cooker. The house rules are still down there, laminated, next to the letterboxes; nobody has torn them down. But I suspect that every rule of silence is, deep down, written by someone who misses some kind of noise — they just don't know yet which one."
+      ],
+      "paragraphs_zh": [
+        "我们楼里，信箱旁边贴着一张塑封的纸，没人读，可人人都知道：Hausordnung，住户守则。在关于垃圾和自行车的规定之间，有一句加粗的话，在我们家听来一直像是挑衅：下午一点到三点，保持安静。星期天，全天安静。",
+        "问题在于，巴西人家里的星期天午饭不是一点钟开始的：它十一点就开始了——妈妈打开收音机的时候——一直到五点左右才结束，那时最后一位叔叔终于对布丁投降。这中间有高压锅里的豆子——鸣笛声像火车一样——被拖来拖去的椅子、三场同时进行的谈话，还有某个人，没人请求，就决定用手机把音量开到最大，放一段在贝洛奥里藏特某个生日会上录的帕戈德音乐视频。",
+        "楼下的贝克太太从来没有抱怨过。从某种意义上说，这更糟。她只是下午出现在楼梯上，用一种近乎仪式般的缓慢给走廊里的植物浇水，然后跟我妈妈说一句“Schönen Sonntag noch”（祝您星期天愉快）——根据语调不同，这句话可以是真诚的祝福，也可以是一场官司的开端。妈妈为了保险起见，总是报以大大的笑容，下一周还会端着一块玉米粉蛋糕下楼去。",
+        "好多年里，我活得像被劈成两半，夹在两个世界之间，像个没有国书的外交官。在学校，我向同学解释为什么我们家没人能小声说话；在家里，我向父母解释，在德国，噪音不只是噪音：它关乎尊重，几乎关乎道德。爸爸听着，摇摇头，五分钟后就在窗边唱起罗伯托·卡洛斯的歌，背对着那份守则。",
+        "那是十一月的一个星期天，下午四点天就已经黑了的那种日子，贝克太太按响了门铃。屋里顿时出现了一种任何守则都从未能强加的寂静。她站在门口，手里拿着还回来的、洗干净的蛋糕盘子，还有一个问题：我妈妈能不能教她做这个蛋糕？然后，她有点不好意思地坦白说，她一个人住了十二年，楼里的星期天实在太漫长了。她说，楼上的吵闹声是唯一还能让她想起一个满是人的家的东西。",
+        "从那以后，贝克太太每个月最后一个星期天都来我们家吃午饭。她十二点整准时到——德国式的——五点才走——巴西式的。她学会了用正确的语调说“nossa senhora”（我的天哪），对高压锅也不再大惊小怪。那份守则还贴在楼下，塑封着，在信箱旁边；没有人把它撕掉。但我怀疑，每一条安静的规定，说到底，都是某个想念某种声音的人写的——只是他还不知道，想念的是哪一种。"
+      ],
+      "glossary": [
+        {
+          "w": "o regulamento",
+          "en": "regulations, set of rules",
+          "zh": "规章，守则"
+        },
+        {
+          "w": "soar como",
+          "en": "to sound like",
+          "zh": "听起来像"
+        },
+        {
+          "w": "a panela de pressão",
+          "en": "pressure cooker",
+          "zh": "高压锅"
+        },
+        {
+          "w": "apitar",
+          "en": "to whistle (a kettle, a train, a referee)",
+          "zh": "鸣笛；吹哨"
+        },
+        {
+          "w": "feito",
+          "en": "like (informal, = como)",
+          "zh": "像……一样（口语）"
+        },
+        {
+          "w": "por via das dúvidas",
+          "en": "just in case",
+          "zh": "以防万一"
+        },
+        {
+          "w": "o processo judicial",
+          "en": "lawsuit",
+          "zh": "诉讼，官司"
+        },
+        {
+          "w": "o bolo de fubá",
+          "en": "cornmeal cake",
+          "zh": "玉米粉蛋糕"
+        },
+        {
+          "w": "as credenciais",
+          "en": "credentials (of a diplomat)",
+          "zh": "国书；凭证"
+        },
+        {
+          "w": "conseguira",
+          "en": "had managed (pluperfect, written register = tinha conseguido)",
+          "zh": "曾经做到（书面过去完成时）"
+        },
+        {
+          "w": "meio sem jeito",
+          "en": "somewhat awkwardly, embarrassed",
+          "zh": "有点不好意思"
+        },
+        {
+          "w": "havia doze anos",
+          "en": "for twelve years (in a past narrative)",
+          "zh": "（过去叙述中）已有十二年"
+        }
+      ],
+      "grammar": "Crase is the fusion of the preposition “a” with the article “a(s)”, written “à(s)”. It is always used with clock times (“à uma da tarde”, “às onze”, “das treze às quinze”) and in the expression “à moda de”, often shortened to “à alemã” / “à brasileira”. It also appears in fixed phrases like “à tarde”, “à janela”, “à porta”. But there is no crase before masculine words: “ao meio-dia”, “ao lado”.",
+      "grammar_zh": "Crase 是介词 “a” 与阴性冠词 “a(s)” 的合并，写作 “à(s)”。表示钟点时一定要用（“à uma da tarde”、“às onze”、“das treze às quinze”），表达“……式的”时也用，即 “à moda de” 的省略形式：“à alemã”“à brasileira”。固定短语 “à tarde”“à janela”“à porta” 中也有。但阳性词前没有 crase：“ao meio-dia”“ao lado”。",
+      "questions": [
+        "Por que a dona Becker nunca reclamou do barulho, segundo o que ela conta no fim?",
+        "Como o narrador se sentia entre a escola e a casa?",
+        "Na sua família, como é o almoço de domingo — e você já teve problemas com vizinhos por causa de barulho?"
+      ],
+      "sources": []
     }
-   ],
-   "grammar": "We use the present perfect (have/has + past participle) to connect the past with now. Use just for something that happened a moment ago, already for something done earlier than expected, and ever/never for life experience: “you have just arrived”, “Have you ever been invited…?”, “you have already spent about two hours”.",
-   "grammar_zh": "现在完成时（have/has + 过去分词）把过去和现在联系起来。just 表示“刚刚”，already 表示“已经”，ever/never 用于问或说人生经历：“you have just arrived”（你刚到）、“Have you ever been invited…?”（你有没有被邀请过……？）、“you have already spent about two hours”（你已经花了大约两个小时）。中文常用“了”“过”来表达，如“已经花了”“有没有……过”。",
-   "questions": [
-    "Why do you think the ceremony takes so long, and why is the first round the strongest?",
-    "Why is the jebena often passed down in a family?",
-    "And you? Have you ever shared a long drink or meal with friends or family? What was it like?"
-   ],
-   "sources": [
-    {
-     "title": "Jebena – Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Jebena",
-     "license": "CC BY-SA 4.0"
-    }
-   ]
-  },
-  {
-   "lang": "es",
-   "level": "A1",
-   "kind": "dialogue",
-   "section": "Conversación",
-   "title": "En San Salvador: ¿qué te gusta hacer?",
-   "dek": "Dos compañeros de trabajo hablan de sus pasatiempos un sábado en un parque de San Salvador, El Salvador.",
-   "tags": [
-    "San Salvador",
-    "small talk",
-    "gustar"
-   ],
-   "paragraphs": [
-    "Ana: ¡Hola, Diego! ¿Qué tal?",
-    "Diego: Bien, gracias. ¿Y tú?",
-    "Ana: Muy bien. Hoy es sábado y hace sol.",
-    "Diego: Sí, es un día bonito. ¿Qué te gusta hacer los sábados?",
-    "Ana: Me gusta caminar en el parque y escuchar música. ¿Y a ti?",
-    "Diego: Me gusta jugar al fútbol con mis amigos. No me gusta cocinar.",
-    "Ana: ¿No te gusta cocinar? ¿Y qué comes?",
-    "Diego: Como pupusas. ¡Me gustan mucho!",
-    "Ana: ¡A mí también! ¿Te gustan de queso?",
-    "Diego: Sí, me gustan de queso y de frijoles.",
-    "Ana: ¡Vamos a comer pupusas ahora!",
-    "Diego: ¡Buena idea!",
-    "Dato curioso: las pupusas son el plato más famoso de El Salvador. Son tortillas gruesas con queso, frijoles u otro relleno, y se comen con curtido, una ensalada de repollo."
-   ],
-   "paragraphs_en": [
-    "Ana: Hi, Diego! How are you?",
-    "Diego: Fine, thanks. And you?",
-    "Ana: Very well. Today is Saturday and it's sunny.",
-    "Diego: Yes, it's a beautiful day. What do you like to do on Saturdays?",
-    "Ana: I like walking in the park and listening to music. And you?",
-    "Diego: I like playing soccer with my friends. I don't like cooking.",
-    "Ana: You don't like cooking? And what do you eat?",
-    "Diego: I eat pupusas. I like them a lot!",
-    "Ana: Me too! Do you like the cheese ones?",
-    "Diego: Yes, I like the ones with cheese and with beans.",
-    "Ana: Let's go eat pupusas now!",
-    "Diego: Good idea!",
-    "Fun fact: pupusas are the most famous dish of El Salvador. They are thick tortillas with cheese, beans or another filling, and they are eaten with curtido, a cabbage salad."
-   ],
-   "paragraphs_de": [
-    "Ana: Hallo, Diego! Wie geht's?",
-    "Diego: Gut, danke. Und dir?",
-    "Ana: Sehr gut. Heute ist Samstag und die Sonne scheint.",
-    "Diego: Ja, es ist ein schöner Tag. Was machst du samstags gern?",
-    "Ana: Ich gehe gern im Park spazieren und höre Musik. Und du?",
-    "Diego: Ich spiele gern Fußball mit meinen Freunden. Ich koche nicht gern.",
-    "Ana: Du kochst nicht gern? Und was isst du?",
-    "Diego: Ich esse Pupusas. Die mag ich sehr!",
-    "Ana: Ich auch! Magst du die mit Käse?",
-    "Diego: Ja, ich mag die mit Käse und mit Bohnen.",
-    "Ana: Komm, wir essen jetzt Pupusas!",
-    "Diego: Gute Idee!",
-    "Wissenswertes: Pupusas sind das bekannteste Gericht von El Salvador. Es sind dicke Tortillas mit Käse, Bohnen oder einer anderen Füllung, dazu isst man Curtido, einen Krautsalat."
-   ],
-   "glossary": [
-    {
-     "w": "me gusta",
-     "en": "I like (one thing / an action)",
-     "de": "ich mag, mir gefällt"
-    },
-    {
-     "w": "me gustan",
-     "en": "I like (several things)",
-     "de": "ich mag (Plural)"
-    },
-    {
-     "w": "el sábado",
-     "en": "Saturday",
-     "de": "der Samstag"
-    },
-    {
-     "w": "caminar",
-     "en": "to walk",
-     "de": "gehen, spazieren gehen"
-    },
-    {
-     "w": "cocinar",
-     "en": "to cook",
-     "de": "kochen"
-    },
-    {
-     "w": "el frijol",
-     "en": "bean (Central America)",
-     "de": "die Bohne"
-    },
-    {
-     "w": "¡A mí también!",
-     "en": "Me too!",
-     "de": "Ich auch!"
-    },
-    {
-     "w": "la pupusa",
-     "en": "thick filled tortilla from El Salvador",
-     "de": "die Pupusa (gefüllte Maistortilla)"
-    }
-   ],
-   "grammar": "To say what you like, use gustar. With one thing or an action, say me gusta: “Me gusta caminar.” With several things, say me gustan: “Me gustan las pupusas.” The little word changes with the person: me (I), te (you). To return the question, say “¿Y a ti?” (and you?) or “A mí también” (me too).",
-   "grammar_de": "Wenn du sagen willst, was du magst, benutze gustar. Bei einer Sache oder einer Tätigkeit sagst du me gusta: „Me gusta caminar.“ Bei mehreren Dingen sagst du me gustan: „Me gustan las pupusas.“ Das kleine Wort ändert sich mit der Person: me (ich), te (du). Für die Rückfrage sagst du „¿Y a ti?“ (und dir?) oder „A mí también“ (ich auch).",
-   "questions": [
-    "¿Y tú? ¿Qué te gusta hacer los sábados?",
-    "¿Te gusta cocinar? ¿Qué comes normalmente?",
-    "¿Te gustan las pupusas? ¿Qué comida te gusta mucho?"
-   ],
-   "sources": []
-  },
-  {
-   "lang": "es",
-   "level": "B1",
-   "kind": "feature",
-   "section": "Comida",
-   "title": "La papa: 3.000 variedades en el Perú",
-   "dek": "Amarillas, moradas, rojas: en los Andes peruanos la papa es mucho más que una comida.",
-   "tags": [
-    "Perú",
-    "papa",
-    "pronombres de objeto directo"
-   ],
-   "paragraphs": [
-    "En el mercado de cualquier ciudad de los Andes peruanos, las papas no son todas iguales. Hay papas amarillas, moradas y rojas, redondas, largas y arrugadas. Algunas tienen formas tan raras que los visitantes se ríen al verlas. Para muchos peruanos, la papa no es solo un alimento: es parte de su historia y de su vida diaria.",
-    "Según la agencia de noticias Andina, en el Perú existen aproximadamente 3.000 variedades, y cada una tiene su propia forma, color, sabor y textura. Las variedades nativas se cultivan sobre todo en la sierra, a más de 3.000 metros de altura, donde hace mucho frío. Algunas tienen nombres muy bonitos, como «huayro rojo» o «sangre de toro». Los agricultores las conocen muy bien y las cuidan de generación en generación.",
-    "La papa también es importante para la economía. En 2023 el país produjo unos 5,4 millones de toneladas, más que ningún otro país de América Latina. Más de 711.000 familias de pequeños agricultores trabajan con este cultivo, y casi toda la producción viene de la sierra. Cuando una familia tiene una buena cosecha, no solo come mejor: también puede vender el resto en el mercado.",
-    "En la cocina peruana, las papas aparecen en muchísimos platos. Se hierven para preparar la papa a la huancaína, que lleva una salsa cremosa de queso y ají amarillo. También se fríen, se hornean o se sirven con ají. Según el mismo artículo, cada peruano come en promedio unos 92 kilos de papa al año. Si las comes todos los días, ¡casi estás comiendo como un peruano!",
-    "En 2005 el Perú creó el Día Nacional de la Papa para recordar el valor de este cultivo. Además, las Naciones Unidas aprobaron un Día Internacional de la Papa, que se celebra el 30 de mayo. Muchos agricultores quieren que más personas conozcan las variedades nativas, porque así es más fácil protegerlas. Si tuvieras la oportunidad de probar diez variedades diferentes, ¿cuál elegirías primero?",
-    "Dato curioso: la palabra «papa» viene del quechua, el idioma de los Andes. En toda América Latina se dice «papa», pero en España se usa «patata»."
-   ],
-   "paragraphs_en": [
-    "In the market of any city in the Peruvian Andes, potatoes are not all the same. There are yellow, purple and red potatoes, round, long and wrinkled ones. Some have shapes so strange that visitors laugh when they see them. For many Peruvians, the potato is not just food: it is part of their history and daily life.",
-    "According to the news agency Andina, Peru has approximately 3,000 varieties, and each one has its own shape, color, flavor and texture. The native varieties are grown mostly in the highlands, above 3,000 meters, where it is very cold. Some have very pretty names, like “huayro rojo” or “sangre de toro” (bull's blood). Farmers know them very well and take care of them from generation to generation.",
-    "The potato is also important for the economy. In 2023 the country produced about 5.4 million tonnes, more than any other country in Latin America. More than 711,000 families of small farmers work with this crop, and almost all of the production comes from the highlands. When a family has a good harvest, it not only eats better: it can also sell the rest at the market.",
-    "In Peruvian cooking, potatoes appear in a great many dishes. They are boiled to make papa a la huancaína, which has a creamy sauce of cheese and yellow chili. They are also fried, baked or served with chili. According to the same article, each Peruvian eats on average about 92 kilos of potatoes a year. If you eat them every day, you're almost eating like a Peruvian!",
-    "In 2005 Peru created the National Potato Day to remember the value of this crop. In addition, the United Nations approved an International Potato Day, celebrated on May 30. Many farmers want more people to know the native varieties, because that makes it easier to protect them. If you had the chance to try ten different varieties, which would you choose first?",
-    "Fun fact: the word “papa” comes from Quechua, the language of the Andes. All over Latin America people say “papa,” but in Spain they use “patata.”"
-   ],
-   "paragraphs_de": [
-    "Auf dem Markt jeder Stadt in den peruanischen Anden sind die Kartoffeln nicht alle gleich. Es gibt gelbe, lila und rote Kartoffeln, runde, lange und runzelige. Manche haben so seltsame Formen, dass Besucher lachen, wenn sie sie sehen. Für viele Peruaner ist die Kartoffel nicht nur ein Lebensmittel: Sie gehört zu ihrer Geschichte und ihrem Alltag.",
-    "Laut der Nachrichtenagentur Andina gibt es in Peru ungefähr 3.000 Sorten, und jede hat ihre eigene Form, Farbe, ihren eigenen Geschmack und ihre eigene Textur. Die einheimischen Sorten werden vor allem im Hochland angebaut, über 3.000 Metern Höhe, wo es sehr kalt ist. Manche haben sehr schöne Namen, wie „huayro rojo“ oder „sangre de toro“ (Stierblut). Die Bauern kennen sie sehr gut und pflegen sie von Generation zu Generation.",
-    "Die Kartoffel ist auch für die Wirtschaft wichtig. 2023 produzierte das Land etwa 5,4 Millionen Tonnen, mehr als jedes andere Land Lateinamerikas. Mehr als 711.000 Familien von Kleinbauern arbeiten mit dieser Pflanze, und fast die gesamte Produktion kommt aus dem Hochland. Wenn eine Familie eine gute Ernte hat, isst sie nicht nur besser: Sie kann den Rest auch auf dem Markt verkaufen.",
-    "In der peruanischen Küche kommen Kartoffeln in sehr vielen Gerichten vor. Man kocht sie für die papa a la huancaína, die eine cremige Sauce aus Käse und gelbem Chili hat. Man frittiert oder backt sie auch oder serviert sie mit Chili. Laut demselben Artikel isst jeder Peruaner im Durchschnitt etwa 92 Kilo Kartoffeln im Jahr. Wenn du sie jeden Tag isst, isst du fast wie ein Peruaner!",
-    "2005 schuf Peru den Nationalen Tag der Kartoffel, um an den Wert dieser Pflanze zu erinnern. Außerdem haben die Vereinten Nationen einen Internationalen Tag der Kartoffel beschlossen, der am 30. Mai gefeiert wird. Viele Bauern möchten, dass mehr Menschen die einheimischen Sorten kennenlernen, weil man sie so leichter schützen kann. Wenn du die Gelegenheit hättest, zehn verschiedene Sorten zu probieren, welche würdest du zuerst wählen?",
-    "Wissenswertes: Das Wort „papa“ kommt aus dem Quechua, der Sprache der Anden. In ganz Lateinamerika sagt man „papa“, in Spanien dagegen „patata“."
-   ],
-   "glossary": [
-    {
-     "w": "la papa",
-     "en": "potato (Latin America; “patata” in Spain)",
-     "de": "die Kartoffel"
-    },
-    {
-     "w": "la variedad",
-     "en": "variety, type",
-     "de": "die Sorte"
-    },
-    {
-     "w": "arrugado",
-     "en": "wrinkled",
-     "de": "runzelig"
-    },
-    {
-     "w": "la sierra",
-     "en": "the highlands (the Andes region)",
-     "de": "das Hochland"
-    },
-    {
-     "w": "el agricultor",
-     "en": "farmer",
-     "de": "der Bauer, Landwirt"
-    },
-    {
-     "w": "cuidar",
-     "en": "to take care of",
-     "de": "pflegen, sich kümmern um"
-    },
-    {
-     "w": "la cosecha",
-     "en": "harvest",
-     "de": "die Ernte"
-    },
-    {
-     "w": "la tonelada",
-     "en": "tonne (1,000 kg)",
-     "de": "die Tonne"
-    },
-    {
-     "w": "hervir",
-     "en": "to boil",
-     "de": "kochen (im Wasser)"
-    },
-    {
-     "w": "freír",
-     "en": "to fry",
-     "de": "braten, frittieren"
-    },
-    {
-     "w": "proteger",
-     "en": "to protect",
-     "de": "schützen"
-    },
-    {
-     "w": "el ají",
-     "en": "chili pepper (Andes, Caribbean)",
-     "de": "die Chilischote"
-    }
-   ],
-   "grammar": "Direct object pronouns (B1): lo, la, los, las replace a noun that was already mentioned, so you don't repeat it. They go before the conjugated verb and match the noun in gender and number. “Los agricultores las conocen muy bien” (las = las variedades). With an infinitive they can also be attached at the end: “quieren protegerlas.”",
-   "grammar_de": "Direkte Objektpronomen (B1): lo, la, los, las ersetzen ein Nomen, das schon genannt wurde, damit man es nicht wiederholt. Sie stehen vor dem konjugierten Verb und passen sich Geschlecht und Zahl des Nomens an. „Los agricultores las conocen muy bien“ (las = las variedades). Beim Infinitiv können sie auch hinten angehängt werden: „quieren protegerlas“.",
-   "questions": [
-    "¿Qué papas o platos con papa te gustan más? ¿Los preparas tú?",
-    "¿Por qué es importante proteger las variedades nativas, según el texto?",
-    "¿Qué alimento tradicional de tu país te gustaría presentar? ¿Cómo se prepara?"
-   ],
-   "sources": [
-    {
-     "title": "Perú: cuna de la papa, tesoro para la seguridad alimentaria mundial (Andina)",
-     "url": "https://andina.pe/agencia/noticia-peru-cuna-de-papa-tesoro-para-seguridad-alimentaria-mundial-987076.aspx",
-     "license": "link only"
-    }
-   ]
-  },
-  {
-   "lang": "pt",
-   "level": "A1",
-   "kind": "feature",
-   "section": "Cultura",
-   "title": "Natal no verão: ceia, calor e rabanada",
-   "dek": "No Brasil, dezembro é verão. Tem neve no Natal? Não. Tem praia? Tem!",
-   "tags": [
-    "Natal",
-    "comida",
-    "números"
-   ],
-   "paragraphs": [
-    "No Brasil, o Natal é no verão. Em dezembro faz calor. Não tem neve, mas tem uma árvore de Natal bonita na sala.",
-    "A festa grande não é no dia 25. É no dia 24 de dezembro, à noite: é a ceia de Natal. A família come junto — às vezes dez, quinze ou vinte pessoas!",
-    "Na mesa tem peru, arroz, salada e frutas. Tem panetone, um pão doce dos italianos. E tem rabanada: pão com leite e ovo, frito, com açúcar e canela.",
-    "Muitas famílias comem só à meia-noite, quando começa o dia 25. Outras famílias vão à Missa do Galo, na igreja, também à meia-noite.",
-    "No dia 25, o Papai Noel traz os presentes. De manhã, a família come rabanada no café da manhã. E nas cidades com mar, as praias ficam cheias.",
-    "Pobre Papai Noel: roupa vermelha de inverno no calor do verão!"
-   ],
-   "paragraphs_en": [
-    "In Brazil, Christmas is in summer. In December it is hot. There is no snow, but there is a pretty Christmas tree in the living room.",
-    "The big party is not on the 25th. It is on 24 December, in the evening: the ceia de Natal (Christmas Eve dinner). The family eats together — sometimes ten, fifteen or twenty people!",
-    "On the table there is turkey, rice, salad and fruit. There is panettone, a sweet bread from the Italians. And there is rabanada: bread with milk and egg, fried, with sugar and cinnamon.",
-    "Many families only eat at midnight, when the 25th begins. Other families go to Midnight Mass (the Missa do Galo, 'Mass of the Rooster') at church, also at midnight.",
-    "On the 25th, Father Christmas (Papai Noel) brings the presents. In the morning, the family eats rabanada for breakfast. And in towns by the sea, the beaches are full.",
-    "Poor Papai Noel: red winter clothes in the summer heat!"
-   ],
-   "paragraphs_zh": [
-    "在巴西，圣诞节在夏天。十二月很热。没有雪，但客厅里有一棵漂亮的圣诞树。",
-    "大聚会不在25号，而是在12月24日晚上：圣诞夜大餐（ceia de Natal）。全家人一起吃饭——有时候十个、十五个，甚至二十个人！",
-    "桌上有火鸡、米饭、沙拉和水果。有潘妮托尼（panetone），一种意大利人带来的甜面包。还有 rabanada：面包泡牛奶和鸡蛋，油炸，再撒上糖和肉桂。",
-    "很多家庭到午夜、也就是25号开始的时候才吃饭。另一些家庭去教堂参加午夜弥撒（Missa do Galo，“公鸡弥撒”），也是在午夜。",
-    "25号，圣诞老人（Papai Noel）送来礼物。早上，全家人早餐吃 rabanada。在海边的城市，海滩上挤满了人。",
-    "可怜的圣诞老人：在夏天的炎热里穿着红色的冬装！"
-   ],
-   "paragraphs_de": [
-    "In Brasilien ist Weihnachten im Sommer. Im Dezember ist es heiß. Es gibt keinen Schnee, aber im Wohnzimmer steht ein schöner Weihnachtsbaum.",
-    "Das große Fest ist nicht am 25. Es ist am 24. Dezember, am Abend: die ceia de Natal (das Weihnachtsessen am Heiligabend). Die Familie isst zusammen — manchmal zehn, fünfzehn oder zwanzig Leute!",
-    "Auf dem Tisch gibt es Truthahn, Reis, Salat und Obst. Es gibt Panettone, ein süßes Brot von den Italienern. Und es gibt Rabanada: Brot mit Milch und Ei, frittiert, mit Zucker und Zimt.",
-    "Viele Familien essen erst um Mitternacht, wenn der 25. beginnt. Andere Familien gehen in die Christmette (die Missa do Galo, „Hahnenmesse“) in der Kirche, auch um Mitternacht.",
-    "Am 25. bringt der Weihnachtsmann (Papai Noel) die Geschenke. Am Morgen isst die Familie Rabanada zum Frühstück. Und in den Städten am Meer sind die Strände voll.",
-    "Armer Papai Noel: rote Winterkleidung in der Sommerhitze!"
-   ],
-   "glossary": [
-    {
-     "w": "a ceia",
-     "en": "evening feast, (Christmas Eve) dinner — a ceia de Natal",
-     "zh": "晚餐；圣诞夜大餐",
-     "de": "das (festliche) Abendessen",
-     "pt": "um jantar grande e especial, à noite"
-    },
-    {
-     "w": "o peru",
-     "en": "turkey — Na mesa tem peru",
-     "zh": "火鸡",
-     "de": "der Truthahn, die Pute",
-     "pt": "uma ave grande; a gente come no Natal"
-    },
-    {
-     "w": "o panetone",
-     "en": "panettone — um pão doce dos italianos",
-     "zh": "潘妮托尼（意式圣诞甜面包）",
-     "de": "der Panettone",
-     "pt": "um pão doce e alto, com frutas, do Natal"
-    },
-    {
-     "w": "a rabanada",
-     "en": "Brazilian French toast — pão com leite e ovo, frito",
-     "zh": "巴西式法式吐司（圣诞甜点）",
-     "de": "süßes, frittiertes Brot (wie „Arme Ritter“)",
-     "pt": "pão com leite e ovo, frito, com açúcar e canela"
-    },
-    {
-     "w": "a canela",
-     "en": "cinnamon — com açúcar e canela",
-     "zh": "肉桂",
-     "de": "der Zimt",
-     "pt": "um pó marrom e doce para bolos e doces"
-    },
-    {
-     "w": "a Missa do Galo",
-     "en": "Midnight Mass (lit. 'Mass of the Rooster')",
-     "zh": "午夜弥撒（直译“公鸡弥撒”）",
-     "de": "die Christmette",
-     "pt": "a missa na igreja à meia-noite, no Natal"
-    },
-    {
-     "w": "o Papai Noel",
-     "en": "Father Christmas, Santa Claus",
-     "zh": "圣诞老人",
-     "de": "der Weihnachtsmann",
-     "pt": "o homem de roupa vermelha que traz os presentes"
-    }
-   ],
-   "grammar": "Dates use the plain numbers: no dia 24 de dezembro (on 24 December), no dia 25 (on the 25th). Only the first day of a month is said with primeiro: 1º de janeiro = primeiro de janeiro.",
-   "grammar_zh": "日期直接用基数词：no dia 24 de dezembro（在12月24日），no dia 25（在25号）。只有每月的第一天用 primeiro（第一）：1º de janeiro = primeiro de janeiro（1月1日）。",
-   "grammar_de": "Für Daten nimmt man die normalen Zahlen: no dia 24 de dezembro (am 24. Dezember), no dia 25 (am 25.). Nur der erste Tag des Monats heißt primeiro: 1º de janeiro = primeiro de janeiro (1. Januar).",
-   "grammar_pt": "Nas datas, a gente usa os números normais: no dia 24 de dezembro, no dia 25. Só o primeiro dia do mês é diferente: 1º de janeiro = primeiro de janeiro.",
-   "questions": [
-    "Quando é a ceia de Natal no Brasil? A que horas muitas famílias comem?",
-    "O que tem na rabanada?",
-    "E você? Onde você está no dia 24 de dezembro? Faz frio ou calor?"
-   ],
-   "sources": [
-    {
-     "title": "8 coisas espetaculares que você só vai ver no Natal do Brasil (TudoGostoso)",
-     "url": "https://www.tudogostoso.com.br/noticias/tradicoes-e-comidas-que-so-tem-no-natal-do-brasil-a10338.htm",
-     "license": "link only"
-    },
-    {
-     "title": "Por que a ceia de Natal é no dia 24 se a data da festa é 25? (TudoGostoso)",
-     "url": "https://www.tudogostoso.com.br/noticias/por-que-a-ceia-de-natal-e-no-dia-24-se-a-data-da-festa-e-25-entenda-tradicao-e-o-motivo-de-esperar-ate-meia-noite-a7422.htm",
-     "license": "link only"
-    }
-   ]
-  }
- ]
+  ]
 }

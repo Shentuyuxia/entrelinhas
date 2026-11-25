@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:55:25+00:00",
+ "updated": "2026-11-25T20:25:29+00:00",
  "days": [
   {
    "date": "2026-11-25",
@@ -34,6 +34,14 @@
      "title": "Natal no verão: ceia, calor e rabanada",
      "kind": "feature",
      "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Das treze às quinze",
+     "kind": "essay",
+     "level": "B2",
      "hour": null
     }
    ]
