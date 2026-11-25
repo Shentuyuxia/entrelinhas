@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:43:45+00:00",
+ "updated": "2026-11-25T18:55:25+00:00",
  "days": [
   {
    "date": "2026-11-25",
@@ -26,6 +26,14 @@
      "title": "La papa: 3.000 variedades en el Perú",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "pt",
+     "title": "Natal no verão: ceia, calor e rabanada",
+     "kind": "feature",
+     "level": "A1",
      "hour": null
     }
    ]

@@ -312,6 +312,123 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "feature",
+   "section": "Cultura",
+   "title": "Natal no verão: ceia, calor e rabanada",
+   "dek": "No Brasil, dezembro é verão. Tem neve no Natal? Não. Tem praia? Tem!",
+   "tags": [
+    "Natal",
+    "comida",
+    "números"
+   ],
+   "paragraphs": [
+    "No Brasil, o Natal é no verão. Em dezembro faz calor. Não tem neve, mas tem uma árvore de Natal bonita na sala.",
+    "A festa grande não é no dia 25. É no dia 24 de dezembro, à noite: é a ceia de Natal. A família come junto — às vezes dez, quinze ou vinte pessoas!",
+    "Na mesa tem peru, arroz, salada e frutas. Tem panetone, um pão doce dos italianos. E tem rabanada: pão com leite e ovo, frito, com açúcar e canela.",
+    "Muitas famílias comem só à meia-noite, quando começa o dia 25. Outras famílias vão à Missa do Galo, na igreja, também à meia-noite.",
+    "No dia 25, o Papai Noel traz os presentes. De manhã, a família come rabanada no café da manhã. E nas cidades com mar, as praias ficam cheias.",
+    "Pobre Papai Noel: roupa vermelha de inverno no calor do verão!"
+   ],
+   "paragraphs_en": [
+    "In Brazil, Christmas is in summer. In December it is hot. There is no snow, but there is a pretty Christmas tree in the living room.",
+    "The big party is not on the 25th. It is on 24 December, in the evening: the ceia de Natal (Christmas Eve dinner). The family eats together — sometimes ten, fifteen or twenty people!",
+    "On the table there is turkey, rice, salad and fruit. There is panettone, a sweet bread from the Italians. And there is rabanada: bread with milk and egg, fried, with sugar and cinnamon.",
+    "Many families only eat at midnight, when the 25th begins. Other families go to Midnight Mass (the Missa do Galo, 'Mass of the Rooster') at church, also at midnight.",
+    "On the 25th, Father Christmas (Papai Noel) brings the presents. In the morning, the family eats rabanada for breakfast. And in towns by the sea, the beaches are full.",
+    "Poor Papai Noel: red winter clothes in the summer heat!"
+   ],
+   "paragraphs_zh": [
+    "在巴西，圣诞节在夏天。十二月很热。没有雪，但客厅里有一棵漂亮的圣诞树。",
+    "大聚会不在25号，而是在12月24日晚上：圣诞夜大餐（ceia de Natal）。全家人一起吃饭——有时候十个、十五个，甚至二十个人！",
+    "桌上有火鸡、米饭、沙拉和水果。有潘妮托尼（panetone），一种意大利人带来的甜面包。还有 rabanada：面包泡牛奶和鸡蛋，油炸，再撒上糖和肉桂。",
+    "很多家庭到午夜、也就是25号开始的时候才吃饭。另一些家庭去教堂参加午夜弥撒（Missa do Galo，“公鸡弥撒”），也是在午夜。",
+    "25号，圣诞老人（Papai Noel）送来礼物。早上，全家人早餐吃 rabanada。在海边的城市，海滩上挤满了人。",
+    "可怜的圣诞老人：在夏天的炎热里穿着红色的冬装！"
+   ],
+   "paragraphs_de": [
+    "In Brasilien ist Weihnachten im Sommer. Im Dezember ist es heiß. Es gibt keinen Schnee, aber im Wohnzimmer steht ein schöner Weihnachtsbaum.",
+    "Das große Fest ist nicht am 25. Es ist am 24. Dezember, am Abend: die ceia de Natal (das Weihnachtsessen am Heiligabend). Die Familie isst zusammen — manchmal zehn, fünfzehn oder zwanzig Leute!",
+    "Auf dem Tisch gibt es Truthahn, Reis, Salat und Obst. Es gibt Panettone, ein süßes Brot von den Italienern. Und es gibt Rabanada: Brot mit Milch und Ei, frittiert, mit Zucker und Zimt.",
+    "Viele Familien essen erst um Mitternacht, wenn der 25. beginnt. Andere Familien gehen in die Christmette (die Missa do Galo, „Hahnenmesse“) in der Kirche, auch um Mitternacht.",
+    "Am 25. bringt der Weihnachtsmann (Papai Noel) die Geschenke. Am Morgen isst die Familie Rabanada zum Frühstück. Und in den Städten am Meer sind die Strände voll.",
+    "Armer Papai Noel: rote Winterkleidung in der Sommerhitze!"
+   ],
+   "glossary": [
+    {
+     "w": "a ceia",
+     "en": "evening feast, (Christmas Eve) dinner — a ceia de Natal",
+     "zh": "晚餐；圣诞夜大餐",
+     "de": "das (festliche) Abendessen",
+     "pt": "um jantar grande e especial, à noite"
+    },
+    {
+     "w": "o peru",
+     "en": "turkey — Na mesa tem peru",
+     "zh": "火鸡",
+     "de": "der Truthahn, die Pute",
+     "pt": "uma ave grande; a gente come no Natal"
+    },
+    {
+     "w": "o panetone",
+     "en": "panettone — um pão doce dos italianos",
+     "zh": "潘妮托尼（意式圣诞甜面包）",
+     "de": "der Panettone",
+     "pt": "um pão doce e alto, com frutas, do Natal"
+    },
+    {
+     "w": "a rabanada",
+     "en": "Brazilian French toast — pão com leite e ovo, frito",
+     "zh": "巴西式法式吐司（圣诞甜点）",
+     "de": "süßes, frittiertes Brot (wie „Arme Ritter“)",
+     "pt": "pão com leite e ovo, frito, com açúcar e canela"
+    },
+    {
+     "w": "a canela",
+     "en": "cinnamon — com açúcar e canela",
+     "zh": "肉桂",
+     "de": "der Zimt",
+     "pt": "um pó marrom e doce para bolos e doces"
+    },
+    {
+     "w": "a Missa do Galo",
+     "en": "Midnight Mass (lit. 'Mass of the Rooster')",
+     "zh": "午夜弥撒（直译“公鸡弥撒”）",
+     "de": "die Christmette",
+     "pt": "a missa na igreja à meia-noite, no Natal"
+    },
+    {
+     "w": "o Papai Noel",
+     "en": "Father Christmas, Santa Claus",
+     "zh": "圣诞老人",
+     "de": "der Weihnachtsmann",
+     "pt": "o homem de roupa vermelha que traz os presentes"
+    }
+   ],
+   "grammar": "Dates use the plain numbers: no dia 24 de dezembro (on 24 December), no dia 25 (on the 25th). Only the first day of a month is said with primeiro: 1º de janeiro = primeiro de janeiro.",
+   "grammar_zh": "日期直接用基数词：no dia 24 de dezembro（在12月24日），no dia 25（在25号）。只有每月的第一天用 primeiro（第一）：1º de janeiro = primeiro de janeiro（1月1日）。",
+   "grammar_de": "Für Daten nimmt man die normalen Zahlen: no dia 24 de dezembro (am 24. Dezember), no dia 25 (am 25.). Nur der erste Tag des Monats heißt primeiro: 1º de janeiro = primeiro de janeiro (1. Januar).",
+   "grammar_pt": "Nas datas, a gente usa os números normais: no dia 24 de dezembro, no dia 25. Só o primeiro dia do mês é diferente: 1º de janeiro = primeiro de janeiro.",
+   "questions": [
+    "Quando é a ceia de Natal no Brasil? A que horas muitas famílias comem?",
+    "O que tem na rabanada?",
+    "E você? Onde você está no dia 24 de dezembro? Faz frio ou calor?"
+   ],
+   "sources": [
+    {
+     "title": "8 coisas espetaculares que você só vai ver no Natal do Brasil (TudoGostoso)",
+     "url": "https://www.tudogostoso.com.br/noticias/tradicoes-e-comidas-que-so-tem-no-natal-do-brasil-a10338.htm",
+     "license": "link only"
+    },
+    {
+     "title": "Por que a ceia de Natal é no dia 24 se a data da festa é 25? (TudoGostoso)",
+     "url": "https://www.tudogostoso.com.br/noticias/por-que-a-ceia-de-natal-e-no-dia-24-se-a-data-da-festa-e-25-entenda-tradicao-e-o-motivo-de-esperar-ate-meia-noite-a7422.htm",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
