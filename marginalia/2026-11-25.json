@@ -1,0 +1,96 @@
+{
+ "date": "2026-11-25",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "B1",
+   "kind": "feature",
+   "section": "World & Food",
+   "title": "The jebena: Ethiopia's slow, three-round coffee",
+   "dek": "In Ethiopia and Eritrea, a cup of coffee is not a quick stop. It is a ceremony with a clay pot, small cups, snacks and plenty of time to talk.",
+   "paragraphs": [
+    "Imagine that you have just arrived at a friend's house in Ethiopia. Before you can sit down, the woman of the house tells everyone that the coffee ceremony is about to begin. Have you ever been invited to spend two hours over a single cup of coffee? In Ethiopia and Eritrea, this is completely normal.",
+    "The ceremony starts with the beans. A woman washes them, roasts them and grinds them, and she often mixes them with spices. This can take up to forty-five minutes, so nobody is in a hurry. While the beans roast, people eat popcorn or other small snacks, and the host often lights incense to make the room feel calm.",
+    "The star of the show is the jebena, a pot made of clay with a round base, a narrow neck, a spout and a handle. The narrow neck works like a strainer, so the coffee grounds stay inside. Most jebenas are between 20 and 45 centimetres tall, because the pot is filled again several times. It is heated over hot coals and stands on a small cloth or some hay, so that the base does not burn.",
+    "When the coffee is ready, it is poured through a sieve into tiny cups. The host carries a tray round to each guest, and people sit on the ground. Usually nobody adds sugar, butter or milk, so the taste is pure and strong. Men and women often chat in separate groups while the coffee is being made.",
+    "The coffee is served in three rounds, called awel, kale'i and baraka. The first is the strongest, and each one after that is weaker. Because the cups are so small, every guest can drink all three. By the time the last cup arrives, you have already spent about two hours with your hosts, and traditionally a family would repeat the whole ceremony three times a day: morning, noon and evening.",
+    "Many families own only one jebena, and it is often passed down like a family treasure. Some are painted in bright colours, and old, fancy ones covered in gold or silver were once kept for the upper class and royalty. For Ethiopian families who have moved to other countries, the pot can stand for the whole ritual. The long wait gives everyone time to talk, and people say that without a jebena, it is not really a coffee ceremony at all."
+   ],
+   "paragraphs_zh": [
+    "想象一下，你刚刚抵达埃塞俄比亚的一位朋友家。你还没来得及坐下，女主人就告诉大家咖啡仪式马上要开始了。你有没有被邀请花两个小时喝一杯咖啡呢？在埃塞俄比亚和厄立特里亚，这再正常不过。",
+    "仪式从咖啡豆开始。一位女性把豆子洗净、烘焙、研磨，还常常加入香料。这可能要花上四十五分钟，所以没有人着急。豆子烘焙时，大家吃爆米花或其他小点心，主人也常常点上熏香，让房间显得宁静。",
+    "主角是“杰贝纳”（jebena），一种黏土做的壶，有圆圆的底、窄窄的颈、壶嘴和把手。窄颈就像滤网，让咖啡渣留在里面。大多数杰贝纳高约20到45厘米，因为壶要反复加水好几次。壶在热炭上加热，下面垫一小块布或一些干草，免得壶底烧坏。",
+    "咖啡煮好后，通过滤网倒进小小的杯子里。主人端着托盘送到每位客人面前，大家坐在地上。通常没有人加糖、黄油或牛奶，所以味道纯正浓郁。煮咖啡的时候，男人和女人常常分成不同的小组聊天。",
+    "咖啡分三轮上桌，名字叫 awel、kale'i 和 baraka。第一轮最浓，之后每一轮都更淡。因为杯子很小，每位客人都能喝完三轮。等最后一杯端上来时，你已经和主人共度了大约两个小时。按传统，一个家庭一天要把整个仪式重复三次：早上、中午和晚上。",
+    "许多家庭只有一把杰贝纳，常常像传家宝一样一代代传下去。有的涂着鲜艳的颜色；而那些镶着金银的华丽旧壶，曾经只属于上层阶级和王室。对于搬到其他国家的埃塞俄比亚家庭来说，这把壶可以代表整个仪式。漫长的等待让大家有时间聊天，人们说，没有杰贝纳，就根本算不上真正的咖啡仪式。"
+   ],
+   "glossary": [
+    {
+     "w": "roast",
+     "en": "cook beans or nuts in a very hot oven or pan",
+     "zh": "烘焙；烤"
+    },
+    {
+     "w": "grind",
+     "en": "crush something into small pieces or powder",
+     "zh": "研磨；磨碎"
+    },
+    {
+     "w": "in a hurry",
+     "en": "trying to do something very fast",
+     "zh": "匆忙；着急"
+    },
+    {
+     "w": "incense",
+     "en": "a sweet-smelling smoke burned for a calm feeling",
+     "zh": "熏香"
+    },
+    {
+     "w": "strainer",
+     "en": "a tool with small holes that keeps solid things out of a liquid",
+     "zh": "滤网；过滤器"
+    },
+    {
+     "w": "spout",
+     "en": "the narrow part of a pot where the liquid comes out",
+     "zh": "壶嘴"
+    },
+    {
+     "w": "sieve",
+     "en": "a tool with a net used to separate liquid from solid pieces",
+     "zh": "筛子；滤器"
+    },
+    {
+     "w": "host",
+     "en": "the person who invites guests and looks after them",
+     "zh": "主人；东道主"
+    },
+    {
+     "w": "weak",
+     "en": "not strong in taste",
+     "zh": "（味道）淡的"
+    },
+    {
+     "w": "pass down",
+     "en": "give something to younger people in the family over the years",
+     "zh": "传给后代；世代相传"
+    }
+   ],
+   "grammar": "We use the present perfect (have/has + past participle) to connect the past with now. Use just for something that happened a moment ago, already for something done earlier than expected, and ever/never for life experience: “you have just arrived”, “Have you ever been invited…?”, “you have already spent about two hours”.",
+   "grammar_zh": "现在完成时（have/has + 过去分词）把过去和现在联系起来。just 表示“刚刚”，already 表示“已经”，ever/never 用于问或说人生经历：“you have just arrived”（你刚到）、“Have you ever been invited…?”（你有没有被邀请过……？）、“you have already spent about two hours”（你已经花了大约两个小时）。中文常用“了”“过”来表达，如“已经花了”“有没有……过”。",
+   "questions": [
+    "Why do you think the ceremony takes so long, and why is the first round the strongest?",
+    "Why is the jebena often passed down in a family?",
+    "And you? Have you ever shared a long drink or meal with friends or family? What was it like?"
+   ],
+   "sources": [
+    {
+     "title": "Jebena – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jebena",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
+  }
+ ]
+}
