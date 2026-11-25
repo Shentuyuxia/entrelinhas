@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T05:24:40+00:00",
+ "updated": "2026-11-25T16:43:45+00:00",
  "days": [
   {
    "date": "2026-11-25",
@@ -8,6 +8,22 @@
      "i": 0,
      "lang": "en",
      "title": "The jebena: Ethiopia's slow, three-round coffee",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "es",
+     "title": "En San Salvador: ¿qué te gusta hacer?",
+     "kind": "dialogue",
+     "level": "A1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "La papa: 3.000 variedades en el Perú",
      "kind": "feature",
      "level": "B1",
      "hour": null

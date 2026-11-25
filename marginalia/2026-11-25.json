@@ -91,6 +91,227 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A1",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En San Salvador: ¿qué te gusta hacer?",
+   "dek": "Dos compañeros de trabajo hablan de sus pasatiempos un sábado en un parque de San Salvador, El Salvador.",
+   "tags": [
+    "San Salvador",
+    "small talk",
+    "gustar"
+   ],
+   "paragraphs": [
+    "Ana: ¡Hola, Diego! ¿Qué tal?",
+    "Diego: Bien, gracias. ¿Y tú?",
+    "Ana: Muy bien. Hoy es sábado y hace sol.",
+    "Diego: Sí, es un día bonito. ¿Qué te gusta hacer los sábados?",
+    "Ana: Me gusta caminar en el parque y escuchar música. ¿Y a ti?",
+    "Diego: Me gusta jugar al fútbol con mis amigos. No me gusta cocinar.",
+    "Ana: ¿No te gusta cocinar? ¿Y qué comes?",
+    "Diego: Como pupusas. ¡Me gustan mucho!",
+    "Ana: ¡A mí también! ¿Te gustan de queso?",
+    "Diego: Sí, me gustan de queso y de frijoles.",
+    "Ana: ¡Vamos a comer pupusas ahora!",
+    "Diego: ¡Buena idea!",
+    "Dato curioso: las pupusas son el plato más famoso de El Salvador. Son tortillas gruesas con queso, frijoles u otro relleno, y se comen con curtido, una ensalada de repollo."
+   ],
+   "paragraphs_en": [
+    "Ana: Hi, Diego! How are you?",
+    "Diego: Fine, thanks. And you?",
+    "Ana: Very well. Today is Saturday and it's sunny.",
+    "Diego: Yes, it's a beautiful day. What do you like to do on Saturdays?",
+    "Ana: I like walking in the park and listening to music. And you?",
+    "Diego: I like playing soccer with my friends. I don't like cooking.",
+    "Ana: You don't like cooking? And what do you eat?",
+    "Diego: I eat pupusas. I like them a lot!",
+    "Ana: Me too! Do you like the cheese ones?",
+    "Diego: Yes, I like the ones with cheese and with beans.",
+    "Ana: Let's go eat pupusas now!",
+    "Diego: Good idea!",
+    "Fun fact: pupusas are the most famous dish of El Salvador. They are thick tortillas with cheese, beans or another filling, and they are eaten with curtido, a cabbage salad."
+   ],
+   "paragraphs_de": [
+    "Ana: Hallo, Diego! Wie geht's?",
+    "Diego: Gut, danke. Und dir?",
+    "Ana: Sehr gut. Heute ist Samstag und die Sonne scheint.",
+    "Diego: Ja, es ist ein schöner Tag. Was machst du samstags gern?",
+    "Ana: Ich gehe gern im Park spazieren und höre Musik. Und du?",
+    "Diego: Ich spiele gern Fußball mit meinen Freunden. Ich koche nicht gern.",
+    "Ana: Du kochst nicht gern? Und was isst du?",
+    "Diego: Ich esse Pupusas. Die mag ich sehr!",
+    "Ana: Ich auch! Magst du die mit Käse?",
+    "Diego: Ja, ich mag die mit Käse und mit Bohnen.",
+    "Ana: Komm, wir essen jetzt Pupusas!",
+    "Diego: Gute Idee!",
+    "Wissenswertes: Pupusas sind das bekannteste Gericht von El Salvador. Es sind dicke Tortillas mit Käse, Bohnen oder einer anderen Füllung, dazu isst man Curtido, einen Krautsalat."
+   ],
+   "glossary": [
+    {
+     "w": "me gusta",
+     "en": "I like (one thing / an action)",
+     "de": "ich mag, mir gefällt"
+    },
+    {
+     "w": "me gustan",
+     "en": "I like (several things)",
+     "de": "ich mag (Plural)"
+    },
+    {
+     "w": "el sábado",
+     "en": "Saturday",
+     "de": "der Samstag"
+    },
+    {
+     "w": "caminar",
+     "en": "to walk",
+     "de": "gehen, spazieren gehen"
+    },
+    {
+     "w": "cocinar",
+     "en": "to cook",
+     "de": "kochen"
+    },
+    {
+     "w": "el frijol",
+     "en": "bean (Central America)",
+     "de": "die Bohne"
+    },
+    {
+     "w": "¡A mí también!",
+     "en": "Me too!",
+     "de": "Ich auch!"
+    },
+    {
+     "w": "la pupusa",
+     "en": "thick filled tortilla from El Salvador",
+     "de": "die Pupusa (gefüllte Maistortilla)"
+    }
+   ],
+   "grammar": "To say what you like, use gustar. With one thing or an action, say me gusta: “Me gusta caminar.” With several things, say me gustan: “Me gustan las pupusas.” The little word changes with the person: me (I), te (you). To return the question, say “¿Y a ti?” (and you?) or “A mí también” (me too).",
+   "grammar_de": "Wenn du sagen willst, was du magst, benutze gustar. Bei einer Sache oder einer Tätigkeit sagst du me gusta: „Me gusta caminar.“ Bei mehreren Dingen sagst du me gustan: „Me gustan las pupusas.“ Das kleine Wort ändert sich mit der Person: me (ich), te (du). Für die Rückfrage sagst du „¿Y a ti?“ (und dir?) oder „A mí también“ (ich auch).",
+   "questions": [
+    "¿Y tú? ¿Qué te gusta hacer los sábados?",
+    "¿Te gusta cocinar? ¿Qué comes normalmente?",
+    "¿Te gustan las pupusas? ¿Qué comida te gusta mucho?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Comida",
+   "title": "La papa: 3.000 variedades en el Perú",
+   "dek": "Amarillas, moradas, rojas: en los Andes peruanos la papa es mucho más que una comida.",
+   "tags": [
+    "Perú",
+    "papa",
+    "pronombres de objeto directo"
+   ],
+   "paragraphs": [
+    "En el mercado de cualquier ciudad de los Andes peruanos, las papas no son todas iguales. Hay papas amarillas, moradas y rojas, redondas, largas y arrugadas. Algunas tienen formas tan raras que los visitantes se ríen al verlas. Para muchos peruanos, la papa no es solo un alimento: es parte de su historia y de su vida diaria.",
+    "Según la agencia de noticias Andina, en el Perú existen aproximadamente 3.000 variedades, y cada una tiene su propia forma, color, sabor y textura. Las variedades nativas se cultivan sobre todo en la sierra, a más de 3.000 metros de altura, donde hace mucho frío. Algunas tienen nombres muy bonitos, como «huayro rojo» o «sangre de toro». Los agricultores las conocen muy bien y las cuidan de generación en generación.",
+    "La papa también es importante para la economía. En 2023 el país produjo unos 5,4 millones de toneladas, más que ningún otro país de América Latina. Más de 711.000 familias de pequeños agricultores trabajan con este cultivo, y casi toda la producción viene de la sierra. Cuando una familia tiene una buena cosecha, no solo come mejor: también puede vender el resto en el mercado.",
+    "En la cocina peruana, las papas aparecen en muchísimos platos. Se hierven para preparar la papa a la huancaína, que lleva una salsa cremosa de queso y ají amarillo. También se fríen, se hornean o se sirven con ají. Según el mismo artículo, cada peruano come en promedio unos 92 kilos de papa al año. Si las comes todos los días, ¡casi estás comiendo como un peruano!",
+    "En 2005 el Perú creó el Día Nacional de la Papa para recordar el valor de este cultivo. Además, las Naciones Unidas aprobaron un Día Internacional de la Papa, que se celebra el 30 de mayo. Muchos agricultores quieren que más personas conozcan las variedades nativas, porque así es más fácil protegerlas. Si tuvieras la oportunidad de probar diez variedades diferentes, ¿cuál elegirías primero?",
+    "Dato curioso: la palabra «papa» viene del quechua, el idioma de los Andes. En toda América Latina se dice «papa», pero en España se usa «patata»."
+   ],
+   "paragraphs_en": [
+    "In the market of any city in the Peruvian Andes, potatoes are not all the same. There are yellow, purple and red potatoes, round, long and wrinkled ones. Some have shapes so strange that visitors laugh when they see them. For many Peruvians, the potato is not just food: it is part of their history and daily life.",
+    "According to the news agency Andina, Peru has approximately 3,000 varieties, and each one has its own shape, color, flavor and texture. The native varieties are grown mostly in the highlands, above 3,000 meters, where it is very cold. Some have very pretty names, like “huayro rojo” or “sangre de toro” (bull's blood). Farmers know them very well and take care of them from generation to generation.",
+    "The potato is also important for the economy. In 2023 the country produced about 5.4 million tonnes, more than any other country in Latin America. More than 711,000 families of small farmers work with this crop, and almost all of the production comes from the highlands. When a family has a good harvest, it not only eats better: it can also sell the rest at the market.",
+    "In Peruvian cooking, potatoes appear in a great many dishes. They are boiled to make papa a la huancaína, which has a creamy sauce of cheese and yellow chili. They are also fried, baked or served with chili. According to the same article, each Peruvian eats on average about 92 kilos of potatoes a year. If you eat them every day, you're almost eating like a Peruvian!",
+    "In 2005 Peru created the National Potato Day to remember the value of this crop. In addition, the United Nations approved an International Potato Day, celebrated on May 30. Many farmers want more people to know the native varieties, because that makes it easier to protect them. If you had the chance to try ten different varieties, which would you choose first?",
+    "Fun fact: the word “papa” comes from Quechua, the language of the Andes. All over Latin America people say “papa,” but in Spain they use “patata.”"
+   ],
+   "paragraphs_de": [
+    "Auf dem Markt jeder Stadt in den peruanischen Anden sind die Kartoffeln nicht alle gleich. Es gibt gelbe, lila und rote Kartoffeln, runde, lange und runzelige. Manche haben so seltsame Formen, dass Besucher lachen, wenn sie sie sehen. Für viele Peruaner ist die Kartoffel nicht nur ein Lebensmittel: Sie gehört zu ihrer Geschichte und ihrem Alltag.",
+    "Laut der Nachrichtenagentur Andina gibt es in Peru ungefähr 3.000 Sorten, und jede hat ihre eigene Form, Farbe, ihren eigenen Geschmack und ihre eigene Textur. Die einheimischen Sorten werden vor allem im Hochland angebaut, über 3.000 Metern Höhe, wo es sehr kalt ist. Manche haben sehr schöne Namen, wie „huayro rojo“ oder „sangre de toro“ (Stierblut). Die Bauern kennen sie sehr gut und pflegen sie von Generation zu Generation.",
+    "Die Kartoffel ist auch für die Wirtschaft wichtig. 2023 produzierte das Land etwa 5,4 Millionen Tonnen, mehr als jedes andere Land Lateinamerikas. Mehr als 711.000 Familien von Kleinbauern arbeiten mit dieser Pflanze, und fast die gesamte Produktion kommt aus dem Hochland. Wenn eine Familie eine gute Ernte hat, isst sie nicht nur besser: Sie kann den Rest auch auf dem Markt verkaufen.",
+    "In der peruanischen Küche kommen Kartoffeln in sehr vielen Gerichten vor. Man kocht sie für die papa a la huancaína, die eine cremige Sauce aus Käse und gelbem Chili hat. Man frittiert oder backt sie auch oder serviert sie mit Chili. Laut demselben Artikel isst jeder Peruaner im Durchschnitt etwa 92 Kilo Kartoffeln im Jahr. Wenn du sie jeden Tag isst, isst du fast wie ein Peruaner!",
+    "2005 schuf Peru den Nationalen Tag der Kartoffel, um an den Wert dieser Pflanze zu erinnern. Außerdem haben die Vereinten Nationen einen Internationalen Tag der Kartoffel beschlossen, der am 30. Mai gefeiert wird. Viele Bauern möchten, dass mehr Menschen die einheimischen Sorten kennenlernen, weil man sie so leichter schützen kann. Wenn du die Gelegenheit hättest, zehn verschiedene Sorten zu probieren, welche würdest du zuerst wählen?",
+    "Wissenswertes: Das Wort „papa“ kommt aus dem Quechua, der Sprache der Anden. In ganz Lateinamerika sagt man „papa“, in Spanien dagegen „patata“."
+   ],
+   "glossary": [
+    {
+     "w": "la papa",
+     "en": "potato (Latin America; “patata” in Spain)",
+     "de": "die Kartoffel"
+    },
+    {
+     "w": "la variedad",
+     "en": "variety, type",
+     "de": "die Sorte"
+    },
+    {
+     "w": "arrugado",
+     "en": "wrinkled",
+     "de": "runzelig"
+    },
+    {
+     "w": "la sierra",
+     "en": "the highlands (the Andes region)",
+     "de": "das Hochland"
+    },
+    {
+     "w": "el agricultor",
+     "en": "farmer",
+     "de": "der Bauer, Landwirt"
+    },
+    {
+     "w": "cuidar",
+     "en": "to take care of",
+     "de": "pflegen, sich kümmern um"
+    },
+    {
+     "w": "la cosecha",
+     "en": "harvest",
+     "de": "die Ernte"
+    },
+    {
+     "w": "la tonelada",
+     "en": "tonne (1,000 kg)",
+     "de": "die Tonne"
+    },
+    {
+     "w": "hervir",
+     "en": "to boil",
+     "de": "kochen (im Wasser)"
+    },
+    {
+     "w": "freír",
+     "en": "to fry",
+     "de": "braten, frittieren"
+    },
+    {
+     "w": "proteger",
+     "en": "to protect",
+     "de": "schützen"
+    },
+    {
+     "w": "el ají",
+     "en": "chili pepper (Andes, Caribbean)",
+     "de": "die Chilischote"
+    }
+   ],
+   "grammar": "Direct object pronouns (B1): lo, la, los, las replace a noun that was already mentioned, so you don't repeat it. They go before the conjugated verb and match the noun in gender and number. “Los agricultores las conocen muy bien” (las = las variedades). With an infinitive they can also be attached at the end: “quieren protegerlas.”",
+   "grammar_de": "Direkte Objektpronomen (B1): lo, la, los, las ersetzen ein Nomen, das schon genannt wurde, damit man es nicht wiederholt. Sie stehen vor dem konjugierten Verb und passen sich Geschlecht und Zahl des Nomens an. „Los agricultores las conocen muy bien“ (las = las variedades). Beim Infinitiv können sie auch hinten angehängt werden: „quieren protegerlas“.",
+   "questions": [
+    "¿Qué papas o platos con papa te gustan más? ¿Los preparas tú?",
+    "¿Por qué es importante proteger las variedades nativas, según el texto?",
+    "¿Qué alimento tradicional de tu país te gustaría presentar? ¿Cómo se prepara?"
+   ],
+   "sources": [
+    {
+     "title": "Perú: cuna de la papa, tesoro para la seguridad alimentaria mundial (Andina)",
+     "url": "https://andina.pe/agencia/noticia-peru-cuna-de-papa-tesoro-para-seguridad-alimentaria-mundial-987076.aspx",
+     "license": "link only"
+    }
+   ]
   }
  ]
 }
