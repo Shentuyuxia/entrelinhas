@@ -174,6 +174,230 @@
      "license": "link only"
     }
    ]
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En una casa de cambio en Cali: quisiera cambiar euros",
+   "dek": "Clara, una turista, cambia dinero en Cali, pregunta por un cajero automático y pide una recomendación para almorzar.",
+   "tags": [
+    "Cali",
+    "casa de cambio y direcciones",
+    "quisiera + infinitivo"
+   ],
+   "paragraphs": [
+    "Daniela: Buenas tardes. ¿En qué le puedo ayudar?",
+    "Clara: Buenas tardes. Quisiera cambiar cien euros a pesos, por favor.",
+    "Daniela: Claro que sí. ¿Me permite su pasaporte? Lo necesito para el registro.",
+    "Clara: Sí, aquí lo tiene. ¿Cuánto me dan por cada euro?",
+    "Daniela: La tasa de hoy está en la pantalla, a su derecha. Se la puedo imprimir si quiere.",
+    "Clara: No hace falta, gracias. ¿Cobran comisión?",
+    "Daniela: No, aquí no cobramos comisión. Le damos el valor completo.",
+    "Clara: Perfecto. Entonces quisiera cambiar los cien. Y quisiera preguntar algo más: ¿dónde queda un cajero automático?",
+    "Daniela: Hay uno en la esquina, al lado de la farmacia. Salga y siga derecho una cuadra.",
+    "Clara: ¿Y después doblo a la izquierda?",
+    "Daniela: No, no tiene que doblar. Queda justo en esa esquina, al frente del parque.",
+    "Clara: Muchas gracias. Y una última pregunta: ¿me recomienda un lugar para almorzar cerca de aquí?",
+    "Daniela: Con gusto. A dos cuadras hay un restaurante con muy buen sancocho y jugo de lulo.",
+    "Clara: ¡Qué rico! Gracias por todo, Daniela.",
+    "Daniela: Con mucho gusto. ¡Que le vaya bien en Cali!",
+    "Dato curioso: Cali es famosa por la salsa, y por eso mucha gente la llama la «capital mundial de la salsa»."
+   ],
+   "paragraphs_en": [
+    "Daniela: Good afternoon. How can I help you?",
+    "Clara: Good afternoon. I would like to change one hundred euros into pesos, please.",
+    "Daniela: Of course. May I have your passport? I need it for the record.",
+    "Clara: Yes, here you are. How much do I get for each euro?",
+    "Daniela: Today's rate is on the screen, to your right. I can print it for you if you like.",
+    "Clara: That's not necessary, thanks. Do you charge a commission?",
+    "Daniela: No, we don't charge a commission here. We give you the full value.",
+    "Clara: Perfect. Then I would like to change all hundred. And I would like to ask something else: where is an ATM?",
+    "Daniela: There is one on the corner, next to the pharmacy. Go out and keep straight for one block.",
+    "Clara: And then I turn left?",
+    "Daniela: No, you don't have to turn. It is right on that corner, across from the park.",
+    "Clara: Thank you very much. And one last question: can you recommend a place to have lunch near here?",
+    "Daniela: With pleasure. Two blocks away there is a restaurant with very good sancocho (soup) and lulo juice.",
+    "Clara: How delicious! Thanks for everything, Daniela.",
+    "Daniela: You're welcome. Have a good time in Cali!",
+    "Fun fact: Cali is famous for salsa, and many people call it the \"world capital of salsa.\""
+   ],
+   "paragraphs_de": [
+    "Daniela: Guten Tag. Wie kann ich Ihnen helfen?",
+    "Clara: Guten Tag. Ich möchte bitte hundert Euro in Pesos wechseln.",
+    "Daniela: Gern. Darf ich Ihren Reisepass sehen? Ich brauche ihn für die Registrierung.",
+    "Clara: Ja, hier bitte. Wie viel bekomme ich für jeden Euro?",
+    "Daniela: Der heutige Kurs steht auf dem Bildschirm, rechts von Ihnen. Ich kann ihn Ihnen ausdrucken, wenn Sie möchten.",
+    "Clara: Das ist nicht nötig, danke. Nehmen Sie eine Gebühr?",
+    "Daniela: Nein, wir nehmen hier keine Gebühr. Sie bekommen den vollen Wert.",
+    "Clara: Perfekt. Dann möchte ich alle hundert wechseln. Und ich möchte noch etwas fragen: Wo ist ein Geldautomat?",
+    "Daniela: Einer ist an der Ecke, neben der Apotheke. Gehen Sie hinaus und dann einen Block geradeaus.",
+    "Clara: Und danach biege ich links ab?",
+    "Daniela: Nein, Sie müssen nicht abbiegen. Er ist genau an dieser Ecke, gegenüber vom Park.",
+    "Clara: Vielen Dank. Und eine letzte Frage: Können Sie mir ein Lokal zum Mittagessen in der Nähe empfehlen?",
+    "Daniela: Gern. Zwei Blocks weiter gibt es ein Restaurant mit sehr gutem Sancocho (Suppe) und Lulo-Saft.",
+    "Clara: Wie lecker! Danke für alles, Daniela.",
+    "Daniela: Gern geschehen. Gute Zeit in Cali!",
+    "Wissenswertes: Cali ist berühmt für Salsa, deshalb nennen viele Leute die Stadt die „Salsa-Hauptstadt der Welt“."
+   ],
+   "glossary": [
+    {
+     "w": "cambiar",
+     "en": "to change, to exchange",
+     "de": "wechseln, tauschen"
+    },
+    {
+     "w": "la tasa",
+     "en": "the (exchange) rate",
+     "de": "der Kurs"
+    },
+    {
+     "w": "el pasaporte",
+     "en": "the passport",
+     "de": "der Reisepass"
+    },
+    {
+     "w": "la comisión",
+     "en": "the fee, commission",
+     "de": "die Gebühr"
+    },
+    {
+     "w": "el cajero automático",
+     "en": "the ATM",
+     "de": "der Geldautomat"
+    },
+    {
+     "w": "la cuadra",
+     "en": "the block (street)",
+     "de": "der Häuserblock"
+    },
+    {
+     "w": "quisiera",
+     "en": "I would like (polite)",
+     "de": "ich möchte (höflich)"
+    },
+    {
+     "w": "siga derecho",
+     "en": "keep straight",
+     "de": "gehen Sie geradeaus"
+    }
+   ],
+   "grammar": "For polite requests, use quisiera + infinitive: “Quisiera cambiar cien euros.” It sounds softer than quiero and is perfect for shops, banks and hotels. You can also use it to ask a question politely: “Quisiera preguntar algo.” The employee uses usted (“¿Me permite su pasaporte?”), so the same polite tone works both ways.",
+   "grammar_de": "Für höfliche Bitten benutzt man quisiera + Infinitiv: „Quisiera cambiar cien euros.“ Das klingt weicher als quiero und passt gut in Geschäfte, Banken und Hotels. Man kann es auch für eine höfliche Frage nutzen: „Quisiera preguntar algo.“ Die Angestellte sagt usted („¿Me permite su pasaporte?“), also gilt derselbe höfliche Ton in beide Richtungen.",
+   "questions": [
+    "¿Qué quisieras comprar o hacer en Cali?",
+    "¿Y tú? ¿Cómo prefieres pagar cuando viajas: con efectivo o con tarjeta?",
+    "En la conversación, ¿qué dos indicaciones da Daniela para llegar al cajero?"
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B2",
+   "kind": "feature",
+   "section": "Palabras",
+   "title": "Guaraní: el idioma que Paraguay habla en voz alta",
+   "dek": "En Paraguay, dos idiomas oficiales conviven en la calle, en la escuela y en la misma frase.",
+   "tags": [
+    "Paraguay",
+    "guaraní y jopara",
+    "estilo indirecto"
+   ],
+   "paragraphs": [
+    "Si caminas por Asunción un día cualquiera, es probable que oigas dos idiomas en la misma conversación, y a veces en la misma frase. Paraguay es uno de los pocos países de América donde una lengua indígena no solo sobrevive, sino que la habla gran parte de la población. Desde la Constitución de 1992, el guaraní y el español son los dos idiomas oficiales del país. Es decir, una persona puede hablar con un juez, ir al médico o estudiar en la escuela usando cualquiera de los dos, y eso cambia la vida diaria de mucha gente.",
+    "Esta situación no siempre fue tan favorable para el guaraní. Durante mucho tiempo se dijo que era una lengua «de la casa» y que el español era la lengua del progreso. Por eso, muchas familias decidieron hablar solo español con sus hijos, con la esperanza de que tuvieran más oportunidades. Con los años, sin embargo, cambió la actitud: la reforma educativa de los años noventa introdujo la educación bilingüe, y una ley de 2010 creó la Secretaría de Políticas Lingüísticas para proteger y promover los idiomas del país.",
+    "En la calle, lo que más se oye es el jopara, una mezcla natural de guaraní y español. Una persona puede empezar una frase en español, seguir en guaraní y terminar con una palabra de cada idioma, sin pensarlo ni un segundo. Muchos lingüistas explican que esto no es un error, sino una forma real de hablar que refleja siglos de convivencia entre las dos lenguas. Quienes defienden el guaraní, en cambio, recuerdan que también existe un guaraní más formal, el que se enseña en las escuelas y se usa en los libros.",
+    "Si quieres practicar un poco, aprende dos expresiones. Para saludar se dice «Mba'éichapa», que significa más o menos «¿cómo estás?», y para dar las gracias se dice «aguyje». Las personas que viajan a Paraguay cuentan que, cuando alguien dice unas pocas palabras en guaraní, la conversación se vuelve más cálida enseguida. No hace falta hablar perfectamente: el esfuerzo se agradece. Además, aprender unas frases te ayuda a entender mejor cómo piensan y cómo se sienten las personas que las usan todos los días.",
+    "El guaraní tampoco se queda dentro de las fronteras de Paraguay. También se habla en regiones de Argentina, Bolivia y Brasil, y el español de toda la zona usa palabras que vienen de esta lengua. Además, cada 25 de agosto se celebra el Día del Idioma Guaraní, una fecha en la que se organizan actividades en escuelas y comunidades. Para mucha gente, el idioma es una parte importante de la identidad del país, y también de su futuro.",
+    "Dato curioso: el español que hablas también tiene palabras guaraníes. Ñandú, el ave grande que no vuela, y yacaré, un reptil parecido al cocodrilo, vienen del guaraní."
+   ],
+   "paragraphs_en": [
+    "If you walk around Asunción on any ordinary day, you will probably hear two languages in the same conversation, and sometimes in the same sentence. Paraguay is one of the few countries in the Americas where an indigenous language not only survives but is spoken by a large part of the population. Since the 1992 Constitution, Guaraní and Spanish have been the country's two official languages. In other words, a person can speak with a judge, see a doctor or study at school using either of them, and that changes the daily life of many people.",
+    "This situation was not always so favorable for Guaraní. For a long time people said that it was a language “of the home” and that Spanish was the language of progress. For that reason, many families decided to speak only Spanish with their children, hoping they would have more opportunities. Over the years, however, attitudes changed: the education reform of the 1990s introduced bilingual education, and a law from 2010 created the Secretariat of Language Policies to protect and promote the country's languages.",
+    "On the street, what you hear most is jopara, a natural mix of Guaraní and Spanish. A person can start a sentence in Spanish, continue in Guaraní and finish with one word from each language, without thinking about it for a second. Many linguists explain that this is not a mistake but a real way of speaking that reflects centuries of coexistence between the two languages. Those who defend Guaraní, on the other hand, remind us that there is also a more formal Guaraní, the one taught in schools and used in books.",
+    "If you want to practice a little, learn two expressions. To greet someone you say “Mba'éichapa,” which means roughly “how are you?”, and to say thank you you say “aguyje.” People who travel to Paraguay say that when someone speaks just a few words of Guaraní, the conversation becomes warmer right away. You don't have to speak perfectly: the effort is appreciated. Besides, learning a few phrases helps you understand better how the people who use them every day think and feel.",
+    "Guaraní doesn't stay inside Paraguay's borders either. It is also spoken in regions of Argentina, Bolivia and Brazil, and the Spanish of the whole area uses words that come from this language. In addition, every August 25 the Day of the Guaraní Language is celebrated, a date on which activities are organized in schools and communities. For many people, the language is an important part of the country's identity, and also of its future.",
+    "Fun fact: the Spanish you speak also has Guaraní words. Ñandú, the large flightless bird (rhea), and yacaré, a reptile similar to a crocodile (caiman), come from Guaraní."
+   ],
+   "paragraphs_de": [
+    "Wenn du an einem beliebigen Tag durch Asunción gehst, hörst du wahrscheinlich zwei Sprachen im selben Gespräch, manchmal sogar im selben Satz. Paraguay ist eines der wenigen Länder Amerikas, in denen eine indigene Sprache nicht nur überlebt, sondern von einem großen Teil der Bevölkerung gesprochen wird. Seit der Verfassung von 1992 sind Guaraní und Spanisch die beiden Amtssprachen des Landes. Das heißt, eine Person kann mit einem Richter sprechen, zum Arzt gehen oder in der Schule lernen und dabei eine der beiden Sprachen benutzen, und das verändert den Alltag vieler Menschen.",
+    "Diese Lage war für das Guaraní nicht immer so günstig. Lange Zeit sagte man, es sei eine Sprache „für zu Hause“, und Spanisch sei die Sprache des Fortschritts. Deshalb entschieden sich viele Familien, mit ihren Kindern nur Spanisch zu sprechen, in der Hoffnung auf bessere Chancen. Mit den Jahren änderte sich die Haltung jedoch: Die Bildungsreform der 1990er Jahre führte zweisprachigen Unterricht ein, und ein Gesetz von 2010 schuf das Sekretariat für Sprachpolitik, um die Sprachen des Landes zu schützen und zu fördern.",
+    "Auf der Straße hört man am häufigsten Jopara, eine natürliche Mischung aus Guaraní und Spanisch. Eine Person kann einen Satz auf Spanisch beginnen, auf Guaraní weitersprechen und mit je einem Wort aus beiden Sprachen enden, ohne eine Sekunde darüber nachzudenken. Viele Sprachwissenschaftler erklären, dass das kein Fehler ist, sondern eine echte Sprechweise, die Jahrhunderte des Zusammenlebens beider Sprachen widerspiegelt. Wer das Guaraní verteidigt, erinnert dagegen daran, dass es auch ein formelleres Guaraní gibt, das in der Schule gelehrt und in Büchern verwendet wird.",
+    "Wenn du ein wenig üben möchtest, lerne zwei Ausdrücke. Zum Begrüßen sagt man „Mba'éichapa“, das ungefähr „Wie geht's?“ bedeutet, und zum Danken sagt man „aguyje“. Wer nach Paraguay reist, erzählt, dass das Gespräch sofort wärmer wird, wenn jemand ein paar Wörter Guaraní spricht. Man muss nicht perfekt sprechen: Die Mühe wird geschätzt. Außerdem hilft dir das Lernen einiger Sätze, besser zu verstehen, wie die Menschen denken und fühlen, die sie jeden Tag benutzen.",
+    "Das Guaraní bleibt auch nicht innerhalb der Grenzen Paraguays. Es wird auch in Regionen von Argentinien, Bolivien und Brasilien gesprochen, und das Spanisch der ganzen Gegend benutzt Wörter, die aus dieser Sprache stammen. Außerdem wird jedes Jahr am 25. August der Tag der Guaraní-Sprache gefeiert, an dem in Schulen und Gemeinden Aktivitäten stattfinden. Für viele Menschen ist die Sprache ein wichtiger Teil der Identität des Landes und auch seiner Zukunft.",
+    "Wissenswertes: Auch das Spanisch, das du sprichst, hat Wörter aus dem Guaraní. Ñandú, der große flugunfähige Vogel (Nandu), und yacaré, ein krokodilähnliches Reptil (Kaiman), stammen aus dem Guaraní."
+   ],
+   "glossary": [
+    {
+     "w": "el idioma oficial",
+     "en": "official language",
+     "de": "die Amtssprache"
+    },
+    {
+     "w": "sobrevivir",
+     "en": "to survive",
+     "de": "überleben"
+    },
+    {
+     "w": "la reforma educativa",
+     "en": "education reform",
+     "de": "die Bildungsreform"
+    },
+    {
+     "w": "promover",
+     "en": "to promote",
+     "de": "fördern"
+    },
+    {
+     "w": "una mezcla",
+     "en": "a mix",
+     "de": "eine Mischung"
+    },
+    {
+     "w": "el lingüista",
+     "en": "the linguist",
+     "de": "der Sprachwissenschaftler"
+    },
+    {
+     "w": "la convivencia",
+     "en": "coexistence, living together",
+     "de": "das Zusammenleben"
+    },
+    {
+     "w": "defender",
+     "en": "to defend, to stand up for",
+     "de": "verteidigen, sich einsetzen für"
+    },
+    {
+     "w": "cálido, -a",
+     "en": "warm",
+     "de": "warm, herzlich"
+    },
+    {
+     "w": "la frontera",
+     "en": "the border",
+     "de": "die Grenze"
+    },
+    {
+     "w": "agradecer",
+     "en": "to appreciate, to be thankful for",
+     "de": "schätzen, dankbar sein für"
+    },
+    {
+     "w": "la identidad",
+     "en": "the identity",
+     "de": "die Identität"
+    }
+   ],
+   "grammar": "Reported speech (B2) tells what someone said or what people say, without quoting. After a verb like decir, explicar or contar, use que. If the main verb is in the past, the verb inside the “que” clause usually moves back too: “Se dijo que era una lengua de la casa” (the original idea: “es una lengua de la casa”). If the main verb is in the present, the tense stays: “Muchos lingüistas explican que esto no es un error.” Keep the same logic with pronouns and time words.",
+   "grammar_de": "Die indirekte Rede (B2) gibt wieder, was jemand gesagt hat oder was Leute sagen, ohne zu zitieren. Nach Verben wie decir, explicar oder contar steht que. Steht das Hauptverb in der Vergangenheit, rutscht meist auch das Verb im que-Satz zurück: „Se dijo que era una lengua de la casa“ (ursprünglich: „es una lengua de la casa“). Steht das Hauptverb im Präsens, bleibt die Zeit gleich: „Muchos lingüistas explican que esto no es un error.“ Dieselbe Logik gilt für Pronomen und Zeitwörter.",
+   "questions": [
+    "¿Por qué muchas familias dejaron de hablar guaraní con sus hijos durante un tiempo?",
+    "¿Qué es el jopara y por qué muchos lingüistas dicen que no es un error?",
+    "¿Y tú? ¿Hablas o conoces alguna lengua que se mezcla con otra en tu región o en tu familia?"
+   ],
+   "sources": []
   }
  ]
 }

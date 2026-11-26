@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T05:24:21+00:00",
+ "updated": "2026-11-26T16:49:26+00:00",
  "days": [
   {
    "date": "2026-11-26",
@@ -18,6 +18,22 @@
      "title": "The Fighting Temeraire: a ghost ship at sunset",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 2,
+     "lang": "es",
+     "title": "En una casa de cambio en Cali: quisiera cambiar euros",
+     "kind": "dialogue",
+     "level": "A2",
+     "hour": null
+    },
+    {
+     "i": 3,
+     "lang": "es",
+     "title": "Guaraní: el idioma que Paraguay habla en voz alta",
+     "kind": "feature",
+     "level": "B2",
      "hour": null
     }
    ]
