@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-25T20:25:29+00:00",
+ "updated": "2026-11-26T05:14:58+00:00",
  "days": [
+  {
+   "date": "2026-11-26",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "Life after removal, livestreamed",
+     "kind": "feature",
+     "level": "C2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-25",
    "items": [

@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-26",
+  "createdBy": "claude",
+  "items": [
+    {
+      "lang": "en",
+      "level": "C2",
+      "kind": "feature",
+      "section": "Migration",
+      "title": "Life after removal, livestreamed",
+      "dek": "Deported from the United States to countries they barely remember, some people have turned their phones into a record the state never bothered to keep. A piece in The Nation asks what viewers owe them.",
+      "tags": [
+        "migration",
+        "The Nation",
+        "deportation",
+        "pseudo-cleft"
+      ],
+      "paragraphs": [
+        "A deportation, in the eyes of the state, ends at the airport. The removal is logged, the case closed, the person subtracted from the national ledger. What happens next, as the sociologist Sarah Tosh of Rutgers points out in a new piece for The Nation by Iliana Hagenah, is simply not counted: the United States records how many people it expels but keeps no overall account of how their lives unfold afterwards.",
+        "Into that silence a small genre has stepped. Hagenah profiles deportees who film their new lives for social media, producing everything from food clips and travel vlogs to something closer to citizen journalism. Laymone Khambounleung, who posts as Mones, grew up in Louisiana after his family fled Laos for Thai refugee camps when he was a baby; he never applied for citizenship, cycled through jail for nonviolent offences, and was sent back to Laos after Washington pressured the country in 2025 to take deportees. He now lives with relatives and says his aim is to show that people can change.",
+        "The range of these accounts is part of their force. Chris Edwards, of Tamil descent and raised in Prince George's County, Maryland, was deported in 2011, under Obama, and has built a life in Bengaluru, where he runs a streetwear label, makes music and is raising a daughter. Yasmany Moreno de Armas, a Cuban national detained for years in Florida, was shackled onto a plane he was told was bound for Cuba and learned mid-flight that it was heading to Africa. He reports that he has been held since July in a facility in the Central African Republic, allowed out for two hours a day, and he has gathered close to 40,000 followers on Instagram.",
+        "What makes these videos politically awkward is not their tone, which is often cheerful, but the gap they expose between public belief and policy. Hagenah cites a 2025 Pew Research Center survey in which nearly all respondents who favoured some deportations backed removing people with violent records, while support split sharply over those with nonviolent convictions or none at all. Many viewers, Tosh suggests, do not realise that deportees have frequently already served their sentences, and that the absence of research leaves immigration judges relying on thin evidence when weighing what removal will mean.",
+        "It would be easy to romanticise the deportee-influencer as a figure of resilience, and the article is wise not to. Edwards says he has yet to earn anything from his posts; Moreno de Armas depends on donations and on news channels that buy his footage. Visibility, moreover, is rationed by platforms whose algorithms decide whose story travels, and Hagenah recalls Human Rights Watch's 2023 finding that Meta suppressed Palestine-related content on Instagram. The same feeds, she notes, are filling with AI-generated anti-immigrant videos.",
+        "The deeper argument concerns knowledge and its politics. A state that tracks removals with precision but declines to follow their consequences has made a choice about what counts as its business, and the testimony of the expelled becomes, almost by default, the only archive. Hagenah ends by turning to her readers: whether they watch, pay, share or comment, they are now implicated in what these accounts reveal."
+      ],
+      "glossary": [
+        {
+          "w": "ledger",
+          "en": "a book or record of accounts; here, figuratively, an official register of who belongs",
+          "zh": "账簿；登记册"
+        },
+        {
+          "w": "step into the silence",
+          "en": "to fill a gap left by the absence of information or action",
+          "zh": "填补空白"
+        },
+        {
+          "w": "cycle through",
+          "en": "to pass repeatedly in and out of an institution or condition",
+          "zh": "反复进出"
+        },
+        {
+          "w": "politically awkward",
+          "en": "uncomfortable for those in power because it raises inconvenient questions",
+          "zh": "政治上令人尴尬的"
+        },
+        {
+          "w": "split sharply",
+          "en": "to divide clearly into opposing camps",
+          "zh": "明显分化"
+        },
+        {
+          "w": "thin evidence",
+          "en": "evidence that is scant or weak",
+          "zh": "证据单薄"
+        },
+        {
+          "w": "romanticise",
+          "en": "to present something as more appealing or heroic than it really is",
+          "zh": "美化；浪漫化"
+        },
+        {
+          "w": "ration",
+          "en": "to allow only a limited amount of something",
+          "zh": "限量配给"
+        },
+        {
+          "w": "by default",
+          "en": "because nothing else is available, not by choice",
+          "zh": "默认地；别无选择地"
+        },
+        {
+          "w": "implicated in",
+          "en": "involved in, and bearing some responsibility for",
+          "zh": "牵涉其中；负有责任"
+        }
+      ],
+      "grammar": "Look at 'What makes these videos politically awkward is not their tone ... but the gap they expose'. This is a pseudo-cleft (wh-cleft): a 'what'-clause becomes the subject and the focused information is delayed until after 'is'. Combined with 'not X but Y', it lets the writer set up a question in the reader's mind and then correct the obvious answer. The first paragraph uses the same device: 'What happens next ... is simply not counted'.",
+      "grammar_zh": "注意 'What makes these videos politically awkward is not their tone ... but the gap they expose'。这是 what 引导的假拟分裂句：what 从句作主语，要强调的信息放在 is 之后。与 'not X but Y' 连用，作者先在读者心中提出问题，再纠正显而易见的答案。第一段的 'What happens next ... is simply not counted' 也用了同样的结构。",
+      "questions": [
+        "Why does the article treat the absence of official data on deportees' lives as a political choice rather than an oversight?",
+        "In what ways do platform economics limit what deportee videos can achieve as testimony?",
+        "Hagenah casts viewers as implicated in what they watch. Is this a persuasive way to end, or does it shift responsibility away from the state?"
+      ],
+      "sources": [
+        {
+          "title": "The Deportation Influencers (Iliana Hagenah, The Nation, 24 November 2026)",
+          "url": "https://www.thenation.com/article/world/the-deportation-influencers/",
+          "license": "link only"
+        }
+      ]
+    }
+  ]
+}
