@@ -1,94 +1,179 @@
 {
-  "date": "2026-11-26",
-  "createdBy": "claude",
-  "items": [
+ "date": "2026-11-26",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "C2",
+   "kind": "feature",
+   "section": "Migration",
+   "title": "Life after removal, livestreamed",
+   "dek": "Deported from the United States to countries they barely remember, some people have turned their phones into a record the state never bothered to keep. A piece in The Nation asks what viewers owe them.",
+   "tags": [
+    "migration",
+    "The Nation",
+    "deportation",
+    "pseudo-cleft"
+   ],
+   "paragraphs": [
+    "A deportation, in the eyes of the state, ends at the airport. The removal is logged, the case closed, the person subtracted from the national ledger. What happens next, as the sociologist Sarah Tosh of Rutgers points out in a new piece for The Nation by Iliana Hagenah, is simply not counted: the United States records how many people it expels but keeps no overall account of how their lives unfold afterwards.",
+    "Into that silence a small genre has stepped. Hagenah profiles deportees who film their new lives for social media, producing everything from food clips and travel vlogs to something closer to citizen journalism. Laymone Khambounleung, who posts as Mones, grew up in Louisiana after his family fled Laos for Thai refugee camps when he was a baby; he never applied for citizenship, cycled through jail for nonviolent offences, and was sent back to Laos after Washington pressured the country in 2025 to take deportees. He now lives with relatives and says his aim is to show that people can change.",
+    "The range of these accounts is part of their force. Chris Edwards, of Tamil descent and raised in Prince George's County, Maryland, was deported in 2011, under Obama, and has built a life in Bengaluru, where he runs a streetwear label, makes music and is raising a daughter. Yasmany Moreno de Armas, a Cuban national detained for years in Florida, was shackled onto a plane he was told was bound for Cuba and learned mid-flight that it was heading to Africa. He reports that he has been held since July in a facility in the Central African Republic, allowed out for two hours a day, and he has gathered close to 40,000 followers on Instagram.",
+    "What makes these videos politically awkward is not their tone, which is often cheerful, but the gap they expose between public belief and policy. Hagenah cites a 2025 Pew Research Center survey in which nearly all respondents who favoured some deportations backed removing people with violent records, while support split sharply over those with nonviolent convictions or none at all. Many viewers, Tosh suggests, do not realise that deportees have frequently already served their sentences, and that the absence of research leaves immigration judges relying on thin evidence when weighing what removal will mean.",
+    "It would be easy to romanticise the deportee-influencer as a figure of resilience, and the article is wise not to. Edwards says he has yet to earn anything from his posts; Moreno de Armas depends on donations and on news channels that buy his footage. Visibility, moreover, is rationed by platforms whose algorithms decide whose story travels, and Hagenah recalls Human Rights Watch's 2023 finding that Meta suppressed Palestine-related content on Instagram. The same feeds, she notes, are filling with AI-generated anti-immigrant videos.",
+    "The deeper argument concerns knowledge and its politics. A state that tracks removals with precision but declines to follow their consequences has made a choice about what counts as its business, and the testimony of the expelled becomes, almost by default, the only archive. Hagenah ends by turning to her readers: whether they watch, pay, share or comment, they are now implicated in what these accounts reveal."
+   ],
+   "glossary": [
     {
-      "lang": "en",
-      "level": "C2",
-      "kind": "feature",
-      "section": "Migration",
-      "title": "Life after removal, livestreamed",
-      "dek": "Deported from the United States to countries they barely remember, some people have turned their phones into a record the state never bothered to keep. A piece in The Nation asks what viewers owe them.",
-      "tags": [
-        "migration",
-        "The Nation",
-        "deportation",
-        "pseudo-cleft"
-      ],
-      "paragraphs": [
-        "A deportation, in the eyes of the state, ends at the airport. The removal is logged, the case closed, the person subtracted from the national ledger. What happens next, as the sociologist Sarah Tosh of Rutgers points out in a new piece for The Nation by Iliana Hagenah, is simply not counted: the United States records how many people it expels but keeps no overall account of how their lives unfold afterwards.",
-        "Into that silence a small genre has stepped. Hagenah profiles deportees who film their new lives for social media, producing everything from food clips and travel vlogs to something closer to citizen journalism. Laymone Khambounleung, who posts as Mones, grew up in Louisiana after his family fled Laos for Thai refugee camps when he was a baby; he never applied for citizenship, cycled through jail for nonviolent offences, and was sent back to Laos after Washington pressured the country in 2025 to take deportees. He now lives with relatives and says his aim is to show that people can change.",
-        "The range of these accounts is part of their force. Chris Edwards, of Tamil descent and raised in Prince George's County, Maryland, was deported in 2011, under Obama, and has built a life in Bengaluru, where he runs a streetwear label, makes music and is raising a daughter. Yasmany Moreno de Armas, a Cuban national detained for years in Florida, was shackled onto a plane he was told was bound for Cuba and learned mid-flight that it was heading to Africa. He reports that he has been held since July in a facility in the Central African Republic, allowed out for two hours a day, and he has gathered close to 40,000 followers on Instagram.",
-        "What makes these videos politically awkward is not their tone, which is often cheerful, but the gap they expose between public belief and policy. Hagenah cites a 2025 Pew Research Center survey in which nearly all respondents who favoured some deportations backed removing people with violent records, while support split sharply over those with nonviolent convictions or none at all. Many viewers, Tosh suggests, do not realise that deportees have frequently already served their sentences, and that the absence of research leaves immigration judges relying on thin evidence when weighing what removal will mean.",
-        "It would be easy to romanticise the deportee-influencer as a figure of resilience, and the article is wise not to. Edwards says he has yet to earn anything from his posts; Moreno de Armas depends on donations and on news channels that buy his footage. Visibility, moreover, is rationed by platforms whose algorithms decide whose story travels, and Hagenah recalls Human Rights Watch's 2023 finding that Meta suppressed Palestine-related content on Instagram. The same feeds, she notes, are filling with AI-generated anti-immigrant videos.",
-        "The deeper argument concerns knowledge and its politics. A state that tracks removals with precision but declines to follow their consequences has made a choice about what counts as its business, and the testimony of the expelled becomes, almost by default, the only archive. Hagenah ends by turning to her readers: whether they watch, pay, share or comment, they are now implicated in what these accounts reveal."
-      ],
-      "glossary": [
-        {
-          "w": "ledger",
-          "en": "a book or record of accounts; here, figuratively, an official register of who belongs",
-          "zh": "账簿；登记册"
-        },
-        {
-          "w": "step into the silence",
-          "en": "to fill a gap left by the absence of information or action",
-          "zh": "填补空白"
-        },
-        {
-          "w": "cycle through",
-          "en": "to pass repeatedly in and out of an institution or condition",
-          "zh": "反复进出"
-        },
-        {
-          "w": "politically awkward",
-          "en": "uncomfortable for those in power because it raises inconvenient questions",
-          "zh": "政治上令人尴尬的"
-        },
-        {
-          "w": "split sharply",
-          "en": "to divide clearly into opposing camps",
-          "zh": "明显分化"
-        },
-        {
-          "w": "thin evidence",
-          "en": "evidence that is scant or weak",
-          "zh": "证据单薄"
-        },
-        {
-          "w": "romanticise",
-          "en": "to present something as more appealing or heroic than it really is",
-          "zh": "美化；浪漫化"
-        },
-        {
-          "w": "ration",
-          "en": "to allow only a limited amount of something",
-          "zh": "限量配给"
-        },
-        {
-          "w": "by default",
-          "en": "because nothing else is available, not by choice",
-          "zh": "默认地；别无选择地"
-        },
-        {
-          "w": "implicated in",
-          "en": "involved in, and bearing some responsibility for",
-          "zh": "牵涉其中；负有责任"
-        }
-      ],
-      "grammar": "Look at 'What makes these videos politically awkward is not their tone ... but the gap they expose'. This is a pseudo-cleft (wh-cleft): a 'what'-clause becomes the subject and the focused information is delayed until after 'is'. Combined with 'not X but Y', it lets the writer set up a question in the reader's mind and then correct the obvious answer. The first paragraph uses the same device: 'What happens next ... is simply not counted'.",
-      "grammar_zh": "注意 'What makes these videos politically awkward is not their tone ... but the gap they expose'。这是 what 引导的假拟分裂句：what 从句作主语，要强调的信息放在 is 之后。与 'not X but Y' 连用，作者先在读者心中提出问题，再纠正显而易见的答案。第一段的 'What happens next ... is simply not counted' 也用了同样的结构。",
-      "questions": [
-        "Why does the article treat the absence of official data on deportees' lives as a political choice rather than an oversight?",
-        "In what ways do platform economics limit what deportee videos can achieve as testimony?",
-        "Hagenah casts viewers as implicated in what they watch. Is this a persuasive way to end, or does it shift responsibility away from the state?"
-      ],
-      "sources": [
-        {
-          "title": "The Deportation Influencers (Iliana Hagenah, The Nation, 24 November 2026)",
-          "url": "https://www.thenation.com/article/world/the-deportation-influencers/",
-          "license": "link only"
-        }
-      ]
+     "w": "ledger",
+     "en": "a book or record of accounts; here, figuratively, an official register of who belongs",
+     "zh": "账簿；登记册"
+    },
+    {
+     "w": "step into the silence",
+     "en": "to fill a gap left by the absence of information or action",
+     "zh": "填补空白"
+    },
+    {
+     "w": "cycle through",
+     "en": "to pass repeatedly in and out of an institution or condition",
+     "zh": "反复进出"
+    },
+    {
+     "w": "politically awkward",
+     "en": "uncomfortable for those in power because it raises inconvenient questions",
+     "zh": "政治上令人尴尬的"
+    },
+    {
+     "w": "split sharply",
+     "en": "to divide clearly into opposing camps",
+     "zh": "明显分化"
+    },
+    {
+     "w": "thin evidence",
+     "en": "evidence that is scant or weak",
+     "zh": "证据单薄"
+    },
+    {
+     "w": "romanticise",
+     "en": "to present something as more appealing or heroic than it really is",
+     "zh": "美化；浪漫化"
+    },
+    {
+     "w": "ration",
+     "en": "to allow only a limited amount of something",
+     "zh": "限量配给"
+    },
+    {
+     "w": "by default",
+     "en": "because nothing else is available, not by choice",
+     "zh": "默认地；别无选择地"
+    },
+    {
+     "w": "implicated in",
+     "en": "involved in, and bearing some responsibility for",
+     "zh": "牵涉其中；负有责任"
     }
-  ]
+   ],
+   "grammar": "Look at 'What makes these videos politically awkward is not their tone ... but the gap they expose'. This is a pseudo-cleft (wh-cleft): a 'what'-clause becomes the subject and the focused information is delayed until after 'is'. Combined with 'not X but Y', it lets the writer set up a question in the reader's mind and then correct the obvious answer. The first paragraph uses the same device: 'What happens next ... is simply not counted'.",
+   "grammar_zh": "注意 'What makes these videos politically awkward is not their tone ... but the gap they expose'。这是 what 引导的假拟分裂句：what 从句作主语，要强调的信息放在 is 之后。与 'not X but Y' 连用，作者先在读者心中提出问题，再纠正显而易见的答案。第一段的 'What happens next ... is simply not counted' 也用了同样的结构。",
+   "questions": [
+    "Why does the article treat the absence of official data on deportees' lives as a political choice rather than an oversight?",
+    "In what ways do platform economics limit what deportee videos can achieve as testimony?",
+    "Hagenah casts viewers as implicated in what they watch. Is this a persuasive way to end, or does it shift responsibility away from the state?"
+   ],
+   "sources": [
+    {
+     "title": "The Deportation Influencers (Iliana Hagenah, The Nation, 24 November 2026)",
+     "url": "https://www.thenation.com/article/world/the-deportation-influencers/",
+     "license": "link only"
+    }
+   ]
+  },
+  {
+   "lang": "en",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Art",
+   "title": "The Fighting Temeraire: a ghost ship at sunset",
+   "dek": "A famous painting by Turner shows an old warship on her last journey, and a small, dark steam tug pulling her home.",
+   "paragraphs": [
+    "Have you ever stood in front of a painting and felt sad and happy at the same time? Many visitors to the National Gallery in London have had that feeling in front of one glowing picture. It is called The Fighting Temeraire. The British artist J. M. W. Turner showed it in 1839. It is oil on canvas and about 1.2 metres wide, so it is smaller than most people expect.",
+    "The picture shows a real ship. HMS Temeraire was a huge wooden warship with 98 guns, and her wood came from more than 5,000 oak trees. In 1805 she fought at the Battle of Trafalgar and helped to defend Nelson's flagship, Victory. Her great days were soon over. From 1820 she was a supply ship, lying in the water near Sheerness, and in 1838 the navy sold her.",
+    "The buyer was John Beatson, who broke up old ships at Rotherhithe in London. He paid £5,530 for her. Two steam tugs pulled the old ship up the River Thames, and the journey took about two days. Turner has often been described as an artist of the sea, but he probably did not see this tow himself. He made the painting from reports of what happened.",
+    "Now look at the colours. The tall ship is pale and almost ghostly. The little tug is dark and busy, and it pushes out black smoke. Behind them the sky glows with orange, gold and red. Turner changed the facts to make a better picture. He gave the ship white and gold paint, and he put the tug's funnel in front of its mast, so the smoke blows back through the old ship's masts.",
+    "He also placed the setting sun in a way that does not fit the real journey. Artists call this \"poetic licence\": they are free to change a fact if the change helps the feeling. Many people have read the painting as a goodbye to the age of sailing ships and the arrival of the steam age. Turner never explained it in this way, so you can decide for yourself.",
+    "Later, someone made an engraving of the painting and \"corrected\" the funnel. Turner was furious. He kept the picture until he died in 1851, and he called it \"his Darling\". After his death it came to the nation, and it is now one of the most popular paintings in the National Gallery. Millions of people have already walked past it, and many have stopped to look for a long time."
+   ],
+   "paragraphs_zh": [
+    "你有没有站在一幅画前，同时感到悲伤又快乐？很多参观伦敦国家美术馆的人，在一幅发着光的画前都有过这种感觉。这幅画叫《战舰无畏号》（The Fighting Temeraire）。英国艺术家 J. M. W. 透纳于 1839 年展出了它。它是布面油画，约 1.2 米宽，比大多数人想象的要小。",
+    "画中是一艘真实的船。“无畏号”（HMS Temeraire）是一艘巨大的木制战舰，有 98 门炮，用了五千多棵橡树的木材。1805 年她参加了特拉法尔加海战，并帮助保护纳尔逊的旗舰“胜利号”。不久之后，她的辉煌岁月就结束了。从 1820 年起，她成了一艘补给船，停在希尔内斯附近的水面上，1838 年海军把她卖掉了。",
+    "买家是约翰·比特森，他在伦敦的罗瑟希德拆解旧船。他花了 5530 英镑买下这艘船。两艘蒸汽拖船把这艘老船沿泰晤士河拖上去，航程大约两天。人们常说透纳是画海的艺术家，但他很可能没有亲眼看到这次拖行。他是根据报道把画画出来的。",
+    "现在来看颜色。高大的船苍白，几乎像幽灵。小拖船黑黑的，忙碌地冒着黑烟。它们身后的天空闪耀着橙色、金色和红色。透纳改动了事实，让画面更动人。他给这艘船涂上了白色和金色，还把拖船的烟囱画在桅杆前面，所以烟向后吹过老船的桅杆。",
+    "他还把落日放在一个与真实航程不符的位置。艺术家把这叫作“诗意的自由”：只要改动能帮助表达感情，他们就可以改变事实。很多人把这幅画解读为对帆船时代的告别，以及蒸汽时代的到来。透纳从没有这样解释过，所以你可以自己决定。",
+    "后来有人为这幅画制作了版画，并“更正”了烟囱的位置。透纳非常愤怒。他一直保留这幅画到 1851 年去世，并称它为“他的宝贝”。他去世后，这幅画归了国家，现在是国家美术馆最受欢迎的画作之一。数百万人已经从它面前走过，很多人还停下来看了很久。"
+   ],
+   "glossary": [
+    {
+     "w": "warship",
+     "en": "a large ship built for war",
+     "zh": "战舰"
+    },
+    {
+     "w": "supply ship",
+     "en": "a ship that carries food and other things for other ships",
+     "zh": "补给船"
+    },
+    {
+     "w": "tug",
+     "en": "a small strong boat that pulls bigger ships",
+     "zh": "拖船"
+    },
+    {
+     "w": "funnel",
+     "en": "the tall pipe on a ship where smoke goes out",
+     "zh": "烟囱"
+    },
+    {
+     "w": "ghostly",
+     "en": "pale and strange, like a ghost",
+     "zh": "幽灵般的"
+    },
+    {
+     "w": "glow",
+     "en": "to shine with a soft, warm light",
+     "zh": "发出柔和的光"
+    },
+    {
+     "w": "break up (a ship)",
+     "en": "to take a ship apart, usually to sell the parts",
+     "zh": "拆解（船）"
+    },
+    {
+     "w": "furious",
+     "en": "extremely angry",
+     "zh": "暴怒的"
+    },
+    {
+     "w": "poetic licence",
+     "en": "the freedom of an artist to change facts for a better effect",
+     "zh": "艺术加工的自由；诗意的自由"
+    }
+   ],
+   "grammar": "We use the present perfect (have/has + past participle) to talk about experience and results, without saying exactly when. Look at \"Have you ever stood in front of a painting…?\" and \"Millions of people have already walked past it.\" Ever is for questions, never is for \"not at any time\", just means a very short time ago, and already means earlier than expected. When we say exactly when (\"in 1839\", \"in 1805\"), we use the past simple: \"Turner showed it in 1839.\"",
+   "grammar_zh": "现在完成时（have/has + 过去分词）用来谈经历和结果，不说明具体时间。例如文中的 “Have you ever stood in front of a painting…?” 和 “Millions of people have already walked past it.” ever 用于问句，意思是“曾经”；never 表示“从未”；just 表示“刚刚”；already 表示“已经（比预期早）”。一旦说出具体时间（in 1839、in 1805），就要用一般过去时：“Turner showed it in 1839.” 汉语常用“过”“了”“已经”表达类似意思，但英语必须用 have/has + 过去分词这一形式。",
+   "questions": [
+    "Why do you think Turner made the ship pale and the tug dark?",
+    "Which do you find more interesting in a painting: the real facts or the artist's feelings?",
+    "And you? Have you ever seen a painting that made you feel something strong? What was it?"
+   ],
+   "sources": [
+    {
+     "title": "The Fighting Temeraire (NG524), National Gallery, London",
+     "url": "https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-the-fighting-temeraire",
+     "license": "link only"
+    }
+   ]
+  }
+ ]
 }

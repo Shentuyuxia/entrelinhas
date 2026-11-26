@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T05:14:58+00:00",
+ "updated": "2026-11-26T05:24:21+00:00",
  "days": [
   {
    "date": "2026-11-26",
@@ -10,6 +10,14 @@
      "title": "Life after removal, livestreamed",
      "kind": "feature",
      "level": "C2",
+     "hour": null
+    },
+    {
+     "i": 1,
+     "lang": "en",
+     "title": "The Fighting Temeraire: a ghost ship at sunset",
+     "kind": "feature",
+     "level": "B1",
      "hour": null
     }
    ]
