@@ -1887,7 +1887,7 @@ const I={
 
 /* ---------- state (localStorage) ---------- */
 const LS="palavra-wort-v1";
-const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},mdel:{},memo:{},auds:{},plan:null,del:{},pileDel:{}});
+const blank=()=>({srs:{},pile:{},custom:[],log:{},imgs:{},mine:{},mdel:{},memo:{},memoT:{},auds:{},plan:null,del:{},pileDel:{}});
 const DEF={v:3,settings:{voice:{},lang:"pt",dir:"t2g",autoPile:true,autoSpeak:false,autoMine:false,imgFront:false,rate:0.95,
   gloss:{pt:["en","zh"],de:["en","zh"],en:["def","zh"],fr:["en","zh"],es:["en","de"]},goal:{pt:15,de:15,en:15,fr:15,es:15},levels:{es:["BS","A2","B1"],pt:["BS","A1","A2"],de:["B2","C1","C2","UG"],en:["B1","B2"],fr:["A1","A2","B1","B2","C1"]}},
   pt:blank(),de:blank(),en:blank(),fr:blank(),es:blank(),updated:0,lastBackup:0};
@@ -2238,6 +2238,8 @@ function openScanResult(items,preview){
 $("#scan-cam").addEventListener("change",e=>{ doScan(e.target.files); e.target.value=""; });
 $("#scan-pick").addEventListener("change",e=>{ doScan(e.target.files); e.target.value=""; });
 const memoOf=c=>L().memo[c.id]||"";
+// every change to a memory note carries a time, so sync keeps the newest note instead of whichever device synced last
+function setMemo(id,v,LL){ LL=LL||L(); v=(v||"").trim(); if(v) LL.memo[id]=v; else delete LL.memo[id]; (LL.memoT||(LL.memoT={}))[id]=Date.now(); }
 const mineOf=c=>L().mine[c.id]||[];
 const audsOf=id=>L().auds[id]||{};
 
@@ -2673,7 +2675,7 @@ function recRowsHTML(prefix,has){
 /* ---------- detail modal ---------- */
 let detailOpen=null;
 function openDetail(id){ const c=BYID.get(id); if(!c) return; detailOpen=id; document.body.classList.add("modal-open"); renderDetail(); }
-function closeDetail(){ exEdit=null; cancelRec(); detailOpen=null; document.body.classList.remove("modal-open"); $("#detail-root").innerHTML="";
+function closeDetail(){ { const mi=document.getElementById("d-memo"); if(mi&&detailOpen&&mi.value.trim()!==(L().memo[detailOpen]||"")){ setMemo(detailOpen,mi.value); save(); } } exEdit=null; cancelRec(); detailOpen=null; document.body.classList.remove("modal-open"); $("#detail-root").innerHTML="";
   if(cur==="today") renderCard(); else if(cur==="dict"){ if(foldOn("browse")) renderBrowse(); if(foldOn("pile")) renderPile(); } }
 let exEdit=null;
 function exTrKey(){ const k=(typeof UIL!=="undefined"&&(UIL==="zh"||UIL==="zht"))?"exzh":(typeof UIL!=="undefined"&&UIL==="de")?"exde":"exen"; return k; }
@@ -2736,7 +2738,8 @@ function renderDetail(note){
   }
   $("#d-say").onclick=()=>speak(c.w);
   $("#d-std").onclick=()=>speak(c.ex?c.w+". "+c.ex:c.w);
-  $("#d-memo-save").onclick=()=>{ const v=$("#d-memo").value.trim(); if(v) L().memo[id]=v; else delete L().memo[id]; save(); renderDetail("记忆提示已保存"); };
+  $("#d-memo-save").onclick=()=>{ setMemo(id,$("#d-memo").value); save(); renderDetail("记忆提示已保存"); };
+  { const mi=$("#d-memo"); mi.onchange=()=>{ if(mi.value.trim()!==memoOf(c)){ setMemo(id,mi.value); save(); } }; mi.onkeydown=e=>{ if(e.key==="Enter"&&!e.isComposing){ e.preventDefault(); $("#d-memo-save").click(); } }; }
   const addSent=async check=>{
     const t=$("#d-sent").value.trim(); if(!t) return;
     const arr=L().mine[id]||(L().mine[id]=[]); arr.unshift({t,ts:Date.now()}); save(); renderDetail(check?"":"已保存");
@@ -2879,7 +2882,7 @@ $("#n-form").addEventListener("submit",async e=>{
   if(!o.pos) o.pos=guessPos(o.w);
   const LL=L(); const rec={id,lvl:o.lvl,w:o.w,pos:o.pos,extra:o.extra,ex:o.ex,exzh:o.exzh,exen:o.exen}; LANG[lang()].gl.forEach(k=>rec[k]=o[k]);
   LL.custom.push(rec);
-  const memo=$("#n-memo").value.trim(); if(memo) LL.memo[id]=memo;
+  const memo=$("#n-memo").value.trim(); if(memo) setMemo(id,memo,LL);
   const sents=$("#n-mine").value.split("\n").map(s=>s.trim()).filter(Boolean); if(sents.length) LL.mine[id]=sents.map(t=>({t,ts:Date.now()}));
   rebuildCards();
   if(draft.img) await storeImg(id,draft.img.kind,draft.img.data);
@@ -2944,7 +2947,7 @@ function addFromReader(v){
   LANG[l].gl.forEach(k=>rec[k]=""); rec.zh=zh;
   if(def){ if(LANG[l].gl.includes("def")) rec.def=def; else if(LANG[l].gl.includes("en")) rec.en=def; }
   LL.custom.push(rec);
-  const memo=[v.note,v.source?("出自 "+v.source+(v.date?" · "+v.date:"")):""].filter(Boolean).join("\n"); if(memo) LL.memo[id]=memo;
+  const memo=[v.note,v.source?("出自 "+v.source+(v.date?" · "+v.date:"")):""].filter(Boolean).join("\n"); if(memo) setMemo(id,memo,LL);
   LL.pile[id]=Date.now();
   if(l===lang()) rebuildCards();
   save(); renderStrip(); if(sess&&sess.mode==="daily"&&!sess.flipped&&l===lang()) buildDaily();
@@ -4125,7 +4128,12 @@ function syMergeState(A,B){
     m.pile={}; for(const [id,t] of [...Object.entries(b.pile),...Object.entries(a.pile)]){ if(del[id]||(pdel[id]||0)>=t) continue; m.pile[id]=Math.max(m.pile[id]||0,t); }
     m.log={}; for(const d of new Set([...Object.keys(a.log),...Object.keys(b.log)])){ const x=a.log[d]||{n:0,r:0,c:false}, y=b.log[d]||{n:0,r:0,c:false};
       m.log[d]={n:Math.max(x.n||0,y.n||0),r:Math.max(x.r||0,y.r||0),c:!!(x.c||y.c)}; const pn=Math.max(x.pn||0,y.pn||0); if(pn) m.log[d].pn=pn; }
-    for(const k of ["memo","imgs","auds"]){ m[k]=Object.assign({},b[k]||{},a[k]||{}); for(const id in m[k]) if(del[id]) delete m[k][id]; }
+    for(const k of ["imgs","auds"]){ m[k]=Object.assign({},b[k]||{},a[k]||{}); for(const id in m[k]) if(del[id]) delete m[k][id]; }
+    { const at=a.memoT||{}, bt=b.memoT||{}; m.memo={}; m.memoT=tsMax(at,bt);
+      for(const id of new Set([...Object.keys(a.memo||{}),...Object.keys(b.memo||{}),...Object.keys(m.memoT)])){ if(del[id]){ delete m.memoT[id]; continue; }
+        const am=(a.memo||{})[id], bm=(b.memo||{})[id], ta=at[id]||0, tb=bt[id]||0;
+        const v=(ta||tb)?(tb>ta?bm:am):(am??bm); // newest edit wins (an emptied note stays empty); old notes without a time keep the old rule
+        if(v) m.memo[id]=v; } }
     m.mine={}; m.mdel={}; for(const id of new Set([...Object.keys(a.mine||{}),...Object.keys(b.mine||{})])){ if(del[id]) continue;
       const dl=m.mdel[id]=tsMax((a.mdel||{})[id],(b.mdel||{})[id]);
       const seen=new Set(), arr=[]; for(const s of [...((a.mine||{})[id]||[]),...((b.mine||{})[id]||[])]){ const k=s.t+"|"+(s.ts||""); if(!seen.has(k)&&!dl[k]){ seen.add(k); arr.push(s); } }
