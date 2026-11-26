@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:49:26+00:00",
+ "updated": "2026-11-26T18:54:23+00:00",
  "days": [
   {
    "date": "2026-11-26",
@@ -34,6 +34,14 @@
      "title": "Guaraní: el idioma que Paraguay habla en voz alta",
      "kind": "feature",
      "level": "B2",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Bilhete na geladeira: a chave, a ração e o Tito",
+     "kind": "brief",
+     "level": "A1",
      "hour": null
     }
    ]

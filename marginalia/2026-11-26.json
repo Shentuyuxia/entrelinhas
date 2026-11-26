@@ -398,6 +398,117 @@
     "¿Y tú? ¿Hablas o conoces alguna lengua que se mezcla con otra en tu región o en tu familia?"
    ],
    "sources": []
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "brief",
+   "section": "Textinho",
+   "title": "Bilhete na geladeira: a chave, a ração e o Tito",
+   "dek": "No sábado, a Ana passa o dia fora e a Dona Rosa cuida do Tito. Na porta da geladeira tem um bilhete — com um P.S. muito importante.",
+   "paragraphs": [
+    "Querida Dona Rosa,",
+    "Obrigada! A minha chave está debaixo do vaso de flores.",
+    "A ração do Tito está no armário da cozinha. A tigela dele é a azul.",
+    "Ele come às oito e às seis. Só um pouco!",
+    "O brinquedo dele: a bola vermelha, no sofá.",
+    "P.S.: O Tito diz: “A cama do Bolinha é minha.” Não é!",
+    "Beijos, Ana"
+   ],
+   "paragraphs_en": [
+    "Dear Dona Rosa,",
+    "Thank you! My key is under the flower pot.",
+    "Tito's food is in the kitchen cupboard. His bowl is the blue one.",
+    "He eats at eight and at six. Just a little!",
+    "His toy is the red ball, on the sofa.",
+    "P.S.: Tito says: “Bolinha's bed is mine.” It isn't!",
+    "Kisses, Ana"
+   ],
+   "paragraphs_zh": [
+    "亲爱的罗莎太太：",
+    "谢谢您！我的钥匙在花盆下面。",
+    "蒂托的猫粮在厨房的柜子里。它的碗是蓝色的那个。",
+    "它八点和六点吃饭。只吃一点点！",
+    "它的玩具是那个红球，在沙发上。",
+    "附言：蒂托说：“小球的床是我的。”才不是！",
+    "亲亲，安娜"
+   ],
+   "paragraphs_de": [
+    "Liebe Dona Rosa,",
+    "Danke! Mein Schlüssel liegt unter dem Blumentopf.",
+    "Titos Futter ist im Küchenschrank. Sein Napf ist der blaue.",
+    "Er frisst um acht und um sechs. Nur ein bisschen!",
+    "Sein Spielzeug ist der rote Ball, auf dem Sofa.",
+    "PS: Tito sagt: „Bolinhas Bett gehört mir.“ Stimmt nicht!",
+    "Küsschen, Ana"
+   ],
+   "glossary": [
+    {
+     "w": "o bilhete",
+     "en": "note (short written message)",
+     "zh": "便条，留言条",
+     "de": "der Zettel, die Notiz",
+     "pt": "Uma mensagem curta no papel. O bilhete está na geladeira."
+    },
+    {
+     "w": "a chave",
+     "en": "key",
+     "zh": "钥匙",
+     "de": "der Schlüssel",
+     "pt": "Com a chave, a gente abre a porta."
+    },
+    {
+     "w": "debaixo de",
+     "en": "under",
+     "zh": "在……下面",
+     "de": "unter",
+     "pt": "Embaixo, o contrário de em cima. Debaixo do vaso = embaixo do vaso."
+    },
+    {
+     "w": "o vaso de flores",
+     "en": "flower pot",
+     "zh": "花盆",
+     "de": "der Blumentopf",
+     "pt": "Uma coisa com terra e flores dentro."
+    },
+    {
+     "w": "o armário",
+     "en": "cupboard, cabinet",
+     "zh": "柜子",
+     "de": "der Schrank",
+     "pt": "Um móvel com portas. No armário da cozinha tem pratos e comida."
+    },
+    {
+     "w": "o brinquedo",
+     "en": "toy",
+     "zh": "玩具",
+     "de": "das Spielzeug",
+     "pt": "Uma coisa para brincar. A bola é um brinquedo."
+    },
+    {
+     "w": "um pouco",
+     "en": "a little",
+     "zh": "一点点",
+     "de": "ein bisschen",
+     "pt": "Não muito. Só um pouco de ração."
+    }
+   ],
+   "grammar": "Before a noun, the possessive usually comes with the article: a minha chave (my key), a tigela dele (his bowl). After ser, it often stands alone, without the article: A cama é minha. (The bed is mine.) — A chave é sua? (Is the key yours?)",
+   "grammar_zh": "放在名词前时，物主代词通常带冠词：a minha chave（我的钥匙），a tigela dele（它的碗）。在 ser 后面，常常单独使用、不带冠词：A cama é minha.（床是我的。）— A chave é sua?（钥匙是你的吗？）",
+   "grammar_de": "Vor einem Nomen steht das Possessiv meist mit Artikel: a minha chave (mein Schlüssel), a tigela dele (sein Napf). Nach ser steht es oft allein, ohne Artikel: A cama é minha. (Das Bett gehört mir.) — A chave é sua? (Ist das dein Schlüssel?)",
+   "grammar_pt": "Antes da palavra, a gente usa o artigo: a minha chave, a tigela dele. Depois de ser, muitas vezes sem artigo: A cama é minha. A chave é sua?",
+   "questions": [
+    "Onde está a chave da Ana?",
+    "Qual é a tigela do Tito? E o brinquedo dele?",
+    "E você? Onde está a sua chave agora?"
+   ],
+   "tags": [
+    "bilhete",
+    "vizinhos",
+    "possessivos",
+    "é minha / é sua"
+   ],
+   "sources": []
   }
  ]
 }
