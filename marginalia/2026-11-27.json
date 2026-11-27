@@ -193,6 +193,226 @@
     "Selbst gemacht oder gekauft: Was verschenkst du lieber, und warum?"
    ],
    "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "A2",
+   "kind": "dialogue",
+   "section": "Conversación",
+   "title": "En Guadalajara: ¿cómo llego al mercado?",
+   "dek": "Mateo es turista en Guadalajara, México, y le pregunta a Daniela cómo llegar al Mercado Libertad en camión.",
+   "tags": [
+    "Guadalajara",
+    "direcciones y transporte",
+    "imperativo con tú"
+   ],
+   "paragraphs": [
+    "Mateo: Daniela, perdón, ¿me puedes ayudar? Quiero ir al Mercado Libertad.",
+    "Daniela: Claro. ¿Vas desde el hotel?",
+    "Mateo: Sí. ¿Queda lejos?",
+    "Daniela: Puedes caminar, pero hoy hace mucho calor. Mejor toma el camión.",
+    "Mateo: ¿Camión? ¿Quieres decir autobús?",
+    "Daniela: ¡Exacto! En México decimos camión. Sal del hotel y camina hasta la esquina.",
+    "Mateo: ¿Y después?",
+    "Daniela: Cruza la avenida, busca la parada y toma el camión que dice «Centro».",
+    "Mateo: ¿Dónde bajo?",
+    "Daniela: Baja cuando veas una plaza grande. Si no estás seguro, pregúntale al chofer.",
+    "Mateo: ¿El mercado está cerca de la parada?",
+    "Daniela: Sí, está a una cuadra. Dobla a la derecha y sigue derecho. Es un edificio grande.",
+    "Mateo: ¿Puedes repetir la última parte, por favor?",
+    "Daniela: Claro: baja, dobla a la derecha y sigue derecho una cuadra.",
+    "Mateo: Perfecto. ¡Muchas gracias, Daniela!",
+    "Daniela: De nada. ¡Que te vaya bien!"
+   ],
+   "paragraphs_en": [
+    "Mateo: Daniela, excuse me, can you help me? I want to go to the Mercado Libertad.",
+    "Daniela: Sure. Are you going from the hotel?",
+    "Mateo: Yes. Is it far?",
+    "Daniela: You can walk, but it's very hot today. Better take the bus.",
+    "Mateo: Camión? Do you mean autobús?",
+    "Daniela: Exactly! In Mexico we say camión. Leave the hotel and walk to the corner.",
+    "Mateo: And then?",
+    "Daniela: Cross the avenue, look for the stop and take the bus that says “Centro”.",
+    "Mateo: Where do I get off?",
+    "Daniela: Get off when you see a big square. If you're not sure, ask the driver.",
+    "Mateo: Is the market near the stop?",
+    "Daniela: Yes, it's one block away. Turn right and keep going straight. It's a big building.",
+    "Mateo: Can you repeat the last part, please?",
+    "Daniela: Of course: get off, turn right and go straight one block.",
+    "Mateo: Perfect. Thank you very much, Daniela!",
+    "Daniela: You're welcome. Take care!"
+   ],
+   "paragraphs_de": [
+    "Mateo: Daniela, Entschuldigung, kannst du mir helfen? Ich möchte zum Mercado Libertad.",
+    "Daniela: Klar. Gehst du vom Hotel aus?",
+    "Mateo: Ja. Ist es weit?",
+    "Daniela: Du kannst laufen, aber heute ist es sehr heiß. Nimm lieber den Bus.",
+    "Mateo: Camión? Meinst du autobús?",
+    "Daniela: Genau! In Mexiko sagen wir camión. Geh aus dem Hotel und lauf bis zur Ecke.",
+    "Mateo: Und dann?",
+    "Daniela: Überquere die Allee, such die Haltestelle und nimm den Bus, auf dem „Centro“ steht.",
+    "Mateo: Wo steige ich aus?",
+    "Daniela: Steig aus, wenn du einen großen Platz siehst. Wenn du nicht sicher bist, frag den Fahrer.",
+    "Mateo: Ist der Markt nah an der Haltestelle?",
+    "Daniela: Ja, einen Block entfernt. Biege rechts ab und geh geradeaus. Es ist ein großes Gebäude.",
+    "Mateo: Kannst du den letzten Teil bitte wiederholen?",
+    "Daniela: Klar: aussteigen, rechts abbiegen und einen Block geradeaus gehen.",
+    "Mateo: Perfekt. Vielen Dank, Daniela!",
+    "Daniela: Gern geschehen. Mach's gut!"
+   ],
+   "glossary": [
+    {
+     "w": "el camión",
+     "en": "bus (in Mexico; elsewhere: truck)",
+     "de": "der Bus (in Mexiko)"
+    },
+    {
+     "w": "la parada",
+     "en": "bus stop",
+     "de": "die Haltestelle"
+    },
+    {
+     "w": "la esquina",
+     "en": "corner",
+     "de": "die Ecke"
+    },
+    {
+     "w": "la cuadra",
+     "en": "block (of a street)",
+     "de": "der Häuserblock"
+    },
+    {
+     "w": "doblar",
+     "en": "to turn",
+     "de": "abbiegen"
+    },
+    {
+     "w": "seguir derecho",
+     "en": "to keep going straight",
+     "de": "geradeaus weitergehen"
+    },
+    {
+     "w": "bajar",
+     "en": "to get off / go down",
+     "de": "aussteigen / hinuntergehen"
+    },
+    {
+     "w": "el chofer",
+     "en": "driver",
+     "de": "der Fahrer"
+    }
+   ],
+   "grammar": "Imperative with tú (friends, people your age): for most verbs, use the él form of the present: camina, cruza, toma, baja, dobla, sigue. A few are irregular: sal (salir), ven, ten, haz. Put pronouns after the verb: “pregúntale al chofer.” Example: “Cruza la avenida y toma el camión.” With strangers or older people, use usted instead: cruce, tome.",
+   "grammar_de": "Imperativ mit tú (Freunde, Gleichaltrige): Bei den meisten Verben nimmst du die él-Form des Präsens: camina, cruza, toma, baja, dobla, sigue. Einige sind unregelmäßig: sal (salir), ven, ten, haz. Pronomen hängen hinten am Verb: „pregúntale al chofer.“ Beispiel: „Cruza la avenida y toma el camión.“ Bei Fremden oder älteren Personen verwendest du usted: cruce, tome.",
+   "questions": [
+    "¿Cómo se llama el autobús en tu país? ¿Y en México?",
+    "¿Y tú? ¿Prefieres caminar o tomar el autobús en tu ciudad? ¿Por qué?",
+    "Explica cómo llegar de tu casa a una tienda cercana con tres instrucciones."
+   ],
+   "sources": []
+  },
+  {
+   "lang": "es",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Día a día",
+   "title": "Medellín: cuando el transporte público es un cable",
+   "dek": "En Medellín, las cabinas del Metrocable conectan los barrios de las montañas con el metro.",
+   "tags": [
+    "Medellín",
+    "transporte público",
+    "superlativos"
+   ],
+   "paragraphs": [
+    "Si piensas en transporte público, probablemente imaginas autobuses, trenes o metro. En Medellín, Colombia, también hay cabinas que suben por la montaña. No son solo una atracción turística: muchas personas las usan para ir al trabajo, a la escuela o al médico. La ciudad está en un valle, y muchos barrios están en las laderas, bastante arriba del centro.",
+    "El metro de Medellín empezó a funcionar en 1995. En 2004 abrió la Línea K del Metrocable, la primera línea de cabinas de la ciudad. Empieza en la estación Acevedo, donde se puede cambiar del metro al cable, y sube hacia barrios de las comunas 1 y 2. Tiene cuatro estaciones: Acevedo, Andalucía, Popular y Santo Domingo.",
+    "Para las personas que viven en las zonas altas, el cable cambió la rutina diaria. Antes, el viaje hasta el centro podía ser muy largo, porque había que subir y bajar por calles empinadas. Hoy el trayecto es más rápido y más cómodo, y el cable forma parte del mismo sistema de transporte que el metro. Para quien trabaja lejos de casa, esa diferencia es enorme.",
+    "Con el tiempo, la ciudad construyó más líneas. Una de ellas, la Línea L, llega hasta el Parque Arví, una zona natural cerca de Medellín. Por esa línea se paga una tarifa adicional, pero es una buena opción para pasar un día fuera de la ciudad. Desde las cabinas se ven los techos de las casas, las calles y las montañas verdes. Un viaje en cable es también una pequeña lección de geografía.",
+    "Si algún día visitas Medellín, es útil saber algunas cosas. La Línea K es la más antigua del Metrocable, pero no es la única que vale la pena. Si quieres ver la ciudad desde arriba, elige un día con buen clima. También es mejor evitar la hora pico, cuando las cabinas están más llenas y el viaje es menos tranquilo. Y recuerda que el cable no es un paseo especial: es el transporte normal de muchas familias, así que hay que ser amable y dar el asiento si alguien lo necesita.",
+    "Dato curioso: a las personas de Medellín y de la región de Antioquia muchas veces se les llama «paisas»."
+   ],
+   "paragraphs_en": [
+    "If you think of public transport, you probably imagine buses, trains or a metro. In Medellín, Colombia, there are also cabins that go up the mountain. They are not just a tourist attraction: many people use them to go to work, to school or to the doctor. The city lies in a valley, and many neighborhoods are on the hillsides, quite high above the center.",
+    "The Medellín metro started running in 1995. In 2004 Line K of the Metrocable opened, the city's first cable-car line. It starts at the Acevedo station, where you can change from the metro to the cable, and goes up to neighborhoods in comunas 1 and 2. It has four stations: Acevedo, Andalucía, Popular and Santo Domingo.",
+    "For people who live in the upper areas, the cable changed daily life. Before, the trip to the center could be very long, because you had to go up and down steep streets. Today the trip is faster and more comfortable, and the cable is part of the same transport system as the metro. For someone who works far from home, that difference is huge.",
+    "Over time, the city built more lines. One of them, Line L, goes up to Parque Arví, a natural area near Medellín. On that line you pay an extra fare, but it is a good option for spending a day outside the city. From the cabins you can see the roofs of the houses, the streets and the green mountains. A cable ride is also a small geography lesson.",
+    "If you ever visit Medellín, it helps to know a few things. Line K is the oldest of the Metrocable, but it is not the only one worth it. If you want to see the city from above, choose a day with good weather. It is also better to avoid rush hour, when the cabins are fuller and the ride is less relaxing. And remember that the cable is not a special ride: it is the normal transport of many families, so be kind and give up your seat if someone needs it.",
+    "Fun fact: people from Medellín and the Antioquia region are often called “paisas”."
+   ],
+   "paragraphs_de": [
+    "Wenn du an öffentlichen Nahverkehr denkst, stellst du dir wahrscheinlich Busse, Züge oder eine U-Bahn vor. In Medellín in Kolumbien gibt es auch Kabinen, die den Berg hinauffahren. Sie sind nicht nur eine Touristenattraktion: Viele Menschen nutzen sie, um zur Arbeit, zur Schule oder zum Arzt zu fahren. Die Stadt liegt in einem Tal, und viele Viertel liegen an den Hängen, ziemlich weit oberhalb des Zentrums.",
+    "Die Metro von Medellín nahm 1995 den Betrieb auf. 2004 wurde die Linie K des Metrocable eröffnet, die erste Seilbahnlinie der Stadt. Sie beginnt an der Station Acevedo, wo man von der Metro in die Seilbahn umsteigen kann, und fährt hinauf zu Vierteln der Comunas 1 und 2. Sie hat vier Stationen: Acevedo, Andalucía, Popular und Santo Domingo.",
+    "Für Menschen, die in den höheren Gegenden wohnen, hat die Seilbahn den Alltag verändert. Früher konnte die Fahrt ins Zentrum sehr lang sein, weil man steile Straßen hinauf- und hinunterfahren musste. Heute ist die Fahrt schneller und bequemer, und die Seilbahn gehört zum selben Verkehrssystem wie die Metro. Für jemanden, der weit von zu Hause arbeitet, ist dieser Unterschied riesig.",
+    "Mit der Zeit baute die Stadt weitere Linien. Eine davon, die Linie L, fährt bis zum Parque Arví, einem Naturgebiet nahe Medellín. Auf dieser Linie zahlt man einen Aufpreis, aber sie ist eine gute Möglichkeit, einen Tag außerhalb der Stadt zu verbringen. Aus den Kabinen sieht man die Dächer der Häuser, die Straßen und die grünen Berge. Eine Seilbahnfahrt ist auch eine kleine Geografiestunde.",
+    "Wenn du Medellín eines Tages besuchst, ist es nützlich, einiges zu wissen. Die Linie K ist die älteste des Metrocable, aber nicht die einzige, die sich lohnt. Wenn du die Stadt von oben sehen willst, such dir einen Tag mit gutem Wetter aus. Es ist auch besser, die Hauptverkehrszeit zu meiden, wenn die Kabinen voller sind und die Fahrt weniger entspannt ist. Und denk daran: Die Seilbahn ist keine Sonderfahrt, sondern das normale Verkehrsmittel vieler Familien. Sei also freundlich und biete deinen Platz an, wenn jemand ihn braucht.",
+    "Kurioses: Menschen aus Medellín und der Region Antioquia werden oft „paisas“ genannt."
+   ],
+   "glossary": [
+    {
+     "w": "la ladera",
+     "en": "hillside, slope",
+     "de": "der Hang"
+    },
+    {
+     "w": "la cabina",
+     "en": "cable-car cabin",
+     "de": "die Kabine"
+    },
+    {
+     "w": "empinado/a",
+     "en": "steep",
+     "de": "steil"
+    },
+    {
+     "w": "el barrio",
+     "en": "neighborhood",
+     "de": "das Viertel"
+    },
+    {
+     "w": "el trayecto",
+     "en": "journey, route",
+     "de": "die Strecke"
+    },
+    {
+     "w": "la tarifa",
+     "en": "fare, price",
+     "de": "der Fahrpreis"
+    },
+    {
+     "w": "adicional",
+     "en": "extra, additional",
+     "de": "zusätzlich"
+    },
+    {
+     "w": "la hora pico",
+     "en": "rush hour",
+     "de": "die Hauptverkehrszeit"
+    },
+    {
+     "w": "cambiar de",
+     "en": "to change (to another line)",
+     "de": "umsteigen"
+    },
+    {
+     "w": "valer la pena",
+     "en": "to be worth it",
+     "de": "sich lohnen"
+    }
+   ],
+   "grammar": "Superlatives (B1): to say “the most…” use el/la/los/las + más + adjective, then de for the group: “La Línea K es la más antigua del Metrocable.” Use menos for “the least”. Bueno and malo have special forms: el mejor, el peor (“la mejor opción”). Remember: after a superlative, Spanish says de, not en.",
+   "grammar_de": "Superlativ (B1): Für „am …“ nimmst du el/la/los/las + más + Adjektiv und danach de für die Gruppe: „La Línea K es la más antigua del Metrocable.“ Für „am wenigsten“ gilt menos. Bueno und malo haben eigene Formen: el mejor, el peor („la mejor opción“). Merke: Nach einem Superlativ steht im Spanischen de, nicht en.",
+   "questions": [
+    "¿Qué diferencia hay entre el metro y el Metrocable en Medellín?",
+    "¿Por qué el cable es importante para las personas que viven en las zonas altas?",
+    "¿Y tú? ¿Cuál es el transporte más útil de tu ciudad? ¿Por qué?"
+   ],
+   "sources": [
+    {
+     "title": "Metrocable (Medellín)",
+     "url": "https://en.wikipedia.org/wiki/Metrocable_(Medell%C3%ADn)",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   }
  ]
 }
