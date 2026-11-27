@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-26T18:54:23+00:00",
+ "updated": "2026-11-27T05:24:55+00:00",
  "days": [
+  {
+   "date": "2026-11-27",
+   "items": [
+    {
+     "i": 0,
+     "lang": "en",
+     "title": "The Shipping Forecast: a weather report that sounds like a poem",
+     "kind": "feature",
+     "level": "B1",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-26",
    "items": [

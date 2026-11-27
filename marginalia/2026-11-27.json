@@ -1,0 +1,101 @@
+{
+ "date": "2026-11-27",
+ "createdBy": "claude",
+ "items": [
+  {
+   "lang": "en",
+   "level": "B1",
+   "kind": "feature",
+   "section": "Magazine",
+   "title": "The Shipping Forecast: a weather report that sounds like a poem",
+   "dek": "Every night on BBC radio, a calm voice reads the names of sea areas. Behind it are a storm, a determined forecaster and more than 160 years of careful words.",
+   "paragraphs": [
+    "Have you ever listened to a weather report that sounded like a poem? Every night, on BBC Radio 4, a calm voice reads a list of strange names: Dogger, Fisher, German Bight, Viking, Fastnet, Malin. This is the Shipping Forecast. It was made for sailors, but it has never been only for them. Many people on land know it well, and some have never been on a boat in their lives.",
+    "The story begins with a disaster. In October 1859, a terrible storm hit Britain. A steam ship called the Royal Charter was wrecked off the coast of Anglesey, and around 450 people died. Robert FitzRoy, the man who started the Meteorological Office, believed that warnings could save lives. The government let him set up a gale warning service, and the first warning was sent in February 1861.",
+    "Radio came later. On 1 January 1924, a weather bulletin for ships was sent in Morse code from a station in London. By July 1925 the BBC was reading a spoken forecast, and the voice has hardly stopped since. Today the Met Office writes the forecast for the Maritime and Coastguard Agency, and the BBC broadcasts it. The sea around the British Isles is divided into 31 areas, and the reader moves clockwise from one to the next.",
+    "Each forecast follows the same order: first any gale warnings, then a general synopsis, which is a short picture of the weather over the whole region, and then a forecast for each area. The text is kept short, at about 350 words, so every word has to work hard. Time words have fixed meanings, too. \"Imminent\" means within six hours, \"soon\" means six to twelve hours, and \"later\" means twelve to twenty-four hours. Visibility is \"good\" only when you can see more than five nautical miles.",
+    "The names come from many places. Some are fishing banks, such as Dogger and Fisher. Some are rivers, such as the Tyne and the Thames, and Fastnet is named after a rock. The map has changed over the years: two Utsire areas were added in 1984. One area was called Finisterre until 2002, when it was renamed FitzRoy in recognition of the man who started it all.",
+    "Then there is the music. The tune \"Sailing By\", by Ronald Binge, has become part of the Shipping Forecast, yet it was written as \"stock music\" and first used for a programme about hot air balloons. Songwriters have mentioned the forecast in their work, and the BBC has even made a \"sleeping forecast\" inspired by it. Maybe the secret is simple: a list of far-away places, read slowly, is a good way to feel calm. And you? Is there a sound or a voice that helps you relax?"
+   ],
+   "paragraphs_zh": [
+    "你有没有听过像诗一样的天气预报？每天夜里，在 BBC 第四广播电台，一个平静的声音会念出一串奇怪的名字：多格、费舍尔、德意志湾、维京、法斯特内特、马林。这就是“航运预报”（Shipping Forecast）。它是为水手而做的，但从来不只属于水手。很多陆地上的人都很熟悉它，有些人一辈子都没坐过船。",
+    "故事从一场灾难开始。1859 年 10 月，一场可怕的风暴袭击了英国。一艘名叫“皇家宪章号”（Royal Charter）的蒸汽船在安格尔西岛海岸沉没，大约 450 人遇难。罗伯特·菲茨罗伊是气象局的创办人，他相信预警可以挽救生命。政府让他建立了大风预警服务，第一次预警在 1861 年 2 月发出。",
+    "广播是后来的事。1924 年 1 月 1 日，一份给船只的天气通报用莫尔斯电码从伦敦的一个电台发出。到 1925 年 7 月，BBC 已经在播送口语预报，此后这个声音几乎没有停过。今天，预报由英国气象局为海事与海岸警卫署撰写，由 BBC 播出。英伦诸岛周围的海域被分成 31 个区域，播报员按顺时针方向一个接一个地念下去。",
+    "每次预报的顺序都一样：先是大风警告，然后是“总体概况”，也就是整个区域天气的简要图景，最后是每个区域的预报。文字很短，大约 350 个词，所以每个词都要发挥作用。时间词也有固定的意思：“imminent”指 6 小时内，“soon”指 6 到 12 小时，“later”指 12 到 24 小时。只有当你能看到 5 海里以上时，能见度才算“good”。",
+    "这些名字来自很多地方。有些是渔场浅滩，比如多格和费舍尔；有些是河流，比如泰恩河和泰晤士河；法斯特内特则以一块礁石命名。这张地图多年来也有变化：1984 年增加了两个乌茨尔区。有一个区域直到 2002 年都叫菲尼斯特雷，后来改名为“菲茨罗伊”，以纪念开创这一切的人。",
+    "还有音乐。罗纳德·宾奇（Ronald Binge）创作的曲子《Sailing By》已经成了航运预报的一部分，但它最初是作为“库存音乐”写的，最早用于一档关于热气球的节目。词曲作者在作品中提到过这个预报，BBC 甚至还受它启发做了“睡眠预报”。也许秘密很简单：用缓慢的声音念出一串遥远的地名，是让人平静下来的好办法。你呢？有没有哪种声音或哪个人的声音能帮你放松？"
+   ],
+   "glossary": [
+    {
+     "w": "gale",
+     "en": "a very strong wind",
+     "zh": "大风；强风"
+    },
+    {
+     "w": "wrecked",
+     "en": "badly damaged or destroyed at sea or on rocks",
+     "zh": "(船)失事，遇难"
+    },
+    {
+     "w": "warning",
+     "en": "something that tells you danger is coming",
+     "zh": "警告；预警"
+    },
+    {
+     "w": "clockwise",
+     "en": "in the same direction as the hands of a clock",
+     "zh": "顺时针方向"
+    },
+    {
+     "w": "synopsis",
+     "en": "a short summary of the main points",
+     "zh": "概要；概况"
+    },
+    {
+     "w": "imminent",
+     "en": "going to happen very soon",
+     "zh": "即将发生的"
+    },
+    {
+     "w": "visibility",
+     "en": "how far you can see",
+     "zh": "能见度"
+    },
+    {
+     "w": "bank",
+     "en": "a raised area of sand or earth under the sea or beside a river",
+     "zh": "浅滩；河岸"
+    },
+    {
+     "w": "in recognition of",
+     "en": "to show respect for someone's work",
+     "zh": "以表彰／纪念……"
+    },
+    {
+     "w": "on behalf of",
+     "en": "acting for someone else",
+     "zh": "代表……"
+    }
+   ],
+   "grammar": "We use the present perfect (have/has + past participle) to talk about experience up to now, with ever and never, and for results that still matter. In the text: \"Have you ever listened to a weather report that sounded like a poem?\" and \"it has never been only for them\". The BBC \"has even made\" a sleeping forecast: the action is finished, but it is still true today. We use the past simple when we give a clear date: \"The Royal Charter was wrecked in 1859.\"",
+   "grammar_zh": "现在完成时（have/has + 过去分词）用来说“到现在为止的经历”，常和 ever、never 连用，也用来说对现在仍有影响的结果。文中：“Have you ever listened to…?”（你有没有听过……？）和 “it has never been only for them”（它从来不只属于他们）。“The BBC has even made a sleeping forecast”：动作已经完成，但现在依然有效。如果说出了明确的过去时间，就要用一般过去时，如 “The Royal Charter was wrecked in 1859.”。与中文不同，英语里“有没有……过”要用 have + 过去分词，而不是靠“过”字。",
+   "questions": [
+    "Why did Robert FitzRoy want a gale warning service?",
+    "Why do you think people on land like to listen to the Shipping Forecast?",
+    "And you? Is there a sound or a voice that helps you relax?"
+   ],
+   "sources": [
+    {
+     "title": "Tragedy and warnings: the origins of the Shipping Forecast – Met Office",
+     "url": "https://www.metoffice.gov.uk/about-us/who-we-are/our-history/tragedy-and-warnings-the-origins-of-the-shipping-forecast",
+     "license": "link only"
+    },
+    {
+     "title": "Shipping Forecast – Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Shipping_Forecast",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
+  }
+ ]
+}
