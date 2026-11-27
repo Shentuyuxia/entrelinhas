@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:44:27+00:00",
+ "updated": "2026-11-27T18:54:25+00:00",
  "days": [
   {
    "date": "2026-11-27",
@@ -34,6 +34,14 @@
      "title": "Medellín: cuando el transporte público es un cable",
      "kind": "feature",
      "level": "B1",
+     "hour": null
+    },
+    {
+     "i": 4,
+     "lang": "pt",
+     "title": "Quem bate na porta?",
+     "kind": "story",
+     "level": "A1",
      "hour": null
     }
    ]

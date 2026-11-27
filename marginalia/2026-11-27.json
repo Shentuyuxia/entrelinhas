@@ -413,6 +413,110 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "pt",
+   "level": "A1",
+   "kind": "story",
+   "section": "Diário",
+   "series": {
+    "name": "O diário da Ana",
+    "episode": 15
+   },
+   "title": "Quem bate na porta?",
+   "dek": "Sexta-feira: uma visita na casa amarela, um dia de vacina e um gato laranja num lugar muito estranho.",
+   "tags": [
+    "sexta-feira",
+    "perguntas",
+    "ser / estar",
+    "veterinária"
+   ],
+   "paragraphs": [
+    "Sexta-feira, 27 de novembro de 2026. Querido diário, hoje é sexta-feira. Às seis e meia da tarde, alguém bate na porta da casa amarela. Quem é?",
+    "É a Clara, a minha colega da aula. Ela é veterinária. — Oi, Ana! Onde está o Tito? Hoje é dia de vacina! — Quando? — Agora!",
+    "Eu procuro o Tito. No sofá? Não. Debaixo da cama? Não. No jardim? Também não. O Tito é pequeno, mas não é bobo: ele sabe quem é a Clara!",
+    "— Ana, o que tem no armário? — Os pães do Seu João. E… um rabo laranja! O Tito está no armário, entre os pães.",
+    "A vacina é muito rápida. — Que gato corajoso! — fala a Clara. Ela dá um petisco para ele. Quantos petiscos ele come? Três!",
+    "Às oito da noite, a Clara e eu comemos pão no sofá. O Tito está tranquilo, com a gente. Amanhã é sábado, dia 28. Boa noite, diário. Boa noite, Tito, meu paciente corajoso."
+   ],
+   "paragraphs_en": [
+    "Friday, 27 November 2026. Dear diary, today is Friday. At half past six in the evening, someone knocks on the door of the yellow house. Who is it?",
+    "It's Clara, my classmate. She is a vet. \"Hi, Ana! Where is Tito? Today is vaccine day!\" \"When?\" \"Now!\"",
+    "I look for Tito. On the sofa? No. Under the bed? No. In the garden? No, not there either. Tito is small, but he isn't silly: he knows who Clara is!",
+    "\"Ana, what's in the cupboard?\" \"Seu João's bread rolls. And… an orange tail!\" Tito is in the cupboard, between the rolls.",
+    "The vaccine is very quick. \"What a brave cat!\" says Clara. She gives him a treat. How many treats does he eat? Three!",
+    "At eight in the evening, Clara and I eat bread on the sofa. Tito is calm, here with us. Tomorrow is Saturday, the 28th. Good night, diary. Good night, Tito, my brave patient."
+   ],
+   "paragraphs_zh": [
+    "2026年11月27日，星期五。亲爱的日记，今天是星期五。傍晚六点半，有人敲黄房子的门。是谁呢？",
+    "是克拉拉，我的同学。她是兽医。“嗨，安娜！蒂托在哪儿？今天要打疫苗！”“什么时候？”“现在！”",
+    "我找蒂托。在沙发上？不在。在床底下？不在。在花园里？也不在。蒂托个子小，可是不傻：他知道克拉拉是谁！",
+    "“安娜，柜子里有什么？”“若昂先生的面包。还有……一条橙色的尾巴！”蒂托在柜子里，在面包中间。",
+    "打疫苗很快。“真是一只勇敢的猫！”克拉拉说。她给他一块零食。他吃了几块？三块！",
+    "晚上八点，克拉拉和我在沙发上吃面包。蒂托很安静，和我们在一起。明天是星期六，28号。晚安，日记。晚安，蒂托，我勇敢的小病人。"
+   ],
+   "paragraphs_de": [
+    "Freitag, 27. November 2026. Liebes Tagebuch, heute ist Freitag. Um halb sieben abends klopft jemand an die Tür des gelben Hauses. Wer ist das?",
+    "Es ist Clara, meine Kommilitonin. Sie ist Tierärztin. „Hallo, Ana! Wo ist Tito? Heute ist Impftag!“ „Wann?“ „Jetzt!“",
+    "Ich suche Tito. Auf dem Sofa? Nein. Unter dem Bett? Nein. Im Garten? Auch nicht. Tito ist klein, aber nicht dumm: Er weiß, wer Clara ist!",
+    "„Ana, was ist im Schrank?“ „Die Brötchen von Seu João. Und … ein oranger Schwanz!“ Tito ist im Schrank, zwischen den Brötchen.",
+    "Die Impfung geht ganz schnell. „Was für ein mutiger Kater!“, sagt Clara. Sie gibt ihm ein Leckerli. Wie viele Leckerlis frisst er? Drei!",
+    "Um acht Uhr abends essen Clara und ich Brot auf dem Sofa. Tito ist ruhig, bei uns. Morgen ist Samstag, der 28. Gute Nacht, Tagebuch. Gute Nacht, Tito, mein mutiger Patient."
+   ],
+   "glossary": [
+    {
+     "w": "a vacina",
+     "en": "vaccine, jab",
+     "zh": "疫苗",
+     "de": "die Impfung",
+     "pt": "Remédio pequeno, com agulha, para não ficar doente."
+    },
+    {
+     "w": "o armário",
+     "en": "cupboard, wardrobe",
+     "zh": "柜子；橱柜",
+     "de": "der Schrank",
+     "pt": "Móvel com porta, para guardar pão, pratos ou roupa."
+    },
+    {
+     "w": "o rabo",
+     "en": "tail (of an animal)",
+     "zh": "尾巴",
+     "de": "der Schwanz",
+     "pt": "A parte de trás do gato ou do cachorro: o Bolinha balança o rabo."
+    },
+    {
+     "w": "o petisco",
+     "en": "treat, snack",
+     "zh": "零食；小点心",
+     "de": "das Leckerli, der Snack",
+     "pt": "Uma comida pequena e gostosa: o Tito ganha um petisco."
+    },
+    {
+     "w": "corajoso / corajosa",
+     "en": "brave",
+     "zh": "勇敢的",
+     "de": "mutig",
+     "pt": "Quem não tem medo: o Tito é um gato corajoso."
+    },
+    {
+     "w": "é / está (ser / estar)",
+     "en": "is — ser: who/what someone is; estar: where/how someone is now",
+     "zh": "是——ser 说是谁/是什么；estar 说现在在哪儿/怎么样",
+     "de": "ist — ser: wer/was jemand ist; estar: wo/wie jemand gerade ist",
+     "pt": "A Clara é veterinária (quem ela é). O Tito está no armário (onde ele está agora)."
+    }
+   ],
+   "grammar": "Quem asks about a person, o que about a thing: Quem é? — É a Clara. O que tem no armário? — Os pães. Quantos agrees with the noun: Quantos petiscos? (o petisco) — Três! Prévia: next you will learn ser vs estar — notice \"Ela é veterinária\" (who she is) but \"O Tito está no armário\" (where he is right now).",
+   "grammar_zh": "Quem 问人，o que 问东西：Quem é?（是谁？）—— É a Clara.（是克拉拉。）O que tem no armário?（柜子里有什么？）—— Os pães.（面包。）Quantos 要和名词一致：Quantos petiscos?（几块零食？o petisco 是阳性）—— Três!（三块！）预告：接下来你会学 ser 和 estar —— 注意 “Ela é veterinária”（她是兽医：她是谁），但 “O Tito está no armário”（蒂托现在在柜子里：他在哪儿）。",
+   "grammar_de": "Quem fragt nach einer Person, o que nach einer Sache: Quem é? (Wer ist das?) — É a Clara. O que tem no armário? (Was ist im Schrank?) — Os pães. Quantos richtet sich nach dem Nomen: Quantos petiscos? (o petisco) — Três! Vorschau: Als Nächstes lernst du ser und estar – achte auf „Ela é veterinária“ (wer sie ist), aber „O Tito está no armário“ (wo er gerade ist).",
+   "grammar_pt": "Quem pergunta sobre uma pessoa, o que sobre uma coisa: Quem é? — É a Clara. O que tem no armário? — Os pães. Quantos combina com a palavra: Quantos petiscos? — Três! Prévia: depois você vai aprender ser e estar — veja \"Ela é veterinária\" (quem ela é) e \"O Tito está no armário\" (onde ele está agora).",
+   "questions": [
+    "Quem bate na porta? Qual é a profissão dela?",
+    "Onde está o Tito? Quantos petiscos ele come?",
+    "E você? Quem visita a sua casa? O que tem no seu armário?"
+   ],
+   "sources": []
   }
  ]
 }
