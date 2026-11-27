@@ -96,6 +96,103 @@
      "license": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "lang": "de",
+   "level": "B2",
+   "kind": "dialogue",
+   "section": "Alltagsdeutsch",
+   "title": "Zehn Euro und kein Alpaka – Wichteln im Büro",
+   "dek": "Leyla organisiert das Wichteln in der Abteilung. Tobi hat da so seine Erfahrungen.",
+   "tags": [
+    "Büro",
+    "Advent",
+    "Wichteln",
+    "verschmolzene Formen"
+   ],
+   "paragraphs": [
+    "Leyla: Tobi, haste kurz 'ne Minute? Ich organisier dieses Jahr das Wichteln.",
+    "Tobi: Oh nee, nicht schon wieder. Letztes Jahr hab ich 'nen Kalender mit Alpakas gekriegt.",
+    "Leyla: Na und? Alpakas sind doch süß.",
+    "Tobi: Ja, schon. Aber es war der Kalender vom Vorjahr.",
+    "Leyla: Okay, das ist natürlich bitter. Deswegen gibt's diesmal Regeln: maximal zehn Euro und nichts Gebrauchtes.",
+    "Tobi: Zehn Euro? Dafür kriegste ja heute kaum noch 'nen Glühwein.",
+    "Leyla: Jetzt übertreib mal nicht. Man kann ja auch was selber machen, Plätzchen oder so.",
+    "Tobi: Ich und backen? Da brennt mir doch die Küche ab.",
+    "Leyla: Dann kaufste halt Schokolade. Hauptsache, es kommt von Herzen.",
+    "Tobi: Na gut, ich bin dabei. Wann wird gezogen?",
+    "Leyla: Morgen in der Mittagspause. Und wehe, du verrätst irgendwem, wen du hast!",
+    "Tobi: Ehrenwort. Ich schweig wie ein Grab.",
+    "Leyla: Das sagste jedes Jahr, und am Ende weiß die ganze Abteilung Bescheid.",
+    "Tobi: Ach komm, das war ein einziges Mal. Und da war Glühwein im Spiel.",
+    "Leyla: Genau das mein ich. Diesmal also: Klappe halten und Augen auf beim Schenken.",
+    "Tobi: Alles klar, Chefin. Passt schon."
+   ],
+   "glossary": [
+    {
+     "w": "wichteln",
+     "de": "In einer Gruppe zieht jede Person heimlich einen Namen und macht dieser Person ein kleines Geschenk, meist im Advent.",
+     "zh": "（圣诞前）抽签互送小礼物，“秘密圣诞老人”"
+    },
+    {
+     "w": "kriegen",
+     "de": "umgangssprachlich für „bekommen“. Achtung: hat nichts mit „Krieg“ zu tun.",
+     "zh": "得到，收到（口语）"
+    },
+    {
+     "w": "das ist bitter",
+     "de": "umgangssprachlich: Das ist sehr schade, richtig ärgerlich. Hier nicht der Geschmack!",
+     "zh": "真惨，太倒霉了（口语，非指味道苦）"
+    },
+    {
+     "w": "übertreib mal nicht",
+     "de": "Mach es nicht schlimmer, als es ist. Standard: „Übertreib bitte nicht.“",
+     "zh": "别夸张了"
+    },
+    {
+     "w": "Hauptsache, …",
+     "de": "Das Wichtigste ist, dass … Steht oft am Satzanfang ohne Verb davor.",
+     "zh": "最重要的是……"
+    },
+    {
+     "w": "wehe, du …!",
+     "de": "Warnung, halb im Spaß: Mach das bloß nicht, sonst gibt es Ärger.",
+     "zh": "你敢……试试！（警告）"
+    },
+    {
+     "w": "schweigen wie ein Grab",
+     "de": "Redewendung: ein Geheimnis ganz sicher für sich behalten.",
+     "zh": "守口如瓶"
+    },
+    {
+     "w": "im Spiel sein",
+     "de": "Redewendung: (heimlich) beteiligt sein, eine Rolle spielen, z. B. „Da war Alkohol im Spiel.“",
+     "zh": "有……的因素在里面，牵涉其中"
+    },
+    {
+     "w": "Bescheid wissen",
+     "de": "informiert sein, etwas schon wissen.",
+     "zh": "知道，知情"
+    },
+    {
+     "w": "die Klappe halten",
+     "de": "salopp für „nichts sagen, still sein“. Unter Freunden okay, sonst eher unhöflich.",
+     "zh": "闭嘴（粗俗口语）"
+    },
+    {
+     "w": "passt schon",
+     "de": "umgangssprachlich, besonders im Süden: Ist in Ordnung, kein Problem.",
+     "zh": "没问题，行了"
+    }
+   ],
+   "grammar": "Spoken German often fuses the pronoun du onto the verb: hast du becomes haste, kriegst du becomes kriegste, kaufst du kaufste, sagst du sagste. The -st ending swallows the d of du, leaving only a weak -e. The same happens with gibt es → gibt's and ein → 'n ('nen, 'ne). Use these forms in chat and casual speech, but write the full forms in emails and formal texts.",
+   "grammar_zh": "德语口语常把代词 du 和动词连读成一个词：hast du → haste，kriegst du → kriegste，kaufst du → kaufste，sagst du → sagste。动词词尾 -st 吞掉了 du 的 d，只剩一个轻读的 -e。类似的还有 gibt es → gibt's，ein → 'n（'nen, 'ne）。聊天和随意说话时可以用，正式邮件和书面语要写完整形式。",
+   "questions": [
+    "Gibt es bei dir im Job oder im Freundeskreis so etwas wie Wichteln? Wie läuft das ab?",
+    "Was war das seltsamste Geschenk, das du je bekommen hast?",
+    "Selbst gemacht oder gekauft: Was verschenkst du lieber, und warum?"
+   ],
+   "sources": []
   }
  ]
 }
