@@ -1,6 +1,19 @@
 {
- "updated": "2026-11-27T18:54:25+00:00",
+ "updated": "2026-11-28T15:50:51+00:00",
  "days": [
+  {
+   "date": "2026-11-28",
+   "items": [
+    {
+     "i": 0,
+     "lang": "fr",
+     "title": "Boncana Maïga, la salsa qui a traversé l'Atlantique dans l'autre sens",
+     "kind": "feature",
+     "level": "B2",
+     "hour": null
+    }
+   ]
+  },
   {
    "date": "2026-11-27",
    "items": [
